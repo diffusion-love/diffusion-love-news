@@ -1,11 +1,12 @@
 {
+ "evolution_summary": "Адаптирован из исследования LumiVid для реконструкции по одному изображению; проект расширился до поддержки крупномасштабных моделей DiT. Сейчас доступны готовые к продакшену LoRA для Qwen-Image-Edit-2511 и экспериментальная поддержка более быстрой архитектуры FLUX.2-klein.",
  "id": "n-eb367fb3e1",
  "lang": "ru",
- "model": "legacy-web-overlay",
- "research_notes": "Генерирует scene-linear EXR-файлы, совместимые с Nuke и DaVinci Resolve; интегрируется в ComfyUI через набор нод ComfyUI_Gear.",
- "source_sha256": "legacy",
- "summary": "LumiPic — опенсорсный инструмент, преобразующий изображения Standard Dynamic Range (SDR) в 16-битные HDR-файлы EXR с помощью диффузионных трансформеров. Использует диффузию с кодировкой LogC3 для восстановления утраченных деталей в светах и тенях для профессиональных VFX-пайплайнов.",
- "title": "LumiPic: диффузионное преобразование изображений SDR-в-HDR",
- "translated_at": null,
+ "model": "claude-haiku-5-5",
+ "research_notes": "Генерирует EXR-файлы в scene-linear, совместимые с Nuke и DaVinci Resolve; интегрирован в ComfyUI через набор узлов ComfyUI_Gear.",
+ "source_sha256": "146f3e2f6fe8d034746f02a6281d8089471c641fa4319b188b9fd05ec3a8783b",
+ "summary": "LumiPic — открытый инструмент, который преобразует изображения Standard Dynamic Range (SDR) в 16-битные файлы High Dynamic Range (HDR) EXR с помощью диффузионных трансформеров. Он использует диффузию в кодировке LogC3, чтобы восстанавливать утраченные детали светов и теней для профессиональных VFX-конвейеров.",
+ "title": "LumiPic: диффузионное преобразование изображений SDR в HDR",
+ "translated_at": "2026-11-13",
  "translation": "machine"
 }

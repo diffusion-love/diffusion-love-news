@@ -1,11 +1,12 @@
 {
+ "evolution_summary": "Из исследовательской модели Phi-Ground-4B-7C превратился в официальный проект Microsoft, интегрированный в функцию «Vision Highlighting» Windows Copilot. В текущей версии «Any» улучшена устойчивость к экранам 4K и взаимодействию с UI высокого разрешения.",
  "id": "n-ec7e719b88",
  "lang": "ru",
- "model": "legacy-web-overlay",
- "research_notes": "Несмотря на компактный размер, превосходит OpenAI Operator и Claude Computer Use по точности кликов в GUI-бенчмарках.",
- "source_sha256": "legacy",
- "summary": "Визуально-языковая модель на 4B параметров, специализированная на GUI-grounding для точной локализации элементов экрана. Позволяет AI-агентам взаимодействовать со сложными интерфейсами при разных разрешениях и соотношениях сторон.",
- "title": "Phi-Ground-Any: мультимодальная модель GUI-grounding от Microsoft",
- "translated_at": null,
+ "model": "claude-haiku-5-5",
+ "research_notes": "Превосходит OpenAI Operator и Claude Computer Use по точности кликов в GUI на бенчмарках, несмотря на компактный размер.",
+ "source_sha256": "f1fca6964afbd0f76ded858e9fa8a564b021b9dde3f7312ac00e519fed7b2f9a",
+ "summary": "Визуально-языковая модель на 4B параметров, специализирующаяся на GUI grounding для точной локализации элементов экрана. Она позволяет ИИ-агентам взаимодействовать со сложными интерфейсами при разных разрешениях и соотношениях сторон.",
+ "title": "Phi-Ground-Any: мультимодальная модель GUI grounding от Microsoft",
+ "translated_at": "2026-11-13",
  "translation": "machine"
 }

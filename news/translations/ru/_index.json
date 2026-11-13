@@ -25,14 +25,14 @@
   "translated_at": "2026-10-24"
  },
  "n-019c913613": {
-  "fresh": false,
+  "fresh": true,
   "title": "Qwen3.6-27B-3bit-mlx",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-01b786ce9f": {
-  "fresh": false,
-  "title": "AlayaRenderer: генеративный world-рендерер для AAA-игр",
-  "translated_at": null
+  "fresh": true,
+  "title": "AlayaRenderer: генеративный рендерер мира для AAA-игр",
+  "translated_at": "2026-11-13"
  },
  "n-02cbd28ee8": {
   "fresh": true,
@@ -53,6 +53,11 @@
   "fresh": true,
   "title": "Публичный репозиторий Anti-Vocale на GitHub",
   "translated_at": "2026-10-24"
+ },
+ "n-033632d8e0": {
+  "fresh": true,
+  "title": "Kimi K3 связан с Kimi Code",
+  "translated_at": "2026-11-13"
  },
  "n-038f2eebc4": {
   "fresh": true,
@@ -78,6 +83,11 @@
   "fresh": true,
   "title": "Qwen3.6-35B-A3B: мультимодальная разреженная MoE-модель от Alibaba",
   "translated_at": "2026-10-24"
+ },
+ "n-046d02af9f": {
+  "fresh": true,
+  "title": "Ноды TensorRT VAE для воркфлоу MiniMax-H3 в ComfyUI",
+  "translated_at": "2026-11-13"
  },
  "n-047f61d312": {
   "fresh": true,
@@ -110,9 +120,9 @@
   "translated_at": "2026-10-24"
  },
  "n-0588f1e672": {
-  "fresh": false,
+  "fresh": true,
   "title": "Happy Horse 1.0: унифицированная модель генерации видео",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-05ec9a95a1": {
   "fresh": true,
@@ -135,9 +145,9 @@
   "translated_at": "2026-10-24"
  },
  "n-0646f210ee": {
-  "fresh": false,
-  "title": "Промпт в стиле MS Paint для DALL-E: стилизация фото",
-  "translated_at": null
+  "fresh": true,
+  "title": "Промпт DALL-E в стиле MS Paint для стилизации фотографий",
+  "translated_at": "2026-11-13"
  },
  "n-0663ce9db2": {
   "fresh": true,
@@ -150,9 +160,9 @@
   "translated_at": "2026-10-24"
  },
  "n-0739891476": {
-  "fresh": false,
+  "fresh": true,
   "title": "JoyAI-Image: официальные ноды ComfyUI и модель пространственного редактирования",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-076b3f0be6": {
   "fresh": true,
@@ -170,9 +180,9 @@
   "translated_at": "2026-10-24"
  },
  "n-0841776bd9": {
-  "fresh": false,
+  "fresh": true,
   "title": "Hunyuan3 Preview (Hy3-preview)",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-0852dc1008": {
   "fresh": true,
@@ -185,9 +195,9 @@
   "translated_at": "2026-10-24"
  },
  "n-08ae804484": {
-  "fresh": false,
+  "fresh": true,
   "title": "AP Netflix VOID — ноды ComfyUI для удаления объектов из видео",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-08bc14aa3d": {
   "fresh": true,
@@ -195,9 +205,9 @@
   "translated_at": "2026-10-24"
  },
  "n-08dc2040a6": {
-  "fresh": false,
-  "title": "FlexAvatar: высокоточные 3D-аватары головы через Bias Sinks",
-  "translated_at": null
+  "fresh": true,
+  "title": "FlexAvatar: 3D-аватары головы высокой точности через Bias Sinks",
+  "translated_at": "2026-11-13"
  },
  "n-08fceb7eae": {
   "fresh": true,
@@ -220,9 +230,9 @@
   "translated_at": "2026-10-24"
  },
  "n-09f901429d": {
-  "fresh": false,
-  "title": "Stream-R1: дистилляция видео в реальном времени под управлением reward",
-  "translated_at": null
+  "fresh": true,
+  "title": "Stream-R1: дистилляция видео в реальном времени с управлением по награде",
+  "translated_at": "2026-11-13"
  },
  "n-0a1838ff3d": {
   "fresh": true,
@@ -280,9 +290,9 @@
   "translated_at": "2026-10-24"
  },
  "n-0cf9d026b8": {
-  "fresh": false,
-  "title": "SCAIL-2: студийная анимация персонажей через in-context learning",
-  "translated_at": null
+  "fresh": true,
+  "title": "SCAIL-2: анимация персонажей студийного уровня через in-context learning",
+  "translated_at": "2026-11-13"
  },
  "n-0d7aed5e86": {
   "fresh": true,
@@ -303,6 +313,11 @@
   "fresh": true,
   "title": "MiniMax Music 3 получила публичные точки входа: проект, модель, платформу, демо и ComfyUI",
   "translated_at": "2026-10-24"
+ },
+ "n-0ecaaac1b0": {
+  "fresh": true,
+  "title": "MiniMax H3 Semantic Bridge добавляет адаптер для текстового пути FL2VA в H3",
+  "translated_at": "2026-11-13"
  },
  "n-0f298b0d41": {
   "fresh": true,
@@ -335,9 +350,9 @@
   "translated_at": "2026-10-24"
  },
  "n-110bebc860": {
-  "fresh": false,
-  "title": "Spark 2.0: крупномасштабный веб-движок Gaussian Splatting",
-  "translated_at": null
+  "fresh": true,
+  "title": "Spark 2.0: веб-движок Gaussian Splatting для крупномасштабных сцен",
+  "translated_at": "2026-11-13"
  },
  "n-11ae14ece9": {
   "fresh": true,
@@ -350,9 +365,14 @@
   "translated_at": "2026-10-24"
  },
  "n-129b6b09c0": {
-  "fresh": false,
-  "title": "Qwen3.6-35B: дистилляция рассуждений Claude 4.6 Opus",
-  "translated_at": null
+  "fresh": true,
+  "title": "Qwen3.6-35B: рассуждения, дистиллированные из Claude 4.6 Opus",
+  "translated_at": "2026-11-13"
+ },
+ "n-12dc9deafa": {
+  "fresh": true,
+  "title": "Shanghai AI Lab выпустила открытую агентную модель Sage-A1.5",
+  "translated_at": "2026-11-13"
  },
  "n-13290b7929": {
   "fresh": true,
@@ -395,9 +415,9 @@
   "translated_at": "2026-10-24"
  },
  "n-155ef8c3dc": {
-  "fresh": false,
-  "title": "Any4D: единая feed-forward метрическая 4D-реконструкция",
-  "translated_at": null
+  "fresh": true,
+  "title": "Any4D: унифицированная метрическая 4D-реконструкция прямым проходом",
+  "translated_at": "2026-11-13"
  },
  "n-15f28b9d26": {
   "fresh": true,
@@ -469,6 +489,11 @@
   "title": "JavisDiT: совместный аудиовидео диффузионный трансформер",
   "translated_at": "2026-10-24"
  },
+ "n-183de9a149": {
+  "fresh": true,
+  "title": "Kimi K3.1 Pro выпущена как уточнение после пост-обучения с опцией Highspeed",
+  "translated_at": "2026-11-13"
+ },
  "n-1857cf1c7a": {
   "fresh": true,
   "title": "Официальные ресурсы проекта SeFi-Image были опубликованы по ссылкам",
@@ -515,9 +540,9 @@
   "translated_at": "2026-10-24"
  },
  "n-1985ad3cff": {
-  "fresh": false,
-  "title": "OpenAI Privacy Filter: локальная модель для редактирования PII",
-  "translated_at": null
+  "fresh": true,
+  "title": "OpenAI Privacy Filter: локальная модель редактирования PII",
+  "translated_at": "2026-11-13"
  },
  "n-19adc0c7af": {
   "fresh": true,
@@ -550,14 +575,14 @@
   "translated_at": "2026-10-24"
  },
  "n-1b0490d011": {
-  "fresh": false,
-  "title": "GeoSR: геометрическое пространственное рассуждение для VLM",
-  "translated_at": null
+  "fresh": true,
+  "title": "GeoSR: геометрические пространственные рассуждения для VLM",
+  "translated_at": "2026-11-13"
  },
  "n-1b11977658": {
-  "fresh": false,
-  "title": "ComfyUI Hires Fix Ultra: универсальная нода «всё в одном»",
-  "translated_at": null
+  "fresh": true,
+  "title": "ComfyUI Hires Fix Ultra: нода всё-в-одном",
+  "translated_at": "2026-11-13"
  },
  "n-1b28d58410": {
   "fresh": true,
@@ -620,9 +645,9 @@
   "translated_at": "2026-10-24"
  },
  "n-1fef5a401b": {
-  "fresh": false,
+  "fresh": true,
   "title": "Tencent Hunyuan UniCom",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-1fff983f43": {
   "fresh": true,
@@ -630,14 +655,14 @@
   "translated_at": "2026-10-24"
  },
  "n-207ed94fbd": {
-  "fresh": false,
-  "title": "MUA: мобильные ультрадетализированные анимируемые аватары",
-  "translated_at": null
+  "fresh": true,
+  "title": "MUA: мобильные сверхдетализированные анимируемые аватары",
+  "translated_at": "2026-11-13"
  },
  "n-2090ac5f1b": {
-  "fresh": false,
-  "title": "Waypoint-1.5: интерактивная видеомодель мира в реальном времени",
-  "translated_at": null
+  "fresh": true,
+  "title": "Waypoint-1.5: модель интерактивного видеомира в реальном времени",
+  "translated_at": "2026-11-13"
  },
  "n-20c0bd9616": {
   "fresh": true,
@@ -759,6 +784,11 @@
   "title": "Публичные ресурсы проекта ABot-World стали доступны",
   "translated_at": "2026-10-24"
  },
+ "n-269dacc1a7": {
+  "fresh": true,
+  "title": "OpenCode открывает временный бесплатный доступ к GLM-5.3-Flash",
+  "translated_at": "2026-11-13"
+ },
  "n-26bc0bd267": {
   "fresh": true,
   "title": "Ссылки на ресурсы разработки Kura были добавлены",
@@ -820,9 +850,9 @@
   "translated_at": "2026-10-24"
  },
  "n-2915ceca6f": {
-  "fresh": false,
+  "fresh": true,
   "title": "ComfyUI-DreamScene360 — панорамный Gaussian Splatting и 3D-сцены",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-292e34fcb3": {
   "fresh": true,
@@ -830,9 +860,14 @@
   "translated_at": "2026-10-24"
  },
  "n-2938402642": {
-  "fresh": false,
-  "title": "Boxer: подъём 2D в 3D bounding box в открытом мире",
-  "translated_at": null
+  "fresh": true,
+  "title": "Boxer: поднятие 2D-to-3D боксов для открытого мира",
+  "translated_at": "2026-11-13"
+ },
+ "n-2988748edd": {
+  "fresh": true,
+  "title": "GenXR-Bench анонсирован на arXiv для оценки кодовых агентов в интерактивной XR-разработке",
+  "translated_at": "2026-11-13"
  },
  "n-29d4083d61": {
   "fresh": true,
@@ -850,14 +885,14 @@
   "translated_at": "2026-10-24"
  },
  "n-2aa536ccdc": {
-  "fresh": false,
-  "title": "Kimi K2.6: фронтирная агентная LLM от Moonshot AI",
-  "translated_at": null
+  "fresh": true,
+  "title": "Kimi K2.6: передовая агентная LLM от Moonshot AI",
+  "translated_at": "2026-11-13"
  },
  "n-2af8215f2c": {
-  "fresh": false,
-  "title": "DiffHDR: генеративная диффузия видео из LDR в HDR",
-  "translated_at": null
+  "fresh": true,
+  "title": "DiffHDR: генеративная видеодиффузия из LDR в HDR",
+  "translated_at": "2026-11-13"
  },
  "n-2af9b3efb0": {
   "fresh": true,
@@ -940,9 +975,9 @@
   "translated_at": "2026-10-24"
  },
  "n-2f8c6f34f0": {
-  "fresh": false,
-  "title": "ClawEnvKit: автоматическая генерация сред для ИИ-агентов",
-  "translated_at": null
+  "fresh": true,
+  "title": "ClawEnvKit: автоматическая генерация окружений для ИИ-агентов",
+  "translated_at": "2026-11-13"
  },
  "n-2f94cbb043": {
   "fresh": true,
@@ -990,9 +1025,9 @@
   "translated_at": "2026-10-24"
  },
  "n-30f5861cb4": {
-  "fresh": false,
-  "title": "Flux FaceIR: качественное восстановление лиц для Flux",
-  "translated_at": null
+  "fresh": true,
+  "title": "Flux FaceIR: высококачественное восстановление лиц для Flux",
+  "translated_at": "2026-11-13"
  },
  "n-310e3414f5": {
   "fresh": true,
@@ -1030,9 +1065,9 @@
   "translated_at": "2026-10-24"
  },
  "n-332335c756": {
-  "fresh": false,
-  "title": "ComfyUI Wan VACE Video Joiner для бесшовных переходов",
-  "translated_at": null
+  "fresh": true,
+  "title": "ComfyUI Wan VACE Video Joiner: бесшовные переходы между видео",
+  "translated_at": "2026-11-13"
  },
  "n-3347fb1328": {
   "fresh": true,
@@ -1045,9 +1080,9 @@
   "translated_at": "2026-10-24"
  },
  "n-3354f12396": {
-  "fresh": false,
-  "title": "camera-comfyUI: ноды 3D-проекции камеры для ComfyUI",
-  "translated_at": null
+  "fresh": true,
+  "title": "camera-comfyUI: узлы 3D-проекции камеры для ComfyUI",
+  "translated_at": "2026-11-13"
  },
  "n-33f31b6935": {
   "fresh": true,
@@ -1055,9 +1090,9 @@
   "translated_at": "2026-10-24"
  },
  "n-34034d382e": {
-  "fresh": false,
+  "fresh": true,
   "title": "LTX 2.3 Enhancers: LoRA для визуальной точности и чёткости",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-3450949e78": {
   "fresh": true,
@@ -1070,9 +1105,9 @@
   "translated_at": "2026-10-24"
  },
  "n-348f0ce004": {
-  "fresh": false,
-  "title": "DisCa: обучаемое кэширование признаков, совместимое с дистилляцией",
-  "translated_at": null
+  "fresh": true,
+  "title": "DisCa: обучаемое кеширование признаков, совместимое с дистилляцией",
+  "translated_at": "2026-11-13"
  },
  "n-353bab66f8": {
   "fresh": true,
@@ -1110,9 +1145,9 @@
   "translated_at": "2026-10-24"
  },
  "n-36e9bae8ed": {
-  "fresh": false,
-  "title": "MiniCPM-V 4.6: эффективная edge-нативная мультимодальная модель",
-  "translated_at": null
+  "fresh": true,
+  "title": "MiniCPM-V 4.6: эффективная мультимодальная ИИ-модель для периферии",
+  "translated_at": "2026-11-13"
  },
  "n-36fa065b79": {
   "fresh": true,
@@ -1128,6 +1163,11 @@
   "fresh": true,
   "title": "Qwen-Image-Edit опубликован",
   "translated_at": "2026-10-24"
+ },
+ "n-37e9305c06": {
+  "fresh": true,
+  "title": "Kimi K3.1 Pro открывается на платформе для разработчиков с контекстом 1M токенов",
+  "translated_at": "2026-11-13"
  },
  "n-38018d5d2d": {
   "fresh": true,
@@ -1158,6 +1198,11 @@
   "fresh": true,
   "title": "На страницу проекта OmniDirector и исходный репозиторий появились ссылки",
   "translated_at": "2026-10-24"
+ },
+ "n-3904aeff63": {
+  "fresh": true,
+  "title": "Видеомодель LTX2.3-10Eros для генерации видео",
+  "translated_at": "2026-11-13"
  },
  "n-3905bae486": {
   "fresh": true,
@@ -1240,9 +1285,9 @@
   "translated_at": "2026-10-24"
  },
  "n-3ef8391496": {
-  "fresh": false,
-  "title": "GLiGuard: компактная модель для модерации безопасности LLM",
-  "translated_at": null
+  "fresh": true,
+  "title": "GLiGuard: компактная модель модерации безопасности LLM",
+  "translated_at": "2026-11-13"
  },
  "n-3efc7bc4ce": {
   "fresh": true,
@@ -1275,9 +1320,9 @@
   "translated_at": "2026-10-24"
  },
  "n-3fedc168df": {
-  "fresh": false,
-  "title": "SpatialEdit-16B: тонкое пространственное редактирование изображений",
-  "translated_at": null
+  "fresh": true,
+  "title": "SpatialEdit-16B: точное пространственное редактирование изображений",
+  "translated_at": "2026-11-13"
  },
  "n-40028a6fe7": {
   "fresh": true,
@@ -1320,9 +1365,9 @@
   "translated_at": "2026-10-24"
  },
  "n-41c999d507": {
-  "fresh": false,
-  "title": "ComfyUI_SenseNova_U1: кастомные ноды для мультимодальных моделей",
-  "translated_at": null
+  "fresh": true,
+  "title": "ComfyUI_SenseNova_U1: пользовательские узлы для мультимодальных моделей",
+  "translated_at": "2026-11-13"
  },
  "n-42aacd4f9b": {
   "fresh": true,
@@ -1340,9 +1385,9 @@
   "translated_at": "2026-10-24"
  },
  "n-44592b77d5": {
-  "fresh": false,
-  "title": "Tuna-2: эмбеддинги пикселей обходят vision-энкодеры",
-  "translated_at": null
+  "fresh": true,
+  "title": "Tuna-2: пиксельные эмбеддинги превосходят визуальные энкодеры",
+  "translated_at": "2026-11-13"
  },
  "n-447fbd2c0e": {
   "fresh": true,
@@ -1350,9 +1395,9 @@
   "translated_at": "2026-10-24"
  },
  "n-44b3b570af": {
-  "fresh": false,
-  "title": "MACE-Dance: каскадные эксперты движения и внешнего вида для генерации танцев",
-  "translated_at": null
+  "fresh": true,
+  "title": "MACE-Dance: каскадные эксперты движения и внешнего вида для генерации танца",
+  "translated_at": "2026-11-13"
  },
  "n-44c547a245": {
   "fresh": true,
@@ -1364,10 +1409,20 @@
   "title": "Репозиторий pdf-inspector, упомянутый в обсуждении Firecrawl",
   "translated_at": "2026-10-24"
  },
+ "n-4541890dcb": {
+  "fresh": true,
+  "title": "Flux2Klein Enhancer получает расширенную мультиреференсную реализацию",
+  "translated_at": "2026-11-13"
+ },
+ "n-45b7bbd16b": {
+  "fresh": true,
+  "title": "Ранние инструменты сообщества и артефакты модели Krea 2 появились в открытом доступе",
+  "translated_at": "2026-11-13"
+ },
  "n-461304d95b": {
-  "fresh": false,
-  "title": "ReconViaGen: точная многоракурсная 3D-реконструкция через генерацию",
-  "translated_at": null
+  "fresh": true,
+  "title": "ReconViaGen: точная многовидовая 3D-реконструкция через генерацию",
+  "translated_at": "2026-11-13"
  },
  "n-4621bd0727": {
   "fresh": true,
@@ -1375,9 +1430,9 @@
   "translated_at": "2026-10-24"
  },
  "n-464a2f9508": {
-  "fresh": false,
+  "fresh": true,
   "title": "Large Performance Model LPM 1.0: интерактивное видео",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-4694b833dd": {
   "fresh": true,
@@ -1435,14 +1490,14 @@
   "translated_at": "2026-10-24"
  },
  "n-49a6616381": {
-  "fresh": false,
-  "title": "BRO v14: мега-промпт хардкорного стоика-инженера",
-  "translated_at": null
+  "fresh": true,
+  "title": "BRO v14: мега-промпт «хардкорного стоического инженера»",
+  "translated_at": "2026-11-13"
  },
  "n-49b64d4933": {
-  "fresh": false,
-  "title": "UniRelight: единый фреймворк для декомпозиции и синтеза видео",
-  "translated_at": null
+  "fresh": true,
+  "title": "UniRelight: фреймворк совместной декомпозиции и синтеза видео",
+  "translated_at": "2026-11-13"
  },
  "n-49e8a26e33": {
   "fresh": true,
@@ -1455,9 +1510,9 @@
   "translated_at": "2026-10-24"
  },
  "n-4a638abcfe": {
-  "fresh": false,
+  "fresh": true,
   "title": "SenseNova-U1: унифицированный мультимодальный ИИ с NEO-unify",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-4a97c79072": {
   "fresh": true,
@@ -1480,9 +1535,9 @@
   "translated_at": "2026-10-24"
  },
  "n-4bbad7fe81": {
-  "fresh": false,
+  "fresh": true,
   "title": "Ltx2.3-VBVR: LoRA визуального рассуждения для LTX-Video",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-4bbbd17d1b": {
   "fresh": true,
@@ -1560,9 +1615,9 @@
   "translated_at": "2026-10-24"
  },
  "n-52e566a651": {
-  "fresh": false,
-  "title": "LumiVid: генерация видео SDR-в-HDR через LTX-Video 2.3",
-  "translated_at": null
+  "fresh": true,
+  "title": "LumiVid: генерация видео из SDR в HDR через LTX-Video 2.3",
+  "translated_at": "2026-11-13"
  },
  "n-5319c89cd3": {
   "fresh": true,
@@ -1595,9 +1650,9 @@
   "translated_at": "2026-10-24"
  },
  "n-545f242033": {
-  "fresh": false,
+  "fresh": true,
   "title": "Clad Size-aware: 3D-сканирование тела для виртуальной примерки",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-549e91e1c0": {
   "fresh": true,
@@ -1610,9 +1665,9 @@
   "translated_at": "2026-10-24"
  },
  "n-553243c913": {
-  "fresh": false,
-  "title": "RotorQuant: сжатие KV-кэша блочно-диагональными роторами Клиффорда",
-  "translated_at": null
+  "fresh": true,
+  "title": "RotorQuant: блочно-диагональное сжатие KV-кеша на клиффордовых роторах",
+  "translated_at": "2026-11-13"
  },
  "n-5540a93cb5": {
   "fresh": true,
@@ -1628,6 +1683,11 @@
   "fresh": true,
   "title": "Сообщения описывают инцидент с неожиданными списаниями, связанный с Claude Code",
   "translated_at": "2026-10-24"
+ },
+ "n-55b3aea30b": {
+  "fresh": true,
+  "title": "Приложение Gemini анонсирует возможности 3D-моделей и графиков",
+  "translated_at": "2026-11-13"
  },
  "n-55db199d87": {
   "fresh": true,
@@ -1645,9 +1705,9 @@
   "translated_at": "2026-10-24"
  },
  "n-58129455d1": {
-  "fresh": false,
+  "fresh": true,
   "title": "Ring-2.6-1T: высокопроизводительная агентная MoE-модель",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-58225bc7d0": {
   "fresh": true,
@@ -1669,10 +1729,15 @@
   "title": "CanAI: локальная студия генеративного ИИ с бесконечным холстом опубликована на GitHub",
   "translated_at": "2026-10-24"
  },
+ "n-5966d93d70": {
+  "fresh": true,
+  "title": "Представлен CAVC: фреймворк асимметричного по модальностям кеширования для аудиовизуальной диффузии",
+  "translated_at": "2026-11-13"
+ },
  "n-596ffa06da": {
-  "fresh": false,
+  "fresh": true,
   "title": "ACE-Step 1.5 XL",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-599684b34f": {
   "fresh": true,
@@ -1680,9 +1745,9 @@
   "translated_at": "2026-10-24"
  },
  "n-5ac53c2267": {
-  "fresh": false,
-  "title": "Квантованная модель NVIDIA Gemma-4-31B-IT NVFP4",
-  "translated_at": null
+  "fresh": true,
+  "title": "NVIDIA Gemma-4-31B-IT NVFP4: квантованная модель",
+  "translated_at": "2026-11-13"
  },
  "n-5ade5d658c": {
   "fresh": true,
@@ -1695,14 +1760,14 @@
   "translated_at": "2026-10-24"
  },
  "n-5b56fca93a": {
-  "fresh": false,
-  "title": "NVIDIA Parakeet-unified-en-0.6b: единая ASR-модель",
-  "translated_at": null
+  "fresh": true,
+  "title": "NVIDIA Parakeet-unified-en-0.6b: унифицированная модель ASR",
+  "translated_at": "2026-11-13"
  },
  "n-5be6e62e52": {
-  "fresh": false,
-  "title": "AnyRecon: 3D-реконструкция с произвольных ракурсов через видеодиффузию",
-  "translated_at": null
+  "fresh": true,
+  "title": "AnyRecon: реконструкция 3D по произвольным ракурсам с видеодиффузией",
+  "translated_at": "2026-11-13"
  },
  "n-5cac0a3186": {
   "fresh": true,
@@ -1735,9 +1800,9 @@
   "translated_at": "2026-10-24"
  },
  "n-5d75a2276e": {
-  "fresh": false,
-  "title": "Seeduplex: full-duplex голосовая модель от ByteDance",
-  "translated_at": null
+  "fresh": true,
+  "title": "Seeduplex: полнодуплексная голосовая модель от ByteDance",
+  "translated_at": "2026-11-13"
  },
  "n-5d775dee1a": {
   "fresh": true,
@@ -1770,9 +1835,14 @@
   "translated_at": "2026-10-24"
  },
  "n-5e92efec32": {
-  "fresh": false,
+  "fresh": true,
   "title": "Baidu ERNIE 5.1: большая языковая модель",
-  "translated_at": null
+  "translated_at": "2026-11-13"
+ },
+ "n-5e96f46ead": {
+  "fresh": true,
+  "title": "Dynamic Band Splitting выпускает код и модели адаптивного разделения аудио",
+  "translated_at": "2026-11-13"
  },
  "n-5ee5b179bf": {
   "fresh": true,
@@ -1783,6 +1853,11 @@
   "fresh": true,
   "title": "GLM-5.2-NVFP4 привязана к странице модели NVIDIA на Hugging Face",
   "translated_at": "2026-10-24"
+ },
+ "n-5f314f696f": {
+  "fresh": true,
+  "title": "Music Flamingo нацелена на понимание длинных музыкальных произведений",
+  "translated_at": "2026-11-13"
  },
  "n-5f36799f6d": {
   "fresh": true,
@@ -1828,6 +1903,11 @@
   "fresh": true,
   "title": "На публичные ресурсы проекта LingBot-Video были даны ссылки",
   "translated_at": "2026-10-24"
+ },
+ "n-6202d8d932": {
+  "fresh": true,
+  "title": "Kimi K3.1 Pro выпущена с вариантом Highspeed и запланированными открытыми весами",
+  "translated_at": "2026-11-13"
  },
  "n-625a62d5de": {
   "fresh": true,
@@ -1890,9 +1970,9 @@
   "translated_at": "2026-10-24"
  },
  "n-6562acabdd": {
-  "fresh": false,
-  "title": "Happy Horse 1.0: единая модель генерации видео и аудио",
-  "translated_at": null
+  "fresh": true,
+  "title": "Happy Horse 1.0: унифицированная модель генерации видео и аудио",
+  "translated_at": "2026-11-13"
  },
  "n-65c8f1b873": {
   "fresh": true,
@@ -2015,9 +2095,9 @@
   "translated_at": "2026-10-24"
  },
  "n-6a60e32785": {
-  "fresh": false,
+  "fresh": true,
   "title": "Qwen 3.6 Plus",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-6ab0eb34ad": {
   "fresh": true,
@@ -2058,6 +2138,11 @@
   "fresh": true,
   "title": "Проект JoyAI-VL-Interaction и исходный репозиторий стали публично связаны",
   "translated_at": "2026-10-24"
+ },
+ "n-6c5e22fee1": {
+  "fresh": true,
+  "title": "Зафиксированы варианты Ideogram v4 Instant и Fast",
+  "translated_at": "2026-11-13"
  },
  "n-6cdd78c533": {
   "fresh": true,
@@ -2149,6 +2234,11 @@
   "title": "C-MET: кросс-модальный перенос эмоций для видео с говорящим лицом",
   "translated_at": "2026-10-24"
  },
+ "n-7127c15c53": {
+  "fresh": true,
+  "title": "MiniMax опубликовала официальную запись блога о MiniMax H3",
+  "translated_at": "2026-11-13"
+ },
  "n-7150bbd771": {
   "fresh": true,
   "title": "Опубликован IC LoRA для relighting на базе LTX-2.3 22B",
@@ -2205,9 +2295,9 @@
   "translated_at": "2026-10-24"
  },
  "n-73e8b27cb3": {
-  "fresh": false,
-  "title": "Assistant_Pepe_32B: человекоцентричный творческий файнтюн Qwen-3",
-  "translated_at": null
+  "fresh": true,
+  "title": "Assistant_Pepe_32B: креативная донастройка Qwen-3 с человекоцентричным подходом",
+  "translated_at": "2026-11-13"
  },
  "n-740438cbeb": {
   "fresh": true,
@@ -2250,9 +2340,9 @@
   "translated_at": "2026-10-24"
  },
  "n-76a6e0d291": {
-  "fresh": false,
-  "title": "ComfyUI-Flux2Klein-Enhancer: ноды для сохранения лица",
-  "translated_at": null
+  "fresh": true,
+  "title": "ComfyUI-Flux2Klein-Enhancer: узлы сохранения лица",
+  "translated_at": "2026-11-13"
  },
  "n-76eee2c69c": {
   "fresh": true,
@@ -2380,9 +2470,9 @@
   "translated_at": "2026-10-24"
  },
  "n-7de8349cd0": {
-  "fresh": false,
-  "title": "CosyVoice 3.0: многоязычная генерация и клонирование речи",
-  "translated_at": null
+  "fresh": true,
+  "title": "CosyVoice 3.0: многоязычная генерация речи и клонирование голоса",
+  "translated_at": "2026-11-13"
  },
  "n-7e0c4cc870": {
   "fresh": true,
@@ -2413,6 +2503,11 @@
   "fresh": true,
   "title": "Страница проекта RetimeGS и ресурс на Hugging Face опубликованы по ссылке",
   "translated_at": "2026-10-24"
+ },
+ "n-7f6dd4a0bc": {
+  "fresh": true,
+  "title": "Зафиксированы исходный код и артефакты модели Orchestra-o1",
+  "translated_at": "2026-11-13"
  },
  "n-807bf78763": {
   "fresh": true,
@@ -2470,9 +2565,14 @@
   "translated_at": "2026-10-24"
  },
  "n-83af6888de": {
-  "fresh": false,
-  "title": "VOID: удаление объектов и взаимодействий из видео от Netflix",
-  "translated_at": null
+  "fresh": true,
+  "title": "VOID: удаление видеообъектов и их взаимодействий от Netflix",
+  "translated_at": "2026-11-13"
+ },
+ "n-83d7f5eb84": {
+  "fresh": true,
+  "title": "Spark-X2.6-4B добавляет поддержку обслуживания, совместимого с OpenAI, через vLLM и SGLang",
+  "translated_at": "2026-11-13"
  },
  "n-840bb8c6c7": {
   "fresh": true,
@@ -2494,10 +2594,15 @@
   "title": "Публичные ресурсы проекта MagicMakeup Transfer добавлены по ссылкам",
   "translated_at": "2026-10-24"
  },
+ "n-851c72bbf5": {
+  "fresh": true,
+  "title": "ACE-Step 1.5 достиг v0.1.8 с рекомендациями по GPU для каждого артефакта",
+  "translated_at": "2026-11-13"
+ },
  "n-85862dbbb3": {
-  "fresh": false,
-  "title": "Geo Register Plugin для сцен 3D Gaussian Splatting",
-  "translated_at": null
+  "fresh": true,
+  "title": "Geo Register Plugin: геопривязка сцен 3D Gaussian Splatting",
+  "translated_at": "2026-11-13"
  },
  "n-86023c7979": {
   "fresh": true,
@@ -2520,9 +2625,9 @@
   "translated_at": "2026-10-24"
  },
  "n-86ce44c208": {
-  "fresh": false,
+  "fresh": true,
   "title": "Qwen-Image-2.0-Pro",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-8719519a69": {
   "fresh": true,
@@ -2540,9 +2645,9 @@
   "translated_at": "2026-10-24"
  },
  "n-8913c98771": {
-  "fresh": false,
-  "title": "Модели генерации видео Sulphur 2 и LTX2.3-10Eros",
-  "translated_at": null
+  "fresh": true,
+  "title": "Sulphur 2: модель генерации видео",
+  "translated_at": "2026-11-13"
  },
  "n-8a14fda3a6": {
   "fresh": true,
@@ -2555,14 +2660,14 @@
   "translated_at": "2026-10-24"
  },
  "n-8a620616a1": {
-  "fresh": false,
-  "title": "Qwen3.6-35B-A3B-NVFP4: высокоэффективная MoE, оптимизированная под Blackwell",
-  "translated_at": null
+  "fresh": true,
+  "title": "Qwen3.6-35B-A3B-NVFP4: высокоэффективная MoE, оптимизированная для Blackwell",
+  "translated_at": "2026-11-13"
  },
  "n-8a851b82d9": {
-  "fresh": false,
-  "title": "Reshoot-Anything: синтез ракурсов видео с управлением через 4D-якоря",
-  "translated_at": null
+  "fresh": true,
+  "title": "Reshoot-Anything: синтез точки обзора в видео с управлением по 4D-Anchor",
+  "translated_at": "2026-11-13"
  },
  "n-8a9fb1a4b9": {
   "fresh": true,
@@ -2635,9 +2740,9 @@
   "translated_at": "2026-10-24"
  },
  "n-8e2ceecbcb": {
-  "fresh": false,
+  "fresh": true,
   "title": "Mistral Medium 3.5: унифицированная мультимодальная модель 128B",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-8e75dd0767": {
   "fresh": true,
@@ -2665,9 +2770,9 @@
   "translated_at": "2026-10-24"
  },
  "n-8ff86e4411": {
-  "fresh": false,
+  "fresh": true,
   "title": "M2SVid: преобразование монокулярного видео в стерео",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-901220b5b4": {
   "fresh": true,
@@ -2675,9 +2780,9 @@
   "translated_at": "2026-10-24"
  },
  "n-9139899069": {
-  "fresh": false,
+  "fresh": true,
   "title": "Gemma 4 31B-it",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-920abfb1e3": {
   "fresh": true,
@@ -2693,6 +2798,11 @@
   "fresh": true,
   "title": "Ресурсы Modality Forcing по предсказанию глубины были связаны между собой",
   "translated_at": "2026-10-24"
+ },
+ "n-9371b417f8": {
+  "fresh": true,
+  "title": "LoGeR представлен как проект 3D-реконструкции",
+  "translated_at": "2026-11-13"
  },
  "n-93c82cced4": {
   "fresh": true,
@@ -2740,9 +2850,9 @@
   "translated_at": "2026-10-24"
  },
  "n-972d1e2832": {
-  "fresh": false,
-  "title": "TML Interaction Models: мультимодальный AI в реальном времени",
-  "translated_at": null
+  "fresh": true,
+  "title": "TML Interaction Models: мультимодальный ИИ в реальном времени",
+  "translated_at": "2026-11-13"
  },
  "n-9744e9b73c": {
   "fresh": true,
@@ -2755,14 +2865,14 @@
   "translated_at": "2026-10-24"
  },
  "n-97b254669d": {
-  "fresh": false,
-  "title": "ERNIE-Image 8B: высокопроизводительная DiT-модель от Baidu",
-  "translated_at": null
+  "fresh": true,
+  "title": "ERNIE-Image 8B: высокопроизводительная модель DiT от Baidu",
+  "translated_at": "2026-11-13"
  },
  "n-97c6278d46": {
-  "fresh": false,
-  "title": "Qwen3.6-27B: высокопроизводительная кодинг-модель с открытыми весами",
-  "translated_at": null
+  "fresh": true,
+  "title": "Qwen3.6-27B: высокопроизводительная открытая модель для программирования",
+  "translated_at": "2026-11-13"
  },
  "n-97c92d3269": {
   "fresh": true,
@@ -2790,9 +2900,9 @@
   "translated_at": "2026-10-24"
  },
  "n-98474cc274": {
-  "fresh": false,
-  "title": "Nucleus Image: диффузионная модель на разреженной Mixture-of-Experts",
-  "translated_at": null
+  "fresh": true,
+  "title": "Nucleus Image: диффузионная модель Sparse Mixture-of-Experts",
+  "translated_at": "2026-11-13"
  },
  "n-984ac0ee00": {
   "fresh": true,
@@ -2810,9 +2920,9 @@
   "translated_at": "2026-10-24"
  },
  "n-997df70c3d": {
-  "fresh": false,
-  "title": "LTX-2.3-22B-DISTILLED-1.1: видеомодель на базе DiT",
-  "translated_at": null
+  "fresh": true,
+  "title": "LTX-2.3-22B-DISTILLED-1.1: видео-модель Video DiT",
+  "translated_at": "2026-11-13"
  },
  "n-99c607c318": {
   "fresh": true,
@@ -2835,19 +2945,19 @@
   "translated_at": "2026-10-24"
  },
  "n-9a27202165": {
-  "fresh": false,
-  "title": "VR-360-Outpaint: LTX-2.3 IC-LoRA для 360-видео",
-  "translated_at": null
+  "fresh": true,
+  "title": "VR-360-Outpaint LTX-2.3 IC-LoRA: видео 360 градусов",
+  "translated_at": "2026-11-13"
  },
  "n-9aa3cb6ab5": {
-  "fresh": false,
+  "fresh": true,
   "title": "Audio Flamingo Next (AF-Next)",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-9af7222826": {
-  "fresh": false,
+  "fresh": true,
   "title": "QClaw-4B: компактная языковая модель для агентных задач",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-9bab984caa": {
   "fresh": true,
@@ -2875,9 +2985,9 @@
   "translated_at": "2026-10-24"
  },
  "n-9db878fd06": {
-  "fresh": false,
-  "title": "KIRI Engine: из Gaussian Splatting в меш",
-  "translated_at": null
+  "fresh": true,
+  "title": "KIRI Engine: от Gaussian Splatting к мешу",
+  "translated_at": "2026-11-13"
  },
  "n-9dd20d8e0c": {
   "fresh": true,
@@ -2954,6 +3064,11 @@
   "title": "NanoVDR: связанные публичные ресурсы Hugging Face и демо",
   "translated_at": "2026-10-24"
  },
+ "n-a167c6f61b": {
+  "fresh": true,
+  "title": "Опубликован патч обслуживания ComfyUI v0.42.5",
+  "translated_at": "2026-11-13"
+ },
  "n-a1c9a6a103": {
   "fresh": true,
   "title": "На репозиторий LlamaServerLauncherAvalonia была сделана ссылка",
@@ -2965,9 +3080,9 @@
   "translated_at": "2026-10-24"
  },
  "n-a236c67d82": {
-  "fresh": false,
-  "title": "C++ порт ACE-Step 1.5 (acestep.cpp)",
-  "translated_at": null
+  "fresh": true,
+  "title": "Порт ACE-Step 1.5 на C++ (acestep.cpp)",
+  "translated_at": "2026-11-13"
  },
  "n-a2b2f064d2": {
   "fresh": true,
@@ -2990,14 +3105,14 @@
   "translated_at": "2026-10-24"
  },
  "n-a3aa871dfa": {
-  "fresh": false,
-  "title": "Unsloth Studio для дообучения Gemma 4 в Colab",
-  "translated_at": null
+  "fresh": true,
+  "title": "Unsloth Studio: тонкая настройка Gemma 4 в Colab",
+  "translated_at": "2026-11-13"
  },
  "n-a3c0ebdd3a": {
-  "fresh": false,
+  "fresh": true,
   "title": "UniCorrn: унифицированный трансформер соответствий для 2D и 3D",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-a3e4d25dc2": {
   "fresh": true,
@@ -3025,9 +3140,9 @@
   "translated_at": "2026-10-24"
  },
  "n-a56b9d31b6": {
-  "fresh": false,
+  "fresh": true,
   "title": "Perplexity Personal Computer для Mac",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-a5a478ec38": {
   "fresh": true,
@@ -3065,9 +3180,9 @@
   "translated_at": "2026-10-24"
  },
  "n-a71a838b34": {
-  "fresh": false,
-  "title": "GyroScope: модель определения и коррекции ориентации изображений",
-  "translated_at": null
+  "fresh": true,
+  "title": "GyroScope: модель определения и исправления ориентации изображений",
+  "translated_at": "2026-11-13"
  },
  "n-a74ee42caa": {
   "fresh": true,
@@ -3075,9 +3190,9 @@
   "translated_at": "2026-10-24"
  },
  "n-a7521b7b08": {
-  "fresh": false,
-  "title": "BACH 1.0: многокадровая AI-генерация видео",
-  "translated_at": null
+  "fresh": true,
+  "title": "BACH 1.0: генерация многокадрового видео с ИИ",
+  "translated_at": "2026-11-13"
  },
  "n-a78b2b7401": {
   "fresh": true,
@@ -3090,9 +3205,9 @@
   "translated_at": "2026-10-24"
  },
  "n-a7d1f83b13": {
-  "fresh": false,
-  "title": "ArcFlow: фреймворк нелинейной генерации изображений за 2 шага",
-  "translated_at": null
+  "fresh": true,
+  "title": "ArcFlow: фреймворк генерации изображений 2-Step с нелинейным потоком",
+  "translated_at": "2026-11-13"
  },
  "n-a7efec38e4": {
   "fresh": true,
@@ -3105,9 +3220,9 @@
   "translated_at": "2026-10-24"
  },
  "n-a81182e9ac": {
-  "fresh": false,
-  "title": "Claude Opus 4.7: флагманская модель Anthropic для кодинга и рассуждений",
-  "translated_at": null
+  "fresh": true,
+  "title": "Claude Opus 4.7: флагманская модель Anthropic для программирования и рассуждений",
+  "translated_at": "2026-11-13"
  },
  "n-a85f96599d": {
   "fresh": true,
@@ -3115,9 +3230,9 @@
   "translated_at": "2026-10-24"
  },
  "n-a8a043a8fd": {
-  "fresh": false,
-  "title": "INSID3: быстрая in-context сегментация с DINOv3",
-  "translated_at": null
+  "fresh": true,
+  "title": "INSID3: быстрая сегментация в контексте с DINOv3",
+  "translated_at": "2026-11-13"
  },
  "n-a95c499131": {
   "fresh": true,
@@ -3160,9 +3275,9 @@
   "translated_at": "2026-10-24"
  },
  "n-ac33c5f998": {
-  "fresh": false,
-  "title": "LTX2.3-Multifunctional: продвинутый локальный AI-видеонабор",
-  "translated_at": null
+  "fresh": true,
+  "title": "LTX2.3-Multifunctional: продвинутый набор для локальной генерации видео с ИИ",
+  "translated_at": "2026-11-13"
  },
  "n-ad1e6a3d0c": {
   "fresh": true,
@@ -3188,6 +3303,11 @@
   "fresh": true,
   "title": "Gemma Gem: локальный браузерный ИИ-агент на основе WebGPU",
   "translated_at": "2026-10-24"
+ },
+ "n-ae780669a1": {
+  "fresh": true,
+  "title": "Qwen Code v0.0.12-v0.0.14 добавляют планирование и vision",
+  "translated_at": "2026-11-13"
  },
  "n-aec1b8ae4b": {
   "fresh": true,
@@ -3245,9 +3365,9 @@
   "translated_at": "2026-10-24"
  },
  "n-b18df4c1c8": {
-  "fresh": false,
-  "title": "Semantic Progress Function (SPF) для плавного ИИ-видео",
-  "translated_at": null
+  "fresh": true,
+  "title": "Semantic Progress Function (SPF): плавное ИИ-видео",
+  "translated_at": "2026-11-13"
  },
  "n-b1bee57937": {
   "fresh": true,
@@ -3275,9 +3395,9 @@
   "translated_at": "2026-10-24"
  },
  "n-b2c1d5a768": {
-  "fresh": false,
+  "fresh": true,
   "title": "FLUX.2 Small Decoder (дистиллированный VAE)",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-b347948b96": {
   "fresh": true,
@@ -3385,9 +3505,9 @@
   "translated_at": "2026-10-24"
  },
  "n-b9e02bd01a": {
-  "fresh": false,
+  "fresh": true,
   "title": "ACE-Step 1.5 XL: генерация музыки",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-ba02def424": {
   "fresh": true,
@@ -3425,9 +3545,9 @@
   "translated_at": "2026-10-24"
  },
  "n-bb60458b02": {
-  "fresh": false,
+  "fresh": true,
   "title": "FLUX.2-klein-9B-Nunchaku",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-bb76b83d43": {
   "fresh": true,
@@ -3440,14 +3560,14 @@
   "translated_at": "2026-10-24"
  },
  "n-bc5c88f85f": {
-  "fresh": false,
-  "title": "DeepSeek-V4-Pro: флагманская MoE-модель триллионного масштаба",
-  "translated_at": null
+  "fresh": true,
+  "title": "DeepSeek-V4-Pro: флагманская триллионная модель MoE",
+  "translated_at": "2026-11-13"
  },
  "n-bcef63351f": {
-  "fresh": false,
-  "title": "Z-Anime: высокоточная модель генерации аниме S3-DiT 6B",
-  "translated_at": null
+  "fresh": true,
+  "title": "Z-Anime: генерация аниме на S3-DiT 6B высокой точности",
+  "translated_at": "2026-11-13"
  },
  "n-bd49bc44b7": {
   "fresh": true,
@@ -3460,14 +3580,19 @@
   "translated_at": "2026-10-24"
  },
  "n-bec376434e": {
-  "fresh": false,
+  "fresh": true,
   "title": "TinyMU: компактная аудио-языковая модель для понимания музыки",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-c0d09bda8b": {
   "fresh": true,
   "title": "NVIDIA анонсировала Nemotron 3 Super",
   "translated_at": "2026-10-24"
+ },
+ "n-c13e04020a": {
+  "fresh": true,
+  "title": "Spark-X2.6-4B выпущена по лицензии Apache 2.0 с квантованными вариантами и настраиваемыми рассуждениями",
+  "translated_at": "2026-11-13"
  },
  "n-c15c8a5410": {
   "fresh": true,
@@ -3478,6 +3603,11 @@
   "fresh": true,
   "title": "На репозиторий ComfyUI Video Tiler была дана ссылка",
   "translated_at": "2026-10-24"
+ },
+ "n-c185396a2b": {
+  "fresh": true,
+  "title": "NVIDIA опубликовала SANA-WM",
+  "translated_at": "2026-11-13"
  },
  "n-c2a141200b": {
   "fresh": true,
@@ -3490,9 +3620,9 @@
   "translated_at": "2026-10-24"
  },
  "n-c2ca134086": {
-  "fresh": false,
-  "title": "ERNIE-Image-Turbo 8B: Diffusion Transformer с открытыми весами",
-  "translated_at": null
+  "fresh": true,
+  "title": "ERNIE-Image-Turbo 8B: открытая диффузионная модель Diffusion Transformer",
+  "translated_at": "2026-11-13"
  },
  "n-c2e38d5935": {
   "fresh": true,
@@ -3550,9 +3680,9 @@
   "translated_at": "2026-10-24"
  },
  "n-c4a452f85d": {
-  "fresh": false,
-  "title": "NumPy как движок синтеза (PyTheory)",
-  "translated_at": null
+  "fresh": true,
+  "title": "NumPy как синтезатор: PyTheory",
+  "translated_at": "2026-11-13"
  },
  "n-c4e41aef2b": {
   "fresh": true,
@@ -3570,14 +3700,14 @@
   "translated_at": "2026-10-24"
  },
  "n-c56aa9fa27": {
-  "fresh": false,
-  "title": "Motif-Video 2B: эффективная видеомодель на Decoupled Diffusion Transformer",
-  "translated_at": null
+  "fresh": true,
+  "title": "Motif-Video 2B: эффективная видеомодель на основе Decoupled Diffusion Transformer",
+  "translated_at": "2026-11-13"
  },
  "n-c56d07046e": {
-  "fresh": false,
-  "title": "DreamLite: унифицированная on-device генерация и редактирование изображений",
-  "translated_at": null
+  "fresh": true,
+  "title": "DreamLite: унифицированная генерация и редактирование изображений на устройстве",
+  "translated_at": "2026-11-13"
  },
  "n-c5e93c1d3a": {
   "fresh": true,
@@ -3585,14 +3715,14 @@
   "translated_at": "2026-10-24"
  },
  "n-c660c4f559": {
-  "fresh": false,
-  "title": "CDM: дистилляция диффузии через непрерывное согласование распределений",
-  "translated_at": null
+  "fresh": true,
+  "title": "CDM: дистилляция диффузионных моделей с непрерывным временем Distribution Matching",
+  "translated_at": "2026-11-13"
  },
  "n-c66b8c38b0": {
-  "fresh": false,
+  "fresh": true,
   "title": "RS Nodes: обучение LoRA для видео в ComfyUI",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-c696325d3e": {
   "fresh": true,
@@ -3620,9 +3750,9 @@
   "translated_at": "2026-10-24"
  },
  "n-c7bfff5d31": {
-  "fresh": false,
-  "title": "Gemma 4: семейство мультимодальных открытых моделей от Google",
-  "translated_at": null
+  "fresh": true,
+  "title": "Gemma 4: семейство мультимодальных открытых моделей Google",
+  "translated_at": "2026-11-13"
  },
  "n-c8fa19868e": {
   "fresh": true,
@@ -3694,10 +3824,15 @@
   "title": "LTX-2.3-22b-IC-LoRA-Ungrade: восстановление нейтрального цвета",
   "translated_at": "2026-10-24"
  },
+ "n-cce36dc967": {
+  "fresh": true,
+  "title": "LoRA SDA для Krea 2 Turbo добавляет гейт разнообразия на два шага",
+  "translated_at": "2026-11-13"
+ },
  "n-cd25320940": {
-  "fresh": false,
-  "title": "Sync-3: профессиональная AI-синхронизация губ от Sync Labs",
-  "translated_at": null
+  "fresh": true,
+  "title": "Sync-3: профессиональная синхронизация губ с ИИ от Sync Labs",
+  "translated_at": "2026-11-13"
  },
  "n-cddebb8e59": {
   "fresh": true,
@@ -3755,9 +3890,9 @@
   "translated_at": "2026-10-24"
  },
  "n-cf88820803": {
-  "fresh": false,
-  "title": "Wan2.2 Distill: ускоренная генерация видео с 4-шаговыми моделями",
-  "translated_at": null
+  "fresh": true,
+  "title": "Wan2.2 Distill: ускоренная генерация видео на 4-Step моделях",
+  "translated_at": "2026-11-13"
  },
  "n-cf8c575ede": {
   "fresh": true,
@@ -3788,6 +3923,11 @@
   "fresh": true,
   "title": "GEMS: агент-ориентированная мультимодальная генерация с памятью",
   "translated_at": "2026-10-24"
+ },
+ "n-d135dd8f66": {
+  "fresh": true,
+  "title": "Moonshot выкатила обновлённую Kimi K3.1 Pro с запланированным открытым релизом",
+  "translated_at": "2026-11-13"
  },
  "n-d140f3d07f": {
   "fresh": true,
@@ -3834,6 +3974,11 @@
   "title": "Публичные ресурсы Higgs Audio v3 TTS опубликованы",
   "translated_at": "2026-10-24"
  },
+ "n-d4678fd961": {
+  "fresh": true,
+  "title": "CAVC демонстрирует ускорение инференса в 1.10-1.35x в аудиовизуальной генерации",
+  "translated_at": "2026-11-13"
+ },
  "n-d46d9eb28f": {
   "fresh": true,
   "title": "Meta убрала упоминания обучения ИИ из деловых условий",
@@ -3845,9 +3990,9 @@
   "translated_at": "2026-10-24"
  },
  "n-d4d07dd0bf": {
-  "fresh": false,
-  "title": "P-Video-Avatar: скоростная AI-анимация говорящей головы",
-  "translated_at": null
+  "fresh": true,
+  "title": "P-Video-Avatar: высокоскоростная анимация говорящей головы с ИИ",
+  "translated_at": "2026-11-13"
  },
  "n-d4f61075f4": {
   "fresh": true,
@@ -3890,9 +4035,9 @@
   "translated_at": "2026-10-24"
  },
  "n-d755c8bc8a": {
-  "fresh": false,
+  "fresh": true,
   "title": "Qwen3-TTS: продвинутый zero-shot синтез речи",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-d76b3cf6c5": {
   "fresh": true,
@@ -3905,14 +4050,14 @@
   "translated_at": "2026-10-24"
  },
  "n-d7b1c6bb36": {
-  "fresh": false,
-  "title": "VoxCPM2 — многоязычный TTS на 2B без токенизатора и клонирование голоса",
-  "translated_at": null
+  "fresh": true,
+  "title": "VoxCPM2 — 2B мультиязычный TTS без токенизатора и клонирование голоса",
+  "translated_at": "2026-11-13"
  },
  "n-d7c3a5e60e": {
-  "fresh": false,
+  "fresh": true,
   "title": "TRELLIS.2: высококачественная 3D-генерация на Mac",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-d7ef7b4828": {
   "fresh": true,
@@ -3930,9 +4075,9 @@
   "translated_at": "2026-10-24"
  },
  "n-d8bf4374be": {
-  "fresh": false,
+  "fresh": true,
   "title": "Odyssey-2 Max: генеративный симулятор мира в реальном времени",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-d967265835": {
   "fresh": true,
@@ -3955,9 +4100,9 @@
   "translated_at": "2026-10-24"
  },
  "n-d9eaebd61d": {
-  "fresh": false,
+  "fresh": true,
   "title": "Wan 2.7-Image (Pro)",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-da24004da2": {
   "fresh": true,
@@ -3970,9 +4115,9 @@
   "translated_at": "2026-10-24"
  },
  "n-daa2681205": {
-  "fresh": false,
-  "title": "Obscura Remova LTX23: video-to-video LoRA",
-  "translated_at": null
+  "fresh": true,
+  "title": "Obscura Remova LTX23: LoRA для видео-в-видео",
+  "translated_at": "2026-11-13"
  },
  "n-daa3090ac6": {
   "fresh": true,
@@ -4010,9 +4155,9 @@
   "translated_at": "2026-10-24"
  },
  "n-dd8d68b69f": {
-  "fresh": false,
-  "title": "MF0-1984: долговременная память для мультимодальных AI-агентов",
-  "translated_at": null
+  "fresh": true,
+  "title": "MF0-1984: долговременная память для мультимодальных ИИ-агентов",
+  "translated_at": "2026-11-13"
  },
  "n-dd9a3a9b07": {
   "fresh": true,
@@ -4050,14 +4195,14 @@
   "translated_at": "2026-10-24"
  },
  "n-dfe5e1e7a6": {
-  "fresh": false,
-  "title": "MiniMax Music 2.6: платформа генерации музыки AI",
-  "translated_at": null
+  "fresh": true,
+  "title": "MiniMax Music 2.6: платформа генерации музыки с ИИ",
+  "translated_at": "2026-11-13"
  },
  "n-e17cbf7ded": {
-  "fresh": false,
-  "title": "Tencent Hy-MT1.5: мобильный машинный перевод",
-  "translated_at": null
+  "fresh": true,
+  "title": "Tencent Hy-MT1.5: машинный перевод для мобильных устройств",
+  "translated_at": "2026-11-13"
  },
  "n-e1ca928d8e": {
   "fresh": true,
@@ -4105,9 +4250,9 @@
   "translated_at": "2026-10-24"
  },
  "n-e3fe618151": {
-  "fresh": false,
-  "title": "MegaStyle: масштабируемый пайплайн курирования художественных стилей",
-  "translated_at": null
+  "fresh": true,
+  "title": "MegaStyle: масштабируемый конвейер курирования художественных стилей",
+  "translated_at": "2026-11-13"
  },
  "n-e431684c08": {
   "fresh": true,
@@ -4135,9 +4280,9 @@
   "translated_at": "2026-10-24"
  },
  "n-e51898fad5": {
-  "fresh": false,
+  "fresh": true,
   "title": "GLM-5.1: автономный инженерный агент от Z.ai",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-e55e56223b": {
   "fresh": true,
@@ -4175,9 +4320,9 @@
   "translated_at": "2026-10-24"
  },
  "n-e63a0d4512": {
-  "fresh": false,
-  "title": "M-XR: генерация production-PBR из изображения в материал",
-  "translated_at": null
+  "fresh": true,
+  "title": "M-XR: генерация PBR-материалов из изображения",
+  "translated_at": "2026-11-13"
  },
  "n-e6413c0a2c": {
   "fresh": true,
@@ -4210,9 +4355,9 @@
   "translated_at": "2026-10-24"
  },
  "n-e76fc8f96f": {
-  "fresh": false,
-  "title": "SANA-Video: эффективный синтез и апскейл видео 720p",
-  "translated_at": null
+  "fresh": true,
+  "title": "SANA-Video: эффективный синтез и апскейлинг видео 720p",
+  "translated_at": "2026-11-13"
  },
  "n-e859acd94e": {
   "fresh": true,
@@ -4230,9 +4375,9 @@
   "translated_at": "2026-10-24"
  },
  "n-e9259b87d6": {
-  "fresh": false,
+  "fresh": true,
   "title": "CADD-Base-7B: маскированная диффузионная модель Apple для генерации кода",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-e92b026fad": {
   "fresh": true,
@@ -4240,9 +4385,9 @@
   "translated_at": "2026-10-24"
  },
  "n-e96d2e151b": {
-  "fresh": false,
-  "title": "TriAttention: эффективный длинный reasoning через тригонометрическое сжатие KV",
-  "translated_at": null
+  "fresh": true,
+  "title": "TriAttention: эффективные длинные рассуждения за счёт тригонометрического сжатия KV-кэша",
+  "translated_at": "2026-11-13"
  },
  "n-e9d344fa77": {
   "fresh": true,
@@ -4255,9 +4400,9 @@
   "translated_at": "2026-10-24"
  },
  "n-ea4c5d4dff": {
-  "fresh": false,
-  "title": "LAVA Genie: умная безструнная гитара с интеграцией AI",
-  "translated_at": null
+  "fresh": true,
+  "title": "LAVA Genie: умная безструнная гитара с ИИ",
+  "translated_at": "2026-11-13"
  },
  "n-ea52f36353": {
   "fresh": true,
@@ -4295,9 +4440,9 @@
   "translated_at": "2026-10-24"
  },
  "n-eb367fb3e1": {
-  "fresh": false,
-  "title": "LumiPic: диффузионное преобразование изображений SDR-в-HDR",
-  "translated_at": null
+  "fresh": true,
+  "title": "LumiPic: диффузионное преобразование изображений SDR в HDR",
+  "translated_at": "2026-11-13"
  },
  "n-eb68bcfc57": {
   "fresh": true,
@@ -4330,14 +4475,14 @@
   "translated_at": "2026-10-24"
  },
  "n-ec5428386a": {
-  "fresh": false,
-  "title": "Claude Design: прототипирование и генерация UI на Opus 4.7",
-  "translated_at": null
+  "fresh": true,
+  "title": "Claude Design: генерация прототипов и UI с Opus 4.7",
+  "translated_at": "2026-11-13"
  },
  "n-ec7e719b88": {
-  "fresh": false,
-  "title": "Phi-Ground-Any: мультимодальная модель GUI-grounding от Microsoft",
-  "translated_at": null
+  "fresh": true,
+  "title": "Phi-Ground-Any: мультимодальная модель GUI grounding от Microsoft",
+  "translated_at": "2026-11-13"
  },
  "n-eca931f946": {
   "fresh": true,
@@ -4395,9 +4540,9 @@
   "translated_at": "2026-10-24"
  },
  "n-f0cec18709": {
-  "fresh": false,
+  "fresh": true,
   "title": "Rodin Gen 2.5 (Hyper3D)",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-f108d81c34": {
   "fresh": true,
@@ -4405,14 +4550,14 @@
   "translated_at": "2026-10-24"
  },
  "n-f1139f1ee9": {
-  "fresh": false,
-  "title": "CompHairHead: one-shot 3D-аватары с деформируемыми волосами",
-  "translated_at": null
+  "fresh": true,
+  "title": "CompHairHead: одношаговые 3D-аватары с деформируемыми волосами",
+  "translated_at": "2026-11-13"
  },
  "n-f1ea79cf67": {
-  "fresh": false,
+  "fresh": true,
   "title": "MOSS-TTS-Nano",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-f1f27d1e3a": {
   "fresh": true,
@@ -4435,9 +4580,9 @@
   "translated_at": "2026-10-24"
  },
  "n-f24b5871aa": {
-  "fresh": false,
-  "title": "SDXS-1B: диффузия в реальном времени и высококачественный апскейлер",
-  "translated_at": null
+  "fresh": true,
+  "title": "SDXS-1B: диффузия в реальном времени и апскейлер высокой точности",
+  "translated_at": "2026-11-13"
  },
  "n-f2b3361da7": {
   "fresh": true,
@@ -4475,9 +4620,9 @@
   "translated_at": "2026-10-24"
  },
  "n-f4d17d7115": {
-  "fresh": false,
-  "title": "Gemma 4 E4B Heretic Uncensored",
-  "translated_at": null
+  "fresh": true,
+  "title": "Gemma 4 E4B Heretic: версия без цензуры",
+  "translated_at": "2026-11-13"
  },
  "n-f52983ecb7": {
   "fresh": true,
@@ -4485,9 +4630,9 @@
   "translated_at": "2026-10-24"
  },
  "n-f57cbec8b9": {
-  "fresh": false,
+  "fresh": true,
   "title": "LingBot-Map: потоковая реконструкция 3D-сцен в реальном времени",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-f57cbf8f0c": {
   "fresh": true,
@@ -4510,9 +4655,9 @@
   "translated_at": "2026-10-24"
  },
  "n-f6c6cdf729": {
-  "fresh": false,
-  "title": "ComfyUI 6DOF Camera — манипуляции с 3D-сценами и расстановка персонажей",
-  "translated_at": null
+  "fresh": true,
+  "title": "ComfyUI 6DOF Camera — манипуляции 3D-сценой и постановка персонажей",
+  "translated_at": "2026-11-13"
  },
  "n-f6f78aa8d5": {
   "fresh": true,
@@ -4545,9 +4690,9 @@
   "translated_at": "2026-10-24"
  },
  "n-f861f085b8": {
-  "fresh": false,
+  "fresh": true,
   "title": "Free Claude Code: ИИ-прокси для Claude CLI",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-f8b15964ba": {
   "fresh": true,
@@ -4565,9 +4710,9 @@
   "translated_at": "2026-10-24"
  },
  "n-f9bd7f602b": {
-  "fresh": false,
+  "fresh": true,
   "title": "TRIBE Review MVP",
-  "translated_at": null
+  "translated_at": "2026-11-13"
  },
  "n-fa9c04297f": {
   "fresh": true,

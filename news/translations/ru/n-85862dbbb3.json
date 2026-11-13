@@ -1,11 +1,12 @@
 {
+ "evolution_summary": "Проект расширился от базовой регистрации EXIF до поддержки высокоточного импорта из RealityScan и Agisoft Metashape. Он ввёл сжатие SPZ v3, дающее файлы в 14x меньше, и полную совместимость с CesiumJS и ArcGIS через 3D Tiles 1.1.",
  "id": "n-85862dbbb3",
  "lang": "ru",
- "model": "legacy-web-overlay",
- "research_notes": "Использует устойчивый решатель RANSAC + Umeyama для выравнивания координат, устойчивого к выбросам; есть режим 'No Scene' для обработки отдельных PLY-файлов с применением готовых матриц подобия.",
- "source_sha256": "legacy",
- "summary": "Открытый инструмент на Python для геопривязки моделей 3D Gaussian Splatting к реальным координатам с использованием EXIF-метаданных изображений или внешних CSV-логов. Обеспечивает профессиональную интеграцию с GIS за счёт экспорта сцен в форматы 3D Tiles 1.1, LAS и LAZ.",
- "title": "Geo Register Plugin для сцен 3D Gaussian Splatting",
- "translated_at": null,
+ "model": "claude-haiku-5-5",
+ "research_notes": "Использует устойчивый решатель RANSAC + Umeyama для устойчивого к выбросам выравнивания координат; имеет режим 'No Scene' для обработки отдельных PLY-файлов с использованием существующих матриц подобия.",
+ "source_sha256": "04737abe8d8cd7b3f84434ad101313ab3ee1131dc60cee1c6d4ff85229a09400",
+ "summary": "Открытый инструмент на Python для геопривязки моделей 3D Gaussian Splatting к реальным координатам с использованием метаданных EXIF изображений или внешних CSV-журналов. Он обеспечивает профессиональную интеграцию с ГИС, экспортируя сцены в форматы 3D Tiles 1.1, LAS и LAZ.",
+ "title": "Geo Register Plugin: геопривязка сцен 3D Gaussian Splatting",
+ "translated_at": "2026-11-13",
  "translation": "machine"
 }

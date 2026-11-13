@@ -1,11 +1,12 @@
 {
+ "evolution_summary": "Интегрирована в Hugging Face Diffusers вскоре после запуска; модель получила широкое распространение благодаря нативной поддержке и квантизации GGUF для потребительского железа.",
  "id": "n-c56aa9fa27",
  "lang": "ru",
- "model": "legacy-web-overlay",
- "research_notes": "Достигла VBench-оценки 83.76%, превзойдя 14B-модель Wan2.1 при значительно меньших вычислительных затратах.",
- "source_sha256": "legacy",
- "summary": "Motif-Video 2B — это open-source модель text-to-video, построенная на архитектуре Decoupled Diffusion Transformer (DDT) и VAE из Wan2.1. Она использует общее cross-attention и выравнивание признаков, чтобы давать качественный синтез видео всего при 2 миллиардах параметров.",
- "title": "Motif-Video 2B: эффективная видеомодель на Decoupled Diffusion Transformer",
- "translated_at": null,
+ "model": "claude-haiku-5-5",
+ "research_notes": "Набрала 83.76% по VBench, превзойдя модель Wan2.1 на 14B параметров при значительно меньших вычислительных затратах.",
+ "source_sha256": "363ba103b0f466cacfad215a6588b80cb831792e4cc7c791af7b1e907940fe72",
+ "summary": "Motif-Video 2B — открытая модель генерации видео по тексту, построенная на архитектуре Decoupled Diffusion Transformer (DDT) и VAE от Wan2.1. Использует общее кросс-внимание и выравнивание признаков, чтобы обеспечить высококачественный синтез видео всего на 2 миллиардах параметров.",
+ "title": "Motif-Video 2B: эффективная видеомодель на основе Decoupled Diffusion Transformer",
+ "translated_at": "2026-11-13",
  "translation": "machine"
 }

@@ -1,11 +1,12 @@
 {
+ "evolution_summary": "Baidu выпустила веса модели по лицензии Apache 2.0 в апреле 2026 года, что стало стратегическим шагом к открытой доступности. С тех пор модель получила нативную поддержку в библиотеке Diffusers и широкую интеграцию с ComfyUI.",
  "id": "n-c2ca134086",
  "lang": "ru",
- "model": "legacy-web-overlay",
- "research_notes": "Широко известна благодаря лучшим в индустрии возможностям рендеринга текста и производительности при генерации сложных макетов вроде инфографики и раскадровок.",
- "source_sha256": "legacy",
- "summary": "Модель text-to-image на 8 миллиардов параметров от Baidu, построенная на архитектуре Diffusion Transformer (DiT). Она использует Distribution Matching Distillation (DMD) и обучение с подкреплением, чтобы генерировать высококачественные изображения всего за 8 шагов инференса.",
- "title": "ERNIE-Image-Turbo 8B: Diffusion Transformer с открытыми весами",
- "translated_at": null,
+ "model": "claude-haiku-5-5",
+ "research_notes": "Широко признана за ведущие в отрасли возможности рендеринга текста и производительность при генерации сложных макетов, таких как инфографика и раскадровки.",
+ "source_sha256": "129a59d19efb9e6d1572a1e74aaeadf23052bdd1fd2097154890bb393ee1d9ba",
+ "summary": "Модель генерации изображений по тексту на 8 миллиардов параметров от Baidu на основе архитектуры Diffusion Transformer (DiT). Использует Distribution Matching Distillation (DMD) и обучение с подкреплением, чтобы генерировать высококачественные изображения всего за 8 шагов инференса.",
+ "title": "ERNIE-Image-Turbo 8B: открытая диффузионная модель Diffusion Transformer",
+ "translated_at": "2026-11-13",
  "translation": "machine"
 }
