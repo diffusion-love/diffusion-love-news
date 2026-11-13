@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Als v0.1-Proof-of-Concept für urbane Establishing Shots gestartet; eine Folgeversion mit einem vielfältigeren Trainingsdatensatz ist derzeit in Entwicklung.",
+ "id": "n-9a27202165",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erfordert das Node-Paket ComfyUI-EquirectProjector und das Einbetten der finalen Video-Metadaten, damit die 360-Grad-Wiedergabe kompatibel ist.",
+ "source_sha256": "816b7510289062bc3b8243bd566e738fe314fd6e9eee20602c7b2ae5d2f1be9f",
+ "summary": "Ein spezialisiertes Image-Conditioned LoRA für das Modell LTX-2.3 von Lightricks, das Standard-Breitbildaufnahmen zu 360-Grad-Panoramen im equirectangular-Format erweitert. Es nutzt einen eigenen ComfyUI-Projektionsworkflow, um fehlende Umgebungen per Outpainting zu ergänzen und so immersives VR-Anschauen zu ermöglichen.",
+ "title": "VR-360-Outpaint: IC-LoRA für LTX-2.3 für 360-Grad-Video",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

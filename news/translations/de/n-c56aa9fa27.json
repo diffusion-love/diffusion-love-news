@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Kurz nach dem Start wurde das Modell in Hugging Face Diffusers integriert; wegen der nativen Unterstützung und der GGUF-Quantisierung für Consumer-Hardware hat es breite Verbreitung gefunden.",
+ "id": "n-c56aa9fa27",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erreichte einen VBench-Score von 83.76% und übertrifft damit das 14B-Parameter-Modell Wan2.1 bei deutlich geringerem Rechenaufwand.",
+ "source_sha256": "363ba103b0f466cacfad215a6588b80cb831792e4cc7c791af7b1e907940fe72",
+ "summary": "Motif-Video 2B ist ein quelloffenes Text-zu-Video-Modell auf Basis der Decoupled-Diffusion-Transformer-(DDT-)Architektur und des Wan2.1-VAE. Es nutzt geteilte Cross-Attention und Feature-Alignment, um mit nur 2 Milliarden Parametern hochwertige Videosynthese zu liefern.",
+ "title": "Motif-Video 2B: effizientes Decoupled-Diffusion-Transformer-Videomodell",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

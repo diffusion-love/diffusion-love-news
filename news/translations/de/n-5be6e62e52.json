@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Anfang 2026 veröffentlicht, führte das Projekt nicht komprimierende latente Kodierung und sichtbarkeitsbasierten Punktwolkenspeicher ein, um strukturelle Unschärfe bei der 3D-Rekonstruktion aus spärlichen Ansichten zu beheben.",
+ "id": "n-5be6e62e52",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Nutzt das Basismodell Wan2.1 I2V 14B und meldet eine 10-20x schnellere Inferenz gegenüber bisherigen Referenzverfahren auf dem neuesten Stand der Technik.",
+ "source_sha256": "9a1eb4c10bbed39eb75871ebb0eee332bd5d7281491190c233c0c1674f647556",
+ "summary": "AnyRecon ist ein Framework für hochwertige 3D-Objektrekonstruktion aus spärlichen und ungeordneten Fotosätzen. Es nutzt ein Video-Diffusionsmodell und einen globalen Szenenspeicher, um geometrische Konsistenz über beliebige Blickwinkel hinweg zu wahren.",
+ "title": "AnyRecon: 3D-Rekonstruktion aus beliebigen Blickwinkeln mit Video-Diffusion",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

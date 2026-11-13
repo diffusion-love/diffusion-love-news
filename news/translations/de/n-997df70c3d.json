@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das im April 2026 veröffentlichte Update v1.1 trainierte das destillierte Modell neu, um die Audioqualität deutlich zu verbessern, Artefakte zu reduzieren und die Bewegung zu stabilisieren. Lightricks hat für diese Version außerdem die zugehörigen LoRAs und ComfyUI-Workflows aktualisiert.",
+ "id": "n-997df70c3d",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Unter der Apache-2.0-Lizenz veröffentlicht; community-getriebene GGUF- und FP8-Quantisierungen ermöglichen den lokalen Betrieb auf Consumer-GPUs mit etwa 20GB VRAM.",
+ "source_sha256": "b455f801ad8f070d7656e95b2f810608bc5ec8fb49d95b60e24af75b1548c9b3",
+ "summary": "Ein Diffusion-Transformer-Modell mit 22 Milliarden Parametern von Lightricks, optimiert für hochwertige Text-zu-Video- und Audio-zu-Video-Generierung. Es nutzt den Textencoder Gemma 3 12B und ist für effiziente Inferenz in 8 Schritten ausgelegt.",
+ "title": "LTX-2.3-22B-DISTILLED-1.1 Video-DiT-Modell",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

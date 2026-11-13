@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "LTX2.3-10Eros wird als Image-to-Video-Feinabstimmung in der Modellfamilie LTX 2.3 veröffentlicht.",
+ "id": "n-3904aeff63",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Die offizielle Modellkarte auf Hugging Face kennzeichnet das Repository als Image-to-Video, beschreibt das Modell als Feinabstimmung und verlinkt auf LTX-2.3-spezifische Workflows und Modelldateien.",
+ "source_sha256": "d359bc5a41a88c92fae7262c477ec68064061dd8e78e94f84df0d5ccd4ec1e08",
+ "summary": "TenStrip hat LTX2.3-10Eros veröffentlicht, eine Image-to-Video-Feinabstimmung in der Modellfamilie LTX 2.3.",
+ "title": "LTX2.3-10Eros: Modell zur Videogenerierung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

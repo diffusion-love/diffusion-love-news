@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Bleibt in seiner Parameterklasse der aktuelle SOTA beim agentischen Schlussfolgern. Das Ökosystem wurde um die Formate GGUF und MLX erweitert, für effiziente lokale Inferenz auf Consumer-Hardware und Apple Silicon.",
+ "id": "n-9af7222826",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erreichte einen ClawBench-Score von 84,8 und liegt damit trotz kompakter Größe nahezu gleichauf mit Kimi K2.5 und GLM-4.5.",
+ "source_sha256": "dc929f0359d93cf73418d61f69b3e61a21f18b2ef6760477c759f91fe939020a",
+ "summary": "Ein modernstes Modell mit 4 Milliarden Parametern, optimiert für mehrstufiges Schlussfolgern und Tool-Calling. Es nutzt kuratierte Trajektorien agentischer Aufgaben, um in spezialisierten Benchmarks die Leistung deutlich größerer Modelle zu erreichen.",
+ "title": "QClaw-4B: kompaktes Sprachmodell für agentische Aufgaben",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Basiert auf Metas Framework TRansformative Inference for Behavioral Evaluation (TRIBE) v2; das Tool umfasst lokale Whisper-Transkription und Ollama-basierte Bearbeitungsempfehlungen für die kreative Strategie.",
+ "id": "n-f9bd7f602b",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Benötigt eine NVIDIA-GPU (6GB+ VRAM) und Windows; speziell dafür entwickelt, virale Video-Hooks und strukturelle Muster zurückzuentwickeln.",
+ "source_sha256": "490a94b437ac6dfb6a8b6c2656665dcdde1c76b6699aeb7dd856c95d89d73c5c",
+ "summary": "Eine lokale Web-Anwendung zur Analyse von Meta-Videowerbung mithilfe des Verhaltensinferenzmodells TRIBE v2. Sie übersetzt rohe Vorhersagen der Gehirnreaktionen in ein visuelles Prüfformat, um Videostruktur und kreative Hooks zu optimieren.",
+ "title": "TRIBE Review MVP",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

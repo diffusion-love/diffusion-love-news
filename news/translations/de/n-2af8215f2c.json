@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt entwickelte sich von einem bildbasierten Deghosting-Werkzeug aus dem Jahr 2023 zu einem umfassenden Framework für Video-Diffusion Anfang 2026. Die aktuelle Version nutzt Log-Gamma-Farbabbildung und Video-Priors, um verlorene Strahldichte in älteren 8-bit-Inhalten wiederherzustellen.",
+ "id": "n-2af8215f2c",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Das Update 2026 ist für seinen hohen Rechenbedarf bekannt; für eine effiziente Verarbeitung sind in der Regel GPUs der A100-Klasse nötig.",
+ "source_sha256": "70bbcec885a7bead5dd9454c2cfd4d02ab3290b3c407fa107bc3d59cc67b810b",
+ "summary": "Ein Framework zur Umwandlung von 8-bit-LDR-Videos in 32-bit-HDR-Sequenzen durch generative Strahlungsrekonstruktion (Radiance Inpainting). Es nutzt vortrainierte Video-Diffusionsmodelle, um realistische Glanzlichter zu erzeugen, und wahrt dabei eine strikte zeitliche Konsistenz.",
+ "title": "DiffHDR: Generative LDR-zu-HDR-Video-Diffusion",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

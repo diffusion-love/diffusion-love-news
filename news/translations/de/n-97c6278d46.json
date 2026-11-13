@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Ende April 2026 als Weiterentwicklung der Serie Qwen3.5 MoE veröffentlicht, führte es „Thinking Preservation“ für die Konsistenz des Reasonings über mehrere Turns ein. Seit Mai 2026 unterstützt es native Multi-Token-Prediction (MTP) in lokalen Inferenz-Engines wie llama.cpp, was die Leistung auf Consumer-Hardware verbessert.",
+ "id": "n-97c6278d46",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Lizenziert unter Apache 2.0; erreicht eine Erfolgsquote von 77.2% bei SWE-bench Verified und positioniert sich damit als führende lokale Alternative zu proprietären Coding-Agenten.",
+ "source_sha256": "e9f868639484581dbad60ece7025613000708d30b804b90cb400c7b164ed2f2b",
+ "summary": "Ein dichtes Modell mit 27B Parametern von Alibaba, veröffentlicht im April 2026, spezialisiert auf agentisches Coding und komplexes logisches Reasoning. Es nutzt eine Hybridarchitektur aus Gated Attention und Gated DeltaNet, um lange Kontexte bei Aufgaben auf Repository-Ebene effizient zu verarbeiten.",
+ "title": "Qwen3.6-27B: leistungsstarkes Open-Weight-Coding-Modell",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-bb76b83d43",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository in das Verzeichnis custom_nodes von ComfyUI.\n\nLaden Sie die Gewichte des Modells Drama 3 in models/diffusion_models und die Codec-Gewichte in models/vae herunter.\n\nLaden Sie das mitgelieferte Beispiel-Workflow für Stimmklonierung oder Text-to-Speech, hängen Sie eine Referenzaufnahme für das Klonen des Sprechers an und stellen Sie die Ausführung mit Emotions-Tags in die Warteschlange.\n\nKonfigurieren Sie das Auslagern des Arbeitsspeichers (RAM-Offloading) für die gerouteten Experten und reservieren Sie auf 8 GB-Grafikkarten den VRAM für den Cache des aktiven Experten.\n\nVerwenden Sie saubere, kurze Referenzaufnahmen ohne Hintergrundgeräusche, um eine hochwertige Stimmklonierung sicherzustellen.\n\nFügen Sie gerichtete Vortragshinweise in eckigen Klammern wie [whispers] oder [laughs] ein, um die Tonlage in Dialogskripten mit mehreren Sprechern zu steuern.",
+ "source_sha256": "a639806c5b348c8fa932f5c305173b24c07628aa5a78f06816fcf6037f001f26",
+ "summary": "Die ComfyUI-Drama3-Custom-Nodes wurden um ein optimiertes Expert-Caching von Host zu Gerät erweitert; für das 35B-Modell Drama 3 von Fish Audio werden auf 8GB-VRAM-Systemen laut Angaben 3x bis 4x schnellere Inferenz gemeldet.",
+ "title": "ComfyUI-Drama3 mit Expert-Caching für 3x+ Beschleunigung auf 8GB VRAM aktualisiert",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

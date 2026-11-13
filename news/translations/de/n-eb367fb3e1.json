@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Aus der Forschung LumiVid für die Rekonstruktion einzelner Bilder übernommen, wurde das Projekt auf große DiT-Modelle erweitert. Derzeit bietet es produktionsreife LoRAs für Qwen-Image-Edit-2511 sowie experimentelle Unterstützung für die schnellere Architektur FLUX.2-klein.",
+ "id": "n-eb367fb3e1",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erzeugt szenenlineare EXR-Dateien, kompatibel mit Nuke und DaVinci Resolve; integriert in ComfyUI über die Node-Suite ComfyUI_Gear.",
+ "source_sha256": "146f3e2f6fe8d034746f02a6281d8089471c641fa4319b188b9fd05ec3a8783b",
+ "summary": "LumiPic ist ein Open-Source-Werkzeug, das Bilder mit Standard-Dynamikumfang (SDR) mithilfe von Diffusion Transformers in 16-Bit-High-Dynamic-Range-EXR-Dateien (HDR) umwandelt. Es nutzt LogC3-kodierte Diffusion, um fehlende Details in Lichtern und Schatten für professionelle VFX-Pipelines zu rekonstruieren.",
+ "title": "LumiPic: SDR-zu-HDR-Bilddiffusion",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

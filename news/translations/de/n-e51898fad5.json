@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Nachfolger von GLM-5 und GLM-4.7; der Schwerpunkt verschob sich von der Codegenerierung hin zum autonomen Engineering. Eingeführt wurde das „Interleaved Thinking“ für komplexes Reasoning; zudem erreichte das Modell Spitzenplätze bei SWE-Bench Pro und übertraf mehrere führende proprietäre Modelle.",
+ "id": "n-e51898fad5",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Verfügt über ein Kontextfenster von 200K und ein Ausgabelimit von 128K; kompatibel mit gängigen agentischen Frameworks wie Claude Code und Cline.",
+ "source_sha256": "6bb55e3361a48f446f2df28d246028478709176c24818e73f74f52c452337ba8",
+ "summary": "Ein sparsames MoE-Modell mit 754B Parametern, optimiert für langfristig angelegte autonome Programmier- und Engineering-Aufgaben. Es ist darauf ausgelegt, über 8-Stunden-Engineering-Schichten und Tausende von Tool-Aufrufen hinweg kohärente Leistung zu halten.",
+ "title": "GLM-5.1: autonomer Engineering-Agent von Z.ai",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-a167c6f61b",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installieren Sie die Anwendung aus dem offiziellen Release-Paket oder klonen Sie das Repository in die lokale Python-Umgebung.\n\nLegen Sie die erforderlichen Modell-Checkpoints, Textencoder und VAE-Gewichte in die entsprechenden Unterordner des models-Ordners.\n\nStarten Sie den Backend-Server über das Hauptausführungsskript, um die webbasierte Canvas-Oberfläche zu öffnen.\n\nErstellen Sie einen gerichteten azyklischen Graphen (DAG), der Modell-Loader, Prompt-Conditioning, Latent-Sampling und VAE-Decode-Knoten verbindet, und stellen Sie den Prompt anschließend in die Warteschlange.\n\nVerfolgen und übernehmen Sie die fortlaufenden Punkt-Releases aus dem Stream der getaggten Releases auf GitHub.\n\nGruppieren Sie zusammengehörige Funktionsblöcke in sichtbare Gruppenrahmen mit eindeutigen Beschriftungen und verwenden Sie Reroute-Knoten, damit sich die Verbindungslinien in großen Graphen nicht verknoten.\n\nVerwenden Sie geladene Modell- und VAE-Ausgaben für nachgelagerte Conditioning-Zweige erneut, statt doppelte Loader-Knoten zu instanziieren, die den GPU-Speicher belegen.\n\nPrüfen Sie den Ausführungsablauf an einem minimalen Basisgraphen, bevor Sie komplexe Erweiterungen von Drittanbietern hinzufügen.\n\nLesen Sie die offiziellen Release-Tags und Changelogs, bevor Sie produktive Laufzeitumgebungen aktualisieren, um Schema- oder Custom-Node-Brüche zu vermeiden.",
+ "source_sha256": "4e7d87ecb1e5e2453dc1e51f30aad3041c7a0fb1e33b22d6e96d984f9ad28d6c",
+ "summary": "Comfy-Org hat das Release v0.42.5 auf GitHub veröffentlicht; es bringt routinemäßige Korrekturen am Kern und Wartungsarbeiten an Nodes innerhalb des Release-Zweigs v0.42.",
+ "title": "ComfyUI v0.42.5: Wartungs-Patch veröffentlicht",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

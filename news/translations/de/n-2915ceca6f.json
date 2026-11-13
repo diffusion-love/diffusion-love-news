@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Ursprünglich auf dem ECCV-2024-Paper basierend, entwickelte sich diese ComfyUI-Implementierung Ende 2025 weiter: mit verbessertem Tiefen-Stitching für Panorama-Chunks und nahtloser Integration in die Suite ComfyUI-3D-Viewer-Pro. Stand Mitte 2026 wird sie für die neuesten 3DGS-Rasterizer weiterhin aktiv gepflegt.",
+ "id": "n-2915ceca6f",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erfordert das vollständige CUDA Toolkit und C++-Kompilierung bei der Installation; 16GB+ VRAM (RTX 3090/4090) werden für stabile Leistung dringend empfohlen.",
+ "source_sha256": "193dfe6b02a1df81005193be8340edddc85492cc3b8acaa7ebd1625b584021ad",
+ "summary": "Eine spezialisierte ComfyUI-Node-Suite, die die Forschungsarbeit DreamScene360 umsetzt, um aus einem einzelnen 360°-Panoramabild global konsistente 3D-Gaussian-Splatting-(3DGS-)Szenen zu erzeugen. Sie nutzt Tiefenschätzung und panoramisches Splatting, um aus einem einzigen Blickpunkt explorierbare 3D-Umgebungen zu erstellen.",
+ "title": "ComfyUI-DreamScene360 — Panorama-Gaussian-Splatting und 3D-Szenen",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

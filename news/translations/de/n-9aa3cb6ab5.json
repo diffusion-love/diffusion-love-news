@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt entwickelte sich vom ursprünglichen 1.3B-Prototyp aus dem Jahr 2024 über die Versionen 2 und 3 zum aktuellen Flaggschiff AF-Next. Audio Flamingo Next führt Temporal Audio Chain-of-Thought (TA-CoT) für präzises Schlussfolgern mit Zeitstempeln ein und erweitert den Langkontext auf 30 Minuten Audio.",
+ "id": "n-9aa3cb6ab5",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Umfasst spezialisierte Varianten wie AF-Next-Think für Schlussfolgerungen und AF-Next-Captioner für detaillierte Beschreibungen. Verwendet einen eigenen AF-Whisper-Encoder und ein Text-Backbone auf Qwen2.5-Basis.",
+ "source_sha256": "4f15f876dc5aec7a6dcfbc6d06fbb9d03df62d7f64106d3b74652d72eab3e985",
+ "summary": "Eine modernste offene Serie großer Audio-Sprachmodelle von NVIDIA und UMD für umfassendes Verständnis von Klängen, Musik und Sprache. Mit Few-Shot-Learning ermöglicht sie feingranulares Schlussfolgern und mehrstufige Dialoge über komplexe Audioumgebungen.",
+ "title": "Audio Flamingo Next (AF-Next)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

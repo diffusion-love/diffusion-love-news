@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Im April 2026 als erstes größeres Open-Source-KI-Werkzeug von Netflix veröffentlicht. Seitdem wurde es in das Ökosystem CogVideoX integriert und um Unterstützung für SAM3 zur automatischen Maskenerzeugung erweitert.",
+ "id": "n-83af6888de",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erfordert erhebliche Hardware (40GB+ VRAM) und eine mehrstufige Pipeline mit Google Gemini für die Szenenlogik und SAM3 für die Maskierung.",
+ "source_sha256": "4a8f1c61e850b167725f799e70a3548f112b4011d50fb28353a923ee2c42731a",
+ "summary": "Ein physikbewusstes Framework für Video-Inpainting, das Objekte und ihre sekundären kausalen Effekte entfernt. Es nutzt die Strategie „Quadmask“, um physikalische Konsistenz zu sichern, etwa beim Entfernen eines Balls und seiner Auswirkung auf andere Objekte.",
+ "title": "VOID: Löschung von Videoobjekten und Interaktionen von Netflix",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

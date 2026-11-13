@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Im frühen April 2026 veröffentlicht, wurde das Projekt schnell um Unterstützung für die Wiederherstellung ganzer Bilder mit RetinaFace-Ausrichtung erweitert. Jüngste Updates im Mai 2026 konzentrierten sich auf die Verbesserung der ComfyUI-Integration und die Behebung gerätespezifischer Probleme bei der LoRA-Platzierung.",
+ "id": "n-30f5861cb4",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erfordert viel VRAM (22GB+) und das nicht quantisierte Modell FLUX.2-klein-base-4B. Eine beliebte ComfyUI-Implementierung ist über das Repository ComfyUI-Flux-FaceIR verfügbar.",
+ "source_sha256": "78edfeafc2a375dd3c633bf6c675606caaa86a4ae1c4d27e10c39d9b2aa72aff",
+ "summary": "Flux FaceIR ist ein spezialisiertes Restaurierungs-Framework auf Basis des Modells FLUX.2-klein, das blinde und referenzgeführte Gesichtsverbesserung unterstützt. Es nutzt LoRA-Adapter, um feinkörnige Details wiederherzustellen und die Identität über einzelne oder mehrere Referenzbilder hinweg zu bewahren.",
+ "title": "Flux FaceIR: Hochwertige Gesichtsrestaurierung für Flux",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

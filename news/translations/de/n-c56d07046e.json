@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Der Inferenzcode wurde im April 2026 über die GitHub-Organisation ByteVisionLab veröffentlicht. Das Modell erreicht auf Smartphones derzeit Echtzeit-Performance dank Destillation in 4 Schritten und eines beschnittenen mobilen U-Net-Backbones.",
+ "id": "n-c56d07046e",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Entwickelt vom ByteDance Intelligent Creation Lab; führt die In-Context-Verkettung räumlicher Informationen (in-context spatial concatenation) ein, um Generierungs- und Bearbeitungs-Workflows zu verschmelzen.",
+ "source_sha256": "fa3c50863bd9e7086a5bb391341a9b206527517c78d2bc5c71f9969716b7f3c5",
+ "summary": "Ein kompaktes Diffusionsmodell mit 0.39B Parametern, das ByteDance für mobile Hardware entwickelt hat. Es nutzt eine einheitliche Architektur, um Text-zu-Bild-Generierung und anweisungsbasierte Bildbearbeitung direkt auf dem Gerät auszuführen.",
+ "title": "DreamLite: einheitliche Bildgenerierung und -bearbeitung auf dem Gerät",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

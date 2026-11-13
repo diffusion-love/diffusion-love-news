@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Im April 2026 veröffentlicht, ersetzt dieses Modell die spezialisierten Architekturen Magistral und Devstral 2. Ein Update vom Mai 2026 behob Konfigurationsfehler bei der Verarbeitung langer Kontexte mit YaRN, während die EAGLE-Variante Unterstützung für spekulatives Decoding ergänzt.",
+ "id": "n-8e2ceecbcb",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Das Modell dient als zentrale Reasoning-Engine für Le Chat und den Coding-Agenten Vibe CLI.",
+ "source_sha256": "fd8670b3c76836071e2bf1ab4ffaf6d39e5cd5d3085bf37dc573d3bf14e3f6f0",
+ "summary": "Ein dichtes multimodales Modell mit 128 Milliarden Parametern für leistungsstarkes Reasoning, Coding und allgemeine Instruktionsbefolgung. Es verfügt über ein Kontextfenster von 256k Token und dient als einheitliche Spitzen-Engine für komplexe agentische Workflows.",
+ "title": "Mistral Medium 3.5: vereinheitlichtes multimodales 128B-Modell",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

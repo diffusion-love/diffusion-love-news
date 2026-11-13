@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Seit der Veröffentlichung Anfang 2026 unterstützt das Projekt inzwischen 20B-Parameter-Modelle und wurde für Consumer-GPUs mit 24GB VRAM optimiert. Derzeit ist es in verschiedene quelloffene UI-Wrapper für schnelle Diffusions-Inferenz integriert.",
+ "id": "n-a7d1f83b13",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Anders als lineare Destillationsverfahren wie LCM parametrisiert ArcFlow das Geschwindigkeitsfeld, um nichtlineare Trajektorien zu erfassen; dadurch werden 40x-Beschleunigungen bei minimalem Qualitätsverlust möglich.",
+ "source_sha256": "d63cd20b324049b34e7b869b961f85705cb2ef4ea4680e5a661a0c9f4275af03",
+ "summary": "ArcFlow wurde von Microsoft Research Asia und der Fudan University entwickelt und nutzt eine nichtlineare Fluss-Destillation, um in nur 2 Schritten hochwertige Bilder zu erzeugen. Es optimiert die Inferenz großer Modelle wie FLUX.1 und Qwen-Image deutlich und erhält dabei die visuelle Treue.",
+ "title": "ArcFlow: nichtlineares Framework zur Bildgenerierung im 2-Step-Verfahren",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-269dacc1a7",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installieren oder öffnen Sie die Terminal-Entwicklungsumgebung OpenCode.\n\nWählen Sie GLM-5.3-Flash aus den verfügbaren Programmiermodellen.\n\nLeiten Sie Aufgaben zum Programmieren, Tool-Aufrufe oder visuelle Analysen innerhalb des Kontextlimits von 200K Tokens unter der Zero-Retention-Datenschutzrichtlinie weiter.\n\nBegrenzen Sie den Arbeitskontext des Agenten auf 200K Tokens, um im kostenlosen Kontingent zu bleiben und Kontextabschneidung bei langen Repository-Sitzungen zu vermeiden.\n\nStrukturieren Sie Agenten-Workflows um natives Tool-Calling und multimodale Eingaben statt reiner Textvervollständigung, um das spezialisierte MoE-Aktivierungsrouting des Modells zu nutzen.",
+ "source_sha256": "8b3f49fd892bf9a419afd1da795d0245ad6ed07dc5f1bb4745c8bd82ef6c724f",
+ "summary": "OpenCode hat vorübergehend Zugang zum Mixture-of-Experts-Modell GLM-5.3-Flash von Zhipu für Programmier- und Agenten-Workflows eröffnet. Die Veröffentlichung umfasst 18B aktive Parameter aus insgesamt 320B Parametern, Bild- und Tool-Ausführung, ein Kontextfenster von 200K Tokens und Zero Retention der Anfragedaten.",
+ "title": "OpenCode bietet vorübergehend kostenlosen Zugang zu GLM-5.3-Flash",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt entwickelte sich von einer Sammlung von Hilfsknoten zu einem umfassenden Trainingsökosystem für LTX-Video; es führt bedingungssichere LoRAs ein und integriert MOSS-TTS für synchronisierte Audio-Video-Workflows.",
+ "id": "n-c66b8c38b0",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Enthält den Rose-Optimierer, einen eigenen zustandslosen PyTorch-Optimierer von RichServo, der den Speicheraufwand im Vergleich zu 8-bit-AdamW deutlich reduziert.",
+ "source_sha256": "a7698278459a152263fb6e53bfa33bddbe35a0a724a5e338e9214ec104e94ae1",
+ "summary": "Eine Sammlung eigener ComfyUI-Knoten für leistungsstarke Videogenerierung und speichersparendes LoRA-Training, speziell für LTX-Video-Modelle. Sie enthält den proprietären Rose-Optimierer, der das Training auf Consumer-GPUs mit nur 11GB VRAM ermöglicht.",
+ "title": "RS Nodes: ComfyUI-LoRA-Training für Video",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Entwickelt aus einem Forschungswerkzeug für den Benchmark Auto-ClawEval mit 1,040 Aufgaben zu einem universellen Toolkit, das das Model Context Protocol (MCP) und die Generierung von Umgebungen im laufenden Betrieb zum Debuggen von Agenten unterstützt.",
+ "id": "n-2f8c6f34f0",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erreicht bei der Benchmark-Erzeugung menschliche Qualität bei einer Reduktion von Kosten und Zeit um den Faktor 13,800x gegenüber manueller Kuratierung.",
+ "source_sha256": "d19d80a5bd47d6e38c8360915110cbc309bc7b31741388510a1c34755027503c",
+ "summary": "Ein autonomes Toolkit zum Erzeugen und Validieren von Umgebungen für werkzeugnutzende KI-Agenten. Es automatisiert die Erstellung von Aufgabenspezifikationen, Tool-Schnittstellen und kontinuierlichen Bewertungskonfigurationen, um skalierbares Benchmarking zu ermöglichen.",
+ "title": "ClawEnvKit: Automatische Umgebungsgenerierung für KI-Agenten",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

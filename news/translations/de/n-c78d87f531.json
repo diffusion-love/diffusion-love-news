@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Nach der Veröffentlichung Anfang 2026 optimierte das Update v2.0 im März 2026 das Modell für hochauflösende Inferenz mit 1.5k und für Fotorealismus. Im April 2026 wurde die GGUF-Quantisierung eingeführt, die den VRAM-Bedarf auf Consumer-GPUs deutlich senkt.",
+ "id": "n-c78d87f531",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Entwickelt von NeuralVFX, um eine überlegene Segmentierungssteuerung innerhalb des Z-Image-Ökosystems zu bieten; es ist ein zentrales Werkzeug in hochwertigen ComfyUI-Workflows von Photogrammetrie zu Rendering.",
+ "source_sha256": "542e1094c81388a2473963140793608fdbdfc737562f3af4206cfea86db5f9e0",
+ "summary": "Ein spezialisiertes ControlNet für das Modell Z-Image 6B, das aus den Segmentierungsmasken des Segment Anything Model (SAM) fotorealistische Bilder synthetisiert. Es bietet präzise räumliche Kontrolle, indem die generierten Inhalte strikt den Grenzen komplexer Eingabemasken folgen.",
+ "title": "Z-Image-SAM-ControlNet von NeuralVFX",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

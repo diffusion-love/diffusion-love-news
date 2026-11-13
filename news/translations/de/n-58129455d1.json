@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Die Version 2.6 führt die Unterdrückung kontextueller Prozessredundanz ein, um Chain-of-Thought-Reasoning zu straffen. Sie folgt auf die Serie Ring-2.5 mit verbesserter Effizienz bei der Token-Generierung und geringerem VRAM-Bedarf.",
+ "id": "n-58129455d1",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Veröffentlicht von InclusionAI (Ant Group); kostenlos verfügbar auf OpenRouter und in Kilo Code integriert.",
+ "source_sha256": "fcaff7d4a5c1b365d57f1e5d8af39adc6fbcf1fb38dcefdc52f2223a523061a8",
+ "summary": "Ein massives Mixture-of-Experts-Modell mit 1 Billion Parametern, optimiert für komplexes Schlussfolgern und agentische Workflows. Es unterstützt ein Kontextfenster von 262K Token und ist speziell für Coding und Tool-Nutzung abgestimmt.",
+ "title": "Ring-2.6-1T: leistungsstarkes agentisches MoE-Modell",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

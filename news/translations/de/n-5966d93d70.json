@@ -1,0 +1,11 @@
+{
+ "id": "n-5966d93d70",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Den cache-toleranten Bereich in der Sampling-Trajektorie des gemeinsamen Audio-Video-Diffusionsmodells identifizieren; er entspricht typischerweise mittleren Diffusionsschritten.\n\nDen Sampling-Loop so konfigurieren, dass Ausgaben des Audio-Denoisers zwischengespeichert und wiederverwendet werden und in der mittleren Phase die Cross-Modal-Attention umgangen wird, während der Video-Denoiser vollständig ungecacht ausgeführt wird.\n\nFür die abschließenden Schritte die vollständige gemeinsame Audio-Video-Entrauschung in beiden Modalitäten wiederherstellen, um Cross-Modal-Drift zu beseitigen und die Audio-Video-Synchronisation zu fixieren.\n\nVermeiden, Ausgaben des Video-Denoisers über Zwischen-Sampling-Schritte hinweg zu cachen, da Videorepräsentationen nicht die asymmetrische Wiederherstellbarkeit von Audio besitzen und unwiederbringlich an zeitlicher Schärfe und Bewegungsqualität verlieren.\n\nEin ausreichendes Fenster terminaler gemeinsamer Entrauschungsschritte am Ende der Sampling-Trajektorie erhalten, um Audiotreue und präzise zeitliche Abstimmung mit der Videodynamik zu gewährleisten.",
+ "source_sha256": "d683c660960255d4e1e9b7cbe06eaba93f387457e92c51969067fc5daec53cd7",
+ "summary": "Preprint 2610.30854 stellt CAVC vor, ein trainingsfreies Caching-Framework für die audiovisuelle Diffusionsgenerierung, das Zwischenschritte der Audio-Entrauschung zwischenspeichert, während die Videoverfeinerung weiterläuft und mit gemeinsamen terminalen Schritten endet.",
+ "title": "CAVC: modalitätsasymmetrisches Caching-Framework für audiovisuelle Diffusion",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

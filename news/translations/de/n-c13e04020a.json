@@ -1,0 +1,11 @@
+{
+ "id": "n-c13e04020a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Laden Sie die Modellgewichte oder quantisierten Varianten direkt aus dem offiziellen Hugging-Face-Repository herunter.\n\nStellen Sie das Modell lokal mit llama.cpp oder Ollama unter Verwendung der mitgelieferten GGUF-Dateien für Consumer-Hardware mit begrenztem Speicher bereit.\n\nStellen Sie es über vLLM oder SGLang bereit, um einen OpenAI-kompatiblen API-Endpunkt zu betreiben, der Anfragen mit langem Kontext bis zu 1M Token unterstützt.\n\nKonfigurieren Sie den Parameter für das Denkbudget (none, low oder high) pro Anfrage, um die Latenz des Schlussfolgerns und den Token-Verbrauch zu steuern.\n\nVerwenden Sie quantisierte INT4- oder GGUF-Varianten auf Edge-Hardware oder Consumer-GPUs, um den Speicherbedarf im Bereich von 4GB bis 8GB niedrig zu halten.\n\nWählen Sie für unkomplizierte Dialog- und Extraktionsaufgaben das Denkbudget „none“, um die Zeit bis zum ersten Token zu minimieren, und wechseln Sie für mehrstufige Logik oder Codegenerierung auf „high“.\n\nVerwenden Sie bei der Verarbeitung langer Kontexte bis zu 1M Token Paged-Attention-Laufzeiten wie vLLM oder SGLang mit angemessenen Host-Speicherzuweisungen, um KV-Cache-OOM zu verhindern.",
+ "source_sha256": "77f1e3382d39bb0e620a6fcdd97c289d43de78d44d1644af25926b96001c8227",
+ "summary": "Spark-X2.6-4B ist als Open-Weight-Modell mit 4B Parametern verfügbar. Es behält die Architektur von Version 2.5 bei, bringt Verbesserungen aus dem Post-Training und bietet drei Denkbudget-Modi, eine Kontextverarbeitung bis zu 1M Token sowie die Formate base, FP8, INT8, INT4 und GGUF.",
+ "title": "Spark-X2.6-4B unter Apache 2.0 veröffentlicht, mit quantisierten Varianten und konfigurierbarem Schlussfolgern",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

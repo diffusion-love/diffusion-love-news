@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Update 2.6 brachte die zentrale Funktion AI Cover, präzise Steuerung von BPM und Tonart und reduzierte die Generierungslatenz auf unter 20 Sekunden. Außerdem wurden Open-Source-MusicSkill-Module gestartet, um die Musikgenerierung in KI-Agenten-Ökosysteme zu integrieren.",
+ "id": "n-dfe5e1e7a6",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Unterstützt hochwertiges Audio mit 44.1kHz und vollständige Stücke von bis zu 6 Minuten Länge.",
+ "source_sha256": "9a922f258549c3151ebf35bda29020e6ad3404949de84e8bd397960f135dd658",
+ "summary": "MiniMax Music ist eine professionelle KI-Plattform für die Musikerstellung, die aus Textprompts und Liedtexten hochwertiges Audio generiert. Sie fungiert derzeit als umfassender kreativer Partner mit Werkzeugen für KI-Cover und professionelle Musikstrukturierung.",
+ "title": "MiniMax Music 2.6: KI-Plattform für Musikgenerierung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Von experimentellen mobilen Scans entwickelte sich die Lösung bis 2026 zu einer professionellen Lösung für die Umwandlung von 3DGS in Meshes. Version 3.0 bringt den Erhalt dünner Details, eine verbesserte Oberflächenstabilität und integrierte Skalierungswerkzeuge für 3D-Druck-Workflows.",
+ "id": "n-9db878fd06",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Führte als Erstes eine mobile Implementierung der 3DGS-zu-Mesh-Konvertierung ein; zu den Funktionen gehören Normalenvorhersage und Entfernung von Reflexionen.",
+ "source_sha256": "90da1914704be363495e7b9f83dc7213d0f86f67fd6bd27c1fe407d6c99fd7ca",
+ "summary": "Eine mobile 3D-Scanning-Plattform, die Video- und Fotoaufnahmen in hochauflösende Gaussian Splats und Polygonnetze (Meshes) umwandelt. Sie bietet eine spezialisierte Pipeline, um 3DGS-Daten in bearbeitbare, produktionsreife Assets zu überführen.",
+ "title": "KIRI Engine: Gaussian Splatting zu Mesh",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

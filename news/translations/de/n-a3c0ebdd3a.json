@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Ab Mitte 2026 stellt UniCorrn den aktuellen Stand der Technik bei der einheitlichen cross-modalen Korrespondenzsuche dar; es führt die bisher getrennten Aufgaben der Bild- und Punktwolken-Registrierung in einem einzigen Foundation-Model-Framework zusammen.",
+ "id": "n-a3c0ebdd3a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Führt einen neuartigen Dual-Stream-Attention-Decoder ein, der Erscheinungs- und Positionsmerkmale getrennt verarbeitet und dabei die Kerngewichte teilt; vorgestellt auf der CVPR 2026.",
+ "source_sha256": "31fbf2b5b4602c424d563c7474adade0cb8985c11f1853edc0a4562e0638c4f5",
+ "summary": "Ein einheitliches Transformer-Modell von Adobe Research und der Northeastern University, das 2D-2D-, 2D-3D- und 3D-3D-Matching innerhalb einer einzigen Architektur ausführt. Es nutzt geteilte Gewichte und einen Dual-Stream-Attention-Mechanismus, um bei der geometrischen Korrespondenz Spitzenergebnisse zu erzielen.",
+ "title": "UniCorrn: einheitlicher Korrespondenz-Transformer für 2D und 3D",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

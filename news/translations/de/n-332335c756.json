@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt entwickelte sich in v2.5 von einem einfachen Workflow zu einem robusten, node-basierten System. Zu den wichtigen Updates gehören nahtlose Schleifen, optimierter RAM-Verbrauch durch Meta Batching und die Abschwächung von 16-bit-Farbverschiebungen.",
+ "id": "n-332335c756",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erfordert das begleitende Custom-Node-Paket „ComfyUI-Wan-VACE-Prep“, um die neuesten Batch-Funktionen von v2.5 zu aktivieren.",
+ "source_sha256": "855fb2042249eef2ce088d4e29a704a05c1c39177890193c196ed81b44086982",
+ "summary": "Ein spezialisiertes ComfyUI-Hilfswerkzeug zur Erzeugung sanfter Übergänge zwischen Videoclips mit Wan-VACE-Modellen. Es bietet automatisches Farbabgleichen, Überblendungen und Batch-Verarbeitung, um die visuelle Konsistenz zu wahren.",
+ "title": "ComfyUI Wan VACE Video Joiner für nahtlose Übergänge",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Seit seinem pseudonymen Debüt Anfang 2026 hat sich Happy Horse von einem Rätsel der Bestenlisten zu einem Eckpfeiler der KI-Strategie Alibabas entwickelt. Es brachte native 4K-Generierung, Multi-Shot-Konsistenz und eine Roadmap für eine Open-Source-Version mit 15 Milliarden Parametern hervor.",
+ "id": "n-0588f1e672",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Nutzt eine einheitliche Transformer-Architektur, die Audio- und Video-Tokens gleichzeitig verarbeitet; erreicht hohe Geschwindigkeit durch DMD-2-Destillation für die Generierung in 8 Schritten.",
+ "source_sha256": "2723f86604eefa2f27ba960a3174b583c2818792ddde7fb1c9a5cc16a0660f20",
+ "summary": "Ein leistungsstarker KI-Videogenerator des Future Life Lab von Alibaba, der in einem Single-Stream-Transformer synchronisierten Ton und filmisches Video nativ erzeugt. Aktuell belegt er den Spitzenplatz in der Artificial Analysis Video Arena für seinen überlegenen Fotorealismus und seine Lippensynchronität.",
+ "title": "Happy Horse 1.0: Einheitliches Modell zur Videogenerierung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

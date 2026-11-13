@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt entwickelte sich von der Forschungsphase zu einem Poster auf der CVPR 2026, mit jüngsten Veröffentlichungen von Inferenzcode und interaktiven Demos. Es arbeitet 15x schneller als frühere optimierungsbasierte State-of-the-Art-Methoden.",
+ "id": "n-155ef8c3dc",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Entwickelt an der CMU; unterstützt optionale RGB-D-, IMU- und Radar-Doppler-Eingaben, die die Rekonstruktionsqualität deutlich verbessern.",
+ "source_sha256": "c3b9a2b1f78ddc8b3237bdd101ab427467bcad67f5bfef09b36b815c2b2ec335",
+ "summary": "Any4D ist ein Framework für dichte, metrisch skalierte 4D-Rekonstruktion aus monokularem oder multimodalem Video mithilfe einer schnellen Feed-Forward-Transformer-Architektur. Es erreicht hohe Genauigkeit und Echtzeitfähigkeit, indem es Szenen in egozentrische und allozentrische Komponenten zerlegt.",
+ "title": "Any4D: Einheitliche metrische 4D-Rekonstruktion im Feed-Forward-Verfahren",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

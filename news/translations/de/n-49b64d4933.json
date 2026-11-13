@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Nach der Präsentation auf der NeurIPS 2025 wurden Code und Gewichte im April 2026 veröffentlicht. Das Projekt markiert den Wechsel zur gemeinsamen Modellierung in einem einzigen Durchgang auf Basis des NVIDIA-Cosmos-Backbones und übertrifft frühere mehrstufige Relighting-Pipelines deutlich.",
+ "id": "n-49b64d4933",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Nutzt die NVIDIA OneWay Noncommercial License; erfordert die Gewichte des Cosmos-Predict1-Backbones und Zugang zu Hugging Face.",
+ "source_sha256": "0a32efbd36e4a29d1654fa0dc842e09e30433593556d1289956b8cd040be2cb1",
+ "summary": "Entwickelt von NVIDIA, ist UniRelight ein Framework für Video-Relighting in einem Durchgang, das intrinsische Zerlegung und Synthese gemeinsam durchführt. Es nutzt das Foundation-Modell Cosmos-Predict1 mit 7B Parametern, um in komplexen Lichtsituationen hohe Treue und zeitliche Konsistenz zu erreichen.",
+ "title": "UniRelight: Framework für gemeinsame Video-Zerlegung und -Synthese",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

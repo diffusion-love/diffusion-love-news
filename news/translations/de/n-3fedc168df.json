@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Entwickelt aus einem früheren LLaVA-basierten Prototyp mit 7B Parametern, um räumliche Fehler von Modellen wie GPT-4V zu beheben. Es dient heute als grundlegende Baseline für 3D-bewusste Bildbearbeitung und die Wahrung der Konsistenz in Videogenerierungsmodellen.",
+ "id": "n-3fedc168df",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Nutzt den synthetischen Datensatz SpatialEdit-500K für das Training und führt SpatialEdit-Bench ein, um geometrische Treue und wahrnehmbare Plausibilität zu messen.",
+ "source_sha256": "66160c8ad3b62ddfd9aa20c06d961234d9f057893c488c158cdbc06d76dfc655",
+ "summary": "Ein multimodales Forschungsmodell für präzise geometrische Bildmanipulationen, mit dem sich Objekte verschieben, drehen oder skalieren sowie Kamerablickwinkel mit hoher mathematischer Genauigkeit anpassen lassen. Es verbindet einen multimodalen Qwen3-VL-Encoder mit einem MM-DiT-Diffusionsdecoder für modernes räumliches Schlussfolgern.",
+ "title": "SpatialEdit-16B: Feinkörnige räumliche Bildbearbeitung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

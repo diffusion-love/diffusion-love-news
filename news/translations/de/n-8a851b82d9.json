@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt entwickelte sich von einer einfachen Frame-Interpolation zu einem vollständig 4D-verankerten, kamerageführten Workflow auf Basis der Wan-Diffusionsreihe. Seit Mai 2026 unterstützt es die Architektur Wan 2.7 für hochwertige Kamerasteuerung und anweisungsbasierte Bearbeitung.",
+ "id": "n-8a851b82d9",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Entwickelt von Morphic Films; enthält einen speziellen 4D-Visualizer für manuelle Keyframes von Kamerabahnen in rekonstruierten Punktwolkenräumen.",
+ "source_sha256": "8be63e3f43bdd169cd5768bd81baaf1a2fea2a548921e14bbad20a02f1f11d5b",
+ "summary": "Ein selbstüberwachtes Video-Diffusionssystem, das Kamerabahnen in monokularem Filmmaterial verändern kann. Es nutzt aus dem Quellvideo abgeleitete 4D-Punktwolken-Anker, um eine geometrische Konditionierung für konsistente Blickwinkelsynthese bereitzustellen.",
+ "title": "Reshoot-Anything: über 4D-Anchor gesteuerte Synthese von Videoblickwinkeln",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Vereint die bisher getrennten Architekturen TDT für Offline-Betrieb und spezialisiertes Streaming in einem einzigen Modell mit dynamischem Umschalten. Es folgt auf die Serie Parakeet-TDT-0.6b und bietet deutlich verbesserte WER und Effizienz beim Deployment.",
+ "id": "n-5b56fca93a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erreicht Echtzeitfaktoren von bis zu 3000x auf H100-GPUs bei Latenzen ab 160ms; bietet native Unterstützung für Zeichensetzung und Groß- und Kleinschreibung.",
+ "source_sha256": "4e1ab6a9b3dd09f0368cf6136be5a823e35f8cb19205c64b113a3348778c0581",
+ "summary": "Ein Modell für automatische Spracherkennung mit 600 Millionen Parametern, das Offline-Batch-Verarbeitung und Echtzeit-Streaming-Transkription vereint. Es nutzt die Architektur Unified-FastConformer-RNNT, um über verschiedene Audioaufgaben hinweg hohe Genauigkeit und niedrige Latenz zu liefern.",
+ "title": "NVIDIA Parakeet-unified-en-0.6b: vereinheitlichtes ASR-Modell",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

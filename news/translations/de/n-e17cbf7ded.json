@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Mitte 2026 aktualisiert, mit 1.25-Bit-Quantisierung über das Sherry-Framework, wodurch das 1.8B-Modell auf 440MB reduziert wird, um es auf Mobilgeräten der unteren Preisklasse einzusetzen. Es gilt derzeit als Branchen-Benchmark für die Offline-Übersetzung auf dem Gerät.",
+ "id": "n-e17cbf7ded",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Führte Terminologie-Intervention und kontextbewusste mehrstufige Übersetzung ein; integriert in Tencent Meeting und Enterprise WeChat.",
+ "source_sha256": "3006d91228acb0b3bca058030d54b5c1721161ef64da60dcb4c6484419a6d5c2",
+ "summary": "Ein kompaktes mehrsprachiges Übersetzungsmodell, optimiert für den mobilen Einsatz auf dem Gerät durch extreme Kompression. Es liefert Spitzenleistung in 33 Sprachen bei minimalen Hardwareanforderungen.",
+ "title": "Tencent Hy-MT1.5: maschinelle Übersetzung für Mobilgeräte",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

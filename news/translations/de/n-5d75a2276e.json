@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Offiziell am 9. April 2026 gestartet und vollständig in die Doubao-App integriert, um Hunderte Millionen Nutzer zu bedienen. Die Entwicklung verlagert sich derzeit auf multimodale Integration, damit das Modell visuelle und Audiosignale gleichzeitig verarbeiten kann.",
+ "id": "n-5d75a2276e",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Verringert die Antwortlatenz um etwa 250ms und halbiert die Zahl falscher Unterbrechungen (50 % Reduktion) im Vergleich zu bisherigen kaskadierten Systemen.",
+ "source_sha256": "90ed9cd8efb27f34016e6e915aec19f41fff289f81037f1c14a1c941b8582467",
+ "summary": "Seeduplex ist ein nativ durchgängiges Full-Duplex-Sprachmodell, das natürliche „Listen-while-speaking“-Interaktionen mit Echtzeit-Unterbrechungsbehandlung ermöglicht. Es ist vollständig in den KI-Assistenten Doubao von ByteDance integriert und bietet menschenähnliche Gesprächsflüssigkeit.",
+ "title": "Seeduplex: Full-Duplex-Sprachmodell von ByteDance",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}
