@@ -20,6 +20,8 @@ A result is written only after it passes the checks below; anything else is repo
   py -3 scripts/translate_items.py submit  --lang de [--limit N] [--only n-xxxxxxxxxx ...]
   py -3 scripts/translate_items.py status  <batch_id>
   py -3 scripts/translate_items.py collect <batch_id>
+  py -3 scripts/translate_items.py jobs    --lang de [...] --out var/translate/jobs/<run> [--size N]
+  py -3 scripts/translate_items.py ingest  var/translate/jobs/<run> --model <model id>
   py -3 scripts/translate_items.py bundle  [--lang de ...]
   py -3 scripts/translate_items.py check
   py -3 scripts/translate_items.py import-legacy <translations.json> --lang ru
@@ -78,6 +80,8 @@ Keep exactly as they are, byte for byte:
 - URLs, file paths, commands, flags, config keys, code and everything between backticks;
 - product, model, library, company, organisation and person names, and model/version identifiers
   such as FLUX.2, SDXL, Qwen2.5-VL-7B, U1.5-8B-MoT (do not transliterate or translate them);
+  an English word joined to a name or number by a hyphen is not part of it and is translated
+  (K3-related, 1M-token, FP8-labelled, 3-second: keep K3, 1M, FP8, 3, translate the rest);
 - numbers and units.
 Established English technical terms that {language}-speaking engineers normally keep in English
 (LoRA, checkpoint, benchmark, fine-tune, diffusion) may stay in English.
@@ -160,8 +164,26 @@ def plan(lang: str, corpus: dict[str, dict]) -> dict[str, list[str]]:
 
 
 def name_tokens(text: str) -> list[str]:
-    return [t for t in NAME_TOKEN_RE.findall(text)
-            if re.search(r"[A-Za-z]", t) and re.search(r"\d", t)]
+    """Model/version names that must survive translation byte for byte.
+
+    An English word glued to a name by a hyphen is not part of the name and is translated:
+    "K3-related" keeps "K3", "FP8-labelled" keeps "FP8", "mid-2026" and "1.5-second-hop" keep
+    nothing. A multiplier ("10x"), an ordinal ("4th") or a counted word ("2-Step") is a number,
+    not a name.
+    """
+    out = []
+    for token in NAME_TOKEN_RE.findall(text):
+        parts = token.split("-")
+        while len(parts) > 1 and re.fullmatch(r"[a-z]+", parts[-1]):
+            parts.pop()
+        while len(parts) > 1 and re.fullmatch(r"[a-z]+", parts[0]):
+            parts.pop(0)
+        core = "-".join(parts)
+        if re.fullmatch(r"\d+(?:\.\d+)?(?:-\d+(?:\.\d+)?)?x|\d*(?:1st|2nd|3rd|\dth)|\d+-[A-Z][a-z]+", core):
+            continue
+        if re.search(r"[A-Za-z]", core) and re.search(r"\d", core):
+            out.append(core)
+    return out
 
 
 def check_translation(lang: str, source: dict[str, str], translated) -> dict[str, str]:
@@ -328,8 +350,7 @@ def cmd_collect(args) -> int:
         print(f"batch {args.batch} is {b['processing_status']}: not collected")
         return 2
     raw = api("GET", b["results_url"])
-    corpus = items()
-    ok, failed, langs = 0, [], set()
+    run = Run(items())
     for line in raw.decode("utf-8").splitlines():
         if not line.strip():
             continue
@@ -337,7 +358,6 @@ def cmd_collect(args) -> int:
         job = manifest.get(r["custom_id"])
         if job is None:
             continue
-        lang, item_id = job["lang"], job["id"]
         text = None
         try:
             res = r["result"]
@@ -347,36 +367,106 @@ def cmd_collect(args) -> int:
             if msg.get("stop_reason") != "end_turn":
                 raise ValueError(f"stop_reason {msg.get('stop_reason')}")
             text = "".join(c.get("text", "") for c in msg["content"])
-            if item_id not in corpus:
-                raise ValueError("item no longer in the feed")
-            source = source_fields(corpus[item_id])
-            if source_hash(source) != job["sha"]:
-                raise ValueError("English source changed since submit")
             try:
                 answer = parse_answer(text)
             except json.JSONDecodeError as e:
                 raise ValueError(f"answer is not JSON: {e}") from None
-            fields = check_translation(lang, source, answer)
-            write_json(record_path(lang, item_id), {
-                "id": item_id, "lang": lang, "translation": "machine", "model": msg.get("model", MODEL),
-                "translated_at": dt.date.today().isoformat(), "source_sha256": job["sha"], **fields,
-            })
-            langs.add(lang)
-            ok += 1
         except (ValueError, KeyError) as e:
-            failed.append({"lang": lang, "id": item_id, "reason": str(e)})
-            if text is not None:
-                rejected = STATE / "rejected" / lang / f"{item_id}.txt"
-                rejected.parent.mkdir(parents=True, exist_ok=True)
-                rejected.write_text(text, encoding="utf-8")
-    for lang in sorted(langs):
-        bundle(lang, corpus)
-    report = STATE / f"{args.batch}.result.json"
-    report.write_text(json.dumps({"written": ok, "failed": failed}, indent=1, ensure_ascii=False), encoding="utf-8")
-    print(f"written {ok}, failed {len(failed)} (details: {report})")
-    for f in failed[:20]:
-        print(f"  FAIL {f['lang']} {f['id']}: {f['reason']}")
-    return 1 if failed else 0
+            run.fail(job["lang"], job["id"], str(e), text)
+            continue
+        run.accept(job["lang"], job["id"], job["sha"], answer, msg.get("model", MODEL), text)
+    return run.finish(STATE / f"{args.batch}.result.json")
+
+
+class Run:
+    """Accepts answers for one run: every answer passes check_translation before it is written."""
+
+    def __init__(self, corpus: dict[str, dict]):
+        self.corpus = corpus
+        self.ok = 0
+        self.failed: list[dict] = []
+        self.langs: set[str] = set()
+
+    def accept(self, lang: str, item_id: str, sha: str, answer, model: str, raw: str | None = None) -> None:
+        try:
+            if item_id not in self.corpus:
+                raise ValueError("item no longer in the feed")
+            source = source_fields(self.corpus[item_id])
+            if source_hash(source) != sha:
+                raise ValueError("English source changed since the job was made")
+            fields = check_translation(lang, source, answer)
+        except ValueError as e:
+            self.fail(lang, item_id, str(e), raw if raw is not None else json.dumps(answer, ensure_ascii=False))
+            return
+        write_json(record_path(lang, item_id), {
+            "id": item_id, "lang": lang, "translation": "machine", "model": model,
+            "translated_at": dt.date.today().isoformat(), "source_sha256": sha, **fields,
+        })
+        self.langs.add(lang)
+        self.ok += 1
+
+    def fail(self, lang: str, item_id: str, reason: str, raw: str | None = None) -> None:
+        self.failed.append({"lang": lang, "id": item_id, "reason": reason})
+        if raw is not None:
+            rejected = STATE / "rejected" / lang / f"{item_id}.txt"
+            rejected.parent.mkdir(parents=True, exist_ok=True)
+            rejected.write_text(raw, encoding="utf-8")
+
+    def finish(self, report: Path) -> int:
+        for lang in sorted(self.langs):
+            bundle(lang, self.corpus)
+        report.parent.mkdir(parents=True, exist_ok=True)
+        report.write_text(json.dumps({"written": self.ok, "failed": self.failed}, indent=1, ensure_ascii=False),
+                          encoding="utf-8")
+        print(f"written {self.ok}, failed {len(self.failed)} (details: {report})")
+        for f in self.failed[:20]:
+            print(f"  FAIL {f['lang']} {f['id']}: {f['reason']}")
+        return 1 if self.failed else 0
+
+
+def cmd_jobs(args) -> int:
+    """Write translation jobs as files, for a translator that is not the Batches API.
+
+    Each <lang>-NNN.json holds the instructions and id -> English fields; the translator writes
+    <lang>-NNN.answer.json with id -> translated fields, and `ingest` checks and stores them.
+    """
+    corpus = items()
+    folder = Path(args.out)
+    folder.mkdir(parents=True, exist_ok=True)
+    manifest, count = {}, 0
+    for lang in args.lang:
+        p = plan(lang, corpus)
+        todo = args.only or (p["missing"] + p["stale"])
+        todo = [i for i in todo if i in corpus and source_fields(corpus[i])]
+        for n in range(0, len(todo), args.size):
+            chunk = {i: source_fields(corpus[i]) for i in todo[n:n + args.size]}
+            name = f"{lang}-{n // args.size:03d}"
+            write_json(folder / f"{name}.json", {
+                "lang": lang, "instructions": SYSTEM.format(language=LANGS[lang]), "items": chunk})
+            manifest[name] = {"lang": lang, "sha": {i: source_hash(f) for i, f in chunk.items()}}
+            count += len(chunk)
+    write_json(folder / "manifest.json", manifest)
+    print(f"{len(manifest)} jobs, {count} items in {folder}")
+    return 0
+
+
+def cmd_ingest(args) -> int:
+    folder = Path(args.folder)
+    manifest = load_json(folder / "manifest.json")
+    run = Run(items())
+    for name, job in sorted(manifest.items()):
+        answer_path = folder / f"{name}.answer.json"
+        try:
+            answers = load_json(answer_path) if answer_path.is_file() else None
+        except json.JSONDecodeError as e:
+            answers = None
+            print(f"{name}: answer file is not JSON: {e}")
+        for item_id, sha in job["sha"].items():
+            if not isinstance(answers, dict) or item_id not in answers:
+                run.fail(job["lang"], item_id, "no answer")
+                continue
+            run.accept(job["lang"], item_id, sha, answers[item_id], args.model)
+    return run.finish(folder / "result.json")
 
 
 def cmd_bundle(args) -> int:
@@ -449,6 +539,14 @@ def main() -> int:
             s.add_argument("--only", nargs="*")
     for name in ("status", "collect"):
         sub.add_parser(name).add_argument("batch")
+    s = sub.add_parser("jobs")
+    s.add_argument("--lang", action="append", choices=sorted(LANGS), required=True)
+    s.add_argument("--out", required=True)
+    s.add_argument("--size", type=int, default=10)
+    s.add_argument("--only", nargs="*")
+    s = sub.add_parser("ingest")
+    s.add_argument("folder")
+    s.add_argument("--model", required=True)
     sub.add_parser("bundle").add_argument("--lang", action="append", choices=sorted(LANGS))
     sub.add_parser("check")
     s = sub.add_parser("import-legacy")
@@ -456,6 +554,7 @@ def main() -> int:
     s.add_argument("--lang", action="append", choices=sorted(LANGS), required=True)
     args = ap.parse_args()
     return {"plan": cmd_plan, "submit": cmd_submit, "status": cmd_status, "collect": cmd_collect,
+            "jobs": cmd_jobs, "ingest": cmd_ingest,
             "bundle": cmd_bundle, "check": cmd_check, "import-legacy": cmd_import_legacy}[args.cmd](args)
 
 
