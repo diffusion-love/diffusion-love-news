@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "作为 LTX-Video 2.3 生态系统的一部分，于 2026 年 4 月发布；包括 LumiPic 图像变体，并已完全集成到 ComfyUI 中用于本地推理。",
+ "id": "n-52e566a651",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "可生成与 DaVinci Resolve 和 Nuke 等调色与合成工具兼容的专业级 float16 EXR 序列。",
+ "source_sha256": "37c5ebc589c6699dd69019b737ba00fd832f9ac3886f7cf2b44d964cf7f0245a",
+ "summary": "由 Lightricks 开发的高质量 SDR 到 HDR 视频转换框架。它在 LTX-Video 2.3（22B）基础模型上使用专用的 In-Context LoRA，以 16 位 LogC3 格式重建动态范围与阴影。",
+ "title": "LumiVid：基于 LTX-Video 2.3 的 SDR 到 HDR 视频生成",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

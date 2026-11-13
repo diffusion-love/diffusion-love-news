@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目代表了从稠密扩散 Transformer（DiT）设计向稀疏架构的转变。自发布以来，它已集成到 ComfyUI 中，并且仍是社区微调中流行的“干净”基础模型。",
+ "id": "n-98474cc274",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "该模型以 Apache-2.0 许可证发布，并在 Hugging Face 上提供完整的训练配方和权重。",
+ "source_sha256": "d8b8634c03653d9c54246f560c4f1b5df88fcabe534bcc8d2295b5bcce4e586a",
+ "summary": "一款 17B 参数的文生图模型，采用稀疏混合专家（Sparse Mixture-of-Experts）架构，将模型容量与推理成本解耦。每次前向传播仅激活约 2B 参数，在显著降低延迟的同时提供高质量生成。",
+ "title": "Nucleus Image：稀疏混合专家扩散模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

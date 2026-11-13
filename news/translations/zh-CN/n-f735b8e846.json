@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "继2024年11月的原始发布之后，空间变化高斯的概念通过SVG-IR项目扩展到逆渲染领域，该项目已被CVPR 2025接收。核心SVGS实现仍是表达性高斯基元的基础工作。",
+ "id": "n-f735b8e846",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "该项目基于2D高斯面元（Gaussian Surfels）构建，相较于标准3D高斯泼溅，显著改善了对精细细节的处理。",
+ "source_sha256": "3714fd1658154fe12f911a940c742ab6b3243baf9b8e1dd75f8851004db8a605",
+ "summary": "引入具有空间变化颜色和不透明度的高斯基元，以增强3D重建和新视角合成。该方法采用双线性插值等函数以及微型神经网络，使单个基元更具表现力且更紧凑。",
+ "title": "SVGS：用于场景重建的空间变化高斯泼溅",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

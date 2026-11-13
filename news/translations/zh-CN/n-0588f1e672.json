@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "自 2026 年初以匿名身份首次亮相以来，Happy Horse 已从排行榜上的谜团转变为阿里巴巴 AI 战略的核心。它引入了原生 4K 生成、多镜头一致性，并公布了 150 亿参数开源版本的路线图。",
+ "id": "n-0588f1e672",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "采用统一的 Transformer 架构，同时处理音频和视频词元；借助 DMD-2 蒸馏实现 8 步生成，从而获得较高速度。",
+ "source_sha256": "2723f86604eefa2f27ba960a3174b583c2818792ddde7fb1c9a5cc16a0660f20",
+ "summary": "来自阿里巴巴未来生活实验室（Future Life Lab）的高性能 AI 视频生成器，可在单流 Transformer 中原生合成同步音频与电影级视频。凭借其卓越的照片级真实感和口型同步精度，目前在 Artificial Analysis Video Arena 中位居榜首。",
+ "title": "Happy Horse 1.0：统一的视频生成模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

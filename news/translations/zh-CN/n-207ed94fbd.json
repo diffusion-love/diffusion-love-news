@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "作为高端 UMA 项目的移动端就绪“学生”模型，MUA 将计算成本降低了 2000x。它借助小波频谱分解，在移动 GPU 上实现实时性能的同时，保留了极致的皮肤和服装细节。",
+ "id": "n-207ed94fbd",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在桌面硬件上可达 180 FPS 以上，在 Meta Quest 3 上为 24 FPS；支持动态重光照和自阴影。",
+ "source_sha256": "2c3dc5f3b81b83c945fb9ea16f4133294c798e8a5111b7eabcec9de59b810279",
+ "summary": "MUA 是一个面向移动端优化的框架，用于渲染具有复杂服装动态的高保真数字人。它将服务器级视觉质量蒸馏为轻量格式，可在 Meta Quest 3 等独立硬件上以 24 FPS 运行。",
+ "title": "MUA：移动端超精细可动画化虚拟形象",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

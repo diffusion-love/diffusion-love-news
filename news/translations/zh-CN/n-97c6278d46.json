@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "作为对 Qwen3.5 MoE 系列的改进，该模型于 2026 年 4 月下旬发布，引入了用于多轮推理一致性的“Thinking Preservation”。截至 2026 年 5 月，它已在 llama.cpp 等本地推理引擎中获得原生多 token 预测（MTP）支持，从而提升了消费级硬件上的性能。",
+ "id": "n-97c6278d46",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "采用 Apache 2.0 许可；在 SWE-bench Verified 上达到 77.2% 的成功率，使其成为专有编码智能体的领先本地替代方案。",
+ "source_sha256": "e9f868639484581dbad60ece7025613000708d30b804b90cb400c7b164ed2f2b",
+ "summary": "阿里巴巴于 2026 年 4 月发布的 27B 参数稠密模型，专为智能体编码和复杂逻辑推理而设计。它采用结合 Gated Attention 与 Gated DeltaNet 的混合架构，以高效处理长上下文的代码仓库级任务。",
+ "title": "Qwen3.6-27B：高性能开放权重编码模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

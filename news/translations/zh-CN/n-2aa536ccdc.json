@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "承接 Kimi-K2 系列，原生支持最多 300 个子智能体的 Agent Swarm 协同以及 12 小时自主执行。随着生态转向这一以执行为重点的架构，对旧版 K2 模型的支持正在逐步终止。",
+ "id": "n-2aa536ccdc",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "以修改版 MIT 许可证作为开放权重模型发布；尤其擅长 SWE-Bench Pro 和长周期任务分解。",
+ "source_sha256": "c26d5aff6f939228faa703dec45e0d0f57155b1a123f26beffab36afeb6e8d3f",
+ "summary": "Moonshot AI 的旗舰 1T 参数 MoE 模型，专为复杂的长周期自主智能体任务设计。它支持原生多模态，并具有 262K 上下文窗口，针对软件工程与协同进行了优化。",
+ "title": "Kimi K2.6：Moonshot AI 前沿智能体 LLM",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

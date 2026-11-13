@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目已从基础投影工具发展为面向 3D 感知外绘和新视角合成的综合管线。近期更新包括与 Depth Anything V3 的集成、对 Wan2.1 和 LTX-2.3 等生成式视频模型的支持，以及一个基于 Open3D 的全新图形界面，用于交互式记录相机轨迹。",
+ "id": "n-3354f12396",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "关键依赖包括 Open3D 和 FFmpeg；该工具特别针对迭代外绘生成全球面 VR 环境进行了优化。",
+ "source_sha256": "125ef044abdbad7bba7aa4957f7c13f2641c381446682bb1ce64b9e2b26c8d65",
+ "summary": "一套专门用于 ComfyUI 的自定义节点，借助深度到点云的管线，实现高级 3D 感知图像变换和 VR 内容创作。它支持针孔、鱼眼和等距圆柱投影相机模型之间的无缝重投影，适用于复杂的视频合成工作流。",
+ "title": "camera-comfyUI：用于 ComfyUI 的 3D 相机投影节点",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

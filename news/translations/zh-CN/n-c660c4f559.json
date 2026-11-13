@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "自推出以来，CDM 已被用于蒸馏 Stable Diffusion 3 Medium 和 Longcat Image 等热门模型的“Turbo”版本，这些模型目前仍在维护，并可在 Hugging Face 上获取。这些模型仅用 4 步即可达到甚至超过 100 步教师模型的质量。",
+ "id": "n-c660c4f559",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "CDM 的独特之处在于训练过程中无需真实图像、GAN 判别器或外部奖励模型，相比先前方法简化了蒸馏流程。",
+ "source_sha256": "a4bb638536e2bd9d0c546a8f046f10d19ca45aa4407af89c2208b007433d54e7",
+ "summary": "连续时间分布匹配（CDM）是一个最先进的框架，可将文生图扩散模型加速为高保真、少步数（4 步）生成器。它使用连续优化空间，在无需复杂辅助模块的情况下消除过度平滑和视觉伪影。",
+ "title": "CDM：连续时间分布匹配扩散蒸馏",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2.6 版本引入了上下文相关的过程冗余抑制，以精简思维链推理。它继承了 Ring-2.5 系列，在 token 生成效率和显存需求方面均有所改进。",
+ "id": "n-58129455d1",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由 InclusionAI（蚂蚁集团）发布；可在 OpenRouter 上免费使用，并已与 Kilo Code 集成。",
+ "source_sha256": "fcaff7d4a5c1b365d57f1e5d8af39adc6fbcf1fb38dcefdc52f2223a523061a8",
+ "summary": "一个庞大的 1-trillion 参数混合专家模型，针对复杂推理和智能体工作流进行了优化。它支持 262K token 的上下文窗口，并专门针对编码和工具使用进行了调优。",
+ "title": "Ring-2.6-1T：高性能智能体 MoE 模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

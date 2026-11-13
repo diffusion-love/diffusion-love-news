@@ -1,0 +1,11 @@
+{
+ "id": "n-12dc9deafa",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从 Hugging Face 或 ModelScope 上的 InternScience/Sage-A1.5 仓库下载模型权重。\n\n使用 vLLM 或 SGLang 部署模型，并采用标准的 Qwen MoE 架构配置，以暴露兼容 OpenAI 的 API 端点。\n\n在智能体执行运行时中启用子智能体生成功能，使模型能够在相互隔离的上下文中并行处理子任务。\n\n在生成参数或系统提示词中启用原生验证，使模型在复杂轨迹中进行自我审查和错误恢复。\n\n对并行的调查分支使用隔离的子智能体上下文，以防止中间的噪声工具输出干扰根智能体。\n\n在处理超过原生 256K 词元上下文窗口的代码仓库或科学文献集合时，应用 YaRN 上下文缩放参数。\n\n使用 SGLang 或 vLLM 的 FP8/INT4 量化部署，以降低显存占用，同时保持 MoE 路由效率。",
+ "source_sha256": "e0e10c4bf346a316e00eb054592c490ba167c4fdc660d48dc0cc8f761b271573",
+ "summary": "上海人工智能实验室发布了 Sage-A1.5，这是一个采用 Apache 2.0 许可证的 35B 混合专家模型，每个词元激活 3B 参数，基于 Qwen3.6-35B-A3B 构建，原生支持并行子智能体编排，并支持 SGLang 和 vLLM 服务。",
+ "title": "上海人工智能实验室发布开放权重智能体模型 Sage-A1.5",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

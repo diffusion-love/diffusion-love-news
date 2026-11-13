@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Sulphur 2 作为基于 LTX-2.3 的基础检查点发布。",
+ "id": "n-8913c98771",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "SulphurAI 的模型卡将 Sulphur-2-base 标识为基于 LTX-2.3 的检查点。",
+ "source_sha256": "985b5ed8dd0a9df255853cd246f7aa2a3a1b5bdad1398a7aa8d1cae6236d6819",
+ "summary": "Sulphur 2 是 SulphurAI 发布的一个公开视频模型检查点。",
+ "title": "Sulphur 2 视频生成模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

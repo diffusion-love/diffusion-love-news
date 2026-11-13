@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "最初是一个面向NVIDIA NIM的基础FastAPI代理，后演变为具有本地管理界面和智能路由的多提供商网关。目前支持Claude Dev VSCode扩展和JetBrains IDE，已从“免费”的临时方案转变为适用于Claude生态系统、稳健且与后端无关的工具。",
+ "id": "n-f861f085b8",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "具有用于代理的“fcc-server”和便于配置的“fcc-claude”封装器；到2026年中期（mid-2026），GitHub星标已超过24k。",
+ "source_sha256": "1f7ccb67ed0c5943d73a5265d3764601717af5e870d7613cc81c260916de106e",
+ "summary": "一个运行时抽象层和代理服务器，使官方Claude Code CLI能够与NVIDIA NIM、OpenRouter和本地模型等替代LLM提供商配合使用。它提供完整的协议一致性，支持智能体工具调用、流式传输和推理块，且无需直接的Anthropic API密钥。",
+ "title": "Free Claude Code：面向Claude CLI的AI代理",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

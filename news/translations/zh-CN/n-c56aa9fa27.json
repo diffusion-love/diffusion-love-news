@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "发布后不久即集成到 Hugging Face Diffusers 中，凭借原生支持和面向消费级硬件的 GGUF 量化，该模型已得到广泛采用。",
+ "id": "n-c56aa9fa27",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "VBench 得分达到 83.76%，超过了 14B 参数的 Wan2.1 模型，同时计算量显著更少。",
+ "source_sha256": "363ba103b0f466cacfad215a6588b80cb831792e4cc7c791af7b1e907940fe72",
+ "summary": "Motif-Video 2B 是一款开源文生视频模型，基于解耦扩散 Transformer（DDT）架构和 Wan2.1 VAE 构建。它利用共享交叉注意力和特征对齐，仅用 2B 参数即可实现高质量视频合成。",
+ "title": "Motif-Video 2B：高效解耦扩散 Transformer 视频模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

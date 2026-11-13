@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从以记忆为核心的框架，发展为一个包含 3D 记忆可视化和自主工作流编排的综合“数字伙伴”生态系统。",
+ "id": "n-dd8d68b69f",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由 Pavel Muntyan（Mr. Freeman 的作者）创建；强调“默认主权”的设计理念，所有数据均保存在本地 SQLite 数据库中。",
+ "source_sha256": "81c3fb5dc215544b503288d04fdd39a8e62621e8c9c00f6b606e54256fc0f476",
+ "summary": "一款开源、本地优先的 AI 智能体编排器，使用分层 3D 知识图谱和对话汇总来管理长期记忆。它优先保护数据隐私，并通过 Model Context Protocol 支持多种 LLM 提供商。",
+ "title": "MF0-1984：多模态 AI 智能体的长期记忆",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从SANA（文本生成图像）扩展到SANA-Video，随后推出SANA-WM——一个2.6B参数的世界模型，支持1分钟720p视频以及6-DoF相机控制。",
+ "id": "n-e76fc8f96f",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "采用32x DC-AE压缩和线性注意力以实现低显存高效运行；自2025年1月起以Apache 2.0许可证发布。",
+ "source_sha256": "db2b11f229b6f869f32835ba8f90c6041e93306efd6b2d9902ba736ccd858737",
+ "summary": "NVIDIA的高效视频生成模型，采用线性扩散Transformer和深度压缩自编码器。与传统的二次注意力模型相比，它能以显著降低的显存需求生成720p视频。",
+ "title": "SANA-Video：高效的720p视频合成与超分辨率",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

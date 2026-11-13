@@ -1,0 +1,11 @@
+{
+ "id": "n-45b7bbd16b",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "RAW 成为训练和 LoRA 的基础，Turbo 是用于文生图的 8-step checkpoint。",
+ "source_sha256": "6a6502b83ff51964b8ec7bddd96c36306bd1b59c3899ba45055825a8330b0d2f",
+ "summary": "2026-06-23，收集到的链接集将一条 Krea AI 社交媒体帖子与社区托管的 Krea 2 Base、Turbo 以及标注为 FP8 的产物、提示词文档和一个 ComfyUI pull request 关联起来。这记录了在次日链接的官方文档集之前，围绕 Krea 2 出现的公开实现生态。来源页面和该帖子未经独立调研，因此其确切能力、状态和作者身份仍未经核实。",
+ "title": "Krea 2 的早期社区工具与模型产物浮出水面",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

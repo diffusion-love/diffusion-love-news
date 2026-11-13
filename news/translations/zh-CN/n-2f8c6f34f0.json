@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该工具最初是为 1,040 项任务的 Auto-ClawEval 基准研发的研究工具，现已发展为通用工具包，支持 Model Context Protocol（MCP），以及用于智能体调试的即时环境生成。",
+ "id": "n-2f8c6f34f0",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在基准生成中达到人类水平的质量，相比人工整理，成本和时间分别降低了 13,800 倍。",
+ "source_sha256": "d19d80a5bd47d6e38c8360915110cbc309bc7b31741388510a1c34755027503c",
+ "summary": "一个用于生成和验证工具调用型 AI 智能体环境的自主工具包。它可自动创建任务规范、工具接口和持续评分配置，以实现可扩展的基准测试。",
+ "title": "ClawEnvKit：面向 AI 智能体的自动环境生成",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

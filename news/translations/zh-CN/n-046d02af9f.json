@@ -1,0 +1,11 @@
+{
+ "id": "n-046d02af9f",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "将该扩展克隆到 ComfyUI/custom_nodes 中，并使用运行 ComfyUI 的 Python 环境安装其依赖。\n\n从维护者链接的模型仓库下载编码器和解码器 ONNX 文件，若提供了配套的 .data 文件也一并下载。将它们放入 ComfyUI/models/vae 中。\n\n使用 MiniMax-H3 TRT VAE Compiler 构建引擎，然后用 MiniMax-H3 TRT VAE Loader 加载。\n\n显存低于 12GB 时，维护者建议使用 w4a16_awq 解码器。这只是作者的建议，并不保证完整视频工作流能在你的 GPU 上运行。\n\n在目标分辨率下比较相同的 latent，并将 VAE 解码时间与总生成时间分开测量。独立测试显示，在 768p 下的提速远小于 2.0MP 下的提速。",
+ "source_sha256": "16f5d69ecd955fd252764766409e13166cda7e6b683c5a69cd7a5b36e338199c",
+ "summary": "ComfyUI-H3VAE_TRT 为 MiniMax-H3 的 VAE 编码与解码提供了第三方 TensorRT 方案。其维护者报告称，该阶段的速度最高可提升 1.7x，但这并非完整视频生成的速度。该节点包独立于 ComfyUI 核心和 MiniMax-H3 模型。",
+ "title": "面向 ComfyUI 中 MiniMax-H3 工作流的 TensorRT VAE 节点",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

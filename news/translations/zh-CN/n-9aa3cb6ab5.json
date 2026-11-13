@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从 2024 年的初始 1.3B 原型开始，经过版本 2 和版本 3，发展为当前的 AF-Next 旗舰版本。Audio Flamingo Next 引入了用于精确带时间戳推理的时序音频思维链（TA-CoT），并将长上下文支持扩展到 30 分钟音频。",
+ "id": "n-9aa3cb6ab5",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "包括用于推理的 AF-Next-Think 和用于详细描述的 AF-Next-Captioner 等专用变体。它使用自定义的 AF-Whisper 编码器和基于 Qwen2.5 的文本主干。",
+ "source_sha256": "4f15f876dc5aec7a6dcfbc6d06fbb9d03df62d7f64106d3b74652d72eab3e985",
+ "summary": "由 NVIDIA 与 UMD 推出的最先进开源大型音频-语言模型系列，可全面理解声音、音乐和语音。它支持对复杂音频环境进行细粒度推理和多轮对话，并采用少样本学习。",
+ "title": "Audio Flamingo Next（AF-Next）",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

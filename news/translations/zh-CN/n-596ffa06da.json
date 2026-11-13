@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从最初的 2B 模型过渡到 v1.5 XL 版本中的 4B 参数 DiT。它新增了用于 8 步推理的 XL-Turbo，改进了人声连贯性，并原生支持 ComfyUI 以实现修复和风格迁移等高级编辑。",
+ "id": "n-596ffa06da",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "包含混合架构：用于歌曲结构的 LM 规划器和用于音频的 DiT 执行器。支持 50 多种语言，并依据 Apache-2.0/MIT 许可允许商业使用。",
+ "source_sha256": "4e218e238ee14ba00eb3178b953f454defc67131baa44563461096edb60d1dbc",
+ "summary": "由 ACE Studio 与 StepFun 开发的开源 4B 参数扩散 Transformer（DiT）音乐基础模型。它采用规划器-执行器架构，可根据文本或歌词生成全长、高保真的歌曲。",
+ "title": "ACE-Step 1.5 XL",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

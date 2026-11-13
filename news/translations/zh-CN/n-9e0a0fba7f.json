@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目最初基于 Direct3D-S2 主干发布，2026 年 5 月升级为采用 TRELLIS.2 主干，以获得更优的几何和纹理质量。该研究已正式被 SIGGRAPH 2026 接收，现在支持多视角生成和模块化场景级合成。",
+ "id": "n-9e0a0fba7f",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "已被 SIGGRAPH 2026 接收；最新推理模型需要 TRELLIS.2 环境。",
+ "source_sha256": "3365975205ad08d6256fb1c75c167bf15f208a043a1f2c80a8b9d65bce82d86e",
+ "summary": "腾讯 ARC 实验室推出的最先进框架，通过像素对齐的反投影方案，从单张图像生成带有 PBR 纹理的高保真 3D 模型。它通过将 2D 特征直接提升到 3D 空间，实现了接近重建级别的保真度。",
+ "title": "Pixal3D：腾讯的像素对齐 3D 生成",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

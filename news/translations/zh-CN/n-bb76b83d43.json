@@ -1,0 +1,11 @@
+{
+ "id": "n-bb76b83d43",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "将仓库克隆到 ComfyUI custom_nodes 目录中。\n\n将 Drama 3 模型权重下载到 models/diffusion_models，将编解码器权重下载到 models/vae。\n\n加载提供的语音克隆或文本转语音示例工作流，附加用于说话人克隆的参考音频，并输入情感标签后执行队列。\n\n在 8 GB 显存的显卡上，配置系统内存卸载以用于路由专家，同时为活跃专家缓存保留 GPU 显存。\n\n使用干净、简短且无背景噪声的参考语音录音，以确保高保真的语音克隆。\n\n插入可指导的括号表演提示，例如 [whispers] 或 [laughs]，以在多说话人对话脚本中调节语气。",
+ "source_sha256": "a639806c5b348c8fa932f5c305173b24c07628aa5a78f06816fcf6037f001f26",
+ "summary": "ComfyUI-Drama3 自定义节点已更新，加入了优化的主机到设备专家缓存，据报告可在 8GB 显存系统上为 Fish Audio 的 35B Drama 3 模型带来 3 至 4 倍的推理加速。",
+ "title": "ComfyUI-Drama3 更新专家缓存，8GB 显存上提速 3x+",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

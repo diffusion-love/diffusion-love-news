@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该模型源自早期基于 7B LLaVA 的原型，旨在解决 GPT-4V 等模型中的空间失效问题。现在它已成为面向 3D 感知图像编辑以及视频生成模型一致性保持的基础基线。",
+ "id": "n-3fedc168df",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "训练使用 SpatialEdit-500K 合成数据集，并提出了 SpatialEdit-Bench，用于衡量几何保真度和感知合理性。",
+ "source_sha256": "66160c8ad3b62ddfd9aa20c06d961234d9f057893c488c158cdbc06d76dfc655",
+ "summary": "一个专为精确几何图像操作设计的多模态研究模型，使用户能够以高度数学精度移动、旋转或缩放对象并调整相机视角。它将 Qwen3-VL 多模态编码器与 MM-DiT 扩散解码器相结合，实现最先进的空间推理。",
+ "title": "SpatialEdit-16B：细粒度图像空间编辑",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

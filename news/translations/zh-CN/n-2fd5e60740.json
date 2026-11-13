@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026 年初，该项目发布了动画基础模型 V2.0，显著改进了运动轨迹，并能处理复杂的空中动作。现已支持 Physics Optimization 2.0 以防止脚部滑动，并原生支持 iClone 集成与多主体追踪。",
+ "id": "n-2fd5e60740",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "包含每月 50 积分的免费档位，并提供面向 Unreal Engine 5.6+ 和 Blender 的直接导出插件。",
+ "source_sha256": "caad73cece9cf631d0864654c42df16147618528a92d69e9a907371a468547d5",
+ "summary": "QuickMagic 是一个 AI 驱动的平台，可将普通视频转换为身体、手部和面部的高保真 3D 动作捕捉数据。对于游戏开发和动画创作者而言，它是硬件动捕服的一种高性价比替代方案。",
+ "title": "QuickMagic AI：专业视频转动捕与虚拟形象服务",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

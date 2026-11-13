@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从基础的 EXIF 配准扩展为支持从 RealityScan 和 Agisoft Metashape 进行高精度导入。它引入了 SPZ v3 压缩，文件体积缩小 14x，并通过 3D Tiles 1.1 实现与 CesiumJS 和 ArcGIS 的完全兼容。",
+ "id": "n-85862dbbb3",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "使用稳健的 RANSAC + Umeyama 求解器进行抗离群点的坐标对齐；具备“No Scene”模式，可利用已有的相似变换矩阵处理独立的 PLY 文件。",
+ "source_sha256": "04737abe8d8cd7b3f84434ad101313ab3ee1131dc60cee1c6d4ff85229a09400",
+ "summary": "一个开源 Python 工具，用于利用图像 EXIF 元数据或外部 CSV 日志，将 3D Gaussian Splatting 模型地理配准到真实世界坐标。它可将场景导出为 3D Tiles 1.1、LAS 和 LAZ 格式，从而实现专业的 GIS 集成。",
+ "title": "用于 3D Gaussian Splatting 场景的 Geo Register 插件",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

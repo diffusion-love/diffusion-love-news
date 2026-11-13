@@ -1,0 +1,10 @@
+{
+ "id": "n-6607af2693",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "7d9b2d8109b5572bc3abcfa0257a03e8ae3f385439e5d337d71597e287baae07",
+ "summary": "2026-06-19，TSANTSALIZE 开发项目记录了指向 Hugging Face 仓库 https://huggingface.co/TheBurgstall/tsantsalize. 的链接。该事件被视为一个重要的公开模型可用性里程碑，但已封存的证据未能确定该模型的版本、能力或发布细节。",
+ "title": "已记录 TSANTSALIZE 的 Hugging Face 模型资源",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

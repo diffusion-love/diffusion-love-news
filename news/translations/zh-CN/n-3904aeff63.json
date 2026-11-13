@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "LTX2.3-10Eros 作为 LTX 2.3 模型家族中的图生视频微调模型发布。",
+ "id": "n-3904aeff63",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "官方 Hugging Face 模型卡将该仓库标注为图生视频，将模型描述为微调版本，并链接了 LTX 2.3 专用的工作流和模型文件。",
+ "source_sha256": "d359bc5a41a88c92fae7262c477ec68064061dd8e78e94f84df0d5ccd4ec1e08",
+ "summary": "TenStrip 发布了 LTX2.3-10Eros，这是 LTX 2.3 模型家族中的一个图生视频微调模型。",
+ "title": "LTX2.3-10Eros 视频生成模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

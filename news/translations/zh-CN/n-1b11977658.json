@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从复杂的 6-node 工作流演化为单节点方案，以消除 ComfyUI 中的“意大利面式”工作流。近期更新整合了 Deep Histogram 色彩匹配，并通过 ComfyUI Manager 提升了与 FLUX.1 模型的兼容性。",
+ "id": "n-1b11977658",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "被视为日常 1.5x–4.0x 图像增强中比 Ultimate SD Upscale 更快、更易用的替代方案。",
+ "source_sha256": "2b8adc161436bd014bbb7b789d21c05970f84dba1d457bcde2de587610165dc4",
+ "summary": "一个适用于 ComfyUI 的综合自定义节点，将多个放大步骤整合到一个界面中，从而简化高分辨率修复流程。它内置分块 VAE 处理和色彩校正，以防止潜空间放大过程中出现显存不足（OOM）错误和饱和度下降。",
+ "title": "ComfyUI Hires Fix Ultra 一体化节点",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "n-55b3aea30b",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "7f971ba81a3da30bf06a19195afcf2105800e319534c74e3e3b44a07fa899b5d",
+ "summary": "2026-04-10，Google 关联了一则关于 3D 模型和图表的 Gemini 应用官方公告，以及 Gemini 应用本身。这记录了 Gemini 应用界面中的一次产品能力推进。仅凭这些 URL 无法确定该能力是如何实现的，或哪些账户获得了该能力。",
+ "title": "Gemini 应用宣布 3D 模型与图表功能",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "n-8ae442bb62",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "5f4753f6d94c23dc801ebeb17433d0dacaaa5a94ed7b1785daae5a913cdcbdf7",
+ "summary": "2026-05-19，mm-ctx 开发线引用了公开 Hugging Face Space 位于 https://huggingface.co/spaces/vlm-run/mm-ctx. 现有记录确立了这一公开项目引用，但无法确定它是否标志着发布、更新、演示或其他具体里程碑。",
+ "title": "mm-ctx 公开 Hugging Face Space 引用",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

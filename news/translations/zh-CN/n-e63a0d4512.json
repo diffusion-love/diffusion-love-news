@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目已从采集服务转型为I2M基础模型和API。目前已集成到Marso Studio平台中，专注于为摄影测量资产自动生成PBR材质并进行重新贴图。",
+ "id": "n-e63a0d4512",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "基于“Marso Measure”数据集训练，该数据集是全球最大的实测材质属性库。该公司于2026年融资$7M，用于扩展其材质智能基础设施。",
+ "source_sha256": "588411c0b05f7b2e9f1e3c19043f04947fbe37d8c0b932daabb6af3d3b9f2f97",
+ "summary": "一款基础AI模型，可从单张图像或视频生成可用于生产的PBR材质贴图。它利用专有的实测数据，为3D渲染和游戏引擎生成物理上准确的纹理。",
+ "title": "M-XR 图像转材质：生产级PBR生成",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

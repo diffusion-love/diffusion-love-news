@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该模型于 2026 年 4 月发布，取代了专门的 Magistral 和 Devstral 2 架构。2026 年 5 月的更新修复了长上下文 YaRN 解析中的配置错误，而 EAGLE 变体增加了推测解码支持。",
+ "id": "n-8e2ceecbcb",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "该模型是 Le Chat 和 Vibe CLI 编码智能体的核心推理引擎。",
+ "source_sha256": "fd8670b3c76836071e2bf1ab4ffaf6d39e5cd5d3085bf37dc573d3bf14e3f6f0",
+ "summary": "一个 128-billion 参数的稠密多模态模型，专为高性能推理、编码和通用指令设计。它具有 256k 上下文窗口，作为复杂智能体工作流的单一旗舰引擎运行。",
+ "title": "Mistral Medium 3.5：统一的 128B 多模态模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

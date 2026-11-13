@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "继2025年末发布10B参数BANG架构（第2代）之后，2.5版本引入了超精细的表面雕刻以及“Smart Low-Poly”导出功能，并支持自动法线贴图烘焙。",
+ "id": "n-f0cec18709",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由DeemosTech开发；该项目已从研究预览版过渡为集成的Hyper3D创作者平台，服务于专业游戏和VFX工作流程。",
+ "source_sha256": "d3b1f6a1bd6118e3774ab31e0bfe4398d1dd98dbd9f4feb837302a28abbb710d",
+ "summary": "一款面向高保真3D资产创作的生成式AI平台，可根据文本或图像提示生成雕刻级几何体和可用于生产的拓扑结构。它利用10B参数的BANG架构，将复杂对象分解为模块化的高细节部件。",
+ "title": "Rodin Gen 2.5（Hyper3D）",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

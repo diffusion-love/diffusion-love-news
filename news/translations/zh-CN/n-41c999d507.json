@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "SenseNova U1 标志着向 NEO-Unify 架构的转变，该架构去除了传统的 VAE 和视觉编码器，实现原生多模态融合。它承接 SenseNova 6.5 和 MARS 模型，聚焦于图文交错推理。",
+ "id": "n-41c999d507",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "8B 模型可在 8GB 显存上通过 Q6_K GGUF 量化运行，但为获得最佳性能需要较大的系统内存。",
+ "source_sha256": "24aa1e98072682912db8ebd86b926b3f2fbd0d93411602d4107e005b8b88a291",
+ "summary": "一组用于 ComfyUI 的自定义节点，支持与商汤科技的 SenseNova U1 原生统一多模态模型交互。它支持使用 8-step LoRA 和 GGUF 量化实现高速生成，适用于消费级硬件。",
+ "title": "ComfyUI_SenseNova_U1 多模态模型自定义节点",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

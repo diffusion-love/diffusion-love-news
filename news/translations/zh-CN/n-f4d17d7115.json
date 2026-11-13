@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目演化出了包括“Thinking”变体在内的版本，例如DECKARD HERETIC，它在保持无审查状态的同时具备增强的思维链推理能力。HERETIC流程本身在2026年中期（mid-2026）已达到1.2.0版本。",
+ "id": "n-f4d17d7115",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "因其“无保姆式”的行为在本地LLM社区中非常受欢迎；需要LM Studio或llama.cpp等兼容GGUF的推理工具。",
+ "source_sha256": "eb2aadd0d861b24dbeaeb9858d4d477ce266929cdc620af5c39a7e563abf8aac",
+ "summary": "Google Gemma 4模型的无限制版本，使用HERETIC abliteration（消融）方法修改，以消除安全护栏和拒绝方向。它针对创意写作和角色扮演进行了优化，不会出现AI说教或过滤。",
+ "title": "Gemma 4 E4B Heretic 无审查版",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

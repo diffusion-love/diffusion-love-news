@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从基础条件检测演进为复杂的“Identity Lock”系统，提供 Soft、Medium 和 Hard 三种保真模式。近期更新引入了用于空间身份引导的 Mask Ref Control，以及零依赖的模型 hook 追踪。",
+ "id": "n-76a6e0d291",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由 capitan01R 开发；通过隔离活跃 token 并直接针对模型内部模块，绕过了基于 Qwen3 的文本编码器的限制。",
+ "source_sha256": "165414c8439225bc6c2f1cf893803888ce19a72e39396fa129e9fa3238de7570",
+ "summary": "一个用于 FLUX.2 Klein 模型的 ComfyUI 节点套件，无需 LoRA 训练即可实现角色身份保持。它利用模型 hook 追踪和身份引导，将参考特征直接注入模型的双流架构中。",
+ "title": "ComfyUI-Flux2Klein-Enhancer 面部保持节点",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

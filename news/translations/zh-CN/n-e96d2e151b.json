@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026年4月发布后，该项目被移植到llama.cpp（triattention-ggml）并集成到SGLang中。目前支持AMD/ROCm和NVIDIA Blackwell架构，常与量化工具一道，作为本地推理模型技术栈的标准组件。",
+ "id": "n-e96d2e151b",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由MIT和NVIDIA的研究人员开发；在AIME25等基准上实现了超过10x的KV内存缩减，且基准准确率无损失。",
+ "source_sha256": "e2ed3cce20e220c2845ef42966afee8ad87a340347f404de22bf62d4212f4698",
+ "summary": "TriAttention是一个开源框架，通过三角函数表示对RoPE之前的注意力分数进行建模，从而优化KV缓存压缩。它显著降低了长上下文推理模型的内存开销，使消费级硬件上的高性能本地部署成为可能。",
+ "title": "TriAttention：通过三角KV压缩实现高效长推理",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

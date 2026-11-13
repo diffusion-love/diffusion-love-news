@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "UniCom 代表了腾讯理解与生成管线向单一框架的统一。截至 2026 年年中，它仍是混元生态的核心多模态基础，该生态已扩展到以推理为重点的 Hy3-preview 等模型，以及借助 Hunyuan3D 3.0 实现的高级 3D 生成。",
+ "id": "n-1fef5a401b",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "直接在压缩的视觉嵌入上进行生成，而非原始像素；结合了 SigLIP2 与 Flux 架构的优势。",
+ "source_sha256": "6aa987ce31bcf1043b263e0d12899fc48a28266e63a11c62c186d8d148012d59",
+ "summary": "UniCom 是一个统一的多模态框架，利用压缩的连续语义表示，将视觉理解与生成连接起来。它集成 SigLIP2 进行视觉表示，并使用 Flux VAE 实现高质量图像重建，从而支持一致的编辑与生成。",
+ "title": "腾讯混元 UniCom",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

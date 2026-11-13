@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "从 LLM 微调扩展到支持 Gemma 4 多模态视觉/音频变体以及 GRPO 强化学习。2026 年 5 月被纳入 PyTorch 官方生态系统。",
+ "id": "n-a3aa871dfa",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "支持在免费的 Google Colab T4 GPU 上运行 Gemma 4 E2B 和 E4B 模型。",
+ "source_sha256": "924ddc8b9e8a6c48814cfaae72541ec6aca1d724e90ffcf8cf532c979be303a3",
+ "summary": "高度优化的框架，可在消费级 GPU 和 Google Colab 上微调 Google 的 Gemma 4 系列。借助专用内核，训练速度提升 2 倍，显存占用降低 70%。",
+ "title": "用于 Colab 上 Gemma 4 微调的 Unsloth Studio",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

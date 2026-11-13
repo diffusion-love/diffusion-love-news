@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目于2026年4月演进为Alpha版本，引入了1.6B参数的UNet和Qwen3.5文本编码器。现在通过32通道非对称VAE解码器集成了2x超分辨率功能。",
+ "id": "n-f24b5871aa",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在高端硬件上可以约30 it/s的速度生成图像；主要针对艺术和插画类内容进行了优化。",
+ "source_sha256": "2912228ad9f67bfdb1235ac9bedcf16dda69bc0b555eaacb6146c821820f027a",
+ "summary": "一款紧凑的1.6B参数扩散模型，针对极致推理速度和保真的2x图像超分辨率进行了优化。它采用非对称VAE架构放大图像，不会引入AI幻觉或多余纹理。",
+ "title": "SDXS-1B：实时扩散与高保真超分辨率",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

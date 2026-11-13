@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "到 2026 年，该项目已从实验性的移动端扫描发展为专业级的 3DGS 转网格解决方案。3.0 版本引入了细薄结构保留、更稳定的表面以及面向 3D 打印工作流的集成缩放工具。",
+ "id": "n-9db878fd06",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "首次实现了移动端的 3DGS 转网格转换；功能包括法线预测和反射去除。",
+ "source_sha256": "90da1914704be363495e7b9f83dc7213d0f86f67fd6bd27c1fe407d6c99fd7ca",
+ "summary": "一个移动端 3D 扫描平台，可将视频和照片采集转换为高保真高斯泼溅和多边形网格。它提供专门的流程，将 3DGS 数据转换为可编辑、可直接用于生产的资产。",
+ "title": "KIRI Engine：高斯泼溅转网格",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "承接 ERNIE 5.0，该模型从庞大的参数规模（2.4T）转向通过 Once-For-All 框架实现的更高效的 800B 架构。它采用了全新的异步强化学习流程，并增强了四阶段后训练。",
+ "id": "n-5e92efec32",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 Arena Search 中全球排名 4th，在中国模型中排名 1st。其设计旨在硬件约束和美国芯片出口管制条件下优化性能。",
+ "source_sha256": "ee312f0c40024353fc8eddd2cf4a9823916d078ce566929f35679b0037eca625",
+ "summary": "百度于 2026 年 5 月发布的最新旗舰模型，专注于高参数效率与智能体推理。它目前是全球排名最高的中国模型，以显著更低的训练成本实现了前沿性能。",
+ "title": "百度 ERNIE 5.1 大语言模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

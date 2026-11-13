@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "作为 VoxCPM 1.5 的重大继任版本发布，转向连续表示流水线，可生成录音棚级 48kHz 音频。它引入了“Voice Design”，可通过文本描述创建声音，并显著提升了相较商业竞品的说话人相似度得分。",
+ "id": "n-d7b1c6bb36",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "以 Apache-2.0 许可证发布；支持 30 种语言和 9 种中国方言，可在消费级 GPU 上实时运行。",
+ "source_sha256": "f15b46ab7f6164d2e39a7cd299037dbc206725dcb3a5310a19427cc9b1290b9d",
+ "summary": "一款开源的 2B 参数语音合成模型，采用无分词器的扩散自回归架构。它支持高保真零样本声音克隆、通过文本进行风格控制，并可根据自然语言描述生成新声音。",
+ "title": "VoxCPM2 — 2B 无分词器多语言 TTS 与声音克隆",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

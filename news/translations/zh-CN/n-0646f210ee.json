@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "DALL-E 3 已被 GPT-4o 取代，后者将图像视为原生词元，图像到图像的一致性更佳。微软还通过 Windows 11 画图中的“Cocreator”功能将该技术直接集成进来。",
+ "id": "n-0646f210ee",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "这一潮流由韩国用户于 2026 年初在 Threads 上推广开来；人们常称其为“世上最琐碎的提示词”，因为它耗费大量算力生成 8-bit 风格的艺术作品。",
+ "source_sha256": "3797237108050d97b98d49b5014948d34db511ce241286e7b94eb34d19be21c8",
+ "summary": "一种针对 ChatGPT 和 DALL-E 的病毒式提示技巧，可将高质量的上传照片转换为粗糙、低保真的素描，模仿经典 MS Paint 的风格。",
+ "title": "用于照片风格化的 MS Paint 风格 DALL-E 提示词",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

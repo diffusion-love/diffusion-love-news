@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026 年初作为基于云的沙盒推出，2026 年 4 月演进为原生 macOS 应用。最初仅面向 $200/month 的 Max 套餐开放，2026 年 5 月扩展到所有 Pro 和 Enterprise 订阅用户，并弃用了旧版 Perplexity Mac 应用。",
+ "id": "n-a56b9d31b6",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "具有通用的“双击 Command”快捷键，并与 Comet 浏览器深度集成，无需 API 即可与网页工具进行视觉交互。",
+ "source_sha256": "65b91993bbc00ea414f075e633c488475fc6af1dee6a970109581a4f0a675717",
+ "summary": "一款面向 macOS 的自主 AI 智能体，可与本地文件系统和原生应用集成，执行多步骤工作流。它充当个人编排器，通过概率性目标达成机制完成文件整理和邮件起草等任务。",
+ "title": "Perplexity Personal Computer（Mac 版）",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

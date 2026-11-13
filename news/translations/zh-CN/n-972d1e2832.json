@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目引入了双模型系统：快速交互模型负责实时对话，异步后台模型负责复杂推理；目前处于面向合作伙伴的研究预览阶段。",
+ "id": "n-972d1e2832",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由 Mira Murati 和 Soumith Chintala 创立；TML-Interaction-Small 模型采用混合专家架构，参数量为 276 billion。",
+ "source_sha256": "f8c33d85891a09cb6d3efda7664aa552aaa2b0ab1e6dd03bc6c12214f7db717a",
+ "summary": "Thinking Machines Lab 推出的新型 AI 系统类别，专为原生、实时的多模态交互而设计。这些模型采用微轮次架构，以 200-millisecond 为块处理音频、视频和文本，从而实现同时感知与响应。",
+ "title": "TML Interaction Models：实时多模态 AI",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

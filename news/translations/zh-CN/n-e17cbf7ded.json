@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026 年年中通过 Sherry 框架引入 1.25 比特量化，将 1.8B 模型压缩至 440MB，便于部署到低端移动硬件。目前它是离线端侧翻译领域的行业基准。",
+ "id": "n-e17cbf7ded",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "引入了术语干预和上下文感知的多轮翻译支持；已集成到腾讯会议和企业微信中。",
+ "source_sha256": "3006d91228acb0b3bca058030d54b5c1721161ef64da60dcb4c6484419a6d5c2",
+ "summary": "一款紧凑型多语言翻译模型，通过极致压缩为移动端端侧使用进行了优化。它在 33 种语言上实现了高水平性能，且硬件要求极低。",
+ "title": "腾讯 Hy-MT1.5 移动端机器翻译",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该模型现已集成到 Pruna Performance Suite 中，与 P-Image 和 P-Image-Edit 并列，支持最高 1080p 分辨率和实时 API 访问。已针对 2 秒以内的推理时间进行优化。",
+ "id": "n-d4d07dd0bf",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "可通过 REST API 和 Replicate 使用；价格因分辨率而异（$0.025-$0.045/sec）。",
+ "source_sha256": "5a3772e698a3e7a4d9db09a5bb648915b9722cb36165ccfd53974842f2dc627f",
+ "summary": "P-Video-Avatar 是 Pruna AI 推出的一项专业服务，可根据单张肖像生成逼真的说话人头部动画视频。它支持文本脚本和上传音频文件，并具备先进的口型同步功能。",
+ "title": "P-Video-Avatar：高速 AI 说话人头部动画",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

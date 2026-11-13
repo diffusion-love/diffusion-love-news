@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "自 2026 年初发布以来，该项目已扩展支持 20B 参数模型，并针对消费级 GPU（24GB 显存）进行了优化。目前已集成到多个开源 UI 封装中，用于快速扩散推理。",
+ "id": "n-a7d1f83b13",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "与 LCM 等线性蒸馏方法不同，ArcFlow 对速度场进行参数化以捕捉非线性轨迹，从而在质量损失极小的情况下实现 40 倍加速。",
+ "source_sha256": "d63cd20b324049b34e7b869b961f85705cb2ef4ea4680e5a661a0c9f4275af03",
+ "summary": "ArcFlow 由微软亚洲研究院与复旦大学开发，采用非线性流蒸馏技术，仅用 2 步即可生成高质量图像。它在保持视觉保真度的同时，显著优化了 FLUX.1 和 Qwen-Image 等大模型的推理。",
+ "title": "ArcFlow：2-Step 非线性图像生成框架",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

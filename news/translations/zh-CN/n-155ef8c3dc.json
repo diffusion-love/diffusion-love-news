@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从最初的研究工作发展为 CVPR 2026 海报展示，近期还发布了推理代码和交互式演示。相比此前基于优化的最先进方法，其处理速度快 15x。",
+ "id": "n-155ef8c3dc",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由 CMU 开发；支持可选的 RGB-D、IMU 和雷达多普勒输入，以显著提升重建质量。",
+ "source_sha256": "c3b9a2b1f78ddc8b3237bdd101ab427467bcad67f5bfef09b36b815c2b2ec335",
+ "summary": "Any4D 是一个框架，利用快速前馈 Transformer 架构，从单目或多模态视频中进行稠密、尺度度量的 4D 重建。它通过将场景分解为自我中心（egocentric）与以世界为中心（allocentric）两个分量，实现了高精度和实时潜力。",
+ "title": "Any4D：统一的前馈式度量 4D 重建",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

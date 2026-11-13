@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "截至 2026 年年中，该项目已入选 CVPR 2026 Highlight。Meta 已发布代码以及一个“foundation checkpoint”，其中部分骨干层出于政策原因被随机重新初始化，用户需要进行一次简短的微调，才能达到完整性能。",
+ "id": "n-44592b77d5",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "完全在像素空间中运行，没有潜空间阶段；证明了大规模像素级训练在细粒度任务上可以超越依赖预训练编码器的模型。",
+ "source_sha256": "06db3ad1f244d9f638518588acad5a1f977c88ed00206387c12f6d1559a8afa5",
+ "summary": "Meta AI 推出的原生统一多模态模型，直接从原始像素同时完成视觉理解与生成。它以单一 Transformer 架构取代了 CLIP 等传统视觉编码器或 VAE，采用直接的 patch 嵌入和整流流（rectified flow）。",
+ "title": "Tuna-2：像素嵌入超越视觉编码器",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

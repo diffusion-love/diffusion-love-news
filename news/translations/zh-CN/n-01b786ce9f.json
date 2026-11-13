@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "发布了一个大规模数据集，包含 400 万帧连续的 AAA 游戏画面，并附带同步的 G-buffer 标签。该框架建立了双向渲染管线，在时间稳定性和真实场景泛化方面优于既有方法。",
+ "id": "n-01b786ce9f",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由 Shanda AI Research Tokyo 开发。采用一种新颖的基于 VLM 的评估协议，在没有真值的情况下衡量语义和空间一致性。",
+ "source_sha256": "07e69d6e8932d67f28f8b779e7259a15a7655c8b0a538955819b799285a3ff68",
+ "summary": "一个 AI 原生框架，利用视频扩散模型统一正向与逆向渲染。它从游戏视频中提取 3D 几何数据，并支持通过文本提示进行高保真场景编辑。",
+ "title": "AlayaRenderer：面向 AAA 游戏的生成式世界渲染器",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

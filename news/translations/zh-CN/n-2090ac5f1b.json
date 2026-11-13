@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "由 Waypoint-1 演进而来，训练规模扩大了 100x，并引入了用于本地 GPU 加速的 Biome 运行时，以及面向不同硬件的优化档位。",
+ "id": "n-2090ac5f1b",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "以 Apache 2.0 许可证开源；支持第一人称控制和实时环境一致性。",
+ "source_sha256": "a79d4d3ea5a3f332557256917c0bc467fd0744154da2825185934463dcbec027",
+ "summary": "Waypoint-1.5 是一个生成式世界模型，可实现对 AI 合成环境的实时第一人称探索。它专为在消费级硬件上本地运行而设计，支持灵敏的导航和高帧率交互。",
+ "title": "Waypoint-1.5：实时交互式视频世界模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "在研究首次亮相之后，INSID3 被 CVPR 2026 选为口头报告（Oral）论文，并正式发布了完整代码和交互式演示。此后，它已成为免训练、单主干分割框架的基准。",
+ "id": "n-a8a043a8fd",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "与多阶段流水线相比，推理速度快 3.4 倍，同时在 mIoU 上以 +7.5% 的优势超越最先进方法。",
+ "source_sha256": "c59c96f0e9228e9ec00ad772feaaaa6e21866b637b3beb3188bf38e1f92fdc5f",
+ "summary": "INSID3 是一种免训练的高性能目标分割框架，利用 Meta 的 DINOv3 视觉基础模型的涌现特性。它通过对稠密特征进行凝聚聚类来识别目标区域，并通过简单的正交投影消除位置偏差。",
+ "title": "INSID3：基于 DINOv3 的快速上下文分割",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

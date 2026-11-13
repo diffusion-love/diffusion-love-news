@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该方法从 PICO-fit（2025）基于优化的方案演进为单次前向的 Transformer 模型。它引入了“指代接触（Referential Contact）”，支持自然语言查询，并显著提升了大规模视频处理的推理吞吐量。",
+ "id": "n-4694b833dd",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 MMHOI 和 DAMON 数据集上取得了新的最先进结果，超越了 InteractVLM 等此前的视觉语言模型。",
+ "source_sha256": "146069b4e05a3df672cd00ebe4bfb1a845f339a5e5c3dfa242cbd077bf3ddb31",
+ "summary": "一个用于从单张图像预测稠密 3D 人-物接触的实例感知框架。它利用 InteractionFormer 架构和基于 SAM 的解码器，将接触掩码映射到多人场景中的 SMPL 人体网格上。",
+ "title": "Pi-HOC：成对 3D 人-物接触",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

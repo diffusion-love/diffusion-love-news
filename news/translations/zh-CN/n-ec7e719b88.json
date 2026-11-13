@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "从Phi-Ground-4B-7C研究模型发展为微软的正式项目，并集成到Windows Copilot的“视觉高亮”功能中。当前的“Any”版本提升了对4K屏幕和高分辨率UI交互的稳健性。",
+ "id": "n-ec7e719b88",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "尽管体积小巧，但在GUI点击准确率基准测试中优于OpenAI Operator和Claude Computer Use。",
+ "source_sha256": "f1fca6964afbd0f76ded858e9fa8a564b021b9dde3f7312ac00e519fed7b2f9a",
+ "summary": "一款4B参数的视觉语言模型，专门用于GUI定位，可精确定位屏幕元素。它使AI智能体能够在不同分辨率和宽高比的复杂界面中进行交互。",
+ "title": "Phi-Ground-Any：微软GUI定位多模态模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

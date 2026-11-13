@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目在 v2.5 中从基础工作流演进为健壮的节点式系统。主要更新包括无缝循环、通过 Meta Batching 优化的 RAM 占用，以及 16-bit 色偏缓解。",
+ "id": "n-332335c756",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "需要配套的“ComfyUI-Wan-VACE-Prep”自定义节点包，才能启用最新的 v2.5 批处理功能。",
+ "source_sha256": "855fb2042249eef2ce088d4e29a704a05c1c39177890193c196ed81b44086982",
+ "summary": "一个专门用于 ComfyUI 的实用工具，借助 Wan VACE 模型在视频片段之间创建平滑过渡。它提供自动色彩匹配、交叉淡化和批处理工具，以保持视觉一致性。",
+ "title": "ComfyUI Wan VACE 视频拼接器：实现无缝过渡",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "截至 2026 年年中，UniCorrn 代表了统一跨模态匹配领域的当前最先进水平，将原本分离的图像配准和点云配准任务合并到一个基础模型框架中。",
+ "id": "n-a3c0ebdd3a",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "提出了一种新颖的双流注意力解码器，它分别处理外观特征和位置特征，同时共享核心权重；该成果发表于 CVPR 2026。",
+ "source_sha256": "31fbf2b5b4602c424d563c7474adade0cb8985c11f1853edc0a4562e0638c4f5",
+ "summary": "由 Adobe Research 与东北大学共同开发的统一 Transformer 模型，在单一架构内完成 2D-2D、2D-3D 和 3D-3D 匹配任务。它利用共享权重和双流注意力机制，在几何对应任务中取得了最先进的结果。",
+ "title": "UniCorrn：跨 2D 与 3D 的统一对应 Transformer",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

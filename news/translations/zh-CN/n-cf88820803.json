@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从基础的 Wan2.1 发展为基于 27B 参数 MoE 的 Wan2.2。其中的“Distill”变体已成为本地部署的行业标准，通过极致的步数缩减，相较基础模型实现 20 倍加速。",
+ "id": "n-cf88820803",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "原生支持 FP8 和 INT8 量化，在 RTX 4090 等消费级 GPU 上仅需 15GB 显存。",
+ "source_sha256": "268b00a52987b3c4bf46fdaf14ee85b7e851a3f1c86067eb1a03eabcc497de0f",
+ "summary": "Wan2.2 Distill 是一个优化的视频生成框架，通过步数与 CFG 蒸馏，将推理步数从 50 多步减少到仅 4 步。它利用混合专家架构，在消费级硬件上实现接近实时的性能，同时保持电影级画质。",
+ "title": "Wan2.2 Distill：4-Step 模型加速视频生成",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

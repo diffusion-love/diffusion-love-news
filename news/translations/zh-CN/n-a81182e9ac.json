@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026 年 4 月作为 Opus 4.6 的继任者发布，该版本引入了 'xhigh' 推理投入等级，并在 SWE-bench Pro 上达到 64.3%。在受限的“Claude Mythos”前沿模型进行安全验证期间，它目前作为正式可用的旗舰模型。",
+ "id": "n-a81182e9ac",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "视觉分辨率提升至 3 倍，并针对通过 Claude Code 的委托式工程工作流进行了优化。",
+ "source_sha256": "be2ca92260082991a22a11c8c17562355936770df4b309a85febe33bcb6166b4",
+ "summary": "Claude Opus 4.7 是 Anthropic 最先进的旗舰模型，专为高水平推理和自主软件工程设计。它可通过 API 和主流云服务商正式获取，并提供适用于复杂问题求解的自适应思考模式。",
+ "title": "Claude Opus 4.7：Anthropic 的旗舰编程与推理模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

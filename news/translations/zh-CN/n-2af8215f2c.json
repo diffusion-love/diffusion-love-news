@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从 2023 年基于图像的去鬼影工具，演进为 2026 年初的综合视频扩散框架。当前版本使用 Log-Gamma 色彩映射和视频先验，以恢复旧版 8-bit 内容中丢失的辐射信息。",
+ "id": "n-2af8215f2c",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "2026 年更新的计算需求较高，通常需要 A100 级 GPU 才能高效处理。",
+ "source_sha256": "70bbcec885a7bead5dd9454c2cfd4d02ab3290b3c407fa107bc3d59cc67b810b",
+ "summary": "一个将 8-bit LDR 视频转换为 32-bit HDR 序列的框架，利用生成式辐射修复技术实现。它借助预训练视频扩散模型生成逼真的高光，同时保持严格的时间一致性。",
+ "title": "DiffHDR：生成式 LDR 到 HDR 视频扩散",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目最初以 ERNIE-ViLG 推出，并于 2026 年初演进为开放权重的 ERNIE-Image 8B 及 Turbo 变体。它从早期的扩散实验转向了具有优化文字渲染能力的高效 8B DiT 架构。",
+ "id": "n-97b254669d",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "包含专用的 Prompt Enhancer 模型和 Day-0 ComfyUI 支持；在 LongText-Bench 的文字渲染准确率上名列前茅。",
+ "source_sha256": "c240dae8239e73491086fff81574d39483fbb7545fef9df2a0bce5171b4a4525",
+ "summary": "百度基于 ERNIE 多模态框架打造的先进文生图套件。它利用扩散 Transformer 架构实现高保真输出，并原生支持多语言。",
+ "title": "ERNIE-Image 8B：百度高性能 DiT 模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026年4月以100M参数模型的形式发布；随后获得了面向CPU性能的ONNX优化以及面向Apple Silicon的MLX支持。MOSS-TTS 2.0于2026年5月发布，吸纳了社区反馈。",
+ "id": "n-f1ea79cf67",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "包括面向浏览器的本地朗读集成，以及可去除PyTorch依赖、专用于推理的ONNX版本。",
+ "source_sha256": "f6bd44900a220ca3ee021cf0c9e445db037e104b06dae5e7486e17f1e3ba71ce",
+ "summary": "一款开源的多语言文本转语音模型，专为在消费级CPU上高效实时部署而设计。它具备零样本语音克隆功能，并支持高质量的48kHz立体声输出。",
+ "title": "MOSS-TTS-Nano",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

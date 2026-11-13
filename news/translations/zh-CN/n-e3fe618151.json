@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026 年 4 月发布后不久即快速扩展至 140 万张图像的数据集，并提供官方 ComfyUI 工作流。现在它已成为腾讯混元和 FLUX 模型生态系统中的基础风格整理工具。",
+ "id": "n-e3fe618151",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "以 ArXiv:2604.08364 发表；利用 Qwen-Image 进行一致的风格映射，并支持自动化的风格与内容解耦。",
+ "source_sha256": "5ec28d2339fe03923a5bd2a8032cac856f4bef9dd39537cf1b4093c3b041d1d8",
+ "summary": "一个自动化数据整理框架，以及包含 1.4M 张图像的数据集，用于扩散模型中的精确艺术风格迁移。它利用视觉语言模型将风格与内容解耦，从而实现一致的风格库生成。",
+ "title": "MegaStyle：可扩展的艺术风格整理流水线",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

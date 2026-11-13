@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "百度于 2026 年 4 月以 Apache 2.0 许可证发布了模型权重，标志着向开源可及性的战略转变。此后，它已原生支持 Diffusers 库，并获得了广泛的 ComfyUI 集成。",
+ "id": "n-c2ca134086",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "因其业界领先的文字渲染能力，以及在生成信息图和分镜等复杂版式方面的表现而广受认可。",
+ "source_sha256": "129a59d19efb9e6d1572a1e74aaeadf23052bdd1fd2097154890bb393ee1d9ba",
+ "summary": "百度推出的一款基于扩散 Transformer（DiT）架构的 8B 参数文生图模型。它利用分布匹配蒸馏（DMD）和强化学习，仅用 8 个推理步骤即可生成高保真图像。",
+ "title": "ERNIE-Image-Turbo 8B 开放权重扩散 Transformer",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

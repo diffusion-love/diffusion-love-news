@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目最初基于 3D Clifford rotors，后扩展为 IsoQuant（4D）以及高度优化的 PlanarQuant（2D）变体。现在包含融合的 CUDA 和 Metal 内核，并已作为即插即用的 3-bit 缓存压缩方案集成到 llama.cpp 中。",
+ "id": "n-553243c913",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "以 44x 的参数减少量超越 Google 的 TurboQuant，预填充速度最高可达 5x，同时保持更高的输出质量。",
+ "source_sha256": "0bb0f438f30434afaa5a6a697fcda39c146eb94526b8edb94063090ccdaf3dc3",
+ "summary": "一个开源项目，使用 Clifford 代数旋转子为 LLM 提供高效率的 KV 缓存压缩。它以显著更低的计算开销实现了极端的低于 4 比特量化，并且困惑度优于稠密正交变换方法。",
+ "title": "RotorQuant：基于分块对角 Clifford 旋转子的 KV 缓存压缩",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "在其 2025 年 NeurIPS 论文发表之后，代码与权重于 2026 年 4 月发布。它转向基于 NVIDIA Cosmos 骨干网络的单次前向联合建模，显著优于此前的多阶段重光照流程。",
+ "id": "n-49b64d4933",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "使用 NVIDIA OneWay Noncommercial License；需要 Cosmos-Predict1 骨干权重以及 Hugging Face 访问权限。",
+ "source_sha256": "0a32efbd36e4a29d1654fa0dc842e09e30433593556d1289956b8cd040be2cb1",
+ "summary": "UniRelight 由 NVIDIA 开发，是一个单次前向的视频重光照框架，可同时完成本征分解与合成。它利用 7B 参数的 Cosmos-Predict1 基础模型，在复杂光照场景中实现高保真度和时间一致性。",
+ "title": "UniRelight：联合视频分解与合成框架",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

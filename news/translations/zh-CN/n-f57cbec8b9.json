@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026年4月中旬由蚂蚁集团的Robbyant部门推出。随后迅速更新，加入了面向长序列的FlashInfer KV缓存优化以及可实现20 FPS实时性能的硬件加速。2026年4月底发布了一段25,000帧的室内漫游演示，以展示其长期稳定性。",
+ "id": "n-f57cbec8b9",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "发布时即在Oxford Spires和ETH3D基准上取得了最先进的结果，超越了流式和离线方法。",
+ "source_sha256": "bbd182f349555b9fe9b5ebfd60e2608b7a53a56700e638511f6a80f15f5f0e2a",
+ "summary": "LingBot-Map是一个3D基础模型，专为从标准RGB视频序列进行实时流式3D重建而设计。它利用几何上下文Transformer（GCT）架构处理坐标定位和长程漂移校正，服务于具身AI应用。",
+ "title": "LingBot-Map：实时流式3D场景重建",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

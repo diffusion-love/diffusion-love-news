@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从第 1 阶段（96K 视频）演进到第 3 阶段（390K 视频），引入了针对复杂多对象交互的“Hard Reasoning”。未来的更新计划将训练扩展至完整的 1-million 视频 VBVR 数据集，以实现近乎完美的物理准确性。",
+ "id": "n-4bbad7fe81",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "专门针对重力模拟、因果关系和物体持久性；与 ComfyUI 工作流高度兼容。",
+ "source_sha256": "6be66f5bf3d982b8a764852cc794804d65baaf534d3e79c4c431259a9f02b558",
+ "summary": "一个专用于 LTX-2.3 22B 模型的 LoRA 适配器，可显著提升视频生成中的物理推理、空间逻辑和时间一致性。它利用 Video-Based Visual Reasoning 数据集来减少常见的 AI 视频故障和幻觉物理现象。",
+ "title": "Ltx2.3-VBVR：面向 LTX-Video 的视觉推理 LoRA",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

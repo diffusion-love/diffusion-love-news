@@ -1,0 +1,11 @@
+{
+ "id": "n-83d7f5eb84",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "直接从官方 Hugging Face 仓库下载模型权重或量化变体。\n\n使用所附的 GGUF 文件，通过 llama.cpp 或 Ollama 在本地部署，适用于内存受限的消费级硬件。\n\n通过 vLLM 或 SGLang 提供服务，以提供兼容 OpenAI 的 API 端点，支持最长 1M token 的长上下文请求。\n\n为每个请求配置思考预算参数（none、low 或 high），以调节推理延迟和 token 消耗。\n\n在边缘硬件或消费级 GPU 上运行时，使用量化 INT4 或 GGUF 变体，将内存占用控制在 4GB 至 8GB 之内。\n\n对于简单的对话和抽取类任务，选择 “none” 思考预算以最小化首 token 延迟；对于多步逻辑或代码生成，则切换为 “high”。\n\n处理最长 1M token 的长上下文时，应使用带分页注意力的运行时（如 vLLM 或 SGLang），并配置适当的主机内存分配，以防止 KV 缓存 OOM。",
+ "source_sha256": "bbd180a82c02dcbc1e60eba59f0de3441fc94135db47a52f49cc3fd63bf8cf59",
+ "summary": "Spark-X2.6-4B 发布包含后训练权重和基础版本，支持通过 SGLang 和 vLLM 进行兼容 OpenAI 的本地服务，并提供用于消费级硬件推理的 GGUF 量化版本。",
+ "title": "Spark-X2.6-4B 新增通过 vLLM 与 SGLang 提供的兼容 OpenAI 服务支持",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

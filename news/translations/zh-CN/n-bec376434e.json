@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "TinyMU 被 ICASSP 2026 接收，并于 2026 年 4 月公开发布，证明了高质量监督和专用编码器可以取代庞大的参数规模。该研究在 2026 年后期演进为 FineLAP 和 MeanAudio 的细粒度预训练。",
+ "id": "n-bec376434e",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 MusicSkills-3.5M 数据集上训练；在音乐推理基准测试中，其表现优于 MusiLingo 和 Audio-Flamingo 等规模更大的前代模型。",
+ "source_sha256": "1c19f65994bf545625c3383173a7c6a9cd55135e64252302a1a7e6a883dae6e1",
+ "summary": "TinyMU 是一款高效的 229M 参数模型，专为深度音乐理解而设计，在体积比主流大模型小 35 倍的情况下达到了 SOTA 性能的 82%。它利用 MATPAC++ 音频编码器和 MusicSkills-3.5M 数据集，提供细粒度的音乐推理能力。",
+ "title": "TinyMU：面向音乐理解的紧凑音频-语言模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

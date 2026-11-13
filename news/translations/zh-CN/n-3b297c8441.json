@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该平台从研究预览版发展为商业生态系统，推出了 1.1 版和 1.1 Plus 版，新增用于大型地貌的 Dynamic Cubes 以及用于手动布局控制的 Chisel 编辑器。",
+ "id": "n-3b297c8441",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由李飞飞博士创立；采用 3D 高斯泼溅来确保所生成世界的几何稳定性和照片级真实感。",
+ "source_sha256": "02a929af959ca83106a1b0c9374c46968ef532c73d1e5ea39e53cec01ff90ecf",
+ "summary": "一个空间智能平台，利用高斯泼溅，从文本、图像或视频生成持久且可导航的 3D 环境。它为创作者、开发者和机器人训练提供高保真世界生成。",
+ "title": "World Labs Marble：生成式 3D 世界模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

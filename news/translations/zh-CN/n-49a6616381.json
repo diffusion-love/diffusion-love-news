@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "当前为第 14 版；作者正根据用户反馈和错误数据，持续将该提示词改进为第 15 版。",
+ "id": "n-49a6616381",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "专门针对 Gemini（通过 Google AI Studio）和 DeepSeek 等高上下文模型进行了优化。",
+ "source_sha256": "b1c2942b9151b8d5abe2fd445d6df0ae1a3d67969aad5b88c2d27732ad411fcf",
+ "summary": "一套 110,000-token 的系统指令集，旨在将 AI 模型转变为批判性、反谄媚的工程导师。它侧重于第一性原理思维、上下文漂移防护，并通过内置的认知标记来对抗幻觉。",
+ "title": "BRO v14：硬核斯多葛工程师超级提示词",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

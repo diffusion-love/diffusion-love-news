@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该模型继承了早期基于 Qwen3.5 的蒸馏实验，借助较新的 MoE 架构和多词元预测（MTP）提升效率。截至 mid-2026，它仍是本地推理任务的首选之一。",
+ "id": "n-129b6b09c0",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "原生上下文窗口为 262,144 个词元；兼容最新版 llama.cpp。由于有报告称 CUDA 13.2 会导致输出损坏，请避免与其搭配使用。",
+ "source_sha256": "b9fcc817d0b515e10a1550ce61ae9494a09e8af93289383cf0da00e78f3405b0",
+ "summary": "基于 Qwen3.6 架构的 35B 混合专家 LLM，使用从 Claude 4.6 Opus 蒸馏的推理轨迹进行微调。它针对智能体编码和复杂问题求解进行了优化，同时在消费级硬件上保持较高的推理速度。",
+ "title": "Qwen3.6-35B Claude 4.6 Opus 推理蒸馏版",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

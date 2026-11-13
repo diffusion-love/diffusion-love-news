@@ -1,0 +1,11 @@
+{
+ "id": "n-5e96f46ead",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "克隆代码仓库，安装适合本机的 PyTorch 版本，然后安装文档中列出的依赖项以及可编辑模式的包。\n\n加载 DBS-BSRNN 以使用已发布的 3秒窗口、1.5秒跳步的配方，或加载 DBS-TIGER 以使用 6秒窗口、3秒跳步的配方。\n\n提供 44.1 kHz 音频；若遵循文档示例，则将多声道输入转换为单声道，然后调用分离 API，以获得音乐、音效和语音的估计结果。\n\n匹配检查点架构与分块配方：DBS-BSRNN 使用 3秒窗口，DBS-TIGER 使用 6秒窗口。\n\n将演示及推断出的分离音轨视为估计结果而非真值；在下游使用前检查是否存在声源泄漏和伪影。",
+ "source_sha256": "32532aa36cbcab47ecaf533dafefa17ac927b3561d7010f24a4025a6d796dbc2",
+ "summary": "Dynamic Band Splitting 提供了代码以及预训练的 DBS-BSRNN 和 DBS-TIGER 模型，用于从 44.1 kHz 单声道音频中估计音乐、音效和语音，并附带交互式试听工作室。",
+ "title": "Dynamic Band Splitting 发布自适应音频分离代码与模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目改编自用于单图像重建的LumiVid研究，现已扩展为支持大规模DiT模型。目前为Qwen-Image-Edit-2511提供可用于生产的LoRA，并为更快的FLUX.2-klein架构提供实验性支持。",
+ "id": "n-eb367fb3e1",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "生成与Nuke和DaVinci Resolve兼容的场景线性EXR文件；通过ComfyUI_Gear节点套件集成到ComfyUI中。",
+ "source_sha256": "146f3e2f6fe8d034746f02a6281d8089471c641fa4319b188b9fd05ec3a8783b",
+ "summary": "LumiPic是一款开源工具，利用扩散Transformer将标准动态范围（SDR）图像转换为16位高动态范围（HDR）EXR文件。它借助LogC3编码的扩散过程重建缺失的高光与阴影细节，服务于专业VFX流程。",
+ "title": "LumiPic：SDR转HDR图像扩散",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

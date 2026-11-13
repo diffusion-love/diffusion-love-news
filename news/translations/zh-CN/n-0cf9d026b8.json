@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从最初的 SCAIL-Preview 发展为 SCAIL-2，新增了增强的运动稳定性、改进的 3D 姿态深度理解，并原生支持长视频生成。它已通过自定义节点集成到 ComfyUI 中，现在还支持通过 Blender 3D 绑定驱动动画。",
+ "id": "n-0cf9d026b8",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由智谱 AI 与清华大学开发；该模型基于 Wan 2.1 架构构建，通常需要较大的显存，但支持量化的 GGUF 版本。",
+ "source_sha256": "25182dd3a1bee7f16f4944f3928488b56b26c94a9191b0f6844fd3679e56ca24",
+ "summary": "SCAIL 是一个角色动画框架，利用基于 3D 一致性的姿态表示，将驱动视频中的运动高保真地迁移到参考图像上。它能有效解决抖动和身份漂移等常见问题，同时支持多角色场景和长序列。",
+ "title": "SCAIL-2：基于上下文学习的影棚级角色动画",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

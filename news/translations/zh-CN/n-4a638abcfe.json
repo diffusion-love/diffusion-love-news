@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "在初始发布之后，该项目推出了 A3B-MoT 混合专家变体以及 8 步高速推理权重。目前支持用于消费级 GPU 部署的 GGUF 量化，并原生集成到智能体工作流中。",
+ "id": "n-4a638abcfe",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由 SenseTime 与 Light-AI 开发；代表了从模块化适配器向原生端到端多模态智能的转变。",
+ "source_sha256": "1bd2b454111db39f633a3f344c3ba45bbc0d170a9a1696ac56cf0e8116553c63",
+ "summary": "SenseTime 推出的原生统一多模态模型系列，在单一端到端架构中集成了理解、推理与生成。它采用 Mixture-of-Transformers 骨干网络，无需独立编码器即可处理原始像素和文本 token。",
+ "title": "SenseNova-U1：采用 NEO-unify 的统一多模态 AI",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

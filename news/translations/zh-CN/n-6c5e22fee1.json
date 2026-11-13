@@ -1,0 +1,11 @@
+{
+ "id": "n-6c5e22fee1",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "`ideogram-v4-instant` 是一个 8 步 BF16 的 pre-QAD 检查点，而 `ideogram-v4-fast` 是一个 20 步 FP4/QAD 检查点。两者均由 fal 开发，基于 Ideogram 的 FP8 基础模型，并移除了运行时 CFG。",
+ "source_sha256": "7770d3c56797e7a752f6be5e5964eeec5de8899ec2255aa38ae3b33d35353609",
+ "summary": "2026-07-14，带日期的链接集新增了由 fal 托管的 Ideogram v4 变体，分别标注为 Instant 和 Fast。这是一个重要的进展，因为它明确了 Ideogram 4 系列中的不同变体。仅凭这些链接，尚无法确定它们的可用性、技术差异，或与 6 月发布版本之间的确切关系。",
+ "title": "已记录 Ideogram v4 Instant 与 Fast 变体",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

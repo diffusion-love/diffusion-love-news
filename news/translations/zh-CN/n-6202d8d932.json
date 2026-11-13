@@ -1,0 +1,11 @@
+{
+ "id": "n-6202d8d932",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "可通过 Kimi 网页应用、Kimi Work 或 Kimi Code 与模型交互。\n\n通过 Moonshot Open Platform API 调用 kimi-k3.1-pro 模型端点进行标准推理，输入每百万 token $2、输出每百万 token $10。\n\n若工作负载需要生成速度提升 2-3x，可选择 Highspeed API 变体，其 token 速率翻倍。\n\n使用 1M-token 上下文窗口，可在单个会话中输入整个多文件代码库以及复杂的 CAD/3D 资产配置。\n\n在提示 Unreal Engine、Unity、Godot 或 Three.js 的程序化生成时，请指定有针对性的引擎和脚本约定。\n\n将高吞吐、对延迟敏感的交互任务路由到 Highspeed 端点，同时将复杂的离线推理保留在标准档位上，以控制推理成本。",
+ "source_sha256": "5509de17b71ec008eb7106db4b98f600dc6ed1a8de92b8422805bc37f0091c2a",
+ "summary": "Moonshot 发布了 Kimi K3.1 Pro，集成了游戏引擎，支持 1M token 上下文，并提供快 2-3x 的 Highspeed API 档位。",
+ "title": "Kimi K3.1 Pro 发布，附 Highspeed 变体及计划开放的权重",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

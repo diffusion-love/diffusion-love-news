@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从理论论文发展为实用工具集，并推出了广受欢迎的 ComfyUI 集成（SPF-ReTime）。通过频率感知的时间变形，它已更新为支持 Wan2.2 和 LTX-Video 等高分辨率模型。",
+ "id": "n-b18df4c1c8",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "用户研究显示，88% 的受访者更偏好经 SPF 重定时的视频，原因是消除了鬼影和突兀的语义跳变。",
+ "source_sha256": "7f4b3f682f4b57f05dd2bf8a60b541f999a79c85c9643db50373d03593418045",
+ "summary": "一个研究框架，将视频语义轨迹映射为 1D 标量函数，以确保平滑的时间节奏。它可实现时间线性化，并修复生成式视频模型中常见的速度不均匀或停顿问题。",
+ "title": "用于平滑 AI 视频的语义进度函数（SPF）",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

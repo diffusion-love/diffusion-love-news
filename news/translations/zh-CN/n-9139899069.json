@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026 年 5 月，Google 为 31B 模型发布了多 token 预测（MTP）草稿模型，推理速度最高提升 3x。该模型继续领跑开放权重排行榜，在推理任务上可与大得多的闭源模型相媲美。",
+ "id": "n-9139899069",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "随 v4 版本转向完全宽松的 Apache 2.0 许可证，大幅推动了其在商业和本地“主权 AI”部署中的应用。",
+ "source_sha256": "5d302e12d517bbbe945cbd2e97fa0b15dff47eb2c9d4bb138b907905f7f12a31",
+ "summary": "由 Google DeepMind 推出的前沿级 31-billion 参数开放权重模型，具备原生多模态和推理能力。它提供 256k 上下文窗口，在编码、数学和智能体任务上达到最先进水平。",
+ "title": "Gemma 4 31B-it",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

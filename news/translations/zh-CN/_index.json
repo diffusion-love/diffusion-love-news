@@ -29,6 +29,11 @@
   "title": "Qwen3.6-27B-3bit-mlx",
   "translated_at": "2026-10-24"
  },
+ "n-01b786ce9f": {
+  "fresh": true,
+  "title": "AlayaRenderer：面向 AAA 游戏的生成式世界渲染器",
+  "translated_at": "2026-11-13"
+ },
  "n-02cbd28ee8": {
   "fresh": true,
   "title": "OpenMontage GitHub 仓库被引用",
@@ -48,6 +53,11 @@
   "fresh": true,
   "title": "Anti-Vocale 公开 GitHub 仓库被引用",
   "translated_at": "2026-10-24"
+ },
+ "n-033632d8e0": {
+  "fresh": true,
+  "title": "Kimi K3 与 Kimi Code 相关联",
+  "translated_at": "2026-11-13"
  },
  "n-038f2eebc4": {
   "fresh": true,
@@ -73,6 +83,11 @@
   "fresh": true,
   "title": "Qwen3.6-35B-A3B：阿里巴巴推出的多模态稀疏 MoE 模型",
   "translated_at": "2026-10-24"
+ },
+ "n-046d02af9f": {
+  "fresh": true,
+  "title": "面向 ComfyUI 中 MiniMax-H3 工作流的 TensorRT VAE 节点",
+  "translated_at": "2026-11-13"
  },
  "n-047f61d312": {
   "fresh": true,
@@ -104,6 +119,11 @@
   "title": "Rest2Art 项目网站和源代码仓库已公开分享",
   "translated_at": "2026-10-24"
  },
+ "n-0588f1e672": {
+  "fresh": true,
+  "title": "Happy Horse 1.0：统一的视频生成模型",
+  "translated_at": "2026-11-13"
+ },
  "n-05ec9a95a1": {
   "fresh": true,
   "title": "Fugu-Ultra 1.1 项目参考",
@@ -123,6 +143,11 @@
   "fresh": true,
   "title": "LTX-2 Caption Tool Civitai 模型版本已记录",
   "translated_at": "2026-10-24"
+ },
+ "n-0646f210ee": {
+  "fresh": true,
+  "title": "用于照片风格化的 MS Paint 风格 DALL-E 提示词",
+  "translated_at": "2026-11-13"
  },
  "n-0663ce9db2": {
   "fresh": true,
@@ -154,6 +179,11 @@
   "title": "SAM-MT 的公开项目资源已完成链接",
   "translated_at": "2026-10-24"
  },
+ "n-0841776bd9": {
+  "fresh": true,
+  "title": "Hunyuan3 Preview（Hy3-preview）",
+  "translated_at": "2026-11-13"
+ },
  "n-0852dc1008": {
   "fresh": true,
   "title": "SeedDance 2.5 通过 BytePlus Ark 进行了推广",
@@ -168,6 +198,11 @@
   "fresh": true,
   "title": "AP Netflix VOID — 用于视频物体删除的 ComfyUI 节点",
   "translated_at": "2026-10-24"
+ },
+ "n-08bc14aa3d": {
+  "fresh": true,
+  "title": "Superwhisper：适用于桌面和移动端的通用 AI 语音转文字工具",
+  "translated_at": "2026-11-13"
  },
  "n-08dc2040a6": {
   "fresh": true,
@@ -193,6 +228,11 @@
   "fresh": true,
   "title": "HyDRA:面向动态视频世界模型的混合记忆",
   "translated_at": "2026-10-24"
+ },
+ "n-09f901429d": {
+  "fresh": true,
+  "title": "Stream-R1：实时奖励引导的视频蒸馏",
+  "translated_at": "2026-11-13"
  },
  "n-0a1838ff3d": {
   "fresh": true,
@@ -249,6 +289,11 @@
   "title": "Qwen-Image 3.0 公开的 Qwen 链接已记录",
   "translated_at": "2026-10-24"
  },
+ "n-0cf9d026b8": {
+  "fresh": true,
+  "title": "SCAIL-2：基于上下文学习的影棚级角色动画",
+  "translated_at": "2026-11-13"
+ },
  "n-0d7aed5e86": {
   "fresh": true,
   "title": "Adobe宣布计划收购Topaz Labs",
@@ -268,6 +313,16 @@
   "fresh": true,
   "title": "MiniMax Music 3 新增公开项目、模型、平台、演示与 ComfyUI 入口",
   "translated_at": "2026-10-24"
+ },
+ "n-0ecaaac1b0": {
+  "fresh": true,
+  "title": "MiniMax H3 Semantic Bridge：为 H3 的 FL2VA 文本路径添加适配器",
+  "translated_at": "2026-11-13"
+ },
+ "n-0f298b0d41": {
+  "fresh": true,
+  "title": "LoopX 的公开 GitHub 仓库被链接",
+  "translated_at": "2026-11-13"
  },
  "n-0f55e4f6a1": {
   "fresh": true,
@@ -294,6 +349,11 @@
   "title": "RefineAnything：多模态区域级图像精修",
   "translated_at": "2026-10-24"
  },
+ "n-110bebc860": {
+  "fresh": true,
+  "title": "Spark 2.0：面向大规模场景的网页端高斯泼溅引擎",
+  "translated_at": "2026-11-13"
+ },
  "n-11ae14ece9": {
   "fresh": true,
   "title": "Muse 的 ComfyUI 代码仓库已被链接",
@@ -303,6 +363,16 @@
   "fresh": true,
   "title": "Rowboat：本地优先的 AI 智能体与个人知识图谱",
   "translated_at": "2026-10-24"
+ },
+ "n-129b6b09c0": {
+  "fresh": true,
+  "title": "Qwen3.6-35B Claude 4.6 Opus 推理蒸馏版",
+  "translated_at": "2026-11-13"
+ },
+ "n-12dc9deafa": {
+  "fresh": true,
+  "title": "上海人工智能实验室发布开放权重智能体模型 Sage-A1.5",
+  "translated_at": "2026-11-13"
  },
  "n-13290b7929": {
   "fresh": true,
@@ -343,6 +413,11 @@
   "fresh": true,
   "title": "Wan-Streamer v0.2 版本页面已被链接",
   "translated_at": "2026-10-24"
+ },
+ "n-155ef8c3dc": {
+  "fresh": true,
+  "title": "Any4D：统一的前馈式度量 4D 重建",
+  "translated_at": "2026-11-13"
  },
  "n-15f28b9d26": {
   "fresh": true,
@@ -414,6 +489,11 @@
   "title": "JavisDiT：联合音视频扩散Transformer",
   "translated_at": "2026-10-24"
  },
+ "n-183de9a149": {
+  "fresh": true,
+  "title": "Kimi K3.1 Pro 作为训练后优化发布，并提供 Highspeed 选项",
+  "translated_at": "2026-11-13"
+ },
  "n-1857cf1c7a": {
   "fresh": true,
   "title": "SeFi-Image 官方项目资源已发布链接",
@@ -459,6 +539,11 @@
   "title": "Inline Studio 发布 v1.2.71 版本",
   "translated_at": "2026-10-24"
  },
+ "n-1985ad3cff": {
+  "fresh": true,
+  "title": "OpenAI Privacy Filter：本地 PII 脱敏模型",
+  "translated_at": "2026-11-13"
+ },
  "n-19adc0c7af": {
   "fresh": true,
   "title": "ByteCut Director：AI 视频制作工作台",
@@ -488,6 +573,16 @@
   "fresh": true,
   "title": "视频制作技能仓库被引用",
   "translated_at": "2026-10-24"
+ },
+ "n-1b0490d011": {
+  "fresh": true,
+  "title": "GeoSR：面向 VLM 的几何空间推理",
+  "translated_at": "2026-11-13"
+ },
+ "n-1b11977658": {
+  "fresh": true,
+  "title": "ComfyUI Hires Fix Ultra 一体化节点",
+  "translated_at": "2026-11-13"
  },
  "n-1b28d58410": {
   "fresh": true,
@@ -549,10 +644,25 @@
   "title": "谷歌推出 Gemini Embedding 2",
   "translated_at": "2026-10-24"
  },
+ "n-1fef5a401b": {
+  "fresh": true,
+  "title": "腾讯混元 UniCom",
+  "translated_at": "2026-11-13"
+ },
  "n-1fff983f43": {
   "fresh": true,
   "title": "GPT-5.5 发布公告",
   "translated_at": "2026-10-24"
+ },
+ "n-207ed94fbd": {
+  "fresh": true,
+  "title": "MUA：移动端超精细可动画化虚拟形象",
+  "translated_at": "2026-11-13"
+ },
+ "n-2090ac5f1b": {
+  "fresh": true,
+  "title": "Waypoint-1.5：实时交互式视频世界模型",
+  "translated_at": "2026-11-13"
  },
  "n-20c0bd9616": {
   "fresh": true,
@@ -608,6 +718,11 @@
   "fresh": true,
   "title": "LiveActionAOV 独立工具：批量生成 VFX 通道",
   "translated_at": "2026-10-24"
+ },
+ "n-23309eb954": {
+  "fresh": true,
+  "title": "InfiniDepth：任意分辨率单目深度估计",
+  "translated_at": "2026-11-13"
  },
  "n-2340faee72": {
   "fresh": true,
@@ -669,6 +784,11 @@
   "title": "ABot-World 项目公开资源上线",
   "translated_at": "2026-10-24"
  },
+ "n-269dacc1a7": {
+  "fresh": true,
+  "title": "OpenCode 提供 GLM-5.3-Flash 限时免费访问",
+  "translated_at": "2026-11-13"
+ },
  "n-26bc0bd267": {
   "fresh": true,
   "title": "Kura 开发资源已关联",
@@ -729,10 +849,25 @@
   "title": "WAN Skills 公开详情无法获取",
   "translated_at": "2026-10-24"
  },
+ "n-2915ceca6f": {
+  "fresh": true,
+  "title": "ComfyUI-DreamScene360 — 全景高斯泼溅与 3D 场景",
+  "translated_at": "2026-11-13"
+ },
  "n-292e34fcb3": {
   "fresh": true,
   "title": "DanceOPD 项目网站已链接",
   "translated_at": "2026-10-24"
+ },
+ "n-2938402642": {
+  "fresh": true,
+  "title": "Boxer：开放世界 2D-to-3D 边界框提升",
+  "translated_at": "2026-11-13"
+ },
+ "n-2988748edd": {
+  "fresh": true,
+  "title": "GenXR-Bench 在 arXiv 发布，用于评估编码智能体的交互式 XR 开发能力",
+  "translated_at": "2026-11-13"
  },
  "n-29d4083d61": {
   "fresh": true,
@@ -748,6 +883,16 @@
   "fresh": true,
   "title": "OpenAI Codex CLI",
   "translated_at": "2026-10-24"
+ },
+ "n-2aa536ccdc": {
+  "fresh": true,
+  "title": "Kimi K2.6：Moonshot AI 前沿智能体 LLM",
+  "translated_at": "2026-11-13"
+ },
+ "n-2af8215f2c": {
+  "fresh": true,
+  "title": "DiffHDR：生成式 LDR 到 HDR 视频扩散",
+  "translated_at": "2026-11-13"
  },
  "n-2af9b3efb0": {
   "fresh": true,
@@ -829,6 +974,11 @@
   "title": "Video-to-World 项目资源已公开链接",
   "translated_at": "2026-10-24"
  },
+ "n-2f8c6f34f0": {
+  "fresh": true,
+  "title": "ClawEnvKit：面向 AI 智能体的自动环境生成",
+  "translated_at": "2026-11-13"
+ },
  "n-2f94cbb043": {
   "fresh": true,
   "title": "丰富智能体研究文章",
@@ -848,6 +998,11 @@
   "fresh": true,
   "title": "UniGenDet：面向图像生成与检测协同演化的统一生成-判别框架",
   "translated_at": "2026-10-24"
+ },
+ "n-2fd5e60740": {
+  "fresh": true,
+  "title": "QuickMagic AI：专业视频转动捕与虚拟形象服务",
+  "translated_at": "2026-11-13"
  },
  "n-2ff0f435cc": {
   "fresh": true,
@@ -909,6 +1064,11 @@
   "title": "Qwen-MM-Plugins 仓库被引用",
   "translated_at": "2026-10-24"
  },
+ "n-332335c756": {
+  "fresh": true,
+  "title": "ComfyUI Wan VACE 视频拼接器：实现无缝过渡",
+  "translated_at": "2026-11-13"
+ },
  "n-3347fb1328": {
   "fresh": true,
   "title": "Violin 翻译项目的公开发布",
@@ -919,10 +1079,20 @@
   "title": "OccAny 公开项目资源已分享",
   "translated_at": "2026-10-24"
  },
+ "n-3354f12396": {
+  "fresh": true,
+  "title": "camera-comfyUI：用于 ComfyUI 的 3D 相机投影节点",
+  "translated_at": "2026-11-13"
+ },
  "n-33f31b6935": {
   "fresh": true,
   "title": "MOSS-Audio-8B-Thinking",
   "translated_at": "2026-10-24"
+ },
+ "n-34034d382e": {
+  "fresh": true,
+  "title": "LTX 2.3 增强器：视觉保真度与清晰度 LoRA",
+  "translated_at": "2026-11-13"
  },
  "n-3450949e78": {
   "fresh": true,
@@ -933,6 +1103,11 @@
   "fresh": true,
   "title": "ByteDance Video Upscaler 在 Replicate 上被引用",
   "translated_at": "2026-10-24"
+ },
+ "n-348f0ce004": {
+  "fresh": true,
+  "title": "DisCa：蒸馏兼容的可学习特征缓存",
+  "translated_at": "2026-11-13"
  },
  "n-353bab66f8": {
   "fresh": true,
@@ -989,6 +1164,11 @@
   "title": "Qwen-Image-Edit 正式发布",
   "translated_at": "2026-10-24"
  },
+ "n-37e9305c06": {
+  "fresh": true,
+  "title": "Kimi K3.1 Pro 在开发者平台上线，提供 1M 词元上下文",
+  "translated_at": "2026-11-13"
+ },
  "n-38018d5d2d": {
   "fresh": true,
   "title": "SIQ-1-35B 公开模型与智能体演示已建立链接",
@@ -1018,6 +1198,11 @@
   "fresh": true,
   "title": "OmniDirector 项目页面与源代码仓库已关联",
   "translated_at": "2026-10-24"
+ },
+ "n-3904aeff63": {
+  "fresh": true,
+  "title": "LTX2.3-10Eros 视频生成模型",
+  "translated_at": "2026-11-13"
  },
  "n-3905bae486": {
   "fresh": true,
@@ -1064,6 +1249,11 @@
   "title": "Muse Glimmer 30B 的 Hugging Face 相关链接已被记录",
   "translated_at": "2026-10-24"
  },
+ "n-3b297c8441": {
+  "fresh": true,
+  "title": "World Labs Marble：生成式 3D 世界模型",
+  "translated_at": "2026-11-13"
+ },
  "n-3bacf0e143": {
   "fresh": true,
   "title": "苹果发布第三代 Foundation Models",
@@ -1094,6 +1284,11 @@
   "title": "Black Forest Labs 发布 FLUX 3 博客更新",
   "translated_at": "2026-10-24"
  },
+ "n-3ef8391496": {
+  "fresh": true,
+  "title": "GLiGuard：紧凑型 LLM 安全审核模型",
+  "translated_at": "2026-11-13"
+ },
  "n-3efc7bc4ce": {
   "fresh": true,
   "title": "迪士尼研究院关于神经渲染代理（Neural Render Proxies）的参考资料",
@@ -1123,6 +1318,11 @@
   "fresh": true,
   "title": "Lyria 3 Pro 预览版访问路径已记录",
   "translated_at": "2026-10-24"
+ },
+ "n-3fedc168df": {
+  "fresh": true,
+  "title": "SpatialEdit-16B：细粒度图像空间编辑",
+  "translated_at": "2026-11-13"
  },
  "n-40028a6fe7": {
   "fresh": true,
@@ -1164,6 +1364,11 @@
   "title": "V-RAE 项目资源已关联",
   "translated_at": "2026-10-24"
  },
+ "n-41c999d507": {
+  "fresh": true,
+  "title": "ComfyUI_SenseNova_U1 多模态模型自定义节点",
+  "translated_at": "2026-11-13"
+ },
  "n-42aacd4f9b": {
   "fresh": true,
   "title": "Omma 平台上线条目",
@@ -1179,10 +1384,20 @@
   "title": "LTX-2.3-Foley-LoRA 模型页面已存档",
   "translated_at": "2026-10-24"
  },
+ "n-44592b77d5": {
+  "fresh": true,
+  "title": "Tuna-2：像素嵌入超越视觉编码器",
+  "translated_at": "2026-11-13"
+ },
  "n-447fbd2c0e": {
   "fresh": true,
   "title": "arXiv预印本详述WorldStream架构与持久化世界记录",
   "translated_at": "2026-10-24"
+ },
+ "n-44b3b570af": {
+  "fresh": true,
+  "title": "MACE-Dance：面向舞蹈生成的动作-外观级联专家模型",
+  "translated_at": "2026-11-13"
  },
  "n-44c547a245": {
   "fresh": true,
@@ -1194,10 +1409,35 @@
   "title": "Firecrawl 讨论串中链接的 pdf-inspector 仓库",
   "translated_at": "2026-10-24"
  },
+ "n-4541890dcb": {
+  "fresh": true,
+  "title": "Flux2Klein Enhancer 实现扩展的多参考实现",
+  "translated_at": "2026-11-13"
+ },
+ "n-45b7bbd16b": {
+  "fresh": true,
+  "title": "Krea 2 的早期社区工具与模型产物浮出水面",
+  "translated_at": "2026-11-13"
+ },
+ "n-461304d95b": {
+  "fresh": true,
+  "title": "ReconViaGen：通过生成实现精确的多视角 3D 重建",
+  "translated_at": "2026-11-13"
+ },
  "n-4621bd0727": {
   "fresh": true,
   "title": "VocalRender 项目资源已公开发布",
   "translated_at": "2026-10-24"
+ },
+ "n-464a2f9508": {
+  "fresh": true,
+  "title": "Large Performance Model LPM 1.0 交互式视频",
+  "translated_at": "2026-11-13"
+ },
+ "n-4694b833dd": {
+  "fresh": true,
+  "title": "Pi-HOC：成对 3D 人-物接触",
+  "translated_at": "2026-11-13"
  },
  "n-4697df47f5": {
   "fresh": true,
@@ -1249,6 +1489,16 @@
   "title": "与 Qwen3.8-27B-Uncensored-MLX 相关的 Hugging Face 仓库",
   "translated_at": "2026-10-24"
  },
+ "n-49a6616381": {
+  "fresh": true,
+  "title": "BRO v14：硬核斯多葛工程师超级提示词",
+  "translated_at": "2026-11-13"
+ },
+ "n-49b64d4933": {
+  "fresh": true,
+  "title": "UniRelight：联合视频分解与合成框架",
+  "translated_at": "2026-11-13"
+ },
  "n-49e8a26e33": {
   "fresh": true,
   "title": "flova.ai：由 Seedance 2.0 驱动的 AI 视频智能体",
@@ -1258,6 +1508,11 @@
   "fresh": true,
   "title": "Whisper-Podlodka-Turbo 的 Hugging Face 仓库已被关联",
   "translated_at": "2026-10-24"
+ },
+ "n-4a638abcfe": {
+  "fresh": true,
+  "title": "SenseNova-U1：采用 NEO-unify 的统一多模态 AI",
+  "translated_at": "2026-11-13"
  },
  "n-4a97c79072": {
   "fresh": true,
@@ -1278,6 +1533,11 @@
   "fresh": true,
   "title": "Stripe 据报道接近以超过 70 亿美元收购 OpenRouter",
   "translated_at": "2026-10-24"
+ },
+ "n-4bbad7fe81": {
+  "fresh": true,
+  "title": "Ltx2.3-VBVR：面向 LTX-Video 的视觉推理 LoRA",
+  "translated_at": "2026-11-13"
  },
  "n-4bbbd17d1b": {
   "fresh": true,
@@ -1354,6 +1614,11 @@
   "title": "EMF：扩展一步式图像生成（阿里巴巴）",
   "translated_at": "2026-10-24"
  },
+ "n-52e566a651": {
+  "fresh": true,
+  "title": "LumiVid：基于 LTX-Video 2.3 的 SDR 到 HDR 视频生成",
+  "translated_at": "2026-11-13"
+ },
  "n-5319c89cd3": {
   "fresh": true,
   "title": "HuggingFace VFS 插件源代码仓库已关联",
@@ -1399,6 +1664,11 @@
   "title": "NeumaTex 项目页面已分享",
   "translated_at": "2026-10-24"
  },
+ "n-553243c913": {
+  "fresh": true,
+  "title": "RotorQuant：基于分块对角 Clifford 旋转子的 KV 缓存压缩",
+  "translated_at": "2026-11-13"
+ },
  "n-5540a93cb5": {
   "fresh": true,
   "title": "Seed Audio 1.0 通过 fal.ai 模型页面被引用",
@@ -1414,6 +1684,11 @@
   "title": "报道描述一起与 Claude Code 相关的意外扣费事件",
   "translated_at": "2026-10-24"
  },
+ "n-55b3aea30b": {
+  "fresh": true,
+  "title": "Gemini 应用宣布 3D 模型与图表功能",
+  "translated_at": "2026-11-13"
+ },
  "n-55db199d87": {
   "fresh": true,
   "title": "FlowInOne：统一的以视觉为中心的多模态图像生成与编辑",
@@ -1428,6 +1703,11 @@
   "fresh": true,
   "title": "Unsloth Desktop 正式发布",
   "translated_at": "2026-10-24"
+ },
+ "n-58129455d1": {
+  "fresh": true,
+  "title": "Ring-2.6-1T：高性能智能体 MoE 模型",
+  "translated_at": "2026-11-13"
  },
  "n-58225bc7d0": {
   "fresh": true,
@@ -1449,10 +1729,25 @@
   "title": "CanAI本地AI画布工作室在GitHub上发布",
   "translated_at": "2026-10-24"
  },
+ "n-5966d93d70": {
+  "fresh": true,
+  "title": "CAVC：面向扩散音视频生成的模态非对称缓存框架发布",
+  "translated_at": "2026-11-13"
+ },
+ "n-596ffa06da": {
+  "fresh": true,
+  "title": "ACE-Step 1.5 XL",
+  "translated_at": "2026-11-13"
+ },
  "n-599684b34f": {
   "fresh": true,
   "title": "谷歌发布 Gemini 3.5 Live Translate 预览版",
   "translated_at": "2026-10-24"
+ },
+ "n-5ac53c2267": {
+  "fresh": true,
+  "title": "NVIDIA Gemma-4-31B-IT NVFP4 量化模型",
+  "translated_at": "2026-11-13"
  },
  "n-5ade5d658c": {
   "fresh": true,
@@ -1463,6 +1758,16 @@
   "fresh": true,
   "title": "ThinkingCap-Qwen3.6-27B 的代码仓库与部署变体已关联上线",
   "translated_at": "2026-10-24"
+ },
+ "n-5b56fca93a": {
+  "fresh": true,
+  "title": "NVIDIA Parakeet-unified-en-0.6b 统一 ASR 模型",
+  "translated_at": "2026-11-13"
+ },
+ "n-5be6e62e52": {
+  "fresh": true,
+  "title": "AnyRecon：基于视频扩散的任意视角 3D 重建",
+  "translated_at": "2026-11-13"
  },
  "n-5cac0a3186": {
   "fresh": true,
@@ -1529,6 +1834,16 @@
   "title": "SANA-Video 代码与权重发布",
   "translated_at": "2026-10-24"
  },
+ "n-5e92efec32": {
+  "fresh": true,
+  "title": "百度 ERNIE 5.1 大语言模型",
+  "translated_at": "2026-11-13"
+ },
+ "n-5e96f46ead": {
+  "fresh": true,
+  "title": "Dynamic Band Splitting 发布自适应音频分离代码与模型",
+  "translated_at": "2026-11-13"
+ },
  "n-5ee5b179bf": {
   "fresh": true,
   "title": "UniD 项目页面与源代码仓库已公开关联",
@@ -1539,10 +1854,20 @@
   "title": "GLM-5.2-NVFP4 已关联到 NVIDIA 的 Hugging Face 模型页面",
   "translated_at": "2026-10-24"
  },
+ "n-5f314f696f": {
+  "fresh": true,
+  "title": "Music Flamingo 面向长篇音乐理解",
+  "translated_at": "2026-11-13"
+ },
  "n-5f36799f6d": {
   "fresh": true,
   "title": "Matrix-Game 3.0：Skywork AI 推出的交互式世界模型",
   "translated_at": "2026-10-24"
+ },
+ "n-5f58046d55": {
+  "fresh": true,
+  "title": "3D 表面重建中提及了 Surflo 项目资源",
+  "translated_at": "2026-11-13"
  },
  "n-5fb7b8ba70": {
   "fresh": true,
@@ -1578,6 +1903,11 @@
   "fresh": true,
   "title": "LingBot-Video 的公开项目资源被引用",
   "translated_at": "2026-10-24"
+ },
+ "n-6202d8d932": {
+  "fresh": true,
+  "title": "Kimi K3.1 Pro 发布，附 Highspeed 变体及计划开放的权重",
+  "translated_at": "2026-11-13"
  },
  "n-625a62d5de": {
   "fresh": true,
@@ -1639,10 +1969,20 @@
   "title": "ONYX Ai Matte 项目资源已关联",
   "translated_at": "2026-10-24"
  },
+ "n-6562acabdd": {
+  "fresh": true,
+  "title": "Happy Horse 1.0：统一视频与音频生成模型",
+  "translated_at": "2026-11-13"
+ },
  "n-65c8f1b873": {
   "fresh": true,
   "title": "字节跳动在 Hugging Face 上发布 EvoQuality 资源",
   "translated_at": "2026-10-24"
+ },
+ "n-6607af2693": {
+  "fresh": true,
+  "title": "已记录 TSANTSALIZE 的 Hugging Face 模型资源",
+  "translated_at": "2026-11-13"
  },
  "n-661e84940d": {
   "fresh": true,
@@ -1754,6 +2094,11 @@
   "title": "INT8 版 Flux2-Klein 检查点及 ComfyUI 集成已可用",
   "translated_at": "2026-10-24"
  },
+ "n-6a60e32785": {
+  "fresh": true,
+  "title": "Qwen 3.6 Plus",
+  "translated_at": "2026-11-13"
+ },
  "n-6ab0eb34ad": {
   "fresh": true,
   "title": "S3T-Former源代码仓库已被分享",
@@ -1793,6 +2138,11 @@
   "fresh": true,
   "title": "JoyAI-VL-Interaction 项目与源代码仓库已公开关联",
   "translated_at": "2026-10-24"
+ },
+ "n-6c5e22fee1": {
+  "fresh": true,
+  "title": "已记录 Ideogram v4 Instant 与 Fast 变体",
+  "translated_at": "2026-11-13"
  },
  "n-6cdd78c533": {
   "fresh": true,
@@ -1883,6 +2233,11 @@
   "fresh": true,
   "title": "C-MET：面向说话人脸视频的跨模态情绪迁移",
   "translated_at": "2026-10-24"
+ },
+ "n-7127c15c53": {
+  "fresh": true,
+  "title": "MiniMax 发布 MiniMax H3 官方博客文章",
+  "translated_at": "2026-11-13"
  },
  "n-7150bbd771": {
   "fresh": true,
@@ -1984,6 +2339,11 @@
   "title": "Xiaomi MiMo V2.5 全模态推理模型",
   "translated_at": "2026-10-24"
  },
+ "n-76a6e0d291": {
+  "fresh": true,
+  "title": "ComfyUI-Flux2Klein-Enhancer 面部保持节点",
+  "translated_at": "2026-11-13"
+ },
  "n-76eee2c69c": {
   "fresh": true,
   "title": "Echo-2：SpAItial AI 的 3D 世界生成",
@@ -1998,6 +2358,11 @@
   "fresh": true,
   "title": "迪士尼研究院记录了通过计划修复（scheduled inpainting）实现的交互式生成式动作编辑",
   "translated_at": "2026-10-24"
+ },
+ "n-782f0991a7": {
+  "fresh": true,
+  "title": "已记录 Doodles Stoodio 公开网页端点",
+  "translated_at": "2026-11-13"
  },
  "n-78395026cf": {
   "fresh": true,
@@ -2068,6 +2433,11 @@
   "fresh": true,
   "title": "UniGeo：基于视频模型的可控相机视角图像编辑",
   "translated_at": "2026-10-24"
+ },
+ "n-7cc366b545": {
+  "fresh": true,
+  "title": "OpenGame：面向网页游戏的开放智能体编码",
+  "translated_at": "2026-11-13"
  },
  "n-7d096b306e": {
   "fresh": true,
@@ -2199,6 +2569,11 @@
   "title": "VOID：来自 Netflix 的视频对象与交互删除",
   "translated_at": "2026-10-24"
  },
+ "n-83d7f5eb84": {
+  "fresh": true,
+  "title": "Spark-X2.6-4B 新增通过 vLLM 与 SGLang 提供的兼容 OpenAI 服务支持",
+  "translated_at": "2026-11-13"
+ },
  "n-840bb8c6c7": {
   "fresh": true,
   "title": "Chandra OCR 2：开源文档理解模型",
@@ -2218,6 +2593,16 @@
   "fresh": true,
   "title": "MagicMakeup Transfer 公开项目资源已关联",
   "translated_at": "2026-10-24"
+ },
+ "n-851c72bbf5": {
+  "fresh": true,
+  "title": "ACE-Step 1.5 发布 v0.1.8，附按产物区分的 GPU 指南",
+  "translated_at": "2026-11-13"
+ },
+ "n-85862dbbb3": {
+  "fresh": true,
+  "title": "用于 3D Gaussian Splatting 场景的 Geo Register 插件",
+  "translated_at": "2026-11-13"
  },
  "n-86023c7979": {
   "fresh": true,
@@ -2239,6 +2624,11 @@
   "title": "Canon UltraReal 已在 Civitai 和 Hugging Face 上公开列出",
   "translated_at": "2026-10-24"
  },
+ "n-86ce44c208": {
+  "fresh": true,
+  "title": "Qwen-Image-2.0-Pro",
+  "translated_at": "2026-11-13"
+ },
  "n-8719519a69": {
   "fresh": true,
   "title": "3DGS-PLY-3DTiles-Converter 源代码仓库与公开站点已记录",
@@ -2254,6 +2644,11 @@
   "title": "LDF-VFI：面向视频帧插值的局部扩散强制方法",
   "translated_at": "2026-10-24"
  },
+ "n-8913c98771": {
+  "fresh": true,
+  "title": "Sulphur 2 视频生成模型",
+  "translated_at": "2026-11-13"
+ },
  "n-8a14fda3a6": {
   "fresh": true,
   "title": "批量研究资料导入：通过 Gemini 3 Flash CLI 处理 21 篇文章",
@@ -2264,10 +2659,25 @@
   "title": "HyperAgents 公开代码仓库被引用",
   "translated_at": "2026-10-24"
  },
+ "n-8a620616a1": {
+  "fresh": true,
+  "title": "Qwen3.6-35B-A3B-NVFP4：高效率 Blackwell 优化的 MoE",
+  "translated_at": "2026-11-13"
+ },
+ "n-8a851b82d9": {
+  "fresh": true,
+  "title": "Reshoot-Anything：基于 4D-Anchor 控制的视频视点合成",
+  "translated_at": "2026-11-13"
+ },
  "n-8a9fb1a4b9": {
   "fresh": true,
   "title": "Lucida 开发资源已被关联",
   "translated_at": "2026-10-24"
+ },
+ "n-8ae442bb62": {
+  "fresh": true,
+  "title": "mm-ctx 公开 Hugging Face Space 引用",
+  "translated_at": "2026-11-13"
  },
  "n-8b5f11bc11": {
   "fresh": true,
@@ -2293,6 +2703,11 @@
   "fresh": true,
   "title": "Decart 公开发布 Lucy 2.5",
   "translated_at": "2026-10-24"
+ },
+ "n-8cf0d43011": {
+  "fresh": true,
+  "title": "FastGHA：通用少样本 3D Gaussian 头部虚拟形象",
+  "translated_at": "2026-11-13"
  },
  "n-8d546ea894": {
   "fresh": true,
@@ -2324,6 +2739,11 @@
   "title": "WorldCam 项目与源代码仓库公开",
   "translated_at": "2026-10-24"
  },
+ "n-8e2ceecbcb": {
+  "fresh": true,
+  "title": "Mistral Medium 3.5：统一的 128B 多模态模型",
+  "translated_at": "2026-11-13"
+ },
  "n-8e75dd0767": {
   "fresh": true,
   "title": "Chronosplat源代码仓库与交互式查看器已建立链接",
@@ -2349,10 +2769,20 @@
   "title": "PrismAudio：基于分解式思维链的视频转音频生成",
   "translated_at": "2026-10-24"
  },
+ "n-8ff86e4411": {
+  "fresh": true,
+  "title": "M2SVid：单目到立体视频转换",
+  "translated_at": "2026-11-13"
+ },
  "n-901220b5b4": {
   "fresh": true,
   "title": "Evoke 公开项目资源已上线链接",
   "translated_at": "2026-10-24"
+ },
+ "n-9139899069": {
+  "fresh": true,
+  "title": "Gemma 4 31B-it",
+  "translated_at": "2026-11-13"
  },
  "n-920abfb1e3": {
   "fresh": true,
@@ -2368,6 +2798,11 @@
   "fresh": true,
   "title": "Modality Forcing 深度预测相关资源已关联",
   "translated_at": "2026-10-24"
+ },
+ "n-9371b417f8": {
+  "fresh": true,
+  "title": "LoGeR 作为 3D 重建项目亮相",
+  "translated_at": "2026-11-13"
  },
  "n-93c82cced4": {
   "fresh": true,
@@ -2414,6 +2849,11 @@
   "title": "MonoArt 项目网站与源代码仓库已关联",
   "translated_at": "2026-10-24"
  },
+ "n-972d1e2832": {
+  "fresh": true,
+  "title": "TML Interaction Models：实时多模态 AI",
+  "translated_at": "2026-11-13"
+ },
  "n-9744e9b73c": {
   "fresh": true,
   "title": "Z-Image Turbo 面部细节修复工作流",
@@ -2423,6 +2863,16 @@
   "fresh": true,
   "title": "MemPrivacy 源代码与模型合集已被引用",
   "translated_at": "2026-10-24"
+ },
+ "n-97b254669d": {
+  "fresh": true,
+  "title": "ERNIE-Image 8B：百度高性能 DiT 模型",
+  "translated_at": "2026-11-13"
+ },
+ "n-97c6278d46": {
+  "fresh": true,
+  "title": "Qwen3.6-27B：高性能开放权重编码模型",
+  "translated_at": "2026-11-13"
  },
  "n-97c92d3269": {
   "fresh": true,
@@ -2449,6 +2899,11 @@
   "title": "Echo LongVideo 公开项目资源已完成关联",
   "translated_at": "2026-10-24"
  },
+ "n-98474cc274": {
+  "fresh": true,
+  "title": "Nucleus Image：稀疏混合专家扩散模型",
+  "translated_at": "2026-11-13"
+ },
  "n-984ac0ee00": {
   "fresh": true,
   "title": "一个 Civitai 模型页面被引用，对应 UltraReal - KREA2 Klein9b",
@@ -2463,6 +2918,11 @@
   "fresh": true,
   "title": "NVIDIA 公开 Nemotron VoiceChat 11B 的代码与模型资源",
   "translated_at": "2026-10-24"
+ },
+ "n-997df70c3d": {
+  "fresh": true,
+  "title": "LTX-2.3-22B-DISTILLED-1.1 视频 DiT 模型",
+  "translated_at": "2026-11-13"
  },
  "n-99c607c318": {
   "fresh": true,
@@ -2483,6 +2943,21 @@
   "fresh": true,
   "title": "Data2Story 已与其项目网站和 GitHub 仓库建立公开关联",
   "translated_at": "2026-10-24"
+ },
+ "n-9a27202165": {
+  "fresh": true,
+  "title": "用于 360 视频的 VR-360-Outpaint LTX-2.3 IC-LoRA",
+  "translated_at": "2026-11-13"
+ },
+ "n-9aa3cb6ab5": {
+  "fresh": true,
+  "title": "Audio Flamingo Next（AF-Next）",
+  "translated_at": "2026-11-13"
+ },
+ "n-9af7222826": {
+  "fresh": true,
+  "title": "QClaw-4B：面向智能体任务的紧凑语言模型",
+  "translated_at": "2026-11-13"
  },
  "n-9bab984caa": {
   "fresh": true,
@@ -2509,10 +2984,20 @@
   "title": "LTX2.3 Audio Reactive LoRA 已进入带日期的开发记录",
   "translated_at": "2026-10-24"
  },
+ "n-9db878fd06": {
+  "fresh": true,
+  "title": "KIRI Engine：高斯泼溅转网格",
+  "translated_at": "2026-11-13"
+ },
  "n-9dd20d8e0c": {
   "fresh": true,
   "title": "4C4D：四相机 4D 高斯泼溅",
   "translated_at": "2026-10-24"
+ },
+ "n-9e0a0fba7f": {
+  "fresh": true,
+  "title": "Pixal3D：腾讯的像素对齐 3D 生成",
+  "translated_at": "2026-11-13"
  },
  "n-9e65c4419e": {
   "fresh": true,
@@ -2579,6 +3064,11 @@
   "title": "NanoVDR 关联的 Hugging Face 公开资源与演示",
   "translated_at": "2026-10-24"
  },
+ "n-a167c6f61b": {
+  "fresh": true,
+  "title": "ComfyUI v0.42.5 维护补丁已发布",
+  "translated_at": "2026-11-13"
+ },
  "n-a1c9a6a103": {
   "fresh": true,
   "title": "LlamaServerLauncherAvalonia 仓库被引用",
@@ -2614,6 +3104,16 @@
   "title": "MemPalace：面向LLM的高效无限记忆压缩",
   "translated_at": "2026-10-24"
  },
+ "n-a3aa871dfa": {
+  "fresh": true,
+  "title": "用于 Colab 上 Gemma 4 微调的 Unsloth Studio",
+  "translated_at": "2026-11-13"
+ },
+ "n-a3c0ebdd3a": {
+  "fresh": true,
+  "title": "UniCorrn：跨 2D 与 3D 的统一对应 Transformer",
+  "translated_at": "2026-11-13"
+ },
  "n-a3e4d25dc2": {
   "fresh": true,
   "title": "CanAI以开源画布形式发布，支持生成式图像与视频",
@@ -2638,6 +3138,11 @@
   "fresh": true,
   "title": "Lyra 2.0：可探索的生成式 3D 世界",
   "translated_at": "2026-10-24"
+ },
+ "n-a56b9d31b6": {
+  "fresh": true,
+  "title": "Perplexity Personal Computer（Mac 版）",
+  "translated_at": "2026-11-13"
  },
  "n-a5a478ec38": {
   "fresh": true,
@@ -2674,10 +3179,20 @@
   "title": "Cursor：AI 原生代码编辑器",
   "translated_at": "2026-10-24"
  },
+ "n-a71a838b34": {
+  "fresh": true,
+  "title": "GyroScope：图像方向检测与校正模型",
+  "translated_at": "2026-11-13"
+ },
  "n-a74ee42caa": {
   "fresh": true,
   "title": "FlowAnchor：无需反演的稳定视频编辑",
   "translated_at": "2026-10-24"
+ },
+ "n-a7521b7b08": {
+  "fresh": true,
+  "title": "BACH 1.0：多镜头 AI 视频生成",
+  "translated_at": "2026-11-13"
  },
  "n-a78b2b7401": {
   "fresh": true,
@@ -2689,6 +3204,11 @@
   "title": "Exiv 的源代码仓库与入门文档已完成关联",
   "translated_at": "2026-10-24"
  },
+ "n-a7d1f83b13": {
+  "fresh": true,
+  "title": "ArcFlow：2-Step 非线性图像生成框架",
+  "translated_at": "2026-11-13"
+ },
  "n-a7efec38e4": {
   "fresh": true,
   "title": "Qwen3-ASR-1.7B-hf 检查点参考",
@@ -2699,10 +3219,20 @@
   "title": "CHAI：面向视频描述的基于批评的人机监督",
   "translated_at": "2026-10-24"
  },
+ "n-a81182e9ac": {
+  "fresh": true,
+  "title": "Claude Opus 4.7：Anthropic 的旗舰编程与推理模型",
+  "translated_at": "2026-11-13"
+ },
  "n-a85f96599d": {
   "fresh": true,
   "title": "ComfyUI-Latent-Tiled-PiD 收到一条带日期的公开仓库引用",
   "translated_at": "2026-10-24"
+ },
+ "n-a8a043a8fd": {
+  "fresh": true,
+  "title": "INSID3：基于 DINOv3 的快速上下文分割",
+  "translated_at": "2026-11-13"
  },
  "n-a95c499131": {
   "fresh": true,
@@ -2834,6 +3364,11 @@
   "title": "GUSH3R 公开项目资源已关联",
   "translated_at": "2026-10-24"
  },
+ "n-b18df4c1c8": {
+  "fresh": true,
+  "title": "用于平滑 AI 视频的语义进度函数（SPF）",
+  "translated_at": "2026-11-13"
+ },
  "n-b1bee57937": {
   "fresh": true,
   "title": "Wan2.2 T2V A14B 的 Diffusers FP8 与 NVFP4 变体已有文档说明",
@@ -2858,6 +3393,11 @@
   "fresh": true,
   "title": "GLM-5V-Turbo：面向设计转代码的多模态工程模型",
   "translated_at": "2026-10-24"
+ },
+ "n-b2c1d5a768": {
+  "fresh": true,
+  "title": "FLUX.2 小型解码器（蒸馏 VAE）",
+  "translated_at": "2026-11-13"
  },
  "n-b347948b96": {
   "fresh": true,
@@ -2964,6 +3504,11 @@
   "title": "Zeta-Chroma 基础模型工件已记录",
   "translated_at": "2026-10-24"
  },
+ "n-b9e02bd01a": {
+  "fresh": true,
+  "title": "ACE-Step 1.5 XL 音乐生成",
+  "translated_at": "2026-11-13"
+ },
  "n-ba02def424": {
   "fresh": true,
   "title": "项目代码仓库引用已记录",
@@ -2999,10 +3544,30 @@
   "title": "IGGT4D GitHub Pages 站点已被链接",
   "translated_at": "2026-10-24"
  },
+ "n-bb60458b02": {
+  "fresh": true,
+  "title": "FLUX.2-klein-9B-Nunchaku",
+  "translated_at": "2026-11-13"
+ },
+ "n-bb76b83d43": {
+  "fresh": true,
+  "title": "ComfyUI-Drama3 更新专家缓存，8GB 显存上提速 3x+",
+  "translated_at": "2026-11-13"
+ },
  "n-bbc670c0e1": {
   "fresh": true,
   "title": "LongCat 将 LongCat 2.0 公开可查",
   "translated_at": "2026-10-24"
+ },
+ "n-bc5c88f85f": {
+  "fresh": true,
+  "title": "DeepSeek-V4-Pro：万亿级旗舰混合专家模型",
+  "translated_at": "2026-11-13"
+ },
+ "n-bcef63351f": {
+  "fresh": true,
+  "title": "Z-Anime：S3-DiT 6B 高保真动漫生成模型",
+  "translated_at": "2026-11-13"
  },
  "n-bd49bc44b7": {
   "fresh": true,
@@ -3014,10 +3579,20 @@
   "title": "Gemopus-4-26B 大语言模型",
   "translated_at": "2026-10-24"
  },
+ "n-bec376434e": {
+  "fresh": true,
+  "title": "TinyMU：面向音乐理解的紧凑音频-语言模型",
+  "translated_at": "2026-11-13"
+ },
  "n-c0d09bda8b": {
   "fresh": true,
   "title": "NVIDIA 发布 Nemotron 3 Super",
   "translated_at": "2026-10-24"
+ },
+ "n-c13e04020a": {
+  "fresh": true,
+  "title": "Spark-X2.6-4B 以 Apache 2.0 许可证发布，附带量化变体和可配置推理",
+  "translated_at": "2026-11-13"
  },
  "n-c15c8a5410": {
   "fresh": true,
@@ -3043,6 +3618,11 @@
   "fresh": true,
   "title": "Marionette 公开项目资源已完成链接",
   "translated_at": "2026-10-24"
+ },
+ "n-c2ca134086": {
+  "fresh": true,
+  "title": "ERNIE-Image-Turbo 8B 开放权重扩散 Transformer",
+  "translated_at": "2026-11-13"
  },
  "n-c2e38d5935": {
   "fresh": true,
@@ -3099,6 +3679,11 @@
   "title": "CARLA-Air GitHub 仓库已链接",
   "translated_at": "2026-10-24"
  },
+ "n-c4a452f85d": {
+  "fresh": true,
+  "title": "以 NumPy 作为合成引擎（PyTheory）",
+  "translated_at": "2026-11-13"
+ },
  "n-c4e41aef2b": {
   "fresh": true,
   "title": "“What to Edit Next”公开网站被引用",
@@ -3114,10 +3699,25 @@
   "title": "WildDet3D：在真实场景中扩展可提示的 3D 检测",
   "translated_at": "2026-10-24"
  },
+ "n-c56aa9fa27": {
+  "fresh": true,
+  "title": "Motif-Video 2B：高效解耦扩散 Transformer 视频模型",
+  "translated_at": "2026-11-13"
+ },
+ "n-c56d07046e": {
+  "fresh": true,
+  "title": "DreamLite：统一的端侧图像生成与编辑",
+  "translated_at": "2026-11-13"
+ },
  "n-c5e93c1d3a": {
   "fresh": true,
   "title": "Audex 模型仓库现已可被公开检索",
   "translated_at": "2026-10-24"
+ },
+ "n-c660c4f559": {
+  "fresh": true,
+  "title": "CDM：连续时间分布匹配扩散蒸馏",
+  "translated_at": "2026-11-13"
  },
  "n-c66b8c38b0": {
   "fresh": true,
@@ -3148,6 +3748,11 @@
   "fresh": true,
   "title": "Z-Image-SAM-ControlNet（NeuralVFX 出品）",
   "translated_at": "2026-10-24"
+ },
+ "n-c7bfff5d31": {
+  "fresh": true,
+  "title": "Gemma 4：Google 的多模态开放模型系列",
+  "translated_at": "2026-11-13"
  },
  "n-c8fa19868e": {
   "fresh": true,
@@ -3204,6 +3809,11 @@
   "title": "DeepSeek 发布 V4.1-Flash-1017 权重",
   "translated_at": "2026-10-24"
  },
+ "n-ccb2a502fb": {
+  "fresh": true,
+  "title": "自适应时空 3D 高斯泼溅",
+  "translated_at": "2026-11-13"
+ },
  "n-ccb51d2a95": {
   "fresh": true,
   "title": "MiniMax H3 Fun ControlNet Union 与 VideoX-Fun 示例相关联",
@@ -3213,6 +3823,16 @@
   "fresh": true,
   "title": "LTX-2.3-22b-IC-LoRA-Ungrade 中性色彩还原",
   "translated_at": "2026-10-24"
+ },
+ "n-cce36dc967": {
+  "fresh": true,
+  "title": "Krea 2 Turbo SDA LoRA：增加两步多样性门控",
+  "translated_at": "2026-11-13"
+ },
+ "n-cd25320940": {
+  "fresh": true,
+  "title": "Sync-3：Sync Labs 的专业级 AI 口型同步",
+  "translated_at": "2026-11-13"
  },
  "n-cddebb8e59": {
   "fresh": true,
@@ -3269,6 +3889,11 @@
   "title": "InfiniSplat 公开项目资源已整理归档",
   "translated_at": "2026-10-24"
  },
+ "n-cf88820803": {
+  "fresh": true,
+  "title": "Wan2.2 Distill：4-Step 模型加速视频生成",
+  "translated_at": "2026-11-13"
+ },
  "n-cf8c575ede": {
   "fresh": true,
   "title": "SCoPE 项目资源已关联",
@@ -3298,6 +3923,11 @@
   "fresh": true,
   "title": "GEMS：具备记忆能力的智能体原生多模态生成",
   "translated_at": "2026-10-24"
+ },
+ "n-d135dd8f66": {
+  "fresh": true,
+  "title": "Moonshot 推出 Kimi K3.1 Pro 刷新版，计划公开发布",
+  "translated_at": "2026-11-13"
  },
  "n-d140f3d07f": {
   "fresh": true,
@@ -3344,6 +3974,11 @@
   "title": "Higgs Audio v3 TTS 公开资源已发布",
   "translated_at": "2026-10-24"
  },
+ "n-d4678fd961": {
+  "fresh": true,
+  "title": "CAVC 在音视频生成中实现 1.10-1.35x 推理加速",
+  "translated_at": "2026-11-13"
+ },
  "n-d46d9eb28f": {
   "fresh": true,
   "title": "Meta从商业条款中删除AI训练相关表述",
@@ -3353,6 +3988,11 @@
   "fresh": true,
   "title": "Modly GitHub 仓库引用",
   "translated_at": "2026-10-24"
+ },
+ "n-d4d07dd0bf": {
+  "fresh": true,
+  "title": "P-Video-Avatar：高速 AI 说话人头部动画",
+  "translated_at": "2026-11-13"
  },
  "n-d4f61075f4": {
   "fresh": true,
@@ -3394,6 +4034,11 @@
   "title": "Wan2.7-Video——导演级视频生成与编辑套件",
   "translated_at": "2026-10-24"
  },
+ "n-d755c8bc8a": {
+  "fresh": true,
+  "title": "Qwen3-TTS：先进的零样本语音合成",
+  "translated_at": "2026-11-13"
+ },
  "n-d76b3cf6c5": {
   "fresh": true,
   "title": "METR 对 GPT-5.6 Sol 的报道",
@@ -3403,6 +4048,11 @@
   "fresh": true,
   "title": "Qwen-Image-Flash 研究论文引用记录",
   "translated_at": "2026-10-24"
+ },
+ "n-d7b1c6bb36": {
+  "fresh": true,
+  "title": "VoxCPM2 — 2B 无分词器多语言 TTS 与声音克隆",
+  "translated_at": "2026-11-13"
  },
  "n-d7c3a5e60e": {
   "fresh": true,
@@ -3424,6 +4074,11 @@
   "title": "Sync.so AI视觉配音与口型同步工作室",
   "translated_at": "2026-10-24"
  },
+ "n-d8bf4374be": {
+  "fresh": true,
+  "title": "Odyssey-2 Max：实时生成式世界模拟器",
+  "translated_at": "2026-11-13"
+ },
  "n-d967265835": {
   "fresh": true,
   "title": "LongCat-AudioDiT：高保真波形潜变量扩散 TTS",
@@ -3443,6 +4098,11 @@
   "fresh": true,
   "title": "Vista4D：Netflix 推出的 4D 视频重拍框架",
   "translated_at": "2026-10-24"
+ },
+ "n-d9eaebd61d": {
+  "fresh": true,
+  "title": "Wan 2.7-Image（Pro）",
+  "translated_at": "2026-11-13"
  },
  "n-da24004da2": {
   "fresh": true,
@@ -3494,6 +4154,11 @@
   "title": "Langswap 推出模块化语音翻译与配音技术栈",
   "translated_at": "2026-10-24"
  },
+ "n-dd8d68b69f": {
+  "fresh": true,
+  "title": "MF0-1984：多模态 AI 智能体的长期记忆",
+  "translated_at": "2026-11-13"
+ },
  "n-dd9a3a9b07": {
   "fresh": true,
   "title": "WhatModels 公开网站已有文档记录",
@@ -3533,6 +4198,11 @@
   "fresh": true,
   "title": "MiniMax Music 2.6 AI 音乐生成平台",
   "translated_at": "2026-10-24"
+ },
+ "n-e17cbf7ded": {
+  "fresh": true,
+  "title": "腾讯 Hy-MT1.5 移动端机器翻译",
+  "translated_at": "2026-11-13"
  },
  "n-e1ca928d8e": {
   "fresh": true,
@@ -3579,6 +4249,11 @@
   "title": "SwiftVR 公开项目资源已被记录",
   "translated_at": "2026-10-24"
  },
+ "n-e3fe618151": {
+  "fresh": true,
+  "title": "MegaStyle：可扩展的艺术风格整理流水线",
+  "translated_at": "2026-11-13"
+ },
  "n-e431684c08": {
   "fresh": true,
   "title": "ComfyUI KSampler Matrix Lab 代码仓库被引用",
@@ -3603,6 +4278,11 @@
   "fresh": true,
   "title": "StorySplat v2.3：交互式 3D 高斯泼溅编辑器",
   "translated_at": "2026-10-24"
+ },
+ "n-e51898fad5": {
+  "fresh": true,
+  "title": "GLM-5.1：Z.ai推出的自主工程智能体",
+  "translated_at": "2026-11-13"
  },
  "n-e55e56223b": {
   "fresh": true,
@@ -3639,6 +4319,11 @@
   "title": "GEAR 项目资源已发布",
   "translated_at": "2026-10-24"
  },
+ "n-e63a0d4512": {
+  "fresh": true,
+  "title": "M-XR 图像转材质：生产级PBR生成",
+  "translated_at": "2026-11-13"
+ },
  "n-e6413c0a2c": {
   "fresh": true,
   "title": "ArtiFixer 相关资源已在研究、代码和模型渠道中关联发布",
@@ -3669,6 +4354,11 @@
   "title": "Qwen Code 与 Qwen3-Coder 同步发布",
   "translated_at": "2026-10-24"
  },
+ "n-e76fc8f96f": {
+  "fresh": true,
+  "title": "SANA-Video：高效的720p视频合成与超分辨率",
+  "translated_at": "2026-11-13"
+ },
  "n-e859acd94e": {
   "fresh": true,
   "title": "微软发布 Microsoft 365 Copilot Researcher 多模型智能更新",
@@ -3693,6 +4383,11 @@
   "fresh": true,
   "title": "OpenAI Daybreak",
   "translated_at": "2026-10-24"
+ },
+ "n-e96d2e151b": {
+  "fresh": true,
+  "title": "TriAttention：通过三角KV压缩实现高效长推理",
+  "translated_at": "2026-11-13"
  },
  "n-e9d344fa77": {
   "fresh": true,
@@ -3744,6 +4439,11 @@
   "title": "CohereLabs 在 Hugging Face 上发布 North Mini Code 1.0 模型页面",
   "translated_at": "2026-10-24"
  },
+ "n-eb367fb3e1": {
+  "fresh": true,
+  "title": "LumiPic：SDR转HDR图像扩散",
+  "translated_at": "2026-11-13"
+ },
  "n-eb68bcfc57": {
   "fresh": true,
   "title": "Krea 发布 Krea 2 官方开源与部署资料",
@@ -3773,6 +4473,16 @@
   "fresh": true,
   "title": "KVarN 公开源代码仓库被引用",
   "translated_at": "2026-10-24"
+ },
+ "n-ec5428386a": {
+  "fresh": true,
+  "title": "Claude Design：基于Opus 4.7的原型与UI生成",
+  "translated_at": "2026-11-13"
+ },
+ "n-ec7e719b88": {
+  "fresh": true,
+  "title": "Phi-Ground-Any：微软GUI定位多模态模型",
+  "translated_at": "2026-11-13"
  },
  "n-eca931f946": {
   "fresh": true,
@@ -3829,6 +4539,11 @@
   "title": "MiniMax-H3 x Z-Image 原生仓库与 GGUF 仓库已完成关联",
   "translated_at": "2026-10-24"
  },
+ "n-f0cec18709": {
+  "fresh": true,
+  "title": "Rodin Gen 2.5（Hyper3D）",
+  "translated_at": "2026-11-13"
+ },
  "n-f108d81c34": {
   "fresh": true,
   "title": "PixVerse推出面向终端的生成接口",
@@ -3838,6 +4553,11 @@
   "fresh": true,
   "title": "CompHairHead：基于可变形头发的单样本3D头像",
   "translated_at": "2026-10-24"
+ },
+ "n-f1ea79cf67": {
+  "fresh": true,
+  "title": "MOSS-TTS-Nano",
+  "translated_at": "2026-11-13"
  },
  "n-f1f27d1e3a": {
   "fresh": true,
@@ -3858,6 +4578,11 @@
   "fresh": true,
   "title": "Cursor 发布了一篇与 Router 相关的公开更新",
   "translated_at": "2026-10-24"
+ },
+ "n-f24b5871aa": {
+  "fresh": true,
+  "title": "SDXS-1B：实时扩散与高保真超分辨率",
+  "translated_at": "2026-11-13"
  },
  "n-f2b3361da7": {
   "fresh": true,
@@ -3894,10 +4619,20 @@
   "title": "Spatial Studio：由 Real Horizons 打造的 3D 高斯泼溅",
   "translated_at": "2026-10-24"
  },
+ "n-f4d17d7115": {
+  "fresh": true,
+  "title": "Gemma 4 E4B Heretic 无审查版",
+  "translated_at": "2026-11-13"
+ },
  "n-f52983ecb7": {
   "fresh": true,
   "title": "Runway 推出 Aleph 2.0",
   "translated_at": "2026-10-24"
+ },
+ "n-f57cbec8b9": {
+  "fresh": true,
+  "title": "LingBot-Map：实时流式3D场景重建",
+  "translated_at": "2026-11-13"
  },
  "n-f57cbf8f0c": {
   "fresh": true,
@@ -3919,10 +4654,20 @@
   "title": "ElevenLabs：本地部署与端侧部署的语音AI方案",
   "translated_at": "2026-10-24"
  },
+ "n-f6c6cdf729": {
+  "fresh": true,
+  "title": "ComfyUI 6DOF相机——3D场景操控与角色搭建",
+  "translated_at": "2026-11-13"
+ },
  "n-f6f78aa8d5": {
   "fresh": true,
   "title": "SANA 代码仓库与演示现身",
   "translated_at": "2026-10-24"
+ },
+ "n-f735b8e846": {
+  "fresh": true,
+  "title": "SVGS：用于场景重建的空间变化高斯泼溅",
+  "translated_at": "2026-11-13"
  },
  "n-f771c01e06": {
   "fresh": true,
@@ -3943,6 +4688,11 @@
   "fresh": true,
   "title": "Tripo 五月产品更新",
   "translated_at": "2026-10-24"
+ },
+ "n-f861f085b8": {
+  "fresh": true,
+  "title": "Free Claude Code：面向Claude CLI的AI代理",
+  "translated_at": "2026-11-13"
  },
  "n-f8b15964ba": {
   "fresh": true,
@@ -4008,6 +4758,11 @@
   "fresh": true,
   "title": "AwaRes 项目网站与源代码仓库公开分享",
   "translated_at": "2026-10-24"
+ },
+ "n-fdbf17ddf7": {
+  "fresh": true,
+  "title": "LGTM：更少高斯、更多纹理的3D重建",
+  "translated_at": "2026-11-13"
  },
  "n-fe2f35c14b": {
   "fresh": true,
