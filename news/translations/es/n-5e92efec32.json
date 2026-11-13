@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Sucede a ERNIE 5.0 y pasa de una escala masiva de parámetros (2.4T) a una arquitectura más eficiente de 800B mediante el marco Once-For-All. Incorpora una nueva canalización de aprendizaje por refuerzo asíncrono y un posentrenamiento de cuatro etapas mejorado.",
+ "id": "n-5e92efec32",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Ocupa el 4th puesto en Arena Search y el 1st entre los modelos chinos. Está diseñado para optimizar el rendimiento bajo restricciones de hardware y los controles de exportación de chips de EE. UU.",
+ "source_sha256": "ee312f0c40024353fc8eddd2cf4a9823916d078ce566929f35679b0037eca625",
+ "summary": "El último modelo insignia de Baidu, lanzado en mayo de 2026, centrado en una alta eficiencia de parámetros y en el razonamiento agéntico. Es actualmente el modelo chino mejor posicionado a nivel mundial y alcanza un rendimiento de frontera con costes de entrenamiento notablemente menores.",
+ "title": "Baidu ERNIE 5.1: modelo de lenguaje de gran tamaño",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

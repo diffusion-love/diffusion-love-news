@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "UniCom representa la unificación de los pipelines de comprensión y generación de Tencent en un único marco. A mediados de 2026 sigue siendo la base multimodal central del ecosistema Hunyuan, que se ha ampliado con modelos centrados en el razonamiento, como Hy3-preview, y con la generación 3D avanzada de Hunyuan3D 3.0.",
+ "id": "n-1fef5a401b",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Realiza la generación directamente sobre incrustaciones visuales comprimidas en lugar de sobre píxeles en bruto; combina las fortalezas de las arquitecturas SigLIP2 y Flux.",
+ "source_sha256": "6aa987ce31bcf1043b263e0d12899fc48a28266e63a11c62c186d8d148012d59",
+ "summary": "UniCom es un marco multimodal unificado que conecta la comprensión y la generación visual mediante representaciones semánticas continuas comprimidas. Integra SigLIP2 para la representación visual y el VAE de Flux para la reconstrucción de imágenes de alta calidad, lo que permite una edición y una generación consistentes.",
+ "title": "Tencent Hunyuan UniCom",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

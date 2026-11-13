@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "La línea de versiones oficial alcanzó la v0.1.8; la guía vigente mantiene por separado las variantes base/SFT (50 pasos con CFG), turbo (8 pasos sin CFG) y los límites de hardware de XL.",
+ "id": "n-851c72bbf5",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "a1eeed3bc9e74984f60d8cc130ef350015c2dd128cb8951c73390bbcada3d638",
+ "summary": "La línea de versiones oficial alcanzó la v0.1.8; la guía vigente mantiene por separado las variantes base/SFT (50 pasos con CFG), turbo (8 pasos sin CFG) y los límites de hardware de XL.",
+ "title": "ACE-Step 1.5 alcanza la v0.1.8 con guía de GPU específica por artefacto",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

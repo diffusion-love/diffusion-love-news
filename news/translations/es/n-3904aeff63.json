@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "LTX2.3-10Eros se publica como un fine-tune de imagen a vídeo dentro de la familia de modelos LTX 2.3.",
+ "id": "n-3904aeff63",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "La model card oficial de Hugging Face clasifica el repositorio como imagen a vídeo, describe el modelo como un fine-tune y enlaza los flujos de trabajo y los archivos de modelo específicos de LTX 2.3.",
+ "source_sha256": "d359bc5a41a88c92fae7262c477ec68064061dd8e78e94f84df0d5ccd4ec1e08",
+ "summary": "TenStrip publicó LTX2.3-10Eros, un fine-tune de imagen a vídeo dentro de la familia de modelos LTX 2.3.",
+ "title": "Modelo de generación de vídeo LTX2.3-10Eros",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

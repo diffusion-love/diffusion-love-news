@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Actualmente en la versión 14; el autor está refinando el prompt para la versión 15 a partir de la retroalimentación de los usuarios y de los datos de errores.",
+ "id": "n-49a6616381",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Optimizado específicamente para modelos de contexto amplio como Gemini (mediante Google AI Studio) y DeepSeek.",
+ "source_sha256": "b1c2942b9151b8d5abe2fd445d6df0ae1a3d67969aad5b88c2d27732ad411fcf",
+ "summary": "Un conjunto de instrucciones de sistema de 110.000 tokens diseñado para convertir modelos de IA en mentores de ingeniería críticos y anti-aduladores. Se centra en el pensamiento de primeros principios, la protección frente a la deriva de contexto y la lucha contra las alucinaciones mediante marcadores epistémicos integrados.",
+ "title": "BRO v14: mega-prompt de ingeniero estoico y radical",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

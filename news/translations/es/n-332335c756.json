@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto pasó de un flujo de trabajo básico a un sistema robusto basado en nodos en la v2.5. Las actualizaciones principales incluyen bucle continuo, uso optimizado de RAM mediante Meta Batching y mitigación del desplazamiento de color de 16 bits.",
+ "id": "n-332335c756",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Requiere el paquete de nodos personalizados complementario 'ComfyUI-Wan-VACE-Prep' para habilitar las funciones de lotes de la v2.5 más reciente.",
+ "source_sha256": "855fb2042249eef2ce088d4e29a704a05c1c39177890193c196ed81b44086982",
+ "summary": "Una utilidad especializada para ComfyUI que crea transiciones suaves entre clips de vídeo mediante modelos Wan VACE. Ofrece igualación de color automática, fundidos encadenados y herramientas de procesamiento por lotes para mantener la consistencia visual.",
+ "title": "ComfyUI Wan VACE Video Joiner para transiciones sin costuras",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

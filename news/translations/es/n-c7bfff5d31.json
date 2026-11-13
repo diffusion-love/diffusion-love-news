@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Lanzado el 2 de abril de 2026, marca un cambio a la licencia Apache 2.0. En mayo de 2026, Google añadió modelos drafter de Multi-Token Prediction (MTP) para todos los tamaños, lo que logra una inferencia 3x más rápida. La familia está ahora integrada de forma nativa en Android AICore para funciones a nivel de sistema centradas en la privacidad.",
+ "id": "n-c7bfff5d31",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Introduce el modo «Thinking» para la cadena de pensamiento interna y el soporte nativo de entradas de texto, imagen, vídeo y audio en todos los tamaños de modelo.",
+ "source_sha256": "00f08241f46f5db9ca30412b80ece104359f9a50047404d43720111128e403c0",
+ "summary": "Gemma 4 es una serie de modelos abiertos nativamente multimodales, de 2B a 31B parámetros, optimizados para la ejecución en el dispositivo y para flujos de trabajo agénticos de alto rendimiento. Incluye un modo de pensamiento que se puede activar y desactivar para el razonamiento complejo, y se publica bajo la licencia totalmente abierta Apache 2.0.",
+ "title": "Gemma 4: la familia de modelos abiertos multimodales de Google",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Apareció inicialmente de forma anónima como modelo líder en las clasificaciones globales en abril de 2026; después se reveló como un proyecto de Alibaba y en mayo de 2026 pasó a estar disponible comercialmente por completo.",
+ "id": "n-6562acabdd",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Utiliza una arquitectura Transformer unificada de flujo único y admite lip-sync nativo en más de 7 idiomas, como inglés, mandarín y japonés.",
+ "source_sha256": "1b40c12b9995c2c0e84c327f2cf9781065ba6c1a4bb0402845a3ebe26b22b5d4",
+ "summary": "Un modelo multimodal de 15 mil millones de parámetros de Alibaba que genera simultáneamente video de alta calidad y audio sincronizado. Cuenta con lip-sync a nivel de fonema y resolución 1080p, optimizado para contenidos listos para producción.",
+ "title": "Happy Horse 1.0: modelo unificado de generación de video y audio",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

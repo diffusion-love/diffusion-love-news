@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto pasó de la base de código abierto Wan 2.1/2.2 a una suite multimodal comercial. Wan 2.7 introdujo el razonamiento «Thinking Mode» y se dividió en ramas especializadas de imagen y vídeo; ahora compite con Sora 2 y Kling 2.6.",
+ "id": "n-d9eaebd61d",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Desarrollado por el Tongyi Lab de Alibaba; incluye un sistema de entrada de múltiples imágenes en una cuadrícula de 9 celdas para mantener la coherencia de personajes y estilos entre generaciones.",
+ "source_sha256": "64602f939c6446b9ba2433932e445663498d5b59367e4cdaa7eddafacffc9c70",
+ "summary": "Herramienta profesional de generación y edición de imágenes del Tongyi Lab de Alibaba, con «Thinking Mode» para el razonamiento semántico avanzado y control facial con múltiples referencias. Admite salida en resolución 4K y gestión precisa del color mediante códigos hexadecimales para flujos de trabajo de diseño de alta gama.",
+ "title": "Wan 2.7-Image (Pro)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

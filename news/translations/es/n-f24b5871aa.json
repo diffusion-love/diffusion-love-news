@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto evolucionó hasta una versión Alpha en abril de 2026, con una UNet de 1.6B parámetros y un codificador de texto Qwen3.5. Ahora incluye una capacidad integrada de escalado 2x mediante un decodificador VAE asimétrico de 32 canales.",
+ "id": "n-f24b5871aa",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Capaz de generar imágenes a ~30 it/s en hardware de gama alta; está optimizado principalmente para contenido artístico e ilustrativo.",
+ "source_sha256": "2912228ad9f67bfdb1235ac9bedcf16dda69bc0b555eaacb6146c821820f027a",
+ "summary": "Un modelo de difusión compacto de 1.6B parámetros optimizado para una velocidad de inferencia extrema y un escalado 2x fiel de imágenes. Utiliza una arquitectura VAE asimétrica para ampliar imágenes sin introducir alucinaciones de IA ni texturas no deseadas.",
+ "title": "SDXS-1B: difusión en tiempo real y escalador de alta fidelidad",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

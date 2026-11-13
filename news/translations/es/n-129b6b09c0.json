@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Este modelo sucede a los experimentos de destilación anteriores basados en Qwen3.5, aprovechando la nueva arquitectura MoE y la predicción multi-token (MTP) para mejorar la eficiencia. A mediados de 2026 sigue siendo una opción destacada para tareas de razonamiento local.",
+ "id": "n-129b6b09c0",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Ventana de contexto nativa de 262,144 tokens; compatible con la última versión de llama.cpp. Evítalo con CUDA 13.2, ya que se han informado corrupciones en la salida.",
+ "source_sha256": "b9fcc817d0b515e10a1550ce61ae9494a09e8af93289383cf0da00e78f3405b0",
+ "summary": "Un LLM Mixture-of-Experts de 35B basado en la arquitectura Qwen3.6, ajustado con trazas de razonamiento destiladas de Claude 4.6 Opus. Está optimizado para la programación agéntica y la resolución de problemas complejos, manteniendo altas velocidades de inferencia en hardware de consumo.",
+ "title": "Qwen3.6-35B, razonamiento destilado de Claude 4.6 Opus",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Publicado en abril de 2026, Qwen3.6 introdujo «Thinking Preservation» para mantener la coherencia del razonamiento en diálogos largos y mejoró notablemente el rendimiento en programación agéntica. Esta versión NVFP4 representa el estado del arte actual para el despliegue local de MoE en hardware de consumo y empresarial.",
+ "id": "n-8a620616a1",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "La aceleración nativa por hardware requiere NVIDIA Blackwell (serie RTX 50 o B100); compatible con vLLM, SGLang y Ollama.",
+ "source_sha256": "d6e218f2202e67317cc69d4251038f31c04f004978d7eaa87514944fda68903f",
+ "summary": "Qwen3.6-35B-A3B-NVFP4 es un LLM de tipo Mixture-of-Experts de 35B, optimizado por Red Hat para la arquitectura NVIDIA Blackwell mediante cuantización en punto flotante de 4 bits. Logra ganancias de rendimiento significativas en GPU de la serie RTX 50, a la vez que preserva las capacidades de razonamiento gracias a su subred activa de 3B parámetros.",
+ "title": "Qwen3.6-35B-A3B-NVFP4: MoE de alta eficiencia optimizado para Blackwell",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

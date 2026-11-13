@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Lanzado en abril de 2026 como sucesor de Opus 4.6, esta versión introdujo el nivel de esfuerzo de razonamiento «xhigh» y alcanzó el 64.3% en SWE-bench Pro. Actualmente es el modelo insignia de disponibilidad general (GA), mientras el modelo de frontera restringido «Claude Mythos» pasa por la verificación de seguridad.",
+ "id": "n-a81182e9ac",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Ofrece una resolución de visión 3x mayor y está optimizado para flujos de trabajo de ingeniería delegados a través de Claude Code.",
+ "source_sha256": "be2ca92260082991a22a11c8c17562355936770df4b309a85febe33bcb6166b4",
+ "summary": "Claude Opus 4.7 es el modelo insignia más avanzado de Anthropic, diseñado para el razonamiento de alto nivel y la ingeniería de software autónoma. Está disponible de forma general a través de la API y de los principales proveedores de nube, e incluye modos de pensamiento adaptativo para la resolución de problemas complejos.",
+ "title": "Claude Opus 4.7: el modelo insignia de Anthropic para programación y razonamiento",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

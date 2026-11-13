@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto evolucionó desde la simple interpolación de fotogramas hasta un flujo de trabajo completo controlado por anclas 4D, basado en la serie de difusión Wan. A partir de mayo de 2026 admite la arquitectura Wan 2.7 para un control de cámara de alta fidelidad y la edición basada en instrucciones.",
+ "id": "n-8a851b82d9",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Desarrollado por Morphic Films; incluye un 4D Visualizer especializado para definir manualmente fotogramas clave de trayectoria de cámara en espacios de nube de puntos reconstruidos.",
+ "source_sha256": "8be63e3f43bdd169cd5768bd81baaf1a2fea2a548921e14bbad20a02f1f11d5b",
+ "summary": "Un sistema de difusión de video autosupervisado que permite cambiar las trayectorias de cámara en metraje monocular. Utiliza anclas de nube de puntos 4D derivadas del video de origen para proporcionar condicionamiento geométrico y una síntesis de punto de vista coherente.",
+ "title": "Reshoot-Anything: síntesis de punto de vista de video controlada por 4D-Anchor",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

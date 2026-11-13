@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Desde su debut con seudónimo a comienzos de 2026, Happy Horse ha pasado de ser un misterio de clasificación a un pilar de la estrategia de IA de Alibaba. Ha incorporado generación nativa en 4K, consistencia multiplano y una hoja de ruta para una versión de código abierto de 15.000 millones de parámetros.",
+ "id": "n-0588f1e672",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Utiliza una arquitectura Transformer unificada que procesa simultáneamente tokens de audio y de vídeo; alcanza altas velocidades mediante destilación DMD-2 para la generación en 8 pasos.",
+ "source_sha256": "2723f86604eefa2f27ba960a3174b583c2818792ddde7fb1c9a5cc16a0660f20",
+ "summary": "Un generador de vídeo con IA de alto rendimiento del Future Life Lab de Alibaba que sintetiza de forma nativa audio y vídeo cinematográfico sincronizados en un transformer de flujo único. Actualmente ocupa el primer puesto en Artificial Analysis Video Arena por su fotorrealismo superior y su precisión en la sincronización labial.",
+ "title": "Happy Horse 1.0, modelo unificado de generación de vídeo",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

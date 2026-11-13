@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto pasó de un registro EXIF básico a admitir importaciones de alta precisión desde RealityScan y Agisoft Metashape. Introdujo la compresión SPZ v3, que reduce los archivos 14x, y una compatibilidad total con CesiumJS y ArcGIS mediante 3D Tiles 1.1.",
+ "id": "n-85862dbbb3",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Utiliza un solucionador robusto RANSAC + Umeyama para la alineación de coordenadas resistente a valores atípicos; incluye un modo «No Scene» para procesar archivos PLY independientes usando matrices de similitud existentes.",
+ "source_sha256": "04737abe8d8cd7b3f84434ad101313ab3ee1131dc60cee1c6d4ff85229a09400",
+ "summary": "Una herramienta de código abierto en Python para georreferenciar modelos de Gaussian Splatting 3D a coordenadas del mundo real, usando metadatos EXIF de imágenes o registros CSV externos. Permite una integración GIS profesional al exportar escenas a 3D Tiles 1.1, LAS y LAZ.",
+ "title": "Geo Register: plugin de georreferenciación para escenas 3D de Gaussian Splatting",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

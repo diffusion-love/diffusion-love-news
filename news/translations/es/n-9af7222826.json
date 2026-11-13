@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Sigue siendo el SOTA actual en su clase de parámetros para el razonamiento agéntico. La compatibilidad del ecosistema se ha ampliado con los formatos GGUF y MLX, para una inferencia local eficiente en hardware de consumo y en Apple Silicon.",
+ "id": "n-9af7222826",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Alcanzó una puntuación de 84.8 en ClawBench, casi igual a la de Kimi K2.5 y GLM-4.5, pese a su tamaño compacto.",
+ "source_sha256": "dc929f0359d93cf73418d61f69b3e61a21f18b2ef6760477c759f91fe939020a",
+ "summary": "Un modelo de 4B parámetros, de vanguardia, optimizado para el razonamiento de varios pasos y las capacidades de llamada a herramientas. Utiliza trayectorias de tareas agénticas seleccionadas para igualar el rendimiento de modelos considerablemente más grandes en benchmarks especializados.",
+ "title": "QClaw-4B: modelo de lenguaje compacto para tareas agénticas",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

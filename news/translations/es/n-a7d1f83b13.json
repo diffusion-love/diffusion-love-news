@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Desde su lanzamiento a principios de 2026, el proyecto ha ampliado su soporte a modelos de 20B parámetros y se ha optimizado para GPU de consumo (24GB de VRAM). Actualmente está integrado en diversas interfaces de usuario de código abierto para la inferencia rápida de difusión.",
+ "id": "n-a7d1f83b13",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "A diferencia de los métodos de destilación lineal como LCM, ArcFlow parametriza el campo de velocidad para capturar trayectorias no lineales, lo que permite aceleraciones de 40x con una pérdida mínima de calidad.",
+ "source_sha256": "d63cd20b324049b34e7b869b961f85705cb2ef4ea4680e5a661a0c9f4275af03",
+ "summary": "Desarrollado por Microsoft Research Asia y la Universidad de Fudan, ArcFlow utiliza la destilación de flujo no lineal para generar imágenes de alta calidad en solo 2 pasos. Optimiza de forma significativa la inferencia de modelos de gran escala como FLUX.1 y Qwen-Image manteniendo la fidelidad visual.",
+ "title": "ArcFlow: marco de generación de imágenes no lineal 2-Step",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

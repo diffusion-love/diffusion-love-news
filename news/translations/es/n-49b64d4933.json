@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Tras su presentación en NeurIPS 2025, el código y los pesos se publicaron en abril de 2026. Representa un cambio hacia el modelado conjunto de un solo paso con el backbone NVIDIA Cosmos, superando de forma notable a los pipelines de reiluminación multietapa anteriores.",
+ "id": "n-49b64d4933",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Usa la NVIDIA OneWay Noncommercial License; requiere los pesos del backbone Cosmos-Predict1 y acceso a Hugging Face.",
+ "source_sha256": "0a32efbd36e4a29d1654fa0dc842e09e30433593556d1289956b8cd040be2cb1",
+ "summary": "Desarrollado por NVIDIA, UniRelight es un marco de reiluminación de vídeo de un solo paso que realiza conjuntamente la descomposición intrínseca y la síntesis. Utiliza el modelo fundacional Cosmos-Predict1 de 7B parámetros para lograr alta fidelidad y consistencia temporal en escenarios de iluminación complejos.",
+ "title": "UniRelight: marco conjunto de descomposición y síntesis de vídeo",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

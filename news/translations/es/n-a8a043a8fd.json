@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Tras su presentación como investigación, INSID3 fue seleccionado para una presentación Oral en CVPR 2026 y se publicó oficialmente con el código completo y demostraciones interactivas. Desde entonces se ha consolidado como referencia para marcos de segmentación de un solo backbone sin entrenamiento.",
+ "id": "n-a8a043a8fd",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Muestra una velocidad de inferencia 3.4x mayor que las canalizaciones de varias etapas, a la vez que supera a los métodos más avanzados en +7.5% de mIoU.",
+ "source_sha256": "c59c96f0e9228e9ec00ad772feaaaa6e21866b637b3beb3188bf38e1f92fdc5f",
+ "summary": "INSID3 es un marco sin entrenamiento para la segmentación de objetos de alto rendimiento que aprovecha las propiedades emergentes del modelo fundacional de visión DINOv3 de Meta. Identifica las regiones de los objetos mediante agrupamiento aglomerativo de características densas y elimina los sesgos posicionales mediante una sencilla proyección ortogonal.",
+ "title": "INSID3: segmentación rápida en contexto con DINOv3",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

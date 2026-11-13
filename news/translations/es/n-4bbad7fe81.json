@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto pasa de la Etapa 1 (96K vídeos) a la Etapa 3 (390K vídeos), e introduce «Hard Reasoning» para interacciones complejas entre múltiples objetos. Las próximas actualizaciones pretenden escalar el entrenamiento al conjunto completo de 1 millón de vídeos VBVR para lograr una precisión física casi perfecta.",
+ "id": "n-4bbad7fe81",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Aborda específicamente la simulación de la gravedad, las relaciones causales y la persistencia de los objetos; es muy compatible con los flujos de trabajo de ComfyUI.",
+ "source_sha256": "6be66f5bf3d982b8a764852cc794804d65baaf534d3e79c4c431259a9f02b558",
+ "summary": "Un adaptador LoRA especializado para el modelo LTX-2.3 22B que mejora notablemente el razonamiento físico, la lógica espacial y la consistencia temporal en la generación de vídeo. Utiliza el conjunto de datos Video-Based Visual Reasoning para reducir los fallos habituales del vídeo generado por IA y la física alucinada.",
+ "title": "Ltx2.3-VBVR: LoRA de razonamiento visual para LTX-Video",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

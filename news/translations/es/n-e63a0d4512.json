@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto pasó de ser un servicio de captura a convertirse en el modelo y la API fundacionales I2M. Hoy está integrado en la plataforma Marso Studio, centrada en la generación automatizada de PBR y el retexturizado de activos de fotogrametría.",
+ "id": "n-e63a0d4512",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Entrenado con el conjunto «Marso Measure», la mayor biblioteca del mundo de propiedades de materiales medidas. La empresa recaudó $7M en 2026 para escalar su infraestructura de inteligencia de materiales.",
+ "source_sha256": "588411c0b05f7b2e9f1e3c19043f04947fbe37d8c0b932daabb6af3d3b9f2f97",
+ "summary": "Un modelo de IA fundacional que genera mapas de materiales PBR de calidad de producción a partir de una sola imagen o vídeo. Aprovecha datos medidos propietarios para producir texturas físicamente precisas para la renderización 3D y los motores de videojuegos.",
+ "title": "M-XR Image-to-Material: generación PBR de producción a partir de imagen",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

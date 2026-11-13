@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto pasó de los modelos SMPL, centrados en la investigación, a un pipeline comercial rentable basado en fundamentos con licencia Apache, como Anny y MHR. Recientemente publicó como código abierto la biblioteca de medición «clad-body» y está cambiando hacia la predicción de la forma a partir de cuestionarios, para minimizar la fricción con el usuario.",
+ "id": "n-545f242033",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Utiliza funciones de pérdida conscientes de la física para lograr un error medio de masa de 0.3kg. Cuesta aproximadamente 0.09 $ por escaneo.",
+ "source_sha256": "46049fad5f24d9b2a9603998cc17b733d396d30191627cd9c8a547dfdf0af0c3",
+ "summary": "Un pipeline comercial de escaneo corporal 3D que extrae medidas conformes con ISO a partir de modelos de malla para probadores virtuales. Utiliza modelos permisivos, como Anny de Naver y MHR de Meta, para ofrecer una reconstrucción de la forma de alta precisión sin licencias restrictivas.",
+ "title": "Clad Size-aware: escaneo corporal 3D para probadores virtuales",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

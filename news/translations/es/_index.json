@@ -24,6 +24,11 @@
   "title": "OmniVoice Studio: clonación de voz y doblaje en local",
   "translated_at": "2026-10-24"
  },
+ "n-019c913613": {
+  "fresh": true,
+  "title": "Qwen3.6-27B-3bit-mlx",
+  "translated_at": "2026-11-13"
+ },
  "n-01b786ce9f": {
   "fresh": true,
   "title": "AlayaRenderer: Renderizador generativo de mundos para juegos AAA",
@@ -49,6 +54,11 @@
   "title": "Repositorio público de GitHub de Anti-Vocale referenciado",
   "translated_at": "2026-10-24"
  },
+ "n-033632d8e0": {
+  "fresh": true,
+  "title": "Kimi K3 está asociado a Kimi Code",
+  "translated_at": "2026-11-13"
+ },
  "n-038f2eebc4": {
   "fresh": true,
   "title": "Se registraron la página pública del proyecto Video-DeepResearch y sus referencias de código fuente",
@@ -73,6 +83,11 @@
   "fresh": true,
   "title": "Qwen3.6-35B-A3B: modelo multimodal MoE disperso de Alibaba",
   "translated_at": "2026-10-24"
+ },
+ "n-046d02af9f": {
+  "fresh": true,
+  "title": "Nodos VAE de TensorRT para flujos de trabajo MiniMax-H3 en ComfyUI",
+  "translated_at": "2026-11-13"
  },
  "n-047f61d312": {
   "fresh": true,
@@ -104,6 +119,11 @@
   "title": "Se compartieron el sitio del proyecto Rest2Art y su repositorio de código fuente",
   "translated_at": "2026-10-24"
  },
+ "n-0588f1e672": {
+  "fresh": true,
+  "title": "Happy Horse 1.0, modelo unificado de generación de vídeo",
+  "translated_at": "2026-11-13"
+ },
  "n-05ec9a95a1": {
   "fresh": true,
   "title": "Referencia del proyecto Fugu-Ultra 1.1",
@@ -124,6 +144,11 @@
   "title": "Versión del modelo de Civitai de LTX-2 Caption Tool registrada",
   "translated_at": "2026-10-24"
  },
+ "n-0646f210ee": {
+  "fresh": true,
+  "title": "Prompt de DALL-E al estilo MS Paint para estilizar fotos",
+  "translated_at": "2026-11-13"
+ },
  "n-0663ce9db2": {
   "fresh": true,
   "title": "MOSS-Transcribe-Diarize-0.9B ganó presencia pública en proyecto, modelo y demo",
@@ -133,6 +158,11 @@
   "fresh": true,
   "title": "MARBLE: marco de aprendizaje por refuerzo para la alineación multiaspecto de modelos de difusión",
   "translated_at": "2026-10-24"
+ },
+ "n-0739891476": {
+  "fresh": true,
+  "title": "JoyAI-Image: nodos oficiales de ComfyUI y modelo de edición espacial",
+  "translated_at": "2026-11-13"
  },
  "n-076b3f0be6": {
   "fresh": true,
@@ -149,6 +179,11 @@
   "title": "Se vincularon los recursos públicos del proyecto SAM-MT",
   "translated_at": "2026-10-24"
  },
+ "n-0841776bd9": {
+  "fresh": true,
+  "title": "Hunyuan3 Preview (Hy3-preview)",
+  "translated_at": "2026-11-13"
+ },
  "n-0852dc1008": {
   "fresh": true,
   "title": "SeedDance 2.5 se promocionó a través de BytePlus Ark",
@@ -158,6 +193,11 @@
   "fresh": true,
   "title": "Canva lanza Dream Lab y su primer modelo propio de generación de imágenes, Craft",
   "translated_at": "2026-10-24"
+ },
+ "n-08ae804484": {
+  "fresh": true,
+  "title": "AP Netflix VOID: nodos de ComfyUI para la eliminación de objetos en vídeo",
+  "translated_at": "2026-11-13"
  },
  "n-08bc14aa3d": {
   "fresh": true,
@@ -249,6 +289,11 @@
   "title": "Qwen-Image 3.0: registrados enlaces públicos de Qwen",
   "translated_at": "2026-10-24"
  },
+ "n-0cf9d026b8": {
+  "fresh": true,
+  "title": "SCAIL-2: animación de personajes de calidad de estudio mediante aprendizaje en contexto",
+  "translated_at": "2026-11-13"
+ },
  "n-0d7aed5e86": {
   "fresh": true,
   "title": "Adobe anunció planes para adquirir Topaz Labs",
@@ -268,6 +313,11 @@
   "fresh": true,
   "title": "MiniMax Music 3 ya cuenta con puntos de acceso públicos al proyecto, al modelo, a la plataforma, a la demo y a ComfyUI",
   "translated_at": "2026-10-24"
+ },
+ "n-0ecaaac1b0": {
+  "fresh": true,
+  "title": "MiniMax H3 Semantic Bridge añade un adaptador para la ruta de texto FL2VA de H3",
+  "translated_at": "2026-11-13"
  },
  "n-0f298b0d41": {
   "fresh": true,
@@ -314,6 +364,16 @@
   "title": "Rowboat: agente de IA local-first y grafo de conocimiento personal",
   "translated_at": "2026-10-24"
  },
+ "n-129b6b09c0": {
+  "fresh": true,
+  "title": "Qwen3.6-35B, razonamiento destilado de Claude 4.6 Opus",
+  "translated_at": "2026-11-13"
+ },
+ "n-12dc9deafa": {
+  "fresh": true,
+  "title": "Shanghai AI Lab publica el modelo agéntico de pesos abiertos Sage-A1.5",
+  "translated_at": "2026-11-13"
+ },
  "n-13290b7929": {
   "fresh": true,
   "title": "Se hace referencia a los recursos oficiales del proyecto InfinityEdit",
@@ -353,6 +413,11 @@
   "fresh": true,
   "title": "Página de la versión v0.2 de Wan-Streamer enlazada",
   "translated_at": "2026-10-24"
+ },
+ "n-155ef8c3dc": {
+  "fresh": true,
+  "title": "Any4D: reconstrucción 4D métrica unificada y feed-forward",
+  "translated_at": "2026-11-13"
  },
  "n-15f28b9d26": {
   "fresh": true,
@@ -424,6 +489,11 @@
   "title": "JavisDiT: Transformer de difusión conjunta de audio y vídeo",
   "translated_at": "2026-10-24"
  },
+ "n-183de9a149": {
+  "fresh": true,
+  "title": "Kimi K3.1 Pro se publica como refinamiento de posentrenamiento con opción Highspeed",
+  "translated_at": "2026-11-13"
+ },
  "n-1857cf1c7a": {
   "fresh": true,
   "title": "Se han enlazado los recursos oficiales del proyecto SeFi-Image",
@@ -469,6 +539,11 @@
   "title": "Inline Studio publicó la versión v1.2.71",
   "translated_at": "2026-10-24"
  },
+ "n-1985ad3cff": {
+  "fresh": true,
+  "title": "OpenAI Privacy Filter: modelo local de redacción de PII",
+  "translated_at": "2026-11-13"
+ },
  "n-19adc0c7af": {
   "fresh": true,
   "title": "ByteCut Director: espacio de trabajo para producción de vídeo con IA",
@@ -503,6 +578,11 @@
   "fresh": true,
   "title": "GeoSR: razonamiento espacial geométrico para VLM",
   "translated_at": "2026-10-24"
+ },
+ "n-1b11977658": {
+  "fresh": true,
+  "title": "ComfyUI Hires Fix Ultra: nodo todo en uno",
+  "translated_at": "2026-11-13"
  },
  "n-1b28d58410": {
   "fresh": true,
@@ -564,10 +644,25 @@
   "title": "Google presenta Gemini Embedding 2",
   "translated_at": "2026-10-24"
  },
+ "n-1fef5a401b": {
+  "fresh": true,
+  "title": "Tencent Hunyuan UniCom",
+  "translated_at": "2026-11-13"
+ },
  "n-1fff983f43": {
   "fresh": true,
   "title": "Anuncio de GPT-5.5",
   "translated_at": "2026-10-24"
+ },
+ "n-207ed94fbd": {
+  "fresh": true,
+  "title": "MUA: avatares animables móviles de ultra detalle",
+  "translated_at": "2026-11-13"
+ },
+ "n-2090ac5f1b": {
+  "fresh": true,
+  "title": "Waypoint-1.5: modelo mundial de vídeo interactivo en tiempo real",
+  "translated_at": "2026-11-13"
  },
  "n-20c0bd9616": {
   "fresh": true,
@@ -689,6 +784,11 @@
   "title": "Los recursos públicos del proyecto ABot-World ya están disponibles",
   "translated_at": "2026-10-24"
  },
+ "n-269dacc1a7": {
+  "fresh": true,
+  "title": "OpenCode ofrece acceso gratuito temporal a GLM-5.3-Flash",
+  "translated_at": "2026-11-13"
+ },
  "n-26bc0bd267": {
   "fresh": true,
   "title": "Se vincularon recursos de desarrollo de Kura",
@@ -749,10 +849,25 @@
   "title": "Detalles públicos de WAN Skills no disponibles",
   "translated_at": "2026-10-24"
  },
+ "n-2915ceca6f": {
+  "fresh": true,
+  "title": "ComfyUI-DreamScene360: Gaussian Splatting panorámico y escenas 3D",
+  "translated_at": "2026-11-13"
+ },
  "n-292e34fcb3": {
   "fresh": true,
   "title": "Sitio web del proyecto DanceOPD enlazado",
   "translated_at": "2026-10-24"
+ },
+ "n-2938402642": {
+  "fresh": true,
+  "title": "Boxer: elevación de cajas delimitadoras en mundo abierto (2D-to-3D)",
+  "translated_at": "2026-11-13"
+ },
+ "n-2988748edd": {
+  "fresh": true,
+  "title": "GenXR-Bench se anuncia en arXiv para evaluar agentes de programación en desarrollo XR interactivo",
+  "translated_at": "2026-11-13"
  },
  "n-29d4083d61": {
   "fresh": true,
@@ -768,6 +883,16 @@
   "fresh": true,
   "title": "OpenAI Codex CLI",
   "translated_at": "2026-10-24"
+ },
+ "n-2aa536ccdc": {
+  "fresh": true,
+  "title": "Kimi K2.6: LLM agéntico de frontera de Moonshot AI",
+  "translated_at": "2026-11-13"
+ },
+ "n-2af8215f2c": {
+  "fresh": true,
+  "title": "DiffHDR: difusión de vídeo generativa de LDR a HDR",
+  "translated_at": "2026-11-13"
  },
  "n-2af9b3efb0": {
   "fresh": true,
@@ -849,6 +974,11 @@
   "title": "Los recursos del proyecto Video-to-World se publicaron con enlaces públicos",
   "translated_at": "2026-10-24"
  },
+ "n-2f8c6f34f0": {
+  "fresh": true,
+  "title": "ClawEnvKit: generación automática de entornos para agentes de IA",
+  "translated_at": "2026-11-13"
+ },
  "n-2f94cbb043": {
   "fresh": true,
   "title": "Enriquecer artículos de investigación sobre agentes",
@@ -894,6 +1024,11 @@
   "title": "Registrados los enlaces de distribución de LoRA para LTX",
   "translated_at": "2026-10-24"
  },
+ "n-30f5861cb4": {
+  "fresh": true,
+  "title": "Flux FaceIR: restauración facial de alta calidad para Flux",
+  "translated_at": "2026-11-13"
+ },
  "n-310e3414f5": {
   "fresh": true,
   "title": "Referencia al modelo Happy Horse 1.1 de imagen a vídeo",
@@ -929,6 +1064,11 @@
   "title": "Repositorio Qwen-MM-Plugins referenciado",
   "translated_at": "2026-10-24"
  },
+ "n-332335c756": {
+  "fresh": true,
+  "title": "ComfyUI Wan VACE Video Joiner para transiciones sin costuras",
+  "translated_at": "2026-11-13"
+ },
  "n-3347fb1328": {
   "fresh": true,
   "title": "Presentación pública del proyecto de traducción Violin",
@@ -939,10 +1079,20 @@
   "title": "Recursos públicos del proyecto OccAny compartidos",
   "translated_at": "2026-10-24"
  },
+ "n-3354f12396": {
+  "fresh": true,
+  "title": "camera-comfyUI: nodos de proyección de cámara 3D para ComfyUI",
+  "translated_at": "2026-11-13"
+ },
  "n-33f31b6935": {
   "fresh": true,
   "title": "MOSS-Audio-8B-Thinking",
   "translated_at": "2026-10-24"
+ },
+ "n-34034d382e": {
+  "fresh": true,
+  "title": "Potenciadores LTX 2.3: LoRAs de fidelidad visual y nitidez",
+  "translated_at": "2026-11-13"
  },
  "n-3450949e78": {
   "fresh": true,
@@ -953,6 +1103,11 @@
   "fresh": true,
   "title": "ByteDance Video Upscaler fue referenciado a través de Replicate",
   "translated_at": "2026-10-24"
+ },
+ "n-348f0ce004": {
+  "fresh": true,
+  "title": "DisCa: caché de características aprendible compatible con la destilación",
+  "translated_at": "2026-11-13"
  },
  "n-353bab66f8": {
   "fresh": true,
@@ -1009,6 +1164,11 @@
   "title": "Qwen-Image-Edit ya está publicado",
   "translated_at": "2026-10-24"
  },
+ "n-37e9305c06": {
+  "fresh": true,
+  "title": "Kimi K3.1 Pro llega a la plataforma para desarrolladores con contexto de 1M tokens",
+  "translated_at": "2026-11-13"
+ },
  "n-38018d5d2d": {
   "fresh": true,
   "title": "Se vincularon el modelo público SIQ-1-35B y la demo del agente",
@@ -1038,6 +1198,11 @@
   "fresh": true,
   "title": "Se vincularon la página del proyecto y el repositorio de código fuente de OmniDirector",
   "translated_at": "2026-10-24"
+ },
+ "n-3904aeff63": {
+  "fresh": true,
+  "title": "Modelo de generación de vídeo LTX2.3-10Eros",
+  "translated_at": "2026-11-13"
  },
  "n-3905bae486": {
   "fresh": true,
@@ -1154,6 +1319,11 @@
   "title": "Se registró una ruta de acceso en vista previa a Lyria 3 Pro",
   "translated_at": "2026-10-24"
  },
+ "n-3fedc168df": {
+  "fresh": true,
+  "title": "SpatialEdit-16B: edición espacial de imágenes de grano fino",
+  "translated_at": "2026-11-13"
+ },
  "n-40028a6fe7": {
   "fresh": true,
   "title": "Se vincularon el código fuente de Raon-OpenTTS, el modelo y una referencia a ComfyUI",
@@ -1194,6 +1364,11 @@
   "title": "Se vincularon los recursos del proyecto V-RAE",
   "translated_at": "2026-10-24"
  },
+ "n-41c999d507": {
+  "fresh": true,
+  "title": "ComfyUI_SenseNova_U1: nodos personalizados para modelos multimodales",
+  "translated_at": "2026-11-13"
+ },
  "n-42aacd4f9b": {
   "fresh": true,
   "title": "Entrada de lanzamiento de la plataforma Omma",
@@ -1209,10 +1384,20 @@
   "title": "Se registró la página del modelo LTX-2.3-Foley-LoRA",
   "translated_at": "2026-10-24"
  },
+ "n-44592b77d5": {
+  "fresh": true,
+  "title": "Tuna-2: los embeddings de píxeles superan a los codificadores visuales",
+  "translated_at": "2026-11-13"
+ },
  "n-447fbd2c0e": {
   "fresh": true,
   "title": "Un preprint de arXiv detalla la arquitectura de WorldStream y su registro persistente del mundo",
   "translated_at": "2026-10-24"
+ },
+ "n-44b3b570af": {
+  "fresh": true,
+  "title": "MACE-Dance: expertos en cascada de movimiento y apariencia para la generación de danza",
+  "translated_at": "2026-11-13"
  },
  "n-44c547a245": {
   "fresh": true,
@@ -1224,10 +1409,30 @@
   "title": "Repositorio pdf-inspector enlazado en el hilo de Firecrawl",
   "translated_at": "2026-10-24"
  },
+ "n-4541890dcb": {
+  "fresh": true,
+  "title": "Flux2Klein Enhancer llega a una implementación ampliada de múltiples referencias",
+  "translated_at": "2026-11-13"
+ },
+ "n-45b7bbd16b": {
+  "fresh": true,
+  "title": "Aparecen las primeras herramientas comunitarias y artefactos del modelo Krea 2",
+  "translated_at": "2026-11-13"
+ },
+ "n-461304d95b": {
+  "fresh": true,
+  "title": "ReconViaGen: reconstrucción 3D multivista precisa mediante generación",
+  "translated_at": "2026-11-13"
+ },
  "n-4621bd0727": {
   "fresh": true,
   "title": "Se pusieron a disposición los recursos del proyecto VocalRender",
   "translated_at": "2026-10-24"
+ },
+ "n-464a2f9508": {
+  "fresh": true,
+  "title": "Large Performance Model LPM 1.0: vídeo interactivo",
+  "translated_at": "2026-11-13"
  },
  "n-4694b833dd": {
   "fresh": true,
@@ -1284,6 +1489,16 @@
   "title": "Repositorio de Hugging Face asociado a Qwen3.8-27B-Uncensored-MLX",
   "translated_at": "2026-10-24"
  },
+ "n-49a6616381": {
+  "fresh": true,
+  "title": "BRO v14: mega-prompt de ingeniero estoico y radical",
+  "translated_at": "2026-11-13"
+ },
+ "n-49b64d4933": {
+  "fresh": true,
+  "title": "UniRelight: marco conjunto de descomposición y síntesis de vídeo",
+  "translated_at": "2026-11-13"
+ },
  "n-49e8a26e33": {
   "fresh": true,
   "title": "flova.ai: agente de vídeo con IA impulsado por Seedance 2.0",
@@ -1293,6 +1508,11 @@
   "fresh": true,
   "title": "Se enlazó el repositorio de Hugging Face de Whisper-Podlodka-Turbo",
   "translated_at": "2026-10-24"
+ },
+ "n-4a638abcfe": {
+  "fresh": true,
+  "title": "SenseNova-U1: IA multimodal unificada con NEO-unify",
+  "translated_at": "2026-11-13"
  },
  "n-4a97c79072": {
   "fresh": true,
@@ -1313,6 +1533,11 @@
   "fresh": true,
   "title": "Stripe habría estado cerca de adquirir OpenRouter por más de 7.000 millones de dólares",
   "translated_at": "2026-10-24"
+ },
+ "n-4bbad7fe81": {
+  "fresh": true,
+  "title": "Ltx2.3-VBVR: LoRA de razonamiento visual para LTX-Video",
+  "translated_at": "2026-11-13"
  },
  "n-4bbbd17d1b": {
   "fresh": true,
@@ -1389,6 +1614,11 @@
   "title": "EMF: Extendiendo la generación de imágenes en un solo paso (Alibaba)",
   "translated_at": "2026-10-24"
  },
+ "n-52e566a651": {
+  "fresh": true,
+  "title": "LumiVid: generación de video de SDR a HDR mediante LTX-Video 2.3",
+  "translated_at": "2026-11-13"
+ },
  "n-5319c89cd3": {
   "fresh": true,
   "title": "Se vinculó el repositorio de código fuente del plugin VFS de HuggingFace",
@@ -1419,6 +1649,11 @@
   "title": "Kernels Hub de Hugging Face para la optimización en GPU",
   "translated_at": "2026-10-24"
  },
+ "n-545f242033": {
+  "fresh": true,
+  "title": "Clad Size-aware: escaneo corporal 3D para probadores virtuales",
+  "translated_at": "2026-11-13"
+ },
  "n-549e91e1c0": {
   "fresh": true,
   "title": "Los artefactos de Nemotron 3 Ultra 550B A55B ya están disponibles en varios formatos",
@@ -1428,6 +1663,11 @@
   "fresh": true,
   "title": "Página del proyecto NeumaTex compartida",
   "translated_at": "2026-10-24"
+ },
+ "n-553243c913": {
+  "fresh": true,
+  "title": "RotorQuant: compresión de caché KV con rotores de Clifford de bloques diagonales",
+  "translated_at": "2026-11-13"
  },
  "n-5540a93cb5": {
   "fresh": true,
@@ -1444,6 +1684,11 @@
   "title": "Informes describen un incidente de cargos inesperados relacionado con Claude Code",
   "translated_at": "2026-10-24"
  },
+ "n-55b3aea30b": {
+  "fresh": true,
+  "title": "La aplicación Gemini anuncia capacidades de modelos 3D y gráficos",
+  "translated_at": "2026-11-13"
+ },
  "n-55db199d87": {
   "fresh": true,
   "title": "FlowInOne: generación y edición multimodal de imágenes centradas en la visión, unificadas",
@@ -1458,6 +1703,11 @@
   "fresh": true,
   "title": "Se presenta Unsloth Desktop",
   "translated_at": "2026-10-24"
+ },
+ "n-58129455d1": {
+  "fresh": true,
+  "title": "Ring-2.6-1T: modelo MoE agéntico de alto rendimiento",
+  "translated_at": "2026-11-13"
  },
  "n-58225bc7d0": {
   "fresh": true,
@@ -1479,10 +1729,25 @@
   "title": "CanAI, un estudio de lienzo local de IA publicado en GitHub",
   "translated_at": "2026-10-24"
  },
+ "n-5966d93d70": {
+  "fresh": true,
+  "title": "Se presenta CAVC: marco de caché con asimetría de modalidades para la difusión audiovisual",
+  "translated_at": "2026-11-13"
+ },
+ "n-596ffa06da": {
+  "fresh": true,
+  "title": "ACE-Step 1.5 XL",
+  "translated_at": "2026-11-13"
+ },
  "n-599684b34f": {
   "fresh": true,
   "title": "Google presentó la vista previa de Gemini 3.5 Live Translate",
   "translated_at": "2026-10-24"
+ },
+ "n-5ac53c2267": {
+  "fresh": true,
+  "title": "NVIDIA Gemma-4-31B-IT NVFP4: modelo cuantizado",
+  "translated_at": "2026-11-13"
  },
  "n-5ade5d658c": {
   "fresh": true,
@@ -1493,6 +1758,11 @@
   "fresh": true,
   "title": "Se enlazaron los repositorios y las variantes de despliegue de ThinkingCap-Qwen3.6-27B",
   "translated_at": "2026-10-24"
+ },
+ "n-5b56fca93a": {
+  "fresh": true,
+  "title": "NVIDIA Parakeet-unified-en-0.6b: modelo ASR unificado",
+  "translated_at": "2026-11-13"
  },
  "n-5be6e62e52": {
   "fresh": true,
@@ -1529,6 +1799,11 @@
   "title": "Se compartieron recursos del proyecto DreamVideo-Omni",
   "translated_at": "2026-10-24"
  },
+ "n-5d75a2276e": {
+  "fresh": true,
+  "title": "Seeduplex: modelo de voz full-duplex de ByteDance",
+  "translated_at": "2026-11-13"
+ },
  "n-5d775dee1a": {
   "fresh": true,
   "title": "Se registraron recursos de Hugging Face de Qwen3.8-27B",
@@ -1559,6 +1834,16 @@
   "title": "Llegan el código y los pesos de SANA-Video",
   "translated_at": "2026-10-24"
  },
+ "n-5e92efec32": {
+  "fresh": true,
+  "title": "Baidu ERNIE 5.1: modelo de lenguaje de gran tamaño",
+  "translated_at": "2026-11-13"
+ },
+ "n-5e96f46ead": {
+  "fresh": true,
+  "title": "Dynamic Band Splitting publica código y modelos de separación de audio adaptativa",
+  "translated_at": "2026-11-13"
+ },
  "n-5ee5b179bf": {
   "fresh": true,
   "title": "La página del proyecto UniD y su repositorio de código fuente quedaron enlazados públicamente",
@@ -1568,6 +1853,11 @@
   "fresh": true,
   "title": "GLM-5.2-NVFP4 vinculado a la página de modelo de NVIDIA en Hugging Face",
   "translated_at": "2026-10-24"
+ },
+ "n-5f314f696f": {
+  "fresh": true,
+  "title": "Music Flamingo apunta a la comprensión de música de larga duración",
+  "translated_at": "2026-11-13"
  },
  "n-5f36799f6d": {
   "fresh": true,
@@ -1613,6 +1903,11 @@
   "fresh": true,
   "title": "Se referenciaron los recursos públicos del proyecto LingBot-Video",
   "translated_at": "2026-10-24"
+ },
+ "n-6202d8d932": {
+  "fresh": true,
+  "title": "Kimi K3.1 Pro lanzado con variante Highspeed y pesos abiertos previstos",
+  "translated_at": "2026-11-13"
  },
  "n-625a62d5de": {
   "fresh": true,
@@ -1673,6 +1968,11 @@
   "fresh": true,
   "title": "Se vincularon los recursos del proyecto ONYX Ai Matte",
   "translated_at": "2026-10-24"
+ },
+ "n-6562acabdd": {
+  "fresh": true,
+  "title": "Happy Horse 1.0: modelo unificado de generación de video y audio",
+  "translated_at": "2026-11-13"
  },
  "n-65c8f1b873": {
   "fresh": true,
@@ -1794,6 +2094,11 @@
   "title": "Un checkpoint INT8 de Flux2-Klein y una integración con ComfyUI quedaron disponibles",
   "translated_at": "2026-10-24"
  },
+ "n-6a60e32785": {
+  "fresh": true,
+  "title": "Qwen 3.6 Plus",
+  "translated_at": "2026-11-13"
+ },
  "n-6ab0eb34ad": {
   "fresh": true,
   "title": "Se compartió el repositorio de código fuente de S3T-Former",
@@ -1833,6 +2138,11 @@
   "fresh": true,
   "title": "El proyecto JoyAI-VL-Interaction y su repositorio de código fuente quedaron vinculados públicamente",
   "translated_at": "2026-10-24"
+ },
+ "n-6c5e22fee1": {
+  "fresh": true,
+  "title": "Se registraron las variantes Instant y Fast de Ideogram v4",
+  "translated_at": "2026-11-13"
  },
  "n-6cdd78c533": {
   "fresh": true,
@@ -1923,6 +2233,11 @@
   "fresh": true,
   "title": "C-MET: Transferencia de emociones entre modalidades para vídeos de rostros parlantes",
   "translated_at": "2026-10-24"
+ },
+ "n-7127c15c53": {
+  "fresh": true,
+  "title": "MiniMax publica una entrada oficial de blog sobre MiniMax H3",
+  "translated_at": "2026-11-13"
  },
  "n-7150bbd771": {
   "fresh": true,
@@ -2023,6 +2338,11 @@
   "fresh": true,
   "title": "Modelos de razonamiento omnimodales Xiaomi MiMo V2.5",
   "translated_at": "2026-10-24"
+ },
+ "n-76a6e0d291": {
+  "fresh": true,
+  "title": "ComfyUI-Flux2Klein-Enhancer: nodos de preservación facial",
+  "translated_at": "2026-11-13"
  },
  "n-76eee2c69c": {
   "fresh": true,
@@ -2149,6 +2469,11 @@
   "title": "Se registraron el experimento Director's Suite de Pika y los enlaces de MCP",
   "translated_at": "2026-10-24"
  },
+ "n-7de8349cd0": {
+  "fresh": true,
+  "title": "CosyVoice 3.0: generación de voz multilingüe y clonación",
+  "translated_at": "2026-11-13"
+ },
  "n-7e0c4cc870": {
   "fresh": true,
   "title": "Se enlazó la página del proyecto RealMaster",
@@ -2239,6 +2564,16 @@
   "title": "Referencias a versiones específicas del modelo Krea2 Realism v1 registradas",
   "translated_at": "2026-10-24"
  },
+ "n-83af6888de": {
+  "fresh": true,
+  "title": "VOID (Video Object and Interaction Deletion), de Netflix: eliminación de objetos e interacciones en video",
+  "translated_at": "2026-11-13"
+ },
+ "n-83d7f5eb84": {
+  "fresh": true,
+  "title": "Spark-X2.6-4B añade soporte de servicio compatible con OpenAI mediante vLLM y SGLang",
+  "translated_at": "2026-11-13"
+ },
  "n-840bb8c6c7": {
   "fresh": true,
   "title": "Chandra OCR 2: modelo de comprensión documental de código abierto",
@@ -2258,6 +2593,16 @@
   "fresh": true,
   "title": "Recursos públicos del proyecto MagicMakeup Transfer enlazados",
   "translated_at": "2026-10-24"
+ },
+ "n-851c72bbf5": {
+  "fresh": true,
+  "title": "ACE-Step 1.5 alcanza la v0.1.8 con guía de GPU específica por artefacto",
+  "translated_at": "2026-11-13"
+ },
+ "n-85862dbbb3": {
+  "fresh": true,
+  "title": "Geo Register: plugin de georreferenciación para escenas 3D de Gaussian Splatting",
+  "translated_at": "2026-11-13"
  },
  "n-86023c7979": {
   "fresh": true,
@@ -2279,6 +2624,11 @@
   "title": "Canon UltraReal se publicó en Civitai y Hugging Face",
   "translated_at": "2026-10-24"
  },
+ "n-86ce44c208": {
+  "fresh": true,
+  "title": "Qwen-Image-2.0-Pro",
+  "translated_at": "2026-11-13"
+ },
  "n-8719519a69": {
   "fresh": true,
   "title": "Repositorio de código y sitio público de 3DGS-PLY-3DTiles-Converter registrados",
@@ -2294,6 +2644,11 @@
   "title": "LDF-VFI: Local Diffusion Forcing para interpolación de fotogramas de vídeo",
   "translated_at": "2026-10-24"
  },
+ "n-8913c98771": {
+  "fresh": true,
+  "title": "Sulphur 2: modelo de generación de video",
+  "translated_at": "2026-11-13"
+ },
  "n-8a14fda3a6": {
   "fresh": true,
   "title": "Ingesta de investigación por lotes: 21 artículos mediante Gemini 3 Flash CLI",
@@ -2303,6 +2658,16 @@
   "fresh": true,
   "title": "Repositorio público de HyperAgents referenciado",
   "translated_at": "2026-10-24"
+ },
+ "n-8a620616a1": {
+  "fresh": true,
+  "title": "Qwen3.6-35B-A3B-NVFP4: MoE de alta eficiencia optimizado para Blackwell",
+  "translated_at": "2026-11-13"
+ },
+ "n-8a851b82d9": {
+  "fresh": true,
+  "title": "Reshoot-Anything: síntesis de punto de vista de video controlada por 4D-Anchor",
+  "translated_at": "2026-11-13"
  },
  "n-8a9fb1a4b9": {
   "fresh": true,
@@ -2374,6 +2739,11 @@
   "title": "Se comparten la página del proyecto WorldCam y su repositorio de código",
   "translated_at": "2026-10-24"
  },
+ "n-8e2ceecbcb": {
+  "fresh": true,
+  "title": "Mistral Medium 3.5: modelo multimodal unificado de 128B",
+  "translated_at": "2026-11-13"
+ },
  "n-8e75dd0767": {
   "fresh": true,
   "title": "Se vincularon el repositorio de código fuente de Chronosplat y el visor interactivo",
@@ -2399,10 +2769,20 @@
   "title": "PrismAudio: generación de audio a partir de vídeo mediante CoT descompuesto",
   "translated_at": "2026-10-24"
  },
+ "n-8ff86e4411": {
+  "fresh": true,
+  "title": "M2SVid: conversión de video monocular a estéreo",
+  "translated_at": "2026-11-13"
+ },
  "n-901220b5b4": {
   "fresh": true,
   "title": "Se enlazaron los recursos públicos del proyecto Evoke",
   "translated_at": "2026-10-24"
+ },
+ "n-9139899069": {
+  "fresh": true,
+  "title": "Gemma 4 31B-it",
+  "translated_at": "2026-11-13"
  },
  "n-920abfb1e3": {
   "fresh": true,
@@ -2418,6 +2798,11 @@
   "fresh": true,
   "title": "Se vincularon los recursos de predicción de profundidad de Modality Forcing",
   "translated_at": "2026-10-24"
+ },
+ "n-9371b417f8": {
+  "fresh": true,
+  "title": "LoGeR se presentó como un proyecto de reconstrucción 3D",
+  "translated_at": "2026-11-13"
  },
  "n-93c82cced4": {
   "fresh": true,
@@ -2464,6 +2849,11 @@
   "title": "Se vincularon el sitio web del proyecto MonoArt y su repositorio de código",
   "translated_at": "2026-10-24"
  },
+ "n-972d1e2832": {
+  "fresh": true,
+  "title": "TML Interaction Models: IA multimodal en tiempo real",
+  "translated_at": "2026-11-13"
+ },
  "n-9744e9b73c": {
   "fresh": true,
   "title": "Flujo de trabajo de detallado facial con Z-Image Turbo",
@@ -2478,6 +2868,11 @@
   "fresh": true,
   "title": "ERNIE-Image 8B: modelo DiT de alto rendimiento de Baidu",
   "translated_at": "2026-10-24"
+ },
+ "n-97c6278d46": {
+  "fresh": true,
+  "title": "Qwen3.6-27B: modelo abierto de alto rendimiento para programación",
+  "translated_at": "2026-11-13"
  },
  "n-97c92d3269": {
   "fresh": true,
@@ -2504,6 +2899,11 @@
   "title": "Se vincularon los recursos públicos del proyecto Echo LongVideo",
   "translated_at": "2026-10-24"
  },
+ "n-98474cc274": {
+  "fresh": true,
+  "title": "Nucleus Image: modelo de difusión Sparse Mixture-of-Experts",
+  "translated_at": "2026-11-13"
+ },
  "n-984ac0ee00": {
   "fresh": true,
   "title": "Se hizo referencia a una página de modelo de Civitai para UltraReal - KREA2 Klein9b",
@@ -2518,6 +2918,11 @@
   "fresh": true,
   "title": "NVIDIA dio a conocer recursos de código y modelo de Nemotron VoiceChat 11B",
   "translated_at": "2026-10-24"
+ },
+ "n-997df70c3d": {
+  "fresh": true,
+  "title": "LTX-2.3-22B-DISTILLED-1.1: modelo DiT de video",
+  "translated_at": "2026-11-13"
  },
  "n-99c607c318": {
   "fresh": true,
@@ -2538,6 +2943,21 @@
   "fresh": true,
   "title": "Data2Story se vinculó públicamente con su sitio web y su repositorio de GitHub",
   "translated_at": "2026-10-24"
+ },
+ "n-9a27202165": {
+  "fresh": true,
+  "title": "VR-360-Outpaint: LoRA IC de LTX-2.3 para video de 360 grados",
+  "translated_at": "2026-11-13"
+ },
+ "n-9aa3cb6ab5": {
+  "fresh": true,
+  "title": "Audio Flamingo Next (AF-Next)",
+  "translated_at": "2026-11-13"
+ },
+ "n-9af7222826": {
+  "fresh": true,
+  "title": "QClaw-4B: modelo de lenguaje compacto para tareas agénticas",
+  "translated_at": "2026-11-13"
  },
  "n-9bab984caa": {
   "fresh": true,
@@ -2563,6 +2983,11 @@
   "fresh": true,
   "title": "El LoRA Audio Reactive de LTX2.3 entra en el registro de desarrollo fechado",
   "translated_at": "2026-10-24"
+ },
+ "n-9db878fd06": {
+  "fresh": true,
+  "title": "KIRI Engine: de Gaussian Splatting a malla",
+  "translated_at": "2026-11-13"
  },
  "n-9dd20d8e0c": {
   "fresh": true,
@@ -2639,6 +3064,11 @@
   "title": "NanoVDR vinculó recursos públicos de Hugging Face y una demo",
   "translated_at": "2026-10-24"
  },
+ "n-a167c6f61b": {
+  "fresh": true,
+  "title": "Publicado el parche de mantenimiento ComfyUI v0.42.5",
+  "translated_at": "2026-11-13"
+ },
  "n-a1c9a6a103": {
   "fresh": true,
   "title": "Se hizo referencia al repositorio LlamaServerLauncherAvalonia",
@@ -2648,6 +3078,11 @@
   "fresh": true,
   "title": "Qwen-Audio-3.0-TTS recibe una página de proyecto pública y documentación de texto a voz en tiempo real",
   "translated_at": "2026-10-24"
+ },
+ "n-a236c67d82": {
+  "fresh": true,
+  "title": "Port C++ de ACE-Step 1.5 (acestep.cpp)",
+  "translated_at": "2026-11-13"
  },
  "n-a2b2f064d2": {
   "fresh": true,
@@ -2674,6 +3109,11 @@
   "title": "Unsloth Studio para el ajuste fino de Gemma 4 en Colab",
   "translated_at": "2026-10-24"
  },
+ "n-a3c0ebdd3a": {
+  "fresh": true,
+  "title": "UniCorrn: transformador de correspondencia unificado para 2D y 3D",
+  "translated_at": "2026-11-13"
+ },
  "n-a3e4d25dc2": {
   "fresh": true,
   "title": "CanAI se publica como lienzo de código abierto para generación de imágenes y vídeo",
@@ -2698,6 +3138,11 @@
   "fresh": true,
   "title": "Lyra 2.0: mundos 3D generativos explorables",
   "translated_at": "2026-10-24"
+ },
+ "n-a56b9d31b6": {
+  "fresh": true,
+  "title": "Perplexity Personal Computer para Mac",
+  "translated_at": "2026-11-13"
  },
  "n-a5a478ec38": {
   "fresh": true,
@@ -2734,10 +3179,20 @@
   "title": "Cursor: el editor de código nativo de IA",
   "translated_at": "2026-10-24"
  },
+ "n-a71a838b34": {
+  "fresh": true,
+  "title": "GyroScope: modelo de detección y corrección de orientación de imágenes",
+  "translated_at": "2026-11-13"
+ },
  "n-a74ee42caa": {
   "fresh": true,
   "title": "FlowAnchor: edición de vídeo estable sin inversión",
   "translated_at": "2026-10-24"
+ },
+ "n-a7521b7b08": {
+  "fresh": true,
+  "title": "BACH 1.0: generación de vídeo con IA multiplano",
+  "translated_at": "2026-11-13"
  },
  "n-a78b2b7401": {
   "fresh": true,
@@ -2749,6 +3204,11 @@
   "title": "Se vincularon el repositorio de código fuente de Exiv y la documentación de primeros pasos",
   "translated_at": "2026-10-24"
  },
+ "n-a7d1f83b13": {
+  "fresh": true,
+  "title": "ArcFlow: marco de generación de imágenes no lineal 2-Step",
+  "translated_at": "2026-11-13"
+ },
  "n-a7efec38e4": {
   "fresh": true,
   "title": "Referencia al checkpoint Qwen3-ASR-1.7B-hf",
@@ -2759,10 +3219,20 @@
   "title": "CHAI: Critique-based Human-AI Oversight for Video Captioning",
   "translated_at": "2026-10-24"
  },
+ "n-a81182e9ac": {
+  "fresh": true,
+  "title": "Claude Opus 4.7: el modelo insignia de Anthropic para programación y razonamiento",
+  "translated_at": "2026-11-13"
+ },
  "n-a85f96599d": {
   "fresh": true,
   "title": "ComfyUI-Latent-Tiled-PiD recibió una referencia pública fechada en un repositorio",
   "translated_at": "2026-10-24"
+ },
+ "n-a8a043a8fd": {
+  "fresh": true,
+  "title": "INSID3: segmentación rápida en contexto con DINOv3",
+  "translated_at": "2026-11-13"
  },
  "n-a95c499131": {
   "fresh": true,
@@ -2803,6 +3273,11 @@
   "fresh": true,
   "title": "Entrada de noticias sobre DeepSeek-V4-Flash-Vision-Exp y guía de visión",
   "translated_at": "2026-10-24"
+ },
+ "n-ac33c5f998": {
+  "fresh": true,
+  "title": "LTX2.3-Multifunctional: suite avanzada de vídeo local con IA",
+  "translated_at": "2026-11-13"
  },
  "n-ad1e6a3d0c": {
   "fresh": true,
@@ -2869,6 +3344,11 @@
   "title": "Se registraron las referencias de API de reconocimiento de voz de Qwen Audio",
   "translated_at": "2026-10-24"
  },
+ "n-afce40f186": {
+  "fresh": true,
+  "title": "SuperSplat amplió su flujo de trabajo para aplicaciones de splats interactivas",
+  "translated_at": "2026-11-13"
+ },
  "n-b02f3b33b7": {
   "fresh": true,
   "title": "Se enlazaron el sitio web público del proyecto UMO y su repositorio de código fuente",
@@ -2883,6 +3363,11 @@
   "fresh": true,
   "title": "Recursos públicos del proyecto GUSH3R vinculados",
   "translated_at": "2026-10-24"
+ },
+ "n-b18df4c1c8": {
+  "fresh": true,
+  "title": "Función de progreso semántico (SPF) para un vídeo de IA suave",
+  "translated_at": "2026-11-13"
  },
  "n-b1bee57937": {
   "fresh": true,
@@ -2908,6 +3393,11 @@
   "fresh": true,
   "title": "GLM-5V-Turbo: modelo multimodal de ingeniería para diseño a código",
   "translated_at": "2026-10-24"
+ },
+ "n-b2c1d5a768": {
+  "fresh": true,
+  "title": "FLUX.2 Small Decoder (VAE destilado)",
+  "translated_at": "2026-11-13"
  },
  "n-b347948b96": {
   "fresh": true,
@@ -3014,6 +3504,11 @@
   "title": "Registrado un artefacto base de Zeta-Chroma",
   "translated_at": "2026-10-24"
  },
+ "n-b9e02bd01a": {
+  "fresh": true,
+  "title": "ACE-Step 1.5 XL: generación musical",
+  "translated_at": "2026-11-13"
+ },
  "n-ba02def424": {
   "fresh": true,
   "title": "Referencia al repositorio del proyecto registrada",
@@ -3049,10 +3544,30 @@
   "title": "Se enlazó el sitio de GitHub Pages de IGGT4D",
   "translated_at": "2026-10-24"
  },
+ "n-bb60458b02": {
+  "fresh": true,
+  "title": "FLUX.2-klein-9B-Nunchaku",
+  "translated_at": "2026-11-13"
+ },
+ "n-bb76b83d43": {
+  "fresh": true,
+  "title": "ComfyUI-Drama3 se actualizó con caché de expertos para una aceleración de más de 3x en 8GB de VRAM",
+  "translated_at": "2026-11-13"
+ },
  "n-bbc670c0e1": {
   "fresh": true,
   "title": "LongCat hizo visible públicamente LongCat 2.0",
   "translated_at": "2026-10-24"
+ },
+ "n-bc5c88f85f": {
+  "fresh": true,
+  "title": "DeepSeek-V4-Pro: modelo MoE insignia de escala de billones de parámetros",
+  "translated_at": "2026-11-13"
+ },
+ "n-bcef63351f": {
+  "fresh": true,
+  "title": "Z-Anime: modelo de generación anime S3-DiT de 6B y alta fidelidad",
+  "translated_at": "2026-11-13"
  },
  "n-bd49bc44b7": {
   "fresh": true,
@@ -3064,10 +3579,20 @@
   "title": "Modelo de lenguaje grande Gemopus-4-26B",
   "translated_at": "2026-10-24"
  },
+ "n-bec376434e": {
+  "fresh": true,
+  "title": "TinyMU: modelo compacto audio-lenguaje para la comprensión musical",
+  "translated_at": "2026-11-13"
+ },
  "n-c0d09bda8b": {
   "fresh": true,
   "title": "NVIDIA anunció Nemotron 3 Super",
   "translated_at": "2026-10-24"
+ },
+ "n-c13e04020a": {
+  "fresh": true,
+  "title": "Spark-X2.6-4B publicado bajo Apache 2.0 con variantes cuantizadas y razonamiento configurable",
+  "translated_at": "2026-11-13"
  },
  "n-c15c8a5410": {
   "fresh": true,
@@ -3093,6 +3618,11 @@
   "fresh": true,
   "title": "Se enlazaron los recursos públicos del proyecto Marionette",
   "translated_at": "2026-10-24"
+ },
+ "n-c2ca134086": {
+  "fresh": true,
+  "title": "ERNIE-Image-Turbo 8B: Diffusion Transformer de pesos abiertos",
+  "translated_at": "2026-11-13"
  },
  "n-c2e38d5935": {
   "fresh": true,
@@ -3149,6 +3679,11 @@
   "title": "Repositorio de GitHub de CARLA-Air enlazado",
   "translated_at": "2026-10-24"
  },
+ "n-c4a452f85d": {
+  "fresh": true,
+  "title": "NumPy como motor de síntesis (PyTheory)",
+  "translated_at": "2026-11-13"
+ },
  "n-c4e41aef2b": {
   "fresh": true,
   "title": "Se hizo referencia al sitio público de What to Edit Next",
@@ -3169,10 +3704,25 @@
   "title": "Motif-Video 2B: modelo de vídeo con Decoupled Diffusion Transformer eficiente",
   "translated_at": "2026-10-24"
  },
+ "n-c56d07046e": {
+  "fresh": true,
+  "title": "DreamLite: generación y edición de imágenes unificadas en el dispositivo",
+  "translated_at": "2026-11-13"
+ },
  "n-c5e93c1d3a": {
   "fresh": true,
   "title": "Los repositorios de modelos Audex pasan a ser públicamente localizables",
   "translated_at": "2026-10-24"
+ },
+ "n-c660c4f559": {
+  "fresh": true,
+  "title": "CDM: destilación de difusión mediante Continuous-Time Distribution Matching",
+  "translated_at": "2026-11-13"
+ },
+ "n-c66b8c38b0": {
+  "fresh": true,
+  "title": "RS Nodes: entrenamiento de LoRA para vídeo en ComfyUI",
+  "translated_at": "2026-11-13"
  },
  "n-c696325d3e": {
   "fresh": true,
@@ -3198,6 +3748,11 @@
   "fresh": true,
   "title": "Z-Image-SAM-ControlNet de NeuralVFX",
   "translated_at": "2026-10-24"
+ },
+ "n-c7bfff5d31": {
+  "fresh": true,
+  "title": "Gemma 4: la familia de modelos abiertos multimodales de Google",
+  "translated_at": "2026-11-13"
  },
  "n-c8fa19868e": {
   "fresh": true,
@@ -3269,6 +3824,16 @@
   "title": "LTX-2.3-22b-IC-LoRA-Ungrade Neutral Color Recovery",
   "translated_at": "2026-10-24"
  },
+ "n-cce36dc967": {
+  "fresh": true,
+  "title": "El LoRA SDA para Krea 2 Turbo añade una puerta de diversidad de dos pasos",
+  "translated_at": "2026-11-13"
+ },
+ "n-cd25320940": {
+  "fresh": true,
+  "title": "Sync-3: sincronización labial profesional con IA de Sync Labs",
+  "translated_at": "2026-11-13"
+ },
  "n-cddebb8e59": {
   "fresh": true,
   "title": "Recursos públicos del proyecto ProxyPose enlazados",
@@ -3324,6 +3889,11 @@
   "title": "Se documentaron los recursos públicos del proyecto InfiniSplat",
   "translated_at": "2026-10-24"
  },
+ "n-cf88820803": {
+  "fresh": true,
+  "title": "Wan2.2 Distill: generación de vídeo acelerada con modelos 4-Step",
+  "translated_at": "2026-11-13"
+ },
  "n-cf8c575ede": {
   "fresh": true,
   "title": "Se vincularon los recursos del proyecto SCoPE",
@@ -3353,6 +3923,11 @@
   "fresh": true,
   "title": "GEMS: generación multimodal nativa para agentes, con memoria",
   "translated_at": "2026-10-24"
+ },
+ "n-d135dd8f66": {
+  "fresh": true,
+  "title": "Moonshot lanza una actualización de Kimi K3.1 Pro con publicación abierta programada",
+  "translated_at": "2026-11-13"
  },
  "n-d140f3d07f": {
   "fresh": true,
@@ -3399,6 +3974,11 @@
   "title": "Se publicaron los recursos públicos de Higgs Audio v3 TTS",
   "translated_at": "2026-10-24"
  },
+ "n-d4678fd961": {
+  "fresh": true,
+  "title": "CAVC demuestra una aceleración de inferencia de 1.10-1.35x en la generación audiovisual",
+  "translated_at": "2026-11-13"
+ },
  "n-d46d9eb28f": {
   "fresh": true,
   "title": "Meta elimina del lenguaje de sus condiciones comerciales la referencia al entrenamiento de IA",
@@ -3408,6 +3988,11 @@
   "fresh": true,
   "title": "Referencia al repositorio de GitHub de Modly",
   "translated_at": "2026-10-24"
+ },
+ "n-d4d07dd0bf": {
+  "fresh": true,
+  "title": "P-Video-Avatar: animación de cabezas parlantes con IA de alta velocidad",
+  "translated_at": "2026-11-13"
  },
  "n-d4f61075f4": {
   "fresh": true,
@@ -3449,6 +4034,11 @@
   "title": "Wan2.7-Video: suite de generación y edición de vídeo de calidad profesional",
   "translated_at": "2026-10-24"
  },
+ "n-d755c8bc8a": {
+  "fresh": true,
+  "title": "Qwen3-TTS: síntesis de voz avanzada de disparo cero",
+  "translated_at": "2026-11-13"
+ },
  "n-d76b3cf6c5": {
   "fresh": true,
   "title": "Cobertura de METR sobre GPT-5.6 Sol",
@@ -3458,6 +4048,11 @@
   "fresh": true,
   "title": "Registrada la referencia de artículo de investigación de Qwen-Image-Flash",
   "translated_at": "2026-10-24"
+ },
+ "n-d7b1c6bb36": {
+  "fresh": true,
+  "title": "VoxCPM2 — TTS multilingüe de 2B sin tokenizador y clonación de voz",
+  "translated_at": "2026-11-13"
  },
  "n-d7c3a5e60e": {
   "fresh": true,
@@ -3479,6 +4074,11 @@
   "title": "Sync.so, estudio de doblaje visual y sincronización labial con IA",
   "translated_at": "2026-10-24"
  },
+ "n-d8bf4374be": {
+  "fresh": true,
+  "title": "Odyssey-2 Max: simulador generativo de mundos en tiempo real",
+  "translated_at": "2026-11-13"
+ },
  "n-d967265835": {
   "fresh": true,
   "title": "LongCat-AudioDiT: TTS de difusión en espacio latente de forma de onda de alta fidelidad",
@@ -3499,6 +4099,11 @@
   "title": "Vista4D: framework de Netflix para el reencuadre de vídeo en 4D",
   "translated_at": "2026-10-24"
  },
+ "n-d9eaebd61d": {
+  "fresh": true,
+  "title": "Wan 2.7-Image (Pro)",
+  "translated_at": "2026-11-13"
+ },
  "n-da24004da2": {
   "fresh": true,
   "title": "PSDesigner: diseño gráfico automatizado con un flujo de trabajo similar al humano",
@@ -3508,6 +4113,11 @@
   "fresh": true,
   "title": "La demo de Voxtral Realtime WebGPU quedó documentada",
   "translated_at": "2026-10-24"
+ },
+ "n-daa2681205": {
+  "fresh": true,
+  "title": "LoRA de vídeo a vídeo Obscura Remova para LTX23",
+  "translated_at": "2026-11-13"
  },
  "n-daa3090ac6": {
   "fresh": true,
@@ -3584,6 +4194,16 @@
   "title": "ComfyUI-zveroboy-photo para flujos de trabajo RAW y fotorrealismo",
   "translated_at": "2026-10-24"
  },
+ "n-dfe5e1e7a6": {
+  "fresh": true,
+  "title": "MiniMax Music 2.6: plataforma de generación musical con IA",
+  "translated_at": "2026-11-13"
+ },
+ "n-e17cbf7ded": {
+  "fresh": true,
+  "title": "Tencent Hy-MT1.5 Mobile: traducción automática móvil",
+  "translated_at": "2026-11-13"
+ },
  "n-e1ca928d8e": {
   "fresh": true,
   "title": "Canva publicó una actualización de Magic Layers en su sala de prensa.",
@@ -3629,6 +4249,11 @@
   "title": "Se registraron los recursos públicos del proyecto SwiftVR",
   "translated_at": "2026-10-24"
  },
+ "n-e3fe618151": {
+  "fresh": true,
+  "title": "MegaStyle: canalización escalable de curación de estilos artísticos",
+  "translated_at": "2026-11-13"
+ },
  "n-e431684c08": {
   "fresh": true,
   "title": "Repositorio de ComfyUI KSampler Matrix Lab referenciado",
@@ -3653,6 +4278,11 @@
   "fresh": true,
   "title": "StorySplat v2.3: editor interactivo de Gaussian Splatting en 3D",
   "translated_at": "2026-10-24"
+ },
+ "n-e51898fad5": {
+  "fresh": true,
+  "title": "GLM-5.1: agente de ingeniería autónomo de Z.ai",
+  "translated_at": "2026-11-13"
  },
  "n-e55e56223b": {
   "fresh": true,
@@ -3689,6 +4319,11 @@
   "title": "Se publicaron los recursos del proyecto GEAR",
   "translated_at": "2026-10-24"
  },
+ "n-e63a0d4512": {
+  "fresh": true,
+  "title": "M-XR Image-to-Material: generación PBR de producción a partir de imagen",
+  "translated_at": "2026-11-13"
+ },
  "n-e6413c0a2c": {
   "fresh": true,
   "title": "Los recursos de ArtiFixer se vincularon entre canales de investigación, código y modelos",
@@ -3718,6 +4353,11 @@
   "fresh": true,
   "title": "Qwen Code se lanza junto a Qwen3-Coder",
   "translated_at": "2026-10-24"
+ },
+ "n-e76fc8f96f": {
+  "fresh": true,
+  "title": "SANA-Video: síntesis y escalado eficientes de vídeo a 720p",
+  "translated_at": "2026-11-13"
  },
  "n-e859acd94e": {
   "fresh": true,
@@ -3759,6 +4399,11 @@
   "title": "Huihui-Qwen3.8-27B-abliterated se hizo públicamente disponible a través de Hugging Face",
   "translated_at": "2026-10-24"
  },
+ "n-ea4c5d4dff": {
+  "fresh": true,
+  "title": "LAVA Genie: guitarra inteligente sin cuerdas con IA integrada",
+  "translated_at": "2026-11-13"
+ },
  "n-ea52f36353": {
   "fresh": true,
   "title": "Los recursos públicos del proyecto MuScriptor estuvieron disponibles",
@@ -3794,6 +4439,11 @@
   "title": "CohereLabs publicó las páginas de los modelos North Mini Code 1.0 en Hugging Face",
   "translated_at": "2026-10-24"
  },
+ "n-eb367fb3e1": {
+  "fresh": true,
+  "title": "LumiPic: difusión de imagen de SDR a HDR",
+  "translated_at": "2026-11-13"
+ },
  "n-eb68bcfc57": {
   "fresh": true,
   "title": "Krea publicó los materiales oficiales de código abierto y despliegue de Krea 2",
@@ -3823,6 +4473,16 @@
   "fresh": true,
   "title": "Repositorio público de KVarN referenciado",
   "translated_at": "2026-10-24"
+ },
+ "n-ec5428386a": {
+  "fresh": true,
+  "title": "Claude Design: generación de prototipos y UI con Opus 4.7",
+  "translated_at": "2026-11-13"
+ },
+ "n-ec7e719b88": {
+  "fresh": true,
+  "title": "Phi-Ground-Any: modelo multimodal de anclaje GUI de Microsoft",
+  "translated_at": "2026-11-13"
  },
  "n-eca931f946": {
   "fresh": true,
@@ -3879,6 +4539,11 @@
   "title": "Se vincularon los repositorios nativo y GGUF de MiniMax-H3 x Z-Image",
   "translated_at": "2026-10-24"
  },
+ "n-f0cec18709": {
+  "fresh": true,
+  "title": "Rodin Gen 2.5 (Hyper3D)",
+  "translated_at": "2026-11-13"
+ },
  "n-f108d81c34": {
   "fresh": true,
   "title": "PixVerse presentó una interfaz de generación orientada a la terminal",
@@ -3888,6 +4553,11 @@
   "fresh": true,
   "title": "CompHairHead: avatares 3D a partir de una sola imagen con cabello deformable",
   "translated_at": "2026-10-24"
+ },
+ "n-f1ea79cf67": {
+  "fresh": true,
+  "title": "MOSS-TTS-Nano",
+  "translated_at": "2026-11-13"
  },
  "n-f1f27d1e3a": {
   "fresh": true,
@@ -3908,6 +4578,11 @@
   "fresh": true,
   "title": "Cursor publicó una actualización pública asociada a Router",
   "translated_at": "2026-10-24"
+ },
+ "n-f24b5871aa": {
+  "fresh": true,
+  "title": "SDXS-1B: difusión en tiempo real y escalador de alta fidelidad",
+  "translated_at": "2026-11-13"
  },
  "n-f2b3361da7": {
   "fresh": true,
@@ -3944,10 +4619,20 @@
   "title": "Spatial Studio, 3D Gaussian Splatting de Real Horizons",
   "translated_at": "2026-10-24"
  },
+ "n-f4d17d7115": {
+  "fresh": true,
+  "title": "Gemma 4 E4B Heretic: versión sin censura",
+  "translated_at": "2026-11-13"
+ },
  "n-f52983ecb7": {
   "fresh": true,
   "title": "Runway presentó Aleph 2.0",
   "translated_at": "2026-10-24"
+ },
+ "n-f57cbec8b9": {
+  "fresh": true,
+  "title": "LingBot-Map: reconstrucción 3D de escenas en tiempo real y en streaming",
+  "translated_at": "2026-11-13"
  },
  "n-f57cbf8f0c": {
   "fresh": true,
@@ -3968,6 +4653,11 @@
   "fresh": true,
   "title": "ElevenLabs: despliegue de IA de voz on-premise y on-device",
   "translated_at": "2026-10-24"
+ },
+ "n-f6c6cdf729": {
+  "fresh": true,
+  "title": "ComfyUI 6DOF Camera — manipulación de escenas 3D y puesta en escena de personajes",
+  "translated_at": "2026-11-13"
  },
  "n-f6f78aa8d5": {
   "fresh": true,
@@ -3999,6 +4689,11 @@
   "title": "Actualización de producto de Tripo de mayo",
   "translated_at": "2026-10-24"
  },
+ "n-f861f085b8": {
+  "fresh": true,
+  "title": "Free Claude Code: proxy de IA para la CLI de Claude",
+  "translated_at": "2026-11-13"
+ },
  "n-f8b15964ba": {
   "fresh": true,
   "title": "El repositorio de GitHub de MaskVidExperiments fue citado públicamente",
@@ -4013,6 +4708,11 @@
   "fresh": true,
   "title": "Se publica el código de SANA",
   "translated_at": "2026-10-24"
+ },
+ "n-f9bd7f602b": {
+  "fresh": true,
+  "title": "TRIBE Review MVP",
+  "translated_at": "2026-11-13"
  },
  "n-fa9c04297f": {
   "fresh": true,

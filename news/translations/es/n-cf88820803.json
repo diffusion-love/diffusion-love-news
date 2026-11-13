@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto evolucionó desde Wan2.1 hasta un Wan2.2 de 27B parámetros basado en MoE. Las variantes «Distill» se han convertido en el estándar del sector para el despliegue local y ofrecen una aceleración de 20x frente a los modelos base mediante una reducción extrema de pasos.",
+ "id": "n-cf88820803",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "El soporte nativo de cuantización FP8 e INT8 permite un uso de 15GB de VRAM en GPU de consumo como la RTX 4090.",
+ "source_sha256": "268b00a52987b3c4bf46fdaf14ee85b7e851a3f1c86067eb1a03eabcc497de0f",
+ "summary": "Wan2.2 Distill es un marco optimizado de generación de vídeo que reduce los pasos de inferencia de más de 50 a solo 4 mediante destilación de pasos y de CFG. Utiliza una arquitectura de mezcla de expertos para lograr una calidad cinematográfica con un rendimiento casi en tiempo real en hardware de consumo.",
+ "title": "Wan2.2 Distill: generación de vídeo acelerada con modelos 4-Step",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

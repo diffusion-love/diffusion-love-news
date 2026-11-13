@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Originalmente una bifurcación optimizada en VRAM para GPU de consumo, evolucionó hasta convertirse en un conjunto de herramientas para usuarios avanzados que admite modos de múltiples fotogramas para vídeos de duración ilimitada. Las actualizaciones recientes añadieron soporte para codificadores de texto Gemma-3 e integraron canalizaciones de clonación de voz.",
+ "id": "n-ac33c5f998",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Optimizado para hardware de 24GB de VRAM; admite cuantización fp8 y cambio de modelos GGUF para reducir las barreras de entrada frente a las versiones oficiales.",
+ "source_sha256": "df24642a2643126180382a7ae2fcc37d8c318b14d0b7a62d9543c269332448db",
+ "summary": "Una aplicación de escritorio completa para la generación local de vídeo de alta calidad con el modelo de difusión LTX-2.3. Ofrece un rendimiento optimizado para el hardware, sincronización labial integrada y colas de tareas en varias GPU para flujos de trabajo de IA profesionales.",
+ "title": "LTX2.3-Multifunctional: suite avanzada de vídeo local con IA",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

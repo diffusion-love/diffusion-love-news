@@ -1,0 +1,11 @@
+{
+ "id": "n-12dc9deafa",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Descarga los pesos del modelo desde el repositorio InternScience/Sage-A1.5 en Hugging Face o ModelScope.\n\nDespliega el modelo con vLLM o SGLang usando la configuración estándar de la arquitectura MoE de Qwen para exponer un endpoint de API compatible con OpenAI.\n\nConfigura el entorno de ejecución del agente con la creación de subagentes habilitada, para que el modelo pueda paralelizar subtareas en contextos aislados.\n\nActiva la verificación nativa en los parámetros de generación o en el prompt de sistema, para que el modelo realice autorrevisión y recuperación de errores en trayectorias complejas.\n\nUsa contextos de subagentes aislados para las ramas de investigación paralelas, de modo que las salidas intermedias y ruidosas de las herramientas no distraigan al agente raíz.\n\nAplica parámetros de escalado de contexto YaRN al procesar repositorios o colecciones de literatura científica que superen la ventana nativa de 256K tokens.\n\nDespliega con cuantizaciones FP8/INT4 en SGLang o vLLM para reducir la huella de memoria manteniendo la eficiencia del enrutamiento MoE.",
+ "source_sha256": "e0e10c4bf346a316e00eb054592c490ba167c4fdc660d48dc0cc8f761b271573",
+ "summary": "Shanghai AI Lab ha publicado Sage-A1.5, un modelo agéntico de pesos abiertos de 35B con licencia Apache 2.0 que activa 3B parámetros por token, construido sobre Qwen3.6-35B-A3B, con orquestación nativa de subagentes en paralelo y soporte de servicio para SGLang y vLLM.",
+ "title": "Shanghai AI Lab publica el modelo agéntico de pesos abiertos Sage-A1.5",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "A mediados de 2026, UniCorrn representa el estado del arte en la correspondencia multimodal unificada, al fusionar en un único marco de modelo fundacional las tareas de registro de imágenes y de nubes de puntos que antes estaban separadas.",
+ "id": "n-a3c0ebdd3a",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Introduce un decodificador de atención de doble flujo novedoso que trata por separado las características de apariencia y las posicionales, compartiendo los pesos principales; presentado en CVPR 2026.",
+ "source_sha256": "31fbf2b5b4602c424d563c7474adade0cb8985c11f1853edc0a4562e0638c4f5",
+ "summary": "Un modelo transformador unificado desarrollado por Adobe Research y la Northeastern University, que realiza tareas de correspondencia 2D-2D, 2D-3D y 3D-3D dentro de una única arquitectura. Utiliza pesos compartidos y un mecanismo de atención de doble flujo para lograr resultados de vanguardia en correspondencia geométrica.",
+ "title": "UniCorrn: transformador de correspondencia unificado para 2D y 3D",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

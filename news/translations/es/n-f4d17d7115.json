@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto evolucionó para incluir variantes «Thinking» como DECKARD HERETIC, que incorporan un razonamiento de cadena de pensamiento aumentado y mantienen un estado sin censura. El propio proceso HERETIC alcanzó la versión 1.2.0 a mediados de 2026.",
+ "id": "n-f4d17d7115",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Muy popular en la comunidad de LLM locales por su comportamiento «sin niñera»; requiere herramientas de inferencia compatibles con GGUF, como LM Studio o llama.cpp.",
+ "source_sha256": "eb2aadd0d861b24dbeaeb9858d4d477ce266929cdc620af5c39a7e563abf8aac",
+ "summary": "Una versión sin restricciones del modelo Gemma 4 de Google, modificada con el método de abliteration HERETIC para neutralizar las barreras de seguridad y las direcciones de rechazo. Está optimizada para la escritura creativa y el roleplay, sin sermones ni filtrado por parte de la IA.",
+ "title": "Gemma 4 E4B Heretic: versión sin censura",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

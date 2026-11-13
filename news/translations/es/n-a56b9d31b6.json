@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Lanzado a comienzos de 2026 como un entorno aislado en la nube, evolucionó hasta convertirse en una aplicación nativa para macOS en abril de 2026. Inicialmente exclusiva del plan Max de $200/month, en mayo de 2026 se amplió a todos los suscriptores Pro y Enterprise, y reemplazó a la antigua aplicación de Perplexity para Mac.",
+ "id": "n-a56b9d31b6",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Incluye un atajo universal de doble Command y una integración profunda con el navegador Comet para la interacción visual con herramientas web sin necesidad de API.",
+ "source_sha256": "65b91993bbc00ea414f075e633c488475fc6af1dee6a970109581a4f0a675717",
+ "summary": "Un agente de IA autónomo para macOS que se integra con el sistema de archivos local y las aplicaciones nativas para ejecutar flujos de trabajo de varios pasos. Funciona como un orquestador personal, realizando tareas como organizar archivos o redactar correos mediante la consecución probabilística de objetivos.",
+ "title": "Perplexity Personal Computer para Mac",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

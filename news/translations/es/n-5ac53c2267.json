@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Este modelo marca la transición a la aceleración nativa por hardware NVFP4 en GPU Blackwell, lo que permite ejecutar localmente razonamiento de clase GPT-4. Admite decodificación especulativa mediante modelos drafter dedicados, con mejoras de rendimiento de 4x.",
+ "id": "n-5ac53c2267",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "El soporte nativo requiere los Tensor Cores de NVIDIA Blackwell (serie RTX 5000) para el escalado por bloques de grano fino; las arquitecturas anteriores, como Hopper, necesitan emulación por software mediante vLLM.",
+ "source_sha256": "1164adf3444e2f960cc75acb56722bc746c35620e94949d7b79fcd14b09ff1cd",
+ "summary": "Una versión oficial cuantizada en punto flotante de 4 bits (NVFP4) del LLM Gemma-4-31B-IT de Google, optimizada por NVIDIA para la arquitectura Blackwell. Mantiene una precisión casi completa y permite procesar contextos de 256K en hardware de consumo.",
+ "title": "NVIDIA Gemma-4-31B-IT NVFP4: modelo cuantizado",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

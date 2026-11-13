@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto representa un cambio desde los diseños densos de Diffusion Transformer (DiT) hacia arquitecturas dispersas. Desde su publicación se ha integrado en ComfyUI y sigue siendo un modelo base «limpio» muy popular para el fine-tuning comunitario.",
+ "id": "n-98474cc274",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "El modelo se publica bajo la licencia Apache-2.0 e incluye recetas de entrenamiento completas y pesos en Hugging Face.",
+ "source_sha256": "d8b8634c03653d9c54246f560c4f1b5df88fcabe534bcc8d2295b5bcce4e586a",
+ "summary": "Un modelo de texto a imagen de 17B parámetros que utiliza una arquitectura Sparse Mixture-of-Experts para desacoplar la capacidad del modelo del coste de inferencia. Activa solo unos 2B parámetros por pasada hacia adelante, lo que ofrece generación de alta calidad con una latencia considerablemente menor.",
+ "title": "Nucleus Image: modelo de difusión Sparse Mixture-of-Experts",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Lanzado por la división Robbyant de Ant Group a mediados de abril de 2026. Se actualizó con rapidez con optimizaciones de caché KV de FlashInfer para secuencias largas y aceleración por hardware que permite un rendimiento en tiempo real de 20 FPS. A finales de abril se publicó una demostración de recorrido interior de 25,000 fotogramas para mostrar la estabilidad a largo plazo.",
+ "id": "n-f57cbec8b9",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "En el momento del lanzamiento alcanzó resultados de vanguardia en los benchmarks Oxford Spires y ETH3D, superando tanto a los métodos en streaming como a los métodos offline.",
+ "source_sha256": "bbd182f349555b9fe9b5ebfd60e2608b7a53a56700e638511f6a80f15f5f0e2a",
+ "summary": "LingBot-Map es un modelo fundacional 3D diseñado para la reconstrucción 3D en tiempo real y en streaming a partir de secuencias de vídeo RGB estándar. Utiliza una arquitectura Geometric Context Transformer (GCT) para gestionar el anclaje de coordenadas y la corrección de la deriva de largo alcance en aplicaciones de IA corporizada.",
+ "title": "LingBot-Map: reconstrucción 3D de escenas en tiempo real y en streaming",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

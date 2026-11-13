@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto pasó de una herramienta de eliminación de fantasmas basada en imágenes de 2023 a un marco completo de difusión de vídeo a comienzos de 2026. La versión actual usa mapeo de color Log-Gamma y priors de vídeo para recuperar la radiancia perdida en contenido heredado de 8 bits.",
+ "id": "n-2af8215f2c",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "La actualización de 2026 se caracteriza por sus altos requisitos computacionales; normalmente necesita GPU de clase A100 para un procesamiento eficiente.",
+ "source_sha256": "70bbcec885a7bead5dd9454c2cfd4d02ab3290b3c407fa107bc3d59cc67b810b",
+ "summary": "Un marco para convertir vídeos LDR de 8 bits en secuencias HDR de 32 bits mediante inpainting generativo de radiancia. Aprovecha modelos preentrenados de difusión de vídeo para generar realces realistas manteniendo una consistencia temporal estricta.",
+ "title": "DiffHDR: difusión de vídeo generativa de LDR a HDR",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

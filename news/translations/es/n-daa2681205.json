@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Se convirtió en una función estándar muy solicitada para su integración en las principales canalizaciones de generación de vídeo, como Wan2GP. El modelo pasó de la simple eliminación del primer plano a tareas complejas de reconstrucción completa del fondo.",
+ "id": "n-daa2681205",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "La intensidad recomendada empieza en 1.25; el rendimiento mejora de forma notable al interpolar el vídeo de entrada a 50fps antes del procesamiento.",
+ "source_sha256": "b1d32b157b73ad1fe4ca0a25885cb0ac8b7a926024c2e6f20fb0d23843e8b8ab",
+ "summary": "Un LoRA especializado para la edición de vídeo a vídeo que reconstruye las escenas de fondo eliminando obstrucciones del primer plano, como plantas, humo o neblina. Utiliza la alucinación de características profundas para rellenar los datos visuales que faltan detrás de los objetos ocluidos.",
+ "title": "LoRA de vídeo a vídeo Obscura Remova para LTX23",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}
