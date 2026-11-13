@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 중반 Sherry 프레임워크를 통한 1.25비트 양자화로 업데이트되어, 1.8B 모델을 저사양 모바일 하드웨어에 배포할 수 있도록 440MB로 줄였습니다. 현재 오프라인 온디바이스 번역의 업계 벤치마크입니다.",
+ "id": "n-e17cbf7ded",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "용어 개입(terminology intervention)과 문맥 인식 다중 턴 번역 지원을 도입했으며, Tencent Meeting과 Enterprise WeChat에 통합되었습니다.",
+ "source_sha256": "3006d91228acb0b3bca058030d54b5c1721161ef64da60dcb4c6484419a6d5c2",
+ "summary": "극단적인 압축을 통해 모바일 기기에서의 온디바이스 사용에 최적화된 소형 다국어 번역 모델입니다. 최소한의 하드웨어 요구 사항으로 33개 언어에 걸쳐 최상위 수준의 성능을 제공합니다.",
+ "title": "Tencent Hy-MT1.5 모바일 기계 번역",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

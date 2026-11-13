@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "推理代码于 2026 年 4 月通过 ByteVisionLab GitHub 组织发布。该模型目前通过 4 步蒸馏和经剪枝的移动端 U-Net 主干，在智能手机上实现实时性能。",
+ "id": "n-c56d07046e",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由字节跳动智能创作实验室开发；引入上下文内空间拼接，将生成与编辑工作流合二为一。",
+ "source_sha256": "fa3c50863bd9e7086a5bb391341a9b206527517c78d2bc5c71f9969716b7f3c5",
+ "summary": "字节跳动为移动硬件设计的紧凑型 0.39B 参数扩散模型。它采用统一架构，在设备端同时完成文生图和基于指令的图像编辑。",
+ "title": "DreamLite：统一的端侧图像生成与编辑",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

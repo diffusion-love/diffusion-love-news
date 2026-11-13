@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Nachfolger der Qwen3.5-Serie mit hybrider Gated-DeltaNet-Aufmerksamkeit für schnellere Verarbeitung langer Kontexte und „Thinking Preservation“ für stabiles mehrstufiges Schlussfolgern.",
+ "id": "n-04529e7d46",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Gehört zu den besten Open-Weight-Modellen für agentisches Programmieren (73.4% SWE-bench) und Mathematik (92.6% AIME 2026); veröffentlicht unter Apache 2.0.",
+ "source_sha256": "bd3caceaa2a648b958f75addc718835b9567edfb0db9eccd80759bfa7cfd2db2",
+ "summary": "Ein multimodales Open-Weight-Modell mit 35B Parametern insgesamt und 3B aktiven Parametern, das eine dünnbesetzte Mixture-of-Experts-(MoE-)Architektur nutzt. Es ist für agentisches Programmieren und Mathematik optimiert und verfügt über einen hybriden linearen Aufmerksamkeitsmechanismus für effizientes Schlussfolgern über lange Kontexte.",
+ "title": "Qwen3.6-35B-A3B: Multimodales dünnbesetztes MoE-Modell von Alibaba",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

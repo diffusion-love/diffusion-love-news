@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "La revisión verificada del repositorio admite un flujo de trabajo ampliado centrado en Klein 9B, con hasta ocho referencias, máscaras y controles explícitos de paso neutro; su eficacia sigue sin evaluarse de forma independiente.",
+ "id": "n-4541890dcb",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "c62bf4e842ca2b506083ddb692392b69827e813bad861276005b96bc80eaa777",
+ "summary": "La revisión verificada del repositorio admite un flujo de trabajo ampliado centrado en Klein 9B, con hasta ocho referencias, máscaras y controles explícitos de paso neutro; su eficacia sigue sin evaluarse de forma independiente.",
+ "title": "Flux2Klein Enhancer llega a una implementación ampliada de múltiples referencias",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "n-0f298b0d41",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "f6e837d3e1ae73ec07a39910ea31e8e0e5340e14a015b9fb3a88c086bcdc24f6",
+ "summary": "2026-08-12, LoopX 스레드의 한 메시지가 프로젝트의 GitHub 저장소를 가리켰습니다: https://github.com/huangruiteng/loopx. 이는 해당 날짜에 LoopX와 연관된 공개 소스 위치를 기록하며, 제공된 근거로는 릴리스, 기능, 코드 변경이 확인되지 않습니다.",
+ "title": "LoopX의 공개 GitHub 저장소가 연결되었습니다",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

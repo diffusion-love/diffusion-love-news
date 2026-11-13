@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Lanzado como sucesor de la serie Qwen-Image 1.0, pasó de una arquitectura MMDiT de 20B a un modelo «omni» unificado y más eficiente de 7B. Integró las capacidades de generación y edición y añadió compatibilidad con prompts largos de 1,000 tokens.",
+ "id": "n-86ce44c208",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Ampliamente considerado como referente del sector en el renderizado preciso de texto en inglés y chino; se mantiene de forma constante entre los diez primeros de la clasificación ELO de AI Arena.",
+ "source_sha256": "97b1c9939c0eaee1ca2749c0ca9531f02833610ec2f281dbace0d048532f7d66",
+ "summary": "Un modelo fundacional multimodal de nivel profesional de Alibaba que unifica la generación y la edición de imágenes. Lanzado en febrero de 2026, destaca en la salida nativa a 2K y en tipografía bilingüe compleja, y suele figurar entre los modelos de primer nivel en precisión técnica.",
+ "title": "Qwen-Image-2.0-Pro",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Qwen3-TTS는 Qwen2-Audio 같은 일반 오디오 이해 모델에서 전용 생성 제품군으로의 전환을 나타냅니다. 0.6B 및 1.7B 변형을 포함하며, 뛰어난 압축과 폭넓은 감정 표현을 위해 Qwen3-TTS-Tokenizer-12Hz를 도입했습니다.",
+ "id": "n-d755c8bc8a",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Apache 2.0 라이선스로 배포되며, 텍스트 프롬프트를 통한 음성 디자인과 실시간 애플리케이션을 위한 100ms 미만의 첫 패킷 지연 시간을 제공합니다.",
+ "source_sha256": "f555145220b88e1fbe629c297f9c542e39422d1a5c65b081e584dae5fe991dc1",
+ "summary": "Alibaba Qwen의 특화 텍스트 음성 변환(TTS) 제품군으로, 3초 샘플로부터의 제로샷 음성 클로닝과 자연어 음성 디자인을 지원합니다. Dual-Track 하이브리드 스트리밍 아키텍처를 활용해 10개 언어에 걸쳐 초저지연과 고품질 운율을 달성합니다.",
+ "title": "Qwen3-TTS: 고급 제로샷 음성 합성",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

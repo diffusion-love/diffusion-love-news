@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该 ComfyUI 实现最初基于 ECCV 2024 论文，于 2025 年底演进，新增了针对全景分块的改进深度拼接，并与 ComfyUI-3D-Viewer-Pro 套件实现了无缝集成。截至 2026 年年中，它仍针对最新的 3DGS 光栅化器持续维护。",
+ "id": "n-2915ceca6f",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "安装时需要完整的 CUDA Toolkit 和 C++ 编译环境；强烈建议使用 16GB 以上显存（RTX 3090/4090）以获得稳定性能。",
+ "source_sha256": "193dfe6b02a1df81005193be8340edddc85492cc3b8acaa7ebd1625b584021ad",
+ "summary": "这是一个专门的 ComfyUI 节点套件，实现了 DreamScene360 研究，可从单张 360° 全景图像生成全局一致的 3D 高斯泼溅（3DGS）场景。它利用深度估计和全景泼溅，从单一视点创建可探索的三维环境。",
+ "title": "ComfyUI-DreamScene360 — 全景高斯泼溅与 3D 场景",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

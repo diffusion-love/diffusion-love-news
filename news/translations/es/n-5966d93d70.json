@@ -1,0 +1,11 @@
+{
+ "id": "n-5966d93d70",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Identifique el régimen tolerante a la caché en la trayectoria de muestreo del modelo conjunto de difusión audiovisual, normalmente correspondiente a pasos de tiempo intermedios de la difusión.\n\nConfigure el bucle de muestreo para almacenar en caché y reutilizar las salidas del denoiser de audio y omitir la atención cruzada entre modalidades durante la fase intermedia, manteniendo la ejecución completa, sin caché, del denoiser de video.\n\nRestaure la eliminación de ruido conjunta completa de ambas modalidades en los pasos terminales finales, para eliminar la deriva entre modalidades y fijar la sincronización audiovisual.\n\nEvite almacenar en caché las salidas del denoiser de video entre pasos de muestreo intermedios, ya que las representaciones de video carecen de la recuperabilidad asimétrica del audio y sufren un desenfoque temporal y una degradación del movimiento irrecuperables.\n\nAsegúrese de conservar al final de la trayectoria de muestreo una ventana suficiente de pasos terminales de eliminación de ruido conjunta, para garantizar la fidelidad del audio y la alineación temporal precisa con la dinámica del video.",
+ "source_sha256": "d683c660960255d4e1e9b7cbe06eaba93f387457e92c51969067fc5daec53cd7",
+ "summary": "El preprint 2610.30854 presenta CAVC, un marco de caché sin entrenamiento para la generación audiovisual por difusión, que almacena en caché los pasos intermedios de eliminación de ruido del audio mientras continúa el refinamiento del video, y termina con pasos conjuntos terminales.",
+ "title": "Se presenta CAVC: marco de caché con asimetría de modalidades para la difusión audiovisual",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

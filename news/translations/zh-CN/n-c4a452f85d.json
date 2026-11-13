@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目以名为《Interpretations》的 24 首曲目专辑告终，整张专辑完全通过 Python 脚本渲染而成。它已扩展为支持复杂的微分音律制，以及实时算法生成。",
+ "id": "n-c4a452f85d",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "仅使用 NumPy 和标准 Python 库，演示了用于拨弦合成的 Karplus-Strong 算法。",
+ "source_sha256": "69b449eb607f6bef39109acf6df4e27a60220e4223818be55467f3b59e11ba17",
+ "summary": "由 Kenneth Reitz 开发的框架，将 NumPy 数组视为音频缓冲区，用于数学化音乐合成。它支持纯代码创作，并可在不使用音频采样的情况下对乐器进行物理建模。",
+ "title": "以 NumPy 作为合成引擎（PyTheory）",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

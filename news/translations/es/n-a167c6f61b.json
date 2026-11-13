@@ -1,0 +1,11 @@
+{
+ "id": "n-a167c6f61b",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Instale la aplicación desde la distribución oficial de la versión o clone el repositorio en el entorno Python local.\n\nColoque los checkpoints del modelo, los codificadores de texto y los pesos del VAE necesarios en sus subcarpetas correspondientes dentro de la carpeta models.\n\nInicie el servidor backend mediante el script principal de ejecución para abrir la interfaz de lienzo basada en web.\n\nConstruya un grafo acíclico dirigido que conecte los nodos de carga del modelo, el condicionamiento del prompt, el muestreo latente y la decodificación VAE, y después encole el prompt.\n\nSiga y aplique las actualizaciones progresivas de versiones puntuales desde el flujo de versiones etiquetadas en GitHub.\n\nAgrupe los bloques funcionales relacionados en cajas visuales con etiquetas explícitas, y use nodos reroute para evitar líneas de conexión enredadas en grafos grandes.\n\nReutilice las salidas del modelo y del VAE ya cargadas en las ramas de condicionamiento posteriores, en lugar de instanciar nodos cargadores duplicados en la memoria de la GPU.\n\nVerifique el flujo de ejecución en un grafo base mínimo antes de añadir extensiones complejas de nodos personalizados de terceros.\n\nConsulte las etiquetas oficiales de versión y los changelogs antes de actualizar los entornos de ejecución de producción, para evitar roturas de esquema o de nodos personalizados.",
+ "source_sha256": "4e7d87ecb1e5e2453dc1e51f30aad3041c7a0fb1e33b22d6e96d984f9ad28d6c",
+ "summary": "Comfy-Org publicó en GitHub la versión v0.42.5, con correcciones rutinarias del núcleo y mantenimiento de nodos dentro de la línea de versiones v0.42.",
+ "title": "Publicado el parche de mantenimiento ComfyUI v0.42.5",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

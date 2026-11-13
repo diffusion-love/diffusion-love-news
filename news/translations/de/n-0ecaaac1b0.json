@@ -1,0 +1,11 @@
+{
+ "id": "n-0ecaaac1b0",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installieren Sie das veröffentlichte Custom-Node-Archiv unter ComfyUI/custom_nodes/, legen Sie MiniMaxH3_SemanticBridge_v1.safetensors unter ComfyUI/models/semantic_bridge/ ab, starten Sie ComfyUI neu und beginnen Sie mit dem beigefügten Workflow-Referenzbeispiel.\n\nVerwenden Sie v1 nur mit der standardmäßigen MiniMax-H3-Route FL2VA/textkonditioniert. Setzen Sie es nicht in Ref2VA oder einen anderen referenzkonditionierten Workflow ein.\n\nBeginnen Sie mit Alpha 0.10 und Magnitude-Matching pro Token. Vergleichen Sie die native H3-Ausgabe mit der Bridge-aktivierten Ausgabe bei gleichem Prompt, Seed und gleichen Generierungseinstellungen; betrachten Sie die veröffentlichten Vergleiche bei Alpha 0.15 als Beispiele und nicht als universelle Voreinstellung.\n\nHalten Sie die Kosinus-Messungen des Autors im Repräsentationsraum getrennt von Aussagen zur Videoqualität. Die Veröffentlichung besagt, dass sie die Übereinstimmung mit einer aus einem Lehrermodell abgeleiteten Repräsentation messen, nicht die wahrgenommene Qualität oder eine allgemeine Verbesserung der Prompt-Treue.",
+ "source_sha256": "d88ef43a3ff7c4d5eba401c1499a5700f9d9564896da52feb8aecf668aa5c6d0",
+ "summary": "MiniMax H3 Semantic Bridge stellt einen ComfyUI-Konditionierungsadapter für den standardmäßigen FL2VA-Text-Workflow von MiniMax H3 bereit. Es handelt sich um ein Community-Projekt, keine offizielle Veröffentlichung von MiniMax oder SenseNova; die Ref2VA-Unterstützung wurde nicht veröffentlicht, weil die Tests des Autors Gesang und Lippensynchronität verschlechterten.",
+ "title": "MiniMax H3 Semantic Bridge: Adapter für den FL2VA-Textpfad von H3",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

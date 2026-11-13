@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目于 2026 年初发布，引入了非压缩潜在编码和基于可见性的点云记忆，以解决稀疏视角 3D 重建中的结构模糊问题。",
+ "id": "n-5be6e62e52",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "基于 Wan2.1 I2V 14B 基础模型，据报告，与此前最先进的基线相比，推理速度提升 10-20x。",
+ "source_sha256": "9a1eb4c10bbed39eb75871ebb0eee332bd5d7281491190c233c0c1674f647556",
+ "summary": "AnyRecon 是一个从稀疏且无序的照片集合中进行高质量 3D 物体重建的框架。它利用视频扩散模型和全局场景记忆，在任意视角之间保持几何一致性。",
+ "title": "AnyRecon：基于视频扩散的任意视角 3D 重建",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

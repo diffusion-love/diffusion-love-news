@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Qwen3-TTS marca el paso de los modelos generales de comprensión de audio, como Qwen2-Audio, a una suite de generación dedicada. Incluye variantes de 0.6B y 1.7B, e introduce el Qwen3-TTS-Tokenizer-12Hz para una compresión superior y un mayor rango emocional.",
+ "id": "n-d755c8bc8a",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Publicado bajo licencia Apache 2.0; incluye diseño de voz mediante prompts de texto y una latencia del primer paquete inferior a 100ms para aplicaciones en tiempo real.",
+ "source_sha256": "f555145220b88e1fbe629c297f9c542e39422d1a5c65b081e584dae5fe991dc1",
+ "summary": "Una suite especializada de texto a voz de Alibaba Qwen que admite la clonación de voz de disparo cero a partir de muestras de 3 segundos y el diseño de voz mediante lenguaje natural. Utiliza una arquitectura de streaming híbrida de doble pista para lograr una latencia ultrabaja y una prosodia de alta calidad en 10 idiomas.",
+ "title": "Qwen3-TTS: síntesis de voz avanzada de disparo cero",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "LTX 2.3 生态在 2026 年初走向成熟，发布了用于视频到视频控制的 IC-LoRA 以及用于角色身份保持的 ID-LoRA。社区开发已转向 16-bit HDR 增强器，以支持专业级后期制作。",
+ "id": "n-34034d382e",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "最好与 FP8 量化和 Sage Attention 2.2 配合使用，以管理多 LoRA 推理期间的显存开销。",
+ "source_sha256": "b0d9df680a36537d929259e390e33fb32b2af0b9b9d39c68cef89780f2c186f4",
+ "summary": "一套专门的 LoRA 模型，旨在细化纹理、改善边缘清晰度，并减少 LTX 2.3 视频生成中固有的柔和感。这些增强器可优化基础模型的输出，以获得更高的视觉保真度和专业的调色工作流。",
+ "title": "LTX 2.3 增强器：视觉保真度与清晰度 LoRA",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

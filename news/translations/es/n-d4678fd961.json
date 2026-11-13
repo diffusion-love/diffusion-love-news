@@ -1,0 +1,11 @@
+{
+ "id": "n-d4678fd961",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Identifique el régimen tolerante a la caché en la trayectoria de muestreo del modelo de difusión audiovisual conjunto, que normalmente corresponde a pasos de difusión intermedios.\n\nConfigure el bucle de muestreo para almacenar en caché y reutilizar las salidas del eliminador de ruido de audio, y omitir la atención cruzada entre modalidades durante la fase intermedia, manteniendo la ejecución completa, sin caché, del eliminador de ruido de vídeo.\n\nRestaure la eliminación de ruido conjunta completa de ambas modalidades en los pasos terminales finales para eliminar la deriva entre modalidades y fijar la sincronización audiovisual.\n\nEvite almacenar en caché las salidas del eliminador de ruido de vídeo entre pasos de muestreo intermedios, ya que las representaciones de vídeo carecen de la recuperabilidad asimétrica del audio y sufren un desenfoque temporal irrecuperable y una degradación del movimiento.\n\nAsegure una ventana suficiente de pasos terminales de eliminación de ruido conjunta al final de la trayectoria de muestreo para garantizar la fidelidad del audio y la alineación temporal precisa con la dinámica del vídeo.",
+ "source_sha256": "5895891a9df8d23a437ed507d035e73099c35d4db081ce4b2e6710f2767c36cd",
+ "summary": "El benchmark del preprint 2610.30854 informa de una aceleración de tiempo total de ejecución de 1.10x a 1.35x en benchmarks públicos mediante caché asimétrica por modalidad, manteniendo la fidelidad del audio y la sincronización entre modalidades.",
+ "title": "CAVC demuestra una aceleración de inferencia de 1.10-1.35x en la generación audiovisual",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

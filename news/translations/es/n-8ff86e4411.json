@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Tras aparecer como artículo de investigación a mediados de 2025, el proyecto fue aceptado en 3DV 2026, y en marzo de 2026 se publicaron el código fuente oficial y los pesos preentrenados. Actualmente destaca por ser notablemente más rápido que los métodos estereoscópicos iterativos previos basados en difusión.",
+ "id": "n-8ff86e4411",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Utiliza una predicción feed-forward de un solo paso; admite salidas de alta resolución mediante técnicas de costura espacial y temporal.",
+ "source_sha256": "15577e8128474a86376eb9107919233b060be4a793edd40a7fbee97ef051aa2e",
+ "summary": "M2SVid es un proyecto de Google Research que convierte videos monoculares 2D en 3D estereoscópico. Utiliza un modelo de difusión latente condicional basado en Stable Video Diffusion para generar la vista del ojo derecho que falta, con alta consistencia temporal.",
+ "title": "M2SVid: conversión de video monocular a estéreo",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

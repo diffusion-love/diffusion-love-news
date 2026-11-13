@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "1,040개 작업으로 구성된 Auto-ClawEval 벤치마크를 위한 연구 도구에서, Model Context Protocol(MCP)과 에이전트 디버깅을 위한 즉석 환경 생성을 지원하는 범용 툴킷으로 발전했습니다.",
+ "id": "n-2f8c6f34f0",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "수동 큐레이션과 비교해 비용과 시간을 13,800배 줄이면서도 벤치마크 생성에서 인간 수준의 품질을 달성합니다.",
+ "source_sha256": "d19d80a5bd47d6e38c8360915110cbc309bc7b31741388510a1c34755027503c",
+ "summary": "도구를 사용하는 AI 에이전트를 위한 환경을 생성하고 검증하는 자율 툴킷입니다. 작업 명세, 도구 인터페이스, 연속 채점 구성을 자동으로 생성하여 확장 가능한 벤치마킹을 가능하게 합니다.",
+ "title": "ClawEnvKit: AI 에이전트를 위한 자동 환경 생성",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

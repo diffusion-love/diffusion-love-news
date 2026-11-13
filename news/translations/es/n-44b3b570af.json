@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto fue aceptado en SIGGRAPH 2026, y en mayo de 2026 se publicaron el código fuente oficial, los modelos preentrenados y el conjunto de datos completo MA-Data.",
+ "id": "n-44b3b570af",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Utiliza una arquitectura híbrida BiMamba-Transformer para la estabilidad temporal y maneja síntesis de larga duración (más de 30s) más allá de su ventana de entrenamiento.",
+ "source_sha256": "5be5f3cedf86d51a4c02b5dad4a401a0cbd543c2910a7c76c68148ea92e833cc",
+ "summary": "Un marco para la generación de vídeo de danza impulsada por música que usa un enfoque en cascada de Mixture-of-Experts, separando la síntesis del movimiento del renderizado de la apariencia. Logra resultados de vanguardia en la generación de secuencias largas y admite la edición zero-shot de los movimientos de los personajes.",
+ "title": "MACE-Dance: expertos en cascada de movimiento y apariencia para la generación de danza",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

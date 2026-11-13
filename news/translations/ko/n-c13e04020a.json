@@ -1,0 +1,11 @@
+{
+ "id": "n-c13e04020a",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "공식 Hugging Face 저장소에서 모델 가중치 또는 양자화 변형을 직접 내려받으십시오.\n\n메모리 제약이 있는 소비자 하드웨어를 위해 제공되는 GGUF 파일로 llama.cpp 또는 Ollama를 사용해 로컬에 배포하십시오.\n\n최대 1M 토큰의 장문 컨텍스트 요청을 지원하는 OpenAI 호환 API 엔드포인트를 제공하려면 vLLM 또는 SGLang으로 서빙하십시오.\n\n추론 지연 시간과 토큰 소비를 조절하기 위해 요청마다 thinking budget 파라미터(none, low, high)를 설정하십시오.\n\n에지 하드웨어나 소비자용 GPU에서 실행할 때는 INT4 또는 GGUF 양자화 변형을 사용해 메모리 사용량을 4GB에서 8GB 이내로 유지하십시오.\n\n단순한 대화형 및 추출형 작업에는 'none' thinking budget을 선택해 첫 토큰 출력까지의 시간을 최소화하고, 다단계 논리나 코드 생성에는 'high'로 전환하십시오.\n\n최대 1M 토큰의 긴 컨텍스트를 처리할 때는 KV 캐시 OOM을 방지하기 위해 적절한 호스트 메모리 할당과 함께 vLLM 또는 SGLang 같은 페이지드 어텐션 런타임을 활용하십시오.",
+ "source_sha256": "77f1e3382d39bb0e620a6fcdd97c289d43de78d44d1644af25926b96001c8227",
+ "summary": "Spark-X2.6-4B는 2.5 버전 아키텍처를 유지하면서 학습 후 개선을 거친 오픈 웨이트 4B 파라미터 모델로 공개되었습니다. 세 가지 thinking budget 모드, 최대 1M 토큰의 컨텍스트 처리, 그리고 기본(base), FP8, INT8, INT4, GGUF 양자화 형식을 제공합니다.",
+ "title": "Spark-X2.6-4B, Apache 2.0 라이선스로 공개… 양자화 변형과 설정 가능한 추론 지원",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

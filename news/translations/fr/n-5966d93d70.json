@@ -1,0 +1,11 @@
+{
+ "id": "n-5966d93d70",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Identifiez le régime tolérant au cache dans la trajectoire d'échantillonnage du modèle de diffusion audio-visuel conjoint, correspondant généralement à des pas de diffusion intermédiaires.\n\nConfigurez la boucle d'échantillonnage pour mettre en cache et réutiliser les sorties du débruiteur audio, et contourner l'attention inter-modale pendant la phase intermédiaire, tout en maintenant l'exécution complète non mise en cache du débruiteur vidéo.\n\nRétablissez le débruitage audio-visuel conjoint complet sur les deux modalités pour les étapes terminales finales, afin d'éliminer la dérive inter-modale et de verrouiller la synchronisation audio-vidéo.\n\nÉvitez de mettre en cache les sorties du débruiteur vidéo entre les pas d'échantillonnage intermédiaires, car les représentations vidéo ne présentent pas la récupérabilité asymétrique de l'audio et subissent un flou temporel et une dégradation du mouvement irrécupérables.\n\nVeillez à conserver une fenêtre suffisante d'étapes de débruitage conjoint terminales à la fin de la trajectoire d'échantillonnage, pour garantir la fidélité audio et un alignement temporel précis avec la dynamique vidéo.",
+ "source_sha256": "d683c660960255d4e1e9b7cbe06eaba93f387457e92c51969067fc5daec53cd7",
+ "summary": "La prépublication 2610.30854 présente CAVC, un cadre de mise en cache sans entraînement pour la génération audio-visuelle par diffusion, qui met en cache les étapes intermédiaires de débruitage audio tout en poursuivant l'affinement vidéo, et se termine par des étapes conjointes terminales.",
+ "title": "CAVC : cadre de mise en cache à asymétrie modale introduit pour la diffusion audio-visuelle",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

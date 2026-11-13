@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Nach der Veröffentlichung als reines vortrainiertes Basismodell im April 2026 konzentriert sich das Projekt auf Optimierungen nach dem Training, darunter DPO/RLHF und von der Community getragene Quantisierungen, damit die 17B Parameter auf Consumer-GPUs passen.",
+ "id": "n-af83147e90",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Unter der Apache-2.0-Lizenz quelloffen; enthält technische Neuerungen wie Text KV Caching und entkoppeltes Routing, die das MoE-Training stabilisieren.",
+ "source_sha256": "dbad89205aa82027e7cff5a039b34176af557dae4d81314acd03f1b3ca2e2a85",
+ "summary": "Der erste hochwertige Sparse-Mixture-of-Experts-(MoE-)Diffusion-Transformer für die Bildgenerierung. Er nutzt insgesamt 17B Parameter, von denen pro Vorwärtsdurchlauf nur etwa 2B aktiv sind. Er erreicht hohe Effizienz und erzielt beim räumlichen Layout und bei der Prompt-Treue Werte, die dichte Modelle wie FLUX.1 und SD3.5 erreichen oder übertreffen.",
+ "title": "Nucleus-Image: Sparse-MoE-Diffusion-Transformer",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

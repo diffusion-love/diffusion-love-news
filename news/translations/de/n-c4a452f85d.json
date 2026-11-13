@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Den Höhepunkt des Projekts bildete die Veröffentlichung von „Interpretations“, eines 24-Track-Albums, das vollständig über Python-Skripte gerendert wurde. Inzwischen unterstützt das Projekt komplexe mikrotonale Stimmungssysteme und algorithmische Generierung in Echtzeit.",
+ "id": "n-c4a452f85d",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Zeigt den Karplus-Strong-Algorithmus zur Synthese gezupfter Saiten, und zwar nur mit NumPy und Standardbibliotheken von Python.",
+ "source_sha256": "69b449eb607f6bef39109acf6df4e27a60220e4223818be55467f3b59e11ba17",
+ "summary": "Ein Framework von Kenneth Reitz, das NumPy-Arrays als Audiopuffer für die mathematische Musiksynthese behandelt. Es ermöglicht rein codebasierte Komposition und physikalische Modellierung von Instrumenten ohne den Einsatz von Audiosamples.",
+ "title": "NumPy als Synthesizer-Engine (PyTheory)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

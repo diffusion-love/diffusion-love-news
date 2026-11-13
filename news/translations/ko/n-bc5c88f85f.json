@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 4월 V3의 후속작으로 출시되었으며, Manifold-Constrained Hyper-Connections(mHC)와 FP4 양자화 인식 학습을 도입했습니다. DeepSeek 시리즈의 최신 플래그십 진화형입니다.",
+ "id": "n-bc5c88f85f",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "자율 코딩과 복잡한 에이전트 워크플로에 최적화되어 있으며, 이전 세대에 비해 KV 캐시를 10%만 사용합니다.",
+ "source_sha256": "9811061d275b49d9c8326f187b09e67242bc3be7598c4dc015cc607641e44151",
+ "summary": "DeepSeek-V4-Pro는 고성능 추론과 에이전트 작업을 위해 2026년 4월 출시된 1.6조 파라미터 Mixture-of-Experts(MoE) 모델입니다. 네이티브 1M 토큰 컨텍스트 윈도우와 Hybrid Attention을 통한 뛰어난 아키텍처 효율성을 특징으로 합니다.",
+ "title": "DeepSeek-V4-Pro 플래그십 조 단위 MoE 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

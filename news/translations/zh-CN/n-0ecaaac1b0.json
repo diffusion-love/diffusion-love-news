@@ -1,0 +1,11 @@
+{
+ "id": "n-0ecaaac1b0",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "将发布的自定义节点压缩包安装到 ComfyUI/custom_nodes/ 下，将 MiniMaxH3_SemanticBridge_v1.safetensors 放入 ComfyUI/models/semantic_bridge/，重启 ComfyUI，然后从提供的工作流参考开始。\n\n仅在标准 MiniMax H3 FL2VA/text 条件路径中使用 v1。请勿将其用于 Ref2VA 或其他参考条件工作流。\n\n从 alpha 0.10 开始，并使用逐词元幅值匹配。使用相同的提示词、种子和生成设置，比较原生 H3 与启用桥接后的输出；将作者发布的 alpha 0.15 比较结果视为示例，而非通用预设。\n\n请将作者的表示空间余弦测量结果与视频质量结论分开看待。发布说明称，这些测量衡量的是与教师派生表示的一致性，而非感知质量或普遍的提示词遵循度提升。",
+ "source_sha256": "d88ef43a3ff7c4d5eba401c1499a5700f9d9564896da52feb8aecf668aa5c6d0",
+ "summary": "MiniMax H3 Semantic Bridge 为 MiniMax H3 的标准 FL2VA 文本条件工作流提供 ComfyUI 条件适配器。它是社区项目，并非 MiniMax 或 SenseNova 的官方发布；由于作者测试中歌唱和口型同步效果下降，Ref2VA 支持未随之发布。",
+ "title": "MiniMax H3 Semantic Bridge：为 H3 的 FL2VA 文本路径添加适配器",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet a abouti à la sortie de « Interpretations », un album de 24 pistes entièrement rendu par des scripts Python. Il s'est depuis étendu à la prise en charge de systèmes d'accordage microtonaux complexes et à la génération algorithmique en temps réel.",
+ "id": "n-c4a452f85d",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Démontre l'algorithme de Karplus-Strong pour la synthèse de cordes pincées, en n'utilisant que NumPy et des bibliothèques Python standard.",
+ "source_sha256": "69b449eb607f6bef39109acf6df4e27a60220e4223818be55467f3b59e11ba17",
+ "summary": "Un framework créé par Kenneth Reitz qui traite les tableaux NumPy comme des tampons audio pour la synthèse musicale mathématique. Il permet la composition entièrement par code et la modélisation physique d'instruments, sans recourir à aucun échantillon audio.",
+ "title": "NumPy comme moteur de synthèse (PyTheory)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

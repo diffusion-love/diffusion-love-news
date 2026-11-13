@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이 프로젝트는 초기 연구에서 CVPR 2026 포스터 발표로 전환되었으며, 최근 추론 코드와 인터랙티브 데모가 공개되었습니다. 기존의 최적화 기반 최첨단 방법보다 15배 빠른 처리를 제공합니다.",
+ "id": "n-155ef8c3dc",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "CMU가 개발했습니다. 선택적 RGB-D, IMU, Radar Doppler 입력을 지원하여 재구성 품질을 크게 향상시킵니다.",
+ "source_sha256": "c3b9a2b1f78ddc8b3237bdd101ab427467bcad67f5bfef09b36b815c2b2ec335",
+ "summary": "Any4D는 빠른 피드포워드 Transformer 아키텍처를 사용해 단안 또는 다중 모달 비디오로부터 밀집되고 미터 스케일인 4D 재구성을 수행하는 프레임워크입니다. 장면을 자기중심(egocentric) 및 외부 중심(allocentric) 구성 요소로 분해하여 높은 정확도와 실시간 가능성을 달성합니다.",
+ "title": "Any4D: 통합 피드포워드 미터 스케일 4D 재구성",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

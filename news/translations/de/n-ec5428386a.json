@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Produkt bleibt das Flaggschiff-Designwerkzeug der Suite von Anthropic Labs und hat kürzlich eine tiefe Integration mit automatisierten Coding-Workflows über GitHub-Webhooks erhalten. Es gehört zur breiteren Claude-4-Serie, die auf eine adaptive Thinking-Architektur umgestellt wurde.",
+ "id": "n-ec5428386a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Bietet Bildverarbeitung mit 3.75 Megapixeln und erreichte 87.6% auf SWE-bench Verified.",
+ "source_sha256": "a1305509c3f0b222538af09c4dd7b9d6b849f437ff9d6db2526e67d1ccf5d39c",
+ "summary": "Spezialisierte Oberfläche zur Erstellung hochwertiger UI/UX-Prototypen und professioneller Präsentationslayouts mit dem Modell Claude Opus 4.7. Sie unterstützt hochauflösende Bildanalyse und adaptives Reasoning, um eine pixelgenaue Umsetzung des Designs zu gewährleisten.",
+ "title": "Claude Design: Prototypen- und UI-Generierung mit Opus 4.7",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

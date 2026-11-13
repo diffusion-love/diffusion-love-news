@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "La versión 2.6 introduce la supresión contextual de la redundancia de procesos para agilizar el razonamiento de cadena de pensamiento (Chain-of-Thought). Sucede a la serie Ring-2.5, con una mayor eficiencia en la generación de tokens y menores requisitos de VRAM.",
+ "id": "n-58129455d1",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Publicado por InclusionAI (Ant Group); disponible gratis en OpenRouter e integrado con Kilo Code.",
+ "source_sha256": "fcaff7d4a5c1b365d57f1e5d8af39adc6fbcf1fb38dcefdc52f2223a523061a8",
+ "summary": "Un modelo masivo de tipo Mixture-of-Experts de 1 billón de parámetros, optimizado para el razonamiento complejo y los flujos de trabajo agénticos. Admite una ventana de contexto de 262K tokens y está ajustado específicamente para programación y uso de herramientas.",
+ "title": "Ring-2.6-1T: modelo MoE agéntico de alto rendimiento",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

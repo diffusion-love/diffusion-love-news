@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이 프로젝트는 ComfyUI의 'spaghetti' 워크플로를 없애기 위해 복잡한 6노드 워크플로에서 단일 노드 솔루션으로 발전했습니다. 최근 업데이트에서는 Deep Histogram 색상 매칭을 통합했고, ComfyUI Manager를 통한 FLUX.1 모델 호환성을 개선했습니다.",
+ "id": "n-1b11977658",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "일상적인 1.5x–4.0x 이미지 향상 작업에서 Ultimate SD Upscale보다 빠르고 사용하기 쉬운 대안으로 평가됩니다.",
+ "source_sha256": "2b8adc161436bd014bbb7b789d21c05970f84dba1d457bcde2de587610165dc4",
+ "summary": "여러 업스케일링 단계를 하나의 인터페이스로 통합하여 고해상도 fix 과정을 간소화하는 ComfyUI용 종합 커스텀 노드입니다. 잠재 공간 업스케일 중 OOM 오류와 채도 저하를 막기 위해 타일 기반 VAE 처리와 색상 보정을 내장하고 있습니다.",
+ "title": "ComfyUI Hires Fix Ultra All-in-One 노드",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

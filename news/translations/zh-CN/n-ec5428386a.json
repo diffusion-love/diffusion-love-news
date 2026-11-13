@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该产品仍是Anthropic Labs套件中的旗舰设计工具，近期通过GitHub webhooks与自动化编码工作流深度集成。它属于更广泛的Claude 4系列，该系列已转向自适应思考架构。",
+ "id": "n-ec5428386a",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "支持3.75兆像素的视觉输入，在SWE-bench Verified上取得87.6%。",
+ "source_sha256": "a1305509c3f0b222538af09c4dd7b9d6b849f437ff9d6db2526e67d1ccf5d39c",
+ "summary": "基于Claude Opus 4.7模型，生成高保真UI/UX原型和专业演示布局的专用界面。它支持高分辨率图像分析和自适应推理，以确保像素级精确的设计实现。",
+ "title": "Claude Design：基于Opus 4.7的原型与UI生成",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

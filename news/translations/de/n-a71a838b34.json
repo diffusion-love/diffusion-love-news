@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Nach dem Start wurde das Modell in die Sammlung „Top Image Classification Models“ von LH-Tech-AI aufgenommen. Die Entwickler haben eine v2 mit vortrainierten Backbones angekündigt, um die Genauigkeit bei speziellen Grenzfällen wie Dokument- und medizinischen Bildern zu verbessern.",
+ "id": "n-a71a838b34",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Verarbeitet nur Drehungen in 90-Grad-Schritten (0°, 90°, 180°, 270°). Da es ein reiner Klassifikator ist, arbeitet es bei Dienstprogrammen mit hohem Volumen deutlich schneller als Bild-zu-Bild-Modelle.",
+ "source_sha256": "a4096afe1dc5ef56e281ca0079c99c25a54233496a0535349901eb5075122535",
+ "summary": "Ein schlankes, quelloffenes Bildklassifikationsmodell zur Erkennung der Ausrichtung und zur automatischen Korrektur der Drehung. Es ist auf Geschwindigkeit und den Einsatz am Edge optimiert, hat 11,2 Millionen Parameter und ermöglicht eine effiziente Stapelverarbeitung von Fotobibliotheken.",
+ "title": "GyroScope: Erkennung und Korrektur der Bildausrichtung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

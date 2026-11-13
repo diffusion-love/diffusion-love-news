@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Nach dem Forschungsdebüt wurde INSID3 für einen Oral-Vortrag auf der CVPR 2026 ausgewählt und mit vollständigem Code und interaktiven Demos veröffentlicht. Seitdem gilt es als Benchmark für trainingsfreie Segmentierungs-Frameworks mit einem einzigen Backbone.",
+ "id": "n-a8a043a8fd",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Zeigt eine 3.4x schnellere Inferenz als mehrstufige Pipelines und übertrifft modernste Methoden um +7,5% mIoU.",
+ "source_sha256": "c59c96f0e9228e9ec00ad772feaaaa6e21866b637b3beb3188bf38e1f92fdc5f",
+ "summary": "INSID3 ist ein trainingsfreies Framework für leistungsstarke Objektsegmentierung, das die emergenten Eigenschaften des Vision-Foundation-Modells DINOv3 von Meta nutzt. Es identifiziert Objektregionen durch agglomeratives Clustering dichter Merkmale und entfernt Positionsverzerrungen durch eine einfache orthogonale Projektion.",
+ "title": "INSID3: schnelle In-Context-Segmentierung mit DINOv3",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

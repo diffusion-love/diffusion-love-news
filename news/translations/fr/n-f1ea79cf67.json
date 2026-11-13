@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Lancé en avril 2026 sous forme de modèle de 100M de paramètres ; a ensuite reçu des optimisations ONNX pour les performances CPU et la prise en charge de MLX pour Apple Silicon. MOSS-TTS 2.0 a été annoncé en mai 2026 pour intégrer les retours de la communauté.",
+ "id": "n-f1ea79cf67",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Comprend des intégrations de lecture locale axées sur le navigateur et des versions ONNX spécialisées qui suppriment la dépendance à PyTorch pour l'inférence.",
+ "source_sha256": "f6bd44900a220ca3ee021cf0c9e445db037e104b06dae5e7486e17f1e3ba71ce",
+ "summary": "Un modèle open source de synthèse vocale multilingue, conçu pour un déploiement temps réel très efficace sur des CPU grand public. Il propose le clonage vocal zero-shot et prend en charge une sortie stéréo 48kHz de haute qualité.",
+ "title": "MOSS-TTS-Nano",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

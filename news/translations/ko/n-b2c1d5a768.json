@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "FLUX.2 [dev]의 2025년 말 플래그십 출시에 이어, 2026년 4월 FLUX.2 생태계의 핵심 효율성 업데이트로 공개되었습니다. 현재는 소비자급 추론 파이프라인의 표준으로 자리 잡았습니다.",
+ "id": "n-b2c1d5a768",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Apache 2.0 라이선스로 배포되며, 표준 FLUX.2 디코더와 비교해 디코딩이 약 1.4배 빠르고 파라미터 수는 44% 적습니다.",
+ "source_sha256": "d52e46c8ee2db2b8113b4ccc443e2a4e7f397a64e199f14aad6abed91115684a",
+ "summary": "FLUX.2 모델 계열의 추론 성능을 최적화하도록 설계된 증류형 Variational Autoencoder(VAE) 디코더입니다. 시각적 품질 손실을 최소화하면서 VRAM 사용량을 크게 줄이고 디코딩 속도를 높입니다.",
+ "title": "FLUX.2 소형 디코더 (증류된 VAE)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Pasó de las guitarras acústicas inteligentes a una plataforma digital completamente sin cuerdas con el lanzamiento de Genie a finales de 2024. El ecosistema gira ahora en torno a las capacidades de decodificación de canciones con IA de la aplicación LAVA+ y a la ampliación modular de hardware.",
+ "id": "n-ea4c5d4dff",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Cuenta con un diseño plegable exclusivo y un sistema de subwoofer integrado de 32W; las funciones avanzadas de IA requieren una suscripción a LAVA+.",
+ "source_sha256": "806c483a5a2a62f28157e9f521a369c18339c831c4cf7d7677aaff82437e162e",
+ "summary": "Un instrumento digital modular y sin cuerdas que combina una interfaz sensible al tacto con herramientas de composición musical basadas en IA. Permite decodificar, transcribir e interpretar canciones mediante modos de acordes simplificados y pistas de acompañamiento de IA en tiempo real.",
+ "title": "LAVA Genie: guitarra inteligente sin cuerdas con IA integrada",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

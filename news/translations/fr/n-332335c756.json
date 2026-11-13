@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet est passé d'un workflow basique à un système robuste à base de nœuds dans la v2.5. Les mises à jour majeures incluent le bouclage fluide, une utilisation de la RAM optimisée grâce au Meta Batching et l'atténuation des décalages de couleur en 16 bits.",
+ "id": "n-332335c756",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Nécessite le paquet de nœuds personnalisés compagnon 'ComfyUI-Wan-VACE-Prep' pour activer les dernières fonctionnalités de batch de la v2.5.",
+ "source_sha256": "855fb2042249eef2ce088d4e29a704a05c1c39177890193c196ed81b44086982",
+ "summary": "Un utilitaire ComfyUI spécialisé pour créer des transitions fluides entre des clips vidéo à l'aide des modèles Wan VACE. Il fournit des outils automatisés de correspondance colorimétrique, de fondu enchaîné et de traitement par lots pour maintenir la cohérence visuelle.",
+ "title": "ComfyUI Wan VACE Video Joiner pour des transitions sans couture",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

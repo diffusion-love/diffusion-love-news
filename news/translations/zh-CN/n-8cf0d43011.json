@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "FastGHA 代表了从缓慢的特定主体优化向通用的前馈式 3DGS 重建的转变。它承接了早期的 Avat3r（2025），现已与 Disney 的新项目 RelightAnyone 和 CANRIG 整合，以实现高级环境光照和绑定。",
+ "id": "n-8cf0d43011",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "已在 ICLR 2026 正式发表。利用 DINOv3 和 Stable Diffusion VAE 特征，以增强结构和纹理保真度。",
+ "source_sha256": "64eec020fa6cb02d9ba5a5a7b4fa84f3e58f118b9d46c291aacb304baa7f5c08",
+ "summary": "FastGHA 是一种前馈方法，可在不到一秒内从稀疏图像重建高保真 3D 头部虚拟形象。它利用基于 Transformer 的特征融合和预训练先验，为未见过的身份实现实时动画和精确的表情控制。",
+ "title": "FastGHA：通用少样本 3D Gaussian 头部虚拟形象",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

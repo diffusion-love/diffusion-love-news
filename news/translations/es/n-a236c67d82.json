@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto evolucionó desde un port solo para CPU hasta un ecosistema maduro con soporte para CUDA, Metal y Vulkan. Las actualizaciones recientes añadieron cuantización GGUF, integración VST3 para DAW y un «Understand Mode» para el análisis de audio a metadatos.",
+ "id": "n-a236c67d82",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Utiliza un pipeline de dos etapas compuesto por ace-lm para la composición y ace-synth para la síntesis basada en difusión.",
+ "source_sha256": "8c6a6bf6c523f512bf0ba740975e0a3eb4530d2423f38756ee4281d53df0b266",
+ "summary": "Una implementación ligera y portátil en C++ del modelo fundacional de música ACE-Step 1.5, construida sobre el backend GGML. Permite generar música estéreo de alta fidelidad a 48kHz, sin dependencias de Python, en CPU y GPU de consumo.",
+ "title": "Port C++ de ACE-Step 1.5 (acestep.cpp)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

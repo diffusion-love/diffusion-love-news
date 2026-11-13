@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto ha evolucionado desde herramientas básicas de proyección hasta un pipeline completo para outpainting consciente de la 3D y síntesis de nuevas vistas. Las actualizaciones recientes incluyen la integración con Depth Anything V3, el soporte de modelos generativos de vídeo como Wan2.1 y LTX-2.3, y una nueva GUI basada en Open3D para grabar trayectorias de cámara interactivas.",
+ "id": "n-3354f12396",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Las dependencias clave son Open3D y FFmpeg; la herramienta está especialmente optimizada para el outpainting iterativo hacia entornos VR de esfera completa.",
+ "source_sha256": "125ef044abdbad7bba7aa4957f7c13f2641c381446682bb1ce64b9e2b26c8d65",
+ "summary": "Una suite especializada de nodos personalizados para ComfyUI que permite transformaciones de imagen avanzadas conscientes de la 3D y la creación de contenido VR mediante pipelines de profundidad a nube de puntos. Facilita la reproyección fluida entre modelos de cámara pinhole, fisheye y equirectangular para flujos complejos de síntesis de vídeo.",
+ "title": "camera-comfyUI: nodos de proyección de cámara 3D para ComfyUI",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

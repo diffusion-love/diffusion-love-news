@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Veröffentlicht am 2. April 2026 mit dem Wechsel zur Apache-2.0-Lizenz. Im Mai 2026 hat Google Multi-Token-Prediction-(MTP-)Drafter-Modelle für alle Größen ergänzt, die eine dreimal schnellere Inferenz erreichen. Die Familie ist inzwischen nativ in Android AICore für datenschutzorientierte Funktionen auf Systemebene integriert.",
+ "id": "n-c7bfff5d31",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Führt den Modus „Thinking“ für internes Chain-of-Thought ein sowie die native Unterstützung für Text-, Bild-, Video- und Audioeingaben bei allen Modellgrößen.",
+ "source_sha256": "00f08241f46f5db9ca30412b80ece104359f9a50047404d43720111128e403c0",
+ "summary": "Gemma 4 ist eine Serie nativ multimodaler offener Modelle mit 2B bis 31B Parametern, optimiert für die Ausführung auf dem Gerät und für agentische Workflows mit hohem Durchsatz. Sie verfügt über einen zuschaltbaren Denkmodus für komplexes Schlussfolgern und wird unter der vollständig offenen Apache-2.0-Lizenz veröffentlicht.",
+ "title": "Gemma 4: multimodale offene Modellfamilie von Google",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

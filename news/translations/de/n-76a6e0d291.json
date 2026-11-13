@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Von einfacher Erkennung der Konditionierung entwickelte sich das Projekt zu einem ausgereiften „Identity Lock“-System mit den Treuemodi Soft, Medium und Hard. Neuere Updates führten Mask Ref Control für räumliche Identitätsführung und Modell-Hook-Tracing ohne zusätzliche Abhängigkeiten ein.",
+ "id": "n-76a6e0d291",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Entwickelt von capitan01R; umgeht die Einschränkungen des auf Qwen3 basierenden Text-Encoders, indem aktive Token isoliert und interne Modellblöcke direkt angesprochen werden.",
+ "source_sha256": "165414c8439225bc6c2f1cf893803888ce19a72e39396fa129e9fa3238de7570",
+ "summary": "Eine ComfyUI-Node-Suite zur Erhaltung der Figurenidentität in FLUX.2-Klein-Modellen ohne LoRA-Training. Sie nutzt Modell-Hook-Tracing und Identitätsführung, um Referenzmerkmale direkt in die Dual-Stream-Architektur des Modells einzuspeisen.",
+ "title": "ComfyUI-Flux2Klein-Enhancer: Nodes zur Gesichtserhaltung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

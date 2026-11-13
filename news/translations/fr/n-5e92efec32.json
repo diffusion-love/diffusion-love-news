@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Fait suite à ERNIE 5.0 et passe d'une échelle paramétrique massive (2.4T) à une architecture plus efficace de 800B via le cadre Once-For-All. Il comprend un nouveau pipeline d'apprentissage par renforcement asynchrone et un post-entraînement en quatre étapes amélioré.",
+ "id": "n-5e92efec32",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Classé 4e mondial sur Arena Search et 1er parmi les modèles chinois. Conçu pour optimiser les performances sous contraintes matérielles et restrictions américaines à l'exportation de puces.",
+ "source_sha256": "ee312f0c40024353fc8eddd2cf4a9823916d078ce566929f35679b0037eca625",
+ "summary": "Modèle phare le plus récent de Baidu, publié en mai 2026, axé sur une grande efficacité paramétrique et le raisonnement agentique. Il est actuellement le modèle chinois le mieux classé au niveau mondial, atteignant des performances de pointe avec des coûts d'entraînement nettement inférieurs.",
+ "title": "Baidu ERNIE 5.1 : grand modèle de langage",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

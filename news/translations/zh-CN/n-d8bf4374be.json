@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "从视频生成演进为“物理智能”引擎；Odyssey-2 Max 相比 Odyssey-2 Pro 将参数规模扩大了 3 倍，并采用 NVIDIA Blackwell GPU。目前仅面向机器人和国防合作伙伴开放私有测试版。",
+ "id": "n-d8bf4374be",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "采用自回归扩散 Transformer（AR DiT）架构；在 VBench 2 物理准确性评测中取得了最先进的分数。",
+ "source_sha256": "1ac157693e6d1cada49c89c249760aaf1ab6092fcc4692b2267d8b03b3fca3e6",
+ "summary": "Odyssey-2 Max 是一款大规模生成式世界模型，利用自回归扩散实时模拟物理现实。它支持 3D 环境的交互式流式传输，并具有较高的物理准确性，适用于机器人、游戏和仿真。",
+ "title": "Odyssey-2 Max：实时生成式世界模拟器",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

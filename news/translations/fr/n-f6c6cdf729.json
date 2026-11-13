@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet est passé de simples nœuds de projection à une suite complète d'édition de scènes 3D. Les mises à jour majeures ont introduit un visualiseur interactif Three.js, un mannequin IK orientable (Character Placer) pour des squelettes compatibles ControlNet, et l'intégration avec des modèles vidéo comme Wan2.1 pour l'animation de trajectoires de caméra.",
+ "id": "n-f6c6cdf729",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Prend en charge spécifiquement les panoramas équirectangulaires à 360° et les nœuds « Stamping » pour préserver la cohérence de l'environnement lors d'inpainting itératif.",
+ "source_sha256": "09ef9b5a0d739b2e342da08430bd6eccf0649ae187d6819c6417af20cf3beb56",
+ "summary": "Une extension ComfyUI pour le mouvement de caméra à 6 degrés de liberté (6 DoF) et le placement de personnages dans des scènes reconstruites en 3D. Elle permet une synthèse de vues et une insertion de personnages précises en combinant une reprojection tenant compte de la profondeur avec une mise en scène interactive basée sur Three.js.",
+ "title": "ComfyUI 6DOF Camera : manipulation de scène 3D et mise en scène de personnages",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该模型标志着 Blackwell GPU 上原生 NVFP4 硬件加速的落地，使 GPT-4 级别的推理能够在本地运行。它通过专用的草稿模型支持推测解码，吞吐量提升达 4x。",
+ "id": "n-5ac53c2267",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "原生支持需要 NVIDIA Blackwell（RTX 5000 系列）Tensor Core 以实现细粒度块缩放；Hopper 等较旧架构需要通过 vLLM 进行软件模拟。",
+ "source_sha256": "1164adf3444e2f960cc75acb56722bc746c35620e94949d7b79fcd14b09ff1cd",
+ "summary": "Google 的 Gemma-4-31B-IT LLM 的官方 4 位浮点（NVFP4）量化版本，由 NVIDIA 针对 Blackwell 架构优化。它在消费级硬件上实现高效率的 256K 上下文处理，同时保持近乎完整的精度。",
+ "title": "NVIDIA Gemma-4-31B-IT NVFP4 量化模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "LTX 2.3 생태계는 2026년 초 비디오-투-비디오 제어를 위한 IC-LoRA와 캐릭터 정체성 유지를 위한 ID-LoRA의 출시로 성숙했습니다. 커뮤니티 개발은 전문가 수준의 후반 작업을 지원하기 위해 16비트 HDR 향상 도구 쪽으로 방향을 전환했습니다.",
+ "id": "n-34034d382e",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "다중 LoRA 추론 중 메모리 오버헤드를 관리하려면 FP8 양자화와 Sage Attention 2.2와 함께 사용하는 것이 가장 좋습니다.",
+ "source_sha256": "b0d9df680a36537d929259e390e33fb32b2af0b9b9d39c68cef89780f2c186f4",
+ "summary": "LTX 2.3 비디오 생성물의 질감을 다듬고, 가장자리 선명도를 개선하며, 고유한 부드러움을 줄이기 위해 설계된 LoRA 모델 전문 스위트입니다. 이러한 향상 도구는 기본 모델의 출력을 더 높은 시각적 충실도와 전문 색보정 워크플로에 맞게 최적화합니다.",
+ "title": "LTX 2.3 향상 LoRA: 시각적 충실도와 선명도",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

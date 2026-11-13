@@ -1,0 +1,10 @@
+{
+ "id": "n-5f58046d55",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "edbdb9c159e7221528c344e09b4bd9e7422b19f221683613f693e104957097f1",
+ "summary": "2026-06-13，Surflo 的项目页面和 GitHub 仓库在 3D 表面重建的讨论串中被提及。这记录了一个带日期的项目入口，但现有证据并未表明该日期发生了发布、版本更新、基准测试或其他项目变化。",
+ "title": "3D 表面重建中提及了 Surflo 项目资源",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

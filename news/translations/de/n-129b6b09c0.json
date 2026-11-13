@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Dieses Modell folgte auf frühere Destillationsexperimente auf Basis von Qwen3.5 und nutzt die neuere MoE-Architektur sowie Multi-Token Prediction (MTP) für höhere Effizienz. Es bleibt Mitte 2026 eine erste Wahl für lokale Schlussfolgerungsaufgaben.",
+ "id": "n-129b6b09c0",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Native Kontextlänge von 262,144 Tokens; kompatibel mit dem aktuellen llama.cpp. Vermeiden Sie den Einsatz mit CUDA 13.2 wegen gemeldeter Ausgabefehler.",
+ "source_sha256": "b9fcc817d0b515e10a1550ce61ae9494a09e8af93289383cf0da00e78f3405b0",
+ "summary": "Ein LLM mit 35B Parametern und Mixture-of-Experts-Architektur auf Basis der Qwen3.6-Architektur, feinabgestimmt mit aus Claude 4.6 Opus destillierten Schlussfolgerungsspuren. Es ist für agentisches Programmieren und komplexe Problemlösung optimiert und hält dabei hohe Inferenzgeschwindigkeiten auf Consumer-Hardware.",
+ "title": "Qwen3.6-35B, destilliert mit Schlussfolgerungen aus Claude 4.6 Opus",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

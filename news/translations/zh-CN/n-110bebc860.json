@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "在 2.0 版本发布之后，该引擎新增了用于沉浸式 WebXR 支持的 SparkXr，以及面向动画 splat 的实验性线性混合蒙皮。它已从简单的渲染器发展为面向复合 3D 世界的完整流式传输平台。",
+ "id": "n-110bebc860",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "引入了自定义 .RAD 文件格式，支持 HTTP Range 请求以实现渐进式加载，并提供基于 Rust 的 LoD 构建器，用于处理数十亿个 splat。",
+ "source_sha256": "120c6fa8d811db4544383d46cfa5dcb91084b7a59fdf441cdbda9b970848451d",
+ "summary": "Spark 2.0 是由 World Labs 开发的高性能网页渲染引擎，面向海量 3D 高斯泼溅（Gaussian Splatting）场景。它实现了分层细节层次（LoD）和可流式传输的 .RAD 格式，从而实时呈现包含数十亿个 splat 的环境。",
+ "title": "Spark 2.0：面向大规模场景的网页端高斯泼溅引擎",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

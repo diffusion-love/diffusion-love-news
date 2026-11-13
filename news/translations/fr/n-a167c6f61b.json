@@ -1,0 +1,11 @@
+{
+ "id": "n-a167c6f61b",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installez l'application à partir de la distribution officielle de la version ou clonez le dépôt dans l'environnement Python local.\n\nPlacez les checkpoints de modèles, les encodeurs de texte et les poids VAE requis dans leurs sous-dossiers correspondants du dossier models.\n\nLancez le serveur backend à l'aide du script d'exécution principal pour ouvrir l'interface de canevas web.\n\nConstruisez un graphe orienté acyclique reliant les nœuds de chargement de modèle, de conditionnement du prompt, d'échantillonnage latent et de décodage VAE, puis mettez le prompt en file d'attente.\n\nSuivez les mises à jour ponctuelles progressives issues du flux de versions taguées sur GitHub et appliquez-les.\n\nRegroupez les blocs fonctionnels liés dans des boîtes de groupe visuelles dotées d'étiquettes explicites, et utilisez des nœuds de reroutage pour éviter des lignes de connexion emmêlées dans les grands graphes.\n\nRéutilisez les sorties des modèles et du VAE déjà chargés dans les branches de conditionnement en aval, plutôt que d'instancier des nœuds de chargement dupliqués dans la mémoire GPU.\n\nVérifiez le flux d'exécution sur un graphe de référence minimal avant d'ajouter des extensions de nœuds personnalisés tiers complexes.\n\nConsultez les tags de version officiels et les changelogs avant de mettre à jour les environnements d'exécution de production, afin d'éviter les ruptures de schéma ou de nœuds personnalisés.",
+ "source_sha256": "4e7d87ecb1e5e2453dc1e51f30aad3041c7a0fb1e33b22d6e96d984f9ad28d6c",
+ "summary": "Comfy-Org a publié la version v0.42.5 sur GitHub, apportant des corrections de cœur et une maintenance courante des nœuds dans la branche de version v0.42.",
+ "title": "ComfyUI v0.42.5 : correctif de maintenance publié",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

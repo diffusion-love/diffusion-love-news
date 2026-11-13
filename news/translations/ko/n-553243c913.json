@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "원래 3D Clifford rotor를 기반으로 했으나, 프로젝트는 IsoQuant(4D)와 고도로 최적화된 PlanarQuant(2D) 변형으로 확장되었습니다. 현재는 융합 CUDA 및 Metal 커널을 포함하며, llama.cpp에 드롭인 3비트 캐시 압축 솔루션으로 통합되었습니다.",
+ "id": "n-553243c913",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "파라미터 44배 감소와 최대 5배 빠른 prefill 속도로 Google의 TurboQuant를 능가하면서도 더 높은 출력 품질을 유지합니다.",
+ "source_sha256": "0bb0f438f30434afaa5a6a697fcda39c146eb94526b8edb94063090ccdaf3dc3",
+ "summary": "Clifford 대수 rotor를 사용하여 LLM을 위한 고효율 KV 캐시 압축을 제공하는 오픈소스 프로젝트입니다. 밀집 직교 변환 방법보다 계산 오버헤드가 훨씬 낮고 perplexity가 더 좋으면서, 극단적인 4비트 미만 양자화를 달성합니다.",
+ "title": "RotorQuant: 블록 대각 Clifford Rotor KV 캐시 압축",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

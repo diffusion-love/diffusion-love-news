@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Anfang 2026 als cloudbasierte Sandbox gestartet, wurde es im April 2026 zu einer nativen macOS-App. Zunächst exklusiv dem Max-Tarif für $200/month vorbehalten, wurde es im Mai 2026 auf alle Pro- und Enterprise-Abonnenten ausgeweitet, wodurch die alte Perplexity-Mac-App abgekündigt wurde.",
+ "id": "n-a56b9d31b6",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Bietet einen universellen Kurzbefehl „Doppel-Command“ und eine tiefe Integration mit dem Browser Comet für die visuelle Interaktion mit Web-Werkzeugen ohne APIs.",
+ "source_sha256": "65b91993bbc00ea414f075e633c488475fc6af1dee6a970109581a4f0a675717",
+ "summary": "Ein autonomer KI-Agent für macOS, der sich mit dem lokalen Dateisystem und nativen Anwendungen verbindet, um mehrstufige Workflows auszuführen. Als persönlicher Orchestrator erledigt er Aufgaben wie Dateiorganisation und das Entwerfen von E-Mails durch probabilistische Zielerreichung.",
+ "title": "Perplexity Personal Computer für Mac",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

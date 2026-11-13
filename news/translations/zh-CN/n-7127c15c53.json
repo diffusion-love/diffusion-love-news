@@ -1,0 +1,11 @@
+{
+ "id": "n-7127c15c53",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "MiniMax 推出了 H3，支持多模态上下文和原生立体视频，视频最高可达 2K/15 秒；权重承诺将在后续版本中发布。",
+ "source_sha256": "fe0d0f98da0c015cbedfd852874a6d10d6153e844864f7f7e32952bf3852db06",
+ "summary": "2026-07-31，MiniMax 发布了一篇与 MiniMax H3 相关的官方博客文章。该带日期的链接确立了一次公开的项目沟通，但已封存的证据未能确定其中描述的具体产品变更、能力或可用性。",
+ "title": "MiniMax 发布 MiniMax H3 官方博客文章",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

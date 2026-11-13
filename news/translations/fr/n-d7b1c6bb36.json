@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Successeur majeur de VoxCPM 1.5, il s'appuie désormais sur un pipeline à représentation continue qui produit un audio 48kHz de qualité studio. Il a introduit la « Voice Design » pour créer des voix à partir de descriptions textuelles et a nettement amélioré les scores de similarité des locuteurs par rapport à des concurrents commerciaux.",
+ "id": "n-d7b1c6bb36",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Publié sous licence Apache-2.0 ; prend en charge 30 langues et 9 dialectes chinois, avec des performances temps réel sur les GPU grand public.",
+ "source_sha256": "f15b46ab7f6164d2e39a7cd299037dbc206725dcb3a5310a19427cc9b1290b9d",
+ "summary": "Un modèle open source de synthèse vocale de 2 milliards de paramètres, reposant sur une architecture autorégressive de diffusion sans tokenizer. Il permet le clonage vocal zero-shot haute fidélité, le contrôle stylistique par texte et la génération de nouvelles voix à partir de descriptions en langage naturel.",
+ "title": "VoxCPM2 — TTS multilingue de 2B sans tokenizer et clonage vocal",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

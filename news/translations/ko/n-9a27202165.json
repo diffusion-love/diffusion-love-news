@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "도시 설정 샷에 최적화된 v0.1 개념 증명으로 출시되었으며, 더 다양한 학습 데이터셋을 갖춘 후속 버전이 현재 개발 중입니다.",
+ "id": "n-9a27202165",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "360도 재생 호환성을 위해 ComfyUI-EquirectProjector 노드 팩과 최종 비디오 메타데이터 주입이 필요합니다.",
+ "source_sha256": "816b7510289062bc3b8243bd566e738fe314fd6e9eee20602c7b2ae5d2f1be9f",
+ "summary": "Lightricks LTX-2.3 모델을 위한 전용 이미지 조건부 LoRA로, 표준 와이드스크린 영상을 360도 등장방형 파노라마로 확장합니다. 맞춤형 ComfyUI 투영 워크플로를 사용하여 몰입형 VR 시청을 위해 누락된 환경을 아웃페인팅합니다.",
+ "title": "360 영상을 위한 VR-360-Outpaint LTX-2.3 IC-LoRA",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Von ICASSP 2026 angenommen und im April 2026 öffentlich veröffentlicht, zeigt TinyMU, dass hochwertige Supervision und spezialisierte Encoder massive Parameterzahlen ersetzen können. Die Forschung entwickelte sich im weiteren Verlauf 2026 zu feingranularem Pre-Training mit FineLAP und MeanAudio weiter.",
+ "id": "n-bec376434e",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Trainiert auf dem Datensatz MusicSkills-3.5M; übertrifft größere Vorgänger wie MusiLingo und Audio-Flamingo bei Benchmarks zum Musikverständnis.",
+ "source_sha256": "1c19f65994bf545625c3383173a7c6a9cd55135e64252302a1a7e6a883dae6e1",
+ "summary": "TinyMU ist ein effizientes Modell mit 229M Parametern für tiefes Musikverständnis. Es erreicht 82% der SOTA-Leistung und ist dabei 35x kleiner als große Hauptmodelle. Es nutzt den Audio-Encoder MATPAC++ und den Datensatz MusicSkills-3.5M, um feingranulares musikalisches Schlussfolgern zu ermöglichen.",
+ "title": "TinyMU: kompaktes Audio-Sprachmodell für Musikverständnis",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

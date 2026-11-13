@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 Stage 1(96K 비디오)에서 Stage 3(390K 비디오)로 발전했으며, 복잡한 다중 객체 상호작용을 위한 'Hard Reasoning'을 도입했습니다. 향후 업데이트는 거의 완벽한 물리 정확도를 위해 100만 개 비디오로 이루어진 전체 VBVR 데이터셋으로 학습을 확장하는 것을 목표로 합니다.",
+ "id": "n-4bbad7fe81",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "중력 시뮬레이션, 인과 관계, 객체 지속성을 특히 다루며, ComfyUI 워크플로와 매우 호환됩니다.",
+ "source_sha256": "6be66f5bf3d982b8a764852cc794804d65baaf534d3e79c4c431259a9f02b558",
+ "summary": "LTX-2.3 22B 모델용 특화 LoRA 어댑터로, 비디오 생성에서 물리 추론, 공간 논리, 시간적 일관성을 크게 향상시킵니다. 일반적인 AI 비디오 결함과 환각된 물리 현상을 줄이기 위해 Video-Based Visual Reasoning 데이터셋을 사용합니다.",
+ "title": "Ltx2.3-VBVR: LTX-Video용 시각 추론 LoRA",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

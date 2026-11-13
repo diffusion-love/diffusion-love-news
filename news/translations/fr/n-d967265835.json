@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet est passé d'un prototype de recherche à une suite de modèles prête pour la production, incluant des variantes de 3.5B et de 1B. Il a introduit Adaptive Projection Guidance (APG) et s'est pleinement intégré à l'écosystème ComfyUI.",
+ "id": "n-d967265835",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Surpasse Seed-TTS sur les benchmarks de similarité du locuteur et de naturalité ; publié sous licence MIT pour une diffusion large.",
+ "source_sha256": "40c885a19554cac8ac60145c957d1ba52ac67d924283ac13d3afedd83b7d268a",
+ "summary": "Un framework de synthèse vocale par diffusion à l'état de l'art, qui opère directement dans l'espace latent de la forme d'onde à l'aide de Wav-VAE. Il permet un clonage vocal zero-shot haute fidélité et une génération de parole naturelle avec une inférence optimisée.",
+ "title": "LongCat-AudioDiT : synthèse vocale par diffusion dans l'espace latent de la forme d'onde, haute fidélité",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

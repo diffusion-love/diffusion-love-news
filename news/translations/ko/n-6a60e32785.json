@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Qwen 3.5 시리즈를 바탕으로, 3.6 Plus 릴리스는 항상 켜져 있는 추론, 65K 출력 토큰 제한, SWE-bench 같은 코딩 벤치마크에서의 크게 개선된 성능을 도입했습니다.",
+ "id": "n-6a60e32785",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "SWE-bench Verified에서 78.8점을 달성했으며, 프로덕션 사용을 위해 현재 약 1M 입력 토큰당 0.50달러로 파격적인 가격에 책정되어 있습니다.",
+ "source_sha256": "a15e5fef7609afb207462af5b0d1e8ea002ef33e2f18b5dc5eae4ae5b1fbe03f",
+ "summary": "Qwen 3.6 Plus는 Alibaba의 멀티모달 대규모 언어 모델로, 자율 에이전트 워크플로와 저장소 수준의 소프트웨어 엔지니어링에 특화되도록 최적화되었습니다. 기본 1M 토큰 컨텍스트 창을 갖추고 있으며, 고속 추론을 위해 차세대 하이브리드 아키텍처를 사용합니다.",
+ "title": "Qwen 3.6 Plus",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

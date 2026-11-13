@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Stream-R1 출시 이후 FrameX-AI는 기반 가중치를 재학습하지 않고 시간적 일관성과 복잡한 모션 처리를 개선하는 데 초점을 맞춘 Test-Time Scaling(TTS) 전용 프레임워크인 Stream-T1을 선보였습니다.",
+ "id": "n-09f901429d",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "원본 Wan2.1 대비 30배 속도 향상을 달성하면서도 높은 VBench 점수를 유지합니다. FrameX-AI가 USTC와 협력하여 개발했습니다.",
+ "source_sha256": "b90b32044585775326322f494094d6be1af187ff1162ade5a97414b6f0ae4401",
+ "summary": "Stream-R1은 Wan2.1에서 증류된 가속 비디오 생성 모델로, 23.1 FPS의 실시간 성능을 달성합니다. 보상 유도 분포 매칭 증류(DMD)를 활용하여 시각적 품질과 텍스트 정합성 모두에서 teacher 모델을 능가합니다.",
+ "title": "Stream-R1: 실시간 보상 기반 비디오 증류",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

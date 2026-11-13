@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "현재 버전은 14이며, 작성자는 사용자 피드백과 버그 데이터를 바탕으로 프롬프트를 버전 15로 계속 다듬고 있습니다.",
+ "id": "n-49a6616381",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Gemini(Google AI Studio 경유)와 DeepSeek 같은 고컨텍스트 모델에 특화되어 최적화되어 있습니다.",
+ "source_sha256": "b1c2942b9151b8d5abe2fd445d6df0ae1a3d67969aad5b88c2d27732ad411fcf",
+ "summary": "AI 모델을 비판적이고 아첨하지 않는 엔지니어링 멘토로 바꾸도록 설계된 110,000 토큰 시스템 지침 세트입니다. 제1원리 사고, 컨텍스트 드리프트 방지, 내장된 인식론적 마커를 통한 환각 대응에 초점을 둡니다.",
+ "title": "BRO v14: 하드코어 스토익 엔지니어 메가 프롬프트",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

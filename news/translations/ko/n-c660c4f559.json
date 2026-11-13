@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "도입 이후 CDM은 Stable Diffusion 3 Medium과 Longcat Image 같은 인기 모델의 ‘Turbo’ 버전을 증류하는 데 사용되었으며, 이 버전들은 Hugging Face에서 꾸준히 관리되고 제공되고 있습니다. 이 모델들은 단 4단계만으로 100단계 교사 모델과 맞먹거나 능가하는 고품질 결과를 냅니다.",
+ "id": "n-c660c4f559",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "CDM은 학습 중 실제 이미지, GAN 판별기, 외부 보상 모델을 요구하지 않아, 기존 방법에 비해 증류 과정이 단순하다는 점에서 차별화됩니다.",
+ "source_sha256": "a4bb638536e2bd9d0c546a8f046f10d19ca45aa4407af89c2208b007433d54e7",
+ "summary": "Continuous-Time Distribution Matching(CDM)은 텍스트-이미지 디퓨전 모델을 고충실도의 소수 단계(4단계) 생성기로 가속하는 최신 프레임워크입니다. 연속 최적화 공간을 사용해 과도한 평활화(over-smoothing)와 시각적 아티팩트를 없애며, 복잡한 보조 모듈 없이 동작합니다.",
+ "title": "CDM: Continuous-Time Distribution Matching 디퓨전 증류",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

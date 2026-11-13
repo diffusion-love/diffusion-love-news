@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "Die verifizierte Repository-Revision unterstützt einen erweiterten, auf Klein 9B zentrierten Workflow mit bis zu acht Referenzen, Masken und expliziten neutralen Pass-Through-Steuerungen; die Wirksamkeit ist unabhängig nicht evaluiert.",
+ "id": "n-4541890dcb",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "c62bf4e842ca2b506083ddb692392b69827e813bad861276005b96bc80eaa777",
+ "summary": "Die verifizierte Repository-Revision unterstützt einen erweiterten, auf Klein 9B zentrierten Workflow mit bis zu acht Referenzen, Masken und expliziten neutralen Pass-Through-Steuerungen; die Wirksamkeit ist unabhängig nicht evaluiert.",
+ "title": "Flux2Klein Enhancer erreicht eine erweiterte Multi-Referenz-Implementierung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

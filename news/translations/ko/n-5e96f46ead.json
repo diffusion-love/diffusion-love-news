@@ -1,0 +1,11 @@
+{
+ "id": "n-5e96f46ead",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "저장소를 복제하고, 해당 기기에 맞는 PyTorch 빌드를 설치한 뒤, 문서화된 요구 사항과 편집 가능한 패키지를 설치하십시오.\n\n공개된 3초, 1.5초 홉 레시피에는 DBS-BSRNN을, 6초, 3초 홉 레시피에는 DBS-TIGER를 불러오십시오.\n\n44.1 kHz 오디오를 제공하고, 문서화된 예제를 따르는 경우 다채널 입력을 모노로 변환한 뒤 분리 API를 호출하여 음악, 효과음, 음성 추정치를 얻으십시오.\n\n체크포인트 아키텍처와 청크 레시피를 맞추십시오. DBS-BSRNN에는 3초 윈도우를, DBS-TIGER에는 6초 윈도우를 사용합니다.\n\n데모 및 추론된 스템은 정답이 아니라 추정치로 취급하십시오. 하류 작업에 사용하기 전에 소스 누출과 아티팩트를 점검하십시오.",
+ "source_sha256": "32532aa36cbcab47ecaf533dafefa17ac927b3561d7010f24a4025a6d796dbc2",
+ "summary": "Dynamic Band Splitting은 44.1 kHz 모노 오디오에서 음악, 효과음, 음성을 추정하기 위한 사전 학습된 DBS-BSRNN 및 DBS-TIGER 모델과 코드를 제공하며, 대화형 청취 스튜디오를 함께 제공합니다.",
+ "title": "Dynamic Band Splitting, 적응형 오디오 분리 코드와 모델 공개",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

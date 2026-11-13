@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "DALL-E 3는 이미지를 네이티브 토큰으로 취급하여 뛰어난 이미지-투-이미지 일관성을 제공하는 GPT-4o로 대체되었습니다. Microsoft는 'Cocreator' 기능을 통해 이 기술을 Windows 11 Paint에 직접 통합했습니다.",
+ "id": "n-0646f210ee",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "이 트렌드는 2026년 초 한국 사용자들이 Threads에서 유행시켰으며, 막대한 컴퓨팅을 들여 8비트 스타일 아트를 만든다는 점에서 흔히 'The Most Trivial Prompt in the World'라고 불립니다.",
+ "source_sha256": "3797237108050d97b98d49b5014948d34db511ce241286e7b94eb34d19be21c8",
+ "summary": "ChatGPT와 DALL-E에서 사용되는 바이럴 프롬프트 기법으로, 고품질 업로드 사진을 클래식 MS Paint 미학을 모방한 조잡하고 저화질의 그림으로 변환합니다.",
+ "title": "사진 스타일화를 위한 MS Paint 스타일 DALL-E 프롬프트",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

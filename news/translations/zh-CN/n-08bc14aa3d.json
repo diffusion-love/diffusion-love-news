@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "从一个简单的 Mac 听写工具，发展为多平台的智能体生态系统，深度集成本地和云端 LLM。新增了面向特定任务格式的“Modes”，并为企业用户提供 SOC 2/HIPAA 合规支持。",
+ "id": "n-08bc14aa3d",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "支持在 Apple Silicon 上离线处理，并支持为 GPT-5.5 和 Claude 4.7 等模型自带密钥（BYOK）。",
+ "source_sha256": "b2549600b48d47afb3eba03f7e81c62fde2b73ea8706cf3df97755f99001f9ac",
+ "summary": "一款离线优先的 AI 转录工具，使用 Whisper 模型在多个平台上将语音转换为文字。它提供可自定义的模式，并通过本地或云端 LLM 实现智能体工作流，将文本润色为特定格式。",
+ "title": "Superwhisper：适用于桌面和移动端的通用 AI 语音转文字工具",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

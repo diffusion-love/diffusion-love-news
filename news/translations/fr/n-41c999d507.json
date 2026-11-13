@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "SenseNova U1 marque la transition vers l'architecture NEO-Unify, qui élimine les VAE traditionnels et les encodeurs visuels au profit d'une fusion multimodale native. Il succède aux modèles SenseNova 6.5 et MARS et se concentre sur le raisonnement entrelacé image-texte.",
+ "id": "n-41c999d507",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Le modèle 8B peut tourner sur 8GB de VRAM avec la quantification GGUF Q6_K, mais nécessite une quantité importante de RAM système pour des performances optimales.",
+ "source_sha256": "24aa1e98072682912db8ebd86b926b3f2fbd0d93411602d4107e005b8b88a291",
+ "summary": "Un ensemble de nœuds personnalisés pour ComfyUI permettant d'interagir avec les modèles multimodaux unifiés natifs SenseNova U1 de SenseTime. Il prend en charge une génération rapide grâce à un LoRA 8 étapes et à la quantification GGUF pour du matériel grand public.",
+ "title": "ComfyUI_SenseNova_U1 : nœuds personnalisés pour modèles multimodaux",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

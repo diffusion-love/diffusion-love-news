@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 기본적인 EXIF 등록에서 RealityScan 및 Agisoft Metashape로부터의 고정밀 가져오기 지원으로 확장되었습니다. SPZ v3 압축을 도입해 파일 크기를 14배 줄였고, 3D Tiles 1.1을 통해 CesiumJS 및 ArcGIS와 완전히 호환되도록 했습니다.",
+ "id": "n-85862dbbb3",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "이상치에 강한 좌표 정렬을 위해 견고한 RANSAC + Umeyama 솔버를 활용합니다. 기존 유사성 행렬을 사용해 독립형 PLY 파일을 처리하는 'No Scene' 모드를 제공합니다.",
+ "source_sha256": "04737abe8d8cd7b3f84434ad101313ab3ee1131dc60cee1c6d4ff85229a09400",
+ "summary": "EXIF 메타데이터 또는 외부 CSV 로그를 사용하여 3D Gaussian Splatting 모델을 실제 좌표에 지리 참조하는 오픈소스 Python 도구입니다. 장면을 3D Tiles 1.1, LAS, LAZ 형식으로 내보내 전문 GIS 통합을 가능하게 합니다.",
+ "title": "3D Gaussian Splatting 장면을 위한 Geo Register 플러그인",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

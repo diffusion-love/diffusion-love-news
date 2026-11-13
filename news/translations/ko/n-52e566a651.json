@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 4월 LTX-Video 2.3 생태계의 일부로 출시되었으며, LumiPic 이미지 변형을 포함하고 로컬 추론을 위해 ComfyUI에 완전히 통합되었습니다.",
+ "id": "n-52e566a651",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "DaVinci Resolve, Nuke 같은 VFX 파이프라인 및 그레이딩 도구와 호환되는 전문가 수준의 float16 EXR 시퀀스를 생성합니다.",
+ "source_sha256": "37c5ebc589c6699dd69019b737ba00fd832f9ac3886f7cf2b44d964cf7f0245a",
+ "summary": "Lightricks가 개발한 고품질 SDR-to-HDR 비디오 변환 프레임워크입니다. LTX-Video 2.3(22B) 파운데이션 모델에 특화된 In-Context LoRA를 활용하여 16비트 LogC3 형식으로 동적 범위와 그림자를 복원합니다.",
+ "title": "LumiVid: LTX-Video 2.3을 통한 SDR-to-HDR 비디오 생성",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Tencent의 전략적 '90일 리셋'으로 출시되었으며, 밀집 아키텍처에서 21B 활성 MoE 구조로 전환했습니다. 구성 가능한 '빠른 및 느린 사고' 추론 모드를 도입했고, 운영 환경에서 기존 Hunyuan-Pro 모델을 대체했습니다.",
+ "id": "n-0841776bd9",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "SWE-bench Verified에서 74.4%를 달성했습니다. Tencent의 Yuanbao 어시스턴트와 WeChat 생태계에 통합되었으며, Hy2 대비 추론 비용이 크게 낮습니다.",
+ "source_sha256": "5ebc3d9039e676700ca07ddd40c59fc7dfd2f13b7b82b3798ed9210bb24a793c",
+ "summary": "Tencent가 고효율 추론을 위해 설계한 295B 파라미터 Mixture-of-Experts(MoE) 대규모 언어 모델입니다. 256K 컨텍스트 윈도우를 갖추고 있으며, 다단계 에이전트 워크플로와 복잡한 도구 사용에 최적화되어 있습니다.",
+ "title": "Hunyuan3 Preview (Hy3-preview)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

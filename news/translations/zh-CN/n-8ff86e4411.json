@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目于 2025 年中期以研究论文形式出现后，被 3DV 2026 接收，并于 2026 年 3 月发布了官方源代码和预训练权重。目前因其明显快于以往基于迭代扩散的立体方法而受到认可。",
+ "id": "n-8ff86e4411",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "采用单步前馈预测架构；通过空间与时间拼接技术支持高分辨率输出。",
+ "source_sha256": "15577e8128474a86376eb9107919233b060be4a793edd40a7fbee97ef051aa2e",
+ "summary": "M2SVid 是 Google Research 的一个项目，可将 2D 单目视频转换为立体 3D。它利用基于 Stable Video Diffusion 的条件潜在扩散模型生成缺失的右眼视图，并保持高时间一致性。",
+ "title": "M2SVid：单目到立体视频转换",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

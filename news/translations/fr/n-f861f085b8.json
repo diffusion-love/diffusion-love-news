@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "À l'origine un simple proxy FastAPI pour NVIDIA NIM, il est devenu une passerelle multi-fournisseurs dotée d'une interface d'administration locale et d'un routage intelligent. Il prend désormais en charge l'extension VSCode Claude Dev et les IDE JetBrains, passant d'un bricolage « gratuit » à un outil robuste et indépendant du backend pour l'écosystème Claude.",
+ "id": "n-f861f085b8",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Comprend un « fcc-server » pour le proxy et un wrapper « fcc-claude » pour une configuration facile ; a dépassé 24k étoiles GitHub au milieu de l'année 2026.",
+ "source_sha256": "1f7ccb67ed0c5943d73a5265d3764601717af5e870d7613cc81c260916de106e",
+ "summary": "Une couche d'abstraction runtime et un serveur proxy qui permettent à l'interface officielle Claude Code CLI de fonctionner avec d'autres fournisseurs LLM comme NVIDIA NIM, OpenRouter et des modèles locaux. Il assure une parité complète du protocole, avec prise en charge de l'usage d'outils agentiques, du streaming et des blocs de raisonnement, sans nécessiter de clé d'API Anthropic directe.",
+ "title": "Free Claude Code : proxy IA pour Claude CLI",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

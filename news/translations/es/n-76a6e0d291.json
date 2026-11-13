@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Pasó de una detección básica de condicionamiento a un sofisticado sistema de «Identity Lock» con modos de fidelidad Soft, Medium y Hard. Las actualizaciones recientes incorporaron Mask Ref Control para la guía espacial de identidad y el rastreo de hooks del modelo sin dependencias adicionales.",
+ "id": "n-76a6e0d291",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Desarrollado por capitan01R; evita las limitaciones del codificador de texto basado en Qwen3 aislando los tokens activos y actuando directamente sobre bloques internos del modelo.",
+ "source_sha256": "165414c8439225bc6c2f1cf893803888ce19a72e39396fa129e9fa3238de7570",
+ "summary": "Una suite de nodos para ComfyUI que preserva la identidad de personajes en los modelos FLUX.2 Klein sin entrenar LoRA. Utiliza el rastreo de hooks del modelo y la guía de identidad para inyectar características de referencia directamente en la arquitectura de doble flujo del modelo.",
+ "title": "ComfyUI-Flux2Klein-Enhancer: nodos de preservación facial",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

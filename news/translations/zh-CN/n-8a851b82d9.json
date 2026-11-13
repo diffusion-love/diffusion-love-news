@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从基础的帧插值演进为基于 Wan 扩散系列的完整 4D 锚点控制工作流。截至 2026 年 5 月，它支持 Wan 2.7 架构，用于高保真相机控制和基于指令的编辑。",
+ "id": "n-8a851b82d9",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由 Morphic Films 开发；包含专用的 4D Visualizer，用于在重建的点云空间中手动设置相机轨迹关键帧。",
+ "source_sha256": "8be63e3f43bdd169cd5768bd81baaf1a2fea2a548921e14bbad20a02f1f11d5b",
+ "summary": "一个自监督视频扩散系统，可改变单目视频中的相机轨迹。它利用从源视频导出的 4D 点云锚点提供几何条件，以实现一致的视点合成。",
+ "title": "Reshoot-Anything：基于 4D-Anchor 控制的视频视点合成",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

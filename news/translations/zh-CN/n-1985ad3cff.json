@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目于 2026 年 4 月发布后，曾发生一起备受关注的安全事件：一个恶意的仿冒克隆（Open-OSS/privacy-filter）一度登上 Hugging Face 榜首，随后被删除。对于开源的本地 PII 脱敏，OpenAI 官方模型仍是标准选择。",
+ "id": "n-1985ad3cff",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "以 Apache 2.0 许可证发布；专为帮助企业满足数据驻留要求而设计，通过在本地处理敏感数据实现这一目标。",
+ "source_sha256": "4e091f05210aa7b7e6a1509fe09ce9b000e3e43cdb80ed4d08460cb2c9adb35a",
+ "summary": "一款开放权重的 1.5B 参数双向词元分类模型，专为本地检测和脱敏个人身份信息（PII）而设计。它支持 128,000 词元的上下文窗口，并针对通过 transformers.js 在本地或浏览器中的高吞吐执行进行了优化。",
+ "title": "OpenAI Privacy Filter：本地 PII 脱敏模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

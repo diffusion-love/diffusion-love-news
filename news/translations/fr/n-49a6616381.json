@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Actuellement en version 14 ; l'auteur affine activement le prompt pour la version 15 à partir des retours utilisateurs et des données de bogues.",
+ "id": "n-49a6616381",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Spécifiquement optimisé pour les modèles à long contexte comme Gemini (via Google AI Studio) et DeepSeek.",
+ "source_sha256": "b1c2942b9151b8d5abe2fd445d6df0ae1a3d67969aad5b88c2d27732ad411fcf",
+ "summary": "Un jeu d'instructions système de 110 000 tokens conçu pour transformer les modèles d'IA en mentors d'ingénierie critiques et anti-sycophantes. Il met l'accent sur la pensée par premiers principes, la protection contre la dérive de contexte et la lutte contre les hallucinations au moyen de marqueurs épistémiques intégrés.",
+ "title": "BRO v14 : méga-prompt d'ingénieur stoïcien hardcore",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

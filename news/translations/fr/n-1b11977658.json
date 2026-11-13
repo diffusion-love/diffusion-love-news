@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet est passé d'un workflow complexe à 6 nœuds à une solution à nœud unique, pour éliminer les workflows « spaghetti » dans ComfyUI. Les mises à jour récentes ont intégré la correspondance de couleur Deep Histogram et amélioré la compatibilité avec les modèles FLUX.1 via ComfyUI Manager.",
+ "id": "n-1b11977658",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Considéré comme une alternative plus rapide et plus conviviale à Ultimate SD Upscale pour les améliorations quotidiennes d'images de 1.5x à 4.0x.",
+ "source_sha256": "2b8adc161436bd014bbb7b789d21c05970f84dba1d457bcde2de587610165dc4",
+ "summary": "Un nœud personnalisé complet pour ComfyUI qui simplifie le processus de correction haute résolution en regroupant plusieurs étapes d'agrandissement dans une seule interface. Il intègre un traitement VAE par tuiles et une correction colorimétrique pour éviter les erreurs OOM et la désaturation lors de l'agrandissement dans l'espace latent.",
+ "title": "ComfyUI Hires Fix Ultra : nœud tout-en-un",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "원래 ECCV 2024 논문을 기반으로 한 이 ComfyUI 구현은 2025년 말 파노라마 청크를 위한 개선된 깊이 스티칭과 ComfyUI-3D-Viewer-Pro 스위트와의 원활한 통합을 포함하도록 발전했습니다. 2026년 중반 현재 최신 3DGS 래스터라이저를 위해 여전히 활발히 유지보수되고 있습니다.",
+ "id": "n-2915ceca6f",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "설치 중 전체 CUDA Toolkit과 C++ 컴파일이 필요합니다. 안정적인 성능을 위해 16GB 이상 VRAM(RTX 3090/4090)을 강력히 권장합니다.",
+ "source_sha256": "193dfe6b02a1df81005193be8340edddc85492cc3b8acaa7ebd1625b584021ad",
+ "summary": "단일 360° 파노라마 이미지로부터 전역적으로 일관된 3D Gaussian Splatting(3DGS) 장면을 생성하기 위해 DreamScene360 연구를 구현한 전문 ComfyUI 노드 스위트입니다. 깊이 추정과 파노라마 스플래팅을 활용해 단일 시점에서 탐험 가능한 3D 환경을 만듭니다.",
+ "title": "ComfyUI-DreamScene360 — 파노라마 Gaussian Splatting과 3D 장면",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

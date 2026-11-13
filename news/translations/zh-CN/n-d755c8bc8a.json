@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Qwen3-TTS 标志着从 Qwen2-Audio 等通用音频理解模型转向专用生成套件。它包含 0.6B 和 1.7B 两个版本，并引入了 Qwen3-TTS-Tokenizer-12Hz，以实现更优的压缩和更丰富的情感表达。",
+ "id": "n-d755c8bc8a",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "以 Apache 2.0 许可证发布；支持通过文本提示进行语音设计，首包延迟低于 100ms，适用于实时应用。",
+ "source_sha256": "f555145220b88e1fbe629c297f9c542e39422d1a5c65b081e584dae5fe991dc1",
+ "summary": "阿里巴巴通义千问推出的专业文本转语音套件，支持基于 3 秒样本的零样本声音克隆，以及基于自然语言的语音设计。它采用双轨混合流式架构，在 10 种语言中实现超低延迟和高质量韵律。",
+ "title": "Qwen3-TTS：先进的零样本语音合成",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

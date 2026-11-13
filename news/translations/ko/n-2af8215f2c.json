@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 2023년 이미지 기반 디고스팅 도구에서 2026년 초 포괄적인 비디오 디퓨전 프레임워크로 전환되었습니다. 현재 버전은 Log-Gamma 색상 매핑과 비디오 prior를 사용해 레거시 8비트 콘텐츠의 손실된 휘도를 복원합니다.",
+ "id": "n-2af8215f2c",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "2026년 업데이트는 높은 계산 요구량으로 알려져 있으며, 효율적인 처리를 위해 일반적으로 A100급 GPU가 필요합니다.",
+ "source_sha256": "70bbcec885a7bead5dd9454c2cfd4d02ab3290b3c407fa107bc3d59cc67b810b",
+ "summary": "생성형 휘도 인페인팅을 사용해 8비트 LDR 비디오를 32비트 HDR 시퀀스로 변환하는 프레임워크입니다. 사전 학습된 비디오 디퓨전 모델을 활용해 사실적인 하이라이트를 생성하면서도 엄격한 시간적 일관성을 유지합니다.",
+ "title": "DiffHDR: 생성형 LDR-HDR 비디오 디퓨전",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

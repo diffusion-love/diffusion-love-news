@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt entwickelte sich von einfachen Projektionsknoten zu einer vollständigen Suite für die 3D-Szenenbearbeitung. Wichtige Updates brachten einen interaktiven Three.js-Viewer, eine posierbare IK-Gliederpuppe (Character Placer) für ControlNet-taugliche Skelette sowie eine Integration mit Videomodellen wie Wan2.1 für die Animation von Kamerapfaden.",
+ "id": "n-f6c6cdf729",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Enthält spezielle Unterstützung für 360°-Equirectangular-Panoramen und „Stamping“-Knoten, um die Umgebungskonsistenz beim iterativen Inpainting zu bewahren.",
+ "source_sha256": "09ef9b5a0d739b2e342da08430bd6eccf0649ae187d6819c6417af20cf3beb56",
+ "summary": "Eine ComfyUI-Erweiterung für Kamerabewegung mit 6 Freiheitsgraden und Figurenplatzierung in rekonstruierten 3D-Szenen. Sie ermöglicht präzise Ansichtssynthese und Figureneinfügung durch die Kombination aus tiefenbewusster Reprojektion und interaktivem Staging auf Basis von Three.js.",
+ "title": "ComfyUI 6DOF Camera — 3D-Szenenmanipulation und Figurenplatzierung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

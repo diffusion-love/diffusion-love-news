@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Im April 2026 als wichtiges Effizienz-Update für das FLUX.2-Ökosystem veröffentlicht, nach dem Flaggschiff FLUX.2 [dev] Ende 2025. Es ist inzwischen Standard für Inferenz-Pipelines auf Consumer-Hardware.",
+ "id": "n-b2c1d5a768",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Unter Apache 2.0 lizenziert; bietet etwa 1.4x schnellere Dekodierung und eine um 44% reduzierte Parameterzahl gegenüber dem Standard-Decoder von FLUX.2.",
+ "source_sha256": "d52e46c8ee2db2b8113b4ccc443e2a4e7f397a64e199f14aad6abed91115684a",
+ "summary": "Ein destillierter Variational-Autoencoder-(VAE-)Decoder zur Optimierung der Inferenzleistung der Modellfamilie FLUX.2. Er reduziert den VRAM-Verbrauch deutlich und erhöht die Dekodiergeschwindigkeit bei minimalem Qualitätsverlust.",
+ "title": "FLUX.2 Small Decoder (destillierter VAE)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

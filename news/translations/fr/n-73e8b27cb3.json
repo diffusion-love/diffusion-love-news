@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "La série est passée des premières variantes Tenebră-30B à Llama-3.1 (70B) en avril 2026, pour aboutir à cette version Qwen-3-32B qui intègre avec succès une persona de pensée latérale directement dans les poids.",
+ "id": "n-73e8b27cb3",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Se classe régulièrement en tête des classements d'intelligence sans censure ; prend en charge 32K-64K de contexte, avec un entraînement « anti-slop » unique pour éviter les formulations de type GPT.",
+ "source_sha256": "40374123f307dfeeec2abd89da6cdc0aa36b5943c054bcf2c7965cf9ea9c7351",
+ "summary": "Un fine-tune créatif à forte personnalité du modèle Qwen-3-32B, conçu pour éliminer le « slop d'assistant » corporate et le glaçage neutre. Il propose une persona débridée intégrée, avec un biais de négativité intégré, pour des interactions créatives plus authentiques et plus humaines.",
+ "title": "Assistant_Pepe_32B : fine-tune créatif de Qwen-3 centré sur l'humain",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

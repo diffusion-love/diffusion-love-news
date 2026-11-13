@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt markiert den Wechsel von dichten Diffusion-Transformer-Designs (DiT) zu dünnbesetzten Architekturen. Seit seiner Veröffentlichung wurde es in ComfyUI integriert und bleibt ein beliebtes „sauberes“ Basismodell für die Feinabstimmung durch die Community.",
+ "id": "n-98474cc274",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Das Modell steht unter der Apache-2.0-Lizenz und umfasst vollständige Trainingsrezepte und Gewichte auf Hugging Face.",
+ "source_sha256": "d8b8634c03653d9c54246f560c4f1b5df88fcabe534bcc8d2295b5bcce4e586a",
+ "summary": "Ein Text-zu-Bild-Modell mit 17B Parametern, das eine dünnbesetzte Mixture-of-Experts-Architektur nutzt, um die Modellkapazität von den Inferenzkosten zu entkoppeln. Es aktiviert pro Vorwärtsdurchlauf nur etwa 2B Parameter und liefert hochwertige Generierung bei deutlich geringerer Latenz.",
+ "title": "Nucleus Image: Diffusionsmodell mit dünnbesetzter Mixture-of-Experts-Architektur",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "LPM 1.0 由 Anuttacon 于 2026 年初推出，通过同时解决表现力、实时速度与稳定性三者之间的三难困境，为“表现”树立了新的基准。截至 2026 年 5 月，它仍是一个专注于数字人交互的研究项目，且模型权重未公开。",
+ "id": "n-464a2f9508",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由 Anuttacon 开发，这是一家由 miHoYo 联合创始人蔡浩宇创办的 AI 初创公司。该项目推出了用于衡量角色表演质量的 LPM-Bench。",
+ "source_sha256": "60d6d120c556be928122fbd24b8db17f277588e18ca845c316a5a46d23a7389f",
+ "summary": "一个 17-billion 参数的扩散 Transformer，专为具备全双工能力的实时交互式数字角色表演而设计。它能够在长时间对话过程中实现低延迟、富有表现力的微表情，并保持稳定的身份一致性。",
+ "title": "Large Performance Model LPM 1.0 交互式视频",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

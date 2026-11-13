@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Erweitert von der LLM-Feinabstimmung um die Unterstützung der multimodalen Vision-/Audio-Varianten von Gemma 4 sowie um Reinforcement Learning mit GRPO. Im Mai 2026 wurde das Projekt in das offizielle PyTorch-Ökosystem aufgenommen.",
+ "id": "n-a3aa871dfa",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Unterstützt die kostenlosen Google-Colab-T4-GPUs für die Modelle Gemma 4 E2B und E4B.",
+ "source_sha256": "924ddc8b9e8a6c48814cfaae72541ec6aca1d724e90ffcf8cf532c979be303a3",
+ "summary": "Hochoptimiertes Framework für die Feinabstimmung der Gemma-4-Familie von Google auf Consumer-GPUs und in Google Colab. Dank spezialisierter Kernel ermöglicht es ein 2x schnelleres Training und 70% weniger VRAM-Verbrauch.",
+ "title": "Unsloth Studio für das Fine-Tuning von Gemma 4 auf Colab",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

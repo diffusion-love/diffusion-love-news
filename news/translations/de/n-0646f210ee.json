@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "DALL-E 3 wurde durch GPT-4o abgelöst, das Bilder als native Tokens behandelt und dadurch eine überlegene Konsistenz bei Bild-zu-Bild-Transformationen erreicht. Microsoft hat diese Technik außerdem über die Funktion „Cocreator“ direkt in Windows 11 Paint integriert.",
+ "id": "n-0646f210ee",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Der Trend wurde Anfang 2026 von koreanischen Nutzern auf Threads populär; oft wird er als „der trivialste Prompt der Welt“ bezeichnet, weil er enorme Rechenleistung dafür einsetzt, Kunst im Stil von 8-bit zu erzeugen.",
+ "source_sha256": "3797237108050d97b98d49b5014948d34db511ce241286e7b94eb34d19be21c8",
+ "summary": "Eine virale Prompting-Technik für ChatGPT und DALL-E, die hochwertige hochgeladene Fotos in grobe, wenig detailreiche Zeichnungen verwandelt, die die klassische Ästhetik von MS Paint nachahmen.",
+ "title": "MS-Paint-Stil-Prompt für DALL-E zur Fotostilisierung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

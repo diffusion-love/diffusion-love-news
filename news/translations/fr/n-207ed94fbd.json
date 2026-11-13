@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Conçu comme le modèle « élève » adapté au mobile du projet haut de gamme UMA, MUA réduit les coûts de calcul de 2000x. Il utilise une décomposition spectrale par ondelettes pour conserver un détail extrême de la peau et des vêtements, tout en atteignant des performances temps réel sur les GPU mobiles.",
+ "id": "n-207ed94fbd",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Atteint plus de 180 FPS sur matériel de bureau et 24 FPS sur Meta Quest 3 ; prend en charge le relighting dynamique et l'auto-ombrage.",
+ "source_sha256": "2c3dc5f3b81b83c945fb9ea16f4133294c798e8a5111b7eabcec9de59b810279",
+ "summary": "MUA est un framework optimisé pour mobile, permettant de rendre des humains numériques haute fidélité avec une dynamique vestimentaire complexe. Il distille une qualité visuelle de niveau serveur dans un format léger capable de tourner à 24 FPS sur du matériel autonome comme le Meta Quest 3.",
+ "title": "MUA : avatars animables mobiles ultra-détaillés",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

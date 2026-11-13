@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 SANA(텍스트-이미지)에서 SANA-Video로 확장되었고, 이후 6-DoF 카메라 제어를 지원하는 1분 720p 영상의 2.6B 파라미터 월드 모델 SANA-WM으로 발전했습니다.",
+ "id": "n-e76fc8f96f",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "32x DC-AE 압축과 선형 어텐션을 사용해 낮은 VRAM 효율을 달성하며, 2025년 1월부터 Apache 2.0 라이선스로 배포되고 있습니다.",
+ "source_sha256": "db2b11f229b6f869f32835ba8f90c6041e93306efd6b2d9902ba736ccd858737",
+ "summary": "NVIDIA의 고효율 영상 생성 모델로, Linear Diffusion Transformer와 Deep Compression Autoencoder를 활용합니다. 이차(quadratic) 어텐션 기반의 기존 모델에 비해 VRAM 요구량을 크게 줄이면서 720p 영상을 생성합니다.",
+ "title": "SANA-Video: 효율적인 720p 영상 합성 및 업스케일링",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

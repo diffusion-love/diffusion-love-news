@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Ha pasado de un escaneo móvil experimental a una solución profesional de conversión de 3DGS a malla en 2026. La versión 3.0 introduce la preservación de detalles finos, una mayor estabilidad de superficie y herramientas de escalado integradas para flujos de trabajo de impresión 3D.",
+ "id": "n-9db878fd06",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Introdujo la primera implementación móvil de conversión de 3DGS a malla; incluye predicción de normales y eliminación de reflejos.",
+ "source_sha256": "90da1914704be363495e7b9f83dc7213d0f86f67fd6bd27c1fe407d6c99fd7ca",
+ "summary": "Una plataforma móvil de escaneo 3D que convierte capturas de video y fotos en Gaussian Splats de alta fidelidad y mallas poligonales. Ofrece un pipeline especializado para transformar datos 3DGS en activos editables y listos para producción.",
+ "title": "KIRI Engine: de Gaussian Splatting a malla",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

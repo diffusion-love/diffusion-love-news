@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Hat sich zu einer gefragten Standardfunktion für die Integration in große Videogenerierungs-Pipelines wie Wan2GP entwickelt. Das Modell ging von der einfachen Entfernung des Vordergrunds zu komplexen Aufgaben der vollständigen Hintergrundrekonstruktion über.",
+ "id": "n-daa2681205",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Die empfohlene Stärke beginnt bei 1.25; die Leistung verbessert sich deutlich, wenn das Eingabevideo vor der Verarbeitung auf 50fps interpoliert wird.",
+ "source_sha256": "b1d32b157b73ad1fe4ca0a25885cb0ac8b7a926024c2e6f20fb0d23843e8b8ab",
+ "summary": "Ein spezialisiertes LoRA für die Video-zu-Video-Bearbeitung, das Hintergrundszenen rekonstruiert, indem Vordergrundhindernisse wie Pflanzen, Rauch oder Dunst entfernt werden. Es nutzt Deep Feature Hallucination, um fehlende visuelle Daten hinter verdeckten Objekten aufzufüllen.",
+ "title": "Obscura Remova LTX23 Video-zu-Video-LoRA",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

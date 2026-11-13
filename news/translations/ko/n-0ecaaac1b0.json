@@ -1,0 +1,11 @@
+{
+ "id": "n-0ecaaac1b0",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "배포된 커스텀 노드 아카이브를 ComfyUI/custom_nodes/ 아래에 설치하고, MiniMaxH3_SemanticBridge_v1.safetensors를 ComfyUI/models/semantic_bridge/ 아래에 둔 다음, ComfyUI를 재시작하고 제공된 워크플로 참조에서 시작하십시오.\n\nv1은 표준 MiniMax H3 FL2VA/text 조건 경로에서만 사용하십시오. Ref2VA 또는 다른 참조 조건 워크플로에는 넣지 마십시오.\n\n토큰별 크기 매칭(magnitude matching)을 적용해 알파 0.10에서 시작하십시오. 동일한 프롬프트, 시드, 생성 설정으로 네이티브 H3와 bridge 활성화 출력을 비교하십시오. 공개된 알파 0.15 비교는 보편적인 프리셋이 아니라 예시로 취급하십시오.\n\n저자의 표현 공간(representation-space) 코사인 측정치는 영상 품질 주장과 분리해서 보십시오. 릴리스 노트에 따르면 이 측정치는 teacher에서 유도된 표현과의 일치를 나타내며, 지각 품질이나 보편적인 프롬프트 준수 개선을 측정하는 것이 아닙니다.",
+ "source_sha256": "d88ef43a3ff7c4d5eba401c1499a5700f9d9564896da52feb8aecf668aa5c6d0",
+ "summary": "MiniMax H3 Semantic Bridge는 MiniMax H3의 표준 FL2VA 텍스트 조건 워크플로를 위한 ComfyUI 컨디셔닝 어댑터입니다. 커뮤니티 프로젝트이며 공식 MiniMax 또는 SenseNova 릴리스가 아닙니다. 저자의 테스트에서 노래와 립싱크가 저하되었기 때문에 Ref2VA 지원은 공개되지 않았습니다.",
+ "title": "MiniMax H3 Semantic Bridge, H3의 FL2VA 텍스트 경로용 어댑터 추가",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

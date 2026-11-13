@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "Der Nachrichtenbeitrag beschrieb Musikanalyse von bis zu 15-Minuten-Stücken, Beschreibungen, Fragen zu Struktur und Mischung, Erkennung von Instrumenten und Genres, mehrsprachige Transkription von Liedtexten sowie kulturellen Kontext.",
+ "id": "n-5f314f696f",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "fe113cc02c19a85502f3ac64664ec0a35be605a5784b2b00c50339c3546a4ce1",
+ "summary": "Der Nachrichtenbeitrag beschrieb Musikanalyse von bis zu 15-Minuten-Stücken, Beschreibungen, Fragen zu Struktur und Mischung, Erkennung von Instrumenten und Genres, mehrsprachige Transkription von Liedtexten sowie kulturellen Kontext.",
+ "title": "Music Flamingo zielt auf das Verstehen langer Musikstücke",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

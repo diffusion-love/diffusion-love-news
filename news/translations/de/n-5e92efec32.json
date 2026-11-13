@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Folgt auf ERNIE 5.0 und verlagert sich von massiver Parameterzahl (2.4T) hin zu einer effizienteren 800B-Architektur über das Framework Once-For-All. Sie bietet eine neue asynchrone Reinforcement-Learning-Pipeline und ein verbessertes vierstufiges Post-Training.",
+ "id": "n-5e92efec32",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Rangiert bei Arena Search weltweit auf 4th und unter den chinesischen Modellen auf 1st. Entwickelt, um die Leistung unter Hardware-Beschränkungen und den US-Exportkontrollen für Chips zu optimieren.",
+ "source_sha256": "ee312f0c40024353fc8eddd2cf4a9823916d078ce566929f35679b0037eca625",
+ "summary": "Baidus neuestes Flaggschiffmodell, veröffentlicht im Mai 2026, mit Fokus auf hohe Parametereffizienz und agentisches Schlussfolgern. Es ist derzeit das weltweit bestplatzierte chinesische Modell und erreicht Spitzenleistung bei deutlich geringeren Trainingskosten.",
+ "title": "Baidu ERNIE 5.1: großes Sprachmodell",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

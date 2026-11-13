@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt entwickelte sich von einem komplexen Workflow mit sechs Nodes zu einer Lösung mit einem einzigen Node, um „Spaghetti“-Workflows in ComfyUI zu vermeiden. Jüngste Updates integrierten Deep-Histogram-Farbabgleich und verbesserten die Kompatibilität mit FLUX.1-Modellen über den ComfyUI Manager.",
+ "id": "n-1b11977658",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Gilt als schnellere und benutzerfreundlichere Alternative zu Ultimate SD Upscale für tägliche Bildverbesserungen im Bereich 1.5x–4.0x.",
+ "source_sha256": "2b8adc161436bd014bbb7b789d21c05970f84dba1d457bcde2de587610165dc4",
+ "summary": "Eine umfassende benutzerdefinierte Node für ComfyUI, die den Prozess der hochauflösenden Nachbearbeitung vereinfacht, indem sie mehrere Upscaling-Schritte in einer Oberfläche bündelt. Sie umfasst integrierte gekachelte VAE-Verarbeitung und Farbkorrektur, um OOM-Fehler und Entsättigung beim Latent-Upscaling zu verhindern.",
+ "title": "ComfyUI Hires Fix Ultra: All-in-One-Node",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

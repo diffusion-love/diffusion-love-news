@@ -1,11 +1,12 @@
 {
+ "evolution_summary": "Sulphur 2 опубликована как базовый чекпойнт, полученный из LTX-2.3.",
  "id": "n-8913c98771",
  "lang": "ru",
- "model": "legacy-web-overlay",
- "research_notes": "Разработанные сообществом GGUF-квантования позволяют этим моделям на 9B параметров работать на потребительском железе с 8GB-12GB VRAM через ComfyUI.",
- "source_sha256": "legacy",
- "summary": "Высокоточные open-source модели генерации видео, дообученные на основе архитектуры LTX-2.3. Они специализируются на кинематографичном реализме, проработанной кинетике человеческого тела и согласованном 3D-движении камеры для локальных workflow без ограничений.",
- "title": "Модели генерации видео Sulphur 2 и LTX2.3-10Eros",
- "translated_at": null,
+ "model": "claude-haiku-5-5",
+ "research_notes": "Карточка модели SulphurAI определяет Sulphur-2-base как чекпойнт, полученный из LTX-2.3.",
+ "source_sha256": "985b5ed8dd0a9df255853cd246f7aa2a3a1b5bdad1398a7aa8d1cae6236d6819",
+ "summary": "Sulphur 2 — публичный чекпойнт видеомодели, выпущенный SulphurAI.",
+ "title": "Sulphur 2: модель генерации видео",
+ "translated_at": "2026-11-13",
  "translation": "machine"
 }

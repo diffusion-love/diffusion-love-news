@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto evolucionó de un flujo de trabajo complejo de 6 nodos a una solución de un solo nodo para eliminar los flujos «espagueti» en ComfyUI. Las actualizaciones recientes han integrado la corrección de color Deep Histogram y mejorado la compatibilidad con los modelos FLUX.1 mediante ComfyUI Manager.",
+ "id": "n-1b11977658",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Se considera una alternativa más rápida y más fácil de usar que Ultimate SD Upscale para las mejoras diarias de imagen de 1.5x–4.0x.",
+ "source_sha256": "2b8adc161436bd014bbb7b789d21c05970f84dba1d457bcde2de587610165dc4",
+ "summary": "Un nodo personalizado completo para ComfyUI que simplifica el proceso de corrección de alta resolución al consolidar varios pasos de escalado en una sola interfaz. Incluye procesamiento VAE por mosaicos y corrección de color para evitar errores OOM y la desaturación durante el escalado en espacio latente.",
+ "title": "ComfyUI Hires Fix Ultra: nodo todo en uno",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

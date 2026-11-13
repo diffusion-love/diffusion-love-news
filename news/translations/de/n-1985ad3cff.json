@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Nach der Veröffentlichung im April 2026 war das Projekt Gegenstand eines aufsehenerregenden Sicherheitsvorfalls: Ein bösartiger Klon im Typosquatting-Stil (Open-OSS/privacy-filter) stieg auf Hugging Face auf Platz 1 und wurde erst danach entfernt. Für lokales PII-Masking als Open-Source-Standard gilt weiterhin das offizielle OpenAI-Modell.",
+ "id": "n-1985ad3cff",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Unter der Apache-2.0-Lizenz veröffentlicht; speziell dafür ausgelegt, Unternehmen dabei zu helfen, Anforderungen an die Datenresidenz einzuhalten, indem sensible Daten lokal verarbeitet werden.",
+ "source_sha256": "4e091f05210aa7b7e6a1509fe09ce9b000e3e43cdb80ed4d08460cb2c9adb35a",
+ "summary": "Ein Open-Weight-Modell für bidirektionale Token-Klassifikation mit 1.5B Parametern, das für die lokale Erkennung und Schwärzung personenbezogener Daten (PII) entwickelt wurde. Es unterstützt ein Kontextfenster von 128,000 Tokens und ist für hohen Durchsatz bei On-Premises-Einsatz oder Ausführung im Browser über transformers.js optimiert.",
+ "title": "OpenAI Privacy Filter: Modell zur lokalen Schwärzung von PII",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

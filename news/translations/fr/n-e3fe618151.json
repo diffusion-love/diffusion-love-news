@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Publié initialement en avril 2026, le projet a rapidement atteint un jeu de données de 1.4 million d'images avec des workflows ComfyUI officiels. Il sert aujourd'hui d'outil fondamental de curation de styles pour les écosystèmes de modèles Hunyuan et FLUX de Tencent.",
+ "id": "n-e3fe618151",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Publié sous ArXiv:2604.08364 ; utilise Qwen-Image pour une correspondance de style cohérente et prend en charge le découplage automatisé style-contenu.",
+ "source_sha256": "5ec28d2339fe03923a5bd2a8032cac856f4bef9dd39537cf1b4093c3b041d1d8",
+ "summary": "Un cadre automatisé de curation de données et un jeu de données de 1.4M d'images pour le transfert de style artistique précis dans les modèles de diffusion. Il s'appuie sur des modèles vision-langage pour dissocier le style du contenu, ce qui permet de générer des bibliothèques de styles cohérentes.",
+ "title": "MegaStyle : pipeline de curation de styles artistiques à grande échelle",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

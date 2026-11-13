@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "由 VLM-3R 研究脉络（2025 年 5 月）演化而来，发展为专门用于几何空间推理的框架。2026 年 3 月，它发布了统一的代码和模型权重，并引入掩码与自适应融合机制，在空间基准测试中取得了最先进的性能。",
+ "id": "n-1b0490d011",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "具有面向静态 3D 场景和动态单目视频的专门分支。在 VSI-Bench 和 DSR-Bench 上创下了新的 SOTA 成绩。",
+ "source_sha256": "598205f98406c31c1c2187021c4f588785bca964041eaec1713000b79953dc60",
+ "summary": "GeoSR 是一个旨在增强视觉语言模型空间推理能力的框架，通过融合 3D 几何线索实现这一目标。它采用“几何解放”掩码和门控融合，防止模型在静态和动态环境中依赖 2D 视觉捷径。",
+ "title": "GeoSR：面向 VLM 的几何空间推理",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

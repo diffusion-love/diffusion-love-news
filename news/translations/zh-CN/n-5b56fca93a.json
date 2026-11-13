@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "将此前独立的 TDT 离线架构与专用流式架构统一到单一模型中，可动态切换。它延续了 Parakeet-TDT-0.6b 系列，WER 显著改善，部署效率也更高。",
+ "id": "n-5b56fca93a",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 H100 GPU 上实时因子最高可达 3000x，延迟低至 160ms；支持原生标点和大小写。",
+ "source_sha256": "4e1ab6a9b3dd09f0368cf6136be5a823e35f8cb19205c64b113a3348778c0581",
+ "summary": "一个 600-million 参数的自动语音识别模型，统一了离线批处理与实时流式转录。它采用 Unified-FastConformer-RNNT 架构，在多样的音频任务中实现高准确率和低延迟。",
+ "title": "NVIDIA Parakeet-unified-en-0.6b 统一 ASR 模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

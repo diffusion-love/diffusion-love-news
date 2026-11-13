@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Reste l'état de l'art pour sa classe de paramètres en matière de raisonnement agentique. L'écosystème s'est élargi aux formats GGUF et MLX pour une inférence locale efficace sur le matériel grand public et les puces Apple Silicon.",
+ "id": "n-9af7222826",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Obtient un score de 84.8 sur ClawBench, presque équivalent à celui de Kimi K2.5 et de GLM-4.5, malgré sa taille compacte.",
+ "source_sha256": "dc929f0359d93cf73418d61f69b3e61a21f18b2ef6760477c759f91fe939020a",
+ "summary": "Un modèle de 4 milliards de paramètres à l'état de l'art, optimisé pour le raisonnement en plusieurs étapes et l'appel d'outils. Il s'appuie sur des trajectoires de tâches agentiques sélectionnées pour égaler les performances de modèles nettement plus grands sur des benchmarks spécialisés.",
+ "title": "QClaw-4B : modèle de langage compact pour les tâches agentiques",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

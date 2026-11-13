@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "经验证的代码仓库版本支持扩展后的以 Klein 9B 为核心的工作流，最多可使用 8 个参考图、蒙版以及明确的中性直通控制；其效果尚未经过独立基准测试。",
+ "id": "n-4541890dcb",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "c62bf4e842ca2b506083ddb692392b69827e813bad861276005b96bc80eaa777",
+ "summary": "经验证的代码仓库版本支持扩展后的以 Klein 9B 为核心的工作流，最多可使用 8 个参考图、蒙版以及明确的中性直通控制；其效果尚未经过独立基准测试。",
+ "title": "Flux2Klein Enhancer 实现扩展的多参考实现",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

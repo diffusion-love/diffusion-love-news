@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Passé de la numérisation mobile expérimentale à une solution professionnelle de conversion 3DGS vers maillage d'ici 2026. La version 3.0 introduit la préservation des détails fins, une meilleure stabilité des surfaces et des outils de mise à l'échelle intégrés pour les flux d'impression 3D.",
+ "id": "n-9db878fd06",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "A introduit la première implémentation mobile de la conversion 3DGS vers maillage ; elle comprend la prédiction des normales et la suppression des reflets.",
+ "source_sha256": "90da1914704be363495e7b9f83dc7213d0f86f67fd6bd27c1fe407d6c99fd7ca",
+ "summary": "Une plateforme mobile de numérisation 3D qui convertit des captures vidéo et photo en Gaussian Splats et en maillages polygonaux haute fidélité. Elle fournit un pipeline spécialisé pour transformer les données 3DGS en actifs éditables et prêts pour la production.",
+ "title": "KIRI Engine : du Gaussian Splatting au maillage",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

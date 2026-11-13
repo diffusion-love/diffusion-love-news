@@ -1,0 +1,11 @@
+{
+ "id": "n-2988748edd",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Selecciona una tarea de evaluación XR del repositorio de benchmarks, proporcionando al agente de programación la especificación en lenguaje natural y el andamiaje de proyecto editable.\n\nDespliega el agente de programación para generar la aplicación, añadir las funciones solicitadas o reparar errores espaciales dentro del andamiaje.\n\nEjecuta la aplicación resultante en el arnés de pruebas del benchmark, en hardware XR de consumo o en un simulador, mediante secuencias de interacción automatizadas, guionizadas y adaptativas.\n\nRecoge los resultados de la evaluación mediante aserciones programáticas y verificación visual para calcular el rendimiento global de Pass@1.\n\nEvalúa los agentes de programación XR frente a interacciones multimodales continuas y aserciones visuales, en lugar de frente a diffs de código estáticos o pruebas unitarias de funciones puras.\n\nDiseña los prompts y las APIs de herramientas de los agentes para tener en cuenta explícitamente los ciclos de vida asíncronos de los sensores y los sistemas de coordenadas espaciales.",
+ "source_sha256": "43f360e65305c4e6a1b30dfc9a00c6da55d94a4ba2b7f391e8f673db85420268",
+ "summary": "Investigadores han publicado GenXR-Bench en arXiv, un marco de evaluación con 112 tareas expertas de generación de aplicaciones, implementación de funciones y reparación de errores para evaluar agentes de programación en la computación espacial 3D interactiva; los modelos evaluados con mejor resultado alcanzaron un 50.9% de Pass@1.",
+ "title": "GenXR-Bench se anuncia en arXiv para evaluar agentes de programación en desarrollo XR interactivo",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

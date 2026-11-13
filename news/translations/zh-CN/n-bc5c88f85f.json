@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026 年 4 月作为 V3 的继任者推出，引入了流形约束超连接（mHC）和 FP4 量化感知训练。它代表了 DeepSeek 系列最新的旗舰演进版本。",
+ "id": "n-bc5c88f85f",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "针对自主编程和复杂智能体工作流进行了优化；与前几代相比，仅使用 10% 的 KV 缓存。",
+ "source_sha256": "9811061d275b49d9c8326f187b09e67242bc3be7598c4dc015cc607641e44151",
+ "summary": "DeepSeek-V4-Pro 是一款 1.6 万亿参数的混合专家（MoE）模型，于 2026 年 4 月发布，面向高性能推理和智能体任务。它具有原生的 1M 令牌上下文窗口，并通过混合注意力实现了极高的架构效率。",
+ "title": "DeepSeek-V4-Pro：万亿级旗舰混合专家模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

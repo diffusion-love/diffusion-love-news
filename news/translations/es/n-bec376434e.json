@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Aceptado en ICASSP 2026 y publicado oficialmente en abril de 2026, TinyMU demuestra que una supervisión de alta calidad y codificadores especializados pueden sustituir a una escala masiva de parámetros. La investigación evolucionó hacia un preentrenamiento de grano fino con FineLAP y MeanAudio a finales de 2026.",
+ "id": "n-bec376434e",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Entrenado con el conjunto de datos MusicSkills-3.5M; supera a predecesores más grandes como MusiLingo y Audio-Flamingo en benchmarks de razonamiento musical.",
+ "source_sha256": "1c19f65994bf545625c3383173a7c6a9cd55135e64252302a1a7e6a883dae6e1",
+ "summary": "TinyMU es un modelo eficiente de 229M parámetros diseñado para la comprensión musical profunda; alcanza el 82% del rendimiento SOTA siendo 35x más pequeño que los modelos principales. Aprovecha el codificador de audio MATPAC++ y el conjunto de datos MusicSkills-3.5M para ofrecer un razonamiento musical de grano fino.",
+ "title": "TinyMU: modelo compacto audio-lenguaje para la comprensión musical",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

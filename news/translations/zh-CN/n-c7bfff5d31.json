@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026 年 4 月 2 日发布，标志着许可转向 Apache 2.0。2026 年 5 月，Google 为所有尺寸推出了多令牌预测（MTP）草稿模型，推理速度提升 3 倍。该系列现已原生集成到 Android AICore 中，以提供系统级的隐私优先功能。",
+ "id": "n-c7bfff5d31",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "引入了用于内部思维链的“Thinking”模式，并在所有模型尺寸上原生支持文本、图像、视频和音频输入。",
+ "source_sha256": "00f08241f46f5db9ca30412b80ece104359f9a50047404d43720111128e403c0",
+ "summary": "Gemma 4 是一系列原生多模态开放模型，参数量从 2B 到 31B 不等，针对端侧执行和高吞吐量的智能体工作流进行了优化。它具备可切换的思考模式以处理复杂推理，并以完全开放的 Apache 2.0 许可证发布。",
+ "title": "Gemma 4：Google 的多模态开放模型系列",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

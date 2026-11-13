@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "Der Nachrichtenbeitrag beschrieb einen steuerbaren Video-Welt-Generator mit 2.6B Parametern, der aus einem Bild und einer Kameratrajektorie bis zu eine Minute 720p-Video auf einer einzigen GPU erzeugt.",
+ "id": "n-c185396a2b",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "cf0ae1d8355f9e18ff1fe70960a68915180cd8966445bf84b7b5a3516cf946b3",
+ "summary": "Der Nachrichtenbeitrag beschrieb einen steuerbaren Video-Welt-Generator mit 2.6B Parametern, der aus einem Bild und einer Kameratrajektorie bis zu eine Minute 720p-Video auf einer einzigen GPU erzeugt.",
+ "title": "NVIDIA veröffentlicht SANA-WM",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

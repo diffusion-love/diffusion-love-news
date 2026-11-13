@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Von einem einfachen Diktierwerkzeug für den Mac entwickelte sich das Produkt zu einem plattformübergreifenden agentischen Ökosystem mit tiefer Integration lokaler und Cloud-LLMs. Hinzugefügt wurden „Modes“ für aufgabenspezifische Formatierung sowie SOC-2/HIPAA-Konformität für den Unternehmenseinsatz.",
+ "id": "n-08bc14aa3d",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Unterstützt Offline-Verarbeitung auf Apple Silicon sowie Bring Your Own Key (BYOK) für Modelle wie GPT-5.5 und Claude 4.7.",
+ "source_sha256": "b2549600b48d47afb3eba03f7e81c62fde2b73ea8706cf3df97755f99001f9ac",
+ "summary": "Ein offline-first arbeitendes KI-Transkriptionswerkzeug, das Whisper-Modelle nutzt, um Sprache auf mehreren Plattformen in Text umzuwandeln. Es bietet anpassbare Modi und agentische Workflows, um Texte mithilfe lokaler oder Cloud-LLMs in bestimmte Formate zu überarbeiten.",
+ "title": "Superwhisper: Universelle KI-Spracherkennung für Desktop und Mobilgeräte",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

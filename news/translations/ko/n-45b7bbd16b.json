@@ -1,0 +1,11 @@
+{
+ "id": "n-45b7bbd16b",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "RAW는 학습과 LoRA의 기반이 되었고, Turbo는 text-to-image용 8단계 checkpoint입니다.",
+ "source_sha256": "6a6502b83ff51964b8ec7bddd96c36306bd1b59c3899ba45055825a8330b0d2f",
+ "summary": "2026-06-23, 수집된 링크 집합은 Krea AI 소셜 게시물을 커뮤니티가 호스팅하는 Krea 2 Base, Turbo, FP8 라벨이 붙은 아티팩트, 문서 및 ComfyUI 풀 리퀘스트와 연결했습니다. 이는 다음 날 연결된 공식 문서 세트에 앞서 Krea 2 주변의 공개 구현 생태계가 등장했음을 기록합니다. 원본 페이지와 게시물은 독립적으로 조사되지 않았으므로, 정확한 기능, 상태, 저작 관계는 검증되지 않은 상태로 남아 있습니다.",
+ "title": "Krea 2의 초기 커뮤니티 도구와 모델 아티팩트 등장",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

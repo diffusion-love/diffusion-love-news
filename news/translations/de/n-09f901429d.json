@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Nach der Veröffentlichung von Stream-R1 führte FrameX-AI Stream-T1 ein, ein spezialisiertes Framework mit Fokus auf Test-Time Scaling (TTS), das die zeitliche Konsistenz und die Behandlung komplexer Bewegungen ohne Neutraining der Basisgewichte verbessert.",
+ "id": "n-09f901429d",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erreicht eine 30-fache Beschleunigung gegenüber dem ursprünglichen Wan2.1 bei gleichzeitig hohen VBench-Werten; entwickelt von FrameX-AI in Zusammenarbeit mit der USTC.",
+ "source_sha256": "b90b32044585775326322f494094d6be1af187ff1162ade5a97414b6f0ae4401",
+ "summary": "Stream-R1 ist ein beschleunigtes Videogenerierungsmodell, destilliert aus Wan2.1, das eine Echtzeitleistung von 23.1 FPS erreicht. Es nutzt Reward-Guided Distribution-Matching Distillation (DMD), um sein Lehrermodell sowohl in der visuellen Qualität als auch in der Textausrichtung zu übertreffen.",
+ "title": "Stream-R1: Echtzeit-Videodestillation mit Reward-Steuerung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

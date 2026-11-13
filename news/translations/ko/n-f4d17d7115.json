@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "DECKARD HERETIC 같은 ‘Thinking’ 변형으로 발전했으며, 이 변형들은 검열 없는 상태를 유지하면서 강화된 사고 연쇄(chain-of-thought) 추론을 제공합니다. HERETIC 프로세스 자체는 2026년 중반까지 1.2.0 버전에 도달했습니다.",
+ "id": "n-f4d17d7115",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "‘nanny-free’ 동작으로 로컬 LLM 커뮤니티에서 매우 인기가 많으며, LM Studio나 llama.cpp 같은 GGUF 호환 추론 도구가 필요합니다.",
+ "source_sha256": "eb2aadd0d861b24dbeaeb9858d4d477ce266929cdc620af5c39a7e563abf8aac",
+ "summary": "Google Gemma 4 모델의 제한 없는 버전으로, HERETIC abliteration 방법으로 수정되어 안전 가드레일과 거부 방향(refusal directions)을 무력화했습니다. AI의 훈계나 필터링 없이 창작 글쓰기와 롤플레이에 최적화되어 있습니다.",
+ "title": "Gemma 4 E4B Heretic 검열 없음",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

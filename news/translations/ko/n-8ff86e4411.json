@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2025년 중반 연구 논문으로 등장한 후, 이 프로젝트는 3DV 2026에 채택되었고, 2026년 3월에 공식 소스 코드와 사전 학습된 가중치가 공개되었습니다. 현재 이전의 반복형 확산 기반 입체 방법보다 상당히 빠른 것으로 인정받고 있습니다.",
+ "id": "n-8ff86e4411",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "단일 단계 순방향 예측 아키텍처를 사용합니다. 공간 및 시간 스티칭 기법을 통해 고해상도 출력을 지원합니다.",
+ "source_sha256": "15577e8128474a86376eb9107919233b060be4a793edd40a7fbee97ef051aa2e",
+ "summary": "M2SVid는 2D 단안 비디오를 입체 3D로 변환하는 Google Research 프로젝트입니다. Stable Video Diffusion을 기반으로 한 조건부 잠재 확산 모델을 활용하여, 높은 시간적 일관성으로 누락된 오른쪽 눈 시점을 생성합니다.",
+ "title": "M2SVid: 단안-입체 비디오 변환",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

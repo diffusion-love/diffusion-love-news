@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Aufgerüstet vom bisherigen Modell mit 2B Parametern auf ein DiT-Backbone mit 4B Parametern, mit XL-Base, XL-SFT für Qualität und XL-Turbo für die beschleunigte Generierung in 8 Schritten.",
+ "id": "n-b9e02bd01a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Unter der MIT-Lizenz veröffentlicht und auf rechtlich unbedenklichen Datensätzen trainiert; bietet eine offizielle ComfyUI-Integration für knotenbasierte Workflows.",
+ "source_sha256": "e869f9d71ce55af4f7502317e120d1d5bfceabc4bb18a8b6cf421d4e6e0557fa",
+ "summary": "Ein quelloffenes Framework zur Musikgenerierung mit einer Diffusion-Transformer-Architektur (DiT) mit 4B Parametern für hochwertige Audiosynthese. Es nutzt ein hybrides Sprachmodell für die Planung von Songbauplänen und unterstützt vollständige Kompositionen von bis zu 10 Minuten in über 50 Sprachen.",
+ "title": "ACE-Step 1.5 XL: Musikgenerierung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

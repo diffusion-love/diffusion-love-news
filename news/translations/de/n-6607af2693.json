@@ -1,0 +1,10 @@
+{
+ "id": "n-6607af2693",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "7d9b2d8109b5572bc3abcfa0257a03e8ae3f385439e5d337d71597e287baae07",
+ "summary": "Am 2026-06-19 erfasste die Entwicklungslinie TSANTSALIZE den Link zum Hugging-Face-Repository https://huggingface.co/TheBurgstall/tsantsalize. Dies gilt als wesentlicher Meilenstein der öffentlichen Verfügbarkeit des Modells, während die gesicherten Belege weder Version, Fähigkeiten noch Veröffentlichungsdetails des Modells belegen.",
+ "title": "TSANTSALIZE: Hugging-Face-Modellressource erfasst",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

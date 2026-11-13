@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이 모델은 Blackwell GPU에서의 네이티브 NVFP4 하드웨어 가속으로의 전환을 나타내며, GPT-4급 추론을 로컬에서 실행할 수 있게 합니다. 전용 드래프터 모델을 통한 추측 디코딩을 지원하여 처리량이 4배 향상됩니다.",
+ "id": "n-5ac53c2267",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "네이티브 지원에는 세분화된 블록 스케일링을 위한 NVIDIA Blackwell(RTX 5000 시리즈) 텐서 코어가 필요합니다. Hopper 같은 이전 아키텍처는 vLLM을 통한 소프트웨어 에뮬레이션이 필요합니다.",
+ "source_sha256": "1164adf3444e2f960cc75acb56722bc746c35620e94949d7b79fcd14b09ff1cd",
+ "summary": "Google의 Gemma-4-31B-IT LLM을 NVIDIA가 Blackwell 아키텍처에 맞게 최적화한 공식 4비트 부동소수점(NVFP4) 양자화 버전입니다. 거의 완전한 정확도를 유지하면서 소비자 하드웨어에서 고효율 256K 컨텍스트 처리를 가능하게 합니다.",
+ "title": "NVIDIA Gemma-4-31B-IT NVFP4 양자화 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

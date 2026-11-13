@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Développé à partir d'un prototype antérieur de 7B basé sur LLaVA, pour corriger les échecs spatiaux de modèles comme GPT-4V. Il sert désormais de référence de base pour l'édition d'images tenant compte de la 3D et le maintien de la cohérence dans les modèles de génération vidéo.",
+ "id": "n-3fedc168df",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Utilise le jeu de données synthétique SpatialEdit-500K pour l'entraînement et introduit SpatialEdit-Bench pour mesurer la fidélité géométrique et la plausibilité perceptuelle.",
+ "source_sha256": "66160c8ad3b62ddfd9aa20c06d961234d9f057893c488c158cdbc06d76dfc655",
+ "summary": "Un modèle de recherche multimodal conçu pour des manipulations géométriques précises d'images, permettant de déplacer, faire pivoter ou mettre à l'échelle des objets et d'ajuster les points de vue de caméra avec une grande précision mathématique. Il intègre un encodeur multimodal Qwen3-VL à un décodeur de diffusion MM-DiT pour un raisonnement spatial de pointe.",
+ "title": "SpatialEdit-16B : édition spatiale fine d'images",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "从先前的 2B 参数模型升级为 4B 参数的 DiT 主干，并推出了面向质量的 XL-Base、XL-SFT，以及用于 8 步加速生成的 XL-Turbo。",
+ "id": "n-b9e02bd01a",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "以 MIT 许可证发布，训练数据符合法律合规要求；提供官方 ComfyUI 集成，支持基于节点的工作流。",
+ "source_sha256": "e869f9d71ce55af4f7502317e120d1d5bfceabc4bb18a8b6cf421d4e6e0557fa",
+ "summary": "一个开源音乐生成框架，采用 4B 参数的扩散 Transformer（DiT）架构，用于高保真音频合成。它使用混合语言模型进行歌曲蓝图规划，支持最长 10 分钟、50 多种语言的完整作品。",
+ "title": "ACE-Step 1.5 XL 音乐生成",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

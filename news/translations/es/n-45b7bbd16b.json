@@ -1,0 +1,11 @@
+{
+ "id": "n-45b7bbd16b",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "RAW se convirtió en la base para el entrenamiento y para LoRA; Turbo es un checkpoint de 8 pasos para text-to-image.",
+ "source_sha256": "6a6502b83ff51964b8ec7bddd96c36306bd1b59c3899ba45055825a8330b0d2f",
+ "summary": "El 23 de junio de 2026, el conjunto de enlaces recopilado asoció una publicación social de Krea AI con artefactos de Krea 2 Base, Turbo y etiquetados como FP8, alojados por la comunidad, junto con documentación que los acompaña y una pull request de ComfyUI. Esto documenta la aparición de un ecosistema público de implementación en torno a Krea 2, antes del conjunto de documentación oficial enlazado al día siguiente. Las páginas de origen y la publicación no se investigaron de forma independiente, por lo que sus capacidades exactas, su estado y su autoría siguen sin verificarse.",
+ "title": "Aparecen las primeras herramientas comunitarias y artefactos del modelo Krea 2",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

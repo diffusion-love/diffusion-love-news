@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Après la sortie du modèle VOID de Netflix en avril 2026, ce projet est passé d'un portage bêta à un ensemble de nœuds affiné. Les mises à jour communautaires ont introduit une quantification FP8 pour une prise en charge des 24GB de VRAM et une cohérence temporelle améliorée grâce à des pipelines en deux passes.",
+ "id": "n-08ae804484",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "A introduit le système quadmask pour l'inpainting tenant compte de la physique ; largement utilisé comme point d'entrée principal de VOID dans l'écosystème ComfyUI.",
+ "source_sha256": "f11cd38825564e3a3d7a8bf959bebe7f367b4cccd1952168e2fcb29561475f34",
+ "summary": "Une implémentation ComfyUI du modèle VOID de Netflix, conçue pour l'inpainting vidéo avancé. Il supprime les objets ainsi que leurs interactions physiques, comme les ombres et les reflets, à l'aide d'un système quadmask unique.",
+ "title": "AP Netflix VOID — nœuds ComfyUI pour la suppression d'objets vidéo",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

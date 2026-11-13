@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Dieses Modell markiert den Übergang zur nativen NVFP4-Hardwarebeschleunigung auf Blackwell-GPUs, die lokal Reasoning auf dem Niveau von GPT-4 ermöglicht. Es unterstützt spekulatives Decoding über eigene Drafter-Modelle für einen vierfach höheren Durchsatz.",
+ "id": "n-5ac53c2267",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Die native Unterstützung erfordert NVIDIA-Blackwell-Tensorkerne (RTX-5000-Serie) für feinkörnige Block-Skalierung; ältere Architekturen wie Hopper benötigen Software-Emulation über vLLM.",
+ "source_sha256": "1164adf3444e2f960cc75acb56722bc746c35620e94949d7b79fcd14b09ff1cd",
+ "summary": "Eine offizielle 4-Bit-Gleitkomma-(NVFP4)-quantisierte Version des LLM Gemma-4-31B-IT von Google, von NVIDIA für die Blackwell-Architektur optimiert. Sie behält nahezu die volle Genauigkeit bei und ermöglicht eine effiziente Verarbeitung mit 256K Kontext auf Consumer-Hardware.",
+ "title": "NVIDIA Gemma-4-31B-IT NVFP4: quantisiertes Modell",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

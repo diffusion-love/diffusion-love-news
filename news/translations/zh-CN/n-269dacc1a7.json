@@ -1,0 +1,11 @@
+{
+ "id": "n-269dacc1a7",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "安装或打开 OpenCode 终端开发环境。\n\n从可用的编程模型选项中选择 GLM-5.3-Flash。\n\n在零保留隐私政策下，于 200K 词元上下文限制内分派编码、工具调用或视觉分析任务。\n\n将智能体工作上下文限制在 200K 词元以内，以保持在免费档位限额之内，并避免在长时间的代码仓库会话中出现上下文截断。\n\n围绕原生工具调用和多模态输入构建智能体工作流，而非仅依赖文本补全，以利用模型专门的 MoE 激活路由。",
+ "source_sha256": "8b3f49fd892bf9a419afd1da795d0245ad6ed07dc5f1bb4745c8bd82ef6c724f",
+ "summary": "OpenCode 为智谱的 GLM-5.3-Flash 混合专家模型开通了限时免费访问，面向编码和智能体工作流。此次发布提供来自 320B 总参数的 18B 激活参数、图像与工具执行、200K 词元上下文窗口，以及对请求数据的零保留。",
+ "title": "OpenCode 提供 GLM-5.3-Flash 限时免费访问",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

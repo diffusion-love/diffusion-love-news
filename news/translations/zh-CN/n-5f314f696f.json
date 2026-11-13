@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "该新闻稿描述了最长 15 分钟的音乐分析、描述、结构与混音问题解答、乐器与流派识别、多语言歌词转录以及文化语境。",
+ "id": "n-5f314f696f",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "fe113cc02c19a85502f3ac64664ec0a35be605a5784b2b00c50339c3546a4ce1",
+ "summary": "该新闻稿描述了最长 15 分钟的音乐分析、描述、结构与混音问题解答、乐器与流派识别、多语言歌词转录以及文化语境。",
+ "title": "Music Flamingo 面向长篇音乐理解",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

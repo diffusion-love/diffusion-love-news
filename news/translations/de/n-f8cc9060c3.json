@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "Der Nachrichtenbeitrag meldete die Veröffentlichung des SANA-Codes und einer 1.6B-Demo mit 1024px, während die Integrationen für Diffusers und ComfyUI noch ausstanden.",
+ "id": "n-f8cc9060c3",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "b6f699fc867d8df1c52dd42ff2fa13d610b0d7ae59a1bc735d7a3bc85bc0fb93",
+ "summary": "Der Nachrichtenbeitrag meldete die Veröffentlichung des SANA-Codes und einer 1.6B-Demo mit 1024px, während die Integrationen für Diffusers und ComfyUI noch ausstanden.",
+ "title": "Der SANA-Code ist veröffentlicht",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

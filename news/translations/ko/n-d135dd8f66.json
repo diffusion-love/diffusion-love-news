@@ -1,0 +1,11 @@
+{
+ "id": "n-d135dd8f66",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Kimi 웹 애플리케이션, Kimi Work 또는 Kimi Code를 통해 모델과 대화형으로 접근하십시오.\n\n표준 추론을 위해서는 Moonshot Open Platform API로 kimi-k3.1-pro 모델 엔드포인트를 호출하십시오. 요금은 백만 토큰당 입력 $2, 출력 $10입니다.\n\n토큰 단가가 두 배인 대신 생성 속도가 2~3배 빠른 워크로드에는 Highspeed API 변형을 선택하십시오.\n\n1M 토큰 컨텍스트 윈도우를 활용해 여러 파일로 이루어진 전체 코드베이스와 복잡한 CAD/3D 에셋 구성을 하나의 세션에 입력하십시오.\n\nUnreal Engine, Unity, Godot 또는 Three.js로 절차적 생성을 요청할 때는 대상 엔진과 스크립트 규칙을 구체적으로 지정하십시오.\n\n처리량이 많고 지연에 민감한 대화형 작업은 Highspeed 엔드포인트로 보내고, 복잡한 오프라인 추론은 추론 비용을 관리하기 위해 표준 등급에 두십시오.",
+ "source_sha256": "6003cc3c2c03b67ddcd612f7b608ea76dff11fa515dd636f90651b2e31287db3",
+ "summary": "Moonshot이 3D, 코딩, 금융 전반에 걸친 광범위한 도메인 강화학습을 적용한 Kimi K3.1 Pro 리프레시를 출시했습니다.",
+ "title": "Moonshot, 공개 예정 일정과 함께 Kimi K3.1 Pro 리프레시 출시",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

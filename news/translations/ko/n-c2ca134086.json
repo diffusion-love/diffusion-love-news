@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Baidu는 2026년 4월 Apache 2.0 라이선스로 모델 가중치를 공개하며 오픈소스 접근성 쪽으로 전략적 전환을 알렸습니다. 이후 Diffusers 라이브러리에서 네이티브 지원을 얻었고, ComfyUI 통합도 폭넓게 이루어졌습니다.",
+ "id": "n-c2ca134086",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "인포그래픽이나 스토리보드 같은 복잡한 레이아웃 생성 능력과 업계 최고 수준의 텍스트 렌더링 성능으로 널리 알려져 있습니다.",
+ "source_sha256": "129a59d19efb9e6d1572a1e74aaeadf23052bdd1fd2097154890bb393ee1d9ba",
+ "summary": "Baidu가 Diffusion Transformer(DiT) 아키텍처를 기반으로 만든 8B 파라미터 텍스트-이미지 모델입니다. Distribution Matching Distillation(DMD)과 강화 학습을 활용해 단 8회 추론 단계만으로 고충실도 이미지를 생성합니다.",
+ "title": "ERNIE-Image-Turbo 8B 오픈 웨이트 Diffusion Transformer",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

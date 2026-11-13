@@ -28,6 +28,12 @@
   "summary": "这是对 Qwen3.6-27B 模型的一个高性能 3-bit MLX 量化版本，专为 Apple Silicon 用户优化。它采用混合精度策略，在速度与智能之间取得平衡，使大规模推理能够在 16GB 内存的硬件上运行。",
   "title": "Qwen3.6-27B-3bit-mlx"
  },
+ "n-01b786ce9f": {
+  "evolution_summary": "发布了一个大规模数据集，包含 400 万帧连续的 AAA 游戏画面，并附带同步的 G-buffer 标签。该框架建立了双向渲染管线，在时间稳定性和真实场景泛化方面优于既有方法。",
+  "research_notes": "由 Shanda AI Research Tokyo 开发。采用一种新颖的基于 VLM 的评估协议，在没有真值的情况下衡量语义和空间一致性。",
+  "summary": "一个 AI 原生框架，利用视频扩散模型统一正向与逆向渲染。它从游戏视频中提取 3D 几何数据，并支持通过文本提示进行高保真场景编辑。",
+  "title": "AlayaRenderer：面向 AAA 游戏的生成式世界渲染器"
+ },
  "n-02cbd28ee8": {
   "summary": "2026-06-28，记录的链接指向 OpenMontage GitHub 仓库。已封存的证据中不包含源文本、仓库快照、发布记录或代码变更描述，因此这里记录的是该公开仓库的引用，而非某个具体的实现里程碑。",
   "title": "OpenMontage GitHub 仓库被引用"
@@ -47,6 +53,10 @@
  "n-02ff6518d6": {
   "summary": "2026 年 6 月 29 日，Anti-Vocale 的开发记录中包含一个指向其公开 GitHub 仓库的链接。该带日期的链接确立了项目仓库的引用关系，但并未指明具体的发布版本、提交、功能或其他变更。",
   "title": "Anti-Vocale 公开 GitHub 仓库被引用"
+ },
+ "n-033632d8e0": {
+  "summary": "2026-07-16，Kimi K3 的开发线通过带日期的 Kimi 链接引用了 Kimi Code。这表明 Kimi K3 相关的开发步骤偏向代码方向，但现有证据并未确定具体能力、发布状态或范围。拟议的历史事件仍需人工确认。",
+  "title": "Kimi K3 与 Kimi Code 相关联"
  },
  "n-038f2eebc4": {
   "summary": "2026年8月10日，该日期记录将 Video-DeepResearch 项目页面与其 GitHub 代码仓库关联起来。这是该项目开发历程中一个重要的公开参考节点。现有证据并不能证实该日期存在版本发布、功能集或具体代码变更。",
@@ -72,6 +82,11 @@
   "research_notes": "在智能体编程（SWE-bench 73.4%）和数学（AIME 2026 92.6%）方面，该模型位居顶级开放权重模型之列；采用 Apache 2.0 协议发布。",
   "summary": "一款开放权重的多模态模型，总参数量为 35B，激活参数量为 3B，采用稀疏混合专家（Mixture-of-Experts，MoE）架构。该模型针对智能体编程和数学进行了优化，并采用混合线性注意力机制，以实现高效的长上下文推理。",
   "title": "Qwen3.6-35B-A3B：阿里巴巴推出的多模态稀疏 MoE 模型"
+ },
+ "n-046d02af9f": {
+  "research_notes": "将该扩展克隆到 ComfyUI/custom_nodes 中，并使用运行 ComfyUI 的 Python 环境安装其依赖。\n\n从维护者链接的模型仓库下载编码器和解码器 ONNX 文件，若提供了配套的 .data 文件也一并下载。将它们放入 ComfyUI/models/vae 中。\n\n使用 MiniMax-H3 TRT VAE Compiler 构建引擎，然后用 MiniMax-H3 TRT VAE Loader 加载。\n\n显存低于 12GB 时，维护者建议使用 w4a16_awq 解码器。这只是作者的建议，并不保证完整视频工作流能在你的 GPU 上运行。\n\n在目标分辨率下比较相同的 latent，并将 VAE 解码时间与总生成时间分开测量。独立测试显示，在 768p 下的提速远小于 2.0MP 下的提速。",
+  "summary": "ComfyUI-H3VAE_TRT 为 MiniMax-H3 的 VAE 编码与解码提供了第三方 TensorRT 方案。其维护者报告称，该阶段的速度最高可提升 1.7x，但这并非完整视频生成的速度。该节点包独立于 ComfyUI 核心和 MiniMax-H3 模型。",
+  "title": "面向 ComfyUI 中 MiniMax-H3 工作流的 TensorRT VAE 节点"
  },
  "n-047f61d312": {
   "evolution_summary": "从基础的自动化脚本演进为专门的智能体技能，具备本地优先渲染、自动去除填充词的功能，并通过 HyperFrames 和 Remotion 支持程序化叠加效果。",
@@ -102,6 +117,12 @@
   "summary": "2026年8月13日，有内容引用了 Rest2Art 的公开项目网站和 GitHub 代码仓库链接。这是一份具有实质意义的公开开发记录，因为它确立了该项目及其源代码在特定日期的公开入口。本提案不会仅根据这些链接推断该项目的功能、发布状态或实现细节。",
   "title": "Rest2Art 项目网站和源代码仓库已公开分享"
  },
+ "n-0588f1e672": {
+  "evolution_summary": "自 2026 年初以匿名身份首次亮相以来，Happy Horse 已从排行榜上的谜团转变为阿里巴巴 AI 战略的核心。它引入了原生 4K 生成、多镜头一致性，并公布了 150 亿参数开源版本的路线图。",
+  "research_notes": "采用统一的 Transformer 架构，同时处理音频和视频词元；借助 DMD-2 蒸馏实现 8 步生成，从而获得较高速度。",
+  "summary": "来自阿里巴巴未来生活实验室（Future Life Lab）的高性能 AI 视频生成器，可在单流 Transformer 中原生合成同步音频与电影级视频。凭借其卓越的照片级真实感和口型同步精度，目前在 Artificial Analysis Video Arena 中位居榜首。",
+  "title": "Happy Horse 1.0：统一的视频生成模型"
+ },
  "n-05ec9a95a1": {
   "summary": "2026-07-24，Fugu-Ultra 1.1 被记录并附有 Sakana AI Fugu 项目页面的链接。这一信息对该项目的开发历程具有参考价值，因为它是指向项目官方资源的带日期参考。现有封存证据并未确定该参考所对应的具体发布、研究或产品行动。",
   "title": "Fugu-Ultra 1.1 项目参考"
@@ -118,6 +139,12 @@
  "n-0627ff22c0": {
   "summary": "2026 年 3 月 22 日，该记录登记了一个指向 LTX-2 Caption Tool 的 Civitai 模型版本的链接。该带日期的链接是该项目重要的可获取性参考，但现有证据无法确定该模型版本的发布日期、作者、功能或变更内容。",
   "title": "LTX-2 Caption Tool Civitai 模型版本已记录"
+ },
+ "n-0646f210ee": {
+  "evolution_summary": "DALL-E 3 已被 GPT-4o 取代，后者将图像视为原生词元，图像到图像的一致性更佳。微软还通过 Windows 11 画图中的“Cocreator”功能将该技术直接集成进来。",
+  "research_notes": "这一潮流由韩国用户于 2026 年初在 Threads 上推广开来；人们常称其为“世上最琐碎的提示词”，因为它耗费大量算力生成 8-bit 风格的艺术作品。",
+  "summary": "一种针对 ChatGPT 和 DALL-E 的病毒式提示技巧，可将高质量的上传照片转换为粗糙、低保真的素描，模仿经典 MS Paint 的风格。",
+  "title": "用于照片风格化的 MS Paint 风格 DALL-E 提示词"
  },
  "n-0663ce9db2": {
   "summary": "2026年7月14日，MOSS-Transcribe-Diarize-0.9B 被关联到一个 GitHub 项目仓库、一个 Hugging Face 模型页面以及一个公开演示站点。综合这些带日期的链接来看，这表明该项目已达到一个公开的开发里程碑，而并非无关的转载。",
@@ -147,6 +174,12 @@
   "summary": "2026-07-13，SAM-MT 被记录已关联官方项目页面、GitHub 代码仓库和 Hugging Face 页面。这是一个重要的开发历程节点，因为它确立了 SAM-MT 的公开项目存在，并提供了源代码与模型资源的入口。仅凭这些带日期的链接，无法确定具体的发布版本、功能特性或使用条款。",
   "title": "SAM-MT 的公开项目资源已完成链接"
  },
+ "n-0841776bd9": {
+  "evolution_summary": "作为腾讯的一项战略性“90 天重置”推出，从稠密架构转向 21B 激活参数的 MoE 结构。它引入了可配置的“快思考与慢思考”推理模式，并在生产环境中取代了较早的 Hunyuan-Pro 模型。",
+  "research_notes": "在 SWE-bench Verified 上达到 74.4%；已集成至腾讯 Yuanbao 助手及微信生态，与 Hy2 相比，推理成本显著降低。",
+  "summary": "腾讯推出的 295B 参数混合专家（MoE）大语言模型，专为高效推理设计。它具有 256K 上下文窗口，并针对多步骤智能体工作流和复杂工具调用进行了优化。",
+  "title": "Hunyuan3 Preview（Hy3-preview）"
+ },
  "n-0852dc1008": {
   "summary": "2026-06-23，一个 BytePlus Ark 推广链接以模型名称标识了 SeedDance 2.5。这是该项目面向公众的一个重要进展步骤，但仅凭带日期的链接，无法确定其发布细节、能力或可用性条款。",
   "title": "SeedDance 2.5 通过 BytePlus Ark 进行了推广"
@@ -161,6 +194,12 @@
   "research_notes": "提出了用于物理感知修复的四重掩码系统；在 ComfyUI 生态中被广泛用作 VOID 的主要入口。",
   "summary": "Netflix VOID 模型的 ComfyUI 实现，专为高级视频修复（inpainting）而设计。它利用独特的四重掩码（quadmask）系统，在删除物体的同时一并移除其阴影、反射等物理交互效果。",
   "title": "AP Netflix VOID — 用于视频物体删除的 ComfyUI 节点"
+ },
+ "n-08bc14aa3d": {
+  "evolution_summary": "从一个简单的 Mac 听写工具，发展为多平台的智能体生态系统，深度集成本地和云端 LLM。新增了面向特定任务格式的“Modes”，并为企业用户提供 SOC 2/HIPAA 合规支持。",
+  "research_notes": "支持在 Apple Silicon 上离线处理，并支持为 GPT-5.5 和 Claude 4.7 等模型自带密钥（BYOK）。",
+  "summary": "一款离线优先的 AI 转录工具，使用 Whisper 模型在多个平台上将语音转换为文字。它提供可自定义的模式，并通过本地或云端 LLM 实现智能体工作流，将文本润色为特定格式。",
+  "title": "Superwhisper：适用于桌面和移动端的通用 AI 语音转文字工具"
  },
  "n-08dc2040a6": {
   "evolution_summary": "作为 GaussianAvatars 的后继工作，它引入了 Bias Sinks，以防止在单目视频训练时出现身份与姿态的纠缠。该研究论文于 2025 年底发布，官方代码仓库目前仍在等待完整源代码的发布。",
@@ -191,6 +230,12 @@
   "research_notes": "该项目包含一个运动感知记忆分词器,并特别针对自动驾驶模拟器和具身智能(Embodied AI)世界模型进行了优化。",
   "summary": "HyDRA 是一种面向视频生成的专用记忆架构,可确保稳定的目标跟踪与重新出现时的一致性。它采用时空检索机制,即使主体移出画面或被遮挡,也能“记住”这些主体。",
   "title": "HyDRA:面向动态视频世界模型的混合记忆"
+ },
+ "n-09f901429d": {
+  "evolution_summary": "继 Stream-R1 发布之后，FrameX-AI 推出了 Stream-T1，这是一个专注于测试时缩放（TTS）的专门框架，可在不重新训练基础权重的情况下提升时间一致性并改善复杂运动处理。",
+  "research_notes": "在保持较高 VBench 分数的同时，相比原始 Wan2.1 实现了 30x 加速；由 FrameX-AI 与中国科学技术大学（USTC）合作开发。",
+  "summary": "Stream-R1 是从 Wan2.1 蒸馏而来的加速视频生成模型，可实现 23.1 FPS 的实时性能。它利用奖励引导的分布匹配蒸馏（DMD），在视觉质量和文本对齐方面超越了其教师模型。",
+  "title": "Stream-R1：实时奖励引导的视频蒸馏"
  },
  "n-0a1838ff3d": {
   "summary": "2026 年 7 月 22 日，开发记录中链接了 Seed Audio 1.0 的官方产品页面以及 BytePlus Voice 控制台的开通路径。这些带日期的官方链接表明，该项目已迈出面向公众的产品发布与用户上手的一步，但它们并不能确定具体的公告措辞、功能范围、可用性或发布范围。",
@@ -236,6 +281,12 @@
   "summary": "2026年7月21日，一条带日期的消息将 Qwen-Image 3.0 与一个由 Qwen 托管、标识为 qwen-image-3.0 的博客 URL，以及 Qwen Chat 网站关联起来。这为该项目系列记录了一个公开的参考节点，但并未断言仅凭所提供的链接无法确定的能力、可用性或发布条款。",
   "title": "Qwen-Image 3.0 公开的 Qwen 链接已记录"
  },
+ "n-0cf9d026b8": {
+  "evolution_summary": "该项目从最初的 SCAIL-Preview 发展为 SCAIL-2，新增了增强的运动稳定性、改进的 3D 姿态深度理解，并原生支持长视频生成。它已通过自定义节点集成到 ComfyUI 中，现在还支持通过 Blender 3D 绑定驱动动画。",
+  "research_notes": "由智谱 AI 与清华大学开发；该模型基于 Wan 2.1 架构构建，通常需要较大的显存，但支持量化的 GGUF 版本。",
+  "summary": "SCAIL 是一个角色动画框架，利用基于 3D 一致性的姿态表示，将驱动视频中的运动高保真地迁移到参考图像上。它能有效解决抖动和身份漂移等常见问题，同时支持多角色场景和长序列。",
+  "title": "SCAIL-2：基于上下文学习的影棚级角色动画"
+ },
  "n-0d7aed5e86": {
   "summary": "2026年6月26日，Adobe宣布计划收购Topaz Labs。此次公告标志着Adobe在企业发展方面迈出了一步重要举措。",
   "title": "Adobe宣布计划收购Topaz Labs"
@@ -251,6 +302,15 @@
  "n-0ebdd3ab44": {
   "summary": "2026年8月14日，MiniMax Music 3 通过相关的源代码、模型、音乐生成指南、演示和 ComfyUI 资源链接得到了记录。这组带日期的链接将该项目与 GitHub、Hugging Face、MiniMax 平台以及 ComfyUI 相连。这一点值得关注，因为它标志着该项目迈出了公开发展的一步，并提供了多个实用的使用入口。",
   "title": "MiniMax Music 3 新增公开项目、模型、平台、演示与 ComfyUI 入口"
+ },
+ "n-0ecaaac1b0": {
+  "research_notes": "将发布的自定义节点压缩包安装到 ComfyUI/custom_nodes/ 下，将 MiniMaxH3_SemanticBridge_v1.safetensors 放入 ComfyUI/models/semantic_bridge/，重启 ComfyUI，然后从提供的工作流参考开始。\n\n仅在标准 MiniMax H3 FL2VA/text 条件路径中使用 v1。请勿将其用于 Ref2VA 或其他参考条件工作流。\n\n从 alpha 0.10 开始，并使用逐词元幅值匹配。使用相同的提示词、种子和生成设置，比较原生 H3 与启用桥接后的输出；将作者发布的 alpha 0.15 比较结果视为示例，而非通用预设。\n\n请将作者的表示空间余弦测量结果与视频质量结论分开看待。发布说明称，这些测量衡量的是与教师派生表示的一致性，而非感知质量或普遍的提示词遵循度提升。",
+  "summary": "MiniMax H3 Semantic Bridge 为 MiniMax H3 的标准 FL2VA 文本条件工作流提供 ComfyUI 条件适配器。它是社区项目，并非 MiniMax 或 SenseNova 的官方发布；由于作者测试中歌唱和口型同步效果下降，Ref2VA 支持未随之发布。",
+  "title": "MiniMax H3 Semantic Bridge：为 H3 的 FL2VA 文本路径添加适配器"
+ },
+ "n-0f298b0d41": {
+  "summary": "2026-08-12，LoopX 讨论串中的一条消息链接到了该项目的 GitHub 仓库 https://github.com/huangruiteng/loopx. 这记录了该日期 LoopX 相关的一个公开来源位置；所提供的证据并不能确定发布、功能或代码变更。",
+  "title": "LoopX 的公开 GitHub 仓库被链接"
  },
  "n-0f55e4f6a1": {
   "summary": "2026年8月18日，一篇带日期的帖子链接了 EVIE-Preview-4.5B 的 GitHub 仓库和 Hugging Face 页面。这一对配套项目参考资料为该研发路线提供了一个公开的发现入口。现有证据无法确定该模型的能力、内容、发布状态或许可信息。",
@@ -275,6 +335,12 @@
   "summary": "一种基于扩散模型的框架，专为高精度局部图像编辑与修复而设计。它擅长修正文字、标识（logo）和复杂结构等细粒度细节，并通过“聚焦-精修”策略确保背景保持高度一致。",
   "title": "RefineAnything：多模态区域级图像精修"
  },
+ "n-110bebc860": {
+  "evolution_summary": "在 2.0 版本发布之后，该引擎新增了用于沉浸式 WebXR 支持的 SparkXr，以及面向动画 splat 的实验性线性混合蒙皮。它已从简单的渲染器发展为面向复合 3D 世界的完整流式传输平台。",
+  "research_notes": "引入了自定义 .RAD 文件格式，支持 HTTP Range 请求以实现渐进式加载，并提供基于 Rust 的 LoD 构建器，用于处理数十亿个 splat。",
+  "summary": "Spark 2.0 是由 World Labs 开发的高性能网页渲染引擎，面向海量 3D 高斯泼溅（Gaussian Splatting）场景。它实现了分层细节层次（LoD）和可流式传输的 .RAD 格式，从而实时呈现包含数十亿个 splat 的环境。",
+  "title": "Spark 2.0：面向大规模场景的网页端高斯泼溅引擎"
+ },
  "n-11ae14ece9": {
   "summary": "2026-08-20，Muse 开发讨论串将读者指向其 GitHub 代码仓库。封存的证据确立了一条带日期的公开源码位置引用，但并未证实任何具体的发布、功能、版本或代码变更。该事件作为该项目的历史仓库参考予以保留。",
   "title": "Muse 的 ComfyUI 代码仓库已被链接"
@@ -284,6 +350,17 @@
   "research_notes": "由 Y Combinator S24 批次孵化。创始团队此前创办了 Agara AI（已被 Coinbase 收购），产品强调数据的全面隐私保护，并通过 Ollama 支持本地大语言模型。",
   "summary": "Rowboat 是一款本地优先的 AI 助手，可处理邮件、笔记等数字数据，并构建动态更新的知识图谱。它将信息存储为人类可读的 Markdown 文件，并在用户设备上私密运行。",
   "title": "Rowboat：本地优先的 AI 智能体与个人知识图谱"
+ },
+ "n-129b6b09c0": {
+  "evolution_summary": "该模型继承了早期基于 Qwen3.5 的蒸馏实验，借助较新的 MoE 架构和多词元预测（MTP）提升效率。截至 mid-2026，它仍是本地推理任务的首选之一。",
+  "research_notes": "原生上下文窗口为 262,144 个词元；兼容最新版 llama.cpp。由于有报告称 CUDA 13.2 会导致输出损坏，请避免与其搭配使用。",
+  "summary": "基于 Qwen3.6 架构的 35B 混合专家 LLM，使用从 Claude 4.6 Opus 蒸馏的推理轨迹进行微调。它针对智能体编码和复杂问题求解进行了优化，同时在消费级硬件上保持较高的推理速度。",
+  "title": "Qwen3.6-35B Claude 4.6 Opus 推理蒸馏版"
+ },
+ "n-12dc9deafa": {
+  "research_notes": "从 Hugging Face 或 ModelScope 上的 InternScience/Sage-A1.5 仓库下载模型权重。\n\n使用 vLLM 或 SGLang 部署模型，并采用标准的 Qwen MoE 架构配置，以暴露兼容 OpenAI 的 API 端点。\n\n在智能体执行运行时中启用子智能体生成功能，使模型能够在相互隔离的上下文中并行处理子任务。\n\n在生成参数或系统提示词中启用原生验证，使模型在复杂轨迹中进行自我审查和错误恢复。\n\n对并行的调查分支使用隔离的子智能体上下文，以防止中间的噪声工具输出干扰根智能体。\n\n在处理超过原生 256K 词元上下文窗口的代码仓库或科学文献集合时，应用 YaRN 上下文缩放参数。\n\n使用 SGLang 或 vLLM 的 FP8/INT4 量化部署，以降低显存占用，同时保持 MoE 路由效率。",
+  "summary": "上海人工智能实验室发布了 Sage-A1.5，这是一个采用 Apache 2.0 许可证的 35B 混合专家模型，每个词元激活 3B 参数，基于 Qwen3.6-35B-A3B 构建，原生支持并行子智能体编排，并支持 SGLang 和 vLLM 服务。",
+  "title": "上海人工智能实验室发布开放权重智能体模型 Sage-A1.5"
  },
  "n-13290b7929": {
   "summary": "2026-08-25，InfinityEdit 的官方项目页面和 GitHub 仓库被引用。这为该项目的权威文档和源码位置提供了一个带日期的公开指向，但现有证据并不能确定其具体发布、功能或研究里程碑。",
@@ -319,6 +396,12 @@
  "n-15581903e4": {
   "summary": "2026 年 7 月 8 日，Wan-Streamer 开发线中的一个 sealed 成员链接到了该项目的 v0.2 专属版本页面。这在该开发线中确立了一个有日期的公开 v0.2 参考，但现有证据无法确定其功能、发布状态或相对早期版本的变更。",
   "title": "Wan-Streamer v0.2 版本页面已被链接"
+ },
+ "n-155ef8c3dc": {
+  "evolution_summary": "该项目从最初的研究工作发展为 CVPR 2026 海报展示，近期还发布了推理代码和交互式演示。相比此前基于优化的最先进方法，其处理速度快 15x。",
+  "research_notes": "由 CMU 开发；支持可选的 RGB-D、IMU 和雷达多普勒输入，以显著提升重建质量。",
+  "summary": "Any4D 是一个框架，利用快速前馈 Transformer 架构，从单目或多模态视频中进行稠密、尺度度量的 4D 重建。它通过将场景分解为自我中心（egocentric）与以世界为中心（allocentric）两个分量，实现了高精度和实时潜力。",
+  "title": "Any4D：统一的前馈式度量 4D 重建"
  },
  "n-15f28b9d26": {
   "research_notes": "为工作负载选择当前可用的Claude模型，然后使用其官方文档中的模型ID和支持的平台做出集成决策。\n\n通过发起首次Messages API调用来创建API集成，并确保凭证不进入源代码管理系统或客户端代码。\n\n进行代码仓库相关工作时，安装Claude Code，使用符合条件的账户或受支持的服务提供方完成身份验证，从项目目录启动，并通过`claude --version`验证安装是否成功。\n\n编写明确的任务指令，说明所需的输出格式，并在必要时提供示例；针对所选模型应用其特定的提示指南。\n\n为API密钥设置过期时间，确保其不出现在源代码管理、客户端代码或提示词中，并考虑使用工作负载身份联合而非静态密钥。",
@@ -386,6 +469,11 @@
   "summary": "一个用于联合音视频生成与理解的多模态生态系统。它采用统一的扩散Transformer（Diffusion Transformer）架构，可根据文本提示生成时间上同步的有声视频。",
   "title": "JavisDiT：联合音视频扩散Transformer"
  },
+ "n-183de9a149": {
+  "research_notes": "通过 Kimi 网页应用、Kimi Work 或 Kimi Code 以交互方式访问该模型。\n\n通过 Moonshot Open Platform API 调用 kimi-k3.1-pro 模型端点进行标准推理，价格为每百万词元输入 2 美元、输出 10 美元。\n\n若工作负载需要快 2 到 3 倍的生成速度并以加倍的词元速率计费，请选择 Highspeed API 变体。\n\n利用 1M 词元上下文窗口，可在单个会话中输入整个多文件代码库以及复杂的 CAD/3D 资产配置。\n\n在请求 Unreal Engine、Unity、Godot 或 Three.js 程序化生成时，请明确指定相应的引擎和脚本约定。\n\n将高吞吐、对延迟敏感的交互任务路由到 Highspeed 端点，同时将复杂的离线推理保留在标准档位，以控制推理成本。",
+  "summary": "Moonshot 在 Kimi、Kimi Work 和 Kimi Code 中推出了 Kimi K3.1 Pro，这是一次经过 RL 扩展的训练后更新。",
+  "title": "Kimi K3.1 Pro 作为训练后优化发布，并提供 Highspeed 选项"
+ },
  "n-1857cf1c7a": {
   "summary": "2026年6月26日，SeFi-Image 开发动态消息中附上了项目网站、源代码仓库和 Hugging Face 页面的链接。现有证据可以确认这些项目资源属于该日期的记录内容，但无法证实具体的版本发布、模型或技术里程碑。",
   "title": "SeFi-Image 官方项目资源已发布链接"
@@ -428,6 +516,12 @@
   "summary": "2026 年 8 月 16 日，Inline Studio 发布了其 GitHub 版本 v1.2.71。相关的带日期证据还链接到该项目的角色页面，可以确认这是一个带版本号的开发检查点，但无法确定该版本的具体内容。",
   "title": "Inline Studio 发布 v1.2.71 版本"
  },
+ "n-1985ad3cff": {
+  "evolution_summary": "该项目于 2026 年 4 月发布后，曾发生一起备受关注的安全事件：一个恶意的仿冒克隆（Open-OSS/privacy-filter）一度登上 Hugging Face 榜首，随后被删除。对于开源的本地 PII 脱敏，OpenAI 官方模型仍是标准选择。",
+  "research_notes": "以 Apache 2.0 许可证发布；专为帮助企业满足数据驻留要求而设计，通过在本地处理敏感数据实现这一目标。",
+  "summary": "一款开放权重的 1.5B 参数双向词元分类模型，专为本地检测和脱敏个人身份信息（PII）而设计。它支持 128,000 词元的上下文窗口，并针对通过 transformers.js 在本地或浏览器中的高吞吐执行进行了优化。",
+  "title": "OpenAI Privacy Filter：本地 PII 脱敏模型"
+ },
  "n-19adc0c7af": {
   "evolution_summary": "该工具已从一个面向 Wan2GP 的简单 JSON 队列工具，演变为完整的全栈工作台（Vite/Express）。现在它具备可视化分镜、时间线、“take”版本历史记录，以及用于 AI 音乐视频同步的专用工具。",
   "research_notes": "专门针对 Wan2GP/LTX-2 生态系统进行了优化，由 ByteSound 品牌开发。",
@@ -453,6 +547,18 @@
  "n-1a5ac07fef": {
   "summary": "2026年6月28日，video-production-skills 项目通过其 GitHub 仓库被引用。这为该项目的开发历程提供了一个带日期的公开参考节点，但现有证据并不能证明存在发布版本、功能集或实现层面的变更。",
   "title": "视频制作技能仓库被引用"
+ },
+ "n-1b0490d011": {
+  "evolution_summary": "由 VLM-3R 研究脉络（2025 年 5 月）演化而来，发展为专门用于几何空间推理的框架。2026 年 3 月，它发布了统一的代码和模型权重，并引入掩码与自适应融合机制，在空间基准测试中取得了最先进的性能。",
+  "research_notes": "具有面向静态 3D 场景和动态单目视频的专门分支。在 VSI-Bench 和 DSR-Bench 上创下了新的 SOTA 成绩。",
+  "summary": "GeoSR 是一个旨在增强视觉语言模型空间推理能力的框架，通过融合 3D 几何线索实现这一目标。它采用“几何解放”掩码和门控融合，防止模型在静态和动态环境中依赖 2D 视觉捷径。",
+  "title": "GeoSR：面向 VLM 的几何空间推理"
+ },
+ "n-1b11977658": {
+  "evolution_summary": "该项目从复杂的 6-node 工作流演化为单节点方案，以消除 ComfyUI 中的“意大利面式”工作流。近期更新整合了 Deep Histogram 色彩匹配，并通过 ComfyUI Manager 提升了与 FLUX.1 模型的兼容性。",
+  "research_notes": "被视为日常 1.5x–4.0x 图像增强中比 Ultimate SD Upscale 更快、更易用的替代方案。",
+  "summary": "一个适用于 ComfyUI 的综合自定义节点，将多个放大步骤整合到一个界面中，从而简化高分辨率修复流程。它内置分块 VAE 处理和色彩校正，以防止潜空间放大过程中出现显存不足（OOM）错误和饱和度下降。",
+  "title": "ComfyUI Hires Fix Ultra 一体化节点"
  },
  "n-1b28d58410": {
   "research_notes": "通过管理仪表板查看，或在主机上运行 gitlab-rake gitlab:env:info，确定当前自管理 GitLab 实例的版本。\n\n根据当前所用的版本分支选择对应的补丁目标：将 19.5.x 升级至 19.5.1，将 19.4.x 升级至 19.4.3，将 19.3.x 升级至 19.3.6，将 19.2.x 升级至 19.2.9，将 19.1.x 升级至 19.1.9，将 19.0.x 升级至 19.0.10；7.0 至 18.11.x 的旧版本则升级至 18.11.13。\n\n执行包管理器更新命令或拉取容器镜像以应用安全补丁，并重启 GitLab 服务，使更新后的二进制文件生效。\n\n检查 Puma 工作进程日志和应用错误日志，查找正则表达式编译器错误或工作进程异常终止的记录，以发现过去的利用尝试。\n\n对于暴露在互联网上的自管理 GitLab 实例，应立即应用安全版本，因为未认证的远程代码执行无需任何凭据或用户交互。\n\n直接升级至所在次版本分支中指定的补丁版本，以避免不必要的数据库迁移并减少服务停机时间。\n\n不要仅依赖边界 Web 应用防火墙规则或配置变通方案，因为恶意的正则表达式模式可能经由多种文档渲染路径被处理。",
@@ -512,9 +618,27 @@
   "summary": "2026年3月12日，谷歌推出了 Gemini Embedding 2，作为其嵌入模型系列的一项新进展。所提供的谷歌 AI 文档将此次发布定位为面向开发者的、通过 API 提供的嵌入能力。这是一个实质性的产品步骤，因为它确立了一个独立命名的嵌入模型及其集成参考。",
   "title": "谷歌推出 Gemini Embedding 2"
  },
+ "n-1fef5a401b": {
+  "evolution_summary": "UniCom 代表了腾讯理解与生成管线向单一框架的统一。截至 2026 年年中，它仍是混元生态的核心多模态基础，该生态已扩展到以推理为重点的 Hy3-preview 等模型，以及借助 Hunyuan3D 3.0 实现的高级 3D 生成。",
+  "research_notes": "直接在压缩的视觉嵌入上进行生成，而非原始像素；结合了 SigLIP2 与 Flux 架构的优势。",
+  "summary": "UniCom 是一个统一的多模态框架，利用压缩的连续语义表示，将视觉理解与生成连接起来。它集成 SigLIP2 进行视觉表示，并使用 Flux VAE 实现高质量图像重建，从而支持一致的编辑与生成。",
+  "title": "腾讯混元 UniCom"
+ },
  "n-1fff983f43": {
   "summary": "2026年4月23日，一条 OpenAI 链接指向了一则关于 GPT-5.5 的公开公告。这是一个重要的进展节点，因为它为 GPT-5.5 项目确立了一个带日期的公开步骤。现有证据并不能确定其能力、可用性、定价或迁移细节。",
   "title": "GPT-5.5 发布公告"
+ },
+ "n-207ed94fbd": {
+  "evolution_summary": "作为高端 UMA 项目的移动端就绪“学生”模型，MUA 将计算成本降低了 2000x。它借助小波频谱分解，在移动 GPU 上实现实时性能的同时，保留了极致的皮肤和服装细节。",
+  "research_notes": "在桌面硬件上可达 180 FPS 以上，在 Meta Quest 3 上为 24 FPS；支持动态重光照和自阴影。",
+  "summary": "MUA 是一个面向移动端优化的框架，用于渲染具有复杂服装动态的高保真数字人。它将服务器级视觉质量蒸馏为轻量格式，可在 Meta Quest 3 等独立硬件上以 24 FPS 运行。",
+  "title": "MUA：移动端超精细可动画化虚拟形象"
+ },
+ "n-2090ac5f1b": {
+  "evolution_summary": "由 Waypoint-1 演进而来，训练规模扩大了 100x，并引入了用于本地 GPU 加速的 Biome 运行时，以及面向不同硬件的优化档位。",
+  "research_notes": "以 Apache 2.0 许可证开源；支持第一人称控制和实时环境一致性。",
+  "summary": "Waypoint-1.5 是一个生成式世界模型，可实现对 AI 合成环境的实时第一人称探索。它专为在消费级硬件上本地运行而设计，支持灵敏的导航和高帧率交互。",
+  "title": "Waypoint-1.5：实时交互式视频世界模型"
  },
  "n-20c0bd9616": {
   "summary": "2026年4月17日，记录到了 NexVid 浏览器扩展程序在 Chrome 网上应用店和 Firefox 附加组件商店的列表链接。这一成对出现的列表表明，该扩展正在 Chrome 和 Firefox 浏览器生态中进行分发。现有证据无法确定该日期对应的版本、功能集、可用状态或所做的更改。",
@@ -568,6 +692,12 @@
   "summary": "一款开源独立应用，可从实拍素材中生成高质量的 VFX 通道，例如深度、法线和分割遮罩。它能够自动创建与 Nuke 兼容的 sidecar EXR 文件，并同时处理场景线性色彩空间转换和批量处理。",
   "title": "LiveActionAOV 独立工具：批量生成 VFX 通道"
  },
+ "n-23309eb954": {
+  "evolution_summary": "该项目已被 CVPR 2026 接收，从最初的 ArXiv 发布扩展为包含完整训练代码和 Synth4K 基准。此后又新增了对 DINOv3 骨干网络、多视角深度推理以及直接导出为 3D 高斯泼溅格式的支持。",
+  "research_notes": "由浙江大学（zju3dv）开发；提出了无限深度查询（IDQ）策略，以改进新视角合成。",
+  "summary": "一个单目深度估计框架，利用神经隐式场在连续的 2D 坐标上预测深度。它支持最高 4K/8K 的任意分辨率输出，能够捕捉栏杆和电线等精细结构，而这些结构是传统基于网格的方法常常会抹平的。",
+  "title": "InfiniDepth：任意分辨率单目深度估计"
+ },
  "n-2340faee72": {
   "summary": "2026-07-10，该记录关联了 PointDiT 的公开项目页和图库。这对该项目而言是一个重要的公开参考点，因为它将读者引向项目资源和示例。现有证据并未确认发布、技术主张、作者身份，或除上述关联资源之外的任何变更。",
   "title": "PointDiT 项目页与图库已关联"
@@ -620,6 +750,11 @@
   "summary": "2026年7月13日，ABot-World 关联了项目主页、源代码仓库、Hugging Face 模型、交互式演示和创作门户。这组带日期的官方资源表明，该项目已达到公开可用的里程碑，但原始公告和发布细节未提供。",
   "title": "ABot-World 项目公开资源上线"
  },
+ "n-269dacc1a7": {
+  "research_notes": "安装或打开 OpenCode 终端开发环境。\n\n从可用的编程模型选项中选择 GLM-5.3-Flash。\n\n在零保留隐私政策下，于 200K 词元上下文限制内分派编码、工具调用或视觉分析任务。\n\n将智能体工作上下文限制在 200K 词元以内，以保持在免费档位限额之内，并避免在长时间的代码仓库会话中出现上下文截断。\n\n围绕原生工具调用和多模态输入构建智能体工作流，而非仅依赖文本补全，以利用模型专门的 MoE 激活路由。",
+  "summary": "OpenCode 为智谱的 GLM-5.3-Flash 混合专家模型开通了限时免费访问，面向编码和智能体工作流。此次发布提供来自 320B 总参数的 18B 激活参数、图像与工具执行、200K 词元上下文窗口，以及对请求数据的零保留。",
+  "title": "OpenCode 提供 GLM-5.3-Flash 限时免费访问"
+ },
  "n-26bc0bd267": {
   "summary": "2026年7月27日，Kura 开发线记录了其源代码仓库和一份技术项目笔记的链接。该笔记的 URL 将此次更新与 Krea2 LoRA 训练相关联，使其成为项目开发历程中的一个重要参考节点。",
   "title": "Kura 开发资源已关联"
@@ -671,9 +806,26 @@
   "summary": "在审查期间,所引用的 WAN Skills 页面无法公开访问。现有官方文档转而描述了一个独立的 Wan-skills 智能体集成仓库,因此所声称的视频预设发布尚未得到证实。",
   "title": "WAN Skills 公开详情无法获取"
  },
+ "n-2915ceca6f": {
+  "evolution_summary": "该 ComfyUI 实现最初基于 ECCV 2024 论文，于 2025 年底演进，新增了针对全景分块的改进深度拼接，并与 ComfyUI-3D-Viewer-Pro 套件实现了无缝集成。截至 2026 年年中，它仍针对最新的 3DGS 光栅化器持续维护。",
+  "research_notes": "安装时需要完整的 CUDA Toolkit 和 C++ 编译环境；强烈建议使用 16GB 以上显存（RTX 3090/4090）以获得稳定性能。",
+  "summary": "这是一个专门的 ComfyUI 节点套件，实现了 DreamScene360 研究，可从单张 360° 全景图像生成全局一致的 3D 高斯泼溅（3DGS）场景。它利用深度估计和全景泼溅，从单一视点创建可探索的三维环境。",
+  "title": "ComfyUI-DreamScene360 — 全景高斯泼溅与 3D 场景"
+ },
  "n-292e34fcb3": {
   "summary": "2026年6月26日，相关记录中链接了 DanceOPD 的 GitHub Pages 网站。由于这一步使项目具备了可直接访问的公开存在，因此被视为一项重要的面向公众的举措，尽管其原始来源文本当时并不可用。",
   "title": "DanceOPD 项目网站已链接"
+ },
+ "n-2938402642": {
+  "evolution_summary": "Boxer 基于 CuTR 架构，引入了偶然不确定性和中值深度块编码，以提升鲁棒性。自 2026 年初发布以来，它已被移植到移动设备上，成为 Boxer3D，利用 YOLO11 在 iOS 上实现实时三维目标检测。",
+  "research_notes": "该项目包含一个包含 122 万个唯一 3D 边界框的大型数据集，并支持与 Project Aria 眼镜和 ScanNet 集成。",
+  "summary": "这是 Meta Reality Labs 的一项研究项目，利用带位姿的图像和可选的稀疏深度，将开放词汇的 2D 目标检测提升为全局一致的 3D 有向边界框。它采用名为 BoxerNet 的基于 Transformer 的网络，在第一视角和室内数据集上预测 7 自由度（7-DoF）边界框。",
+  "title": "Boxer：开放世界 2D-to-3D 边界框提升"
+ },
+ "n-2988748edd": {
+  "research_notes": "从基准仓库中选择一个 XR 评估任务，并向编码智能体提供自然语言规范和可编辑的项目脚手架。\n\n部署编码智能体，以在脚手架内生成应用、添加所需功能或修复空间相关的缺陷。\n\n使用自动化脚本化和自适应交互序列，在消费级 XR 硬件或模拟器上通过基准测试工具运行生成的应用。\n\n通过程序化断言和视觉验证收集评估结果，并计算总体 Pass@1 表现。\n\n针对持续的多模态交互和视觉断言，而非静态代码差异或纯函数单元测试，来评估 XR 编码智能体。\n\n构造智能体提示词和工具 API 时，需明确考虑异步传感器生命周期和具身空间坐标系。",
+  "summary": "研究人员在 arXiv 上发布了 GenXR-Bench，建立了一个包含 112 项专家任务的评估框架，涵盖应用生成、功能实现和缺陷修复，用于评估 AI 编码智能体在交互式 3D 空间计算方面的能力。其中表现最好的被评模型取得了 50.9% 的 Pass@1。",
+  "title": "GenXR-Bench 在 arXiv 发布，用于评估编码智能体的交互式 XR 开发能力"
  },
  "n-29d4083d61": {
   "summary": "2026年6月10日，一条带日期的 Luma AI 链接显示 Ray 3.2 属于 Ray 产品系列。该事件被提议视为一次重要进展，因为它表明存在一次独立的版本级更新。现有材料并未证实此次发布的能力、可用性或迁移影响。",
@@ -688,6 +840,18 @@
   "research_notes": "该生态目前包括用于自动化漏洞修复的 'Codex Security'，并集成支持 VS Code、Cursor 和 Xcode。",
   "summary": "一款终端原生的智能体编程系统，通过本地代码仓库访问、多模态输入和多智能体编排，实现自主软件工程。它代表了原始 Codex 模型在 2025 年的演进，从简单的代码补全转向主动的、由工具支持的任务执行。",
   "title": "OpenAI Codex CLI"
+ },
+ "n-2aa536ccdc": {
+  "evolution_summary": "承接 Kimi-K2 系列，原生支持最多 300 个子智能体的 Agent Swarm 协同以及 12 小时自主执行。随着生态转向这一以执行为重点的架构，对旧版 K2 模型的支持正在逐步终止。",
+  "research_notes": "以修改版 MIT 许可证作为开放权重模型发布；尤其擅长 SWE-Bench Pro 和长周期任务分解。",
+  "summary": "Moonshot AI 的旗舰 1T 参数 MoE 模型，专为复杂的长周期自主智能体任务设计。它支持原生多模态，并具有 262K 上下文窗口，针对软件工程与协同进行了优化。",
+  "title": "Kimi K2.6：Moonshot AI 前沿智能体 LLM"
+ },
+ "n-2af8215f2c": {
+  "evolution_summary": "该项目从 2023 年基于图像的去鬼影工具，演进为 2026 年初的综合视频扩散框架。当前版本使用 Log-Gamma 色彩映射和视频先验，以恢复旧版 8-bit 内容中丢失的辐射信息。",
+  "research_notes": "2026 年更新的计算需求较高，通常需要 A100 级 GPU 才能高效处理。",
+  "summary": "一个将 8-bit LDR 视频转换为 32-bit HDR 序列的框架，利用生成式辐射修复技术实现。它借助预训练视频扩散模型生成逼真的高光，同时保持严格的时间一致性。",
+  "title": "DiffHDR：生成式 LDR 到 HDR 视频扩散"
  },
  "n-2af9b3efb0": {
   "summary": "2026-03-17，该记录登记了指向 Hugging Face 上 Mistral Small 4 119B 2603 Eagle 仓库的链接。仓库名称标明其为一个 Mistral Small 4 模型制品，并带有 119B、2603 和 Eagle 等变体标识。仅凭这一带日期的链接，无法确定其发布状态、能力、许可证或访问条件。",
@@ -763,6 +927,12 @@
   "summary": "2026年3月23日，Video-to-World 相关工作同时关联到一个公开的项目主页和一个 GitHub 代码仓库。这为该项目的文档和源代码公开存在情况提供了一个带日期的公开参考时间点。",
   "title": "Video-to-World 项目资源已公开链接"
  },
+ "n-2f8c6f34f0": {
+  "evolution_summary": "该工具最初是为 1,040 项任务的 Auto-ClawEval 基准研发的研究工具，现已发展为通用工具包，支持 Model Context Protocol（MCP），以及用于智能体调试的即时环境生成。",
+  "research_notes": "在基准生成中达到人类水平的质量，相比人工整理，成本和时间分别降低了 13,800 倍。",
+  "summary": "一个用于生成和验证工具调用型 AI 智能体环境的自主工具包。它可自动创建任务规范、工具接口和持续评分配置，以实现可扩展的基准测试。",
+  "title": "ClawEnvKit：面向 AI 智能体的自动环境生成"
+ },
  "n-2f94cbb043": {
   "evolution_summary": "已丰富五篇 llm-agents 研究文章。",
   "research_notes": "受影响文件数量已根据不可变提交的文件列表核实。",
@@ -782,6 +952,12 @@
   "research_notes": "该项目由清华大学的研究人员开发；模型权重托管于 Hugging Face 上的 Yanran21 组织下。",
   "summary": "UniGenDet 是一种闭环架构，将图像生成与 AI 生成图像检测联系起来。它使生成器与检测器同步演化，利用生成先验增强检测的鲁棒性，并借助检测器的反馈提升图像的真实感。",
   "title": "UniGenDet：面向图像生成与检测协同演化的统一生成-判别框架"
+ },
+ "n-2fd5e60740": {
+  "evolution_summary": "2026 年初，该项目发布了动画基础模型 V2.0，显著改进了运动轨迹，并能处理复杂的空中动作。现已支持 Physics Optimization 2.0 以防止脚部滑动，并原生支持 iClone 集成与多主体追踪。",
+  "research_notes": "包含每月 50 积分的免费档位，并提供面向 Unreal Engine 5.6+ 和 Blender 的直接导出插件。",
+  "summary": "QuickMagic 是一个 AI 驱动的平台，可将普通视频转换为身体、手部和面部的高保真 3D 动作捕捉数据。对于游戏开发和动画创作者而言，它是硬件动捕服的一种高性价比替代方案。",
+  "title": "QuickMagic AI：专业视频转动捕与虚拟形象服务"
  },
  "n-2ff0f435cc": {
   "evolution_summary": "该项目从多节点的实验性配置演进为整合后的「Mesh2Motion Explore」节点。现在它包含基于 iframe 嵌入的 3D 编辑器、支持导入自定义 FBX 资源，并可直接生成 WebM 视频。",
@@ -838,6 +1014,12 @@
   "summary": "2026 年 8 月 10 日，Qwen 相关讨论串中引用了 Qwen-MM-Plugins GitHub 仓库。现有证据仅包含日期和仓库链接，因此本条仅记录该项目仓库的引用，不断言任何版本发布、功能或模型变更。",
   "title": "Qwen-MM-Plugins 仓库被引用"
  },
+ "n-332335c756": {
+  "evolution_summary": "该项目在 v2.5 中从基础工作流演进为健壮的节点式系统。主要更新包括无缝循环、通过 Meta Batching 优化的 RAM 占用，以及 16-bit 色偏缓解。",
+  "research_notes": "需要配套的“ComfyUI-Wan-VACE-Prep”自定义节点包，才能启用最新的 v2.5 批处理功能。",
+  "summary": "一个专门用于 ComfyUI 的实用工具，借助 Wan VACE 模型在视频片段之间创建平滑过渡。它提供自动色彩匹配、交叉淡化和批处理工具，以保持视觉一致性。",
+  "title": "ComfyUI Wan VACE 视频拼接器：实现无缝过渡"
+ },
  "n-3347fb1328": {
   "summary": "2026 年 5 月 15 日，Violin 与一篇 Together AI 文章、一个公开的 GitHub 仓库及其项目网站建立了公开关联。这些带日期的链接表明，一个面向翻译、开源的项目已公开亮相，并确立了其最初的公开参考资料。",
   "title": "Violin 翻译项目的公开发布"
@@ -846,11 +1028,23 @@
   "summary": "2026年3月25日，一条带日期的 OccAny 参考信息链接了项目主页、GitHub 代码仓库和 Hugging Face 页面。这被视为该项目公开可用性方面的重要里程碑，但仅凭所提供的链接，尚无法确定发布版本、技术结果或许可条款。",
   "title": "OccAny 公开项目资源已分享"
  },
+ "n-3354f12396": {
+  "evolution_summary": "该项目已从基础投影工具发展为面向 3D 感知外绘和新视角合成的综合管线。近期更新包括与 Depth Anything V3 的集成、对 Wan2.1 和 LTX-2.3 等生成式视频模型的支持，以及一个基于 Open3D 的全新图形界面，用于交互式记录相机轨迹。",
+  "research_notes": "关键依赖包括 Open3D 和 FFmpeg；该工具特别针对迭代外绘生成全球面 VR 环境进行了优化。",
+  "summary": "一套专门用于 ComfyUI 的自定义节点，借助深度到点云的管线，实现高级 3D 感知图像变换和 VR 内容创作。它支持针孔、鱼眼和等距圆柱投影相机模型之间的无缝重投影，适用于复杂的视频合成工作流。",
+  "title": "camera-comfyUI：用于 ComfyUI 的 3D 相机投影节点"
+ },
  "n-33f31b6935": {
   "evolution_summary": "在 2026 年 4 月发布首个 MOSS-Audio 版本之后，团队于 2026 年 5 月推出 MOSS-Music-8B，以扩展该系列，用于专业化的音乐问答。此后，项目进一步增加了对 SGLang 推理服务的全面支持，以及完善的 LoRA 微调工作流。",
   "research_notes": "在音频推理基准测试中取得了最先进的性能，超越了 Step-Audio-R1 33B 等规模大得多的模型。",
   "summary": "一款面向复杂音频推理与带时间戳转写的开源音频基础模型，借助思维链（Chain-of-Thought）能力实现音频推理。该模型以 Qwen3-8B 为骨干网络，并通过跨层特征注入来保持高保真的声学细节。",
   "title": "MOSS-Audio-8B-Thinking"
+ },
+ "n-34034d382e": {
+  "evolution_summary": "LTX 2.3 生态在 2026 年初走向成熟，发布了用于视频到视频控制的 IC-LoRA 以及用于角色身份保持的 ID-LoRA。社区开发已转向 16-bit HDR 增强器，以支持专业级后期制作。",
+  "research_notes": "最好与 FP8 量化和 Sage Attention 2.2 配合使用，以管理多 LoRA 推理期间的显存开销。",
+  "summary": "一套专门的 LoRA 模型，旨在细化纹理、改善边缘清晰度，并减少 LTX 2.3 视频生成中固有的柔和感。这些增强器可优化基础模型的输出，以获得更高的视觉保真度和专业的调色工作流。",
+  "title": "LTX 2.3 增强器：视觉保真度与清晰度 LoRA"
  },
  "n-3450949e78": {
   "summary": "2026年7月25日，OmniRoute 开发线引用了该项目的 GitHub 仓库。现有封存证据可以确认仓库链接，但无法确认具体的版本发布、功能、提交或部署里程碑。",
@@ -859,6 +1053,12 @@
  "n-347308d9b6": {
   "summary": "2026-05-24 当天，一条带日期的记录将 ByteDance Video Upscaler 链接到其 Replicate 项目页面。这表明该项目在当天存在一个公开访问或引用入口，但并不能确定其发布日期、模型版本、功能特性或归属信息。",
   "title": "ByteDance Video Upscaler 在 Replicate 上被引用"
+ },
+ "n-348f0ce004": {
+  "evolution_summary": "DisCa 已被 CVPR 2026 正式接收，并自 2026 年 5 月起已完全集成到 HunyuanVideo-1.5 生态中。它源自腾讯此前的研究（TaylorSeer、ToCa、DuCa），从基于启发式的缓存转向了可学习的神经预测器架构。",
+  "research_notes": "引入受限 MeanFlow 蒸馏方案以消除帧间抖动，并专门针对高分辨率图生视频和文生视频工作流进行了优化。",
+  "summary": "一个由腾讯开发的推理加速框架，将可学习的特征缓存与步数蒸馏统一用于视频扩散 Transformer。它实现了近乎无损的 11.8x 加速，使高保真视频生成可在消费级硬件上运行。",
+  "title": "DisCa：蒸馏兼容的可学习特征缓存"
  },
  "n-353bab66f8": {
   "summary": "2026-06-09，Apple 宣布了面向日常场景的 Apple Intelligence 功能。相关的 Apple Newsroom 页面和配套视频表明，这是 Apple AI 发展历程中一个实质性的产品级里程碑。",
@@ -909,6 +1109,11 @@
   "summary": "该新闻稿介绍了语义与视觉编辑功能，以及中英文文本替换能力，并可在替换过程中保持字体、字号和样式不变。",
   "title": "Qwen-Image-Edit 正式发布"
  },
+ "n-37e9305c06": {
+  "research_notes": "通过 Kimi 网页应用、Kimi Work 或 Kimi Code 以交互方式访问该模型。\n\n通过 Moonshot Open Platform API 调用 kimi-k3.1-pro 模型端点进行标准推理，价格为每百万词元输入 2 美元、输出 10 美元。\n\n若工作负载需要快 2 到 3 倍的生成速度并以加倍的词元速率计费，请选择 Highspeed API 变体。\n\n利用 1M 词元上下文窗口，可在单个会话中输入整个多文件代码库以及复杂的 CAD/3D 资产配置。\n\n在请求 Unreal Engine、Unity、Godot 或 Three.js 程序化生成时，请明确指定相应的引擎和脚本约定。\n\n将高吞吐、对延迟敏感的交互任务路由到 Highspeed 端点，同时将复杂的离线推理保留在标准档位，以控制推理成本。",
+  "summary": "Kimi K3.1 Pro 现已通过 API 开放，支持 1M 词元上下文，并支持 Unreal、Unity、Godot 和 Blender，定价为每百万词元输入 2 美元、输出 10 美元。",
+  "title": "Kimi K3.1 Pro 在开发者平台上线，提供 1M 词元上下文"
+ },
  "n-38018d5d2d": {
   "summary": "2026年6月17日，该开发线的一名成员将 SIQ-1-35B 与一个公开的 Hugging Face 模型页面以及一个 Hermes-agent ZeroGPU Space 建立了链接。同时还链接了相关的 autoresearch、parameter-golf 和基准测试代码仓库，将该项目置于实验与评估的语境之中。这些带日期的链接确立了公开的产物与参考资料，但并不能证实原帖关于它们的具体主张。",
   "title": "SIQ-1-35B 公开模型与智能体演示已建立链接"
@@ -932,6 +1137,12 @@
  "n-38e5bcdce7": {
   "summary": "2026年6月15日，OmniDirector 被关联到一个公开项目页面和一个 GitHub 源代码仓库。这是一个重要的公开开发里程碑，因为它使该项目及其实现可以被检索和访问。仅凭所提供的链接，无法确定其版本、功能集、发布状态或作者身份。",
   "title": "OmniDirector 项目页面与源代码仓库已关联"
+ },
+ "n-3904aeff63": {
+  "evolution_summary": "LTX2.3-10Eros 作为 LTX 2.3 模型家族中的图生视频微调模型发布。",
+  "research_notes": "官方 Hugging Face 模型卡将该仓库标注为图生视频，将模型描述为微调版本，并链接了 LTX 2.3 专用的工作流和模型文件。",
+  "summary": "TenStrip 发布了 LTX2.3-10Eros，这是 LTX 2.3 模型家族中的一个图生视频微调模型。",
+  "title": "LTX2.3-10Eros 视频生成模型"
  },
  "n-3905bae486": {
   "summary": "2026年7月1日，NVIDIA 相关讨论串中的一条消息链接到了 SpatialClaw 项目网站以及 NVlabs 的 SpatialClaw GitHub 仓库。这些一手资源为该项目确立了一个带日期的公开参考时间点，但并未说明具体的发布版本、能力或其他里程碑。",
@@ -975,6 +1186,12 @@
   "summary": "2026年8月11日，Muse 相关帖子将 Muse Glimmer 与三个 Hugging Face 链接关联起来：一个名为 Muse-Glimmer-30B 的模型仓库、一个基于该模型的量化模型页面，以及一个以其命名的 Space。这些带日期的链接共同记录了截至该日期可见的模型页面及相关量化和 Space 引用。但它们并不能证实该模型的发布日期、能力、归属，也不能说明该消息是否宣布了新的变更。",
   "title": "Muse Glimmer 30B 的 Hugging Face 相关链接已被记录"
  },
+ "n-3b297c8441": {
+  "evolution_summary": "该平台从研究预览版发展为商业生态系统，推出了 1.1 版和 1.1 Plus 版，新增用于大型地貌的 Dynamic Cubes 以及用于手动布局控制的 Chisel 编辑器。",
+  "research_notes": "由李飞飞博士创立；采用 3D 高斯泼溅来确保所生成世界的几何稳定性和照片级真实感。",
+  "summary": "一个空间智能平台，利用高斯泼溅，从文本、图像或视频生成持久且可导航的 3D 环境。它为创作者、开发者和机器人训练提供高保真世界生成。",
+  "title": "World Labs Marble：生成式 3D 世界模型"
+ },
  "n-3bacf0e143": {
   "summary": "2026年6月10日，苹果发布了一篇研究公告，介绍第三代 Apple Foundation Models。这是该项目历史上的一次代际级发展；现有带日期的链接本身无法确定更具体的能力或部署细节。",
   "title": "苹果发布第三代 Foundation Models"
@@ -1001,6 +1218,12 @@
   "summary": "2026-07-24，Black Forest Labs 发布了一篇博客页面，该页面以 FLUX 3 为标识并链接了一份 Tally 表单。这是 FLUX 3 的一个重要公开开发信号，但仅凭带日期的链接，尚无法确定具体能力、发布状态或该表单的用途。",
   "title": "Black Forest Labs 发布 FLUX 3 博客更新"
  },
+ "n-3ef8391496": {
+  "evolution_summary": "GLiGuard 由 Fastino Labs 于 2026 年 5 月发布，基于 GLiNER2 架构提供结构化安全分类。与 ShieldGemma-27B 等最先进模型相比，它在保持有竞争力的准确率的同时，显著降低了延迟并提高了吞吐量。",
+  "research_notes": "基于 GLiNER2-base-v1 微调；采用 Apache 2.0 许可证；针对 CPU 优先及边缘部署进行了优化；在安全基准上达到 87.7 F1。",
+  "summary": "GLiGuard 是一个开源的 300M 参数编码器模型，专为高性能 LLM 安全审核而设计。它可作为 LlamaGuard 等大型仅解码器护栏模型的快速高效替代方案。",
+  "title": "GLiGuard：紧凑型 LLM 安全审核模型"
+ },
  "n-3efc7bc4ce": {
   "summary": "2026年7月4日，跟踪的开发线收到了一个指向迪士尼研究院官方页面的链接，该页面与神经渲染代理（Neural Render Proxies）相关。链接页面的日期为2026年7月1日，并将交互式与可微分光照列为其研究背景。此条目作为重要的项目开发参考予以记录，但不对未经审查的技术细节作任何断言。",
   "title": "迪士尼研究院关于神经渲染代理（Neural Render Proxies）的参考资料"
@@ -1025,6 +1248,12 @@
  "n-3faf75a3a8": {
   "summary": "2026-03-25 有一条带日期的记录，链接指向 Gemini 应用以及一个 AI Studio 音乐生成页面，该页面的 URL 标识了 `lyria-3-pro-preview` 模型。这些链接记录了 Lyria 3 Pro 的一条预览访问路径，但仅凭它们本身，并不能确定其为正式发布，也无法说明其功能或可用条件。",
   "title": "Lyria 3 Pro 预览版访问路径已记录"
+ },
+ "n-3fedc168df": {
+  "evolution_summary": "该模型源自早期基于 7B LLaVA 的原型，旨在解决 GPT-4V 等模型中的空间失效问题。现在它已成为面向 3D 感知图像编辑以及视频生成模型一致性保持的基础基线。",
+  "research_notes": "训练使用 SpatialEdit-500K 合成数据集，并提出了 SpatialEdit-Bench，用于衡量几何保真度和感知合理性。",
+  "summary": "一个专为精确几何图像操作设计的多模态研究模型，使用户能够以高度数学精度移动、旋转或缩放对象并调整相机视角。它将 Qwen3-VL 多模态编码器与 MM-DiT 扩散解码器相结合，实现最先进的空间推理。",
+  "title": "SpatialEdit-16B：细粒度图像空间编辑"
  },
  "n-40028a6fe7": {
   "summary": "2026 年 8 月 20 日，该开发线成员关联了 Raon-OpenTTS 源码仓库、KRAFTON/Raon-OpenTTS-1B 模型页面，以及另一个与 ComfyUI 相关的 Hugging Face 页面。这组链接是该项目公开可见的重要参考点，也体现了其模型与工作流可能的可用性。但仅凭这些链接，无法确定发布版本、功能特性，也无法判断该 ComfyUI 资源是否为项目的官方组成部分。",
@@ -1061,6 +1290,12 @@
   "summary": "截至 2026-08-24，V-RAE 开发线已通过其项目网站、GitHub 仓库和 Hugging Face 模型页面的链接予以体现。本条目仅记录该日期项目的公开资源情况，不推断任何未经核实的发布细节或功能特性。",
   "title": "V-RAE 项目资源已关联"
  },
+ "n-41c999d507": {
+  "evolution_summary": "SenseNova U1 标志着向 NEO-Unify 架构的转变，该架构去除了传统的 VAE 和视觉编码器，实现原生多模态融合。它承接 SenseNova 6.5 和 MARS 模型，聚焦于图文交错推理。",
+  "research_notes": "8B 模型可在 8GB 显存上通过 Q6_K GGUF 量化运行，但为获得最佳性能需要较大的系统内存。",
+  "summary": "一组用于 ComfyUI 的自定义节点，支持与商汤科技的 SenseNova U1 原生统一多模态模型交互。它支持使用 8-step LoRA 和 GGUF 量化实现高速生成，适用于消费级硬件。",
+  "title": "ComfyUI_SenseNova_U1 多模态模型自定义节点"
+ },
  "n-42aacd4f9b": {
   "summary": "2026-04-01，Omma 的开发记录中出现一条与上线相关的条目，链接指向 omma.build 和 spline.design。现有的封存证据除这些带日期的链接外，无法确认该产品的功能、发布范围，或其与 Spline 的确切关系。",
   "title": "Omma 平台上线条目"
@@ -1073,10 +1308,22 @@
   "summary": "2026年7月1日，项目历史记录了位于 FuzzPuppy/LTX-2.3-Foley-LoRA 的 Hugging Face 模型页面。这是一个具有实质意义的公开参考，指向一个具名的 Foley LoRA 产物；但仅凭这一已封存的链接，无法确认其功能、来源、兼容性或发布细节。",
   "title": "LTX-2.3-Foley-LoRA 模型页面已存档"
  },
+ "n-44592b77d5": {
+  "evolution_summary": "截至 2026 年年中，该项目已入选 CVPR 2026 Highlight。Meta 已发布代码以及一个“foundation checkpoint”，其中部分骨干层出于政策原因被随机重新初始化，用户需要进行一次简短的微调，才能达到完整性能。",
+  "research_notes": "完全在像素空间中运行，没有潜空间阶段；证明了大规模像素级训练在细粒度任务上可以超越依赖预训练编码器的模型。",
+  "summary": "Meta AI 推出的原生统一多模态模型，直接从原始像素同时完成视觉理解与生成。它以单一 Transformer 架构取代了 CLIP 等传统视觉编码器或 VAE，采用直接的 patch 嵌入和整流流（rectified flow）。",
+  "title": "Tuna-2：像素嵌入超越视觉编码器"
+ },
  "n-447fbd2c0e": {
   "research_notes": "配置全局生成种子和环境先验,以初始化Macro规划层,用于区域生态、水文和交通网络。\n\n提供智能体的位置和朝向向量以投影移动走廊,并为即将进入的空间瓦片触发提前式Micro规划。\n\n调用本地确定性程序化编译,将已批准的Micro规划决策转换为可渲染的3D地形、植被和聚落资产。\n\n发出自然语言指令以更新运行时实体或瓦片属性,并将修改后的状态持久化到逐瓦片的世界记录数据库中。\n\n将规划视界与沿预测走廊的几何编译解耦,以保持稳定帧率并避免计算峰值。\n\n在Micro规划器中强制执行严格的瓦片间边界约束,以避免独立编译的单元之间出现视觉和拓扑接缝。\n\n当智能体穿越大范围距离时,依赖基于逐瓦片种子和变更记录的重新编译,而不是在内存中缓存高面数网格。",
   "summary": "一篇arXiv预印本阐明了WorldStream的带类型决策模型,该模型将提前式走廊规划与即时编译解耦,并将每个瓦片的种子、边界和NPC状态存储在持久化世界记录中。",
   "title": "arXiv预印本详述WorldStream架构与持久化世界记录"
+ },
+ "n-44b3b570af": {
+  "evolution_summary": "该项目已被 SIGGRAPH 2026 接收，并于 2026 年 5 月发布了官方源代码、预训练模型以及全面的 MA-Data 数据集。",
+  "research_notes": "采用 BiMamba-Transformer 混合架构以保证时间稳定性，并能处理超出训练窗口的长时长合成（30s+）。",
+  "summary": "一个以音乐驱动舞蹈视频生成的框架，采用级联混合专家方法，将动作合成与外观渲染解耦。它在长序列生成方面达到最先进水平，并支持对角色动作进行零样本编辑。",
+  "title": "MACE-Dance：面向舞蹈生成的动作-外观级联专家模型"
  },
  "n-44c547a245": {
   "evolution_summary": "从首次发布到 v0.1.9 迭代迅速，新增自动压缩（Auto-Compaction）和技能工作流（Skill Workflows）等功能。未来路线图聚焦于 ClawTeam 集成以及增强的多智能体通信协议。",
@@ -1088,9 +1335,37 @@
   "summary": "2026年8月3日，Firecrawl 讨论串中链接了 pdf-inspector 的 GitHub 仓库。这是一条重要的历史参考信息，因为它确定了该项目在当时的源代码仓库。现有证据无法确定发布、功能变更或项目成熟度。",
   "title": "Firecrawl 讨论串中链接的 pdf-inspector 仓库"
  },
+ "n-4541890dcb": {
+  "evolution_summary": "经验证的代码仓库版本支持扩展后的以 Klein 9B 为核心的工作流，最多可使用 8 个参考图、蒙版以及明确的中性直通控制；其效果尚未经过独立基准测试。",
+  "summary": "经验证的代码仓库版本支持扩展后的以 Klein 9B 为核心的工作流，最多可使用 8 个参考图、蒙版以及明确的中性直通控制；其效果尚未经过独立基准测试。",
+  "title": "Flux2Klein Enhancer 实现扩展的多参考实现"
+ },
+ "n-45b7bbd16b": {
+  "research_notes": "RAW 成为训练和 LoRA 的基础，Turbo 是用于文生图的 8-step checkpoint。",
+  "summary": "2026-06-23，收集到的链接集将一条 Krea AI 社交媒体帖子与社区托管的 Krea 2 Base、Turbo 以及标注为 FP8 的产物、提示词文档和一个 ComfyUI pull request 关联起来。这记录了在次日链接的官方文档集之前，围绕 Krea 2 出现的公开实现生态。来源页面和该帖子未经独立调研，因此其确切能力、状态和作者身份仍未经核实。",
+  "title": "Krea 2 的早期社区工具与模型产物浮出水面"
+ },
+ "n-461304d95b": {
+  "evolution_summary": "该项目经历了重大的 v0.5 更新，集成了 TRELLIS 2，支持高分辨率网格生成和 PBR 材质。它仍是 GAP-LAB（CUHK-Shenzhen）的一个活跃研究项目，并已提交至 ICLR 2026。",
+  "research_notes": "针对消费级 GPU（24GB 显存）进行了优化；支持导出为 GLB 和 Gaussian Splatting 格式。",
+  "summary": "ReconViaGen 是一个 3D 重建框架，它结合重建与生成先验，从稀疏视角中创建精确的模型。它集成了用于无位姿重建的 VGGT 和用于高保真 3D 生成的 TRELLIS，在保留输入细节的同时有效消除幻觉。",
+  "title": "ReconViaGen：通过生成实现精确的多视角 3D 重建"
+ },
  "n-4621bd0727": {
   "summary": "2026-08-12，VocalRender 通过其项目主页、源代码仓库、模型页面和交互式演示链接开放访问。这标志着该项目取得了重要的公开可用性进展，将其实现代码与可用的模型资源连接在一起。",
   "title": "VocalRender 项目资源已公开发布"
+ },
+ "n-464a2f9508": {
+  "evolution_summary": "LPM 1.0 由 Anuttacon 于 2026 年初推出，通过同时解决表现力、实时速度与稳定性三者之间的三难困境，为“表现”树立了新的基准。截至 2026 年 5 月，它仍是一个专注于数字人交互的研究项目，且模型权重未公开。",
+  "research_notes": "由 Anuttacon 开发，这是一家由 miHoYo 联合创始人蔡浩宇创办的 AI 初创公司。该项目推出了用于衡量角色表演质量的 LPM-Bench。",
+  "summary": "一个 17-billion 参数的扩散 Transformer，专为具备全双工能力的实时交互式数字角色表演而设计。它能够在长时间对话过程中实现低延迟、富有表现力的微表情，并保持稳定的身份一致性。",
+  "title": "Large Performance Model LPM 1.0 交互式视频"
+ },
+ "n-4694b833dd": {
+  "evolution_summary": "该方法从 PICO-fit（2025）基于优化的方案演进为单次前向的 Transformer 模型。它引入了“指代接触（Referential Contact）”，支持自然语言查询，并显著提升了大规模视频处理的推理吞吐量。",
+  "research_notes": "在 MMHOI 和 DAMON 数据集上取得了新的最先进结果，超越了 InteractVLM 等此前的视觉语言模型。",
+  "summary": "一个用于从单张图像预测稠密 3D 人-物接触的实例感知框架。它利用 InteractionFormer 架构和基于 SAM 的解码器，将接触掩码映射到多人场景中的 SMPL 人体网格上。",
+  "title": "Pi-HOC：成对 3D 人-物接触"
  },
  "n-4697df47f5": {
   "evolution_summary": "该项目被CVPR 2026接收，并推出了ViewBench，这是一个专门用于评估多模态大语言模型视角推理能力的基准。论文发表后，官方推理代码和基准数据集随即公开发布。",
@@ -1137,6 +1412,18 @@
   "summary": "2026年8月23日，该开发动态中包含了指向 Qwen3.8-27B-Uncensored-MLX 的 Hugging Face 仓库链接。这一带日期的链接表明存在一个公开的项目引用，但并不能证实该仓库的内容、发布状态或任何具体的模型变更。",
   "title": "与 Qwen3.8-27B-Uncensored-MLX 相关的 Hugging Face 仓库"
  },
+ "n-49a6616381": {
+  "evolution_summary": "当前为第 14 版；作者正根据用户反馈和错误数据，持续将该提示词改进为第 15 版。",
+  "research_notes": "专门针对 Gemini（通过 Google AI Studio）和 DeepSeek 等高上下文模型进行了优化。",
+  "summary": "一套 110,000-token 的系统指令集，旨在将 AI 模型转变为批判性、反谄媚的工程导师。它侧重于第一性原理思维、上下文漂移防护，并通过内置的认知标记来对抗幻觉。",
+  "title": "BRO v14：硬核斯多葛工程师超级提示词"
+ },
+ "n-49b64d4933": {
+  "evolution_summary": "在其 2025 年 NeurIPS 论文发表之后，代码与权重于 2026 年 4 月发布。它转向基于 NVIDIA Cosmos 骨干网络的单次前向联合建模，显著优于此前的多阶段重光照流程。",
+  "research_notes": "使用 NVIDIA OneWay Noncommercial License；需要 Cosmos-Predict1 骨干权重以及 Hugging Face 访问权限。",
+  "summary": "UniRelight 由 NVIDIA 开发，是一个单次前向的视频重光照框架，可同时完成本征分解与合成。它利用 7B 参数的 Cosmos-Predict1 基础模型，在复杂光照场景中实现高保真度和时间一致性。",
+  "title": "UniRelight：联合视频分解与合成框架"
+ },
  "n-49e8a26e33": {
   "evolution_summary": "该平台在 2026 年初从简单的片段生成转型为统一的多模态架构。字节跳动的 Seedance 2.0 更新引入了原生口型同步、导演级镜头控制，并能够处理最多 9 张参考图像，以在不同场景中实现角色渲染的一致性。",
   "research_notes": "Flova.ai 统筹调度多个模型，包括 Seedance 2.0 和剧本撰写智能体，以自动化生成长篇叙事内容。该平台在早期曾因超写实演员复刻问题而受到行业审视。",
@@ -1146,6 +1433,12 @@
  "n-49f80a3add": {
   "summary": "2026年6月25日，一条带日期的项目消息关联了 Whisper-Podlodka-Turbo 的 Hugging Face 仓库。该直接的项目成果链接使其成为开发脉络中的一条重要记录，但现有证据无法确定模型版本、能力、发布状态或具体变更。",
   "title": "Whisper-Podlodka-Turbo 的 Hugging Face 仓库已被关联"
+ },
+ "n-4a638abcfe": {
+  "evolution_summary": "在初始发布之后，该项目推出了 A3B-MoT 混合专家变体以及 8 步高速推理权重。目前支持用于消费级 GPU 部署的 GGUF 量化，并原生集成到智能体工作流中。",
+  "research_notes": "由 SenseTime 与 Light-AI 开发；代表了从模块化适配器向原生端到端多模态智能的转变。",
+  "summary": "SenseTime 推出的原生统一多模态模型系列，在单一端到端架构中集成了理解、推理与生成。它采用 Mixture-of-Transformers 骨干网络，无需独立编码器即可处理原始像素和文本 token。",
+  "title": "SenseNova-U1：采用 NEO-unify 的统一多模态 AI"
  },
  "n-4a97c79072": {
   "summary": "2026-04-01，一条带日期的项目动态分享了 See-through 的 GitHub 代码仓库和一个 Hugging Face Space 演示。这是一个重要的公开访问节点，因为它让项目源码位置和可交互的演示都可以被查找到。",
@@ -1162,6 +1455,12 @@
  "n-4b652bcc77": {
   "summary": "2026-08-17，彭博社报道称，Stripe 正接近达成一项协议，以超过 70 亿美元收购 AI 公司 OpenRouter。这是被报道的潜在交易动向，而非已确认完成的收购，记录时应注明这一限定条件。",
   "title": "Stripe 据报道接近以超过 70 亿美元收购 OpenRouter"
+ },
+ "n-4bbad7fe81": {
+  "evolution_summary": "该项目从第 1 阶段（96K 视频）演进到第 3 阶段（390K 视频），引入了针对复杂多对象交互的“Hard Reasoning”。未来的更新计划将训练扩展至完整的 1-million 视频 VBVR 数据集，以实现近乎完美的物理准确性。",
+  "research_notes": "专门针对重力模拟、因果关系和物体持久性；与 ComfyUI 工作流高度兼容。",
+  "summary": "一个专用于 LTX-2.3 22B 模型的 LoRA 适配器，可显著提升视频生成中的物理推理、空间逻辑和时间一致性。它利用 Video-Based Visual Reasoning 数据集来减少常见的 AI 视频故障和幻觉物理现象。",
+  "title": "Ltx2.3-VBVR：面向 LTX-Video 的视觉推理 LoRA"
  },
  "n-4bbbd17d1b": {
   "summary": "2026 年 7 月 25 日，一条带日期的记录将 AnyTop 与一个公开项目页面和一个 GitHub 代码仓库关联起来。这只能说明该项目在当日已有公开的项目存在痕迹，并不能证明项目的功能、发布状态、作者归属，或两个链接的具体内容。",
@@ -1230,6 +1529,12 @@
   "summary": "EMF 由阿里巴巴 DreamX 团队开发，是一个面向高效率一步式文生图的研究框架。它利用判别式文本表示，将复杂语义映射到单步生成过程中，在保持生成质量的同时显著降低推理延迟。",
   "title": "EMF：扩展一步式图像生成（阿里巴巴）"
  },
+ "n-52e566a651": {
+  "evolution_summary": "作为 LTX-Video 2.3 生态系统的一部分，于 2026 年 4 月发布；包括 LumiPic 图像变体，并已完全集成到 ComfyUI 中用于本地推理。",
+  "research_notes": "可生成与 DaVinci Resolve 和 Nuke 等调色与合成工具兼容的专业级 float16 EXR 序列。",
+  "summary": "由 Lightricks 开发的高质量 SDR 到 HDR 视频转换框架。它在 LTX-Video 2.3（22B）基础模型上使用专用的 In-Context LoRA，以 16 位 LogC3 格式重建动态范围与阴影。",
+  "title": "LumiVid：基于 LTX-Video 2.3 的 SDR 到 HDR 视频生成"
+ },
  "n-5319c89cd3": {
   "summary": "2026年6月14日，HuggingFace VFS 插件的开发分支中加入了指向该项目 GitHub 仓库的链接。这只是在历史记录中确立了仓库引用，所提供的证据并不能证明存在任何发布、实现变更或超出该链接之外的功能。",
   "title": "HuggingFace VFS 插件源代码仓库已关联"
@@ -1275,6 +1580,12 @@
   "summary": "2026-07-02，NeumaTex 随其项目页面链接被分享。封存的证据中不包含源文本或支撑性研究，因此本条历史记录仅记录这一带日期的公开引用，不对其方法、结果、作者身份或发布状态作出任何论断。",
   "title": "NeumaTex 项目页面已分享"
  },
+ "n-553243c913": {
+  "evolution_summary": "该项目最初基于 3D Clifford rotors，后扩展为 IsoQuant（4D）以及高度优化的 PlanarQuant（2D）变体。现在包含融合的 CUDA 和 Metal 内核，并已作为即插即用的 3-bit 缓存压缩方案集成到 llama.cpp 中。",
+  "research_notes": "以 44x 的参数减少量超越 Google 的 TurboQuant，预填充速度最高可达 5x，同时保持更高的输出质量。",
+  "summary": "一个开源项目，使用 Clifford 代数旋转子为 LLM 提供高效率的 KV 缓存压缩。它以显著更低的计算开销实现了极端的低于 4 比特量化，并且困惑度优于稠密正交变换方法。",
+  "title": "RotorQuant：基于分块对角 Clifford 旋转子的 KV 缓存压缩"
+ },
  "n-5540a93cb5": {
   "summary": "2026年6月26日，Seed Audio 的开发记录中包含一个指向 fal.ai 上 ByteDance Seed Audio 1.0 模型页面的链接。这标志着该项目获得了一项托管访问方面的引用，但并未确定该模型的原始发布日期或技术能力。",
   "title": "Seed Audio 1.0 通过 fal.ai 模型页面被引用"
@@ -1288,6 +1599,10 @@
  "n-55b05978df": {
   "summary": "2026 年 5 月 13 日，相关链接报道了一起据称与 Claude Code 有关的事件，涉及意外扣费以及某项目环境中的 Anthropic API 密钥。现有链接未能确定事件的成因、影响范围或补救措施，因此在进一步调查前，暂将其作为一起已报道的用户影响事件予以记录。",
   "title": "报道描述一起与 Claude Code 相关的意外扣费事件"
+ },
+ "n-55b3aea30b": {
+  "summary": "2026-04-10，Google 关联了一则关于 3D 模型和图表的 Gemini 应用官方公告，以及 Gemini 应用本身。这记录了 Gemini 应用界面中的一次产品能力推进。仅凭这些 URL 无法确定该能力是如何实现的，或哪些账户获得了该能力。",
+  "title": "Gemini 应用宣布 3D 模型与图表功能"
  },
  "n-55db199d87": {
   "evolution_summary": "该项目于 2026 年 4 月启动，同时发布了 VisPrompt-5M 数据集和用于评估视觉指令遵循能力的 VP-Bench。它确立了以视觉为中心的“图像输入，图像输出”范式，消除了针对各任务单独设置的架构分支。",
@@ -1305,6 +1620,12 @@
   "evolution_summary": "该新闻帖介绍了 Windows、macOS 和 Linux 上的本地模型运行与微调功能，支持 CPU 及多种加速器后端，并提供智能体、搜索、RAG、MCP 和导出等功能。",
   "summary": "该新闻帖介绍了 Windows、macOS 和 Linux 上的本地模型运行与微调功能，支持 CPU 及多种加速器后端，并提供智能体、搜索、RAG、MCP 和导出等功能。",
   "title": "Unsloth Desktop 正式发布"
+ },
+ "n-58129455d1": {
+  "evolution_summary": "2.6 版本引入了上下文相关的过程冗余抑制，以精简思维链推理。它继承了 Ring-2.5 系列，在 token 生成效率和显存需求方面均有所改进。",
+  "research_notes": "由 InclusionAI（蚂蚁集团）发布；可在 OpenRouter 上免费使用，并已与 Kilo Code 集成。",
+  "summary": "一个庞大的 1-trillion 参数混合专家模型，针对复杂推理和智能体工作流进行了优化。它支持 262K token 的上下文窗口，并专门针对编码和工具使用进行了调优。",
+  "title": "Ring-2.6-1T：高性能智能体 MoE 模型"
  },
  "n-58225bc7d0": {
   "evolution_summary": "该项目已被 CVPR 2026 接收，并将支持范围扩展至 FLUX.1、Wan2.1 和 HunyuanVideo。它也已通过社区开发的节点集成到 ComfyUI 生态中。",
@@ -1326,9 +1647,26 @@
   "summary": "CanAI以开源本地生成式工作室的形式发布了其代码库和Windows版本，支持无限画布上的神经生成与宏节点，并可使用个人fal.ai API凭证。",
   "title": "CanAI本地AI画布工作室在GitHub上发布"
  },
+ "n-5966d93d70": {
+  "research_notes": "识别采样轨迹中的缓存容忍区段，即联合音视频扩散模型采样轨迹中通常对应中间扩散时间步的部分。\n\n配置采样循环，在中间阶段缓存并复用音频去噪器的输出，同时绕过跨模态注意力，并保持视频去噪器的完整未缓存执行。\n\n在采样轨迹的最后几个终止步骤中恢复两种模态的完整联合音视频去噪，以消除跨模态漂移并锁定音视频同步。\n\n避免在中间采样步骤之间缓存视频去噪器的输出，因为视频表示缺乏音频那样的非对称可恢复性，会遭受不可恢复的时间模糊和运动退化。\n\n确保在采样轨迹末尾保留足够长的终止联合去噪步骤窗口，以保证音频保真度以及与视频动态的精确时间对齐。",
+  "summary": "预印本 2610.30854 提出了 CAVC，这是一个用于扩散音视频生成的免训练缓存框架。它在缓存中间音频去噪步骤的同时继续视频精修，并以终止联合步骤收尾。",
+  "title": "CAVC：面向扩散音视频生成的模态非对称缓存框架发布"
+ },
+ "n-596ffa06da": {
+  "evolution_summary": "该项目从最初的 2B 模型过渡到 v1.5 XL 版本中的 4B 参数 DiT。它新增了用于 8 步推理的 XL-Turbo，改进了人声连贯性，并原生支持 ComfyUI 以实现修复和风格迁移等高级编辑。",
+  "research_notes": "包含混合架构：用于歌曲结构的 LM 规划器和用于音频的 DiT 执行器。支持 50 多种语言，并依据 Apache-2.0/MIT 许可允许商业使用。",
+  "summary": "由 ACE Studio 与 StepFun 开发的开源 4B 参数扩散 Transformer（DiT）音乐基础模型。它采用规划器-执行器架构，可根据文本或歌词生成全长、高保真的歌曲。",
+  "title": "ACE-Step 1.5 XL"
+ },
  "n-599684b34f": {
   "summary": "2026年6月13日，相关谷歌材料确认 Gemini 3.5 Live Translate 为 Gemini Live 中实时翻译功能的预览模型。该日期关联的链接集还包括 Live API 指南、AI Studio Live 预览网址，以及与 LiveKit 和 Pipecat 的集成参考资料，表明这是一起重要的进展事件。",
   "title": "谷歌发布 Gemini 3.5 Live Translate 预览版"
+ },
+ "n-5ac53c2267": {
+  "evolution_summary": "该模型标志着 Blackwell GPU 上原生 NVFP4 硬件加速的落地，使 GPT-4 级别的推理能够在本地运行。它通过专用的草稿模型支持推测解码，吞吐量提升达 4x。",
+  "research_notes": "原生支持需要 NVIDIA Blackwell（RTX 5000 系列）Tensor Core 以实现细粒度块缩放；Hopper 等较旧架构需要通过 vLLM 进行软件模拟。",
+  "summary": "Google 的 Gemma-4-31B-IT LLM 的官方 4 位浮点（NVFP4）量化版本，由 NVIDIA 针对 Blackwell 架构优化。它在消费级硬件上实现高效率的 256K 上下文处理，同时保持近乎完整的精度。",
+  "title": "NVIDIA Gemma-4-31B-IT NVFP4 量化模型"
  },
  "n-5ade5d658c": {
   "evolution_summary": "该项目最初作为电影级视频工作室的替代方案推出，后更名为 Open Generative AI，以体现其向支持图像、视频和音频模型的综合性平台的扩展。项目引入了基于节点的 Workflow Studio，并通过 C++ 引擎新增了本地模型推理能力。",
@@ -1339,6 +1677,18 @@
  "n-5b5558fedd": {
   "summary": "2026年7月8日，ThinkingCap-Qwen3.6-27B 及多个替代部署格式的公开代码仓库已被关联发布。已关联的格式包括 GGUF、NVFP4 以及 int4 AutoRound 变体，标志着该模型系列及其相关分发选项已公开可用。",
   "title": "ThinkingCap-Qwen3.6-27B 的代码仓库与部署变体已关联上线"
+ },
+ "n-5b56fca93a": {
+  "evolution_summary": "将此前独立的 TDT 离线架构与专用流式架构统一到单一模型中，可动态切换。它延续了 Parakeet-TDT-0.6b 系列，WER 显著改善，部署效率也更高。",
+  "research_notes": "在 H100 GPU 上实时因子最高可达 3000x，延迟低至 160ms；支持原生标点和大小写。",
+  "summary": "一个 600-million 参数的自动语音识别模型，统一了离线批处理与实时流式转录。它采用 Unified-FastConformer-RNNT 架构，在多样的音频任务中实现高准确率和低延迟。",
+  "title": "NVIDIA Parakeet-unified-en-0.6b 统一 ASR 模型"
+ },
+ "n-5be6e62e52": {
+  "evolution_summary": "该项目于 2026 年初发布，引入了非压缩潜在编码和基于可见性的点云记忆，以解决稀疏视角 3D 重建中的结构模糊问题。",
+  "research_notes": "基于 Wan2.1 I2V 14B 基础模型，据报告，与此前最先进的基线相比，推理速度提升 10-20x。",
+  "summary": "AnyRecon 是一个从稀疏且无序的照片集合中进行高质量 3D 物体重建的框架。它利用视频扩散模型和全局场景记忆，在任意视角之间保持几何一致性。",
+  "title": "AnyRecon：基于视频扩散的任意视角 3D 重建"
  },
  "n-5cac0a3186": {
   "evolution_summary": "Luma AI 于 2026 年初从 Dream Machine 等独立的生成式工具，转型为以 Luma Agents 为核心的完整编排层。该系统现采用 Ray3 推理视频模型和 Uni-1 多模态 Transformer，以处理复杂且持续存在的项目上下文。",
@@ -1405,6 +1755,17 @@
   "summary": "该新闻帖报道了 SANA-Video 的代码与权重已发布，并提供了演示、Hugging Face 与 Diffusers 链接，提到可能在 ComfyUI 中使用，以及一次对四步采样的负面试用印象。",
   "title": "SANA-Video 代码与权重发布"
  },
+ "n-5e92efec32": {
+  "evolution_summary": "承接 ERNIE 5.0，该模型从庞大的参数规模（2.4T）转向通过 Once-For-All 框架实现的更高效的 800B 架构。它采用了全新的异步强化学习流程，并增强了四阶段后训练。",
+  "research_notes": "在 Arena Search 中全球排名 4th，在中国模型中排名 1st。其设计旨在硬件约束和美国芯片出口管制条件下优化性能。",
+  "summary": "百度于 2026 年 5 月发布的最新旗舰模型，专注于高参数效率与智能体推理。它目前是全球排名最高的中国模型，以显著更低的训练成本实现了前沿性能。",
+  "title": "百度 ERNIE 5.1 大语言模型"
+ },
+ "n-5e96f46ead": {
+  "research_notes": "克隆代码仓库，安装适合本机的 PyTorch 版本，然后安装文档中列出的依赖项以及可编辑模式的包。\n\n加载 DBS-BSRNN 以使用已发布的 3秒窗口、1.5秒跳步的配方，或加载 DBS-TIGER 以使用 6秒窗口、3秒跳步的配方。\n\n提供 44.1 kHz 音频；若遵循文档示例，则将多声道输入转换为单声道，然后调用分离 API，以获得音乐、音效和语音的估计结果。\n\n匹配检查点架构与分块配方：DBS-BSRNN 使用 3秒窗口，DBS-TIGER 使用 6秒窗口。\n\n将演示及推断出的分离音轨视为估计结果而非真值；在下游使用前检查是否存在声源泄漏和伪影。",
+  "summary": "Dynamic Band Splitting 提供了代码以及预训练的 DBS-BSRNN 和 DBS-TIGER 模型，用于从 44.1 kHz 单声道音频中估计音乐、音效和语音，并附带交互式试听工作室。",
+  "title": "Dynamic Band Splitting 发布自适应音频分离代码与模型"
+ },
  "n-5ee5b179bf": {
   "summary": "2026年7月26日，一条带日期的记录将 UniD 项目网站与其 GitHub 仓库关联起来。这为该项目及其当时的源代码位置确立了一个公开的参考点。现有证据并未指明发布版本、论文、模型或功能变更，因此本文不包含此类表述。",
   "title": "UniD 项目页面与源代码仓库已公开关联"
@@ -1413,11 +1774,20 @@
   "summary": "2026-06-26，GLM-5.2-NVFP4 的开发线记录了一条指向 NVIDIA 账户下 Hugging Face 模型页面的链接。这是该项目公开分发路径中的一个重要参照点，但仅凭这条带日期的链接，并不能确定发布日期、模型修订版本或技术规格。",
   "title": "GLM-5.2-NVFP4 已关联到 NVIDIA 的 Hugging Face 模型页面"
  },
+ "n-5f314f696f": {
+  "evolution_summary": "该新闻稿描述了最长 15 分钟的音乐分析、描述、结构与混音问题解答、乐器与流派识别、多语言歌词转录以及文化语境。",
+  "summary": "该新闻稿描述了最长 15 分钟的音乐分析、描述、结构与混音问题解答、乐器与流派识别、多语言歌词转录以及文化语境。",
+  "title": "Music Flamingo 面向长篇音乐理解"
+ },
  "n-5f36799f6d": {
   "evolution_summary": "该项目从专注于 Minecraft 的 v1.0 演进为 v3.0 的实时世界模拟器，引入了长时程记忆，并采用 28B MoE 架构，以解决长序列中的一致性问题。",
   "research_notes": "使用 5B 参数模型实现 720p 分辨率下 40 FPS 的生成速度；采用记忆增强的 Diffusion Transformer，并通过 AITER CK 支持 AMD ROCm。",
   "summary": "一款开源交互式世界模型，支持实时流式生成，并保持长期的时空一致性。它可作为高性能世界模拟器，以最高 40 FPS 的速度生成高分辨率环境。",
   "title": "Matrix-Game 3.0：Skywork AI 推出的交互式世界模型"
+ },
+ "n-5f58046d55": {
+  "summary": "2026-06-13，Surflo 的项目页面和 GitHub 仓库在 3D 表面重建的讨论串中被提及。这记录了一个带日期的项目入口，但现有证据并未表明该日期发生了发布、版本更新、基准测试或其他项目变化。",
+  "title": "3D 表面重建中提及了 Surflo 项目资源"
  },
  "n-5fb7b8ba70": {
   "summary": "2026年6月15日，一则项目更新附上了 TensorForger 的 Flow Upscaler ComfyUI 节点代码仓库及其关联的 Hugging Face 资源链接。这是 Flow Upscaler 开发路线的一个重要公开分发入口，但仅凭这些带日期的链接，无法确定其版本、功能集或发布状态。",
@@ -1450,6 +1820,11 @@
  "n-61e3cf03ac": {
   "summary": "2026年7月9日，LingBot-Video 开发线与一个项目页面、一个 GitHub 仓库、一个 Hugging Face 合集以及一个 Hugging Face Space 建立了关联。这些带日期的链接确立了一个公开项目资源的里程碑，但并不能证明具体的发布、版本、能力声明或技术结果。因此，该事件被严格限定为项目参考资源的可获取性来记录。",
   "title": "LingBot-Video 的公开项目资源被引用"
+ },
+ "n-6202d8d932": {
+  "research_notes": "可通过 Kimi 网页应用、Kimi Work 或 Kimi Code 与模型交互。\n\n通过 Moonshot Open Platform API 调用 kimi-k3.1-pro 模型端点进行标准推理，输入每百万 token $2、输出每百万 token $10。\n\n若工作负载需要生成速度提升 2-3x，可选择 Highspeed API 变体，其 token 价格翻倍。\n\n使用 1M-token 上下文窗口，可在单个会话中输入整个多文件代码库以及复杂的 CAD/3D 资产配置。\n\n在提示 Unreal Engine、Unity、Godot 或 Three.js 的程序化生成时，请指定有针对性的引擎和脚本约定。\n\n将高吞吐、对延迟敏感的交互任务路由到 Highspeed 端点，同时将复杂的离线推理保留在标准档位上，以控制推理成本。",
+  "summary": "Moonshot 发布了 Kimi K3.1 Pro，集成了游戏引擎，支持 1M token 上下文，并提供快 2-3x 的 Highspeed API 档位。",
+  "title": "Kimi K3.1 Pro 发布，附 Highspeed 变体及计划开放的权重"
  },
  "n-625a62d5de": {
   "summary": "2026年7月2日，一名带日期的成员链接到了Adobe的Firefly Graph发布页面以及一份Adobe调查问卷。这是Firefly Graph面向公众的一个重要进展步骤，表明该产品已推出，并附带了一个反馈渠道。仅凭这些带日期的链接，无法确定产品功能、可用性或调查问卷的具体用途。",
@@ -1506,9 +1881,19 @@
   "summary": "2026年3月10日，ONYX Ai Matte 开发线与其项目网站和一个 Hugging Face 资源链接建立了关联。这些带日期的链接确立了一个可对外访问的项目参考，但若无原始帖子或研究，则无法确定具体的发布版本、模型版本、功能或变更。",
   "title": "ONYX Ai Matte 项目资源已关联"
  },
+ "n-6562acabdd": {
+  "evolution_summary": "该模型于 2026 年 4 月以匿名身份作为全球排行榜上的顶尖模型首次亮相，随后被揭示为阿里巴巴项目，并于 2026 年 5 月全面商业化上线。",
+  "research_notes": "采用统一的单流 Transformer 架构；原生支持超过 7 种语言的口型同步，包括英语、普通话和日语。",
+  "summary": "阿里巴巴推出的 15-billion 参数多模态模型，可同时生成高质量视频和同步音频。它具备音素级口型同步功能，并以 1080p 分辨率为面向生产的内容进行了优化。",
+  "title": "Happy Horse 1.0：统一视频与音频生成模型"
+ },
  "n-65c8f1b873": {
   "summary": "2026-06-11，该开发动态记录到一个指向字节跳动 EvoQuality 资源（位于 Hugging Face 上）的公开链接。这是该项目的一个重要公开分发节点，但现有证据并不能确定该资源的制品类型、版本、能力或配套发布说明的细节。",
   "title": "字节跳动在 Hugging Face 上发布 EvoQuality 资源"
+ },
+ "n-6607af2693": {
+  "summary": "2026-06-19，TSANTSALIZE 开发项目记录了指向 Hugging Face 仓库 https://huggingface.co/TheBurgstall/tsantsalize. 的链接。该事件被视为一个重要的公开模型可用性里程碑，但已封存的证据未能确定该模型的版本、能力或发布细节。",
+  "title": "已记录 TSANTSALIZE 的 Hugging Face 模型资源"
  },
  "n-661e84940d": {
   "evolution_summary": "该项目从早期的社区移植版本发展为稳定的 Saganaki22 实现,引入了 SageAttention 支持、面向 Windows 的内存优化,以及用于非语言表达的高级对话标注功能。",
@@ -1616,6 +2001,12 @@
   "summary": "2026-07-01，一个 Hugging Face 仓库公开了面向 Flux2-Klein-9B True V3 的 INT8 ConvRot 检查点。相关日期链接还关联到一个专注于 ComfyUI 的 INT8 集成仓库，标志着本地推理用户在分发方面迈出了实用的一步。",
   "title": "INT8 版 Flux2-Klein 检查点及 ComfyUI 集成已可用"
  },
+ "n-6a60e32785": {
+  "evolution_summary": "在 Qwen 3.5 系列的基础上，3.6 Plus 版本引入了常开推理、65K 输出 token 上限，并在 SWE-bench 等编码基准上的表现显著提升。",
+  "research_notes": "在 SWE-bench Verified 上取得 78.8 分；目前以约每 1M 输入 token $0.50 的颠覆性价格用于生产环境。",
+  "summary": "Qwen 3.6 Plus 是阿里巴巴推出的多模态大语言模型，专为自主智能体工作流和代码仓库级软件工程进行了优化。它默认提供 1-million token 上下文窗口，并采用新一代混合架构以实现高速推理。",
+  "title": "Qwen 3.6 Plus"
+ },
  "n-6ab0eb34ad": {
   "summary": "2026年3月20日，一条带日期的消息链接到了S3T-Former的GitHub仓库。这证明了该项目在当时已有可公开查阅的代码参考，但现有证据并未说明具体版本发布、论文版本、基准测试结果或任何具体代码变更。因此，该历史条目应仅记录仓库的可访问情况。",
   "title": "S3T-Former源代码仓库已被分享"
@@ -1650,6 +2041,11 @@
  "n-6c34648459": {
   "summary": "2026-06-16，JoyAI-VL-Interaction 被记录为同时拥有公开项目网站和 GitHub 源代码仓库。这为该交互式视觉语言项目确立了一个带日期的公开开发参考时间点，但并不意味着确立了具体的发布版本或能力声明。",
   "title": "JoyAI-VL-Interaction 项目与源代码仓库已公开关联"
+ },
+ "n-6c5e22fee1": {
+  "research_notes": "`ideogram-v4-instant` 是一个 8 步 BF16 的 pre-QAD 检查点，而 `ideogram-v4-fast` 是一个 20 步 FP4/QAD 检查点。两者均由 fal 开发，基于 Ideogram 的 FP8 基础模型，并移除了运行时 CFG。",
+  "summary": "2026-07-14，带日期的链接集新增了由 fal 托管的 Ideogram v4 变体，分别标注为 Instant 和 Fast。这是一个重要的进展，因为它明确了 Ideogram 4 系列中的不同变体。仅凭这些链接，尚无法确定它们的可用性、技术差异，或与 6 月发布版本之间的确切关系。",
+  "title": "已记录 Ideogram v4 Instant 与 Fast 变体"
  },
  "n-6cdd78c533": {
   "summary": "2026 年 6 月 30 日，一条项目消息附上了 Agents-A1 的网站、GitHub 仓库和 Hugging Face 页面链接。这是一个重要的公开开发节点，因为它将读者引向该项目的网页、源代码和分发渠道；不过，仅凭这些链接无法确定具体的发布版本、版本号或能力。",
@@ -1730,6 +2126,11 @@
   "research_notes": "由UNIST和KAIST的研究人员开发；利用emotion2vec+提取高保真的语义音频特征。",
   "summary": "一个模块化框架，通过将语音特征映射到面部表情，实现说话人脸视频中细粒度的情绪编辑。它支持讽刺、共情等超出基本情绪类别的复杂情绪状态，并可与现有的基于解耦的生成器集成。",
   "title": "C-MET：面向说话人脸视频的跨模态情绪迁移"
+ },
+ "n-7127c15c53": {
+  "research_notes": "MiniMax 推出了 H3，支持多模态上下文和原生立体视频，视频最高可达 2K/15 秒；权重承诺将在后续版本中发布。",
+  "summary": "2026-07-31，MiniMax 发布了一篇与 MiniMax H3 相关的官方博客文章。该带日期的链接确立了一次公开的项目沟通，但已封存的证据未能确定其中描述的具体产品变更、能力或可用性。",
+  "title": "MiniMax 发布 MiniMax H3 官方博客文章"
  },
  "n-7150bbd771": {
   "summary": "2026-07-30，一个名为 LTX-2.3-22B-IC-LoRA-Relight 的 Hugging Face 资源被公布。这是 LTX-2.3 系列的一次实质性扩展，它通过 LoRA 资源增加了专门的重光照能力。",
@@ -1819,6 +2220,12 @@
   "summary": "Xiaomi 推出的统一原生多模态模型系列，支持文本、图像、视频和音频输入，上下文窗口达 100 万 token。该系列采用稀疏混合专家（Mixture-of-Experts）架构与混合注意力机制，在复杂的智能体任务中实现了高效率。",
   "title": "Xiaomi MiMo V2.5 全模态推理模型"
  },
+ "n-76a6e0d291": {
+  "evolution_summary": "该项目从基础条件检测演进为复杂的“Identity Lock”系统，提供 Soft、Medium 和 Hard 三种保真模式。近期更新引入了用于空间身份引导的 Mask Ref Control，以及零依赖的模型 hook 追踪。",
+  "research_notes": "由 capitan01R 开发；通过隔离活跃 token 并直接针对模型内部模块，绕过了基于 Qwen3 的文本编码器的限制。",
+  "summary": "一个用于 FLUX.2 Klein 模型的 ComfyUI 节点套件，无需 LoRA 训练即可实现角色身份保持。它利用模型 hook 追踪和身份引导，将参考特征直接注入模型的双流架构中。",
+  "title": "ComfyUI-Flux2Klein-Enhancer 面部保持节点"
+ },
  "n-76eee2c69c": {
   "evolution_summary": "Echo-2 于 2026 年 4 月下旬发布，通过 Gaussian Splatting 引入了空间持久性和对象级编辑功能。它取代了早期原型，重点关注“基于物理”的几何结构，以消除导航过程中的漂移问题。",
   "research_notes": "该模型由总部位于慕尼黑的初创公司 SpAItial AI 开发；生成结果可导出为 .ply 点云或标准网格格式，用于 Unreal Engine 5 等游戏引擎。",
@@ -1832,6 +2239,10 @@
  "n-77f1dd74e4": {
   "summary": "2026年8月1日，本条目记录了迪士尼研究院题为“Interactive Generative Motion Editing via Scheduled Inpainting”的工作，该工作链接自其 Studios 网站。随附的视频链接表明，该工作包含对动作编辑方法的可视化演示。",
   "title": "迪士尼研究院记录了通过计划修复（scheduled inpainting）实现的交互式生成式动作编辑"
+ },
+ "n-782f0991a7": {
+  "summary": "2026-03-18，Doodles Stoodio 开发项目记录了公开端点 https://stoodio.doodles.app/. 这为项目确立了一个带日期的公开参考点，但已封存的证据未能确定其上线、功能变更或运营影响。",
+  "title": "已记录 Doodles Stoodio 公开网页端点"
  },
  "n-78395026cf": {
   "summary": "2026 年 7 月 18 日，OvisOCR2 的开发进展中记录了一个 Hugging Face 模型页面和一个 Hugging Face Space 的链接。这是该项目一个重要的公开参考节点，表明模型资源以及相关的交互式页面已向读者开放。",
@@ -1895,6 +2306,12 @@
   "research_notes": "该项目包含一种专门设计的“几何锚点注意力”（Geometric Anchor Attention）机制，以及轨迹端点监督，用于防止在复杂相机运动过程中出现几何漂移。",
   "summary": "UniGeo 是一个用于高保真、可控相机视角图像编辑的框架，它以视频扩散模型作为先验。该框架在表示、架构和损失三个层面引入统一的几何引导，以在视角变化过程中保持严格的结构一致性。",
   "title": "UniGeo：基于视频模型的可控相机视角图像编辑"
+ },
+ "n-7cc366b545": {
+  "evolution_summary": "2026 年 4 月随 GameCoder-27B 模型和 OpenGame-Bench 评测套件一同发布。它从基础代码生成演进为采用基于执行结果的强化学习的双技能系统（模板与调试）。",
+  "research_notes": "由 CUHK MMLab 研究人员开发；利用 VLM 评判器实时验证可玩性与视觉一致性。",
+  "summary": "一个开源智能体框架，用于利用专用 LLM 自主完成端到端的网页游戏创作。它通过整合设计、编码和自动调试技能，从自然语言提示生成完全可玩的 2D 游戏。",
+  "title": "OpenGame：面向网页游戏的开放智能体编码"
  },
  "n-7d096b306e": {
   "summary": "2026年6月5日，所提供的证据将一个名为 Wan2.2-NVFP4-Sparse 的 Hugging Face 仓库与相关信息关联起来。这为该项目提供了一个有日期的公开参考节点，并被视为其发展历程中一次重要的分发步骤。现有证据无法确定该仓库的具体内容、版本、技术变更或发布状态。",
@@ -2010,6 +2427,11 @@
   "summary": "一种具备物理感知能力的视频修复框架，可移除对象及其次级因果效应。它采用独特的“quadmask”（四值掩码）策略来确保物理一致性，例如在移除一个球的同时，也移除其对其他物体的撞击影响。",
   "title": "VOID：来自 Netflix 的视频对象与交互删除"
  },
+ "n-83d7f5eb84": {
+  "research_notes": "直接从官方 Hugging Face 仓库下载模型权重或量化变体。\n\n使用所附的 GGUF 文件，通过 llama.cpp 或 Ollama 在本地部署，适用于内存受限的消费级硬件。\n\n通过 vLLM 或 SGLang 提供服务，以提供兼容 OpenAI 的 API 端点，支持最长 1M token 的长上下文请求。\n\n为每个请求配置思考预算参数（none、low 或 high），以调节推理延迟和 token 消耗。\n\n在边缘硬件或消费级 GPU 上运行时，使用量化 INT4 或 GGUF 变体，将内存占用控制在 4GB 至 8GB 之内。\n\n对于简单的对话和抽取类任务，选择 “none” 思考预算以最小化首 token 延迟；对于多步逻辑或代码生成，则切换为 “high”。\n\n处理最长 1M token 的长上下文时，应使用带分页注意力的运行时（如 vLLM 或 SGLang），并配置适当的主机内存分配，以防止 KV 缓存 OOM。",
+  "summary": "Spark-X2.6-4B 发布包含后训练权重和基础版本，支持通过 SGLang 和 vLLM 进行兼容 OpenAI 的本地服务，并提供用于消费级硬件推理的 GGUF 量化版本。",
+  "title": "Spark-X2.6-4B 新增通过 vLLM 与 SGLang 提供的兼容 OpenAI 服务支持"
+ },
  "n-840bb8c6c7": {
   "evolution_summary": "Chandra OCR 2 于 2026 年 3 月发布，是原始模型的一次重大更新：参数量从 9B 降至 4B，同时基准性能提升了 12%。它新增了提取 Mermaid 格式图表和化学分子结构的能力。",
   "research_notes": "支持 90 多种语言，并对南亚文字进行了专门优化。该模型由 Datalab 开发，目前被视为专有 OCR 解决方案中顶级的开源替代方案。",
@@ -2029,6 +2451,17 @@
   "summary": "2026-07-28，该记录将 MagicMakeup Transfer 关联至其项目网站、源代码仓库和托管模型页面。这构成了该项目研究、实现及模型资源的重要公开访问入口。现有证据未能确定具体的发布版本或能力声明。",
   "title": "MagicMakeup Transfer 公开项目资源已关联"
  },
+ "n-851c72bbf5": {
+  "evolution_summary": "官方发布线已达到 v0.1.8；当前指南将 base/SFT 的 50 步 CFG、turbo 的 8 步无 CFG 以及 XL 的硬件限制分开说明。",
+  "summary": "官方发布线已达到 v0.1.8；当前指南将 base/SFT 的 50 步 CFG、turbo 的 8 步无 CFG 以及 XL 的硬件限制分开说明。",
+  "title": "ACE-Step 1.5 发布 v0.1.8，附按产物区分的 GPU 指南"
+ },
+ "n-85862dbbb3": {
+  "evolution_summary": "该项目从基础的 EXIF 配准扩展为支持从 RealityScan 和 Agisoft Metashape 进行高精度导入。它引入了 SPZ v3 压缩，文件体积缩小 14x，并通过 3D Tiles 1.1 实现与 CesiumJS 和 ArcGIS 的完全兼容。",
+  "research_notes": "使用稳健的 RANSAC + Umeyama 求解器进行抗离群点的坐标对齐；具备“No Scene”模式，可利用已有的相似变换矩阵处理独立的 PLY 文件。",
+  "summary": "一个开源 Python 工具，用于利用图像 EXIF 元数据或外部 CSV 日志，将 3D Gaussian Splatting 模型地理配准到真实世界坐标。它可将场景导出为 3D Tiles 1.1、LAS 和 LAZ 格式，从而实现专业的 GIS 集成。",
+  "title": "用于 3D Gaussian Splatting 场景的 Geo Register 插件"
+ },
  "n-86023c7979": {
   "summary": "2026年7月15日，SAM2Matting 通过相关的官方项目页面、源代码、模型托管及交互式演示等链接正式对外发布。这是该项目向公众开放的重要一步，因为读者现在可以通过这些链接找到其实现并对其进行评估。",
   "title": "SAM2Matting 项目公开资源已上线"
@@ -2045,6 +2478,12 @@
   "summary": "2026年7月19日，Canon UltraReal 被关联到 Civitai 和 Hugging Face 上的公开模型页面。这是该项目一个带日期的公开分发列表里程碑，但现有证据并不能确定其版本、权重变化、发布说明，或原始消息的具体内容。",
   "title": "Canon UltraReal 已在 Civitai 和 Hugging Face 上公开列出"
  },
+ "n-86ce44c208": {
+  "evolution_summary": "作为 Qwen-Image 1.0 系列的继任者推出，该模型从 20B 的 MMDiT 架构转向更高效的统一 7B “omni” 模型。它整合了生成与编辑能力，并支持 1,000-token 的长提示词。",
+  "research_notes": "被广泛认为是英文和中文精确文字渲染方面的行业领先者；在 AI Arena ELO 排行榜上持续位居前十。",
+  "summary": "阿里巴巴推出的专业级多模态基础模型，统一了图像生成与编辑。它于 2026 年 2 月发布，擅长原生 2K 分辨率输出和复杂的双语排版，在技术准确性方面常居顶级模型之列。",
+  "title": "Qwen-Image-2.0-Pro"
+ },
  "n-8719519a69": {
   "summary": "2026-08-06，3DGS-PLY-3DTiles-Converter 的 GitHub 源代码仓库和公开的 Vercel 站点被记录在案。这为该项目确立了一个带日期的公开参考时间点，但不涉及特定的版本发布、功能或上线事件。",
   "title": "3DGS-PLY-3DTiles-Converter 源代码仓库与公开站点已记录"
@@ -2060,6 +2499,12 @@
   "summary": "一个先进的视频帧插值框架，将 Wan2.1 扩散 Transformer 架构改造用于整体序列建模。该框架采用自回归生成与 Skip-Concatenate 采样，以在长视频和高分辨率帧中保持时间一致性。",
   "title": "LDF-VFI：面向视频帧插值的局部扩散强制方法"
  },
+ "n-8913c98771": {
+  "evolution_summary": "Sulphur 2 作为基于 LTX-2.3 的基础检查点发布。",
+  "research_notes": "SulphurAI 的模型卡将 Sulphur-2-base 标识为基于 LTX-2.3 的检查点。",
+  "summary": "Sulphur 2 是 SulphurAI 发布的一个公开视频模型检查点。",
+  "title": "Sulphur 2 视频生成模型"
+ },
  "n-8a14fda3a6": {
   "evolution_summary": "一次批量研究资料导入新增了 21 篇公开文章。",
   "research_notes": "批次规模和工作流标签保留自不可变的提交主题；未发布任何私有提示词或对话记录。",
@@ -2070,9 +2515,25 @@
   "summary": "2026年3月25日，一条带日期的消息链接到了 Facebook Research 的 HyperAgents GitHub 代码仓库。这是该项目历史上的一个重要公开引用步骤，因为它将读者引向项目的源代码仓库；现有证据无法确定该仓库的发布内容或版本。",
   "title": "HyperAgents 公开代码仓库被引用"
  },
+ "n-8a620616a1": {
+  "evolution_summary": "Qwen3.6 于 2026 年 4 月发布，引入了“Thinking Preservation”以在长对话中保持推理一致性，并显著提升了智能体编码性能。该 NVFP4 版本代表了面向消费级和企业级硬件的本地 MoE 部署的当前最先进水平。",
+  "research_notes": "原生硬件加速需要 NVIDIA Blackwell（RTX 50 系列或 B100）；兼容 vLLM、SGLang 和 Ollama。",
+  "summary": "Qwen3.6-35B-A3B-NVFP4 是一个 35B 混合专家大语言模型，由 Red Hat 使用 4 位浮点量化针对 NVIDIA Blackwell 架构进行了优化。它通过其 3B 激活参数子网络，在 RTX 50 系列 GPU 上实现显著的吞吐提升，同时保留了推理能力。",
+  "title": "Qwen3.6-35B-A3B-NVFP4：高效率 Blackwell 优化的 MoE"
+ },
+ "n-8a851b82d9": {
+  "evolution_summary": "该项目从基础的帧插值演进为基于 Wan 扩散系列的完整 4D 锚点控制工作流。截至 2026 年 5 月，它支持 Wan 2.7 架构，用于高保真相机控制和基于指令的编辑。",
+  "research_notes": "由 Morphic Films 开发；包含专用的 4D Visualizer，用于在重建的点云空间中手动设置相机轨迹关键帧。",
+  "summary": "一个自监督视频扩散系统，可改变单目视频中的相机轨迹。它利用从源视频导出的 4D 点云锚点提供几何条件，以实现一致的视点合成。",
+  "title": "Reshoot-Anything：基于 4D-Anchor 控制的视频视点合成"
+ },
  "n-8a9fb1a4b9": {
   "summary": "2026年7月21日，Lucida 分支的一名成员关联了该项目的 GitHub 仓库、Hugging Face 模型页面以及两个 Hugging Face Spaces。综合来看，这些带日期的链接标志着 Lucida 的代码、模型、展示和演示资源在公开层面上的一个重要参照节点。但仅凭这些链接，无法确定当天具体是哪些资源首次发布，也无法说明它们的功能特性。",
   "title": "Lucida 开发资源已被关联"
+ },
+ "n-8ae442bb62": {
+  "summary": "2026-05-19，mm-ctx 开发线引用了公开 Hugging Face Space 位于 https://huggingface.co/spaces/vlm-run/mm-ctx. 现有记录确立了这一公开项目引用，但无法确定它是否标志着发布、更新、演示或其他具体里程碑。",
+  "title": "mm-ctx 公开 Hugging Face Space 引用"
  },
  "n-8b5f11bc11": {
   "summary": "2026-06-18，记录了一个 Qwopus3.6-27B-Coder-MTP GGUF 模型、Qwopus3.6-27B-v2 模型以及一份 Qwen MTP 转 GGUF 指南的链接。综合来看，这些带日期的参考信息表明存在一个可分发的 Coder-MTP GGUF 变体及其直接相关的模型转换背景。这是一个重要的进展步骤，但仅凭这些链接无法确定性能、训练细节、许可证或发布状态。",
@@ -2095,6 +2556,12 @@
  "n-8cc344a285": {
   "summary": "2026-07-18，Decart 发布了 Lucy 2.5 的公开页面，并附上了一个公开的产品端点链接。这是 Lucy 系列的一次重要公开进展，因为带日期的官方链接表明这是一个独立版本，而非转载。仅凭所提供的链接，无法确定其具体能力、性能、可用性，或其与早期 Lucy 版本之间的关系。",
   "title": "Decart 公开发布 Lucy 2.5"
+ },
+ "n-8cf0d43011": {
+  "evolution_summary": "FastGHA 代表了从缓慢的特定主体优化向通用的前馈式 3DGS 重建的转变。它承接了早期的 Avat3r（2025），现已与 Disney 的新项目 RelightAnyone 和 CANRIG 整合，以实现高级环境光照和绑定。",
+  "research_notes": "已在 ICLR 2026 正式发表。利用 DINOv3 和 Stable Diffusion VAE 特征，以增强结构和纹理保真度。",
+  "summary": "FastGHA 是一种前馈方法，可在不到一秒内从稀疏图像重建高保真 3D 头部虚拟形象。它利用基于 Transformer 的特征融合和预训练先验，为未见过的身份实现实时动画和精确的表情控制。",
+  "title": "FastGHA：通用少样本 3D Gaussian 头部虚拟形象"
  },
  "n-8d546ea894": {
   "summary": "2026年4月1日，LEMAS 开发线将项目网站、GitHub 组织、Hugging Face 项目页面，以及 LEMAS-TTS 和 LEMAS-Edit Spaces 进行了链接。这一带日期的链接集合标志着项目公开资源方面的一个节点，但根据现有证据无法确定这些资源的具体发布内容及其可用性。",
@@ -2124,6 +2591,12 @@
   "summary": "2026年3月19日，WorldCam 在开发动态中以其项目主页和 GitHub 源代码仓库链接的形式出现。该条目被保留为重要的项目历史记录，因为它明确指向一个具体的公开项目及其实现参考。现有证据无法确认该项目的功能、发布状态，或当天所做的具体改动。",
   "title": "WorldCam 项目与源代码仓库公开"
  },
+ "n-8e2ceecbcb": {
+  "evolution_summary": "该模型于 2026 年 4 月发布，取代了专门的 Magistral 和 Devstral 2 架构。2026 年 5 月的更新修复了长上下文 YaRN 解析中的配置错误，而 EAGLE 变体增加了推测解码支持。",
+  "research_notes": "该模型是 Le Chat 和 Vibe CLI 编码智能体的核心推理引擎。",
+  "summary": "一个 128-billion 参数的稠密多模态模型，专为高性能推理、编码和通用指令设计。它具有 256k 上下文窗口，作为复杂智能体工作流的单一旗舰引擎运行。",
+  "title": "Mistral Medium 3.5：统一的 128B 多模态模型"
+ },
  "n-8e75dd0767": {
   "summary": "2026年8月2日，Chronosplat开发线将其GitHub源代码仓库与一个托管的交互式查看器建立了链接。这些带日期的链接确立了项目层面的公开参考和可运行的演示端点，但该日期具体的发布范围和变更内容尚不清楚。",
   "title": "Chronosplat源代码仓库与交互式查看器已建立链接"
@@ -2147,9 +2620,21 @@
   "summary": "一个先进的框架，利用四维分解式思维链（Chain-of-Thought）推理，从视频生成同步的立体声音效。该框架由阿里巴巴 FunAudioLLM 团队开发，借助强化学习确保高感知准确性和时间对齐。",
   "title": "PrismAudio：基于分解式思维链的视频转音频生成"
  },
+ "n-8ff86e4411": {
+  "evolution_summary": "该项目于 2025 年中期以研究论文形式出现后，被 3DV 2026 接收，并于 2026 年 3 月发布了官方源代码和预训练权重。目前因其明显快于以往基于迭代扩散的立体方法而受到认可。",
+  "research_notes": "采用单步前馈预测架构；通过空间与时间拼接技术支持高分辨率输出。",
+  "summary": "M2SVid 是 Google Research 的一个项目，可将 2D 单目视频转换为立体 3D。它利用基于 Stable Video Diffusion 的条件潜在扩散模型生成缺失的右眼视图，并保持高时间一致性。",
+  "title": "M2SVid：单目到立体视频转换"
+ },
  "n-901220b5b4": {
   "summary": "2026年8月15日，一条 Evoke 条目链接到了项目网站、源代码仓库和模型页面。本条目仅记录这三个端点在该日期的公开可用情况，不对具体发布版本、能力或工作流作出任何断言。",
   "title": "Evoke 公开项目资源已上线链接"
+ },
+ "n-9139899069": {
+  "evolution_summary": "2026 年 5 月，Google 为 31B 模型发布了多 token 预测（MTP）草稿模型，推理速度最高提升 3x。该模型继续领跑开放权重排行榜，在推理任务上可与大得多的闭源模型相媲美。",
+  "research_notes": "随 v4 版本转向完全宽松的 Apache 2.0 许可证，大幅推动了其在商业和本地“主权 AI”部署中的应用。",
+  "summary": "由 Google DeepMind 推出的前沿级 31-billion 参数开放权重模型，具备原生多模态和推理能力。它提供 256k 上下文窗口，在编码、数学和智能体任务上达到最先进水平。",
+  "title": "Gemma 4 31B-it"
  },
  "n-920abfb1e3": {
   "summary": "2026-03-27，RealRestorer 的开发记录中新增了项目页面、源代码仓库、模型页面以及 The source reference 的链接。这一记录对项目历史具有重要意义，因为它为其相关代码与模型资源确立了一个带日期的公开参考节点。仅凭所提供的链接，无法确定具体的发布状态、功能特性或版本信息。",
@@ -2163,6 +2648,10 @@
  "n-9358043c25": {
   "summary": "2026-06-15，一条带日期的参考信息将 Modality Forcing 的项目站点、源代码仓库、Hugging Face Space 和 Hugging Face 模型页面关联起来。这是该项目深度预测开发方向的一个重要公开参考节点，但所提供的链接并不能证实具体的发布、版本或技术结果。",
   "title": "Modality Forcing 深度预测相关资源已关联"
+ },
+ "n-9371b417f8": {
+  "summary": "2026-03-10，LoGeR 通过其项目网站、源代码仓库和 Hugging Face 页面被关联。这确立了 3D 重建方向上一个带日期的公开项目资源里程碑，但未确定具体的发布版本或技术论断。",
+  "title": "LoGeR 作为 3D 重建项目亮相"
  },
  "n-93c82cced4": {
   "summary": "2026年6月29日，该记录登记了 Realism Enhancer Krea2 的 Civitai 链接，模型版本 ID 为 3065628。此条目被提议作为一项重要历史事件，因为它将项目锚定到该日期一个具体的公开模型版本引用。仅凭现有链接，无法确定该模型的发布状态、内容、许可或声称的效果。",
@@ -2206,6 +2695,12 @@
   "summary": "2026-03-23，MonoArt 开发线记录了该项目网站与 GitHub 代码仓库的链接。这为该项目及其源代码位置提供了一个带日期的公开参考点，但仅凭所提供的链接，尚不能确定具体的发布版本、成果或技术能力。",
   "title": "MonoArt 项目网站与源代码仓库已关联"
  },
+ "n-972d1e2832": {
+  "evolution_summary": "该项目引入了双模型系统：快速交互模型负责实时对话，异步后台模型负责复杂推理；目前处于面向合作伙伴的研究预览阶段。",
+  "research_notes": "由 Mira Murati 和 Soumith Chintala 创立；TML-Interaction-Small 模型采用混合专家架构，参数量为 276 billion。",
+  "summary": "Thinking Machines Lab 推出的新型 AI 系统类别，专为原生、实时的多模态交互而设计。这些模型采用微轮次架构，以 200-millisecond 为块处理音频、视频和文本，从而实现同时感知与响应。",
+  "title": "TML Interaction Models：实时多模态 AI"
+ },
  "n-9744e9b73c": {
   "evolution_summary": "Z-Image 项目从大型 DiT 模型演进为经过蒸馏的 'Turbo' 版本,以实现实时细节修复。此后它已被集成到 'Z-Image Power Nodes' 生态中,支持低 sigma 细节修复和专用人脸 LoRA 等高级功能。",
   "research_notes": "需要搭配 Qwen 2.5 VL 文本编码器和特定 VAE 才能获得最佳效果;在速度与质量之比上明显优于传统 SDXL 细节修复方案。",
@@ -2215,6 +2710,18 @@
  "n-9760d7add3": {
   "summary": "2026年5月14日，一条 MemPrivacy 开发动态条目引用了该项目的 GitHub 仓库及其 Hugging Face 模型合集。所链接的公开页面提供源代码和模型合集，但现有证据并未确认任何具体的发布、版本、能力、基准测试或技术变更。",
   "title": "MemPrivacy 源代码与模型合集已被引用"
+ },
+ "n-97b254669d": {
+  "evolution_summary": "该项目最初以 ERNIE-ViLG 推出，并于 2026 年初演进为开放权重的 ERNIE-Image 8B 及 Turbo 变体。它从早期的扩散实验转向了具有优化文字渲染能力的高效 8B DiT 架构。",
+  "research_notes": "包含专用的 Prompt Enhancer 模型和 Day-0 ComfyUI 支持；在 LongText-Bench 的文字渲染准确率上名列前茅。",
+  "summary": "百度基于 ERNIE 多模态框架打造的先进文生图套件。它利用扩散 Transformer 架构实现高保真输出，并原生支持多语言。",
+  "title": "ERNIE-Image 8B：百度高性能 DiT 模型"
+ },
+ "n-97c6278d46": {
+  "evolution_summary": "作为对 Qwen3.5 MoE 系列的改进，该模型于 2026 年 4 月下旬发布，引入了用于多轮推理一致性的“Thinking Preservation”。截至 2026 年 5 月，它已在 llama.cpp 等本地推理引擎中获得原生多 token 预测（MTP）支持，从而提升了消费级硬件上的性能。",
+  "research_notes": "采用 Apache 2.0 许可；在 SWE-bench Verified 上达到 77.2% 的成功率，使其成为专有编码智能体的领先本地替代方案。",
+  "summary": "阿里巴巴于 2026 年 4 月发布的 27B 参数稠密模型，专为智能体编码和复杂逻辑推理而设计。它采用结合 Gated Attention 与 Gated DeltaNet 的混合架构，以高效处理长上下文的代码仓库级任务。",
+  "title": "Qwen3.6-27B：高性能开放权重编码模型"
  },
  "n-97c92d3269": {
   "summary": "2026-08-25，一条 FireRedTTS3 相关动态附上了项目演示、源代码仓库、模型页面以及托管的在线演示 Space 链接。综合来看，这些带日期的链接标志着一次实质性的面向公众的进展，因为它们将该项目的评测与实现入口连接了起来。现有证据无法确定此动态是否对应某个具体发布版本、模型修订或文档变更。",
@@ -2236,6 +2743,12 @@
   "summary": "2026年6月5日，Echo LongVideo 通过一个公开项目页面、一个 GitHub 仓库和一个 Hugging Face 模型页面被引用。这一带日期的资源集合是一项重要的进展节点，因为它明确了该项目的公开文档、源代码以及模型分发位置；现有封存证据并未确认具体的发布内容。",
   "title": "Echo LongVideo 公开项目资源已完成关联"
  },
+ "n-98474cc274": {
+  "evolution_summary": "该项目代表了从稠密扩散 Transformer（DiT）设计向稀疏架构的转变。自发布以来，它已集成到 ComfyUI 中，并且仍是社区微调中流行的“干净”基础模型。",
+  "research_notes": "该模型以 Apache-2.0 许可证发布，并在 Hugging Face 上提供完整的训练配方和权重。",
+  "summary": "一款 17B 参数的文生图模型，采用稀疏混合专家（Sparse Mixture-of-Experts）架构，将模型容量与推理成本解耦。每次前向传播仅激活约 2B 参数，在显著降低延迟的同时提供高质量生成。",
+  "title": "Nucleus Image：稀疏混合专家扩散模型"
+ },
  "n-984ac0ee00": {
   "summary": "2026 年 7 月 4 日，该开发线记录了一条指向 Civitai 模型页面 UltraReal - KREA2 Klein9b 的链接。现有证据可以确认这一带日期的公开模型引用，但无法确定它是否宣布了发布、更新或其他动态。",
   "title": "一个 Civitai 模型页面被引用，对应 UltraReal - KREA2 Klein9b"
@@ -2247,6 +2760,12 @@
  "n-992fb237e4": {
   "summary": "2026 年 8 月 4 日，相关记录链接到了 NVIDIA-NeMo/Speech 中的 NVIDIA Nemotron VoiceChat 开发分支，以及 Hugging Face 上的 NVIDIA-NemotronLabs-VoiceChat-11B 模型仓库。综合这些带日期的链接来看，该项目的代码与模型产物已向公众开放，这是一个重要的里程碑。本次审阅并未核实具体的发布声明、功能特性及许可协议。",
   "title": "NVIDIA 公开 Nemotron VoiceChat 11B 的代码与模型资源"
+ },
+ "n-997df70c3d": {
+  "evolution_summary": "2026 年 4 月发布的 v1.1 更新对蒸馏模型进行了重新训练，显著提升了音频保真度，减少了伪影，并稳定了运动。Lightricks 还为该版本更新了相关 LoRA 和 ComfyUI 工作流。",
+  "research_notes": "以 Apache 2.0 许可证发布；社区提供的 GGUF 和 FP8 量化版本使其能够在约 20GB 显存的消费级 GPU 上本地运行。",
+  "summary": "一款来自 Lightricks 的 22B 参数扩散 Transformer 模型，针对高质量的文生视频和音频生视频进行了优化。它采用 Gemma 3 12B 文本编码器，专为高效的 8 步推理而设计。",
+  "title": "LTX-2.3-22B-DISTILLED-1.1 视频 DiT 模型"
  },
  "n-99c607c318": {
   "evolution_summary": "该项目从 Dream Machine 视频模型（2024 年）和 Ray2 多模态架构（2025 年）发展为统一的自回归 Transformer 系统。2026 年 5 月发布的 Uni-1.1 更新将该技术转变为可用于生产的 API，具备更出色的空间推理能力和多语言文字渲染能力。",
@@ -2267,6 +2786,24 @@
  "n-99ff299eee": {
   "summary": "2026 年 6 月 16 日，一条带日期的消息通过项目网站和 data2story-skill GitHub 仓库提及了 Data2Story。这为智能体式数据叙事（agentic data-storytelling）这一方向确立了一个公开的项目参考点，但并不断言所附链接未能证实的任何发布、功能变更或结果。",
   "title": "Data2Story 已与其项目网站和 GitHub 仓库建立公开关联"
+ },
+ "n-9a27202165": {
+  "evolution_summary": "作为 v0.1 概念验证版本推出，针对城市远景镜头进行了优化；使用更多样化训练数据集的后续版本正在开发中。",
+  "research_notes": "需要 ComfyUI-EquirectProjector 节点包，并且需要注入最终视频元数据，才能兼容 360 度播放。",
+  "summary": "一款专用于 Lightricks LTX-2.3 模型的图像条件 LoRA，可将标准宽屏素材扩展为 360 度等距柱状全景图。它使用自定义的 ComfyUI 投影工作流，对缺失的环境进行外绘（outpaint），以实现沉浸式 VR 观看。",
+  "title": "用于 360 视频的 VR-360-Outpaint LTX-2.3 IC-LoRA"
+ },
+ "n-9aa3cb6ab5": {
+  "evolution_summary": "该项目从 2024 年的初始 1.3B 原型开始，经过版本 2 和版本 3，发展为当前的 AF-Next 旗舰版本。Audio Flamingo Next 引入了用于精确带时间戳推理的时序音频思维链（TA-CoT），并将长上下文支持扩展到 30 分钟音频。",
+  "research_notes": "包括用于推理的 AF-Next-Think 和用于详细描述的 AF-Next-Captioner 等专用变体。它使用自定义的 AF-Whisper 编码器和基于 Qwen2.5 的文本主干。",
+  "summary": "由 NVIDIA 与 UMD 推出的最先进开源大型音频-语言模型系列，可全面理解声音、音乐和语音。它支持对复杂音频环境进行细粒度推理和多轮对话，并采用少样本学习。",
+  "title": "Audio Flamingo Next（AF-Next）"
+ },
+ "n-9af7222826": {
+  "evolution_summary": "在同参数量级的智能体推理任务中仍是当前 SOTA。生态系统支持已扩展至 GGUF 和 MLX 格式，以便在消费级硬件和 Apple Silicon 上高效进行本地推理。",
+  "research_notes": "尽管体积小巧，其 ClawBench 得分达到 84.8，几乎与 Kimi K2.5 和 GLM-4.5 持平。",
+  "summary": "一款最先进的 4B 参数模型，针对多步推理和工具调用能力进行了优化。它利用精选的智能体任务轨迹，在专门的基准测试中达到了远大于它的模型的性能。",
+  "title": "QClaw-4B：面向智能体任务的紧凑语言模型"
  },
  "n-9bab984caa": {
   "summary": "2026年6月3日，SANA Streaming 的开发线被关联到 NVIDIA 的 SANA Streaming 项目页面。这是该项目公开开发历程中的一个重要参考节点，但现有证据并未确定任何具体的发布、功能或性能声明。",
@@ -2291,11 +2828,23 @@
   "summary": "2026年6月13日，LTX2.3 Audio Reactive LoRA 系列在 fal 名下被记录，并附有一个直接指向 Hugging Face 的链接。这对该系列而言是一个重要的公开参考节点，但现有证据并不能确定该模型的能力、版本细节、训练数据或使用条款。",
   "title": "LTX2.3 Audio Reactive LoRA 已进入带日期的开发记录"
  },
+ "n-9db878fd06": {
+  "evolution_summary": "到 2026 年，该项目已从实验性的移动端扫描发展为专业级的 3DGS 转网格解决方案。3.0 版本引入了细薄结构保留、更稳定的表面以及面向 3D 打印工作流的集成缩放工具。",
+  "research_notes": "首次实现了移动端的 3DGS 转网格转换；功能包括法线预测和反射去除。",
+  "summary": "一个移动端 3D 扫描平台，可将视频和照片采集转换为高保真高斯泼溅和多边形网格。它提供专门的流程，将 3DGS 数据转换为可编辑、可直接用于生产的资产。",
+  "title": "KIRI Engine：高斯泼溅转网格"
+ },
  "n-9dd20d8e0c": {
   "evolution_summary": "于 2026 年 4 月发表，并被 CVPR 2026 接收。该项目通过仅用四个视角即可实现高保真重建，代表了 4D 高斯泼溅领域的一项重大进展。",
   "research_notes": "利用 MASt3R 进行稠密点云初始化，因为传统的 COLMAP 在如此稀疏的输入下会失效。",
   "summary": "一个仅使用四台便携式相机进行 4D 动态场景重建的框架。它引入了神经衰减函数（Neural Decaying Function），使重建优先关注几何结构而非外观，从而防止在极度稀疏的相机配置下出现过拟合。",
   "title": "4C4D：四相机 4D 高斯泼溅"
+ },
+ "n-9e0a0fba7f": {
+  "evolution_summary": "该项目最初基于 Direct3D-S2 主干发布，2026 年 5 月升级为采用 TRELLIS.2 主干，以获得更优的几何和纹理质量。该研究已正式被 SIGGRAPH 2026 接收，现在支持多视角生成和模块化场景级合成。",
+  "research_notes": "已被 SIGGRAPH 2026 接收；最新推理模型需要 TRELLIS.2 环境。",
+  "summary": "腾讯 ARC 实验室推出的最先进框架，通过像素对齐的反投影方案，从单张图像生成带有 PBR 纹理的高保真 3D 模型。它通过将 2D 特征直接提升到 3D 空间，实现了接近重建级别的保真度。",
+  "title": "Pixal3D：腾讯的像素对齐 3D 生成"
  },
  "n-9e65c4419e": {
   "summary": "2026-08-18，一条标注日期的 Qwen-Video-Edit 条目链接了公开项目页面、GitHub 代码仓库和一个 Hugging Face 资源。这是一个重要的公开开发节点，因为它将该项目与可供评估和使用的可操作公共资源关联了起来。",
@@ -2351,6 +2900,11 @@
   "summary": "2026 年 3 月 17 日，NanoVDR 的开发进展与一篇 Hugging Face 博客文章、一个 NanoVDR 项目页面以及一个公开的 NanoVDR 演示 Space 相关联。这是一次实质性的公开发布步骤，因为它使项目与演示资源可被发现；不过，本次审查并未研究这些资源的具体内容。",
   "title": "NanoVDR 关联的 Hugging Face 公开资源与演示"
  },
+ "n-a167c6f61b": {
+  "research_notes": "从官方发布包安装应用程序，或将仓库克隆到本地 Python 环境中。\n\n将所需的模型检查点、文本编码器和 VAE 权重放入 models 文件夹下对应的子目录中。\n\n使用主执行脚本启动后端服务器，以打开基于网页的画布界面。\n\n构建一个有向无环图，连接模型加载器、提示词条件、潜变量采样和 VAE 解码节点，然后将提示词加入队列。\n\n跟踪 GitHub 上带标签的发布版本流中的渐进式小版本更新，并应用这些更新。\n\n将相关功能模块分组到带有明确标签的可视化分组框中，并使用重路由节点，防止大型图中的连接线相互缠绕。\n\n在下游条件分支之间复用已加载的模型和 VAE 输出，而不是将重复的加载器节点实例化到 GPU 显存中。\n\n在添加复杂的第三方自定义节点扩展之前，先在最小基线图上验证执行流程。\n\n在更新生产运行环境之前，查阅官方发布标签和更新日志，以避免结构或自定义节点损坏。",
+  "summary": "Comfy-Org 在 GitHub 上发布了 v0.42.5 版本，在 v0.42 发布线内提供了常规核心修复和节点维护。",
+  "title": "ComfyUI v0.42.5 维护补丁已发布"
+ },
  "n-a1c9a6a103": {
   "summary": "2026年6月17日，LlamaServerLauncher 开发线引用了 GitHub 仓库 LlamaServerLauncherAvalonia。现有证据只能确认两者的仓库关联，无法证实存在发布、代码变更、功能或使用说明。",
   "title": "LlamaServerLauncherAvalonia 仓库被引用"
@@ -2383,6 +2937,18 @@
   "summary": "一种本地优先的AI记忆系统，采用零LLM推理的写入路径和分层存储，以维持逐字优先的长期上下文。它使用自定义压缩方言AAAK，实现30x的数据密度，同时保证LLM可读。",
   "title": "MemPalace：面向LLM的高效无限记忆压缩"
  },
+ "n-a3aa871dfa": {
+  "evolution_summary": "从 LLM 微调扩展到支持 Gemma 4 多模态视觉/音频变体以及 GRPO 强化学习。2026 年 5 月被纳入 PyTorch 官方生态系统。",
+  "research_notes": "支持在免费的 Google Colab T4 GPU 上运行 Gemma 4 E2B 和 E4B 模型。",
+  "summary": "高度优化的框架，可在消费级 GPU 和 Google Colab 上微调 Google 的 Gemma 4 系列。借助专用内核，训练速度提升 2 倍，显存占用降低 70%。",
+  "title": "用于 Colab 上 Gemma 4 微调的 Unsloth Studio"
+ },
+ "n-a3c0ebdd3a": {
+  "evolution_summary": "截至 2026 年年中，UniCorrn 代表了统一跨模态匹配领域的当前最先进水平，将原本分离的图像配准和点云配准任务合并到一个基础模型框架中。",
+  "research_notes": "提出了一种新颖的双流注意力解码器，它分别处理外观特征和位置特征，同时共享核心权重；该成果发表于 CVPR 2026。",
+  "summary": "由 Adobe Research 与东北大学共同开发的统一 Transformer 模型，在单一架构内完成 2D-2D、2D-3D 和 3D-3D 匹配任务。它利用共享权重和双流注意力机制，在几何对应任务中取得了最先进的结果。",
+  "title": "UniCorrn：跨 2D 与 3D 的统一对应 Transformer"
+ },
  "n-a3e4d25dc2": {
   "research_notes": "在安装桌面软件之前，先在网页演示中测试画布交互和节点分组功能。\n\n下载打包好的Windows可执行版本，或克隆代码仓库，在本地运行该工作室。\n\n在设置中配置个人fal.ai API密钥，以便在画布节点上启用神经网络图像和视频生成。\n\n在无限画布上直接排列参考图像、连接宏节点并执行生成任务。\n\n使用宏节点将重复的提示词辅助和参考图变换打包为可复用的工作流模块。\n\n在通过fal.ai发起计费生成任务之前，先在浏览器演示中验证节点连接逻辑。\n\n在执行高分辨率图像和视频批量任务时，直接监控fal.ai账户的用量限制和API令牌余额。",
   "summary": "CanAI已在GitHub以开源软件形式发布，提供用于神经网络图像与视频生成的无限画布界面，附带浏览器演示和Windows可执行程序，并依托外部fal.ai算力运行。",
@@ -2409,6 +2975,12 @@
   "research_notes": "可与 NVIDIA Isaac Sim 集成，用于具身 AI 训练；提供交互式 GUI，支持相机路径规划和实时世界探索。",
   "summary": "Lyra 2.0 由 NVIDIA 空间智能实验室开发，可从单张图像生成持久且可探索的 3D 环境。它利用逐帧 3D 几何记忆，在长时域导航过程中保持空间一致性。",
   "title": "Lyra 2.0：可探索的生成式 3D 世界"
+ },
+ "n-a56b9d31b6": {
+  "evolution_summary": "2026 年初作为基于云的沙盒推出，2026 年 4 月演进为原生 macOS 应用。最初仅面向 $200/month 的 Max 套餐开放，2026 年 5 月扩展到所有 Pro 和 Enterprise 订阅用户，并弃用了旧版 Perplexity Mac 应用。",
+  "research_notes": "具有通用的“双击 Command”快捷键，并与 Comet 浏览器深度集成，无需 API 即可与网页工具进行视觉交互。",
+  "summary": "一款面向 macOS 的自主 AI 智能体，可与本地文件系统和原生应用集成，执行多步骤工作流。它充当个人编排器，通过概率性目标达成机制完成文件整理和邮件起草等任务。",
+  "title": "Perplexity Personal Computer（Mac 版）"
  },
  "n-a5a478ec38": {
   "summary": "2026-08-12，Stable Layers 通过其项目网站、源代码仓库、模型页面和托管演示正式对外公开。这为该项目的代码与模型资源提供了一个带日期的公开入口。",
@@ -2442,11 +3014,23 @@
   "summary": "一款基于 VS Code 分支开发的 AI 驱动集成开发环境，旨在提供深层的代码库上下文。它通过基于云的智能体、多文件编辑和实时 AI 辅助，实现自主软件工程。",
   "title": "Cursor：AI 原生代码编辑器"
  },
+ "n-a71a838b34": {
+  "evolution_summary": "发布后，该模型被 LH-Tech-AI 加入“Top Image Classification Models”合集。开发者表示计划推出使用预训练主干的 v2 版本，以提升文档和医学影像等特定边缘场景的准确率。",
+  "research_notes": "仅处理 90 度增量的旋转（0°、90°、180°、270°）。该模型是纯分类器，因此在高吞吐量的实用任务中比图像到图像模型快得多。",
+  "summary": "一款轻量级开源图像分类模型，用于检测方向并自动完成旋转校正。它以 11.2M 参数为目标，针对速度和边缘部署进行了优化，可高效批量处理照片库。",
+  "title": "GyroScope：图像方向检测与校正模型"
+ },
  "n-a74ee42caa": {
   "evolution_summary": "于2026年4月正式发布；作为一种最先进的免训练方法确立下来，它通过解决信号渗漏（signal bleeding）和信号衰减（fading）问题，改进了 Wan-Edit 基线。它延续了 CUC-MIPG 此前的研究，包括 Edit-Transfer 和 IC-Effect。",
   "research_notes": "该框架专门针对多目标和快速运动场景中的挑战，这些场景下传统的基于反演的方法往往失效或效率低下。",
   "summary": "FlowAnchor 是一个免训练、无需反演的视频编辑框架，专为高质量的视频到视频变换而设计。它利用空间感知的注意力精修和自适应幅度调制，以确保时间一致性和精确的编辑信号。",
   "title": "FlowAnchor：无需反演的稳定视频编辑"
+ },
+ "n-a7521b7b08": {
+  "evolution_summary": "该项目从研究论文“BachVid”（2025）发展到 2026 年 5 月的正式产业化发布。此后已稳定为顶级电影化工具，具备独特的多镜头“Montage Mode”（蒙太奇模式）和原生 1080p 渲染。",
+  "research_notes": "由前腾讯科学家刘伟博士创立；目前在 Artificial Analysis Video Arena 基准上全球排名第 6。",
+  "summary": "BACH 是一款工业级视频生成引擎，专注于角色稳定性和导演控制。用户只需一条文本提示，即可生成带同步音频的 30 秒多镜头影片。",
+  "title": "BACH 1.0：多镜头 AI 视频生成"
  },
  "n-a78b2b7401": {
   "evolution_summary": "官方项目已发布训练和推理代码，以及一个 5B 720p 检查点；在核验时，14B 检查点仍未发布。",
@@ -2456,6 +3040,12 @@
  "n-a78c964be6": {
   "summary": "2026 年 3 月 15 日，Exiv 与一个公开的 GitHub 源代码仓库以及一份入门文档页面建立了关联。这是该项目开发历程中一个重要的可获取性里程碑，因为它为潜在用户提供了源代码和上手路径。",
   "title": "Exiv 的源代码仓库与入门文档已完成关联"
+ },
+ "n-a7d1f83b13": {
+  "evolution_summary": "自 2026 年初发布以来，该项目已扩展支持 20B 参数模型，并针对消费级 GPU（24GB 显存）进行了优化。目前已集成到多个开源 UI 封装中，用于快速扩散推理。",
+  "research_notes": "与 LCM 等线性蒸馏方法不同，ArcFlow 对速度场进行参数化以捕捉非线性轨迹，从而在质量损失极小的情况下实现 40 倍加速。",
+  "summary": "ArcFlow 由微软亚洲研究院与复旦大学开发，采用非线性流蒸馏技术，仅用 2 步即可生成高质量图像。它在保持视觉保真度的同时，显著优化了 FLUX.1 和 Qwen-Image 等大模型的推理。",
+  "title": "ArcFlow：2-Step 非线性图像生成框架"
  },
  "n-a7efec38e4": {
   "summary": "2026年6月30日，Qwen 开发线纳入了一个指向 Hugging Face 仓库 Qwen/Qwen3-ASR-1.7B-hf 的链接。其以 ASR 为导向的模型名称表明，这是已记录的 Qwen 产品线向语音识别领域的实质性延伸；但不会从随附的记录链接中得出任何额外结论。",
@@ -2467,9 +3057,21 @@
   "summary": "一个高精度视频理解框架，采用人在回路的批评流程来优化AI生成的视频描述。它专注于镜头运动和空间动态等电影化基本要素，使紧凑模型能够达到更优的准确率。",
   "title": "CHAI：面向视频描述的基于批评的人机监督"
  },
+ "n-a81182e9ac": {
+  "evolution_summary": "2026 年 4 月作为 Opus 4.6 的继任者发布，该版本引入了 'xhigh' 推理投入等级，并在 SWE-bench Pro 上达到 64.3%。在受限的“Claude Mythos”前沿模型进行安全验证期间，它目前作为正式可用的旗舰模型。",
+  "research_notes": "视觉分辨率提升至 3 倍，并针对通过 Claude Code 的委托式工程工作流进行了优化。",
+  "summary": "Claude Opus 4.7 是 Anthropic 最先进的旗舰模型，专为高水平推理和自主软件工程设计。它可通过 API 和主流云服务商正式获取，并提供适用于复杂问题求解的自适应思考模式。",
+  "title": "Claude Opus 4.7：Anthropic 的旗舰编程与推理模型"
+ },
  "n-a85f96599d": {
   "summary": "2026年8月7日,ComfyUI-Latent-Tiled-PiD 通过已记录的链接及其 GitHub 仓库被公开引用。现有证据可以确认该项目及其代码位置在特定日期被公开提及,但不能确认具体的版本发布、功能或技术主张。本条历史事件仅记录这一引用,不推断任何未经证实的细节。",
   "title": "ComfyUI-Latent-Tiled-PiD 收到一条带日期的公开仓库引用"
+ },
+ "n-a8a043a8fd": {
+  "evolution_summary": "在研究首次亮相之后，INSID3 被 CVPR 2026 选为口头报告（Oral）论文，并正式发布了完整代码和交互式演示。此后，它已成为免训练、单主干分割框架的基准。",
+  "research_notes": "与多阶段流水线相比，推理速度快 3.4 倍，同时在 mIoU 上以 +7.5% 的优势超越最先进方法。",
+  "summary": "INSID3 是一种免训练的高性能目标分割框架，利用 Meta 的 DINOv3 视觉基础模型的涌现特性。它通过对稠密特征进行凝聚聚类来识别目标区域，并通过简单的正交投影消除位置偏差。",
+  "title": "INSID3：基于 DINOv3 的快速上下文分割"
  },
  "n-a95c499131": {
   "research_notes": "请通过 Agents 测试版流程申请访问权限；报道称访问采用申请制。\n\n上传项目文件和参考资料，然后描述预期结果，并选择可用的语言模型和 effort 设置。\n\n导入 Pinterest 情绪板或其他视觉参考，当某种反复出现的风格需要通过提示词调用时，可创建图像集技能。\n\n当智能体上下文需要相关项目材料时，可连接 Slack、Figma 或 Google Drive；在使用生成媒体所宣称的社交发布功能之前，请先审查生成内容。\n\n在请求多步骤结果之前，将简报、参考资料和可复用的风格素材统一保存在项目上下文中。Krea 早期的 Node Agent 文档显示，该平台会基于现有画布状态进行规划，并允许用户在执行前审查计划。\n\n在运行生成之前，请审查拟定的工作流和模型选择。Krea 的 Node Agent 文档称，系统会在执行前展示计划以及每个节点的计算成本。",
@@ -2596,6 +3198,12 @@
   "summary": "2026年7月8日，GUSH3R 开发线已与一个公开项目页面、一个源代码仓库以及一项 Hugging Face 资源建立关联。这些已链接的资源构成了该项目面向公众开放的重要一步，但尚未确立更多技术细节。",
   "title": "GUSH3R 公开项目资源已关联"
  },
+ "n-b18df4c1c8": {
+  "evolution_summary": "该项目从理论论文发展为实用工具集，并推出了广受欢迎的 ComfyUI 集成（SPF-ReTime）。通过频率感知的时间变形，它已更新为支持 Wan2.2 和 LTX-Video 等高分辨率模型。",
+  "research_notes": "用户研究显示，88% 的受访者更偏好经 SPF 重定时的视频，原因是消除了鬼影和突兀的语义跳变。",
+  "summary": "一个研究框架，将视频语义轨迹映射为 1D 标量函数，以确保平滑的时间节奏。它可实现时间线性化，并修复生成式视频模型中常见的速度不均匀或停顿问题。",
+  "title": "用于平滑 AI 视频的语义进度函数（SPF）"
+ },
  "n-b1bee57937": {
   "summary": "2026 年 5 月 13 日，该记录新增了指向 NVIDIA 托管的 Hugging Face 仓库的链接，这些仓库提供 Wan2.2 T2V A14B 的 FP8 和 NVFP4 Diffusers 变体。这是一个重要的量化步骤，因为它明确了可用于运行该项目的低精度模型变体。",
   "title": "Wan2.2 T2V A14B 的 Diffusers FP8 与 NVFP4 变体已有文档说明"
@@ -2621,6 +3229,12 @@
   "research_notes": "在Design2Code基准测试中取得94.8分，明显优于Claude Opus 4.6。该模型完全基于国产硬件栈训练，采用华为昇腾芯片。",
   "summary": "这是智谱AI推出的原生多模态混合专家（Mixture-of-Experts）模型，专为基于版面自主生成前端代码而设计。它擅长将截图或草图转换为可运行的代码，并支持复杂的视觉调试任务。",
   "title": "GLM-5V-Turbo：面向设计转代码的多模态工程模型"
+ },
+ "n-b2c1d5a768": {
+  "evolution_summary": "2026 年 4 月发布，作为 FLUX.2 生态的关键效率更新，此前为 2025 年底的旗舰版本 FLUX.2 [dev]。它现已成为消费级推理流水线的标准配置。",
+  "research_notes": "采用 Apache 2.0 许可证；与标准 FLUX.2 解码器相比，解码速度约快 1.4 倍，参数量减少 44%。",
+  "summary": "一种经过蒸馏的变分自编码器（VAE）解码器，旨在优化 FLUX.2 模型系列的推理性能。它能显著降低显存占用并提高解码速度，同时视觉质量损失极小。",
+  "title": "FLUX.2 小型解码器（蒸馏 VAE）"
  },
  "n-b347948b96": {
   "summary": "2026年3月24日，Clarity-OMR 开发项目链接了其 GitHub 代码仓库、Hugging Face 模型页面以及 Hugging Face Spaces 演示。这是一个重要的项目进展，因为它在同一次带日期的更新中，将项目的实现、模型访问和交互式演示连接在了一起。",
@@ -2714,6 +3328,12 @@
   "summary": "2026年3月18日，Zeta-Chroma 开发线记录了一个指向项目 Hugging Face 仓库中 Safetensors 工件的链接。所附的社交媒体和仓库讨论链接将该条目与同一项目线相关联。所提供的链接并不能确定该工件的能力、训练方式、许可或发布条款。",
   "title": "Zeta-Chroma 基础模型工件已记录"
  },
+ "n-b9e02bd01a": {
+  "evolution_summary": "从先前的 2B 参数模型升级为 4B 参数的 DiT 主干，并推出了面向质量的 XL-Base、XL-SFT，以及用于 8 步加速生成的 XL-Turbo。",
+  "research_notes": "以 MIT 许可证发布，训练数据符合法律合规要求；提供官方 ComfyUI 集成，支持基于节点的工作流。",
+  "summary": "一个开源音乐生成框架，采用 4B 参数的扩散 Transformer（DiT）架构，用于高保真音频合成。它使用混合语言模型进行歌曲蓝图规划，支持最长 10 分钟、50 多种语言的完整作品。",
+  "title": "ACE-Step 1.5 XL 音乐生成"
+ },
  "n-ba02def424": {
   "summary": "2026年6月27日，该记录登记了 ComfyUI-Krea2TextEncoder 的 GitHub 代码仓库链接。这确立了该项目在当日的一条公开代码仓库引用，但已封存的证据并未证实任何发布、功能变更、版本或使用情况。",
   "title": "项目代码仓库引用已记录"
@@ -2748,9 +3368,32 @@
   "summary": "2026-07-22，一条 IGGT4D 相关的讨论消息链接到了该项目的 GitHub Pages 站点。由于该链接将读者引向面向项目的资源，此事件被保留为开发历程记录；但该链接所代表的具体变更或发布尚未确定。",
   "title": "IGGT4D GitHub Pages 站点已被链接"
  },
+ "n-bb60458b02": {
+  "evolution_summary": "该项目从 2026 年 1 月发布的 FLUX.2 [klein] 演进为经过 Nunchaku 加速引擎集成后的高度优化的生产工具。2026 年 4 月又发布了专门的 KV 缓存变体，以加速多参考编辑。",
+  "research_notes": "将峰值显存需求从 18.5GB 降至约 6.4GB，使 9B 参数模型能够在 RTX 3060 等中端 GPU 上运行。",
+  "summary": "Black Forest Labs 的 FLUX.2 [klein] 模型的 4 位量化版本，针对低延迟图像生成进行了优化。它利用 Nunchaku SVDQuant 引擎，在消费级硬件上实现亚秒级推理速度。",
+  "title": "FLUX.2-klein-9B-Nunchaku"
+ },
+ "n-bb76b83d43": {
+  "research_notes": "将仓库克隆到 ComfyUI custom_nodes 目录中。\n\n将 Drama 3 模型权重下载到 models/diffusion_models，将编解码器权重下载到 models/vae。\n\n加载提供的语音克隆或文本转语音示例工作流，附加用于说话人克隆的参考音频，并输入情感标签后执行队列。\n\n在 8 GB 显存的显卡上，配置系统内存卸载以用于路由专家，同时为活跃专家缓存保留 GPU 显存。\n\n使用干净、简短且无背景噪声的参考语音录音，以确保高保真的语音克隆。\n\n插入可指导的括号表演提示，例如 [whispers] 或 [laughs]，以在多说话人对话脚本中调节语气。",
+  "summary": "ComfyUI-Drama3 自定义节点已更新，加入了优化的主机到设备专家缓存，据报告可在 8GB 显存系统上为 Fish Audio 的 35B Drama 3 模型带来 3 至 4 倍的推理加速。",
+  "title": "ComfyUI-Drama3 更新专家缓存，8GB 显存上提速 3x+"
+ },
  "n-bbc670c0e1": {
   "summary": "2026-06-30，LongCat 同时链接了带版本号的 LongCat 2.0 页面、其源代码仓库以及模型托管页面。这些链接指向表明项目取得了一次实质性的开发进展，使该版本可以在文档、代码和模型分发等多个渠道被找到。",
   "title": "LongCat 将 LongCat 2.0 公开可查"
+ },
+ "n-bc5c88f85f": {
+  "evolution_summary": "2026 年 4 月作为 V3 的继任者推出，引入了流形约束超连接（mHC）和 FP4 量化感知训练。它代表了 DeepSeek 系列最新的旗舰演进版本。",
+  "research_notes": "针对自主编程和复杂智能体工作流进行了优化；与前几代相比，仅使用 10% 的 KV 缓存。",
+  "summary": "DeepSeek-V4-Pro 是一款 1.6 万亿参数的混合专家（MoE）模型，于 2026 年 4 月发布，面向高性能推理和智能体任务。它具有原生的 1M 令牌上下文窗口，并通过混合注意力实现了极高的架构效率。",
+  "title": "DeepSeek-V4-Pro：万亿级旗舰混合专家模型"
+ },
+ "n-bcef63351f": {
+  "evolution_summary": "该项目最初是对 Z-Image 的完整微调，后来演进出用于快速生成的 4 步和 8 步蒸馏版本。近期更新新增了 GGUF 量化版本、适用于 8GB 显存显卡的 FP8 支持，以及用于简化在 ComfyUI 和本地应用中使用的“All-In-One”（AIO）safetensors。",
+  "research_notes": "具有 6B 参数和 S3-DiT 架构；包含专用的 ComfyUI 工作流，并支持 Engineer V4 文本编码器，以提高输出多样性。",
+  "summary": "Z-Anime 是一款专用图像生成模型，基于阿里巴巴 Z-Image（S3-DiT）架构微调而来，拥有 60 亿参数。它能够生成高质量的动漫风格画面，并同时支持传统的标签式提示和自然语言描述式提示。",
+  "title": "Z-Anime：S3-DiT 6B 高保真动漫生成模型"
  },
  "n-bd49bc44b7": {
   "summary": "2026年7月31日，该开发线与 LTX-2.3 Black Magic LoRA 的 Hugging Face 资源建立了关联。这一带日期的链接确认了一项公开的项目成果，但现有证据并不能说明其发布阶段、功能特性或使用条款。",
@@ -2762,9 +3405,20 @@
   "summary": "这是一个基于 Gemma 4 26B 的指令微调混合专家（Mixture-of-Experts）模型，针对稳定性和对话自然度进行了优化。该模型不采用激进的蒸馏方法，而是倾向于保守的微调策略，以保留基础模型的推理能力，同时提升语气表达和结构清晰度。",
   "title": "Gemopus-4-26B 大语言模型"
  },
+ "n-bec376434e": {
+  "evolution_summary": "TinyMU 被 ICASSP 2026 接收，并于 2026 年 4 月公开发布，证明了高质量监督和专用编码器可以取代庞大的参数规模。该研究在 2026 年后期演进为 FineLAP 和 MeanAudio 的细粒度预训练。",
+  "research_notes": "在 MusicSkills-3.5M 数据集上训练；在音乐推理基准测试中，其表现优于 MusiLingo 和 Audio-Flamingo 等规模更大的前代模型。",
+  "summary": "TinyMU 是一款高效的 229M 参数模型，专为深度音乐理解而设计，在体积比主流大模型小 35 倍的情况下达到了 SOTA 性能的 82%。它利用 MATPAC++ 音频编码器和 MusicSkills-3.5M 数据集，提供细粒度的音乐推理能力。",
+  "title": "TinyMU：面向音乐理解的紧凑音频-语言模型"
+ },
  "n-c0d09bda8b": {
   "summary": "2026-03-12，NVIDIA 宣布发布 Nemotron 3 Super。所提供的带日期链接显示，此次发布关联了模型分发页面、托管访问入口、视频概览以及 NeMo 使用指南，表明该项目取得了实质性进展。",
   "title": "NVIDIA 发布 Nemotron 3 Super"
+ },
+ "n-c13e04020a": {
+  "research_notes": "直接从官方 Hugging Face 仓库下载模型权重或量化变体。\n\n使用所提供的 GGUF 文件，通过 llama.cpp 或 Ollama 在本地部署，适用于内存受限的消费级硬件。\n\n通过 vLLM 或 SGLang 提供服务，以提供兼容 OpenAI 的 API 端点，支持最长 1M 令牌的长上下文请求。\n\n为每个请求配置思考预算参数（none、low 或 high），以调节推理延迟和令牌消耗。\n\n在边缘硬件或消费级 GPU 上运行时，使用量化的 INT4 或 GGUF 变体，将内存占用控制在 4GB 至 8GB 之内。\n\n对于简单的对话和抽取类任务，选择 'none' 思考预算，以最大限度缩短首 token 时间；对于多步逻辑或代码生成，则切换到 'high'。\n\n处理最长 1M 令牌的长上下文时，请使用 vLLM 或 SGLang 等分页注意力运行时，并配置适当的主机内存分配，以防止 KV 缓存 OOM。",
+  "summary": "Spark-X2.6-4B 以开放权重 4B 参数模型的形式发布，保留了 2.5 版本架构并进行了训练后改进，提供三种思考预算模式、最长 1M 令牌的上下文处理，以及 base、FP8、INT8、INT4 和 GGUF 量化格式。",
+  "title": "Spark-X2.6-4B 以 Apache 2.0 许可证发布，附带量化变体和可配置推理"
  },
  "n-c15c8a5410": {
   "evolution_summary": "该项目已扩展为更广泛的生态体系,包括面向办公效率安全的 ClawsBench、面向高难度“野外”智能体任务的 WildClawBench,以及面向自主科学发现的 ResearchClawBench。",
@@ -2790,6 +3444,12 @@
  "n-c2c4915336": {
   "summary": "2026年8月18日，Marionette 开发线通过以下链接对外呈现：项目主页、源代码仓库、Hugging Face 模型页面，以及托管的世界模型 Space。这是一个重要的公开项目里程碑，因为它将项目的文档、代码、模型分发与可运行演示连接在了一起。",
   "title": "Marionette 公开项目资源已完成链接"
+ },
+ "n-c2ca134086": {
+  "evolution_summary": "百度于 2026 年 4 月以 Apache 2.0 许可证发布了模型权重，标志着向开源可及性的战略转变。此后，它已原生支持 Diffusers 库，并获得了广泛的 ComfyUI 集成。",
+  "research_notes": "因其业界领先的文字渲染能力，以及在生成信息图和分镜等复杂版式方面的表现而广受认可。",
+  "summary": "百度推出的一款基于扩散 Transformer（DiT）架构的 8B 参数文生图模型。它利用分布匹配蒸馏（DMD）和强化学习，仅用 8 个推理步骤即可生成高保真图像。",
+  "title": "ERNIE-Image-Turbo 8B 开放权重扩散 Transformer"
  },
  "n-c2e38d5935": {
   "summary": "2026-03-31 当天，该记录链接到了一个 Base44 Superagent 页面以及 Base44 文档。这表明在该日期，一个标注为 Superagent 的 Base44 界面曾被引用。仅凭这些链接，无法确定产品发布、新功能，或该界面的实际用途。",
@@ -2840,6 +3500,12 @@
   "summary": "2026年4月3日，CARLA-Air 的开发动态中包含了该项目 GitHub 仓库的链接，即 louis zeng CN/CarlaAir。这为该项目提供了一个带日期的公开来源参考。现有证据无法确认发布版本、版本号、变更集或仓库内容。",
   "title": "CARLA-Air GitHub 仓库已链接"
  },
+ "n-c4a452f85d": {
+  "evolution_summary": "该项目以名为《Interpretations》的 24 首曲目专辑告终，整张专辑完全通过 Python 脚本渲染而成。它已扩展为支持复杂的微分音律制，以及实时算法生成。",
+  "research_notes": "仅使用 NumPy 和标准 Python 库，演示了用于拨弦合成的 Karplus-Strong 算法。",
+  "summary": "由 Kenneth Reitz 开发的框架，将 NumPy 数组视为音频缓冲区，用于数学化音乐合成。它支持纯代码创作，并可在不使用音频采样的情况下对乐器进行物理建模。",
+  "title": "以 NumPy 作为合成引擎（PyTheory）"
+ },
  "n-c4e41aef2b": {
   "summary": "2026年8月17日，该开发进展引用了“What to Edit Next”的公开网站。现有证据不包括原文或对该网站的研究，因此本文仅记录这一公开网站被引用的日期，不构成发布、功能或上线的说明。",
   "title": "“What to Edit Next”公开网站被引用"
@@ -2855,9 +3521,27 @@
   "summary": "一种统一的几何感知架构，用于从单张 RGB 图像进行开放词汇的单目 3D 目标检测。它支持包括文本、点和框在内的多模态提示，作为一种类似 SAM 的可提示检测器运行。",
   "title": "WildDet3D：在真实场景中扩展可提示的 3D 检测"
  },
+ "n-c56aa9fa27": {
+  "evolution_summary": "发布后不久即集成到 Hugging Face Diffusers 中，凭借原生支持和面向消费级硬件的 GGUF 量化，该模型已得到广泛采用。",
+  "research_notes": "VBench 得分达到 83.76%，超过了 14B 参数的 Wan2.1 模型，同时计算量显著更少。",
+  "summary": "Motif-Video 2B 是一款开源文生视频模型，基于解耦扩散 Transformer（DDT）架构和 Wan2.1 VAE 构建。它利用共享交叉注意力和特征对齐，仅用 2B 参数即可实现高质量视频合成。",
+  "title": "Motif-Video 2B：高效解耦扩散 Transformer 视频模型"
+ },
+ "n-c56d07046e": {
+  "evolution_summary": "推理代码于 2026 年 4 月通过 ByteVisionLab GitHub 组织发布。该模型目前通过 4 步蒸馏和经剪枝的移动端 U-Net 主干，在智能手机上实现实时性能。",
+  "research_notes": "由字节跳动智能创作实验室开发；引入上下文内空间拼接，将生成与编辑工作流合二为一。",
+  "summary": "字节跳动为移动硬件设计的紧凑型 0.39B 参数扩散模型。它采用统一架构，在设备端同时完成文生图和基于指令的图像编辑。",
+  "title": "DreamLite：统一的端侧图像生成与编辑"
+ },
  "n-c5e93c1d3a": {
   "summary": "2026 年 7 月 7 日，该开发线链接了 NVIDIA Nemotron-Labs-Audex-30B-A3B 和 Nemotron-Labs-Audex-2B 在 Hugging Face 上的公开仓库目录。这些链接标志着两个 Audex 模型版本在公开可用性方面的重要进展，但其具体发布细节在此并未确认。",
   "title": "Audex 模型仓库现已可被公开检索"
+ },
+ "n-c660c4f559": {
+  "evolution_summary": "自推出以来，CDM 已被用于蒸馏 Stable Diffusion 3 Medium 和 Longcat Image 等热门模型的“Turbo”版本，这些模型目前仍在维护，并可在 Hugging Face 上获取。这些模型仅用 4 步即可达到甚至超过 100 步教师模型的质量。",
+  "research_notes": "CDM 的独特之处在于训练过程中无需真实图像、GAN 判别器或外部奖励模型，相比先前方法简化了蒸馏流程。",
+  "summary": "连续时间分布匹配（CDM）是一个最先进的框架，可将文生图扩散模型加速为高保真、少步数（4 步）生成器。它使用连续优化空间，在无需复杂辅助模块的情况下消除过度平滑和视觉伪影。",
+  "title": "CDM：连续时间分布匹配扩散蒸馏"
  },
  "n-c66b8c38b0": {
   "evolution_summary": "该项目从一组实用工具节点集合，发展为面向 LTX-Video 的完整训练生态系统，并引入了条件安全的 LoRA，以及与 MOSS-TTS 的集成，以支持音视频同步工作流。",
@@ -2889,6 +3573,12 @@
   "research_notes": "该模型由 NeuralVFX 开发，旨在为 Z-Image 生态系统提供更出色的分割控制能力；它是高端 ComfyUI 摄影测量到渲染工作流中的主要工具之一。",
   "summary": "这是一款面向 Z-Image 6B 模型的专用 ControlNet，可根据 Segment Anything Model（SAM）分割掩码合成逼真图像。它能确保生成内容严格遵循复杂的输入掩码边界，从而提供精确的空间控制。",
   "title": "Z-Image-SAM-ControlNet（NeuralVFX 出品）"
+ },
+ "n-c7bfff5d31": {
+  "evolution_summary": "2026 年 4 月 2 日发布，标志着许可转向 Apache 2.0。2026 年 5 月，Google 为所有尺寸推出了多令牌预测（MTP）草稿模型，推理速度提升 3 倍。该系列现已原生集成到 Android AICore 中，以提供系统级的隐私优先功能。",
+  "research_notes": "引入了用于内部思维链的“Thinking”模式，并在所有模型尺寸上原生支持文本、图像、视频和音频输入。",
+  "summary": "Gemma 4 是一系列原生多模态开放模型，参数量从 2B 到 31B 不等，针对端侧执行和高吞吐量的智能体工作流进行了优化。它具备可切换的思考模式以处理复杂推理，并以完全开放的 Apache 2.0 许可证发布。",
+  "title": "Gemma 4：Google 的多模态开放模型系列"
  },
  "n-c8fa19868e": {
   "summary": "2026-03-25，该开发动态记录了一条指向 Hugging Face 的 hf-mount GitHub 仓库的链接。仅凭这条带日期的链接，只能确定该项目在当天被公开引用；无法支持任何关于发布、功能或使用情况的论断。",
@@ -2943,6 +3633,12 @@
   "summary": "DeepSeek-V4.1-Flash-1017 现已以 MIT 许可证的 Hugging Face checkpoint 形式提供,DeepSeek 表示其网页端、应用端和 API 部署现已使用更新后的版本。",
   "title": "DeepSeek 发布 V4.1-Flash-1017 权重"
  },
+ "n-ccb2a502fb": {
+  "evolution_summary": "从静态 3DGS（2023）和固定间隔 4DGS（2024）演进为自适应致密化模型，该模型已在 Eurographics 2026 上发表。它以运动感知的细化取代了僵化的时间间隔，显著提升了随机动态场景上的性能。",
+  "research_notes": "引入了加权 Adam 优化器和基于图像驱动的尽可能刚性（ARAP）正则化，现已广泛用于实时 VR/AR 渲染流水线。",
+  "summary": "一个动态场景重建框架，利用自适应时空致密化来建模复杂的振荡运动，例如风中的植被或水波纹。它通过基于运动方差和误差矩来细化图元，实现高保真 4D 渲染。",
+  "title": "自适应时空 3D 高斯泼溅"
+ },
  "n-ccb51d2a95": {
   "summary": "2026年8月24日，一条开发动态消息将名为 MiniMax-H3-Fun-Controlnet-Union 的 Hugging Face 资源与 MiniMax H3 Fun 的 VideoX-Fun 示例目录关联起来。之所以将其视为一项实质性进展，是因为这些带日期的链接把一个具名产物与一个实现示例连接在了一起；不过，其能力与发布细节并未经过独立核实。",
   "title": "MiniMax H3 Fun ControlNet Union 与 VideoX-Fun 示例相关联"
@@ -2952,6 +3648,17 @@
   "research_notes": "由 Oumoumad Mohamed 创建；是一套实用工具型 IC-LoRA 的组成部分，该套件还包括扩图（outpainting）和 HDR 转换。",
   "summary": "一款专为 LTX-2.3 视频基础模型设计的专用 In-Context LoRA，用于去除电影式调色与对比度。它通过处理输入视频来还原自然光照与中性色彩平衡，可作为“去调色”工具服务于后续制作流程。",
   "title": "LTX-2.3-22b-IC-LoRA-Ungrade 中性色彩还原"
+ },
+ "n-cce36dc967": {
+  "research_notes": "请使用制品所指定的确切基础模型：krea/Krea-2-Turbo。请在兼容的本地工作流中加载 ComfyUI 格式的文件，或在 Krea2Pipeline 中加载 Diffusers 格式的文件。本包没有任何兼容性证据支持 Krea 2 Raw、FLUX.1 Krea 或其他 Turbo 模型。\n\n运行声明的 8 步 Turbo 方案，并且仅在前两个去噪步内保持适配器激活（gate=2）。作者的说明指出，普通 ComfyUI 会在每一步都应用 LoRA，因此需要使用按步调度 LoRA 的节点或 hook 节点，以便在第 2 步之后将其关闭；作者并未指定或提供标准的自定义节点或工作流 JSON。\n\n对于 Diffusers，作者记录了在 0.39.0.dev0 之后合并的构建版本中的 Krea2Pipeline、bf16、8 次推理步、guidance 1.0，以及在第二个基于零的步之后禁用 LoRA 的回调。这是创作者提供的配方，并非我们自己的运行结果。\n\n请将公开的 Space 仅视为演示界面。其列表确认 hugging-apps/krea2-turbo-sda-demo 确实存在，但在本次研究中，未获得可复现的工作流导出、运行时版本、硬件配置或独立的输出凭证。\n\n除非进行新的、带版本的对比，否则请将适配器 gate 保持为 2。作者报告称，在所有八步中保持开启会导致质量崩溃或模糊，在该固定面板中高频能量比为 2.2 倍，HPS 降低约 10%。\n\n所有多样性数值均应描述为创作者报告的数据。报告面板为 10 个提示词 × 16 个随机种子，分辨率 1024x1024，8 步，guidance 1.0，shift mu 1.15；它不是独立基准，也不是对 Krea 2 的通用保证。\n\n对于创作者报告的确切 gate-2 面板，请完整保留指标背景：10 个提示词 × 16 个随机种子，成对 CLIP 余弦距离为 0.0296 至 0.0548，HPSv2.1 为 0.2990 至 0.2987。这些数值并非独立复现的结果。\n\n请使用正确的权重格式。创作者区分了 krea2_turbo_sda_v1.0_comfy.safetensors 与 krea2_turbo_sda_v1.0_diffusers.safetensors；格式不匹配属于设置错误，并不能说明适配器的多样性效果。\n\n不要将该适配器描述为通用的缺陷修复方案。其自身的局限性说明指出，恢复多样性会降低稳定性，并可能使肢体等解剖结构问题更容易出现。",
+  "summary": "一款面向 Krea 2 Turbo 的社区 LoRA，据报告能使相同提示词在不同随机种子下产生更多变化。它的关键约束在于操作方式：必须仅在 Turbo 八个去噪步中的前两步运行，然后关闭。报告结果来自创作者的固定评估面板；目前尚无独立复现。",
+  "title": "Krea 2 Turbo SDA LoRA：增加两步多样性门控"
+ },
+ "n-cd25320940": {
+  "evolution_summary": "继 Wav2Lip 的学术成功之后，Sync Labs 于 2024 年发布了 Lipsync-2，并于 2026 年 4 月发布了旗舰版 Sync-3。最新版本具备原生 4K 超分辨率、遮挡检测和全局场景理解模型。",
+  "research_notes": "由 Wav2Lip 原作者开发；提供官方 Adobe Premiere Pro 集成，以及支持 95 种以上语言的企业级 API。",
+  "summary": "一款 16B 参数的 AI 模型，专为高保真视频口型同步设计，支持 4K 输出并保留情绪表现。它采用零样本架构，可将任意音频与任意人脸同步，包括侧脸镜头和被遮挡的画面。",
+  "title": "Sync-3：Sync Labs 的专业级 AI 口型同步"
  },
  "n-cddebb8e59": {
   "summary": "2026年7月11日，ProxyPose通过关联的项目页面、源代码和Hugging Face资源对外发布。这是一项具有实质意义的公开开发动态，因为它确立了可被检索到的项目存在感；不过，所关联资源的技术主张和发布状态并未经过独立核实。",
@@ -2998,6 +3705,12 @@
   "summary": "2026年8月7日，InfiniSplat 通过其项目主页、GitHub 仓库和 Hugging Face Space 链接被整理归档。这表明该项目已具备公开的项目信息、实现代码获取途径以及托管的交互式入口，但并不代表某个具体版本或功能的发布。",
   "title": "InfiniSplat 公开项目资源已整理归档"
  },
+ "n-cf88820803": {
+  "evolution_summary": "该项目从基础的 Wan2.1 发展为基于 27B 参数 MoE 的 Wan2.2。其中的“Distill”变体已成为本地部署的行业标准，通过极致的步数缩减，相较基础模型实现 20 倍加速。",
+  "research_notes": "原生支持 FP8 和 INT8 量化，在 RTX 4090 等消费级 GPU 上仅需 15GB 显存。",
+  "summary": "Wan2.2 Distill 是一个优化的视频生成框架，通过步数与 CFG 蒸馏，将推理步数从 50 多步减少到仅 4 步。它利用混合专家架构，在消费级硬件上实现接近实时的性能，同时保持电影级画质。",
+  "title": "Wan2.2 Distill：4-Step 模型加速视频生成"
+ },
  "n-cf8c575ede": {
   "summary": "2026-08-14，一条 SCoPE 记录关联了其项目网站、TencentARC 源代码仓库和 Hugging Face 页面。这些链接共同提供了项目信息、源代码及模型托管材料的公开入口。它们并不能确定发布日期、版本号、作者归属或模型能力。",
   "title": "SCoPE 项目资源已关联"
@@ -3025,6 +3738,11 @@
   "research_notes": "使用 Sglang 进行 MLLM 服务部署，并使用 Diffusers 作为图像生成后端；文档位于 gems-gen.github.io。",
   "summary": "GEMS 是一个多智能体框架，将多模态内容生成视为一项迭代优化任务。它采用由规划、验证与精修组成的闭环系统，并由分层记忆和可扩展的领域技能提供支持。",
   "title": "GEMS：具备记忆能力的智能体原生多模态生成"
+ },
+ "n-d135dd8f66": {
+  "research_notes": "通过 Kimi 网页应用、Kimi Work 或 Kimi Code 以交互方式访问该模型。\n\n通过 Moonshot 开放平台 API 调用 kimi-k3.1-pro 模型端点进行标准推理，价格为每百万 tokens 输入 $2、输出 $10。\n\n对于需要快 2 至 3 倍生成速度（令牌价格翻倍）的工作负载，请选择 Highspeed API 变体。\n\n利用 1M 令牌上下文窗口，可在单次会话中输入整个多文件代码库以及复杂的 CAD/3D 资产配置。\n\n在提示 Unreal Engine、Unity、Godot 或 Three.js 程序化生成时，请指定明确的引擎和脚本约定。\n\n将高吞吐量、对延迟敏感的交互任务路由到 Highspeed 端点，同时将复杂的离线推理保留在标准档位，以控制推理成本。",
+  "summary": "Moonshot 推出了 Kimi K3.1 Pro 的刷新版本，在 3D、编程和金融领域进行了大量领域强化学习，并计划开放发布。",
+  "title": "Moonshot 推出 Kimi K3.1 Pro 刷新版，计划公开发布"
  },
  "n-d140f3d07f": {
   "summary": "2026年7月30日，ID-V2V 通过官方项目页面、GitHub 代码仓库和 Hugging Face 组织页面陆续上线。这是该项目公开化的重要节点，因为它为项目提供了官方入口。现有证据尚不足以确定其具体发布状态、版本或技术能力。",
@@ -3066,6 +3784,11 @@
   "summary": "2026年6月8日，Higgs Audio v3 TTS 的公开资源陆续上线，相关链接覆盖 Boson AI 博客页面、Hugging Face 模型页面、演示空间、产品工作区和文档。同一批带日期的链接还包括一个独立的 ComfyUI 集成仓库，因此这被视为该项目一次具有实质意义的公开开发事件。",
   "title": "Higgs Audio v3 TTS 公开资源已发布"
  },
+ "n-d4678fd961": {
+  "research_notes": "在联合音视频扩散模型的采样轨迹中识别可缓存的区域，通常对应于中间扩散时间步。\n\n配置采样循环，在中间阶段缓存并复用音频去噪器输出，并绕过跨模态注意力，同时保持视频去噪器完整执行且不缓存。\n\n在采样的最后几步恢复两种模态的完整联合音视频去噪，以消除跨模态漂移并锁定音视频同步。\n\n避免在中间采样步之间缓存视频去噪器输出，因为视频表示缺乏音频的非对称可恢复性，会遭受不可恢复的时间模糊和运动退化。\n\n在采样轨迹末尾保留足够数量的终端联合去噪步，以保证音频保真度以及与视频动态的精确时间对齐。",
+  "summary": "预印本 2610.30854 的基准测试报告显示，使用模态非对称缓存，在各公开基准上实现了 1.10 至 1.35 倍的挂钟加速，同时保持音频保真度和跨模态同步。",
+  "title": "CAVC 在音视频生成中实现 1.10-1.35x 推理加速"
+ },
  "n-d46d9eb28f": {
   "research_notes": "在公共网络域名上配置robots.txt,为Meta网络爬虫明确定义抓取权限。\n\n在关联企业域名或发布商业资产之前,请在Meta Business Manager中审阅商业服务条款协议。\n\n在Web服务器边界维护明确的爬虫白名单和禁止指令,而不是依赖默认合同条款来保护内容。\n\n定期审计商业账户权限,确保商业URL仅限于广告运营,且不包含广泛的内容提取许可。",
   "summary": "Meta修订了更新后的商业服务条款,删除了关于使用从商业账户网页内容抓取的数据训练AI模型的明确表述,并将数据用途收窄至广告和商业产品。",
@@ -3074,6 +3797,12 @@
  "n-d497328784": {
   "summary": "2026年3月20日，Modly 的开发线与公开 GitHub 仓库 github.com/lightningpixel/modly 建立了关联。这确立了该项目一个带日期的仓库引用，但现有证据并未指明任何具体版本发布、提交、功能或运行层面的变更。",
   "title": "Modly GitHub 仓库引用"
+ },
+ "n-d4d07dd0bf": {
+  "evolution_summary": "该模型现已集成到 Pruna Performance Suite 中，与 P-Image 和 P-Image-Edit 并列，支持最高 1080p 分辨率和实时 API 访问。已针对 2 秒以内的推理时间进行优化。",
+  "research_notes": "可通过 REST API 和 Replicate 使用；价格因分辨率而异（$0.025-$0.045/sec）。",
+  "summary": "P-Video-Avatar 是 Pruna AI 推出的一项专业服务，可根据单张肖像生成逼真的说话人头部动画视频。它支持文本脚本和上传音频文件，并具备先进的口型同步功能。",
+  "title": "P-Video-Avatar：高速 AI 说话人头部动画"
  },
  "n-d4f61075f4": {
   "evolution_summary": "Prompt-Relay 最初是一个研究性实现，现已成为集成在 Wan 2.2 和 LTX 2.3 生态系统中的标准工具。它现在是 LTX Director 时间线编辑器以及多种用于多事件叙事的 ComfyUI 节点的核心组件。",
@@ -3114,6 +3843,12 @@
   "summary": "这是阿里云推出的一套综合性视频生成框架，支持 1080p 文生视频、带转场控制的图生视频，以及自然语言指令编辑。它采用「思考模式」（Thinking Mode）来增强逻辑连贯性和物理准确性。",
   "title": "Wan2.7-Video——导演级视频生成与编辑套件"
  },
+ "n-d755c8bc8a": {
+  "evolution_summary": "Qwen3-TTS 标志着从 Qwen2-Audio 等通用音频理解模型转向专用生成套件。它包含 0.6B 和 1.7B 两个版本，并引入了 Qwen3-TTS-Tokenizer-12Hz，以实现更优的压缩和更丰富的情感表达。",
+  "research_notes": "以 Apache 2.0 许可证发布；支持通过文本提示进行语音设计，首包延迟低于 100ms，适用于实时应用。",
+  "summary": "阿里巴巴通义千问推出的专业文本转语音套件，支持基于 3 秒样本的零样本声音克隆，以及基于自然语言的语音设计。它采用双轨混合流式架构，在 10 种语言中实现超低延迟和高质量韵律。",
+  "title": "Qwen3-TTS：先进的零样本语音合成"
+ },
  "n-d76b3cf6c5": {
   "summary": "2026-06-30，该记录收录了一篇来源共享链接，指向 METR 于 2026-06-26 发布的博客文章，内容涉及 GPT-5.6 Sol。作为外部发布的、与评估相关的里程碑，这对项目具有重要意义，但现有记录并未说明该文章的具体结论。",
   "title": "METR 对 GPT-5.6 Sol 的报道"
@@ -3121,6 +3856,12 @@
  "n-d791bdd250": {
   "summary": "2026年6月5日，与 Qwen-Image-Flash 开发线相关联的 Hugging Face Papers 记录了编号为 2606.03746 的条目。此事件被视为重要的历史事件，因为它标明了该项目在同期的论文层面参考文献；但论文的具体内容尚未经过核实。",
   "title": "Qwen-Image-Flash 研究论文引用记录"
+ },
+ "n-d7b1c6bb36": {
+  "evolution_summary": "作为 VoxCPM 1.5 的重大继任版本发布，转向连续表示流水线，可生成录音棚级 48kHz 音频。它引入了“Voice Design”，可通过文本描述创建声音，并显著提升了相较商业竞品的说话人相似度得分。",
+  "research_notes": "以 Apache-2.0 许可证发布；支持 30 种语言和 9 种中国方言，可在消费级 GPU 上实时运行。",
+  "summary": "一款开源的 2B 参数语音合成模型，采用无分词器的扩散自回归架构。它支持高保真零样本声音克隆、通过文本进行风格控制，并可根据自然语言描述生成新声音。",
+  "title": "VoxCPM2 — 2B 无分词器多语言 TTS 与声音克隆"
  },
  "n-d7c3a5e60e": {
   "evolution_summary": "TRELLIS.2 取代了最初的 2B 参数版本，引入了 Omni-Voxel（O-Voxel）和完整的基于物理的渲染（PBR）支持。它扩展了分辨率能力，并提升了非流形表面的几何精度。",
@@ -3142,6 +3883,12 @@
   "summary": "Sync.so 是一个面向专业级制作的AI平台，为专业视频制作提供高保真的视觉配音和口型同步功能。它支持无缝的语音克隆与对齐，并在多种语言中保留演员的表演习惯和情感细节。",
   "title": "Sync.so AI视觉配音与口型同步工作室"
  },
+ "n-d8bf4374be": {
+  "evolution_summary": "从视频生成演进为“物理智能”引擎；Odyssey-2 Max 相比 Odyssey-2 Pro 将参数规模扩大了 3 倍，并采用 NVIDIA Blackwell GPU。目前仅面向机器人和国防合作伙伴开放私有测试版。",
+  "research_notes": "采用自回归扩散 Transformer（AR DiT）架构；在 VBench 2 物理准确性评测中取得了最先进的分数。",
+  "summary": "Odyssey-2 Max 是一款大规模生成式世界模型，利用自回归扩散实时模拟物理现实。它支持 3D 环境的交互式流式传输，并具有较高的物理准确性，适用于机器人、游戏和仿真。",
+  "title": "Odyssey-2 Max：实时生成式世界模拟器"
+ },
  "n-d967265835": {
   "evolution_summary": "该项目从研究原型发展为可投入生产的模型套件，包括 3.5B 和 1B 两个版本。它引入了自适应投影引导（APG），并已全面集成到 ComfyUI 生态系统中。",
   "research_notes": "在说话人相似度和自然度等基准测试上优于 Seed-TTS；以 MIT 许可证发布，便于广泛使用。",
@@ -3161,6 +3908,12 @@
   "research_notes": "由 Eyeline Studios（Netflix）开发，并与哥伦比亚大学、加州大学洛杉矶分校、石溪大学和牛津大学的研究人员合作完成。",
   "summary": "Vista4D 是 Netflix 旗下 Eyeline Labs 开发的一个框架，可利用 4D 点云，沿全新的相机轨迹合成已有的视频素材。它将 4D 重建与生成式视频模型相结合，用于后期制作中的相机取景与场景重构。",
   "title": "Vista4D：Netflix 推出的 4D 视频重拍框架"
+ },
+ "n-d9eaebd61d": {
+  "evolution_summary": "该项目从开源的 Wan 2.1/2.2 基础发展为商业化的多模态套件。Wan 2.7 引入了“Thinking Mode”推理，并分化为专门的图像和视频分支，目前正与 Sora 2 和 Kling 2.6 竞争。",
+  "research_notes": "由阿里巴巴通义实验室开发；具备 9 宫格多图输入系统，可在多次生成中保持角色和风格的一致性。",
+  "summary": "来自阿里巴巴通义实验室的专业图像生成与编辑工具，具备用于高级语义推理的“Thinking Mode”以及多参考人脸控制。它支持 4K 分辨率输出，并提供精确的十六进制颜色管理，适用于高端设计工作流。",
+  "title": "Wan 2.7-Image（Pro）"
  },
  "n-da24004da2": {
   "evolution_summary": "该项目提出了 CreativePSD，这是首个基于 Photoshop、包含操作轨迹的大规模数据集。它从黑箱生成转向模块化架构（AssetCollector、GraphicPlanner、ToolExecutor），并被 CVPR 2026 接收。",
@@ -3211,6 +3964,12 @@
   "summary": "2026-06-11，Langswap 发布了多个源码路径的链接，涵盖语音转文字管理器、ASR/VAD 客户端、Llama.cpp 翻译客户端、OmniVoice TTS 客户端以及 FFmpeg 支持模块。该日期的链接集还包括项目代码库和一篇关于 AI 配音的文章，将这些组件置于语音翻译与配音的语境之中。现有链接无法确定所引用的文件是否在该日期被新增或修改。",
   "title": "Langswap 推出模块化语音翻译与配音技术栈"
  },
+ "n-dd8d68b69f": {
+  "evolution_summary": "该项目从以记忆为核心的框架，发展为一个包含 3D 记忆可视化和自主工作流编排的综合“数字伙伴”生态系统。",
+  "research_notes": "由 Pavel Muntyan（Mr. Freeman 的作者）创建；强调“默认主权”的设计理念，所有数据均保存在本地 SQLite 数据库中。",
+  "summary": "一款开源、本地优先的 AI 智能体编排器，使用分层 3D 知识图谱和对话汇总来管理长期记忆。它优先保护数据隐私，并通过 Model Context Protocol 支持多种 LLM 提供商。",
+  "title": "MF0-1984：多模态 AI 智能体的长期记忆"
+ },
  "n-dd9a3a9b07": {
   "summary": "2026 年 5 月 15 日，WhatModels 讨论帖中的一条消息链接到了该项目的公开网站。这为 WhatModels 确立了一个带日期的公开参考时间点，但现有证据并未表明发布、上线或功能变更。",
   "title": "WhatModels 公开网站已有文档记录"
@@ -3250,6 +4009,12 @@
   "research_notes": "支持高保真 44.1kHz 音频，以及最长 6 分钟的完整曲目。",
   "summary": "MiniMax Music 是一款专业级 AI 音乐创作平台，可根据文本提示词和歌词生成高保真音频。目前它作为一个功能全面的创作伙伴运行，提供 AI 翻唱（AI Cover）和专业音乐结构编排等工具。",
   "title": "MiniMax Music 2.6 AI 音乐生成平台"
+ },
+ "n-e17cbf7ded": {
+  "evolution_summary": "2026 年年中通过 Sherry 框架引入 1.25 比特量化，将 1.8B 模型压缩至 440MB，便于部署到低端移动硬件。目前它是离线端侧翻译领域的行业基准。",
+  "research_notes": "引入了术语干预和上下文感知的多轮翻译支持；已集成到腾讯会议和企业微信中。",
+  "summary": "一款紧凑型多语言翻译模型，通过极致压缩为移动端端侧使用进行了优化。它在 33 种语言上实现了高水平性能，且硬件要求极低。",
+  "title": "腾讯 Hy-MT1.5 移动端机器翻译"
  },
  "n-e1ca928d8e": {
   "summary": "2026-03-13，Canva 发布了一则关于 Magic Layers 的官方新闻稿。当时同步可访问的 Canva 首页链接也重点展示了 Magic Layers，表明该功能被作为公司当前的产品进展来呈现。由于未提供原始来源文本，此处未说明具体功能或发布范围。",
@@ -3291,6 +4056,12 @@
   "summary": "2026-06-15，SwiftVR 的记录中包含指向公开项目页面、源代码仓库、模型页面以及 The source discussion 的链接。这表明该项目至该日期已具备公开的项目存在感，但现有证据不足以确定其版本、发布细节或技术能力。",
   "title": "SwiftVR 公开项目资源已被记录"
  },
+ "n-e3fe618151": {
+  "evolution_summary": "2026 年 4 月发布后不久即快速扩展至 140 万张图像的数据集，并提供官方 ComfyUI 工作流。现在它已成为腾讯混元和 FLUX 模型生态系统中的基础风格整理工具。",
+  "research_notes": "以 ArXiv:2604.08364 发表；利用 Qwen-Image 进行一致的风格映射，并支持自动化的风格与内容解耦。",
+  "summary": "一个自动化数据整理框架，以及包含 1.4M 张图像的数据集，用于扩散模型中的精确艺术风格迁移。它利用视觉语言模型将风格与内容解耦，从而实现一致的风格库生成。",
+  "title": "MegaStyle：可扩展的艺术风格整理流水线"
+ },
  "n-e431684c08": {
   "summary": "2026-06-05，该开发动态关联到了 ComfyUI KSampler Matrix Lab 的 GitHub 代码仓库。这一带日期的链接确立了该项目的公开仓库引用，但帖子内容、仓库状态、功能特性以及发布状态均未经过调研核实。",
   "title": "ComfyUI KSampler Matrix Lab 代码仓库被引用"
@@ -3316,6 +4087,12 @@
   "research_notes": "包含用于减小文件体积的专有 SOG 压缩技术，并支持 4D 高斯泼溅回放。",
   "summary": "一个基于 Web 的平台，用于利用高斯泼溅（Gaussian Splatting）技术创建、托管和嵌入交互式 3D 场景。该平台采用基于 PlayCanvas 的引擎，支持 LOD 流式加载、动态光照，以及在捕获的环境中进行第一人称导航。",
   "title": "StorySplat v2.3：交互式 3D 高斯泼溅编辑器"
+ },
+ "n-e51898fad5": {
+  "evolution_summary": "GLM-5和GLM-4.7的后继版本，重心从代码生成转向自主工程。它引入了用于复杂推理的“交错思考”（interleaved thinking），并在SWE-Bench Pro上取得领先排名，超过了多个前沿闭源模型。",
+  "research_notes": "支持200K上下文窗口和128K输出上限；兼容Claude Code、Cline等主流智能体框架。",
+  "summary": "一款754B参数的稀疏MoE模型，专为长时程自主编码和工程任务优化。它旨在持续保持连贯的性能，可支撑长达8小时的工程任务轮次以及数千次工具调用。",
+  "title": "GLM-5.1：Z.ai推出的自主工程智能体"
  },
  "n-e55e56223b": {
   "summary": "2026年6月5日，Audio-Interaction 项目相关条目被记录，并附上其 GitHub 仓库和 Hugging Face 页面的链接。这为该项目确立了一个带日期的公开参考节点，但并不意味着存在具体的发布版本、模型修订版或能力变更。",
@@ -3349,6 +4126,12 @@
   "summary": "2026-07-05，GEAR 被记录为已有项目主页、公开源代码仓库以及用于其分词器（tokenizer）的 Hugging Face 合集。这是一个重要的公开可用性里程碑，但仅凭带日期的链接，并不能确定具体版本、能力声明或发布范围。",
   "title": "GEAR 项目资源已发布"
  },
+ "n-e63a0d4512": {
+  "evolution_summary": "该项目已从采集服务转型为I2M基础模型和API。目前已集成到Marso Studio平台中，专注于为摄影测量资产自动生成PBR材质并进行重新贴图。",
+  "research_notes": "基于“Marso Measure”数据集训练，该数据集是全球最大的实测材质属性库。该公司于2026年融资$7M，用于扩展其材质智能基础设施。",
+  "summary": "一款基础AI模型，可从单张图像或视频生成可用于生产的PBR材质贴图。它利用专有的实测数据，为3D渲染和游戏引擎生成物理上准确的纹理。",
+  "title": "M-XR 图像转材质：生产级PBR生成"
+ },
  "n-e6413c0a2c": {
   "summary": "2026 年 6 月 5 日，该记录登记了 NVIDIA 的 ArtiFixer 研究页面、GitHub 代码仓库和 Hugging Face 模型页面的链接。这些链接共同表明该项目在研究、源代码和模型分发方面均有公开存在，使这一带日期的记录成为其公开发展历程的重要依据。仅凭这些链接，并不能证明任何资源是在该日期首次发布或发生变更的。",
   "title": "ArtiFixer 相关资源已在研究、代码和模型渠道中关联发布"
@@ -3376,6 +4159,12 @@
   "summary": "该新闻帖介绍了 Qwen3-Coder，以及改编自 Gemini CLI 的命令行智能体 Qwen Code。",
   "title": "Qwen Code 与 Qwen3-Coder 同步发布"
  },
+ "n-e76fc8f96f": {
+  "evolution_summary": "该项目从SANA（文本生成图像）扩展到SANA-Video，随后推出SANA-WM——一个2.6B参数的世界模型，支持1分钟720p视频以及6-DoF相机控制。",
+  "research_notes": "采用32x DC-AE压缩和线性注意力以实现低显存高效运行；自2025年1月起以Apache 2.0许可证发布。",
+  "summary": "NVIDIA的高效视频生成模型，采用线性扩散Transformer和深度压缩自编码器。与传统的二次注意力模型相比，它能以显著降低的显存需求生成720p视频。",
+  "title": "SANA-Video：高效的720p视频合成与超分辨率"
+ },
  "n-e859acd94e": {
   "summary": "2026年3月31日，微软发布了一项关于 Microsoft 365 Copilot Researcher 中多模型智能（multi-model intelligence）的更新。所链接的 2026 年 3 月 Microsoft 365 Copilot 及智能体（agents）相关材料表明，此次更新属于微软在 Copilot 与智能体方面的整体工作，但现有证据不足以确认其具体功能、可用性或推出状态。",
   "title": "微软发布 Microsoft 365 Copilot Researcher 多模型智能更新"
@@ -3399,6 +4188,12 @@
   "research_notes": "该计划采用分层访问模型来管理双重用途风险，其中 'Cyber' 变体仅限经过验证的红队测试和高级二进制逆向工程使用。",
   "summary": "OpenAI Daybreak 是一个专注于网络安全的平台，利用 AI 智能体自主检测并修复软件漏洞。它是一个托管式安全控制界面，构建于 GPT-5.5 架构的多层级部署之上。",
   "title": "OpenAI Daybreak"
+ },
+ "n-e96d2e151b": {
+  "evolution_summary": "2026年4月发布后，该项目被移植到llama.cpp（triattention-ggml）并集成到SGLang中。目前支持AMD/ROCm和NVIDIA Blackwell架构，常与量化工具一道，作为本地推理模型技术栈的标准组件。",
+  "research_notes": "由MIT和NVIDIA的研究人员开发；在AIME25等基准上实现了超过10x的KV内存缩减，且基准准确率无损失。",
+  "summary": "TriAttention是一个开源框架，通过三角函数表示对RoPE之前的注意力分数进行建模，从而优化KV缓存压缩。它显著降低了长上下文推理模型的内存开销，使消费级硬件上的高性能本地部署成为可能。",
+  "title": "TriAttention：通过三角KV压缩实现高效长推理"
  },
  "n-e9d344fa77": {
   "summary": "2026年7月24日,一条与 Self Gradient Forcing 相关的消息附上了其项目主页、源代码仓库以及 Hugging Face 模型页面的链接。由此,项目概述、代码实现位置和托管的模型资源得以一并查找。仅凭这些带日期的链接,无法确定这是首次发布、版本更新还是其他特定的技术里程碑。",
@@ -3448,6 +4243,12 @@
   "summary": "2026-06-30，相关开发动态指向 North-Mini-Code-1.0 以及一个 w4a16 变体的 Hugging Face 页面。这是 North Mini Code 系列的一次重要分发步骤，因为它同时标明了基础模型制品和一个单独命名的变体。",
   "title": "CohereLabs 在 Hugging Face 上发布 North Mini Code 1.0 模型页面"
  },
+ "n-eb367fb3e1": {
+  "evolution_summary": "该项目改编自用于单图像重建的LumiVid研究，现已扩展为支持大规模DiT模型。目前为Qwen-Image-Edit-2511提供可用于生产的LoRA，并为更快的FLUX.2-klein架构提供实验性支持。",
+  "research_notes": "生成与Nuke和DaVinci Resolve兼容的场景线性EXR文件；通过ComfyUI_Gear节点套件集成到ComfyUI中。",
+  "summary": "LumiPic是一款开源工具，利用扩散Transformer将标准动态范围（SDR）图像转换为16位高动态范围（HDR）EXR文件。它借助LogC3编码的扩散过程重建缺失的高光与阴影细节，服务于专业VFX流程。",
+  "title": "LumiPic：SDR转HDR图像扩散"
+ },
  "n-eb68bcfc57": {
   "research_notes": "开放权重版本对应 Medium，而 moodboard 和 style reference 模块未包含在开源发布中。",
   "summary": "截至 2026-06-24，收集到的 Krea 2 官方链接包括：开源页面与代码仓库、官方 Raw 和 Turbo 模型仓库、API 与 playground 入口，以及一份技术报告。这些资源同时附带一个 ComfyUI Krea 2 Turbo 文生图工作流模板，为本地工作流提供了一个具名入口。所链接的页面未经独立核实，因此具体的可用性、许可证及技术表述均未经验证。",
@@ -3476,6 +4277,18 @@
  "n-ec4e396a59": {
   "summary": "2026年6月4日，KVarN 开发线记录了一次对该项目公开 GitHub 仓库的引用。由于未提供任何源文本或佐证资料，这一历史事件仅记录该仓库引用本身，不对未经核实的发布、功能或项目状态作出断言。",
   "title": "KVarN 公开源代码仓库被引用"
+ },
+ "n-ec5428386a": {
+  "evolution_summary": "该产品仍是Anthropic Labs套件中的旗舰设计工具，近期通过GitHub webhooks与自动化编码工作流深度集成。它属于更广泛的Claude 4系列，该系列已转向自适应思考架构。",
+  "research_notes": "支持3.75兆像素的视觉输入，在SWE-bench Verified上取得87.6%。",
+  "summary": "基于Claude Opus 4.7模型，生成高保真UI/UX原型和专业演示布局的专用界面。它支持高分辨率图像分析和自适应推理，以确保像素级精确的设计实现。",
+  "title": "Claude Design：基于Opus 4.7的原型与UI生成"
+ },
+ "n-ec7e719b88": {
+  "evolution_summary": "从Phi-Ground-4B-7C研究模型发展为微软的正式项目，并集成到Windows Copilot的“视觉高亮”功能中。当前的“Any”版本提升了对4K屏幕和高分辨率UI交互的稳健性。",
+  "research_notes": "尽管体积小巧，但在GUI点击准确率基准测试中优于OpenAI Operator和Claude Computer Use。",
+  "summary": "一款4B参数的视觉语言模型，专门用于GUI定位，可精确定位屏幕元素。它使AI智能体能够在不同分辨率和宽高比的复杂界面中进行交互。",
+  "title": "Phi-Ground-Any：微软GUI定位多模态模型"
  },
  "n-eca931f946": {
   "summary": "2026年6月26日，一条带日期的消息链接到了 MVTrack4Gen 项目页面。这为该项目的开发历程提供了一个公开的参考时间点，但现有证据尚不足以确定该消息的具体发布内容、技术主张或发布状态。",
@@ -3529,6 +4342,12 @@
   "summary": "2026年8月24日，MiniMax-H3 x Z-Image 开发线与 Hugging Face 上的两个链接建立了关联，分别对应一个原生（native）仓库和一个 GGUF 仓库。这一分发步骤意义重大，因为它标明了两个模型格式的获取入口；但现有记录并未确认这两个仓库的发布状态、内容或兼容性。",
   "title": "MiniMax-H3 x Z-Image 原生仓库与 GGUF 仓库已完成关联"
  },
+ "n-f0cec18709": {
+  "evolution_summary": "继2025年末发布10B参数BANG架构（第2代）之后，2.5版本引入了超精细的表面雕刻以及“Smart Low-Poly”导出功能，并支持自动法线贴图烘焙。",
+  "research_notes": "由DeemosTech开发；该项目已从研究预览版过渡为集成的Hyper3D创作者平台，服务于专业游戏和VFX工作流程。",
+  "summary": "一款面向高保真3D资产创作的生成式AI平台，可根据文本或图像提示生成雕刻级几何体和可用于生产的拓扑结构。它利用10B参数的BANG架构，将复杂对象分解为模块化的高细节部件。",
+  "title": "Rodin Gen 2.5（Hyper3D）"
+ },
  "n-f108d81c34": {
   "summary": "2026年3月17日，PixVerse表示其图像和视频生成能力可通过命令行界面访问。随附的ClawHub条目显示，该接口已发布，以便在基于终端的工作流中复用。这标志着访问方式从面向网页的形式向命令行使用迈出了实质性的一步。",
   "title": "PixVerse推出面向终端的生成接口"
@@ -3538,6 +4357,12 @@
   "research_notes": "针对Apple Silicon（M1-M4）进行了优化，使用Metal/MPS；采用SAM2进行头发与面部分割，并使用FLAME驱动面部表情。",
   "summary": "一个研究项目，旨在从单张2D肖像生成高保真、可驱动动画的3D头部头像。该方法将重建过程解耦为无发面部网格和由3D高斯泼溅（3D Gaussian Splats）表示的动态头发，从而实现逼真的物理效果并便于更换发型。",
   "title": "CompHairHead：基于可变形头发的单样本3D头像"
+ },
+ "n-f1ea79cf67": {
+  "evolution_summary": "2026年4月以100M参数模型的形式发布；随后获得了面向CPU性能的ONNX优化以及面向Apple Silicon的MLX支持。MOSS-TTS 2.0于2026年5月发布，吸纳了社区反馈。",
+  "research_notes": "包括面向浏览器的本地朗读集成，以及可去除PyTorch依赖、专用于推理的ONNX版本。",
+  "summary": "一款开源的多语言文本转语音模型，专为在消费级CPU上高效实时部署而设计。它具备零样本语音克隆功能，并支持高质量的48kHz立体声输出。",
+  "title": "MOSS-TTS-Nano"
  },
  "n-f1f27d1e3a": {
   "summary": "2026-08-16，aim-uofa/sma 讨论串中的一条消息链接到了 Spatial Memory Agent 项目页面。这确立了一个带日期的项目引用，但并不能证明已发布任何版本、具备某项能力，或取得了某项研究成果。",
@@ -3554,6 +4379,12 @@
  "n-f241b400a1": {
   "summary": "2026 年 7 月 25 日，Cursor 发布了一篇与 Router 相关的公开博客文章。这一事件对 Cursor Router 的开发路线而言是一个重要的公开里程碑，但现有的封存证据无法确认该文章的具体功能、推出状态或对用户的影响。",
   "title": "Cursor 发布了一篇与 Router 相关的公开更新"
+ },
+ "n-f24b5871aa": {
+  "evolution_summary": "该项目于2026年4月演进为Alpha版本，引入了1.6B参数的UNet和Qwen3.5文本编码器。现在通过32通道非对称VAE解码器集成了2x超分辨率功能。",
+  "research_notes": "在高端硬件上可以约30 it/s的速度生成图像；主要针对艺术和插画类内容进行了优化。",
+  "summary": "一款紧凑的1.6B参数扩散模型，针对极致推理速度和保真的2x图像超分辨率进行了优化。它采用非对称VAE架构放大图像，不会引入AI幻觉或多余纹理。",
+  "title": "SDXS-1B：实时扩散与高保真超分辨率"
  },
  "n-f2b3361da7": {
   "summary": "2026年6月11日，该开发动态中包含一个指向 Realism_Engine_Ideogram_4 的 Hugging Face 资源链接。该带日期的链接表明，在当时该动态中存在一个可识别的项目资源。现有证据无法确定其发布状态、内容、训练方法或兼容性。",
@@ -3589,9 +4420,21 @@
   "summary": "Spatial Studio 是一款 SaaS 平台，利用高斯泼溅（Gaussian Splatting）技术创建沉浸式 3D 可视化内容。该平台专注于房产营销，将场地级扫描数据与 Google 3D Maps 以及高分辨率 360° 全景图相结合。",
   "title": "Spatial Studio：由 Real Horizons 打造的 3D 高斯泼溅"
  },
+ "n-f4d17d7115": {
+  "evolution_summary": "该项目演化出了包括“Thinking”变体在内的版本，例如DECKARD HERETIC，它在保持无审查状态的同时具备增强的思维链推理能力。HERETIC流程本身在2026年中期（mid-2026）已达到1.2.0版本。",
+  "research_notes": "因其“无保姆式”的行为在本地LLM社区中非常受欢迎；需要LM Studio或llama.cpp等兼容GGUF的推理工具。",
+  "summary": "Google Gemma 4模型的无限制版本，使用HERETIC abliteration（消融）方法修改，以消除安全护栏和拒绝方向。它针对创意写作和角色扮演进行了优化，不会出现AI说教或过滤。",
+  "title": "Gemma 4 E4B Heretic 无审查版"
+ },
  "n-f52983ecb7": {
   "summary": "2026 年 5 月 23 日，Runway 官方一则带日期的产品链接显示，Aleph 2.0 是 Aleph 系列的一个开发里程碑。现有证据足以记录这一产品动态，但尚不能确定其具体功能、可用条款、定价或技术变更。",
   "title": "Runway 推出 Aleph 2.0"
+ },
+ "n-f57cbec8b9": {
+  "evolution_summary": "2026年4月中旬由蚂蚁集团的Robbyant部门推出。随后迅速更新，加入了面向长序列的FlashInfer KV缓存优化以及可实现20 FPS实时性能的硬件加速。2026年4月底发布了一段25,000帧的室内漫游演示，以展示其长期稳定性。",
+  "research_notes": "发布时即在Oxford Spires和ETH3D基准上取得了最先进的结果，超越了流式和离线方法。",
+  "summary": "LingBot-Map是一个3D基础模型，专为从标准RGB视频序列进行实时流式3D重建而设计。它利用几何上下文Transformer（GCT）架构处理坐标定位和长程漂移校正，服务于具身AI应用。",
+  "title": "LingBot-Map：实时流式3D场景重建"
  },
  "n-f57cbf8f0c": {
   "summary": "2026年8月22日，WithEveryone 话题中的一条消息链接到了 WithEveryone 公开项目网站。由于密封证据中没有源文本或研究内容，本文仅记录这一带日期的公开项目引用，不对发布、能力或结果作任何判断。",
@@ -3611,10 +4454,22 @@
   "summary": "ElevenLabs 为其生成式语音模型提供企业级本地部署选项，可在本地服务器或边缘设备上实现高质量语音合成与处理。该方案聚焦数据主权、超低延迟以及对隔离网络（air-gapped）环境的支持。",
   "title": "ElevenLabs：本地部署与端侧部署的语音AI方案"
  },
+ "n-f6c6cdf729": {
+  "evolution_summary": "该项目从基础投影节点发展为完整的3D场景编辑套件。重要更新引入了交互式Three.js查看器、用于生成可用于ControlNet骨架的可摆姿IK人体模型（Character Placer），以及与Wan2.1等视频模型的集成，以实现相机路径动画。",
+  "research_notes": "包括对360°等距柱状全景图的专门支持，以及在迭代修复过程中保持环境一致性的“Stamping”节点。",
+  "summary": "一款ComfyUI扩展，用于在3D重建场景中实现6自由度（6 Degrees of Freedom）相机运动与角色放置。它将深度感知重投影与基于Three.js的交互式场景搭建相结合，实现精确的视图合成和角色插入。",
+  "title": "ComfyUI 6DOF相机——3D场景操控与角色搭建"
+ },
  "n-f6f78aa8d5": {
   "evolution_summary": "这篇新闻称，NVIDIA 备受期待的 SANA 图像生成模型出现了一个空的 GitHub 代码仓库和一个临时演示。",
   "summary": "这篇新闻称，NVIDIA 备受期待的 SANA 图像生成模型出现了一个空的 GitHub 代码仓库和一个临时演示。",
   "title": "SANA 代码仓库与演示现身"
+ },
+ "n-f735b8e846": {
+  "evolution_summary": "继2024年11月的原始发布之后，空间变化高斯的概念通过SVG-IR项目扩展到逆渲染领域，该项目已被CVPR 2025接收。核心SVGS实现仍是表达性高斯基元的基础工作。",
+  "research_notes": "该项目基于2D高斯面元（Gaussian Surfels）构建，相较于标准3D高斯泼溅，显著改善了对精细细节的处理。",
+  "summary": "引入具有空间变化颜色和不透明度的高斯基元，以增强3D重建和新视角合成。该方法采用双线性插值等函数以及微型神经网络，使单个基元更具表现力且更紧凑。",
+  "title": "SVGS：用于场景重建的空间变化高斯泼溅"
  },
  "n-f771c01e06": {
   "evolution_summary": "该项目最初是一个专注于大语言模型之间协作推理的 2025 年项目，并于 2026 年初演变为一个自主研究平台。现在它支持“自发组织”，智能体可以结成联盟，并自我优化其协作结构，以解决复杂的工程和数学任务。",
@@ -3633,6 +4488,12 @@
  "n-f80e0da140": {
   "summary": "2026年6月23日，Tripo 相关条目链接了 Tripo 官方发布的题为“May Update on Tripo”的文章。这为历史记录补充了一份官方产品更新参考，但现有证据并未说明该文所描述的具体变更。链接中的 May 标签也不能确定该页面的确切发布日期。",
   "title": "Tripo 五月产品更新"
+ },
+ "n-f861f085b8": {
+  "evolution_summary": "最初是一个面向NVIDIA NIM的基础FastAPI代理，后演变为具有本地管理界面和智能路由的多提供商网关。目前支持Claude Dev VSCode扩展和JetBrains IDE，已从“免费”的临时方案转变为适用于Claude生态系统、稳健且与后端无关的工具。",
+  "research_notes": "具有用于代理的“fcc-server”和便于配置的“fcc-claude”封装器；到2026年中期（mid-2026），GitHub星标已超过24k。",
+  "summary": "一个运行时抽象层和代理服务器，使官方Claude Code CLI能够与NVIDIA NIM、OpenRouter和本地模型等替代LLM提供商配合使用。它提供完整的协议一致性，支持智能体工具调用、流式传输和推理块，且无需直接的Anthropic API密钥。",
+  "title": "Free Claude Code：面向Claude CLI的AI代理"
  },
  "n-f8b15964ba": {
   "summary": "2026年8月23日，MaskVidExperiments 的开发进展中包含一个指向该项目 GitHub 仓库的链接。这证明了该项目在某一日期有公开引用，但现有证据并未说明具体发布了哪个版本、功能或代码变更。",
@@ -3694,6 +4555,12 @@
  "n-fdae3b02e0": {
   "summary": "2026-03-25，AwaRes 通过其项目网站和 GitHub 仓库被提及。现有的密封证据可以确认该项目已公开可用，但无法确认具体的发布版本、功能特性或研究成果。",
   "title": "AwaRes 项目网站与源代码仓库公开分享"
+ },
+ "n-fdbf17ddf7": {
+  "evolution_summary": "在最初发表之后，官方代码和权重于2026年初在Apple的机器学习代码库中发布。此后，它已被采纳为即插即用的高分辨率渲染模块，适用于NoPoSplat和DepthSplat等通用骨干网络。",
+  "research_notes": "由香港大学与Apple合作完成；尤其值得注意的是，它是首个实现原生4K前馈高斯泼溅的方法。",
+  "summary": "一个3D重建框架，利用紧凑的带纹理高斯基元，将几何复杂度与渲染分辨率解耦。它无需逐场景优化即可实现高保真的4K前馈合成。",
+  "title": "LGTM：更少高斯、更多纹理的3D重建"
  },
  "n-fe2f35c14b": {
   "evolution_summary": "该资讯报道了一款能力更强的多模态 Qwen3-Coder 模型，与 Qwen Code 生态相关；这属于相关模型动态，而非 CLI 发布。",

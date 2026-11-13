@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "GLiGuard 由 Fastino Labs 于 2026 年 5 月发布，基于 GLiNER2 架构提供结构化安全分类。与 ShieldGemma-27B 等最先进模型相比，它在保持有竞争力的准确率的同时，显著降低了延迟并提高了吞吐量。",
+ "id": "n-3ef8391496",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "基于 GLiNER2-base-v1 微调；采用 Apache 2.0 许可证；针对 CPU 优先及边缘部署进行了优化；在安全基准上达到 87.7 F1。",
+ "source_sha256": "5b13b513202b55cb53eb63550336cc4f4de6f850ecd05bcb145c9de4a99d58a9",
+ "summary": "GLiGuard 是一个开源的 300M 参数编码器模型，专为高性能 LLM 安全审核而设计。它可作为 LlamaGuard 等大型仅解码器护栏模型的快速高效替代方案。",
+ "title": "GLiGuard：紧凑型 LLM 安全审核模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

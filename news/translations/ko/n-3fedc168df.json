@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "GPT-4V 같은 모델의 공간 실패를 해결하기 위해 초기 7B LLaVA 기반 프로토타입에서 개발되었습니다. 현재는 3D 인식 이미지 편집과 비디오 생성 모델의 일관성 유지를 위한 기반 베이스라인으로 쓰입니다.",
+ "id": "n-3fedc168df",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "학습에는 SpatialEdit-500K 합성 데이터셋을 활용하며, 기하학적 충실도와 지각적 타당성을 측정하기 위한 SpatialEdit-Bench를 도입했습니다.",
+ "source_sha256": "66160c8ad3b62ddfd9aa20c06d961234d9f057893c488c158cdbc06d76dfc655",
+ "summary": "정밀한 기하학적 이미지 조작을 위해 설계된 멀티모달 연구 모델입니다. 사용자가 객체를 이동, 회전, 확대 또는 축소하고 카메라 시점을 높은 수학적 정확도로 조정할 수 있게 합니다. 최첨단 공간 추론을 위해 Qwen3-VL 멀티모달 인코더와 MM-DiT 디퓨전 디코더를 통합합니다.",
+ "title": "SpatialEdit-16B: 세밀한 이미지 공간 편집",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,11 +1,12 @@
 {
+ "evolution_summary": "Проект расширился от тонкой настройки LLM до поддержки мультимодальных вариантов Gemma 4 с компьютерным зрением и аудио, а также обучения с подкреплением GRPO. В мае 2026 года интегрирован в официальную экосистему PyTorch.",
  "id": "n-a3aa871dfa",
  "lang": "ru",
- "model": "legacy-web-overlay",
- "research_notes": "Поддерживает бесплатные GPU T4 в Google Colab для моделей Gemma 4 E2B и E4B.",
- "source_sha256": "legacy",
- "summary": "Сильно оптимизированный фреймворк для дообучения семейства Gemma 4 от Google на пользовательских GPU и в Google Colab. Обеспечивает в 2x более быстрое обучение и на 70% меньшее потребление VRAM за счёт специализированных ядер.",
- "title": "Unsloth Studio для дообучения Gemma 4 в Colab",
- "translated_at": null,
+ "model": "claude-haiku-5-5",
+ "research_notes": "Поддерживает бесплатные GPU Google Colab T4 для моделей Gemma 4 E2B и E4B.",
+ "source_sha256": "924ddc8b9e8a6c48814cfaae72541ec6aca1d724e90ffcf8cf532c979be303a3",
+ "summary": "Высокооптимизированный фреймворк для тонкой настройки семейства Gemma 4 от Google на потребительских GPU и в Google Colab. Обеспечивает обучение в 2x раза быстрее и на 70% меньше VRAM за счёт специализированных ядер.",
+ "title": "Unsloth Studio: тонкая настройка Gemma 4 в Colab",
+ "translated_at": "2026-11-13",
  "translation": "machine"
 }

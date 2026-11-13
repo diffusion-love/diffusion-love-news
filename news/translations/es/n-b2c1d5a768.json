@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Lanzado en abril de 2026 como una actualización clave de eficiencia para el ecosistema FLUX.2, tras la versión insignia FLUX.2 [dev] de finales de 2025. Hoy es un estándar en las canalizaciones de inferencia para hardware de consumo.",
+ "id": "n-b2c1d5a768",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Licenciado bajo Apache 2.0; ofrece una decodificación aproximadamente 1.4x más rápida y una reducción del 44% en el número de parámetros frente al decodificador estándar de FLUX.2.",
+ "source_sha256": "d52e46c8ee2db2b8113b4ccc443e2a4e7f397a64e199f14aad6abed91115684a",
+ "summary": "Decodificador de autocodificador variacional (VAE) destilado, diseñado para optimizar el rendimiento de la inferencia de la familia de modelos FLUX.2. Reduce de forma significativa el uso de VRAM y aumenta la velocidad de decodificación con una pérdida mínima de calidad visual.",
+ "title": "FLUX.2 Small Decoder (VAE destilado)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

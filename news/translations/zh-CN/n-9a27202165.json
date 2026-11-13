@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "作为 v0.1 概念验证版本推出，针对城市远景镜头进行了优化；使用更多样化训练数据集的后续版本正在开发中。",
+ "id": "n-9a27202165",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "需要 ComfyUI-EquirectProjector 节点包，并且需要注入最终视频元数据，才能兼容 360 度播放。",
+ "source_sha256": "816b7510289062bc3b8243bd566e738fe314fd6e9eee20602c7b2ae5d2f1be9f",
+ "summary": "一款专用于 Lightricks LTX-2.3 模型的图像条件 LoRA，可将标准宽屏素材扩展为 360 度等距柱状全景图。它使用自定义的 ComfyUI 投影工作流，对缺失的环境进行外绘（outpaint），以实现沉浸式 VR 观看。",
+ "title": "用于 360 视频的 VR-360-Outpaint LTX-2.3 IC-LoRA",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

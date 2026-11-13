@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Entwickelt aus v1.0 und v2.0 zu v3.0, das ein differenzierbares Belohnungsmodell (DiffRO) für Reinforcement Learning einführte und das Training auf 1 Million Stunden Sprache skalierte. Die aktuelle Entwicklung konzentriert sich auf Laufzeitoptimierungen über die Integration von TensorRT-LLM und vLLM.",
+ "id": "n-7de8349cd0",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Unterstützt Russisch unter 9 großen Sprachen, bietet 18+ chinesische Dialekte und hält eine extrem niedrige Latenz bis zum ersten Paket von 150ms für Streaming-Anwendungen.",
+ "source_sha256": "f481bf63d809db1b66ce0116d73540d272544ac43daa1aacaa21fb3ce836755b",
+ "summary": "Ein modernes mehrsprachiges Sprachgenerierungsmodell von FunAudioLLM der Alibaba für Echtzeit-Synthese und Zero-Shot-Stimmklonung. Es nutzt massive Datenskalierung und Reinforcement Learning, um in neun großen Sprachen hohe Treue bei Prosodie und Emotion zu erreichen.",
+ "title": "CosyVoice 3.0: mehrsprachige Sprachgenerierung und Stimmklonung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

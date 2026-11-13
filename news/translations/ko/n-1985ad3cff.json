@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 4월 출시 이후 이 프로젝트는 고위험 보안 사고의 대상이 되었습니다. 악성 타이포스쿼팅 클론(Open-OSS/privacy-filter)이 Hugging Face에서 #1 순위에 올랐다가 삭제되었습니다. 공식 OpenAI 모델은 오픈소스 로컬 PII 마스킹의 표준으로 남아 있습니다.",
+ "id": "n-1985ad3cff",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Apache 2.0 라이선스로 공개되었으며, 민감한 데이터를 로컬에서 처리하여 기업이 데이터 거주 요건을 준수하도록 설계되었습니다.",
+ "source_sha256": "4e091f05210aa7b7e6a1509fe09ce9b000e3e43cdb80ed4d08460cb2c9adb35a",
+ "summary": "로컬에서 개인식별정보(PII)를 탐지하고 마스킹하도록 설계된 1.5B 파라미터 양방향 토큰 분류 모델(오픈 웨이트)입니다. 128,000 토큰 컨텍스트 윈도우를 지원하며, transformers.js를 통해 온프레미스 또는 브라우저 내 고처리량 실행에 최적화되어 있습니다.",
+ "title": "OpenAI Privacy Filter: 로컬 PII 마스킹 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

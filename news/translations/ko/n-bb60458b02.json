@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 1월 FLUX.2 [klein] 출시에서 출발한 이 프로젝트는 Nunchaku 가속 엔진 통합을 거쳐 고도로 최적화된 프로덕션 도구로 발전했습니다. 이후 2026년 4월, 다중 참조 편집 속도를 높이기 위해 전용 KV 캐시 변형이 공개되었습니다.",
+ "id": "n-bb60458b02",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "최대 VRAM 요구량을 18.5GB에서 약 6.4GB로 줄여, 9B 파라미터 모델을 RTX 3060 같은 중급 GPU에서 실행할 수 있게 합니다.",
+ "source_sha256": "735956f7edb14ebbd23dbed1c94b8cb3e2c5c87580af6f9cca0bb53e78519544",
+ "summary": "Black Forest Labs의 FLUX.2 [klein] 모델을 저지연 이미지 생성에 최적화한 4비트 양자화 버전입니다. Nunchaku SVDQuant 엔진을 활용해 소비자용 하드웨어에서 1초 미만의 추론 속도를 달성합니다.",
+ "title": "FLUX.2-klein-9B-Nunchaku",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

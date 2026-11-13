@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Lancé comme une « réinitialisation de 90 jours » stratégique pour Tencent, avec le passage d'architectures denses à une structure MoE de 21B actifs. Il a introduit des modes de raisonnement « réflexion rapide et lente » configurables et a remplacé les anciens modèles Hunyuan-Pro en production.",
+ "id": "n-0841776bd9",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Atteint 74.4% sur SWE-bench Verified ; intégré à l'assistant Yuanbao de Tencent et à l'écosystème WeChat, avec des coûts d'inférence nettement inférieurs à ceux de Hy2.",
+ "source_sha256": "5ebc3d9039e676700ca07ddd40c59fc7dfd2f13b7b82b3798ed9210bb24a793c",
+ "summary": "Un grand modèle de langage Mixture-of-Experts (MoE) de 295B paramètres de Tencent, conçu pour un raisonnement à haute efficacité. Il dispose d'une fenêtre de contexte de 256K et est optimisé pour les workflows agentiques en plusieurs étapes et l'usage complexe d'outils.",
+ "title": "Hunyuan3 Preview (Hy3-preview)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

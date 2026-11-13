@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目已被 CVPR 2026 接收，从最初的 ArXiv 发布扩展为包含完整训练代码和 Synth4K 基准。此后又新增了对 DINOv3 骨干网络、多视角深度推理以及直接导出为 3D 高斯泼溅格式的支持。",
+ "id": "n-23309eb954",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由浙江大学（zju3dv）开发；提出了无限深度查询（IDQ）策略，以改进新视角合成。",
+ "source_sha256": "18f8d7d9baedbfa97600bd63558e3c102d11a05b57d4525db432817511807aab",
+ "summary": "一个单目深度估计框架，利用神经隐式场在连续的 2D 坐标上预测深度。它支持最高 4K/8K 的任意分辨率输出，能够捕捉栏杆和电线等精细结构，而这些结构是传统基于网格的方法常常会抹平的。",
+ "title": "InfiniDepth：任意分辨率单目深度估计",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

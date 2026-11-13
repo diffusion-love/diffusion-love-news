@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2.6 버전은 연쇄 사고(Chain-of-Thought) 추론을 간소화하기 위해 문맥적 프로세스 중복 억제를 도입합니다. Ring-2.5 시리즈를 계승하며, 토큰 생성 효율이 향상되고 VRAM 요구량이 낮아졌습니다.",
+ "id": "n-58129455d1",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "InclusionAI(Ant Group)가 출시했으며, OpenRouter에서 무료로 이용할 수 있고 Kilo Code와 통합되어 있습니다.",
+ "source_sha256": "fcaff7d4a5c1b365d57f1e5d8af39adc6fbcf1fb38dcefdc52f2223a523061a8",
+ "summary": "복잡한 추론과 에이전트 워크플로를 위해 최적화된 1조 파라미터 Mixture-of-Experts 모델입니다. 262K 토큰 컨텍스트 윈도우를 지원하며, 코딩과 도구 사용에 특화되어 있습니다.",
+ "title": "Ring-2.6-1T: 고성능 에이전트 MoE 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

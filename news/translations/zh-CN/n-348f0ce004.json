@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "DisCa 已被 CVPR 2026 正式接收，并自 2026 年 5 月起已完全集成到 HunyuanVideo-1.5 生态中。它源自腾讯此前的研究（TaylorSeer、ToCa、DuCa），从基于启发式的缓存转向了可学习的神经预测器架构。",
+ "id": "n-348f0ce004",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "引入受限 MeanFlow 蒸馏方案以消除帧间抖动，并专门针对高分辨率图生视频和文生视频工作流进行了优化。",
+ "source_sha256": "cc914df8627fef55fed736446040f1d11f80936846e82234f634b28c9efcd499",
+ "summary": "一个由腾讯开发的推理加速框架，将可学习的特征缓存与步数蒸馏统一用于视频扩散 Transformer。它实现了近乎无损的 11.8x 加速，使高保真视频生成可在消费级硬件上运行。",
+ "title": "DisCa：蒸馏兼容的可学习特征缓存",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

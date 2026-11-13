@@ -1,11 +1,12 @@
 {
+ "evolution_summary": "Выпущен в апреле 2026 года в составе экосистемы LTX-Video 2.3; включает вариант для изображений LumiPic и полностью интегрирован в ComfyUI для локального инференса.",
  "id": "n-52e566a651",
  "lang": "ru",
- "model": "legacy-web-overlay",
- "research_notes": "Генерирует EXR-последовательности профессионального уровня в float16, совместимые с VFX-пайплайнами и инструментами цветокора вроде DaVinci Resolve и Nuke.",
- "source_sha256": "legacy",
- "summary": "Качественный фреймворк преобразования видео SDR-в-HDR, разработанный Lightricks. Использует специализированную In-Context LoRA на базе foundation-модели LTX-Video 2.3 (22B) для восстановления динамического диапазона и теней в 16-битном формате LogC3.",
- "title": "LumiVid: генерация видео SDR-в-HDR через LTX-Video 2.3",
- "translated_at": null,
+ "model": "claude-haiku-5-5",
+ "research_notes": "Генерирует профессиональные float16 EXR-последовательности, совместимые с VFX-конвейерами и инструментами цветокоррекции, такими как DaVinci Resolve и Nuke.",
+ "source_sha256": "37c5ebc589c6699dd69019b737ba00fd832f9ac3886f7cf2b44d964cf7f0245a",
+ "summary": "Высококачественный фреймворк конвертации видео из SDR в HDR, разработанный Lightricks. Он использует специализированный In-Context LoRA на фундаментальной модели LTX-Video 2.3 (22B), чтобы восстанавливать динамический диапазон и тени в 16-битном формате LogC3.",
+ "title": "LumiVid: генерация видео из SDR в HDR через LTX-Video 2.3",
+ "translated_at": "2026-11-13",
  "translation": "machine"
 }

@@ -1,0 +1,11 @@
+{
+ "id": "n-12dc9deafa",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Téléchargez les poids du modèle depuis le dépôt InternScience/Sage-A1.5 sur Hugging Face ou ModelScope.\n\nDéployez le modèle avec vLLM ou SGLang en utilisant la configuration standard de l'architecture MoE de Qwen, afin d'exposer un point de terminaison API compatible OpenAI.\n\nConfigurez le runtime d'exécution des agents avec la création de sous-agents activée, afin que le modèle puisse paralléliser des sous-tâches dans des contextes isolés.\n\nActivez la vérification native dans les paramètres de génération ou le prompt système, afin que le modèle effectue une auto-relecture et une récupération après erreur pendant les trajectoires complexes.\n\nUtilisez des contextes de sous-agents isolés pour les branches d'investigation parallèles, afin d'éviter de distraire l'agent racine avec des sorties intermédiaires bruitées.\n\nAppliquez les paramètres de mise à l'échelle de contexte YaRN lors du traitement de dépôts ou de collections de littérature scientifique dépassant la fenêtre native de 256K tokens.\n\nDéployez avec les quantifications FP8/INT4 de SGLang ou vLLM pour réduire l'empreinte mémoire tout en conservant l'efficacité du routage MoE.",
+ "source_sha256": "e0e10c4bf346a316e00eb054592c490ba167c4fdc660d48dc0cc8f761b271573",
+ "summary": "Shanghai AI Lab a publié Sage-A1.5, un modèle mixture-of-experts de 35B sous licence Apache 2.0, qui active 3B paramètres par token. Construit sur Qwen3.6-35B-A3B, il intègre une orchestration native de sous-agents parallèles et prend en charge SGLang et vLLM pour le service.",
+ "title": "Shanghai AI Lab publie le modèle agentique open-weight Sage-A1.5",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

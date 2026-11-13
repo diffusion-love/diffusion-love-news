@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "GLM-5和GLM-4.7的后继版本，重心从代码生成转向自主工程。它引入了用于复杂推理的“交错思考”（interleaved thinking），并在SWE-Bench Pro上取得领先排名，超过了多个前沿闭源模型。",
+ "id": "n-e51898fad5",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "支持200K上下文窗口和128K输出上限；兼容Claude Code、Cline等主流智能体框架。",
+ "source_sha256": "6bb55e3361a48f446f2df28d246028478709176c24818e73f74f52c452337ba8",
+ "summary": "一款754B参数的稀疏MoE模型，专为长时程自主编码和工程任务优化。它旨在持续保持连贯的性能，可支撑长达8小时的工程任务轮次以及数千次工具调用。",
+ "title": "GLM-5.1：Z.ai推出的自主工程智能体",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Als strategischer „90-Tage-Reset“ für Tencent gestartet, wechselte das Modell von dichten Architekturen zu einer MoE-Struktur mit 21B aktiven Parametern. Es führte konfigurierbare Schlussfolgerungsmodi mit „schnellem und langsamem Denken“ ein und ersetzte in der Produktion die älteren Hunyuan-Pro-Modelle.",
+ "id": "n-0841776bd9",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erreicht 74.4% auf SWE-bench Verified; in den Assistenten Yuanbao von Tencent und das WeChat-Ökosystem integriert, mit deutlich niedrigeren Inferenzkosten im Vergleich zu Hy2.",
+ "source_sha256": "5ebc3d9039e676700ca07ddd40c59fc7dfd2f13b7b82b3798ed9210bb24a793c",
+ "summary": "Ein Mixture-of-Experts-(MoE-)Sprachmodell von Tencent mit 295B Parametern, das für effizientes Schlussfolgern entwickelt wurde. Es verfügt über ein Kontextfenster von 256K und ist für mehrstufige agentische Workflows und komplexe Tool-Nutzung optimiert.",
+ "title": "Hunyuan3 Preview (Hy3-preview)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

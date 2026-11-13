@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从研究论文“BachVid”（2025）发展到 2026 年 5 月的正式产业化发布。此后已稳定为顶级电影化工具，具备独特的多镜头“Montage Mode”（蒙太奇模式）和原生 1080p 渲染。",
+ "id": "n-a7521b7b08",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由前腾讯科学家刘伟博士创立；目前在 Artificial Analysis Video Arena 基准上全球排名第 6。",
+ "source_sha256": "ae061c1914995178956a2bf37fcea0208c8adee2a90b1d8a4fd333ee05b2cc80",
+ "summary": "BACH 是一款工业级视频生成引擎，专注于角色稳定性和导演控制。用户只需一条文本提示，即可生成带同步音频的 30 秒多镜头影片。",
+ "title": "BACH 1.0：多镜头 AI 视频生成",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

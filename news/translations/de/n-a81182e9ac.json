@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Im April 2026 als Nachfolger von Opus 4.6 veröffentlicht; die Version führte die Reasoning-Stufe 'xhigh' ein und erreichte 64,3% bei SWE-bench Pro. Derzeit ist sie das allgemein verfügbare Flaggschiff, während das eingeschränkt zugängliche Frontier-Modell „Claude Mythos“ eine Sicherheitsprüfung durchläuft.",
+ "id": "n-a81182e9ac",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Bietet eine 3x höhere Auflösung für Vision und ist für delegierte Engineering-Workflows über Claude Code optimiert.",
+ "source_sha256": "be2ca92260082991a22a11c8c17562355936770df4b309a85febe33bcb6166b4",
+ "summary": "Claude Opus 4.7 ist das fortschrittlichste Flaggschiff von Anthropic, entwickelt für anspruchsvolles Schlussfolgern und autonome Softwareentwicklung. Es ist über die API und große Cloud-Anbieter allgemein verfügbar und bietet adaptive Denkmodi für komplexe Problemlösungen.",
+ "title": "Claude Opus 4.7: Flaggschiff von Anthropic für Programmierung und Schlussfolgern",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-269dacc1a7",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Instala o abre el entorno de desarrollo de terminal OpenCode.\n\nSelecciona GLM-5.3-Flash entre las opciones de modelos de programación disponibles.\n\nEnvía tareas de programación, llamadas a herramientas o análisis visual dentro del límite de contexto de 200K tokens, bajo la política de privacidad de retención cero.\n\nLimita el contexto de trabajo del agente a 200K tokens para mantenerte dentro del límite del nivel gratuito y evitar el truncamiento de contexto en sesiones largas sobre repositorios.\n\nEstructura los flujos de trabajo del agente en torno a la llamada nativa a herramientas y a las entradas multimodales, en lugar de la completación solo de texto, para aprovechar el enrutamiento de activación MoE especializado del modelo.",
+ "source_sha256": "8b3f49fd892bf9a419afd1da795d0245ad6ed07dc5f1bb4745c8bd82ef6c724f",
+ "summary": "OpenCode ha abierto acceso temporal gratuito al modelo mixture-of-experts GLM-5.3-Flash de Zhipu para programación y flujos de trabajo de agentes. La publicación ofrece 18B parámetros activos de un total de 320B, ejecución de imágenes y herramientas, una ventana de contexto de 200K tokens y retención cero de los datos de las solicitudes.",
+ "title": "OpenCode ofrece acceso gratuito temporal a GLM-5.3-Flash",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

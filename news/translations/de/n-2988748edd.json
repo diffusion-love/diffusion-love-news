@@ -1,0 +1,11 @@
+{
+ "id": "n-2988748edd",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Wählen Sie eine XR-Bewertungsaufgabe aus dem Benchmark-Repository und stellen Sie dem Coding-Agenten die Spezifikation in natürlicher Sprache sowie das bearbeitbare Projektgerüst bereit.\n\nSetzen Sie den Coding-Agenten ein, um die Anwendung zu generieren, angeforderte Funktionen hinzuzufügen oder räumliche Fehler innerhalb des Gerüsts zu beheben.\n\nFühren Sie die entstandene Anwendung im Benchmark-Harness auf XR-Consumer-Hardware oder im Simulator mit automatisierten, skriptgesteuerten und adaptiven Interaktionssequenzen aus.\n\nErfassen Sie die Ergebnisse über programmatische Assertions und visuelle Überprüfung, um die Gesamtleistung als Pass@1 zu berechnen.\n\nBewerten Sie XR-Coding-Agenten anhand fortlaufender multimodaler Interaktionen und visueller Assertions statt anhand statischer Code-Diffs oder reiner Funktions-Unit-Tests.\n\nStrukturieren Sie Agenten-Prompts und Tool-APIs so, dass sie asynchrone Sensorlebenszyklen und räumliche Koordinatensysteme ausdrücklich berücksichtigen.",
+ "source_sha256": "43f360e65305c4e6a1b30dfc9a00c6da55d94a4ba2b7f391e8f673db85420268",
+ "summary": "Forschende haben GenXR-Bench auf arXiv veröffentlicht, ein Bewertungsframework mit 112 Expertenaufgaben aus den Bereichen Anwendungsgenerierung, Funktionsimplementierung und Fehlerbehebung, mit dem KI-Coding-Agenten für interaktive räumliche 3D-Entwicklung geprüft werden; die besten bewerteten Modelle erreichten 50.9% Pass@1.",
+ "title": "GenXR-Bench auf arXiv vorgestellt: Bewertung von Coding-Agenten für interaktive XR-Entwicklung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

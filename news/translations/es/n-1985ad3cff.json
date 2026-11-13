@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Tras su lanzamiento en abril de 2026, el proyecto fue objeto de un incidente de seguridad de alto perfil: un clon malicioso de typosquatting (Open-OSS/privacy-filter) llegó al puesto n.º 1 en Hugging Face antes de ser retirado. El modelo oficial de OpenAI sigue siendo el estándar para el enmascaramiento local de PII en código abierto.",
+ "id": "n-1985ad3cff",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Publicado bajo licencia Apache 2.0; diseñado específicamente para ayudar a las empresas a cumplir los requisitos de residencia de datos, procesando localmente la información sensible.",
+ "source_sha256": "4e091f05210aa7b7e6a1509fe09ce9b000e3e43cdb80ed4d08460cb2c9adb35a",
+ "summary": "Un modelo de clasificación bidireccional de tokens de 1.5B parámetros y pesos abiertos, diseñado para la detección y el enmascaramiento local de información personal identificable (PII). Admite una ventana de contexto de 128.000 tokens y está optimizado para la ejecución de alto rendimiento on-premises o en el navegador mediante transformers.js.",
+ "title": "OpenAI Privacy Filter: modelo local de enmascaramiento de PII",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Ursprünglich ein VRAM-optimierter Fork für Consumer-GPUs, entwickelte es sich zu einer Suite für Power-User mit Multi-Frame-Modi für unbegrenzte Videolängen. Jüngste Updates ergänzten die Unterstützung für Gemma-3-Textencoder und integrierten Pipelines für Stimmklonierung.",
+ "id": "n-ac33c5f998",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Für Hardware mit 24GB VRAM optimiert; unterstützt die fp8-Quantisierung und den Wechsel von GGUF-Modellen, um die Einstiegshürden im Vergleich zu offiziellen Releases zu senken.",
+ "source_sha256": "df24642a2643126180382a7ae2fcc37d8c318b14d0b7a62d9543c269332448db",
+ "summary": "Eine umfassende Desktop-Anwendung für hochwertige lokale Videogenerierung mit dem Diffusionsmodell LTX-2.3. Sie bietet hardwareoptimierte Leistung, integrierte Lippensynchronisation und Warteschlangen für Aufgaben über mehrere GPUs für professionelle KI-Workflows.",
+ "title": "LTX2.3-Multifunctional: umfassende Suite für lokale KI-Videos",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

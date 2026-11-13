@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt wuchs von SANA (Text-zu-Bild) zu SANA-Video und danach zu SANA-WM, einem Weltmodell mit 2.6B Parametern, das 1-minütige Videos in 720p mit 6-DoF-Kamerasteuerung unterstützt.",
+ "id": "n-e76fc8f96f",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Nutzt 32x DC-AE-Kompression und Linear Attention für einen geringen VRAM-Bedarf; lizenziert unter Apache 2.0 seit Januar 2025.",
+ "source_sha256": "db2b11f229b6f869f32835ba8f90c6041e93306efd6b2d9902ba736ccd858737",
+ "summary": "Das hocheffiziente Videogenerierungsmodell von NVIDIA nutzt Linear Diffusion Transformers und Deep-Compression-Autoencoder. Es erzeugt 720p-Videos mit deutlich geringerem VRAM-Bedarf als herkömmliche Modelle mit quadratischer Attention.",
+ "title": "SANA-Video: effiziente 720p-Videosynthese und Upscaling",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 4월 중순 Ant Group의 Robbyant 부서에서 출시되었습니다. 긴 시퀀스를 위한 FlashInfer KV 캐시 최적화와 하드웨어 가속을 통한 20 FPS 실시간 성능으로 빠르게 업데이트되었습니다. 2026년 4월 말에는 장기 안정성을 보여 주기 위해 25,000프레임 실내 워크스루 데모가 공개되었습니다.",
+ "id": "n-f57cbec8b9",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "출시 시점에 Oxford Spires 및 ETH3D 벤치마크에서 최고 수준(state-of-the-art)의 결과를 달성해, 스트리밍 및 오프라인 방법을 모두 능가했습니다.",
+ "source_sha256": "bbd182f349555b9fe9b5ebfd60e2608b7a53a56700e638511f6a80f15f5f0e2a",
+ "summary": "LingBot-Map은 표준 RGB 영상 시퀀스로부터 실시간 스트리밍 3D 재구성을 위해 설계된 3D 파운데이션 모델입니다. Geometric Context Transformer(GCT) 아키텍처를 활용해 좌표 그라운딩과 장거리 드리프트 보정을 처리하며, 체화된 AI(embodied AI) 응용을 지원합니다.",
+ "title": "LingBot-Map: 실시간 스트리밍 3D 장면 재구성",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

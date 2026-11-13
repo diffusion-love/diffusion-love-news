@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Aus dem Forschungsmodell Phi-Ground-4B-7C wurde ein offizielles Microsoft-Projekt, das in das „Vision Highlighting“ von Windows Copilot integriert ist. Die aktuelle Version „Any“ bietet verbesserte Robustheit für 4K-Bildschirme und hochauflösende UI-Interaktion.",
+ "id": "n-ec7e719b88",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Übertrifft OpenAI Operator und Claude Computer Use bei Benchmarks zur Genauigkeit von GUI-Klicks, trotz seiner kompakten Größe.",
+ "source_sha256": "f1fca6964afbd0f76ded858e9fa8a564b021b9dde3f7312ac00e519fed7b2f9a",
+ "summary": "Ein visuelles Sprachmodell mit 4B Parametern, spezialisiert auf GUI-Grounding zur präzisen Lokalisierung von Bildschirmelementen. Es ermöglicht KI-Agenten, mit komplexen Oberflächen in unterschiedlichen Auflösungen und Seitenverhältnissen zu interagieren.",
+ "title": "Phi-Ground-Any: multimodales GUI-Grounding-Modell von Microsoft",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

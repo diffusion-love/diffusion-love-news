@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt entwickelte sich vom Forschungsartikel „BachVid“ (2025) zu einem vollständigen industriellen Start im Mai 2026. Seitdem hat es sich als erstklassiges Kinowerkzeug etabliert, mit dem einzigartigen Multi-Shot-Modus „Montage Mode“ und nativem 1080p-Rendering.",
+ "id": "n-a7521b7b08",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Gegründet vom ehemaligen Tencent-Wissenschaftler Dr. Wei Liu; belegt derzeit weltweit Platz 6 im Artificial Analysis Video Arena Benchmark.",
+ "source_sha256": "ae061c1914995178956a2bf37fcea0208c8adee2a90b1d8a4fd333ee05b2cc80",
+ "summary": "BACH ist eine industrietaugliche Engine zur Videogenerierung mit Schwerpunkt auf Figurenstabilität und regieführender Kontrolle. Aus einem einzigen Text-Prompt lassen sich mehrteilige 30-Sekunden-Filme mit synchronisiertem Audio erzeugen.",
+ "title": "BACH 1.0: Multi-Shot-KI-Videogenerierung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Publicado a finales de abril de 2026 como evolución de la serie MoE Qwen3.5, introdujo «Thinking Preservation» para la coherencia del razonamiento en varios turnos. A partir de mayo de 2026 incorporó soporte nativo de Multi-Token Prediction (MTP) en motores de inferencia locales como llama.cpp, lo que mejora el rendimiento en hardware de consumo.",
+ "id": "n-97c6278d46",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Licenciado bajo Apache 2.0; alcanza una tasa de éxito del 77.2% en SWE-bench Verified, lo que lo posiciona como una alternativa local líder frente a los agentes de programación propietarios.",
+ "source_sha256": "e9f868639484581dbad60ece7025613000708d30b804b90cb400c7b164ed2f2b",
+ "summary": "Un modelo denso de 27B parámetros de Alibaba, publicado en abril de 2026 y especializado en programación agéntica y razonamiento lógico complejo. Utiliza una arquitectura híbrida que combina Gated Attention y Gated DeltaNet para gestionar de forma eficiente tareas de contexto largo a nivel de repositorio.",
+ "title": "Qwen3.6-27B: modelo abierto de alto rendimiento para programación",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

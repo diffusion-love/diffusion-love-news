@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "LLM 파인튜닝에서 Gemma 4 멀티모달 비전/오디오 변형과 GRPO 강화 학습 지원으로 확장되었습니다. 2026년 5월 공식 PyTorch 생태계에 통합되었습니다.",
+ "id": "n-a3aa871dfa",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Gemma 4 E2B 및 E4B 모델을 위해 무료 Google Colab T4 GPU를 지원합니다.",
+ "source_sha256": "924ddc8b9e8a6c48814cfaae72541ec6aca1d724e90ffcf8cf532c979be303a3",
+ "summary": "소비자 GPU와 Google Colab에서 Google Gemma 4 계열을 파인튜닝하기 위해 고도로 최적화된 프레임워크입니다. 특화된 커널을 통해 학습 속도는 2배 빨라지고 VRAM 사용량은 70% 줄어듭니다.",
+ "title": "Colab에서 Gemma 4 파인튜닝을 위한 Unsloth Studio",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

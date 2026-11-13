@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt entwickelte sich mit dem großen Update v0.5 weiter, das TRELLIS 2 integriert und hochauflösende Mesh-Generierung sowie PBR-Materialunterstützung ermöglicht. Es bleibt ein aktives Forschungsprojekt der GAP-LAB (CUHK-Shenzhen), eingereicht bei ICLR 2026.",
+ "id": "n-461304d95b",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Für Consumer-GPUs (24GB VRAM) optimiert; unterstützt den Export in die Formate GLB und Gaussian Splatting.",
+ "source_sha256": "d394f40c052f1e08c49d8dd51c91589bbf09ec2d23e8c4986aa24522f5a11e11",
+ "summary": "ReconViaGen ist ein Framework zur 3D-Rekonstruktion, das Rekonstruktion und generative Priors kombiniert, um aus spärlichen Ansichten präzise Modelle zu erstellen. Es integriert VGGT für die Rekonstruktion ohne Pose-Schätzung und TRELLIS für hochtreue 3D-Generierung und vermeidet so wirksam Halluzinationen, während Eingabedetails erhalten bleiben.",
+ "title": "ReconViaGen: Präzise Multi-View-3D-Rekonstruktion durch Generierung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

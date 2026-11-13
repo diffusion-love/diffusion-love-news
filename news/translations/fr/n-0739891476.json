@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Après sa sortie en avril 2026, le projet a rapidement ajouté la prise en charge officielle de ComfyUI, puis atteint en mai 2026 une étape importante avec son intégration complète dans la bibliothèque Hugging Face Diffusers. Des contributeurs de la communauté ont depuis publié des versions quantifiées GGUF et FP8 pour rendre accessible aux GPU grand public ce modèle de plus de 30GB.",
+ "id": "n-0739891476",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "L'architecture utilise un système en boucle fermée dans lequel le modèle de compréhension guide le processus de génération afin de réduire les hallucinations lors de transformations spatiales complexes.",
+ "source_sha256": "296625abf3b9536811c68d34346c284f2f7ee8582657f6765f4a0db075aaa674",
+ "summary": "Un modèle fondation multimodal de JD.com qui combine un modèle de compréhension de 8B et un MMDiT de 16B pour l'édition d'images précise. Il se spécialise dans les tâches de raisonnement spatial telles que la rotation d'objets, le contrôle de la perspective de caméra et la modification de contenu haute fidélité.",
+ "title": "JoyAI-Image : nœuds ComfyUI officiels et modèle d'édition spatiale",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

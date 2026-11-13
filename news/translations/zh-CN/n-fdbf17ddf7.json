@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "在最初发表之后，官方代码和权重于2026年初在Apple的机器学习代码库中发布。此后，它已被采纳为即插即用的高分辨率渲染模块，适用于NoPoSplat和DepthSplat等通用骨干网络。",
+ "id": "n-fdbf17ddf7",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由香港大学与Apple合作完成；尤其值得注意的是，它是首个实现原生4K前馈高斯泼溅的方法。",
+ "source_sha256": "0d1a2fcc293f1f76329a682e0e70fd7c96e0471f580a158be87ecf322a4b273f",
+ "summary": "一个3D重建框架，利用紧凑的带纹理高斯基元，将几何复杂度与渲染分辨率解耦。它无需逐场景优化即可实现高保真的4K前馈合成。",
+ "title": "LGTM：更少高斯、更多纹理的3D重建",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

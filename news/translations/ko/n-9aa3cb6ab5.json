@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 2024년의 초기 1.3B 프로토타입에서 버전 2와 3을 거쳐 현재의 AF-Next 플래그십으로 발전했습니다. Audio Flamingo Next는 정밀한 타임스탬프 추론을 위한 Temporal Audio Chain-of-Thought(TA-CoT)를 도입했고, 긴 컨텍스트 지원을 30분 분량의 오디오까지 확장했습니다.",
+ "id": "n-9aa3cb6ab5",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "AF-Next-Think(추론용)와 AF-Next-Captioner(상세 설명용) 같은 특화 변형을 포함합니다. 맞춤형 AF-Whisper 인코더와 Qwen2.5 기반 텍스트 백본을 사용합니다.",
+ "source_sha256": "4f15f876dc5aec7a6dcfbc6d06fbb9d03df62d7f64106d3b74652d72eab3e985",
+ "summary": "소리, 음악, 음성을 포괄적으로 이해하기 위한 NVIDIA와 UMD의 최첨단 오픈 대규모 오디오-언어 모델 시리즈입니다. 퓨샷 학습을 사용하여 복잡한 오디오 환경에서 세밀한 추론과 다중 턴 대화를 가능하게 합니다.",
+ "title": "Audio Flamingo Next (AF-Next)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "在同参数量级的智能体推理任务中仍是当前 SOTA。生态系统支持已扩展至 GGUF 和 MLX 格式，以便在消费级硬件和 Apple Silicon 上高效进行本地推理。",
+ "id": "n-9af7222826",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "尽管体积小巧，其 ClawBench 得分达到 84.8，几乎与 Kimi K2.5 和 GLM-4.5 持平。",
+ "source_sha256": "dc929f0359d93cf73418d61f69b3e61a21f18b2ef6760477c759f91fe939020a",
+ "summary": "一款最先进的 4B 参数模型，针对多步推理和工具调用能力进行了优化。它利用精选的智能体任务轨迹，在专门的基准测试中达到了远大于它的模型的性能。",
+ "title": "QClaw-4B：面向智能体任务的紧凑语言模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

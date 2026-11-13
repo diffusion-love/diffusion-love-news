@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "L'écosystème LTX 2.3 a mûri début 2026 avec la sortie d'IC-LoRA pour le contrôle vidéo-vers-vidéo et d'ID-LoRA pour la persistance de l'identité des personnages. Le développement communautaire s'est orienté vers des améliorateurs HDR 16 bits pour faciliter une post-production de niveau professionnel.",
+ "id": "n-34034d382e",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Idéalement utilisé avec la quantification FP8 et Sage Attention 2.2 pour maîtriser le surcoût mémoire lors de l'inférence multi-LoRA.",
+ "source_sha256": "b0d9df680a36537d929259e390e33fb32b2af0b9b9d39c68cef89780f2c186f4",
+ "summary": "Une suite spécialisée de modèles LoRA conçue pour affiner les textures, améliorer la définition des contours et réduire la douceur inhérente aux générations vidéo LTX 2.3. Ces améliorateurs optimisent la sortie du modèle de base pour une fidélité visuelle plus élevée et des workflows d'étalonnage professionnels.",
+ "title": "LTX 2.3 Enhancers : LoRA de fidélité visuelle et de netteté",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-adac82ad85",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Laden Sie die Modellgewichte aus dem Repository InternScience/Sage-A1.5 auf Hugging Face oder ModelScope herunter.\n\nStellen Sie das Modell mit vLLM oder SGLang unter Verwendung der standardmäßigen Qwen-MoE-Architekturkonfiguration bereit, um einen OpenAI-kompatiblen API-Endpunkt bereitzustellen.\n\nKonfigurieren Sie die Laufzeitumgebung des Agenten mit aktiviertem Spawnen von Subagenten, damit das Modell Teilaufgaben in isolierten Kontexten parallelisieren kann.\n\nAktivieren Sie die native Verifikation in den Generierungsparametern oder im System-Prompt, damit das Modell bei komplexen Trajektorien eine Selbstprüfung und Fehlerbehebung durchführt.\n\nVerwenden Sie isolierte Subagent-Kontexte für parallele Untersuchungszweige, damit der Root-Agent nicht durch zwischenzeitliche, verrauschte Tool-Ausgaben abgelenkt wird.\n\nWenden Sie YaRN-Parameter zur Kontextskalierung an, wenn Repositories oder Sammlungen wissenschaftlicher Literatur verarbeitet werden, die das native Kontextfenster von 256K Token überschreiten.\n\nSetzen Sie beim Deployment mit SGLang oder vLLM FP8/INT4-Quantisierungen ein, um den Speicherbedarf zu senken und dabei die Effizienz des MoE-Routings beizubehalten.",
+ "source_sha256": "f1deef105e5981b35e4c995753350ecc082e91e879a4dfe76659f2a38125f8f9",
+ "summary": "Die InternScience-Gruppe hat die Gewichte von Sage-A1.5 veröffentlicht. Das Modell bietet ein Kontextfenster von 256K, das sich per YaRN auf 512K erweitern lässt, einen eingebetteten Chain-of-Thought-Mechanismus zur Selbstkorrektur und OpenAI-kompatible Serving-Konfigurationen.",
+ "title": "Sage-A1.5 auf Hugging Face veröffentlicht, mit nativer agentischer Selbstverifikation",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

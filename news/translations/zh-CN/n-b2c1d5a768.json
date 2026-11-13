@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026 年 4 月发布，作为 FLUX.2 生态的关键效率更新，此前为 2025 年底的旗舰版本 FLUX.2 [dev]。它现已成为消费级推理流水线的标准配置。",
+ "id": "n-b2c1d5a768",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "采用 Apache 2.0 许可证；与标准 FLUX.2 解码器相比，解码速度约快 1.4 倍，参数量减少 44%。",
+ "source_sha256": "d52e46c8ee2db2b8113b4ccc443e2a4e7f397a64e199f14aad6abed91115684a",
+ "summary": "一种经过蒸馏的变分自编码器（VAE）解码器，旨在优化 FLUX.2 模型系列的推理性能。它能显著降低显存占用并提高解码速度，同时视觉质量损失极小。",
+ "title": "FLUX.2 小型解码器（蒸馏 VAE）",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

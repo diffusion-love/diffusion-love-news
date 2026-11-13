@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Baidu a publié les poids du modèle sous licence Apache 2.0 en avril 2026, marquant un virage stratégique vers l'accessibilité open source. Il bénéficie depuis d'une prise en charge native dans la bibliothèque Diffusers et d'une intégration ComfyUI étendue.",
+ "id": "n-c2ca134086",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Largement reconnu pour ses capacités de rendu de texte de pointe et ses performances dans la génération de mises en page complexes, comme les infographies et les storyboards.",
+ "source_sha256": "129a59d19efb9e6d1572a1e74aaeadf23052bdd1fd2097154890bb393ee1d9ba",
+ "summary": "Un modèle de génération de texte à image de 8 milliards de paramètres développé par Baidu, fondé sur l'architecture Diffusion Transformer (DiT). Il utilise la Distribution Matching Distillation (DMD) et l'apprentissage par renforcement pour générer des images de haute fidélité en seulement 8 étapes d'inférence.",
+ "title": "ERNIE-Image-Turbo 8B : Diffusion Transformer à poids ouverts",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

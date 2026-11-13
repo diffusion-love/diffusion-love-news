@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "作为 Qwen-Image 1.0 系列的继任者推出，该模型从 20B 的 MMDiT 架构转向更高效的统一 7B “omni” 模型。它整合了生成与编辑能力，并支持 1,000-token 的长提示词。",
+ "id": "n-86ce44c208",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "被广泛认为是英文和中文精确文字渲染方面的行业领先者；在 AI Arena ELO 排行榜上持续位居前十。",
+ "source_sha256": "97b1c9939c0eaee1ca2749c0ca9531f02833610ec2f281dbace0d048532f7d66",
+ "summary": "阿里巴巴推出的专业级多模态基础模型，统一了图像生成与编辑。它于 2026 年 2 月发布，擅长原生 2K 分辨率输出和复杂的双语排版，在技术准确性方面常居顶级模型之列。",
+ "title": "Qwen-Image-2.0-Pro",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

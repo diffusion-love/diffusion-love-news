@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "发布后，该模型被 LH-Tech-AI 加入“Top Image Classification Models”合集。开发者表示计划推出使用预训练主干的 v2 版本，以提升文档和医学影像等特定边缘场景的准确率。",
+ "id": "n-a71a838b34",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "仅处理 90 度增量的旋转（0°、90°、180°、270°）。该模型是纯分类器，因此在高吞吐量的实用任务中比图像到图像模型快得多。",
+ "source_sha256": "a4096afe1dc5ef56e281ca0079c99c25a54233496a0535349901eb5075122535",
+ "summary": "一款轻量级开源图像分类模型，用于检测方向并自动完成旋转校正。它以 11.2M 参数为目标，针对速度和边缘部署进行了优化，可高效批量处理照片库。",
+ "title": "GyroScope：图像方向检测与校正模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

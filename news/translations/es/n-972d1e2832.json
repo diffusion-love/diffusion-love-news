@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto introdujo un sistema de doble modelo: un modelo rápido de interacción gestiona la conversación en vivo, mientras que un modelo asíncrono en segundo plano se ocupa del razonamiento complejo; actualmente se encuentra en vista previa de investigación para socios.",
+ "id": "n-972d1e2832",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Fundado por Mira Murati y Soumith Chintala; el modelo TML-Interaction-Small utiliza una arquitectura Mixture-of-Experts con 276B parámetros.",
+ "source_sha256": "f8c33d85891a09cb6d3efda7664aa552aaa2b0ab1e6dd03bc6c12214f7db717a",
+ "summary": "Una nueva clase de sistemas de IA de Thinking Machines Lab, diseñada para la interacción multimodal nativa y en tiempo real. Basados en una arquitectura de micro-turnos, los modelos procesan audio, video y texto en fragmentos de 200 milisegundos, lo que permite percibir y responder simultáneamente.",
+ "title": "TML Interaction Models: IA multimodal en tiempo real",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

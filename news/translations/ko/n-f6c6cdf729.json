@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "기본적인 투영 노드에서 완전한 3D 장면 편집 도구 모음으로 발전했습니다. 주요 업데이트로 인터랙티브 Three.js 뷰어, ControlNet에 바로 쓸 수 있는 골격을 만드는 포즈 설정이 가능한 IK 마네킹(Character Placer), 그리고 카메라 경로 애니메이션을 위한 Wan2.1 같은 영상 모델과의 통합이 도입되었습니다.",
+ "id": "n-f6c6cdf729",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "360° 등장방형(equirectangular) 파노라마에 대한 특화 지원과, 반복적인 인페인팅 동안 환경 일관성을 유지하기 위한 ‘Stamping’ 노드를 포함합니다.",
+ "source_sha256": "09ef9b5a0d739b2e342da08430bd6eccf0649ae187d6819c6417af20cf3beb56",
+ "summary": "3D 재구성된 장면 안에서 6자유도 카메라 이동과 캐릭터 배치를 위한 ComfyUI 확장입니다. 깊이 인식 재투영과 인터랙티브 Three.js 기반 스테이징을 결합해 정밀한 뷰 합성과 캐릭터 삽입을 가능하게 합니다.",
+ "title": "ComfyUI 6DOF 카메라 — 3D 장면 조작 및 캐릭터 스테이징",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

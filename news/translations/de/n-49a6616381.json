@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Derzeit in Version 14; der Autor verfeinert den Prompt auf Basis von Nutzerfeedback und Fehlerdaten zu Version 15.",
+ "id": "n-49a6616381",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Speziell optimiert für Modelle mit großem Kontext wie Gemini (über Google AI Studio) und DeepSeek.",
+ "source_sha256": "b1c2942b9151b8d5abe2fd445d6df0ae1a3d67969aad5b88c2d27732ad411fcf",
+ "summary": "Ein Systemanweisungssatz mit 110,000 Token, der KI-Modelle in kritische, anti-sykophantische Engineering-Mentoren verwandeln soll. Im Mittelpunkt stehen Denken aus First Principles, Schutz vor Kontextdrift und die Bekämpfung von Halluzinationen durch eingebaute epistemische Marker.",
+ "title": "BRO v14: kompromisslos stoischer Ingenieur-Mega-Prompt",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

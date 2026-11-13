@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2025년 말 10B 파라미터 BANG 아키텍처(2세대) 출시 이후, 2.5 업데이트는 초정밀 표면 조각 기능과 자동 노멀 맵 베이킹을 갖춘 ‘Smart Low-Poly’ 내보내기 기능을 도입했습니다.",
+ "id": "n-f0cec18709",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "DeemosTech이 개발했으며, 이 프로젝트는 리서치 프리뷰에서 게임 및 VFX 워크플로를 위한 통합 Hyper3D 크리에이터 플랫폼으로 전환되었습니다.",
+ "source_sha256": "d3b1f6a1bd6118e3774ab31e0bfe4398d1dd98dbd9f4feb837302a28abbb710d",
+ "summary": "텍스트 또는 이미지 프롬프트로부터 조각 수준의 지오메트리와 프로덕션에 바로 쓸 수 있는 토폴로지를 만드는 고충실도 3D 에셋 생성 AI 플랫폼입니다. 10B 파라미터 BANG 아키텍처를 사용해 복잡한 객체를 모듈형의 고세부 파트로 분해합니다.",
+ "title": "Rodin Gen 2.5 (Hyper3D)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

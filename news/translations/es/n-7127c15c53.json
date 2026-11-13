@@ -1,0 +1,11 @@
+{
+ "id": "n-7127c15c53",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "MiniMax lanzó H3 con contexto multimodal y video estéreo nativo de hasta 2K/15 segundos; los pesos se prometieron para una versión posterior.",
+ "source_sha256": "fe0d0f98da0c015cbedfd852874a6d10d6153e844864f7f7e32952bf3852db06",
+ "summary": "El 31 de julio de 2026, MiniMax publicó una entrada oficial de blog asociada a MiniMax H3. El enlace con fecha documenta una comunicación pública del proyecto, pero las pruebas registradas no establecen el cambio de producto concreto, las capacidades ni la disponibilidad que describe.",
+ "title": "MiniMax publica una entrada oficial de blog sobre MiniMax H3",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

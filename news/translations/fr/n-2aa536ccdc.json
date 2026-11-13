@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Succède à la série Kimi-K2 avec une coordination native d'Agent Swarm allant jusqu'à 300 sous-agents et une exécution autonome de 12 heures. La prise en charge des anciens modèles K2 est en cours d'abandon à mesure que l'écosystème passe à cette architecture orientée exécution.",
+ "id": "n-2aa536ccdc",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Publié comme modèle open-weight sous une Modified MIT License ; excelle en particulier sur SWE-Bench Pro et la décomposition de tâches à long horizon.",
+ "source_sha256": "c26d5aff6f939228faa703dec45e0d0f57155b1a123f26beffab36afeb6e8d3f",
+ "summary": "Le modèle MoE phare de 1T de paramètres de Moonshot AI, conçu pour des tâches agentiques autonomes complexes et à long horizon. Il prend en charge la multimodalité native et dispose d'une fenêtre de contexte de 262K, optimisée pour le génie logiciel et la coordination.",
+ "title": "Kimi K2.6 : LLM agentique de pointe de Moonshot AI",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

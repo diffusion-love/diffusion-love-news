@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt entwickelte sich zu „Thinking“-Varianten wie DECKARD HERETIC, die erweitertes Chain-of-Thought-Reasoning bieten und zugleich unzensiert bleiben. Der HERETIC-Prozess selbst erreichte bis Mitte 2026 Version 1.2.0.",
+ "id": "n-f4d17d7115",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Sehr beliebt in der lokalen LLM-Community wegen seines bevormundungsfreien Verhaltens; erfordert GGUF-kompatible Inferenzwerkzeuge wie LM Studio oder llama.cpp.",
+ "source_sha256": "eb2aadd0d861b24dbeaeb9858d4d477ce266929cdc620af5c39a7e563abf8aac",
+ "summary": "Eine uneingeschränkte Version des Gemma-4-Modells von Google, modifiziert mit der HERETIC-Abliteration-Methode, um Sicherheitsvorkehrungen und Ablehnungsrichtungen zu neutralisieren. Es ist für kreatives Schreiben und Rollenspiele optimiert, ohne belehrende oder filternde KI-Antworten.",
+ "title": "Gemma 4 E4B Heretic: unzensiert",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

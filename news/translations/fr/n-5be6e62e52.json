@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Publié au début de 2026, le projet a introduit un encodage latent non compressif et une mémoire de nuage de points basée sur la visibilité, pour résoudre le flou structurel dans la reconstruction 3D à vues éparses.",
+ "id": "n-5be6e62e52",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "S'appuie sur le modèle de base Wan2.1 I2V 14B et rapporte une accélération de l'inférence de 10-20x par rapport aux précédents baselines de l'état de l'art.",
+ "source_sha256": "9a1eb4c10bbed39eb75871ebb0eee332bd5d7281491190c233c0c1674f647556",
+ "summary": "AnyRecon est un cadre pour la reconstruction 3D d'objets de haute qualité à partir d'ensembles épars et non ordonnés de photographies. Il utilise un modèle de diffusion vidéo et une mémoire de scène globale pour maintenir la cohérence géométrique à travers des points de vue arbitraires.",
+ "title": "AnyRecon : reconstruction 3D à vue arbitraire par diffusion vidéo",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

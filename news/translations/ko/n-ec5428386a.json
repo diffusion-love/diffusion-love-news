@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이 제품은 Anthropic Labs 제품군의 대표 디자인 도구로 남아 있으며, 최근 GitHub 웹훅을 통한 자동화 코딩 워크플로와의 깊은 통합을 얻었습니다. 적응형 사고(adaptive thinking) 아키텍처로 전환한 Claude 4 시리즈의 일부입니다.",
+ "id": "n-ec5428386a",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "3.75메가픽셀 비전 지원을 갖추고 있으며, SWE-bench Verified에서 87.6%를 달성했습니다.",
+ "source_sha256": "a1305509c3f0b222538af09c4dd7b9d6b849f437ff9d6db2526e67d1ccf5d39c",
+ "summary": "Claude Opus 4.7 모델을 사용해 고충실도 UI/UX 프로토타입과 전문 프레젠테이션 레이아웃을 생성하기 위한 특화 인터페이스입니다. 고해상도 이미지 분석과 적응형 추론을 지원해 픽셀 단위 정확도의 디자인 구현을 보장합니다.",
+ "title": "Claude Design: Opus 4.7을 활용한 프로토타입 및 UI 생성",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

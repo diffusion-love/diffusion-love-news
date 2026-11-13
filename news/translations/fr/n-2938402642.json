@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "En s'appuyant sur l'architecture CuTR, Boxer a introduit une incertitude aléatoire et un encodage de patchs de profondeur médiane pour une meilleure robustesse. Depuis sa sortie début 2026, il a été porté sur mobile sous le nom Boxer3D, utilisant YOLO11 pour la détection d'objets 3D en temps réel sur iOS.",
+ "id": "n-2938402642",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Le projet comprend un jeu de données massif de 1.22 million de boîtes englobantes 3D uniques et prend en charge l'intégration avec les lunettes Project Aria et ScanNet.",
+ "source_sha256": "59be5c9dc08f7bb5be995b8fd6475d2a66af0991c1152899063eccff1a0b2219",
+ "summary": "Un projet de recherche de Meta Reality Labs qui élève des détections 2D à vocabulaire ouvert vers des boîtes englobantes 3D orientées, globalement cohérentes, à partir d'images posées et d'une profondeur éparse optionnelle. Il emploie un réseau basé sur des transformers, appelé BoxerNet, pour prédire des boîtes à 7-DoF sur des jeux de données égocentriques et d'intérieur.",
+ "title": "Boxer : élévation de boîtes englobantes 2D-to-3D en monde ouvert",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

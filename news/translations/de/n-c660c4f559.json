@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Seit seiner Einführung wurde CDM genutzt, um „Turbo“-Versionen beliebter Modelle wie Stable Diffusion 3 Medium und Longcat Image zu destillieren; diese werden aktiv gepflegt und sind auf Hugging Face verfügbar. Die Modelle erzielen in nur 4 Schritten hochwertige Ergebnisse, die Lehrermodelle mit 100 Schritten erreichen oder übertreffen.",
+ "id": "n-c660c4f559",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "CDM unterscheidet sich dadurch, dass beim Training weder echte Bilder noch GAN-Diskriminatoren oder externe Belohnungsmodelle benötigt werden; dadurch ist der Destillationsprozess im Vergleich zu früheren Methoden einfacher.",
+ "source_sha256": "a4bb638536e2bd9d0c546a8f046f10d19ca45aa4407af89c2208b007433d54e7",
+ "summary": "Continuous-Time Distribution Matching (CDM) ist ein modernes Framework, um Text-zu-Bild-Diffusionsmodelle zu hochwertigen Generatoren mit wenigen Schritten (4 Schritte) zu beschleunigen. Es nutzt einen kontinuierlichen Optimierungsraum, der Überglättung und visuelle Artefakte ohne komplexe Hilfsmodule vermeidet.",
+ "title": "CDM: Continuous-Time Distribution Matching für Diffusions-Destillation",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

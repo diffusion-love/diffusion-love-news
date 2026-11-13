@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto evolucionó de SCAIL-Preview a SCAIL-2, que añade mayor estabilidad de movimiento, mejor comprensión de la profundidad de pose 3D y soporte nativo para la generación de vídeo de larga duración. Se integró en ComfyUI mediante nodos personalizados y ahora permite dirigir animaciones mediante rigs 3D de Blender.",
+ "id": "n-0cf9d026b8",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Desarrollado por Zhipu AI y la Universidad de Tsinghua; el modelo se basa en la arquitectura Wan 2.1 y normalmente requiere mucha VRAM, aunque se admiten versiones GGUF cuantizadas.",
+ "source_sha256": "25182dd3a1bee7f16f4944f3928488b56b26c94a9191b0f6844fd3679e56ca24",
+ "summary": "SCAIL es un marco para la animación de personajes que permite transferir movimiento de alta fidelidad desde vídeos de referencia a imágenes de referencia, usando una representación de pose consistente en 3D. Aborda con eficacia problemas habituales como el temblor y la deriva de identidad, a la vez que admite escenas con varios personajes y secuencias largas.",
+ "title": "SCAIL-2: animación de personajes de calidad de estudio mediante aprendizaje en contexto",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

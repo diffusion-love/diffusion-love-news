@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从开源的 Wan 2.1/2.2 基础发展为商业化的多模态套件。Wan 2.7 引入了“Thinking Mode”推理，并分化为专门的图像和视频分支，目前正与 Sora 2 和 Kling 2.6 竞争。",
+ "id": "n-d9eaebd61d",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由阿里巴巴通义实验室开发；具备 9 宫格多图输入系统，可在多次生成中保持角色和风格的一致性。",
+ "source_sha256": "64602f939c6446b9ba2433932e445663498d5b59367e4cdaa7eddafacffc9c70",
+ "summary": "来自阿里巴巴通义实验室的专业图像生成与编辑工具，具备用于高级语义推理的“Thinking Mode”以及多参考人脸控制。它支持 4K 分辨率输出，并提供精确的十六进制颜色管理，适用于高端设计工作流。",
+ "title": "Wan 2.7-Image（Pro）",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

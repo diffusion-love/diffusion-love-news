@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Baidu veröffentlichte die Modellgewichte im April 2026 unter der Apache-2.0-Lizenz und markierte damit einen strategischen Wandel hin zu offener Zugänglichkeit. Seitdem wird das Modell nativ von der Bibliothek Diffusers unterstützt und ist umfassend in ComfyUI integriert.",
+ "id": "n-c2ca134086",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Weithin bekannt für seine branchenführenden Fähigkeiten beim Rendern von Text und für die Leistung bei der Erzeugung komplexer Layouts wie Infografiken und Storyboards.",
+ "source_sha256": "129a59d19efb9e6d1572a1e74aaeadf23052bdd1fd2097154890bb393ee1d9ba",
+ "summary": "Ein Text-zu-Bild-Modell von Baidu mit 8 Milliarden Parametern auf Basis der Diffusion-Transformer-(DiT-)Architektur. Es nutzt Distribution Matching Distillation (DMD) und Reinforcement Learning, um in nur 8 Inferenzschritten hochwertige Bilder zu erzeugen.",
+ "title": "ERNIE-Image-Turbo 8B: Open-Weight-Diffusion-Transformer",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

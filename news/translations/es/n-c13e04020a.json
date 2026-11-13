@@ -1,0 +1,11 @@
+{
+ "id": "n-c13e04020a",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Descargue los pesos del modelo o sus variantes cuantizadas directamente desde el repositorio oficial de Hugging Face.\n\nDespliegue localmente con llama.cpp u Ollama usando los archivos GGUF proporcionados, para hardware de consumo con memoria limitada.\n\nSirva el modelo mediante vLLM o SGLang para ofrecer un endpoint de API compatible con OpenAI que admita solicitudes de contexto largo de hasta 1M de tokens.\n\nConfigure el parámetro de presupuesto de razonamiento (none, low o high) por solicitud para regular la latencia del razonamiento y el gasto de tokens.\n\nUse variantes INT4 o GGUF cuantizadas al ejecutar en hardware de borde o en GPU de consumo, para mantener un bajo consumo de memoria entre 4GB y 8GB.\n\nSeleccione el presupuesto de razonamiento 'none' para cargas de trabajo conversacionales y extractivas sencillas, a fin de minimizar el tiempo hasta el primer token, y cambie a 'high' para la lógica de varios pasos o la generación de código.\n\nAl procesar contextos largos de hasta 1M de tokens, utilice entornos de ejecución de atención paginada como vLLM o SGLang, con asignaciones de memoria del host adecuadas para evitar errores OOM de la caché KV.",
+ "source_sha256": "77f1e3382d39bb0e620a6fcdd97c289d43de78d44d1644af25926b96001c8227",
+ "summary": "Spark-X2.6-4B está disponible como modelo de pesos abiertos de 4B parámetros que conserva la arquitectura de la versión 2.5 con mejoras de posentrenamiento; ofrece tres modos de presupuesto de razonamiento, un manejo del contexto de hasta 1M de tokens y los formatos de cuantización base, FP8, INT8, INT4 y GGUF.",
+ "title": "Spark-X2.6-4B publicado bajo Apache 2.0 con variantes cuantizadas y razonamiento configurable",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

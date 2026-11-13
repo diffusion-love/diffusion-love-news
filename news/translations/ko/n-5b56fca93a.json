@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이전에 분리되어 있던 TDT 오프라인 아키텍처와 전용 스트리밍 아키텍처를 동적 전환이 가능한 단일 모델로 통합했습니다. Parakeet-TDT-0.6b 시리즈의 뒤를 잇으며, WER과 배포 효율이 크게 개선되었습니다.",
+ "id": "n-5b56fca93a",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "H100 GPU에서 실시간 계수(RTF)가 최대 3000배에 달하며, 지연 시간은 160ms까지 낮아집니다. 네이티브 구두점 및 대소문자 지원을 제공합니다.",
+ "source_sha256": "4e1ab6a9b3dd09f0368cf6136be5a823e35f8cb19205c64b113a3348778c0581",
+ "summary": "오프라인 배치 처리와 실시간 스트리밍 전사를 통합한 6억 파라미터 자동 음성 인식(ASR) 모델입니다. Unified-FastConformer-RNNT 아키텍처를 사용하여 다양한 오디오 작업에서 높은 정확도와 낮은 지연 시간을 제공합니다.",
+ "title": "NVIDIA Parakeet-unified-en-0.6b 통합 ASR 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

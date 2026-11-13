@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Successeur de la série Qwen3.5, introduisant l'attention hybride Gated DeltaNet pour un traitement plus rapide des contextes longs et la préservation de la réflexion (Thinking Preservation) pour un raisonnement multi-tours stable.",
+ "id": "n-04529e7d46",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Figure parmi les meilleurs modèles open-weight pour le codage agentique (73.4% sur SWE-bench) et les mathématiques (92.6% sur AIME 2026) ; publié sous licence Apache 2.0.",
+ "source_sha256": "bd3caceaa2a648b958f75addc718835b9567edfb0db9eccd80759bfa7cfd2db2",
+ "summary": "Un modèle multimodal open-weight de 35B paramètres au total et 3B actifs, reposant sur une architecture Mixture-of-Experts (MoE) épars. Il est optimisé pour le codage agentique et les mathématiques, et intègre un mécanisme d'attention linéaire hybride pour un raisonnement efficace sur contexte long.",
+ "title": "Qwen3.6-35B-A3B : modèle MoE épars multimodal d'Alibaba",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

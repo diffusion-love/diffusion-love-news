@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto pasó de un artículo teórico a un conjunto de herramientas práctico, con una popular integración en ComfyUI (SPF-ReTime). Se ha actualizado para admitir modelos de alta resolución como Wan2.2 y LTX-Video mediante una deformación temporal consciente de la frecuencia.",
+ "id": "n-b18df4c1c8",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Los estudios de usuarios indican una preferencia del 88% por los vídeos remuestreados con SPF, debido a la eliminación del efecto fantasma y de los saltos semánticos bruscos.",
+ "source_sha256": "7f4b3f682f4b57f05dd2bf8a60b541f999a79c85c9643db50373d03593418045",
+ "summary": "Marco de investigación que asigna las trayectorias semánticas de los vídeos a una función escalar 1D para garantizar un ritmo temporal suave. Permite la linealización temporal y corrige las velocidades irregulares o las detenciones habituales en los modelos de vídeo generativo.",
+ "title": "Función de progreso semántico (SPF) para un vídeo de IA suave",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

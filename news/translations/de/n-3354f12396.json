@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt hat sich von einfachen Projektionswerkzeugen zu einer umfassenden Pipeline für 3D-bewusstes Outpainting und Neuansichtssynthese entwickelt. Jüngste Updates umfassen die Integration von Depth Anything V3, Unterstützung für generative Videomodelle wie Wan2.1 und LTX-2.3 sowie eine neue, auf Open3D basierende GUI zur interaktiven Aufnahme von Kamerapfaden.",
+ "id": "n-3354f12396",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Zentrale Abhängigkeiten sind Open3D und FFmpeg; das Werkzeug ist besonders für iteratives Outpainting zu vollsphärischen VR-Umgebungen optimiert.",
+ "source_sha256": "125ef044abdbad7bba7aa4957f7c13f2641c381446682bb1ce64b9e2b26c8d65",
+ "summary": "Eine spezialisierte Sammlung benutzerdefinierter Nodes für ComfyUI, die 3D-bewusste Bildtransformationen und die Erstellung von VR-Inhalten über Tiefe-zu-Punktwolke-Pipelines ermöglicht. Sie erleichtert die nahtlose Reprojektion zwischen Lochkamera-, Fisheye- und equirectangularen Kameramodellen für komplexe Videosynthese-Workflows.",
+ "title": "camera-comfyUI: 3D-Kameraprojektions-Nodes für ComfyUI",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-046d02af9f",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez l'extension dans ComfyUI/custom_nodes et installez ses dépendances avec l'environnement Python qui exécute ComfyUI.\n\nTéléchargez les fichiers ONNX de l'encodeur et du décodeur depuis le dépôt de modèles lié par le mainteneur, y compris les fichiers .data associés lorsqu'ils sont fournis. Placez-les dans ComfyUI/models/vae.\n\nCompilez les moteurs avec MiniMax-H3 TRT VAE Compiler, puis chargez-les avec MiniMax-H3 TRT VAE Loader.\n\nEn dessous de 12GB de VRAM, le mainteneur suggère le décodeur w4a16_awq. Considérez-le comme une recommandation de l'auteur, et non comme une garantie que le workflow vidéo complet tiendra sur votre GPU.\n\nComparez le même latent à votre résolution cible et mesurez le décodage VAE séparément du temps de génération total. Le test indépendant a constaté un gain bien plus faible en 768p qu'à 2.0MP.",
+ "source_sha256": "16f5d69ecd955fd252764766409e13166cda7e6b683c5a69cd7a5b36e338199c",
+ "summary": "ComfyUI-H3VAE_TRT ajoute une voie TensorRT tierce pour l'encodage et le décodage VAE de MiniMax-H3. Son mainteneur annonce des gains de vitesse allant jusqu'à 1.7x pour cette étape, et non pour la génération vidéo complète. Ce pack de nœuds est distinct du cœur de ComfyUI et du modèle MiniMax-H3.",
+ "title": "Nœuds VAE TensorRT pour les workflows MiniMax-H3 dans ComfyUI",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

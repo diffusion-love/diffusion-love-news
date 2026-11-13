@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Presentado por Anuttacon a comienzos de 2026, LPM 1.0 estableció nuevos referentes en «rendimiento» al resolver el trilema de expresividad, velocidad en tiempo real y estabilidad. A mayo de 2026 sigue siendo un proyecto de investigación centrado en la interacción con humanos digitales, sin acceso público a los pesos del modelo.",
+ "id": "n-464a2f9508",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Desarrollado por Anuttacon, una startup de IA fundada por el cofundador de miHoYo, Cai Haoyu. El proyecto introdujo LPM-Bench para medir la calidad de la actuación de personajes.",
+ "source_sha256": "60d6d120c556be928122fbd24b8db17f277588e18ca845c316a5a46d23a7389f",
+ "summary": "Un Diffusion Transformer de 17.000 millones de parámetros diseñado para la actuación interactiva en tiempo real de personajes digitales, con capacidades full-duplex. Permite micro-expresiones expresivas y de baja latencia, y una preservación estable de la identidad durante sesiones conversacionales de larga duración.",
+ "title": "Large Performance Model LPM 1.0: vídeo interactivo",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

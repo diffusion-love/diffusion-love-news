@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Basado originalmente en el artículo ECCV 2024, esta implementación para ComfyUI evolucionó a finales de 2025 para incluir una unión de profundidad mejorada para los fragmentos de panorama y una integración fluida con la suite ComfyUI-3D-Viewer-Pro. A mediados de 2026 sigue mantenida activamente para los últimos rasterizadores 3DGS.",
+ "id": "n-2915ceca6f",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Requiere el CUDA Toolkit completo y compilación C++ durante la instalación; se recomienda encarecidamente contar con 16GB+ de VRAM (RTX 3090/4090) para un rendimiento estable.",
+ "source_sha256": "193dfe6b02a1df81005193be8340edddc85492cc3b8acaa7ebd1625b584021ad",
+ "summary": "Una suite especializada de nodos para ComfyUI que implementa la investigación DreamScene360 para generar escenas de Gaussian Splatting 3D (3DGS) globalmente consistentes a partir de una sola imagen panorámica de 360°. Utiliza estimación de profundidad y splatting panorámico para crear entornos 3D explorables desde un único punto de vista.",
+ "title": "ComfyUI-DreamScene360: Gaussian Splatting panorámico y escenas 3D",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

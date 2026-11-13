@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Nach der ersten Veröffentlichung kamen die A3B-MoT-Mixture-of-Experts-Variante und Gewichte für Inferenz mit hoher Geschwindigkeit in 8 Schritten hinzu. Derzeit unterstützt das Projekt GGUF-Quantisierung für den Einsatz auf Consumer-GPUs und die native Integration in agentische Workflows.",
+ "id": "n-4a638abcfe",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Entwickelt von SenseTime und Light-AI; markiert den Übergang von modularen Adaptern zu nativer, durchgängiger multimodaler Intelligenz.",
+ "source_sha256": "1bd2b454111db39f633a3f344c3ba45bbc0d170a9a1696ac56cf0e8116553c63",
+ "summary": "Eine native, vereinheitlichte multimodale Modellreihe von SenseTime, die Verstehen, Schlussfolgern und Generieren in einer einzigen Ende-zu-Ende-Architektur vereint. Sie nutzt ein Mixture-of-Transformers-Backbone, das rohe Pixel und Text-Token ohne separate Encoder verarbeitet.",
+ "title": "SenseNova-U1: vereinheitlichte multimodale KI mit NEO-unify",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

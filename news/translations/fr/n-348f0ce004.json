@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Officiellement accepté à CVPR 2026, DisCa est pleinement intégré à l'écosystème HunyuanVideo-1.5 depuis mai 2026. Il est issu des travaux antérieurs de Tencent (TaylorSeer, ToCa, DuCa), en passant d'une mise en cache heuristique à une architecture de prédicteur neuronal apprenable.",
+ "id": "n-348f0ce004",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Introduit le schéma de distillation Restricted MeanFlow pour éliminer les tremblements inter-images et est spécifiquement optimisé pour les workflows Image-to-Video et Text-to-Video haute résolution.",
+ "source_sha256": "cc914df8627fef55fed736446040f1d11f80936846e82234f634b28c9efcd499",
+ "summary": "Un framework d'accélération d'inférence développé par Tencent qui unifie la mise en cache de features apprenable et la distillation par étapes pour les transformers de diffusion vidéo. Il atteint des accélérations quasi sans perte de 11.8x, permettant la génération vidéo haute fidélité sur du matériel grand public.",
+ "title": "DisCa : mise en cache de features apprenable compatible avec la distillation",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

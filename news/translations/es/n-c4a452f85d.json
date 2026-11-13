@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "El proyecto culminó con el lanzamiento de «Interpretations», un álbum de 24 pistas renderizado íntegramente mediante scripts de Python. Se ha ampliado para admitir sistemas de afinación microtonal complejos y generación algorítmica en tiempo real.",
+ "id": "n-c4a452f85d",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Demuestra el algoritmo Karplus-Strong para la síntesis de cuerdas pulsadas usando únicamente NumPy y las bibliotecas estándar de Python.",
+ "source_sha256": "69b449eb607f6bef39109acf6df4e27a60220e4223818be55467f3b59e11ba17",
+ "summary": "Un marco de Kenneth Reitz que trata los arrays de NumPy como búferes de audio para la síntesis musical matemática. Permite la composición puramente basada en código y el modelado físico de instrumentos sin usar muestras de audio.",
+ "title": "NumPy como motor de síntesis (PyTheory)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

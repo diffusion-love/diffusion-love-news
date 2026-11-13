@@ -1,0 +1,10 @@
+{
+ "id": "n-8ae442bb62",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "5f4753f6d94c23dc801ebeb17433d0dacaaa5a94ed7b1785daae5a913cdcbdf7",
+ "summary": "2026-05-19, mm-ctx 개발 라인은 공개 Hugging Face Space를 참조했습니다: https://huggingface.co/spaces/vlm-run/mm-ctx. 이용 가능한 기록은 이 공개 프로젝트 참조를 확립하지만, 출시, 업데이트, 데모 또는 기타 특정 이정표를 표시했는지는 확인되지 않습니다.",
+ "title": "mm-ctx 공개 Hugging Face Space 참조",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

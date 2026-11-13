@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026 年 4 月随 GameCoder-27B 模型和 OpenGame-Bench 评测套件一同发布。它从基础代码生成演进为采用基于执行结果的强化学习的双技能系统（模板与调试）。",
+ "id": "n-7cc366b545",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由 CUHK MMLab 研究人员开发；利用 VLM 评判器实时验证可玩性与视觉一致性。",
+ "source_sha256": "41b49ae87369f0351854c7dd02fa7a493501049335c1f3445fd1d7ef3982e1d2",
+ "summary": "一个开源智能体框架，用于利用专用 LLM 自主完成端到端的网页游戏创作。它通过整合设计、编码和自动调试技能，从自然语言提示生成完全可玩的 2D 游戏。",
+ "title": "OpenGame：面向网页游戏的开放智能体编码",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

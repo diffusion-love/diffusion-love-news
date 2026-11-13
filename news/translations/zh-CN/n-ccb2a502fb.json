@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "从静态 3DGS（2023）和固定间隔 4DGS（2024）演进为自适应致密化模型，该模型已在 Eurographics 2026 上发表。它以运动感知的细化取代了僵化的时间间隔，显著提升了随机动态场景上的性能。",
+ "id": "n-ccb2a502fb",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "引入了加权 Adam 优化器和基于图像驱动的尽可能刚性（ARAP）正则化，现已广泛用于实时 VR/AR 渲染流水线。",
+ "source_sha256": "0377e0b370988b0f512c8c0a70389096f6930f55643f0bdbc24a3d315c6912da",
+ "summary": "一个动态场景重建框架，利用自适应时空致密化来建模复杂的振荡运动，例如风中的植被或水波纹。它通过基于运动方差和误差矩来细化图元，实现高保真 4D 渲染。",
+ "title": "自适应时空 3D 高斯泼溅",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

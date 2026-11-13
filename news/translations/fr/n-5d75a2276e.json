@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Lancé officiellement le 9 avril 2026 et entièrement déployé dans l'application Doubao pour desservir des centaines de millions d'utilisateurs. Le développement se tourne actuellement vers l'intégration multimodale, afin que le modèle puisse traiter simultanément les signaux visuels et audio.",
+ "id": "n-5d75a2276e",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Réduit la latence de réponse d'environ 250ms et diminue de 50 % les interruptions intempestives par rapport aux systèmes en cascade précédents.",
+ "source_sha256": "90ed9cd8efb27f34016e6e915aec19f41fff289f81037f1c14a1c941b8582467",
+ "summary": "Seeduplex est un modèle de parole full-duplex natif de bout en bout, qui permet des interactions naturelles « écouter en parlant » avec une gestion des interruptions en temps réel. Il est entièrement intégré à l'assistant IA Doubao de ByteDance et offre une fluidité conversationnelle proche de l'humain.",
+ "title": "Seeduplex : modèle vocal full-duplex de ByteDance",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

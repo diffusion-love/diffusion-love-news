@@ -1,0 +1,11 @@
+{
+ "id": "n-cce36dc967",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "请使用制品所指定的确切基础模型：krea/Krea-2-Turbo。请在兼容的本地工作流中加载 ComfyUI 格式的文件，或在 Krea2Pipeline 中加载 Diffusers 格式的文件。本包没有任何兼容性证据支持 Krea 2 Raw、FLUX.1 Krea 或其他 Turbo 模型。\n\n运行声明的 8 步 Turbo 方案，并且仅在前两个去噪步内保持适配器激活（gate=2）。作者的说明指出，普通 ComfyUI 会在每一步都应用 LoRA，因此需要使用按步调度 LoRA 的节点或 hook 节点，以便在第 2 步之后将其关闭；作者并未指定或提供标准的自定义节点或工作流 JSON。\n\n对于 Diffusers，作者记录了在 0.39.0.dev0 之后合并的构建版本中的 Krea2Pipeline、bf16、8 次推理步、guidance 1.0，以及在第二个基于零的步之后禁用 LoRA 的回调。这是创作者提供的配方，并非我们自己的运行结果。\n\n请将公开的 Space 仅视为演示界面。其列表确认 hugging-apps/krea2-turbo-sda-demo 确实存在，但在本次研究中，未获得可复现的工作流导出、运行时版本、硬件配置或独立的输出凭证。\n\n除非进行新的、带版本的对比，否则请将适配器 gate 保持为 2。作者报告称，在所有八步中保持开启会导致质量崩溃或模糊，在该固定面板中高频能量比为 2.2 倍，HPS 降低约 10%。\n\n所有多样性数值均应描述为创作者报告的数据。报告面板为 10 个提示词 × 16 个随机种子，分辨率 1024x1024，8 步，guidance 1.0，shift mu 1.15；它不是独立基准，也不是对 Krea 2 的通用保证。\n\n对于创作者报告的确切 gate-2 面板，请完整保留指标背景：10 个提示词 × 16 个随机种子，成对 CLIP 余弦距离为 0.0296 至 0.0548，HPSv2.1 为 0.2990 至 0.2987。这些数值并非独立复现的结果。\n\n请使用正确的权重格式。创作者区分了 krea2_turbo_sda_v1.0_comfy.safetensors 与 krea2_turbo_sda_v1.0_diffusers.safetensors；格式不匹配属于设置错误，并不能说明适配器的多样性效果。\n\n不要将该适配器描述为通用的缺陷修复方案。其自身的局限性说明指出，恢复多样性会降低稳定性，并可能使肢体等解剖结构问题更容易出现。",
+ "source_sha256": "00b68247740327b916e26fc2793418b6c95f3132aafdd8665e62b8e1e9f9bc2d",
+ "summary": "一款面向 Krea 2 Turbo 的社区 LoRA，据报告能使相同提示词在不同随机种子下产生更多变化。它的关键约束在于操作方式：必须仅在 Turbo 八个去噪步中的前两步运行，然后关闭。报告结果来自创作者的固定评估面板；目前尚无独立复现。",
+ "title": "Krea 2 Turbo SDA LoRA：增加两步多样性门控",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

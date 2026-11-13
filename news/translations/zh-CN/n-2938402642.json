@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Boxer 基于 CuTR 架构，引入了偶然不确定性和中值深度块编码，以提升鲁棒性。自 2026 年初发布以来，它已被移植到移动设备上，成为 Boxer3D，利用 YOLO11 在 iOS 上实现实时三维目标检测。",
+ "id": "n-2938402642",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "该项目包含一个包含 122 万个唯一 3D 边界框的大型数据集，并支持与 Project Aria 眼镜和 ScanNet 集成。",
+ "source_sha256": "59be5c9dc08f7bb5be995b8fd6475d2a66af0991c1152899063eccff1a0b2219",
+ "summary": "这是 Meta Reality Labs 的一项研究项目，利用带位姿的图像和可选的稀疏深度，将开放词汇的 2D 目标检测提升为全局一致的 3D 有向边界框。它采用名为 BoxerNet 的基于 Transformer 的网络，在第一视角和室内数据集上预测 7 自由度（7-DoF）边界框。",
+ "title": "Boxer：开放世界 2D-to-3D 边界框提升",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

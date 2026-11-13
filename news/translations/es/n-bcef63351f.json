@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Originalmente un ajuste fino completo de Z-Image, el proyecto evolucionó para incluir versiones destiladas de 4 y 8 pasos para la generación rápida. Las actualizaciones recientes añadieron cuantizaciones GGUF, soporte FP8 para tarjetas de 8GB de VRAM y archivos safetensors «All-In-One» (AIO) para un uso simplificado en ComfyUI y aplicaciones locales.",
+ "id": "n-bcef63351f",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Cuenta con 6B parámetros y arquitectura S3-DiT; incluye flujos de trabajo especializados para ComfyUI y admite el codificador de texto Engineer V4 para mejorar la diversidad de los resultados.",
+ "source_sha256": "c208a6c52f6a8bb60b578f6676ae29bc6ab172fc0089bba21b585c7b759eb285",
+ "summary": "Z-Anime es un modelo especializado de generación de imágenes, ajustado a partir de la arquitectura S3-DiT de Z-Image de Alibaba con 6B de parámetros. Ofrece una estética anime de alta calidad y admite tanto los prompts tradicionales basados en etiquetas como los prompts descriptivos en lenguaje natural.",
+ "title": "Z-Anime: modelo de generación anime S3-DiT de 6B y alta fidelidad",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

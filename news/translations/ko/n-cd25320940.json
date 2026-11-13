@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Wav2Lip의 학술적 성공에 이어, Sync Labs는 2024년 Lipsync-2를, 2026년 4월 플래그십 Sync-3를 출시했습니다. 최신 버전은 네이티브 4K 초해상도, 가림 물체 감지, 그리고 전역 장면 이해 모델을 갖추고 있습니다.",
+ "id": "n-cd25320940",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Wav2Lip의 원저자들이 개발했으며, 공식 Adobe Premiere Pro 통합과 95개 이상의 언어를 지원하는 엔터프라이즈 API를 제공합니다.",
+ "source_sha256": "c32d6e3de88465f40ffbaf7c3b125279f7b750e02f22ceb6e50b141157c61b1b",
+ "summary": "4K 출력과 감정 보존을 갖춘 고충실도 비디오 립싱크용으로 설계된 16B 파라미터 AI 모델입니다. 제로샷 아키텍처를 사용해 옆얼굴이나 가려진 시점을 포함한 어떤 얼굴이든 어떤 오디오와도 동기화합니다.",
+ "title": "Sync-3: Sync Labs의 프로페셔널 AI 립싱크",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

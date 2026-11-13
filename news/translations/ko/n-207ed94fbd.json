@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "고급 UMA 프로젝트의 모바일 대응 '학생' 모델로 개발된 MUA는 계산 비용을 2000배 줄입니다. 웨이블릿 스펙트럼 분해를 사용하여 극도로 세밀한 피부와 의상 디테일을 유지하면서도 모바일 GPU에서 실시간 성능을 달성합니다.",
+ "id": "n-207ed94fbd",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "데스크톱 하드웨어에서 180 FPS 이상, Meta Quest 3에서 24 FPS를 달성합니다. 동적 relighting과 self-shadowing을 지원합니다.",
+ "source_sha256": "2c3dc5f3b81b83c945fb9ea16f4133294c798e8a5111b7eabcec9de59b810279",
+ "summary": "MUA는 복잡한 의상 동역학을 가진 고충실도 디지털 휴먼을 렌더링하기 위한 모바일 최적화 프레임워크입니다. 서버급 시각 품질을 Meta Quest 3 같은 독립형 하드웨어에서 24 FPS로 실행 가능한 경량 형식으로 증류합니다.",
+ "title": "MUA: 모바일용 초정밀 애니메이션 아바타",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

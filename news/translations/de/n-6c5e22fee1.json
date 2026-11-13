@@ -1,0 +1,11 @@
+{
+ "id": "n-6c5e22fee1",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "`ideogram-v4-instant` ist ein 8-Schritt-BF16-Checkpoint vor QAD, während `ideogram-v4-fast` ein 20-Schritt-FP4/QAD-Checkpoint ist. Beide wurden von fal auf Basis der FP8-Basis von Ideogram entwickelt und entfernen die Laufzeit-CFG.",
+ "source_sha256": "7770d3c56797e7a752f6be5e5964eeec5de8899ec2255aa38ae3b33d35353609",
+ "summary": "Am 2026-07-14 ergänzte der datierte Linkbestand fal-gehostete Ideogram-v4-Varianten mit den Bezeichnungen Instant und Fast. Dies ist ein wesentlicher Entwicklungsschritt, weil er eindeutige Varianten innerhalb der Linie Ideogram 4 benennt. Die Links allein belegen weder ihre Verfügbarkeit, technische Unterschiede noch die genaue Beziehung zu den Juni-Verteilungen.",
+ "title": "Varianten Instant und Fast von Ideogram v4 erfasst",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

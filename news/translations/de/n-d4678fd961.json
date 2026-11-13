@@ -1,0 +1,11 @@
+{
+ "id": "n-d4678fd961",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Ermitteln Sie den cache-toleranten Bereich im Sampling-Verlauf des gemeinsamen audiovisuellen Diffusionsmodells; er entspricht typischerweise mittleren Diffusionszeitschritten.\n\nKonfigurieren Sie die Sampling-Schleife so, dass Ausgaben des Audio-Denoisers zwischengespeichert und wiederverwendet werden und die modalübergreifende Aufmerksamkeit in der mittleren Phase übersprungen wird, während der Video-Denoiser vollständig ungecacht läuft.\n\nStellen Sie das vollständige gemeinsame audiovisuelle Denoising für beide Modalitäten in den abschließenden Schritten wieder her, um modalübergreifende Drift zu beseitigen und die audiovisuelle Synchronisation zu fixieren.\n\nVermeiden Sie das Zwischenspeichern von Video-Denoiser-Ausgaben über Zwischenschritte hinweg, da Videorepräsentationen nicht die asymmetrische Wiederherstellbarkeit von Audio besitzen und irreversible zeitliche Unschärfe sowie Bewegungsdegradation erleiden.\n\nSorgen Sie für ein ausreichendes Fenster abschließender gemeinsamer Denoising-Schritte am Ende des Sampling-Verlaufs, damit Audioqualität und präzise zeitliche Ausrichtung zur Videodynamik gewährleistet sind.",
+ "source_sha256": "5895891a9df8d23a437ed507d035e73099c35d4db081ce4b2e6710f2767c36cd",
+ "summary": "Der Benchmark im Preprint 2610.30854 meldet über öffentliche Benchmarks hinweg eine reale Laufzeitbeschleunigung um den Faktor 1.10x bis 1.35x bei modalitätsasymmetrischem Caching, bei Erhalt der Audioqualität und der modalübergreifenden Synchronisation.",
+ "title": "CAVC zeigt eine Inferenzbeschleunigung um 1.10-1.35x bei der audiovisuellen Generierung",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

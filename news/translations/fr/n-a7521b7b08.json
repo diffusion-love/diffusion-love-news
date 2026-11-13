@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet est passé du document de recherche « BachVid » (2025) à un lancement industriel complet en mai 2026. Il s'est depuis stabilisé comme un outil cinématographique haut de gamme, doté d'un mode « Montage Mode » multi-plans et d'un rendu natif en 1080p.",
+ "id": "n-a7521b7b08",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Fondé par l'ancien scientifique de Tencent, le Dr Wei Liu ; il se classe actuellement 6e au niveau mondial sur le benchmark Artificial Analysis Video Arena.",
+ "source_sha256": "ae061c1914995178956a2bf37fcea0208c8adee2a90b1d8a4fd333ee05b2cc80",
+ "summary": "BACH est un moteur de génération vidéo de niveau industriel axé sur la stabilité des personnages et le contrôle de la mise en scène. Il permet de générer, à partir d'un seul prompt textuel, des films multi-plans de 30 secondes avec audio synchronisé.",
+ "title": "BACH 1.0 : génération vidéo IA multi-plans",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

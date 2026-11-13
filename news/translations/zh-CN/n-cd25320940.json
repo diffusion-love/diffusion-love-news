@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "继 Wav2Lip 的学术成功之后，Sync Labs 于 2024 年发布了 Lipsync-2，并于 2026 年 4 月发布了旗舰版 Sync-3。最新版本具备原生 4K 超分辨率、遮挡检测和全局场景理解模型。",
+ "id": "n-cd25320940",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "由 Wav2Lip 原作者开发；提供官方 Adobe Premiere Pro 集成，以及支持 95 种以上语言的企业级 API。",
+ "source_sha256": "c32d6e3de88465f40ffbaf7c3b125279f7b750e02f22ceb6e50b141157c61b1b",
+ "summary": "一款 16B 参数的 AI 模型，专为高保真视频口型同步设计，支持 4K 输出并保留情绪表现。它采用零样本架构，可将任意音频与任意人脸同步，包括侧脸镜头和被遮挡的画面。",
+ "title": "Sync-3：Sync Labs 的专业级 AI 口型同步",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

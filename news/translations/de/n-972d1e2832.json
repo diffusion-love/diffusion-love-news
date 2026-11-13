@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Das Projekt führte ein Zwei-Modell-System ein: Ein schnelles Interaktionsmodell übernimmt die Live-Konversation, während ein asynchrones Hintergrundmodell komplexes Reasoning verarbeitet; derzeit in der Forschungsvorschau für Partner.",
+ "id": "n-972d1e2832",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Gegründet von Mira Murati und Soumith Chintala; das Modell TML-Interaction-Small nutzt eine Mixture-of-Experts-Architektur mit 276 Milliarden Parametern.",
+ "source_sha256": "f8c33d85891a09cb6d3efda7664aa552aaa2b0ab1e6dd03bc6c12214f7db717a",
+ "summary": "Eine neue Klasse von KI-Systemen von Thinking Machines Lab, die für native, multimodale Interaktion in Echtzeit konzipiert ist. Mit einer Micro-Turn-Architektur verarbeiten die Modelle Audio, Video und Text in Blöcken von 200 Millisekunden und ermöglichen gleichzeitige Wahrnehmung und Reaktion.",
+ "title": "TML Interaction Models: multimodale KI in Echtzeit",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

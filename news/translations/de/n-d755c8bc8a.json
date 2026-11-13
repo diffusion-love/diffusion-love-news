@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Qwen3-TTS markiert den Übergang von allgemeinen Audio-Verständnismodellen wie Qwen2-Audio zu einer spezialisierten Generierungssuite. Sie umfasst die Varianten mit 0.6B und 1.7B und führt den Qwen3-TTS-Tokenizer-12Hz für bessere Kompression und emotionale Bandbreite ein.",
+ "id": "n-d755c8bc8a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Veröffentlicht unter der Apache-2.0-Lizenz; bietet Stimmgestaltung über Textprompts und eine Latenz bis zum ersten Paket von unter 100ms für Echtzeitanwendungen.",
+ "source_sha256": "f555145220b88e1fbe629c297f9c542e39422d1a5c65b081e584dae5fe991dc1",
+ "summary": "Eine spezialisierte Text-to-Speech-Suite von Alibaba Qwen, die Zero-Shot-Stimmklonierung anhand von Samples von 3 Sekunden und Stimmgestaltung in natürlicher Sprache unterstützt. Sie nutzt eine hybride Dual-Track-Streaming-Architektur, um extrem niedrige Latenz und hochwertige Prosodie in 10 Sprachen zu erreichen.",
+ "title": "Qwen3-TTS: fortgeschrittene Zero-Shot-Sprachsynthese",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

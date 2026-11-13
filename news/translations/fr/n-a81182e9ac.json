@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Publié en avril 2026 comme successeur d'Opus 4.6, ce modèle a introduit le niveau d'effort de raisonnement « xhigh » et atteint 64.3% sur SWE-bench Pro. Il sert actuellement de modèle phare en disponibilité générale, pendant que le modèle de frontière restreint « Claude Mythos » fait l'objet de vérifications de sécurité.",
+ "id": "n-a81182e9ac",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Offre une résolution de vision 3 fois supérieure et est optimisé pour les workflows d'ingénierie délégués via Claude Code.",
+ "source_sha256": "be2ca92260082991a22a11c8c17562355936770df4b309a85febe33bcb6166b4",
+ "summary": "Claude Opus 4.7 est le modèle phare le plus avancé d'Anthropic, conçu pour le raisonnement de haut niveau et l'ingénierie logicielle autonome. Il est disponible en général via l'API et les principaux fournisseurs cloud, avec des modes de réflexion adaptatifs pour la résolution de problèmes complexes.",
+ "title": "Claude Opus 4.7 : le modèle phare d'Anthropic pour le code et le raisonnement",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Ursprünglich auf 3D-Clifford-Rotoren basierend, erweiterte sich das Projekt um IsoQuant (4D) und die stark optimierte Variante PlanarQuant (2D). Es umfasst nun fusionierte CUDA- und Metal-Kernel und wurde als 3-Bit-Cache-Kompressionslösung ohne Anpassungen in llama.cpp integriert.",
+ "id": "n-553243c913",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Übertrifft Googles TurboQuant mit einer 44x geringeren Parameterzahl und bis zu 5x schnelleren Prefill-Geschwindigkeiten bei gleichzeitig höherer Ausgabequalität.",
+ "source_sha256": "0bb0f438f30434afaa5a6a697fcda39c146eb94526b8edb94063090ccdaf3dc3",
+ "summary": "Ein Open-Source-Projekt für hocheffiziente KV-Cache-Kompression von LLMs mit Clifford-Algebra-Rotoren. Es erreicht extreme Quantisierung unter 4 Bit bei deutlich geringerem Rechenaufwand und besserer Perplexität als dichte orthogonale Transformationsverfahren.",
+ "title": "RotorQuant: blockdiagonale Clifford-Rotor-KV-Cache-Kompression",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

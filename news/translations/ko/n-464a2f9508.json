@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 초 Anuttacon이 도입한 LPM 1.0은 표현력, 실시간 속도, 안정성이라는 트릴레마를 해결하며 '성능' 분야에서 새로운 벤치마크를 세웠습니다. 2026년 5월 기준 모델 가중치는 공개되지 않은 채, 디지털 휴먼 상호작용에 초점을 둔 연구 프로젝트로 남아 있습니다.",
+ "id": "n-464a2f9508",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "miHoYo 공동 창업자 Cai Haoyu가 설립한 AI 스타트업 Anuttacon이 개발했습니다. 이 프로젝트는 캐릭터 연기 품질을 측정하기 위해 LPM-Bench를 도입했습니다.",
+ "source_sha256": "60d6d120c556be928122fbd24b8db17f277588e18ca845c316a5a46d23a7389f",
+ "summary": "전이중(full-duplex) 기능을 갖춘 실시간 인터랙티브 디지털 캐릭터 연기를 위해 설계된 17B 파라미터 Diffusion Transformer입니다. 장시간 대화 세션 동안 저지연으로 표현력 있는 미세 표정과 안정적인 정체성 보존을 가능하게 합니다.",
+ "title": "Large Performance Model LPM 1.0 인터랙티브 비디오",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

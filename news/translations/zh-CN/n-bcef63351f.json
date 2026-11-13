@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目最初是对 Z-Image 的完整微调，后来演进出用于快速生成的 4 步和 8 步蒸馏版本。近期更新新增了 GGUF 量化版本、适用于 8GB 显存显卡的 FP8 支持，以及用于简化在 ComfyUI 和本地应用中使用的“All-In-One”（AIO）safetensors。",
+ "id": "n-bcef63351f",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "具有 6B 参数和 S3-DiT 架构；包含专用的 ComfyUI 工作流，并支持 Engineer V4 文本编码器，以提高输出多样性。",
+ "source_sha256": "c208a6c52f6a8bb60b578f6676ae29bc6ab172fc0089bba21b585c7b759eb285",
+ "summary": "Z-Anime 是一款专用图像生成模型，基于阿里巴巴 Z-Image（S3-DiT）架构微调而来，拥有 60 亿参数。它能够生成高质量的动漫风格画面，并同时支持传统的标签式提示和自然语言描述式提示。",
+ "title": "Z-Anime：S3-DiT 6B 高保真动漫生成模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

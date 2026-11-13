@@ -1,0 +1,11 @@
+{
+ "id": "n-046d02af9f",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona la extensión en ComfyUI/custom_nodes e instala sus requisitos usando el entorno de Python que ejecuta ComfyUI.\n\nDescarga los archivos ONNX del codificador y del decodificador desde el repositorio de modelos enlazado por el mantenedor, incluidos los archivos .data que se proporcionen. Colócalos en ComfyUI/models/vae.\n\nCompila los motores con MiniMax-H3 TRT VAE Compiler y luego cárgalos con MiniMax-H3 TRT VAE Loader.\n\nPor debajo de 12GB de VRAM, el mantenedor sugiere el decodificador w4a16_awq. Tómalo como una recomendación del autor, no como una garantía de que el flujo de vídeo completo quepa en tu GPU.\n\nCompara el mismo latente a tu resolución objetivo y mide la decodificación del VAE por separado del tiempo total de generación. La prueba independiente encontró una ganancia mucho menor a 768p que a 2.0MP.",
+ "source_sha256": "16f5d69ecd955fd252764766409e13166cda7e6b683c5a69cd7a5b36e338199c",
+ "summary": "ComfyUI-H3VAE_TRT añade una ruta de TensorRT de terceros para la codificación y decodificación del VAE de MiniMax-H3. Su mantenedor informa de mejoras de velocidad de hasta 1.7x en esa etapa, no en la generación completa de vídeo. El paquete de nodos es independiente de ComfyUI core y del modelo MiniMax-H3.",
+ "title": "Nodos VAE de TensorRT para flujos de trabajo MiniMax-H3 en ComfyUI",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

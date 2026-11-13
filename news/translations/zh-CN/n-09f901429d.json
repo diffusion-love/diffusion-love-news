@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "继 Stream-R1 发布之后，FrameX-AI 推出了 Stream-T1，这是一个专注于测试时缩放（TTS）的专门框架，可在不重新训练基础权重的情况下提升时间一致性并改善复杂运动处理。",
+ "id": "n-09f901429d",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在保持较高 VBench 分数的同时，相比原始 Wan2.1 实现了 30x 加速；由 FrameX-AI 与中国科学技术大学（USTC）合作开发。",
+ "source_sha256": "b90b32044585775326322f494094d6be1af187ff1162ade5a97414b6f0ae4401",
+ "summary": "Stream-R1 是从 Wan2.1 蒸馏而来的加速视频生成模型，可实现 23.1 FPS 的实时性能。它利用奖励引导的分布匹配蒸馏（DMD），在视觉质量和文本对齐方面超越了其教师模型。",
+ "title": "Stream-R1：实时奖励引导的视频蒸馏",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

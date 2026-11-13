@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该模型于 2026 年 4 月以匿名身份作为全球排行榜上的顶尖模型首次亮相，随后被揭示为阿里巴巴项目，并于 2026 年 5 月全面商业化上线。",
+ "id": "n-6562acabdd",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "采用统一的单流 Transformer 架构；原生支持超过 7 种语言的口型同步，包括英语、普通话和日语。",
+ "source_sha256": "1b40c12b9995c2c0e84c327f2cf9781065ba6c1a4bb0402845a3ebe26b22b5d4",
+ "summary": "阿里巴巴推出的 15-billion 参数多模态模型，可同时生成高质量视频和同步音频。它具备音素级口型同步功能，并以 1080p 分辨率为面向生产的内容进行了优化。",
+ "title": "Happy Horse 1.0：统一视频与音频生成模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

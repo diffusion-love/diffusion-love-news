@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "TRELLIS.2 folgte auf die ursprüngliche Version mit 2B Parametern und führte Omni-Voxels (O-Voxels) sowie vollständige Unterstützung für Physically Based Rendering (PBR) ein. Es erweiterte die Auflösungsmöglichkeiten und verbesserte die geometrische Genauigkeit für nicht-mannigfaltige Oberflächen.",
+ "id": "n-d7c3a5e60e",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Das Repository shivampkumar/trellis-mac portiert das Modell mit dem MPS-Backend auf Apple Silicon; einige CUDA-spezifische Funktionen wie das Baking von Texturen sind dabei eingeschränkt.",
+ "source_sha256": "1f34ba4a9e016de61ca71ffa9dff40e0e4c5f1d4c366e1720361d6d9808cec4b",
+ "summary": "Ein Basismodell mit 4B Parametern zur Erzeugung detaillierter 3D-Assets mit PBR-Materialien aus Bildern oder Text. Es nutzt eine Omni-Voxel-Repräsentation, um beliebige Topologien und komplexe Oberflächengeometrien zu verarbeiten.",
+ "title": "TRELLIS.2: hochwertige 3D-Generierung auf dem Mac",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

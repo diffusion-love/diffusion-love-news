@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "Die offizielle Veröffentlichungslinie hat v0.1.8 erreicht; die aktuelle Anleitung hält Base/SFT mit 50-Schritt-CFG, Turbo mit acht Schritten ohne CFG und die Hardwaregrenzen für XL getrennt.",
+ "id": "n-851c72bbf5",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "a1eeed3bc9e74984f60d8cc130ef350015c2dd128cb8951c73390bbcada3d638",
+ "summary": "Die offizielle Veröffentlichungslinie hat v0.1.8 erreicht; die aktuelle Anleitung hält Base/SFT mit 50-Schritt-CFG, Turbo mit acht Schritten ohne CFG und die Hardwaregrenzen für XL getrennt.",
+ "title": "ACE-Step 1.5 erreicht v0.1.8 mit artefaktspezifischen GPU-Hinweisen",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

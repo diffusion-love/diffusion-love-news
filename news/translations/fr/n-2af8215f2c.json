@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet est passé d'un outil de suppression des artefacts fantômes (deghosting) de 2023 à un framework complet de diffusion vidéo début 2026. La version actuelle utilise un mappage colorimétrique Log-Gamma et des priors vidéo pour restaurer la radiance perdue des contenus historiques en 8 bits.",
+ "id": "n-2af8215f2c",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "La mise à jour 2026 est signalée pour ses fortes exigences de calcul, nécessitant généralement des GPU de classe A100 pour un traitement efficace.",
+ "source_sha256": "70bbcec885a7bead5dd9454c2cfd4d02ab3290b3c407fa107bc3d59cc67b810b",
+ "summary": "Un framework de conversion de vidéos LDR 8 bits en séquences HDR 32 bits par inpainting de radiance génératif. Il s'appuie sur des modèles de diffusion vidéo pré-entraînés pour halluciner des hautes lumières réalistes tout en maintenant une cohérence temporelle stricte.",
+ "title": "DiffHDR : diffusion vidéo génératives LDR vers HDR",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

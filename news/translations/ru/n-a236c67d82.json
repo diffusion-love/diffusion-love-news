@@ -1,11 +1,12 @@
 {
+ "evolution_summary": "Проект развился от порта только для CPU в зрелую экосистему с поддержкой CUDA, Metal и Vulkan. Недавние обновления добавили квантизацию GGUF, интеграцию VST3 для DAW и «Understand Mode» для анализа аудио в метаданные.",
  "id": "n-a236c67d82",
  "lang": "ru",
- "model": "legacy-web-overlay",
- "research_notes": "Использует двухстадийный пайплайн из ace-lm для композиции и ace-synth для рендеринга на основе диффузии.",
- "source_sha256": "legacy",
- "summary": "Лёгкая переносимая C++ реализация музыкальной foundation-модели ACE-Step 1.5 на бэкенде GGML. Она позволяет генерировать качественную стереомузыку 48kHz без зависимостей от Python на пользовательских CPU и GPU.",
- "title": "C++ порт ACE-Step 1.5 (acestep.cpp)",
- "translated_at": null,
+ "model": "claude-haiku-5-5",
+ "research_notes": "Использует двухэтапный конвейер: ace-lm для композиции и ace-synth для рендеринга на основе диффузии.",
+ "source_sha256": "8c6a6bf6c523f512bf0ba740975e0a3eb4530d2423f38756ee4281d53df0b266",
+ "summary": "Лёгкая переносимая реализация фундаментальной музыкальной модели ACE-Step 1.5 на C++ на основе бэкенда GGML. Обеспечивает высококачественную генерацию стереомузыки с частотой 48kHz без зависимостей от Python на потребительских CPU и GPU.",
+ "title": "Порт ACE-Step 1.5 на C++ (acestep.cpp)",
+ "translated_at": "2026-11-13",
  "translation": "machine"
 }

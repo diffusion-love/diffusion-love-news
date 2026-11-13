@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "ERNIE 5.0의 뒤를 잇으며, 대규모 파라미터 수(2.4T)에서 Once-For-All 프레임워크를 통한 더 효율적인 800B 아키텍처로 전환했습니다. 새로운 비동기 강화 학습 파이프라인과 강화된 4단계 사후 학습을 특징으로 합니다.",
+ "id": "n-5e92efec32",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Arena Search에서 전 세계 4위, 중국 모델 중 1위를 기록했습니다. 하드웨어 제약과 미국 칩 수출 통제 하에서 성능을 최적화하도록 설계되었습니다.",
+ "source_sha256": "ee312f0c40024353fc8eddd2cf4a9823916d078ce566929f35679b0037eca625",
+ "summary": "Baidu의 2026년 5월 출시 최신 플래그십 모델로, 높은 파라미터 효율성과 에이전트 추론에 중점을 둡니다. 현재 전 세계에서 가장 높은 순위의 중국 모델이며, 훨씬 낮은 학습 비용으로 최전선 수준의 성능을 달성합니다.",
+ "title": "Baidu ERNIE 5.1 대규모 언어 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

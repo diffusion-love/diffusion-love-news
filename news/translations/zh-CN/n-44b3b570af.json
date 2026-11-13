@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目已被 SIGGRAPH 2026 接收，并于 2026 年 5 月发布了官方源代码、预训练模型以及全面的 MA-Data 数据集。",
+ "id": "n-44b3b570af",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "采用 BiMamba-Transformer 混合架构以保证时间稳定性，并能处理超出训练窗口的长时长合成（30s+）。",
+ "source_sha256": "5be5f3cedf86d51a4c02b5dad4a401a0cbd543c2910a7c76c68148ea92e833cc",
+ "summary": "一个以音乐驱动舞蹈视频生成的框架，采用级联混合专家方法，将动作合成与外观渲染解耦。它在长序列生成方面达到最先进水平，并支持对角色动作进行零样本编辑。",
+ "title": "MACE-Dance：面向舞蹈生成的动作-外观级联专家模型",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

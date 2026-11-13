@@ -1,0 +1,11 @@
+{
+ "id": "n-183de9a149",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "通过 Kimi 网页应用、Kimi Work 或 Kimi Code 以交互方式访问该模型。\n\n通过 Moonshot Open Platform API 调用 kimi-k3.1-pro 模型端点进行标准推理，价格为每百万词元输入 2 美元、输出 10 美元。\n\n若工作负载需要快 2 到 3 倍的生成速度并以加倍的词元速率计费，请选择 Highspeed API 变体。\n\n利用 1M 词元上下文窗口，可在单个会话中输入整个多文件代码库以及复杂的 CAD/3D 资产配置。\n\n在请求 Unreal Engine、Unity、Godot 或 Three.js 程序化生成时，请明确指定相应的引擎和脚本约定。\n\n将高吞吐、对延迟敏感的交互任务路由到 Highspeed 端点，同时将复杂的离线推理保留在标准档位，以控制推理成本。",
+ "source_sha256": "b43762b225895c3369f29fc510b3c4daf1587d1acb0c2534f90eabdd20b0dc74",
+ "summary": "Moonshot 在 Kimi、Kimi Work 和 Kimi Code 中推出了 Kimi K3.1 Pro，这是一次经过 RL 扩展的训练后更新。",
+ "title": "Kimi K3.1 Pro 作为训练后优化发布，并提供 Highspeed 选项",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

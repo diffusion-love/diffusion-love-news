@@ -1,0 +1,11 @@
+{
+ "id": "n-12dc9deafa",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Laden Sie die Modellgewichte aus dem Repository InternScience/Sage-A1.5 auf Hugging Face oder ModelScope herunter.\n\nStellen Sie das Modell mit vLLM oder SGLang bereit, wobei die Standardkonfiguration der Qwen-MoE-Architektur verwendet wird, um einen OpenAI-kompatiblen API-Endpunkt bereitzustellen.\n\nAktivieren Sie in der Laufzeit für die Agentenausführung das Starten von Subagenten, damit das Modell Teilaufgaben in isolierten Kontexten parallelisieren kann.\n\nAktivieren Sie die native Verifikation in den Generierungsparametern oder im System-Prompt, damit das Modell bei komplexen Verläufen Selbstprüfung und Fehlerbehebung durchführt.\n\nVerwenden Sie isolierte Subagent-Kontexte für parallele Untersuchungszweige, damit der Root-Agent nicht durch zwischenzeitliche, verrauschte Tool-Ausgaben abgelenkt wird.\n\nWenden Sie YaRN-Kontextskalierungsparameter an, wenn Repositories oder wissenschaftliche Literaturbestände verarbeitet werden, die das native Kontextfenster von 256K Tokens überschreiten.\n\nSetzen Sie SGLang oder vLLM mit FP8/INT4-Quantisierungen ein, um den Speicherbedarf zu senken und dabei die Effizienz des MoE-Routings zu erhalten.",
+ "source_sha256": "e0e10c4bf346a316e00eb054592c490ba167c4fdc660d48dc0cc8f761b271573",
+ "summary": "Shanghai AI Lab hat Sage-A1.5 veröffentlicht, ein unter der Apache-2.0-Lizenz stehendes Mixture-of-Experts-Modell mit 35B Parametern, das pro Token 3B Parameter aktiviert. Es basiert auf Qwen3.6-35B-A3B und bietet native Orchestrierung paralleler Subagenten sowie Serving-Unterstützung für SGLang und vLLM.",
+ "title": "Shanghai AI Lab veröffentlicht das Open-Weight-Agentenmodell Sage-A1.5",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

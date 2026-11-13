@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "在 Qwen 3.5 系列的基础上，3.6 Plus 版本引入了常开推理、65K 输出 token 上限，并在 SWE-bench 等编码基准上的表现显著提升。",
+ "id": "n-6a60e32785",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 SWE-bench Verified 上取得 78.8 分；目前以约每 1M 输入 token $0.50 的颠覆性价格用于生产环境。",
+ "source_sha256": "a15e5fef7609afb207462af5b0d1e8ea002ef33e2f18b5dc5eae4ae5b1fbe03f",
+ "summary": "Qwen 3.6 Plus 是阿里巴巴推出的多模态大语言模型，专为自主智能体工作流和代码仓库级软件工程进行了优化。它默认提供 1-million token 上下文窗口，并采用新一代混合架构以实现高速推理。",
+ "title": "Qwen 3.6 Plus",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

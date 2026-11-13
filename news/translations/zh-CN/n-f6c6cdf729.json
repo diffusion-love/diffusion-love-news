@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "该项目从基础投影节点发展为完整的3D场景编辑套件。重要更新引入了交互式Three.js查看器、用于生成可用于ControlNet骨架的可摆姿IK人体模型（Character Placer），以及与Wan2.1等视频模型的集成，以实现相机路径动画。",
+ "id": "n-f6c6cdf729",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "包括对360°等距柱状全景图的专门支持，以及在迭代修复过程中保持环境一致性的“Stamping”节点。",
+ "source_sha256": "09ef9b5a0d739b2e342da08430bd6eccf0649ae187d6819c6417af20cf3beb56",
+ "summary": "一款ComfyUI扩展，用于在3D重建场景中实现6自由度（6 Degrees of Freedom）相机运动与角色放置。它将深度感知重投影与基于Three.js的交互式场景搭建相结合，实现精确的视图合成和角色插入。",
+ "title": "ComfyUI 6DOF相机——3D场景操控与角色搭建",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

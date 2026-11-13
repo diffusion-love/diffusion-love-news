@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "作为腾讯的一项战略性“90 天重置”推出，从稠密架构转向 21B 激活参数的 MoE 结构。它引入了可配置的“快思考与慢思考”推理模式，并在生产环境中取代了较早的 Hunyuan-Pro 模型。",
+ "id": "n-0841776bd9",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 SWE-bench Verified 上达到 74.4%；已集成至腾讯 Yuanbao 助手及微信生态，与 Hy2 相比，推理成本显著降低。",
+ "source_sha256": "5ebc3d9039e676700ca07ddd40c59fc7dfd2f13b7b82b3798ed9210bb24a793c",
+ "summary": "腾讯推出的 295B 参数混合专家（MoE）大语言模型，专为高效推理设计。它具有 256K 上下文窗口，并针对多步骤智能体工作流和复杂工具调用进行了优化。",
+ "title": "Hunyuan3 Preview（Hy3-preview）",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

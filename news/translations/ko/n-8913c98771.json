@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Sulphur 2는 LTX-2.3에서 파생된 베이스 체크포인트로 게시되었습니다.",
+ "id": "n-8913c98771",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "SulphurAI 모델 카드는 Sulphur-2-base를 LTX-2.3에서 파생된 체크포인트로 명시합니다.",
+ "source_sha256": "985b5ed8dd0a9df255853cd246f7aa2a3a1b5bdad1398a7aa8d1cae6236d6819",
+ "summary": "Sulphur 2는 SulphurAI가 공개한 비디오 모델 체크포인트입니다.",
+ "title": "Sulphur 2 비디오 생성 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

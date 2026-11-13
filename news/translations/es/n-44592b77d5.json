@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "A mediados de 2026, el proyecto es un Highlight de CVPR 2026. Meta ha publicado el código y un «checkpoint fundacional» en el que algunas capas del backbone se reinicializan aleatoriamente por motivos de política, por lo que los usuarios necesitan una breve pasada de fine-tuning para alcanzar el rendimiento completo.",
+ "id": "n-44592b77d5",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Opera íntegramente en el espacio de píxeles sin una etapa latente; demuestra que el entrenamiento a gran escala a nivel de píxel puede superar a los modelos que dependen de codificadores preentrenados en tareas de grano fino.",
+ "source_sha256": "06db3ad1f244d9f638518588acad5a1f977c88ed00206387c12f6d1559a8afa5",
+ "summary": "Un modelo multimodal unificado nativo de Meta AI que realiza tanto la comprensión como la generación visual directamente a partir de píxeles en bruto. Sustituye los codificadores visuales tradicionales, como CLIP o los VAE, por una única arquitectura transformer con embeddings de parches directos y flujo rectificado.",
+ "title": "Tuna-2: los embeddings de píxeles superan a los codificadores visuales",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}
