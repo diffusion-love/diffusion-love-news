@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "CVPR 2026에 공식 채택된 DisCa는 2026년 5월부터 HunyuanVideo-1.5 생태계에 완전히 통합되었습니다. 이전 Tencent 연구(TaylorSeer, ToCa, DuCa)에서 발전하여, 휴리스틱 기반 캐싱에서 학습 가능한 신경 예측기 아키텍처로 전환했습니다.",
+ "id": "n-348f0ce004",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "프레임 간 지터를 제거하기 위해 Restricted MeanFlow 증류 방식을 도입했으며, 고해상도 Image-to-Video 및 Text-to-Video 워크플로에 특화되어 최적화되어 있습니다.",
+ "source_sha256": "cc914df8627fef55fed736446040f1d11f80936846e82234f634b28c9efcd499",
+ "summary": "학습 가능한 feature 캐싱과 step 증류를 비디오 디퓨전 Transformer를 위해 통합한 Tencent 개발 추론 가속 프레임워크입니다. 거의 무손실인 11.8배 속도 향상을 달성하여 소비자 하드웨어에서도 고충실도 비디오 생성을 가능하게 합니다.",
+ "title": "DisCa: 증류 호환 학습형 feature 캐싱",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

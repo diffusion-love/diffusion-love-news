@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Qwen-Image 1.0 시리즈의 후속작으로 출시되었으며, 20B MMDiT 아키텍처에서 더 효율적인 통합 7B 'omni' 모델로 전환했습니다. 생성과 편집 기능을 통합했고 1,000 토큰 장문 프롬프트를 지원하도록 했습니다.",
+ "id": "n-86ce44c208",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "영어와 중국어 모두에서 정밀한 텍스트 렌더링의 업계 선도자로 널리 평가받습니다. AI Arena ELO 리더보드에서 꾸준히 상위 10위 안에 듭니다.",
+ "source_sha256": "97b1c9939c0eaee1ca2749c0ca9531f02833610ec2f281dbace0d048532f7d66",
+ "summary": "Alibaba의 전문가급 멀티모달 파운데이션 모델로, 이미지 생성과 편집을 통합합니다. 2026년 2월에 출시되었으며, 네이티브 2K 해상도 출력과 복잡한 이중 언어 타이포그래피에 뛰어나고, 기술적 정확도에서 종종 최상위 모델로 평가됩니다.",
+ "title": "Qwen-Image-2.0-Pro",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

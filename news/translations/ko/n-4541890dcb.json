@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "검증된 저장소 리비전은 최대 8개의 참조, 마스크, 명시적인 중립 pass-through 제어를 지원하는 확장된 Klein 9B 중심 워크플로를 제공합니다. 효과는 독립적으로 벤치마크되지 않았습니다.",
+ "id": "n-4541890dcb",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "c62bf4e842ca2b506083ddb692392b69827e813bad861276005b96bc80eaa777",
+ "summary": "검증된 저장소 리비전은 최대 8개의 참조, 마스크, 명시적인 중립 pass-through 제어를 지원하는 확장된 Klein 9B 중심 워크플로를 제공합니다. 효과는 독립적으로 벤치마크되지 않았습니다.",
+ "title": "Flux2Klein Enhancer, 확장된 다중 참조 구현 적용",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

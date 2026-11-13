@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Waypoint-1보다 100배 큰 학습 규모로 발전했으며, 로컬 GPU 가속을 위한 Biome 런타임과 다양한 하드웨어를 위한 최적화된 티어를 도입했습니다.",
+ "id": "n-2090ac5f1b",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Apache 2.0으로 오픈소스 공개되었으며, 1인칭 조작과 실시간 환경 일관성을 지원합니다.",
+ "source_sha256": "a79d4d3ea5a3f332557256917c0bc467fd0744154da2825185934463dcbec027",
+ "summary": "Waypoint-1.5는 AI가 합성한 환경을 실시간으로 1인칭 탐험할 수 있게 하는 생성형 월드 모델입니다. 소비자용 하드웨어에서의 로컬 실행을 위해 설계되었으며, 반응성 높은 내비게이션과 높은 프레임률의 상호작용을 지원합니다.",
+ "title": "Waypoint-1.5: 실시간 인터랙티브 비디오 월드 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

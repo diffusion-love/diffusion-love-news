@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Opus 4.6의 후속작으로 2026년 4월 출시되었으며, 'xhigh' 추론 노력 수준을 도입하고 SWE-bench Pro에서 64.3%를 달성했습니다. 제한된 'Claude Mythos' 프론티어 모델이 안전성 검증을 거치는 동안 현재 정식 출시(GA) 플래그십 역할을 합니다.",
+ "id": "n-a81182e9ac",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "3배 높은 비전 해상도를 갖추고 있으며, Claude Code를 통한 위임된 엔지니어링 워크플로에 최적화되어 있습니다.",
+ "source_sha256": "be2ca92260082991a22a11c8c17562355936770df4b309a85febe33bcb6166b4",
+ "summary": "Claude Opus 4.7은 Anthropic의 가장 발전된 플래그십 모델로, 고수준 추론과 자율 소프트웨어 엔지니어링을 위해 설계되었습니다. API와 주요 클라우드 제공업체를 통해 일반 제공되며, 복잡한 문제 해결을 위한 적응형 사고 모드를 갖추고 있습니다.",
+ "title": "Claude Opus 4.7: Anthropic의 플래그십 코딩 및 추론 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 이론 논문에서 실용적인 도구 모음으로 발전했으며, 인기 있는 ComfyUI 통합(SPF-ReTime)을 갖추게 되었습니다. 주파수 인식 시간 워핑을 통해 Wan2.2 및 LTX-Video 같은 고해상도 모델을 지원하도록 업데이트되었습니다.",
+ "id": "n-b18df4c1c8",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "사용자 연구에서 SPF로 리타임한 영상에 대한 선호도가 88%로 나타났습니다. 고스팅과 갑작스러운 의미적 점프가 제거된 것이 그 이유입니다.",
+ "source_sha256": "7f4b3f682f4b57f05dd2bf8a60b541f999a79c85c9643db50373d03593418045",
+ "summary": "영상의 의미 궤적을 1D 스칼라 함수로 매핑해 부드러운 시간적 진행을 보장하는 연구 프레임워크입니다. 시간 선형화를 가능하게 하며, 생성형 영상 모델에서 흔히 나타나는 불균일한 속도와 멈춤 현상을 바로잡습니다.",
+ "title": "부드러운 AI 영상을 위한 Semantic Progress Function (SPF)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

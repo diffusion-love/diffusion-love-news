@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이 시리즈는 초기 Tenebră-30B 변형에서 2026년 4월 Llama-3.1(70B)로 전환되었고, 이번 Qwen-3-32B 버전에서 측면 사고 페르소나를 가중치에 직접 통합하는 것으로 정점에 이르렀습니다.",
+ "id": "n-73e8b27cb3",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "무검열 지능 리더보드에서 꾸준히 상위권에 오릅니다. 32K-64K 컨텍스트를 지원하며, GPT 스타일 글쓰기 패턴을 피하기 위한 독특한 'anti-slop' 학습을 특징으로 합니다.",
+ "source_sha256": "40374123f307dfeeec2abd89da6cdc0aa36b5943c054bcf2c7965cf9ea9c7351",
+ "summary": "기업형 '어시스턴트식 상투어'와 중립적인 아첨을 없애도록 설계된 창의적이고 개성이 강한 Qwen-3-32B 파인튜닝 모델입니다. 부정성 편향을 통합한 내장형 통제되지 않은 페르소나를 갖추어, 더 진정성 있고 사람 같은 창작 상호작용을 제공합니다.",
+ "title": "Assistant_Pepe_32B: 사람 중심 Qwen-3 창작 파인튜닝 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

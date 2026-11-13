@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 4월에 출시된 이 모델은 전용 Magistral 및 Devstral 2 아키텍처를 대체합니다. 2026년 5월 업데이트는 긴 컨텍스트 YaRN 파싱의 구성 버그를 해결했으며, EAGLE 변형은 추측 디코딩 지원을 추가합니다.",
+ "id": "n-8e2ceecbcb",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "이 모델은 Le Chat과 Vibe CLI 코딩 에이전트의 핵심 추론 엔진 역할을 합니다.",
+ "source_sha256": "fd8670b3c76836071e2bf1ab4ffaf6d39e5cd5d3085bf37dc573d3bf14e3f6f0",
+ "summary": "고성능 추론, 코딩, 일반 지시를 위해 설계된 128B 파라미터 밀집형 멀티모달 모델입니다. 256k 컨텍스트 창을 갖추고 있으며, 복잡한 에이전트 워크플로를 위한 단일 플래그십 엔진으로 작동합니다.",
+ "title": "Mistral Medium 3.5: 통합 128B 멀티모달 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

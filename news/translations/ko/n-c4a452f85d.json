@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이 프로젝트는 전부 Python 스크립트로 렌더링된 24트랙 앨범 ‘Interpretations’의 출시로 정점을 찍었습니다. 현재는 복잡한 마이크로톤(microtonal) 튜닝 체계와 실시간 알고리즘 생성을 지원하도록 확장되었습니다.",
+ "id": "n-c4a452f85d",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "NumPy와 표준 Python 라이브러리만으로 플럭 현악기 합성을 위한 Karplus-Strong 알고리즘을 보여 줍니다.",
+ "source_sha256": "69b449eb607f6bef39109acf6df4e27a60220e4223818be55467f3b59e11ba17",
+ "summary": "Kenneth Reitz가 만든 프레임워크로, NumPy 배열을 수학적 음악 합성을 위한 오디오 버퍼로 다룹니다. 샘플을 사용하지 않고 순수 코드 기반 작곡과 악기의 물리 모델링을 가능하게 합니다.",
+ "title": "NumPy를 신스 엔진으로 활용하는 PyTheory",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

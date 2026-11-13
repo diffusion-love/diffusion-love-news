@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "뉴스 게시물은 최대 15분 분량의 음악 분석, 설명, 구조 및 믹스 관련 질문, 악기 및 장르 인식, 다국어 가사 전사, 문화적 맥락을 다루었다고 설명했습니다.",
+ "id": "n-5f314f696f",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "fe113cc02c19a85502f3ac64664ec0a35be605a5784b2b00c50339c3546a4ce1",
+ "summary": "뉴스 게시물은 최대 15분 분량의 음악 분석, 설명, 구조 및 믹스 관련 질문, 악기 및 장르 인식, 다국어 가사 전사, 문화적 맥락을 다루었다고 설명했습니다.",
+ "title": "Music Flamingo, 장편 음악 이해를 목표로 함",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

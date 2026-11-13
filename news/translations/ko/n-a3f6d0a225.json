@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "게시된 사이트 식별자가 Happyin Knowledge Space로 변경되었습니다.",
+ "id": "n-a3f6d0a225",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "이 주장은 변경되지 않는 커밋과 해당 리비전의 원본 mkdocs.yml 모두로 뒷받침됩니다.",
+ "source_sha256": "91a9b74fd16fc378d011120b0d5642debb7d65a842045cb18d7702a99844dbac",
+ "summary": "MkDocs 구성에서 사이트 이름을 Happyin Knowledge Space로 변경했으며, 정식 사이트 URL로 https://happyin.space/ 를 지정했습니다.",
+ "title": "사이트 이름 변경: Knowledge Space에서 Happyin Knowledge Space로",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

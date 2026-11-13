@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 초 익명으로 등장한 Happy Horse는 리더보드의 미스터리에서 Alibaba AI 전략의 핵심으로 자리 잡았습니다. 네이티브 4K 생성, 멀티샷 일관성, 15B 파라미터 오픈소스 버전에 대한 로드맵을 도입했습니다.",
+ "id": "n-0588f1e672",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "오디오 토큰과 비디오 토큰을 동시에 처리하는 통합 Transformer 아키텍처를 사용합니다. 8단계 생성을 위해 DMD-2 distillation으로 높은 속도를 달성합니다.",
+ "source_sha256": "2723f86604eefa2f27ba960a3174b583c2818792ddde7fb1c9a5cc16a0660f20",
+ "summary": "Alibaba의 Future Life Lab이 만든 고성능 AI 비디오 생성기로, 단일 스트림 Transformer에서 동기화된 오디오와 시네마틱 비디오를 네이티브로 합성합니다. 뛰어난 포토리얼리즘과 립싱크 정확도 덕분에 Artificial Analysis Video Arena에서 현재 최상위 순위를 차지하고 있습니다.",
+ "title": "Happy Horse 1.0 통합 비디오 생성 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

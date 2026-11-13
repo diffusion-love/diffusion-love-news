@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 중반 기준 UniCorrn은 이전에 분리되어 있던 이미지 및 포인트 클라우드 정합 작업을 하나의 파운데이션 모델 프레임워크로 통합하는, 통합 교차 모달 매칭 분야의 현재 최첨단입니다.",
+ "id": "n-a3c0ebdd3a",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "공유 코어 가중치를 사용하면서 외관과 위치 특징을 별도로 처리하는 새로운 이중 스트림 어텐션 디코더를 도입합니다. CVPR 2026에서 발표되었습니다.",
+ "source_sha256": "31fbf2b5b4602c424d563c7474adade0cb8985c11f1853edc0a4562e0638c4f5",
+ "summary": "Adobe Research와 Northeastern University가 개발한 통합 트랜스포머 모델로, 단일 아키텍처 안에서 2D-2D, 2D-3D, 3D-3D 매칭 작업을 수행합니다. 공유 가중치와 이중 스트림 어텐션 메커니즘을 사용하여 기하학적 대응에서 최첨단 결과를 달성합니다.",
+ "title": "UniCorrn: 2D와 3D를 아우르는 통합 대응 트랜스포머",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

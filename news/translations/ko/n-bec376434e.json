@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "ICASSP 2026에 채택되어 2026년 4월 공개된 TinyMU는 높은 품질의 감독 학습과 특화된 인코더가 거대한 파라미터 규모를 대체할 수 있음을 보여 주었습니다. 이 연구는 2026년 후반 FineLAP 및 MeanAudio와 함께 세밀한 사전 학습으로 발전했습니다.",
+ "id": "n-bec376434e",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "MusicSkills-3.5M 데이터셋으로 학습되었으며, 음악 추론 벤치마크에서 MusiLingo와 Audio-Flamingo 같은 더 큰 선행 모델들을 능가합니다.",
+ "source_sha256": "1c19f65994bf545625c3383173a7c6a9cd55135e64252302a1a7e6a883dae6e1",
+ "summary": "TinyMU는 깊이 있는 음악 이해를 위해 설계된 효율적인 229M 파라미터 모델로, 주요 모델보다 35배 작으면서 SOTA 성능의 82%를 달성합니다. MATPAC++ 오디오 인코더와 MusicSkills-3.5M 데이터셋을 활용해 세밀한 음악 추론을 제공합니다.",
+ "title": "TinyMU: 음악 이해를 위한 소형 오디오-언어 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

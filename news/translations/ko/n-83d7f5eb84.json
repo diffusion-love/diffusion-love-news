@@ -1,0 +1,11 @@
+{
+ "id": "n-83d7f5eb84",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "공식 Hugging Face 저장소에서 모델 가중치 또는 양자화 변형을 직접 다운로드하십시오.\n\n메모리가 제한된 소비자 하드웨어를 위해 제공된 GGUF 파일과 함께 llama.cpp 또는 Ollama로 로컬 배포하십시오.\n\nvLLM 또는 SGLang으로 서빙하여 최대 1M 토큰의 장문 컨텍스트 요청을 지원하는 OpenAI 호환 API 엔드포인트를 제공하십시오.\n\n추론 지연 시간과 토큰 소비를 조절하기 위해 요청마다 사고 예산 매개변수(none, low 또는 high)를 설정하십시오.\n\n엣지 하드웨어나 소비자용 GPU에서 실행할 때는 4GB~8GB 이내로 메모리 사용량을 낮추기 위해 INT4 또는 GGUF 양자화 변형을 사용하십시오.\n\n간단한 대화형 및 추출형 작업에는 첫 토큰까지의 시간을 최소화하기 위해 'none' 사고 예산을 선택하고, 다단계 논리나 코드 생성에는 'high'로 전환하십시오.\n\n최대 1M 토큰의 긴 컨텍스트를 처리할 때는 KV 캐시 OOM을 막기 위해 적절한 호스트 메모리 할당과 함께 vLLM이나 SGLang 같은 페이지드 어텐션 런타임을 사용하십시오.",
+ "source_sha256": "bbd180a82c02dcbc1e60eba59f0de3441fc94135db47a52f49cc3fd63bf8cf59",
+ "summary": "Spark-X2.6-4B 릴리스에는 사후 학습된 가중치와 베이스 변형이 포함되며, SGLang과 vLLM을 통한 OpenAI 호환 로컬 서빙을 지원합니다. 소비자 하드웨어 추론을 위한 GGUF 양자화 버전도 함께 제공됩니다.",
+ "title": "Spark-X2.6-4B, vLLM과 SGLang을 통한 OpenAI 호환 서빙 지원 추가",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "n-55b3aea30b",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "7f971ba81a3da30bf06a19195afcf2105800e319534c74e3e3b44a07fa899b5d",
+ "summary": "2026-04-10, Google은 3D 모델과 차트에 관한 공식 Gemini 앱 발표를 Gemini 앱과 함께 연결했습니다. 이는 Gemini 애플리케이션 표면에서의 제품 기능 단계를 기록합니다. URL만으로는 해당 기능이 어떻게 구현되었는지, 또는 어떤 계정이 이를 받았는지 확인되지 않습니다.",
+ "title": "Gemini 앱, 3D 모델 및 차트 기능 발표",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

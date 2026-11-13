@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이 모델은 이제 P-Image 및 P-Image-Edit과 함께 Pruna Performance Suite에 통합되었으며, 최대 1080p 해상도와 실시간 API 접근을 지원합니다. 2초 미만 추론 시간을 목표로 최적화되었습니다.",
+ "id": "n-d4d07dd0bf",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "REST API와 Replicate를 통해 제공되며, 가격은 해상도에 따라 다릅니다($0.025-$0.045/sec).",
+ "source_sha256": "5a3772e698a3e7a4d9db09a5bb648915b9722cb36165ccfd53974842f2dc627f",
+ "summary": "P-Video-Avatar는 Pruna AI의 특화 서비스로, 단일 초상 사진으로부터 사실적인 토킹 헤드 애니메이션 영상을 생성합니다. 텍스트 대본과 업로드된 오디오 파일 모두에 대한 고급 립싱크 기능을 갖추고 있습니다.",
+ "title": "P-Video-Avatar: 고속 AI 토킹 헤드 애니메이션",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

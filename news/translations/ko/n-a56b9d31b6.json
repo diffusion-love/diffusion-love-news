@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 초 클라우드 기반 샌드박스로 출시된 이후, 2026년 4월 네이티브 macOS 앱으로 발전했습니다. 처음에는 $200/month Max 등급 전용이었으나, 2026년 5월에 모든 Pro 및 Enterprise 구독자로 확대되었고, 레거시 Perplexity Mac 앱은 지원이 중단되었습니다.",
+ "id": "n-a56b9d31b6",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "보편적인 '더블 Command' 단축키를 제공하며, API 없이 웹 도구와 시각적으로 상호작용하기 위해 Comet 브라우저와 깊이 통합되어 있습니다.",
+ "source_sha256": "65b91993bbc00ea414f075e633c488475fc6af1dee6a970109581a4f0a675717",
+ "summary": "로컬 파일 시스템 및 네이티브 애플리케이션과 통합되어 다단계 워크플로를 실행하는 macOS용 자율 AI 에이전트입니다. 확률적 목표 달성을 통해 파일 정리와 이메일 초안 작성 같은 작업을 수행하는 개인 오케스트레이터로 기능합니다.",
+ "title": "Mac용 Perplexity Personal Computer",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-12dc9deafa",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Hugging Face 또는 ModelScope의 InternScience/Sage-A1.5 저장소에서 모델 가중치를 다운로드하십시오.\n\n표준 Qwen MoE 아키텍처 구성을 사용하여 vLLM 또는 SGLang으로 모델을 배포하고, OpenAI 호환 API 엔드포인트를 노출하십시오.\n\n모델이 하위 작업을 격리된 컨텍스트에서 병렬로 처리할 수 있도록 에이전트 실행 런타임에서 subagent 생성을 활성화하십시오.\n\n복잡한 궤적 중에 모델이 자체 검토와 오류 복구를 수행하도록 생성 파라미터 또는 시스템 프롬프트에서 네이티브 검증을 활성화하십시오.\n\n중간의 잡음이 많은 도구 출력이 루트 에이전트를 산만하게 하지 않도록, 병렬 조사 분기에는 격리된 subagent 컨텍스트를 사용하십시오.\n\n저장소나 과학 문헌 모음을 네이티브 256K 토큰 컨텍스트 윈도우를 넘어 처리할 때는 YaRN 컨텍스트 스케일링 파라미터를 적용하십시오.\n\nSGLang 또는 vLLM의 FP8/INT4 양자화로 배포하여 MoE 라우팅 효율을 유지하면서 메모리 사용량을 줄이십시오.",
+ "source_sha256": "e0e10c4bf346a316e00eb054592c490ba167c4fdc660d48dc0cc8f761b271573",
+ "summary": "Shanghai AI Lab은 Apache 2.0 라이선스의 35B 혼합 전문가(mixture-of-experts) 모델 Sage-A1.5를 공개했습니다. 이 모델은 토큰당 3B 파라미터를 활성화하며, Qwen3.6-35B-A3B를 기반으로 하고, 네이티브 병렬 subagent 오케스트레이션과 SGLang 및 vLLM 서빙을 지원합니다.",
+ "title": "Shanghai AI Lab, 오픈 웨이트 에이전트 모델 Sage-A1.5 공개",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

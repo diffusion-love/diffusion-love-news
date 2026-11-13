@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "초기 출시 이후 이 프로젝트는 A3B-MoT Mixture-of-Experts 변형과 8단계 고속 추론 가중치를 도입했습니다. 현재는 소비자 GPU 배포를 위한 GGUF 양자화와 네이티브 에이전트 워크플로 통합을 지원합니다.",
+ "id": "n-4a638abcfe",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "SenseTime과 Light-AI가 개발했으며, 모듈형 어댑터에서 네이티브 엔드투엔드 멀티모달 지능으로의 전환을 나타냅니다.",
+ "source_sha256": "1bd2b454111db39f633a3f344c3ba45bbc0d170a9a1696ac56cf0e8116553c63",
+ "summary": "SenseTime이 제공하는 네이티브 통합 멀티모달 모델 시리즈로, 이해, 추론, 생성을 단일 엔드투엔드 아키텍처 안에 통합합니다. Mixture-of-Transformers 백본을 활용해 별도의 인코더 없이 원시 픽셀과 텍스트 토큰을 처리합니다.",
+ "title": "SenseNova-U1: NEO-unify 기반 통합 멀티모달 AI",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

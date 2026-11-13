@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "원래 Z-Image의 풀 파인튜닝으로 시작된 이 프로젝트는 빠른 생성을 위해 4단계 및 8단계 증류 버전을 포함하도록 발전했습니다. 최근 업데이트에서는 GGUF 양자화, 8GB VRAM 카드용 FP8 지원, 그리고 ComfyUI와 로컬 앱에서 간편하게 쓸 수 있는 ‘All-In-One’(AIO) safetensors가 추가되었습니다.",
+ "id": "n-bcef63351f",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "6B 파라미터와 S3-DiT 아키텍처를 갖추고 있으며, 전용 ComfyUI 워크플로를 포함합니다. 출력 다양성을 높이기 위해 Engineer V4 텍스트 인코더를 지원합니다.",
+ "source_sha256": "c208a6c52f6a8bb60b578f6676ae29bc6ab172fc0089bba21b585c7b759eb285",
+ "summary": "Z-Anime는 알리바바의 Z-Image(S3-DiT) 아키텍처를 기반으로 6B 파라미터 규모로 미세 조정된 특화 이미지 생성 모델입니다. 전통적인 태그 기반 프롬프트와 자연어 설명형 프롬프트를 모두 지원하며, 고품질 애니메이션 미학을 구현합니다.",
+ "title": "Z-Anime: S3-DiT 6B 고충실도 애니메이션 생성 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

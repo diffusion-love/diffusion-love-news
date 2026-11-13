@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 4월 2일 공개되며 Apache 2.0 라이선스로 전환되었습니다. 2026년 5월, Google은 모든 크기에 대해 Multi-Token Prediction(MTP) 드래프터 모델을 추가해 추론 속도를 3배 높였습니다. 이 제품군은 이제 시스템 수준의 프라이버시 중심 기능을 위해 Android AICore에 네이티브로 통합되었습니다.",
+ "id": "n-c7bfff5d31",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "내부 Chain-of-Thought를 위한 ‘Thinking’ 모드를 도입했으며, 모든 모델 크기에서 텍스트, 이미지, 비디오, 오디오 입력을 네이티브로 지원합니다.",
+ "source_sha256": "00f08241f46f5db9ca30412b80ece104359f9a50047404d43720111128e403c0",
+ "summary": "Gemma 4는 2B에서 31B 파라미터에 이르는 네이티브 멀티모달 오픈 모델 시리즈로, 온디바이스 실행과 고처리량 에이전트 워크플로에 최적화되어 있습니다. 복잡한 추론을 위해 켜고 끌 수 있는 thinking 모드를 갖추고 있으며, 완전히 공개된 Apache 2.0 라이선스로 배포됩니다.",
+ "title": "Gemma 4: Google의 멀티모달 오픈 모델 패밀리",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-046d02af9f",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "확장 프로그램을 ComfyUI/custom_nodes에 클론하고, ComfyUI를 실행하는 Python 환경을 사용해 requirements를 설치하십시오.\n\n관리자가 연결한 모델 저장소에서 인코더와 디코더 ONNX 파일을 내려받으십시오. 제공되는 경우 함께 제공되는 .data 파일도 포함합니다. 이 파일들을 ComfyUI/models/vae 아래에 두십시오.\n\nMiniMax-H3 TRT VAE Compiler로 엔진을 빌드한 다음, MiniMax-H3 TRT VAE Loader로 불러오십시오.\n\n12GB VRAM 미만에서는 관리자가 w4a16_awq 디코더를 권장합니다. 이는 관리자의 권장 사항일 뿐이며, 전체 비디오 워크플로가 사용자의 GPU에 들어간다는 보장은 아닙니다.\n\n목표 해상도에서 같은 latent를 비교하고, VAE 디코드 시간을 전체 생성 시간과 별도로 측정하십시오. 독립 테스트에서는 2.0MP보다 768p에서 이득이 훨씬 작았습니다.",
+ "source_sha256": "16f5d69ecd955fd252764766409e13166cda7e6b683c5a69cd7a5b36e338199c",
+ "summary": "ComfyUI-H3VAE_TRT는 MiniMax-H3 VAE 인코딩 및 디코딩을 위한 서드파티 TensorRT 경로를 추가합니다. 관리자는 이 단계에서 최대 1.7배의 속도 향상을 보고하지만, 이는 전체 비디오 생성이 아니라 해당 단계에 한정됩니다. 이 노드 팩은 ComfyUI 코어 및 MiniMax-H3 모델과 별도입니다.",
+ "title": "MiniMax-H3 워크플로를 위한 ComfyUI의 TensorRT VAE 노드",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

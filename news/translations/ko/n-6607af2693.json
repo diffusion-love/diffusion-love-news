@@ -1,0 +1,10 @@
+{
+ "id": "n-6607af2693",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "7d9b2d8109b5572bc3abcfa0257a03e8ae3f385439e5d337d71597e287baae07",
+ "summary": "2026-06-19에 TSANTSALIZE 개발 라인은 Hugging Face 저장소 링크를 기록했습니다: https://huggingface.co/TheBurgstall/tsantsalize. 이는 공개 모델 가용성의 중요한 이정표로 취급되지만, 봉인된 증거로는 모델의 버전, 기능, 출시 세부 사항이 확인되지 않습니다.",
+ "title": "TSANTSALIZE Hugging Face 모델 리소스 기록됨",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

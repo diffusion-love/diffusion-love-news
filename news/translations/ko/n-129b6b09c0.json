@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이 모델은 앞선 Qwen3.5 기반 증류 실험을 계승하며, 최신 MoE 아키텍처와 Multi-Token Prediction(MTP)을 활용해 효율을 높였습니다. 2026년 중반 현재 로컬 추론 작업에서 여전히 최고의 선택 중 하나입니다.",
+ "id": "n-129b6b09c0",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "네이티브 컨텍스트 윈도우는 262,144 토큰이며 최신 llama.cpp와 호환됩니다. 출력 손상이 보고되어 CUDA 13.2와 함께 사용하는 것은 피하십시오.",
+ "source_sha256": "b9fcc817d0b515e10a1550ce61ae9494a09e8af93289383cf0da00e78f3405b0",
+ "summary": "Qwen3.6 아키텍처를 기반으로 하며, Claude 4.6 Opus에서 증류된 추론 트레이스로 파인튜닝된 35B Mixture-of-Experts LLM입니다. 에이전트 코딩과 복잡한 문제 해결에 최적화되어 있으며, 소비자용 하드웨어에서도 높은 추론 속도를 유지합니다.",
+ "title": "Qwen3.6-35B Claude 4.6 Opus 추론 증류 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -24,6 +24,11 @@
   "title": "OmniVoice Studio: 로컬 음성 복제 및 더빙",
   "translated_at": "2026-10-24"
  },
+ "n-019c913613": {
+  "fresh": true,
+  "title": "Qwen3.6-27B-3bit-mlx",
+  "translated_at": "2026-11-13"
+ },
  "n-01b786ce9f": {
   "fresh": true,
   "title": "AlayaRenderer: AAA 게임을 위한 생성형 월드 렌더러",
@@ -49,6 +54,11 @@
   "title": "Anti-Vocale 공개 GitHub 저장소 참조",
   "translated_at": "2026-10-24"
  },
+ "n-033632d8e0": {
+  "fresh": true,
+  "title": "Kimi K3는 Kimi Code와 연관되어 있습니다",
+  "translated_at": "2026-11-13"
+ },
  "n-038f2eebc4": {
   "fresh": true,
   "title": "Video-DeepResearch 공개 프로젝트 및 소스 참조가 기록됨",
@@ -73,6 +83,11 @@
   "fresh": true,
   "title": "Qwen3.6-35B-A3B: Alibaba의 멀티모달 희소 MoE 모델",
   "translated_at": "2026-10-24"
+ },
+ "n-046d02af9f": {
+  "fresh": true,
+  "title": "MiniMax-H3 워크플로를 위한 ComfyUI의 TensorRT VAE 노드",
+  "translated_at": "2026-11-13"
  },
  "n-047f61d312": {
   "fresh": true,
@@ -104,6 +119,11 @@
   "title": "Rest2Art 프로젝트 사이트와 소스 저장소가 공유되었습니다",
   "translated_at": "2026-10-24"
  },
+ "n-0588f1e672": {
+  "fresh": true,
+  "title": "Happy Horse 1.0 통합 비디오 생성 모델",
+  "translated_at": "2026-11-13"
+ },
  "n-05ec9a95a1": {
   "fresh": true,
   "title": "Fugu-Ultra 1.1 프로젝트 참조",
@@ -123,6 +143,11 @@
   "fresh": true,
   "title": "LTX-2 Caption Tool Civitai 모델 버전 기록됨",
   "translated_at": "2026-10-24"
+ },
+ "n-0646f210ee": {
+  "fresh": true,
+  "title": "사진 스타일화를 위한 MS Paint 스타일 DALL-E 프롬프트",
+  "translated_at": "2026-11-13"
  },
  "n-0663ce9db2": {
   "fresh": true,
@@ -153,6 +178,11 @@
   "fresh": true,
   "title": "SAM-MT 공개 프로젝트 리소스 연결됨",
   "translated_at": "2026-10-24"
+ },
+ "n-0841776bd9": {
+  "fresh": true,
+  "title": "Hunyuan3 Preview (Hy3-preview)",
+  "translated_at": "2026-11-13"
  },
  "n-0852dc1008": {
   "fresh": true,
@@ -198,6 +228,11 @@
   "fresh": true,
   "title": "HyDRA: 동적 비디오 월드 모델을 위한 하이브리드 메모리",
   "translated_at": "2026-10-24"
+ },
+ "n-09f901429d": {
+  "fresh": true,
+  "title": "Stream-R1: 실시간 보상 기반 비디오 증류",
+  "translated_at": "2026-11-13"
  },
  "n-0a1838ff3d": {
   "fresh": true,
@@ -254,6 +289,11 @@
   "title": "Qwen-Image 3.0 공개 Qwen 링크 기록",
   "translated_at": "2026-10-24"
  },
+ "n-0cf9d026b8": {
+  "fresh": true,
+  "title": "SCAIL-2: 인컨텍스트 학습 기반 스튜디오급 캐릭터 애니메이션",
+  "translated_at": "2026-11-13"
+ },
  "n-0d7aed5e86": {
   "fresh": true,
   "title": "Adobe, Topaz Labs 인수 계획 발표",
@@ -273,6 +313,16 @@
   "fresh": true,
   "title": "MiniMax Music 3에 공개 프로젝트, 모델, 플랫폼, 데모, ComfyUI 진입점이 추가됨",
   "translated_at": "2026-10-24"
+ },
+ "n-0ecaaac1b0": {
+  "fresh": true,
+  "title": "MiniMax H3 Semantic Bridge, H3의 FL2VA 텍스트 경로용 어댑터 추가",
+  "translated_at": "2026-11-13"
+ },
+ "n-0f298b0d41": {
+  "fresh": true,
+  "title": "LoopX의 공개 GitHub 저장소가 연결되었습니다",
+  "translated_at": "2026-11-13"
  },
  "n-0f55e4f6a1": {
   "fresh": true,
@@ -314,6 +364,16 @@
   "title": "Rowboat: 로컬 우선 AI 에이전트이자 개인 지식 그래프",
   "translated_at": "2026-10-24"
  },
+ "n-129b6b09c0": {
+  "fresh": true,
+  "title": "Qwen3.6-35B Claude 4.6 Opus 추론 증류 모델",
+  "translated_at": "2026-11-13"
+ },
+ "n-12dc9deafa": {
+  "fresh": true,
+  "title": "Shanghai AI Lab, 오픈 웨이트 에이전트 모델 Sage-A1.5 공개",
+  "translated_at": "2026-11-13"
+ },
  "n-13290b7929": {
   "fresh": true,
   "title": "InfinityEdit 공식 프로젝트 자료가 언급됨",
@@ -353,6 +413,11 @@
   "fresh": true,
   "title": "Wan-Streamer v0.2 버전 페이지 연결됨",
   "translated_at": "2026-10-24"
+ },
+ "n-155ef8c3dc": {
+  "fresh": true,
+  "title": "Any4D: 통합 피드포워드 미터 스케일 4D 재구성",
+  "translated_at": "2026-11-13"
  },
  "n-15f28b9d26": {
   "fresh": true,
@@ -424,6 +489,11 @@
   "title": "JavisDiT: 조인트 오디오-비디오 디퓨전 트랜스포머",
   "translated_at": "2026-10-24"
  },
+ "n-183de9a149": {
+  "fresh": true,
+  "title": "Highspeed 옵션을 포함한 사후 학습 개선으로 출시된 Kimi K3.1 Pro",
+  "translated_at": "2026-11-13"
+ },
  "n-1857cf1c7a": {
   "fresh": true,
   "title": "SeFi-Image 공식 프로젝트 리소스 링크 공개",
@@ -469,6 +539,11 @@
   "title": "Inline Studio, v1.2.71 릴리스 공개",
   "translated_at": "2026-10-24"
  },
+ "n-1985ad3cff": {
+  "fresh": true,
+  "title": "OpenAI Privacy Filter: 로컬 PII 마스킹 모델",
+  "translated_at": "2026-11-13"
+ },
  "n-19adc0c7af": {
   "fresh": true,
   "title": "ByteCut Director: AI 영상 제작 워크스페이스",
@@ -503,6 +578,11 @@
   "fresh": true,
   "title": "GeoSR: VLM을 위한 기하학적 공간 추론",
   "translated_at": "2026-10-24"
+ },
+ "n-1b11977658": {
+  "fresh": true,
+  "title": "ComfyUI Hires Fix Ultra All-in-One 노드",
+  "translated_at": "2026-11-13"
  },
  "n-1b28d58410": {
   "fresh": true,
@@ -564,10 +644,25 @@
   "title": "Google, Gemini Embedding 2 공개",
   "translated_at": "2026-10-24"
  },
+ "n-1fef5a401b": {
+  "fresh": true,
+  "title": "Tencent Hunyuan UniCom",
+  "translated_at": "2026-11-13"
+ },
  "n-1fff983f43": {
   "fresh": true,
   "title": "GPT-5.5 발표",
   "translated_at": "2026-10-24"
+ },
+ "n-207ed94fbd": {
+  "fresh": true,
+  "title": "MUA: 모바일용 초정밀 애니메이션 아바타",
+  "translated_at": "2026-11-13"
+ },
+ "n-2090ac5f1b": {
+  "fresh": true,
+  "title": "Waypoint-1.5: 실시간 인터랙티브 비디오 월드 모델",
+  "translated_at": "2026-11-13"
  },
  "n-20c0bd9616": {
   "fresh": true,
@@ -689,6 +784,11 @@
   "title": "ABot-World 공개 프로젝트 리소스 공개",
   "translated_at": "2026-10-24"
  },
+ "n-269dacc1a7": {
+  "fresh": true,
+  "title": "OpenCode, GLM-5.3-Flash 임시 무료 이용 제공",
+  "translated_at": "2026-11-13"
+ },
  "n-26bc0bd267": {
   "fresh": true,
   "title": "Kura 개발 리소스 링크 추가",
@@ -749,6 +849,11 @@
   "title": "WAN Skills 공개 세부 정보를 확인할 수 없음",
   "translated_at": "2026-10-24"
  },
+ "n-2915ceca6f": {
+  "fresh": true,
+  "title": "ComfyUI-DreamScene360 — 파노라마 Gaussian Splatting과 3D 장면",
+  "translated_at": "2026-11-13"
+ },
  "n-292e34fcb3": {
   "fresh": true,
   "title": "DanceOPD 프로젝트 웹사이트 링크됨",
@@ -758,6 +863,11 @@
   "fresh": true,
   "title": "Boxer: 오픈 월드 2D-to-3D 바운딩 박스 리프팅",
   "translated_at": "2026-10-24"
+ },
+ "n-2988748edd": {
+  "fresh": true,
+  "title": "GenXR-Bench, 인터랙티브 XR 개발을 위한 코딩 에이전트 평가용으로 arXiv 공개",
+  "translated_at": "2026-11-13"
  },
  "n-29d4083d61": {
   "fresh": true,
@@ -773,6 +883,16 @@
   "fresh": true,
   "title": "OpenAI Codex CLI",
   "translated_at": "2026-10-24"
+ },
+ "n-2aa536ccdc": {
+  "fresh": true,
+  "title": "Kimi K2.6: Moonshot AI의 프런티어 에이전트 LLM",
+  "translated_at": "2026-11-13"
+ },
+ "n-2af8215f2c": {
+  "fresh": true,
+  "title": "DiffHDR: 생성형 LDR-HDR 비디오 디퓨전",
+  "translated_at": "2026-11-13"
  },
  "n-2af9b3efb0": {
   "fresh": true,
@@ -853,6 +973,11 @@
   "fresh": true,
   "title": "Video-to-World 프로젝트 자료가 공개적으로 연결됨",
   "translated_at": "2026-10-24"
+ },
+ "n-2f8c6f34f0": {
+  "fresh": true,
+  "title": "ClawEnvKit: AI 에이전트를 위한 자동 환경 생성",
+  "translated_at": "2026-11-13"
  },
  "n-2f94cbb043": {
   "fresh": true,
@@ -939,6 +1064,11 @@
   "title": "Qwen-MM-Plugins 저장소 언급",
   "translated_at": "2026-10-24"
  },
+ "n-332335c756": {
+  "fresh": true,
+  "title": "ComfyUI Wan VACE Video Joiner: 끊김 없는 전환을 위한 비디오 결합 도구",
+  "translated_at": "2026-11-13"
+ },
  "n-3347fb1328": {
   "fresh": true,
   "title": "Violin 번역 프로젝트의 공식 공개 소개",
@@ -949,10 +1079,20 @@
   "title": "OccAny 공개 프로젝트 자료 공유",
   "translated_at": "2026-10-24"
  },
+ "n-3354f12396": {
+  "fresh": true,
+  "title": "camera-comfyUI: ComfyUI용 3D 카메라 투영 노드",
+  "translated_at": "2026-11-13"
+ },
  "n-33f31b6935": {
   "fresh": true,
   "title": "MOSS-Audio-8B-Thinking",
   "translated_at": "2026-10-24"
+ },
+ "n-34034d382e": {
+  "fresh": true,
+  "title": "LTX 2.3 향상 LoRA: 시각적 충실도와 선명도",
+  "translated_at": "2026-11-13"
  },
  "n-3450949e78": {
   "fresh": true,
@@ -963,6 +1103,11 @@
   "fresh": true,
   "title": "ByteDance Video Upscaler가 Replicate를 통해 참조됨",
   "translated_at": "2026-10-24"
+ },
+ "n-348f0ce004": {
+  "fresh": true,
+  "title": "DisCa: 증류 호환 학습형 feature 캐싱",
+  "translated_at": "2026-11-13"
  },
  "n-353bab66f8": {
   "fresh": true,
@@ -1019,6 +1164,11 @@
   "title": "Qwen-Image-Edit 공개",
   "translated_at": "2026-10-24"
  },
+ "n-37e9305c06": {
+  "fresh": true,
+  "title": "1M 토큰 컨텍스트로 개발자 플랫폼에 공개된 Kimi K3.1 Pro",
+  "translated_at": "2026-11-13"
+ },
  "n-38018d5d2d": {
   "fresh": true,
   "title": "SIQ-1-35B 공개 모델과 에이전트 데모가 연결됨",
@@ -1048,6 +1198,11 @@
   "fresh": true,
   "title": "OmniDirector 프로젝트 페이지와 소스 저장소 연결됨",
   "translated_at": "2026-10-24"
+ },
+ "n-3904aeff63": {
+  "fresh": true,
+  "title": "LTX2.3-10Eros 비디오 생성 모델",
+  "translated_at": "2026-11-13"
  },
  "n-3905bae486": {
   "fresh": true,
@@ -1164,6 +1319,11 @@
   "title": "Lyria 3 Pro 프리뷰 접근 경로가 기록됨",
   "translated_at": "2026-10-24"
  },
+ "n-3fedc168df": {
+  "fresh": true,
+  "title": "SpatialEdit-16B: 세밀한 이미지 공간 편집",
+  "translated_at": "2026-11-13"
+ },
  "n-40028a6fe7": {
   "fresh": true,
   "title": "Raon-OpenTTS 소스, 모델, ComfyUI 참조 링크가 연결됨",
@@ -1224,10 +1384,20 @@
   "title": "LTX-2.3-Foley-LoRA 모델 페이지 기록됨",
   "translated_at": "2026-10-24"
  },
+ "n-44592b77d5": {
+  "fresh": true,
+  "title": "Tuna-2: 픽셀 임베딩이 비전 인코더를 능가하다",
+  "translated_at": "2026-11-13"
+ },
  "n-447fbd2c0e": {
   "fresh": true,
   "title": "arXiv 프리프린트, WorldStream 아키텍처와 영속적 월드 레코드를 상세히 기술",
   "translated_at": "2026-10-24"
+ },
+ "n-44b3b570af": {
+  "fresh": true,
+  "title": "MACE-Dance: 댄스 생성을 위한 동작-외형 계단식 전문가",
+  "translated_at": "2026-11-13"
  },
  "n-44c547a245": {
   "fresh": true,
@@ -1239,6 +1409,16 @@
   "title": "Firecrawl 스레드에 연결된 pdf-inspector 저장소",
   "translated_at": "2026-10-24"
  },
+ "n-4541890dcb": {
+  "fresh": true,
+  "title": "Flux2Klein Enhancer, 확장된 다중 참조 구현 적용",
+  "translated_at": "2026-11-13"
+ },
+ "n-45b7bbd16b": {
+  "fresh": true,
+  "title": "Krea 2의 초기 커뮤니티 도구와 모델 아티팩트 등장",
+  "translated_at": "2026-11-13"
+ },
  "n-461304d95b": {
   "fresh": true,
   "title": "ReconViaGen: 생성을 통한 정밀한 다중 시점 3D 재구성",
@@ -1248,6 +1428,11 @@
   "fresh": true,
   "title": "VocalRender 프로젝트 리소스 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-464a2f9508": {
+  "fresh": true,
+  "title": "Large Performance Model LPM 1.0 인터랙티브 비디오",
+  "translated_at": "2026-11-13"
  },
  "n-4694b833dd": {
   "fresh": true,
@@ -1304,6 +1489,16 @@
   "title": "Qwen3.8-27B-Uncensored-MLX와 연결된 Hugging Face 저장소",
   "translated_at": "2026-10-24"
  },
+ "n-49a6616381": {
+  "fresh": true,
+  "title": "BRO v14: 하드코어 스토익 엔지니어 메가 프롬프트",
+  "translated_at": "2026-11-13"
+ },
+ "n-49b64d4933": {
+  "fresh": true,
+  "title": "UniRelight: 공동 비디오 분해 및 합성 프레임워크",
+  "translated_at": "2026-11-13"
+ },
  "n-49e8a26e33": {
   "fresh": true,
   "title": "flova.ai: Seedance 2.0 기반 AI 비디오 에이전트",
@@ -1313,6 +1508,11 @@
   "fresh": true,
   "title": "Whisper-Podlodka-Turbo Hugging Face 저장소 링크 게시",
   "translated_at": "2026-10-24"
+ },
+ "n-4a638abcfe": {
+  "fresh": true,
+  "title": "SenseNova-U1: NEO-unify 기반 통합 멀티모달 AI",
+  "translated_at": "2026-11-13"
  },
  "n-4a97c79072": {
   "fresh": true,
@@ -1333,6 +1533,11 @@
   "fresh": true,
   "title": "Stripe, OpenRouter 인수 약 70억 달러 이상 규모로 논의 막바지 보도",
   "translated_at": "2026-10-24"
+ },
+ "n-4bbad7fe81": {
+  "fresh": true,
+  "title": "Ltx2.3-VBVR: LTX-Video용 시각 추론 LoRA",
+  "translated_at": "2026-11-13"
  },
  "n-4bbbd17d1b": {
   "fresh": true,
@@ -1409,6 +1614,11 @@
   "title": "EMF: 원스텝 이미지 생성 확장 (Alibaba)",
   "translated_at": "2026-10-24"
  },
+ "n-52e566a651": {
+  "fresh": true,
+  "title": "LumiVid: LTX-Video 2.3을 통한 SDR-to-HDR 비디오 생성",
+  "translated_at": "2026-11-13"
+ },
  "n-5319c89cd3": {
   "fresh": true,
   "title": "HuggingFace VFS 플러그인 소스 저장소 링크 추가",
@@ -1454,6 +1664,11 @@
   "title": "NeumaTex 프로젝트 페이지 공유",
   "translated_at": "2026-10-24"
  },
+ "n-553243c913": {
+  "fresh": true,
+  "title": "RotorQuant: 블록 대각 Clifford Rotor KV 캐시 압축",
+  "translated_at": "2026-11-13"
+ },
  "n-5540a93cb5": {
   "fresh": true,
   "title": "Seed Audio 1.0가 fal.ai 모델 페이지를 통해 참조됨",
@@ -1469,6 +1684,11 @@
   "title": "Claude Code 관련 예기치 않은 과금 사고 보도",
   "translated_at": "2026-10-24"
  },
+ "n-55b3aea30b": {
+  "fresh": true,
+  "title": "Gemini 앱, 3D 모델 및 차트 기능 발표",
+  "translated_at": "2026-11-13"
+ },
  "n-55db199d87": {
   "fresh": true,
   "title": "FlowInOne: 통합 시각 중심 다중모달 이미지 생성 및 편집",
@@ -1483,6 +1703,11 @@
   "fresh": true,
   "title": "Unsloth Desktop 출시",
   "translated_at": "2026-10-24"
+ },
+ "n-58129455d1": {
+  "fresh": true,
+  "title": "Ring-2.6-1T: 고성능 에이전트 MoE 모델",
+  "translated_at": "2026-11-13"
  },
  "n-58225bc7d0": {
   "fresh": true,
@@ -1504,10 +1729,25 @@
   "title": "CanAI, GitHub에 공개된 로컬 AI 캔버스 스튜디오",
   "translated_at": "2026-10-24"
  },
+ "n-5966d93d70": {
+  "fresh": true,
+  "title": "CAVC: 오디오-비주얼 확산을 위한 모달리티 비대칭 캐싱 프레임워크 도입",
+  "translated_at": "2026-11-13"
+ },
+ "n-596ffa06da": {
+  "fresh": true,
+  "title": "ACE-Step 1.5 XL",
+  "translated_at": "2026-11-13"
+ },
  "n-599684b34f": {
   "fresh": true,
   "title": "Google, Gemini 3.5 Live Translate 프리뷰 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-5ac53c2267": {
+  "fresh": true,
+  "title": "NVIDIA Gemma-4-31B-IT NVFP4 양자화 모델",
+  "translated_at": "2026-11-13"
  },
  "n-5ade5d658c": {
   "fresh": true,
@@ -1518,6 +1758,16 @@
   "fresh": true,
   "title": "ThinkingCap-Qwen3.6-27B 저장소와 배포 변형들이 연결되었습니다",
   "translated_at": "2026-10-24"
+ },
+ "n-5b56fca93a": {
+  "fresh": true,
+  "title": "NVIDIA Parakeet-unified-en-0.6b 통합 ASR 모델",
+  "translated_at": "2026-11-13"
+ },
+ "n-5be6e62e52": {
+  "fresh": true,
+  "title": "AnyRecon: 비디오 확산 기반 임의 시점 3D 재구성",
+  "translated_at": "2026-11-13"
  },
  "n-5cac0a3186": {
   "fresh": true,
@@ -1584,6 +1834,16 @@
   "title": "SANA-Video 코드와 가중치 공개",
   "translated_at": "2026-10-24"
  },
+ "n-5e92efec32": {
+  "fresh": true,
+  "title": "Baidu ERNIE 5.1 대규모 언어 모델",
+  "translated_at": "2026-11-13"
+ },
+ "n-5e96f46ead": {
+  "fresh": true,
+  "title": "Dynamic Band Splitting, 적응형 오디오 분리 코드와 모델 공개",
+  "translated_at": "2026-11-13"
+ },
  "n-5ee5b179bf": {
   "fresh": true,
   "title": "UniD 프로젝트 페이지와 소스 저장소가 공개적으로 연결됨",
@@ -1593,6 +1853,11 @@
   "fresh": true,
   "title": "GLM-5.2-NVFP4, NVIDIA의 Hugging Face 모델 페이지와 연결됨",
   "translated_at": "2026-10-24"
+ },
+ "n-5f314f696f": {
+  "fresh": true,
+  "title": "Music Flamingo, 장편 음악 이해를 목표로 함",
+  "translated_at": "2026-11-13"
  },
  "n-5f36799f6d": {
   "fresh": true,
@@ -1638,6 +1903,11 @@
   "fresh": true,
   "title": "LingBot-Video 공개 프로젝트 리소스가 참조되었습니다",
   "translated_at": "2026-10-24"
+ },
+ "n-6202d8d932": {
+  "fresh": true,
+  "title": "Highspeed 변형과 공개 예정 가중치를 갖춘 Kimi K3.1 Pro 출시",
+  "translated_at": "2026-11-13"
  },
  "n-625a62d5de": {
   "fresh": true,
@@ -1699,10 +1969,20 @@
   "title": "ONYX Ai Matte 프로젝트 리소스 연결됨",
   "translated_at": "2026-10-24"
  },
+ "n-6562acabdd": {
+  "fresh": true,
+  "title": "Happy Horse 1.0: 통합 비디오 및 오디오 생성 모델",
+  "translated_at": "2026-11-13"
+ },
  "n-65c8f1b873": {
   "fresh": true,
   "title": "ByteDance, Hugging Face에 EvoQuality 리소스 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-6607af2693": {
+  "fresh": true,
+  "title": "TSANTSALIZE Hugging Face 모델 리소스 기록됨",
+  "translated_at": "2026-11-13"
  },
  "n-661e84940d": {
   "fresh": true,
@@ -1814,6 +2094,11 @@
   "title": "INT8 Flux2-Klein 체크포인트와 ComfyUI 연동 공개",
   "translated_at": "2026-10-24"
  },
+ "n-6a60e32785": {
+  "fresh": true,
+  "title": "Qwen 3.6 Plus",
+  "translated_at": "2026-11-13"
+ },
  "n-6ab0eb34ad": {
   "fresh": true,
   "title": "S3T-Former 소스 저장소 공유",
@@ -1853,6 +2138,11 @@
   "fresh": true,
   "title": "JoyAI-VL-Interaction 프로젝트와 소스 저장소가 공개적으로 연결되었습니다",
   "translated_at": "2026-10-24"
+ },
+ "n-6c5e22fee1": {
+  "fresh": true,
+  "title": "Ideogram v4 Instant 및 Fast 변형 기록됨",
+  "translated_at": "2026-11-13"
  },
  "n-6cdd78c533": {
   "fresh": true,
@@ -2004,6 +2294,11 @@
   "title": "AI 코딩 에이전트를 위한 메모리 전이 학습(Memory Transfer Learning, MTL)",
   "translated_at": "2026-10-24"
  },
+ "n-73e8b27cb3": {
+  "fresh": true,
+  "title": "Assistant_Pepe_32B: 사람 중심 Qwen-3 창작 파인튜닝 모델",
+  "translated_at": "2026-11-13"
+ },
  "n-740438cbeb": {
   "fresh": true,
   "title": "Seedream 5.0 Pro 발표",
@@ -2044,6 +2339,11 @@
   "title": "Xiaomi MiMo V2.5 Omnimodal Reasoning Models",
   "translated_at": "2026-10-24"
  },
+ "n-76a6e0d291": {
+  "fresh": true,
+  "title": "ComfyUI-Flux2Klein-Enhancer 얼굴 보존 노드",
+  "translated_at": "2026-11-13"
+ },
  "n-76eee2c69c": {
   "fresh": true,
   "title": "Echo-2: SpAItial AI의 3D 월드 생성",
@@ -2058,6 +2358,11 @@
   "fresh": true,
   "title": "Disney Research, 예약 인페인팅 기반의 인터랙티브 생성형 모션 편집 연구 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-782f0991a7": {
+  "fresh": true,
+  "title": "Doodles Stoodio 공개 웹 엔드포인트 기록됨",
+  "translated_at": "2026-11-13"
  },
  "n-78395026cf": {
   "fresh": true,
@@ -2264,6 +2569,11 @@
   "title": "VOID: Netflix의 비디오 객체 및 상호작용 삭제 모델",
   "translated_at": "2026-10-24"
  },
+ "n-83d7f5eb84": {
+  "fresh": true,
+  "title": "Spark-X2.6-4B, vLLM과 SGLang을 통한 OpenAI 호환 서빙 지원 추가",
+  "translated_at": "2026-11-13"
+ },
  "n-840bb8c6c7": {
   "fresh": true,
   "title": "Chandra OCR 2: 오픈소스 문서 이해 모델",
@@ -2283,6 +2593,16 @@
   "fresh": true,
   "title": "MagicMakeup Transfer 공개 프로젝트 리소스 연결",
   "translated_at": "2026-10-24"
+ },
+ "n-851c72bbf5": {
+  "fresh": true,
+  "title": "ACE-Step 1.5, 아티팩트별 GPU 가이드와 함께 v0.1.8 출시",
+  "translated_at": "2026-11-13"
+ },
+ "n-85862dbbb3": {
+  "fresh": true,
+  "title": "3D Gaussian Splatting 장면을 위한 Geo Register 플러그인",
+  "translated_at": "2026-11-13"
  },
  "n-86023c7979": {
   "fresh": true,
@@ -2304,6 +2624,11 @@
   "title": "Canon UltraReal이 Civitai와 Hugging Face에 공개 등록됨",
   "translated_at": "2026-10-24"
  },
+ "n-86ce44c208": {
+  "fresh": true,
+  "title": "Qwen-Image-2.0-Pro",
+  "translated_at": "2026-11-13"
+ },
  "n-8719519a69": {
   "fresh": true,
   "title": "3DGS-PLY-3DTiles-Converter 소스 저장소 및 공개 사이트 기록",
@@ -2319,6 +2644,11 @@
   "title": "LDF-VFI: 비디오 프레임 보간을 위한 Local Diffusion Forcing",
   "translated_at": "2026-10-24"
  },
+ "n-8913c98771": {
+  "fresh": true,
+  "title": "Sulphur 2 비디오 생성 모델",
+  "translated_at": "2026-11-13"
+ },
  "n-8a14fda3a6": {
   "fresh": true,
   "title": "Gemini 3 Flash CLI를 활용한 배치 리서치 수집: 기사 21건",
@@ -2329,10 +2659,25 @@
   "title": "HyperAgents 공개 저장소 참조",
   "translated_at": "2026-10-24"
  },
+ "n-8a620616a1": {
+  "fresh": true,
+  "title": "Qwen3.6-35B-A3B-NVFP4: 고효율 Blackwell 최적화 MoE",
+  "translated_at": "2026-11-13"
+ },
+ "n-8a851b82d9": {
+  "fresh": true,
+  "title": "Reshoot-Anything: 4D-Anchor 제어 비디오 시점 합성",
+  "translated_at": "2026-11-13"
+ },
  "n-8a9fb1a4b9": {
   "fresh": true,
   "title": "Lucida 개발 리소스가 연결되었습니다",
   "translated_at": "2026-10-24"
+ },
+ "n-8ae442bb62": {
+  "fresh": true,
+  "title": "mm-ctx 공개 Hugging Face Space 참조",
+  "translated_at": "2026-11-13"
  },
  "n-8b5f11bc11": {
   "fresh": true,
@@ -2394,6 +2739,11 @@
   "title": "WorldCam 프로젝트 및 소스 저장소 공개",
   "translated_at": "2026-10-24"
  },
+ "n-8e2ceecbcb": {
+  "fresh": true,
+  "title": "Mistral Medium 3.5: 통합 128B 멀티모달 모델",
+  "translated_at": "2026-11-13"
+ },
  "n-8e75dd0767": {
   "fresh": true,
   "title": "Chronosplat 소스 저장소와 대화형 뷰어가 연결되었습니다",
@@ -2419,10 +2769,20 @@
   "title": "PrismAudio: 분해된 CoT를 통한 비디오-오디오 생성",
   "translated_at": "2026-10-24"
  },
+ "n-8ff86e4411": {
+  "fresh": true,
+  "title": "M2SVid: 단안-입체 비디오 변환",
+  "translated_at": "2026-11-13"
+ },
  "n-901220b5b4": {
   "fresh": true,
   "title": "Evoke 공개 프로젝트 리소스 연결됨",
   "translated_at": "2026-10-24"
+ },
+ "n-9139899069": {
+  "fresh": true,
+  "title": "Gemma 4 31B-it",
+  "translated_at": "2026-11-13"
  },
  "n-920abfb1e3": {
   "fresh": true,
@@ -2438,6 +2798,11 @@
   "fresh": true,
   "title": "Modality Forcing 깊이 예측 관련 리소스 연결됨",
   "translated_at": "2026-10-24"
+ },
+ "n-9371b417f8": {
+  "fresh": true,
+  "title": "LoGeR, 3D 재구성 프로젝트로 소개됨",
+  "translated_at": "2026-11-13"
  },
  "n-93c82cced4": {
   "fresh": true,
@@ -2484,6 +2849,11 @@
   "title": "MonoArt 프로젝트 웹사이트와 소스 저장소가 연결됨",
   "translated_at": "2026-10-24"
  },
+ "n-972d1e2832": {
+  "fresh": true,
+  "title": "TML Interaction Models: 실시간 멀티모달 AI",
+  "translated_at": "2026-11-13"
+ },
  "n-9744e9b73c": {
   "fresh": true,
   "title": "Z-Image Turbo 얼굴 디테일링 워크플로",
@@ -2529,6 +2899,11 @@
   "title": "Echo LongVideo 공개 프로젝트 리소스 연결됨",
   "translated_at": "2026-10-24"
  },
+ "n-98474cc274": {
+  "fresh": true,
+  "title": "Nucleus Image: 희소 Mixture-of-Experts 확산 모델",
+  "translated_at": "2026-11-13"
+ },
  "n-984ac0ee00": {
   "fresh": true,
   "title": "UltraReal - KREA2 Klein9b의 Civitai 모델 페이지가 참조됨",
@@ -2543,6 +2918,11 @@
   "fresh": true,
   "title": "NVIDIA, Nemotron VoiceChat 11B 코드 및 모델 리소스 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-997df70c3d": {
+  "fresh": true,
+  "title": "LTX-2.3-22B-DISTILLED-1.1 비디오 DiT 모델",
+  "translated_at": "2026-11-13"
  },
  "n-99c607c318": {
   "fresh": true,
@@ -2563,6 +2943,21 @@
   "fresh": true,
   "title": "Data2Story, 프로젝트 웹사이트 및 GitHub 저장소와 공개적으로 연결됨",
   "translated_at": "2026-10-24"
+ },
+ "n-9a27202165": {
+  "fresh": true,
+  "title": "360 영상을 위한 VR-360-Outpaint LTX-2.3 IC-LoRA",
+  "translated_at": "2026-11-13"
+ },
+ "n-9aa3cb6ab5": {
+  "fresh": true,
+  "title": "Audio Flamingo Next (AF-Next)",
+  "translated_at": "2026-11-13"
+ },
+ "n-9af7222826": {
+  "fresh": true,
+  "title": "QClaw-4B 에이전트 작업용 소형 언어 모델",
+  "translated_at": "2026-11-13"
  },
  "n-9bab984caa": {
   "fresh": true,
@@ -2669,6 +3064,11 @@
   "title": "NanoVDR, 공개 Hugging Face 리소스 및 데모와 연결됨",
   "translated_at": "2026-10-24"
  },
+ "n-a167c6f61b": {
+  "fresh": true,
+  "title": "ComfyUI v0.42.5 유지보수 패치 공개",
+  "translated_at": "2026-11-13"
+ },
  "n-a1c9a6a103": {
   "fresh": true,
   "title": "LlamaServerLauncherAvalonia 저장소가 참조됨",
@@ -2699,10 +3099,30 @@
   "title": "Hailuo Light Studio가 Relight 도구를 언급했다",
   "translated_at": "2026-10-24"
  },
+ "n-a3583f87c7": {
+  "fresh": true,
+  "title": "MemPalace: LLM을 위한 효율적 무한 메모리 압축",
+  "translated_at": "2026-11-13"
+ },
+ "n-a3aa871dfa": {
+  "fresh": true,
+  "title": "Colab에서 Gemma 4 파인튜닝을 위한 Unsloth Studio",
+  "translated_at": "2026-11-13"
+ },
+ "n-a3c0ebdd3a": {
+  "fresh": true,
+  "title": "UniCorrn: 2D와 3D를 아우르는 통합 대응 트랜스포머",
+  "translated_at": "2026-11-13"
+ },
  "n-a3e4d25dc2": {
   "fresh": true,
   "title": "CanAI, 생성형 이미지·비디오용 오픈소스 캔버스로 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-a3f6d0a225": {
+  "fresh": true,
+  "title": "사이트 이름 변경: Knowledge Space에서 Happyin Knowledge Space로",
+  "translated_at": "2026-11-13"
  },
  "n-a4fb636ca8": {
   "fresh": true,
@@ -2718,6 +3138,11 @@
   "fresh": true,
   "title": "Lyra 2.0: 탐색 가능한 생성형 3D 월드",
   "translated_at": "2026-10-24"
+ },
+ "n-a56b9d31b6": {
+  "fresh": true,
+  "title": "Mac용 Perplexity Personal Computer",
+  "translated_at": "2026-11-13"
  },
  "n-a5a478ec38": {
   "fresh": true,
@@ -2754,10 +3179,20 @@
   "title": "Cursor: AI 네이티브 코드 에디터",
   "translated_at": "2026-10-24"
  },
+ "n-a71a838b34": {
+  "fresh": true,
+  "title": "GyroScope 이미지 방향 감지 및 보정 모델",
+  "translated_at": "2026-11-13"
+ },
  "n-a74ee42caa": {
   "fresh": true,
   "title": "FlowAnchor: 역변환 없는 안정적인 비디오 편집",
   "translated_at": "2026-10-24"
+ },
+ "n-a7521b7b08": {
+  "fresh": true,
+  "title": "BACH 1.0: 멀티 샷 AI 비디오 생성",
+  "translated_at": "2026-11-13"
  },
  "n-a78b2b7401": {
   "fresh": true,
@@ -2769,6 +3204,11 @@
   "title": "Exiv의 소스 저장소와 시작 가이드 문서가 연결됨",
   "translated_at": "2026-10-24"
  },
+ "n-a7d1f83b13": {
+  "fresh": true,
+  "title": "ArcFlow: 2단계 비선형 이미지 생성 프레임워크",
+  "translated_at": "2026-11-13"
+ },
  "n-a7efec38e4": {
   "fresh": true,
   "title": "Qwen3-ASR-1.7B-hf 체크포인트 참조",
@@ -2779,10 +3219,20 @@
   "title": "CHAI: 비디오 캡셔닝을 위한 비평 기반 인간-AI 감독",
   "translated_at": "2026-10-24"
  },
+ "n-a81182e9ac": {
+  "fresh": true,
+  "title": "Claude Opus 4.7: Anthropic의 플래그십 코딩 및 추론 모델",
+  "translated_at": "2026-11-13"
+ },
  "n-a85f96599d": {
   "fresh": true,
   "title": "ComfyUI-Latent-Tiled-PiD에 날짜가 기록된 공개 저장소 참조가 등록됨",
   "translated_at": "2026-10-24"
+ },
+ "n-a8a043a8fd": {
+  "fresh": true,
+  "title": "INSID3: DINOv3를 이용한 빠른 인-컨텍스트 분할",
+  "translated_at": "2026-11-13"
  },
  "n-a95c499131": {
   "fresh": true,
@@ -2914,6 +3364,11 @@
   "title": "GUSH3R 공개 프로젝트 리소스 연결",
   "translated_at": "2026-10-24"
  },
+ "n-b18df4c1c8": {
+  "fresh": true,
+  "title": "부드러운 AI 영상을 위한 Semantic Progress Function (SPF)",
+  "translated_at": "2026-11-13"
+ },
  "n-b1bee57937": {
   "fresh": true,
   "title": "Wan2.2 T2V A14B Diffusers FP8 및 NVFP4 변형 모델 문서화됨",
@@ -2938,6 +3393,11 @@
   "fresh": true,
   "title": "GLM-5V-Turbo: 디자인에서 코드까지 다루는 멀티모달 엔지니어링 모델",
   "translated_at": "2026-10-24"
+ },
+ "n-b2c1d5a768": {
+  "fresh": true,
+  "title": "FLUX.2 소형 디코더 (증류된 VAE)",
+  "translated_at": "2026-11-13"
  },
  "n-b347948b96": {
   "fresh": true,
@@ -3044,6 +3504,11 @@
   "title": "Zeta-Chroma 베이스 모델 아티팩트 기록됨",
   "translated_at": "2026-10-24"
  },
+ "n-b9e02bd01a": {
+  "fresh": true,
+  "title": "ACE-Step 1.5 XL 음악 생성",
+  "translated_at": "2026-11-13"
+ },
  "n-ba02def424": {
   "fresh": true,
   "title": "프로젝트 저장소 참조 기록됨",
@@ -3079,10 +3544,30 @@
   "title": "IGGT4D GitHub Pages 사이트 링크 공유",
   "translated_at": "2026-10-24"
  },
+ "n-bb60458b02": {
+  "fresh": true,
+  "title": "FLUX.2-klein-9B-Nunchaku",
+  "translated_at": "2026-11-13"
+ },
+ "n-bb76b83d43": {
+  "fresh": true,
+  "title": "ComfyUI-Drama3, 8GB VRAM 환경에서 3배 이상 가속하는 전문가 캐싱 업데이트",
+  "translated_at": "2026-11-13"
+ },
  "n-bbc670c0e1": {
   "fresh": true,
   "title": "LongCat, LongCat 2.0을 공개적으로 찾을 수 있게 만들다",
   "translated_at": "2026-10-24"
+ },
+ "n-bc5c88f85f": {
+  "fresh": true,
+  "title": "DeepSeek-V4-Pro 플래그십 조 단위 MoE 모델",
+  "translated_at": "2026-11-13"
+ },
+ "n-bcef63351f": {
+  "fresh": true,
+  "title": "Z-Anime: S3-DiT 6B 고충실도 애니메이션 생성 모델",
+  "translated_at": "2026-11-13"
  },
  "n-bd49bc44b7": {
   "fresh": true,
@@ -3094,10 +3579,20 @@
   "title": "Gemopus-4-26B 대규모 언어 모델",
   "translated_at": "2026-10-24"
  },
+ "n-bec376434e": {
+  "fresh": true,
+  "title": "TinyMU: 음악 이해를 위한 소형 오디오-언어 모델",
+  "translated_at": "2026-11-13"
+ },
  "n-c0d09bda8b": {
   "fresh": true,
   "title": "NVIDIA, Nemotron 3 Super 발표",
   "translated_at": "2026-10-24"
+ },
+ "n-c13e04020a": {
+  "fresh": true,
+  "title": "Spark-X2.6-4B, Apache 2.0 라이선스로 공개… 양자화 변형과 설정 가능한 추론 지원",
+  "translated_at": "2026-11-13"
  },
  "n-c15c8a5410": {
   "fresh": true,
@@ -3123,6 +3618,11 @@
   "fresh": true,
   "title": "Marionette 공개 프로젝트 리소스 연결됨",
   "translated_at": "2026-10-24"
+ },
+ "n-c2ca134086": {
+  "fresh": true,
+  "title": "ERNIE-Image-Turbo 8B 오픈 웨이트 Diffusion Transformer",
+  "translated_at": "2026-11-13"
  },
  "n-c2e38d5935": {
   "fresh": true,
@@ -3179,6 +3679,11 @@
   "title": "CARLA-Air GitHub 저장소 링크 추가",
   "translated_at": "2026-10-24"
  },
+ "n-c4a452f85d": {
+  "fresh": true,
+  "title": "NumPy를 신스 엔진으로 활용하는 PyTheory",
+  "translated_at": "2026-11-13"
+ },
  "n-c4e41aef2b": {
   "fresh": true,
   "title": "What to Edit Next 공개 사이트가 언급됨",
@@ -3199,10 +3704,20 @@
   "title": "Motif-Video 2B: 효율적인 분리형 확산 트랜스포머 비디오 모델",
   "translated_at": "2026-10-24"
  },
+ "n-c56d07046e": {
+  "fresh": true,
+  "title": "DreamLite: 통합 온디바이스 이미지 생성 및 편집",
+  "translated_at": "2026-11-13"
+ },
  "n-c5e93c1d3a": {
   "fresh": true,
   "title": "Audex 모델 저장소 공개 검색 가능 상태로 전환",
   "translated_at": "2026-10-24"
+ },
+ "n-c660c4f559": {
+  "fresh": true,
+  "title": "CDM: Continuous-Time Distribution Matching 디퓨전 증류",
+  "translated_at": "2026-11-13"
  },
  "n-c66b8c38b0": {
   "fresh": true,
@@ -3233,6 +3748,11 @@
   "fresh": true,
   "title": "NeuralVFX의 Z-Image-SAM-ControlNet",
   "translated_at": "2026-10-24"
+ },
+ "n-c7bfff5d31": {
+  "fresh": true,
+  "title": "Gemma 4: Google의 멀티모달 오픈 모델 패밀리",
+  "translated_at": "2026-11-13"
  },
  "n-c8fa19868e": {
   "fresh": true,
@@ -3304,6 +3824,16 @@
   "title": "LTX-2.3-22b-IC-LoRA-Ungrade 중립 색감 복원",
   "translated_at": "2026-10-24"
  },
+ "n-cce36dc967": {
+  "fresh": true,
+  "title": "Krea 2 Turbo SDA LoRA, 2단계 다양성 게이트 추가",
+  "translated_at": "2026-11-13"
+ },
+ "n-cd25320940": {
+  "fresh": true,
+  "title": "Sync-3: Sync Labs의 프로페셔널 AI 립싱크",
+  "translated_at": "2026-11-13"
+ },
  "n-cddebb8e59": {
   "fresh": true,
   "title": "ProxyPose 공개 프로젝트 리소스 연결",
@@ -3359,6 +3889,11 @@
   "title": "InfiniSplat 공개 프로젝트 리소스가 문서화되었습니다",
   "translated_at": "2026-10-24"
  },
+ "n-cf88820803": {
+  "fresh": true,
+  "title": "Wan2.2 Distill: 4단계 모델을 활용한 가속 영상 생성",
+  "translated_at": "2026-11-13"
+ },
  "n-cf8c575ede": {
   "fresh": true,
   "title": "SCoPE 프로젝트 리소스가 연결되었습니다",
@@ -3388,6 +3923,11 @@
   "fresh": true,
   "title": "GEMS: 메모리를 갖춘 에이전트 네이티브 멀티모달 생성",
   "translated_at": "2026-10-24"
+ },
+ "n-d135dd8f66": {
+  "fresh": true,
+  "title": "Moonshot, 공개 예정 일정과 함께 Kimi K3.1 Pro 리프레시 출시",
+  "translated_at": "2026-11-13"
  },
  "n-d140f3d07f": {
   "fresh": true,
@@ -3434,6 +3974,11 @@
   "title": "Higgs Audio v3 TTS 공개 리소스 게시",
   "translated_at": "2026-10-24"
  },
+ "n-d4678fd961": {
+  "fresh": true,
+  "title": "CAVC, 오디오-비주얼 생성에서 1.10-1.35x 추론 가속 입증",
+  "translated_at": "2026-11-13"
+ },
  "n-d46d9eb28f": {
   "fresh": true,
   "title": "Meta, 비즈니스 약관에서 AI 학습 관련 문구 삭제",
@@ -3443,6 +3988,11 @@
   "fresh": true,
   "title": "Modly GitHub 저장소 참조",
   "translated_at": "2026-10-24"
+ },
+ "n-d4d07dd0bf": {
+  "fresh": true,
+  "title": "P-Video-Avatar: 고속 AI 토킹 헤드 애니메이션",
+  "translated_at": "2026-11-13"
  },
  "n-d4f61075f4": {
   "fresh": true,
@@ -3484,6 +4034,11 @@
   "title": "Wan2.7-Video — 감독 수준의 영상 생성 및 편집 스위트",
   "translated_at": "2026-10-24"
  },
+ "n-d755c8bc8a": {
+  "fresh": true,
+  "title": "Qwen3-TTS: 고급 제로샷 음성 합성",
+  "translated_at": "2026-11-13"
+ },
  "n-d76b3cf6c5": {
   "fresh": true,
   "title": "GPT-5.6 Sol에 대한 METR 보도",
@@ -3493,6 +4048,11 @@
   "fresh": true,
   "title": "Qwen-Image-Flash 연구 논문 참조 기록됨",
   "translated_at": "2026-10-24"
+ },
+ "n-d7b1c6bb36": {
+  "fresh": true,
+  "title": "VoxCPM2 — 2B 토크나이저 없는 다국어 TTS 및 음성 클로닝",
+  "translated_at": "2026-11-13"
  },
  "n-d7c3a5e60e": {
   "fresh": true,
@@ -3513,6 +4073,11 @@
   "fresh": true,
   "title": "Sync.so AI 비주얼 더빙 및 립싱크 스튜디오",
   "translated_at": "2026-10-24"
+ },
+ "n-d8bf4374be": {
+  "fresh": true,
+  "title": "Odyssey-2 Max: 실시간 생성형 월드 시뮬레이터",
+  "translated_at": "2026-11-13"
  },
  "n-d967265835": {
   "fresh": true,
@@ -3634,6 +4199,11 @@
   "title": "MiniMax Music 2.6 AI 음악 생성 플랫폼",
   "translated_at": "2026-10-24"
  },
+ "n-e17cbf7ded": {
+  "fresh": true,
+  "title": "Tencent Hy-MT1.5 모바일 기계 번역",
+  "translated_at": "2026-11-13"
+ },
  "n-e1ca928d8e": {
   "fresh": true,
   "title": "Canva, Magic Layers 뉴스룸 업데이트 발행",
@@ -3679,6 +4249,11 @@
   "title": "SwiftVR 공개 프로젝트 리소스가 기록됨",
   "translated_at": "2026-10-24"
  },
+ "n-e3fe618151": {
+  "fresh": true,
+  "title": "MegaStyle: 확장 가능한 예술 스타일 큐레이션 파이프라인",
+  "translated_at": "2026-11-13"
+ },
  "n-e431684c08": {
   "fresh": true,
   "title": "ComfyUI KSampler Matrix Lab 저장소 참조",
@@ -3703,6 +4278,11 @@
   "fresh": true,
   "title": "StorySplat v2.3: 인터랙티브 3D 가우시안 스플래팅 에디터",
   "translated_at": "2026-10-24"
+ },
+ "n-e51898fad5": {
+  "fresh": true,
+  "title": "GLM-5.1: Z.ai의 자율 엔지니어링 에이전트",
+  "translated_at": "2026-11-13"
  },
  "n-e55e56223b": {
   "fresh": true,
@@ -3739,6 +4319,11 @@
   "title": "GEAR 프로젝트 리소스가 공개되었습니다",
   "translated_at": "2026-10-24"
  },
+ "n-e63a0d4512": {
+  "fresh": true,
+  "title": "M-XR 이미지-재질 프로덕션 PBR 생성",
+  "translated_at": "2026-11-13"
+ },
  "n-e6413c0a2c": {
   "fresh": true,
   "title": "ArtiFixer 리소스가 연구, 코드, 모델 채널에 걸쳐 연결되었습니다",
@@ -3769,6 +4354,11 @@
   "title": "Qwen3-Coder와 함께 공개된 Qwen Code",
   "translated_at": "2026-10-24"
  },
+ "n-e76fc8f96f": {
+  "fresh": true,
+  "title": "SANA-Video: 효율적인 720p 영상 합성 및 업스케일링",
+  "translated_at": "2026-11-13"
+ },
  "n-e859acd94e": {
   "fresh": true,
   "title": "Microsoft, Microsoft 365 Copilot Researcher의 다중 모델 인텔리전스 업데이트 발표",
@@ -3793,6 +4383,11 @@
   "fresh": true,
   "title": "OpenAI Daybreak",
   "translated_at": "2026-10-24"
+ },
+ "n-e96d2e151b": {
+  "fresh": true,
+  "title": "TriAttention: 삼각함수 KV 압축을 통한 효율적인 장문 추론",
+  "translated_at": "2026-11-13"
  },
  "n-e9d344fa77": {
   "fresh": true,
@@ -3844,6 +4439,11 @@
   "title": "CohereLabs가 Hugging Face에 North Mini Code 1.0 모델 페이지를 공개",
   "translated_at": "2026-10-24"
  },
+ "n-eb367fb3e1": {
+  "fresh": true,
+  "title": "LumiPic: SDR에서 HDR로 변환하는 이미지 디퓨전",
+  "translated_at": "2026-11-13"
+ },
  "n-eb68bcfc57": {
   "fresh": true,
   "title": "Krea, Krea 2의 공식 오픈소스 및 배포 자료를 공개하다",
@@ -3873,6 +4473,16 @@
   "fresh": true,
   "title": "KVarN 공개 소스 저장소 참조 기록",
   "translated_at": "2026-10-24"
+ },
+ "n-ec5428386a": {
+  "fresh": true,
+  "title": "Claude Design: Opus 4.7을 활용한 프로토타입 및 UI 생성",
+  "translated_at": "2026-11-13"
+ },
+ "n-ec7e719b88": {
+  "fresh": true,
+  "title": "Phi-Ground-Any: Microsoft GUI 그라운딩 멀티모달 모델",
+  "translated_at": "2026-11-13"
  },
  "n-eca931f946": {
   "fresh": true,
@@ -3929,6 +4539,11 @@
   "title": "MiniMax-H3 x Z-Image 네이티브 및 GGUF 저장소 연결됨",
   "translated_at": "2026-10-24"
  },
+ "n-f0cec18709": {
+  "fresh": true,
+  "title": "Rodin Gen 2.5 (Hyper3D)",
+  "translated_at": "2026-11-13"
+ },
  "n-f108d81c34": {
   "fresh": true,
   "title": "PixVerse, 터미널에서 사용할 수 있는 생성 인터페이스 공개",
@@ -3963,6 +4578,11 @@
   "fresh": true,
   "title": "Cursor, Router 관련 공개 업데이트 발표",
   "translated_at": "2026-10-24"
+ },
+ "n-f24b5871aa": {
+  "fresh": true,
+  "title": "SDXS-1B: 실시간 디퓨전 및 고충실도 업스케일러",
+  "translated_at": "2026-11-13"
  },
  "n-f2b3361da7": {
   "fresh": true,
@@ -3999,10 +4619,20 @@
   "title": "Real Horizons의 Spatial Studio 3D Gaussian Splatting",
   "translated_at": "2026-10-24"
  },
+ "n-f4d17d7115": {
+  "fresh": true,
+  "title": "Gemma 4 E4B Heretic 검열 없음",
+  "translated_at": "2026-11-13"
+ },
  "n-f52983ecb7": {
   "fresh": true,
   "title": "Runway, Aleph 2.0 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-f57cbec8b9": {
+  "fresh": true,
+  "title": "LingBot-Map: 실시간 스트리밍 3D 장면 재구성",
+  "translated_at": "2026-11-13"
  },
  "n-f57cbf8f0c": {
   "fresh": true,
@@ -4023,6 +4653,11 @@
   "fresh": true,
   "title": "ElevenLabs: 온프레미스 및 온디바이스 음성 AI 배포",
   "translated_at": "2026-10-24"
+ },
+ "n-f6c6cdf729": {
+  "fresh": true,
+  "title": "ComfyUI 6DOF 카메라 — 3D 장면 조작 및 캐릭터 스테이징",
+  "translated_at": "2026-11-13"
  },
  "n-f6f78aa8d5": {
   "fresh": true,
@@ -4053,6 +4688,11 @@
   "fresh": true,
   "title": "Tripo 5월 제품 업데이트",
   "translated_at": "2026-10-24"
+ },
+ "n-f861f085b8": {
+  "fresh": true,
+  "title": "Free Claude Code: Claude CLI용 AI 프록시",
+  "translated_at": "2026-11-13"
  },
  "n-f8b15964ba": {
   "fresh": true,

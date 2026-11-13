@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "비디오 생성에서 ‘물리 지능’ 엔진으로 진화했으며, Odyssey-2 Max는 Odyssey-2 Pro 대비 파라미터를 3배 늘리고 NVIDIA Blackwell GPU를 활용합니다. 현재는 로보틱스 및 국방 파트너를 위한 비공개 베타 단계입니다.",
+ "id": "n-d8bf4374be",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Autoregressive Diffusion Transformer(AR DiT) 아키텍처를 사용하며, VBench 2의 물리 정확도 부문에서 최고 수준의 점수를 보유하고 있습니다.",
+ "source_sha256": "1ac157693e6d1cada49c89c249760aaf1ab6092fcc4692b2267d8b03b3fca3e6",
+ "summary": "Odyssey-2 Max는 자기회귀 디퓨전을 사용해 물리적 현실을 실시간으로 시뮬레이션하는 대규모 생성형 월드 모델입니다. 로보틱스, 게임, 시뮬레이션을 위해 높은 물리 정확도를 갖춘 3D 환경의 인터랙티브 스트리밍을 가능하게 합니다.",
+ "title": "Odyssey-2 Max: 실시간 생성형 월드 시뮬레이터",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Phi-Ground-4B-7C 연구 모델에서 Microsoft의 공식 프로젝트로 발전했으며, Windows Copilot의 ‘Vision Highlighting’에 통합되었습니다. 현재의 ‘Any’ 버전은 4K 화면과 고해상도 UI 상호작용에 대한 견고성이 개선되었습니다.",
+ "id": "n-ec7e719b88",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "컴팩트한 크기에도 불구하고 GUI 클릭 정확도 벤치마크에서 OpenAI Operator와 Claude Computer Use를 능가합니다.",
+ "source_sha256": "f1fca6964afbd0f76ded858e9fa8a564b021b9dde3f7312ac00e519fed7b2f9a",
+ "summary": "정밀한 화면 요소 위치 파악에 특화된 4B 파라미터 시각-언어 모델로, GUI 그라운딩을 전문으로 합니다. AI 에이전트가 다양한 해상도와 종횡비의 복잡한 인터페이스와 상호작용할 수 있게 합니다.",
+ "title": "Phi-Ground-Any: Microsoft GUI 그라운딩 멀티모달 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

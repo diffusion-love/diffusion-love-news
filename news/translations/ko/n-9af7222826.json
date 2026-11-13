@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "여전히 에이전트 추론 분야에서 해당 파라미터 등급의 현재 SOTA입니다. 생태계 지원이 확장되어 소비자 하드웨어와 Apple Silicon에서 효율적인 로컬 추론을 위한 GGUF 및 MLX 형식을 포함합니다.",
+ "id": "n-9af7222826",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "간결한 크기에도 불구하고 ClawBench 점수 84.8을 달성하여 Kimi K2.5 및 GLM-4.5와 거의 동등합니다.",
+ "source_sha256": "dc929f0359d93cf73418d61f69b3e61a21f18b2ef6760477c759f91fe939020a",
+ "summary": "다단계 추론과 도구 호출 기능에 최적화된 최첨단 40억 파라미터 모델입니다. 큐레이션된 에이전트 작업 궤적을 활용하여 특화된 벤치마크에서 훨씬 더 큰 모델의 성능과 맞먹습니다.",
+ "title": "QClaw-4B 에이전트 작업용 소형 언어 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

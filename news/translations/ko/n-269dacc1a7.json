@@ -1,0 +1,11 @@
+{
+ "id": "n-269dacc1a7",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "OpenCode 터미널 개발자 환경을 설치하거나 여십시오.\n\n사용 가능한 프로그래밍 모델 옵션에서 GLM-5.3-Flash를 선택하십시오.\n\n데이터 비보존(zero-retention) 개인정보 정책 아래에서, 200K 토큰 컨텍스트 한도 내에서 코딩, 도구 호출 또는 시각 분석 작업을 전달하십시오.\n\n무료 등급 한도를 지키고 긴 저장소 세션 중 컨텍스트 잘림을 피하기 위해 에이전트 작업 컨텍스트를 200K 토큰 이내로 제한하십시오.\n\n모델의 특화된 MoE 활성화 라우팅을 활용하려면, 텍스트 전용 완성보다 네이티브 도구 호출과 멀티모달 입력을 중심으로 에이전트 워크플로를 구성하십시오.",
+ "source_sha256": "8b3f49fd892bf9a419afd1da795d0245ad6ed07dc5f1bb4745c8bd82ef6c724f",
+ "summary": "OpenCode는 Zhipu의 GLM-5.3-Flash 혼합 전문가(mixture-of-experts) 모델에 대한 임시 무료 접근을 열었습니다. 이 공개는 총 320B 파라미터 중 18B 활성 파라미터, 이미지 및 도구 실행, 200K 토큰 컨텍스트 윈도우, 요청 데이터의 비보존(zero retention)을 제공합니다.",
+ "title": "OpenCode, GLM-5.3-Flash 임시 무료 이용 제공",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 초기 SCAIL-Preview에서 SCAIL-2로 발전했으며, 모션 안정성 강화, 3D 포즈 깊이 이해 개선, 장편 비디오 생성에 대한 네이티브 지원을 추가했습니다. ComfyUI에는 커스텀 노드를 통해 통합되었으며, 이제 Blender 3D 리그로 애니메이션을 구동하는 것도 지원합니다.",
+ "id": "n-0cf9d026b8",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Zhipu AI와 Tsinghua University가 개발했습니다. 모델은 Wan 2.1 아키텍처를 기반으로 하며 일반적으로 높은 VRAM을 요구하지만, 양자화된 GGUF 버전도 지원됩니다.",
+ "source_sha256": "25182dd3a1bee7f16f4944f3928488b56b26c94a9191b0f6844fd3679e56ca24",
+ "summary": "SCAIL은 3D 일관성을 갖춘 포즈 표현을 사용하여 구동 비디오의 고충실도 모션을 참조 이미지로 전이하는 캐릭터 애니메이션 프레임워크입니다. 다중 캐릭터 장면과 긴 시퀀스를 지원하면서 지터와 정체성 드리프트 같은 일반적인 문제를 효과적으로 해결합니다.",
+ "title": "SCAIL-2: 인컨텍스트 학습 기반 스튜디오급 캐릭터 애니메이션",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

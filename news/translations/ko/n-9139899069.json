@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 5월, Google은 31B 모델을 위한 Multi-Token Prediction(MTP) 드래프터를 공개하여 추론 속도를 최대 3배 높였습니다. 이 모델은 오픈 웨이트 리더보드에서 계속 선두를 달리며, 추론 과제에서 훨씬 큰 폐쇄형 모델과 견줄 만합니다.",
+ "id": "n-9139899069",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "v4 릴리스와 함께 완전히 허용적인 Apache 2.0 라이선스로 전환되어, 상업용 및 로컬 'Sovereign AI' 배포의 채택을 크게 촉진했습니다.",
+ "source_sha256": "5d302e12d517bbbe945cbd2e97fa0b15dff47eb2c9d4bb138b907905f7f12a31",
+ "summary": "Google DeepMind의 네이티브 멀티모달리티와 추론 능력을 갖춘 최고 수준의 310억 파라미터 오픈 웨이트 모델입니다. 256k 컨텍스트 창을 갖추고 있으며 코딩, 수학, 에이전트 과제에서 최첨단 성능을 달성합니다.",
+ "title": "Gemma 4 31B-it",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

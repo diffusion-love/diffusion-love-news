@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "캡처 서비스에서 I2M 기반 모델 및 API로 전환되었습니다. 현재 Marso Studio 플랫폼에 통합되어, 사진측량 에셋의 자동 PBR 생성과 리텍스처링에 주력하고 있습니다.",
+ "id": "n-e63a0d4512",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "세계 최대 규모의 측정된 재질 속성 라이브러리인 ‘Marso Measure’ 데이터셋으로 학습되었습니다. 이 회사는 2026년에 $7M을 조달해 재질 지능 인프라를 확장하고 있습니다.",
+ "source_sha256": "588411c0b05f7b2e9f1e3c19043f04947fbe37d8c0b932daabb6af3d3b9f2f97",
+ "summary": "단일 이미지 또는 영상으로부터 프로덕션 수준의 PBR 재질 맵을 생성하는 기반 AI 모델입니다. 독점 측정 데이터를 활용해 3D 렌더링과 게임 엔진을 위한 물리적으로 정확한 텍스처를 만들어 냅니다.",
+ "title": "M-XR 이미지-재질 프로덕션 PBR 생성",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

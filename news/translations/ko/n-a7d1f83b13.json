@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 초 출시 이후 이 프로젝트는 20B 파라미터 모델을 지원하도록 확장되었으며, 소비자용 GPU(24GB VRAM)에 최적화되었습니다. 현재 빠른 확산 추론을 위한 다양한 오픈소스 UI 래퍼에 통합되어 있습니다.",
+ "id": "n-a7d1f83b13",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "LCM 같은 선형 증류 방법과 달리, ArcFlow는 속도장을 매개변수화하여 비선형 궤적을 포착하며, 최소한의 품질 손실로 40배 속도 향상을 가능하게 합니다.",
+ "source_sha256": "d63cd20b324049b34e7b869b961f85705cb2ef4ea4680e5a661a0c9f4275af03",
+ "summary": "Microsoft Research Asia와 Fudan University가 개발한 ArcFlow는 비선형 흐름 증류를 활용하여 단 2단계로 고품질 이미지를 생성합니다. FLUX.1 및 Qwen-Image 같은 대규모 모델의 추론을 크게 최적화하면서도 시각적 충실도를 유지합니다.",
+ "title": "ArcFlow: 2단계 비선형 이미지 생성 프레임워크",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

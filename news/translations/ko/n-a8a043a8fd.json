@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "연구 발표 이후 INSID3는 CVPR 2026에서 구두 발표로 선정되었고, 전체 코드와 대화형 데모와 함께 정식 공개되었습니다. 이후 학습이 필요 없는 단일 백본 분할 프레임워크의 벤치마크로 자리 잡았습니다.",
+ "id": "n-a8a043a8fd",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "다단계 파이프라인보다 3.4배 빠른 추론 속도를 보이며, 최신 방법들을 +7.5% mIoU만큼 능가합니다.",
+ "source_sha256": "c59c96f0e9228e9ec00ad772feaaaa6e21866b637b3beb3188bf38e1f92fdc5f",
+ "summary": "INSID3는 Meta의 DINOv3 비전 파운데이션 모델의 창발적 특성을 활용하는 고성능 객체 분할을 위한 학습 불필요 프레임워크입니다. 밀집 특징의 응집형 군집화로 객체 영역을 식별하고, 단순한 직교 투영으로 위치 편향을 제거합니다.",
+ "title": "INSID3: DINOv3를 이용한 빠른 인-컨텍스트 분할",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

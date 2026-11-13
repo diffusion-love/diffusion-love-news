@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "VoxCPM 1.5의 주요 후속작으로 출시되었으며, 스튜디오 품질의 48kHz 오디오를 만드는 연속 표현 파이프라인으로 전환했습니다. 텍스트 설명으로부터 목소리를 만드는 ‘Voice Design’을 도입했고, 상용 경쟁 제품 대비 화자 유사도 점수를 크게 개선했습니다.",
+ "id": "n-d7b1c6bb36",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Apache-2.0 라이선스로 배포되며, 30개 언어와 9개 중국어 방언을 지원하고, 소비자용 GPU에서 실시간 성능을 제공합니다.",
+ "source_sha256": "f15b46ab7f6164d2e39a7cd299037dbc206725dcb3a5310a19427cc9b1290b9d",
+ "summary": "토크나이저 없는(tokenizer-free) 디퓨전 자기회귀 아키텍처를 활용하는 2B 파라미터 오픈소스 음성 합성 모델입니다. 고충실도 제로샷 음성 클로닝, 텍스트를 통한 스타일 제어, 자연어 설명으로부터 새로운 목소리 생성을 가능하게 합니다.",
+ "title": "VoxCPM2 — 2B 토크나이저 없는 다국어 TTS 및 음성 클로닝",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

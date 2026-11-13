@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "NeurIPS 2025 발표 이후 2026년 4월에 코드와 가중치가 공개되었습니다. NVIDIA Cosmos 백본을 사용한 단일 패스 공동 모델링으로 전환하여, 이전의 다단계 relighting 파이프라인을 크게 능가합니다.",
+ "id": "n-49b64d4933",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "NVIDIA OneWay 비상업 라이선스를 사용하며, Cosmos-Predict1 백본 가중치와 Hugging Face 접근 권한이 필요합니다.",
+ "source_sha256": "0a32efbd36e4a29d1654fa0dc842e09e30433593556d1289956b8cd040be2cb1",
+ "summary": "NVIDIA가 개발한 UniRelight는 본질 분해(intrinsic decomposition)와 합성을 공동으로 수행하는 단일 패스 비디오 relighting 프레임워크입니다. 7B 파라미터 Cosmos-Predict1 파운데이션 모델을 활용하여 복잡한 조명 환경에서 높은 충실도와 시간적 일관성을 달성합니다.",
+ "title": "UniRelight: 공동 비디오 분해 및 합성 프레임워크",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

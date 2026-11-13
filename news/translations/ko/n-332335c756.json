@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 기본 워크플로에서 v2.5의 견고한 노드 기반 시스템으로 전환되었습니다. 주요 업데이트로는 끊김 없는 루핑, Meta Batching을 통한 RAM 사용 최적화, 16비트 색상 이동 완화가 포함됩니다.",
+ "id": "n-332335c756",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "최신 v2.5 배치 기능을 활성화하려면 동반 커스텀 노드 패키지인 'ComfyUI-Wan-VACE-Prep'이 필요합니다.",
+ "source_sha256": "855fb2042249eef2ce088d4e29a704a05c1c39177890193c196ed81b44086982",
+ "summary": "Wan VACE 모델을 사용해 비디오 클립 사이에 부드러운 전환을 만드는 전문 ComfyUI 유틸리티입니다. 시각적 일관성을 유지하기 위해 자동 색상 매칭, 크로스페이드, 배치 처리 도구를 제공합니다.",
+ "title": "ComfyUI Wan VACE Video Joiner: 끊김 없는 전환을 위한 비디오 결합 도구",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

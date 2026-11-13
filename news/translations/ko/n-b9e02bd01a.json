@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이전 2B 파라미터 모델에서 4B 파라미터 DiT 백본으로 업그레이드되었으며, 품질 중심의 XL-Base와 XL-SFT, 8단계 가속 생성을 위한 XL-Turbo가 도입되었습니다.",
+ "id": "n-b9e02bd01a",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "MIT 라이선스로 배포되며 법적으로 문제없는 데이터셋으로 학습되었습니다. 노드 기반 워크플로를 위한 공식 ComfyUI 통합을 제공합니다.",
+ "source_sha256": "e869f9d71ce55af4f7502317e120d1d5bfceabc4bb18a8b6cf421d4e6e0557fa",
+ "summary": "고품질 오디오 합성을 위한 4B 파라미터 Diffusion Transformer(DiT) 아키텍처를 갖춘 오픈소스 음악 생성 프레임워크입니다. 곡의 설계도를 계획하는 데 하이브리드 언어 모델을 사용하며, 50개 이상의 언어로 최대 10분 길이의 완성곡을 지원합니다.",
+ "title": "ACE-Step 1.5 XL 음악 생성",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

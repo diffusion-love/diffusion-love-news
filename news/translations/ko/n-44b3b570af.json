@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이 프로젝트는 SIGGRAPH 2026에 채택되었으며, 2026년 5월에 공식 소스 코드, 사전 학습된 모델, 포괄적인 MA-Data 데이터셋이 공개되었습니다.",
+ "id": "n-44b3b570af",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "시간적 안정성을 위해 BiMamba-Transformer 하이브리드 아키텍처를 사용하며, 학습 구간을 넘어서는 장시간(30s+) 합성을 처리합니다.",
+ "source_sha256": "5be5f3cedf86d51a4c02b5dad4a401a0cbd543c2910a7c76c68148ea92e833cc",
+ "summary": "동작 합성과 외형 렌더링을 분리하는 계단식 Mixture-of-Experts 접근법을 사용한 음악 기반 댄스 비디오 생성 프레임워크입니다. 장시퀀스 생성에서 최첨단 결과를 달성하며, 캐릭터 동작의 제로샷 편집을 지원합니다.",
+ "title": "MACE-Dance: 댄스 생성을 위한 동작-외형 계단식 전문가",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

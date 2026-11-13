@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 중반 현재 이 프로젝트는 CVPR 2026 Highlight입니다. Meta는 정책상의 이유로 일부 백본 레이어를 무작위로 재초기화한 코드와 '파운데이션 체크포인트'를 공개했으며, 사용자가 완전한 성능을 얻으려면 짧은 파인튜닝 과정이 필요합니다.",
+ "id": "n-44592b77d5",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "잠재 단계 없이 픽셀 공간에서 전적으로 작동하며, 대규모 픽셀 수준 학습이 세밀한 작업에서 사전 학습된 인코더에 의존하는 모델을 능가할 수 있음을 보여줍니다.",
+ "source_sha256": "06db3ad1f244d9f638518588acad5a1f977c88ed00206387c12f6d1559a8afa5",
+ "summary": "Meta AI의 네이티브 통합 멀티모달 모델로, 원시 픽셀에서 직접 시각 이해와 생성을 수행합니다. 직접적인 패치 임베딩과 rectified flow를 사용하는 단일 Transformer 아키텍처로, CLIP이나 VAE 같은 기존 시각 인코더를 대체합니다.",
+ "title": "Tuna-2: 픽셀 임베딩이 비전 인코더를 능가하다",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

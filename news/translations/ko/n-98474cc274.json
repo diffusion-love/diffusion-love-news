@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이 프로젝트는 밀집 Diffusion Transformer(DiT) 설계에서 희소 아키텍처로의 전환을 나타냅니다. 출시 이후 ComfyUI에 통합되었고, 커뮤니티 파인튜닝을 위한 인기 있는 '깔끔한' 베이스 모델로 남아 있습니다.",
+ "id": "n-98474cc274",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "이 모델은 Apache-2.0 라이선스로 공개되며, 전체 학습 레시피와 가중치를 Hugging Face에 포함합니다.",
+ "source_sha256": "d8b8634c03653d9c54246f560c4f1b5df88fcabe534bcc8d2295b5bcce4e586a",
+ "summary": "모델 용량과 추론 비용을 분리하기 위해 희소 Mixture-of-Experts 아키텍처를 사용하는 17B 파라미터 텍스트-이미지 모델입니다. 순방향 계산당 약 2B 파라미터만 활성화하여 지연 시간을 크게 줄이면서 고품질 생성을 제공합니다.",
+ "title": "Nucleus Image: 희소 Mixture-of-Experts 확산 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

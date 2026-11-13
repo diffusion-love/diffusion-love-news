@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 'BachVid' 연구 논문(2025)에서 2026년 5월 본격적인 산업용 출시로 발전했습니다. 이후 독특한 멀티 샷 'Montage Mode'와 1080p 네이티브 렌더링을 갖춘 최상위 영화 도구로 자리를 잡았습니다.",
+ "id": "n-a7521b7b08",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "전 Tencent 과학자 Dr. Wei Liu가 설립했습니다. 현재 Artificial Analysis Video Arena 벤치마크에서 전 세계 6위입니다.",
+ "source_sha256": "ae061c1914995178956a2bf37fcea0208c8adee2a90b1d8a4fd333ee05b2cc80",
+ "summary": "BACH는 캐릭터 안정성과 연출 제어에 중점을 둔 산업급 비디오 생성 엔진입니다. 사용자가 단일 텍스트 프롬프트로부터 동기화된 오디오가 포함된 30초 멀티 샷 영상을 생성할 수 있게 합니다.",
+ "title": "BACH 1.0: 멀티 샷 AI 비디오 생성",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "n-782f0991a7",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "bede49e80c1ffd47fa0facdb92f29747f13ae016aa06984f519eaf692905aa0c",
+ "summary": "2026-03-18, Doodles Stoodio 개발 라인은 공개 엔드포인트를 기록했습니다: https://stoodio.doodles.app/. 이는 프로젝트의 날짜가 기록된 공개 기준점을 확립하지만, 봉인된 증거로는 출시, 기능 변경 또는 운영상의 영향이 확인되지 않습니다.",
+ "title": "Doodles Stoodio 공개 웹 엔드포인트 기록됨",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

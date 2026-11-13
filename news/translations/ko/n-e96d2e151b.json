@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 4월 출시 이후 이 프로젝트는 llama.cpp(triattention-ggml)로 포팅되었고 SGLang에 통합되었습니다. 현재 AMD/ROCm과 NVIDIA Blackwell 아키텍처를 지원하며, 양자화 도구와 함께 로컬 추론 모델 스택의 표준 구성 요소로 자주 쓰입니다.",
+ "id": "n-e96d2e151b",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "MIT와 NVIDIA 연구자들이 개발했으며, AIME25 같은 벤치마크에서 정확도 손실 없이 KV 메모리를 10배 이상 줄입니다.",
+ "source_sha256": "e2ed3cce20e220c2845ef42966afee8ad87a340347f404de22bf62d4212f4698",
+ "summary": "삼각함수 표현을 통해 pre-RoPE 어텐션 점수를 모델링하여 KV 캐시 압축을 최적화하는 오픈소스 프레임워크입니다. 장문 컨텍스트 추론 모델의 메모리 오버헤드를 크게 줄여, 소비자 하드웨어에서 고성능 로컬 배포를 가능하게 합니다.",
+ "title": "TriAttention: 삼각함수 KV 압축을 통한 효율적인 장문 추론",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

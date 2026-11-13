@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 빠른 상호작용 모델이 실시간 대화를 처리하고, 비동기 백그라운드 모델이 복잡한 추론을 관리하는 이중 모델 시스템을 도입했습니다. 현재 파트너를 대상으로 한 리서치 프리뷰 단계입니다.",
+ "id": "n-972d1e2832",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Mira Murati와 Soumith Chintala가 설립했습니다. TML-Interaction-Small 모델은 276B 파라미터의 Mixture-of-Experts 아키텍처를 사용합니다.",
+ "source_sha256": "f8c33d85891a09cb6d3efda7664aa552aaa2b0ab1e6dd03bc6c12214f7db717a",
+ "summary": "Thinking Machines Lab이 네이티브 실시간 멀티모달 상호작용을 위해 설계한 새로운 종류의 AI 시스템입니다. 마이크로 턴 아키텍처를 활용하여 오디오, 비디오, 텍스트를 200밀리초 단위 청크로 처리하며, 동시 인지와 응답을 가능하게 합니다.",
+ "title": "TML Interaction Models: 실시간 멀티모달 AI",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

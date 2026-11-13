@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 기본 투영 도구에서 3D 인식 아웃페인팅과 novel view synthesis를 위한 포괄적인 파이프라인으로 발전했습니다. 최근 업데이트로는 Depth Anything V3 통합, Wan2.1 및 LTX-2.3 같은 생성형 비디오 모델 지원, 인터랙티브 카메라 궤적 기록을 위한 새로운 Open3D 기반 GUI가 포함됩니다.",
+ "id": "n-3354f12396",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "주요 의존성은 Open3D와 FFmpeg이며, 이 도구는 완전 구형 VR 환경으로의 반복적 아웃페인팅에 특히 최적화되어 있습니다.",
+ "source_sha256": "125ef044abdbad7bba7aa4957f7c13f2641c381446682bb1ce64b9e2b26c8d65",
+ "summary": "깊이-포인트 클라우드 파이프라인을 사용해 3D 인식 이미지 변환과 VR 콘텐츠 제작을 가능하게 하는 ComfyUI용 커스텀 노드 전문 스위트입니다. 복잡한 비디오 합성 워크플로를 위해 핀홀, 어안, 등장방형(equirectangular) 카메라 모델 사이의 원활한 재투영을 지원합니다.",
+ "title": "camera-comfyUI: ComfyUI용 3D 카메라 투영 노드",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 4월 ByteVisionLab GitHub 조직을 통해 추론 코드가 공개되었습니다. 4단계 증류와 경량화된 모바일 U-Net 백본 덕분에 현재 스마트폰에서 실시간 성능을 달성합니다.",
+ "id": "n-c56d07046e",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "ByteDance Intelligent Creation Lab이 개발했으며, 생성과 편집 워크플로를 하나로 합치기 위해 인컨텍스트 공간 연결(in-context spatial concatenation)을 도입했습니다.",
+ "source_sha256": "fa3c50863bd9e7086a5bb391341a9b206527517c78d2bc5c71f9969716b7f3c5",
+ "summary": "ByteDance가 모바일 하드웨어를 위해 설계한 소형 0.39B 파라미터 디퓨전 모델입니다. 통합 아키텍처를 사용해 텍스트-이미지 생성과 지시 기반 이미지 편집을 기기 내에서 모두 수행합니다.",
+ "title": "DreamLite: 통합 온디바이스 이미지 생성 및 편집",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

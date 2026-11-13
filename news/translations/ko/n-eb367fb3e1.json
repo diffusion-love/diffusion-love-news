@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "단일 이미지 재구성을 위해 LumiVid 연구에서 파생되었으며, 대규모 DiT 모델을 지원하도록 확장되었습니다. 현재 Qwen-Image-Edit-2511용 프로덕션 준비가 된 LoRA를 제공하고, 더 빠른 FLUX.2-klein 아키텍처에 대해서는 실험적 지원을 제공합니다.",
+ "id": "n-eb367fb3e1",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Nuke 및 DaVinci Resolve와 호환되는 scene-linear EXR 파일을 생성하며, ComfyUI_Gear 노드 모음을 통해 ComfyUI에 통합되어 있습니다.",
+ "source_sha256": "146f3e2f6fe8d034746f02a6281d8089471c641fa4319b188b9fd05ec3a8783b",
+ "summary": "LumiPic은 디퓨전 트랜스포머를 사용해 표준 동적 범위(SDR) 이미지를 16비트 HDR EXR 파일로 변환하는 오픈소스 도구입니다. LogC3 인코딩 디퓨전을 활용해 전문 VFX 파이프라인을 위해 누락된 하이라이트와 섀도 디테일을 복원합니다.",
+ "title": "LumiPic: SDR에서 HDR로 변환하는 이미지 디퓨전",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

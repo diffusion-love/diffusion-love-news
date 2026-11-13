@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 4월 글로벌 리더보드 상위 모델로 익명으로 처음 등장했으며, 이후 Alibaba 프로젝트로 밝혀졌고 2026년 5월 완전한 상업적 제공으로 전환되었습니다.",
+ "id": "n-6562acabdd",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "통합 단일 스트림 Transformer 아키텍처를 사용합니다. 영어, 중국어 표준어, 일본어를 포함한 7개 이상의 언어에서 네이티브 립싱크를 지원합니다.",
+ "source_sha256": "1b40c12b9995c2c0e84c327f2cf9781065ba6c1a4bb0402845a3ebe26b22b5d4",
+ "summary": "Alibaba의 150억 파라미터 멀티모달 모델로, 고품질 비디오와 동기화된 오디오를 동시에 생성합니다. 음소 단위 립싱크와 제작 준비가 된 콘텐츠에 최적화된 1080p 해상도를 특징으로 합니다.",
+ "title": "Happy Horse 1.0: 통합 비디오 및 오디오 생성 모델",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

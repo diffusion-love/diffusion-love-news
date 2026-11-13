@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "기본적인 조건 감지에서 Soft, Medium, Hard 충실도 모드를 갖춘 정교한 'Identity Lock' 시스템으로 발전했습니다. 최근 업데이트에서는 공간적 정체성 안내를 위한 Mask Ref Control과 의존성 없는 모델 훅 추적을 도입했습니다.",
+ "id": "n-76a6e0d291",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "capitan01R이 개발했습니다. 활성 토큰을 분리하고 내부 모델 블록을 직접 대상으로 삼아 Qwen3 기반 텍스트 인코더의 한계를 우회합니다.",
+ "source_sha256": "165414c8439225bc6c2f1cf893803888ce19a72e39396fa129e9fa3238de7570",
+ "summary": "LoRA 학습 없이 FLUX.2 Klein 모델에서 캐릭터 정체성을 보존하기 위한 ComfyUI 노드 모음입니다. 모델 훅 추적과 정체성 안내를 사용하여 참조 특징을 모델의 이중 스트림 아키텍처에 직접 주입합니다.",
+ "title": "ComfyUI-Flux2Klein-Enhancer 얼굴 보존 노드",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

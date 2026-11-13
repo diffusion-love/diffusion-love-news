@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "이 버전은 공식 Qwen3.6 출시를 따르며, 복잡한 추론을 위한 'Thinking' 모드를 도입했습니다. Mac에서의 추론 속도를 크게 최적화했으며, 초기 커뮤니티 3비트 포트보다 두 배 빠른 것으로 알려져 있습니다.",
+ "id": "n-019c913613",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "chat template에서 'preserve_thinking'을 활성화해야 합니다. 의미 품질을 유지하기 위해 핵심 레이어(임베딩/예측)에는 5비트 정밀도를 사용합니다.",
+ "source_sha256": "4b8c1df5dfe20f47715ee3ad8fdf9839ef755f0e492ab0ee3a83414eb26c146d",
+ "summary": "Apple Silicon 사용자를 위해 특별히 최적화된 Qwen3.6-27B의 고성능 3비트 MLX 양자화 모델입니다. 혼합 정밀도 전략으로 속도와 지능의 균형을 맞추어, 16GB RAM 하드웨어에서도 대규모 추론이 가능하게 합니다.",
+ "title": "Qwen3.6-27B-3bit-mlx",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

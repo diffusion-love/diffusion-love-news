@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "바이럴 GitHub 저장소에서 기술 arXiv 논문과 Model Context Protocol(MCP) 지원을 갖춘 완전한 프레임워크로 발전했습니다. v3.x 업데이트는 AAAK 압축 방언을 도입하고 로컬 우선 성능을 강화했습니다.",
+ "id": "n-a3583f87c7",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "배우 Milla Jovovich와 개발자 Ben Sigman이 공동 개발했습니다. 다른 AI 메모리 시스템에서 발견되는 '요약 드리프트'를 피하는 점이 주목할 만합니다.",
+ "source_sha256": "29883f5dfd027546efde73b0a57dd5755b2377c288766b41ebcedc2315dfaa6f",
+ "summary": "LLM 추론을 거치지 않는 쓰기 경로와 계층형 저장소를 사용하여 원문 우선의 장기 컨텍스트를 유지하는 로컬 우선 AI 메모리 시스템입니다. LLM 가독성을 위해 30배의 데이터 밀도를 달성하는 AAAK라는 맞춤 압축 방언을 사용합니다.",
+ "title": "MemPalace: LLM을 위한 효율적 무한 메모리 압축",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

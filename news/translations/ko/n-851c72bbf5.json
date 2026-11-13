@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "공식 릴리스 라인이 v0.1.8에 도달했습니다. 현재 가이드는 base/SFT 50단계 CFG, turbo 8단계 CFG 없음, XL 하드웨어 한계를 구분하여 유지합니다.",
+ "id": "n-851c72bbf5",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "a1eeed3bc9e74984f60d8cc130ef350015c2dd128cb8951c73390bbcada3d638",
+ "summary": "공식 릴리스 라인이 v0.1.8에 도달했습니다. 현재 가이드는 base/SFT 50단계 CFG, turbo 8단계 CFG 없음, XL 하드웨어 한계를 구분하여 유지합니다.",
+ "title": "ACE-Step 1.5, 아티팩트별 GPU 가이드와 함께 v0.1.8 출시",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

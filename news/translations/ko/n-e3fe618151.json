@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "2026년 4월 처음 공개된 이 프로젝트는 공식 ComfyUI 워크플로와 함께 1.4M 장 이미지 데이터셋으로 빠르게 확장되었습니다. 현재는 Tencent의 Hunyuan 및 FLUX 모델 생태계를 위한 기반 스타일 큐레이션 도구로 쓰입니다.",
+ "id": "n-e3fe618151",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "ArXiv:2604.08364로 발표되었으며, 일관된 스타일 매핑을 위해 Qwen-Image를 활용하고 자동화된 스타일-콘텐츠 분리를 지원합니다.",
+ "source_sha256": "5ec28d2339fe03923a5bd2a8032cac856f4bef9dd39537cf1b4093c3b041d1d8",
+ "summary": "디퓨전 모델에서 정밀한 예술 스타일 전이를 위한 자동 데이터 큐레이션 프레임워크이자 1.4M 이미지 데이터셋입니다. 비전-언어 모델을 활용해 스타일과 콘텐츠를 분리함으로써 일관된 스타일 라이브러리 생성을 가능하게 합니다.",
+ "title": "MegaStyle: 확장 가능한 예술 스타일 큐레이션 파이프라인",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

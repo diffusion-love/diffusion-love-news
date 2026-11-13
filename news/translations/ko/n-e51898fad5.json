@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "GLM-5와 GLM-4.7의 후속작으로, 코드 생성에서 자율 엔지니어링으로 초점을 옮겼습니다. 복잡한 추론을 위한 ‘interleaved thinking’을 도입했으며, SWE-Bench Pro에서 상위권에 올라 여러 최상위 비공개 모델을 능가했습니다.",
+ "id": "n-e51898fad5",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "200K 컨텍스트 윈도우와 128K 출력 한도를 갖추고 있으며, Claude Code와 Cline 같은 널리 쓰이는 에이전트 프레임워크와 호환됩니다.",
+ "source_sha256": "6bb55e3361a48f446f2df28d246028478709176c24818e73f74f52c452337ba8",
+ "summary": "장기 과제 자율 코딩과 엔지니어링 작업에 최적화된 754B 파라미터 희소 MoE 모델입니다. 8시간짜리 엔지니어링 교대 작업과 수천 건의 도구 호출에 걸쳐 일관된 성능을 유지하도록 설계되었습니다.",
+ "title": "GLM-5.1: Z.ai의 자율 엔지니어링 에이전트",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

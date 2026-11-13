@@ -1,0 +1,11 @@
+{
+ "id": "n-bb76b83d43",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "ComfyUI custom_nodes 디렉터리에 저장소를 클론하십시오.\n\nDrama 3 모델 가중치는 models/diffusion_models에, 코덱 가중치는 models/vae에 내려받으십시오.\n\n제공된 음성 클론 또는 텍스트 음성 변환 예제 워크플로를 불러오고, 화자 클로닝을 위해 참조 오디오를 연결한 뒤 감정 태그와 함께 실행을 큐에 넣으십시오.\n\n8GB 그래픽카드에서는 활성 전문가 캐시를 위해 GPU VRAM을 확보하면서, 라우팅된 전문가용 시스템 RAM 오프로딩을 설정하십시오.\n\n고충실도 음성 클로닝을 위해서는 배경 잡음이 없는 짧고 깨끗한 참조 음성 녹음을 사용하십시오.\n\n다화자 대화 스크립트 전체에서 톤을 조절하려면 [whispers] 또는 [laughs] 같은 지시형 대괄호 연기 지시어를 삽입하십시오.",
+ "source_sha256": "a639806c5b348c8fa932f5c305173b24c07628aa5a78f06816fcf6037f001f26",
+ "summary": "ComfyUI-Drama3 커스텀 노드가 호스트-디바이스 간 전문가 캐싱을 최적화하도록 업데이트되었으며, 8GB VRAM 시스템에서 Fish Audio의 35B Drama 3 모델에 대해 보고된 3배에서 4배의 추론 속도 향상을 제공합니다.",
+ "title": "ComfyUI-Drama3, 8GB VRAM 환경에서 3배 이상 가속하는 전문가 캐싱 업데이트",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

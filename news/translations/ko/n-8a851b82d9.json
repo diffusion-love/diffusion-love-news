@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "프로젝트는 기본적인 프레임 보간에서 Wan 확산 시리즈를 사용하는 완전한 4D 앵커 제어 워크플로로 발전했습니다. 2026년 5월 기준으로 고충실도 카메라 제어와 지시 기반 편집을 위해 Wan 2.7 아키텍처를 지원합니다.",
+ "id": "n-8a851b82d9",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Morphic Films가 개발했으며, 재구성된 포인트 클라우드 공간에서 수동 카메라 궤적 키프레이밍을 위한 전용 4D Visualizer를 포함합니다.",
+ "source_sha256": "8be63e3f43bdd169cd5768bd81baaf1a2fea2a548921e14bbad20a02f1f11d5b",
+ "summary": "단안 영상에서 카메라 궤적을 변경할 수 있게 하는 자기 지도 비디오 확산 시스템입니다. 원본 비디오에서 도출된 4D 포인트 클라우드 앵커를 사용해 일관된 시점 합성을 위한 기하학적 조건을 제공합니다.",
+ "title": "Reshoot-Anything: 4D-Anchor 제어 비디오 시점 합성",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}
