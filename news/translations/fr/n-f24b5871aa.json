@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet est devenu une version Alpha en avril 2026, introduisant un UNet de 1.6B paramètres et un encodeur de texte Qwen3.5. Il intègre désormais une capacité d'upscaling 2x via un décodeur VAE asymétrique à 32 canaux.",
+ "id": "n-f24b5871aa",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Capable de générer des images à ~30 it/s sur du matériel haut de gamme ; principalement optimisé pour les contenus artistiques et illustratifs.",
+ "source_sha256": "2912228ad9f67bfdb1235ac9bedcf16dda69bc0b555eaacb6146c821820f027a",
+ "summary": "Un modèle de diffusion compact de 1.6B paramètres, optimisé pour une vitesse d'inférence extrême et un upscaling d'image 2x fidèle. Il utilise une architecture VAE asymétrique pour agrandir les images sans introduire d'hallucinations IA ni de textures indésirables.",
+ "title": "SDXS-1B : diffusion temps réel et upscaler haute fidélité",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

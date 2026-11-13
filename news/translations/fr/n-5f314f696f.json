@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "Le billet d'actualité décrivait l'analyse de musique pouvant atteindre 15 minutes, des descriptions, des questions de structure et de mixage, la reconnaissance d'instruments et de genres, la transcription multilingue des paroles et le contexte culturel.",
+ "id": "n-5f314f696f",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "fe113cc02c19a85502f3ac64664ec0a35be605a5784b2b00c50339c3546a4ce1",
+ "summary": "Le billet d'actualité décrivait l'analyse de musique pouvant atteindre 15 minutes, des descriptions, des questions de structure et de mixage, la reconnaissance d'instruments et de genres, la transcription multilingue des paroles et le contexte culturel.",
+ "title": "Music Flamingo vise la compréhension de la musique de longue durée",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

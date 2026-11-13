@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "La série s'est ramifiée en MiniCPM-o pour l'interaction omni-modale en temps réel (audio/vidéo), tandis que la série V s'est spécialisée dans l'efficacité en périphérie avec l'OCR haute résolution et une compression avancée des tokens vidéo.",
+ "id": "n-36e9bae8ed",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Construit sur Qwen3.5 ; prend en charge le traitement d'images haute résolution jusqu'à 1.8M pixels et est optimisé pour l'exécution sur NPU/GPU iOS et Android.",
+ "source_sha256": "07b2bc1c56145be4a253d5b20c54e9ab9898c3c4bf5c6b1487a08b40da9275f4",
+ "summary": "MiniCPM-V 4.6 est un modèle vision-langage de 1.3B paramètres optimisé pour le déploiement mobile et en périphérie. Il utilise une compression mixte des tokens visuels pour atteindre des performances équivalentes à celles de modèles plus grands, tout en réduisant nettement les coûts de calcul sur les appareils portables.",
+ "title": "MiniCPM-V 4.6 : modèle multimodal efficace natif de la périphérie",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

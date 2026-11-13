@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Représente le passage de modèles séparés par modalité à une architecture « Omni » unifiée dans la famille Nemotron 3 ; des variantes Super et Ultra plus grandes sont prévues pour la fin 2026.",
+ "id": "n-1cfc0e728d",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Utilise un backbone hybride Mamba-Transformer avec 30B de paramètres au total et 3B actifs par token.",
+ "source_sha256": "5dcc585442fd466405b8ead3217002ff24bf037875a61f95c2817ab96d93146e",
+ "summary": "Un modèle Mixture-of-Experts multimodal unifié qui traite nativement le texte, l'image, la vidéo et l'audio dans une seule boucle de raisonnement. Il dispose d'une fenêtre de contexte de 256k et est optimisé pour l'usage agentique de l'ordinateur et l'intelligence documentaire à haute efficacité.",
+ "title": "NVIDIA Nemotron-3-Nano-Omni-30B-A3B",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

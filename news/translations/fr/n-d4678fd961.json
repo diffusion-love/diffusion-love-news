@@ -1,0 +1,11 @@
+{
+ "id": "n-d4678fd961",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Identifiez le régime tolérant au cache dans la trajectoire d'échantillonnage du modèle de diffusion audiovisuel conjoint, correspondant généralement aux pas de diffusion intermédiaires.\n\nConfigurez la boucle d'échantillonnage pour mettre en cache et réutiliser les sorties du débruiteur audio, et contourner l'attention cross-modale pendant la phase intermédiaire, tout en maintenant l'exécution du débruiteur vidéo entièrement sans cache.\n\nRétablissez le débruitage conjoint audiovisuel complet pour les deux modalités lors des étapes terminales finales, afin d'éliminer la dérive cross-modale et de verrouiller la synchronisation audiovisuelle.\n\nÉvitez de mettre en cache les sorties du débruiteur vidéo entre les étapes d'échantillonnage intermédiaires, car les représentations vidéo ne possèdent pas la récupérabilité asymétrique de l'audio et subissent un flou temporel et une dégradation du mouvement irrécupérables.\n\nVeillez à conserver une fenêtre suffisante d'étapes de débruitage conjoint terminales à la fin de la trajectoire d'échantillonnage, pour garantir la fidélité audio et l'alignement temporel précis avec la dynamique vidéo.",
+ "source_sha256": "5895891a9df8d23a437ed507d035e73099c35d4db081ce4b2e6710f2767c36cd",
+ "summary": "Le benchmark du preprint 2610.30854 rapporte une accélération en temps d'exécution réel de 1.10x à 1.35x sur les benchmarks publics grâce à la mise en cache asymétrique par modalité, tout en préservant la fidélité audio et la synchronisation cross-modale.",
+ "title": "CAVC démontre une accélération d'inférence de 1.10-1.35x en génération audiovisuelle",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

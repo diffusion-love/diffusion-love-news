@@ -1,0 +1,11 @@
+{
+ "id": "n-2988748edd",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Sélectionnez une tâche d'évaluation XR dans le dépôt de benchmark, en fournissant à l'agent de codage la spécification en langage naturel et le squelette de projet modifiable.\n\nDéployez l'agent de codage pour générer l'application, ajouter les fonctionnalités demandées ou réparer les bugs spatiaux dans le squelette.\n\nExécutez l'application résultante dans le harnais de benchmark sur un matériel XR grand public ou un simulateur, à l'aide de séquences d'interaction scriptées et adaptatives automatisées.\n\nCollectez les résultats d'évaluation par des assertions programmatiques et une vérification visuelle, pour calculer la performance globale Pass@1.\n\nÉvaluez les agents de codage XR face à des interactions multimodales continues et à des assertions visuelles, plutôt qu'à des diffs de code statiques ou à de simples tests unitaires de fonctions pures.\n\nStructurez les prompts des agents et les API d'outils pour tenir compte explicitement des cycles de vie asynchrones des capteurs et des systèmes de coordonnées spatiales incarnés.",
+ "source_sha256": "43f360e65305c4e6a1b30dfc9a00c6da55d94a4ba2b7f391e8f673db85420268",
+ "summary": "Des chercheurs ont publié GenXR-Bench sur arXiv, un cadre d'évaluation de 112 tâches expertes couvrant la génération d'applications, l'implémentation de fonctionnalités et la réparation de bugs, pour évaluer les agents de codage IA sur le développement interactif en informatique spatiale 3D ; les meilleurs modèles évalués atteignent 50.9% de Pass@1.",
+ "title": "GenXR-Bench annoncé sur arXiv pour évaluer les agents de codage sur le développement XR interactif",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

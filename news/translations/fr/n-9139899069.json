@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "En mai 2026, Google a publié des drafters Multi-Token Prediction (MTP) pour le modèle 31B, offrant une accélération de l'inférence pouvant atteindre 3 fois. Le modèle continue de dominer les classements des modèles à poids ouverts, rivalisant avec des modèles fermés bien plus grands sur les tâches de raisonnement.",
+ "id": "n-9139899069",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Passé à une licence Apache 2.0 entièrement permissive avec la version v4, ce qui a fortement stimulé l'adoption pour les déploiements commerciaux et locaux de « Sovereign AI ».",
+ "source_sha256": "5d302e12d517bbbe945cbd2e97fa0b15dff47eb2c9d4bb138b907905f7f12a31",
+ "summary": "Un modèle à poids ouverts de niveau frontière de 31 milliards de paramètres développé par Google DeepMind, avec multimodalité native et capacités de raisonnement. Il dispose d'une fenêtre de contexte de 256k et atteint des performances de pointe en code, mathématiques et tâches agentiques.",
+ "title": "Gemma 4 31B-it",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

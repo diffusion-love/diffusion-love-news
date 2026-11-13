@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Dans la continuité de la série Qwen 3.5, la version 3.6 Plus introduit un raisonnement toujours actif, une limite de sortie de 65K tokens et des performances nettement améliorées sur des benchmarks de code comme SWE-bench.",
+ "id": "n-6a60e32785",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Score de 78,8 sur SWE-bench Verified ; tarification actuellement très agressive pour un usage en production, à environ 0,50 $ par 1M tokens en entrée.",
+ "source_sha256": "a15e5fef7609afb207462af5b0d1e8ea002ef33e2f18b5dc5eae4ae5b1fbe03f",
+ "summary": "Qwen 3.6 Plus est un grand modèle de langage multimodal d'Alibaba, spécifiquement optimisé pour les workflows agentiques autonomes et l'ingénierie logicielle à l'échelle du dépôt. Il dispose par défaut d'une fenêtre de contexte de 1 million de tokens et s'appuie sur une architecture hybride de nouvelle génération pour une inférence rapide.",
+ "title": "Qwen 3.6 Plus",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

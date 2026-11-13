@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le modèle est désormais intégré à la Pruna Performance Suite aux côtés de P-Image et P-Image-Edit, avec une prise en charge d'une résolution allant jusqu'à 1080p et un accès API en temps réel. Il a été optimisé pour des temps d'inférence inférieurs à 2 secondes.",
+ "id": "n-d4d07dd0bf",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Disponible via API REST et Replicate ; le tarif varie selon la résolution ($0.025-$0.045/sec).",
+ "source_sha256": "5a3772e698a3e7a4d9db09a5bb648915b9722cb36165ccfd53974842f2dc627f",
+ "summary": "P-Video-Avatar est un service spécialisé de Pruna AI qui génère des vidéos réalistes de têtes parlantes animées à partir d'un seul portrait. Il propose une synchronisation labiale avancée, à partir de scripts textuels comme de fichiers audio importés.",
+ "title": "P-Video-Avatar : animation de têtes parlantes IA à haute vitesse",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Après la sortie de l'architecture BANG de 10B paramètres fin 2025 (Gen 2), la mise à jour 2.5 introduit le sculptage de surface ultra-détaillé et les fonctions d'export « Smart Low-Poly » avec la cuisson automatisée des normal maps.",
+ "id": "n-f0cec18709",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Développé par DeemosTech ; le projet est passé des préversions de recherche à la plateforme créative intégrée Hyper3D pour les workflows professionnels de jeux vidéo et de VFX.",
+ "source_sha256": "d3b1f6a1bd6118e3774ab31e0bfe4398d1dd98dbd9f4feb837302a28abbb710d",
+ "summary": "Une plateforme d'IA générative pour la création d'assets 3D haute fidélité, qui produit une géométrie de qualité sculpture et une topologie prête pour la production à partir de prompts textuels ou d'images. Elle utilise l'architecture BANG de 10B paramètres pour décomposer les objets complexes en parties modulaires à haut niveau de détail.",
+ "title": "Rodin Gen 2.5 (Hyper3D)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

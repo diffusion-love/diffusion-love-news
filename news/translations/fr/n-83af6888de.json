@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Publié en avril 2026 comme premier grand outil d'IA open source de Netflix. Il a depuis été intégré à l'écosystème CogVideoX et mis à jour pour prendre en charge SAM3 pour la génération automatique de masques.",
+ "id": "n-83af6888de",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Nécessite un matériel important (40GB+ de VRAM) et un pipeline multi-étapes faisant appel à Google Gemini pour le raisonnement sur la scène et à SAM3 pour le masquage.",
+ "source_sha256": "4a8f1c61e850b167725f799e70a3548f112b4011d50fb28353a923ee2c42731a",
+ "summary": "Un framework d'inpainting vidéo tenant compte de la physique, qui supprime les objets ainsi que leurs effets causaux secondaires. Il utilise une stratégie « quadmask » unique pour garantir la cohérence physique, par exemple en retirant une balle ainsi que son impact sur d'autres objets.",
+ "title": "VOID : suppression des objets et interactions dans la vidéo, de Netflix",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Issu d'un outil de recherche pour le benchmark Auto-ClawEval de 1,040 tâches, il est devenu une boîte à outils généraliste prenant en charge le Model Context Protocol (MCP) et la génération d'environnements à la volée pour le débogage d'agents.",
+ "id": "n-2f8c6f34f0",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Atteint une qualité de niveau humain dans la génération de benchmarks, avec une réduction de 13,800x du coût et du temps par rapport à une curation manuelle.",
+ "source_sha256": "d19d80a5bd47d6e38c8360915110cbc309bc7b31741388510a1c34755027503c",
+ "summary": "Une boîte à outils autonome pour générer et valider des environnements pour des agents IA utilisant des outils. Elle automatise la création des spécifications de tâches, des interfaces d'outils et des configurations de scoring continu, afin de permettre un benchmarking à grande échelle.",
+ "title": "ClawEnvKit : génération automatique d'environnements pour agents IA",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

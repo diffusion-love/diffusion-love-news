@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Issu de Waypoint-1 avec une échelle d'entraînement 100x plus grande, il introduit le runtime Biome pour l'accélération GPU locale et des niveaux optimisés pour divers matériels.",
+ "id": "n-2090ac5f1b",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Publié en open source sous licence Apache 2.0 ; prend en charge le contrôle à la première personne et la cohérence de l'environnement en temps réel.",
+ "source_sha256": "a79d4d3ea5a3f332557256917c0bc467fd0744154da2825185934463dcbec027",
+ "summary": "Waypoint-1.5 est un modèle génératif du monde qui permet l'exploration en temps réel à la première personne d'environnements synthétisés par IA. Il est conçu pour une exécution locale sur du matériel grand public, avec une navigation réactive et des interactions à fréquence d'images élevée.",
+ "title": "Waypoint-1.5 : modèle vidéo interactif du monde en temps réel",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

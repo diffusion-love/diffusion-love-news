@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "La version 2.6 introduit la suppression contextuelle de la redondance des processus pour rationaliser le raisonnement en chaîne de pensée. Elle succède à la série Ring-2.5 avec une meilleure efficacité de génération de tokens et des besoins en VRAM réduits.",
+ "id": "n-58129455d1",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Publié par InclusionAI (Ant Group) ; disponible gratuitement sur OpenRouter et intégré à Kilo Code.",
+ "source_sha256": "fcaff7d4a5c1b365d57f1e5d8af39adc6fbcf1fb38dcefdc52f2223a523061a8",
+ "summary": "Un massif modèle Mixture-of-Experts de 1 000 milliards de paramètres, optimisé pour le raisonnement complexe et les workflows agentiques. Il prend en charge une fenêtre de contexte de 262K tokens et est spécifiquement réglé pour le code et l'utilisation d'outils.",
+ "title": "Ring-2.6-1T : modèle MoE agentique haute performance",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

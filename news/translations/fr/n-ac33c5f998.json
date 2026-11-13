@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Initialement un fork optimisé pour la VRAM destiné aux GPU grand public, il est devenu une suite pour utilisateurs avancés prenant en charge des modes multi-images pour des durées vidéo illimitées. Les mises à jour récentes ont ajouté la prise en charge des encodeurs de texte Gemma-3 et intégré des pipelines de clonage vocal.",
+ "id": "n-ac33c5f998",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Optimisé pour le matériel disposant de 24GB de VRAM ; prend en charge la quantification fp8 et le changement de modèle GGUF pour abaisser les barrières d'entrée par rapport aux versions officielles.",
+ "source_sha256": "df24642a2643126180382a7ae2fcc37d8c318b14d0b7a62d9543c269332448db",
+ "summary": "Une application de bureau complète pour la génération vidéo locale de haute qualité à l'aide du modèle de diffusion LTX-2.3. Elle offre des performances optimisées pour le matériel, une synchronisation labiale intégrée et une file d'attente de tâches multi-GPU pour des workflows IA professionnels.",
+ "title": "LTX2.3-Multifunctional : suite vidéo IA locale avancée",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

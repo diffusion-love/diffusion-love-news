@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Sulphur 2 est publié en tant que checkpoint de base dérivé de LTX-2.3.",
+ "id": "n-8913c98771",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "La fiche modèle de SulphurAI identifie Sulphur-2-base comme un checkpoint dérivé de LTX-2.3.",
+ "source_sha256": "985b5ed8dd0a9df255853cd246f7aa2a3a1b5bdad1398a7aa8d1cae6236d6819",
+ "summary": "Sulphur 2 est un checkpoint de modèle vidéo public publié par SulphurAI.",
+ "title": "Sulphur 2 : modèle de génération vidéo",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

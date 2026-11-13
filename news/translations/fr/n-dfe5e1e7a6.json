@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "La mise à jour 2.6 a introduit la fonctionnalité phare AI Cover, des contrôles précis du BPM et de la tonalité, et réduit la latence de génération à moins de 20 secondes. Elle a également lancé des modules open source MusicSkill pour intégrer la génération musicale dans les écosystèmes d'agents IA.",
+ "id": "n-dfe5e1e7a6",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Prend en charge un audio haute fidélité à 44.1kHz et des morceaux complets allant jusqu'à 6 minutes.",
+ "source_sha256": "9a922f258549c3151ebf35bda29020e6ad3404949de84e8bd397960f135dd658",
+ "summary": "MiniMax Music est une plateforme professionnelle de création musicale par IA qui génère un audio haute fidélité à partir de prompts textuels et de paroles. Elle fonctionne aujourd'hui comme un partenaire créatif complet, avec des outils pour les covers IA et la structuration musicale professionnelle.",
+ "title": "MiniMax Music 2.6 : plateforme de génération musicale par IA",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

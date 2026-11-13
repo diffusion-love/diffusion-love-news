@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Mis à jour au milieu de l'année 2026 avec une quantification à 1.25-bit via le framework Sherry, ce qui réduit le modèle 1.8B à 440MB pour un déploiement sur du matériel mobile d'entrée de gamme. Il constitue actuellement la référence du secteur pour la traduction hors ligne sur l'appareil.",
+ "id": "n-e17cbf7ded",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Introduit l'intervention terminologique et la traduction multi-tours tenant compte du contexte ; intégré à Tencent Meeting et à Enterprise WeChat.",
+ "source_sha256": "3006d91228acb0b3bca058030d54b5c1721161ef64da60dcb4c6484419a6d5c2",
+ "summary": "Un modèle de traduction multilingue compact, optimisé pour une utilisation mobile sur l'appareil grâce à une compression extrême. Il offre des performances de haut niveau dans 33 langues avec des exigences matérielles minimales.",
+ "title": "Tencent Hy-MT1.5 : traduction automatique mobile",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

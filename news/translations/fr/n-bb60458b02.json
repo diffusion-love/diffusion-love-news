@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet est passé de la sortie FLUX.2 [klein] de janvier 2026 à un outil de production hautement optimisé, grâce à l'intégration du moteur d'accélération Nunchaku. Une variante spécialisée à cache KV a été publiée ensuite en avril 2026 pour accélérer l'édition multi-références.",
+ "id": "n-bb60458b02",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Réduit le pic de VRAM requis de 18.5GB à environ 6.4GB, ce qui permet au modèle de 9B paramètres de tourner sur des GPU de milieu de gamme comme la RTX 3060.",
+ "source_sha256": "735956f7edb14ebbd23dbed1c94b8cb3e2c5c87580af6f9cca0bb53e78519544",
+ "summary": "Une version quantifiée en 4 bits du modèle FLUX.2 [klein] de Black Forest Labs, optimisée pour la génération d'images à faible latence. Elle s'appuie sur le moteur SVDQuant de Nunchaku pour atteindre des vitesses d'inférence inférieures à la seconde sur du matériel grand public.",
+ "title": "FLUX.2-klein-9B-Nunchaku",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

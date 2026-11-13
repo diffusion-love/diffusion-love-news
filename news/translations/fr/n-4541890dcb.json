@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "La révision vérifiée du dépôt prend en charge un workflow élargi centré sur Klein 9B, avec jusqu'à huit références, des masques et des contrôles de passage neutre explicites ; son efficacité n'a pas encore été évaluée de manière indépendante.",
+ "id": "n-4541890dcb",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "c62bf4e842ca2b506083ddb692392b69827e813bad861276005b96bc80eaa777",
+ "summary": "La révision vérifiée du dépôt prend en charge un workflow élargi centré sur Klein 9B, avec jusqu'à huit références, des masques et des contrôles de passage neutre explicites ; son efficacité n'a pas encore été évaluée de manière indépendante.",
+ "title": "Flux2Klein Enhancer atteint une implémentation multi-référence élargie",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

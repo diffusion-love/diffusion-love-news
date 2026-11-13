@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le modèle de base LTX-2.3 a évolué vers une version distillée v1.1 dotée d'un VAE amélioré pour la stabilité des textures. Les workflows utilisent désormais une « Gamma Trick » spécifique pour empêcher le modèle de confondre les ombres sombres avec des zones nécessitant un outpainting.",
+ "id": "n-3ae3ddb34b",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Nécessite du noir pur (0,0,0) pour le masquage ; largement utilisé dans ComfyUI avec des variantes GGUF/FP8 pour les GPU à faible VRAM.",
+ "source_sha256": "0b554fd2c076dbfcf7c7fe2693151e40119da45de542839a767e5c30808036e8",
+ "summary": "Un LoRA conditionné par l'entrée pour le modèle LTX-2.3 22B, qui permet l'outpainting vidéo en utilisant des pixels noirs comme sentinelles de masque. Il génère un contenu temporellement stable pour étendre les dimensions de la toile tout en préservant la cohérence de la scène d'origine.",
+ "title": "LTX-2.3-22b-IC-LoRA-Outpaint : extension de cadre vidéo",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

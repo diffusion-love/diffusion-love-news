@@ -1,0 +1,11 @@
+{
+ "id": "n-183de9a149",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Accédez au modèle de manière interactive via l'application web Kimi, Kimi Work ou Kimi Code.\n\nAppelez l'endpoint du modèle kimi-k3.1-pro via l'API de la Moonshot Open Platform pour une inférence standard à $2 en entrée et $10 en sortie par million de tokens.\n\nSélectionnez la variante d'API Highspeed pour les charges de travail nécessitant une génération deux à trois fois plus rapide, à des débits de tokens doublés.\n\nUtilisez la fenêtre de contexte de 1M tokens pour ingérer des bases de code multi-fichiers entières et des configurations complexes d'assets CAD/3D dans une seule session.\n\nPrécisez les conventions de moteur et de script ciblées lorsque vous demandez une génération procédurale pour Unreal Engine, Unity, Godot ou Three.js.\n\nDirigez les tâches interactives à haut débit et sensibles à la latence vers l'endpoint Highspeed, tout en gardant le raisonnement hors ligne complexe sur le palier standard pour maîtriser les coûts d'inférence.",
+ "source_sha256": "b43762b225895c3369f29fc510b3c4daf1587d1acb0c2534f90eabdd20b0dc74",
+ "summary": "Moonshot a déployé Kimi K3.1 Pro sur Kimi, Kimi Work et Kimi Code, en tant que mise à jour de post-entraînement à mise à l'échelle par RL.",
+ "title": "Kimi K3.1 Pro publié comme affinement post-entraînement avec option Highspeed",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

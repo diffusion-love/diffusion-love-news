@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Passé de la génération vidéo à un moteur d'« intelligence physique » ; Odyssey-2 Max multiplie par 3 le nombre de paramètres par rapport à Odyssey-2 Pro et exploite les GPU NVIDIA Blackwell. Il est actuellement en bêta privée pour des partenaires de la robotique et de la défense.",
+ "id": "n-d8bf4374be",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Utilise une architecture Autoregressive Diffusion Transformer (AR DiT) ; détient les meilleurs scores de l'état de l'art sur VBench 2 pour la précision physique.",
+ "source_sha256": "1ac157693e6d1cada49c89c249760aaf1ab6092fcc4692b2267d8b03b3fca3e6",
+ "summary": "Odyssey-2 Max est un modèle de monde génératif à grande échelle qui simule la réalité physique en temps réel grâce à la diffusion autorégressive. Il permet le streaming interactif d'environnements 3D avec une grande précision physique pour la robotique, le jeu vidéo et la simulation.",
+ "title": "Odyssey-2 Max : simulateur génératif de mondes en temps réel",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

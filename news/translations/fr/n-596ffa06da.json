@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet est passé du modèle original de 2B à un DiT de 4B paramètres dans la version XL v1.5. Il a ajouté XL-Turbo pour une inférence en 8 étapes, amélioré la cohérence vocale et ajouté la prise en charge native dans ComfyUI pour des fonctions d'édition avancées comme l'inpainting et le transfert de style.",
+ "id": "n-596ffa06da",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Comprend une architecture hybride avec un planificateur LM pour la structure des morceaux et un exécuteur DiT pour l'audio. Prend en charge plus de 50 langues et l'usage commercial sous licences Apache-2.0/MIT.",
+ "source_sha256": "4e218e238ee14ba00eb3178b953f454defc67131baa44563461096edb60d1dbc",
+ "summary": "Un modèle de fondation musicale open source de type Diffusion Transformer (DiT) de 4B paramètres, développé par ACE Studio et StepFun. Il utilise une architecture planificateur-exécuteur pour générer des chansons complètes et de haute fidélité à partir de texte ou de paroles.",
+ "title": "ACE-Step 1.5 XL",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

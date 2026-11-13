@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Évolué des versions v1.0 et v2.0 vers la v3.0, qui a introduit un modèle de récompense différentiable (DiffRO) pour l'apprentissage par renforcement et étendu l'entraînement à 1 million d'heures de parole. Le développement actuel se concentre sur les optimisations à l'exécution via l'intégration de TensorRT-LLM et vLLM.",
+ "id": "n-7de8349cd0",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Prend en charge le russe parmi 9 grandes langues, propose plus de 18 dialectes chinois et maintient une latence ultra-faible du premier paquet de 150ms pour les applications en streaming.",
+ "source_sha256": "f481bf63d809db1b66ce0116d73540d272544ac43daa1aacaa21fb3ce836755b",
+ "summary": "Un modèle de génération vocale multilingue de pointe développé par FunAudioLLM d'Alibaba, pour la synthèse en temps réel et le clonage vocal zero-shot. Il exploite un passage à l'échelle massif des données et l'apprentissage par renforcement pour atteindre une haute fidélité de prosodie et d'émotion dans neuf grandes langues.",
+ "title": "CosyVoice 3.0 : génération vocale multilingue et clonage",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

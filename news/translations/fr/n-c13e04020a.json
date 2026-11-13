@@ -1,0 +1,11 @@
+{
+ "id": "n-c13e04020a",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Téléchargez les poids du modèle ou les variantes quantifiées directement depuis le dépôt officiel Hugging Face.\n\nDéployez localement avec llama.cpp ou Ollama à l'aide des fichiers GGUF fournis, pour du matériel grand public aux ressources mémoire limitées.\n\nServez le modèle via vLLM ou SGLang afin de fournir un point de terminaison API compatible OpenAI, prenant en charge des requêtes à long contexte allant jusqu'à 1M tokens.\n\nConfigurez le paramètre de budget de réflexion (none, low ou high) pour chaque requête, afin de régler la latence de raisonnement et la consommation de tokens.\n\nUtilisez les variantes INT4 ou GGUF quantifiées sur du matériel en périphérie ou sur des GPU grand public, pour maintenir une faible consommation mémoire entre 4GB et 8GB.\n\nSélectionnez le budget de réflexion « none » pour les charges conversationnelles simples et extractives, afin de minimiser le time-to-first-token, et passez à « high » pour la logique en plusieurs étapes ou la génération de code.\n\nLors du traitement de contextes longs allant jusqu'à 1M tokens, utilisez des runtimes à attention paginée comme vLLM ou SGLang, avec des allocations de mémoire hôte appropriées pour éviter les OOM du cache KV.",
+ "source_sha256": "77f1e3382d39bb0e620a6fcdd97c289d43de78d44d1644af25926b96001c8227",
+ "summary": "Spark-X2.6-4B est disponible en tant que modèle à poids ouverts de 4B paramètres, conservant l'architecture de la version 2.5 avec des améliorations de post-entraînement. Il propose trois modes de budget de réflexion, une gestion de contexte allant jusqu'à 1M tokens, et les formats de quantification base, FP8, INT8, INT4 et GGUF.",
+ "title": "Spark-X2.6-4B publié sous Apache 2.0 avec variantes quantifiées et raisonnement configurable",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

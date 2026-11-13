@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Devenu une fonctionnalité standard demandée pour l'intégration dans les principaux pipelines de génération vidéo, comme Wan2GP. Le modèle est passé de la simple suppression de l'avant-plan à des tâches complexes de reconstruction complète de l'arrière-plan.",
+ "id": "n-daa2681205",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "La force recommandée commence à 1.25 ; les performances sont nettement améliorées en interpolant la vidéo d'entrée à 50fps avant traitement.",
+ "source_sha256": "b1d32b157b73ad1fe4ca0a25885cb0ac8b7a926024c2e6f20fb0d23843e8b8ab",
+ "summary": "Un LoRA spécialisé pour l'édition vidéo-à-vidéo, qui reconstruit les scènes d'arrière-plan en supprimant les obstructions au premier plan comme les plantes, la fumée ou la brume. Il utilise une hallucination de caractéristiques profondes pour combler les données visuelles manquantes derrière les objets occultés.",
+ "title": "Obscura Remova LTX23 : LoRA vidéo-à-vidéo",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

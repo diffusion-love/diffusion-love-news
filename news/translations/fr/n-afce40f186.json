@@ -1,0 +1,10 @@
+{
+ "id": "n-afce40f186",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "51ef0e3a1010d98be8dd817898a5867f93b187eb81f09de5f8599a4e29221c34",
+ "summary": "Le 2026-07-15, la ligne de développement de SuperSplat a relié une annonce de PlayCanvas sur la création d'applications à base de splats, accompagnée de scènes d'exemple, d'une démonstration, d'une vidéo et de la version Splat Transform v3.0.0. Ensemble, ces liens datés indiquent une étape significative vers la création et la transformation d'expériences interactives en Gaussian splats. Le périmètre exact des fonctionnalités et les relations entre les ressources liées ne peuvent pas être confirmés à partir du seul relevé.",
+ "title": "SuperSplat élargit son workflow pour les applications interactives à splats",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

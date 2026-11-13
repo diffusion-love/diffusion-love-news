@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet a évolué avec une mise à jour majeure v0.5 intégrant TRELLIS 2, permettant la génération de maillages haute résolution et la prise en charge des matériaux PBR. Il reste actif en tant que projet de recherche du GAP-LAB (CUHK-Shenzhen), soumis à ICLR 2026.",
+ "id": "n-461304d95b",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Optimisé pour les GPU grand public (24GB de VRAM) ; permet l'export aux formats GLB et Gaussian Splatting.",
+ "source_sha256": "d394f40c052f1e08c49d8dd51c91589bbf09ec2d23e8c4986aa24522f5a11e11",
+ "summary": "ReconViaGen est un cadre de reconstruction 3D qui combine les a priori de reconstruction et de génération pour créer des modèles précis à partir de vues éparses. Il intègre VGGT pour la reconstruction sans estimation de pose et TRELLIS pour la génération 3D haute fidélité, éliminant efficacement les hallucinations tout en préservant les détails d'entrée.",
+ "title": "ReconViaGen : reconstruction 3D multi-vues précise par génération",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Après la sortie initiale, le projet a introduit la variante Mixture-of-Experts A3B-MoT et des poids d'inférence à 8 étapes à haute vitesse. Il prend actuellement en charge la quantification GGUF pour un déploiement sur GPU grand public et une intégration native dans les workflows agentiques.",
+ "id": "n-4a638abcfe",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Développé par SenseTime et Light-AI ; marque un passage des adaptateurs modulaires à une intelligence multimodale native de bout en bout.",
+ "source_sha256": "1bd2b454111db39f633a3f344c3ba45bbc0d170a9a1696ac56cf0e8116553c63",
+ "summary": "Une série de modèles multimodaux unifiés et natifs de SenseTime, qui intègre compréhension, raisonnement et génération dans une seule architecture de bout en bout. Elle utilise un backbone Mixture-of-Transformers pour traiter les pixels bruts et les tokens de texte sans encodeurs séparés.",
+ "title": "SenseNova-U1 : IA multimodale unifiée avec NEO-unify",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

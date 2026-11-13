@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Unifie les architectures TDT hors ligne et streaming spécialisées, auparavant séparées, en un seul modèle capable de basculer dynamiquement entre elles. Il fait suite à la série Parakeet-TDT-0.6b et offre un WER nettement amélioré ainsi qu'une meilleure efficacité de déploiement.",
+ "id": "n-5b56fca93a",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Atteint des facteurs temps réel allant jusqu'à 3000x sur GPU H100, avec des latences aussi faibles que 160ms ; intègre nativement la ponctuation et les majuscules.",
+ "source_sha256": "4e1ab6a9b3dd09f0368cf6136be5a823e35f8cb19205c64b113a3348778c0581",
+ "summary": "Un modèle de reconnaissance automatique de la parole de 600 millions de paramètres qui unifie le traitement par lots hors ligne et la transcription en streaming en temps réel. Il utilise l'architecture Unified-FastConformer-RNNT pour offrir une grande précision et une faible latence sur des tâches audio variées.",
+ "title": "NVIDIA Parakeet-unified-en-0.6b : modèle ASR unifié",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

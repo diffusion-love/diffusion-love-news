@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Depuis sa sortie début 2026, le projet a étendu sa prise en charge aux modèles de 20B paramètres et a été optimisé pour les GPU grand public (24GB de VRAM). Il est actuellement intégré à divers wrappers d'interface open source pour une inférence de diffusion rapide.",
+ "id": "n-a7d1f83b13",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Contrairement aux méthodes de distillation linéaires comme LCM, ArcFlow paramétrise le champ de vitesse pour capturer des trajectoires non linéaires, ce qui permet des accélérations de 40x avec une perte de qualité minime.",
+ "source_sha256": "d63cd20b324049b34e7b869b961f85705cb2ef4ea4680e5a661a0c9f4275af03",
+ "summary": "Développé par Microsoft Research Asia et l'Université de Fudan, ArcFlow utilise une distillation de flux non linéaire pour générer des images de haute qualité en seulement 2 étapes. Il optimise nettement l'inférence de grands modèles comme FLUX.1 et Qwen-Image tout en préservant la fidélité visuelle.",
+ "title": "ArcFlow : cadre de génération d'images non linéaire en 2 étapes",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

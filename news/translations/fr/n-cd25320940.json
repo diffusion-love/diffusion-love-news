@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Après le succès académique de Wav2Lip, Sync Labs a publié Lipsync-2 en 2024, puis le modèle phare Sync-3 en avril 2026. La dernière version propose une super-résolution 4K native, la détection d'obstructions et un modèle de compréhension globale de la scène.",
+ "id": "n-cd25320940",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Développé par les auteurs originaux de Wav2Lip ; propose une intégration officielle à Adobe Premiere Pro ainsi qu'une API entreprise prenant en charge plus de 95+ langues.",
+ "source_sha256": "c32d6e3de88465f40ffbaf7c3b125279f7b750e02f22ceb6e50b141157c61b1b",
+ "summary": "Un modèle d'IA de 16 milliards de paramètres conçu pour la synchronisation labiale vidéo haute fidélité, avec une sortie en 4K et la préservation des émotions. Il utilise une architecture zero-shot pour synchroniser n'importe quel audio avec n'importe quel visage, y compris les prises de profil et les vues partiellement masquées.",
+ "title": "Sync-3 : synchronisation labiale IA professionnelle par Sync Labs",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-83d7f5eb84",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Téléchargez les poids du modèle ou ses variantes quantifiées directement depuis le dépôt officiel Hugging Face.\n\nDéployez en local avec llama.cpp ou Ollama à l'aide des fichiers GGUF fournis, pour du matériel grand public aux ressources mémoire limitées.\n\nServez via vLLM ou SGLang pour fournir un point d'accès API compatible OpenAI, prenant en charge des requêtes à long contexte allant jusqu'à 1M tokens.\n\nConfigurez le paramètre de budget de réflexion (none, low ou high) pour chaque requête, afin de réguler la latence de raisonnement et la consommation de tokens.\n\nUtilisez des variantes INT4 ou GGUF quantifiées sur du matériel en périphérie ou des GPU grand public, pour maintenir une consommation mémoire de 4GB à 8GB.\n\nSélectionnez le budget de réflexion « none » pour les charges de travail conversationnelles et d'extraction simples, afin de minimiser le temps jusqu'au premier token, et passez à « high » pour la logique en plusieurs étapes ou la génération de code.\n\nLors du traitement de contextes longs allant jusqu'à 1M tokens, utilisez des runtimes à attention paginée comme vLLM ou SGLang, avec des allocations de mémoire hôte appropriées, pour éviter les OOM du cache KV.",
+ "source_sha256": "bbd180a82c02dcbc1e60eba59f0de3441fc94135db47a52f49cc3fd63bf8cf59",
+ "summary": "La publication Spark-X2.6-4B comprend des poids post-entraînés et des variantes de base prenant en charge un service local compatible OpenAI via SGLang et vLLM, ainsi que des quantifications GGUF pour l'inférence sur matériel grand public.",
+ "title": "Spark-X2.6-4B ajoute la prise en charge du service compatible OpenAI via vLLM et SGLang",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

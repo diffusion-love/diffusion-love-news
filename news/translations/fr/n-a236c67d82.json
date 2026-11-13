@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet est passé d'un portage CPU uniquement à un écosystème mûr prenant en charge CUDA, Metal et Vulkan. Les mises à jour récentes ont ajouté la quantification GGUF, l'intégration VST3 pour les DAW et un « Understand Mode » pour l'analyse audio vers métadonnées.",
+ "id": "n-a236c67d82",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Repose sur un pipeline en deux étapes : ace-lm pour la composition et ace-synth pour le rendu par diffusion.",
+ "source_sha256": "8c6a6bf6c523f512bf0ba740975e0a3eb4530d2423f38756ee4281d53df0b266",
+ "summary": "Une implémentation C++ légère et portable du modèle de fondation musicale ACE-Step 1.5, construite sur le backend GGML. Elle permet de générer de la musique stéréo 48kHz de haute fidélité, sans aucune dépendance Python, sur des CPU et GPU grand public.",
+ "title": "Portage C++ d'ACE-Step 1.5 (acestep.cpp)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

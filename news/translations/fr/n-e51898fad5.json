@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Successeur de GLM-5 et GLM-4.7, il a déplacé l'accent de la génération de code vers l'ingénierie autonome. Il a introduit le « raisonnement entrelacé » (interleaved thinking) pour le raisonnement complexe et a obtenu les premières places sur SWE-Bench Pro, devançant plusieurs modèles fermés de pointe.",
+ "id": "n-e51898fad5",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Dispose d'une fenêtre de contexte de 200K et d'une limite de sortie de 128K ; compatible avec les frameworks agentiques populaires comme Claude Code et Cline.",
+ "source_sha256": "6bb55e3361a48f446f2df28d246028478709176c24818e73f74f52c452337ba8",
+ "summary": "Un modèle MoE épars de 754B paramètres, optimisé pour les tâches de codage et d'ingénierie autonomes sur de longs horizons. Il est conçu pour maintenir des performances cohérentes sur des sessions d'ingénierie de 8 heures et des milliers d'appels d'outils.",
+ "title": "GLM-5.1 : agent d'ingénierie autonome de Z.ai",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

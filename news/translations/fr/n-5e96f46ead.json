@@ -1,0 +1,11 @@
+{
+ "id": "n-5e96f46ead",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt, installez une build de PyTorch adaptée à la machine, puis installez les dépendances documentées et le paquet en mode éditable.\n\nChargez DBS-BSRNN pour la recette publiée de 3 secondes avec un pas de 1,5 seconde, ou DBS-TIGER pour la recette de 6 secondes avec un pas de 3 secondes.\n\nFournissez un audio à 44,1 kHz, convertissez une entrée multicanale en mono si vous suivez l'exemple documenté, puis appelez l'API de séparation pour obtenir les estimations de musique, d'effets sonores et de parole.\n\nFaites correspondre l'architecture du checkpoint et la recette de découpage : utilisez des fenêtres de 3 secondes avec DBS-BSRNN et des fenêtres de 6 secondes avec DBS-TIGER.\n\nConsidérez les stems de démonstration et inférés comme des estimations et non comme une vérité de référence ; inspectez les fuites entre sources et les artefacts avant toute utilisation en aval.",
+ "source_sha256": "32532aa36cbcab47ecaf533dafefa17ac927b3561d7010f24a4025a6d796dbc2",
+ "summary": "Dynamic Band Splitting fournit le code et les modèles pré-entraînés DBS-BSRNN et DBS-TIGER pour estimer la musique, les effets sonores et la parole à partir d'audio monophonique à 44,1 kHz, avec un studio d'écoute interactif.",
+ "title": "Dynamic Band Splitting publie du code et des modèles de séparation audio adaptative",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

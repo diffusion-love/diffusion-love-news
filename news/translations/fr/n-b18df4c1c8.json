@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Le projet est passé d'un article théorique à une boîte à outils pratique, dotée d'une intégration ComfyUI populaire (SPF-ReTime). Il a été mis à jour pour prendre en charge des modèles haute résolution comme Wan2.2 et LTX-Video grâce à un warping temporel sensible aux fréquences.",
+ "id": "n-b18df4c1c8",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Les études utilisateurs indiquent une préférence de 88% pour les vidéos retimées par SPF, en raison de la disparition de l'effet fantôme (ghosting) et des sauts sémantiques brusques.",
+ "source_sha256": "7f4b3f682f4b57f05dd2bf8a60b541f999a79c85c9643db50373d03593418045",
+ "summary": "Un cadre de recherche qui projette les trajectoires sémantiques des vidéos sur une fonction scalaire 1D afin d'assurer une cadence temporelle fluide. Il permet la linéarisation temporelle et corrige les vitesses irrégulières ou les arrêts fréquents des modèles vidéo génératifs.",
+ "title": "Semantic Progress Function (SPF) : une vidéo IA plus fluide",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Lancé comme successeur de V3 en avril 2026, il introduit les Manifold-Constrained Hyper-Connections (mHC) et un entraînement conscient de la quantification FP4. Il représente la dernière évolution phare de la série DeepSeek.",
+ "id": "n-bc5c88f85f",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Optimisé pour le codage autonome et les workflows agentiques complexes ; n'utilise que 10% du cache KV par rapport aux générations précédentes.",
+ "source_sha256": "9811061d275b49d9c8326f187b09e67242bc3be7598c4dc015cc607641e44151",
+ "summary": "DeepSeek-V4-Pro est un modèle Mixture-of-Experts (MoE) de 1.6 billion de paramètres publié en avril 2026 pour le raisonnement haute performance et les tâches agentiques. Il dispose d'une fenêtre de contexte native de 1 million de tokens et d'une efficacité architecturale extrême grâce à l'Hybrid Attention.",
+ "title": "DeepSeek-V4-Pro : modèle MoE phare à l'échelle du billion de paramètres",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

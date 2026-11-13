@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Publié en avril 2026 comme mise à jour d'efficacité majeure de l'écosystème FLUX.2, à la suite de la version phare FLUX.2 [dev] de fin 2025. Il est aujourd'hui devenu standard pour les pipelines d'inférence grand public.",
+ "id": "n-b2c1d5a768",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Sous licence Apache 2.0 ; offre un décodage environ 1.4x plus rapide et une réduction de 44% du nombre de paramètres par rapport au décodeur standard de FLUX.2.",
+ "source_sha256": "d52e46c8ee2db2b8113b4ccc443e2a4e7f397a64e199f14aad6abed91115684a",
+ "summary": "Un décodeur VAE (Variational Autoencoder) distillé, conçu pour optimiser les performances d'inférence de la famille de modèles FLUX.2. Il réduit nettement l'utilisation de la VRAM et accélère le décodage avec une perte minime de qualité visuelle.",
+ "title": "FLUX.2 Small Decoder (VAE distillé)",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "evolution_summary": "La ligne de publication officielle a atteint la v0.1.8 ; les recommandations actuelles gardent séparés le CFG à 50 étapes pour base/SFT, le turbo sans CFG à 8 étapes et les limites matérielles de XL.",
+ "id": "n-851c72bbf5",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "source_sha256": "a1eeed3bc9e74984f60d8cc130ef350015c2dd128cb8951c73390bbcada3d638",
+ "summary": "La ligne de publication officielle a atteint la v0.1.8 ; les recommandations actuelles gardent séparés le CFG à 50 étapes pour base/SFT, le turbo sans CFG à 8 étapes et les limites matérielles de XL.",
+ "title": "ACE-Step 1.5 atteint la v0.1.8 avec des recommandations GPU spécifiques aux artefacts",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}

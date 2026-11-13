@@ -1,0 +1,12 @@
+{
+ "evolution_summary": "Cette version fait suite au lancement officiel de Qwen3.6 et introduit un mode « Thinking » pour le raisonnement complexe. Elle accélère nettement l'inférence sur Mac : selon les informations disponibles, elle est deux fois plus rapide que les premiers portages communautaires en 3 bits.",
+ "id": "n-019c913613",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Nécessite l'activation de 'preserve_thinking' dans les templates de chat ; utilise une précision de 5 bits pour les couches critiques (embedding/prédiction) afin de préserver la qualité sémantique.",
+ "source_sha256": "4b8c1df5dfe20f47715ee3ad8fdf9839ef755f0e492ab0ee3a83414eb26c146d",
+ "summary": "Une quantification MLX 3 bits hautes performances du modèle Qwen3.6-27B, optimisée spécifiquement pour les utilisateurs d'Apple Silicon. Elle applique une stratégie de précision mixte pour concilier vitesse et intelligence, rendant le raisonnement à grande échelle viable sur du matériel doté de 16GB de RAM.",
+ "title": "Qwen3.6-27B-3bit-mlx",
+ "translated_at": "2026-11-13",
+ "translation": "machine"
+}
