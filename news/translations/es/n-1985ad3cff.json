@@ -6,7 +6,7 @@
  "research_notes": "Publicado bajo licencia Apache 2.0; diseñado específicamente para ayudar a las empresas a cumplir los requisitos de residencia de datos, procesando localmente la información sensible.",
  "source_sha256": "4e091f05210aa7b7e6a1509fe09ce9b000e3e43cdb80ed4d08460cb2c9adb35a",
  "summary": "Un modelo de clasificación bidireccional de tokens de 1.5B parámetros y pesos abiertos, diseñado para la detección y el enmascaramiento local de información personal identificable (PII). Admite una ventana de contexto de 128.000 tokens y está optimizado para la ejecución de alto rendimiento on-premises o en el navegador mediante transformers.js.",
- "title": "OpenAI Privacy Filter: modelo local de redacción de PII",
+ "title": "OpenAI Privacy Filter: modelo local de enmascaramiento de PII",
  "translated_at": "2026-11-13",
  "translation": "machine"
 }

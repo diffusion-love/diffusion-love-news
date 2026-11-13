@@ -1,5 +1,5 @@
 {
- "evolution_summary": "Das Projekt entwickelte sich von einer einfachen Frame-Interpolation zu einem vollständig 4D-verankerten, kamerageführten Workflow auf Basis der Wan-Diffusionsreihe. Seit Mai 2026 unterstützt es die Architektur Wan 2.7 für hochwertige Kamerasteuerung und anweisungsbasierte Bearbeitung.",
+ "evolution_summary": "Das Projekt entwickelte sich von einer einfachen Frame-Interpolation zu einem vollständig 4D-verankerten, kamerageführten Workflow auf Basis der Wan-Diffusionsreihe. Stand Mai 2026 unterstützt es die Architektur Wan 2.7 für hochwertige Kamerasteuerung und anweisungsbasierte Bearbeitung.",
  "id": "n-8a851b82d9",
  "lang": "de",
  "model": "claude-haiku-5-5",

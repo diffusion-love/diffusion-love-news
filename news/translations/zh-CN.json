@@ -1822,7 +1822,7 @@
   "title": "LingBot-Video 的公开项目资源被引用"
  },
  "n-6202d8d932": {
-  "research_notes": "可通过 Kimi 网页应用、Kimi Work 或 Kimi Code 与模型交互。\n\n通过 Moonshot Open Platform API 调用 kimi-k3.1-pro 模型端点进行标准推理，输入每百万 token $2、输出每百万 token $10。\n\n若工作负载需要生成速度提升 2-3x，可选择 Highspeed API 变体，其 token 速率翻倍。\n\n使用 1M-token 上下文窗口，可在单个会话中输入整个多文件代码库以及复杂的 CAD/3D 资产配置。\n\n在提示 Unreal Engine、Unity、Godot 或 Three.js 的程序化生成时，请指定有针对性的引擎和脚本约定。\n\n将高吞吐、对延迟敏感的交互任务路由到 Highspeed 端点，同时将复杂的离线推理保留在标准档位上，以控制推理成本。",
+  "research_notes": "可通过 Kimi 网页应用、Kimi Work 或 Kimi Code 与模型交互。\n\n通过 Moonshot Open Platform API 调用 kimi-k3.1-pro 模型端点进行标准推理，输入每百万 token $2、输出每百万 token $10。\n\n若工作负载需要生成速度提升 2-3x，可选择 Highspeed API 变体，其 token 价格翻倍。\n\n使用 1M-token 上下文窗口，可在单个会话中输入整个多文件代码库以及复杂的 CAD/3D 资产配置。\n\n在提示 Unreal Engine、Unity、Godot 或 Three.js 的程序化生成时，请指定有针对性的引擎和脚本约定。\n\n将高吞吐、对延迟敏感的交互任务路由到 Highspeed 端点，同时将复杂的离线推理保留在标准档位上，以控制推理成本。",
   "summary": "Moonshot 发布了 Kimi K3.1 Pro，集成了游戏引擎，支持 1M token 上下文，并提供快 2-3x 的 Highspeed API 档位。",
   "title": "Kimi K3.1 Pro 发布，附 Highspeed 变体及计划开放的权重"
  },
@@ -3740,7 +3740,7 @@
   "title": "GEMS：具备记忆能力的智能体原生多模态生成"
  },
  "n-d135dd8f66": {
-  "research_notes": "通过 Kimi 网页应用、Kimi Work 或 Kimi Code 以交互方式访问该模型。\n\n通过 Moonshot 开放平台 API 调用 kimi-k3.1-pro 模型端点进行标准推理，价格为每百万 tokens 输入 $2、输出 $10。\n\n对于需要快 2 至 3 倍生成速度（令牌速率翻倍）的工作负载，请选择 Highspeed API 变体。\n\n利用 1M 令牌上下文窗口，可在单次会话中输入整个多文件代码库以及复杂的 CAD/3D 资产配置。\n\n在提示 Unreal Engine、Unity、Godot 或 Three.js 程序化生成时，请指定明确的引擎和脚本约定。\n\n将高吞吐量、对延迟敏感的交互任务路由到 Highspeed 端点，同时将复杂的离线推理保留在标准档位，以控制推理成本。",
+  "research_notes": "通过 Kimi 网页应用、Kimi Work 或 Kimi Code 以交互方式访问该模型。\n\n通过 Moonshot 开放平台 API 调用 kimi-k3.1-pro 模型端点进行标准推理，价格为每百万 tokens 输入 $2、输出 $10。\n\n对于需要快 2 至 3 倍生成速度（令牌价格翻倍）的工作负载，请选择 Highspeed API 变体。\n\n利用 1M 令牌上下文窗口，可在单次会话中输入整个多文件代码库以及复杂的 CAD/3D 资产配置。\n\n在提示 Unreal Engine、Unity、Godot 或 Three.js 程序化生成时，请指定明确的引擎和脚本约定。\n\n将高吞吐量、对延迟敏感的交互任务路由到 Highspeed 端点，同时将复杂的离线推理保留在标准档位，以控制推理成本。",
   "summary": "Moonshot 推出了 Kimi K3.1 Pro 的刷新版本，在 3D、编程和金融领域进行了大量领域强化学习，并计划开放发布。",
   "title": "Moonshot 推出 Kimi K3.1 Pro 刷新版，计划公开发布"
  },
