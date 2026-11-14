@@ -42780,12 +42780,13 @@
       {
         "family_display": "Kimi K3.1 Pro: kimi-k3-1-pro-release",
         "first_seen": "2026-10-24",
-        "last_seen": "2026-10-24",
+        "last_seen": "2026-11-13",
         "news_ids": [
           "n-183de9a149",
           "n-37e9305c06",
           "n-6202d8d932",
-          "n-d135dd8f66"
+          "n-d135dd8f66",
+          "n-34c22d3127"
         ]
       }
     ],
@@ -42795,18 +42796,20 @@
     "license": null,
     "base_model": null,
     "categories": [
+      "llm",
       "misc"
     ],
-    "post_count": 4,
+    "post_count": 5,
     "first_seen": "2026-10-24",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-11-13",
     "latest_version": null,
     "latest_evolution": null,
     "news_ids": [
       "n-183de9a149",
       "n-37e9305c06",
       "n-6202d8d932",
-      "n-d135dd8f66"
+      "n-d135dd8f66",
+      "n-34c22d3127"
     ],
     "versions_timeline": [
       {
@@ -42836,6 +42839,13 @@
         "news_id": "n-d135dd8f66",
         "title": "Moonshot deploys Kimi K3.1 Pro refresh with scheduled open release",
         "primary_link": "https://www.kimi.ai/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-13",
+        "news_id": "n-34c22d3127",
+        "title": "NVIDIA releases NVFP4 quantized weights for Moonshot AI Kimi K3.1 Pro",
+        "primary_link": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4"
       }
     ],
     "features": [],
@@ -42923,6 +42933,18 @@
             "verified_at": "2026-10-25T22:49:23Z"
           }
         ]
+      },
+      {
+        "kind": "weights",
+        "host": "huggingface.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4",
+        "is_primary": true,
+        "verified_at": "2026-11-14T17:38:17Z",
+        "news_ids": [
+          "n-34c22d3127"
+        ]
       }
     ],
     "timeline": [
@@ -42961,9 +42983,37 @@
         "version": null,
         "news_id": "n-d135dd8f66",
         "primary_link": "https://www.kimi.ai/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-13",
+        "title": "NVIDIA releases NVFP4 quantized weights for Moonshot AI Kimi K3.1 Pro",
+        "summary": "NVIDIA published an NVFP4 quantized release of Moonshot AI's Kimi K3.1 Pro multimodal mixture-of-experts model on Hugging Face, packaged with NVIDIA Model Optimizer for deployment in vLLM and TensorRT-LLM.",
+        "version": null,
+        "news_id": "n-34c22d3127",
+        "primary_link": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4"
       }
     ],
     "related_news": [
+      {
+        "id": "n-34c22d3127",
+        "date": "2026-11-13",
+        "title": "NVIDIA releases NVFP4 quantized weights for Moonshot AI Kimi K3.1 Pro",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "kimi-k3-1-pro",
+        "version": null,
+        "tags": [
+          "Kimi K3.1 Pro: kimi-k3-1-pro-release",
+          "family:kimi-k3-1-pro",
+          "kimi-k3-1-pro",
+          "kimi-k3-1-pro-release",
+          "llm"
+        ],
+        "primary_link": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-d135dd8f66",
         "date": "2026-10-24",
@@ -43047,13 +43097,14 @@
         "slug": "kimi-k3-1-pro-release",
         "display": "Kimi K3 1 Pro Release",
         "first_seen": "2026-10-24",
-        "last_seen": "2026-10-24",
-        "latest_news_id": "n-d135dd8f66",
+        "last_seen": "2026-11-13",
+        "latest_news_id": "n-34c22d3127",
         "news_ids": [
           "n-183de9a149",
           "n-37e9305c06",
           "n-6202d8d932",
-          "n-d135dd8f66"
+          "n-d135dd8f66",
+          "n-34c22d3127"
         ]
       }
     ]
