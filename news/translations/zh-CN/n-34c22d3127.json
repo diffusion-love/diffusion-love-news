@@ -1,0 +1,11 @@
+{
+ "id": "n-34c22d3127",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从 Hugging Face 使用 huggingface-cli 获取量化模型权重仓库。\n\n使用支持 NVFP4 量化的推理引擎（例如 vLLM 或 TensorRT-LLM）初始化服务集群。\n\n在百万 token 上下文窗口内分发结合文本提示与高分辨率图像的多模态请求。\n\n部署到具有高 NVLink 带宽的多 GPU 节点上，以处理活跃专家路由和大规模分布式 KV 缓存需求。\n\n在 vLLM 或 TensorRT-LLM 等支持的推理引擎中启用原生 4 位浮点张量核心加速，以在现代 NVIDIA 架构上最大化吞吐量。",
+ "source_sha256": "a8b4989763e892f131a57547adb7c9ebfa6c75b76b0093c41db4d9ab7133568c",
+ "summary": "NVIDIA 在 Hugging Face 上发布了 Moonshot AI Kimi K3.1 Pro 多模态混合专家模型的 NVFP4 量化版本，并附带 NVIDIA Model Optimizer，便于在 vLLM 和 TensorRT-LLM 中部署。",
+ "title": "NVIDIA 发布 Moonshot AI Kimi K3.1 Pro 的 NVFP4 量化权重",
+ "translated_at": "2026-11-14",
+ "translation": "machine"
+}

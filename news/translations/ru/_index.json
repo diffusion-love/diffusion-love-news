@@ -374,6 +374,11 @@
   "title": "Shanghai AI Lab выпустила открытую агентную модель Sage-A1.5",
   "translated_at": "2026-11-13"
  },
+ "n-12ed59bd83": {
+  "fresh": true,
+  "title": "NVIDIA Research выпустила открытую модель 3D-реконструкции Déjà View (DVLT)",
+  "translated_at": "2026-11-14"
+ },
  "n-13290b7929": {
   "fresh": true,
   "title": "На официальные ресурсы проекта InfinityEdit появилась ссылка",
@@ -1108,6 +1113,11 @@
   "fresh": true,
   "title": "DisCa: обучаемое кеширование признаков, совместимое с дистилляцией",
   "translated_at": "2026-11-13"
+ },
+ "n-34c22d3127": {
+  "fresh": true,
+  "title": "NVIDIA выпускает квантованные в NVFP4 веса Kimi K3.1 Pro от Moonshot AI",
+  "translated_at": "2026-11-14"
  },
  "n-353bab66f8": {
   "fresh": true,

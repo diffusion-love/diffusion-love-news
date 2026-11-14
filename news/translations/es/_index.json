@@ -374,6 +374,11 @@
   "title": "Shanghai AI Lab publica el modelo agéntico de pesos abiertos Sage-A1.5",
   "translated_at": "2026-11-13"
  },
+ "n-12ed59bd83": {
+  "fresh": true,
+  "title": "NVIDIA Research publica el modelo abierto de reconstrucción 3D Déjà View (DVLT)",
+  "translated_at": "2026-11-14"
+ },
  "n-13290b7929": {
   "fresh": true,
   "title": "Se hace referencia a los recursos oficiales del proyecto InfinityEdit",
@@ -1108,6 +1113,11 @@
   "fresh": true,
   "title": "DisCa: caché de características aprendible compatible con la destilación",
   "translated_at": "2026-11-13"
+ },
+ "n-34c22d3127": {
+  "fresh": true,
+  "title": "NVIDIA publica los pesos cuantizados en NVFP4 de Kimi K3.1 Pro de Moonshot AI",
+  "translated_at": "2026-11-14"
  },
  "n-353bab66f8": {
   "fresh": true,

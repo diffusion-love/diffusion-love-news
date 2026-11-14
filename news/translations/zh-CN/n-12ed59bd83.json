@@ -1,0 +1,11 @@
+{
+ "id": "n-12ed59bd83",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从 https://github.com/nv-tlabs/dvlt 克隆官方代码仓库，并安装所需的 PyTorch 和 DINOv2 环境依赖。\n\n从 Hugging Face 仓库 nvidia/dvlt 下载预训练的 117M 模型检查点。\n\n对一组无位姿的 RGB 图像或视频帧运行多视角推理脚本，并根据可用的计算预算选择循环迭代步数 K。\n\n提取预测的逐像素深度图、置信度掩码、相机内参/外参，以及基于射线生成的 3D 点云，以供下游的 3D 高斯溅射或网格重建使用。\n\n在推理时将循环步数 K 配置在 8 到 16 之间，即可在重建精度与延迟之间进行权衡，而无需加载不同的检查点。\n\n在进行多视角几何融合之前，使用预测的逐像素置信度掩码过滤低置信度的深度预测。\n\n确保输入的 RGB 图像集在各视角之间保持足够的视觉重叠，以优化跨循环 Transformer 轮次的几何一致性。",
+ "source_sha256": "0aa2c92f30e12c4e6d08973f9540ca971f3ed7374134cda0e6e45174952c7ce7",
+ "summary": "NVIDIA Research、苏黎世联邦理工学院与多伦多大学联合发布了 Déjà View（DVLT），这是一种用于前馈式多视角 3D 重建的开源循环 Transformer。该模型采用 1.17 亿参数的权重共享架构，并带有可调的推理时精炼步数 K，可预测逐像素深度、置信度、射线图和相机位姿，代码与权重已在 GitHub 和 Hugging Face 上公开提供。",
+ "title": "NVIDIA Research 发布开源 Déjà View（DVLT）3D 重建模型",
+ "translated_at": "2026-11-14",
+ "translation": "machine"
+}

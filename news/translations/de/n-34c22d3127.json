@@ -1,0 +1,11 @@
+{
+ "id": "n-34c22d3127",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Lade die quantisierten Modellgewichte aus dem Hugging-Face-Repository mit huggingface-cli herunter.\n\nInitialisiere einen Serving-Cluster mit einer Inferenz-Engine, die NVFP4-Quantisierung unterstützt, etwa vLLM oder TensorRT-LLM.\n\nSende multimodale Anfragen, die Textprompts und hochauflösende Bilder innerhalb des Kontextfensters von einer Million Token kombinieren.\n\nStelle das Modell auf Multi-GPU-Knoten mit hoher NVLink-Bandbreite bereit, um das Routing aktiver Experten sowie den großen verteilten KV-Cache-Bedarf zu bewältigen.\n\nAktiviere die native Tensor-Core-Beschleunigung für 4-Bit-Gleitkommazahlen in unterstützten Inferenz-Engines wie vLLM oder TensorRT-LLM, um den Durchsatz auf modernen NVIDIA-Architekturen zu maximieren.",
+ "source_sha256": "a8b4989763e892f131a57547adb7c9ebfa6c75b76b0093c41db4d9ab7133568c",
+ "summary": "NVIDIA hat auf Hugging Face eine NVFP4-quantisierte Version des multimodalen Mixture-of-Experts-Modells Kimi K3.1 Pro von Moonshot AI veröffentlicht. Sie ist zusammen mit NVIDIA Model Optimizer für den Einsatz in vLLM und TensorRT-LLM gebündelt.",
+ "title": "NVIDIA veröffentlicht NVFP4-quantisierte Gewichte für Moonshot AI Kimi K3.1 Pro",
+ "translated_at": "2026-11-14",
+ "translation": "machine"
+}

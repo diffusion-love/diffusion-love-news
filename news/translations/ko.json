@@ -362,6 +362,11 @@
   "summary": "Shanghai AI Lab은 Apache 2.0 라이선스의 35B 혼합 전문가(mixture-of-experts) 모델 Sage-A1.5를 공개했습니다. 이 모델은 토큰당 3B 파라미터를 활성화하며, Qwen3.6-35B-A3B를 기반으로 하고, 네이티브 병렬 subagent 오케스트레이션과 SGLang 및 vLLM 서빙을 지원합니다.",
   "title": "Shanghai AI Lab, 오픈 웨이트 에이전트 모델 Sage-A1.5 공개"
  },
+ "n-12ed59bd83": {
+  "research_notes": "https://github.com/nv-tlabs/dvlt 에서 공식 저장소를 클론하고, 필요한 PyTorch 및 DINOv2 환경 종속성을 설치하십시오.\n\nHugging Face 저장소 nvidia/dvlt에서 사전 학습된 117M 모델 체크포인트를 다운로드하십시오.\n\n포즈 정보가 없는 RGB 이미지 세트 또는 비디오 프레임에 대해 다중 뷰 추론 스크립트를 실행하며, 사용 가능한 컴퓨팅 예산에 따라 재귀 반복 단계 수 K를 선택하십시오.\n\n다운스트림 3D 가우시안 스플래팅 또는 메시 재구성을 위해 예측된 픽셀별 깊이 맵, 신뢰도 마스크, 카메라 내부/외부 파라미터, 그리고 광선 기반 3D 포인트 클라우드를 추출하십시오.\n\n추론 시점에 재귀 단계 수 K를 8에서 16 사이로 설정하여, 서로 다른 체크포인트를 로드하지 않고도 재구성 정밀도와 지연 시간 사이의 균형을 조정하십시오.\n\n다중 뷰 기하학적 융합을 수행하기 전에, 예측된 픽셀별 신뢰도 마스크를 사용하여 신뢰도가 낮은 깊이 예측을 필터링하십시오.\n\n재귀 트랜스포머 패스 전반에 걸쳐 기하학적 일관성을 최적화할 수 있도록, 입력 RGB 세트가 뷰 간에 충분한 시각적 중첩을 유지하도록 하십시오.",
+  "summary": "NVIDIA Research, ETH Zurich, 토론토 대학교는 피드포워드 다중 뷰 3D 재구성을 위한 오픈소스 재귀 트랜스포머인 Déjà View(DVLT)를 공개했습니다. 추론 시점에 조정 가능한 정제 단계 수 K를 갖춘 117백만 파라미터 가중치 공유(weight-tied) 아키텍처를 사용하며, 모델은 픽셀별 깊이, 신뢰도, 광선 맵, 카메라 포즈를 예측합니다. 코드와 가중치는 GitHub와 Hugging Face에서 이용할 수 있습니다.",
+  "title": "NVIDIA Research, 오픈 Déjà View(DVLT) 3D 재구성 모델 공개"
+ },
  "n-13290b7929": {
   "summary": "2026년 8월 25일, InfinityEdit의 공식 프로젝트 페이지와 GitHub 저장소가 언급되었다. 이로써 프로젝트의 정식 문서와 소스 코드 위치를 가리키는 날짜가 명시된 공개 참조가 생겼다. 다만 제공된 근거만으로는 특정 릴리스, 기능 또는 연구상의 이정표가 확인되지는 않는다.",
   "title": "InfinityEdit 공식 프로젝트 자료가 언급됨"
@@ -1059,6 +1064,11 @@
   "research_notes": "프레임 간 지터를 제거하기 위해 Restricted MeanFlow 증류 방식을 도입했으며, 고해상도 Image-to-Video 및 Text-to-Video 워크플로에 특화되어 최적화되어 있습니다.",
   "summary": "학습 가능한 feature 캐싱과 step 증류를 비디오 디퓨전 Transformer를 위해 통합한 Tencent 개발 추론 가속 프레임워크입니다. 거의 무손실인 11.8배 속도 향상을 달성하여 소비자 하드웨어에서도 고충실도 비디오 생성을 가능하게 합니다.",
   "title": "DisCa: 증류 호환 학습형 feature 캐싱"
+ },
+ "n-34c22d3127": {
+  "research_notes": "huggingface-cli를 사용해 Hugging Face에서 양자화된 모델 가중치 저장소를 가져옵니다.\n\nNVFP4 양자화를 지원하는 추론 엔진(vLLM 또는 TensorRT-LLM 등)으로 서빙 클러스터를 초기화합니다.\n\n100만 토큰 컨텍스트 윈도우 안에서 텍스트 프롬프트와 고해상도 이미지를 결합한 멀티모달 요청을 전송합니다.\n\n활성 전문가 라우팅과 대규모 분산 KV 캐시 요구 사항을 처리하기 위해 NVLink 대역폭이 높은 다중 GPU 노드에 배포합니다.\n\nvLLM 또는 TensorRT-LLM과 같이 지원되는 추론 엔진에서 네이티브 4-bit 부동소수점 텐서 코어 가속을 활성화하여 최신 NVIDIA 아키텍처에서 처리량을 극대화합니다.",
+  "summary": "NVIDIA는 Moonshot AI의 멀티모달 전문가 혼합(mixture-of-experts) 모델인 Kimi K3.1 Pro의 NVFP4 양자화 버전을 Hugging Face에 공개했으며, vLLM 및 TensorRT-LLM에서 배포할 수 있도록 NVIDIA Model Optimizer와 함께 패키징했습니다.",
+  "title": "NVIDIA, Moonshot AI Kimi K3.1 Pro용 NVFP4 양자화 가중치 공개"
  },
  "n-353bab66f8": {
   "summary": "2026-06-09, Apple은 일상적인 경험을 위해 설계된 Apple Intelligence 기능을 발표했습니다. 연결된 Apple Newsroom 페이지와 함께 제공되는 영상은 이번 발표가 Apple의 AI 개발 역사에서 의미 있는 제품 관련 이정표임을 보여줍니다.",

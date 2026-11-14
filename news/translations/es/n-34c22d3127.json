@@ -1,0 +1,11 @@
+{
+ "id": "n-34c22d3127",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Obtén el repositorio de pesos del modelo cuantizado desde Hugging Face usando huggingface-cli.\n\nInicializa un clúster de inferencia con un motor compatible con la cuantización NVFP4, como vLLM o TensorRT-LLM.\n\nEnvía solicitudes multimodales que combinen prompts de texto e imágenes de alta resolución dentro de la ventana de contexto de un millón de tokens.\n\nDespliega el modelo en nodos multi-GPU con un ancho de banda NVLink elevado para gestionar el enrutamiento activo de expertos y los grandes requisitos de caché KV distribuida.\n\nActiva la aceleración nativa con núcleos tensoriales de punto flotante de 4 bits en motores de inferencia compatibles, como vLLM o TensorRT-LLM, para maximizar el rendimiento en las arquitecturas modernas de NVIDIA.",
+ "source_sha256": "a8b4989763e892f131a57547adb7c9ebfa6c75b76b0093c41db4d9ab7133568c",
+ "summary": "NVIDIA publicó en Hugging Face una versión cuantizada en NVFP4 del modelo multimodal de mezcla de expertos Kimi K3.1 Pro de Moonshot AI, empaquetada con NVIDIA Model Optimizer para su despliegue en vLLM y TensorRT-LLM.",
+ "title": "NVIDIA publica los pesos cuantizados en NVFP4 de Kimi K3.1 Pro de Moonshot AI",
+ "translated_at": "2026-11-14",
+ "translation": "machine"
+}
