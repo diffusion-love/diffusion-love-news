@@ -88311,6 +88311,126 @@
     ],
     "claims": []
   },
+  "practical-ml-conf": {
+    "family_slug": "practical-ml-conf",
+    "family_display": "Practical ML Conf: practical-ml-conf",
+    "family_display_variants": [
+      {
+        "family_display": "Practical ML Conf: practical-ml-conf",
+        "first_seen": "2026-09-16",
+        "last_seen": "2026-09-16",
+        "news_ids": [
+          "n-720d98287b"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-09-16",
+    "last_seen": "2026-09-16",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-720d98287b"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-09-16",
+        "news_id": "n-720d98287b",
+        "title": "Practical ML Conf 2026 schedule finalized across four technical tracks",
+        "primary_link": "https://pmlconf.yandex.ru/2026/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "pmlconf.yandex.ru",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://pmlconf.yandex.ru/2026/",
+        "is_primary": true,
+        "verified_at": "2026-11-14T14:16:33Z",
+        "news_ids": [
+          "n-720d98287b"
+        ]
+      },
+      {
+        "kind": "video",
+        "host": "youtube.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://www.youtube.com/@YandexforML",
+        "is_primary": false,
+        "verified_at": "2026-11-14T14:16:33Z",
+        "news_ids": [
+          "n-720d98287b"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-09-16",
+        "title": "Practical ML Conf 2026 schedule finalized across four technical tracks",
+        "summary": "Yandex published program updates for Practical ML Conf 2026 ahead of the September 19 event, detailing 24 technical talks across Data, Code, Server Room, and Network tracks alongside the Yandex ML Prize ceremony.",
+        "version": null,
+        "news_id": "n-720d98287b",
+        "primary_link": "https://pmlconf.yandex.ru/2026/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-720d98287b",
+        "date": "2026-09-16",
+        "title": "Practical ML Conf 2026 schedule finalized across four technical tracks",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "practical-ml-conf",
+        "version": null,
+        "tags": [
+          "Practical ML Conf: practical-ml-conf",
+          "family:practical-ml-conf",
+          "misc",
+          "practical-ml-conf"
+        ],
+        "primary_link": "https://pmlconf.yandex.ru/2026/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "practical-ml-conf",
+        "display": "Practical Ml Conf",
+        "first_seen": "2026-09-16",
+        "last_seen": "2026-09-16",
+        "latest_news_id": "n-720d98287b",
+        "news_ids": [
+          "n-720d98287b"
+        ]
+      }
+    ]
+  },
   "privacy-filter": {
     "family_slug": "privacy-filter",
     "family_display": "privacy-filter",

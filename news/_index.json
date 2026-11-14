@@ -837,6 +837,24 @@
     "has_video": false
   },
   {
+    "id": "n-720d98287b",
+    "date": "2026-09-16",
+    "title": "Practical ML Conf 2026 schedule finalized across four technical tracks",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "practical-ml-conf",
+    "version": null,
+    "tags": [
+      "Practical ML Conf: practical-ml-conf",
+      "family:practical-ml-conf",
+      "misc",
+      "practical-ml-conf"
+    ],
+    "primary_link": "https://pmlconf.yandex.ru/2026/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-c42886783e",
     "date": "2026-09-12",
     "title": "ItsGiving webcam meme overlay for meetings",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-10-25T22:49:23Z",
+  "generated_at": "2026-11-14T14:16:33Z",
   "site": "diffusion.love",
-  "total": 1321,
+  "total": 1322,
   "records": [
     {
       "schema_version": "1.4",
@@ -5186,6 +5186,119 @@
         "classified_at": "2026-09-26T22:22:42Z",
         "enriched_at": "2026-09-26T22:22:42Z",
         "verified_at": "2026-09-26T22:22:42Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-720d98287b",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Practical ML Conf 2026 schedule finalized across four technical tracks",
+      "summary": "Yandex published program updates for Practical ML Conf 2026 ahead of the September 19 event, detailing 24 technical talks across Data, Code, Server Room, and Network tracks alongside the Yandex ML Prize ceremony.",
+      "research_notes": "Review the conference agenda across Data, Code, Server Room, and Network tracks to identify production architecture sessions.\n\nAccess recorded talks and technical sessions via the official Yandex for ML video channel.\n\nExtract deployment patterns for LLM inference, agentic vision, and recommendation models from speaker slide decks and technical summaries.\n\nBenchmark LLM inference and agentic workflow latencies against real-world production architectures presented in the conference engineering tracks.\n\nReview technical presentation recordings and architecture breakdowns on the official video channel before replicating distributed training or vision-language agent pipelines.",
+      "project": {
+        "name": "Practical ML Conf: practical-ml-conf",
+        "family_slug": "practical-ml-conf",
+        "family_display": "Practical ML Conf: practical-ml-conf",
+        "model_slug": "practical-ml-conf",
+        "model_display": "Practical ML Conf: practical-ml-conf",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "practical-ml-conf",
+        "thread_display": "Practical Ml Conf",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Practical ML Conf: practical-ml-conf",
+        "article_url": "https://happyin.space/projects/practical-ml-conf/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/f71882df6089da9620b097ae6f45ef99abc7f9fb/docs/projects/practical-ml-conf.md",
+        "agent_context_url": "https://happyin.space/projects/practical-ml-conf/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-09-16",
+        "title": "Practical ML Conf 2026 schedule finalized across four technical tracks",
+        "version": null,
+        "summary": "Yandex published program updates for Practical ML Conf 2026 ahead of the September 19 event, detailing 24 technical talks across Data, Code, Server Room, and Network tracks alongside the Yandex ML Prize ceremony."
+      },
+      "tags": [
+        "Practical ML Conf: practical-ml-conf",
+        "family:practical-ml-conf",
+        "misc",
+        "practical-ml-conf"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "practical-ml-conf"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://pmlconf.yandex.ru/2026/",
+          "host": "pmlconf.yandex.ru",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-14T14:16:33Z"
+        },
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/@YandexforML",
+          "host": "youtube.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-14T14:16:33Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-09-16",
+        "excerpt": "Yandex published program updates for Practical ML Conf 2026 ahead of the September 19 event, detailing 24 technical talks across Data, Code, Server Room, and Network tracks alongside the Yandex ML Prize ceremony."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-14T14:16:33Z",
+        "classified_at": "2026-11-14T14:16:33Z",
+        "enriched_at": "2026-11-14T14:16:33Z",
+        "verified_at": "2026-11-14T14:16:33Z",
         "models_used": {
           "research": "curated-live-material"
         },
