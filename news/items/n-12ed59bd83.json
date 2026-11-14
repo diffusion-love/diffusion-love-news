@@ -1,0 +1,132 @@
+{
+ "schema_version": "1.4",
+ "id": "n-12ed59bd83",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "NVIDIA Research releases open Déjà View (DVLT) 3D reconstruction model",
+ "summary": "NVIDIA Research, ETH Zurich, and the University of Toronto have released Déjà View (DVLT), an open-source recurrent transformer for feed-forward multi-view 3D reconstruction. Using a 117-million parameter weight-tied architecture with a tunable inference-time refinement step count K, the model predicts per-pixel depth, confidence, ray maps, and camera poses with code and weights available on GitHub and Hugging Face.",
+ "research_notes": "Clone the official repository from https://github.com/nv-tlabs/dvlt and install the required PyTorch and DINOv2 environment dependencies.\n\nDownload the pre-trained 117M model checkpoint from the Hugging Face repository nvidia/dvlt.\n\nRun the multi-view inference script on an unposed set of RGB images or video frames, choosing the recurrent iteration step count K based on available compute budget.\n\nExtract predicted per-pixel depth maps, confidence masks, camera intrinsics/extrinsics, and ray-derived 3D point clouds for downstream 3D Gaussian splatting or mesh reconstruction.\n\nConfigure the recurrent step count K between 8 and 16 at inference time to trade off reconstruction precision against latency without loading different checkpoints.\n\nFilter low-confidence depth predictions using the predicted per-pixel confidence masks prior to multi-view geometric fusion.\n\nEnsure input RGB sets maintain adequate visual overlap across views to optimize geometric consistency across recurrent transformer passes.",
+ "project": {
+  "name": "Déjà View (DVLT): deja-view-dvlt-open-release",
+  "family_slug": "deja-view-dvlt",
+  "family_display": "Déjà View (DVLT): deja-view-dvlt-open-release",
+  "model_slug": "deja-view-dvlt",
+  "model_display": "Déjà View (DVLT): deja-view-dvlt-open-release",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "deja-view-dvlt-open-release",
+  "thread_display": "Deja View Dvlt Open Release",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Déjà View (DVLT): deja-view-dvlt-open-release",
+  "article_url": "https://happyin.space/projects/deja-view-dvlt/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/7b74b1ad8b2e4276b385bef7501bee3a6eea1529/docs/projects/deja-view-dvlt.md",
+  "agent_context_url": "https://happyin.space/projects/deja-view-dvlt/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-13",
+  "title": "NVIDIA Research releases open Déjà View (DVLT) 3D reconstruction model",
+  "version": null,
+  "summary": "NVIDIA Research, ETH Zurich, and the University of Toronto have released Déjà View (DVLT), an open-source recurrent transformer for feed-forward multi-view 3D reconstruction. Using a 117-million parameter weight-tied architecture with a tunable inference-time refinement step count K, the model predicts per-pixel depth, confidence, ray maps, and camera poses with code and weights available on GitHub and Hugging Face."
+ },
+ "tags": [
+  "Déjà View (DVLT): deja-view-dvlt-open-release",
+  "deja-view-dvlt",
+  "deja-view-dvlt-open-release",
+  "family:deja-view-dvlt",
+  "misc"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "deja-view-dvlt"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "code",
+   "url": "https://github.com/nv-tlabs/dvlt",
+   "host": "github.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-14T17:47:09Z"
+  },
+  {
+   "kind": "weights",
+   "url": "https://huggingface.co/nvidia/dvlt",
+   "host": "huggingface.co",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-14T17:47:09Z"
+  },
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2605.30215",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-14T17:47:09Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
+   "host": "research.nvidia.com",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-14T17:47:09Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-13",
+  "excerpt": "NVIDIA Research, ETH Zurich, and the University of Toronto have released Déjà View (DVLT), an open-source recurrent transformer for feed-forward multi-view 3D reconstruction. Using a 117-million parameter weight-tied architecture with a tunable inference-time refinement step count K, the model predicts per-pixel depth, confidence, ray maps, and camera poses with code and weights available on GitHub and Hugging Face."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-14T17:47:09Z",
+  "classified_at": "2026-11-14T17:47:09Z",
+  "enriched_at": "2026-11-14T17:47:09Z",
+  "verified_at": "2026-11-14T17:47:09Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

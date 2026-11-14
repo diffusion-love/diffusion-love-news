@@ -704,6 +704,9 @@
   "Dynamic Band Splitting: dynamic-band-splitting-release": [
     "n-5e96f46ead"
   ],
+  "Déjà View (DVLT): deja-view-dvlt-open-release": [
+    "n-12ed59bd83"
+  ],
   "EMF": [
     "n-525a6be75a"
   ],
@@ -4107,6 +4110,12 @@
   "deerflow": [
     "n-7d2c69bfe3"
   ],
+  "deja-view-dvlt": [
+    "n-12ed59bd83"
+  ],
+  "deja-view-dvlt-open-release": [
+    "n-12ed59bd83"
+  ],
   "delta-mem": [
     "n-ca13b9fa04"
   ],
@@ -5010,6 +5019,9 @@
   ],
   "family:deerflow": [
     "n-7d2c69bfe3"
+  ],
+  "family:deja-view-dvlt": [
+    "n-12ed59bd83"
   ],
   "family:delta-mem": [
     "n-ca13b9fa04"
@@ -9549,6 +9561,7 @@
     "n-1402aca572",
     "n-13a562a609",
     "n-13290b7929",
+    "n-12ed59bd83",
     "n-11ae14ece9",
     "n-1059ecec13",
     "n-1027303bd3",
