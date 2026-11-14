@@ -1,5 +1,43 @@
 [
   {
+    "id": "n-34c22d3127",
+    "date": "2026-11-13",
+    "title": "NVIDIA releases NVFP4 quantized weights for Moonshot AI Kimi K3.1 Pro",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "kimi-k3-1-pro",
+    "version": null,
+    "tags": [
+      "Kimi K3.1 Pro: kimi-k3-1-pro-release",
+      "family:kimi-k3-1-pro",
+      "kimi-k3-1-pro",
+      "kimi-k3-1-pro-release",
+      "llm"
+    ],
+    "primary_link": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-12ed59bd83",
+    "date": "2026-11-13",
+    "title": "NVIDIA Research releases open Déjà View (DVLT) 3D reconstruction model",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "deja-view-dvlt",
+    "version": null,
+    "tags": [
+      "Déjà View (DVLT): deja-view-dvlt-open-release",
+      "deja-view-dvlt",
+      "deja-view-dvlt-open-release",
+      "family:deja-view-dvlt",
+      "misc"
+    ],
+    "primary_link": "https://github.com/nv-tlabs/dvlt",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-d135dd8f66",
     "date": "2026-10-24",
     "title": "Moonshot deploys Kimi K3.1 Pro refresh with scheduled open release",

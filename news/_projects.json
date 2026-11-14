@@ -24736,6 +24736,151 @@
     ],
     "claims": []
   },
+  "deja-view-dvlt": {
+    "family_slug": "deja-view-dvlt",
+    "family_display": "Déjà View (DVLT): deja-view-dvlt-open-release",
+    "family_display_variants": [
+      {
+        "family_display": "Déjà View (DVLT): deja-view-dvlt-open-release",
+        "first_seen": "2026-11-13",
+        "last_seen": "2026-11-13",
+        "news_ids": [
+          "n-12ed59bd83"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-13",
+    "last_seen": "2026-11-13",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-12ed59bd83"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-13",
+        "news_id": "n-12ed59bd83",
+        "title": "NVIDIA Research releases open Déjà View (DVLT) 3D reconstruction model",
+        "primary_link": "https://github.com/nv-tlabs/dvlt"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/nv-tlabs/dvlt",
+        "is_primary": true,
+        "verified_at": "2026-11-14T17:47:09Z",
+        "news_ids": [
+          "n-12ed59bd83"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2605.30215",
+        "is_primary": false,
+        "verified_at": "2026-11-14T17:47:09Z",
+        "news_ids": [
+          "n-12ed59bd83"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "research.nvidia.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
+        "is_primary": false,
+        "verified_at": "2026-11-14T17:47:09Z",
+        "news_ids": [
+          "n-12ed59bd83"
+        ]
+      },
+      {
+        "kind": "weights",
+        "host": "huggingface.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://huggingface.co/nvidia/dvlt",
+        "is_primary": false,
+        "verified_at": "2026-11-14T17:47:09Z",
+        "news_ids": [
+          "n-12ed59bd83"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-13",
+        "title": "NVIDIA Research releases open Déjà View (DVLT) 3D reconstruction model",
+        "summary": "NVIDIA Research, ETH Zurich, and the University of Toronto have released Déjà View (DVLT), an open-source recurrent transformer for feed-forward multi-view 3D reconstruction. Using a 117-million parameter weight-tied architecture with a tunable inference-time refinement step count K, the model predicts per-pixel depth, confidence, ray maps, and camera poses with code and weights available on GitHub and Hugging Face.",
+        "version": null,
+        "news_id": "n-12ed59bd83",
+        "primary_link": "https://github.com/nv-tlabs/dvlt"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-12ed59bd83",
+        "date": "2026-11-13",
+        "title": "NVIDIA Research releases open Déjà View (DVLT) 3D reconstruction model",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "deja-view-dvlt",
+        "version": null,
+        "tags": [
+          "Déjà View (DVLT): deja-view-dvlt-open-release",
+          "deja-view-dvlt",
+          "deja-view-dvlt-open-release",
+          "family:deja-view-dvlt",
+          "misc"
+        ],
+        "primary_link": "https://github.com/nv-tlabs/dvlt",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "deja-view-dvlt-open-release",
+        "display": "Deja View Dvlt Open Release",
+        "first_seen": "2026-11-13",
+        "last_seen": "2026-11-13",
+        "latest_news_id": "n-12ed59bd83",
+        "news_ids": [
+          "n-12ed59bd83"
+        ]
+      }
+    ]
+  },
   "delta-mem": {
     "family_slug": "delta-mem",
     "family_display": "Delta Mem",
@@ -52596,12 +52741,13 @@
       {
         "family_display": "Kimi K3.1 Pro: kimi-k3-1-pro-release",
         "first_seen": "2026-10-24",
-        "last_seen": "2026-10-24",
+        "last_seen": "2026-11-13",
         "news_ids": [
           "n-183de9a149",
           "n-37e9305c06",
           "n-6202d8d932",
-          "n-d135dd8f66"
+          "n-d135dd8f66",
+          "n-34c22d3127"
         ]
       }
     ],
@@ -52611,18 +52757,20 @@
     "license": null,
     "base_model": null,
     "categories": [
+      "llm",
       "misc"
     ],
-    "post_count": 4,
+    "post_count": 5,
     "first_seen": "2026-10-24",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-11-13",
     "latest_version": null,
     "latest_evolution": null,
     "news_ids": [
       "n-183de9a149",
       "n-37e9305c06",
       "n-6202d8d932",
-      "n-d135dd8f66"
+      "n-d135dd8f66",
+      "n-34c22d3127"
     ],
     "versions_timeline": [
       {
@@ -52652,6 +52800,13 @@
         "news_id": "n-d135dd8f66",
         "title": "Moonshot deploys Kimi K3.1 Pro refresh with scheduled open release",
         "primary_link": "https://www.kimi.ai/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-13",
+        "news_id": "n-34c22d3127",
+        "title": "NVIDIA releases NVFP4 quantized weights for Moonshot AI Kimi K3.1 Pro",
+        "primary_link": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4"
       }
     ],
     "features": [],
@@ -52739,6 +52894,18 @@
             "verified_at": "2026-10-25T22:49:23Z"
           }
         ]
+      },
+      {
+        "kind": "weights",
+        "host": "huggingface.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4",
+        "is_primary": true,
+        "verified_at": "2026-11-14T17:38:17Z",
+        "news_ids": [
+          "n-34c22d3127"
+        ]
       }
     ],
     "timeline": [
@@ -52777,9 +52944,37 @@
         "version": null,
         "news_id": "n-d135dd8f66",
         "primary_link": "https://www.kimi.ai/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-13",
+        "title": "NVIDIA releases NVFP4 quantized weights for Moonshot AI Kimi K3.1 Pro",
+        "summary": "NVIDIA published an NVFP4 quantized release of Moonshot AI's Kimi K3.1 Pro multimodal mixture-of-experts model on Hugging Face, packaged with NVIDIA Model Optimizer for deployment in vLLM and TensorRT-LLM.",
+        "version": null,
+        "news_id": "n-34c22d3127",
+        "primary_link": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4"
       }
     ],
     "related_news": [
+      {
+        "id": "n-34c22d3127",
+        "date": "2026-11-13",
+        "title": "NVIDIA releases NVFP4 quantized weights for Moonshot AI Kimi K3.1 Pro",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "kimi-k3-1-pro",
+        "version": null,
+        "tags": [
+          "Kimi K3.1 Pro: kimi-k3-1-pro-release",
+          "family:kimi-k3-1-pro",
+          "kimi-k3-1-pro",
+          "kimi-k3-1-pro-release",
+          "llm"
+        ],
+        "primary_link": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-d135dd8f66",
         "date": "2026-10-24",
@@ -52863,13 +53058,14 @@
         "slug": "kimi-k3-1-pro-release",
         "display": "Kimi K3 1 Pro Release",
         "first_seen": "2026-10-24",
-        "last_seen": "2026-10-24",
-        "latest_news_id": "n-d135dd8f66",
+        "last_seen": "2026-11-13",
+        "latest_news_id": "n-34c22d3127",
         "news_ids": [
           "n-183de9a149",
           "n-37e9305c06",
           "n-6202d8d932",
-          "n-d135dd8f66"
+          "n-d135dd8f66",
+          "n-34c22d3127"
         ]
       }
     ]

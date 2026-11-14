@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-34c22d3127",
+ "entry_type": "news",
+ "category": "llm",
+ "lang": "en",
+ "title": "NVIDIA releases NVFP4 quantized weights for Moonshot AI Kimi K3.1 Pro",
+ "summary": "NVIDIA published an NVFP4 quantized release of Moonshot AI's Kimi K3.1 Pro multimodal mixture-of-experts model on Hugging Face, packaged with NVIDIA Model Optimizer for deployment in vLLM and TensorRT-LLM.",
+ "research_notes": "Retrieve the quantized model weights repository from Hugging Face using huggingface-cli.\n\nInitialize a serving cluster using an inference engine supporting NVFP4 quantization such as vLLM or TensorRT-LLM.\n\nDispatch multimodal requests combining text prompts and high-resolution images within the one-million token context window.\n\nDeploy across multi-GPU nodes with high NVLink bandwidth to handle active expert routing and large distributed KV cache requirements.\n\nEnable native 4-bit floating point tensor core acceleration in supported inference engines like vLLM or TensorRT-LLM to maximize throughput on modern NVIDIA architectures.",
+ "project": {
+  "name": "Kimi K3.1 Pro: kimi-k3-1-pro-release",
+  "family_slug": "kimi-k3-1-pro",
+  "family_display": "Kimi K3.1 Pro: kimi-k3-1-pro-release",
+  "model_slug": "kimi-k3-1-pro",
+  "model_display": "Kimi K3.1 Pro: kimi-k3-1-pro-release",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "kimi-k3-1-pro-release",
+  "thread_display": "Kimi K3 1 Pro Release",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Kimi K3.1 Pro: kimi-k3-1-pro-release",
+  "article_url": "https://happyin.space/projects/kimi-k3-1-pro/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/0e5cd384aa3ffc7215e2ee9a824423ed569df5da/docs/projects/kimi-k3-1-pro.md",
+  "agent_context_url": "https://happyin.space/projects/kimi-k3-1-pro/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-13",
+  "title": "NVIDIA releases NVFP4 quantized weights for Moonshot AI Kimi K3.1 Pro",
+  "version": null,
+  "summary": "NVIDIA published an NVFP4 quantized release of Moonshot AI's Kimi K3.1 Pro multimodal mixture-of-experts model on Hugging Face, packaged with NVIDIA Model Optimizer for deployment in vLLM and TensorRT-LLM."
+ },
+ "tags": [
+  "Kimi K3.1 Pro: kimi-k3-1-pro-release",
+  "family:kimi-k3-1-pro",
+  "kimi-k3-1-pro",
+  "kimi-k3-1-pro-release",
+  "llm"
+ ],
+ "facets": {
+  "category": "llm",
+  "entry_type": "news",
+  "projects": [
+   "kimi-k3-1-pro"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "weights",
+   "url": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4",
+   "host": "huggingface.co",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-14T17:38:17Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-13",
+  "excerpt": "NVIDIA published an NVFP4 quantized release of Moonshot AI's Kimi K3.1 Pro multimodal mixture-of-experts model on Hugging Face, packaged with NVIDIA Model Optimizer for deployment in vLLM and TensorRT-LLM."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-14T17:38:17Z",
+  "classified_at": "2026-11-14T17:38:17Z",
+  "enriched_at": "2026-11-14T17:38:17Z",
+  "verified_at": "2026-11-14T17:38:17Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
