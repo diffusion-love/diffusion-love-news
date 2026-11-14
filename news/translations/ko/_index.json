@@ -374,6 +374,11 @@
   "title": "Shanghai AI Lab, 오픈 웨이트 에이전트 모델 Sage-A1.5 공개",
   "translated_at": "2026-11-13"
  },
+ "n-12ed59bd83": {
+  "fresh": true,
+  "title": "NVIDIA Research, 오픈 Déjà View(DVLT) 3D 재구성 모델 공개",
+  "translated_at": "2026-11-14"
+ },
  "n-13290b7929": {
   "fresh": true,
   "title": "InfinityEdit 공식 프로젝트 자료가 언급됨",
@@ -1108,6 +1113,11 @@
   "fresh": true,
   "title": "DisCa: 증류 호환 학습형 feature 캐싱",
   "translated_at": "2026-11-13"
+ },
+ "n-34c22d3127": {
+  "fresh": true,
+  "title": "NVIDIA, Moonshot AI Kimi K3.1 Pro용 NVFP4 양자화 가중치 공개",
+  "translated_at": "2026-11-14"
  },
  "n-353bab66f8": {
   "fresh": true,

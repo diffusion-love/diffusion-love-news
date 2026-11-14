@@ -1,0 +1,11 @@
+{
+ "id": "n-12ed59bd83",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clone el repositorio oficial desde https://github.com/nv-tlabs/dvlt e instale las dependencias del entorno de PyTorch y DINOv2 necesarias.\n\nDescargue el checkpoint del modelo preentrenado de 117M desde el repositorio de Hugging Face nvidia/dvlt.\n\nEjecute el script de inferencia multivista sobre un conjunto de imágenes RGB o fotogramas de vídeo sin pose conocida, eligiendo el número de pasos de iteración recurrente K según el presupuesto de cómputo disponible.\n\nExtraiga los mapas de profundidad por píxel predichos, las máscaras de confianza, los parámetros intrínsecos/extrínsecos de la cámara y las nubes de puntos 3D derivadas de los rayos, para su uso posterior en splatting de Gaussianas 3D o en la reconstrucción de mallas.\n\nConfigure el número de pasos recurrentes K entre 8 y 16 en el momento de la inferencia para equilibrar la precisión de la reconstrucción frente a la latencia, sin necesidad de cargar checkpoints diferentes.\n\nFiltre las predicciones de profundidad de baja confianza usando las máscaras de confianza por píxel predichas antes de la fusión geométrica multivista.\n\nAsegúrese de que los conjuntos de imágenes RGB mantengan un solapamiento visual adecuado entre vistas para optimizar la consistencia geométrica a lo largo de las pasadas recurrentes del transformador.",
+ "source_sha256": "0aa2c92f30e12c4e6d08973f9540ca971f3ed7374134cda0e6e45174952c7ce7",
+ "summary": "NVIDIA Research, ETH Zúrich y la Universidad de Toronto han publicado Déjà View (DVLT), un transformador recurrente de código abierto para la reconstrucción 3D multivista en modo feed-forward. Mediante una arquitectura de 117 millones de parámetros con pesos atados y un número de pasos de refinamiento en inferencia K ajustable, el modelo predice profundidad por píxel, confianza, mapas de rayos y poses de cámara, con código y pesos disponibles en GitHub y Hugging Face.",
+ "title": "NVIDIA Research publica el modelo abierto de reconstrucción 3D Déjà View (DVLT)",
+ "translated_at": "2026-11-14",
+ "translation": "machine"
+}

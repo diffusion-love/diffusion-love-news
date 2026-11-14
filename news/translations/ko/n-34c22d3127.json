@@ -1,0 +1,11 @@
+{
+ "id": "n-34c22d3127",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "huggingface-cli를 사용해 Hugging Face에서 양자화된 모델 가중치 저장소를 가져옵니다.\n\nNVFP4 양자화를 지원하는 추론 엔진(vLLM 또는 TensorRT-LLM 등)으로 서빙 클러스터를 초기화합니다.\n\n100만 토큰 컨텍스트 윈도우 안에서 텍스트 프롬프트와 고해상도 이미지를 결합한 멀티모달 요청을 전송합니다.\n\n활성 전문가 라우팅과 대규모 분산 KV 캐시 요구 사항을 처리하기 위해 NVLink 대역폭이 높은 다중 GPU 노드에 배포합니다.\n\nvLLM 또는 TensorRT-LLM과 같이 지원되는 추론 엔진에서 네이티브 4-bit 부동소수점 텐서 코어 가속을 활성화하여 최신 NVIDIA 아키텍처에서 처리량을 극대화합니다.",
+ "source_sha256": "a8b4989763e892f131a57547adb7c9ebfa6c75b76b0093c41db4d9ab7133568c",
+ "summary": "NVIDIA는 Moonshot AI의 멀티모달 전문가 혼합(mixture-of-experts) 모델인 Kimi K3.1 Pro의 NVFP4 양자화 버전을 Hugging Face에 공개했으며, vLLM 및 TensorRT-LLM에서 배포할 수 있도록 NVIDIA Model Optimizer와 함께 패키징했습니다.",
+ "title": "NVIDIA, Moonshot AI Kimi K3.1 Pro용 NVFP4 양자화 가중치 공개",
+ "translated_at": "2026-11-14",
+ "translation": "machine"
+}

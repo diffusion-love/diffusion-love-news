@@ -362,6 +362,11 @@
   "summary": "上海人工智能实验室发布了 Sage-A1.5，这是一个采用 Apache 2.0 许可证的 35B 混合专家模型，每个词元激活 3B 参数，基于 Qwen3.6-35B-A3B 构建，原生支持并行子智能体编排，并支持 SGLang 和 vLLM 服务。",
   "title": "上海人工智能实验室发布开放权重智能体模型 Sage-A1.5"
  },
+ "n-12ed59bd83": {
+  "research_notes": "从 https://github.com/nv-tlabs/dvlt 克隆官方代码仓库，并安装所需的 PyTorch 和 DINOv2 环境依赖。\n\n从 Hugging Face 仓库 nvidia/dvlt 下载预训练的 117M 模型检查点。\n\n对一组无位姿的 RGB 图像或视频帧运行多视角推理脚本，并根据可用的计算预算选择循环迭代步数 K。\n\n提取预测的逐像素深度图、置信度掩码、相机内参/外参，以及基于射线生成的 3D 点云，以供下游的 3D 高斯溅射或网格重建使用。\n\n在推理时将循环步数 K 配置在 8 到 16 之间，即可在重建精度与延迟之间进行权衡，而无需加载不同的检查点。\n\n在进行多视角几何融合之前，使用预测的逐像素置信度掩码过滤低置信度的深度预测。\n\n确保输入的 RGB 图像集在各视角之间保持足够的视觉重叠，以优化跨循环 Transformer 轮次的几何一致性。",
+  "summary": "NVIDIA Research、苏黎世联邦理工学院与多伦多大学联合发布了 Déjà View（DVLT），这是一种用于前馈式多视角 3D 重建的开源循环 Transformer。该模型采用 1.17 亿参数的权重共享架构，并带有可调的推理时精炼步数 K，可预测逐像素深度、置信度、射线图和相机位姿，代码与权重已在 GitHub 和 Hugging Face 上公开提供。",
+  "title": "NVIDIA Research 发布开源 Déjà View（DVLT）3D 重建模型"
+ },
  "n-13290b7929": {
   "summary": "2026-08-25，InfinityEdit 的官方项目页面和 GitHub 仓库被引用。这为该项目的权威文档和源码位置提供了一个带日期的公开指向，但现有证据并不能确定其具体发布、功能或研究里程碑。",
   "title": "InfinityEdit 官方项目资源被引用"
@@ -1059,6 +1064,11 @@
   "research_notes": "引入受限 MeanFlow 蒸馏方案以消除帧间抖动，并专门针对高分辨率图生视频和文生视频工作流进行了优化。",
   "summary": "一个由腾讯开发的推理加速框架，将可学习的特征缓存与步数蒸馏统一用于视频扩散 Transformer。它实现了近乎无损的 11.8x 加速，使高保真视频生成可在消费级硬件上运行。",
   "title": "DisCa：蒸馏兼容的可学习特征缓存"
+ },
+ "n-34c22d3127": {
+  "research_notes": "从 Hugging Face 使用 huggingface-cli 获取量化模型权重仓库。\n\n使用支持 NVFP4 量化的推理引擎（例如 vLLM 或 TensorRT-LLM）初始化服务集群。\n\n在百万 token 上下文窗口内分发结合文本提示与高分辨率图像的多模态请求。\n\n部署到具有高 NVLink 带宽的多 GPU 节点上，以处理活跃专家路由和大规模分布式 KV 缓存需求。\n\n在 vLLM 或 TensorRT-LLM 等支持的推理引擎中启用原生 4 位浮点张量核心加速，以在现代 NVIDIA 架构上最大化吞吐量。",
+  "summary": "NVIDIA 在 Hugging Face 上发布了 Moonshot AI Kimi K3.1 Pro 多模态混合专家模型的 NVFP4 量化版本，并附带 NVIDIA Model Optimizer，便于在 vLLM 和 TensorRT-LLM 中部署。",
+  "title": "NVIDIA 发布 Moonshot AI Kimi K3.1 Pro 的 NVFP4 量化权重"
  },
  "n-353bab66f8": {
   "summary": "2026-06-09，Apple 宣布了面向日常场景的 Apple Intelligence 功能。相关的 Apple Newsroom 页面和配套视频表明，这是 Apple AI 发展历程中一个实质性的产品级里程碑。",
