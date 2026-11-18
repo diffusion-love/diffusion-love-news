@@ -1,0 +1,11 @@
+{
+ "id": "n-d5737703ea",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Wählen Sie das Ziel-Backbone für Text-zu-Bild-Diffusionsmodelle aus, etwa Stable Diffusion oder SANA, und definieren Sie die demografischen Attribute, die für das Debiasing adressiert werden sollen.\n\nBerechnen Sie vorab Attribut-Steering-Vektoren mithilfe gepaarter kontrastiver Textprompts, die die gewählten demografischen Dimensionen abbilden.\n\nIntegrieren Sie den promptabhängigen Gating-Mechanismus während des Samplingprozesses der Inferenz in die Cross-Attention-Schichten der umgekehrten Diffusion.\n\nGenerieren Sie Bilder mit Standardprompts; das Gate lässt explizite Attributprompts unverändert und injiziert Steering-Vektoren in neutrale Prompts.\n\nVerwenden Sie gezielte kontrastive Paare statt breiter semantischer Beschreibungen bei der Berechnung der Steering-Vektoren, um eine Verwässerung der primären Text-Bild-Ausrichtung zu verhindern.\n\nVerlassen Sie sich auf das promptabhängige Gating, um die Intervention zu umgehen, wenn Eingabeprompts bereits explizite Attributbeschreibungen enthalten, und vermeiden Sie so widersprüchliche Aktivierungsanpassungen.\n\nValidieren Sie die Verringerung der Parity-Lücke anhand domänenspezifischer neutraler Rollenprompts, bevor Sie in der Produktion über verschiedene Diffusions-Backbones hinweg einsetzen.",
+ "source_sha256": "586b68230c23477ef59f54c9c095803e1e6969ed9c23446206760ca2e06480b2",
+ "summary": "EquiSteer führt ein Cross-Attention-Steering-Framework zur Inferenzzeit ein, das demografische Verzerrungen in Text-zu-Bild-Diffusionsmodellen um bis zu 87 % abschwächt, ohne dass das Modell neu trainiert werden muss.",
+ "title": "EquiSteer: Training-Free Diffusion Debiasing",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

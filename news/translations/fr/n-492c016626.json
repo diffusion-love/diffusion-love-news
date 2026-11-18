@@ -1,0 +1,11 @@
+{
+ "id": "n-492c016626",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Sélectionnez Gemini 4 Hydrogen (identifiant de modèle gemini-4-hydrogen) dans Google AI Studio ou via l'API Gemini pour les tâches de développement orientées exécution.\n\nConfigurez le niveau de raisonnement parmi low, medium, high et xhigh selon l'équilibre requis entre latence et profondeur de raisonnement.\n\nActivez le mode Orchestrator dans Google Antigravity pour associer Gemini 4 Carbon, dédié à la planification architecturale, à Gemini 4 Hydrogen, chargé de la génération de code itérative et des tests.\n\nUtilisez Gemini 4 Hydrogen comme moteur d'exécution à haut débit pour les tâches de dépôt telles que la génération de code standard, les tests unitaires et le refactoring, tout en déléguant les décisions d'architecture de haut niveau à des modèles de planification de pointe.\n\nConservez la profondeur de raisonnement high par défaut pour les tâches de codage non triviales afin de préserver la qualité du raisonnement tout en ménageant le quota et la vitesse d'exécution.",
+ "source_sha256": "25899c77924adc8ed9a178173148aa22fbf7e8de939e54660e7c8c2433a1830e",
+ "summary": "Google a présenté Gemini 4 Hydrogen, un modèle d'exécution dédié à l'écriture de code et aux tâches d'agents, doté de niveaux de raisonnement configurables et d'une orchestration multi-modèles dans Antigravity.",
+ "title": "Google publie Gemini 4 Hydrogen, un modèle de codage",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

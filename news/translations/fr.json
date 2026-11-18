@@ -932,6 +932,11 @@
   "summary": "Le 23 mars 2026, la ligne Video-to-World a été associée à la fois à une page de projet publique et à un dépôt GitHub. Cela fournit un point de référence public daté pour la présence de la documentation et du code source du projet.",
   "title": "Les ressources du projet Video-to-World ont été rendues publiques"
  },
+ "n-2f04eafb31": {
+  "research_notes": "Déployez GigaChat3.5-432B-A28B-Reasoning à l'aide des moteurs d'inférence vLLM ou SGLang, avec quantification FP8 et parallélisme de tenseurs multi-GPU prenant en charge les couches Multi-head Latent Attention (MLA) et GatedDeltaNet.\n\nConfigurez les paramètres d'exécution de l'inférence afin d'exploiter la fenêtre de contexte native de 262K tokens et d'activer les têtes de prédiction multi-tokens pour l'accélération du décodage spéculatif.\n\nUtilisez la compression du cache Key-Value de la Multi-head Latent Attention (MLA) à faible rang, combinée à des couches d'attention linéaire alternées, afin d'éviter la saturation de la mémoire lors de la génération sur de longs contextes.\n\nProvisionnez des clusters matériels d'entreprise distribués disposant d'une VRAM agrégée suffisante pour héberger les poids de 432 milliards de paramètres, malgré le routage épars de 28 milliards de paramètres actifs par token.",
+  "summary": "Sber a publié les poids ouverts de GigaChat3.5-432B-A28B-Reasoning sur Hugging Face, introduisant un modèle à mélange d'experts de 432 milliards de paramètres dont 28 milliards sont actifs, avec des couches Multi-head Latent Attention et GatedDeltaNet alternées, et une fenêtre de contexte de 262K.",
+  "title": "Publication des poids ouverts de GigaChat 3.5 Reasoning et de l'architecture hybride MLA"
+ },
  "n-2f8c6f34f0": {
   "evolution_summary": "Issu d'un outil de recherche pour le benchmark Auto-ClawEval de 1,040 tâches, il est devenu une boîte à outils généraliste prenant en charge le Model Context Protocol (MCP) et la génération d'environnements à la volée pour le débogage d'agents.",
   "research_notes": "Atteint une qualité de niveau humain dans la génération de benchmarks, avec une réduction de 13,800x du coût et du temps par rapport à une curation manuelle.",
@@ -1395,6 +1400,11 @@
   "evolution_summary": "L'article d'actualité renvoyait vers le dépôt Unsloth, un notebook Colab et des instructions pour le fine-tuning de GPT-OSS.",
   "summary": "L'article d'actualité renvoyait vers le dépôt Unsloth, un notebook Colab et des instructions pour le fine-tuning de GPT-OSS.",
   "title": "Unsloth publie des recommandations pour le fine-tuning de GPT-OSS"
+ },
+ "n-492c016626": {
+  "research_notes": "Sélectionnez Gemini 4 Hydrogen (identifiant de modèle gemini-4-hydrogen) dans Google AI Studio ou via l'API Gemini pour les tâches de développement orientées exécution.\n\nConfigurez le niveau de raisonnement parmi low, medium, high et xhigh selon l'équilibre requis entre latence et profondeur de raisonnement.\n\nActivez le mode Orchestrator dans Google Antigravity pour associer Gemini 4 Carbon, dédié à la planification architecturale, à Gemini 4 Hydrogen, chargé de la génération de code itérative et des tests.\n\nUtilisez Gemini 4 Hydrogen comme moteur d'exécution à haut débit pour les tâches de dépôt telles que la génération de code standard, les tests unitaires et le refactoring, tout en déléguant les décisions d'architecture de haut niveau à des modèles de planification de pointe.\n\nConservez la profondeur de raisonnement high par défaut pour les tâches de codage non triviales afin de préserver la qualité du raisonnement tout en ménageant le quota et la vitesse d'exécution.",
+  "summary": "Google a présenté Gemini 4 Hydrogen, un modèle d'exécution dédié à l'écriture de code et aux tâches d'agents, doté de niveaux de raisonnement configurables et d'une orchestration multi-modèles dans Antigravity.",
+  "title": "Google publie Gemini 4 Hydrogen, un modèle de codage"
  },
  "n-492f7ebf1e": {
   "evolution_summary": "TheBurgstall poursuit la diffusion de LoRA structurels spécialisés pour LTX-2.3, en élargissant son champ des modifications corporelles vers les capacités « Edit Anything ». Le modèle est désormais pris en charge par des interfaces web comme a1.art, pour une utilisation simplifiée.",
@@ -2150,6 +2160,11 @@
   "summary": "Le 23 juillet 2026, une mise à jour de développement de Hyra a mis en lien la page de recherche du projet avec un formulaire de retours hébergé par Tencent. Il s'agit d'une étape publique importante, tant sur le plan de la recherche que sur celui des retours, dans l'histoire de Hyra, bien que les éléments disponibles n'établissent ni le sujet de recherche, ni les résultats, ni le statut du produit.",
   "title": "La page de recherche de Hyra et le formulaire de retours étaient liés"
  },
+ "n-720d98287b": {
+  "research_notes": "Passez en revue le programme de la conférence dans les parcours Data, Code, Server Room et Network afin d'identifier les sessions consacrées à l'architecture de production.\n\nAccédez aux présentations et sessions techniques enregistrées via la chaîne vidéo officielle de Yandex for ML.\n\nExtrayez les schémas de déploiement pour l'inférence des LLM, la vision agentique et les modèles de recommandation à partir des diaporamas des intervenants et des synthèses techniques.\n\nComparez les latences d'inférence des LLM et des workflows agentiques aux architectures de production réelles présentées dans les parcours d'ingénierie de la conférence.\n\nExaminez les enregistrements de présentations techniques et les analyses d'architecture sur la chaîne vidéo officielle avant de reproduire des pipelines d'entraînement distribué ou d'agents vision-langage.",
+  "summary": "Yandex a publié les mises à jour du programme de Practical ML Conf 2026, à l'approche de l'événement du 19 septembre, détaillant 24 présentations techniques réparties entre les parcours Data, Code, Server Room et Network, ainsi que la cérémonie du Yandex ML Prize.",
+  "title": "Le programme de Practical ML Conf 2026 finalisé sur quatre parcours techniques"
+ },
  "n-721afd6a19": {
   "summary": "Le 2026-08-10, le message enregistré renvoyait vers le dépôt GitHub Firecrawl Anydoc, aux côtés d'une référence liée à The source reference. Cela établit un point de référence public daté pour Anydoc, mais n'établit ni une version, ni une modification de fonctionnalité, ni une capacité.",
   "title": "Référence publique au dépôt Anydoc"
@@ -2679,6 +2694,11 @@
  "n-9478ff9243": {
   "summary": "Le 2026-07-16, le fil consacré à Grok Build a fait référence au dépôt GitHub public de Grok Build d'xAI. Cela constitue une source publique datée pour le projet, bien que le contenu du dépôt et le contexte exact du message n'aient pas été examinés.",
   "title": "Référence au dépôt public de Grok Build"
+ },
+ "n-952baa76f5": {
+  "research_notes": "Clonez le dépôt et installez les dépendances requises, notamment PyTorch et torchvision.\n\nTéléchargez les poids pré-entraînés du modèle RelayVSR depuis Hugging Face pour la cible d'amélioration en 2x ou 4x.\n\nLancez l'inférence via les scripts de test fournis ou les nœuds personnalisés ComfyUI en utilisant le mode streaming pour les longues séquences vidéo.\n\nUtilisez un intervalle d'images clés de l'ordre de 15 images pour maintenir un débit élevé tout en préservant la reconstruction des détails générés.\n\nActivez le mode streaming avec fondu enchaîné linéaire lors du traitement de longues séquences afin de stabiliser l'utilisation de la VRAM et d'éliminer les artefacts aux frontières des segments.\n\nAllouez un GPU disposant d'au moins 14 Go de VRAM pour absorber le pic de mémoire pendant la génération des latents des images clés.",
+  "summary": "RelayVSR est un cadre open source de super-résolution vidéo qui combine un backbone génératif à images clés éparses et un Dual-Memory Video Transformer léger pour agrandir et améliorer des vidéos dégradées. Fonctionnant à jusqu'à 29 FPS en 1080p sur un GPU NVIDIA A100, avec un pic de VRAM d'environ 13,8 Go, le modèle prend en charge les améliorations en 2x et 4x et s'intègre aux pipelines d'inférence locaux, dont ComfyUI.",
+  "title": "Sortie du cadre de super-résolution vidéo RelayVSR"
  },
  "n-95cbbfe193": {
   "evolution_summary": "L'article d'actualité décrit les architectures SANA-Video 2.0 de 5B et 14B ainsi que les performances annoncées, et indique explicitement qu'aucun poids du nouveau modèle n'était disponible à ce moment-là.",
@@ -3280,6 +3300,11 @@
   "summary": "Anthropic Managed Agents fournit une infrastructure hébergée pour des workflows d'IA autonomes de longue durée, avec une gestion native de l'état et une intégration native des outils. Il prend en charge le sandboxing, le coffre-fort des identifiants et la mémoire persistante, afin de permettre l'exécution de tâches complexes en plusieurs étapes.",
   "title": "Anthropic Managed Agents pour les workflows d'IA autonomes de longue durée"
  },
+ "n-b4e85758ff": {
+  "research_notes": "Clonez le dépôt StokastX/gaussian-light-transport et configurez un environnement avec PyTorch, Taichi et Mitsuba 3 avec prise en charge de Dr.Jit.\n\nPréparez une représentation de scène 3D contenant des maillages géométriques, des descriptions d'émetteurs et les propriétés de réflectance de surface (albédo et rugosité).\n\nExécutez le script d'optimisation pour initialiser et ajuster le mélange de gaussiennes 13D en minimisant le résidu de l'équation de rendu.\n\nÉvaluez la représentation gaussienne optimisée avec un pavage spatial en espace monde et un élagage séparable pour une lecture interactive de l'éclairage global, indépendante du point de vue.\n\nRegroupez les géométries disjointes partageant les mêmes attributs d'albédo et de rugosité afin de permettre à des gaussiennes de grande dimension uniques de représenter des comportements de transport de lumière communs.\n\nUtilisez le pavage spatial en espace monde et l'élagage séparable lors de l'évaluation pour éviter que le recouvrement des gaussiennes de grande dimension ne dégrade les fréquences d'images dans les scènes complexes.\n\nVérifiez l'alignement des normales de surface et la topologie des maillages dans Mitsuba 3 avant de lancer la minimisation du résidu, afin de garantir la convergence numérique lors de l'optimisation avec PyTorch.",
+  "summary": "L'article SIGGRAPH Asia 2026 présente Gaussian Light Transport, qui formule l'éclairage global d'une scène comme un mélange de gaussiennes en 13 dimensions minimisant directement les résidus de l'équation de rendu.",
+  "title": "Technique d'éclairage global Gaussian Light Transport"
+ },
  "n-b636bdc989": {
   "summary": "Le 2026-05-19, un lien public associé à Starchild-1 renvoyait à un article d'Odyssey, identifié par son URL comme une présentation du projet. Il est proposé de l'inscrire comme nouvel événement historique, car il semble marquer la première présentation publique du projet. Les éléments scellés ne fournissent aucun détail technique, de disponibilité ou de performance ; aucun n'est donc affirmé.",
   "title": "Annonce publique initiale de Starchild-1"
@@ -3321,6 +3346,11 @@
   "research_notes": "Claude Academy a ouvert des cours gratuits, des tutoriels et des cas d'usage pour une utilisation sûre et réfléchie.",
   "summary": "Le 2026-08-21, le registre a enregistré Claude Academy comme ressource éducative officielle. Le site dédié à l'académie permet de considérer cette étape comme un jalon de développement, bien que la date exacte de son lancement et le programme initial restent non vérifiés.",
   "title": "Claude Academy est devenu une ressource pédagogique officielle"
+ },
+ "n-b815f82305": {
+  "research_notes": "Déployez GigaChat3.5-432B-A28B-Reasoning à l'aide des moteurs d'inférence vLLM ou SGLang avec quantification FP8 et parallélisme de tenseurs multi-GPU, en prenant en charge la Multi-head Latent Attention (MLA) et les couches GatedDeltaNet.\n\nConfigurez les paramètres d'exécution de l'inférence pour exploiter la fenêtre de contexte native de 262K tokens et activez les têtes de prédiction multi-tokens pour accélérer le décodage spéculatif.\n\nUtilisez la compression du cache Key-Value de la Multi-head Latent Attention (MLA) à bas rang, en combinaison avec des couches d'attention linéaire alternées, afin d'éviter la saturation de la mémoire lors de la génération sur de longs contextes.\n\nProvisionnez des clusters matériels d'entreprise distribués disposant d'une VRAM agrégée suffisante pour héberger les poids des 432 milliards de paramètres, malgré le routage épars de 28 milliards de paramètres actifs par token.",
+  "summary": "Sergey Markov a présenté la feuille de route de Sber en matière de modèles de fondation industriels et d'initiatives d'automatisation en entreprise lors d'une conférence d'entreprise de Norilsk Nickel.",
+  "title": "La stratégie d'IA en entreprise de Sber présentée lors de la conférence de Norilsk Nickel"
  },
  "n-b8abd7e35e": {
   "summary": "Le 2026-06-11, la ligne de développement de Cream Typer a enregistré un lien direct vers le dépôt GitHub du projet. Les éléments fournis établissent la référence au dépôt, mais ne contiennent aucun texte source, aucun détail de version et aucune description d'une modification ; cet événement de l'historique n'affirme donc ni un lancement, ni une version, ni une mise à jour de fonctionnalité.",
@@ -3823,6 +3853,11 @@
  "n-d4f7f53653": {
   "summary": "Le 2026-06-24, les dépôts nommés Qwopus3.6-27B-v2-GGUF et Qwopus3.6-27B-v2-FP8 ont été liés dans le cadre de la lignée Qwopus3.6-27B-v2. Il s'agit d'une étape de diffusion significative, car des artefacts nommés ont été rendus disponibles dans deux formats orientés inférence. Un contemporaneous The recorded link accompagnait les liens vers les dépôts, mais son contenu n'a pas été examiné.",
   "title": "Les artefacts de Qwopus3.6-27B-v2 ont été publiés dans les dépôts GGUF et FP8"
+ },
+ "n-d5737703ea": {
+  "research_notes": "Sélectionnez le backbone de diffusion texte-image cible, tel que Stable Diffusion ou SANA, et définissez les attributs démographiques visés pour le débiaisage.\n\nPrécalculez les vecteurs de pilotage d'attributs à l'aide de paires de prompts textuels contrastives reflétant les dimensions démographiques choisies.\n\nIntégrez le mécanisme de gating sensible au prompt dans les couches de cross-attention du modèle pendant le processus d'échantillonnage d'inférence de la diffusion inverse.\n\nGénérez des images à partir de prompts standard ; le gate laisse intacts les prompts d'attributs explicites tout en injectant les vecteurs de pilotage dans les prompts neutres.\n\nUtilisez des paires contrastives ciblées plutôt que des descriptions sémantiques générales lors du calcul des vecteurs de pilotage afin d'éviter de diluer l'alignement texte-image principal.\n\nS'appuyer sur le gating sensible au prompt pour contourner l'intervention lorsque les prompts d'entrée contiennent déjà des descripteurs d'attributs explicites, afin d'éviter des ajustements d'activation conflictuels.\n\nValidez les réductions de l'écart de parité sur des prompts de rôles neutres spécifiques au domaine avant tout déploiement en production, sur différents backbones de diffusion.",
+  "summary": "EquiSteer introduit un cadre de pilotage par cross-attention, appliqué à l'inférence, qui atténue le biais démographique des modèles de diffusion texte-image jusqu'à 87 % sans nécessiter de réentraînement du modèle.",
+  "title": "EquiSteer : débiaisage de diffusion sans entraînement"
  },
  "n-d5883c87bf": {
   "evolution_summary": "L'article de présentation décrivait la compréhension de sons inhabituels, l'analyse d'enregistrements audio pouvant atteindre dix minutes, le dialogue portant sur plusieurs flux audio, le raisonnement, l'interaction vocale et un encodeur partagé pour la parole, les sons et la musique.",
@@ -4338,6 +4373,11 @@
   "summary": "Le 8 avril 2026, un message du fil de lancement de Volumography renvoyait vers le site web de Volumography. Les éléments disponibles établissent seulement que ce lien vers le projet a été partagé à cette date ; ils n'établissent pas un lancement de produit, une sortie de fonctionnalité ou toute autre affirmation de capacité.",
   "title": "Site web de Volumography cité dans le fil de lancement"
  },
+ "n-ef6922bf2a": {
+  "research_notes": "Téléchargez les poids ouverts depuis le dépôt Hugging Face ai-sage/GigaChat3.5-432B-A28B-Reasoning ou clonez le dépôt depuis GitVerse.\n\nDéployez le modèle à l'aide d'un moteur d'inférence prenant en charge les architectures MLA hybrides et MoE, comme vLLM ou SGLang, sur une infrastructure de serveurs multi-GPU.\n\nSoumettez au modèle des tâches analytiques en plusieurs étapes avec le mode raisonnement activé, afin qu'il génère des étapes intermédiaires de chaîne de pensée avant de produire la réponse finale.\n\nAllouez des grappes de GPU multi-nœuds disposant d'une VRAM agrégée élevée pour accueillir les poids MoE de 432B, en appliquant une quantification FP8 lorsque les limites de mémoire BF16 complète sont contraignantes.\n\nActivez l'extension de contexte YaRN, jusqu'à 256K tokens, lors de l'ingestion de grandes collections de documents, de contrats juridiques ou de dépôts multi-fichiers.\n\nRéservez le mode raisonnement aux déductions logiques complexes en plusieurs étapes, aux preuves mathématiques et à la vérification de programmes, tout en gardant la génération simple sur les modèles standard afin d'optimiser la consommation de tokens.",
+  "summary": "GigaChat 3.5 Reasoning fournit des poids ouverts prenant en charge un contexte de 256K tokens via la mise à l'échelle YaRN, ainsi qu'un déploiement d'inférence sur vLLM et SGLang. Sber a publié le modèle sur Hugging Face et GitVerse pour le raisonnement en plusieurs étapes, les tâches mathématiques et la vérification de code.",
+  "title": "GigaChat 3.5 Reasoning : poids ouverts et configurations de déploiement"
+ },
  "n-efaa00d50b": {
   "evolution_summary": "Passé d'outil interne de Vercel à projet open source public ; il utilise actuellement Claude 3.5 Sonnet et Vercel Sandbox pour une analyse de code à haute fidélité et des corrections directes de PR.",
   "research_notes": "Recourt à un système de compétences progressif qui ne charge les instructions spécialisées pour des frameworks comme Next.js que lorsqu'elles sont pertinentes.",
@@ -4494,6 +4534,11 @@
  "n-f7bf45f8a9": {
   "summary": "Le 2026-03-09, un message du fil Composio a relayé le dépôt GitHub d'Agent Orchestrator ainsi qu'une URL secondaire sur hf.ru. Le document établit une référence publique contemporaine au projet, mais ne vérifie ni une publication, ni un ensemble de fonctionnalités, ni tout autre jalon précis. Cette entrée d'historique se limite donc à cette référence datée.",
   "title": "Le dépôt Agent Orchestrator a été cité publiquement"
+ },
+ "n-f7f969bd27": {
+  "research_notes": "Clonez le dépôt StokastX/gaussian-light-transport et configurez un environnement avec PyTorch, Taichi et Mitsuba 3 avec prise en charge de Dr.Jit.\n\nPréparez une représentation de scène 3D contenant des maillages géométriques, des descriptions d'émetteurs et les propriétés de réflectance de surface (albédo et rugosité).\n\nExécutez le script d'optimisation pour initialiser et ajuster le modèle de mélange de Gaussiennes en 13D en minimisant le résidu de l'équation de rendu.\n\nÉvaluez la représentation gaussienne optimisée avec un pavage spatial en espace monde et un élagage séparable pour une lecture interactive et indépendante du point de vue de l'illumination globale.\n\nAgrégez les géométries disjointes partageant les mêmes attributs d'albédo et de rugosité afin de permettre à des Gaussiennes uniques de grande dimension de représenter des comportements de transport lumineux communs.\n\nUtilisez le pavage spatial en espace monde et l'élagage séparable lors de l'évaluation pour empêcher le chevauchement des Gaussiennes de grande dimension de dégrader les fréquences d'images dans les scènes complexes.\n\nVérifiez l'alignement des normales de surface et la topologie des maillages dans Mitsuba 3 avant de commencer la minimisation du résidu afin de garantir la convergence numérique lors de l'optimisation avec PyTorch.",
+  "summary": "L'implémentation officielle associe Mitsuba 3, Dr.Jit et des noyaux d'élagage Taichi à l'optimisation PyTorch, offrant un rendu indépendant du point de vue à des fréquences d'images de l'ordre de la milliseconde, pour un stockage de quelques mégaoctets.",
+  "title": "Publication de l'implémentation et du benchmark de Gaussian Light Transport"
  },
  "n-f80e0da140": {
   "summary": "Le 23 juin 2026, la ligne Tripo a renvoyé vers la publication officielle de Tripo intitulée « May Update on Tripo ». Cela ajoute une référence officielle de mise à jour produit à l'historique, mais les éléments fournis n'identifient pas les modifications qu'elle décrit. L'étiquette « May » du lien ne permet pas d'établir la date exacte de publication de la page.",

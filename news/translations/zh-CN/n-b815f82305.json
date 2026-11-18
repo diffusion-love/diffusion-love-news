@@ -1,0 +1,11 @@
+{
+ "id": "n-b815f82305",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "使用 vLLM 或 SGLang 推理引擎部署 GigaChat3.5-432B-A28B-Reasoning，采用 FP8 量化和多 GPU 张量并行，支持多头潜在注意力（Multi-head Latent Attention, MLA）和 GatedDeltaNet 层。\n\n配置推理运行时参数，以利用原生的 262K token 上下文窗口，并启用多 token 预测头，以加速投机解码。\n\n结合低秩多头潜在注意力（MLA）的 KV 缓存压缩与交替的线性注意力层，防止长上下文生成过程中出现显存耗尽。\n\n部署分布式企业级硬件集群，提供足够的总显存容量以容纳 432B 参数权重，尽管每个 token 只稀疏激活 28B 参数。",
+ "source_sha256": "ca3e08728a3020183643b0925eb66541cb144c91edcbfa3a49214e6026a27905",
+ "summary": "Sergey Markov 在 Norilsk Nickel 企业大会上介绍了 Sber 的工业基础模型路线图和企业自动化计划。",
+ "title": "Sber 企业 AI 战略亮相 Norilsk Nickel 大会",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

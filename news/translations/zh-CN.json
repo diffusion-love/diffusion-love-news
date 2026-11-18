@@ -840,6 +840,11 @@
   "summary": "2026年7月6日，一条带日期的消息与 Awesome Harness Engineering 相关，并链接到其 GitHub 仓库。这表明该项目在当天存在一个公开的仓库引用，但并不能说明发布、功能变更或其他里程碑事件。",
   "title": "Awesome Harness Engineering GitHub 仓库被引用"
  },
+ "n-2a63a39249": {
+  "research_notes": "从 Hugging Face 仓库 ai-sage/GigaChat3.5-432B-A28B-Reasoning 下载开放权重，或从 GitVerse 克隆该仓库。\n\n使用支持混合 MLA 与 MoE 架构的推理引擎部署模型，例如 vLLM 或 SGLang，并运行在多 GPU 服务器基础设施上。\n\n在启用推理模式的情况下提交多阶段分析任务，使模型在给出最终答案之前生成思维链（chain-of-thought）中间步骤。\n\n分配具有高总显存（VRAM）的多节点 GPU 集群以容纳 432B MoE 权重；当完整 BF16 显存上限受限时，应用 FP8 量化。\n\n在处理大型文档集合、法律合同或多文件代码仓库时，启用 YaRN 上下文扩展，将上下文长度扩展至 256K tokens。\n\n将复杂的多步逻辑推演、数学证明和程序验证交由推理模式处理，同时将直接的常规生成任务保留在标准模型上，以优化 token 消耗。",
+  "summary": "GigaChat 3.5 Reasoning 是 Sber 推出的开放权重推理模型，采用 432B 参数的混合专家（MoE）架构，其中激活参数为 28B。该模型引入了带有中间验证的多阶段问题拆解，以及混合注意力机制，并以 MIT 许可证在 Hugging Face 和 GitVerse 上发布。",
+  "title": "GigaChat 3.5 Reasoning 开放权重 MoE 版本发布"
+ },
  "n-2a8f5beb6c": {
   "evolution_summary": "Codex 于 2023 年被弃用后，于 2025 年 4 月以以 CLI 为中心的平台形式重新推出。它转向基于 Rust 的架构，并支持 Model Context Protocol（MCP），目前由 GPT-5 模型系列驱动，具备原生的计算机使用能力。",
   "research_notes": "该生态目前包括用于自动化漏洞修复的 'Codex Security'，并集成支持 VS Code、Cursor 和 Xcode。",
@@ -931,6 +936,11 @@
  "n-2f045eb33c": {
   "summary": "2026年3月23日，Video-to-World 相关工作同时关联到一个公开的项目主页和一个 GitHub 代码仓库。这为该项目的文档和源代码公开存在情况提供了一个带日期的公开参考时间点。",
   "title": "Video-to-World 项目资源已公开链接"
+ },
+ "n-2f04eafb31": {
+  "research_notes": "使用 vLLM 或 SGLang 推理引擎部署 GigaChat3.5-432B-A28B-Reasoning，采用 FP8 量化和多 GPU 张量并行，支持多头潜在注意力（MLA）和 GatedDeltaNet 层。\n\n配置推理运行时参数，以利用原生的 262K token 上下文窗口，并激活多 token 预测头，以加速推测解码。\n\n结合低秩多头潜在注意力（MLA）键值缓存压缩与交替的线性注意力层，以防止长上下文生成过程中的显存耗尽。\n\n为分布式企业级硬件集群配置足够的总显存，以容纳 432B 参数权重，尽管每个 token 仅稀疏路由激活 28B 参数。",
+  "summary": "Sber 在 Hugging Face 上发布了 GigaChat3.5-432B-A28B-Reasoning 的开放权重，推出了一个 432B 的混合专家模型，激活参数为 28B，采用交替的多头潜在注意力和 GatedDeltaNet 层，并具有 262K 的上下文窗口。",
+  "title": "GigaChat 3.5 Reasoning 开放权重与混合 MLA 架构发布"
  },
  "n-2f8c6f34f0": {
   "evolution_summary": "该工具最初是为 1,040 项任务的 Auto-ClawEval 基准研发的研究工具，现已发展为通用工具包，支持 Model Context Protocol（MCP），以及用于智能体调试的即时环境生成。",
@@ -1395,6 +1405,11 @@
   "evolution_summary": "该新闻帖链接了 Unsloth 代码仓库、Colab 以及 GPT-OSS 微调说明。",
   "summary": "该新闻帖链接了 Unsloth 代码仓库、Colab 以及 GPT-OSS 微调说明。",
   "title": "Unsloth 发布 GPT-OSS 微调指南"
+ },
+ "n-492c016626": {
+  "research_notes": "在 Google AI Studio 或 Gemini API 中选择 Gemini 4 Hydrogen（模型 ID gemini-4-hydrogen），用于面向执行的开发任务。\n\n根据所需的延迟与推理深度之间的平衡，在 low、medium、high 和 xhigh 之间配置思考级别。\n\n在 Google Antigravity 中启用 Orchestrator 模式，将用于架构规划的 Gemini 4 Carbon 与用于迭代代码生成和测试的 Gemini 4 Hydrogen 配对使用。\n\n将 Gemini 4 Hydrogen 用作高速执行引擎，处理样板代码生成、单元测试和重构等代码仓库任务，同时将高层架构决策交由前沿规划模型负责。\n\n对于非平凡的编码任务，保持默认的 high 思考深度，以保证推理质量，同时节省配额并保持执行速度。",
+  "summary": "Google 推出了 Gemini 4 Hydrogen，这是一款面向代码编写和智能体任务的执行模型，具备可配置的推理级别和多模型 Antigravity 编排功能。",
+  "title": "Google 发布 Gemini 4 Hydrogen 编程模型"
  },
  "n-492f7ebf1e": {
   "evolution_summary": "TheBurgstall 持续为 LTX-2.3 发布专用结构型 LoRA，功能从身体修改扩展到 'Edit Anything' 能力。该模型现已支持 a1.art 等网页界面，使用更加简便。",
@@ -2150,6 +2165,11 @@
   "summary": "2026年7月23日，Hyra 的一则开发进展更新将该项目的研究页面与一个托管于腾讯的反馈表单链接在一起。这是 Hyra 发展历程中一个重要的公开研究与反馈环节，但现有证据尚不能确定其研究主题、研究结果或产品状态。",
   "title": "Hyra 研究页面与反馈表单已关联"
  },
+ "n-720d98287b": {
+  "research_notes": "梳理数据、代码、服务器机房和网络四个赛道的会议议程，找出涉及生产架构的会议环节。\n\n通过 Yandex for ML 官方视频频道观看录制的演讲和技术环节。\n\n从演讲者的幻灯片和技术摘要中提取 LLM 推理、智能体视觉和推荐模型的部署模式。\n\n将 LLM 推理和智能体工作流的延迟与会议工程赛道中展示的真实生产架构进行对比基准测试。\n\n在复现分布式训练或视觉-语言智能体流水线之前，先在官方视频频道上查看技术演讲录像和架构拆解。",
+  "summary": "Yandex 在 9 月 19 日活动前发布了 Practical ML Conf 2026 的项目更新，详细介绍了数据、代码、服务器机房和网络四个赛道的 24 场技术演讲，以及 Yandex ML Prize 颁奖典礼。",
+  "title": "Practical ML Conf 2026 日程确定，覆盖四大技术赛道"
+ },
  "n-721afd6a19": {
   "summary": "2026年8月10日，相关记录中的消息附上了 Firecrawl Anydoc 的 GitHub 代码仓库，以及一个相关的 The source 参考链接。这为 Anydoc 确立了一个有日期的公开引用节点，但并不能证明存在任何发布、功能变更或能力。",
   "title": "对 Anydoc 代码仓库的公开引用"
@@ -2679,6 +2699,11 @@
  "n-9478ff9243": {
   "summary": "2026年7月16日，Grok Build 相关讨论串提到了 xAI 的公开 Grok Build GitHub 代码仓库。这为该项目提供了一个带日期的公开来源引用，但尚未对代码仓库内容以及该消息的具体语境进行调查。",
   "title": "Grok Build 公开代码仓库引用"
+ },
+ "n-952baa76f5": {
+  "research_notes": "克隆代码仓库并安装所需依赖，包括 PyTorch 和 torchvision。\n\n从 Hugging Face 下载预训练的 RelayVSR 模型权重，用于 2x 或 4x 增强目标。\n\n通过提供的测试脚本或 ComfyUI 自定义节点运行推理，处理长视频序列时使用流式模式。\n\n使用诸如 15 帧的关键帧间隔，在保持生成细节重建效果的同时维持较高吞吐量。\n\n处理长序列时启用带线性交叉淡化的流式模式，以保持显存占用稳定，并消除分块边界伪影。\n\n分配至少 14 GB 显存的 GPU，以容纳关键帧潜变量生成过程中的峰值内存占用。",
+  "summary": "RelayVSR 是一个开源视频超分辨率框架，它结合了稀疏生成式关键帧主干网络与轻量级双记忆视频 Transformer，用于放大并增强退化视频。该模型在 NVIDIA A100 GPU 上以 1080p 分辨率运行，速度最高可达 29 FPS，峰值显存占用约为 13.8 GB，支持 2x 和 4x 增强，并可集成到包括 ComfyUI 在内的本地推理流程中。",
+  "title": "RelayVSR 视频超分辨率框架正式发布"
  },
  "n-95cbbfe193": {
   "evolution_summary": "该新闻帖介绍了 5B 和 14B 两种 SANA-Video 2.0 架构及其性能宣称，并明确指出截至发布时，新模型的权重尚不可用。",
@@ -3322,6 +3347,11 @@
   "summary": "2026-08-21，该记录将 Claude Academy 登记为官方教育资源。专门的学院网站支持将此视为一个发展里程碑，但其确切上线时间和初始课程内容尚未核实。",
   "title": "Claude Academy 成为官方学习资源"
  },
+ "n-b815f82305": {
+  "research_notes": "使用 vLLM 或 SGLang 推理引擎部署 GigaChat3.5-432B-A28B-Reasoning，采用 FP8 量化和多 GPU 张量并行，支持多头潜在注意力（Multi-head Latent Attention, MLA）和 GatedDeltaNet 层。\n\n配置推理运行时参数，以利用原生的 262K token 上下文窗口，并启用多 token 预测头，以加速投机解码。\n\n结合低秩多头潜在注意力（MLA）的 KV 缓存压缩与交替的线性注意力层，防止长上下文生成过程中出现显存耗尽。\n\n部署分布式企业级硬件集群，提供足够的总显存容量以容纳 432B 参数权重，尽管每个 token 只稀疏激活 28B 参数。",
+  "summary": "Sergey Markov 在 Norilsk Nickel 企业大会上介绍了 Sber 的工业基础模型路线图和企业自动化计划。",
+  "title": "Sber 企业 AI 战略亮相 Norilsk Nickel 大会"
+ },
  "n-b8abd7e35e": {
   "summary": "2026-06-11，Cream Typer 的开发动态中记录了一条指向该项目 GitHub 仓库的直接链接。现有证据可以确认仓库引用本身，但未提供原文内容、发布细节或任何变更说明；因此，这一历史事件并不断言产品发布、版本号或功能更新。",
   "title": "Cream Typer GitHub 仓库被引用"
@@ -3823,6 +3853,11 @@
  "n-d4f7f53653": {
   "summary": "2026年6月24日，名为 Qwopus3.6-27B-v2-GGUF 和 Qwopus3.6-27B-v2-FP8 的仓库作为 Qwopus3.6-27B-v2 系列的一部分被链接。这是一个实质性的分发步骤，因为它使已命名的产物能够以两种面向推理的格式获取。一条同期的记录链接与仓库链接一并出现，但其内容未经审查。",
   "title": "Qwopus3.6-27B-v2 产物已发布至 GGUF 和 FP8 仓库"
+ },
+ "n-d5737703ea": {
+  "research_notes": "选择目标文生图扩散骨干模型（例如 Stable Diffusion 或 SANA），并确定为去偏而关注的人口统计属性。\n\n使用成对的对比文本提示预先计算属性引导向量，这些提示需体现所选的人口统计维度。\n\n在反向扩散推理采样过程中，将提示感知门控机制集成到模型的交叉注意力层中。\n\n使用标准提示生成图像；当提示中包含明确的属性描述时，门控会保持这些提示不变，而对中性提示则注入引导向量。\n\n计算引导向量时，使用有针对性的对比对，而非宽泛的语义描述，以防止稀释主要的文本-图像对齐。\n\n当输入提示已包含明确的属性描述词时，依靠提示感知门控绕过干预，避免产生相互冲突的激活调整。\n\n在不同扩散骨干模型上进行生产部署之前，先在特定领域的中性角色提示上验证均等性差距（parity gap）的缩小效果。",
+  "summary": "EquiSteer 提出了一种推理时的交叉注意力引导框架，无需重新训练模型，即可将文生图扩散模型中的人口统计偏见缓解高达 87%。",
+  "title": "EquiSteer：免训练的扩散模型去偏"
  },
  "n-d5883c87bf": {
   "evolution_summary": "该新闻稿介绍了其对罕见声音的理解、长达十分钟的音频处理、多音频对话、推理、语音交互，以及一个统一的语音/声音/音乐编码器。",
@@ -4338,6 +4373,11 @@
   "summary": "2026-04-08，Volumography 启动帖中的一条消息链接到了 Volumography 网站。现有证据只能证明该项目链接在当天被分享；无法证明存在产品发布、功能上线或其他能力声明。",
   "title": "启动帖中引用的 Volumography 网站"
  },
+ "n-ef6922bf2a": {
+  "research_notes": "从 Hugging Face 仓库 ai-sage/GigaChat3.5-432B-A28B-Reasoning 下载开源权重，或从 GitVerse 克隆该仓库。\n\n使用支持混合 MLA 和 MoE 架构的推理引擎（如 vLLM 或 SGLang）在多 GPU 服务器基础设施上部署模型。\n\n对多阶段分析任务启用推理模式进行提示，使模型在给出最终答案之前生成思维链的中间步骤。\n\n分配具有较大总显存的多节点 GPU 集群以容纳 432B MoE 权重；当完整 BF16 显存受限时，应用 FP8 量化。\n\n在处理大型文档集合、法律合同或多文件代码仓库时，启用 YaRN 上下文扩展缩放，最高支持 256K tokens。\n\n将复杂的多步逻辑推导、数学证明和程序验证交由推理模式处理，同时将简单的生成任务保留在标准模型上，以优化 token 消耗。",
+  "summary": "GigaChat 3.5 Reasoning 提供开源权重，通过 YaRN 缩放支持 256K token 上下文，并可在 vLLM 和 SGLang 上进行推理部署。Sber 在 Hugging Face 和 GitVerse 上发布了该模型，用于多步推理、数学任务和代码验证。",
+  "title": "GigaChat 3.5 Reasoning 开源权重与部署配置"
+ },
  "n-efaa00d50b": {
   "evolution_summary": "从 Vercel 内部工具转变为公开的开源项目；目前使用 Claude 3.5 Sonnet 和 Vercel Sandbox 进行高保真代码分析，并直接修复 PR。",
   "research_notes": "采用渐进式技能系统，仅在相关时才加载针对 Next.js 等特定框架的专用指令。",
@@ -4494,6 +4534,11 @@
  "n-f7bf45f8a9": {
   "summary": "2026年3月9日，Composio 话题串中的一条消息同时链接了 Agent Orchestrator 的 GitHub 代码仓库以及一个次要的 hf.ru 链接。该记录可以证明当时存在一次公开的项目引用，但无法核实任何发布版本、功能集或其他具体里程碑。因此，本条历史记录仅限于这一有日期的引用。",
   "title": "Agent Orchestrator 代码仓库曾被公开引用"
+ },
+ "n-f7f969bd27": {
+  "research_notes": "克隆 StokastX/gaussian-light-transport 仓库，并配置包含 PyTorch、Taichi 和支持 Dr.Jit 的 Mitsuba 3 的环境。\n\n准备一个三维场景表示，包含几何网格、发光体描述以及表面反射属性（反照率和粗糙度）。\n\n运行优化脚本，通过最小化渲染方程残差来初始化并拟合 13D 高斯混合模型。\n\n以世界空间分块和可分离剔除评估优化后的高斯表示，实现交互式、与视角无关的全局光照回放。\n\n将具有相同反照率和粗糙度属性的不连通几何体聚合起来，使单个高维高斯能够表示常见的光传输行为。\n\n在评估阶段利用世界空间空间分块和可分离剔除，防止复杂场景中高维高斯重叠降低帧率。\n\n在开始残差最小化之前，在 Mitsuba 3 中检查表面法线一致性和网格拓扑，以确保 PyTorch 优化的数值收敛。",
+  "summary": "该官方实现将 Mitsuba 3、Dr.Jit 和 Taichi 剔除内核与 PyTorch 优化相结合，可实现与视角无关的毫秒级帧渲染，且存储占用仅为几兆字节。",
+  "title": "Gaussian Light Transport 实现与基准测试发布"
  },
  "n-f80e0da140": {
   "summary": "2026年6月23日，Tripo 相关条目链接了 Tripo 官方发布的题为“May Update on Tripo”的文章。这为历史记录补充了一份官方产品更新参考，但现有证据并未说明该文所描述的具体变更。链接中的 May 标签也不能确定该页面的确切发布日期。",

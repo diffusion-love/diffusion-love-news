@@ -1,0 +1,11 @@
+{
+ "id": "n-b4e85758ff",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "StokastX/gaussian-light-transport 저장소를 클론하고 PyTorch, Taichi, Dr.Jit 지원이 포함된 Mitsuba 3로 환경을 구성합니다.\n\n지오메트리 메시, 이미터 기술자, 표면 반사 특성(알베도와 거칠기)을 포함하는 3D 장면 표현을 준비합니다.\n\n최적화 스크립트를 실행하여 렌더링 방정식 잔차를 최소화하는 방식으로 13D 가우시안 혼합 모델을 초기화하고 적합시킵니다.\n\n최적화된 가우시안 표현을 월드 공간 타일링 및 분리형 컬링과 함께 평가하여, 상호작용적이고 시점에 독립적인 전역 조명 재생을 구현합니다.\n\n동일한 알베도와 거칠기 속성을 공유하는 분리된 지오메트리를 통합하여, 단일 고차원 가우시안이 공통된 광 수송 거동을 표현하도록 합니다.\n\n평가 과정에서 월드 공간 공간 타일링과 분리형 컬링을 활용하여, 복잡한 장면에서 고차원 가우시안의 중첩이 프레임 속도를 저하시키지 않도록 합니다.\n\nPyTorch 최적화 과정에서 수치적 수렴을 보장하기 위해, 잔차 최소화를 시작하기 전에 Mitsuba 3에서 표면 법선 정렬과 메시 위상구조를 검증합니다.",
+ "source_sha256": "8f89e6800a621b139543a0668e709b5e7f8ef29cbab06fd3ee96a50535a12de6",
+ "summary": "SIGGRAPH Asia 2026 논문인 Gaussian Light Transport는 장면의 전역 조명을 렌더링 방정식 잔차를 직접 최소화하는 13차원 가우시안 혼합으로 정식화합니다.",
+ "title": "Gaussian Light Transport 전역 조명 기법",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

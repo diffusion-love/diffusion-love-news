@@ -1,0 +1,11 @@
+{
+ "id": "n-ef6922bf2a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Lade die offenen Gewichte aus dem Hugging-Face-Repository ai-sage/GigaChat3.5-432B-A28B-Reasoning herunter oder klone das Repository von GitVerse.\n\nStelle das Modell mit einer Inference-Engine bereit, die hybride MLA- und MoE-Architekturen unterstützt, etwa vLLM oder SGLang, auf einer Multi-GPU-Serverinfrastruktur.\n\nStelle dem Modell mehrstufige analytische Aufgaben mit aktiviertem Reasoning-Modus, damit es vor der finalen Antwort Chain-of-Thought-Zwischenschritte erzeugt.\n\nStelle Multi-Node-GPU-Cluster mit hoher aggregierter VRAM-Kapazität bereit, um die 432B-MoE-Gewichte aufzunehmen, und wende FP8-Quantisierung an, wenn die Speicherlimits bei vollständigem BF16 nicht ausreichen.\n\nAktiviere YaRN-Kontexterweiterung mit Skalierung auf bis zu 256K Token, wenn große Dokumentensammlungen, Rechtsverträge oder Repositories mit mehreren Dateien eingelesen werden.\n\nLeite komplexe mehrstufige logische Schlüsse, mathematische Beweise und Programmverifikation in den Reasoning-Modus, während einfache Generierungsaufgaben auf Standardmodellen verbleiben, um den Token-Verbrauch zu optimieren.",
+ "source_sha256": "fec30cf5d6fb04273b5f3f4e5624920b4553b159484697f664c350d41cfc5a67",
+ "summary": "GigaChat 3.5 Reasoning stellt offene Gewichte mit einem Kontextfenster von 256K Token über YaRN-Skalierung sowie Inference-Deployment auf vLLM und SGLang bereit. Sber hat das Modell auf Hugging Face und GitVerse für mehrstufiges Reasoning, mathematische Aufgaben und Code-Verifikation veröffentlicht.",
+ "title": "GigaChat 3.5 Reasoning: offene Gewichte und Deployment-Konfigurationen",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

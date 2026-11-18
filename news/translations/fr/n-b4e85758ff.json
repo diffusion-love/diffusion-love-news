@@ -1,0 +1,11 @@
+{
+ "id": "n-b4e85758ff",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt StokastX/gaussian-light-transport et configurez un environnement avec PyTorch, Taichi et Mitsuba 3 avec prise en charge de Dr.Jit.\n\nPréparez une représentation de scène 3D contenant des maillages géométriques, des descriptions d'émetteurs et les propriétés de réflectance de surface (albédo et rugosité).\n\nExécutez le script d'optimisation pour initialiser et ajuster le mélange de gaussiennes 13D en minimisant le résidu de l'équation de rendu.\n\nÉvaluez la représentation gaussienne optimisée avec un pavage spatial en espace monde et un élagage séparable pour une lecture interactive de l'éclairage global, indépendante du point de vue.\n\nRegroupez les géométries disjointes partageant les mêmes attributs d'albédo et de rugosité afin de permettre à des gaussiennes de grande dimension uniques de représenter des comportements de transport de lumière communs.\n\nUtilisez le pavage spatial en espace monde et l'élagage séparable lors de l'évaluation pour éviter que le recouvrement des gaussiennes de grande dimension ne dégrade les fréquences d'images dans les scènes complexes.\n\nVérifiez l'alignement des normales de surface et la topologie des maillages dans Mitsuba 3 avant de lancer la minimisation du résidu, afin de garantir la convergence numérique lors de l'optimisation avec PyTorch.",
+ "source_sha256": "8f89e6800a621b139543a0668e709b5e7f8ef29cbab06fd3ee96a50535a12de6",
+ "summary": "L'article SIGGRAPH Asia 2026 présente Gaussian Light Transport, qui formule l'éclairage global d'une scène comme un mélange de gaussiennes en 13 dimensions minimisant directement les résidus de l'équation de rendu.",
+ "title": "Technique d'éclairage global Gaussian Light Transport",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-ef6922bf2a",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Hugging Face 저장소 ai-sage/GigaChat3.5-432B-A28B-Reasoning에서 오픈 웨이트를 내려받거나 GitVerse에서 저장소를 클론하십시오.\n\n하이브리드 MLA 및 MoE 아키텍처를 지원하는 추론 엔진(예: vLLM 또는 SGLang)을 사용해 다중 GPU 서버 인프라에 모델을 배포하십시오.\n\n다단계 분석 과제에서는 추론 모드를 활성화한 상태로 모델에 프롬프트를 입력하여, 최종 답변을 생성하기 전에 모델이 사고 연쇄(chain-of-thought) 중간 단계를 생성하도록 하십시오.\n\n432B MoE 가중치를 수용할 수 있도록 총 VRAM 용량이 큰 다중 노드 GPU 클러스터를 할당하고, 전체 BF16 메모리 한도가 제약될 경우 FP8 양자화를 적용하십시오.\n\n대용량 문서 모음, 법률 계약서 또는 다중 파일 저장소를 입력할 때는 YaRN 컨텍스트 확장 스케일링을 활성화하여 최대 256K 토큰까지 확장하십시오.\n\n복잡한 다단계 논리 추론, 수학적 증명 및 프로그램 검증은 추론 모드로 처리하고, 단순한 생성 작업은 표준 모델에 맡겨 토큰 소비를 최적화하십시오.",
+ "source_sha256": "fec30cf5d6fb04273b5f3f4e5624920b4553b159484697f664c350d41cfc5a67",
+ "summary": "GigaChat 3.5 Reasoning은 YaRN 스케일링을 통해 256K 토큰 컨텍스트를 지원하는 오픈 웨이트를 제공하며, vLLM과 SGLang을 통한 추론 배포를 지원합니다. Sber는 다단계 추론, 수학 과제, 코드 검증을 위해 이 모델을 Hugging Face와 GitVerse에 공개했습니다.",
+ "title": "GigaChat 3.5 Reasoning 오픈 웨이트 및 배포 설정",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

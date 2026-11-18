@@ -1,0 +1,11 @@
+{
+ "id": "n-492c016626",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "실행 중심의 개발 작업에는 Google AI Studio 또는 Gemini API에서 Gemini 4 Hydrogen(모델 ID gemini-4-hydrogen)을 선택하세요.\n\n필요한 지연 시간과 추론 깊이의 균형에 따라 thinking level을 low, medium, high, xhigh 중에서 설정하세요.\n\nGoogle Antigravity에서 Orchestrator mode를 활성화하면 아키텍처 설계에는 Gemini 4 Carbon을, 반복적인 코드 생성과 테스트에는 Gemini 4 Hydrogen을 함께 사용할 수 있습니다.\n\n보일러플레이트 생성, 유닛 테스트, 리팩터링 같은 저장소 작업에는 Gemini 4 Hydrogen을 고속 실행 엔진으로 활용하고, 상위 수준의 아키텍처 결정은 프런티어 계획 모델에 맡기세요.\n\n사소하지 않은 코딩 작업에는 추론 품질을 유지하면서 쿼터와 실행 속도를 아끼기 위해 기본값인 high thinking depth를 그대로 사용하세요.",
+ "source_sha256": "25899c77924adc8ed9a178173148aa22fbf7e8de939e54660e7c8c2433a1830e",
+ "summary": "Google이 코드 작성과 에이전트 작업을 위한 실행 모델 Gemini 4 Hydrogen을 공개했습니다. 이 모델은 설정 가능한 추론 수준과 다중 모델 Antigravity 오케스트레이션을 특징으로 합니다.",
+ "title": "Google, Gemini 4 Hydrogen 코딩 모델 출시",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

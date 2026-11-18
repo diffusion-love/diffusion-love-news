@@ -1,0 +1,11 @@
+{
+ "id": "n-b815f82305",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Stellen Sie GigaChat3.5-432B-A28B-Reasoning mit den Inferenz-Engines vLLM oder SGLang bereit, mit FP8-Quantisierung und Tensor-Parallelismus über mehrere GPUs. Unterstützt werden Multi-head Latent Attention (MLA) und GatedDeltaNet-Schichten.\n\nKonfigurieren Sie die Laufzeitparameter der Inferenz so, dass das native Kontextfenster von 262K Token genutzt wird, und aktivieren Sie die Multi-Token-Prediction-Köpfe für eine beschleunigte Generierung mit Speculative Decoding.\n\nNutzen Sie die Komprimierung des Key-Value-Caches der Low-Rank Multi-head Latent Attention (MLA) in Kombination mit abwechselnden linearen Attention-Schichten, um eine Erschöpfung des Speichers bei der Generierung langer Kontexte zu verhindern.\n\nStellen Sie verteilte Hardware-Cluster in Unternehmen mit ausreichendem aggregiertem VRAM bereit, um die 432B-Parametergewichte zu hosten, trotz des dünn besetzten Routings mit nur 28B aktiven Parametern pro Token.",
+ "source_sha256": "ca3e08728a3020183643b0925eb66541cb144c91edcbfa3a49214e6026a27905",
+ "summary": "Sergey Markov skizzierte auf einer Unternehmenskonferenz von Norilsk Nickel die Roadmap der Sber für industrielle Foundation-Modelle und die Initiativen zur Automatisierung in Unternehmen.",
+ "title": "Sber-Strategie für Unternehmens-KI auf Konferenz von Norilsk Nickel vorgestellt",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

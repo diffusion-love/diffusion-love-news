@@ -1,0 +1,11 @@
+{
+ "id": "n-720d98287b",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Data, Code, Server Room, Network 트랙에 걸친 컨퍼런스 일정을 검토하여 프로덕션 아키텍처 관련 세션을 찾아보십시오.\n\n공식 Yandex for ML 비디오 채널에서 녹화된 강연과 기술 세션에 접근할 수 있습니다.\n\n발표자의 슬라이드 자료와 기술 요약에서 LLM 추론, 에이전트형 비전, 추천 모델의 배포 패턴을 추출하십시오.\n\n컨퍼런스 엔지니어링 트랙에서 소개된 실제 프로덕션 아키텍처를 기준으로 LLM 추론 및 에이전트 워크플로 지연 시간을 벤치마크하십시오.\n\n분산 학습 또는 비전-언어 에이전트 파이프라인을 재현하기 전에 공식 비디오 채널에서 기술 발표 녹화본과 아키텍처 분석을 검토하십시오.",
+ "source_sha256": "1669ae68b3ce782cf35b3f0253be5a99133b25cccfdae1b7a60f95596027b0ae",
+ "summary": "Yandex는 9월 19일 행사를 앞두고 Practical ML Conf 2026의 프로그램 업데이트를 발표했으며, Data, Code, Server Room, Network 트랙에 걸친 24개의 기술 강연과 Yandex ML Prize 시상식 일정을 공개했습니다.",
+ "title": "Practical ML Conf 2026 일정 확정, 4개 기술 트랙으로 구성",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}
