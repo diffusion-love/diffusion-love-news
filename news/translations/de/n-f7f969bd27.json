@@ -1,0 +1,11 @@
+{
+ "id": "n-f7f969bd27",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository StokastX/gaussian-light-transport und richten Sie eine Umgebung mit PyTorch, Taichi und Mitsuba 3 mit Dr.Jit-Unterstützung ein.\n\nBereiten Sie eine 3D-Szenenrepräsentation vor, die Geometrie-Meshes, Beschreibungen der Lichtquellen (Emitter) und Oberflächenreflexionseigenschaften (Albedo und Rauheit) enthält.\n\nFühren Sie das Optimierungsskript aus, um das 13D-Gaußsche-Mischmodell zu initialisieren und anzupassen, indem Sie das Residuum der Rendering-Gleichung minimieren.\n\nEvaluieren Sie die optimierte Gaußsche Repräsentation mit Kachelung im Weltkoordinatenraum und separierbarem Culling für interaktive, blickwinkelunabhängige Wiedergabe der globalen Beleuchtung.\n\nFassen Sie getrennte Geometrien mit identischen Albedo- und Rauheitsattributen zusammen, damit einzelne hochdimensionale Gaußsche Funktionen gemeinsame Lichttransportverhalten abbilden können.\n\nNutzen Sie während der Evaluierung die Kachelung im Weltkoordinatenraum und das separierbare Culling, damit sich überlappende hochdimensionale Gaußsche Funktionen in komplexen Szenen nicht negativ auf die Bildrate auswirken.\n\nPrüfen Sie vor Beginn der Residuumsminimierung die Ausrichtung der Oberflächennormalen und die Mesh-Topologie in Mitsuba 3, um die numerische Konvergenz bei der PyTorch-Optimierung sicherzustellen.",
+ "source_sha256": "d757f6907bdcd5dacce315ea67e483784dc00aa609f80da37146e7a65b98f377",
+ "summary": "Die offizielle Implementierung kombiniert Mitsuba 3, Dr.Jit und Taichi-Culling-Kernels mit einer PyTorch-Optimierung und ermöglicht blickwinkelunabhängiges Rendering im Millisekundenbereich bei einem Speicherbedarf von wenigen Megabyte.",
+ "title": "Gaussian Light Transport: Implementierung und Benchmark-Veröffentlichung",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

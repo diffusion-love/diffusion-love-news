@@ -1,0 +1,11 @@
+{
+ "id": "n-f7f969bd27",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona el repositorio StokastX/gaussian-light-transport y configura un entorno con PyTorch, Taichi y Mitsuba 3 con soporte para Dr.Jit.\n\nPrepara una representación de escena 3D que contenga mallas de geometría, descripciones de emisores y propiedades de reflectancia superficial (albedo y rugosidad).\n\nEjecuta el script de optimización para inicializar y ajustar el modelo de mezcla de gaussianas 13D minimizando el residuo de la ecuación de renderizado.\n\nEvalúa la representación gaussiana optimizada con teselado en espacio mundo y culling separable para la reproducción interactiva e independiente de la vista de la iluminación global.\n\nAgrega la geometría desconectada que comparte atributos idénticos de albedo y rugosidad, de modo que gaussianas individuales de alta dimensión representen comportamientos comunes de transporte de luz.\n\nUtiliza teselado espacial en espacio mundo y culling separable durante la evaluación para evitar que el solapamiento de gaussianas de alta dimensión degrade la tasa de fotogramas en escenas complejas.\n\nVerifica la alineación de las normales de superficie y la topología de las mallas en Mitsuba 3 antes de iniciar la minimización del residuo, para garantizar la convergencia numérica durante la optimización en PyTorch.",
+ "source_sha256": "d757f6907bdcd5dacce315ea67e483784dc00aa609f80da37146e7a65b98f377",
+ "summary": "La implementación oficial combina Mitsuba 3, Dr.Jit y los kernels de culling de Taichi con la optimización en PyTorch, lo que permite el renderizado de fotogramas en milisegundos, independiente de la vista, con un almacenamiento de unos pocos megabytes.",
+ "title": "Gaussian Light Transport: publicación de la implementación y del benchmark",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

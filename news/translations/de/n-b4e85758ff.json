@@ -1,0 +1,11 @@
+{
+ "id": "n-b4e85758ff",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository StokastX/gaussian-light-transport und richten Sie eine Umgebung mit PyTorch, Taichi und Mitsuba 3 mit Dr.Jit-Unterstützung ein.\n\nBereiten Sie eine 3D-Szenenrepräsentation vor, die Geometrie-Meshes, Beschreibungen der Emitter und Eigenschaften der Oberflächenreflexion (Albedo und Rauheit) enthält.\n\nFühren Sie das Optimierungsskript aus, um das 13D-Gaussian-Mixture-Modell zu initialisieren und anzupassen, indem das Residuum der Rendering-Gleichung minimiert wird.\n\nEvaluieren Sie die optimierte Gaussian-Repräsentation mit weltraumbasierter Kachelung und separierbarem Culling für eine interaktive, blickwinkelunabhängige Wiedergabe der globalen Beleuchtung.\n\nFassen Sie getrennte Geometrien mit identischen Albedo- und Rauheitsattributen zusammen, sodass einzelne hochdimensionale Gaussians gängige Lichttransportverhalten repräsentieren können.\n\nNutzen Sie während der Evaluation weltraumbasierte Kachelung und separierbares Culling, damit die Überlappung hochdimensionaler Gaussians in komplexen Szenen die Bildrate nicht beeinträchtigt.\n\nPrüfen Sie in Mitsuba 3 vor Beginn der Residuumminimierung die Ausrichtung der Oberflächennormalen und die Mesh-Topologie, um die numerische Konvergenz bei der PyTorch-Optimierung sicherzustellen.",
+ "source_sha256": "8f89e6800a621b139543a0668e709b5e7f8ef29cbab06fd3ee96a50535a12de6",
+ "summary": "Das SIGGRAPH-Asia-2026-Paper stellt Gaussian Light Transport vor, das die globale Beleuchtung einer Szene als 13-dimensionale Gaussian Mixture formuliert, die die Residuen der Rendering-Gleichung direkt minimiert.",
+ "title": "Gaussian Light Transport: Verfahren zur globalen Beleuchtung",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

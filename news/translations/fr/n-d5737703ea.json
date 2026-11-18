@@ -1,0 +1,11 @@
+{
+ "id": "n-d5737703ea",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Sélectionnez le backbone de diffusion texte-image cible, comme Stable Diffusion ou SANA, et définissez les attributs démographiques visés pour le débiaisage.\n\nPrécalculez les vecteurs de direction d'attributs à l'aide de paires de prompts textuels contrastifs reflétant les dimensions démographiques choisies.\n\nIntégrez le mécanisme de gating sensible au prompt dans les couches d'attention croisée du modèle pendant le processus d'échantillonnage par inférence de diffusion inverse.\n\nGénérez des images à partir de prompts standards ; le gate laisse intacts les prompts explicitant un attribut tout en injectant les vecteurs de direction dans les prompts neutres.\n\nUtilisez des paires contrastives ciblées plutôt que des descriptions sémantiques générales lors du calcul des vecteurs de direction, afin d'éviter de diluer l'alignement texte-image principal.\n\nS'appuyer sur le gating sensible au prompt pour court-circuiter l'intervention lorsque les prompts d'entrée contiennent déjà des descripteurs d'attributs explicites, afin d'éviter des ajustements d'activation contradictoires.\n\nValidez les réductions de l'écart de parité sur des prompts de rôles neutres spécifiques au domaine avant tout déploiement en production, à travers différents backbones de diffusion.",
+ "source_sha256": "586b68230c23477ef59f54c9c095803e1e6969ed9c23446206760ca2e06480b2",
+ "summary": "EquiSteer introduit un cadre de pilotage par attention croisée, appliqué à l'inférence, qui atténue le biais démographique des modèles de diffusion texte-image jusqu'à 87 % sans nécessiter de réentraînement du modèle.",
+ "title": "EquiSteer : débiaisage de modèles de diffusion sans entraînement",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

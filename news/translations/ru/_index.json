@@ -884,6 +884,11 @@
   "title": "Репозиторий Awesome Harness Engineering на GitHub упомянут",
   "translated_at": "2026-10-24"
  },
+ "n-2a63a39249": {
+  "fresh": true,
+  "title": "Релиз GigaChat 3.5 Reasoning с открытыми весами и архитектурой MoE",
+  "translated_at": "2026-11-18"
+ },
  "n-2a8f5beb6c": {
   "fresh": true,
   "title": "OpenAI Codex CLI",
@@ -978,6 +983,11 @@
   "fresh": true,
   "title": "Ресурсы проекта Video-to-World были опубликованы в открытом доступе",
   "translated_at": "2026-10-24"
+ },
+ "n-2f04eafb31": {
+  "fresh": true,
+  "title": "Выпуск открытых весов GigaChat 3.5 Reasoning и гибридной архитектуры MLA",
+  "translated_at": "2026-11-18"
  },
  "n-2f8c6f34f0": {
   "fresh": true,
@@ -1468,6 +1478,11 @@
   "fresh": true,
   "title": "Unsloth публикует инструкцию по fine-tuning GPT-OSS",
   "translated_at": "2026-10-24"
+ },
+ "n-492c016626": {
+  "fresh": true,
+  "title": "Google выпустила модель для написания кода Gemini 4 Hydrogen",
+  "translated_at": "2026-11-18"
  },
  "n-492f7ebf1e": {
   "fresh": true,
@@ -2259,6 +2274,11 @@
   "title": "Страница исследований Hyra и форма обратной связи были связаны между собой",
   "translated_at": "2026-10-24"
  },
+ "n-720d98287b": {
+  "fresh": true,
+  "title": "Программа Practical ML Conf 2026 утверждена: четыре технических трека",
+  "translated_at": "2026-11-18"
+ },
  "n-721afd6a19": {
   "fresh": true,
   "title": "Публичная ссылка на репозиторий Anydoc",
@@ -2833,6 +2853,11 @@
   "fresh": true,
   "title": "Публичный репозиторий Grok Build: ссылка",
   "translated_at": "2026-10-24"
+ },
+ "n-952baa76f5": {
+  "fresh": true,
+  "title": "Выпущен фреймворк для видео-суперразрешения RelayVSR",
+  "translated_at": "2026-11-18"
  },
  "n-95cbbfe193": {
   "fresh": true,
@@ -3449,6 +3474,11 @@
   "title": "Anthropic Managed Agents для длительных рабочих процессов ИИ",
   "translated_at": "2026-10-24"
  },
+ "n-b4e85758ff": {
+  "fresh": true,
+  "title": "Техника глобального освещения Gaussian Light Transport",
+  "translated_at": "2026-11-18"
+ },
  "n-b636bdc989": {
   "fresh": true,
   "title": "Первое публичное объявление о Starchild-1",
@@ -3493,6 +3523,11 @@
   "fresh": true,
   "title": "Claude Academy стал официальным учебным ресурсом",
   "translated_at": "2026-10-24"
+ },
+ "n-b815f82305": {
+  "fresh": true,
+  "title": "Стратегия Сбера в области корпоративного ИИ представлена на конференции «Норильского никеля»",
+  "translated_at": "2026-11-18"
  },
  "n-b8abd7e35e": {
   "fresh": true,
@@ -4014,6 +4049,11 @@
   "title": "Артефакты Qwopus3.6-27B-v2 опубликованы в репозиториях GGUF и FP8",
   "translated_at": "2026-10-24"
  },
+ "n-d5737703ea": {
+  "fresh": true,
+  "title": "EquiSteer: диффузионный дебиасинг без обучения",
+  "translated_at": "2026-11-18"
+ },
  "n-d5883c87bf": {
   "fresh": true,
   "title": "Audio Flamingo 3 расширяет возможности понимания аудио и языка",
@@ -4534,6 +4574,11 @@
   "title": "Сайт Volumography, упомянутый в ветке о запуске",
   "translated_at": "2026-10-24"
  },
+ "n-ef6922bf2a": {
+  "fresh": true,
+  "title": "Открытые веса и конфигурации развёртывания GigaChat 3.5 Reasoning",
+  "translated_at": "2026-11-18"
+ },
  "n-efaa00d50b": {
   "fresh": true,
   "title": "OpenReview: ИИ-бот для ревью кода от Vercel Labs",
@@ -4693,6 +4738,11 @@
   "fresh": true,
   "title": "На репозиторий Agent Orchestrator публично сослались",
   "translated_at": "2026-10-24"
+ },
+ "n-f7f969bd27": {
+  "fresh": true,
+  "title": "Gaussian Light Transport: реализация и релиз бенчмарка",
+  "translated_at": "2026-11-18"
  },
  "n-f80e0da140": {
   "fresh": true,

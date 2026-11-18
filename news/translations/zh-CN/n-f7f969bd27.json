@@ -1,0 +1,11 @@
+{
+ "id": "n-f7f969bd27",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "克隆 StokastX/gaussian-light-transport 仓库，并配置包含 PyTorch、Taichi 以及带 Dr.Jit 支持的 Mitsuba 3 的环境。\n\n准备一个三维场景表示，包含几何网格、光源描述以及表面反射属性（反照率和粗糙度）。\n\n运行优化脚本，通过最小化渲染方程残差来初始化并拟合 13D 高斯混合模型。\n\n使用世界空间分块与可分离剔除来评估优化后的高斯表示，以实现交互式、与视角无关的全局光照回放。\n\n将具有相同反照率和粗糙度属性的不相连几何体进行聚合，使单个高维高斯能够表示常见的光传输行为。\n\n在评估阶段利用世界空间空间分块和可分离剔除，防止复杂场景中高维高斯的重叠降低帧率。\n\n在开始残差最小化之前，在 Mitsuba 3 中验证表面法线对齐和网格拓扑，以确保 PyTorch 优化过程的数值收敛。",
+ "source_sha256": "d757f6907bdcd5dacce315ea67e483784dc00aa609f80da37146e7a65b98f377",
+ "summary": "该官方实现将 Mitsuba 3、Dr.Jit 和 Taichi 剔除内核与 PyTorch 优化相结合，在仅需几兆字节存储空间的情况下，实现了与视角无关的毫秒级帧渲染。",
+ "title": "Gaussian Light Transport 实现与基准测试发布",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

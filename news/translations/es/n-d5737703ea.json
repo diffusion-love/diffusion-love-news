@@ -1,0 +1,11 @@
+{
+ "id": "n-d5737703ea",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Seleccione el backbone de difusión de texto a imagen objetivo, como Stable Diffusion o SANA, y defina los atributos demográficos dirigidos a la corrección de sesgos.\n\nPrecalcule los vectores de steering de atributos utilizando pares contrastivos de prompts de texto que reflejen las dimensiones demográficas elegidas.\n\nIntegre el mecanismo de compuerta consciente del prompt en las capas de atención cruzada del modelo durante el muestreo de inferencia de difusión inversa.\n\nGenere imágenes con prompts estándar; la compuerta deja intactos los prompts de atributos explícitos e inyecta vectores de steering en los prompts neutros.\n\nUtilice pares contrastivos específicos en lugar de descripciones semánticas amplias al calcular los vectores de steering, para evitar diluir la alineación texto-imagen principal.\n\nRecurra a la compuerta consciente del prompt para omitir la intervención cuando los prompts de entrada ya contengan descriptores de atributos explícitos, evitando ajustes de activación contradictorios.\n\nValide las reducciones de la brecha de paridad en prompts de roles neutros específicos del dominio antes del despliegue en producción en distintos backbones de difusión.",
+ "source_sha256": "586b68230c23477ef59f54c9c095803e1e6969ed9c23446206760ca2e06480b2",
+ "summary": "EquiSteer introduce un marco de steering en la atención cruzada durante la inferencia que mitiga el sesgo demográfico en modelos de difusión de texto a imagen hasta en un 87 % sin requerir reentrenamiento del modelo.",
+ "title": "EquiSteer: Corrección de sesgos en difusión sin entrenamiento",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

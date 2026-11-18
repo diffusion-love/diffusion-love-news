@@ -1,0 +1,11 @@
+{
+ "id": "n-952baa76f5",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository und installieren Sie die erforderlichen Abhängigkeiten, einschließlich PyTorch und torchvision.\n\nLaden Sie die vortrainierten Modellgewichte von RelayVSR von Hugging Face für das Ziel 2x- oder 4x-Enhancement herunter.\n\nFühren Sie die Inferenz über die bereitgestellten Testskripte oder ComfyUI-Custom-Nodes im Streaming-Modus für lange Videosequenzen aus.\n\nVerwenden Sie ein Keyframe-Intervall von beispielsweise 15 Frames, um einen hohen Durchsatz beizubehalten und gleichzeitig die Rekonstruktion generativer Details zu erhalten.\n\nAktivieren Sie den Streaming-Modus mit linearem Cross-Fading bei der Verarbeitung langer Sequenzen, um die VRAM-Auslastung stabil zu halten und Artefakte an Chunk-Grenzen zu vermeiden.\n\nWeisen Sie eine GPU mit mindestens 14 GB VRAM zu, um den Speicherspitzenbedarf während der Generierung der Keyframe-Latents abzudecken.",
+ "source_sha256": "f989a1ca0005f6db6fb01494e795c8adc69f53a087745dbb67c24da4ad8e6409",
+ "summary": "RelayVSR ist ein quelloffenes Framework für Video-Super-Resolution, das ein spärliches generatives Keyframe-Backbone mit einem leichtgewichtigen Dual-Memory Video Transformer kombiniert, um degradierte Videos hochzuskalieren und aufzuwerten. Mit bis zu 29 FPS bei 1080p auf einer NVIDIA A100-GPU und einem VRAM-Spitzenbedarf von etwa 13,8 GB unterstützt das Modell 2x- und 4x-Enhancement und lässt sich in lokale Inferenz-Pipelines wie ComfyUI integrieren.",
+ "title": "RelayVSR-Framework für Video-Super-Resolution veröffentlicht",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

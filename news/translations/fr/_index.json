@@ -884,6 +884,11 @@
   "title": "Le dépôt GitHub Awesome Harness Engineering a été cité",
   "translated_at": "2026-10-24"
  },
+ "n-2a63a39249": {
+  "fresh": true,
+  "title": "GigaChat 3.5 Reasoning : publication en poids ouverts d'un modèle MoE",
+  "translated_at": "2026-11-18"
+ },
  "n-2a8f5beb6c": {
   "fresh": true,
   "title": "OpenAI Codex CLI",
@@ -978,6 +983,11 @@
   "fresh": true,
   "title": "Les ressources du projet Video-to-World ont été rendues publiques",
   "translated_at": "2026-10-24"
+ },
+ "n-2f04eafb31": {
+  "fresh": true,
+  "title": "GigaChat 3.5 Reasoning : publication des poids ouverts et de l'architecture hybride MLA",
+  "translated_at": "2026-11-18"
  },
  "n-2f8c6f34f0": {
   "fresh": true,
@@ -1468,6 +1478,11 @@
   "fresh": true,
   "title": "Unsloth publie des recommandations pour le fine-tuning de GPT-OSS",
   "translated_at": "2026-10-24"
+ },
+ "n-492c016626": {
+  "fresh": true,
+  "title": "Google publie Gemini 4 Hydrogen, un modèle de codage",
+  "translated_at": "2026-11-18"
  },
  "n-492f7ebf1e": {
   "fresh": true,
@@ -2259,6 +2274,11 @@
   "title": "La page de recherche de Hyra et le formulaire de retours étaient liés",
   "translated_at": "2026-10-24"
  },
+ "n-720d98287b": {
+  "fresh": true,
+  "title": "Le programme de Practical ML Conf 2026 est finalisé à travers quatre parcours techniques",
+  "translated_at": "2026-11-18"
+ },
  "n-721afd6a19": {
   "fresh": true,
   "title": "Référence publique au dépôt Anydoc",
@@ -2833,6 +2853,11 @@
   "fresh": true,
   "title": "Référence au dépôt public de Grok Build",
   "translated_at": "2026-10-24"
+ },
+ "n-952baa76f5": {
+  "fresh": true,
+  "title": "Publication du cadre de super-résolution vidéo RelayVSR",
+  "translated_at": "2026-11-18"
  },
  "n-95cbbfe193": {
   "fresh": true,
@@ -3449,6 +3474,11 @@
   "title": "Anthropic Managed Agents pour les workflows d'IA autonomes de longue durée",
   "translated_at": "2026-10-24"
  },
+ "n-b4e85758ff": {
+  "fresh": true,
+  "title": "Technique d'illumination globale Gaussian Light Transport",
+  "translated_at": "2026-11-18"
+ },
  "n-b636bdc989": {
   "fresh": true,
   "title": "Annonce publique initiale de Starchild-1",
@@ -3493,6 +3523,11 @@
   "fresh": true,
   "title": "Claude Academy est devenu une ressource pédagogique officielle",
   "translated_at": "2026-10-24"
+ },
+ "n-b815f82305": {
+  "fresh": true,
+  "title": "Stratégie d'IA d'entreprise de Sber présentée lors de la conférence de Norilsk Nickel",
+  "translated_at": "2026-11-18"
  },
  "n-b8abd7e35e": {
   "fresh": true,
@@ -4014,6 +4049,11 @@
   "title": "Les artefacts de Qwopus3.6-27B-v2 ont été publiés dans les dépôts GGUF et FP8",
   "translated_at": "2026-10-24"
  },
+ "n-d5737703ea": {
+  "fresh": true,
+  "title": "EquiSteer : débiaisage de modèles de diffusion sans entraînement",
+  "translated_at": "2026-11-18"
+ },
  "n-d5883c87bf": {
   "fresh": true,
   "title": "Audio Flamingo 3 élargit la compréhension audio-langage",
@@ -4534,6 +4574,11 @@
   "title": "Site web de Volumography cité dans le fil de lancement",
   "translated_at": "2026-10-24"
  },
+ "n-ef6922bf2a": {
+  "fresh": true,
+  "title": "GigaChat 3.5 Reasoning : poids ouverts et configurations de déploiement",
+  "translated_at": "2026-11-18"
+ },
  "n-efaa00d50b": {
   "fresh": true,
   "title": "OpenReview : bot de revue de code par IA signé Vercel Labs",
@@ -4693,6 +4738,11 @@
   "fresh": true,
   "title": "Le dépôt Agent Orchestrator a été cité publiquement",
   "translated_at": "2026-10-24"
+ },
+ "n-f7f969bd27": {
+  "fresh": true,
+  "title": "Publication de l'implémentation et du benchmark de Gaussian Light Transport",
+  "translated_at": "2026-11-18"
  },
  "n-f80e0da140": {
   "fresh": true,

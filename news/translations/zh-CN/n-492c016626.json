@@ -1,0 +1,11 @@
+{
+ "id": "n-492c016626",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 Google AI Studio 或 Gemini API 中选择 Gemini 4 Hydrogen（模型 ID gemini-4-hydrogen），用于面向执行的开发任务。\n\n根据所需延迟与推理深度之间的平衡，在 low、medium、high 和 xhigh 之间配置思考级别。\n\n在 Google Antigravity 中启用 Orchestrator 模式，将用于架构规划的 Gemini 4 Carbon 与用于迭代式代码生成和测试的 Gemini 4 Hydrogen 配对使用。\n\n将 Gemini 4 Hydrogen 用作高速执行引擎，处理样板代码生成、单元测试和重构等代码仓库任务，同时将高层架构决策委托给前沿规划模型。\n\n对于非平凡的编码任务，保持默认的 high 思考深度，以维持推理质量，同时节省配额并保证执行速度。",
+ "source_sha256": "25899c77924adc8ed9a178173148aa22fbf7e8de939e54660e7c8c2433a1830e",
+ "summary": "Google 推出了 Gemini 4 Hydrogen，这是一款面向代码编写和智能体任务的执行模型，具备可配置的推理级别以及多模型的 Antigravity 编排能力。",
+ "title": "Google 发布 Gemini 4 Hydrogen 编程模型",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-b815f82305",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Déployez GigaChat3.5-432B-A28B-Reasoning à l'aide des moteurs d'inférence vLLM ou SGLang, avec une quantification FP8 et un parallélisme de tenseurs multi-GPU prenant en charge les couches Multi-head Latent Attention (MLA) et GatedDeltaNet.\n\nConfigurez les paramètres d'exécution de l'inférence pour exploiter la fenêtre de contexte native de 262K tokens et activez les têtes de prédiction multi-tokens afin d'accélérer le décodage spéculatif.\n\nUtilisez la compression du cache Key-Value de Multi-head Latent Attention (MLA) à faible rang, en combinaison avec des couches d'attention linéaire alternées, pour éviter l'épuisement de la mémoire lors de la génération en contexte long.\n\nProvisionnez des grappes matérielles d'entreprise distribuées disposant d'une VRAM agrégée suffisante pour héberger les poids de 432 milliards de paramètres, malgré le routage épars de 28 milliards de paramètres actifs par token.",
+ "source_sha256": "ca3e08728a3020183643b0925eb66541cb144c91edcbfa3a49214e6026a27905",
+ "summary": "Sergey Markov a présenté la feuille de route de Sber en matière de modèles de fondation industriels et d'initiatives d'automatisation en entreprise lors d'une conférence d'entreprise de Norilsk Nickel.",
+ "title": "Stratégie d'IA d'entreprise de Sber présentée lors de la conférence de Norilsk Nickel",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

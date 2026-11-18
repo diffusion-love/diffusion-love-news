@@ -1,0 +1,11 @@
+{
+ "id": "n-f7f969bd27",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "StokastX/gaussian-light-transport 저장소를 클론하고, PyTorch, Taichi, 그리고 Dr.Jit 지원이 포함된 Mitsuba 3를 사용하는 환경을 구성합니다.\n\n기하 메시, 광원(emitter) 설명, 표면 반사 특성(알베도와 거칠기)을 포함하는 3D 장면 표현을 준비합니다.\n\n최적화 스크립트를 실행하여 렌더링 방정식 잔차를 최소화함으로써 13D 가우시안 혼합 모델을 초기화하고 맞춥니다.\n\n최적화된 가우시안 표현을 월드 공간 타일링과 분리형 컬링(separable culling)으로 평가하여, 시점에 독립적인 대화형 전역 조명 재생을 구현합니다.\n\n동일한 알베도와 거칠기 속성을 공유하는 분리된 기하를 통합하여, 단일 고차원 가우시안이 공통된 광 전달 거동을 표현하도록 합니다.\n\n평가 과정에서 월드 공간 공간 타일링과 분리형 컬링을 활용하여, 복잡한 장면에서 고차원 가우시안 중첩이 프레임 속도를 저하시키는 것을 방지합니다.\n\nPyTorch 최적화를 수행하기 전에 Mitsuba 3에서 표면 법선 정렬과 메시 위상(topology)을 확인하여, PyTorch 최적화 중 수치적 수렴을 보장합니다.",
+ "source_sha256": "d757f6907bdcd5dacce315ea67e483784dc00aa609f80da37146e7a65b98f377",
+ "summary": "공식 구현은 Mitsuba 3, Dr.Jit, Taichi 컬링 커널과 PyTorch 최적화를 결합하여, 수 메가바이트의 저장 공간 안에서 시점에 독립적인 밀리초 단위 프레임 렌더링을 제공합니다.",
+ "title": "Gaussian Light Transport 구현 및 벤치마크 공개",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-720d98287b",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Examinez le programme de la conférence à travers les parcours Data, Code, Server Room et Network afin d'identifier les sessions consacrées à l'architecture en production.\n\nAccédez aux présentations enregistrées et aux sessions techniques via la chaîne vidéo officielle de Yandex for ML.\n\nExtrayez les schémas de déploiement pour l'inférence des LLM, la vision agentique et les modèles de recommandation à partir des supports de présentation et des résumés techniques des intervenants.\n\nComparez les latences d'inférence des LLM et des workflows agentiques aux architectures de production réelles présentées dans les parcours d'ingénierie de la conférence.\n\nExaminez les enregistrements des présentations techniques et les analyses d'architecture sur la chaîne vidéo officielle avant de reproduire des pipelines d'entraînement distribué ou d'agents vision-langage.",
+ "source_sha256": "1669ae68b3ce782cf35b3f0253be5a99133b25cccfdae1b7a60f95596027b0ae",
+ "summary": "Yandex a publié les mises à jour du programme de Practical ML Conf 2026 à l'approche de l'événement du 19 septembre, détaillant 24 présentations techniques réparties entre les parcours Data, Code, Server Room et Network, ainsi que la cérémonie du prix Yandex ML.",
+ "title": "Le programme de Practical ML Conf 2026 est finalisé à travers quatre parcours techniques",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-b4e85758ff",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "克隆 StokastX/gaussian-light-transport 仓库，并配置包含 PyTorch、Taichi 和支持 Dr.Jit 的 Mitsuba 3 的环境。\n\n准备一个三维场景表示，包含几何网格、光源描述以及表面反射属性（反照率和粗糙度）。\n\n运行优化脚本，初始化并拟合 13D 高斯混合模型，通过最小化渲染方程残差来完成拟合。\n\n在世界空间中进行分块并使用可分离剔除来评估优化后的高斯表示，以实现交互式、与视角无关的全局光照回放。\n\n聚合具有相同反照率和粗糙度属性的不连通几何体，使单个高维高斯能够表示常见的光传输行为。\n\n在评估过程中利用世界空间空间分块和可分离剔除，防止复杂场景中高维高斯重叠降低帧率。\n\n在开始残差最小化之前，在 Mitsuba 3 中检查表面法线对齐和网格拓扑，以确保 PyTorch 优化的数值收敛。",
+ "source_sha256": "8f89e6800a621b139543a0668e709b5e7f8ef29cbab06fd3ee96a50535a12de6",
+ "summary": "SIGGRAPH Asia 2026 论文提出了 Gaussian Light Transport，将场景全局光照表述为 13 维高斯混合模型，并直接最小化渲染方程残差。",
+ "title": "Gaussian Light Transport 全局光照技术",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}
