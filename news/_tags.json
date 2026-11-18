@@ -1037,6 +1037,10 @@
   "Geometric Latent Diffusion": [
     "n-0c368b4c16"
   ],
+  "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release": [
+    "n-ef6922bf2a",
+    "n-2a63a39249"
+  ],
   "Gitlab: gitlab-critical-vulnerability-patch-19-5-1": [
     "n-687a924683",
     "n-1b28d58410"
@@ -5320,6 +5324,10 @@
   "family:gguf-models": [
     "n-16ee77b7eb"
   ],
+  "family:gigachat-3-5-reasoning-release": [
+    "n-ef6922bf2a",
+    "n-2a63a39249"
+  ],
   "family:girl-agent": [
     "n-db7fee9bb2"
   ],
@@ -7446,6 +7454,10 @@
   "gguf-models": [
     "n-16ee77b7eb"
   ],
+  "gigachat-3-5-reasoning-release": [
+    "n-ef6922bf2a",
+    "n-2a63a39249"
+  ],
   "girl-agent": [
     "n-db7fee9bb2"
   ],
@@ -8555,6 +8567,7 @@
     "n-2bdd41c2da",
     "n-2aa536ccdc",
     "n-2a8f5beb6c",
+    "n-2a63a39249",
     "n-269dacc1a7",
     "n-2405c2d2f2",
     "n-221dea80c4",
@@ -9085,6 +9098,7 @@
     "n-f108d81c34",
     "n-f0c1036242",
     "n-f09f1875bc",
+    "n-ef6922bf2a",
     "n-ef5357108f",
     "n-eea14f2dcf",
     "n-ee301ec91c",

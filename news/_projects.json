@@ -31495,6 +31495,166 @@
     ],
     "claims": []
   },
+  "gigachat-3-5-reasoning-release": {
+    "family_slug": "gigachat-3-5-reasoning-release",
+    "family_display": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+    "family_display_variants": [
+      {
+        "family_display": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+        "first_seen": "2026-09-14",
+        "last_seen": "2026-09-14",
+        "news_ids": [
+          "n-2a63a39249",
+          "n-ef6922bf2a"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "llm",
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-2a63a39249",
+      "n-ef6922bf2a"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-09-14",
+        "news_id": "n-2a63a39249",
+        "title": "GigaChat 3.5 Reasoning open-weights MoE release",
+        "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning"
+      },
+      {
+        "version": null,
+        "date": "2026-09-14",
+        "news_id": "n-ef6922bf2a",
+        "title": "GigaChat 3.5 Reasoning open weights and deployment configs",
+        "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "weights",
+        "host": "huggingface.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+        "is_primary": true,
+        "verified_at": "2026-11-18T18:56:44Z",
+        "news_ids": [
+          "n-2a63a39249",
+          "n-ef6922bf2a"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "gitverse.ru",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://gitverse.ru/GigaTeam/gigachat3.5-reasoning",
+        "is_primary": false,
+        "verified_at": "2026-11-18T18:56:44Z",
+        "news_ids": [
+          "n-2a63a39249",
+          "n-ef6922bf2a"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-09-14",
+        "title": "GigaChat 3.5 Reasoning open-weights MoE release",
+        "summary": "GigaChat 3.5 Reasoning is an open-weights reasoning model from Sber featuring a 432B-parameter mixture-of-experts architecture with 28B active parameters. The model introduces multi-stage problem breakdown with intermediate verification and hybrid attention under the MIT license on Hugging Face and GitVerse.",
+        "version": null,
+        "news_id": "n-2a63a39249",
+        "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-09-14",
+        "title": "GigaChat 3.5 Reasoning open weights and deployment configs",
+        "summary": "GigaChat 3.5 Reasoning provides open weights supporting 256K token context via YaRN scaling and inference deployment on vLLM and SGLang. Sber released the model on Hugging Face and GitVerse for multi-step reasoning, mathematical tasks, and code verification.",
+        "version": null,
+        "news_id": "n-ef6922bf2a",
+        "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-ef6922bf2a",
+        "date": "2026-09-14",
+        "title": "GigaChat 3.5 Reasoning open weights and deployment configs",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "gigachat-3-5-reasoning-release",
+        "version": null,
+        "tags": [
+          "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+          "family:gigachat-3-5-reasoning-release",
+          "gigachat-3-5-reasoning-release",
+          "misc"
+        ],
+        "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-2a63a39249",
+        "date": "2026-09-14",
+        "title": "GigaChat 3.5 Reasoning open-weights MoE release",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "gigachat-3-5-reasoning-release",
+        "version": null,
+        "tags": [
+          "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+          "family:gigachat-3-5-reasoning-release",
+          "gigachat-3-5-reasoning-release",
+          "llm"
+        ],
+        "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "gigachat-3-5-reasoning-release",
+        "display": "Gigachat 3 5 Reasoning Release",
+        "first_seen": "2026-09-14",
+        "last_seen": "2026-09-14",
+        "latest_news_id": "n-ef6922bf2a",
+        "news_ids": [
+          "n-2a63a39249",
+          "n-ef6922bf2a"
+        ]
+      }
+    ]
+  },
   "girl-agent": {
     "family_slug": "girl-agent",
     "family_display": "girl agent",
