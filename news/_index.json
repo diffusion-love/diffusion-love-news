@@ -1,5 +1,24 @@
 [
   {
+    "id": "n-492c016626",
+    "date": "2026-11-13",
+    "title": "Google releases Gemini 4 Hydrogen coding model",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Google AI Development",
+      "google",
+      "google-ai-development",
+      "misc",
+      "organization:google"
+    ],
+    "primary_link": "https://shareai.space/blog/2026/google-vypustila-gemini-4-hydrogen-bystruyu-model-dlya-koda",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-34c22d3127",
     "date": "2026-11-13",
     "title": "NVIDIA releases NVFP4 quantized weights for Moonshot AI Kimi K3.1 Pro",

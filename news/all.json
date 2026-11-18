@@ -1,9 +1,118 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-14T17:47:09Z",
+  "generated_at": "2026-11-14T19:05:08Z",
   "site": "diffusion.love",
-  "total": 967,
+  "total": 968,
   "records": [
+    {
+      "schema_version": "1.4",
+      "id": "n-492c016626",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Google releases Gemini 4 Hydrogen coding model",
+      "summary": "Google introduced Gemini 4 Hydrogen, an execution model for code writing and agent tasks featuring configurable reasoning levels and multi-model Antigravity orchestration.",
+      "research_notes": "Select Gemini 4 Hydrogen (model ID gemini-4-hydrogen) in Google AI Studio or the Gemini API for execution-oriented development tasks.\n\nConfigure the thinking level between low, medium, high, and xhigh depending on the balance of latency and reasoning depth required.\n\nEnable Orchestrator mode in Google Antigravity to pair Gemini 4 Carbon for architectural planning with Gemini 4 Hydrogen for iterative code generation and testing.\n\nUse Gemini 4 Hydrogen as a high-speed execution engine for repository tasks like boilerplate generation, unit tests, and refactoring while delegating high-level architectural decisions to frontier planning models.\n\nKeep default high thinking depth for non-trivial coding tasks to maintain reasoning quality while preserving quota and execution speed.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "google",
+        "display": "Google AI Development",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "google-ai-development",
+        "thread_display": "Google Ai Development",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Google AI Development",
+        "article_url": "https://happyin.space/organizations/google/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/31dd3107b131fe7b9d1d58576aef01c4ff7c630f/docs/organizations/google.md",
+        "agent_context_url": "https://happyin.space/organizations/google/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-13",
+        "title": "Google releases Gemini 4 Hydrogen coding model",
+        "version": null,
+        "summary": "Google introduced Gemini 4 Hydrogen, an execution model for code writing and agent tasks featuring configurable reasoning levels and multi-model Antigravity orchestration."
+      },
+      "tags": [
+        "Google AI Development",
+        "google",
+        "google-ai-development",
+        "misc",
+        "organization:google"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "google"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://shareai.space/blog/2026/google-vypustila-gemini-4-hydrogen-bystruyu-model-dlya-koda",
+          "host": "shareai.space",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-14T19:05:08Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-13",
+        "excerpt": "Google introduced Gemini 4 Hydrogen, an execution model for code writing and agent tasks featuring configurable reasoning levels and multi-model Antigravity orchestration."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-14T19:05:08Z",
+        "classified_at": "2026-11-14T19:05:08Z",
+        "enriched_at": "2026-11-14T19:05:08Z",
+        "verified_at": "2026-11-14T19:05:08Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
     {
       "schema_version": "1.4",
       "id": "n-34c22d3127",

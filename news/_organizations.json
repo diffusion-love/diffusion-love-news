@@ -411,6 +411,55 @@
       }
     ]
   },
+  "google": {
+    "slug": "google",
+    "display": "Google AI Development",
+    "homepage": null,
+    "project_slugs": [],
+    "post_count": 1,
+    "direct_post_count": 1,
+    "first_seen": "2026-11-13",
+    "last_seen": "2026-11-13",
+    "news_ids": [
+      "n-492c016626"
+    ],
+    "direct_news_ids": [
+      "n-492c016626"
+    ],
+    "development_threads": [
+      {
+        "slug": "google-ai-development",
+        "display": "Google Ai Development",
+        "first_seen": "2026-11-13",
+        "last_seen": "2026-11-13",
+        "latest_news_id": "n-492c016626",
+        "news_ids": [
+          "n-492c016626"
+        ]
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-492c016626",
+        "date": "2026-11-13",
+        "title": "Google releases Gemini 4 Hydrogen coding model",
+        "category": "misc",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Google AI Development",
+          "google",
+          "google-ai-development",
+          "misc",
+          "organization:google"
+        ],
+        "primary_link": "https://shareai.space/blog/2026/google-vypustila-gemini-4-hydrogen-bystruyu-model-dlya-koda",
+        "has_image": false,
+        "has_video": false
+      }
+    ]
+  },
   "happyin": {
     "slug": "happyin",
     "display": "Happyin",
