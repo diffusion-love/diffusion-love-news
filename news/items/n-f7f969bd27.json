@@ -1,0 +1,113 @@
+{
+ "schema_version": "1.4",
+ "id": "n-f7f969bd27",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Gaussian Light Transport implementation and benchmark release",
+ "summary": "The official implementation pairs Mitsuba 3, Dr.Jit, and Taichi culling kernels with PyTorch optimization, delivering view-independent millisecond frame rendering within a few megabytes of storage.",
+ "research_notes": "Clone the StokastX/gaussian-light-transport repository and configure an environment with PyTorch, Taichi, and Mitsuba 3 with Dr.Jit support.\n\nPrepare a 3D scene representation containing geometry meshes, emitter descriptions, and surface reflectance properties (albedo and roughness).\n\nRun the optimization script to initialize and fit the 13D Gaussian mixture model by minimizing the rendering equation residual.\n\nEvaluate the optimized Gaussian representation with world-space tiling and separable culling for interactive, view-independent global illumination playback.\n\nAggregate disconnected geometry sharing identical albedo and roughness attributes to let single high-dimensional Gaussians represent common light transport behaviors.\n\nUtilize world-space spatial tiling and separable culling during evaluation to prevent high-dimensional Gaussian overlap from degrading frame rates in complex scenes.\n\nVerify surface normal alignment and mesh topology in Mitsuba 3 before starting residual minimization to ensure numerical convergence during PyTorch optimization.",
+ "project": {
+  "name": "Gaussian Light Transport: gaussian-light-transport",
+  "family_slug": "gaussian-light-transport",
+  "family_display": "Gaussian Light Transport: gaussian-light-transport",
+  "model_slug": "gaussian-light-transport",
+  "model_display": "Gaussian Light Transport: gaussian-light-transport",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gaussian-light-transport",
+  "thread_display": "Gaussian Light Transport",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Gaussian Light Transport: gaussian-light-transport",
+  "article_url": "https://happyin.space/projects/gaussian-light-transport/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8041291cb0b95b8993e05e5f4b742c38e170cf81/docs/projects/gaussian-light-transport.md",
+  "agent_context_url": "https://happyin.space/projects/gaussian-light-transport/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-09-13",
+  "title": "Gaussian Light Transport implementation and benchmark release",
+  "version": null,
+  "summary": "The official implementation pairs Mitsuba 3, Dr.Jit, and Taichi culling kernels with PyTorch optimization, delivering view-independent millisecond frame rendering within a few megabytes of storage."
+ },
+ "tags": [
+  "Gaussian Light Transport: gaussian-light-transport",
+  "family:gaussian-light-transport",
+  "gaussian-light-transport",
+  "misc"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "gaussian-light-transport"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://patrick-attimont.com/projects/gaussian-light-transport/",
+   "host": "patrick-attimont.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-18T19:25:27Z"
+  },
+  {
+   "kind": "code",
+   "url": "https://github.com/StokastX/gaussian-light-transport",
+   "host": "github.com",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-18T19:25:27Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-09-13",
+  "excerpt": "The official implementation pairs Mitsuba 3, Dr.Jit, and Taichi culling kernels with PyTorch optimization, delivering view-independent millisecond frame rendering within a few megabytes of storage."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-18T19:25:27Z",
+  "classified_at": "2026-11-18T19:25:27Z",
+  "enriched_at": "2026-11-18T19:25:27Z",
+  "verified_at": "2026-11-18T19:25:27Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

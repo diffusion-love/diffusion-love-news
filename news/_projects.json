@@ -28930,6 +28930,165 @@
     ],
     "claims": []
   },
+  "gaussian-light-transport": {
+    "family_slug": "gaussian-light-transport",
+    "family_display": "Gaussian Light Transport: gaussian-light-transport",
+    "family_display_variants": [
+      {
+        "family_display": "Gaussian Light Transport: gaussian-light-transport",
+        "first_seen": "2026-09-13",
+        "last_seen": "2026-09-13",
+        "news_ids": [
+          "n-b4e85758ff",
+          "n-f7f969bd27"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-09-13",
+    "last_seen": "2026-09-13",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-b4e85758ff",
+      "n-f7f969bd27"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-09-13",
+        "news_id": "n-b4e85758ff",
+        "title": "Gaussian Light Transport global illumination technique",
+        "primary_link": "https://patrick-attimont.com/projects/gaussian-light-transport/"
+      },
+      {
+        "version": null,
+        "date": "2026-09-13",
+        "news_id": "n-f7f969bd27",
+        "title": "Gaussian Light Transport implementation and benchmark release",
+        "primary_link": "https://patrick-attimont.com/projects/gaussian-light-transport/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "patrick-attimont.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://patrick-attimont.com/projects/gaussian-light-transport/",
+        "is_primary": true,
+        "verified_at": "2026-11-18T19:25:27Z",
+        "news_ids": [
+          "n-b4e85758ff",
+          "n-f7f969bd27"
+        ]
+      },
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/StokastX/gaussian-light-transport",
+        "is_primary": false,
+        "verified_at": "2026-11-18T19:25:27Z",
+        "news_ids": [
+          "n-b4e85758ff",
+          "n-f7f969bd27"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-09-13",
+        "title": "Gaussian Light Transport global illumination technique",
+        "summary": "SIGGRAPH Asia 2026 paper introduces Gaussian Light Transport, formulating scene global illumination as a 13-dimensional Gaussian mixture that directly minimizes rendering equation residuals.",
+        "version": null,
+        "news_id": "n-b4e85758ff",
+        "primary_link": "https://patrick-attimont.com/projects/gaussian-light-transport/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-09-13",
+        "title": "Gaussian Light Transport implementation and benchmark release",
+        "summary": "The official implementation pairs Mitsuba 3, Dr.Jit, and Taichi culling kernels with PyTorch optimization, delivering view-independent millisecond frame rendering within a few megabytes of storage.",
+        "version": null,
+        "news_id": "n-f7f969bd27",
+        "primary_link": "https://patrick-attimont.com/projects/gaussian-light-transport/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-f7f969bd27",
+        "date": "2026-09-13",
+        "title": "Gaussian Light Transport implementation and benchmark release",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "gaussian-light-transport",
+        "version": null,
+        "tags": [
+          "Gaussian Light Transport: gaussian-light-transport",
+          "family:gaussian-light-transport",
+          "gaussian-light-transport",
+          "misc"
+        ],
+        "primary_link": "https://patrick-attimont.com/projects/gaussian-light-transport/",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-b4e85758ff",
+        "date": "2026-09-13",
+        "title": "Gaussian Light Transport global illumination technique",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "gaussian-light-transport",
+        "version": null,
+        "tags": [
+          "Gaussian Light Transport: gaussian-light-transport",
+          "family:gaussian-light-transport",
+          "gaussian-light-transport",
+          "misc"
+        ],
+        "primary_link": "https://patrick-attimont.com/projects/gaussian-light-transport/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "gaussian-light-transport",
+        "display": "Gaussian Light Transport",
+        "first_seen": "2026-09-13",
+        "last_seen": "2026-09-13",
+        "latest_news_id": "n-f7f969bd27",
+        "news_ids": [
+          "n-b4e85758ff",
+          "n-f7f969bd27"
+        ]
+      }
+    ]
+  },
   "gaussian-splatting": {
     "family_slug": "gaussian-splatting",
     "family_display": "Gaussian Splatting",

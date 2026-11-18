@@ -963,6 +963,10 @@
   "GameWorld": [
     "n-f306331601"
   ],
+  "Gaussian Light Transport: gaussian-light-transport": [
+    "n-f7f969bd27",
+    "n-b4e85758ff"
+  ],
   "Gemini": [
     "n-6f089116cf",
     "n-55b3aea30b",
@@ -5263,6 +5267,10 @@
   "family:gameworld": [
     "n-f306331601"
   ],
+  "family:gaussian-light-transport": [
+    "n-f7f969bd27",
+    "n-b4e85758ff"
+  ],
   "family:gaussian-splatting": [
     "n-ccb2a502fb"
   ],
@@ -7330,6 +7338,10 @@
   "gameworld": [
     "n-f306331601"
   ],
+  "gaussian-light-transport": [
+    "n-f7f969bd27",
+    "n-b4e85758ff"
+  ],
   "gaussian-splatting": [
     "n-fdbf17ddf7",
     "n-f735b8e846",
@@ -9081,6 +9093,7 @@
     "n-f8b2802977",
     "n-f8b15964ba",
     "n-f80e0da140",
+    "n-f7f969bd27",
     "n-f7bf45f8a9",
     "n-f77e6ada52",
     "n-f5abb4cf9b",
@@ -9222,6 +9235,7 @@
     "n-b66c6b5fe8",
     "n-b63f0f79e7",
     "n-b636bdc989",
+    "n-b4e85758ff",
     "n-b495739d31",
     "n-b48ae23ef5",
     "n-b438d99dc2",

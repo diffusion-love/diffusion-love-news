@@ -986,6 +986,42 @@
     "has_video": false
   },
   {
+    "id": "n-f7f969bd27",
+    "date": "2026-09-13",
+    "title": "Gaussian Light Transport implementation and benchmark release",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "gaussian-light-transport",
+    "version": null,
+    "tags": [
+      "Gaussian Light Transport: gaussian-light-transport",
+      "family:gaussian-light-transport",
+      "gaussian-light-transport",
+      "misc"
+    ],
+    "primary_link": "https://patrick-attimont.com/projects/gaussian-light-transport/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-b4e85758ff",
+    "date": "2026-09-13",
+    "title": "Gaussian Light Transport global illumination technique",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "gaussian-light-transport",
+    "version": null,
+    "tags": [
+      "Gaussian Light Transport: gaussian-light-transport",
+      "family:gaussian-light-transport",
+      "gaussian-light-transport",
+      "misc"
+    ],
+    "primary_link": "https://patrick-attimont.com/projects/gaussian-light-transport/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-c42886783e",
     "date": "2026-09-12",
     "title": "ItsGiving webcam meme overlay for meetings",
