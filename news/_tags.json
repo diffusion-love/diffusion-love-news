@@ -1045,6 +1045,10 @@
     "n-ef6922bf2a",
     "n-2a63a39249"
   ],
+  "Gigachat: gigachat-russia-strategy": [
+    "n-b815f82305",
+    "n-2f04eafb31"
+  ],
   "Gitlab: gitlab-critical-vulnerability-patch-19-5-1": [
     "n-687a924683",
     "n-1b28d58410"
@@ -5332,6 +5336,10 @@
   "family:gguf-models": [
     "n-16ee77b7eb"
   ],
+  "family:gigachat": [
+    "n-b815f82305",
+    "n-2f04eafb31"
+  ],
   "family:gigachat-3-5-reasoning-release": [
     "n-ef6922bf2a",
     "n-2a63a39249"
@@ -7466,9 +7474,17 @@
   "gguf-models": [
     "n-16ee77b7eb"
   ],
+  "gigachat": [
+    "n-b815f82305",
+    "n-2f04eafb31"
+  ],
   "gigachat-3-5-reasoning-release": [
     "n-ef6922bf2a",
     "n-2a63a39249"
+  ],
+  "gigachat-russia-strategy": [
+    "n-b815f82305",
+    "n-2f04eafb31"
   ],
   "girl-agent": [
     "n-db7fee9bb2"
@@ -8575,6 +8591,7 @@
     "n-34c22d3127",
     "n-31b3b17c7b",
     "n-2f8c6f34f0",
+    "n-2f04eafb31",
     "n-2dbef67328",
     "n-2bdd41c2da",
     "n-2aa536ccdc",
@@ -9229,6 +9246,7 @@
     "n-b8d5334397",
     "n-b8afea4624",
     "n-b8abd7e35e",
+    "n-b815f82305",
     "n-b7c4d9268f",
     "n-b79dee5163",
     "n-b6851c60f8",

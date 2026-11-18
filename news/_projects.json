@@ -31654,6 +31654,192 @@
     ],
     "claims": []
   },
+  "gigachat": {
+    "family_slug": "gigachat",
+    "family_display": "Gigachat: gigachat-russia-strategy",
+    "family_display_variants": [
+      {
+        "family_display": "Gigachat: gigachat-russia-strategy",
+        "first_seen": "2026-09-13",
+        "last_seen": "2026-09-13",
+        "news_ids": [
+          "n-2f04eafb31",
+          "n-b815f82305"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "llm",
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-09-13",
+    "last_seen": "2026-09-13",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-2f04eafb31",
+      "n-b815f82305"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-09-13",
+        "news_id": "n-2f04eafb31",
+        "title": "GigaChat 3.5 Reasoning open weights and hybrid MLA architecture release",
+        "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning"
+      },
+      {
+        "version": null,
+        "date": "2026-09-13",
+        "news_id": "n-b815f82305",
+        "title": "Sber enterprise AI strategy presented at Norilsk Nickel conference",
+        "primary_link": "https://www.youtube.com/watch?v=wU5NzlUPDH0"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "video",
+        "host": "youtube.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://www.youtube.com/watch?v=wU5NzlUPDH0",
+        "is_primary": true,
+        "verified_at": "2026-11-18T19:43:33Z",
+        "news_ids": [
+          "n-2f04eafb31",
+          "n-b815f82305"
+        ],
+        "occurrences": [
+          {
+            "news_id": "n-2f04eafb31",
+            "is_primary": false,
+            "verified_at": "2026-11-18T19:43:33Z"
+          },
+          {
+            "news_id": "n-b815f82305",
+            "is_primary": true,
+            "verified_at": "2026-11-18T19:43:33Z"
+          }
+        ]
+      },
+      {
+        "kind": "weights",
+        "host": "huggingface.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+        "is_primary": true,
+        "verified_at": "2026-11-18T19:43:33Z",
+        "news_ids": [
+          "n-2f04eafb31",
+          "n-b815f82305"
+        ],
+        "occurrences": [
+          {
+            "news_id": "n-2f04eafb31",
+            "is_primary": true,
+            "verified_at": "2026-11-18T19:43:33Z"
+          },
+          {
+            "news_id": "n-b815f82305",
+            "is_primary": false,
+            "verified_at": "2026-11-18T19:43:33Z"
+          }
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-09-13",
+        "title": "GigaChat 3.5 Reasoning open weights and hybrid MLA architecture release",
+        "summary": "Sber released open weights for GigaChat3.5-432B-A28B-Reasoning on Hugging Face, introducing a 432B mixture-of-experts model with 28B active parameters, alternating Multi-head Latent Attention and GatedDeltaNet layers, and a 262K context window.",
+        "version": null,
+        "news_id": "n-2f04eafb31",
+        "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-09-13",
+        "title": "Sber enterprise AI strategy presented at Norilsk Nickel conference",
+        "summary": "Sergey Markov outlined Sber's industrial foundation model roadmap and enterprise automation initiatives at a Norilsk Nickel corporate conference.",
+        "version": null,
+        "news_id": "n-b815f82305",
+        "primary_link": "https://www.youtube.com/watch?v=wU5NzlUPDH0"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-b815f82305",
+        "date": "2026-09-13",
+        "title": "Sber enterprise AI strategy presented at Norilsk Nickel conference",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "gigachat",
+        "version": null,
+        "tags": [
+          "Gigachat: gigachat-russia-strategy",
+          "family:gigachat",
+          "gigachat",
+          "gigachat-russia-strategy",
+          "misc"
+        ],
+        "primary_link": "https://www.youtube.com/watch?v=wU5NzlUPDH0",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-2f04eafb31",
+        "date": "2026-09-13",
+        "title": "GigaChat 3.5 Reasoning open weights and hybrid MLA architecture release",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "gigachat",
+        "version": null,
+        "tags": [
+          "Gigachat: gigachat-russia-strategy",
+          "family:gigachat",
+          "gigachat",
+          "gigachat-russia-strategy",
+          "llm"
+        ],
+        "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "gigachat-russia-strategy",
+        "display": "Gigachat Russia Strategy",
+        "first_seen": "2026-09-13",
+        "last_seen": "2026-09-13",
+        "latest_news_id": "n-b815f82305",
+        "news_ids": [
+          "n-2f04eafb31",
+          "n-b815f82305"
+        ]
+      }
+    ]
+  },
   "gigachat-3-5-reasoning-release": {
     "family_slug": "gigachat-3-5-reasoning-release",
     "family_display": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",

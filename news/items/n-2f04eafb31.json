@@ -1,0 +1,114 @@
+{
+ "schema_version": "1.4",
+ "id": "n-2f04eafb31",
+ "entry_type": "news",
+ "category": "llm",
+ "lang": "en",
+ "title": "GigaChat 3.5 Reasoning open weights and hybrid MLA architecture release",
+ "summary": "Sber released open weights for GigaChat3.5-432B-A28B-Reasoning on Hugging Face, introducing a 432B mixture-of-experts model with 28B active parameters, alternating Multi-head Latent Attention and GatedDeltaNet layers, and a 262K context window.",
+ "research_notes": "Deploy GigaChat3.5-432B-A28B-Reasoning using vLLM or SGLang inference engines with FP8 quantization and multi-GPU tensor parallelism supporting Multi-head Latent Attention (MLA) and GatedDeltaNet layers.\n\nConfigure inference runtime parameters to leverage the native 262K token context window and activate multi-token prediction heads for speculative decoding acceleration.\n\nUtilize low-rank Multi-head Latent Attention (MLA) Key-Value cache compression in combination with alternating linear attention layers to prevent memory exhaustion during long-context generation.\n\nProvision distributed enterprise hardware clusters with sufficient aggregate VRAM to host the 432B parameter weights despite sparse 28B active routing per token.",
+ "project": {
+  "name": "Gigachat: gigachat-russia-strategy",
+  "family_slug": "gigachat",
+  "family_display": "Gigachat: gigachat-russia-strategy",
+  "model_slug": "gigachat",
+  "model_display": "Gigachat: gigachat-russia-strategy",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gigachat-russia-strategy",
+  "thread_display": "Gigachat Russia Strategy",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Gigachat: gigachat-russia-strategy",
+  "article_url": "https://happyin.space/projects/gigachat/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/34e67a9c00b1ce533a35839adfd7b414dfd28336/docs/projects/gigachat.md",
+  "agent_context_url": "https://happyin.space/projects/gigachat/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-09-13",
+  "title": "GigaChat 3.5 Reasoning open weights and hybrid MLA architecture release",
+  "version": null,
+  "summary": "Sber released open weights for GigaChat3.5-432B-A28B-Reasoning on Hugging Face, introducing a 432B mixture-of-experts model with 28B active parameters, alternating Multi-head Latent Attention and GatedDeltaNet layers, and a 262K context window."
+ },
+ "tags": [
+  "Gigachat: gigachat-russia-strategy",
+  "family:gigachat",
+  "gigachat",
+  "gigachat-russia-strategy",
+  "llm"
+ ],
+ "facets": {
+  "category": "llm",
+  "entry_type": "news",
+  "projects": [
+   "gigachat"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "weights",
+   "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+   "host": "huggingface.co",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-18T19:43:33Z"
+  },
+  {
+   "kind": "video",
+   "url": "https://www.youtube.com/watch?v=wU5NzlUPDH0",
+   "host": "youtube.com",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-18T19:43:33Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-09-13",
+  "excerpt": "Sber released open weights for GigaChat3.5-432B-A28B-Reasoning on Hugging Face, introducing a 432B mixture-of-experts model with 28B active parameters, alternating Multi-head Latent Attention and GatedDeltaNet layers, and a 262K context window."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-18T19:43:33Z",
+  "classified_at": "2026-11-18T19:43:33Z",
+  "enriched_at": "2026-11-18T19:43:33Z",
+  "verified_at": "2026-11-18T19:43:33Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

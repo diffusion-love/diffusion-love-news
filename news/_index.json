@@ -1004,6 +1004,25 @@
     "has_video": false
   },
   {
+    "id": "n-b815f82305",
+    "date": "2026-09-13",
+    "title": "Sber enterprise AI strategy presented at Norilsk Nickel conference",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "gigachat",
+    "version": null,
+    "tags": [
+      "Gigachat: gigachat-russia-strategy",
+      "family:gigachat",
+      "gigachat",
+      "gigachat-russia-strategy",
+      "misc"
+    ],
+    "primary_link": "https://www.youtube.com/watch?v=wU5NzlUPDH0",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-b4e85758ff",
     "date": "2026-09-13",
     "title": "Gaussian Light Transport global illumination technique",
@@ -1018,6 +1037,25 @@
       "misc"
     ],
     "primary_link": "https://patrick-attimont.com/projects/gaussian-light-transport/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-2f04eafb31",
+    "date": "2026-09-13",
+    "title": "GigaChat 3.5 Reasoning open weights and hybrid MLA architecture release",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "gigachat",
+    "version": null,
+    "tags": [
+      "Gigachat: gigachat-russia-strategy",
+      "family:gigachat",
+      "gigachat",
+      "gigachat-russia-strategy",
+      "llm"
+    ],
+    "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
     "has_image": false,
     "has_video": false
   },
