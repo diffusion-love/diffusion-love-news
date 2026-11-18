@@ -1,0 +1,11 @@
+{
+ "id": "n-ef6922bf2a",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从 Hugging Face 仓库 ai-sage/GigaChat3.5-432B-A28B-Reasoning 下载开放权重，或从 GitVerse 克隆该仓库。\n\n使用支持混合 MLA 与 MoE 架构的推理引擎（如 vLLM 或 SGLang），在多 GPU 服务器基础设施上部署模型。\n\n在多阶段分析任务中开启推理模式提示模型，使其在给出最终答案之前生成思维链中间步骤。\n\n为容纳 432B MoE 权重，分配具有高总显存的多节点 GPU 集群；当完整 BF16 显存受限时，采用 FP8 量化。\n\n在处理大型文档集合、法律合同或多文件代码库时，启用 YaRN 上下文扩展缩放，最长支持 256K 词元。\n\n将复杂的多步逻辑推演、数学证明和程序验证交由推理模式处理，同时将直接的生成任务保留在标准模型上，以优化词元消耗。",
+ "source_sha256": "fec30cf5d6fb04273b5f3f4e5624920b4553b159484697f664c350d41cfc5a67",
+ "summary": "GigaChat 3.5 Reasoning 提供开放权重，通过 YaRN 缩放支持 256K 词元上下文，并可在 vLLM 和 SGLang 上部署推理。Sber 已在 Hugging Face 和 GitVerse 上发布该模型，用于多步推理、数学任务和代码验证。",
+ "title": "GigaChat 3.5 Reasoning 开放权重与部署配置",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

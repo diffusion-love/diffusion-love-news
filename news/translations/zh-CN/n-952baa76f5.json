@@ -1,0 +1,11 @@
+{
+ "id": "n-952baa76f5",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "克隆代码仓库并安装所需依赖，包括 PyTorch 和 torchvision。\n\n从 Hugging Face 下载预训练的 RelayVSR 模型权重，用于 2x 或 4x 增强目标。\n\n通过提供的测试脚本或 ComfyUI 自定义节点运行推理，处理长视频序列时使用流式模式。\n\n使用诸如 15 帧的关键帧间隔，在保持生成式细节重建效果的同时维持较高吞吐量。\n\n处理长序列时启用带线性交叉淡化的流式模式，以保持显存占用稳定并消除分块边界伪影。\n\n分配至少 14 GB 显存的 GPU，以满足关键帧潜变量生成过程中的峰值内存需求。",
+ "source_sha256": "f989a1ca0005f6db6fb01494e795c8adc69f53a087745dbb67c24da4ad8e6409",
+ "summary": "RelayVSR 是一个开源视频超分辨率框架，它将稀疏生成式关键帧主干与轻量级双记忆视频 Transformer（Dual-Memory Video Transformer）相结合，用于放大并增强低质量视频。在 NVIDIA A100 GPU 上，该模型在 1080p 分辨率下可达到约 29 FPS 的运行速度，峰值显存约为 13.8 GB，支持 2x 和 4x 增强，并可集成到包括 ComfyUI 在内的本地推理流程中。",
+ "title": "RelayVSR 视频超分辨率框架发布",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

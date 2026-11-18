@@ -1,0 +1,11 @@
+{
+ "id": "n-ef6922bf2a",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Téléchargez les poids ouverts depuis le dépôt Hugging Face ai-sage/GigaChat3.5-432B-A28B-Reasoning ou clonez le dépôt depuis GitVerse.\n\nDéployez le modèle à l'aide d'un moteur d'inférence prenant en charge les architectures MLA hybrides et MoE, tel que vLLM ou SGLang, sur une infrastructure de serveurs multi-GPU.\n\nSoumettez au modèle des tâches analytiques en plusieurs étapes avec le mode raisonnement activé, afin qu'il génère des étapes intermédiaires de chaîne de pensée avant de produire la réponse finale.\n\nAllouez des grappes multi-nœuds de GPU offrant une VRAM agrégée importante pour accueillir les poids MoE de 432B, en appliquant une quantification FP8 lorsque les limites de mémoire en BF16 complet sont contraignantes.\n\nActivez l'extension de contexte YaRN, avec une mise à l'échelle allant jusqu'à 256K tokens, lors de l'ingestion de grands ensembles de documents, de contrats juridiques ou de dépôts multi-fichiers.\n\nRéservez le mode raisonnement aux déductions logiques complexes en plusieurs étapes, aux preuves mathématiques et à la vérification de programmes, tout en conservant la génération simple sur des modèles standard afin d'optimiser la consommation de tokens.",
+ "source_sha256": "fec30cf5d6fb04273b5f3f4e5624920b4553b159484697f664c350d41cfc5a67",
+ "summary": "GigaChat 3.5 Reasoning fournit des poids ouverts prenant en charge un contexte de 256K tokens via la mise à l'échelle YaRN, ainsi qu'un déploiement d'inférence sur vLLM et SGLang. Sber a publié le modèle sur Hugging Face et GitVerse pour le raisonnement en plusieurs étapes, les tâches mathématiques et la vérification de code.",
+ "title": "GigaChat 3.5 Reasoning : poids ouverts et configurations de déploiement",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

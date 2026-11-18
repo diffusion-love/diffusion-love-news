@@ -1,0 +1,11 @@
+{
+ "id": "n-952baa76f5",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "저장소를 클론하고 PyTorch 및 torchvision을 포함한 필수 의존성을 설치합니다.\n\n2배 또는 4배 향상 목표에 맞춰 Hugging Face에서 사전 학습된 RelayVSR 모델 가중치를 다운로드합니다.\n\n긴 비디오 시퀀스에는 스트리밍 모드를 사용하여, 제공된 테스트 스크립트 또는 ComfyUI 커스텀 노드를 통해 추론을 실행합니다.\n\n생성적 디테일 복원의 품질을 유지하면서 높은 처리량을 확보하려면 15프레임과 같은 키프레임 간격을 사용합니다.\n\n긴 시퀀스를 처리할 때는 선형 크로스페이드와 함께 스트리밍 모드를 활성화하여 VRAM 사용량을 안정적으로 유지하고 청크 경계 아티팩트를 제거합니다.\n\n키프레임 라텐트 생성 중 최대 메모리 사용량을 감당할 수 있도록 VRAM이 최소 14GB 이상인 GPU를 할당합니다.",
+ "source_sha256": "f989a1ca0005f6db6fb01494e795c8adc69f53a087745dbb67c24da4ad8e6409",
+ "summary": "RelayVSR은 희소 생성형 키프레임 백본과 경량 Dual-Memory Video Transformer를 결합한 오픈소스 비디오 초해상도 프레임워크로, 열화된 비디오를 업스케일하고 향상합니다. NVIDIA A100 GPU에서 1080p 해상도 기준 최대 29 FPS로 동작하며, 최대 VRAM 사용량은 약 13.8GB입니다. 2배 및 4배 향상을 지원하며, ComfyUI를 포함한 로컬 추론 파이프라인에 통합됩니다.",
+ "title": "RelayVSR 비디오 초해상도 프레임워크 공개",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

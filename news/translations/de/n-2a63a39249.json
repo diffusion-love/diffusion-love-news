@@ -1,0 +1,11 @@
+{
+ "id": "n-2a63a39249",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Laden Sie die offenen Gewichte aus dem Hugging-Face-Repository ai-sage/GigaChat3.5-432B-A28B-Reasoning herunter oder klonen Sie das Repository von GitVerse.\n\nStellen Sie das Modell mit einer Inferenz-Engine bereit, die hybride MLA- und MoE-Architekturen unterstützt, etwa vLLM oder SGLang, auf einer Multi-GPU-Serverinfrastruktur.\n\nGeben Sie dem Modell mehrstufige analytische Aufgaben mit aktiviertem Reasoning-Modus vor, damit es vor der finalen Antwort Zwischenschritte in Form von Chain-of-Thought erzeugt.\n\nStellen Sie Multi-Node-GPU-Cluster mit hohem aggregiertem VRAM bereit, um die 432B-MoE-Gewichte aufzunehmen, und wenden Sie FP8-Quantisierung an, wenn der Speicher für vollständiges BF16 nicht ausreicht.\n\nAktivieren Sie die YaRN-Kontexterweiterung mit Skalierung auf bis zu 256K Token, wenn Sie große Dokumentensammlungen, Rechtsverträge oder Repositories mit mehreren Dateien einlesen.\n\nLeiten Sie komplexe mehrstufige logische Schlussfolgerungen, mathematische Beweise und Programmverifikation in den Reasoning-Modus, während einfache Textgenerierung auf Standardmodellen verbleibt, um den Token-Verbrauch zu optimieren.",
+ "source_sha256": "2e44bac3bc11fe5634ad2c11565926f67f9e9ab81c68aced40b39baa68ff0ed3",
+ "summary": "GigaChat 3.5 Reasoning ist ein Reasoning-Modell mit offenen Gewichten von Sber, das eine Mixture-of-Experts-Architektur mit 432B Parametern und 28B aktiven Parametern besitzt. Das Modell führt eine mehrstufige Problemzerlegung mit Zwischenverifikation und hybride Aufmerksamkeit ein und ist unter der MIT-Lizenz auf Hugging Face und GitVerse verfügbar.",
+ "title": "GigaChat 3.5 Reasoning: Veröffentlichung eines MoE-Modells mit offenen Gewichten",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

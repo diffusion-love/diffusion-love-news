@@ -1,0 +1,11 @@
+{
+ "id": "n-2f04eafb31",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Despliegue de GigaChat3.5-432B-A28B-Reasoning mediante los motores de inferencia vLLM o SGLang, con cuantización FP8 y paralelismo de tensores multi-GPU con soporte para Multi-head Latent Attention (MLA) y capas GatedDeltaNet.\n\nConfigure los parámetros del entorno de ejecución de inferencia para aprovechar la ventana de contexto nativa de 262K tokens y active las cabezas de predicción multi-token para la aceleración de la decodificación especulativa.\n\nUtilice la compresión de caché Key-Value de Multi-head Latent Attention (MLA) de bajo rango junto con capas de atención lineal alternadas para evitar el agotamiento de memoria durante la generación con contexto largo.\n\nAprovisione clústeres empresariales distribuidos con VRAM agregada suficiente para alojar los pesos de 432B parámetros, a pesar del enrutamiento disperso de 28B parámetros activos por token.",
+ "source_sha256": "f5361803c3c86ed9c5a78340fb6d5398575ecaa5656c6a195db1c25928c70d9a",
+ "summary": "Sber publicó los pesos abiertos de GigaChat3.5-432B-A28B-Reasoning en Hugging Face, presentando un modelo de mezcla de expertos de 432B con 28B parámetros activos, capas alternas de Multi-head Latent Attention y GatedDeltaNet, y una ventana de contexto de 262K.",
+ "title": "Publicación de los pesos abiertos de GigaChat 3.5 Reasoning y de la arquitectura híbrida MLA",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

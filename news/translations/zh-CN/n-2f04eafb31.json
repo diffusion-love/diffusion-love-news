@@ -1,0 +1,11 @@
+{
+ "id": "n-2f04eafb31",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "使用 vLLM 或 SGLang 推理引擎部署 GigaChat3.5-432B-A28B-Reasoning，启用 FP8 量化和多 GPU 张量并行，并支持 Multi-head Latent Attention（MLA）和 GatedDeltaNet 层。\n\n配置推理运行时参数，以充分利用原生 262K token 上下文窗口，并启用多 token 预测头以加速投机解码（speculative decoding）。\n\n结合低秩 Multi-head Latent Attention（MLA）键值缓存压缩与交替的线性注意力层，以防止长上下文生成过程中显存耗尽。\n\n配置分布式企业级硬件集群，提供足够的总显存（VRAM）以容纳 432B 参数权重，尽管每个 token 仅通过稀疏路由激活 28B 参数。",
+ "source_sha256": "f5361803c3c86ed9c5a78340fb6d5398575ecaa5656c6a195db1c25928c70d9a",
+ "summary": "Sber 在 Hugging Face 上发布了 GigaChat3.5-432B-A28B-Reasoning 的开源权重。该模型是一个 432B 参数的混合专家模型，每次激活 28B 参数，交替使用 Multi-head Latent Attention 与 GatedDeltaNet 层，上下文窗口为 262K。",
+ "title": "GigaChat 3.5 Reasoning 开源权重与混合 MLA 架构发布",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

@@ -840,6 +840,11 @@
   "summary": "2026년 7월 6일, Awesome Harness Engineering과 관련된 날짜가 명시된 메시지가 이 프로젝트의 GitHub 저장소를 가리켰습니다. 이는 해당 날짜에 프로젝트의 공개 저장소 참조가 존재했음을 보여 주지만, 릴리스, 기능 변경 또는 그 밖의 이정표를 입증하지는 않습니다.",
   "title": "Awesome Harness Engineering GitHub 저장소가 언급됨"
  },
+ "n-2a63a39249": {
+  "research_notes": "Hugging Face 저장소 ai-sage/GigaChat3.5-432B-A28B-Reasoning에서 오픈 웨이트를 내려받거나 GitVerse에서 저장소를 클론하십시오.\n\n하이브리드 MLA 및 MoE 아키텍처를 지원하는 추론 엔진(예: vLLM 또는 SGLang)을 사용하여 다중 GPU 서버 인프라에 모델을 배포하십시오.\n\n추론 모드를 활성화한 상태에서 다단계 분석 과제로 모델에 프롬프트를 입력하면, 모델이 최종 답변을 내기 전에 사고 연쇄(chain-of-thought) 중간 단계를 생성합니다.\n\n432B MoE 가중치를 수용할 수 있도록 총 VRAM 용량이 큰 다중 노드 GPU 클러스터를 할당하고, 전체 BF16 메모리 한도가 제약될 경우 FP8 양자화를 적용하십시오.\n\n대규모 문서 모음, 법률 계약서 또는 다중 파일 저장소를 수집할 때는 YaRN 컨텍스트 확장 스케일링을 활성화하여 최대 256K 토큰까지 확장하십시오.\n\n복잡한 다단계 논리 추론, 수학적 증명, 프로그램 검증은 추론 모드로 처리하고, 단순한 생성 작업은 표준 모델에 맡겨 토큰 소비를 최적화하십시오.",
+  "summary": "GigaChat 3.5 Reasoning은 Sber가 공개한 오픈 웨이트 추론 모델로, 총 432B 파라미터의 혼합 전문가(MoE) 아키텍처에 활성 파라미터는 28B입니다. 이 모델은 중간 검증을 동반한 다단계 문제 분해와 하이브리드 어텐션을 도입하며, Hugging Face와 GitVerse에서 MIT 라이선스로 제공됩니다.",
+  "title": "GigaChat 3.5 Reasoning 오픈 웨이트 MoE 공개"
+ },
  "n-2a8f5beb6c": {
   "evolution_summary": "2023년 지원이 중단된 이후, Codex는 2025년 4월 CLI 중심 플랫폼으로 재출시되었다. Rust 기반 아키텍처로 전환되었고 Model Context Protocol(MCP)을 지원하며, 현재는 네이티브 컴퓨터 사용 기능을 갖춘 GPT-5 모델 시리즈를 기반으로 동작한다.",
   "research_notes": "현재 생태계에는 자동화된 취약점 패치를 위한 'Codex Security'와 VS Code, Cursor, Xcode에 대한 통합 지원이 포함되어 있다.",
@@ -931,6 +936,11 @@
  "n-2f045eb33c": {
   "summary": "2026년 3월 23일, Video-to-World 라인은 공개 프로젝트 페이지 및 GitHub 저장소와 연결되었다. 이로써 해당 프로젝트의 문서와 소스 코드가 공개되어 있음을 보여주는 날짜가 기록된 공개 기준점이 생겼다.",
   "title": "Video-to-World 프로젝트 자료가 공개적으로 연결됨"
+ },
+ "n-2f04eafb31": {
+  "research_notes": "GigaChat3.5-432B-A28B-Reasoning을 FP8 양자화와 Multi-head Latent Attention(MLA) 및 GatedDeltaNet 레이어를 지원하는 다중 GPU 텐서 병렬화 환경에서 vLLM 또는 SGLang 추론 엔진으로 배포하십시오.\n\n추론 런타임 파라미터를 설정하여 기본 262K 토큰 컨텍스트 윈도우를 활용하고, 추측 디코딩 가속을 위해 다중 토큰 예측 헤드를 활성화하십시오.\n\n긴 컨텍스트 생성 과정에서 메모리 고갈을 방지하기 위해 교차 배치된 선형 어텐션 레이어와 함께 저랭크 Multi-head Latent Attention(MLA) Key-Value 캐시 압축을 활용하십시오.\n\n토큰당 희소하게 라우팅되는 28B 활성 파라미터에도 불구하고 432B 파라미터 가중치를 호스팅할 수 있도록 분산 엔터프라이즈 하드웨어 클러스터에 충분한 총 VRAM을 프로비저닝하십시오.",
+  "summary": "Sber는 GigaChat3.5-432B-A28B-Reasoning의 오픈 가중치를 Hugging Face에 공개했습니다. 이 모델은 28B 활성 파라미터를 갖춘 432B 규모의 mixture-of-experts 모델로, Multi-head Latent Attention과 GatedDeltaNet 레이어를 교차 배치하고 262K 컨텍스트 윈도우를 제공합니다.",
+  "title": "GigaChat 3.5 Reasoning 오픈 가중치 및 하이브리드 MLA 아키텍처 공개"
  },
  "n-2f8c6f34f0": {
   "evolution_summary": "1,040개 작업으로 구성된 Auto-ClawEval 벤치마크를 위한 연구 도구에서, Model Context Protocol(MCP)과 에이전트 디버깅을 위한 즉석 환경 생성을 지원하는 범용 툴킷으로 발전했습니다.",
@@ -1395,6 +1405,11 @@
   "evolution_summary": "해당 뉴스 게시물은 Unsloth 저장소, Colab, 그리고 GPT-OSS 파인튜닝 안내 문서를 연결하고 있다.",
   "summary": "해당 뉴스 게시물은 Unsloth 저장소, Colab, 그리고 GPT-OSS 파인튜닝 안내 문서를 연결하고 있다.",
   "title": "Unsloth, GPT-OSS 파인튜닝 가이드 공개"
+ },
+ "n-492c016626": {
+  "research_notes": "Google AI Studio 또는 Gemini API에서 실행 중심 개발 작업을 위해 Gemini 4 Hydrogen(모델 ID gemini-4-hydrogen)을 선택하세요.\n\n필요한 지연 시간과 추론 깊이의 균형에 따라 사고 수준을 low, medium, high, xhigh 중에서 설정하세요.\n\nGoogle Antigravity에서 Orchestrator 모드를 활성화하면 아키텍처 계획에는 Gemini 4 Carbon을, 반복적인 코드 생성과 테스트에는 Gemini 4 Hydrogen을 함께 사용할 수 있습니다.\n\n보일러플레이트 생성, 단위 테스트, 리팩터링 같은 리포지토리 작업에는 Gemini 4 Hydrogen을 고속 실행 엔진으로 사용하고, 상위 수준의 아키텍처 결정은 최상위 계획 모델에 맡기세요.\n\n사소하지 않은 코딩 작업에는 추론 품질을 유지하면서 할당량과 실행 속도를 아끼기 위해 기본값인 high 사고 깊이를 유지하세요.",
+  "summary": "Google이 코드 작성과 에이전트 작업을 위한 실행 모델인 Gemini 4 Hydrogen을 공개했습니다. 이 모델은 설정 가능한 추론 수준과 다중 모델 Antigravity 오케스트레이션을 특징으로 합니다.",
+  "title": "Google, Gemini 4 Hydrogen 코딩 모델 출시"
  },
  "n-492f7ebf1e": {
   "evolution_summary": "TheBurgstall은 LTX-2.3용 특화 구조 LoRA를 계속 공개하고 있으며, 체형 수정에서 'Edit Anything' 기능으로 영역을 넓히고 있습니다. 이 모델은 이제 간편한 사용을 위해 a1.art와 같은 웹 인터페이스에서도 지원됩니다.",
@@ -2150,6 +2165,11 @@
   "summary": "2026년 7월 23일, Hyra 개발 업데이트에서 프로젝트의 연구 페이지와 Tencent에서 호스팅되는 피드백 양식이 함께 링크되었다. 이는 Hyra의 역사에서 중요한 공개적 연구 및 피드백 단계이지만, 현재 확보된 자료로는 연구 주제, 연구 결과, 제품 상태를 확인할 수 없다.",
   "title": "Hyra 연구 페이지와 피드백 양식이 연결됨"
  },
+ "n-720d98287b": {
+  "research_notes": "Data, Code, Server Room, Network 트랙의 컨퍼런스 일정을 검토해 프로덕션 아키텍처 관련 세션을 찾아보세요.\n\n공식 Yandex for ML 영상 채널에서 녹화된 강연과 기술 세션에 접근할 수 있습니다.\n\n발표자의 슬라이드 자료와 기술 요약에서 LLM 추론, 에이전트형 비전, 추천 모델의 배포 패턴을 추출하세요.\n\n컨퍼런스 엔지니어링 트랙에서 소개된 실제 프로덕션 아키텍처를 기준으로 LLM 추론 및 에이전트 워크플로의 지연 시간을 벤치마크하세요.\n\n분산 학습이나 비전-언어 에이전트 파이프라인을 재현하기 전에, 공식 영상 채널에 올라온 기술 발표 녹화와 아키텍처 분석을 검토하세요.",
+  "summary": "Yandex는 9월 19일 행사를 앞두고 Practical ML Conf 2026의 프로그램 업데이트를 발표했으며, Yandex ML Prize 시상식과 함께 Data, Code, Server Room, Network 트랙에 걸친 24개 기술 강연을 상세히 공개했습니다.",
+  "title": "Practical ML Conf 2026 일정 확정, 4개 기술 트랙 구성"
+ },
  "n-721afd6a19": {
   "summary": "2026년 8월 10일, 기록된 메시지가 Firecrawl Anydoc GitHub 저장소를 관련 The source reference와 함께 링크했다. 이는 Anydoc에 대한 날짜가 명시된 공개 참조 시점을 확립하지만, 릴리스, 기능 변경 또는 역량을 확립하지는 않는다.",
   "title": "Anydoc 저장소에 대한 공개 참조"
@@ -2679,6 +2699,11 @@
  "n-9478ff9243": {
   "summary": "2026년 7월 16일, Grok Build 스레드에서 xAI의 공개 Grok Build GitHub 저장소가 언급되었다. 이로써 이 프로젝트에 대한 날짜가 명시된 공개 출처 참조가 생겼지만, 저장소의 내용과 해당 메시지의 정확한 맥락은 조사되지 않았다.",
   "title": "Grok Build 공개 저장소 참조"
+ },
+ "n-952baa76f5": {
+  "research_notes": "저장소를 클론하고 PyTorch 및 torchvision을 포함한 필수 의존성을 설치합니다.\n\n2배 또는 4배 향상 목표에 맞춰 Hugging Face에서 사전 학습된 RelayVSR 모델 가중치를 다운로드합니다.\n\n긴 비디오 시퀀스에는 스트리밍 모드를 사용하여, 제공된 테스트 스크립트 또는 ComfyUI 커스텀 노드를 통해 추론을 실행합니다.\n\n생성적 디테일 복원의 품질을 유지하면서 높은 처리량을 확보하려면 15프레임과 같은 키프레임 간격을 사용합니다.\n\n긴 시퀀스를 처리할 때는 선형 크로스페이드와 함께 스트리밍 모드를 활성화하여 VRAM 사용량을 안정적으로 유지하고 청크 경계 아티팩트를 제거합니다.\n\n키프레임 라텐트 생성 중 최대 메모리 사용량을 감당할 수 있도록 VRAM이 최소 14GB 이상인 GPU를 할당합니다.",
+  "summary": "RelayVSR은 희소 생성형 키프레임 백본과 경량 Dual-Memory Video Transformer를 결합한 오픈소스 비디오 초해상도 프레임워크로, 열화된 비디오를 업스케일하고 향상합니다. NVIDIA A100 GPU에서 1080p 해상도 기준 최대 29 FPS로 동작하며, 최대 VRAM 사용량은 약 13.8GB입니다. 2배 및 4배 향상을 지원하며, ComfyUI를 포함한 로컬 추론 파이프라인에 통합됩니다.",
+  "title": "RelayVSR 비디오 초해상도 프레임워크 공개"
  },
  "n-95cbbfe193": {
   "evolution_summary": "해당 뉴스 게시물은 5B 및 14B SANA-Video 2.0 아키텍처와 성능 주장을 설명했으며, 당시에는 새 모델의 가중치를 사용할 수 없다고 명시적으로 보고했다.",
@@ -3322,6 +3347,11 @@
   "summary": "2026-08-21, 기록에 Claude Academy가 공식 교육 리소스로 등재되었다. 전용 아카데미 사이트는 이를 개발 이정표로 볼 수 있음을 뒷받침하지만, 정확한 출시 시점과 초기 커리큘럼은 아직 검증되지 않았다.",
   "title": "Claude Academy가 공식 학습 리소스로 등록되다"
  },
+ "n-b815f82305": {
+  "research_notes": "vLLM 또는 SGLang 추론 엔진을 사용하고 FP8 양자화와 다중 GPU 텐서 병렬화를 적용해 GigaChat3.5-432B-A28B-Reasoning을 배포하세요. 이 모델은 다중 헤드 잠재 어텐션(Multi-head Latent Attention, MLA)과 GatedDeltaNet 계층을 지원합니다.\n\n추론 런타임 파라미터를 설정해 기본 262K 토큰 컨텍스트 윈도우를 활용하고, 추측적 디코딩(speculative decoding) 가속을 위해 다중 토큰 예측 헤드를 활성화하세요.\n\n긴 컨텍스트 생성 중 메모리 고갈을 방지하려면 저랭크 다중 헤드 잠재 어텐션(MLA) 키-값 캐시 압축을 번갈아 배치된 선형 어텐션 계층과 함께 활용하세요.\n\n토큰당 28B만 활성화되는 희소 라우팅에도 불구하고 432B 파라미터 가중치를 수용할 수 있도록, 총 VRAM 용량이 충분한 분산 기업용 하드웨어 클러스터를 준비하세요.",
+  "summary": "Sergey Markov는 Norilsk Nickel 기업 컨퍼런스에서 Sber의 산업용 파운데이션 모델 로드맵과 기업 자동화 이니셔티브를 발표했습니다.",
+  "title": "Norilsk Nickel 컨퍼런스에서 발표된 Sber의 기업 AI 전략"
+ },
  "n-b8abd7e35e": {
   "summary": "2026-06-11, Cream Typer 개발 흐름에 프로젝트의 GitHub 저장소로 직접 연결되는 링크가 기록되었다. 제공된 근거는 저장소 참조 사실만 확인할 뿐, 원문 텍스트, 릴리스 세부 정보, 변경 사항에 대한 설명은 포함하지 않는다. 따라서 이 이력 이벤트는 출시, 버전, 기능 업데이트를 주장하지 않는다.",
   "title": "Cream Typer GitHub 저장소 참조"
@@ -3823,6 +3853,11 @@
  "n-d4f7f53653": {
   "summary": "2026-06-24에 Qwopus3.6-27B-v2 계열의 일부로 Qwopus3.6-27B-v2-GGUF 및 Qwopus3.6-27B-v2-FP8 저장소가 링크되었다. 이는 추론 지향의 두 가지 형식으로 명명된 아티팩트를 제공했다는 점에서 실질적인 배포 단계에 해당한다. 동시기에 기록된 링크가 저장소 링크와 함께 제공되었으나, 그 내용은 검토되지 않았다.",
   "title": "Qwopus3.6-27B-v2 아티팩트, GGUF 및 FP8 저장소에 게시됨"
+ },
+ "n-d5737703ea": {
+  "research_notes": "텍스트-이미지 디퓨전 백본을 선택합니다(예: Stable Diffusion 또는 SANA). 그리고 디바이어싱 대상이 되는 인구통계학적 속성을 정의합니다.\n\n선택한 인구통계학적 차원을 반영하는 쌍을 이룬 대조 텍스트 프롬프트를 사용해 속성 스티어링 벡터를 사전 계산합니다.\n\n역확산 추론 샘플링 과정에서 프롬프트 인식 게이팅 메커니즘을 모델의 교차 어텐션 레이어에 통합합니다.\n\n표준 프롬프트로 이미지를 생성합니다. 게이트는 명시적 속성 프롬프트는 그대로 두고, 중립적인 프롬프트에는 스티어링 벡터를 주입합니다.\n\n스티어링 벡터를 계산할 때는 넓은 의미 기술 대신 목표가 명확한 대조 쌍을 사용하여, 기본 텍스트-이미지 정렬이 희석되는 것을 방지합니다.\n\n입력 프롬프트에 명시적 속성 기술어가 이미 포함된 경우에는 프롬프트 인식 게이팅으로 개입을 우회하여, 상충하는 활성화 조정을 피합니다.\n\n여러 디퓨전 백본에 배포하기 전에, 도메인별 중립적 역할 프롬프트에서 패리티 격차 감소 효과를 검증합니다.",
+  "summary": "EquiSteer는 모델을 재학습하지 않고도 추론 시점의 교차 어텐션 스티어링 프레임워크를 통해 텍스트-이미지 디퓨전 모델의 인구통계학적 편향을 최대 87%까지 완화합니다.",
+  "title": "EquiSteer: 학습 없이 수행하는 디퓨전 편향 완화"
  },
  "n-d5883c87bf": {
   "evolution_summary": "해당 뉴스 게시물은 비정상적인 소리 이해, 최대 10분 길이의 오디오, 다중 오디오 대화, 추론, 음성 상호작용, 그리고 음성/소리/음악을 아우르는 공유 인코더를 소개했다.",
@@ -4338,6 +4373,11 @@
   "summary": "2026년 4월 8일, Volumography 출시 스레드의 한 메시지가 Volumography 웹사이트로 연결되는 링크를 공유했다. 확인 가능한 근거는 해당 날짜에 이 프로젝트 링크가 공유되었다는 사실뿐이며, 제품 출시, 기능 공개 또는 기타 역량에 대한 주장을 입증하지는 않는다.",
   "title": "출시 스레드에서 언급된 Volumography 웹사이트"
  },
+ "n-ef6922bf2a": {
+  "research_notes": "Hugging Face 저장소 ai-sage/GigaChat3.5-432B-A28B-Reasoning에서 오픈 웨이트를 내려받거나, GitVerse에서 저장소를 클론하세요.\n\n하이브리드 MLA 및 MoE 아키텍처를 지원하는 추론 엔진(예: vLLM 또는 SGLang)을 사용해 다중 GPU 서버 인프라에 모델을 배포하세요.\n\n추론 모드를 활성화한 상태에서 다단계 분석 과제로 모델에 프롬프트를 주면, 모델이 최종 답변을 생성하기 전에 chain-of-thought 중간 단계를 생성합니다.\n\n432B MoE 가중치를 수용할 수 있도록 총 VRAM 용량이 큰 다중 노드 GPU 클러스터를 할당하고, 전체 BF16 메모리 한계가 제약될 때는 FP8 양자화를 적용하세요.\n\n대용량 문서 모음, 법률 계약서 또는 다중 파일 저장소를 입력할 때는 YaRN 컨텍스트 확장 스케일링을 활성화해 최대 256K 토큰까지 확장하세요.\n\n복잡한 다단계 논리 추론, 수학적 증명, 프로그램 검증은 추론 모드로 보내고, 단순한 생성 작업은 표준 모델에서 처리해 토큰 사용량을 최적화하세요.",
+  "summary": "GigaChat 3.5 Reasoning은 YaRN 스케일링을 통해 256K 토큰 컨텍스트를 지원하는 오픈 웨이트를 제공하며, vLLM과 SGLang을 통한 추론 배포를 지원합니다. Sber는 다단계 추론, 수학 과제, 코드 검증을 위해 Hugging Face와 GitVerse에 이 모델을 공개했습니다.",
+  "title": "GigaChat 3.5 Reasoning 오픈 웨이트 및 배포 설정"
+ },
  "n-efaa00d50b": {
   "evolution_summary": "Vercel 내부 도구에서 공개 오픈소스 프로젝트로 전환되었으며, 현재는 Claude 3.5 Sonnet과 Vercel Sandbox를 활용해 정밀한 코드 분석과 PR 직접 수정을 수행합니다.",
   "research_notes": "Next.js와 같은 특정 프레임워크에 관련된 전문 지침을 해당 상황일 때만 불러오는 점진적 스킬 시스템을 採用하고 있습니다.",
@@ -4494,6 +4534,11 @@
  "n-f7bf45f8a9": {
   "summary": "2026년 3월 9일, Composio 스레드의 한 메시지가 Agent Orchestrator GitHub 저장소를 보조 hf.ru URL과 함께 연결했습니다. 이 기록은 같은 시점에 이루어진 공개적인 프로젝트 언급을 확인해 주지만, 릴리스, 기능 세트 또는 기타 구체적인 이정표는 검증하지 않습니다. 따라서 이 히스토리 항목은 해당 날짜의 언급으로만 한정됩니다.",
   "title": "Agent Orchestrator 저장소가 공개적으로 언급됨"
+ },
+ "n-f7f969bd27": {
+  "research_notes": "StokastX/gaussian-light-transport 저장소를 클론하고, PyTorch, Taichi, 그리고 Dr.Jit 지원이 포함된 Mitsuba 3를 사용하는 환경을 구성합니다.\n\n기하 메시, 광원(emitter) 설명, 표면 반사 특성(알베도와 거칠기)을 포함하는 3D 장면 표현을 준비합니다.\n\n최적화 스크립트를 실행하여 렌더링 방정식 잔차를 최소화함으로써 13D 가우시안 혼합 모델을 초기화하고 맞춥니다.\n\n최적화된 가우시안 표현을 월드 공간 타일링과 분리형 컬링(separable culling)으로 평가하여, 시점에 독립적인 대화형 전역 조명 재생을 구현합니다.\n\n동일한 알베도와 거칠기 속성을 공유하는 분리된 기하를 통합하여, 단일 고차원 가우시안이 공통된 광 전달 거동을 표현하도록 합니다.\n\n평가 과정에서 월드 공간 공간 타일링과 분리형 컬링을 활용하여, 복잡한 장면에서 고차원 가우시안 중첩이 프레임 속도를 저하시키는 것을 방지합니다.\n\nPyTorch 최적화를 수행하기 전에 Mitsuba 3에서 표면 법선 정렬과 메시 위상(topology)을 확인하여, PyTorch 최적화 중 수치적 수렴을 보장합니다.",
+  "summary": "공식 구현은 Mitsuba 3, Dr.Jit, Taichi 컬링 커널과 PyTorch 최적화를 결합하여, 수 메가바이트의 저장 공간 안에서 시점에 독립적인 밀리초 단위 프레임 렌더링을 제공합니다.",
+  "title": "Gaussian Light Transport 구현 및 벤치마크 공개"
  },
  "n-f80e0da140": {
   "summary": "2026년 6월 23일, Tripo 계열은 Tripo의 공식 게시물 \"May Update on Tripo\"에 대한 링크를 공유했다. 이는 이력에 공식 제품 업데이트 참고 자료를 추가하지만, 제공된 근거만으로는 해당 게시물이 설명하는 개별 변경 사항을 식별할 수 없다. 링크에 표시된 May라는 표기만으로는 해당 페이지의 정확한 게시일을 확정할 수 없다.",

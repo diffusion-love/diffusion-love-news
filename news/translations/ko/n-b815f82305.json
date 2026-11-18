@@ -1,0 +1,11 @@
+{
+ "id": "n-b815f82305",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "vLLM 또는 SGLang 추론 엔진을 사용하고 FP8 양자화와 다중 GPU 텐서 병렬화를 적용해 GigaChat3.5-432B-A28B-Reasoning을 배포하세요. 이 모델은 다중 헤드 잠재 어텐션(Multi-head Latent Attention, MLA)과 GatedDeltaNet 계층을 지원합니다.\n\n추론 런타임 파라미터를 설정해 기본 262K 토큰 컨텍스트 윈도우를 활용하고, 추측적 디코딩(speculative decoding) 가속을 위해 다중 토큰 예측 헤드를 활성화하세요.\n\n긴 컨텍스트 생성 중 메모리 고갈을 방지하려면 저랭크 다중 헤드 잠재 어텐션(MLA) 키-값 캐시 압축을 번갈아 배치된 선형 어텐션 계층과 함께 활용하세요.\n\n토큰당 28B만 활성화되는 희소 라우팅에도 불구하고 432B 파라미터 가중치를 수용할 수 있도록, 총 VRAM 용량이 충분한 분산 기업용 하드웨어 클러스터를 준비하세요.",
+ "source_sha256": "ca3e08728a3020183643b0925eb66541cb144c91edcbfa3a49214e6026a27905",
+ "summary": "Sergey Markov는 Norilsk Nickel 기업 컨퍼런스에서 Sber의 산업용 파운데이션 모델 로드맵과 기업 자동화 이니셔티브를 발표했습니다.",
+ "title": "Norilsk Nickel 컨퍼런스에서 발표된 Sber의 기업 AI 전략",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

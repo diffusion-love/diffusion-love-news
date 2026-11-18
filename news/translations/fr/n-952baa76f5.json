@@ -1,0 +1,11 @@
+{
+ "id": "n-952baa76f5",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt et installez les dépendances requises, notamment PyTorch et torchvision.\n\nTéléchargez les poids pré-entraînés du modèle RelayVSR depuis Hugging Face pour la cible d'amélioration 2x ou 4x.\n\nLancez l'inférence via les scripts de test fournis ou les nœuds personnalisés ComfyUI en utilisant le mode streaming pour les longues séquences vidéo.\n\nUtilisez un intervalle d'images clés de 15 images, par exemple, pour maintenir un débit élevé tout en préservant la reconstruction des détails générés.\n\nActivez le mode streaming avec fondu enchaîné linéaire lors du traitement de longues séquences afin de stabiliser l'utilisation de la VRAM et d'éliminer les artefacts aux frontières des segments.\n\nAllouez un GPU disposant d'au moins 14 Go de VRAM pour absorber le pic de mémoire lors de la génération des latents des images clés.",
+ "source_sha256": "f989a1ca0005f6db6fb01494e795c8adc69f53a087745dbb67c24da4ad8e6409",
+ "summary": "RelayVSR est un cadre open source de super-résolution vidéo qui combine un backbone génératif à images clés éparses et un Dual-Memory Video Transformer léger pour agrandir et améliorer des vidéos dégradées. Fonctionnant jusqu'à 29 FPS en 1080p sur un GPU NVIDIA A100, avec un pic de VRAM d'environ 13,8 Go, le modèle prend en charge les améliorations 2x et 4x et s'intègre aux pipelines d'inférence locaux, notamment ComfyUI.",
+ "title": "Publication du cadre de super-résolution vidéo RelayVSR",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

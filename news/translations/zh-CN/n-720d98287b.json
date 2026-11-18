@@ -1,0 +1,11 @@
+{
+ "id": "n-720d98287b",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "梳理大会议程中数据、代码、服务器机房和网络等分论坛的内容，找出涉及生产架构的会议环节。\n\n通过 Yandex for ML 官方视频频道观看录播演讲和技术分享。\n\n从讲者幻灯片和技术摘要中提取 LLM 推理、智能体视觉和推荐模型的部署模式。\n\n将 LLM 推理和智能体工作流的延迟与大会工程分论坛中展示的真实生产架构进行基准对比。\n\n在复现分布式训练或视觉-语言智能体流水线之前，先在官方视频频道上查看技术演讲录像和架构拆解。",
+ "source_sha256": "1669ae68b3ce782cf35b3f0253be5a99133b25cccfdae1b7a60f95596027b0ae",
+ "summary": "Yandex 发布了 Practical ML Conf 2026 的最新日程，此次大会定于 9 月 19 日举办。日程涵盖数据、代码、服务器机房和网络四个分论坛的 24 场技术演讲，并包括 Yandex ML Prize 颁奖典礼。",
+ "title": "Practical ML Conf 2026 日程确定，四大技术分论坛全部敲定",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-952baa76f5",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clone el repositorio e instale las dependencias necesarias, incluidos PyTorch y torchvision.\n\nDescargue los pesos preentrenados del modelo RelayVSR desde Hugging Face para el objetivo de mejora 2x o 4x.\n\nEjecute la inferencia mediante los scripts de prueba incluidos o los nodos personalizados de ComfyUI, usando el modo de streaming para secuencias de vídeo largas.\n\nUtilice un intervalo de fotogramas clave de, por ejemplo, 15 fotogramas para mantener un alto rendimiento preservando la reconstrucción de detalles generativos.\n\nActive el modo de streaming con fundido cruzado lineal al procesar secuencias largas para mantener estable el uso de VRAM y eliminar los artefactos en los límites de los fragmentos.\n\nAsigne una GPU con al menos 14 GB de VRAM para soportar el pico de memoria durante la generación de latentes de fotogramas clave.",
+ "source_sha256": "f989a1ca0005f6db6fb01494e795c8adc69f53a087745dbb67c24da4ad8e6409",
+ "summary": "RelayVSR es un marco de superresolución de vídeo de código abierto que combina un backbone generativo disperso de fotogramas clave con un Dual-Memory Video Transformer ligero para escalar y mejorar vídeo degradado. Funcionando a hasta 29 FPS en 1080p con una GPU NVIDIA A100 y un pico de aproximadamente 13,8 GB de VRAM, el modelo admite mejoras 2x y 4x e se integra en pipelines de inferencia locales, incluido ComfyUI.",
+ "title": "Publicado RelayVSR, un marco de superresolución de vídeo",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

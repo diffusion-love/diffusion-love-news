@@ -1,0 +1,11 @@
+{
+ "id": "n-492c016626",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Wählen Sie Gemini 4 Hydrogen (Modell-ID gemini-4-hydrogen) in Google AI Studio oder der Gemini API für ausführungsorientierte Entwicklungsaufgaben.\n\nKonfigurieren Sie die Denkstufe zwischen low, medium, high und xhigh, je nachdem, wie stark Latenz und Tiefe des logischen Schließens gegeneinander abgewogen werden müssen.\n\nAktivieren Sie den Orchestrator mode in Google Antigravity, um Gemini 4 Carbon für die Architekturplanung mit Gemini 4 Hydrogen für iterative Codegenerierung und Tests zu kombinieren.\n\nNutzen Sie Gemini 4 Hydrogen als schnelle Ausführungsengine für Repository-Aufgaben wie die Generierung von Boilerplate-Code, Unit-Tests und Refactoring, und überlassen Sie übergeordnete Architekturentscheidungen Frontier-Planungsmodellen.\n\nBelassen Sie die Standard-Denktiefe high für nicht triviale Coding-Aufgaben, um die Qualität des logischen Schließens zu wahren und gleichzeitig Kontingent und Ausführungsgeschwindigkeit zu schonen.",
+ "source_sha256": "25899c77924adc8ed9a178173148aa22fbf7e8de939e54660e7c8c2433a1830e",
+ "summary": "Google hat Gemini 4 Hydrogen vorgestellt, ein Ausführungsmodell für das Schreiben von Code und Agentenaufgaben mit konfigurierbaren Denkstufen und Mehrmodell-Orchestrierung in Antigravity.",
+ "title": "Google veröffentlicht das Coding-Modell Gemini 4 Hydrogen",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

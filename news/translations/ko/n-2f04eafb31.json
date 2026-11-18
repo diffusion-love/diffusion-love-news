@@ -1,0 +1,11 @@
+{
+ "id": "n-2f04eafb31",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "GigaChat3.5-432B-A28B-Reasoning을 FP8 양자화와 Multi-head Latent Attention(MLA) 및 GatedDeltaNet 레이어를 지원하는 다중 GPU 텐서 병렬화 환경에서 vLLM 또는 SGLang 추론 엔진으로 배포하십시오.\n\n추론 런타임 파라미터를 설정하여 기본 262K 토큰 컨텍스트 윈도우를 활용하고, 추측 디코딩 가속을 위해 다중 토큰 예측 헤드를 활성화하십시오.\n\n긴 컨텍스트 생성 과정에서 메모리 고갈을 방지하기 위해 교차 배치된 선형 어텐션 레이어와 함께 저랭크 Multi-head Latent Attention(MLA) Key-Value 캐시 압축을 활용하십시오.\n\n토큰당 희소하게 라우팅되는 28B 활성 파라미터에도 불구하고 432B 파라미터 가중치를 호스팅할 수 있도록 분산 엔터프라이즈 하드웨어 클러스터에 충분한 총 VRAM을 프로비저닝하십시오.",
+ "source_sha256": "f5361803c3c86ed9c5a78340fb6d5398575ecaa5656c6a195db1c25928c70d9a",
+ "summary": "Sber는 GigaChat3.5-432B-A28B-Reasoning의 오픈 가중치를 Hugging Face에 공개했습니다. 이 모델은 28B 활성 파라미터를 갖춘 432B 규모의 mixture-of-experts 모델로, Multi-head Latent Attention과 GatedDeltaNet 레이어를 교차 배치하고 262K 컨텍스트 윈도우를 제공합니다.",
+ "title": "GigaChat 3.5 Reasoning 오픈 가중치 및 하이브리드 MLA 아키텍처 공개",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-b4e85758ff",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona el repositorio StokastX/gaussian-light-transport y configura un entorno con PyTorch, Taichi y Mitsuba 3 con soporte para Dr.Jit.\n\nPrepara una representación de escena 3D que contenga mallas de geometría, descripciones de emisores y propiedades de reflectancia superficial (albedo y rugosidad).\n\nEjecuta el script de optimización para inicializar y ajustar el modelo de mezcla gaussiana 13D minimizando el residuo de la ecuación de renderizado.\n\nEvalúa la representación gaussiana optimizada con teselado en espacio de mundo y culling separable para una reproducción interactiva e independiente de la vista de la iluminación global.\n\nAgrega la geometría desconectada que comparte los mismos atributos de albedo y rugosidad, de modo que gaussianas individuales de alta dimensionalidad representen comportamientos de transporte de luz comunes.\n\nUtiliza teselado espacial en espacio de mundo y culling separable durante la evaluación para evitar que el solapamiento de gaussianas de alta dimensionalidad reduzca la tasa de fotogramas en escenas complejas.\n\nVerifica la alineación de las normales superficiales y la topología de las mallas en Mitsuba 3 antes de iniciar la minimización del residuo, para garantizar la convergencia numérica durante la optimización en PyTorch.",
+ "source_sha256": "8f89e6800a621b139543a0668e709b5e7f8ef29cbab06fd3ee96a50535a12de6",
+ "summary": "Artículo de SIGGRAPH Asia 2026 que presenta Gaussian Light Transport, formulando la iluminación global de la escena como una mezcla gaussiana de 13 dimensiones que minimiza directamente los residuos de la ecuación de renderizado.",
+ "title": "Técnica de iluminación global Gaussian Light Transport",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-720d98287b",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Revise la agenda de la conferencia en las pistas de Data, Code, Server Room y Network para identificar las sesiones sobre arquitecturas de producción.\n\nAccede a las charlas grabadas y a las sesiones técnicas a través del canal de vídeo oficial de Yandex for ML.\n\nExtrae los patrones de despliegue para la inferencia de LLM, la visión agéntica y los modelos de recomendación a partir de las presentaciones de los ponentes y de los resúmenes técnicos.\n\nCompara las latencias de inferencia de LLM y de flujos de trabajo agénticos con las arquitecturas de producción reales presentadas en las pistas de ingeniería de la conferencia.\n\nRevisa las grabaciones de las presentaciones técnicas y los desgloses de arquitectura en el canal de vídeo oficial antes de replicar pipelines de entrenamiento distribuido o de agentes visión-lenguaje.",
+ "source_sha256": "1669ae68b3ce782cf35b3f0253be5a99133b25cccfdae1b7a60f95596027b0ae",
+ "summary": "Yandex publicó actualizaciones del programa de Practical ML Conf 2026 antes del evento del 19 de septiembre, con 24 charlas técnicas en las pistas de Data, Code, Server Room y Network, junto con la ceremonia de los premios Yandex ML Prize.",
+ "title": "La agenda de Practical ML Conf 2026 queda cerrada en cuatro pistas técnicas",
+ "translated_at": "2026-11-18",
+ "translation": "machine"
+}
