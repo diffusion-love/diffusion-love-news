@@ -78421,6 +78421,116 @@
     ],
     "claims": []
   },
+  "relayvsr": {
+    "family_slug": "relayvsr",
+    "family_display": "Relayvsr: relayvsr-release",
+    "family_display_variants": [
+      {
+        "family_display": "Relayvsr: relayvsr-release",
+        "first_seen": "2026-11-12",
+        "last_seen": "2026-11-12",
+        "news_ids": [
+          "n-952baa76f5"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "diffusion-image"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-12",
+    "last_seen": "2026-11-12",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-952baa76f5"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-12",
+        "news_id": "n-952baa76f5",
+        "title": "RelayVSR video super-resolution framework released",
+        "primary_link": "https://github.com/kopperx/RelayVSR"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/kopperx/RelayVSR",
+        "is_primary": true,
+        "verified_at": "2026-11-14T17:29:41Z",
+        "news_ids": [
+          "n-952baa76f5"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-12",
+        "title": "RelayVSR video super-resolution framework released",
+        "summary": "RelayVSR is an open-source video super-resolution framework that combines a sparse generative keyframe backbone with a lightweight Dual-Memory Video Transformer to upscale and enhance degraded video. Running at up to 29 FPS at 1080p on an NVIDIA A100 GPU with approximately 13.8 GB peak VRAM, the model supports 2x and 4x enhancement and integrates into local inference pipelines including ComfyUI.",
+        "version": null,
+        "news_id": "n-952baa76f5",
+        "primary_link": "https://github.com/kopperx/RelayVSR"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-952baa76f5",
+        "date": "2026-11-12",
+        "title": "RelayVSR video super-resolution framework released",
+        "category": "diffusion-image",
+        "entry_type": "news",
+        "project": "relayvsr",
+        "version": null,
+        "tags": [
+          "Relayvsr: relayvsr-release",
+          "diffusion-image",
+          "family:relayvsr",
+          "relayvsr",
+          "relayvsr-release",
+          "tools-frontend"
+        ],
+        "primary_link": "https://github.com/kopperx/RelayVSR",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "relayvsr-release",
+        "display": "Relayvsr Release",
+        "first_seen": "2026-11-12",
+        "last_seen": "2026-11-12",
+        "latest_news_id": "n-952baa76f5",
+        "news_ids": [
+          "n-952baa76f5"
+        ]
+      }
+    ]
+  },
   "replaceme": {
     "family_slug": "replaceme",
     "family_display": "ReplaceMe",
