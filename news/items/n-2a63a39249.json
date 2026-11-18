@@ -1,0 +1,113 @@
+{
+ "schema_version": "1.4",
+ "id": "n-2a63a39249",
+ "entry_type": "news",
+ "category": "llm",
+ "lang": "en",
+ "title": "GigaChat 3.5 Reasoning open-weights MoE release",
+ "summary": "GigaChat 3.5 Reasoning is an open-weights reasoning model from Sber featuring a 432B-parameter mixture-of-experts architecture with 28B active parameters. The model introduces multi-stage problem breakdown with intermediate verification and hybrid attention under the MIT license on Hugging Face and GitVerse.",
+ "research_notes": "Download the open weights from Hugging Face repository ai-sage/GigaChat3.5-432B-A28B-Reasoning or clone the repository from GitVerse.\n\nDeploy the model using an inference engine supporting hybrid MLA and MoE architectures, such as vLLM or SGLang, across multi-GPU server infrastructure.\n\nPrompt the model on multi-stage analytical tasks with reasoning mode active to let the model generate chain-of-thought intermediate steps prior to producing the final answer.\n\nAllocate multi-node GPU clusters with high aggregate VRAM to accommodate the 432B MoE weights, applying FP8 quantization when full BF16 memory limits are constrained.\n\nEnable YaRN context extension scaling up to 256K tokens when ingesting large document collections, legal contracts, or multi-file repositories.\n\nDirect complex multi-step logical deductions, mathematical proofs, and program verification to reasoning mode while keeping straightforward generation on standard models to optimize token consumption.",
+ "project": {
+  "name": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+  "family_slug": "gigachat-3-5-reasoning-release",
+  "family_display": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+  "model_slug": "gigachat-3-5-reasoning-release",
+  "model_display": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gigachat-3-5-reasoning-release",
+  "thread_display": "Gigachat 3 5 Reasoning Release",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+  "article_url": "https://happyin.space/projects/gigachat-3-5-reasoning-release/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/233f0b57d599e15c4a29afe91e01ca780584cb8c/docs/projects/gigachat-3-5-reasoning-release.md",
+  "agent_context_url": "https://happyin.space/projects/gigachat-3-5-reasoning-release/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-09-14",
+  "title": "GigaChat 3.5 Reasoning open-weights MoE release",
+  "version": null,
+  "summary": "GigaChat 3.5 Reasoning is an open-weights reasoning model from Sber featuring a 432B-parameter mixture-of-experts architecture with 28B active parameters. The model introduces multi-stage problem breakdown with intermediate verification and hybrid attention under the MIT license on Hugging Face and GitVerse."
+ },
+ "tags": [
+  "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+  "family:gigachat-3-5-reasoning-release",
+  "gigachat-3-5-reasoning-release",
+  "llm"
+ ],
+ "facets": {
+  "category": "llm",
+  "entry_type": "news",
+  "projects": [
+   "gigachat-3-5-reasoning-release"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "weights",
+   "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+   "host": "huggingface.co",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-18T18:56:44Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://gitverse.ru/GigaTeam/gigachat3.5-reasoning",
+   "host": "gitverse.ru",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-18T18:56:44Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-09-14",
+  "excerpt": "GigaChat 3.5 Reasoning is an open-weights reasoning model from Sber featuring a 432B-parameter mixture-of-experts architecture with 28B active parameters. The model introduces multi-stage problem breakdown with intermediate verification and hybrid attention under the MIT license on Hugging Face and GitVerse."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-18T18:56:44Z",
+  "classified_at": "2026-11-18T18:56:44Z",
+  "enriched_at": "2026-11-18T18:56:44Z",
+  "verified_at": "2026-11-18T18:56:44Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

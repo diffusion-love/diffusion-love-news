@@ -855,6 +855,9 @@
   "ElevenLabs On-Premise": [
     "n-f5dbfdb346"
   ],
+  "Equisteer Cross Attention Steering: equisteer-cross-attention-steering": [
+    "n-d5737703ea"
+  ],
   "Ernie Image": [
     "n-c2ca134086"
   ],
@@ -1097,6 +1100,10 @@
   "GameWorld": [
     "n-f306331601"
   ],
+  "Gaussian Light Transport: gaussian-light-transport": [
+    "n-f7f969bd27",
+    "n-b4e85758ff"
+  ],
   "Gemini": [
     "n-f92b03afaf",
     "n-e665d8a84f",
@@ -1201,6 +1208,14 @@
   ],
   "GigaChat": [
     "n-dcaef8fe29"
+  ],
+  "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release": [
+    "n-ef6922bf2a",
+    "n-2a63a39249"
+  ],
+  "Gigachat: gigachat-russia-strategy": [
+    "n-b815f82305",
+    "n-2f04eafb31"
   ],
   "GitHub": [
     "n-e0d8a02be3",
@@ -5177,6 +5192,7 @@
     "n-e5bb396e69",
     "n-e3fe618151",
     "n-d9eaebd61d",
+    "n-d5737703ea",
     "n-cce36dc967",
     "n-cca527d9ac",
     "n-ca390bf3b3",
@@ -5505,6 +5521,9 @@
   ],
   "emf": [
     "n-525a6be75a"
+  ],
+  "equisteer-cross-attention-steering": [
+    "n-d5737703ea"
   ],
   "ernie": [
     "n-5e92efec32"
@@ -6296,6 +6315,9 @@
   "family:emf": [
     "n-525a6be75a"
   ],
+  "family:equisteer-cross-attention-steering": [
+    "n-d5737703ea"
+  ],
   "family:ernie": [
     "n-5e92efec32"
   ],
@@ -6425,6 +6447,10 @@
   "family:gameworld": [
     "n-f306331601"
   ],
+  "family:gaussian-light-transport": [
+    "n-f7f969bd27",
+    "n-b4e85758ff"
+  ],
   "family:gaussian-splatting": [
     "n-ccb2a502fb"
   ],
@@ -6513,7 +6539,13 @@
     "n-16ee77b7eb"
   ],
   "family:gigachat": [
-    "n-dcaef8fe29"
+    "n-dcaef8fe29",
+    "n-b815f82305",
+    "n-2f04eafb31"
+  ],
+  "family:gigachat-3-5-reasoning-release": [
+    "n-ef6922bf2a",
+    "n-2a63a39249"
   ],
   "family:girl-agent": [
     "n-db7fee9bb2"
@@ -8861,6 +8893,10 @@
   "gameworld": [
     "n-f306331601"
   ],
+  "gaussian-light-transport": [
+    "n-f7f969bd27",
+    "n-b4e85758ff"
+  ],
   "gaussian-splatting": [
     "n-fdbf17ddf7",
     "n-f735b8e846",
@@ -9042,7 +9078,17 @@
     "n-16ee77b7eb"
   ],
   "gigachat": [
-    "n-dcaef8fe29"
+    "n-dcaef8fe29",
+    "n-b815f82305",
+    "n-2f04eafb31"
+  ],
+  "gigachat-3-5-reasoning-release": [
+    "n-ef6922bf2a",
+    "n-2a63a39249"
+  ],
+  "gigachat-russia-strategy": [
+    "n-b815f82305",
+    "n-2f04eafb31"
   ],
   "girl-agent": [
     "n-db7fee9bb2"
@@ -10614,10 +10660,12 @@
     "n-34c22d3127",
     "n-31b3b17c7b",
     "n-2f8c6f34f0",
+    "n-2f04eafb31",
     "n-2dbef67328",
     "n-2bdd41c2da",
     "n-2aa536ccdc",
     "n-2a8f5beb6c",
+    "n-2a63a39249",
     "n-269dacc1a7",
     "n-2405c2d2f2",
     "n-221dea80c4",
@@ -11213,6 +11261,7 @@
     "n-f82288c739",
     "n-f8203a5996",
     "n-f80e0da140",
+    "n-f7f969bd27",
     "n-f7bf45f8a9",
     "n-f77e6ada52",
     "n-f775fb7fe3",
@@ -11238,6 +11287,7 @@
     "n-f108d81c34",
     "n-f0c1036242",
     "n-f09f1875bc",
+    "n-ef6922bf2a",
     "n-ef5357108f",
     "n-eefafa6ead",
     "n-eeb814358e",
@@ -11432,6 +11482,7 @@
     "n-b8abd7e35e",
     "n-b88d648185",
     "n-b87b80291d",
+    "n-b815f82305",
     "n-b7c4d9268f",
     "n-b79dee5163",
     "n-b6851c60f8",
@@ -11440,6 +11491,7 @@
     "n-b636bdc989",
     "n-b621424fc3",
     "n-b5eea1671f",
+    "n-b4e85758ff",
     "n-b495739d31",
     "n-b48ae23ef5",
     "n-b438d99dc2",

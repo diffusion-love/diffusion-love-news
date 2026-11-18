@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-14T19:05:08Z",
+  "generated_at": "2026-11-18T19:43:33Z",
   "site": "diffusion.love",
-  "total": 1326,
+  "total": 1333,
   "records": [
     {
       "schema_version": "1.4",
@@ -5751,6 +5751,799 @@
         "classified_at": "2026-11-14T14:16:33Z",
         "enriched_at": "2026-11-14T14:16:33Z",
         "verified_at": "2026-11-14T14:16:33Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-ef6922bf2a",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "GigaChat 3.5 Reasoning open weights and deployment configs",
+      "summary": "GigaChat 3.5 Reasoning provides open weights supporting 256K token context via YaRN scaling and inference deployment on vLLM and SGLang. Sber released the model on Hugging Face and GitVerse for multi-step reasoning, mathematical tasks, and code verification.",
+      "research_notes": "Download the open weights from Hugging Face repository ai-sage/GigaChat3.5-432B-A28B-Reasoning or clone the repository from GitVerse.\n\nDeploy the model using an inference engine supporting hybrid MLA and MoE architectures, such as vLLM or SGLang, across multi-GPU server infrastructure.\n\nPrompt the model on multi-stage analytical tasks with reasoning mode active to let the model generate chain-of-thought intermediate steps prior to producing the final answer.\n\nAllocate multi-node GPU clusters with high aggregate VRAM to accommodate the 432B MoE weights, applying FP8 quantization when full BF16 memory limits are constrained.\n\nEnable YaRN context extension scaling up to 256K tokens when ingesting large document collections, legal contracts, or multi-file repositories.\n\nDirect complex multi-step logical deductions, mathematical proofs, and program verification to reasoning mode while keeping straightforward generation on standard models to optimize token consumption.",
+      "project": {
+        "name": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+        "family_slug": "gigachat-3-5-reasoning-release",
+        "family_display": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+        "model_slug": "gigachat-3-5-reasoning-release",
+        "model_display": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gigachat-3-5-reasoning-release",
+        "thread_display": "Gigachat 3 5 Reasoning Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+        "article_url": "https://happyin.space/projects/gigachat-3-5-reasoning-release/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/233f0b57d599e15c4a29afe91e01ca780584cb8c/docs/projects/gigachat-3-5-reasoning-release.md",
+        "agent_context_url": "https://happyin.space/projects/gigachat-3-5-reasoning-release/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-09-14",
+        "title": "GigaChat 3.5 Reasoning open weights and deployment configs",
+        "version": null,
+        "summary": "GigaChat 3.5 Reasoning provides open weights supporting 256K token context via YaRN scaling and inference deployment on vLLM and SGLang. Sber released the model on Hugging Face and GitVerse for multi-step reasoning, mathematical tasks, and code verification."
+      },
+      "tags": [
+        "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+        "family:gigachat-3-5-reasoning-release",
+        "gigachat-3-5-reasoning-release",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "gigachat-3-5-reasoning-release"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-18T18:56:44Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://gitverse.ru/GigaTeam/gigachat3.5-reasoning",
+          "host": "gitverse.ru",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-18T18:56:44Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-09-14",
+        "excerpt": "GigaChat 3.5 Reasoning provides open weights supporting 256K token context via YaRN scaling and inference deployment on vLLM and SGLang. Sber released the model on Hugging Face and GitVerse for multi-step reasoning, mathematical tasks, and code verification."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-18T18:56:44Z",
+        "classified_at": "2026-11-18T18:56:44Z",
+        "enriched_at": "2026-11-18T18:56:44Z",
+        "verified_at": "2026-11-18T18:56:44Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-d5737703ea",
+      "entry_type": "news",
+      "category": "diffusion-image",
+      "lang": "en",
+      "title": "EquiSteer: Training-Free Diffusion Debiasing",
+      "summary": "EquiSteer introduces an inference-time cross-attention steering framework that mitigates demographic bias in text-to-image diffusion models by up to 87% without requiring model retraining.",
+      "research_notes": "Select the target text-to-image diffusion backbone, such as Stable Diffusion or SANA, and define the demographic attributes targeted for debiasing.\n\nPrecompute attribute steering vectors using paired contrastive text prompts reflecting the chosen demographic dimensions.\n\nIntegrate the prompt-aware gating mechanism into the model's cross-attention layers during the reverse diffusion inference sampling process.\n\nGenerate images using standard prompts; the gate leaves explicit attribute prompts intact while injecting steering vectors into neutral prompts.\n\nUse targeted contrastive pairs rather than broad semantic descriptions when calculating steering vectors to prevent diluting primary text-image alignment.\n\nRely on prompt-aware gating to bypass intervention when input prompts already contain explicit attribute descriptors, avoiding conflicting activation adjustments.\n\nValidate parity gap reductions on domain-specific neutral role prompts before production deployment across different diffusion backbones.",
+      "project": {
+        "name": "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+        "family_slug": "equisteer-cross-attention-steering",
+        "family_display": "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+        "model_slug": "equisteer-cross-attention-steering",
+        "model_display": "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "equisteer-cross-attention-steering",
+        "thread_display": "Equisteer Cross Attention Steering",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+        "article_url": "https://happyin.space/projects/equisteer-cross-attention-steering/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/2621bf5225a40eeeecd0ac692685487c780595e4/docs/projects/equisteer-cross-attention-steering.md",
+        "agent_context_url": "https://happyin.space/projects/equisteer-cross-attention-steering/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-09-14",
+        "title": "EquiSteer: Training-Free Diffusion Debiasing",
+        "version": null,
+        "summary": "EquiSteer introduces an inference-time cross-attention steering framework that mitigates demographic bias in text-to-image diffusion models by up to 87% without requiring model retraining."
+      },
+      "tags": [
+        "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+        "diffusion-image",
+        "equisteer-cross-attention-steering",
+        "family:equisteer-cross-attention-steering"
+      ],
+      "facets": {
+        "category": "diffusion-image",
+        "entry_type": "news",
+        "projects": [
+          "equisteer-cross-attention-steering"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/pdf/2607.01147",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-18T18:43:54Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://lifegenip.cc/",
+          "host": "lifegenip.cc",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-18T18:43:54Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-09-14",
+        "excerpt": "EquiSteer introduces an inference-time cross-attention steering framework that mitigates demographic bias in text-to-image diffusion models by up to 87% without requiring model retraining."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-18T18:43:54Z",
+        "classified_at": "2026-11-18T18:43:54Z",
+        "enriched_at": "2026-11-18T18:43:54Z",
+        "verified_at": "2026-11-18T18:43:54Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-2a63a39249",
+      "entry_type": "news",
+      "category": "llm",
+      "lang": "en",
+      "title": "GigaChat 3.5 Reasoning open-weights MoE release",
+      "summary": "GigaChat 3.5 Reasoning is an open-weights reasoning model from Sber featuring a 432B-parameter mixture-of-experts architecture with 28B active parameters. The model introduces multi-stage problem breakdown with intermediate verification and hybrid attention under the MIT license on Hugging Face and GitVerse.",
+      "research_notes": "Download the open weights from Hugging Face repository ai-sage/GigaChat3.5-432B-A28B-Reasoning or clone the repository from GitVerse.\n\nDeploy the model using an inference engine supporting hybrid MLA and MoE architectures, such as vLLM or SGLang, across multi-GPU server infrastructure.\n\nPrompt the model on multi-stage analytical tasks with reasoning mode active to let the model generate chain-of-thought intermediate steps prior to producing the final answer.\n\nAllocate multi-node GPU clusters with high aggregate VRAM to accommodate the 432B MoE weights, applying FP8 quantization when full BF16 memory limits are constrained.\n\nEnable YaRN context extension scaling up to 256K tokens when ingesting large document collections, legal contracts, or multi-file repositories.\n\nDirect complex multi-step logical deductions, mathematical proofs, and program verification to reasoning mode while keeping straightforward generation on standard models to optimize token consumption.",
+      "project": {
+        "name": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+        "family_slug": "gigachat-3-5-reasoning-release",
+        "family_display": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+        "model_slug": "gigachat-3-5-reasoning-release",
+        "model_display": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gigachat-3-5-reasoning-release",
+        "thread_display": "Gigachat 3 5 Reasoning Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+        "article_url": "https://happyin.space/projects/gigachat-3-5-reasoning-release/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/233f0b57d599e15c4a29afe91e01ca780584cb8c/docs/projects/gigachat-3-5-reasoning-release.md",
+        "agent_context_url": "https://happyin.space/projects/gigachat-3-5-reasoning-release/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-09-14",
+        "title": "GigaChat 3.5 Reasoning open-weights MoE release",
+        "version": null,
+        "summary": "GigaChat 3.5 Reasoning is an open-weights reasoning model from Sber featuring a 432B-parameter mixture-of-experts architecture with 28B active parameters. The model introduces multi-stage problem breakdown with intermediate verification and hybrid attention under the MIT license on Hugging Face and GitVerse."
+      },
+      "tags": [
+        "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+        "family:gigachat-3-5-reasoning-release",
+        "gigachat-3-5-reasoning-release",
+        "llm"
+      ],
+      "facets": {
+        "category": "llm",
+        "entry_type": "news",
+        "projects": [
+          "gigachat-3-5-reasoning-release"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-18T18:56:44Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://gitverse.ru/GigaTeam/gigachat3.5-reasoning",
+          "host": "gitverse.ru",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-18T18:56:44Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-09-14",
+        "excerpt": "GigaChat 3.5 Reasoning is an open-weights reasoning model from Sber featuring a 432B-parameter mixture-of-experts architecture with 28B active parameters. The model introduces multi-stage problem breakdown with intermediate verification and hybrid attention under the MIT license on Hugging Face and GitVerse."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-18T18:56:44Z",
+        "classified_at": "2026-11-18T18:56:44Z",
+        "enriched_at": "2026-11-18T18:56:44Z",
+        "verified_at": "2026-11-18T18:56:44Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-f7f969bd27",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Gaussian Light Transport implementation and benchmark release",
+      "summary": "The official implementation pairs Mitsuba 3, Dr.Jit, and Taichi culling kernels with PyTorch optimization, delivering view-independent millisecond frame rendering within a few megabytes of storage.",
+      "research_notes": "Clone the StokastX/gaussian-light-transport repository and configure an environment with PyTorch, Taichi, and Mitsuba 3 with Dr.Jit support.\n\nPrepare a 3D scene representation containing geometry meshes, emitter descriptions, and surface reflectance properties (albedo and roughness).\n\nRun the optimization script to initialize and fit the 13D Gaussian mixture model by minimizing the rendering equation residual.\n\nEvaluate the optimized Gaussian representation with world-space tiling and separable culling for interactive, view-independent global illumination playback.\n\nAggregate disconnected geometry sharing identical albedo and roughness attributes to let single high-dimensional Gaussians represent common light transport behaviors.\n\nUtilize world-space spatial tiling and separable culling during evaluation to prevent high-dimensional Gaussian overlap from degrading frame rates in complex scenes.\n\nVerify surface normal alignment and mesh topology in Mitsuba 3 before starting residual minimization to ensure numerical convergence during PyTorch optimization.",
+      "project": {
+        "name": "Gaussian Light Transport: gaussian-light-transport",
+        "family_slug": "gaussian-light-transport",
+        "family_display": "Gaussian Light Transport: gaussian-light-transport",
+        "model_slug": "gaussian-light-transport",
+        "model_display": "Gaussian Light Transport: gaussian-light-transport",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gaussian-light-transport",
+        "thread_display": "Gaussian Light Transport",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Gaussian Light Transport: gaussian-light-transport",
+        "article_url": "https://happyin.space/projects/gaussian-light-transport/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8041291cb0b95b8993e05e5f4b742c38e170cf81/docs/projects/gaussian-light-transport.md",
+        "agent_context_url": "https://happyin.space/projects/gaussian-light-transport/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-09-13",
+        "title": "Gaussian Light Transport implementation and benchmark release",
+        "version": null,
+        "summary": "The official implementation pairs Mitsuba 3, Dr.Jit, and Taichi culling kernels with PyTorch optimization, delivering view-independent millisecond frame rendering within a few megabytes of storage."
+      },
+      "tags": [
+        "Gaussian Light Transport: gaussian-light-transport",
+        "family:gaussian-light-transport",
+        "gaussian-light-transport",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "gaussian-light-transport"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://patrick-attimont.com/projects/gaussian-light-transport/",
+          "host": "patrick-attimont.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-18T19:25:27Z"
+        },
+        {
+          "kind": "code",
+          "url": "https://github.com/StokastX/gaussian-light-transport",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-18T19:25:27Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-09-13",
+        "excerpt": "The official implementation pairs Mitsuba 3, Dr.Jit, and Taichi culling kernels with PyTorch optimization, delivering view-independent millisecond frame rendering within a few megabytes of storage."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-18T19:25:27Z",
+        "classified_at": "2026-11-18T19:25:27Z",
+        "enriched_at": "2026-11-18T19:25:27Z",
+        "verified_at": "2026-11-18T19:25:27Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-b815f82305",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Sber enterprise AI strategy presented at Norilsk Nickel conference",
+      "summary": "Sergey Markov outlined Sber's industrial foundation model roadmap and enterprise automation initiatives at a Norilsk Nickel corporate conference.",
+      "research_notes": "Deploy GigaChat3.5-432B-A28B-Reasoning using vLLM or SGLang inference engines with FP8 quantization and multi-GPU tensor parallelism supporting Multi-head Latent Attention (MLA) and GatedDeltaNet layers.\n\nConfigure inference runtime parameters to leverage the native 262K token context window and activate multi-token prediction heads for speculative decoding acceleration.\n\nUtilize low-rank Multi-head Latent Attention (MLA) Key-Value cache compression in combination with alternating linear attention layers to prevent memory exhaustion during long-context generation.\n\nProvision distributed enterprise hardware clusters with sufficient aggregate VRAM to host the 432B parameter weights despite sparse 28B active routing per token.",
+      "project": {
+        "name": "Gigachat: gigachat-russia-strategy",
+        "family_slug": "gigachat",
+        "family_display": "Gigachat: gigachat-russia-strategy",
+        "model_slug": "gigachat",
+        "model_display": "Gigachat: gigachat-russia-strategy",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gigachat-russia-strategy",
+        "thread_display": "Gigachat Russia Strategy",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Gigachat: gigachat-russia-strategy",
+        "article_url": "https://happyin.space/projects/gigachat/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/34e67a9c00b1ce533a35839adfd7b414dfd28336/docs/projects/gigachat.md",
+        "agent_context_url": "https://happyin.space/projects/gigachat/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-09-13",
+        "title": "Sber enterprise AI strategy presented at Norilsk Nickel conference",
+        "version": null,
+        "summary": "Sergey Markov outlined Sber's industrial foundation model roadmap and enterprise automation initiatives at a Norilsk Nickel corporate conference."
+      },
+      "tags": [
+        "Gigachat: gigachat-russia-strategy",
+        "family:gigachat",
+        "gigachat",
+        "gigachat-russia-strategy",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "gigachat"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=wU5NzlUPDH0",
+          "host": "youtube.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-18T19:43:33Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-18T19:43:33Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-09-13",
+        "excerpt": "Sergey Markov outlined Sber's industrial foundation model roadmap and enterprise automation initiatives at a Norilsk Nickel corporate conference."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-18T19:43:33Z",
+        "classified_at": "2026-11-18T19:43:33Z",
+        "enriched_at": "2026-11-18T19:43:33Z",
+        "verified_at": "2026-11-18T19:43:33Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-b4e85758ff",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Gaussian Light Transport global illumination technique",
+      "summary": "SIGGRAPH Asia 2026 paper introduces Gaussian Light Transport, formulating scene global illumination as a 13-dimensional Gaussian mixture that directly minimizes rendering equation residuals.",
+      "research_notes": "Clone the StokastX/gaussian-light-transport repository and configure an environment with PyTorch, Taichi, and Mitsuba 3 with Dr.Jit support.\n\nPrepare a 3D scene representation containing geometry meshes, emitter descriptions, and surface reflectance properties (albedo and roughness).\n\nRun the optimization script to initialize and fit the 13D Gaussian mixture model by minimizing the rendering equation residual.\n\nEvaluate the optimized Gaussian representation with world-space tiling and separable culling for interactive, view-independent global illumination playback.\n\nAggregate disconnected geometry sharing identical albedo and roughness attributes to let single high-dimensional Gaussians represent common light transport behaviors.\n\nUtilize world-space spatial tiling and separable culling during evaluation to prevent high-dimensional Gaussian overlap from degrading frame rates in complex scenes.\n\nVerify surface normal alignment and mesh topology in Mitsuba 3 before starting residual minimization to ensure numerical convergence during PyTorch optimization.",
+      "project": {
+        "name": "Gaussian Light Transport: gaussian-light-transport",
+        "family_slug": "gaussian-light-transport",
+        "family_display": "Gaussian Light Transport: gaussian-light-transport",
+        "model_slug": "gaussian-light-transport",
+        "model_display": "Gaussian Light Transport: gaussian-light-transport",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gaussian-light-transport",
+        "thread_display": "Gaussian Light Transport",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Gaussian Light Transport: gaussian-light-transport",
+        "article_url": "https://happyin.space/projects/gaussian-light-transport/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8041291cb0b95b8993e05e5f4b742c38e170cf81/docs/projects/gaussian-light-transport.md",
+        "agent_context_url": "https://happyin.space/projects/gaussian-light-transport/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-09-13",
+        "title": "Gaussian Light Transport global illumination technique",
+        "version": null,
+        "summary": "SIGGRAPH Asia 2026 paper introduces Gaussian Light Transport, formulating scene global illumination as a 13-dimensional Gaussian mixture that directly minimizes rendering equation residuals."
+      },
+      "tags": [
+        "Gaussian Light Transport: gaussian-light-transport",
+        "family:gaussian-light-transport",
+        "gaussian-light-transport",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "gaussian-light-transport"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://patrick-attimont.com/projects/gaussian-light-transport/",
+          "host": "patrick-attimont.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-18T19:25:27Z"
+        },
+        {
+          "kind": "code",
+          "url": "https://github.com/StokastX/gaussian-light-transport",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-18T19:25:27Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-09-13",
+        "excerpt": "SIGGRAPH Asia 2026 paper introduces Gaussian Light Transport, formulating scene global illumination as a 13-dimensional Gaussian mixture that directly minimizes rendering equation residuals."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-18T19:25:27Z",
+        "classified_at": "2026-11-18T19:25:27Z",
+        "enriched_at": "2026-11-18T19:25:27Z",
+        "verified_at": "2026-11-18T19:25:27Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-2f04eafb31",
+      "entry_type": "news",
+      "category": "llm",
+      "lang": "en",
+      "title": "GigaChat 3.5 Reasoning open weights and hybrid MLA architecture release",
+      "summary": "Sber released open weights for GigaChat3.5-432B-A28B-Reasoning on Hugging Face, introducing a 432B mixture-of-experts model with 28B active parameters, alternating Multi-head Latent Attention and GatedDeltaNet layers, and a 262K context window.",
+      "research_notes": "Deploy GigaChat3.5-432B-A28B-Reasoning using vLLM or SGLang inference engines with FP8 quantization and multi-GPU tensor parallelism supporting Multi-head Latent Attention (MLA) and GatedDeltaNet layers.\n\nConfigure inference runtime parameters to leverage the native 262K token context window and activate multi-token prediction heads for speculative decoding acceleration.\n\nUtilize low-rank Multi-head Latent Attention (MLA) Key-Value cache compression in combination with alternating linear attention layers to prevent memory exhaustion during long-context generation.\n\nProvision distributed enterprise hardware clusters with sufficient aggregate VRAM to host the 432B parameter weights despite sparse 28B active routing per token.",
+      "project": {
+        "name": "Gigachat: gigachat-russia-strategy",
+        "family_slug": "gigachat",
+        "family_display": "Gigachat: gigachat-russia-strategy",
+        "model_slug": "gigachat",
+        "model_display": "Gigachat: gigachat-russia-strategy",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gigachat-russia-strategy",
+        "thread_display": "Gigachat Russia Strategy",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Gigachat: gigachat-russia-strategy",
+        "article_url": "https://happyin.space/projects/gigachat/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/34e67a9c00b1ce533a35839adfd7b414dfd28336/docs/projects/gigachat.md",
+        "agent_context_url": "https://happyin.space/projects/gigachat/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-09-13",
+        "title": "GigaChat 3.5 Reasoning open weights and hybrid MLA architecture release",
+        "version": null,
+        "summary": "Sber released open weights for GigaChat3.5-432B-A28B-Reasoning on Hugging Face, introducing a 432B mixture-of-experts model with 28B active parameters, alternating Multi-head Latent Attention and GatedDeltaNet layers, and a 262K context window."
+      },
+      "tags": [
+        "Gigachat: gigachat-russia-strategy",
+        "family:gigachat",
+        "gigachat",
+        "gigachat-russia-strategy",
+        "llm"
+      ],
+      "facets": {
+        "category": "llm",
+        "entry_type": "news",
+        "projects": [
+          "gigachat"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-18T19:43:33Z"
+        },
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=wU5NzlUPDH0",
+          "host": "youtube.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-18T19:43:33Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-09-13",
+        "excerpt": "Sber released open weights for GigaChat3.5-432B-A28B-Reasoning on Hugging Face, introducing a 432B mixture-of-experts model with 28B active parameters, alternating Multi-head Latent Attention and GatedDeltaNet layers, and a 262K context window."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-18T19:43:33Z",
+        "classified_at": "2026-11-18T19:43:33Z",
+        "enriched_at": "2026-11-18T19:43:33Z",
+        "verified_at": "2026-11-18T19:43:33Z",
         "models_used": {
           "research": "curated-live-material"
         },

@@ -932,6 +932,134 @@
     "has_video": false
   },
   {
+    "id": "n-ef6922bf2a",
+    "date": "2026-09-14",
+    "title": "GigaChat 3.5 Reasoning open weights and deployment configs",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "gigachat-3-5-reasoning-release",
+    "version": null,
+    "tags": [
+      "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+      "family:gigachat-3-5-reasoning-release",
+      "gigachat-3-5-reasoning-release",
+      "misc"
+    ],
+    "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-d5737703ea",
+    "date": "2026-09-14",
+    "title": "EquiSteer: Training-Free Diffusion Debiasing",
+    "category": "diffusion-image",
+    "entry_type": "news",
+    "project": "equisteer-cross-attention-steering",
+    "version": null,
+    "tags": [
+      "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+      "diffusion-image",
+      "equisteer-cross-attention-steering",
+      "family:equisteer-cross-attention-steering"
+    ],
+    "primary_link": "https://arxiv.org/pdf/2607.01147",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-2a63a39249",
+    "date": "2026-09-14",
+    "title": "GigaChat 3.5 Reasoning open-weights MoE release",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "gigachat-3-5-reasoning-release",
+    "version": null,
+    "tags": [
+      "GigaChat 3.5 Reasoning: gigachat-3-5-reasoning-release",
+      "family:gigachat-3-5-reasoning-release",
+      "gigachat-3-5-reasoning-release",
+      "llm"
+    ],
+    "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-f7f969bd27",
+    "date": "2026-09-13",
+    "title": "Gaussian Light Transport implementation and benchmark release",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "gaussian-light-transport",
+    "version": null,
+    "tags": [
+      "Gaussian Light Transport: gaussian-light-transport",
+      "family:gaussian-light-transport",
+      "gaussian-light-transport",
+      "misc"
+    ],
+    "primary_link": "https://patrick-attimont.com/projects/gaussian-light-transport/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-b815f82305",
+    "date": "2026-09-13",
+    "title": "Sber enterprise AI strategy presented at Norilsk Nickel conference",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "gigachat",
+    "version": null,
+    "tags": [
+      "Gigachat: gigachat-russia-strategy",
+      "family:gigachat",
+      "gigachat",
+      "gigachat-russia-strategy",
+      "misc"
+    ],
+    "primary_link": "https://www.youtube.com/watch?v=wU5NzlUPDH0",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-b4e85758ff",
+    "date": "2026-09-13",
+    "title": "Gaussian Light Transport global illumination technique",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "gaussian-light-transport",
+    "version": null,
+    "tags": [
+      "Gaussian Light Transport: gaussian-light-transport",
+      "family:gaussian-light-transport",
+      "gaussian-light-transport",
+      "misc"
+    ],
+    "primary_link": "https://patrick-attimont.com/projects/gaussian-light-transport/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-2f04eafb31",
+    "date": "2026-09-13",
+    "title": "GigaChat 3.5 Reasoning open weights and hybrid MLA architecture release",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "gigachat",
+    "version": null,
+    "tags": [
+      "Gigachat: gigachat-russia-strategy",
+      "family:gigachat",
+      "gigachat",
+      "gigachat-russia-strategy",
+      "llm"
+    ],
+    "primary_link": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-Reasoning",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-c42886783e",
     "date": "2026-09-12",
     "title": "ItsGiving webcam meme overlay for meetings",
