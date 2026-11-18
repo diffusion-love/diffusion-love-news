@@ -1,0 +1,113 @@
+{
+ "schema_version": "1.4",
+ "id": "n-d5737703ea",
+ "entry_type": "news",
+ "category": "diffusion-image",
+ "lang": "en",
+ "title": "EquiSteer: Training-Free Diffusion Debiasing",
+ "summary": "EquiSteer introduces an inference-time cross-attention steering framework that mitigates demographic bias in text-to-image diffusion models by up to 87% without requiring model retraining.",
+ "research_notes": "Select the target text-to-image diffusion backbone, such as Stable Diffusion or SANA, and define the demographic attributes targeted for debiasing.\n\nPrecompute attribute steering vectors using paired contrastive text prompts reflecting the chosen demographic dimensions.\n\nIntegrate the prompt-aware gating mechanism into the model's cross-attention layers during the reverse diffusion inference sampling process.\n\nGenerate images using standard prompts; the gate leaves explicit attribute prompts intact while injecting steering vectors into neutral prompts.\n\nUse targeted contrastive pairs rather than broad semantic descriptions when calculating steering vectors to prevent diluting primary text-image alignment.\n\nRely on prompt-aware gating to bypass intervention when input prompts already contain explicit attribute descriptors, avoiding conflicting activation adjustments.\n\nValidate parity gap reductions on domain-specific neutral role prompts before production deployment across different diffusion backbones.",
+ "project": {
+  "name": "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+  "family_slug": "equisteer-cross-attention-steering",
+  "family_display": "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+  "model_slug": "equisteer-cross-attention-steering",
+  "model_display": "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "equisteer-cross-attention-steering",
+  "thread_display": "Equisteer Cross Attention Steering",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+  "article_url": "https://happyin.space/projects/equisteer-cross-attention-steering/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/2621bf5225a40eeeecd0ac692685487c780595e4/docs/projects/equisteer-cross-attention-steering.md",
+  "agent_context_url": "https://happyin.space/projects/equisteer-cross-attention-steering/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-09-14",
+  "title": "EquiSteer: Training-Free Diffusion Debiasing",
+  "version": null,
+  "summary": "EquiSteer introduces an inference-time cross-attention steering framework that mitigates demographic bias in text-to-image diffusion models by up to 87% without requiring model retraining."
+ },
+ "tags": [
+  "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+  "diffusion-image",
+  "equisteer-cross-attention-steering",
+  "family:equisteer-cross-attention-steering"
+ ],
+ "facets": {
+  "category": "diffusion-image",
+  "entry_type": "news",
+  "projects": [
+   "equisteer-cross-attention-steering"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/pdf/2607.01147",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-18T18:43:54Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://lifegenip.cc/",
+   "host": "lifegenip.cc",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-18T18:43:54Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-09-14",
+  "excerpt": "EquiSteer introduces an inference-time cross-attention steering framework that mitigates demographic bias in text-to-image diffusion models by up to 87% without requiring model retraining."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-18T18:43:54Z",
+  "classified_at": "2026-11-18T18:43:54Z",
+  "enriched_at": "2026-11-18T18:43:54Z",
+  "verified_at": "2026-11-18T18:43:54Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

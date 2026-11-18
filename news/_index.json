@@ -932,6 +932,24 @@
     "has_video": false
   },
   {
+    "id": "n-d5737703ea",
+    "date": "2026-09-14",
+    "title": "EquiSteer: Training-Free Diffusion Debiasing",
+    "category": "diffusion-image",
+    "entry_type": "news",
+    "project": "equisteer-cross-attention-steering",
+    "version": null,
+    "tags": [
+      "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+      "diffusion-image",
+      "equisteer-cross-attention-steering",
+      "family:equisteer-cross-attention-steering"
+    ],
+    "primary_link": "https://arxiv.org/pdf/2607.01147",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-c42886783e",
     "date": "2026-09-12",
     "title": "ItsGiving webcam meme overlay for meetings",

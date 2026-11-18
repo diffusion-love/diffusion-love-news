@@ -746,6 +746,9 @@
   "ElevenLabs On-Premise": [
     "n-f5dbfdb346"
   ],
+  "Equisteer Cross Attention Steering: equisteer-cross-attention-steering": [
+    "n-d5737703ea"
+  ],
   "Ernie Image": [
     "n-c2ca134086"
   ],
@@ -4171,6 +4174,7 @@
     "n-e5bb396e69",
     "n-e3fe618151",
     "n-d9eaebd61d",
+    "n-d5737703ea",
     "n-cce36dc967",
     "n-cca527d9ac",
     "n-ca390bf3b3",
@@ -4447,6 +4451,9 @@
   ],
   "emf": [
     "n-525a6be75a"
+  ],
+  "equisteer-cross-attention-steering": [
+    "n-d5737703ea"
   ],
   "ernie": [
     "n-5e92efec32"
@@ -5119,6 +5126,9 @@
   ],
   "family:emf": [
     "n-525a6be75a"
+  ],
+  "family:equisteer-cross-attention-steering": [
+    "n-d5737703ea"
   ],
   "family:ernie": [
     "n-5e92efec32"

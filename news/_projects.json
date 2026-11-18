@@ -23689,6 +23689,126 @@
     ],
     "claims": []
   },
+  "equisteer-cross-attention-steering": {
+    "family_slug": "equisteer-cross-attention-steering",
+    "family_display": "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+    "family_display_variants": [
+      {
+        "family_display": "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+        "first_seen": "2026-09-14",
+        "last_seen": "2026-09-14",
+        "news_ids": [
+          "n-d5737703ea"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "diffusion-image"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-d5737703ea"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-09-14",
+        "news_id": "n-d5737703ea",
+        "title": "EquiSteer: Training-Free Diffusion Debiasing",
+        "primary_link": "https://arxiv.org/pdf/2607.01147"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/pdf/2607.01147",
+        "is_primary": true,
+        "verified_at": "2026-11-18T18:43:54Z",
+        "news_ids": [
+          "n-d5737703ea"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "lifegenip.cc",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://lifegenip.cc/",
+        "is_primary": false,
+        "verified_at": "2026-11-18T18:43:54Z",
+        "news_ids": [
+          "n-d5737703ea"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-09-14",
+        "title": "EquiSteer: Training-Free Diffusion Debiasing",
+        "summary": "EquiSteer introduces an inference-time cross-attention steering framework that mitigates demographic bias in text-to-image diffusion models by up to 87% without requiring model retraining.",
+        "version": null,
+        "news_id": "n-d5737703ea",
+        "primary_link": "https://arxiv.org/pdf/2607.01147"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-d5737703ea",
+        "date": "2026-09-14",
+        "title": "EquiSteer: Training-Free Diffusion Debiasing",
+        "category": "diffusion-image",
+        "entry_type": "news",
+        "project": "equisteer-cross-attention-steering",
+        "version": null,
+        "tags": [
+          "Equisteer Cross Attention Steering: equisteer-cross-attention-steering",
+          "diffusion-image",
+          "equisteer-cross-attention-steering",
+          "family:equisteer-cross-attention-steering"
+        ],
+        "primary_link": "https://arxiv.org/pdf/2607.01147",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "equisteer-cross-attention-steering",
+        "display": "Equisteer Cross Attention Steering",
+        "first_seen": "2026-09-14",
+        "last_seen": "2026-09-14",
+        "latest_news_id": "n-d5737703ea",
+        "news_ids": [
+          "n-d5737703ea"
+        ]
+      }
+    ]
+  },
   "ernie": {
     "family_slug": "ernie",
     "family_display": "ERNIE",
