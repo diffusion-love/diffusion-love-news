@@ -1,9 +1,114 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-19T16:55:33Z",
+  "generated_at": "2026-11-19T17:32:55Z",
   "site": "diffusion.love",
-  "total": 979,
+  "total": 981,
   "records": [
+    {
+      "schema_version": "1.4",
+      "id": "n-ab9fb003d6",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+      "summary": "StepRefine introduces step-aware decoding for multimodal diffusion language models. It monitors entropy spikes during iterative token generation and switches from discrete token commitment to continuous latent refinement using probability-weighted embeddings. The method is training-free and targets models including LLaDA-V, LLaDA-o, Dream-VL, and LaViDa.",
+      "research_notes": "Clone the official repository from https://github.com/mdlm-steprefine/mdlm-steprefine and install the package dependencies.\n\nLoad a supported pretrained multimodal diffusion language model checkpoint such as LLaDA-V, LLaDA-o, Dream-VL, or LaViDa.\n\nAttach the StepRefine step-aware decoding wrapper to replace the default discrete token commitment schedule.\n\nConfigure entropy anomaly detection thresholds, maximum latent refinement passes, and KL-divergence stability stopping criteria.\n\nExecute inference, allowing the controller to dynamically trigger continuous latent refinement during detected entropy spikes.\n\nEnable budget compensation during latent refinement to keep overall inference latency and forward pass counts comparable to baseline diffusion decoding.\n\nCalibrate the temporal window size for entropy spike detection based on the total denoising steps of the chosen backbone to avoid false-positive refinement switches.\n\nUse KL-divergence thresholding rather than fixed refinement iterations to terminate continuous optimization early when semantic distributions stabilize.",
+      "project": {
+        "name": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "family_slug": "steprefine",
+        "family_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "model_slug": "steprefine",
+        "model_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "steprefine-mdlm-denoising-refinement",
+        "thread_display": "Steprefine Mdlm Denoising Refinement",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "article_url": "https://happyin.space/projects/steprefine/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/ec4bce135beda7528245177aab3cd5b9c2695939/docs/projects/steprefine.md",
+        "agent_context_url": "https://happyin.space/projects/steprefine/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+        "version": null,
+        "summary": "StepRefine introduces step-aware decoding for multimodal diffusion language models. It monitors entropy spikes during iterative token generation and switches from discrete token commitment to continuous latent refinement using probability-weighted embeddings. The method is training-free and targets models including LLaDA-V, LLaDA-o, Dream-VL, and LaViDa."
+      },
+      "tags": [
+        "Steprefine: steprefine-mdlm-denoising-refinement",
+        "family:steprefine",
+        "misc",
+        "steprefine",
+        "steprefine-mdlm-denoising-refinement"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "steprefine"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:32:55Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "StepRefine introduces step-aware decoding for multimodal diffusion language models. It monitors entropy spikes during iterative token generation and switches from discrete token commitment to continuous latent refinement using probability-weighted embeddings. The method is training-free and targets models including LLaDA-V, LLaDA-o, Dream-VL, and LaViDa."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T17:32:55Z",
+        "classified_at": "2026-11-19T17:32:55Z",
+        "enriched_at": "2026-11-19T17:32:55Z",
+        "verified_at": "2026-11-19T17:32:55Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
     {
       "schema_version": "1.4",
       "id": "n-a1a2802048",
@@ -317,6 +422,111 @@
         "classified_at": "2026-11-19T16:06:25Z",
         "enriched_at": "2026-11-19T16:06:25Z",
         "verified_at": "2026-11-19T16:06:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-4cee766be7",
+      "entry_type": "news",
+      "category": "llm",
+      "lang": "en",
+      "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+      "summary": "StepRefine code was published in the mdlm-steprefine repository. The implementation provides entropy anomaly detection, multi-round continuous latent refinement with KL-divergence stability checks, and budget compensation to mitigate hallucinations in multimodal diffusion architectures.",
+      "research_notes": "Clone the official repository from https://github.com/mdlm-steprefine/mdlm-steprefine and install the package dependencies.\n\nLoad a supported pretrained multimodal diffusion language model checkpoint such as LLaDA-V, LLaDA-o, Dream-VL, or LaViDa.\n\nAttach the StepRefine step-aware decoding wrapper to replace the default discrete token commitment schedule.\n\nConfigure entropy anomaly detection thresholds, maximum latent refinement passes, and KL-divergence stability stopping criteria.\n\nExecute inference, allowing the controller to dynamically trigger continuous latent refinement during detected entropy spikes.\n\nEnable budget compensation during latent refinement to keep overall inference latency and forward pass counts comparable to baseline diffusion decoding.\n\nCalibrate the temporal window size for entropy spike detection based on the total denoising steps of the chosen backbone to avoid false-positive refinement switches.\n\nUse KL-divergence thresholding rather than fixed refinement iterations to terminate continuous optimization early when semantic distributions stabilize.",
+      "project": {
+        "name": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "family_slug": "steprefine",
+        "family_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "model_slug": "steprefine",
+        "model_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "steprefine-mdlm-denoising-refinement",
+        "thread_display": "Steprefine Mdlm Denoising Refinement",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "article_url": "https://happyin.space/projects/steprefine/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/ec4bce135beda7528245177aab3cd5b9c2695939/docs/projects/steprefine.md",
+        "agent_context_url": "https://happyin.space/projects/steprefine/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+        "version": null,
+        "summary": "StepRefine code was published in the mdlm-steprefine repository. The implementation provides entropy anomaly detection, multi-round continuous latent refinement with KL-divergence stability checks, and budget compensation to mitigate hallucinations in multimodal diffusion architectures."
+      },
+      "tags": [
+        "Steprefine: steprefine-mdlm-denoising-refinement",
+        "family:steprefine",
+        "llm",
+        "steprefine",
+        "steprefine-mdlm-denoising-refinement"
+      ],
+      "facets": {
+        "category": "llm",
+        "entry_type": "news",
+        "projects": [
+          "steprefine"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:32:55Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "StepRefine code was published in the mdlm-steprefine repository. The implementation provides entropy anomaly detection, multi-round continuous latent refinement with KL-divergence stability checks, and budget compensation to mitigate hallucinations in multimodal diffusion architectures."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T17:32:55Z",
+        "classified_at": "2026-11-19T17:32:55Z",
+        "enriched_at": "2026-11-19T17:32:55Z",
+        "verified_at": "2026-11-19T17:32:55Z",
         "models_used": {
           "research": "curated-live-material"
         },

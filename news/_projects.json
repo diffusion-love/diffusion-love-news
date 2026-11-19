@@ -88454,6 +88454,155 @@
     ],
     "claims": []
   },
+  "steprefine": {
+    "family_slug": "steprefine",
+    "family_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+    "family_display_variants": [
+      {
+        "family_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "news_ids": [
+          "n-4cee766be7",
+          "n-ab9fb003d6"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "llm",
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-4cee766be7",
+      "n-ab9fb003d6"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-4cee766be7",
+        "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-ab9fb003d6",
+        "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+        "is_primary": true,
+        "verified_at": "2026-11-19T17:32:55Z",
+        "news_ids": [
+          "n-4cee766be7",
+          "n-ab9fb003d6"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+        "summary": "StepRefine code was published in the mdlm-steprefine repository. The implementation provides entropy anomaly detection, multi-round continuous latent refinement with KL-divergence stability checks, and budget compensation to mitigate hallucinations in multimodal diffusion architectures.",
+        "version": null,
+        "news_id": "n-4cee766be7",
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+        "summary": "StepRefine introduces step-aware decoding for multimodal diffusion language models. It monitors entropy spikes during iterative token generation and switches from discrete token commitment to continuous latent refinement using probability-weighted embeddings. The method is training-free and targets models including LLaDA-V, LLaDA-o, Dream-VL, and LaViDa.",
+        "version": null,
+        "news_id": "n-ab9fb003d6",
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-ab9fb003d6",
+        "date": "2026-11-18",
+        "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "steprefine",
+        "version": null,
+        "tags": [
+          "Steprefine: steprefine-mdlm-denoising-refinement",
+          "family:steprefine",
+          "misc",
+          "steprefine",
+          "steprefine-mdlm-denoising-refinement"
+        ],
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-4cee766be7",
+        "date": "2026-11-18",
+        "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "steprefine",
+        "version": null,
+        "tags": [
+          "Steprefine: steprefine-mdlm-denoising-refinement",
+          "family:steprefine",
+          "llm",
+          "steprefine",
+          "steprefine-mdlm-denoising-refinement"
+        ],
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "steprefine-mdlm-denoising-refinement",
+        "display": "Steprefine Mdlm Denoising Refinement",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-ab9fb003d6",
+        "news_ids": [
+          "n-4cee766be7",
+          "n-ab9fb003d6"
+        ]
+      }
+    ]
+  },
   "storysplat": {
     "family_slug": "storysplat",
     "family_display": "StorySplat",

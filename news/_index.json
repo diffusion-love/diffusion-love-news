@@ -1,5 +1,24 @@
 [
   {
+    "id": "n-ab9fb003d6",
+    "date": "2026-11-18",
+    "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "steprefine",
+    "version": null,
+    "tags": [
+      "Steprefine: steprefine-mdlm-denoising-refinement",
+      "family:steprefine",
+      "misc",
+      "steprefine",
+      "steprefine-mdlm-denoising-refinement"
+    ],
+    "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-a1a2802048",
     "date": "2026-11-18",
     "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of medical vision-language models",
@@ -53,6 +72,25 @@
       "organization:heygen"
     ],
     "primary_link": "https://www.heygen.com/models/heygen-avatar-6",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-4cee766be7",
+    "date": "2026-11-18",
+    "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "steprefine",
+    "version": null,
+    "tags": [
+      "Steprefine: steprefine-mdlm-denoising-refinement",
+      "family:steprefine",
+      "llm",
+      "steprefine",
+      "steprefine-mdlm-denoising-refinement"
+    ],
+    "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine",
     "has_image": false,
     "has_video": false
   },
