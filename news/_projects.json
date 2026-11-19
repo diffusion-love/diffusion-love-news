@@ -68135,7 +68135,7 @@
   },
   "minimax-h3": {
     "family_slug": "minimax-h3",
-    "family_display": "MiniMax H3",
+    "family_display": "MiniMax H3 development",
     "family_display_variants": [
       {
         "family_display": "MiniMax H3",
@@ -68151,12 +68151,13 @@
       {
         "family_display": "MiniMax H3 development",
         "first_seen": "2026-09-05",
-        "last_seen": "2026-09-05",
+        "last_seen": "2026-11-18",
         "news_ids": [
           "n-0ecaaac1b0",
           "n-9d4d7bfa04",
           "n-b3d9b93688",
-          "n-bff87036e2"
+          "n-bff87036e2",
+          "n-3dbdd70404"
         ]
       }
     ],
@@ -68167,11 +68168,12 @@
     "base_model": null,
     "categories": [
       "audio-music",
-      "misc"
+      "misc",
+      "tools-frontend"
     ],
-    "post_count": 8,
+    "post_count": 9,
     "first_seen": "2026-07-31",
-    "last_seen": "2026-09-06",
+    "last_seen": "2026-11-18",
     "latest_version": null,
     "latest_evolution": null,
     "news_ids": [
@@ -68182,7 +68184,8 @@
       "n-9d4d7bfa04",
       "n-b3d9b93688",
       "n-bff87036e2",
-      "n-af1f65eba4"
+      "n-af1f65eba4",
+      "n-3dbdd70404"
     ],
     "versions_timeline": [
       {
@@ -68240,6 +68243,13 @@
         "news_id": "n-af1f65eba4",
         "title": "MiniMax H3 lip synchronization experiment",
         "primary_link": "https://www.reddit.com/r/StableDiffusion/comments/1w8j71b/an_experiment_i_made_with_minimax_h3_featuring/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-3dbdd70404",
+        "title": "MiniMax H3 community tools add face-swap, sampling, and node optimizations",
+        "primary_link": "https://github.com/neohh/minimax-h3-faceswap-pipeline"
       }
     ],
     "features": [],
@@ -68254,6 +68264,18 @@
     "aliases": [],
     "domains": [],
     "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/neohh/minimax-h3-faceswap-pipeline",
+        "is_primary": true,
+        "verified_at": "2026-11-19T21:16:49Z",
+        "news_ids": [
+          "n-3dbdd70404"
+        ]
+      },
       {
         "kind": "reference",
         "host": "minimax.io",
@@ -68349,6 +68371,42 @@
         "verified_at": "2026-09-05T21:06:08Z",
         "news_ids": [
           "n-2ebc155125"
+        ]
+      },
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/tazmannner/ComfyUI-H3-FastDerope",
+        "is_primary": false,
+        "verified_at": "2026-11-19T21:16:49Z",
+        "news_ids": [
+          "n-3dbdd70404"
+        ]
+      },
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3",
+        "is_primary": false,
+        "verified_at": "2026-11-19T21:16:49Z",
+        "news_ids": [
+          "n-3dbdd70404"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "hf.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://hf.co/Deno2026/MiniMax-H3-DenoMix",
+        "is_primary": false,
+        "verified_at": "2026-11-19T21:16:49Z",
+        "news_ids": [
+          "n-3dbdd70404"
         ]
       },
       {
@@ -68460,9 +68518,36 @@
         "version": null,
         "news_id": "n-af1f65eba4",
         "primary_link": "https://www.reddit.com/r/StableDiffusion/comments/1w8j71b/an_experiment_i_made_with_minimax_h3_featuring/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "MiniMax H3 community tools add face-swap, sampling, and node optimizations",
+        "summary": "Community releases for MiniMax H3 introduce a four-stage ComfyUI face-swap pipeline, Spectrum v0.2.30 integration, DenoMix tiled-sampler workflows, and FastDerope rotary embedding patches.",
+        "version": null,
+        "news_id": "n-3dbdd70404",
+        "primary_link": "https://github.com/neohh/minimax-h3-faceswap-pipeline"
       }
     ],
     "related_news": [
+      {
+        "id": "n-3dbdd70404",
+        "date": "2026-11-18",
+        "title": "MiniMax H3 community tools add face-swap, sampling, and node optimizations",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "minimax-h3",
+        "version": null,
+        "tags": [
+          "MiniMax H3 development",
+          "family:minimax-h3",
+          "minimax-h3",
+          "tools-frontend"
+        ],
+        "primary_link": "https://github.com/neohh/minimax-h3-faceswap-pipeline",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-af1f65eba4",
         "date": "2026-09-06",
@@ -68622,10 +68707,11 @@
         "slug": "minimax-h3",
         "display": "Minimax H3",
         "first_seen": "2026-09-05",
-        "last_seen": "2026-09-05",
-        "latest_news_id": "n-0ecaaac1b0",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-3dbdd70404",
         "news_ids": [
-          "n-0ecaaac1b0"
+          "n-0ecaaac1b0",
+          "n-3dbdd70404"
         ]
       }
     ]

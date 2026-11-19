@@ -1,0 +1,131 @@
+{
+ "schema_version": "1.4",
+ "id": "n-3dbdd70404",
+ "entry_type": "news",
+ "category": "tools-frontend",
+ "lang": "en",
+ "title": "MiniMax H3 community tools add face-swap, sampling, and node optimizations",
+ "summary": "Community releases for MiniMax H3 introduce a four-stage ComfyUI face-swap pipeline, Spectrum v0.2.30 integration, DenoMix tiled-sampler workflows, and FastDerope rotary embedding patches.",
+ "research_notes": "Clone and install the four-stage face-swap pipeline custom node into the ComfyUI custom_nodes directory.\n\nInstall ComfyUI-Spectrum-MiniMax-H3 to enable spectrum schedule nodes and calibrate attention layers.\n\nLoad the DenoMix tiled-sampler workflow and checkpoints for high-resolution latent upscaling.\n\nApply the FastDerope node patch to the rotary positional embedding layer to optimize attention processing during frame generation.\n\nSeparate subject tracking and facial mask generation into an initial pass before running latent composite replacement to ensure boundary stability.\n\nUse tiled sampling with consistent overlap margins in DenoMix when processing high-resolution video frames to prevent tile boundary discontinuity.\n\nVerify rotary embedding dimension parameters in FastDerope match the exact MiniMax H3 model variant to avoid attention divergence.",
+ "project": {
+  "name": "MiniMax H3 development",
+  "family_slug": "minimax-h3",
+  "family_display": "MiniMax H3 development",
+  "model_slug": "minimax-h3",
+  "model_display": "MiniMax H3 development",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "minimax-h3",
+  "thread_display": "Minimax H3",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MiniMax H3 development",
+  "article_url": "https://happyin.space/projects/minimax-h3/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/53c109e5174ac5b0413ac000820adfc266bc5384/docs/projects/minimax-h3.md",
+  "agent_context_url": "https://happyin.space/projects/minimax-h3/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-18",
+  "title": "MiniMax H3 community tools add face-swap, sampling, and node optimizations",
+  "version": null,
+  "summary": "Community releases for MiniMax H3 introduce a four-stage ComfyUI face-swap pipeline, Spectrum v0.2.30 integration, DenoMix tiled-sampler workflows, and FastDerope rotary embedding patches."
+ },
+ "tags": [
+  "MiniMax H3 development",
+  "family:minimax-h3",
+  "minimax-h3",
+  "tools-frontend"
+ ],
+ "facets": {
+  "category": "tools-frontend",
+  "entry_type": "news",
+  "projects": [
+   "minimax-h3"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "code",
+   "url": "https://github.com/neohh/minimax-h3-faceswap-pipeline",
+   "host": "github.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-19T21:16:49Z"
+  },
+  {
+   "kind": "code",
+   "url": "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3",
+   "host": "github.com",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-19T21:16:49Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://hf.co/Deno2026/MiniMax-H3-DenoMix",
+   "host": "hf.co",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-19T21:16:49Z"
+  },
+  {
+   "kind": "code",
+   "url": "https://github.com/tazmannner/ComfyUI-H3-FastDerope",
+   "host": "github.com",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-19T21:16:49Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-18",
+  "excerpt": "Community releases for MiniMax H3 introduce a four-stage ComfyUI face-swap pipeline, Spectrum v0.2.30 integration, DenoMix tiled-sampler workflows, and FastDerope rotary embedding patches."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-19T21:16:49Z",
+  "classified_at": "2026-11-19T21:16:49Z",
+  "enriched_at": "2026-11-19T21:16:49Z",
+  "verified_at": "2026-11-19T21:16:49Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

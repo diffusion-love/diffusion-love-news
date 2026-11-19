@@ -1,5 +1,24 @@
 [
   {
+    "id": "n-f686305d6a",
+    "date": "2026-11-18",
+    "title": "Q.ANT demonstrates hybrid LLM inference with photonic NPU at SC26",
+    "category": "llm",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Q.ANT: llm-inference-on-photonic-hardware",
+      "llm",
+      "llm-inference-on-photonic-hardware",
+      "organization:q-ant",
+      "q-ant"
+    ],
+    "primary_link": "https://habr.com/ru/companies/selectel/articles/1109180/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-e3d4a92a3f",
     "date": "2026-11-18",
     "title": "Kling Image 4.0 becomes available via developer API and web studio",
@@ -167,6 +186,43 @@
       "steprefine-mdlm-denoising-refinement"
     ],
     "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-3dbdd70404",
+    "date": "2026-11-18",
+    "title": "MiniMax H3 community tools add face-swap, sampling, and node optimizations",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "minimax-h3",
+    "version": null,
+    "tags": [
+      "MiniMax H3 development",
+      "family:minimax-h3",
+      "minimax-h3",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/neohh/minimax-h3-faceswap-pipeline",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-30e2413dd3",
+    "date": "2026-11-18",
+    "title": "Q.ANT shows photonic NPU Gen 2+ offloading attention layers with AMD GPU",
+    "category": "llm",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Q.ANT: llm-inference-on-photonic-hardware",
+      "llm",
+      "llm-inference-on-photonic-hardware",
+      "organization:q-ant",
+      "q-ant"
+    ],
+    "primary_link": "https://habr.com/ru/companies/selectel/articles/1109180/",
     "has_image": false,
     "has_video": false
   },

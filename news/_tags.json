@@ -2003,6 +2003,7 @@
     "n-faa53b79d3"
   ],
   "MiniMax H3 development": [
+    "n-3dbdd70404",
     "n-0ecaaac1b0"
   ],
   "MiniMax M3": [
@@ -2577,6 +2578,10 @@
   ],
   "PyPI Wheel Downloader": [
     "n-7c1c23a9d1"
+  ],
+  "Q.ANT: llm-inference-on-photonic-hardware": [
+    "n-f686305d6a",
+    "n-30e2413dd3"
   ],
   "QClaw": [
     "n-093c066bee"
@@ -7309,6 +7314,7 @@
     "n-af1f65eba4",
     "n-9d4d7bfa04",
     "n-7127c15c53",
+    "n-3dbdd70404",
     "n-2ebc155125",
     "n-160efa0fdb",
     "n-0ecaaac1b0"
@@ -10659,6 +10665,7 @@
     "n-fe9036dfac",
     "n-fc612ab002",
     "n-f771c01e06",
+    "n-f686305d6a",
     "n-f4d17d7115",
     "n-f3c22d2162",
     "n-f306331601",
@@ -10722,6 +10729,7 @@
     "n-367db0be8e",
     "n-34c22d3127",
     "n-31b3b17c7b",
+    "n-30e2413dd3",
     "n-2f8c6f34f0",
     "n-2f04eafb31",
     "n-2dbef67328",
@@ -10751,6 +10759,10 @@
   ],
   "llm-agents": [
     "n-2f94cbb043"
+  ],
+  "llm-inference-on-photonic-hardware": [
+    "n-f686305d6a",
+    "n-30e2413dd3"
   ],
   "llm-loop-diagnosis": [
     "n-2980d7228f",
@@ -11234,6 +11246,7 @@
     "n-af1f65eba4",
     "n-9d4d7bfa04",
     "n-7127c15c53",
+    "n-3dbdd70404",
     "n-2ebc155125",
     "n-160efa0fdb",
     "n-0ecaaac1b0"
@@ -14065,6 +14078,10 @@
     "n-5e3859fa47",
     "n-04bc8d2a40"
   ],
+  "organization:q-ant": [
+    "n-f686305d6a",
+    "n-30e2413dd3"
+  ],
   "organization:qwen": [
     "n-fe2f35c14b",
     "n-e75b2209d4",
@@ -14382,6 +14399,10 @@
   ],
   "pytheory": [
     "n-c4a452f85d"
+  ],
+  "q-ant": [
+    "n-f686305d6a",
+    "n-30e2413dd3"
   ],
   "qclaw": [
     "n-093c066bee"
@@ -15504,6 +15525,7 @@
     "n-501487aec4",
     "n-41c999d507",
     "n-3e5c539778",
+    "n-3dbdd70404",
     "n-39f773b51f",
     "n-3354f12396",
     "n-332335c756",
