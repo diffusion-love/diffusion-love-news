@@ -2440,6 +2440,10 @@
   "Sapiens2": [
     "n-aa28911ec6"
   ],
+  "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research": [
+    "n-a1a2802048",
+    "n-994a331b9a"
+  ],
   "SeFi-Image": [
     "n-1857cf1c7a"
   ],
@@ -6599,6 +6603,10 @@
   ],
   "family:scail-2": [
     "n-7e81500f3d"
+  ],
+  "family:scan-site-aware-collaborative-vlm-adaptation": [
+    "n-a1a2802048",
+    "n-994a331b9a"
   ],
   "family:scope": [
     "n-cf8c575ede"
@@ -11318,6 +11326,14 @@
     "n-7e81500f3d",
     "n-0cf9d026b8"
   ],
+  "scan-site-aware-collaborative-vlm-adaptation": [
+    "n-a1a2802048",
+    "n-994a331b9a"
+  ],
+  "scan-site-aware-collaborative-vlm-adaptation-research": [
+    "n-a1a2802048",
+    "n-994a331b9a"
+  ],
   "scene": [
     "n-fdbf17ddf7",
     "n-f735b8e846",
@@ -12106,6 +12122,8 @@
     "n-b2b9ca697e",
     "n-a8a043a8fd",
     "n-a8098d79d8",
+    "n-a1a2802048",
+    "n-994a331b9a",
     "n-8e2ceecbcb",
     "n-840bb8c6c7",
     "n-78a59b56b6",

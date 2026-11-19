@@ -1,5 +1,43 @@
 [
   {
+    "id": "n-a1a2802048",
+    "date": "2026-11-18",
+    "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of medical vision-language models",
+    "category": "vlm",
+    "entry_type": "news",
+    "project": "scan-site-aware-collaborative-vlm-adaptation",
+    "version": null,
+    "tags": [
+      "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+      "family:scan-site-aware-collaborative-vlm-adaptation",
+      "scan-site-aware-collaborative-vlm-adaptation",
+      "scan-site-aware-collaborative-vlm-adaptation-research",
+      "vlm"
+    ],
+    "primary_link": "https://arxiv.org/abs/2611.21955",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-994a331b9a",
+    "date": "2026-11-18",
+    "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+    "category": "vlm",
+    "entry_type": "news",
+    "project": "scan-site-aware-collaborative-vlm-adaptation",
+    "version": null,
+    "tags": [
+      "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+      "family:scan-site-aware-collaborative-vlm-adaptation",
+      "scan-site-aware-collaborative-vlm-adaptation",
+      "scan-site-aware-collaborative-vlm-adaptation-research",
+      "vlm"
+    ],
+    "primary_link": "https://arxiv.org/abs/2611.21955",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-492c016626",
     "date": "2026-11-13",
     "title": "Google releases Gemini 4 Hydrogen coding model",

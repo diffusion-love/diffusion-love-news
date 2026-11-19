@@ -82245,6 +82245,154 @@
     ],
     "claims": []
   },
+  "scan-site-aware-collaborative-vlm-adaptation": {
+    "family_slug": "scan-site-aware-collaborative-vlm-adaptation",
+    "family_display": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+    "family_display_variants": [
+      {
+        "family_display": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "news_ids": [
+          "n-994a331b9a",
+          "n-a1a2802048"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "vlm"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-994a331b9a",
+      "n-a1a2802048"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-994a331b9a",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+        "primary_link": "https://arxiv.org/abs/2611.21955"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-a1a2802048",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of medical vision-language models",
+        "primary_link": "https://arxiv.org/abs/2611.21955"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.21955",
+        "is_primary": true,
+        "verified_at": "2026-11-19T15:56:19Z",
+        "news_ids": [
+          "n-994a331b9a",
+          "n-a1a2802048"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+        "summary": "Researchers introduced SCAN, a training-free framework that adapts 3D brain MRI vision-language foundation models across 67 clinical sites by aggregating differentially private class prototypes without raw scan transmission.",
+        "version": null,
+        "news_id": "n-994a331b9a",
+        "primary_link": "https://arxiv.org/abs/2611.21955"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of medical vision-language models",
+        "summary": "The SCAN framework enables distributed medical centers to adapt 3D vision-language models for neurological disease classification using site-aware prototype aggregation with calibrated differential privacy.",
+        "version": null,
+        "news_id": "n-a1a2802048",
+        "primary_link": "https://arxiv.org/abs/2611.21955"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-a1a2802048",
+        "date": "2026-11-18",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of medical vision-language models",
+        "category": "vlm",
+        "entry_type": "news",
+        "project": "scan-site-aware-collaborative-vlm-adaptation",
+        "version": null,
+        "tags": [
+          "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+          "family:scan-site-aware-collaborative-vlm-adaptation",
+          "scan-site-aware-collaborative-vlm-adaptation",
+          "scan-site-aware-collaborative-vlm-adaptation-research",
+          "vlm"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.21955",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-994a331b9a",
+        "date": "2026-11-18",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+        "category": "vlm",
+        "entry_type": "news",
+        "project": "scan-site-aware-collaborative-vlm-adaptation",
+        "version": null,
+        "tags": [
+          "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+          "family:scan-site-aware-collaborative-vlm-adaptation",
+          "scan-site-aware-collaborative-vlm-adaptation",
+          "scan-site-aware-collaborative-vlm-adaptation-research",
+          "vlm"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.21955",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "scan-site-aware-collaborative-vlm-adaptation-research",
+        "display": "Scan Site Aware Collaborative Vlm Adaptation Research",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-a1a2802048",
+        "news_ids": [
+          "n-994a331b9a",
+          "n-a1a2802048"
+        ]
+      }
+    ]
+  },
   "scope": {
     "family_slug": "scope",
     "family_display": "SCoPE",
