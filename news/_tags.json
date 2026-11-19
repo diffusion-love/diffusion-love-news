@@ -1743,6 +1743,7 @@
     "n-faa53b79d3"
   ],
   "MiniMax H3 development": [
+    "n-3dbdd70404",
     "n-0ecaaac1b0"
   ],
   "MiniMax M3": [
@@ -5985,6 +5986,7 @@
   ],
   "family:minimax-h3": [
     "n-7127c15c53",
+    "n-3dbdd70404",
     "n-160efa0fdb",
     "n-0ecaaac1b0"
   ],
@@ -9104,6 +9106,7 @@
   ],
   "minimax-h3": [
     "n-7127c15c53",
+    "n-3dbdd70404",
     "n-160efa0fdb",
     "n-0ecaaac1b0"
   ],
@@ -11920,6 +11923,7 @@
     "n-501487aec4",
     "n-41c999d507",
     "n-3e5c539778",
+    "n-3dbdd70404",
     "n-39f773b51f",
     "n-3354f12396",
     "n-332335c756",

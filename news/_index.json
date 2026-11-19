@@ -171,6 +171,24 @@
     "has_video": false
   },
   {
+    "id": "n-3dbdd70404",
+    "date": "2026-11-18",
+    "title": "MiniMax H3 community tools add face-swap, sampling, and node optimizations",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "minimax-h3",
+    "version": null,
+    "tags": [
+      "MiniMax H3 development",
+      "family:minimax-h3",
+      "minimax-h3",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/neohh/minimax-h3-faceswap-pipeline",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-16b9f80345",
     "date": "2026-11-18",
     "title": "Kling Image 4.0 launches with native 8K output and multi-reference conditioning",
