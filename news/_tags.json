@@ -1316,6 +1316,13 @@
   "Kiri Engine": [
     "n-9db878fd06"
   ],
+  "Kling Image 4.0: kling-image-4-release": [
+    "n-e3d4a92a3f",
+    "n-d8ac79bdc7",
+    "n-c98f6e2cbf",
+    "n-7c1de821f8",
+    "n-16b9f80345"
+  ],
   "KnowAct-GUIClaw": [
     "n-f09f1875bc"
   ],
@@ -4209,6 +4216,7 @@
     "n-cca527d9ac",
     "n-ca390bf3b3",
     "n-c9e1e40a9c",
+    "n-c98f6e2cbf",
     "n-c78d87f531",
     "n-c696325d3e",
     "n-c660c4f559",
@@ -4229,6 +4237,7 @@
     "n-952baa76f5",
     "n-86ce44c208",
     "n-7d8614adad",
+    "n-7c1de821f8",
     "n-55db199d87",
     "n-525a6be75a",
     "n-49b64d4933",
@@ -5662,6 +5671,13 @@
   "family:kiri-engine": [
     "n-9db878fd06",
     "n-61589d5fc9"
+  ],
+  "family:kling-image-4": [
+    "n-e3d4a92a3f",
+    "n-d8ac79bdc7",
+    "n-c98f6e2cbf",
+    "n-7c1de821f8",
+    "n-16b9f80345"
   ],
   "family:knowact-guiclaw": [
     "n-f09f1875bc"
@@ -8391,6 +8407,20 @@
   "klein-9b": [
     "n-277ef3d868"
   ],
+  "kling-image-4": [
+    "n-e3d4a92a3f",
+    "n-d8ac79bdc7",
+    "n-c98f6e2cbf",
+    "n-7c1de821f8",
+    "n-16b9f80345"
+  ],
+  "kling-image-4-release": [
+    "n-e3d4a92a3f",
+    "n-d8ac79bdc7",
+    "n-c98f6e2cbf",
+    "n-7c1de821f8",
+    "n-16b9f80345"
+  ],
   "kling_video": [
     "n-38e5bcdce7"
   ],
@@ -8638,6 +8668,7 @@
     "n-1985ad3cff",
     "n-18cb9608e2",
     "n-16ee77b7eb",
+    "n-16b9f80345",
     "n-15fd6206af",
     "n-12dc9deafa",
     "n-129b6b09c0",
@@ -9193,6 +9224,7 @@
     "n-e431684c08",
     "n-e3f801a8ba",
     "n-e3f07cf60d",
+    "n-e3d4a92a3f",
     "n-e3b0bbbd83",
     "n-e304c780ea",
     "n-e2e11bcd53",
@@ -9209,6 +9241,7 @@
     "n-da87b7d4da",
     "n-d99912828e",
     "n-d9748d5e13",
+    "n-d8ac79bdc7",
     "n-d83223a468",
     "n-d7ef7b4828",
     "n-d791bdd250",

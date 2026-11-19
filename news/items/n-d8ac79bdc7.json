@@ -1,0 +1,114 @@
+{
+ "schema_version": "1.4",
+ "id": "n-d8ac79bdc7",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Kling Image 4.0 brings 10-frame series consistency",
+ "summary": "The Kling Image 4.0 model emphasizes enhanced physical lighting and skin texture rendering, supporting coherent generation of up to 10 sequential images and up to 10 reference images per generation task.",
+ "research_notes": "Select generation mode (Text-to-Image, Image-to-Image, or Long Image) and target resolution (2K, 4K, or native 8K up to 9984x6656) in Kling Creative Studio or API payload.\n\nUpload up to 10 reference images and reference them in the prompt text using tags such as @image_1 to enforce character identity, style, or compositional layout.\n\nInclude up to 2000 characters of in-image typography within quotation marks, selecting from 70+ built-in fonts or providing a font reference image for style guidance.\n\nConfigure color grading by selecting from 110+ Tone presets or specifying custom HEX/RGB values to establish consistent visual atmosphere.\n\nSet serial output count up to 10 images when generating cohesive multi-frame storyboards, e-commerce variations, or narrative sequences from a single prompt.\n\nTag specific reference images explicitly with @image_1 through @image_10 to separate character identity from background lighting rather than relying on unstructured composite references.\n\nUtilize the expanded 15,000-token context limit to provide structured layout descriptions and multi-section text placement instructions for complex poster and editorial designs.\n\nApply built-in Tone presets or explicit HEX color codes instead of descriptive lighting keywords to maintain uniform color grading across multi-image narrative series.",
+ "project": {
+  "name": "Kling Image 4.0: kling-image-4-release",
+  "family_slug": "kling-image-4",
+  "family_display": "Kling Image 4.0: kling-image-4-release",
+  "model_slug": "kling-image-4",
+  "model_display": "Kling Image 4.0: kling-image-4-release",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "kling-image-4-release",
+  "thread_display": "Kling Image 4 Release",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Kling Image 4.0: kling-image-4-release",
+  "article_url": "https://happyin.space/projects/kling-image-4/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4dedad65cb13031fe21fcda5b5fec57e3a443d99/docs/projects/kling-image-4.md",
+  "agent_context_url": "https://happyin.space/projects/kling-image-4/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-18",
+  "title": "Kling Image 4.0 brings 10-frame series consistency",
+  "version": null,
+  "summary": "The Kling Image 4.0 model emphasizes enhanced physical lighting and skin texture rendering, supporting coherent generation of up to 10 sequential images and up to 10 reference images per generation task."
+ },
+ "tags": [
+  "Kling Image 4.0: kling-image-4-release",
+  "family:kling-image-4",
+  "kling-image-4",
+  "kling-image-4-release",
+  "misc"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "kling-image-4"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+   "host": "kling.ai",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-19T17:54:20Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://kling.ai/release-note/release-notes/Kling_Image_4",
+   "host": "kling.ai",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-19T17:54:20Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-18",
+  "excerpt": "The Kling Image 4.0 model emphasizes enhanced physical lighting and skin texture rendering, supporting coherent generation of up to 10 sequential images and up to 10 reference images per generation task."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-19T17:54:20Z",
+  "classified_at": "2026-11-19T17:54:20Z",
+  "enriched_at": "2026-11-19T17:54:20Z",
+  "verified_at": "2026-11-19T17:54:20Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
