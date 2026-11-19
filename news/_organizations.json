@@ -498,6 +498,55 @@
       }
     ]
   },
+  "heygen": {
+    "slug": "heygen",
+    "display": "HeyGen avatar platform and developer integration",
+    "homepage": null,
+    "project_slugs": [],
+    "post_count": 1,
+    "direct_post_count": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "news_ids": [
+      "n-96edc5b567"
+    ],
+    "direct_news_ids": [
+      "n-96edc5b567"
+    ],
+    "development_threads": [
+      {
+        "slug": "avatar-platform-and-developer-integration",
+        "display": "Avatar Platform And Developer Integration",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-96edc5b567",
+        "news_ids": [
+          "n-96edc5b567"
+        ]
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-96edc5b567",
+        "date": "2026-11-18",
+        "title": "HeyGen releases Avatar 6 neural digital twin model",
+        "category": "animation-motion",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "HeyGen avatar platform and developer integration",
+          "animation-motion",
+          "avatar-platform-and-developer-integration",
+          "heygen",
+          "organization:heygen"
+        ],
+        "primary_link": "https://www.heygen.com/models/heygen-avatar-6",
+        "has_image": false,
+        "has_video": false
+      }
+    ]
+  },
   "meta": {
     "slug": "meta",
     "display": "Meta AI",

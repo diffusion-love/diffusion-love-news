@@ -1,5 +1,214 @@
 [
   {
+    "id": "n-e3d4a92a3f",
+    "date": "2026-11-18",
+    "title": "Kling Image 4.0 becomes available via developer API and web studio",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "kling-image-4",
+    "version": null,
+    "tags": [
+      "Kling Image 4.0: kling-image-4-release",
+      "family:kling-image-4",
+      "kling-image-4",
+      "kling-image-4-release",
+      "misc"
+    ],
+    "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-d8ac79bdc7",
+    "date": "2026-11-18",
+    "title": "Kling Image 4.0 brings 10-frame series consistency",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "kling-image-4",
+    "version": null,
+    "tags": [
+      "Kling Image 4.0: kling-image-4-release",
+      "family:kling-image-4",
+      "kling-image-4",
+      "kling-image-4-release",
+      "misc"
+    ],
+    "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-c98f6e2cbf",
+    "date": "2026-11-18",
+    "title": "Kling Image 4.0 debuts unified understanding and generation architecture",
+    "category": "diffusion-image",
+    "entry_type": "news",
+    "project": "kling-image-4",
+    "version": null,
+    "tags": [
+      "Kling Image 4.0: kling-image-4-release",
+      "diffusion-image",
+      "family:kling-image-4",
+      "kling-image-4",
+      "kling-image-4-release"
+    ],
+    "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-ab9fb003d6",
+    "date": "2026-11-18",
+    "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "steprefine",
+    "version": null,
+    "tags": [
+      "Steprefine: steprefine-mdlm-denoising-refinement",
+      "family:steprefine",
+      "misc",
+      "steprefine",
+      "steprefine-mdlm-denoising-refinement"
+    ],
+    "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-a1a2802048",
+    "date": "2026-11-18",
+    "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of medical vision-language models",
+    "category": "vlm",
+    "entry_type": "news",
+    "project": "scan-site-aware-collaborative-vlm-adaptation",
+    "version": null,
+    "tags": [
+      "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+      "family:scan-site-aware-collaborative-vlm-adaptation",
+      "scan-site-aware-collaborative-vlm-adaptation",
+      "scan-site-aware-collaborative-vlm-adaptation-research",
+      "vlm"
+    ],
+    "primary_link": "https://arxiv.org/abs/2611.21955",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-994a331b9a",
+    "date": "2026-11-18",
+    "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+    "category": "vlm",
+    "entry_type": "news",
+    "project": "scan-site-aware-collaborative-vlm-adaptation",
+    "version": null,
+    "tags": [
+      "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+      "family:scan-site-aware-collaborative-vlm-adaptation",
+      "scan-site-aware-collaborative-vlm-adaptation",
+      "scan-site-aware-collaborative-vlm-adaptation-research",
+      "vlm"
+    ],
+    "primary_link": "https://arxiv.org/abs/2611.21955",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-96edc5b567",
+    "date": "2026-11-18",
+    "title": "HeyGen releases Avatar 6 neural digital twin model",
+    "category": "animation-motion",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "HeyGen avatar platform and developer integration",
+      "animation-motion",
+      "avatar-platform-and-developer-integration",
+      "heygen",
+      "organization:heygen"
+    ],
+    "primary_link": "https://www.heygen.com/models/heygen-avatar-6",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-7c1de821f8",
+    "date": "2026-11-18",
+    "title": "Kling Image 4.0 update adds Tone color presets, font styling, and resolution-based API billing",
+    "category": "diffusion-image",
+    "entry_type": "news",
+    "project": "kling-image-4",
+    "version": null,
+    "tags": [
+      "Kling Image 4.0: kling-image-4-release",
+      "diffusion-image",
+      "family:kling-image-4",
+      "kling-image-4",
+      "kling-image-4-release"
+    ],
+    "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-4cee766be7",
+    "date": "2026-11-18",
+    "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "steprefine",
+    "version": null,
+    "tags": [
+      "Steprefine: steprefine-mdlm-denoising-refinement",
+      "family:steprefine",
+      "llm",
+      "steprefine",
+      "steprefine-mdlm-denoising-refinement"
+    ],
+    "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-16b9f80345",
+    "date": "2026-11-18",
+    "title": "Kling Image 4.0 launches with native 8K output and multi-reference conditioning",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "kling-image-4",
+    "version": null,
+    "tags": [
+      "Kling Image 4.0: kling-image-4-release",
+      "family:kling-image-4",
+      "kling-image-4",
+      "kling-image-4-release",
+      "llm"
+    ],
+    "primary_link": "https://kling.ai/release-note/release-notes/Kling_Image_4",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-0c94fdb677",
+    "date": "2026-11-18",
+    "title": "Snapchat launches Easy Lens CLI and Lens Studio MCP for AI coding assistants",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "snapchat",
+    "version": null,
+    "tags": [
+      "Snapchat lenses and filters",
+      "family:snapchat",
+      "misc",
+      "snapchat",
+      "snapchat-lenses-and-filters"
+    ],
+    "primary_link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-492c016626",
     "date": "2026-11-13",
     "title": "Google releases Gemini 4 Hydrogen coding model",

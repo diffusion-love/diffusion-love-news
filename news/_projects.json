@@ -54062,6 +54062,343 @@
     ],
     "claims": []
   },
+  "kling-image-4": {
+    "family_slug": "kling-image-4",
+    "family_display": "Kling Image 4.0: kling-image-4-release",
+    "family_display_variants": [
+      {
+        "family_display": "Kling Image 4.0: kling-image-4-release",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "news_ids": [
+          "n-16b9f80345",
+          "n-7c1de821f8",
+          "n-c98f6e2cbf",
+          "n-d8ac79bdc7",
+          "n-e3d4a92a3f"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "diffusion-image",
+      "llm",
+      "misc"
+    ],
+    "post_count": 5,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-16b9f80345",
+      "n-7c1de821f8",
+      "n-c98f6e2cbf",
+      "n-d8ac79bdc7",
+      "n-e3d4a92a3f"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-16b9f80345",
+        "title": "Kling Image 4.0 launches with native 8K output and multi-reference conditioning",
+        "primary_link": "https://kling.ai/release-note/release-notes/Kling_Image_4"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-7c1de821f8",
+        "title": "Kling Image 4.0 update adds Tone color presets, font styling, and resolution-based API billing",
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-c98f6e2cbf",
+        "title": "Kling Image 4.0 debuts unified understanding and generation architecture",
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-d8ac79bdc7",
+        "title": "Kling Image 4.0 brings 10-frame series consistency",
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-e3d4a92a3f",
+        "title": "Kling Image 4.0 becomes available via developer API and web studio",
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "kling.ai",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+        "is_primary": true,
+        "verified_at": "2026-11-19T17:54:20Z",
+        "news_ids": [
+          "n-16b9f80345",
+          "n-7c1de821f8",
+          "n-c98f6e2cbf",
+          "n-d8ac79bdc7",
+          "n-e3d4a92a3f"
+        ],
+        "occurrences": [
+          {
+            "news_id": "n-16b9f80345",
+            "is_primary": false,
+            "verified_at": "2026-11-19T17:54:20Z"
+          },
+          {
+            "news_id": "n-7c1de821f8",
+            "is_primary": true,
+            "verified_at": "2026-11-19T17:54:20Z"
+          },
+          {
+            "news_id": "n-c98f6e2cbf",
+            "is_primary": true,
+            "verified_at": "2026-11-19T17:54:20Z"
+          },
+          {
+            "news_id": "n-d8ac79bdc7",
+            "is_primary": true,
+            "verified_at": "2026-11-19T17:54:20Z"
+          },
+          {
+            "news_id": "n-e3d4a92a3f",
+            "is_primary": true,
+            "verified_at": "2026-11-19T17:54:20Z"
+          }
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "kling.ai",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://kling.ai/release-note/release-notes/Kling_Image_4",
+        "is_primary": true,
+        "verified_at": "2026-11-19T17:54:20Z",
+        "news_ids": [
+          "n-16b9f80345",
+          "n-7c1de821f8",
+          "n-c98f6e2cbf",
+          "n-d8ac79bdc7",
+          "n-e3d4a92a3f"
+        ],
+        "occurrences": [
+          {
+            "news_id": "n-16b9f80345",
+            "is_primary": true,
+            "verified_at": "2026-11-19T17:54:20Z"
+          },
+          {
+            "news_id": "n-7c1de821f8",
+            "is_primary": false,
+            "verified_at": "2026-11-19T17:54:20Z"
+          },
+          {
+            "news_id": "n-c98f6e2cbf",
+            "is_primary": false,
+            "verified_at": "2026-11-19T17:54:20Z"
+          },
+          {
+            "news_id": "n-d8ac79bdc7",
+            "is_primary": false,
+            "verified_at": "2026-11-19T17:54:20Z"
+          },
+          {
+            "news_id": "n-e3d4a92a3f",
+            "is_primary": false,
+            "verified_at": "2026-11-19T17:54:20Z"
+          }
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 launches with native 8K output and multi-reference conditioning",
+        "summary": "Kling AI released Kling Image 4.0 featuring native 8K resolution output alongside 2K and 4K, an expanded 15,000-token context window, multi-reference conditioning supporting up to 10 tagged images, serial generation of up to 10 frames, and typographic rendering up to 2000 characters.",
+        "version": null,
+        "news_id": "n-16b9f80345",
+        "primary_link": "https://kling.ai/release-note/release-notes/Kling_Image_4"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 update adds Tone color presets, font styling, and resolution-based API billing",
+        "summary": "Kling AI updated its image generation suite with Kling Image 4.0, incorporating over 110 Tone color-grading presets, 70+ built-in fonts with font reference matching, max dimensions up to 9984x6656, and resolution-tiered API pricing.",
+        "version": null,
+        "news_id": "n-7c1de821f8",
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 debuts unified understanding and generation architecture",
+        "summary": "Kling AI introduced Kling Image 4.0 based on a unified autoregressive architecture that integrates visual understanding with image synthesis across text-to-image, image-to-image, and vertical long-image generation modes.",
+        "version": null,
+        "news_id": "n-c98f6e2cbf",
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 brings 10-frame series consistency",
+        "summary": "The Kling Image 4.0 model emphasizes enhanced physical lighting and skin texture rendering, supporting coherent generation of up to 10 sequential images and up to 10 reference images per generation task.",
+        "version": null,
+        "news_id": "n-d8ac79bdc7",
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 becomes available via developer API and web studio",
+        "summary": "Kling Image 4.0 launched across Kling Creative Studio and developer API endpoints, providing native 8K image creation, long-form layout generation, and expanded text rendering for commercial production.",
+        "version": null,
+        "news_id": "n-e3d4a92a3f",
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-e3d4a92a3f",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 becomes available via developer API and web studio",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "kling-image-4",
+        "version": null,
+        "tags": [
+          "Kling Image 4.0: kling-image-4-release",
+          "family:kling-image-4",
+          "kling-image-4",
+          "kling-image-4-release",
+          "misc"
+        ],
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-d8ac79bdc7",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 brings 10-frame series consistency",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "kling-image-4",
+        "version": null,
+        "tags": [
+          "Kling Image 4.0: kling-image-4-release",
+          "family:kling-image-4",
+          "kling-image-4",
+          "kling-image-4-release",
+          "misc"
+        ],
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-c98f6e2cbf",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 debuts unified understanding and generation architecture",
+        "category": "diffusion-image",
+        "entry_type": "news",
+        "project": "kling-image-4",
+        "version": null,
+        "tags": [
+          "Kling Image 4.0: kling-image-4-release",
+          "diffusion-image",
+          "family:kling-image-4",
+          "kling-image-4",
+          "kling-image-4-release"
+        ],
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-7c1de821f8",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 update adds Tone color presets, font styling, and resolution-based API billing",
+        "category": "diffusion-image",
+        "entry_type": "news",
+        "project": "kling-image-4",
+        "version": null,
+        "tags": [
+          "Kling Image 4.0: kling-image-4-release",
+          "diffusion-image",
+          "family:kling-image-4",
+          "kling-image-4",
+          "kling-image-4-release"
+        ],
+        "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-16b9f80345",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 launches with native 8K output and multi-reference conditioning",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "kling-image-4",
+        "version": null,
+        "tags": [
+          "Kling Image 4.0: kling-image-4-release",
+          "family:kling-image-4",
+          "kling-image-4",
+          "kling-image-4-release",
+          "llm"
+        ],
+        "primary_link": "https://kling.ai/release-note/release-notes/Kling_Image_4",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "kling-image-4-release",
+        "display": "Kling Image 4 Release",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-e3d4a92a3f",
+        "news_ids": [
+          "n-16b9f80345",
+          "n-7c1de821f8",
+          "n-c98f6e2cbf",
+          "n-d8ac79bdc7",
+          "n-e3d4a92a3f"
+        ]
+      }
+    ]
+  },
   "knowact-guiclaw": {
     "family_slug": "knowact-guiclaw",
     "family_display": "KnowAct-GUIClaw",
@@ -100988,6 +101325,154 @@
     ],
     "claims": []
   },
+  "scan-site-aware-collaborative-vlm-adaptation": {
+    "family_slug": "scan-site-aware-collaborative-vlm-adaptation",
+    "family_display": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+    "family_display_variants": [
+      {
+        "family_display": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "news_ids": [
+          "n-994a331b9a",
+          "n-a1a2802048"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "vlm"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-994a331b9a",
+      "n-a1a2802048"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-994a331b9a",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+        "primary_link": "https://arxiv.org/abs/2611.21955"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-a1a2802048",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of medical vision-language models",
+        "primary_link": "https://arxiv.org/abs/2611.21955"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.21955",
+        "is_primary": true,
+        "verified_at": "2026-11-19T15:56:19Z",
+        "news_ids": [
+          "n-994a331b9a",
+          "n-a1a2802048"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+        "summary": "Researchers introduced SCAN, a training-free framework that adapts 3D brain MRI vision-language foundation models across 67 clinical sites by aggregating differentially private class prototypes without raw scan transmission.",
+        "version": null,
+        "news_id": "n-994a331b9a",
+        "primary_link": "https://arxiv.org/abs/2611.21955"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of medical vision-language models",
+        "summary": "The SCAN framework enables distributed medical centers to adapt 3D vision-language models for neurological disease classification using site-aware prototype aggregation with calibrated differential privacy.",
+        "version": null,
+        "news_id": "n-a1a2802048",
+        "primary_link": "https://arxiv.org/abs/2611.21955"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-a1a2802048",
+        "date": "2026-11-18",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of medical vision-language models",
+        "category": "vlm",
+        "entry_type": "news",
+        "project": "scan-site-aware-collaborative-vlm-adaptation",
+        "version": null,
+        "tags": [
+          "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+          "family:scan-site-aware-collaborative-vlm-adaptation",
+          "scan-site-aware-collaborative-vlm-adaptation",
+          "scan-site-aware-collaborative-vlm-adaptation-research",
+          "vlm"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.21955",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-994a331b9a",
+        "date": "2026-11-18",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+        "category": "vlm",
+        "entry_type": "news",
+        "project": "scan-site-aware-collaborative-vlm-adaptation",
+        "version": null,
+        "tags": [
+          "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+          "family:scan-site-aware-collaborative-vlm-adaptation",
+          "scan-site-aware-collaborative-vlm-adaptation",
+          "scan-site-aware-collaborative-vlm-adaptation-research",
+          "vlm"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.21955",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "scan-site-aware-collaborative-vlm-adaptation-research",
+        "display": "Scan Site Aware Collaborative Vlm Adaptation Research",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-a1a2802048",
+        "news_ids": [
+          "n-994a331b9a",
+          "n-a1a2802048"
+        ]
+      }
+    ]
+  },
   "scope": {
     "family_slug": "scope",
     "family_display": "SCoPE",
@@ -104815,6 +105300,115 @@
     ],
     "claims": []
   },
+  "snapchat": {
+    "family_slug": "snapchat",
+    "family_display": "Snapchat lenses and filters",
+    "family_display_variants": [
+      {
+        "family_display": "Snapchat lenses and filters",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "news_ids": [
+          "n-0c94fdb677"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-0c94fdb677"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-0c94fdb677",
+        "title": "Snapchat launches Easy Lens CLI and Lens Studio MCP for AI coding assistants",
+        "primary_link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "techcrunch.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+        "is_primary": true,
+        "verified_at": "2026-11-19T16:55:33Z",
+        "news_ids": [
+          "n-0c94fdb677"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Snapchat launches Easy Lens CLI and Lens Studio MCP for AI coding assistants",
+        "summary": "Snap launched the Easy Lens CLI and Model Context Protocol integration for Lens Studio, enabling developers to build, debug, preview, and publish AR Lenses and Web Lens games using natural-language AI coding tools including Claude Code, Cursor, and Codex.",
+        "version": null,
+        "news_id": "n-0c94fdb677",
+        "primary_link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-0c94fdb677",
+        "date": "2026-11-18",
+        "title": "Snapchat launches Easy Lens CLI and Lens Studio MCP for AI coding assistants",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "snapchat",
+        "version": null,
+        "tags": [
+          "Snapchat lenses and filters",
+          "family:snapchat",
+          "misc",
+          "snapchat",
+          "snapchat-lenses-and-filters"
+        ],
+        "primary_link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "snapchat-lenses-and-filters",
+        "display": "Snapchat Lenses And Filters",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-0c94fdb677",
+        "news_ids": [
+          "n-0c94fdb677"
+        ]
+      }
+    ]
+  },
   "sol-attn": {
     "family_slug": "sol-attn",
     "family_display": "Sol-Attn",
@@ -107534,6 +108128,155 @@
       }
     ],
     "claims": []
+  },
+  "steprefine": {
+    "family_slug": "steprefine",
+    "family_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+    "family_display_variants": [
+      {
+        "family_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "news_ids": [
+          "n-4cee766be7",
+          "n-ab9fb003d6"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "llm",
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-4cee766be7",
+      "n-ab9fb003d6"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-4cee766be7",
+        "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-ab9fb003d6",
+        "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+        "is_primary": true,
+        "verified_at": "2026-11-19T17:32:55Z",
+        "news_ids": [
+          "n-4cee766be7",
+          "n-ab9fb003d6"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+        "summary": "StepRefine code was published in the mdlm-steprefine repository. The implementation provides entropy anomaly detection, multi-round continuous latent refinement with KL-divergence stability checks, and budget compensation to mitigate hallucinations in multimodal diffusion architectures.",
+        "version": null,
+        "news_id": "n-4cee766be7",
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+        "summary": "StepRefine introduces step-aware decoding for multimodal diffusion language models. It monitors entropy spikes during iterative token generation and switches from discrete token commitment to continuous latent refinement using probability-weighted embeddings. The method is training-free and targets models including LLaDA-V, LLaDA-o, Dream-VL, and LaViDa.",
+        "version": null,
+        "news_id": "n-ab9fb003d6",
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-ab9fb003d6",
+        "date": "2026-11-18",
+        "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "steprefine",
+        "version": null,
+        "tags": [
+          "Steprefine: steprefine-mdlm-denoising-refinement",
+          "family:steprefine",
+          "misc",
+          "steprefine",
+          "steprefine-mdlm-denoising-refinement"
+        ],
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-4cee766be7",
+        "date": "2026-11-18",
+        "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "steprefine",
+        "version": null,
+        "tags": [
+          "Steprefine: steprefine-mdlm-denoising-refinement",
+          "family:steprefine",
+          "llm",
+          "steprefine",
+          "steprefine-mdlm-denoising-refinement"
+        ],
+        "primary_link": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "steprefine-mdlm-denoising-refinement",
+        "display": "Steprefine Mdlm Denoising Refinement",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-ab9fb003d6",
+        "news_ids": [
+          "n-4cee766be7",
+          "n-ab9fb003d6"
+        ]
+      }
+    ]
   },
   "storysplat": {
     "family_slug": "storysplat",

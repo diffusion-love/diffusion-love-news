@@ -1355,6 +1355,9 @@
     "n-a020ad2fa0",
     "n-97ef1ba967"
   ],
+  "HeyGen avatar platform and developer integration": [
+    "n-96edc5b567"
+  ],
   "HiAR": [
     "n-e304c780ea"
   ],
@@ -1537,6 +1540,13 @@
   ],
   "Kiri Engine": [
     "n-9db878fd06"
+  ],
+  "Kling Image 4.0: kling-image-4-release": [
+    "n-e3d4a92a3f",
+    "n-d8ac79bdc7",
+    "n-c98f6e2cbf",
+    "n-7c1de821f8",
+    "n-16b9f80345"
   ],
   "KnowAct-GUIClaw": [
     "n-f09f1875bc"
@@ -2859,6 +2869,10 @@
   "Sapiens2": [
     "n-aa28911ec6"
   ],
+  "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research": [
+    "n-a1a2802048",
+    "n-994a331b9a"
+  ],
   "SeFi-Image": [
     "n-1857cf1c7a"
   ],
@@ -2951,6 +2965,9 @@
   "SlopLobster": [
     "n-2dbef67328"
   ],
+  "Snapchat lenses and filters": [
+    "n-0c94fdb677"
+  ],
   "Sol-Attn": [
     "n-aefede82fd"
   ],
@@ -3020,6 +3037,10 @@
   "Steamdb": [
     "n-ae304e6401",
     "n-a1d8877283"
+  ],
+  "Steprefine: steprefine-mdlm-denoising-refinement": [
+    "n-ab9fb003d6",
+    "n-4cee766be7"
   ],
   "StorySplat": [
     "n-e4fab55e05"
@@ -3699,6 +3720,7 @@
     "n-d4d07dd0bf",
     "n-cd25320940",
     "n-aa28911ec6",
+    "n-96edc5b567",
     "n-807bf78763",
     "n-70f82f82ae",
     "n-61c8c02fec",
@@ -3982,6 +4004,9 @@
   ],
   "ava-encoder": [
     "n-8f2e77690e"
+  ],
+  "avatar-platform-and-developer-integration": [
+    "n-96edc5b567"
   ],
   "avatarpointillist": [
     "n-b651b2cbf2"
@@ -5197,6 +5222,7 @@
     "n-cca527d9ac",
     "n-ca390bf3b3",
     "n-c9e1e40a9c",
+    "n-c98f6e2cbf",
     "n-c78d87f531",
     "n-c696325d3e",
     "n-c660c4f559",
@@ -5217,6 +5243,7 @@
     "n-952baa76f5",
     "n-86ce44c208",
     "n-7d8614adad",
+    "n-7c1de821f8",
     "n-55db199d87",
     "n-525a6be75a",
     "n-49b64d4933",
@@ -6932,6 +6959,13 @@
     "n-9db878fd06",
     "n-61589d5fc9"
   ],
+  "family:kling-image-4": [
+    "n-e3d4a92a3f",
+    "n-d8ac79bdc7",
+    "n-c98f6e2cbf",
+    "n-7c1de821f8",
+    "n-16b9f80345"
+  ],
   "family:knowact-guiclaw": [
     "n-f09f1875bc"
   ],
@@ -8088,6 +8122,10 @@
   "family:scail-2": [
     "n-7e81500f3d"
   ],
+  "family:scan-site-aware-collaborative-vlm-adaptation": [
+    "n-a1a2802048",
+    "n-994a331b9a"
+  ],
   "family:scope": [
     "n-cf8c575ede"
   ],
@@ -8182,6 +8220,9 @@
   "family:sma": [
     "n-f1f27d1e3a"
   ],
+  "family:snapchat": [
+    "n-0c94fdb677"
+  ],
   "family:sol-attn": [
     "n-aefede82fd"
   ],
@@ -8248,6 +8289,10 @@
   "family:steamdb": [
     "n-ae304e6401",
     "n-a1d8877283"
+  ],
+  "family:steprefine": [
+    "n-ab9fb003d6",
+    "n-4cee766be7"
   ],
   "family:storysplat": [
     "n-e4fab55e05"
@@ -9901,6 +9946,9 @@
   "heydoughogan ComfyUI VFX Workflow": [
     "n-4941701283"
   ],
+  "heygen": [
+    "n-96edc5b567"
+  ],
   "heygen-hyperframes": [
     "n-076b3f0be6"
   ],
@@ -10398,6 +10446,20 @@
   "klein-9b": [
     "n-277ef3d868"
   ],
+  "kling-image-4": [
+    "n-e3d4a92a3f",
+    "n-d8ac79bdc7",
+    "n-c98f6e2cbf",
+    "n-7c1de821f8",
+    "n-16b9f80345"
+  ],
+  "kling-image-4-release": [
+    "n-e3d4a92a3f",
+    "n-d8ac79bdc7",
+    "n-c98f6e2cbf",
+    "n-7c1de821f8",
+    "n-16b9f80345"
+  ],
   "kling_video": [
     "n-38e5bcdce7"
   ],
@@ -10653,6 +10715,7 @@
     "n-5ac53c2267",
     "n-58129455d1",
     "n-553243c913",
+    "n-4cee766be7",
     "n-49a6616381",
     "n-44c547a245",
     "n-3ef8391496",
@@ -10674,6 +10737,7 @@
     "n-1985ad3cff",
     "n-18cb9608e2",
     "n-16ee77b7eb",
+    "n-16b9f80345",
     "n-15fd6206af",
     "n-12dc9deafa",
     "n-129b6b09c0",
@@ -11332,6 +11396,7 @@
     "n-e431684c08",
     "n-e3f801a8ba",
     "n-e3f07cf60d",
+    "n-e3d4a92a3f",
     "n-e3b0bbbd83",
     "n-e334230f47",
     "n-e304c780ea",
@@ -11363,6 +11428,7 @@
     "n-da095b401f",
     "n-d99912828e",
     "n-d9748d5e13",
+    "n-d8ac79bdc7",
     "n-d83223a468",
     "n-d7ef7b4828",
     "n-d7eda27326",
@@ -11532,6 +11598,7 @@
     "n-acdfd269fb",
     "n-ac5a060bb8",
     "n-abed76ad0f",
+    "n-ab9fb003d6",
     "n-ab593e345a",
     "n-ab3713a0b5",
     "n-aa7ac5b27f",
@@ -12136,6 +12203,7 @@
     "n-0dc009d4d0",
     "n-0d7aed5e86",
     "n-0cf91afec3",
+    "n-0c94fdb677",
     "n-0c8443f593",
     "n-0c7b2e5273",
     "n-0c368b4c16",
@@ -13978,6 +14046,9 @@
   "organization:happyin": [
     "n-001a2f8ef9"
   ],
+  "organization:heygen": [
+    "n-96edc5b567"
+  ],
   "organization:meta": [
     "n-d46d9eb28f"
   ],
@@ -14798,6 +14869,14 @@
     "n-7e81500f3d",
     "n-0cf9d026b8"
   ],
+  "scan-site-aware-collaborative-vlm-adaptation": [
+    "n-a1a2802048",
+    "n-994a331b9a"
+  ],
+  "scan-site-aware-collaborative-vlm-adaptation-research": [
+    "n-a1a2802048",
+    "n-994a331b9a"
+  ],
   "scene": [
     "n-fdbf17ddf7",
     "n-f735b8e846",
@@ -14987,6 +15066,12 @@
   "smhfacct/minimax-h3-fl2va-ref2va-hybrid-models": [
     "n-faa53b79d3"
   ],
+  "snapchat": [
+    "n-0c94fdb677"
+  ],
+  "snapchat-lenses-and-filters": [
+    "n-0c94fdb677"
+  ],
   "sol-attn": [
     "n-aefede82fd"
   ],
@@ -15095,6 +15180,14 @@
   "steamdb-nexus-mods-sale": [
     "n-ae304e6401",
     "n-a1d8877283"
+  ],
+  "steprefine": [
+    "n-ab9fb003d6",
+    "n-4cee766be7"
+  ],
+  "steprefine-mdlm-denoising-refinement": [
+    "n-ab9fb003d6",
+    "n-4cee766be7"
   ],
   "storysplat": [
     "n-e4fab55e05"
@@ -15748,6 +15841,8 @@
     "n-b2b9ca697e",
     "n-a8a043a8fd",
     "n-a8098d79d8",
+    "n-a1a2802048",
+    "n-994a331b9a",
     "n-8e2ceecbcb",
     "n-840bb8c6c7",
     "n-78a59b56b6",

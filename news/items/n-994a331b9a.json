@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-994a331b9a",
+ "entry_type": "news",
+ "category": "vlm",
+ "lang": "en",
+ "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+ "summary": "Researchers introduced SCAN, a training-free framework that adapts 3D brain MRI vision-language foundation models across 67 clinical sites by aggregating differentially private class prototypes without raw scan transmission.",
+ "research_notes": "Extract localized 3D brain MRI representations locally at each hospital site using a shared frozen medical vision-language backbone without sharing raw volumetric imaging data.\n\nCompute local class prototypes by calculating normalized feature sums and patient counts for each neurological condition category.\n\nApply calibrated differential privacy noise to norm-bounded prototype vectors and broadcast the differentially private site summaries across collaborating institutions.\n\nAggregate cross-site prototype summaries to classify neurological pathology at local or unseen scanner sites without backpropagation.\n\nBound prototype vector norms before noise addition to maintain formal differential privacy guarantees while mitigating feature distortion.\n\nRetain exact unnoised local prototypes for in-institution predictions while using privatized aggregated prototypes only for cross-site generalization.",
+ "project": {
+  "name": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+  "family_slug": "scan-site-aware-collaborative-vlm-adaptation",
+  "family_display": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+  "model_slug": "scan-site-aware-collaborative-vlm-adaptation",
+  "model_display": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "scan-site-aware-collaborative-vlm-adaptation-research",
+  "thread_display": "Scan Site Aware Collaborative Vlm Adaptation Research",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+  "article_url": "https://happyin.space/projects/scan-site-aware-collaborative-vlm-adaptation/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d313a4f00fc64ee933e4ba6cc8f60fd0935ff5ac/docs/projects/scan-site-aware-collaborative-vlm-adaptation.md",
+  "agent_context_url": "https://happyin.space/projects/scan-site-aware-collaborative-vlm-adaptation/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-18",
+  "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+  "version": null,
+  "summary": "Researchers introduced SCAN, a training-free framework that adapts 3D brain MRI vision-language foundation models across 67 clinical sites by aggregating differentially private class prototypes without raw scan transmission."
+ },
+ "tags": [
+  "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+  "family:scan-site-aware-collaborative-vlm-adaptation",
+  "scan-site-aware-collaborative-vlm-adaptation",
+  "scan-site-aware-collaborative-vlm-adaptation-research",
+  "vlm"
+ ],
+ "facets": {
+  "category": "vlm",
+  "entry_type": "news",
+  "projects": [
+   "scan-site-aware-collaborative-vlm-adaptation"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.21955",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-19T15:56:19Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-18",
+  "excerpt": "Researchers introduced SCAN, a training-free framework that adapts 3D brain MRI vision-language foundation models across 67 clinical sites by aggregating differentially private class prototypes without raw scan transmission."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-19T15:56:19Z",
+  "classified_at": "2026-11-19T15:56:19Z",
+  "enriched_at": "2026-11-19T15:56:19Z",
+  "verified_at": "2026-11-19T15:56:19Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

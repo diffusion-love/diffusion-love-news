@@ -1,9 +1,1213 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-18T19:43:33Z",
+  "generated_at": "2026-11-19T17:54:20Z",
   "site": "diffusion.love",
-  "total": 1333,
+  "total": 1344,
   "records": [
+    {
+      "schema_version": "1.4",
+      "id": "n-e3d4a92a3f",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Kling Image 4.0 becomes available via developer API and web studio",
+      "summary": "Kling Image 4.0 launched across Kling Creative Studio and developer API endpoints, providing native 8K image creation, long-form layout generation, and expanded text rendering for commercial production.",
+      "research_notes": "Select generation mode (Text-to-Image, Image-to-Image, or Long Image) and target resolution (2K, 4K, or native 8K up to 9984x6656) in Kling Creative Studio or API payload.\n\nUpload up to 10 reference images and reference them in the prompt text using tags such as @image_1 to enforce character identity, style, or compositional layout.\n\nInclude up to 2000 characters of in-image typography within quotation marks, selecting from 70+ built-in fonts or providing a font reference image for style guidance.\n\nConfigure color grading by selecting from 110+ Tone presets or specifying custom HEX/RGB values to establish consistent visual atmosphere.\n\nSet serial output count up to 10 images when generating cohesive multi-frame storyboards, e-commerce variations, or narrative sequences from a single prompt.\n\nTag specific reference images explicitly with @image_1 through @image_10 to separate character identity from background lighting rather than relying on unstructured composite references.\n\nUtilize the expanded 15,000-token context limit to provide structured layout descriptions and multi-section text placement instructions for complex poster and editorial designs.\n\nApply built-in Tone presets or explicit HEX color codes instead of descriptive lighting keywords to maintain uniform color grading across multi-image narrative series.",
+      "project": {
+        "name": "Kling Image 4.0: kling-image-4-release",
+        "family_slug": "kling-image-4",
+        "family_display": "Kling Image 4.0: kling-image-4-release",
+        "model_slug": "kling-image-4",
+        "model_display": "Kling Image 4.0: kling-image-4-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "kling-image-4-release",
+        "thread_display": "Kling Image 4 Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Kling Image 4.0: kling-image-4-release",
+        "article_url": "https://happyin.space/projects/kling-image-4/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4dedad65cb13031fe21fcda5b5fec57e3a443d99/docs/projects/kling-image-4.md",
+        "agent_context_url": "https://happyin.space/projects/kling-image-4/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 becomes available via developer API and web studio",
+        "version": null,
+        "summary": "Kling Image 4.0 launched across Kling Creative Studio and developer API endpoints, providing native 8K image creation, long-form layout generation, and expanded text rendering for commercial production."
+      },
+      "tags": [
+        "Kling Image 4.0: kling-image-4-release",
+        "family:kling-image-4",
+        "kling-image-4",
+        "kling-image-4-release",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "kling-image-4"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+          "host": "kling.ai",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:54:20Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://kling.ai/release-note/release-notes/Kling_Image_4",
+          "host": "kling.ai",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:54:20Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Kling Image 4.0 launched across Kling Creative Studio and developer API endpoints, providing native 8K image creation, long-form layout generation, and expanded text rendering for commercial production."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T17:54:20Z",
+        "classified_at": "2026-11-19T17:54:20Z",
+        "enriched_at": "2026-11-19T17:54:20Z",
+        "verified_at": "2026-11-19T17:54:20Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-d8ac79bdc7",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Kling Image 4.0 brings 10-frame series consistency",
+      "summary": "The Kling Image 4.0 model emphasizes enhanced physical lighting and skin texture rendering, supporting coherent generation of up to 10 sequential images and up to 10 reference images per generation task.",
+      "research_notes": "Select generation mode (Text-to-Image, Image-to-Image, or Long Image) and target resolution (2K, 4K, or native 8K up to 9984x6656) in Kling Creative Studio or API payload.\n\nUpload up to 10 reference images and reference them in the prompt text using tags such as @image_1 to enforce character identity, style, or compositional layout.\n\nInclude up to 2000 characters of in-image typography within quotation marks, selecting from 70+ built-in fonts or providing a font reference image for style guidance.\n\nConfigure color grading by selecting from 110+ Tone presets or specifying custom HEX/RGB values to establish consistent visual atmosphere.\n\nSet serial output count up to 10 images when generating cohesive multi-frame storyboards, e-commerce variations, or narrative sequences from a single prompt.\n\nTag specific reference images explicitly with @image_1 through @image_10 to separate character identity from background lighting rather than relying on unstructured composite references.\n\nUtilize the expanded 15,000-token context limit to provide structured layout descriptions and multi-section text placement instructions for complex poster and editorial designs.\n\nApply built-in Tone presets or explicit HEX color codes instead of descriptive lighting keywords to maintain uniform color grading across multi-image narrative series.",
+      "project": {
+        "name": "Kling Image 4.0: kling-image-4-release",
+        "family_slug": "kling-image-4",
+        "family_display": "Kling Image 4.0: kling-image-4-release",
+        "model_slug": "kling-image-4",
+        "model_display": "Kling Image 4.0: kling-image-4-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "kling-image-4-release",
+        "thread_display": "Kling Image 4 Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Kling Image 4.0: kling-image-4-release",
+        "article_url": "https://happyin.space/projects/kling-image-4/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4dedad65cb13031fe21fcda5b5fec57e3a443d99/docs/projects/kling-image-4.md",
+        "agent_context_url": "https://happyin.space/projects/kling-image-4/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 brings 10-frame series consistency",
+        "version": null,
+        "summary": "The Kling Image 4.0 model emphasizes enhanced physical lighting and skin texture rendering, supporting coherent generation of up to 10 sequential images and up to 10 reference images per generation task."
+      },
+      "tags": [
+        "Kling Image 4.0: kling-image-4-release",
+        "family:kling-image-4",
+        "kling-image-4",
+        "kling-image-4-release",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "kling-image-4"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+          "host": "kling.ai",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:54:20Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://kling.ai/release-note/release-notes/Kling_Image_4",
+          "host": "kling.ai",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:54:20Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "The Kling Image 4.0 model emphasizes enhanced physical lighting and skin texture rendering, supporting coherent generation of up to 10 sequential images and up to 10 reference images per generation task."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T17:54:20Z",
+        "classified_at": "2026-11-19T17:54:20Z",
+        "enriched_at": "2026-11-19T17:54:20Z",
+        "verified_at": "2026-11-19T17:54:20Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-c98f6e2cbf",
+      "entry_type": "news",
+      "category": "diffusion-image",
+      "lang": "en",
+      "title": "Kling Image 4.0 debuts unified understanding and generation architecture",
+      "summary": "Kling AI introduced Kling Image 4.0 based on a unified autoregressive architecture that integrates visual understanding with image synthesis across text-to-image, image-to-image, and vertical long-image generation modes.",
+      "research_notes": "Select generation mode (Text-to-Image, Image-to-Image, or Long Image) and target resolution (2K, 4K, or native 8K up to 9984x6656) in Kling Creative Studio or API payload.\n\nUpload up to 10 reference images and reference them in the prompt text using tags such as @image_1 to enforce character identity, style, or compositional layout.\n\nInclude up to 2000 characters of in-image typography within quotation marks, selecting from 70+ built-in fonts or providing a font reference image for style guidance.\n\nConfigure color grading by selecting from 110+ Tone presets or specifying custom HEX/RGB values to establish consistent visual atmosphere.\n\nSet serial output count up to 10 images when generating cohesive multi-frame storyboards, e-commerce variations, or narrative sequences from a single prompt.\n\nTag specific reference images explicitly with @image_1 through @image_10 to separate character identity from background lighting rather than relying on unstructured composite references.\n\nUtilize the expanded 15,000-token context limit to provide structured layout descriptions and multi-section text placement instructions for complex poster and editorial designs.\n\nApply built-in Tone presets or explicit HEX color codes instead of descriptive lighting keywords to maintain uniform color grading across multi-image narrative series.",
+      "project": {
+        "name": "Kling Image 4.0: kling-image-4-release",
+        "family_slug": "kling-image-4",
+        "family_display": "Kling Image 4.0: kling-image-4-release",
+        "model_slug": "kling-image-4",
+        "model_display": "Kling Image 4.0: kling-image-4-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "kling-image-4-release",
+        "thread_display": "Kling Image 4 Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Kling Image 4.0: kling-image-4-release",
+        "article_url": "https://happyin.space/projects/kling-image-4/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4dedad65cb13031fe21fcda5b5fec57e3a443d99/docs/projects/kling-image-4.md",
+        "agent_context_url": "https://happyin.space/projects/kling-image-4/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 debuts unified understanding and generation architecture",
+        "version": null,
+        "summary": "Kling AI introduced Kling Image 4.0 based on a unified autoregressive architecture that integrates visual understanding with image synthesis across text-to-image, image-to-image, and vertical long-image generation modes."
+      },
+      "tags": [
+        "Kling Image 4.0: kling-image-4-release",
+        "diffusion-image",
+        "family:kling-image-4",
+        "kling-image-4",
+        "kling-image-4-release"
+      ],
+      "facets": {
+        "category": "diffusion-image",
+        "entry_type": "news",
+        "projects": [
+          "kling-image-4"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+          "host": "kling.ai",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:54:20Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://kling.ai/release-note/release-notes/Kling_Image_4",
+          "host": "kling.ai",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:54:20Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Kling AI introduced Kling Image 4.0 based on a unified autoregressive architecture that integrates visual understanding with image synthesis across text-to-image, image-to-image, and vertical long-image generation modes."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T17:54:20Z",
+        "classified_at": "2026-11-19T17:54:20Z",
+        "enriched_at": "2026-11-19T17:54:20Z",
+        "verified_at": "2026-11-19T17:54:20Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-ab9fb003d6",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+      "summary": "StepRefine introduces step-aware decoding for multimodal diffusion language models. It monitors entropy spikes during iterative token generation and switches from discrete token commitment to continuous latent refinement using probability-weighted embeddings. The method is training-free and targets models including LLaDA-V, LLaDA-o, Dream-VL, and LaViDa.",
+      "research_notes": "Clone the official repository from https://github.com/mdlm-steprefine/mdlm-steprefine and install the package dependencies.\n\nLoad a supported pretrained multimodal diffusion language model checkpoint such as LLaDA-V, LLaDA-o, Dream-VL, or LaViDa.\n\nAttach the StepRefine step-aware decoding wrapper to replace the default discrete token commitment schedule.\n\nConfigure entropy anomaly detection thresholds, maximum latent refinement passes, and KL-divergence stability stopping criteria.\n\nExecute inference, allowing the controller to dynamically trigger continuous latent refinement during detected entropy spikes.\n\nEnable budget compensation during latent refinement to keep overall inference latency and forward pass counts comparable to baseline diffusion decoding.\n\nCalibrate the temporal window size for entropy spike detection based on the total denoising steps of the chosen backbone to avoid false-positive refinement switches.\n\nUse KL-divergence thresholding rather than fixed refinement iterations to terminate continuous optimization early when semantic distributions stabilize.",
+      "project": {
+        "name": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "family_slug": "steprefine",
+        "family_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "model_slug": "steprefine",
+        "model_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "steprefine-mdlm-denoising-refinement",
+        "thread_display": "Steprefine Mdlm Denoising Refinement",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "article_url": "https://happyin.space/projects/steprefine/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/ec4bce135beda7528245177aab3cd5b9c2695939/docs/projects/steprefine.md",
+        "agent_context_url": "https://happyin.space/projects/steprefine/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "StepRefine training-free decoding released for multimodal diffusion LLMs",
+        "version": null,
+        "summary": "StepRefine introduces step-aware decoding for multimodal diffusion language models. It monitors entropy spikes during iterative token generation and switches from discrete token commitment to continuous latent refinement using probability-weighted embeddings. The method is training-free and targets models including LLaDA-V, LLaDA-o, Dream-VL, and LaViDa."
+      },
+      "tags": [
+        "Steprefine: steprefine-mdlm-denoising-refinement",
+        "family:steprefine",
+        "misc",
+        "steprefine",
+        "steprefine-mdlm-denoising-refinement"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "steprefine"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:32:55Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "StepRefine introduces step-aware decoding for multimodal diffusion language models. It monitors entropy spikes during iterative token generation and switches from discrete token commitment to continuous latent refinement using probability-weighted embeddings. The method is training-free and targets models including LLaDA-V, LLaDA-o, Dream-VL, and LaViDa."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T17:32:55Z",
+        "classified_at": "2026-11-19T17:32:55Z",
+        "enriched_at": "2026-11-19T17:32:55Z",
+        "verified_at": "2026-11-19T17:32:55Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-a1a2802048",
+      "entry_type": "news",
+      "category": "vlm",
+      "lang": "en",
+      "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of medical vision-language models",
+      "summary": "The SCAN framework enables distributed medical centers to adapt 3D vision-language models for neurological disease classification using site-aware prototype aggregation with calibrated differential privacy.",
+      "research_notes": "Extract localized 3D brain MRI representations locally at each hospital site using a shared frozen medical vision-language backbone without sharing raw volumetric imaging data.\n\nCompute local class prototypes by calculating normalized feature sums and patient counts for each neurological condition category.\n\nApply calibrated differential privacy noise to norm-bounded prototype vectors and broadcast the differentially private site summaries across collaborating institutions.\n\nAggregate cross-site prototype summaries to classify neurological pathology at local or unseen scanner sites without backpropagation.\n\nBound prototype vector norms before noise addition to maintain formal differential privacy guarantees while mitigating feature distortion.\n\nRetain exact unnoised local prototypes for in-institution predictions while using privatized aggregated prototypes only for cross-site generalization.",
+      "project": {
+        "name": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "family_slug": "scan-site-aware-collaborative-vlm-adaptation",
+        "family_display": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "model_slug": "scan-site-aware-collaborative-vlm-adaptation",
+        "model_display": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "scan-site-aware-collaborative-vlm-adaptation-research",
+        "thread_display": "Scan Site Aware Collaborative Vlm Adaptation Research",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "article_url": "https://happyin.space/projects/scan-site-aware-collaborative-vlm-adaptation/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d313a4f00fc64ee933e4ba6cc8f60fd0935ff5ac/docs/projects/scan-site-aware-collaborative-vlm-adaptation.md",
+        "agent_context_url": "https://happyin.space/projects/scan-site-aware-collaborative-vlm-adaptation/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of medical vision-language models",
+        "version": null,
+        "summary": "The SCAN framework enables distributed medical centers to adapt 3D vision-language models for neurological disease classification using site-aware prototype aggregation with calibrated differential privacy."
+      },
+      "tags": [
+        "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "family:scan-site-aware-collaborative-vlm-adaptation",
+        "scan-site-aware-collaborative-vlm-adaptation",
+        "scan-site-aware-collaborative-vlm-adaptation-research",
+        "vlm"
+      ],
+      "facets": {
+        "category": "vlm",
+        "entry_type": "news",
+        "projects": [
+          "scan-site-aware-collaborative-vlm-adaptation"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.21955",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T15:56:19Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "The SCAN framework enables distributed medical centers to adapt 3D vision-language models for neurological disease classification using site-aware prototype aggregation with calibrated differential privacy."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T15:56:19Z",
+        "classified_at": "2026-11-19T15:56:19Z",
+        "enriched_at": "2026-11-19T15:56:19Z",
+        "verified_at": "2026-11-19T15:56:19Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-994a331b9a",
+      "entry_type": "news",
+      "category": "vlm",
+      "lang": "en",
+      "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+      "summary": "Researchers introduced SCAN, a training-free framework that adapts 3D brain MRI vision-language foundation models across 67 clinical sites by aggregating differentially private class prototypes without raw scan transmission.",
+      "research_notes": "Extract localized 3D brain MRI representations locally at each hospital site using a shared frozen medical vision-language backbone without sharing raw volumetric imaging data.\n\nCompute local class prototypes by calculating normalized feature sums and patient counts for each neurological condition category.\n\nApply calibrated differential privacy noise to norm-bounded prototype vectors and broadcast the differentially private site summaries across collaborating institutions.\n\nAggregate cross-site prototype summaries to classify neurological pathology at local or unseen scanner sites without backpropagation.\n\nBound prototype vector norms before noise addition to maintain formal differential privacy guarantees while mitigating feature distortion.\n\nRetain exact unnoised local prototypes for in-institution predictions while using privatized aggregated prototypes only for cross-site generalization.",
+      "project": {
+        "name": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "family_slug": "scan-site-aware-collaborative-vlm-adaptation",
+        "family_display": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "model_slug": "scan-site-aware-collaborative-vlm-adaptation",
+        "model_display": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "scan-site-aware-collaborative-vlm-adaptation-research",
+        "thread_display": "Scan Site Aware Collaborative Vlm Adaptation Research",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "article_url": "https://happyin.space/projects/scan-site-aware-collaborative-vlm-adaptation/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d313a4f00fc64ee933e4ba6cc8f60fd0935ff5ac/docs/projects/scan-site-aware-collaborative-vlm-adaptation.md",
+        "agent_context_url": "https://happyin.space/projects/scan-site-aware-collaborative-vlm-adaptation/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "SCAN framework proposed for privacy-preserving collaborative adaptation of brain MRI vision-language models",
+        "version": null,
+        "summary": "Researchers introduced SCAN, a training-free framework that adapts 3D brain MRI vision-language foundation models across 67 clinical sites by aggregating differentially private class prototypes without raw scan transmission."
+      },
+      "tags": [
+        "Scan Site Aware Collaborative Vlm Adaptation: scan-site-aware-collaborative-vlm-adaptation-research",
+        "family:scan-site-aware-collaborative-vlm-adaptation",
+        "scan-site-aware-collaborative-vlm-adaptation",
+        "scan-site-aware-collaborative-vlm-adaptation-research",
+        "vlm"
+      ],
+      "facets": {
+        "category": "vlm",
+        "entry_type": "news",
+        "projects": [
+          "scan-site-aware-collaborative-vlm-adaptation"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.21955",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T15:56:19Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Researchers introduced SCAN, a training-free framework that adapts 3D brain MRI vision-language foundation models across 67 clinical sites by aggregating differentially private class prototypes without raw scan transmission."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T15:56:19Z",
+        "classified_at": "2026-11-19T15:56:19Z",
+        "enriched_at": "2026-11-19T15:56:19Z",
+        "verified_at": "2026-11-19T15:56:19Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-96edc5b567",
+      "entry_type": "news",
+      "category": "animation-motion",
+      "lang": "en",
+      "title": "HeyGen releases Avatar 6 neural digital twin model",
+      "summary": "HeyGen introduced Avatar 6, an avatar generation model that builds digital twins from approximately 30 seconds of video, reference photos, and audio. The architecture supports 1080p and 2K resolution, script-aware dynamic gestures, motion prompt controls, and API access across standard and Turbo inference tiers.",
+      "research_notes": "Record and upload approximately 30 seconds of reference video footage, high-resolution portrait photos, and a clear voice sample to establish the digital twin profile.\n\nConfigure generation parameters including model tier (heygen-avatar-6 or heygen-avatar-6-turbo), target resolution (1080p or 2K), and optional motion_prompt text for specific gesture control.\n\nSubmit the spoken script or synchronized audio track via web studio or Application/Model API endpoints (specifying engine.type: 'heygen-avatar-6') to render the final video.\n\nUse text-based motion prompts to guide gesture tone and avoid excessive motion in formal or technical presentations.\n\nSelect the Turbo variant for real-time interactive or high-volume batch rendering where latency and cost outweigh marginal 2K detail differences.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "heygen",
+        "display": "HeyGen avatar platform and developer integration",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "avatar-platform-and-developer-integration",
+        "thread_display": "Avatar Platform And Developer Integration",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "HeyGen avatar platform and developer integration",
+        "article_url": "https://happyin.space/organizations/heygen/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d07504c534be57b638eb070ff6f9616c7142664a/docs/organizations/heygen.md",
+        "agent_context_url": "https://happyin.space/organizations/heygen/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "HeyGen releases Avatar 6 neural digital twin model",
+        "version": null,
+        "summary": "HeyGen introduced Avatar 6, an avatar generation model that builds digital twins from approximately 30 seconds of video, reference photos, and audio. The architecture supports 1080p and 2K resolution, script-aware dynamic gestures, motion prompt controls, and API access across standard and Turbo inference tiers."
+      },
+      "tags": [
+        "HeyGen avatar platform and developer integration",
+        "animation-motion",
+        "avatar-platform-and-developer-integration",
+        "heygen",
+        "organization:heygen"
+      ],
+      "facets": {
+        "category": "animation-motion",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "heygen"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://www.heygen.com/models/heygen-avatar-6",
+          "host": "heygen.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T16:06:25Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "HeyGen introduced Avatar 6, an avatar generation model that builds digital twins from approximately 30 seconds of video, reference photos, and audio. The architecture supports 1080p and 2K resolution, script-aware dynamic gestures, motion prompt controls, and API access across standard and Turbo inference tiers."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T16:06:25Z",
+        "classified_at": "2026-11-19T16:06:25Z",
+        "enriched_at": "2026-11-19T16:06:25Z",
+        "verified_at": "2026-11-19T16:06:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-7c1de821f8",
+      "entry_type": "news",
+      "category": "diffusion-image",
+      "lang": "en",
+      "title": "Kling Image 4.0 update adds Tone color presets, font styling, and resolution-based API billing",
+      "summary": "Kling AI updated its image generation suite with Kling Image 4.0, incorporating over 110 Tone color-grading presets, 70+ built-in fonts with font reference matching, max dimensions up to 9984x6656, and resolution-tiered API pricing.",
+      "research_notes": "Select generation mode (Text-to-Image, Image-to-Image, or Long Image) and target resolution (2K, 4K, or native 8K up to 9984x6656) in Kling Creative Studio or API payload.\n\nUpload up to 10 reference images and reference them in the prompt text using tags such as @image_1 to enforce character identity, style, or compositional layout.\n\nInclude up to 2000 characters of in-image typography within quotation marks, selecting from 70+ built-in fonts or providing a font reference image for style guidance.\n\nConfigure color grading by selecting from 110+ Tone presets or specifying custom HEX/RGB values to establish consistent visual atmosphere.\n\nSet serial output count up to 10 images when generating cohesive multi-frame storyboards, e-commerce variations, or narrative sequences from a single prompt.\n\nTag specific reference images explicitly with @image_1 through @image_10 to separate character identity from background lighting rather than relying on unstructured composite references.\n\nUtilize the expanded 15,000-token context limit to provide structured layout descriptions and multi-section text placement instructions for complex poster and editorial designs.\n\nApply built-in Tone presets or explicit HEX color codes instead of descriptive lighting keywords to maintain uniform color grading across multi-image narrative series.",
+      "project": {
+        "name": "Kling Image 4.0: kling-image-4-release",
+        "family_slug": "kling-image-4",
+        "family_display": "Kling Image 4.0: kling-image-4-release",
+        "model_slug": "kling-image-4",
+        "model_display": "Kling Image 4.0: kling-image-4-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "kling-image-4-release",
+        "thread_display": "Kling Image 4 Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Kling Image 4.0: kling-image-4-release",
+        "article_url": "https://happyin.space/projects/kling-image-4/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4dedad65cb13031fe21fcda5b5fec57e3a443d99/docs/projects/kling-image-4.md",
+        "agent_context_url": "https://happyin.space/projects/kling-image-4/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 update adds Tone color presets, font styling, and resolution-based API billing",
+        "version": null,
+        "summary": "Kling AI updated its image generation suite with Kling Image 4.0, incorporating over 110 Tone color-grading presets, 70+ built-in fonts with font reference matching, max dimensions up to 9984x6656, and resolution-tiered API pricing."
+      },
+      "tags": [
+        "Kling Image 4.0: kling-image-4-release",
+        "diffusion-image",
+        "family:kling-image-4",
+        "kling-image-4",
+        "kling-image-4-release"
+      ],
+      "facets": {
+        "category": "diffusion-image",
+        "entry_type": "news",
+        "projects": [
+          "kling-image-4"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+          "host": "kling.ai",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:54:20Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://kling.ai/release-note/release-notes/Kling_Image_4",
+          "host": "kling.ai",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:54:20Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Kling AI updated its image generation suite with Kling Image 4.0, incorporating over 110 Tone color-grading presets, 70+ built-in fonts with font reference matching, max dimensions up to 9984x6656, and resolution-tiered API pricing."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T17:54:20Z",
+        "classified_at": "2026-11-19T17:54:20Z",
+        "enriched_at": "2026-11-19T17:54:20Z",
+        "verified_at": "2026-11-19T17:54:20Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-4cee766be7",
+      "entry_type": "news",
+      "category": "llm",
+      "lang": "en",
+      "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+      "summary": "StepRefine code was published in the mdlm-steprefine repository. The implementation provides entropy anomaly detection, multi-round continuous latent refinement with KL-divergence stability checks, and budget compensation to mitigate hallucinations in multimodal diffusion architectures.",
+      "research_notes": "Clone the official repository from https://github.com/mdlm-steprefine/mdlm-steprefine and install the package dependencies.\n\nLoad a supported pretrained multimodal diffusion language model checkpoint such as LLaDA-V, LLaDA-o, Dream-VL, or LaViDa.\n\nAttach the StepRefine step-aware decoding wrapper to replace the default discrete token commitment schedule.\n\nConfigure entropy anomaly detection thresholds, maximum latent refinement passes, and KL-divergence stability stopping criteria.\n\nExecute inference, allowing the controller to dynamically trigger continuous latent refinement during detected entropy spikes.\n\nEnable budget compensation during latent refinement to keep overall inference latency and forward pass counts comparable to baseline diffusion decoding.\n\nCalibrate the temporal window size for entropy spike detection based on the total denoising steps of the chosen backbone to avoid false-positive refinement switches.\n\nUse KL-divergence thresholding rather than fixed refinement iterations to terminate continuous optimization early when semantic distributions stabilize.",
+      "project": {
+        "name": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "family_slug": "steprefine",
+        "family_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "model_slug": "steprefine",
+        "model_display": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "steprefine-mdlm-denoising-refinement",
+        "thread_display": "Steprefine Mdlm Denoising Refinement",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Steprefine: steprefine-mdlm-denoising-refinement",
+        "article_url": "https://happyin.space/projects/steprefine/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/ec4bce135beda7528245177aab3cd5b9c2695939/docs/projects/steprefine.md",
+        "agent_context_url": "https://happyin.space/projects/steprefine/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
+        "version": null,
+        "summary": "StepRefine code was published in the mdlm-steprefine repository. The implementation provides entropy anomaly detection, multi-round continuous latent refinement with KL-divergence stability checks, and budget compensation to mitigate hallucinations in multimodal diffusion architectures."
+      },
+      "tags": [
+        "Steprefine: steprefine-mdlm-denoising-refinement",
+        "family:steprefine",
+        "llm",
+        "steprefine",
+        "steprefine-mdlm-denoising-refinement"
+      ],
+      "facets": {
+        "category": "llm",
+        "entry_type": "news",
+        "projects": [
+          "steprefine"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:32:55Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "StepRefine code was published in the mdlm-steprefine repository. The implementation provides entropy anomaly detection, multi-round continuous latent refinement with KL-divergence stability checks, and budget compensation to mitigate hallucinations in multimodal diffusion architectures."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T17:32:55Z",
+        "classified_at": "2026-11-19T17:32:55Z",
+        "enriched_at": "2026-11-19T17:32:55Z",
+        "verified_at": "2026-11-19T17:32:55Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-16b9f80345",
+      "entry_type": "news",
+      "category": "llm",
+      "lang": "en",
+      "title": "Kling Image 4.0 launches with native 8K output and multi-reference conditioning",
+      "summary": "Kling AI released Kling Image 4.0 featuring native 8K resolution output alongside 2K and 4K, an expanded 15,000-token context window, multi-reference conditioning supporting up to 10 tagged images, serial generation of up to 10 frames, and typographic rendering up to 2000 characters.",
+      "research_notes": "Select generation mode (Text-to-Image, Image-to-Image, or Long Image) and target resolution (2K, 4K, or native 8K up to 9984x6656) in Kling Creative Studio or API payload.\n\nUpload up to 10 reference images and reference them in the prompt text using tags such as @image_1 to enforce character identity, style, or compositional layout.\n\nInclude up to 2000 characters of in-image typography within quotation marks, selecting from 70+ built-in fonts or providing a font reference image for style guidance.\n\nConfigure color grading by selecting from 110+ Tone presets or specifying custom HEX/RGB values to establish consistent visual atmosphere.\n\nSet serial output count up to 10 images when generating cohesive multi-frame storyboards, e-commerce variations, or narrative sequences from a single prompt.\n\nTag specific reference images explicitly with @image_1 through @image_10 to separate character identity from background lighting rather than relying on unstructured composite references.\n\nUtilize the expanded 15,000-token context limit to provide structured layout descriptions and multi-section text placement instructions for complex poster and editorial designs.\n\nApply built-in Tone presets or explicit HEX color codes instead of descriptive lighting keywords to maintain uniform color grading across multi-image narrative series.",
+      "project": {
+        "name": "Kling Image 4.0: kling-image-4-release",
+        "family_slug": "kling-image-4",
+        "family_display": "Kling Image 4.0: kling-image-4-release",
+        "model_slug": "kling-image-4",
+        "model_display": "Kling Image 4.0: kling-image-4-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "kling-image-4-release",
+        "thread_display": "Kling Image 4 Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Kling Image 4.0: kling-image-4-release",
+        "article_url": "https://happyin.space/projects/kling-image-4/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4dedad65cb13031fe21fcda5b5fec57e3a443d99/docs/projects/kling-image-4.md",
+        "agent_context_url": "https://happyin.space/projects/kling-image-4/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Kling Image 4.0 launches with native 8K output and multi-reference conditioning",
+        "version": null,
+        "summary": "Kling AI released Kling Image 4.0 featuring native 8K resolution output alongside 2K and 4K, an expanded 15,000-token context window, multi-reference conditioning supporting up to 10 tagged images, serial generation of up to 10 frames, and typographic rendering up to 2000 characters."
+      },
+      "tags": [
+        "Kling Image 4.0: kling-image-4-release",
+        "family:kling-image-4",
+        "kling-image-4",
+        "kling-image-4-release",
+        "llm"
+      ],
+      "facets": {
+        "category": "llm",
+        "entry_type": "news",
+        "projects": [
+          "kling-image-4"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://kling.ai/release-note/release-notes/Kling_Image_4",
+          "host": "kling.ai",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:54:20Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+          "host": "kling.ai",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-19T17:54:20Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Kling AI released Kling Image 4.0 featuring native 8K resolution output alongside 2K and 4K, an expanded 15,000-token context window, multi-reference conditioning supporting up to 10 tagged images, serial generation of up to 10 frames, and typographic rendering up to 2000 characters."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T17:54:20Z",
+        "classified_at": "2026-11-19T17:54:20Z",
+        "enriched_at": "2026-11-19T17:54:20Z",
+        "verified_at": "2026-11-19T17:54:20Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-0c94fdb677",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Snapchat launches Easy Lens CLI and Lens Studio MCP for AI coding assistants",
+      "summary": "Snap launched the Easy Lens CLI and Model Context Protocol integration for Lens Studio, enabling developers to build, debug, preview, and publish AR Lenses and Web Lens games using natural-language AI coding tools including Claude Code, Cursor, and Codex.",
+      "research_notes": "Install the cross-platform Easy Lens CLI and authenticate with a Snapchat developer account.\n\nConnect an AI coding assistant such as Claude Code, Cursor, or Codex to the workspace via the Lens Studio Model Context Protocol (MCP) server.\n\nDescribe the desired AR effect, face filter, or Web Lens game mechanics in natural language to let the agent assemble components from AR building blocks and AI asset generators.\n\nStream live preview builds directly to a paired mobile phone for camera tracking and runtime debugging.\n\nPublish the finalized Lens through the automated CLI or Lens Studio flow for platform moderation review and monetization setup.\n\nUse structured natural language prompts that explicitly define tracking targets, interaction physics, and leaderboard states to constrain agent generation.\n\nVerify generated 3D assets and scripts against mobile performance budgets on paired physical devices before submitting to platform review.\n\nCompose complex scenes from established modular AR building blocks rather than prompting custom shader code from scratch.",
+      "project": {
+        "name": "Snapchat lenses and filters",
+        "family_slug": "snapchat",
+        "family_display": "Snapchat lenses and filters",
+        "model_slug": "snapchat",
+        "model_display": "Snapchat lenses and filters",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "snapchat-lenses-and-filters",
+        "thread_display": "Snapchat Lenses And Filters",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Snapchat lenses and filters",
+        "article_url": "https://happyin.space/projects/snapchat/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/97b18e667b820ac8d5cf20ee62f980f1e9705e7b/docs/projects/snapchat.md",
+        "agent_context_url": "https://happyin.space/projects/snapchat/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Snapchat launches Easy Lens CLI and Lens Studio MCP for AI coding assistants",
+        "version": null,
+        "summary": "Snap launched the Easy Lens CLI and Model Context Protocol integration for Lens Studio, enabling developers to build, debug, preview, and publish AR Lenses and Web Lens games using natural-language AI coding tools including Claude Code, Cursor, and Codex."
+      },
+      "tags": [
+        "Snapchat lenses and filters",
+        "family:snapchat",
+        "misc",
+        "snapchat",
+        "snapchat-lenses-and-filters"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "snapchat"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+          "host": "techcrunch.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T16:55:33Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Snap launched the Easy Lens CLI and Model Context Protocol integration for Lens Studio, enabling developers to build, debug, preview, and publish AR Lenses and Web Lens games using natural-language AI coding tools including Claude Code, Cursor, and Codex."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T16:55:33Z",
+        "classified_at": "2026-11-19T16:55:33Z",
+        "enriched_at": "2026-11-19T16:55:33Z",
+        "verified_at": "2026-11-19T16:55:33Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
     {
       "schema_version": "1.4",
       "id": "n-492c016626",
