@@ -1144,6 +1144,9 @@
     "n-95d245f3eb",
     "n-367db0be8e"
   ],
+  "HeyGen avatar platform and developer integration": [
+    "n-96edc5b567"
+  ],
   "HiAR": [
     "n-e304c780ea"
   ],
@@ -3157,6 +3160,7 @@
     "n-d4d07dd0bf",
     "n-cd25320940",
     "n-aa28911ec6",
+    "n-96edc5b567",
     "n-807bf78763",
     "n-70f82f82ae",
     "n-61c8c02fec",
@@ -3338,6 +3342,9 @@
   ],
   "ava-encoder": [
     "n-8f2e77690e"
+  ],
+  "avatar-platform-and-developer-integration": [
+    "n-96edc5b567"
   ],
   "avatarpointillist": [
     "n-b651b2cbf2"
@@ -7907,6 +7914,9 @@
   "heydoughogan ComfyUI VFX Workflow": [
     "n-4941701283"
   ],
+  "heygen": [
+    "n-96edc5b567"
+  ],
   "heygen-hyperframes": [
     "n-076b3f0be6"
   ],
@@ -10604,6 +10614,9 @@
   ],
   "organization:happyin": [
     "n-001a2f8ef9"
+  ],
+  "organization:heygen": [
+    "n-96edc5b567"
   ],
   "organization:meta": [
     "n-d46d9eb28f"

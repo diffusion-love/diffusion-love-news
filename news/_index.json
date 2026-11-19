@@ -38,6 +38,25 @@
     "has_video": false
   },
   {
+    "id": "n-96edc5b567",
+    "date": "2026-11-18",
+    "title": "HeyGen releases Avatar 6 neural digital twin model",
+    "category": "animation-motion",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "HeyGen avatar platform and developer integration",
+      "animation-motion",
+      "avatar-platform-and-developer-integration",
+      "heygen",
+      "organization:heygen"
+    ],
+    "primary_link": "https://www.heygen.com/models/heygen-avatar-6",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-492c016626",
     "date": "2026-11-13",
     "title": "Google releases Gemini 4 Hydrogen coding model",

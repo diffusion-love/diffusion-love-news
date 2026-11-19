@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-19T15:56:19Z",
+  "generated_at": "2026-11-19T16:06:25Z",
   "site": "diffusion.love",
-  "total": 977,
+  "total": 978,
   "records": [
     {
       "schema_version": "1.4",
@@ -208,6 +208,115 @@
         "classified_at": "2026-11-19T15:56:19Z",
         "enriched_at": "2026-11-19T15:56:19Z",
         "verified_at": "2026-11-19T15:56:19Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-96edc5b567",
+      "entry_type": "news",
+      "category": "animation-motion",
+      "lang": "en",
+      "title": "HeyGen releases Avatar 6 neural digital twin model",
+      "summary": "HeyGen introduced Avatar 6, an avatar generation model that builds digital twins from approximately 30 seconds of video, reference photos, and audio. The architecture supports 1080p and 2K resolution, script-aware dynamic gestures, motion prompt controls, and API access across standard and Turbo inference tiers.",
+      "research_notes": "Record and upload approximately 30 seconds of reference video footage, high-resolution portrait photos, and a clear voice sample to establish the digital twin profile.\n\nConfigure generation parameters including model tier (heygen-avatar-6 or heygen-avatar-6-turbo), target resolution (1080p or 2K), and optional motion_prompt text for specific gesture control.\n\nSubmit the spoken script or synchronized audio track via web studio or Application/Model API endpoints (specifying engine.type: 'heygen-avatar-6') to render the final video.\n\nUse text-based motion prompts to guide gesture tone and avoid excessive motion in formal or technical presentations.\n\nSelect the Turbo variant for real-time interactive or high-volume batch rendering where latency and cost outweigh marginal 2K detail differences.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "heygen",
+        "display": "HeyGen avatar platform and developer integration",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "avatar-platform-and-developer-integration",
+        "thread_display": "Avatar Platform And Developer Integration",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "HeyGen avatar platform and developer integration",
+        "article_url": "https://happyin.space/organizations/heygen/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d07504c534be57b638eb070ff6f9616c7142664a/docs/organizations/heygen.md",
+        "agent_context_url": "https://happyin.space/organizations/heygen/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "HeyGen releases Avatar 6 neural digital twin model",
+        "version": null,
+        "summary": "HeyGen introduced Avatar 6, an avatar generation model that builds digital twins from approximately 30 seconds of video, reference photos, and audio. The architecture supports 1080p and 2K resolution, script-aware dynamic gestures, motion prompt controls, and API access across standard and Turbo inference tiers."
+      },
+      "tags": [
+        "HeyGen avatar platform and developer integration",
+        "animation-motion",
+        "avatar-platform-and-developer-integration",
+        "heygen",
+        "organization:heygen"
+      ],
+      "facets": {
+        "category": "animation-motion",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "heygen"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://www.heygen.com/models/heygen-avatar-6",
+          "host": "heygen.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-19T16:06:25Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "HeyGen introduced Avatar 6, an avatar generation model that builds digital twins from approximately 30 seconds of video, reference photos, and audio. The architecture supports 1080p and 2K resolution, script-aware dynamic gestures, motion prompt controls, and API access across standard and Turbo inference tiers."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-19T16:06:25Z",
+        "classified_at": "2026-11-19T16:06:25Z",
+        "enriched_at": "2026-11-19T16:06:25Z",
+        "verified_at": "2026-11-19T16:06:25Z",
         "models_used": {
           "research": "curated-live-material"
         },
