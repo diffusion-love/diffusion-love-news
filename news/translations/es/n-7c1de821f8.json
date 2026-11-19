@@ -1,0 +1,11 @@
+{
+ "id": "n-7c1de821f8",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Seleccione el modo de generación (Text-to-Image, Image-to-Image o Long Image) y la resolución de salida (2K, 4K o 8K nativo, hasta 9984x6656) en Kling Creative Studio o en el payload de la API.\n\nSuba hasta 10 imágenes de referencia y haga referencia a ellas en el texto del prompt mediante etiquetas como @image_1 para reforzar la identidad del personaje, el estilo o la composición.\n\nIncluya hasta 2000 caracteres de tipografía dentro de la imagen entre comillas «», eligiendo entre más de 70 fuentes integradas o proporcionando una imagen de referencia tipográfica como guía de estilo.\n\nConfigure la gradación de color seleccionando entre más de 110 preajustes de Tone o especificando valores HEX/RGB personalizados para establecer una atmósfera visual coherente.\n\nDefina un número de salida en serie de hasta 10 imágenes al generar storyboards multicuadro cohesivos, variaciones para comercio electrónico o secuencias narrativas a partir de un único prompt.\n\nEtiquete explícitamente las imágenes de referencia con @image_1 a @image_10 para separar la identidad del personaje de la iluminación del fondo, en lugar de depender de referencias compuestas no estructuradas.\n\nAproveche el límite ampliado de contexto de 15,000 tokens para incluir descripciones estructuradas de maquetación e instrucciones de colocación de texto por secciones en diseños complejos de carteles y editoriales.\n\nApplique preajustes de Tone integrados o códigos de color HEX explícitos en lugar de palabras clave descriptivas de iluminación para mantener una gradación de color uniforme en series narrativas de varias imágenes.",
+ "source_sha256": "18b98bae0bb5c9cfb2e4d441b53396054f6c2dd40d5a774e51db2e916ff7ec75",
+ "summary": "Kling AI actualizó su suite de generación de imágenes con Kling Image 4.0, que incorpora más de 110 preajustes de gradación de color Tone, más de 70 fuentes integradas con emparejamiento de fuentes por referencia, dimensiones máximas de hasta 9984x6656 y precios de API escalonados según la resolución.",
+ "title": "Kling Image 4.0 añade preajustes de color Tone, estilo tipográfico y facturación de API por resolución",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

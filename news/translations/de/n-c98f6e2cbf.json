@@ -1,0 +1,11 @@
+{
+ "id": "n-c98f6e2cbf",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Wählen Sie den Generierungsmodus (Text-to-Image, Image-to-Image oder Long Image) und die Zielauflösung (2K, 4K oder native 8K bis 9984x6656) im Kling Creative Studio oder im API-Payload.\n\nLaden Sie bis zu 10 Referenzbilder hoch und verweisen Sie im Prompt-Text mit Tags wie @image_1 darauf, um Figurenidentität, Stil oder Bildaufbau gezielt festzulegen.\n\nFügen Sie bis zu 2000 Zeichen In-Image-Typografie in Anführungszeichen ein und wählen Sie aus über 70 integrierten Schriftarten oder stellen Sie ein Schriftreferenzbild für die stilistische Orientierung bereit.\n\nKonfigurieren Sie das Color Grading, indem Sie aus über 110 Tone-Presets wählen oder eigene HEX/RGB-Werte festlegen, um eine konsistente visuelle Atmosphäre zu schaffen.\n\nLegen Sie die Anzahl serieller Ausgaben auf bis zu 10 Bilder fest, wenn Sie aus einem einzigen Prompt kohärente mehrteilige Storyboards, E-Commerce-Varianten oder erzählerische Sequenzen erzeugen.\n\nKennzeichnen Sie einzelne Referenzbilder explizit mit @image_1 bis @image_10, um Figurenidentität und Hintergrundlicht zu trennen, statt sich auf unstrukturierte zusammengesetzte Referenzen zu verlassen.\n\nNutzen Sie das erweiterte Kontextlimit von 15.000 Token, um strukturierte Layoutbeschreibungen und mehrteilige Anweisungen zur Textplatzierung für komplexe Poster- und Editorial-Designs zu formulieren.\n\nWenden Sie integrierte Tone-Presets oder explizite HEX-Farbcodes an, statt beschreibender Lichtbegriffe, um eine einheitliche Farbgestaltung über Bildserien mit narrativem Bezug hinweg zu gewährleisten.",
+ "source_sha256": "7701a1df2cbcfb257bf293aa95841fe4a20f5ccf6b998616335738282b4b2e2e",
+ "summary": "Kling AI hat Kling Image 4.0 vorgestellt, das auf einer vereinheitlichten autoregressiven Architektur basiert. Sie verbindet visuelles Verständnis mit Bildsynthese und unterstützt Text-to-Image-, Image-to-Image- und vertikale Long-Image-Generierung.",
+ "title": "Kling Image 4.0 debütiert mit vereinheitlichter Architektur für Verständnis und Generierung",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

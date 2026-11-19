@@ -1,0 +1,11 @@
+{
+ "id": "n-96edc5b567",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Enregistrez et importez environ 30 secondes de séquences vidéo de référence, des photos de portrait haute résolution et un échantillon vocal clair pour établir le profil du jumeau numérique.\n\nConfigurez les paramètres de génération, notamment le niveau de modèle (heygen-avatar-6 ou heygen-avatar-6-turbo), la résolution cible (1080p ou 2K) et, en option, le texte de motion_prompt pour contrôler des gestes précis.\n\nSoumettez le script parlé ou la piste audio synchronisée via le studio web ou les points de terminaison API Application/Model (en spécifiant engine.type: 'heygen-avatar-6') afin de générer la vidéo finale.\n\nUtilisez des prompts de mouvement textuels pour guider le ton des gestes et évitez les mouvements excessifs dans les présentations formelles ou techniques.\n\nChoisissez la variante Turbo pour le rendu interactif en temps réel ou le traitement par lots à fort volume, lorsque la latence et le coût l'emportent sur les légères différences de détail en 2K.",
+ "source_sha256": "c2689f7f2509f32341c0bd5590f2b58c7a8988afaa051b682a88f49f85f1654a",
+ "summary": "HeyGen a présenté Avatar 6, un modèle de génération d'avatars qui crée des jumeaux numériques à partir d'environ 30 secondes de vidéo, de photos de référence et d'audio. L'architecture prend en charge les résolutions 1080p et 2K, des gestes dynamiques tenant compte du script, des contrôles par prompts de mouvement, ainsi qu'un accès API aux niveaux d'inférence standard et Turbo.",
+ "title": "HeyGen publie Avatar 6, un modèle neuronal de jumeau numérique",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

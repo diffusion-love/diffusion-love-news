@@ -1,0 +1,11 @@
+{
+ "id": "n-3dbdd70404",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez et installez le module personnalisé du pipeline d'échange de visages en quatre étapes dans le répertoire custom_nodes de ComfyUI.\n\nInstallez ComfyUI-Spectrum-MiniMax-H3 pour activer les nœuds de planification spectrale et calibrer les couches d'attention.\n\nChargez le workflow d'échantillonnage par tuiles DenoMix ainsi que les checkpoints pour l'upscaling de latents haute résolution.\n\nAppliquez le correctif du nœud FastDerope à la couche d'embedding positionnel rotatif afin d'optimiser le traitement de l'attention lors de la génération des images.\n\nSéparez le suivi du sujet et la génération du masque facial dans une passe initiale, avant d'exécuter le remplacement par composition latente, afin d'assurer la stabilité des frontières.\n\nUtilisez un échantillonnage par tuiles avec des marges de recouvrement constantes dans DenoMix lors du traitement d'images vidéo haute résolution, afin d'éviter les discontinuités aux frontières des tuiles.\n\nVérifiez que les paramètres de dimension de l'embedding rotatif dans FastDerope correspondent exactement à la variante de modèle MiniMax H3 utilisée, afin d'éviter la divergence de l'attention.",
+ "source_sha256": "92f69497fdebfa853003dedced4def6db32db66b417af5d5291d43564926fea2",
+ "summary": "Les versions communautaires pour MiniMax H3 introduisent un pipeline ComfyUI d'échange de visages en quatre étapes, l'intégration de Spectrum v0.2.30, des workflows d'échantillonnage par tuiles DenoMix et des correctifs d'embedding rotatif FastDerope.",
+ "title": "MiniMax H3 : des outils communautaires ajoutent l'échange de visages, de nouveaux échantillonnages et des optimisations de nœuds",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

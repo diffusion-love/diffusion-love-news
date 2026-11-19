@@ -1,0 +1,11 @@
+{
+ "id": "n-d8ac79bdc7",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Sélectionnez le mode de génération (Text-to-Image, Image-to-Image ou Long Image) et la résolution cible (2K, 4K, ou 8K natif jusqu'à 9984x6656) dans Kling Creative Studio ou dans la charge utile de l'API.\n\nImportez jusqu'à 10 images de référence et référencez-les dans le texte du prompt à l'aide de balises telles que @image_1 pour imposer l'identité d'un personnage, un style ou une disposition de composition.\n\nIncluez jusqu'à 2000 caractères de typographie intégrée à l'image entre guillemets, en choisissant parmi plus de 70 polices intégrées ou en fournissant une image de référence de police pour guider le style.\n\nConfigurez l'étalonnage des couleurs en sélectionnant parmi plus de 110 préréglages de Tone ou en précisant des valeurs HEX/RGB personnalisées afin d'établir une atmosphère visuelle cohérente.\n\nDéfinissez un nombre de sorties en série pouvant aller jusqu'à 10 images lorsque vous générez des storyboards multi-cadres cohérents, des variations e-commerce ou des séquences narratives à partir d'un seul prompt.\n\nAssociez explicitement les images de référence spécifiques à @image_1 jusqu'à @image_10 pour séparer l'identité du personnage de l'éclairage d'arrière-plan, plutôt que de vous appuyer sur des références composites non structurées.\n\nTirez parti de la limite de contexte élargie de 15 000 tokens pour fournir des descriptions de mise en page structurées et des instructions de placement de texte en plusieurs sections pour des affiches et des maquettes éditoriales complexes.\n\nAppliquez les préréglages de Tone intégrés ou des codes couleur HEX explicites plutôt que des mots-clés descriptifs d'éclairage afin de maintenir un étalonnage des couleurs uniforme dans les séries narratives multi-images.",
+ "source_sha256": "001c2ff4f499da07f3f59dd112b03764bef2a3c7faefb292e28a2974eae31da3",
+ "summary": "Le modèle Kling Image 4.0 met l'accent sur un rendu amélioré de l'éclairage physique et de la texture de la peau, et prend en charge la génération cohérente d'une séquence de jusqu'à 10 images ainsi que jusqu'à 10 images de référence par tâche de génération.",
+ "title": "Kling Image 4.0 apporte la cohérence des séries en 10 images",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

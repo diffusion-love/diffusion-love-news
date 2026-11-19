@@ -1,0 +1,11 @@
+{
+ "id": "n-f686305d6a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Simulieren Sie optische diskrete Fourier-Transformationen lokal mit dem Open-Source-SDK von Q.ANT in Python oder C, bevor Sie auf physische photonische Hardware deployen.\n\nInstallieren Sie den Q.ANT NPU Gen 2+ Co-Prozessor in einen standardmäßigen PCIe-Steckplatz innerhalb eines Servers mit einer AMD-Instinct-Host-GPU.\n\nPartitionieren Sie die Modellausführung, indem Sie Fourier-transformierbare Attention-Schichten dem photonischen NPU zuordnen, während verbleibende dichte und speichergebundene Schichten auf der Host-GPU verbleiben.\n\nValidieren Sie Fourier-transformierte Ersatzschichten für neuronale Netze gegen herkömmliche Attention-Mechanismen in einer CPU-Simulation, um die Genauigkeitsverluste des Modells vor der physischen Auslagerung zu messen.\n\nZielen Sie auf Modelle mit Engpässen bei der Sequenzlänge, bei denen optische Einzeldurchgang-Fourier-Transformationen den maximalen Latenz- und Energievorteil gegenüber elektronischer quadratischer Attention erzielen.",
+ "source_sha256": "9659e2781c672b755e01df2b8b6eea40dfc3ddc7631cde78070efb3e3b16d58b",
+ "summary": "Auf der SC26 demonstrierte Q.ANT hybride Inferenz für ein Sprachmodell mit etwa 1 Milliarde Parametern, indem es eine AMD-GPU mit seinem photonischen NPU Gen 2+ kombinierte und Attention-Schichten über native optische diskrete Fourier-Transformationen auslagerte.",
+ "title": "Q.ANT demonstriert hybride LLM-Inferenz mit photonischer NPU auf der SC26",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

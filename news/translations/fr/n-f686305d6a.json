@@ -1,0 +1,11 @@
+{
+ "id": "n-f686305d6a",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Simulez localement les opérations de transformée de Fourier discrète optique à l'aide du SDK open source de Q.ANT, en Python ou en C, avant tout déploiement sur du matériel photonique physique.\n\nInstallez le co-processeur Q.ANT NPU Gen 2+ dans un emplacement PCIe standard d'un serveur équipé d'un GPU hôte AMD Instinct.\n\nRépartissez l'exécution du modèle en affectant les couches d'attention transformables par Fourier au NPU photonique, tout en conservant les couches denses et limitées par la mémoire restantes sur le GPU hôte.\n\nValidez les remplacements de couches de réseaux de neurones transformées par Fourier par rapport aux mécanismes d'attention de référence, en simulation CPU, afin de mesurer la dégradation de précision du modèle avant tout déchargement sur matériel physique.\n\nCiblez les modèles présentant des goulots d'étranglement liés à la longueur de séquence, pour lesquels les transformées de Fourier optiques en un seul passage offrent un gain maximal de latence et d'énergie par rapport à l'attention quadratique électronique.",
+ "source_sha256": "9659e2781c672b755e01df2b8b6eea40dfc3ddc7631cde78070efb3e3b16d58b",
+ "summary": "Lors de SC26, Q.ANT a présenté une inférence hybride pour un modèle de langage d'environ 1 milliard de paramètres, en associant un GPU AMD à son processeur photonique NPU Gen 2+ et en déchargeant les couches d'attention vers des transformées de Fourier discrètes optiques natives.",
+ "title": "Q.ANT démontre l'inférence hybride de LLM avec NPU photonique à SC26",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

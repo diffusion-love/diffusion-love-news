@@ -1,0 +1,11 @@
+{
+ "id": "n-ab9fb003d6",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona el repositorio oficial desde https://github.com/mdlm-steprefine/mdlm-steprefine e instala las dependencias del paquete.\n\nCarga un checkpoint preentrenado compatible de modelo de lenguaje de difusión multimodal, como LLaDA-V, LLaDA-o, Dream-VL o LaViDa.\n\nAcopla el wrapper de decodificación consciente del paso de StepRefine para reemplazar el calendario de compromiso de tokens discretos por defecto.\n\nConfigura los umbrales de detección de anomalías de entropía, el número máximo de pasadas de refinamiento latente y los criterios de parada por estabilidad basados en la divergencia KL.\n\nEjecuta la inferencia, permitiendo que el controlador active dinámicamente el refinamiento latente continuo durante los picos de entropía detectados.\n\nActiva la compensación de presupuesto durante el refinamiento latente para mantener la latencia total de inferencia y el número de pasadas hacia delante comparables a la decodificación de difusión de referencia.\n\nCalibra el tamaño de la ventana temporal para la detección de picos de entropía en función del total de pasos de eliminación de ruido del backbone elegido, para evitar cambios de refinamiento falsos positivos.\n\nUsa el umbralado por divergencia KL en lugar de un número fijo de iteraciones de refinamiento para terminar anticipadamente la optimización continua cuando las distribuciones semánticas se estabilizan.",
+ "source_sha256": "f414213fd99fbd38ed3db6071ff123cb18698bd6ea58339eb9712c6999aad7d2",
+ "summary": "StepRefine introduce decodificación consciente del paso para modelos de lenguaje de difusión multimodal. Monitoriza los picos de entropía durante la generación iterativa de tokens y cambia del compromiso de tokens discretos al refinamiento latente continuo usando embeddings ponderados por probabilidad. El método no requiere entrenamiento adicional y está orientado a modelos como LLaDA-V, LLaDA-o, Dream-VL y LaViDa.",
+ "title": "StepRefine, decodificación sin entrenamiento adicional publicada para LLM de difusión multimodales",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

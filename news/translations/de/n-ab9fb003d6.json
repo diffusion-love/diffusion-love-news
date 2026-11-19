@@ -1,0 +1,11 @@
+{
+ "id": "n-ab9fb003d6",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das offizielle Repository von https://github.com/mdlm-steprefine/mdlm-steprefine und installieren Sie die Paketabhängigkeiten.\n\nLaden Sie einen unterstützten vortrainierten multimodalen Diffusions-Sprachmodell-Checkpoint, etwa LLaDA-V, LLaDA-o, Dream-VL oder LaViDa.\n\nHängen Sie den StepRefine-Wrapper für schrittbewusstes Decoding an, um den standardmäßigen diskreten Token-Commitment-Zeitplan zu ersetzen.\n\nKonfigurieren Sie Schwellenwerte für die Erkennung von Entropie-Anomalien, die maximale Anzahl latenter Verfeinerungsdurchläufe sowie Stoppkriterien zur Stabilität auf Basis der KL-Divergenz.\n\nFühren Sie die Inferenz aus; der Controller löst während erkannter Entropie-Spitzen dynamisch kontinuierliche latente Verfeinerung aus.\n\nAktivieren Sie die Budgetkompensation während der latenten Verfeinerung, damit Gesamtlatenz und Anzahl der Forward-Pässe mit dem Baseline-Diffusions-Decoding vergleichbar bleiben.\n\nKalibrieren Sie die zeitliche Fenstergröße für die Erkennung von Entropie-Spitzen anhand der Gesamtzahl der Denoising-Schritte des gewählten Backbones, um falsch positive Umschaltungen auf die Verfeinerung zu vermeiden.\n\nVerwenden Sie eine Schwellenwertsteuerung über die KL-Divergenz statt einer festen Anzahl von Verfeinerungsiterationen, um die kontinuierliche Optimierung vorzeitig zu beenden, sobald sich die semantischen Verteilungen stabilisieren.",
+ "source_sha256": "f414213fd99fbd38ed3db6071ff123cb18698bd6ea58339eb9712c6999aad7d2",
+ "summary": "StepRefine führt schrittbewusstes Decoding für multimodale Diffusions-Sprachmodelle ein. Während der iterativen Token-Generierung überwacht es Entropie-Spitzen und wechselt vom diskreten Token-Commitment zur kontinuierlichen latenten Verfeinerung mittels wahrscheinlichkeitsgewichteter Embeddings. Die Methode ist trainingsfrei und zielt auf Modelle wie LLaDA-V, LLaDA-o, Dream-VL und LaViDa ab.",
+ "title": "StepRefine: Trainingsfreies Decoding für multimodale Diffusions-LLMs veröffentlicht",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

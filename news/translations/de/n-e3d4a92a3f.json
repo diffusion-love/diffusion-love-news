@@ -1,0 +1,11 @@
+{
+ "id": "n-e3d4a92a3f",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Wählen Sie den Generierungsmodus (Text-to-Image, Image-to-Image oder Long Image) und die Zielauflösung (2K, 4K oder native 8K bis 9984x6656) in Kling Creative Studio oder im API-Payload.\n\nLaden Sie bis zu 10 Referenzbilder hoch und verweisen Sie im Prompt-Text mit Tags wie @image_1 darauf, um Figurenidentität, Stil oder kompositorisches Layout festzulegen.\n\nFügen Sie bis zu 2000 Zeichen In-Image-Typografie in Anführungszeichen ein und wählen Sie dabei aus über 70 integrierten Schriftarten oder geben Sie ein Schriftreferenzbild als Stilvorgabe an.\n\nKonfigurieren Sie die Farbgestaltung, indem Sie aus über 110 Tone-Presets wählen oder eigene HEX-/RGB-Werte angeben, um eine einheitliche visuelle Atmosphäre zu schaffen.\n\nLegen Sie die serielle Ausgabeanzahl auf bis zu 10 Bilder fest, wenn Sie aus einem einzigen Prompt kohärente Multi-Frame-Storyboards, E-Commerce-Varianten oder narrative Sequenzen erzeugen.\n\nKennzeichnen Sie einzelne Referenzbilder explizit mit @image_1 bis @image_10, um Figurenidentität von Hintergrundbeleuchtung zu trennen, statt sich auf unstrukturierte zusammengesetzte Referenzen zu verlassen.\n\nNutzen Sie das erweiterte Kontextlimit von 15.000 Token, um strukturierte Layoutbeschreibungen und mehrteilige Anweisungen zur Textplatzierung für komplexe Poster- und Editorial-Designs bereitzustellen.\n\nVerwenden Sie integrierte Tone-Presets oder explizite HEX-Farbcodes statt beschreibender Lichtschlüsselwörter, um eine gleichmäßige Farbgestaltung über Multi-Image-Erzählserien hinweg zu gewährleisten.",
+ "source_sha256": "2598f89990e16e0c24ef92cd3f86b450795679a04c28dbb80c65ba6f82a9c8b6",
+ "summary": "Kling Image 4.0 ist in Kling Creative Studio und über Entwickler-API-Endpunkte gestartet und bietet native 8K-Bilderzeugung, Layoutgenerierung für lange Formate und erweiterte Textdarstellung für die kommerzielle Produktion.",
+ "title": "Kling Image 4.0 jetzt über Entwickler-API und Web-Studio verfügbar",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

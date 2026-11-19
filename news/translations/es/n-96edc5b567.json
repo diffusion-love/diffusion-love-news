@@ -1,0 +1,11 @@
+{
+ "id": "n-96edc5b567",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Grabe y sube aproximadamente 30 segundos de metraje de vídeo de referencia, fotos de retrato de alta resolución y una muestra de voz clara para establecer el perfil de gemelo digital.\n\nConfigura los parámetros de generación, incluido el nivel del modelo (heygen-avatar-6 o heygen-avatar-6-turbo), la resolución objetivo (1080p o 2K) y, de forma opcional, el texto de motion_prompt para controlar gestos específicos.\n\nEnvía el guion hablado o la pista de audio sincronizada a través del estudio web o de los endpoints de la API de Application/Model (especificando engine.type: 'heygen-avatar-6') para renderizar el vídeo final.\n\nUtiliza indicaciones de movimiento basadas en texto para guiar el tono de los gestos y evita el exceso de movimiento en presentaciones formales o técnicas.\n\nSelecciona la variante Turbo para la renderización interactiva en tiempo real o por lotes de alto volumen, donde la latencia y el coste pesan más que las diferencias marginales de detalle en 2K.",
+ "source_sha256": "c2689f7f2509f32341c0bd5590f2b58c7a8988afaa051b682a88f49f85f1654a",
+ "summary": "HeyGen presentó Avatar 6, un modelo de generación de avatares que construye gemelos digitales a partir de aproximadamente 30 segundos de vídeo, fotos de referencia y audio. La arquitectura admite resoluciones de 1080p y 2K, gestos dinámicos sensibles al guion, controles mediante indicaciones de movimiento y acceso por API en los niveles de inferencia estándar y Turbo.",
+ "title": "HeyGen lanza Avatar 6, un modelo neuronal de gemelos digitales",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

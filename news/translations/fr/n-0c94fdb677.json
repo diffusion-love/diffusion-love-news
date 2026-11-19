@@ -1,0 +1,11 @@
+{
+ "id": "n-0c94fdb677",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installez l'interface en ligne de commande multiplateforme Easy Lens et authentifiez-vous avec un compte développeur Snapchat.\n\nConnectez un assistant de codage IA, tel que Claude Code, Cursor ou Codex, à l'espace de travail via le serveur Model Context Protocol (MCP) de Lens Studio.\n\nDécrivez en langage naturel l'effet de réalité augmentée, le filtre visage ou la mécanique de jeu Web Lens souhaités afin de permettre à l'agent d'assembler des composants à partir de briques de réalité augmentée et de générateurs d'actifs IA.\n\nDiffusez directement les versions de prévisualisation en direct vers un téléphone mobile associé pour le suivi caméra et le débogage en temps réel.\n\nPubliez la Lens finalisée via le flux automatisé de la CLI ou de Lens Studio pour l'examen de modération de la plateforme et la configuration de la monétisation.\n\nUtilisez des invites en langage naturel structurées qui définissent explicitement les cibles de suivi, la physique des interactions et les états des classements afin de contraindre la génération par l'agent.\n\nVérifiez les actifs 3D et les scripts générés par rapport aux budgets de performance mobiles sur des appareils physiques associés avant de les soumettre à l'examen de la plateforme.\n\nComposez des scènes complexes à partir de briques de réalité augmentée modulaires et éprouvées plutôt que de demander la rédaction de shaders personnalisés à partir de zéro.",
+ "source_sha256": "3b52bbe0ae75651d4baca05955dab7d6e398f0ff42d2f26936ed40f263aeefc2",
+ "summary": "Snap a lancé l'interface en ligne de commande Easy Lens et l'intégration Model Context Protocol pour Lens Studio, permettant aux développeurs de créer, déboguer, prévisualiser et publier des Lens de réalité augmentée et des jeux Web Lens à l'aide d'outils de codage IA utilisant le langage naturel, notamment Claude Code, Cursor et Codex.",
+ "title": "Snapchat lance Easy Lens CLI et le MCP de Lens Studio pour les assistants de codage IA",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

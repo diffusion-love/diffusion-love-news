@@ -1,0 +1,11 @@
+{
+ "id": "n-ab9fb003d6",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt officiel à l'adresse https://github.com/mdlm-steprefine/mdlm-steprefine et installez les dépendances du paquet.\n\nChargez un checkpoint pré-entraîné de modèle de langage multimodal à diffusion pris en charge, tel que LLaDA-V, LLaDA-o, Dream-VL ou LaViDa.\n\nAttachez le wrapper de décodage step-aware StepRefine pour remplacer le calendrier par défaut d'engagement discret des tokens.\n\nConfigurez les seuils de détection d'anomalies d'entropie, le nombre maximal de passes de raffinement latent et les critères d'arrêt de stabilité basés sur la divergence KL.\n\nLancez l'inférence en laissant le contrôleur déclencher dynamiquement un raffinement latent continu lors des pics d'entropie détectés.\n\nActivez la compensation budgétaire pendant le raffinement latent afin de maintenir la latence d'inférence globale et le nombre de passes avant comparables à ceux du décodage par diffusion de référence.\n\nCalibrez la taille de la fenêtre temporelle de détection des pics d'entropie en fonction du nombre total d'étapes de débruitage du backbone choisi afin d'éviter les fausses détections entraînant des bascules de raffinement.\n\nUtilisez un seuillage par divergence KL plutôt qu'un nombre fixe d'itérations de raffinement pour interrompre l'optimisation continue plus tôt, lorsque les distributions sémantiques se stabilisent.",
+ "source_sha256": "f414213fd99fbd38ed3db6071ff123cb18698bd6ea58339eb9712c6999aad7d2",
+ "summary": "StepRefine introduit un décodage step-aware pour les modèles de langage multimodaux à diffusion. Il surveille les pics d'entropie pendant la génération itérative de tokens et passe de l'engagement discret des tokens à un raffinement latent continu utilisant des embeddings pondérés par probabilité. La méthode est sans entraînement et cible des modèles tels que LLaDA-V, LLaDA-o, Dream-VL et LaViDa.",
+ "title": "StepRefine, un décodage sans entraînement publié pour les LLM multimodaux à diffusion",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

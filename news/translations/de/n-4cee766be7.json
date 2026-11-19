@@ -1,0 +1,11 @@
+{
+ "id": "n-4cee766be7",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das offizielle Repository unter https://github.com/mdlm-steprefine/mdlm-steprefine und installieren Sie die Paketabhängigkeiten.\n\nLaden Sie einen unterstützten vortrainierten multimodalen Diffusions-Sprachmodell-Checkpoint, etwa LLaDA-V, LLaDA-o, Dream-VL oder LaViDa.\n\nBinden Sie den StepRefine-Wrapper für schrittbewusstes Decodieren ein, um den standardmäßigen Zeitplan für die diskrete Token-Festlegung zu ersetzen.\n\nKonfigurieren Sie die Schwellenwerte für die Erkennung von Entropie-Anomalien, die maximale Anzahl latenter Verfeinerungsdurchläufe und die Stoppkriterien für die KL-Divergenz-Stabilität.\n\nFühren Sie die Inferenz aus; der Controller löst dabei bei erkannten Entropie-Spitzen dynamisch kontinuierliche latente Verfeinerung aus.\n\nAktivieren Sie während der latenten Verfeinerung die Budgetkompensation, damit die gesamte Inferenzlatenz und die Anzahl der Vorwärtsdurchläufe vergleichbar mit dem Basis-Diffusionsdecodieren bleiben.\n\nKalibrieren Sie die zeitliche Fenstergröße für die Erkennung von Entropie-Spitzen anhand der Gesamtzahl der Entrauschungsschritte des gewählten Backbones, um falsch positive Umschaltungen auf die Verfeinerung zu vermeiden.\n\nVerwenden Sie eine KL-Divergenz-Schwelle statt einer festen Anzahl an Verfeinerungsiterationen, um die kontinuierliche Optimierung frühzeitig zu beenden, sobald sich die semantischen Verteilungen stabilisieren.",
+ "source_sha256": "e4a382868c22c14023d1b6d8bb8b4b9b02e30892ab55ad42073c491f4a870244",
+ "summary": "Der StepRefine-Code wurde im Repository mdlm-steprefine veröffentlicht. Die Implementierung bietet Erkennung von Entropie-Anomalien, mehrstufige kontinuierliche latente Verfeinerung mit Prüfungen der KL-Divergenz-Stabilität sowie Budgetkompensation, um Halluzinationen in multimodalen Diffusionsarchitekturen zu verringern.",
+ "title": "StepRefine-Repository zur Verringerung von Halluzinationen in Diffusions-LLMs veröffentlicht",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

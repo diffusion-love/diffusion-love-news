@@ -1,0 +1,11 @@
+{
+ "id": "n-4cee766be7",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt officiel à l'adresse https://github.com/mdlm-steprefine/mdlm-steprefine et installez les dépendances du paquet.\n\nChargez un checkpoint pré-entraîné de modèle de langage multimodal à diffusion pris en charge, tel que LLaDA-V, LLaDA-o, Dream-VL ou LaViDa.\n\nAttachez le wrapper de décodage StepRefine conscient des étapes pour remplacer le calendrier par défaut d'engagement discret des tokens.\n\nConfigurez les seuils de détection d'anomalies d'entropie, le nombre maximal de passes de raffinement latent et les critères d'arrêt de stabilité fondés sur la divergence KL.\n\nLancez l'inférence en laissant le contrôleur déclencher dynamiquement le raffinement latent continu lors des pics d'entropie détectés.\n\nActivez la compensation budgétaire pendant le raffinement latent afin de maintenir la latence d'inférence globale et le nombre de passes avant comparables à ceux du décodage par diffusion de référence.\n\nCalibrez la taille de la fenêtre temporelle de détection des pics d'entropie en fonction du nombre total d'étapes de débruitage du backbone choisi, afin d'éviter les fausses détections de bascule vers le raffinement.\n\nUtilisez un seuillage par divergence KL plutôt qu'un nombre fixe d'itérations de raffinement pour interrompre l'optimisation continue plus tôt lorsque les distributions sémantiques se stabilisent.",
+ "source_sha256": "e4a382868c22c14023d1b6d8bb8b4b9b02e30892ab55ad42073c491f4a870244",
+ "summary": "Le code de StepRefine a été publié dans le dépôt mdlm-steprefine. L'implémentation fournit la détection d'anomalies d'entropie, un raffinement latent continu en plusieurs tours avec contrôles de stabilité par divergence KL, ainsi qu'une compensation budgétaire pour atténuer les hallucinations dans les architectures de diffusion multimodales.",
+ "title": "Publication du dépôt StepRefine pour l'atténuation des hallucinations des LLM à diffusion",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

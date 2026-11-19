@@ -1,0 +1,11 @@
+{
+ "id": "n-3dbdd70404",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "4단계 얼굴 교체 파이프라인 커스텀 노드를 복제하여 ComfyUI의 custom_nodes 디렉터리에 설치합니다.\n\nComfyUI-Spectrum-MiniMax-H3를 설치하여 Spectrum 스케줄 노드를 활성화하고 어텐션 레이어를 보정합니다.\n\nDenoMix 타일 샘플러 워크플로와 체크포인트를 불러와 고해상도 잠재 공간 업스케일링을 수행합니다.\n\n프레임 생성 중 어텐션 처리를 최적화하기 위해 FastDerope 노드 패치를 회전 위치 임베딩(rotary positional embedding) 레이어에 적용합니다.\n\n경계 안정성을 확보하기 위해 잠재 공간 합성 교체를 실행하기 전에 피사체 추적과 얼굴 마스크 생성을 초기 패스에서 분리하여 처리합니다.\n\n고해상도 비디오 프레임을 처리할 때는 타일 경계의 불연속을 방지하기 위해 DenoMix에서 일관된 중첩 마진을 적용한 타일 샘플링을 사용합니다.\n\n어텐션 발산을 피하려면 FastDerope의 회전 임베딩 차원 매개변수가 정확한 MiniMax H3 모델 변형과 일치하는지 확인합니다.",
+ "source_sha256": "92f69497fdebfa853003dedced4def6db32db66b417af5d5291d43564926fea2",
+ "summary": "MiniMax H3 커뮤니티 도구 릴리스에는 4단계 ComfyUI 얼굴 교체 파이프라인, Spectrum v0.2.30 통합, DenoMix 타일 샘플러 워크플로, FastDerope 회전 임베딩 패치가 포함되어 있습니다.",
+ "title": "MiniMax H3 커뮤니티 도구, 얼굴 교체·샘플링·노드 최적화 기능 추가",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

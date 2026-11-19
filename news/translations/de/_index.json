@@ -284,6 +284,11 @@
   "title": "Omni-Diffusion: Projektressourcen öffentlich verlinkt",
   "translated_at": "2026-10-24"
  },
+ "n-0c94fdb677": {
+  "fresh": true,
+  "title": "Snapchat stellt Easy-Lens-CLI und Lens-Studio-MCP für KI-Coding-Assistenten vor",
+  "translated_at": "2026-11-19"
+ },
  "n-0cf91afec3": {
   "fresh": true,
   "title": "Qwen-Image 3.0: öffentliche Qwen-Verweise dokumentiert",
@@ -453,6 +458,11 @@
   "fresh": true,
   "title": "CorridorKey-Runtime: KI-gestützter Green-Screen-Keyer",
   "translated_at": "2026-10-24"
+ },
+ "n-16b9f80345": {
+  "fresh": true,
+  "title": "Kling Image 4.0 startet mit nativer 8K-Ausgabe und multi-referenzieller Konditionierung",
+  "translated_at": "2026-11-19"
  },
  "n-16c3e34986": {
   "fresh": true,
@@ -1039,6 +1049,11 @@
   "title": "LTX-LoRA-Verteilungslinks erfasst",
   "translated_at": "2026-10-24"
  },
+ "n-30e2413dd3": {
+  "fresh": true,
+  "title": "Q.ANT zeigt photonische NPU Gen 2+, die Attention-Schichten zusammen mit einer AMD-GPU auslagert",
+  "translated_at": "2026-11-19"
+ },
  "n-30f5861cb4": {
   "fresh": true,
   "title": "Flux FaceIR: Hochwertige Gesichtsrestaurierung für Flux",
@@ -1288,6 +1303,11 @@
   "fresh": true,
   "title": "Suno veröffentlicht ein Update zu Studio 2",
   "translated_at": "2026-10-24"
+ },
+ "n-3dbdd70404": {
+  "fresh": true,
+  "title": "MiniMax H3: Community-Tools ergänzen Face-Swap, Sampling und Node-Optimierungen",
+  "translated_at": "2026-11-19"
  },
  "n-3df0e38055": {
   "fresh": true,
@@ -1573,6 +1593,11 @@
   "fresh": true,
   "title": "Öffentliche Projektverweise zu JoyAI-Video-Edit erfasst",
   "translated_at": "2026-10-24"
+ },
+ "n-4cee766be7": {
+  "fresh": true,
+  "title": "StepRefine-Repository zur Verringerung von Halluzinationen in Diffusions-LLMs veröffentlicht",
+  "translated_at": "2026-11-19"
  },
  "n-4d771e5e60": {
   "fresh": true,
@@ -2459,6 +2484,11 @@
   "title": "Referenz zum Repository des PyPI Wheel Downloader",
   "translated_at": "2026-10-24"
  },
+ "n-7c1de821f8": {
+  "fresh": true,
+  "title": "Kling Image 4.0 bringt Tone-Farbpresets, Schriftgestaltung und auflösungsbasierte API-Abrechnung",
+  "translated_at": "2026-11-19"
+ },
  "n-7c1f689c14": {
   "fresh": true,
   "title": "UniGeo: Kamerasteuerbare Bildbearbeitung mithilfe von Videomodellen",
@@ -2884,6 +2914,11 @@
   "title": "MonoArt-Projektwebsite und Quell-Repository wurden verknüpft",
   "translated_at": "2026-10-24"
  },
+ "n-96edc5b567": {
+  "fresh": true,
+  "title": "HeyGen veröffentlicht Avatar 6, ein neuronales Digital-Twin-Modell",
+  "translated_at": "2026-11-19"
+ },
  "n-972d1e2832": {
   "fresh": true,
   "title": "TML Interaction Models: multimodale KI in Echtzeit",
@@ -2953,6 +2988,11 @@
   "fresh": true,
   "title": "NVIDIA stellt Code- und Modellressourcen zu Nemotron VoiceChat 11B bereit",
   "translated_at": "2026-10-24"
+ },
+ "n-994a331b9a": {
+  "fresh": true,
+  "title": "SCAN-Framework für datenschutzwahrende kollaborative Anpassung von Vision-Language-Modellen für Hirn-MRT vorgestellt",
+  "translated_at": "2026-11-19"
  },
  "n-997df70c3d": {
   "fresh": true,
@@ -3103,6 +3143,11 @@
   "fresh": true,
   "title": "ComfyUI v0.42.5: Wartungs-Patch veröffentlicht",
   "translated_at": "2026-11-13"
+ },
+ "n-a1a2802048": {
+  "fresh": true,
+  "title": "SCAN-Framework für die datenschutzfreundliche kollaborative Anpassung medizinischer Vision-Language-Modelle vorgeschlagen",
+  "translated_at": "2026-11-19"
  },
  "n-a1c9a6a103": {
   "fresh": true,
@@ -3303,6 +3348,11 @@
   "fresh": true,
   "title": "ComfyUI-LRW-Nodes-Repository und Workflow-Beispiele dokumentiert",
   "translated_at": "2026-10-24"
+ },
+ "n-ab9fb003d6": {
+  "fresh": true,
+  "title": "StepRefine: Trainingsfreies Decoding für multimodale Diffusions-LLMs veröffentlicht",
+  "translated_at": "2026-11-19"
  },
  "n-abed76ad0f": {
   "fresh": true,
@@ -3819,6 +3869,11 @@
   "title": "Habitat-GS: Gaussian-Splatting-Simulator für Roboternavigation",
   "translated_at": "2026-10-24"
  },
+ "n-c98f6e2cbf": {
+  "fresh": true,
+  "title": "Kling Image 4.0 debütiert mit vereinheitlichter Architektur für Verständnis und Generierung",
+  "translated_at": "2026-11-19"
+ },
  "n-c9e1e40a9c": {
   "fresh": true,
   "title": "Unify-Agent: Open-Book Agentic Image Synthesis",
@@ -4124,6 +4179,11 @@
   "title": "Sync.so AI Visual Dubbing und Lip-Sync Studio",
   "translated_at": "2026-10-24"
  },
+ "n-d8ac79bdc7": {
+  "fresh": true,
+  "title": "Kling Image 4.0 bringt Serienkonsistenz über 10 Bilder",
+  "translated_at": "2026-11-19"
+ },
  "n-d8bf4374be": {
   "fresh": true,
   "title": "Odyssey-2 Max: Echtzeit-Simulator für generative Welten",
@@ -4288,6 +4348,11 @@
   "fresh": true,
   "title": "OpenWorker wurde öffentlich über sein GitHub-Repository referenziert",
   "translated_at": "2026-10-24"
+ },
+ "n-e3d4a92a3f": {
+  "fresh": true,
+  "title": "Kling Image 4.0 jetzt über Entwickler-API und Web-Studio verfügbar",
+  "translated_at": "2026-11-19"
  },
  "n-e3f07cf60d": {
   "fresh": true,
@@ -4708,6 +4773,11 @@
   "fresh": true,
   "title": "ElevenLabs: On-Premise- und On-Device-Bereitstellung von Sprach-KI",
   "translated_at": "2026-10-24"
+ },
+ "n-f686305d6a": {
+  "fresh": true,
+  "title": "Q.ANT demonstriert hybride LLM-Inferenz mit photonischer NPU auf der SC26",
+  "translated_at": "2026-11-19"
  },
  "n-f6c6cdf729": {
   "fresh": true,

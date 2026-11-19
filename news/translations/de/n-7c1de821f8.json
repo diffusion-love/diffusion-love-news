@@ -1,0 +1,11 @@
+{
+ "id": "n-7c1de821f8",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Wählen Sie in Kling Creative Studio oder im API-Payload den Generierungsmodus (Text-to-Image, Image-to-Image oder Long Image) und die Zielauflösung (2K, 4K oder native 8K mit bis zu 9984x6656) aus.\n\nLaden Sie bis zu 10 Referenzbilder hoch und verweisen Sie im Prompt-Text mit Tags wie @image_1 auf sie, um Figurenidentität, Stil oder kompositorisches Layout zu erzwingen.\n\nFügen Sie bis zu 2000 Zeichen In-Image-Typografie in Anführungszeichen ein und wählen Sie dazu aus über 70 integrierten Schriftarten oder geben Sie ein Schriftreferenzbild für die Stilvorgabe an.\n\nKonfigurieren Sie die Farbgestaltung, indem Sie aus über 110 Tone-Presets wählen oder eigene HEX- bzw. RGB-Werte festlegen, um eine konsistente visuelle Atmosphäre zu schaffen.\n\nLegen Sie die serielle Ausgabeanzahl auf bis zu 10 Bilder fest, wenn Sie aus einem einzigen Prompt kohärente Multi-Frame-Storyboards, E-Commerce-Varianten oder narrative Sequenzen erzeugen möchten.\n\nKennzeichnen Sie bestimmte Referenzbilder explizit mit @image_1 bis @image_10, um Figurenidentität und Hintergrundbeleuchtung zu trennen, anstatt sich auf unstrukturierte zusammengesetzte Referenzen zu verlassen.\n\nNutzen Sie das erweiterte Kontextlimit von 15.000 Token, um strukturierte Layoutbeschreibungen und mehrteilige Anweisungen zur Textplatzierung für komplexe Poster- und Editorial-Designs bereitzustellen.\n\nVerwenden Sie integrierte Tone-Presets oder explizite HEX-Farbcodes anstelle beschreibender Lichtbegriffe, um eine einheitliche Farbgestaltung über Multi-Image-Erzählserien hinweg zu gewährleisten.",
+ "source_sha256": "18b98bae0bb5c9cfb2e4d441b53396054f6c2dd40d5a774e51db2e916ff7ec75",
+ "summary": "Kling AI hat seine Bildgenerierungs-Suite mit Kling Image 4.0 aktualisiert. Sie umfasst über 110 Tone-Farbgestaltungs-Presets, mehr als 70 integrierte Schriftarten mit Abgleich über Schriftreferenzen, maximale Abmessungen von bis zu 9984x6656 sowie nach Auflösung gestaffelte API-Preise.",
+ "title": "Kling Image 4.0 bringt Tone-Farbpresets, Schriftgestaltung und auflösungsbasierte API-Abrechnung",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

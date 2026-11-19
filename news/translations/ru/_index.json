@@ -284,6 +284,11 @@
   "title": "Публичные ресурсы проекта Omni-Diffusion опубликованы по ссылкам",
   "translated_at": "2026-10-24"
  },
+ "n-0c94fdb677": {
+  "fresh": true,
+  "title": "Snapchat выпускает Easy Lens CLI и Lens Studio MCP для ассистентов программирования с ИИ",
+  "translated_at": "2026-11-19"
+ },
  "n-0cf91afec3": {
   "fresh": true,
   "title": "Qwen-Image 3.0: зафиксированы публичные ссылки Qwen",
@@ -453,6 +458,11 @@
   "fresh": true,
   "title": "CorridorKey-Runtime: AI-кеер для зелёного экрана",
   "translated_at": "2026-10-24"
+ },
+ "n-16b9f80345": {
+  "fresh": true,
+  "title": "Kling Image 4.0 выходит с нативным выводом в 8K и многореферентным кондиционированием",
+  "translated_at": "2026-11-19"
  },
  "n-16c3e34986": {
   "fresh": true,
@@ -1039,6 +1049,11 @@
   "title": "Зафиксированы ссылки на распространение LoRA для LTX",
   "translated_at": "2026-10-24"
  },
+ "n-30e2413dd3": {
+  "fresh": true,
+  "title": "Q.ANT показала разгрузку слоёв внимания на фотонный NPU Gen 2+ совместно с GPU AMD",
+  "translated_at": "2026-11-19"
+ },
  "n-30f5861cb4": {
   "fresh": true,
   "title": "Flux FaceIR: высококачественное восстановление лиц для Flux",
@@ -1288,6 +1303,11 @@
   "fresh": true,
   "title": "Suno опубликовала обновление Studio 2",
   "translated_at": "2026-10-24"
+ },
+ "n-3dbdd70404": {
+  "fresh": true,
+  "title": "Инструменты сообщества для MiniMax H3: замена лиц, сэмплирование и оптимизация узлов",
+  "translated_at": "2026-11-19"
  },
  "n-3df0e38055": {
   "fresh": true,
@@ -1573,6 +1593,11 @@
   "fresh": true,
   "title": "Зафиксированы публичные ссылки на проект JoyAI-Video-Edit",
   "translated_at": "2026-10-24"
+ },
+ "n-4cee766be7": {
+  "fresh": true,
+  "title": "Опубликован репозиторий StepRefine для снижения галлюцинаций в диффузионных LLM",
+  "translated_at": "2026-11-19"
  },
  "n-4d771e5e60": {
   "fresh": true,
@@ -2459,6 +2484,11 @@
   "title": "Справочная ссылка на репозиторий PyPI Wheel Downloader",
   "translated_at": "2026-10-24"
  },
+ "n-7c1de821f8": {
+  "fresh": true,
+  "title": "Обновление Kling Image 4.0 добавляет пресеты цвета Tone, стилизацию шрифтов и оплату API по разрешению",
+  "translated_at": "2026-11-19"
+ },
  "n-7c1f689c14": {
   "fresh": true,
   "title": "UniGeo: редактирование изображений с управлением камерой на основе видеомоделей",
@@ -2884,6 +2914,11 @@
   "title": "Веб-сайт и исходный репозиторий проекта MonoArt связаны между собой",
   "translated_at": "2026-10-24"
  },
+ "n-96edc5b567": {
+  "fresh": true,
+  "title": "HeyGen выпустила нейросетевую модель цифрового двойника Avatar 6",
+  "translated_at": "2026-11-19"
+ },
  "n-972d1e2832": {
   "fresh": true,
   "title": "TML Interaction Models: мультимодальный ИИ в реальном времени",
@@ -2953,6 +2988,11 @@
   "fresh": true,
   "title": "NVIDIA опубликовала код и модель Nemotron VoiceChat 11B",
   "translated_at": "2026-10-24"
+ },
+ "n-994a331b9a": {
+  "fresh": true,
+  "title": "Предложена платформа SCAN для приватной совместной адаптации vision-language моделей МРТ головного мозга",
+  "translated_at": "2026-11-19"
  },
  "n-997df70c3d": {
   "fresh": true,
@@ -3103,6 +3143,11 @@
   "fresh": true,
   "title": "Опубликован патч обслуживания ComfyUI v0.42.5",
   "translated_at": "2026-11-13"
+ },
+ "n-a1a2802048": {
+  "fresh": true,
+  "title": "Предложен фреймворк SCAN для сохраняющей приватность совместной адаптации медицинских моделей визуального языка",
+  "translated_at": "2026-11-19"
  },
  "n-a1c9a6a103": {
   "fresh": true,
@@ -3303,6 +3348,11 @@
   "fresh": true,
   "title": "Репозиторий ComfyUI LRW Nodes и примеры воркфлоу задокументированы",
   "translated_at": "2026-10-24"
+ },
+ "n-ab9fb003d6": {
+  "fresh": true,
+  "title": "Выпущен StepRefine — декодирование без дообучения для мультимодальных диффузионных LLM",
+  "translated_at": "2026-11-19"
  },
  "n-abed76ad0f": {
   "fresh": true,
@@ -3819,6 +3869,11 @@
   "title": "Habitat-GS: симулятор навигации на основе Gaussian Splatting для робототехники",
   "translated_at": "2026-10-24"
  },
+ "n-c98f6e2cbf": {
+  "fresh": true,
+  "title": "Kling Image 4.0 дебютирует с унифицированной архитектурой понимания и генерации",
+  "translated_at": "2026-11-19"
+ },
  "n-c9e1e40a9c": {
   "fresh": true,
   "title": "Unify-Agent: агентная генерация изображений с открытой книгой",
@@ -4124,6 +4179,11 @@
   "title": "Sync.so: студия AI-дубляжа и синхронизации губ",
   "translated_at": "2026-10-24"
  },
+ "n-d8ac79bdc7": {
+  "fresh": true,
+  "title": "Kling Image 4.0 обеспечивает согласованность серии из 10 кадров",
+  "translated_at": "2026-11-19"
+ },
  "n-d8bf4374be": {
   "fresh": true,
   "title": "Odyssey-2 Max: генеративный симулятор мира в реальном времени",
@@ -4288,6 +4348,11 @@
   "fresh": true,
   "title": "На OpenWorker публично ссылались через его репозиторий на GitHub",
   "translated_at": "2026-10-24"
+ },
+ "n-e3d4a92a3f": {
+  "fresh": true,
+  "title": "Kling Image 4.0 доступна через API для разработчиков и веб-студию",
+  "translated_at": "2026-11-19"
  },
  "n-e3f07cf60d": {
   "fresh": true,
@@ -4708,6 +4773,11 @@
   "fresh": true,
   "title": "ElevenLabs: развёртывание речевого ИИ on-premise и на устройстве",
   "translated_at": "2026-10-24"
+ },
+ "n-f686305d6a": {
+  "fresh": true,
+  "title": "Q.ANT демонстрирует гибридный инференс LLM с фотонным NPU на SC26",
+  "translated_at": "2026-11-19"
  },
  "n-f6c6cdf729": {
   "fresh": true,

@@ -1,0 +1,11 @@
+{
+ "id": "n-e3d4a92a3f",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Sélectionnez le mode de génération (Text-to-Image, Image-to-Image ou Long Image) et la résolution cible (2K, 4K, ou 8K natif jusqu'à 9984x6656) dans Kling Creative Studio ou dans la charge utile de l'API.\n\nImportez jusqu'à 10 images de référence et référencez-les dans le texte du prompt à l'aide de balises telles que @image_1 pour imposer l'identité d'un personnage, le style ou la composition.\n\nIntégrez jusqu'à 2000 caractères de typographie dans l'image entre guillemets, en choisissant parmi plus de 70 polices intégrées ou en fournissant une image de référence de police pour guider le style.\n\nConfigurez l'étalonnage des couleurs en sélectionnant parmi plus de 110 préréglages de Tone ou en spécifiant des valeurs HEX/RGB personnalisées afin d'établir une atmosphère visuelle cohérente.\n\nDéfinissez un nombre de sorties en série allant jusqu'à 10 images lors de la génération de storyboards multi-cadres cohérents, de variantes e-commerce ou de séquences narratives à partir d'un seul prompt.\n\nDésignez explicitement des images de référence spécifiques avec @image_1 à @image_10 pour séparer l'identité du personnage de l'éclairage de l'arrière-plan, plutôt que de vous appuyer sur des références composites non structurées.\n\nExploitez la fenêtre de contexte élargie de 15 000 tokens pour fournir des descriptions de mise en page structurées et des instructions de placement de texte en plusieurs sections pour des affiches et des créations éditoriales complexes.\n\nAppliquez les préréglages de Tone intégrés ou des codes couleur HEX explicites plutôt que des mots-clés descriptifs d'éclairage afin de maintenir un étalonnage uniforme des couleurs dans les séries narratives multi-images.",
+ "source_sha256": "2598f89990e16e0c24ef92cd3f86b450795679a04c28dbb80c65ba6f82a9c8b6",
+ "summary": "Kling Image 4.0 est disponible dans Kling Creative Studio et via les points d'accès de l'API développeur, offrant la création d'images 8K native, la génération de mises en page longues et un rendu de texte élargi pour la production commerciale.",
+ "title": "Kling Image 4.0 est désormais disponible via l'API développeur et le studio web",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

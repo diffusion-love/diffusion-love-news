@@ -1,0 +1,11 @@
+{
+ "id": "n-3dbdd70404",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonar e instalar el nodo personalizado del pipeline de intercambio de rostros de cuatro etapas en el directorio custom_nodes de ComfyUI.\n\nInstalar ComfyUI-Spectrum-MiniMax-H3 para habilitar los nodos de programación de espectro y calibrar las capas de atención.\n\nCargar el flujo de trabajo de muestreo por mosaicos de DenoMix y los checkpoints para el escalado de latentes de alta resolución.\n\nAplicar el parche del nodo FastDerope a la capa de incrustación posicional rotatoria para optimizar el procesamiento de atención durante la generación de fotogramas.\n\nSeparar el seguimiento del sujeto y la generación de la máscara facial en una pasada inicial antes de ejecutar el reemplazo por composición latente para garantizar la estabilidad de los bordes.\n\nUsar muestreo por mosaicos con márgenes de solapamiento consistentes en DenoMix al procesar fotogramas de vídeo de alta resolución para evitar discontinuidades en los límites de los mosaicos.\n\nVerificar que los parámetros de dimensión de la incrustación rotatoria en FastDerope coincidan exactamente con la variante del modelo MiniMax H3 para evitar divergencias en la atención.",
+ "source_sha256": "92f69497fdebfa853003dedced4def6db32db66b417af5d5291d43564926fea2",
+ "summary": "Las versiones comunitarias de MiniMax H3 introducen un pipeline de intercambio de rostros de cuatro etapas para ComfyUI, la integración de Spectrum v0.2.30, flujos de trabajo de muestreo por mosaicos de DenoMix y parches de incrustación rotatoria FastDerope.",
+ "title": "Las herramientas comunitarias de MiniMax H3 añaden intercambio de rostros, muestreo y optimizaciones de nodos",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

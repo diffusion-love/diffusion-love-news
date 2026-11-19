@@ -1,0 +1,11 @@
+{
+ "id": "n-96edc5b567",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Nehmen Sie rund 30 Sekunden Referenzvideomaterial, hochauflösende Porträtfotos und eine klare Sprachprobe auf und laden Sie sie hoch, um das Digital-Twin-Profil zu erstellen.\n\nKonfigurieren Sie die Generierungsparameter, darunter die Modellstufe (heygen-avatar-6 oder heygen-avatar-6-turbo), die Zielauflösung (1080p oder 2K) und optional einen motion_prompt-Text zur gezielten Steuerung von Gesten.\n\nReichen Sie das gesprochene Skript oder die synchronisierte Audiospur über die Web-Studio oder über die Application/Model API-Endpunkte ein (mit engine.type: 'heygen-avatar-6'), um das fertige Video zu rendern.\n\nVerwenden Sie textbasierte Bewegungs-Prompts, um Tonfall der Gesten zu steuern, und vermeiden Sie übermäßige Bewegungen in formellen oder technischen Präsentationen.\n\nWählen Sie die Turbo-Variante für interaktive Echtzeitanwendungen oder umfangreiche Batch-Renderings, bei denen Latenz und Kosten schwerer wiegen als die geringfügigen Unterschiede im 2K-Detailgrad.",
+ "source_sha256": "c2689f7f2509f32341c0bd5590f2b58c7a8988afaa051b682a88f49f85f1654a",
+ "summary": "HeyGen hat Avatar 6 vorgestellt, ein Modell zur Avatar-Generierung, das aus rund 30 Sekunden Video, Referenzfotos und Audio digitale Zwillinge erstellt. Die Architektur unterstützt Auflösungen von 1080p und 2K, skriptabhängige dynamische Gesten, Steuerung über Bewegungs-Prompts sowie API-Zugriff für die Standard- und die Turbo-Inferenzstufe.",
+ "title": "HeyGen veröffentlicht Avatar 6, ein neuronales Digital-Twin-Modell",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

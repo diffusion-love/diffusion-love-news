@@ -1,0 +1,11 @@
+{
+ "id": "n-f686305d6a",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在本地使用 Q.ANT 的开源 SDK（Python 或 C）模拟光学离散傅里叶变换操作，然后再部署到物理光子硬件上。\n\n将 Q.ANT NPU Gen 2+ 协处理器安装到配备 AMD Instinct 主机 GPU 的服务器的标准 PCIe 插槽中。\n\n划分模型执行：将可进行傅里叶变换的注意力层映射到光子 NPU 上，同时将其余的稠密层和受内存限制的层保留在主机 GPU 上。\n\n在 CPU 模拟中，将傅里叶变换后的神经网络层替换与基线注意力机制进行对比验证，以在物理卸载前衡量模型精度下降程度。\n\n以序列长度瓶颈明显的模型为目标：在这类模型中，光学单次通过傅里叶变换相较于电子平方级注意力，能带来最大的延迟和能耗收益。",
+ "source_sha256": "9659e2781c672b755e01df2b8b6eea40dfc3ddc7631cde78070efb3e3b16d58b",
+ "summary": "在 SC26 大会上，Q.ANT 展示了一个约 10 亿参数语言模型的混合推理：将 AMD GPU 与其 NPU Gen 2+ 光子处理器配对，并通过原生光学离散傅里叶变换将注意力层卸载到 NPU 上执行。",
+ "title": "Q.ANT 在 SC26 上展示基于光子 NPU 的混合大语言模型推理",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-30e2413dd3",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Q.ANT의 오픈소스 SDK를 사용해 Python 또는 C로 광학 이산 푸리에 변환 연산을 로컬에서 시뮬레이션하십시오. 물리적 포토닉 하드웨어에 배포하기 전에 이 작업을 수행하십시오.\n\nAMD Instinct 호스트 GPU가 탑재된 서버의 표준 PCIe 슬롯에 Q.ANT NPU Gen 2+ 코프로세서를 설치하십시오.\n\n푸리에 변환이 가능한 어텐션 계층은 포토닉 NPU에 매핑하고, 나머지 밀집(dense) 및 메모리 바운드 계층은 호스트 GPU에 유지하여 모델 실행을 분할하십시오.\n\n물리적 오프로드 이전에 모델 정확도 저하를 측정하기 위해, 푸리에 변환된 신경망 계층 대체 구조를 기준 어텐션 메커니즘과 CPU 시뮬레이션에서 비교하여 검증하십시오.\n\n광학 단일 패스 푸리에 변환이 전자식 이차(quadratic) 어텐션 대비 최대 지연 시간 및 에너지 이점을 제공하는 시퀀스 길이 병목 모델을 대상으로 하십시오.",
+ "source_sha256": "5958b4bf3275d09da6978bae2327bdbf3a316e842d8afb6c81ec0b287ab6ed97",
+ "summary": "Q.ANT는 SC26에서 박막 리튬 니오베이트 기반 포토닉 NPU Gen 2+를 사용해 광학 이산 푸리에 변환을 계산하고, AMD Instinct 가속기와 함께 이기종 LLM 추론을 시연했습니다.",
+ "title": "Q.ANT, 포토닉 NPU Gen 2+로 AMD GPU와 함께 어텐션 계층 오프로딩 선보여",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}
