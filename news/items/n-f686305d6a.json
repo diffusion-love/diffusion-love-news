@@ -1,0 +1,109 @@
+{
+ "schema_version": "1.4",
+ "id": "n-f686305d6a",
+ "entry_type": "news",
+ "category": "llm",
+ "lang": "en",
+ "title": "Q.ANT demonstrates hybrid LLM inference with photonic NPU at SC26",
+ "summary": "At SC26, Q.ANT demonstrated hybrid inference for an approximately 1-billion-parameter language model by pairing an AMD GPU with its NPU Gen 2+ photonic processor, offloading attention layers via native optical discrete Fourier transforms.",
+ "research_notes": "Simulate optical discrete Fourier transform operations locally using Q.ANT's open-source SDK in Python or C before deploying to physical photonic hardware.\n\nInstall the Q.ANT NPU Gen 2+ co-processor into a standard PCIe slot within a server equipped with an AMD Instinct host GPU.\n\nPartition model execution by mapping Fourier-transformable attention layers to the photonic NPU while retaining remaining dense and memory-bound layers on the host GPU.\n\nValidate Fourier-transformed neural network layer replacements against baseline attention mechanisms in CPU simulation to measure model accuracy degradation before physical offload.\n\nTarget models with sequence-length bottlenecks where optical single-pass Fourier transforms yield maximum latency and energy benefits over electronic quadratic attention.",
+ "project": {
+  "name": null,
+  "family_slug": null,
+  "family_display": null,
+  "model_slug": null,
+  "model_display": null,
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": {
+  "slug": "q-ant",
+  "display": "Q.ANT: llm-inference-on-photonic-hardware",
+  "homepage": null
+ },
+ "development": {
+  "scope": "organization",
+  "thread_slug": "llm-inference-on-photonic-hardware",
+  "thread_display": "Llm Inference On Photonic Hardware",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Q.ANT: llm-inference-on-photonic-hardware",
+  "article_url": "https://happyin.space/organizations/q-ant/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/ab399bd30fe675724656265b34ca8e8e9e851f55/docs/organizations/q-ant.md",
+  "agent_context_url": "https://happyin.space/organizations/q-ant/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-18",
+  "title": "Q.ANT demonstrates hybrid LLM inference with photonic NPU at SC26",
+  "version": null,
+  "summary": "At SC26, Q.ANT demonstrated hybrid inference for an approximately 1-billion-parameter language model by pairing an AMD GPU with its NPU Gen 2+ photonic processor, offloading attention layers via native optical discrete Fourier transforms."
+ },
+ "tags": [
+  "Q.ANT: llm-inference-on-photonic-hardware",
+  "llm",
+  "llm-inference-on-photonic-hardware",
+  "organization:q-ant",
+  "q-ant"
+ ],
+ "facets": {
+  "category": "llm",
+  "entry_type": "news",
+  "projects": [],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [
+   "q-ant"
+  ],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://habr.com/ru/companies/selectel/articles/1109180/",
+   "host": "habr.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-19T21:34:46Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-18",
+  "excerpt": "At SC26, Q.ANT demonstrated hybrid inference for an approximately 1-billion-parameter language model by pairing an AMD GPU with its NPU Gen 2+ photonic processor, offloading attention layers via native optical discrete Fourier transforms."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-19T21:34:46Z",
+  "classified_at": "2026-11-19T21:34:46Z",
+  "enriched_at": "2026-11-19T21:34:46Z",
+  "verified_at": "2026-11-19T21:34:46Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
