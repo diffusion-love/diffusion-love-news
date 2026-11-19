@@ -1,0 +1,11 @@
+{
+ "id": "n-994a331b9a",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Extraire localement, sur chaque site hospitalier, des représentations localisées d'IRM cérébrales 3D à l'aide d'un backbone vision-langage médical partagé et gelé, sans partager les données volumétriques brutes d'imagerie.\n\nCalculer des prototypes de classe locaux en déterminant, pour chaque catégorie de pathologie neurologique, la somme normalisée des caractéristiques et le nombre de patients.\n\nAppliquer un bruit de confidentialité différentielle calibré aux vecteurs prototypes à norme bornée, puis diffuser les résumés de site rendus différentiellement privés aux institutions collaboratrices.\n\nAgréger les résumés de prototypes inter-sites pour classer les pathologies neurologiques sur des sites locaux ou inconnus, dont les scanners n'ont pas été vus, sans rétropropagation.\n\nBorner la norme des vecteurs prototypes avant l'ajout de bruit afin de préserver les garanties formelles de confidentialité différentielle tout en limitant la distorsion des caractéristiques.\n\nConserver les prototypes locaux exacts, non bruités, pour les prédictions au sein de l'institution, et n'utiliser les prototypes agrégés et privatisés que pour la généralisation inter-sites.",
+ "source_sha256": "faa19236c4223f427eb91c02bbfc57142e9c56bec81618dfb2edf6533decc7be",
+ "summary": "Les chercheurs ont présenté SCAN, un cadre sans entraînement qui adapte des modèles de fondation vision-langage pour IRM cérébrales 3D sur 67 sites cliniques, en agrégeant des prototypes de classe à confidentialité différentielle sans transmission des examens bruts.",
+ "title": "Proposition du cadre SCAN pour l'adaptation collaborative et préservant la confidentialité des modèles vision-langage en IRM cérébrale",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

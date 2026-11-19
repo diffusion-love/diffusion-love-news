@@ -1,0 +1,11 @@
+{
+ "id": "n-e3d4a92a3f",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Seleccione el modo de generación (Text-to-Image, Image-to-Image o Long Image) y la resolución de salida (2K, 4K o 8K nativo de hasta 9984x6656) en Kling Creative Studio o en el payload de la API.\n\nSuba hasta 10 imágenes de referencia y haga referencia a ellas en el texto del prompt mediante etiquetas como @image_1 para reforzar la identidad del personaje, el estilo o la composición.\n\nIncluya hasta 2000 caracteres de tipografía dentro de la imagen entre comillas, eligiendo entre más de 70 fuentes integradas o proporcionando una imagen de referencia de fuente como guía de estilo.\n\nConfigure la corrección de color seleccionando entre más de 110 preajustes de Tone o especificando valores HEX/RGB personalizados para establecer una atmósfera visual consistente.\n\nDefina un número de salida en serie de hasta 10 imágenes al generar storyboards multicuadro cohesivos, variaciones para comercio electrónico o secuencias narrativas a partir de un único prompt.\n\nEtiquete explícitamente las imágenes de referencia específicas con @image_1 hasta @image_10 para separar la identidad del personaje de la iluminación del fondo, en lugar de depender de referencias compuestas no estructuradas.\n\nAproveche el límite de contexto ampliado de 15 000 tokens para proporcionar descripciones de diseño estructuradas e instrucciones de colocación de texto en varias secciones para pósteres y diseños editoriales complejos.\n\nAplique los preajustes de Tone integrados o códigos de color HEX explícitos en lugar de palabras clave descriptivas de iluminación para mantener una corrección de color uniforme en series narrativas de múltiples imágenes.",
+ "source_sha256": "2598f89990e16e0c24ef92cd3f86b450795679a04c28dbb80c65ba6f82a9c8b6",
+ "summary": "Kling Image 4.0 se ha lanzado en Kling Creative Studio y en los endpoints de la API para desarrolladores, ofreciendo creación de imágenes 8K nativa, generación de diseños de formato largo y renderizado de texto ampliado para la producción comercial.",
+ "title": "Kling Image 4.0 llega a la API para desarrolladores y al estudio web",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

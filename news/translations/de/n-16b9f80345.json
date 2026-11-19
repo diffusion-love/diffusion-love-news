@@ -1,0 +1,11 @@
+{
+ "id": "n-16b9f80345",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Wählen Sie den Generierungsmodus (Text-to-Image, Image-to-Image oder Long Image) sowie die Zielauflösung (2K, 4K oder native 8K bis 9984x6656) in Kling Creative Studio oder im API-Payload.\n\nLaden Sie bis zu 10 Referenzbilder hoch und verweisen Sie im Prompt-Text mit Tags wie @image_1 auf sie, um Figurenidentität, Stil oder Bildkomposition gezielt festzulegen.\n\nFügen Sie bis zu 2000 Zeichen Typografie innerhalb des Bildes in Anführungszeichen ein und wählen Sie dabei aus mehr als 70 integrierten Schriftarten oder stellen Sie ein Schriftreferenzbild bereit, das als Stilvorlage dient.\n\nKonfigurieren Sie das Color Grading, indem Sie eines von über 110 Tone-Presets auswählen oder eigene HEX- bzw. RGB-Werte festlegen, um eine konsistente visuelle Atmosphäre zu erzeugen.\n\nLegen Sie die serielle Ausgabeanzahl auf bis zu 10 Bilder fest, wenn Sie aus einem einzigen Prompt kohärente Multi-Frame-Storyboards, E-Commerce-Varianten oder narrative Sequenzen generieren.\n\nKennzeichnen Sie einzelne Referenzbilder explizit mit @image_1 bis @image_10, um Figurenidentität und Hintergrundbeleuchtung zu trennen, statt sich auf unstrukturierte zusammengesetzte Referenzen zu verlassen.\n\nNutzen Sie das erweiterte Kontextlimit von 15.000 Token, um strukturierte Layoutbeschreibungen und mehrteilige Anweisungen zur Textplatzierung für komplexe Poster- und Editorial-Designs zu formulieren.\n\nVerwenden Sie integrierte Tone-Presets oder explizite HEX-Farbcodes anstelle beschreibender Lichtschlüsselwörter, um über Serien mehrerer Bilder hinweg eine einheitliche Farbgestaltung beizubehalten.",
+ "source_sha256": "97be6225de814ce7e30105717489c9b08df37eed6beed25092fbf1e9fc977840",
+ "summary": "Kling AI hat Kling Image 4.0 veröffentlicht, das neben 2K und 4K eine native 8K-Ausgabe, ein erweitertes Kontextfenster von 15.000 Token, multi-referenzielle Konditionierung mit bis zu 10 getaggten Bildern, serielle Generierung von bis zu 10 Frames und typografische Darstellung von bis zu 2000 Zeichen unterstützt.",
+ "title": "Kling Image 4.0 startet mit nativer 8K-Ausgabe und multi-referenzieller Konditionierung",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

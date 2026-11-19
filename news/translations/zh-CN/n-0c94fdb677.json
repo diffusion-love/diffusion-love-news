@@ -1,0 +1,11 @@
+{
+ "id": "n-0c94fdb677",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "安装跨平台的 Easy Lens CLI，并使用 Snapchat 开发者账号进行身份验证。\n\n通过 Lens Studio 模型上下文协议（Model Context Protocol，MCP）服务器，将 Claude Code、Cursor 或 Codex 等 AI 编程助手连接到工作区。\n\n用自然语言描述所需的 AR 特效、人脸滤镜或 Web Lens 游戏机制，让智能体从 AR 构建模块和 AI 资产生成器中组装组件。\n\n将实时预览构建版本直接推送到配对的移动手机，用于相机追踪和运行时调试。\n\n通过自动化 CLI 或 Lens Studio 流程发布最终版 Lens，以供平台内容审核和变现设置。\n\n使用结构化的自然语言提示词，明确定义追踪目标、交互物理特性和排行榜状态，以约束智能体的生成结果。\n\n在提交平台审核前，在配对的实体设备上依据移动端性能预算核验生成的 3D 资产和脚本。\n\n基于成熟的模块化 AR 构建模块组合复杂场景，而不是从零开始提示生成自定义着色器代码。",
+ "source_sha256": "3b52bbe0ae75651d4baca05955dab7d6e398f0ff42d2f26936ed40f263aeefc2",
+ "summary": "Snap 推出了面向 Lens Studio 的 Easy Lens CLI 和模型上下文协议（MCP）集成，使开发者能够借助 Claude Code、Cursor 和 Codex 等支持自然语言的 AI 编程工具，构建、调试、预览和发布 AR Lens 及 Web Lens 游戏。",
+ "title": "Snapchat 推出 Easy Lens CLI 和 Lens Studio MCP，面向 AI 编程助手",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

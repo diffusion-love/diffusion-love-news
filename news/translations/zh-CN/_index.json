@@ -284,6 +284,11 @@
   "title": "Omni-Diffusion 项目公开资源已关联",
   "translated_at": "2026-10-24"
  },
+ "n-0c94fdb677": {
+  "fresh": true,
+  "title": "Snapchat 推出 Easy Lens CLI 和 Lens Studio MCP，面向 AI 编程助手",
+  "translated_at": "2026-11-19"
+ },
  "n-0cf91afec3": {
   "fresh": true,
   "title": "Qwen-Image 3.0 公开的 Qwen 链接已记录",
@@ -453,6 +458,11 @@
   "fresh": true,
   "title": "CorridorKey-Runtime：AI 绿幕抠像工具",
   "translated_at": "2026-10-24"
+ },
+ "n-16b9f80345": {
+  "fresh": true,
+  "title": "Kling Image 4.0 发布，支持原生 8K 输出与多参考条件控制",
+  "translated_at": "2026-11-19"
  },
  "n-16c3e34986": {
   "fresh": true,
@@ -1039,6 +1049,11 @@
   "title": "LTX LoRA 分发链接已记录",
   "translated_at": "2026-10-24"
  },
+ "n-30e2413dd3": {
+  "fresh": true,
+  "title": "Q.ANT 展示光子 NPU Gen 2+ 与 AMD GPU 协同卸载注意力层",
+  "translated_at": "2026-11-19"
+ },
  "n-30f5861cb4": {
   "fresh": true,
   "title": "Flux FaceIR：面向 Flux 的高质量人脸修复",
@@ -1288,6 +1303,11 @@
   "fresh": true,
   "title": "Suno 发布 Studio 2 更新",
   "translated_at": "2026-10-24"
+ },
+ "n-3dbdd70404": {
+  "fresh": true,
+  "title": "MiniMax H3 社区工具新增换脸、采样与节点优化功能",
+  "translated_at": "2026-11-19"
  },
  "n-3df0e38055": {
   "fresh": true,
@@ -1573,6 +1593,11 @@
   "fresh": true,
   "title": "JoyAI-Video-Edit 公开项目链接已记录",
   "translated_at": "2026-10-24"
+ },
+ "n-4cee766be7": {
+  "fresh": true,
+  "title": "StepRefine 仓库发布，用于缓解扩散大语言模型的幻觉问题",
+  "translated_at": "2026-11-19"
  },
  "n-4d771e5e60": {
   "fresh": true,
@@ -2459,6 +2484,11 @@
   "title": "PyPI Wheel Downloader 仓库引用",
   "translated_at": "2026-10-24"
  },
+ "n-7c1de821f8": {
+  "fresh": true,
+  "title": "Kling Image 4.0 更新新增 Tone 调色预设、字体样式及按分辨率计费的 API",
+  "translated_at": "2026-11-19"
+ },
  "n-7c1f689c14": {
   "fresh": true,
   "title": "UniGeo：基于视频模型的可控相机视角图像编辑",
@@ -2884,6 +2914,11 @@
   "title": "MonoArt 项目网站与源代码仓库已关联",
   "translated_at": "2026-10-24"
  },
+ "n-96edc5b567": {
+  "fresh": true,
+  "title": "HeyGen 发布 Avatar 6 神经数字分身模型",
+  "translated_at": "2026-11-19"
+ },
  "n-972d1e2832": {
   "fresh": true,
   "title": "TML Interaction Models：实时多模态 AI",
@@ -2953,6 +2988,11 @@
   "fresh": true,
   "title": "NVIDIA 公开 Nemotron VoiceChat 11B 的代码与模型资源",
   "translated_at": "2026-10-24"
+ },
+ "n-994a331b9a": {
+  "fresh": true,
+  "title": "SCAN框架：面向脑部MRI视觉-语言模型隐私保护协同适配的方法提出",
+  "translated_at": "2026-11-19"
  },
  "n-997df70c3d": {
   "fresh": true,
@@ -3103,6 +3143,11 @@
   "fresh": true,
   "title": "ComfyUI v0.42.5 维护补丁已发布",
   "translated_at": "2026-11-13"
+ },
+ "n-a1a2802048": {
+  "fresh": true,
+  "title": "提出SCAN框架，用于保护隐私的医学视觉-语言模型协作适配",
+  "translated_at": "2026-11-19"
  },
  "n-a1c9a6a103": {
   "fresh": true,
@@ -3303,6 +3348,11 @@
   "fresh": true,
   "title": "ComfyUI LRW Nodes 仓库与工作流示例已有文档记录",
   "translated_at": "2026-10-24"
+ },
+ "n-ab9fb003d6": {
+  "fresh": true,
+  "title": "StepRefine 免训练解码方法发布，面向多模态扩散大语言模型",
+  "translated_at": "2026-11-19"
  },
  "n-abed76ad0f": {
   "fresh": true,
@@ -3819,6 +3869,11 @@
   "title": "Habitat-GS：面向机器人导航的高斯泼溅仿真器",
   "translated_at": "2026-10-24"
  },
+ "n-c98f6e2cbf": {
+  "fresh": true,
+  "title": "Kling Image 4.0 发布统一的理解与生成架构",
+  "translated_at": "2026-11-19"
+ },
  "n-c9e1e40a9c": {
   "fresh": true,
   "title": "Unify-Agent：开放书本的智能体图像合成",
@@ -4124,6 +4179,11 @@
   "title": "Sync.so AI视觉配音与口型同步工作室",
   "translated_at": "2026-10-24"
  },
+ "n-d8ac79bdc7": {
+  "fresh": true,
+  "title": "Kling Image 4.0 实现 10 帧系列一致性",
+  "translated_at": "2026-11-19"
+ },
  "n-d8bf4374be": {
   "fresh": true,
   "title": "Odyssey-2 Max：实时生成式世界模拟器",
@@ -4288,6 +4348,11 @@
   "fresh": true,
   "title": "OpenWorker 曾通过其 GitHub 仓库被公开引用",
   "translated_at": "2026-10-24"
+ },
+ "n-e3d4a92a3f": {
+  "fresh": true,
+  "title": "Kling Image 4.0 现已通过开发者 API 与网页版 Studio 开放使用",
+  "translated_at": "2026-11-19"
  },
  "n-e3f07cf60d": {
   "fresh": true,
@@ -4708,6 +4773,11 @@
   "fresh": true,
   "title": "ElevenLabs：本地部署与端侧部署的语音AI方案",
   "translated_at": "2026-10-24"
+ },
+ "n-f686305d6a": {
+  "fresh": true,
+  "title": "Q.ANT 在 SC26 上展示基于光子 NPU 的混合大语言模型推理",
+  "translated_at": "2026-11-19"
  },
  "n-f6c6cdf729": {
   "fresh": true,

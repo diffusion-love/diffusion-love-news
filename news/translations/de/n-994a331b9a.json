@@ -1,0 +1,11 @@
+{
+ "id": "n-994a331b9a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Lokale 3D-Hirn-MRT-Repräsentationen werden an jedem Krankenhausstandort mit einem gemeinsamen, eingefrorenen medizinischen Vision-Language-Backbone extrahiert, ohne dass rohe volumetrische Bilddaten weitergegeben werden.\n\nLokale Klassenprototypen werden berechnet, indem normalisierte Merkmalssummen und Patientenzahlen für jede neurologische Krankheitskategorie ermittelt werden.\n\nAuf normbeschränkte Prototypvektoren wird kalibriertes differentielles Datenschutzrauschen angewendet; die differentiell privaten Standortzusammenfassungen werden anschließend an die kooperierenden Institutionen verteilt.\n\nQuerstandortübergreifende Prototypzusammenfassungen werden aggregiert, um neurologische Pathologien an lokalen oder unbekannten Scanner-Standorten ohne Backpropagation zu klassifizieren.\n\nDie Norm der Prototypvektoren wird vor der Rauschaddition begrenzt, um formale Garantien der differentiellen Privatsphäre einzuhalten und gleichzeitig Merkmalsverzerrungen zu begrenzen.\n\nFür Vorhersagen innerhalb der eigenen Institution werden die exakten, ungerauschten lokalen Prototypen beibehalten, während privatisierte aggregierte Prototypen ausschließlich für die standortübergreifende Generalisierung verwendet werden.",
+ "source_sha256": "faa19236c4223f427eb91c02bbfc57142e9c56bec81618dfb2edf6533decc7be",
+ "summary": "Die Forschenden stellten SCAN vor, ein trainingsfreies Framework, das 3D-Hirn-MRT-Vision-Language-Foundation-Modelle über 67 klinische Standorte hinweg anpasst, indem es differentiell private Klassenprototypen aggregiert, ohne dass rohe Scans übertragen werden.",
+ "title": "SCAN-Framework für datenschutzwahrende kollaborative Anpassung von Vision-Language-Modellen für Hirn-MRT vorgestellt",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

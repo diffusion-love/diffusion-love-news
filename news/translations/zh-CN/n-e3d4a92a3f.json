@@ -1,0 +1,11 @@
+{
+ "id": "n-e3d4a92a3f",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 Kling Creative Studio 或 API 请求体中选择生成模式（Text-to-Image、Image-to-Image 或 Long Image）以及目标分辨率（2K、4K，或原生 8K，最高可达 9984x6656）。\n\n最多可上传 10 张参考图，并在提示词文本中使用 @image_1 等标签引用它们，以约束角色身份、风格或构图布局。\n\n可在引号内加入最多 2000 个字符的图内排版文字，可从 70 多种内置字体中选择，也可提供字体参考图以指导风格。\n\n可从 110 多种 Tone 预设中选择，或指定自定义 HEX/RGB 值来配置调色，以建立一致的视觉氛围。\n\n当需要从单条提示词生成连贯的多帧分镜、电商变体或叙事序列时，可将连续输出数量设置为最多 10 张图片。\n\n通过 @image_1 至 @image_10 明确标记特定参考图，以将角色身份与背景光照分离，而不是依赖非结构化的复合参考。\n\n利用扩展后的 15,000 token 上下文上限，为复杂的海报和编辑设计提供结构化的版式描述和多段文字排布说明。\n\n应用内置 Tone 预设或明确的 HEX 色值，而非描述性的光照关键词，以在多图叙事系列中保持统一的调色。",
+ "source_sha256": "2598f89990e16e0c24ef92cd3f86b450795679a04c28dbb80c65ba6f82a9c8b6",
+ "summary": "Kling Image 4.0 已在 Kling Creative Studio 及开发者 API 端点上线，提供原生 8K 图像创作、长篇版式生成以及增强的文字渲染能力，面向商业化生产。",
+ "title": "Kling Image 4.0 现已通过开发者 API 与网页版 Studio 开放使用",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-16b9f80345",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Selecciona el modo de generación (Text-to-Image, Image-to-Image o Long Image) y la resolución objetivo (2K, 4K o 8K nativo de hasta 9984x6656) en Kling Creative Studio o en el payload de la API.\n\nSube hasta 10 imágenes de referencia y referencialas en el texto del prompt mediante etiquetas como @image_1 para reforzar la identidad del personaje, el estilo o la composición.\n\nIncluye hasta 2000 caracteres de tipografía dentro de la imagen entre comillas, eligiendo entre más de 70 fuentes integradas o proporcionando una imagen de referencia de fuente como guía de estilo.\n\nConfigura la corrección de color seleccionando entre más de 110 preajustes de Tone o especificando valores HEX/RGB personalizados para establecer una atmósfera visual consistente.\n\nConfigura el número de imágenes de salida en serie hasta 10 cuando generes storyboards multicuadro cohesivos, variaciones para comercio electrónico o secuencias narrativas a partir de un único prompt.\n\nEtiqueta explícitamente las imágenes de referencia específicas con @image_1 hasta @image_10 para separar la identidad del personaje de la iluminación del fondo, en lugar de depender de referencias compuestas no estructuradas.\n\nAprovecha el límite ampliado de 15.000 tokens de contexto para proporcionar descripciones de maquetación estructuradas e instrucciones de colocación de texto en varias secciones para diseños complejos de pósteres y editoriales.\n\nAplica los preajustes de Tone integrados o códigos de color HEX explícitos en lugar de palabras clave descriptivas de iluminación para mantener una corrección de color uniforme en series narrativas de varias imágenes.",
+ "source_sha256": "97be6225de814ce7e30105717489c9b08df37eed6beed25092fbf1e9fc977840",
+ "summary": "Kling AI ha lanzado Kling Image 4.0, con salida nativa en 8K junto a 2K y 4K, una ventana de contexto ampliada de 15.000 tokens, condicionamiento con múltiples referencias que admite hasta 10 imágenes etiquetadas, generación en serie de hasta 10 fotogramas y renderizado tipográfico de hasta 2000 caracteres.",
+ "title": "Kling Image 4.0 llega con salida nativa en 8K y condicionamiento con múltiples referencias",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-c98f6e2cbf",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Seleccione el modo de generación (Text-to-Image, Image-to-Image o Long Image) y la resolución objetivo (2K, 4K o 8K nativo de hasta 9984x6656) en Kling Creative Studio o en la carga útil de la API.\n\nSuba hasta 10 imágenes de referencia y haga referencia a ellas en el texto del prompt mediante etiquetas como @image_1 para reforzar la identidad del personaje, el estilo o la disposición compositiva.\n\nIncluya hasta 2000 caracteres de tipografía dentro de la imagen entre comillas, seleccionando entre más de 70 fuentes integradas o proporcionando una imagen de referencia de fuente como guía de estilo.\n\nConfigure la gradación de color seleccionando entre más de 110 presets de Tone o especificando valores HEX/RGB personalizados para establecer una atmósfera visual consistente.\n\nDefina un número de salida en serie de hasta 10 imágenes al generar storyboards multicuadro cohesivos, variaciones para comercio electrónico o secuencias narrativas a partir de un único prompt.\n\nEtiquete explícitamente imágenes de referencia específicas con @image_1 a @image_10 para separar la identidad del personaje de la iluminación del fondo, en lugar de depender de referencias compuestas no estructuradas.\n\nAproveche el límite ampliado de 15 000 tokens de contexto para proporcionar descripciones estructuradas de disposición e instrucciones de colocación de texto por secciones en diseños complejos de carteles y editoriales.\n\nApplique presets de Tone integrados o códigos de color HEX explícitos en lugar de palabras clave descriptivas de iluminación para mantener una gradación de color uniforme en series narrativas de múltiples imágenes.",
+ "source_sha256": "7701a1df2cbcfb257bf293aa95841fe4a20f5ccf6b998616335738282b4b2e2e",
+ "summary": "Kling AI presentó Kling Image 4.0, basado en una arquitectura autorregresiva unificada que integra la comprensión visual con la síntesis de imágenes en los modos de generación de texto a imagen, de imagen a imagen y de imagen larga vertical.",
+ "title": "Kling Image 4.0 presenta una arquitectura unificada de comprensión y generación",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

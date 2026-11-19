@@ -1,0 +1,11 @@
+{
+ "id": "n-ab9fb003d6",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从 https://github.com/mdlm-steprefine/mdlm-steprefine 克隆官方仓库，并安装软件包依赖。\n\n加载受支持的预训练多模态扩散语言模型检查点，例如 LLaDA-V、LLaDA-o、Dream-VL 或 LaViDa。\n\n挂载 StepRefine 的步感知解码封装器，以替换默认的离散 token 提交调度。\n\n配置熵异常检测阈值、最大潜在精炼轮数以及 KL 散度稳定性停止准则。\n\n执行推理，允许控制器在检测到熵尖峰时动态触发连续潜在精炼。\n\n在潜在精炼期间启用预算补偿，使整体推理延迟和前向传播次数与基线扩散解码保持可比。\n\n根据所选骨干模型的总去噪步数校准熵尖峰检测的时间窗口大小，以避免误判触发的精炼切换。\n\n使用 KL 散度阈值而非固定的精炼迭代次数，当语义分布趋于稳定时提前终止连续优化。",
+ "source_sha256": "f414213fd99fbd38ed3db6071ff123cb18698bd6ea58339eb9712c6999aad7d2",
+ "summary": "StepRefine 为多模态扩散语言模型引入了步感知解码。它在迭代式 token 生成过程中监测熵尖峰，并从离散 token 提交切换到基于概率加权嵌入的连续潜在精炼。该方法无需训练，适用于 LLaDA-V、LLaDA-o、Dream-VL 和 LaViDa 等模型。",
+ "title": "StepRefine 免训练解码方法发布，面向多模态扩散大语言模型",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

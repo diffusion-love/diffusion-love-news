@@ -1,0 +1,11 @@
+{
+ "id": "n-30e2413dd3",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Simule localmente las operaciones de transformada discreta de Fourier óptica con el SDK de código abierto de Q.ANT, en Python o C, antes de desplegarlas en hardware fotónico físico.\n\nInstale el coprocesador NPU Gen 2+ de Q.ANT en una ranura PCIe estándar dentro de un servidor equipado con una GPU host AMD Instinct.\n\nParticione la ejecución del modelo asignando las capas de atención transformables mediante Fourier a la NPU fotónica, mientras las capas densas y limitadas por memoria restantes permanecen en la GPU host.\n\nValide los reemplazos de capas de red neuronal transformadas por Fourier frente a los mecanismos de atención de referencia en simulación por CPU, para medir la degradación de la precisión del modelo antes de la descarga física.\n\nApunte a modelos con cuellos de botella en la longitud de secuencia, donde las transformadas de Fourier ópticas de un solo paso ofrecen el máximo beneficio en latencia y energía frente a la atención cuadrática electrónica.",
+ "source_sha256": "5958b4bf3275d09da6978bae2327bdbf3a316e842d8afb6c81ec0b287ab6ed97",
+ "summary": "Q.ANT presentó la inferencia heterogénea de LLM en SC26, utilizando su NPU fotónica Gen 2+ de niobato de litio en película fina para calcular transformadas discretas de Fourier ópticas junto con un acelerador AMD Instinct.",
+ "title": "Q.ANT muestra una NPU fotónica Gen 2+ que descarga capas de atención junto a una GPU AMD",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

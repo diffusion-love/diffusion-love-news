@@ -1,0 +1,11 @@
+{
+ "id": "n-3dbdd70404",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klone die vierstufige Face-Swap-Pipeline als Custom Node und installiere sie im Verzeichnis custom_nodes von ComfyUI.\n\nInstalliere ComfyUI-Spectrum-MiniMax-H3, um Spectrum-Schedule-Nodes zu aktivieren und Attention-Layer zu kalibrieren.\n\nLade den DenoMix-Tiled-Sampler-Workflow und die Checkpoints für das hochauflösende Latent-Upscaling.\n\nWende den FastDerope-Node-Patch auf die Rotary-Positional-Embedding-Schicht an, um die Attention-Verarbeitung während der Frame-Generierung zu optimieren.\n\nTrenne Subject-Tracking und die Erzeugung der Gesichtsmaske in einen ersten Durchlauf, bevor der Latent-Composite-Replacement-Schritt ausgeführt wird, um die Stabilität der Ränder sicherzustellen.\n\nVerwende Tiled Sampling mit konsistenten Überlappungsrändern in DenoMix, wenn hochauflösende Videoframes verarbeitet werden, um Diskontinuitäten an den Tile-Grenzen zu vermeiden.\n\nPrüfe, ob die Parameter der Rotary-Embedding-Dimension in FastDerope genau zur jeweiligen MiniMax-H3-Modellvariante passen, um Attention-Divergenz zu vermeiden.",
+ "source_sha256": "92f69497fdebfa853003dedced4def6db32db66b417af5d5291d43564926fea2",
+ "summary": "Community-Releases für MiniMax H3 bringen eine vierstufige ComfyUI-Face-Swap-Pipeline, die Spectrum-v0.2.30-Integration, DenoMix-Tiled-Sampler-Workflows und FastDerope-Patches für Rotary Embeddings mit.",
+ "title": "MiniMax H3: Community-Tools ergänzen Face-Swap, Sampling und Node-Optimierungen",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

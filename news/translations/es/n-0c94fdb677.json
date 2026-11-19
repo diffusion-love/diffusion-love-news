@@ -1,0 +1,11 @@
+{
+ "id": "n-0c94fdb677",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Instala la CLI multiplataforma Easy Lens y autentícate con una cuenta de desarrollador de Snapchat.\n\nConecta un asistente de programación con IA, como Claude Code, Cursor o Codex, al espacio de trabajo mediante el servidor Model Context Protocol (MCP) de Lens Studio.\n\nDescribe en lenguaje natural el efecto de AR deseado, el filtro facial o la mecánica del juego Web Lens para que el agente ensamble componentes a partir de bloques de construcción de AR y generadores de recursos con IA.\n\nTransmite en directo las compilaciones de vista previa directamente a un teléfono móvil emparejado para el seguimiento de la cámara y la depuración en tiempo de ejecución.\n\nPublica el Lens finalizado mediante el flujo automatizado de la CLI o de Lens Studio para la revisión de moderación de la plataforma y la configuración de la monetización.\n\nUtiliza prompts estructurados en lenguaje natural que definan explícitamente los objetivos de seguimiento, la física de interacción y los estados de la tabla de clasificación para restringir la generación del agente.\n\nVerifica los recursos 3D y los scripts generados frente a los presupuestos de rendimiento móvil en dispositivos físicos emparejados antes de enviarlos a la revisión de la plataforma.\n\nCompón escenas complejas a partir de bloques de construcción de AR modulares y consolidados en lugar de pedir código de shaders personalizado desde cero.",
+ "source_sha256": "3b52bbe0ae75651d4baca05955dab7d6e398f0ff42d2f26936ed40f263aeefc2",
+ "summary": "Snap lanzó la CLI Easy Lens y la integración de Model Context Protocol para Lens Studio, que permite a los desarrolladores crear, depurar, previsualizar y publicar Lenses de AR y juegos Web Lens mediante herramientas de programación con IA basadas en lenguaje natural, como Claude Code, Cursor y Codex.",
+ "title": "Snapchat lanza la CLI Easy Lens y el MCP de Lens Studio para asistentes de programación con IA",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

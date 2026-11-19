@@ -1,0 +1,11 @@
+{
+ "id": "n-a1a2802048",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Extraer representaciones localizadas de resonancia magnética cerebral 3D en cada centro hospitalario, utilizando un backbone médico visión-lenguaje compartido y congelado, sin compartir los datos volumétricos de imagen en bruto.\n\nCalcular prototipos de clase locales mediante la suma de características normalizadas y el recuento de pacientes para cada categoría de condición neurológica.\n\nAplicar ruido de privacidad diferencial calibrado a los vectores prototipo con norma acotada y difundir los resúmenes de sitio con privacidad diferencial entre las instituciones colaboradoras.\n\nAgregar los resúmenes de prototipos entre sitios para clasificar patologías neurológicas en sitios locales o con escáneres no vistos, sin retropropagación.\n\nAcotar la norma de los vectores prototipo antes de añadir el ruido, para mantener las garantías formales de privacidad diferencial y mitigar la distorsión de las características.\n\nConservar los prototipos locales exactos, sin ruido, para las predicciones dentro de la propia institución, y utilizar únicamente los prototipos agregados y privatizados para la generalización entre sitios.",
+ "source_sha256": "d5b92b7fb5d8ec22459b307a1e8b54dc87a7dde4e75ea4b3ab5eec21641c7595",
+ "summary": "El marco SCAN permite a centros médicos distribuidos adaptar modelos visión-lenguaje 3D para la clasificación de enfermedades neurológicas mediante la agregación de prototipos consciente del sitio con privacidad diferencial calibrada.",
+ "title": "Propuesto el marco SCAN para la adaptación colaborativa y preservadora de la privacidad de modelos médicos visión-lenguaje",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

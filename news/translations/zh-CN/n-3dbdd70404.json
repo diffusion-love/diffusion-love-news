@@ -1,0 +1,11 @@
+{
+ "id": "n-3dbdd70404",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "将四阶段换脸流程的自定义节点克隆并安装到 ComfyUI 的 custom_nodes 目录中。\n\n安装 ComfyUI-Spectrum-MiniMax-H3，以启用 spectrum 调度节点并校准注意力层。\n\n加载 DenoMix 分块采样器工作流及模型检查点，用于高分辨率潜空间上采样。\n\n对旋转位置编码层应用 FastDerope 节点补丁，以在帧生成过程中优化注意力计算。\n\n在进行潜空间合成替换之前，先在初始阶段分别完成主体跟踪与面部蒙版生成，以确保边界稳定。\n\n在 DenoMix 中处理高分辨率视频帧时，使用具有一致重叠边距的分块采样，以防止分块边界不连续。\n\n核实 FastDerope 中的旋转嵌入维度参数与 MiniMax H3 的具体模型变体完全一致，以避免注意力发散。",
+ "source_sha256": "92f69497fdebfa853003dedced4def6db32db66b417af5d5291d43564926fea2",
+ "summary": "MiniMax H3 社区发布了多项工具：一套四阶段 ComfyUI 换脸流程、Spectrum v0.2.30 集成、DenoMix 分块采样器工作流，以及 FastDerope 旋转嵌入补丁。",
+ "title": "MiniMax H3 社区工具新增换脸、采样与节点优化功能",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

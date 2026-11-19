@@ -1,0 +1,11 @@
+{
+ "id": "n-96edc5b567",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "录制并上传约30秒的参考视频素材、高分辨率人像照片和清晰的语音样本，以建立数字分身档案。\n\n配置生成参数，包括模型档位（heygen-avatar-6 或 heygen-avatar-6-turbo）、目标分辨率（1080p 或 2K），以及可选的 motion_prompt 文本，用于控制特定手势。\n\n通过网页工作室或 Application/Model API 端点提交口播文稿或同步音轨（指定 engine.type: 'heygen-avatar-6'），以渲染最终视频。\n\n使用基于文本的动作提示来引导手势的语气，并在正式或技术性演示中避免过多动作。\n\n对于实时交互或大批量渲染等场景，如果延迟和成本比 2K 细节上的细微差异更重要，可选择 Turbo 变体。",
+ "source_sha256": "c2689f7f2509f32341c0bd5590f2b58c7a8988afaa051b682a88f49f85f1654a",
+ "summary": "HeyGen 推出了 Avatar 6，这是一款头像生成模型，可基于约30秒的视频、参考照片和音频构建数字分身。该架构支持 1080p 和 2K 分辨率、可感知脚本的动态手势、动作提示控制，并提供标准和 Turbo 两个推理档位的 API 访问。",
+ "title": "HeyGen 发布 Avatar 6 神经数字分身模型",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

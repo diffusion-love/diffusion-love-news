@@ -1,0 +1,11 @@
+{
+ "id": "n-0c94fdb677",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installieren Sie die plattformübergreifende Easy-Lens-CLI und authentifizieren Sie sich mit einem Snapchat-Entwicklerkonto.\n\nVerbinden Sie einen KI-Coding-Assistenten wie Claude Code, Cursor oder Codex über den Lens-Studio-Model-Context-Protocol-(MCP)-Server mit dem Workspace.\n\nBeschreiben Sie den gewünschten AR-Effekt, Gesichtsfilter oder die Spielmechanik eines Web Lens in natürlicher Sprache, damit der Agent Komponenten aus AR-Bausteinen und KI-Asset-Generatoren zusammenstellt.\n\nStreamen Sie Live-Vorschau-Builds direkt auf ein gekoppeltes Mobiltelefon, um die Kameraverfolgung und das Laufzeit-Debugging zu testen.\n\nVeröffentlichen Sie die fertige Lens über den automatisierten CLI- oder Lens-Studio-Ablauf zur Moderationsprüfung durch die Plattform und zur Einrichtung der Monetarisierung.\n\nVerwenden Sie strukturierte Prompts in natürlicher Sprache, die Tracking-Ziele, Interaktionsphysik und Bestenlisten-Zustände explizit festlegen, um die Generierung durch den Agenten einzugrenzen.\n\nPrüfen Sie generierte 3D-Assets und Skripte auf gekoppelten physischen Geräten gegen mobile Leistungsbudgets, bevor Sie sie zur Plattformprüfung einreichen.\n\nKomponieren Sie komplexe Szenen aus etablierten modularen AR-Bausteinen, statt eigenen Shader-Code von Grund auf per Prompt anzufordern.",
+ "source_sha256": "3b52bbe0ae75651d4baca05955dab7d6e398f0ff42d2f26936ed40f263aeefc2",
+ "summary": "Snap hat die Easy-Lens-CLI und die Model-Context-Protocol-Integration für Lens Studio veröffentlicht. Entwickler können damit AR-Lenses und Web-Lens-Spiele per natürlicher Sprache mit KI-Coding-Werkzeugen wie Claude Code, Cursor und Codex erstellen, debuggen, in der Vorschau anzeigen und veröffentlichen.",
+ "title": "Snapchat stellt Easy-Lens-CLI und Lens-Studio-MCP für KI-Coding-Assistenten vor",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-d8ac79bdc7",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Wählen Sie den Generierungsmodus (Text-to-Image, Image-to-Image oder Long Image) und die Zielauflösung (2K, 4K oder native 8K bis 9984x6656) in Kling Creative Studio oder im API-Payload.\n\nLaden Sie bis zu 10 Referenzbilder hoch und verweisen Sie im Prompt-Text mit Tags wie @image_1 darauf, um Figurenidentität, Stil oder Bildkomposition gezielt festzulegen.\n\nFügen Sie bis zu 2000 Zeichen In-Image-Typografie in Anführungszeichen ein und wählen Sie aus über 70 integrierten Schriftarten oder geben Sie ein Schriftreferenzbild als Stilvorlage an.\n\nKonfigurieren Sie die Farbkorrektur, indem Sie eines von über 110 Tone-Presets auswählen oder eigene HEX-/RGB-Werte festlegen, um eine konsistente visuelle Atmosphäre zu erzeugen.\n\nStellen Sie die serielle Ausgabeanzahl auf bis zu 10 Bilder ein, wenn Sie aus einem einzigen Prompt zusammenhängende Storyboards mit mehreren Einzelbildern, E-Commerce-Varianten oder narrative Bildfolgen erzeugen.\n\nKennzeichnen Sie bestimmte Referenzbilder explizit mit @image_1 bis @image_10, um Figurenidentität und Hintergrundbeleuchtung zu trennen, statt auf unstrukturierte zusammengesetzte Referenzen zu setzen.\n\nNutzen Sie das erweiterte Kontextlimit von 15.000 Token, um strukturierte Layoutbeschreibungen und mehrteilige Anweisungen zur Textplatzierung für komplexe Poster- und Editorial-Designs zu liefern.\n\nVerwenden Sie integrierte Tone-Presets oder explizite HEX-Farbcodes anstelle beschreibender Lichtstichwörter, um die Farbkorrektur über alle Bilder einer narrativen Serie hinweg einheitlich zu halten.",
+ "source_sha256": "001c2ff4f499da07f3f59dd112b03764bef2a3c7faefb292e28a2974eae31da3",
+ "summary": "Das Kling-Image-4.0-Modell setzt auf verbesserte physikalische Beleuchtung und Hauttextur-Rendering und unterstützt die kohärente Erzeugung von bis zu 10 aufeinanderfolgenden Bildern sowie bis zu 10 Referenzbildern pro Generierungsaufgabe.",
+ "title": "Kling Image 4.0 bringt Serienkonsistenz über 10 Bilder",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

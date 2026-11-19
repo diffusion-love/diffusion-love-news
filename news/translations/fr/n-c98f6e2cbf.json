@@ -1,0 +1,11 @@
+{
+ "id": "n-c98f6e2cbf",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Sélectionnez le mode de génération (Text-to-Image, Image-to-Image ou Long Image) et la résolution cible (2K, 4K ou 8K natif jusqu'à 9984x6656) dans Kling Creative Studio ou dans la charge utile de l'API.\n\nTéléversez jusqu'à 10 images de référence et référencez-les dans le texte du prompt à l'aide de balises telles que @image_1 pour imposer l'identité d'un personnage, le style ou la composition.\n\nIncluez jusqu'à 2000 caractères de typographie intégrée à l'image entre guillemets, en choisissant parmi plus de 70 polices intégrées ou en fournissant une image de référence de police pour guider le style.\n\nConfigurez l'étalonnage des couleurs en sélectionnant parmi plus de 110 préréglages de Tone ou en spécifiant des valeurs HEX/RGB personnalisées afin d'établir une atmosphère visuelle cohérente.\n\nDéfinissez un nombre de sorties en série pouvant atteindre 10 images lors de la génération de storyboards multi-images cohérents, de variations e-commerce ou de séquences narratives à partir d'un seul prompt.\n\nBalisez explicitement des images de référence spécifiques avec @image_1 à @image_10 pour séparer l'identité du personnage de l'éclairage de l'arrière-plan, plutôt que de vous appuyer sur des références composites non structurées.\n\nExploitez la fenêtre de contexte élargie de 15 000 tokens pour fournir des descriptions de mise en page structurées et des instructions de placement de texte en plusieurs sections pour les affiches et les maquettes éditoriales complexes.\n\nAppliquez les préréglages de Tone intégrés ou des codes couleur HEX explicites plutôt que des mots-clés descriptifs d'éclairage afin de maintenir un étalonnage uniforme dans les séries narratives multi-images.",
+ "source_sha256": "7701a1df2cbcfb257bf293aa95841fe4a20f5ccf6b998616335738282b4b2e2e",
+ "summary": "Kling AI a présenté Kling Image 4.0, fondé sur une architecture autorégressive unifiée qui intègre la compréhension visuelle et la synthèse d'images dans les modes de génération text-to-image, image-to-image et de long image verticale.",
+ "title": "Kling Image 4.0 dévoile une architecture unifiée de compréhension et de génération",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

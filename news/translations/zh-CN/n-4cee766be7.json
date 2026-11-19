@@ -1,0 +1,11 @@
+{
+ "id": "n-4cee766be7",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从 https://github.com/mdlm-steprefine/mdlm-steprefine 克隆官方仓库，并安装软件包依赖。\n\n加载受支持的预训练多模态扩散语言模型 checkpoint，例如 LLaDA-V、LLaDA-o、Dream-VL 或 LaViDa。\n\n挂载 StepRefine 的步感知解码封装器，以替换默认的离散 token 提交调度。\n\n配置熵异常检测阈值、最大潜在表示精修轮数，以及 KL 散度稳定性停止准则。\n\n执行推理，允许控制器在检测到熵峰值时动态触发连续潜在表示精修。\n\n在潜在表示精修期间启用预算补偿，使整体推理延迟和前向传播次数与基线扩散解码保持可比。\n\n根据所选骨干模型的总去噪步数，校准熵峰值检测的时间窗口大小，以避免误报的精修切换。\n\n采用 KL 散度阈值而非固定的精修迭代次数，当语义分布趋于稳定时提前终止连续优化。",
+ "source_sha256": "e4a382868c22c14023d1b6d8bb8b4b9b02e30892ab55ad42073c491f4a870244",
+ "summary": "StepRefine 代码已发布在 mdlm-steprefine 仓库中。该实现提供熵异常检测、带 KL 散度稳定性检查的多轮连续潜在表示精修，以及预算补偿机制，用于缓解多模态扩散架构中的幻觉问题。",
+ "title": "StepRefine 仓库发布，用于缓解扩散大语言模型的幻觉问题",
+ "translated_at": "2026-11-19",
+ "translation": "machine"
+}

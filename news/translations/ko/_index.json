@@ -284,6 +284,11 @@
   "title": "Omni-Diffusion 공개 프로젝트 리소스 연결",
   "translated_at": "2026-10-24"
  },
+ "n-0c94fdb677": {
+  "fresh": true,
+  "title": "Snapchat, AI 코딩 어시스턴트를 위한 Easy Lens CLI 및 Lens Studio MCP 출시",
+  "translated_at": "2026-11-19"
+ },
  "n-0cf91afec3": {
   "fresh": true,
   "title": "Qwen-Image 3.0 공개 Qwen 링크 기록",
@@ -453,6 +458,11 @@
   "fresh": true,
   "title": "CorridorKey-Runtime: AI 그린스크린 키어",
   "translated_at": "2026-10-24"
+ },
+ "n-16b9f80345": {
+  "fresh": true,
+  "title": "Kling Image 4.0 출시, 네이티브 8K 출력과 다중 참조 컨디셔닝 지원",
+  "translated_at": "2026-11-19"
  },
  "n-16c3e34986": {
   "fresh": true,
@@ -1039,6 +1049,11 @@
   "title": "LTX LoRA 배포 링크 기록",
   "translated_at": "2026-10-24"
  },
+ "n-30e2413dd3": {
+  "fresh": true,
+  "title": "Q.ANT, 포토닉 NPU Gen 2+로 AMD GPU와 함께 어텐션 계층 오프로딩 선보여",
+  "translated_at": "2026-11-19"
+ },
  "n-30f5861cb4": {
   "fresh": true,
   "title": "Flux FaceIR: Flux를 위한 고품질 얼굴 복원",
@@ -1288,6 +1303,11 @@
   "fresh": true,
   "title": "Suno, Studio 2 업데이트 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-3dbdd70404": {
+  "fresh": true,
+  "title": "MiniMax H3 커뮤니티 도구, 얼굴 교체·샘플링·노드 최적화 기능 추가",
+  "translated_at": "2026-11-19"
  },
  "n-3df0e38055": {
   "fresh": true,
@@ -1573,6 +1593,11 @@
   "fresh": true,
   "title": "JoyAI-Video-Edit 공개 프로젝트 참조 기록",
   "translated_at": "2026-10-24"
+ },
+ "n-4cee766be7": {
+  "fresh": true,
+  "title": "디퓨전 LLM 환각 완화를 위한 StepRefine 저장소 공개",
+  "translated_at": "2026-11-19"
  },
  "n-4d771e5e60": {
   "fresh": true,
@@ -2459,6 +2484,11 @@
   "title": "PyPI Wheel Downloader 저장소 참조",
   "translated_at": "2026-10-24"
  },
+ "n-7c1de821f8": {
+  "fresh": true,
+  "title": "Kling Image 4.0 업데이트, Tone 색상 프리셋·폰트 스타일링·해상도 기반 API 과금 추가",
+  "translated_at": "2026-11-19"
+ },
  "n-7c1f689c14": {
   "fresh": true,
   "title": "UniGeo: 비디오 모델을 활용한 카메라 제어 가능 이미지 편집",
@@ -2884,6 +2914,11 @@
   "title": "MonoArt 프로젝트 웹사이트와 소스 저장소가 연결됨",
   "translated_at": "2026-10-24"
  },
+ "n-96edc5b567": {
+  "fresh": true,
+  "title": "HeyGen, 뉴럴 디지털 트윈 모델 Avatar 6 출시",
+  "translated_at": "2026-11-19"
+ },
  "n-972d1e2832": {
   "fresh": true,
   "title": "TML Interaction Models: 실시간 멀티모달 AI",
@@ -2953,6 +2988,11 @@
   "fresh": true,
   "title": "NVIDIA, Nemotron VoiceChat 11B 코드 및 모델 리소스 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-994a331b9a": {
+  "fresh": true,
+  "title": "뇌 MRI 시각-언어 모델의 프라이버시 보호 협업 적응을 위한 SCAN 프레임워크 제안",
+  "translated_at": "2026-11-19"
  },
  "n-997df70c3d": {
   "fresh": true,
@@ -3103,6 +3143,11 @@
   "fresh": true,
   "title": "ComfyUI v0.42.5 유지보수 패치 공개",
   "translated_at": "2026-11-13"
+ },
+ "n-a1a2802048": {
+  "fresh": true,
+  "title": "보정된 차분 프라이버시를 활용한 프라이버시 보존형 의료 비전-언어 모델 협업 적응을 위한 SCAN 프레임워크 제안",
+  "translated_at": "2026-11-19"
  },
  "n-a1c9a6a103": {
   "fresh": true,
@@ -3303,6 +3348,11 @@
   "fresh": true,
   "title": "ComfyUI LRW Nodes 저장소와 워크플로 예제가 문서화되었습니다",
   "translated_at": "2026-10-24"
+ },
+ "n-ab9fb003d6": {
+  "fresh": true,
+  "title": "멀티모달 확산 LLM을 위한 학습 없는 디코딩 StepRefine 공개",
+  "translated_at": "2026-11-19"
  },
  "n-abed76ad0f": {
   "fresh": true,
@@ -3819,6 +3869,11 @@
   "title": "Habitat-GS: 로봇 내비게이션을 위한 Gaussian Splatting 시뮬레이터",
   "translated_at": "2026-10-24"
  },
+ "n-c98f6e2cbf": {
+  "fresh": true,
+  "title": "Kling Image 4.0, 통합 이해 및 생성 아키텍처 공개",
+  "translated_at": "2026-11-19"
+ },
  "n-c9e1e40a9c": {
   "fresh": true,
   "title": "Unify-Agent: 오픈북 에이전트형 이미지 합성",
@@ -4124,6 +4179,11 @@
   "title": "Sync.so AI 비주얼 더빙 및 립싱크 스튜디오",
   "translated_at": "2026-10-24"
  },
+ "n-d8ac79bdc7": {
+  "fresh": true,
+  "title": "Kling Image 4.0, 10컷 시리즈 일관성 구현",
+  "translated_at": "2026-11-19"
+ },
  "n-d8bf4374be": {
   "fresh": true,
   "title": "Odyssey-2 Max: 실시간 생성형 월드 시뮬레이터",
@@ -4288,6 +4348,11 @@
   "fresh": true,
   "title": "OpenWorker가 GitHub 저장소를 통해 공개적으로 언급되었습니다",
   "translated_at": "2026-10-24"
+ },
+ "n-e3d4a92a3f": {
+  "fresh": true,
+  "title": "Kling Image 4.0, 개발자 API 및 웹 스튜디오에서 이용 가능",
+  "translated_at": "2026-11-19"
  },
  "n-e3f07cf60d": {
   "fresh": true,
@@ -4708,6 +4773,11 @@
   "fresh": true,
   "title": "ElevenLabs: 온프레미스 및 온디바이스 음성 AI 배포",
   "translated_at": "2026-10-24"
+ },
+ "n-f686305d6a": {
+  "fresh": true,
+  "title": "Q.ANT, SC26에서 포토닉 NPU 기반 하이브리드 LLM 추론 시연",
+  "translated_at": "2026-11-19"
  },
  "n-f6c6cdf729": {
   "fresh": true,
