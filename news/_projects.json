@@ -86025,6 +86025,115 @@
     ],
     "claims": []
   },
+  "snapchat": {
+    "family_slug": "snapchat",
+    "family_display": "Snapchat lenses and filters",
+    "family_display_variants": [
+      {
+        "family_display": "Snapchat lenses and filters",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "news_ids": [
+          "n-0c94fdb677"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-0c94fdb677"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-0c94fdb677",
+        "title": "Snapchat launches Easy Lens CLI and Lens Studio MCP for AI coding assistants",
+        "primary_link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "techcrunch.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+        "is_primary": true,
+        "verified_at": "2026-11-19T16:55:33Z",
+        "news_ids": [
+          "n-0c94fdb677"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Snapchat launches Easy Lens CLI and Lens Studio MCP for AI coding assistants",
+        "summary": "Snap launched the Easy Lens CLI and Model Context Protocol integration for Lens Studio, enabling developers to build, debug, preview, and publish AR Lenses and Web Lens games using natural-language AI coding tools including Claude Code, Cursor, and Codex.",
+        "version": null,
+        "news_id": "n-0c94fdb677",
+        "primary_link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-0c94fdb677",
+        "date": "2026-11-18",
+        "title": "Snapchat launches Easy Lens CLI and Lens Studio MCP for AI coding assistants",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "snapchat",
+        "version": null,
+        "tags": [
+          "Snapchat lenses and filters",
+          "family:snapchat",
+          "misc",
+          "snapchat",
+          "snapchat-lenses-and-filters"
+        ],
+        "primary_link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "snapchat-lenses-and-filters",
+        "display": "Snapchat Lenses And Filters",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-0c94fdb677",
+        "news_ids": [
+          "n-0c94fdb677"
+        ]
+      }
+    ]
+  },
   "sol-attn": {
     "family_slug": "sol-attn",
     "family_display": "Sol Attn",

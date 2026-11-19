@@ -57,6 +57,25 @@
     "has_video": false
   },
   {
+    "id": "n-0c94fdb677",
+    "date": "2026-11-18",
+    "title": "Snapchat launches Easy Lens CLI and Lens Studio MCP for AI coding assistants",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "snapchat",
+    "version": null,
+    "tags": [
+      "Snapchat lenses and filters",
+      "family:snapchat",
+      "misc",
+      "snapchat",
+      "snapchat-lenses-and-filters"
+    ],
+    "primary_link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-492c016626",
     "date": "2026-11-13",
     "title": "Google releases Gemini 4 Hydrogen coding model",
