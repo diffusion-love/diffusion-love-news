@@ -12380,6 +12380,15 @@
         },
         {
           "kind": "code",
+          "url": "https://github.com/vrgamegirl19/VRGDG-SeedVR2-TensorRT-Studio/blob/main/THIRD_PARTY_NOTICES.md",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-09-06T00:01:23Z"
+        },
+        {
+          "kind": "code",
           "url": "https://github.com/vrgamegirl19/VRGDG-SeedVR2-TensorRT-Studio/blob/main/docs/INSTALLATION.md",
           "host": "github.com",
           "lang": "en",
