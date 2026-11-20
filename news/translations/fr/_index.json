@@ -2139,6 +2139,11 @@
   "title": "Freepik lié aux ressources de génération vidéo Seedance 2.0",
   "translated_at": "2026-10-24"
  },
+ "n-686468ae7d": {
+  "fresh": true,
+  "title": "NVIDIA Dynamo introduit un service de rollouts distribué pour l'apprentissage par renforcement",
+  "translated_at": "2026-11-20"
+ },
  "n-687a924683": {
   "fresh": true,
   "title": "GitLab publie des mises à jour de sécurité pour une faille critique d'exécution de code à distance",
@@ -2919,6 +2924,11 @@
   "title": "Les ressources du projet RealRestorer ont été référencées",
   "translated_at": "2026-10-24"
  },
+ "n-9253bb5191": {
+  "fresh": true,
+  "title": "Des modèles d'IA permettent d'obtenir 14 % d'améliorations PPA sur l'IP GPU phare d'AMD",
+  "translated_at": "2026-11-20"
+ },
  "n-92aedf6bb2": {
   "fresh": true,
   "title": "VRGDG SeedVR2 TensorRT Studio ajoute un flux de travail local pour Windows autour de SeedVR2",
@@ -3063,6 +3073,11 @@
   "fresh": true,
   "title": "NVIDIA a mis en ligne les ressources de code et de modèle de Nemotron VoiceChat 11B",
   "translated_at": "2026-10-24"
+ },
+ "n-9944feb281": {
+  "fresh": true,
+  "title": "La programmation de l'espace des poids compile des faits en tables de concepts éparses sans entraînement par gradient",
+  "translated_at": "2026-11-20"
  },
  "n-994a331b9a": {
   "fresh": true,
@@ -4383,6 +4398,11 @@
   "fresh": true,
   "title": "Site public de WhatModels documenté",
   "translated_at": "2026-10-24"
+ },
+ "n-dda49a7597": {
+  "fresh": true,
+  "title": "POSTECH évalue la synthèse de poids pilotée par LLM sur des benchmarks de raisonnement",
+  "translated_at": "2026-11-20"
  },
  "n-de14e3f121": {
   "fresh": true,

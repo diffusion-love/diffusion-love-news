@@ -2139,6 +2139,11 @@
   "title": "Freepik связан с ресурсами генерации видео Seedance 2.0",
   "translated_at": "2026-10-24"
  },
+ "n-686468ae7d": {
+  "fresh": true,
+  "title": "NVIDIA Dynamo представляет распределённое обслуживание роллаутов для обучения с подкреплением",
+  "translated_at": "2026-11-20"
+ },
  "n-687a924683": {
   "fresh": true,
   "title": "GitLab выпустила обновления безопасности для критической уязвимости удалённого выполнения кода",
@@ -2919,6 +2924,11 @@
   "title": "Ресурсы проекта RealRestorer были связаны",
   "translated_at": "2026-10-24"
  },
+ "n-9253bb5191": {
+  "fresh": true,
+  "title": "AI-модели дают 14% улучшения PPA для флагманского GPU-IP AMD",
+  "translated_at": "2026-11-20"
+ },
  "n-92aedf6bb2": {
   "fresh": true,
   "title": "VRGDG SeedVR2 TensorRT Studio добавляет локальный рабочий процесс для Windows вокруг SeedVR2",
@@ -3063,6 +3073,11 @@
   "fresh": true,
   "title": "NVIDIA опубликовала код и модель Nemotron VoiceChat 11B",
   "translated_at": "2026-10-24"
+ },
+ "n-9944feb281": {
+  "fresh": true,
+  "title": "Weight-Space Programming компилирует факты в разреженные таблицы концептов без градиентного обучения",
+  "translated_at": "2026-11-20"
  },
  "n-994a331b9a": {
   "fresh": true,
@@ -4388,6 +4403,11 @@
   "fresh": true,
   "title": "Публичный сайт WhatModels задокументирован",
   "translated_at": "2026-10-24"
+ },
+ "n-dda49a7597": {
+  "fresh": true,
+  "title": "POSTECH оценивает синтез весов на основе LLM на бенчмарках рассуждений",
+  "translated_at": "2026-11-20"
  },
  "n-de14e3f121": {
   "fresh": true,

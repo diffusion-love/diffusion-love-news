@@ -1,0 +1,11 @@
+{
+ "id": "n-dda49a7597",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt et installez les dépendances d'environnement requises : git clone https://github.com/effl-lab/Weight-Space-Programming.git\n\nDéfinissez les spécifications des tâches cibles, les démonstrations en few-shot, et configurez le bac à sable d'exécution interactif local.\n\nIncitez un modèle de langage de raisonnement de pointe à extraire des concepts et à compiler des poids clé-valeur ainsi que des routines de recherche fixes, sans rétropropagation.\n\nÉvaluez la table de concepts épars générée sur des benchmarks de raisonnement cibles et inspectez les activations ligne par ligne pour l'analyse des erreurs.\n\nContraignez la compilation dans l'espace des poids aux tables de concepts associatives éparses, plutôt que de chercher à coder à la main des matrices denses de transformeur multicouches.\n\nDéployez la synthèse dans l'espace des poids spécifiquement pour les tâches de raisonnement et de récupération de connaissances structurées, où les faits rédigés par des humains peuvent être isolés, en évitant les tâches sur pixels perceptuels bruts où la descente de gradient reste supérieure.\n\nExploitez la représentation tabulaire par lignes des poids compilés pour l'inspection ligne par ligne et le débogage chirurgical des paramètres, sans risquer l'oubli catastrophique ni la dérive globale des paramètres.",
+ "source_sha256": "97c8f749d1486a4b727cac886730c6ae17232fd903c4037a2d1ee5b424ec0941",
+ "summary": "Des chercheurs évaluent la programmation dans l'espace des poids à l'aide de modèles de raisonnement de pointe dans un bac à sable d'exécution interactif, démontrant une efficacité paramétrique tabulaire supérieure aux transformeurs de référence sur des benchmarks de raisonnement, tout en s'appuyant strictement sur des connaissances rédigées par des humains.",
+ "title": "POSTECH évalue la synthèse de poids pilotée par LLM sur des benchmarks de raisonnement",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

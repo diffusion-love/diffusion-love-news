@@ -1,0 +1,11 @@
+{
+ "id": "n-9944feb281",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt et installez les dépendances d'environnement requises : git clone https://github.com/effl-lab/Weight-Space-Programming.git\n\nDéfinissez les spécifications des tâches cibles, les démonstrations en few-shot, et configurez le bac à sable d'exécution interactive locale.\n\nIncitez un modèle de langage de raisonnement de pointe à extraire des concepts et à compiler des poids clé-valeur ainsi que des routines de recherche fixes, sans rétropropagation.\n\nÉvaluez la table de concepts épars générée sur des benchmarks de raisonnement cibles et inspectez les activations ligne par ligne pour l'analyse des erreurs.\n\nContraignez la compilation dans l'espace des poids à des tables de concepts associatives éparses, plutôt que de tenter de coder à la main des matrices denses de transformeurs multicouches.\n\nDéployez la synthèse dans l'espace des poids spécifiquement pour les tâches de raisonnement et de récupération de connaissances structurées où les faits rédigés par des humains peuvent être isolés, en évitant les tâches de pixels perceptuels bruts où la descente de gradient reste supérieure.\n\nUtilisez la représentation tabulaire par lignes des poids compilés pour l'inspection ligne par ligne et le débogage chirurgical des paramètres, sans risque d'oubli catastrophique ni de dérive globale des paramètres.",
+ "source_sha256": "9fbcb596ffc073333e943f19bc6504897af72ba08166a5aaf769835b1cbf0978",
+ "summary": "Des chercheurs de l'EffL de POSTECH montrent que des modèles de langage qui écrivent directement les poids compilent les connaissances dans des tables de concepts éparses plutôt que dans des transformeurs standard, avec une réduction du nombre de paramètres allant jusqu'à ~1 800 fois et un débit d'inférence plus élevé sur GPU, tout en restant en retrait par rapport à la descente de gradient sur les tâches perceptuelles continues.",
+ "title": "La programmation de l'espace des poids compile des faits en tables de concepts éparses sans entraînement par gradient",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

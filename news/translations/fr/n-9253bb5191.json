@@ -1,0 +1,11 @@
+{
+ "id": "n-9253bb5191",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Déployer des charges de travail d'IA sur les accélérateurs AMD Instinct MI355X en utilisant des agents de modèles automatisés pour porter et compiler des noyaux de calcul bas niveau destinés au traitement des prompts.\n\nVérifier les modifications RTL synthétisées par IA sur l'architecture GPU à l'aide de bancs de test fonctionnels, via des flux de simulation EDA automatisés, avant de valider les layouts pour la production de silicium.",
+ "source_sha256": "22803eec4397a802ceeb4099e942745535b19f162ade6f29477bbf9241d8e054",
+ "summary": "Des modèles d'IA ont permis d'obtenir jusqu'à 14 % d'optimisations de circuits en termes de puissance, de performance et de surface (PPA) en réécrivant le code RTL de l'IP GPU phare d'AMD sur une période de cinq mois. Anthropic a démontré une migration rapide de noyaux bas niveau en trois jours sur la plateforme Instinct MI355X, alors que le portage manuel de noyaux demande 6 à 12 mois d'effort d'ingénierie.",
+ "title": "Des modèles d'IA permettent d'obtenir 14 % d'améliorations PPA sur l'IP GPU phare d'AMD",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

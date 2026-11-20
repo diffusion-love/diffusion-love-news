@@ -1,0 +1,11 @@
+{
+ "id": "n-9944feb281",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona el repositorio e instala las dependencias de entorno necesarias: git clone https://github.com/effl-lab/Weight-Space-Programming.git\n\nDefine las especificaciones de las tareas objetivo, las demostraciones de pocos ejemplos (few-shot) y configura el entorno de ejecución interactivo local (sandbox).\n\nPide a un modelo de lenguaje de razonamiento de vanguardia que extraiga conceptos y compile pesos de clave-valor y rutinas de búsqueda fijas, sin retropropagación.\n\nEvalúa la tabla de conceptos dispersa generada en benchmarks de razonamiento objetivo e inspecciona las activaciones fila a fila para el análisis de errores.\n\nLimita la compilación en el espacio de pesos a tablas de conceptos asociativas dispersas, en lugar de intentar codificar a mano matrices densas de transformadores de múltiples capas.\n\nDespliega la síntesis en el espacio de pesos específicamente para tareas de razonamiento y de recuperación de conocimiento estructurado, donde los hechos escritos por humanos pueden aislarse, evitando las tareas de píxeles perceptuales en bruto en las que el descenso de gradiente sigue siendo superior.\n\nAprovecha la representación tabular por filas de los pesos compilados para la inspección línea por línea y la depuración quirúrgica de parámetros, sin arriesgar el olvido catastrófico ni la deriva global de parámetros.",
+ "source_sha256": "9fbcb596ffc073333e943f19bc6504897af72ba08166a5aaf769835b1cbf0978",
+ "summary": "Investigadores de EffL de POSTECH demuestran que los modelos de lenguaje que escriben pesos directamente compilan el conocimiento en tablas de conceptos dispersas en lugar de transformadores estándar, lo que supone una reducción de parámetros de hasta ~1.800x y un mayor rendimiento de inferencia en GPU, aunque se queda por detrás del descenso de gradiente en tareas perceptuales continuas.",
+ "title": "Weight-Space Programming compila hechos en tablas de conceptos dispersas sin entrenamiento por gradiente",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

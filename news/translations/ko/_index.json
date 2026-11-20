@@ -2134,6 +2134,11 @@
   "title": "Freepik, Seedance 2.0 영상 생성 리소스와 연결돼",
   "translated_at": "2026-10-24"
  },
+ "n-686468ae7d": {
+  "fresh": true,
+  "title": "NVIDIA Dynamo, 강화학습을 위한 분산 롤아웃 서빙 도입",
+  "translated_at": "2026-11-20"
+ },
  "n-687a924683": {
   "fresh": true,
   "title": "GitLab, 치명적인 원격 코드 실행 취약점에 대한 보안 업데이트 출시",
@@ -2914,6 +2919,11 @@
   "title": "RealRestorer 프로젝트 리소스 연결됨",
   "translated_at": "2026-10-24"
  },
+ "n-9253bb5191": {
+  "fresh": true,
+  "title": "AI 모델, AMD 플래그십 GPU IP에서 14% PPA 개선 달성",
+  "translated_at": "2026-11-20"
+ },
  "n-92aedf6bb2": {
   "fresh": true,
   "title": "VRGDG SeedVR2 TensorRT Studio, SeedVR2 중심의 Windows 로컬 워크플로 추가",
@@ -3058,6 +3068,11 @@
   "fresh": true,
   "title": "NVIDIA, Nemotron VoiceChat 11B 코드 및 모델 리소스 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-9944feb281": {
+  "fresh": true,
+  "title": "가중치 공간 프로그래밍, 경사 기반 학습 없이 사실을 희소 개념 테이블로 컴파일",
+  "translated_at": "2026-11-20"
  },
  "n-994a331b9a": {
   "fresh": true,
@@ -4383,6 +4398,11 @@
   "fresh": true,
   "title": "WhatModels 공개 웹사이트 문서화",
   "translated_at": "2026-10-24"
+ },
+ "n-dda49a7597": {
+  "fresh": true,
+  "title": "POSTECH, 추론 벤치마크에서 LLM 기반 가중치 합성 평가",
+  "translated_at": "2026-11-20"
  },
  "n-de14e3f121": {
   "fresh": true,

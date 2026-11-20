@@ -1,0 +1,11 @@
+{
+ "id": "n-686468ae7d",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configure el framework de aprendizaje por refuerzo (como verl, NeMo RL o Prime-RL) para enrutar las solicitudes de generación de rollouts de inferencia a través de NVIDIA Dynamo.\n\nDespliegue los pods de workers de rollouts de inferencia usando los manifiestos de Kubernetes de dynamo-recipes configurados para el runtime de destino, como vLLM o SGLang.\n\nActive el enrutamiento consciente de KV para dirigir los prompts con prefijos idénticos de sistema o de contexto hacia workers con caché KV residente.\n\nActive ModelExpress para transmitir los pesos de política actualizados desde el entrenador directamente a los workers de rollouts mediante RDMA, sin reiniciar los contenedores de servicio.\n\nAplique el enrutamiento consciente de KV al generar rollouts de múltiples muestras por prompt o trazas de agentes de múltiples turnos, para minimizar el cómputo redundante de prefijos entre las réplicas de workers.\n\nActive la recuperación sin tiempo de inactividad y la migración de solicitudes para evitar que los fallos de pods individuales de workers paralicen los pasos de entrenamiento a escala de clúster.\n\nDespliegue planos validados de Kubernetes de dynamo-recipes que coincidan con la topología de red y la arquitectura de GPU específicas, en lugar de configurar manualmente los paralelismos y los parámetros de batching.",
+ "source_sha256": "c31d7bee3a50a6fa177d0f338f3f93cd17fb29ad06725c6bcb596cf0dd294c2f",
+ "summary": "NVIDIA Dynamo introduce una capa de servicio distribuida y recetas de Kubernetes para desacoplar la generación de rollouts de RL de los pipelines de entrenamiento, usando enrutamiento consciente de KV y actualizaciones de pesos por RDMA.",
+ "title": "NVIDIA Dynamo introduce servicio distribuido de rollouts para aprendizaje por refuerzo",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-9253bb5191",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Desplegar cargas de trabajo de IA en aceleradores AMD Instinct MI355X mediante agentes de modelos automatizados que portan y compilan kernels de cómputo de bajo nivel para el procesamiento de prompts.\n\nVerificar las modificaciones de RTL sintetizadas por IA sobre la arquitectura de GPU frente a bancos de pruebas funcionales mediante flujos de simulación EDA automatizados antes de confirmar los layouts para la producción en silicio.",
+ "source_sha256": "22803eec4397a802ceeb4099e942745535b19f162ade6f29477bbf9241d8e054",
+ "summary": "Modelos de IA lograron optimizaciones de circuitos de hasta un 14 % en potencia, rendimiento y área (PPA) al reescribir código RTL para el IP de GPU insignia de AMD durante cinco meses. Anthropic demostró una migración rápida de kernels de bajo nivel en tres días en la plataforma Instinct MI355X, donde la portabilidad manual de kernels requiere de 6 a 12 meses de esfuerzo de ingeniería.",
+ "title": "Modelos de IA logran mejoras de PPA del 14 % en el IP de GPU insignia de AMD",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -2134,6 +2134,11 @@
   "title": "Freepik 与 Seedance 2.0 视频生成资源相关联",
   "translated_at": "2026-10-24"
  },
+ "n-686468ae7d": {
+  "fresh": true,
+  "title": "NVIDIA Dynamo 推出面向强化学习的分布式 rollout 服务",
+  "translated_at": "2026-11-20"
+ },
  "n-687a924683": {
   "fresh": true,
   "title": "GitLab 发布针对严重远程代码执行漏洞的安全更新",
@@ -2914,6 +2919,11 @@
   "title": "RealRestorer 项目资源已关联",
   "translated_at": "2026-10-24"
  },
+ "n-9253bb5191": {
+  "fresh": true,
+  "title": "AI模型在AMD旗舰GPU IP上实现14%的PPA提升",
+  "translated_at": "2026-11-20"
+ },
  "n-92aedf6bb2": {
   "fresh": true,
   "title": "VRGDG SeedVR2 TensorRT Studio 为 SeedVR2 增加了本地 Windows 工作流",
@@ -3058,6 +3068,11 @@
   "fresh": true,
   "title": "NVIDIA 公开 Nemotron VoiceChat 11B 的代码与模型资源",
   "translated_at": "2026-10-24"
+ },
+ "n-9944feb281": {
+  "fresh": true,
+  "title": "Weight-Space Programming 将事实编译为稀疏概念表，无需梯度训练",
+  "translated_at": "2026-11-20"
  },
  "n-994a331b9a": {
   "fresh": true,
@@ -4383,6 +4398,11 @@
   "fresh": true,
   "title": "WhatModels 公开网站已有文档记录",
   "translated_at": "2026-10-24"
+ },
+ "n-dda49a7597": {
+  "fresh": true,
+  "title": "POSTECH 评估基于 LLM 驱动的权重合成在推理基准上的表现",
+  "translated_at": "2026-11-20"
  },
  "n-de14e3f121": {
   "fresh": true,
