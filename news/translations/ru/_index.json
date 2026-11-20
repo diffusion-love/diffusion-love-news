@@ -3189,6 +3189,11 @@
   "title": "MemPalace: эффективное сжатие бесконечной памяти для LLM",
   "translated_at": "2026-10-24"
  },
+ "n-a38742d6ad": {
+  "fresh": true,
+  "title": "Наделла разъяснил программу добровольного выкупа на фоне перехода к разработке на основе агентов",
+  "translated_at": "2026-11-20"
+ },
  "n-a3aa871dfa": {
   "fresh": true,
   "title": "Unsloth Studio: тонкая настройка Gemma 4 в Colab",
@@ -4893,6 +4898,11 @@
   "fresh": true,
   "title": "IceCache: семантический KV-кэш с эффективным использованием памяти для длинных LLM",
   "translated_at": "2026-10-24"
+ },
+ "n-fc77ff5baa": {
+  "fresh": true,
+  "title": "Google добавляет в клиент Gemini для macOS фонового агента для работы с компьютером",
+  "translated_at": "2026-11-20"
  },
  "n-fcae5fc646": {
   "fresh": true,

@@ -3189,6 +3189,11 @@
   "title": "MemPalace: LLM을 위한 효율적 무한 메모리 압축",
   "translated_at": "2026-11-13"
  },
+ "n-a38742d6ad": {
+  "fresh": true,
+  "title": "Nadella, 에이전트 중심 개발로의 전환 속에서 자발적 매수 프로그램을 명확히 하다",
+  "translated_at": "2026-11-20"
+ },
  "n-a3aa871dfa": {
   "fresh": true,
   "title": "Colab에서 Gemma 4 파인튜닝을 위한 Unsloth Studio",
@@ -4893,6 +4898,11 @@
   "fresh": true,
   "title": "IceCache: 긴 컨텍스트 LLM을 위한 메모리 효율적 시맨틱 KV-캐시",
   "translated_at": "2026-10-24"
+ },
+ "n-fc77ff5baa": {
+  "fresh": true,
+  "title": "Google, Gemini macOS 클라이언트에 백그라운드 컴퓨터 사용 에이전트 추가",
+  "translated_at": "2026-11-20"
  },
  "n-fcae5fc646": {
   "fresh": true,

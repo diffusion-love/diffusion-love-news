@@ -1,0 +1,11 @@
+{
+ "id": "n-fc77ff5baa",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installieren Sie den Gemini-Desktop-Client für macOS auf einem Mac mit Apple Silicon und melden Sie sich mit einem kostenpflichtigen Google-AI-Abo-Konto an.\n\nErteilen Sie in den Systemeinstellungen von macOS die Berechtigungen für Bedienungshilfen und Bildschirmsteuerung und setzen Sie in den Gemini-Einstellungen die gewünschten Desktop-Anwendungen auf die Liste der zugelassenen Programme.\n\nBeschreiben Sie im Chat-Fenster in einem mehrstufigen Automatisierungs-Prompt den gewünschten lokalen Datei-, Formular- oder Anwendungsworkflow.\n\nVerfolgen Sie die Ausführung im isolierten Live-Vorschaufenster und bestätigen Sie sensible Anmelde- oder Transaktionsabfragen.\n\nGewähren Sie Anwendungszugriff selektiv für bestimmte Zielanwendungen, anstatt uneingeschränkten Systemzugriff zu erlauben.\n\nLassen Sie das Live-Vorschaufenster des Chats bei komplexen Aufgaben geöffnet, um die Navigation des Agenten zu überwachen, und unterbrechen Sie die Ausführung sofort, wenn Fehltritte auftreten.\n\nBehalten Sie verpflichtende manuelle Genehmigungsabfragen für Authentifizierungsschritte, die Übermittlung von Zugangsdaten und Finanztransaktionen bei.",
+ "source_sha256": "401c1a86c10d534ff1c324cc1551551b03647e1181ba16efa7a69b0139483700",
+ "summary": "Google hat einen Computer-Use-Agenten für die Gemini-macOS-Anwendung veröffentlicht, der mehrstufige Desktop- und Anwendungsworkflows in einem isolierten Hintergrundfenster auf Systemen mit Apple Silicon ausführt.",
+ "title": "Google ergänzt den Gemini-macOS-Client um einen Computer-Use-Agenten im Hintergrund",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

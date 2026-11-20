@@ -3022,6 +3022,11 @@
   "summary": "Un sistema de memoria para IA de tipo local-first que utiliza una ruta de escritura sin inferencia de LLM y almacenamiento jerárquico para mantener un contexto de largo plazo con prioridad en el texto literal. Emplea un dialecto de compresión propio, AAAK, para alcanzar una densidad de datos de 30x legible por LLM.",
   "title": "MemPalace: compresión infinita y eficiente de memoria para LLM"
  },
+ "n-a38742d6ad": {
+  "research_notes": "Estructure los grupos de ingeniería de software en equipos compactos que dirijan y validen agentes autónomos, en lugar de aumentar la plantilla dedicada a la programación manual.\n\nTransicione las responsabilidades de los desarrolladores desde la escritura de código de implementación línea por línea hacia la gestión, orquestación y evaluación de los resultados de agentes de inteligencia artificial.",
+  "summary": "Microsoft ofreció opciones de salida voluntaria a los empleados elegibles mientras el desarrollo de software avanza hacia equipos compactos que gestionan agentes de inteligencia artificial, aclarando que la medida brinda margen de decisión durante la reestructuración en lugar de despidos masivos forzosos.",
+  "title": "Nadella aclara el programa de bajas voluntarias en medio del cambio hacia el desarrollo impulsado por agentes"
+ },
  "n-a3aa871dfa": {
   "evolution_summary": "Ampliado desde el ajuste fino de LLM para incluir las variantes multimodales de visión y audio de Gemma 4, así como el aprendizaje por refuerzo GRPO. Integrado en el PyTorch Ecosystem oficial en mayo de 2026.",
   "research_notes": "Compatible con las GPU T4 gratuitas de Google Colab para los modelos Gemma 4 E2B y E4B.",
@@ -4693,6 +4698,11 @@
   "research_notes": "Alcanza un 99% de precisión en los benchmarks de LongBench usando solo 256 tokens en la caché activa de la GPU.",
   "summary": "IceCache reorganiza la KV-cache mediante agrupamiento semántico de tokens e indexación jerárquica, para optimizar la inferencia de LLM con contextos largos. Al cargar selectivamente desde la CPU a la GPU solo las páginas de caché relevantes, mantiene una alta precisión con una huella de memoria GPU drásticamente reducida.",
   "title": "IceCache: KV-Cache semántico y eficiente en memoria para LLM de contexto largo"
+ },
+ "n-fc77ff5baa": {
+  "research_notes": "Instale el cliente de escritorio de Gemini para macOS en un Mac con Apple Silicon e inicie sesión con una cuenta de suscripción de pago de Google AI.\n\nConceda permisos de Accesibilidad y de control de pantalla en Ajustes del Sistema de macOS y añada a la lista blanca las aplicaciones de escritorio de destino en la configuración de Gemini.\n\nEnvíe en el panel de chat una instrucción de automatización de varios pasos que describa el flujo de trabajo deseado con archivos locales, formularios o aplicaciones.\n\nSupervise la ejecución a través de la ventana de vista previa en vivo aislada y confirme cualquier solicitud sensible de inicio de sesión o de transacción.\n\nConceda acceso a las aplicaciones de forma selectiva, a aplicaciones de destino concretas, en lugar de conceder acceso irrestricto al sistema.\n\nMantenga abierto el panel de vista previa en vivo del chat durante las tareas complejas para supervisar la navegación del agente y detenga la ejecución de inmediato si se producen errores.\n\nMantenga las solicitudes de aprobación manual obligatorias para los puntos de control de autenticación, el envío de credenciales y las transacciones financieras.",
+  "summary": "Google ha lanzado un agente de uso del ordenador para la aplicación de Gemini en macOS que ejecuta flujos de trabajo de escritorio y de aplicaciones de varios pasos dentro de una ventana aislada en segundo plano en sistemas Apple Silicon.",
+  "title": "Google añade un agente de uso del ordenador en segundo plano al cliente de Gemini para macOS"
  },
  "n-fcae5fc646": {
   "summary": "El 20 de julio de 2026, un mensaje con fecha enlazó el repositorio de GitHub de MobileWan, de Qualcomm AI Research, y su página en Hugging Face. Esto documenta un hito de desarrollo de cara al público, ya que los profesionales pudieron localizar el código del proyecto y sus recursos alojados. Las pruebas disponibles no permiten establecer el contenido de la publicación, su versión ni sus capacidades.",

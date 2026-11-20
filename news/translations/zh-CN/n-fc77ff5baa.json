@@ -1,0 +1,11 @@
+{
+ "id": "n-fc77ff5baa",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 Apple Silicon Mac 上安装 Gemini for macOS 桌面客户端，并使用付费 Google AI 订阅账户登录。\n\n在 macOS 系统设置中授予辅助功能和屏幕控制权限，并在 Gemini 设置中将目标桌面应用程序加入白名单。\n\n在聊天面板中提交多步骤自动化提示词，描述所需的本地文件、表单或应用程序工作流。\n\n通过隔离的实时预览窗口监控执行过程，并确认任何敏感的登录或交易提示。\n\n仅向特定目标应用程序有选择地授予应用访问权限，而非授予不受限制的系统访问权限。\n\n在执行复杂任务期间保持聊天实时预览面板打开，以监控智能体的操作导航；如出现失误，立即暂停执行。\n\n对于身份验证检查点、凭证提交和金融交易，始终保持强制性的人工审批提示。",
+ "source_sha256": "401c1a86c10d534ff1c324cc1551551b03647e1181ba16efa7a69b0139483700",
+ "summary": "谷歌为 Gemini macOS 应用发布了一款计算机使用智能体，可在 Apple Silicon 系统上于隔离的后台窗口中执行多步骤的桌面及应用程序工作流。",
+ "title": "谷歌为 Gemini macOS 客户端新增后台计算机使用智能体",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -3022,6 +3022,11 @@
   "summary": "Ein lokal ausgeführtes KI-Gedächtnissystem, das einen Schreibpfad ohne LLM-Inferenz und hierarchische Speicherung nutzt, um wortgetreuen Langzeitkontext zu bewahren. Es setzt einen eigens entwickelten Kompressionsdialekt namens AAAK ein, der eine 30x höhere Datendichte bei weiterhin für LLMs lesbarer Darstellung erreicht.",
   "title": "MemPalace: Effiziente unendliche Speicherkompression für LLMs"
  },
+ "n-a38742d6ad": {
+  "research_notes": "Strukturieren Sie Software-Engineering-Gruppen in kompakte Teams, die autonome Agenten steuern und validieren, anstatt die Personalstärke für manuelle Programmierung auszuweiten.\n\nVerlagern Sie die Aufgaben der Entwickler weg vom zeilenweisen Schreiben von Implementierungscode hin zum Verwalten, Orchestrieren und Bewerten der Ausgaben künstlicher Intelligenz-Agenten.",
+  "summary": "Microsoft bot berechtigten Mitarbeitern freiwillige Ausstiegsoptionen an, während sich die Softwareentwicklung hin zu kompakten Teams verlagert, die KI-Agenten steuern. Das Unternehmen stellt klar, dass dieser Schritt den Beschäftigten während der Umstrukturierung Handlungsspielraum verschafft und keine erzwungenen Massenentlassungen darstellt.",
+  "title": "Nadella stellt freiwilliges Abfindungsprogramm im Zuge des Wandels zu agentengetriebener Entwicklung klar"
+ },
  "n-a3aa871dfa": {
   "evolution_summary": "Erweitert von der LLM-Feinabstimmung um die Unterstützung der multimodalen Vision-/Audio-Varianten von Gemma 4 sowie um Reinforcement Learning mit GRPO. Im Mai 2026 wurde das Projekt in das offizielle PyTorch-Ökosystem aufgenommen.",
   "research_notes": "Unterstützt die kostenlosen Google-Colab-T4-GPUs für die Modelle Gemma 4 E2B und E4B.",
@@ -4693,6 +4698,11 @@
   "research_notes": "Erreicht auf LongBench-Benchmarks eine Genauigkeit von 99 %, wobei im aktiven GPU-Cache lediglich 256 Token verwendet werden.",
   "summary": "IceCache strukturiert den KV-Cache mithilfe semantischen Token-Clusterings und einer hierarchischen Indizierung neu, um die Inferenz von LLMs mit langem Kontext zu optimieren. Durch das selektive Laden relevanter Cache-Seiten von der CPU in die GPU bleibt die Genauigkeit hoch, während der GPU-Speicherbedarf drastisch sinkt.",
   "title": "IceCache: Speichereffizienter semantischer KV-Cache für lange LLMs"
+ },
+ "n-fc77ff5baa": {
+  "research_notes": "Installieren Sie den Gemini-Desktop-Client für macOS auf einem Mac mit Apple Silicon und melden Sie sich mit einem kostenpflichtigen Google-AI-Abo-Konto an.\n\nErteilen Sie in den Systemeinstellungen von macOS die Berechtigungen für Bedienungshilfen und Bildschirmsteuerung und setzen Sie in den Gemini-Einstellungen die gewünschten Desktop-Anwendungen auf die Liste der zugelassenen Programme.\n\nBeschreiben Sie im Chat-Fenster in einem mehrstufigen Automatisierungs-Prompt den gewünschten lokalen Datei-, Formular- oder Anwendungsworkflow.\n\nVerfolgen Sie die Ausführung im isolierten Live-Vorschaufenster und bestätigen Sie sensible Anmelde- oder Transaktionsabfragen.\n\nGewähren Sie Anwendungszugriff selektiv für bestimmte Zielanwendungen, anstatt uneingeschränkten Systemzugriff zu erlauben.\n\nLassen Sie das Live-Vorschaufenster des Chats bei komplexen Aufgaben geöffnet, um die Navigation des Agenten zu überwachen, und unterbrechen Sie die Ausführung sofort, wenn Fehltritte auftreten.\n\nBehalten Sie verpflichtende manuelle Genehmigungsabfragen für Authentifizierungsschritte, die Übermittlung von Zugangsdaten und Finanztransaktionen bei.",
+  "summary": "Google hat einen Computer-Use-Agenten für die Gemini-macOS-Anwendung veröffentlicht, der mehrstufige Desktop- und Anwendungsworkflows in einem isolierten Hintergrundfenster auf Systemen mit Apple Silicon ausführt.",
+  "title": "Google ergänzt den Gemini-macOS-Client um einen Computer-Use-Agenten im Hintergrund"
  },
  "n-fcae5fc646": {
   "summary": "Am 20.07.2026 verlinkte eine datierte Meldung das GitHub-Repository von Qualcomm AI Research zu MobileWan sowie die zugehörige Hugging-Face-Seite. Dies dokumentiert einen öffentlich sichtbaren Entwicklungsmeilenstein, da Praktiker den Code und die gehosteten Ressourcen des Projekts finden konnten. Die vorliegenden Belege lassen jedoch keine Aussagen über den Inhalt, die Version oder die Fähigkeiten der Veröffentlichung zu.",

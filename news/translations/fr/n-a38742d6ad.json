@@ -1,0 +1,11 @@
+{
+ "id": "n-a38742d6ad",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Structurer les équipes d'ingénierie logicielle en groupes compacts qui dirigent et valident des agents autonomes, plutôt que d'augmenter les effectifs de programmation manuelle.\n\nFaire évoluer les responsabilités des développeurs, de l'écriture de code d'implémentation ligne par ligne vers la gestion, l'orchestration et l'évaluation des productions d'agents d'intelligence artificielle.",
+ "source_sha256": "9a1aae83180d5ac4129388ea479076de3bef594c0258555073fbc22b02e98dc3",
+ "summary": "Microsoft a proposé des options de départ volontaire aux salariés éligibles, alors que le développement logiciel évolue vers des équipes compactes chargées de piloter des agents d'intelligence artificielle, en précisant que cette démarche offre une marge de choix pendant la restructuration plutôt que des licenciements collectifs imposés.",
+ "title": "Nadella précise le programme de départs volontaires alors que le développement se tourne vers les agents",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

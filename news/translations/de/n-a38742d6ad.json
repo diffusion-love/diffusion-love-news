@@ -1,0 +1,11 @@
+{
+ "id": "n-a38742d6ad",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Strukturieren Sie Software-Engineering-Gruppen in kompakte Teams, die autonome Agenten steuern und validieren, anstatt die Personalstärke für manuelle Programmierung auszuweiten.\n\nVerlagern Sie die Aufgaben der Entwickler weg vom zeilenweisen Schreiben von Implementierungscode hin zum Verwalten, Orchestrieren und Bewerten der Ausgaben künstlicher Intelligenz-Agenten.",
+ "source_sha256": "9a1aae83180d5ac4129388ea479076de3bef594c0258555073fbc22b02e98dc3",
+ "summary": "Microsoft bot berechtigten Mitarbeitern freiwillige Ausstiegsoptionen an, während sich die Softwareentwicklung hin zu kompakten Teams verlagert, die KI-Agenten steuern. Das Unternehmen stellt klar, dass dieser Schritt den Beschäftigten während der Umstrukturierung Handlungsspielraum verschafft und keine erzwungenen Massenentlassungen darstellt.",
+ "title": "Nadella stellt freiwilliges Abfindungsprogramm im Zuge des Wandels zu agentengetriebener Entwicklung klar",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
