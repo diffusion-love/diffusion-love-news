@@ -19,6 +19,25 @@
     "has_video": false
   },
   {
+    "id": "n-f0ba4e4e9c",
+    "date": "2026-11-19",
+    "title": "Gemini 4 Neon release",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Google AI Development",
+      "google",
+      "google-ai-development",
+      "misc",
+      "organization:google"
+    ],
+    "primary_link": "https://shareai.space/blog/2026/google-vypustila-gemini-4-neon-samuyu-doroguyu-model-novoy-l",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-ef68e2a314",
     "date": "2026-11-19",
     "title": "Comfy Cloud enables custom workflows on enterprise GPUs",
@@ -147,6 +166,25 @@
       "tools-frontend"
     ],
     "primary_link": "https://blog.comfy.org/p/your-custom-comfyui-is-now-in-comfy?r=7xlbaw",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-9c6aba7306",
+    "date": "2026-11-19",
+    "title": "Google releases Gemini 4 Neon",
+    "category": "llm",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Google AI Development",
+      "google",
+      "google-ai-development",
+      "llm",
+      "organization:google"
+    ],
+    "primary_link": "https://shareai.space/blog/2026/google-vypustila-gemini-4-neon-samuyu-doroguyu-model-novoy-l",
     "has_image": false,
     "has_video": false
   },

@@ -416,29 +416,73 @@
     "display": "Google AI Development",
     "homepage": null,
     "project_slugs": [],
-    "post_count": 1,
-    "direct_post_count": 1,
+    "post_count": 3,
+    "direct_post_count": 3,
     "first_seen": "2026-11-13",
-    "last_seen": "2026-11-13",
+    "last_seen": "2026-11-19",
     "news_ids": [
-      "n-492c016626"
+      "n-492c016626",
+      "n-9c6aba7306",
+      "n-f0ba4e4e9c"
     ],
     "direct_news_ids": [
-      "n-492c016626"
+      "n-492c016626",
+      "n-9c6aba7306",
+      "n-f0ba4e4e9c"
     ],
     "development_threads": [
       {
         "slug": "google-ai-development",
         "display": "Google Ai Development",
         "first_seen": "2026-11-13",
-        "last_seen": "2026-11-13",
-        "latest_news_id": "n-492c016626",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-f0ba4e4e9c",
         "news_ids": [
-          "n-492c016626"
+          "n-492c016626",
+          "n-9c6aba7306",
+          "n-f0ba4e4e9c"
         ]
       }
     ],
     "related_news": [
+      {
+        "id": "n-f0ba4e4e9c",
+        "date": "2026-11-19",
+        "title": "Gemini 4 Neon release",
+        "category": "misc",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Google AI Development",
+          "google",
+          "google-ai-development",
+          "misc",
+          "organization:google"
+        ],
+        "primary_link": "https://shareai.space/blog/2026/google-vypustila-gemini-4-neon-samuyu-doroguyu-model-novoy-l",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-9c6aba7306",
+        "date": "2026-11-19",
+        "title": "Google releases Gemini 4 Neon",
+        "category": "llm",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Google AI Development",
+          "google",
+          "google-ai-development",
+          "llm",
+          "organization:google"
+        ],
+        "primary_link": "https://shareai.space/blog/2026/google-vypustila-gemini-4-neon-samuyu-doroguyu-model-novoy-l",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-492c016626",
         "date": "2026-11-13",
