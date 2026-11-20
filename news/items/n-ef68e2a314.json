@@ -1,0 +1,113 @@
+{
+ "schema_version": "1.4",
+ "id": "n-ef68e2a314",
+ "entry_type": "news",
+ "category": "tools-frontend",
+ "lang": "en",
+ "title": "Comfy Cloud enables custom workflows on enterprise GPUs",
+ "summary": "Comfy Cloud introduced custom workflow execution on hardware up to NVIDIA B200, offering persistent storage.",
+ "research_notes": "Prepare a local ComfyUI workflow or desktop snapshot containing required custom nodes, LoRA weights, and dependencies.\n\nUpload the custom build configuration to Comfy Cloud under a Standard, Creator, or Team account to package dependencies into a persistent cloud environment.\n\nSelect target GPU hardware ranging from RTX PRO 6000 (96 GB VRAM) to NVIDIA B200 (180 GB VRAM) based on model size and VRAM requirements.\n\nExecute generation tasks interactively through the cloud browser canvas or integrate the deployed workflow into automated applications using the Comfy Cloud REST API.\n\nVerify that all required custom nodes and Python dependencies resolve cleanly in a local desktop snapshot before packaging a cloud custom build.\n\nSelect hardware tiers matched to workflow complexity, utilizing RTX PRO 6000 for standard high-resolution pipelines and reserving B200 instances for extreme memory workloads to optimize per-second compute costs.\n\nMonitor persistent network storage utilization to manage monthly data charges while sharing standardized workspace builds across team members.",
+ "project": {
+  "name": "Comfy Cloud: comfy",
+  "family_slug": "comfy",
+  "family_display": "Comfy Cloud: comfy",
+  "model_slug": "comfy",
+  "model_display": "Comfy Cloud: comfy",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "comfy",
+  "thread_display": "Comfy",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Comfy Cloud: comfy",
+  "article_url": "https://happyin.space/projects/comfy/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/f8ad0afb03ccbfede2dd1546320f2a15ebe5406f/docs/projects/comfy.md",
+  "agent_context_url": "https://happyin.space/projects/comfy/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "Comfy Cloud enables custom workflows on enterprise GPUs",
+  "version": null,
+  "summary": "Comfy Cloud introduced custom workflow execution on hardware up to NVIDIA B200, offering persistent storage."
+ },
+ "tags": [
+  "Comfy Cloud: comfy",
+  "comfy",
+  "family:comfy",
+  "tools-frontend"
+ ],
+ "facets": {
+  "category": "tools-frontend",
+  "entry_type": "news",
+  "projects": [
+   "comfy"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://blog.comfy.org/p/your-custom-comfyui-is-now-in-comfy?r=7xlbaw",
+   "host": "blog.comfy.org",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T01:21:57Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://x.com/ComfyUI/status/2123101758885085511",
+   "host": "x.com",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T01:21:57Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "Comfy Cloud introduced custom workflow execution on hardware up to NVIDIA B200, offering persistent storage."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T01:21:57Z",
+  "classified_at": "2026-11-20T01:21:57Z",
+  "enriched_at": "2026-11-20T01:21:57Z",
+  "verified_at": "2026-11-20T01:21:57Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

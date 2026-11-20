@@ -439,6 +439,10 @@
   "ComPyter": [
     "n-fb33cdc42d"
   ],
+  "Comfy Cloud: comfy": [
+    "n-ef68e2a314",
+    "n-a32e5b01bc"
+  ],
   "ComfyStudio": [
     "n-18e6b47885"
   ],
@@ -3789,6 +3793,10 @@
   "color-grade-transfer": [
     "n-250fdb3b1b"
   ],
+  "comfy": [
+    "n-ef68e2a314",
+    "n-a32e5b01bc"
+  ],
   "comfy-cloud-pricing": [
     "n-c724eb9e4c"
   ],
@@ -4235,6 +4243,7 @@
     "n-af83147e90",
     "n-af7e0341d4",
     "n-a7d1f83b13",
+    "n-a32e5b01bc",
     "n-9f3f263dfe",
     "n-99c607c318",
     "n-98474cc274",
@@ -4888,6 +4897,10 @@
   ],
   "family:collabvr": [
     "n-e8fb056748"
+  ],
+  "family:comfy": [
+    "n-ef68e2a314",
+    "n-a32e5b01bc"
   ],
   "family:comfystudio": [
     "n-18e6b47885"
@@ -11913,6 +11926,7 @@
     "n-f9bd7f602b",
     "n-f861f085b8",
     "n-f6c6cdf729",
+    "n-ef68e2a314",
     "n-edad1a10a0",
     "n-ebeab9837a",
     "n-e712086893",
@@ -11923,6 +11937,7 @@
     "n-bb76b83d43",
     "n-af1e479850",
     "n-a71a838b34",
+    "n-a32e5b01bc",
     "n-a167c6f61b",
     "n-9744e9b73c",
     "n-963305f6b7",
