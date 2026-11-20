@@ -1,0 +1,11 @@
+{
+ "id": "n-5524914633",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Inspeccione los archivos de configuración del servidor para verificar si HTTP/2 está habilitado mediante directivas listen o directivas de configuración http2.\n\nActualice las instalaciones de NGINX Open Source a la versión Stable 1.30.7 o a la versión Mainline 1.31.9, o aplique las actualizaciones correspondientes del proveedor.\n\nSi no es posible programar de inmediato la actualización de los binarios, desactive el parámetro http2 en todos los bloques listen y recargue la configuración del servidor.\n\nDespliegue auditorías automatizadas de vulnerabilidades en todos los controladores de ingreso y proxies inversos perimetrales para verificar la implementación de las versiones parcheadas de NGINX.\n\nAplique un aislamiento estricto de procesos sin privilegios y perfiles de seguridad de contenedores para limitar el radio de impacto en caso de corrupción de memoria a nivel de worker.",
+ "source_sha256": "01c39be7e016bfa64524c47cf1dc10f5a5302f49de38b8c80da6891a7df22654",
+ "summary": "Investigadores de seguridad divulgaron CVE-2026-123007 y CVE-2026-123633, dos vulnerabilidades críticas de ejecución remota de código en el manejo de HTTP/2 de NGINX. Se han publicado parches upstream para las ramas stable y mainline.",
+ "title": "Un aviso de seguridad detalla dos fallos críticos de ejecución remota de código en HTTP/2 de NGINX",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

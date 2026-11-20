@@ -14,6 +14,11 @@
   "title": "UNI-1 erhielt einen offiziellen Projektverweis von Luma Labs",
   "translated_at": "2026-10-24"
  },
+ "n-00b6dfd5f9": {
+  "fresh": true,
+  "title": "Suno veröffentlicht MCP-Server-Connector mit Synchronisation der Kontobibliothek",
+  "translated_at": "2026-11-20"
+ },
  "n-00c9c3996b": {
   "fresh": true,
   "title": "Auf das GitHub-Repository von HATCHA wurde verwiesen",
@@ -1713,6 +1718,11 @@
   "fresh": true,
   "title": "NeumaTex-Projektseite geteilt",
   "translated_at": "2026-10-24"
+ },
+ "n-5524914633": {
+  "fresh": true,
+  "title": "Sicherheitshinweis beschreibt zwei kritische Remote-Code-Execution-Lücken in HTTP/2 von NGINX",
+  "translated_at": "2026-11-20"
  },
  "n-553243c913": {
   "fresh": true,
@@ -4144,6 +4154,11 @@
   "title": "Gemini 3.1 Flash TTS: Präzise Sprachsteuerung",
   "translated_at": "2026-10-24"
  },
+ "n-d684acf3ae": {
+  "fresh": true,
+  "title": "NGINX veröffentlicht Sicherheitspatches für HTTP/2-Schwachstellen CVE-2026-123007 und CVE-2026-123633",
+  "translated_at": "2026-11-20"
+ },
  "n-d6ed6958b0": {
   "fresh": true,
   "title": "Hunyuan3D-WorldClaw-Projektseite erfasst",
@@ -4328,6 +4343,11 @@
   "fresh": true,
   "title": "MiniMax Music 2.6: KI-Plattform für Musikgenerierung",
   "translated_at": "2026-11-13"
+ },
+ "n-e023bc2664": {
+  "fresh": true,
+  "title": "Suno startet öffentlichen Model-Context-Protocol-Server für KI-Assistenten und IDEs",
+  "translated_at": "2026-11-20"
  },
  "n-e17cbf7ded": {
   "fresh": true,

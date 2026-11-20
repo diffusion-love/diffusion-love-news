@@ -12,6 +12,11 @@
   "summary": "Le 2026-03-23, un message scellé renvoyait les lecteurs vers la page consacrée à UNI-1 sur Luma Labs et vers l'application Luma Labs. Cela établit une référence officielle datée dans l'historique de développement d'UNI-1. Les éléments fournis ne permettent pas d'établir le statut exact de sortie, les capacités ni les détails de l'annonce.",
   "title": "UNI-1 a reçu une référence officielle de projet de Luma Labs"
  },
+ "n-00b6dfd5f9": {
+  "research_notes": "Configurez le client MCP dans Claude, ChatGPT, Gemini ou Cursor à l'aide de l'URL du point de terminaison du serveur distant https://api.suno.com/mcp.\n\nAchevez le flux de connexion OAuth pour lier votre compte Suno et autoriser la consommation de crédits.\n\nDemandez à l'assistant, à l'aide de descriptions de styles musicaux, de préférences de genre ou de brouillons de paroles, de générer des morceaux complets, des extensions ou des clips vidéo.\n\nAssurez-vous d'être connecté au compte Suno cible avant de lancer OAuth dans l'assistant afin d'éviter de lier un profil incorrect.\n\nIndiquez explicitement des mots-clés de genre, le tempo et les préférences vocales dans le prompt du chat afin de minimiser la consommation de crédits redondante.",
+  "summary": "Suno a publié des configurations de client pour Claude, ChatGPT, Gemini et Cursor se connectant à api.suno.com/mcp, synchronisant automatiquement les morceaux générés avec la bibliothèque web de l'utilisateur, sans clés API.",
+  "title": "Suno publie un connecteur serveur MCP avec synchronisation de la bibliothèque de compte"
+ },
  "n-00c9c3996b": {
   "summary": "Le 2026-06-27, une source datée concernant HATCHA incluait un lien vers le dépôt GitHub du projet. Cela consigne une référence publique à un dépôt dans l'historique de HATCHA, mais n'établit ni la date de création du dépôt, ni une version publiée, ni une capacité particulière.",
   "title": "Le dépôt GitHub de HATCHA a été cité"
@@ -1629,6 +1634,11 @@
  "n-551508ee8c": {
   "summary": "Le 2026-07-02, NeumaTex a été partagé avec un lien vers sa page de projet. Les éléments scellés ne contiennent ni texte source ni recherche à l'appui ; cette entrée d'historique consigne donc la référence publique datée sans formuler d'affirmations sur ses méthodes, ses résultats, ses auteurs ou son statut de publication.",
   "title": "Page du projet NeumaTex partagée"
+ },
+ "n-5524914633": {
+  "research_notes": "Inspectez les fichiers de configuration des serveurs pour vérifier si HTTP/2 est activé via les directives listen ou les directives de configuration http2.\n\nMettez à niveau les installations NGINX Open Source vers la version stable 1.30.7 ou la version mainline 1.31.9, ou appliquez les mises à jour correspondantes du fournisseur.\n\nSi une mise à niveau immédiate des binaires ne peut pas être planifiée, désactivez le paramètre http2 dans tous les blocs listen et rechargez la configuration du serveur.\n\nDéployez un audit automatisé des vulnérabilités sur l'ensemble des contrôleurs d'entrée et des reverse proxies en périphérie afin de vérifier le déploiement des versions corrigées de NGINX.\n\nAppliquez une isolation stricte des processus sans privilèges et des profils de sécurité de conteneurs pour limiter le rayon d'impact en cas de corruption de mémoire au niveau des workers.",
+  "summary": "Des chercheurs en sécurité ont divulgué les CVE-2026-123007 et CVE-2026-123633, deux vulnérabilités critiques d'exécution de code à distance dans la gestion de HTTP/2 par NGINX. Des correctifs en amont ont été publiés pour les branches stable et mainline.",
+  "title": "Un avis de sécurité détaille deux failles critiques d'exécution de code à distance dans HTTP/2 de NGINX"
  },
  "n-553243c913": {
   "evolution_summary": "Initialement fondé sur les rotors de Clifford 3D, le projet s'est étendu à IsoQuant (4D) et à la variante très optimisée PlanarQuant (2D). Il inclut désormais des noyaux CUDA et Metal fusionnés et a été intégré à llama.cpp comme solution de compression de cache 3 bits prête à l'emploi.",
@@ -3954,6 +3964,11 @@
   "summary": "Un modèle de synthèse vocale avancé de Google qui permet une « performance dirigée » grâce à des invites en langage naturel et à des balises d'émotion insérées dans le texte. Il prend en charge la génération audio haute fidélité à faible latence, avec des capacités natives de dialogue multi-locuteurs pour les applications interactives.",
   "title": "Gemini 3.1 Flash TTS : contrôle vocal de haute précision"
  },
+ "n-d684acf3ae": {
+  "research_notes": "Inspectez les fichiers de configuration du serveur pour vérifier si HTTP/2 est activé via les directives listen ou les directives de configuration http2.\n\nMettez à niveau les installations de NGINX Open Source vers la version stable 1.30.7 ou la version Mainline 1.31.9, ou appliquez les mises à jour correspondantes du fournisseur.\n\nSi les mises à niveau immédiates des binaires ne peuvent pas être planifiées, désactivez le paramètre http2 dans tous les blocs listen et rechargez la configuration du serveur.\n\nDéployez un audit automatisé des vulnérabilités sur l'ensemble des contrôleurs d'entrée et des reverse proxies de périphérie afin de vérifier le déploiement des versions corrigées de NGINX.\n\nImposez une isolation stricte des processus sans privilèges et des profils de sécurité des conteneurs afin de limiter le rayon d'impact en cas de corruption mémoire au niveau des workers.",
+  "summary": "Les versions 1.30.7 et 1.31.9 de NGINX corrigent des vulnérabilités de corruption mémoire et d'utilisation après libération dans le module HTTP/2, qui pourraient permettre une exécution de code à distance non authentifiée sur les serveurs où HTTP/2 est activé.",
+  "title": "NGINX publie des correctifs de sécurité pour les vulnérabilités HTTP/2 CVE-2026-123007 et CVE-2026-123633"
+ },
  "n-d6ed6958b0": {
   "summary": "Le 2026-08-10, Hunyuan3D-WorldClaw a été enregistré avec un lien vers sa page de projet publique. Les éléments de preuve scellés établissent la date et l'URL du projet, mais n'établissent ni les détails de publication, ni les capacités, ni le versionnage, ni la paternité, ni le statut opérationnel. Cette entrée d'historique ne consigne donc que le jalon daté de référence publique du projet.",
   "title": "Page de projet Hunyuan3D-WorldClaw enregistrée"
@@ -4139,6 +4154,11 @@
   "research_notes": "Prend en charge un audio haute fidélité à 44.1kHz et des morceaux complets allant jusqu'à 6 minutes.",
   "summary": "MiniMax Music est une plateforme professionnelle de création musicale par IA qui génère un audio haute fidélité à partir de prompts textuels et de paroles. Elle fonctionne aujourd'hui comme un partenaire créatif complet, avec des outils pour les covers IA et la structuration musicale professionnelle.",
   "title": "MiniMax Music 2.6 : plateforme de génération musicale par IA"
+ },
+ "n-e023bc2664": {
+  "research_notes": "Configurez le client MCP dans Claude, ChatGPT, Gemini ou Cursor en utilisant l'URL de l'endpoint du serveur distant https://api.suno.com/mcp.\n\nTerminez le flux de connexion OAuth pour lier votre compte Suno et autoriser la consommation de crédits.\n\nDemandez à l'assistant des descriptions de styles musicaux, des préférences de genre ou des ébauches de paroles afin de générer des morceaux complets, des extensions ou des clips vidéo.\n\nAssurez-vous d'être connecté au compte Suno visé avant de lancer OAuth dans l'assistant, afin d'éviter de lier un profil incorrect.\n\nPrécisez des mots-clés de genre explicites, le tempo et les préférences vocales dans le prompt de discussion afin de limiter la consommation de crédits redondante.",
+  "summary": "Suno a lancé un serveur officiel Model Context Protocol à l'adresse api.suno.com/mcp, permettant de générer des morceaux et de créer des visuels Suno directement dans Claude, ChatGPT, Gemini, Claude Code et Cursor, grâce à une authentification OAuth et aux crédits du compte existant.",
+  "title": "Suno lance un serveur public Model Context Protocol pour les assistants IA et les IDE"
  },
  "n-e17cbf7ded": {
   "evolution_summary": "Mis à jour au milieu de l'année 2026 avec une quantification à 1.25-bit via le framework Sherry, ce qui réduit le modèle 1.8B à 440MB pour un déploiement sur du matériel mobile d'entrée de gamme. Il constitue actuellement la référence du secteur pour la traduction hors ligne sur l'appareil.",

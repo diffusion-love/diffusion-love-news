@@ -1,0 +1,11 @@
+{
+ "id": "n-00b6dfd5f9",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configura el cliente MCP en Claude, ChatGPT, Gemini o Cursor usando la URL del endpoint del servidor remoto https://api.suno.com/mcp.\n\nCompleta el flujo de inicio de sesión OAuth para vincular tu cuenta de Suno y autorizar el uso de créditos.\n\nIndica al asistente descripciones de estilo musical, preferencias de género o borradores de letras para generar pistas completas, extensiones o videoclips.\n\nAsegúrate de haber iniciado sesión en la cuenta de Suno de destino antes de iniciar OAuth en el asistente, para evitar vincular un perfil incorrecto.\n\nEspecifica en el prompt del chat palabras clave de género explícitas, tempo y preferencias vocales para minimizar el consumo redundante de créditos.",
+ "source_sha256": "e5758720fcda244fae917d1c8d443e51233a8f30528bc8eec6cc875adad72ca4",
+ "summary": "Suno publicó configuraciones de cliente para Claude, ChatGPT, Gemini y Cursor que se conectan a api.suno.com/mcp, sincronizando automáticamente las canciones generadas con la biblioteca web del usuario sin necesidad de claves de API.",
+ "title": "Suno lanza un conector de servidor MCP con sincronización de la biblioteca de la cuenta",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

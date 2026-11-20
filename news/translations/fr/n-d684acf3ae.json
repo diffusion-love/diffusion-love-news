@@ -1,0 +1,11 @@
+{
+ "id": "n-d684acf3ae",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Inspectez les fichiers de configuration du serveur pour vérifier si HTTP/2 est activé via les directives listen ou les directives de configuration http2.\n\nMettez à niveau les installations de NGINX Open Source vers la version stable 1.30.7 ou la version Mainline 1.31.9, ou appliquez les mises à jour correspondantes du fournisseur.\n\nSi les mises à niveau immédiates des binaires ne peuvent pas être planifiées, désactivez le paramètre http2 dans tous les blocs listen et rechargez la configuration du serveur.\n\nDéployez un audit automatisé des vulnérabilités sur l'ensemble des contrôleurs d'entrée et des reverse proxies de périphérie afin de vérifier le déploiement des versions corrigées de NGINX.\n\nImposez une isolation stricte des processus sans privilèges et des profils de sécurité des conteneurs afin de limiter le rayon d'impact en cas de corruption mémoire au niveau des workers.",
+ "source_sha256": "0d0ff78a57aeb9aec700847120a73679bc737307015d20163f60d7093139b89a",
+ "summary": "Les versions 1.30.7 et 1.31.9 de NGINX corrigent des vulnérabilités de corruption mémoire et d'utilisation après libération dans le module HTTP/2, qui pourraient permettre une exécution de code à distance non authentifiée sur les serveurs où HTTP/2 est activé.",
+ "title": "NGINX publie des correctifs de sécurité pour les vulnérabilités HTTP/2 CVE-2026-123007 et CVE-2026-123633",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

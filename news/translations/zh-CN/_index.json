@@ -1714,6 +1714,11 @@
   "title": "NeumaTex 项目页面已分享",
   "translated_at": "2026-10-24"
  },
+ "n-5524914633": {
+  "fresh": true,
+  "title": "安全公告详述 NGINX HTTP/2 两个严重远程代码执行漏洞",
+  "translated_at": "2026-11-20"
+ },
  "n-553243c913": {
   "fresh": true,
   "title": "RotorQuant：基于分块对角 Clifford 旋转子的 KV 缓存压缩",
@@ -4143,6 +4148,11 @@
   "fresh": true,
   "title": "Gemini 3.1 Flash TTS 高精度语音控制",
   "translated_at": "2026-10-24"
+ },
+ "n-d684acf3ae": {
+  "fresh": true,
+  "title": "NGINX 发布针对 HTTP/2 漏洞 CVE-2026-123007 和 CVE-2026-123633 的安全补丁",
+  "translated_at": "2026-11-20"
  },
  "n-d6ed6958b0": {
   "fresh": true,

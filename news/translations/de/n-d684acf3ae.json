@@ -1,0 +1,11 @@
+{
+ "id": "n-d684acf3ae",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Überprüfen Sie die Konfigurationsdateien des Servers, um festzustellen, ob HTTP/2 über listen-Direktiven oder http2-Konfigurationsdirektiven aktiviert ist.\n\nAktualisieren Sie NGINX-Open-Source-Installationen auf die Stable-Version 1.30.7 oder die Mainline-Version 1.31.9 oder wenden Sie die entsprechenden Updates des Herstellers an.\n\nWenn sich ein sofortiges Binary-Upgrade nicht einplanen lässt, deaktivieren Sie den Parameter http2 in allen listen-Blöcken und laden Sie die Serverkonfiguration neu.\n\nSetzen Sie automatisierte Schwachstellenprüfungen über alle Ingress-Controller und Edge-Reverse-Proxies ein, um die Bereitstellung gepatchter NGINX-Releases zu verifizieren.\n\nErzwingen Sie strikte Isolation unprivilegierter Prozesse und Container-Sicherheitsprofile, um den Wirkungsbereich bei einer Speicherkorruption auf Worker-Ebene zu begrenzen.",
+ "source_sha256": "0d0ff78a57aeb9aec700847120a73679bc737307015d20163f60d7093139b89a",
+ "summary": "NGINX-Versionen 1.30.7 und 1.31.9 beheben Speicherkorruptions- und Use-after-free-Schwachstellen im HTTP/2-Modul, die auf Servern mit aktiviertem HTTP/2 unauthentifizierte Remote Code Execution ermöglichen könnten.",
+ "title": "NGINX veröffentlicht Sicherheitspatches für HTTP/2-Schwachstellen CVE-2026-123007 und CVE-2026-123633",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

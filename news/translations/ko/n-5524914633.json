@@ -1,0 +1,11 @@
+{
+ "id": "n-5524914633",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "HTTP/2가 listen 지시문 또는 http2 설정 지시문을 통해 활성화되어 있는지 확인하려면 서버 설정 파일을 점검하십시오.\n\nNGINX Open Source 설치본은 Stable 버전 1.30.7 또는 Mainline 버전 1.31.9로 업그레이드하거나, 해당 벤더의 업데이트를 적용하십시오.\n\n즉시 바이너리 업그레이드를 진행할 수 없는 경우, 모든 listen 블록에서 http2 매개변수를 비활성화한 뒤 서버 설정을 다시 로드하십시오.\n\n패치된 NGINX 릴리스가 배포되었는지 확인하려면 모든 인그레스 컨트롤러와 엣지 리버스 프록시에 자동화된 취약점 점검을 배포하십시오.\n\nworker 프로세스 수준의 메모리 손상이 발생했을 때 영향 범위를 제한하도록, 엄격한 비특권 프로세스 격리와 컨테이너 보안 프로파일을 적용하십시오.",
+ "source_sha256": "01c39be7e016bfa64524c47cf1dc10f5a5302f49de38b8c80da6891a7df22654",
+ "summary": "보안 연구자들이 NGINX HTTP/2 처리 과정의 두 가지 치명적 원격 코드 실행 취약점인 CVE-2026-123007과 CVE-2026-123633을 공개했습니다. Stable 및 Mainline 브랜치에 대한 상류(upstream) 패치가 이미 배포되었습니다.",
+ "title": "보안 권고, NGINX HTTP/2의 치명적 원격 코드 실행 결함 두 건 상세 공개",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-e023bc2664",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Konfigurieren Sie den MCP-Client in Claude, ChatGPT, Gemini oder Cursor mit der Endpunkt-URL des Remote-Servers https://api.suno.com/mcp.\n\nSchließen Sie den OAuth-Anmeldevorgang ab, um Ihr Suno-Konto zu verknüpfen und die Nutzung von Credits zu autorisieren.\n\nBeauftragen Sie den Assistenten mit Beschreibungen von Musikstilen, Genrepräferenzen oder Liedtext-Entwürfen, um vollständige Tracks, Erweiterungen oder Videoclips zu generieren.\n\nStellen Sie sicher, dass Sie vor dem Start von OAuth im Assistenten beim gewünschten Suno-Konto angemeldet sind, damit kein falsches Profil verknüpft wird.\n\nGeben Sie im Chat-Prompt explizite Genre-Schlüsselwörter, Tempo und Gesangspräferenzen an, um unnötigen Credit-Verbrauch zu minimieren.",
+ "source_sha256": "e4a925c6523add0ab4f96236ce8351f21fc10e16fafc1b002bb83ff3a7f7e729",
+ "summary": "Suno hat einen offiziellen Model-Context-Protocol-Server unter api.suno.com/mcp gestartet, der die Generierung von Tracks und die Erstellung von Suno Visuals direkt in Claude, ChatGPT, Gemini, Claude Code und Cursor ermöglicht – mit OAuth-Authentifizierung und den vorhandenen Kontocredits.",
+ "title": "Suno startet öffentlichen Model-Context-Protocol-Server für KI-Assistenten und IDEs",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

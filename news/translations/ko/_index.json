@@ -1714,6 +1714,11 @@
   "title": "NeumaTex 프로젝트 페이지 공유",
   "translated_at": "2026-10-24"
  },
+ "n-5524914633": {
+  "fresh": true,
+  "title": "보안 권고, NGINX HTTP/2의 치명적 원격 코드 실행 결함 두 건 상세 공개",
+  "translated_at": "2026-11-20"
+ },
  "n-553243c913": {
   "fresh": true,
   "title": "RotorQuant: 블록 대각 Clifford Rotor KV 캐시 압축",
@@ -4143,6 +4148,11 @@
   "fresh": true,
   "title": "Gemini 3.1 Flash TTS 고정밀 음성 제어",
   "translated_at": "2026-10-24"
+ },
+ "n-d684acf3ae": {
+  "fresh": true,
+  "title": "NGINX, HTTP/2 취약점 CVE-2026-123007 및 CVE-2026-123633에 대한 보안 패치 발표",
+  "translated_at": "2026-11-20"
  },
  "n-d6ed6958b0": {
   "fresh": true,

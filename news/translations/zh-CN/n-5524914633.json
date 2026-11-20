@@ -1,0 +1,11 @@
+{
+ "id": "n-5524914633",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "检查服务器配置文件，确认是否通过 listen 指令或 http2 配置指令启用了 HTTP/2。\n\n将 NGINX Open Source 安装升级至 Stable 版本 1.30.7 或 Mainline 版本 1.31.9，或应用相应的厂商更新。\n\n如果无法立即安排二进制升级，请在所有 listen 块中禁用 http2 参数，并重新加载服务器配置。\n\n在所有入口控制器和边缘反向代理上部署自动化漏洞审计，以验证已部署的 NGINX 补丁版本。\n\n实施严格的非特权进程隔离和容器安全配置文件，以在工作进程级内存损坏时限制影响范围。",
+ "source_sha256": "01c39be7e016bfa64524c47cf1dc10f5a5302f49de38b8c80da6891a7df22654",
+ "summary": "安全研究人员披露了 CVE-2026-123007 和 CVE-2026-123633 两个严重的远程代码执行漏洞，二者均位于 NGINX 的 HTTP/2 处理模块中。上游已为稳定版和主线分支发布补丁。",
+ "title": "安全公告详述 NGINX HTTP/2 两个严重远程代码执行漏洞",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

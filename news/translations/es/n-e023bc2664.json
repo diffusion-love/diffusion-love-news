@@ -1,0 +1,11 @@
+{
+ "id": "n-e023bc2664",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configure el cliente MCP en Claude, ChatGPT, Gemini o Cursor usando la URL del endpoint del servidor remoto https://api.suno.com/mcp.\n\nCompleta el flujo de inicio de sesión OAuth para vincular tu cuenta de Suno y autorizar el uso de créditos.\n\nIndica al asistente descripciones de estilo musical, preferencias de género o borradores de letras para generar pistas completas, extensiones o clips de vídeo.\n\nAsegúrate de haber iniciado sesión en la cuenta de Suno de destino antes de iniciar OAuth en el asistente, para evitar vincular un perfil incorrecto.\n\nEspecifica palabras clave de género explícitas, tempo y preferencias vocales en el prompt del chat para minimizar el consumo redundante de créditos.",
+ "source_sha256": "e4a925c6523add0ab4f96236ce8351f21fc10e16fafc1b002bb83ff3a7f7e729",
+ "summary": "Suno lanzó un servidor oficial de Model Context Protocol en api.suno.com/mcp, que permite generar pistas y crear visuales de Suno Visuals directamente dentro de Claude, ChatGPT, Gemini, Claude Code y Cursor, mediante autenticación OAuth y los créditos de la cuenta existente.",
+ "title": "Suno lanza un servidor público de Model Context Protocol para asistentes de IA y IDE",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
