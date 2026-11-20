@@ -1,0 +1,11 @@
+{
+ "id": "n-686468ae7d",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configurez le framework d'apprentissage par renforcement (tel que verl, NeMo RL ou Prime-RL) pour acheminer les requêtes de génération de rollouts d'inférence via NVIDIA Dynamo.\n\nDéployez des pods de workers de rollouts d'inférence à l'aide des manifestes Kubernetes de dynamo-recipes configurés pour le runtime cible, tel que vLLM ou SGLang.\n\nActivez le routage KV-aware pour orienter les prompts partageant des préfixes identiques de system ou de contexte vers les workers disposant du cache KV résident.\n\nActivez ModelExpress pour diffuser les poids de politique mis à jour depuis le trainer directement vers les workers de rollouts via RDMA, sans redémarrer les conteneurs de service.\n\nAppliquez le routage KV-aware lors de la génération de rollouts multi-échantillons par prompt ou de traces d'agents multi-tours afin de minimiser le calcul redondant des préfixes entre les réplicas de workers.\n\nActivez la récupération sans interruption de service et la migration des requêtes afin d'empêcher que la défaillance d'un pod worker isolé ne bloque les étapes d'entraînement à l'échelle du cluster.\n\nDéployez des blueprints Kubernetes validés issus de dynamo-recipes, correspondant à la topologie réseau et à l'architecture GPU spécifiques, plutôt que de configurer manuellement les parallélismes et les paramètres de batching.",
+ "source_sha256": "c31d7bee3a50a6fa177d0f338f3f93cd17fb29ad06725c6bcb596cf0dd294c2f",
+ "summary": "NVIDIA Dynamo introduit une couche de service distribuée et des recettes Kubernetes pour découpler la génération de rollouts de RL des pipelines d'entraînement, en s'appuyant sur le routage KV-aware et les mises à jour de poids via RDMA.",
+ "title": "NVIDIA Dynamo introduit un service de rollouts distribué pour l'apprentissage par renforcement",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

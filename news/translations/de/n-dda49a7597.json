@@ -1,0 +1,11 @@
+{
+ "id": "n-dda49a7597",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository und installieren Sie die erforderlichen Umgebungsabhängigkeiten: git clone https://github.com/effl-lab/Weight-Space-Programming.git\n\nDefinieren Sie die Spezifikationen der Zielaufgaben, Few-Shot-Demonstrationen und konfigurieren Sie die lokale interaktive Ausführungssandbox.\n\nFordern Sie ein leistungsstarkes Reasoning-Sprachmodell auf, Konzepte zu extrahieren und Schlüssel-Wert-Gewichte sowie feste Suchroutinen ohne Backpropagation zu kompilieren.\n\nEvaluieren Sie die erzeugte sparse Konzepttabelle anhand von Reasoning-Benchmarks für Zielaufgaben und untersuchen Sie die zeilenweisen Aktivierungen zur Fehleranalyse.\n\nBeschränken Sie die Kompilierung im Gewichtsraum auf sparse assoziative Konzepttabellen, anstatt zu versuchen, dichte Matrizen mehrschichtiger Transformer von Hand zu codieren.\n\nSetzen Sie die Synthese im Gewichtsraum gezielt für Reasoning- und Aufgaben zum Abruf strukturierten Wissens ein, bei denen sich von Menschen geschriebene Fakten isolieren lassen, und vermeiden Sie rohe perzeptuelle Pixelaufgaben, bei denen Gradientenabstieg überlegen bleibt.\n\nNutzen Sie die tabellarische, zeilenbasierte Darstellung der kompilierten Gewichte für die zeilenweise Inspektion und chirurgische Parameterfehlersuche, ohne das Risiko eines katastrophalen Vergessens oder globaler Parameterdrift einzugehen.",
+ "source_sha256": "97c8f749d1486a4b727cac886730c6ae17232fd903c4037a2d1ee5b424ec0941",
+ "summary": "Forschende evaluieren Weight-Space-Programming mit führenden Reasoning-Modellen in einer interaktiven Ausführungssandbox und zeigen über Reasoning-Benchmarks hinweg eine tabellarische Parametereffizienz gegenüber Transformer-Baselines, wobei sie sich streng auf von Menschen geschriebenes Wissen stützen.",
+ "title": "POSTECH evaluiert LLM-gesteuerte Gewichtssynthese über Reasoning-Benchmarks hinweg",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

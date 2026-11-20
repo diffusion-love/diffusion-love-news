@@ -1,0 +1,11 @@
+{
+ "id": "n-9253bb5191",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "AI-Workloads auf AMD-Instinct-MI355X-Beschleuniger bereitstellen, indem automatisierte Modell-Agenten Low-Level-Compute-Kernel für die Prompt-Verarbeitung portieren und kompilieren.\n\nKI-synthetisierte RTL-Änderungen an der GPU-Architektur anhand funktionaler Testbenches mit automatisierten EDA-Simulationsworkflows verifizieren, bevor Layouts in die Siliziumproduktion übergeben werden.",
+ "source_sha256": "22803eec4397a802ceeb4099e942745535b19f162ade6f29477bbf9241d8e054",
+ "summary": "KI-Modelle erzielten über fünf Monate hinweg durch das Umschreiben von RTL-Code für AMDs Flaggschiff-GPU-IP Schaltungsoptimierungen von bis zu 14 % bei Leistung, Performance und Fläche (PPA). Anthropic demonstrierte eine schnelle, dreitägige Migration von Low-Level-Kerneln auf der Instinct-MI355X-Plattform, während die manuelle Portierung von Kerneln 6 bis 12 Monate Entwicklungsaufwand erfordert.",
+ "title": "KI-Modelle erzielen 14 % PPA-Verbesserungen bei AMDs Flaggschiff-GPU-IP",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

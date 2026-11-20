@@ -1,0 +1,11 @@
+{
+ "id": "n-9253bb5191",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "利用自动化模型智能体移植并编译底层计算内核，将AI工作负载部署到AMD Instinct MI355X加速器上，用于提示词处理。\n\n在将版图投入硅片生产之前，使用自动化EDA仿真工作流，依据功能测试平台验证AI合成的RTL修改在GPU架构上的正确性。",
+ "source_sha256": "22803eec4397a802ceeb4099e942745535b19f162ade6f29477bbf9241d8e054",
+ "summary": "AI模型通过在五个月内改写AMD旗舰GPU IP的RTL代码，实现了高达14%的功耗、性能和面积（PPA）电路优化。Anthropic在Instinct MI355X平台上展示了快速的三天底层内核迁移，而手动移植内核通常需要6至12个月的工程投入。",
+ "title": "AI模型在AMD旗舰GPU IP上实现14%的PPA提升",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

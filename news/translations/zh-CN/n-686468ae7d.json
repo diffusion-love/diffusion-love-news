@@ -1,0 +1,11 @@
+{
+ "id": "n-686468ae7d",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "将强化学习框架（例如 verl、NeMo RL 或 Prime-RL）配置为把推理 rollout 生成请求路由到 NVIDIA Dynamo。\n\n使用针对目标运行时（例如 vLLM 或 SGLang）配置的 dynamo-recipes Kubernetes 清单，部署推理 rollout 工作器 Pod。\n\n启用 KV 感知路由，将具有相同系统提示或上下文前缀的提示引导至驻留有 KV 缓存的工作器。\n\n启用 ModelExpress，通过 RDMA 将更新后的策略权重从训练器直接流式传输到 rollout 工作器，无需重启服务容器。\n\n在为每个提示生成多样本 rollout 或生成多轮智能体轨迹时应用 KV 感知路由，以减少工作器副本之间冗余的前缀计算。\n\n启用零停机恢复与请求迁移，防止单个 Pod 工作器故障导致集群规模的训练步骤停滞。\n\n部署来自 dynamo-recipes 的经过验证的 Kubernetes 蓝图，使其与具体的网络拓扑和 GPU 架构相匹配，而不是手动配置并行策略和批处理参数。",
+ "source_sha256": "c31d7bee3a50a6fa177d0f338f3f93cd17fb29ad06725c6bcb596cf0dd294c2f",
+ "summary": "NVIDIA Dynamo 推出了分布式服务层和 Kubernetes 配方，通过 KV 感知路由和 RDMA 权重更新，将强化学习 rollout 生成与训练流水线解耦。",
+ "title": "NVIDIA Dynamo 推出面向强化学习的分布式 rollout 服务",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-686468ae7d",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Konfigurieren Sie das Reinforcement-Learning-Framework (etwa verl, NeMo RL oder Prime-RL so, dass Inferenz-Rollout-Generierungsanfragen über NVIDIA Dynamo geleitet werden.\n\nStellen Sie Inferenz-Rollout-Worker-Pods mithilfe der Kubernetes-Manifeste aus dynamo-recipes bereit, die für die Ziellaufzeit konfiguriert sind, etwa vLLM oder SGLang.\n\nAktivieren Sie KV-bewusstes Routing, um Prompts mit identischen System- oder Kontext-Präfixen an Worker mit residentem KV-Cache zu lenken.\n\nAktivieren Sie ModelExpress, um aktualisierte Policy-Gewichte vom Trainer direkt über RDMA an Rollout-Worker zu streamen, ohne die Serving-Container neu zu starten.\n\nWenden Sie KV-bewusstes Routing an, wenn Multi-Sample-Rollouts pro Prompt oder Multi-Turn-Agent-Traces generiert werden, um redundante Präfix-Berechnungen über Worker-Replikate hinweg zu minimieren.\n\nAktivieren Sie zero-downtime Recovery und Request-Migration, damit Ausfälle einzelner Worker-Pods nicht clusterweite Trainingsschritte zum Stillstand bringen.\n\nStellen Sie validierte Kubernetes-Blueprints aus dynamo-recipes bereit, die zur jeweiligen Netzwerktopologie und GPU-Architektur passen, anstatt Parallelisierungen und Batching-Parameter manuell zu konfigurieren.",
+ "source_sha256": "c31d7bee3a50a6fa177d0f338f3f93cd17fb29ad06725c6bcb596cf0dd294c2f",
+ "summary": "NVIDIA Dynamo führt eine verteilte Serving-Schicht und Kubernetes-Recipes ein, um die Generierung von RL-Rollouts von Trainingspipelines zu entkoppeln, und setzt dabei KV-bewusstes Routing und RDMA-basierte Gewichtsaktualisierungen ein.",
+ "title": "NVIDIA Dynamo führt verteiltes Rollout-Serving für Reinforcement Learning ein",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

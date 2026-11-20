@@ -1,0 +1,11 @@
+{
+ "id": "n-9253bb5191",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "자동화된 모델 에이전트를 활용해 저수준 연산 커널을 이식하고 컴파일함으로써, 프롬프트 처리를 위한 AI 워크로드를 AMD Instinct MI355X 가속기에 배포합니다.\n\n양산용 레이아웃을 실리콘으로 제작하기 전에, 자동화된 EDA 시뮬레이션 워크플로를 사용해 기능 테스트벤치 대비 AI가 합성한 GPU 아키텍처 RTL 수정 사항을 검증합니다.",
+ "source_sha256": "22803eec4397a802ceeb4099e942745535b19f162ade6f29477bbf9241d8e054",
+ "summary": "AI 모델이 5개월에 걸쳐 AMD의 플래그십 GPU IP를 위한 RTL 코드를 다시 작성해, 최대 14%의 전력, 성능, 면적(PPA) 회로 최적화를 달성했습니다. Anthropic은 Instinct MI355X 플랫폼에서 저수준 커널을 3일 만에 빠르게 이식하는 모습을 시연했으며, 수작업 커널 이식에는 6~12개월의 엔지니어링 작업이 필요합니다.",
+ "title": "AI 모델, AMD 플래그십 GPU IP에서 14% PPA 개선 달성",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

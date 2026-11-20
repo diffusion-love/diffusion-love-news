@@ -1,0 +1,11 @@
+{
+ "id": "n-dda49a7597",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona el repositorio e instala las dependencias de entorno necesarias: git clone https://github.com/effl-lab/Weight-Space-Programming.git\n\nDefine las especificaciones de las tareas objetivo, las demostraciones de pocos ejemplos (few-shot) y configura el entorno de ejecución interactivo local (sandbox).\n\nSolicita a un modelo de lenguaje de razonamiento de vanguardia que extraiga conceptos y compile pesos clave-valor y rutinas de búsqueda fijas, sin retropropagación.\n\nEvalúa la tabla dispersa de conceptos generada en benchmarks de razonamiento objetivo e inspecciona las activaciones fila por fila para el análisis de errores.\n\nRestringe la compilación en el espacio de pesos a tablas asociativas dispersas de conceptos, en lugar de intentar codificar a mano matrices densas de transformadores multicapa.\n\nAplica la síntesis en el espacio de pesos específicamente a tareas de razonamiento y de recuperación de conocimiento estructurado donde los hechos escritos por humanos pueden aislarse, evitando tareas con píxeles perceptuales en bruto, donde el descenso por gradiente sigue siendo superior.\n\nAprovecha la representación tabular basada en filas de los pesos compilados para la inspección línea por línea y la depuración quirúrgica de parámetros, sin riesgo de olvido catastrófico ni de deriva global de parámetros.",
+ "source_sha256": "97c8f749d1486a4b727cac886730c6ae17232fd903c4037a2d1ee5b424ec0941",
+ "summary": "Los investigadores evalúan la programación en el espacio de pesos mediante modelos de razonamiento de vanguardia en un entorno de ejecución interactivo (sandbox), demostrando una eficiencia paramétrica tabular frente a los modelos base de transformadores en benchmarks de razonamiento y apoyándose estrictamente en conocimiento escrito por humanos.",
+ "title": "POSTECH evalúa la síntesis de pesos impulsada por LLM en benchmarks de razonamiento",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
