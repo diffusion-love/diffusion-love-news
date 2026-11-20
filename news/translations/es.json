@@ -12,6 +12,11 @@
   "summary": "El 2026-03-23, un mensaje sellado remitió a los lectores a la página de UNI-1 en Luma Labs y a la aplicación de Luma Labs. Esto establece una referencia oficial de proyecto con fecha en la historia de desarrollo de UNI-1. Las pruebas disponibles no permiten confirmar el estado exacto de lanzamiento, las capacidades ni los detalles del anuncio.",
   "title": "UNI-1 recibió una referencia oficial de proyecto de Luma Labs"
  },
+ "n-00b6dfd5f9": {
+  "research_notes": "Configura el cliente MCP en Claude, ChatGPT, Gemini o Cursor usando la URL del endpoint del servidor remoto https://api.suno.com/mcp.\n\nCompleta el flujo de inicio de sesión OAuth para vincular tu cuenta de Suno y autorizar el uso de créditos.\n\nIndica al asistente descripciones de estilo musical, preferencias de género o borradores de letras para generar pistas completas, extensiones o videoclips.\n\nAsegúrate de haber iniciado sesión en la cuenta de Suno de destino antes de iniciar OAuth en el asistente, para evitar vincular un perfil incorrecto.\n\nEspecifica en el prompt del chat palabras clave de género explícitas, tempo y preferencias vocales para minimizar el consumo redundante de créditos.",
+  "summary": "Suno publicó configuraciones de cliente para Claude, ChatGPT, Gemini y Cursor que se conectan a api.suno.com/mcp, sincronizando automáticamente las canciones generadas con la biblioteca web del usuario sin necesidad de claves de API.",
+  "title": "Suno lanza un conector de servidor MCP con sincronización de la biblioteca de la cuenta"
+ },
  "n-00c9c3996b": {
   "summary": "El 2026-06-27, una fuente fechada sobre HATCHA incluía un enlace al repositorio de GitHub del proyecto. Esto registra una referencia pública a un repositorio en la historia de HATCHA, pero no establece la fecha de creación del repositorio, ninguna versión publicada ni ninguna capacidad específica.",
   "title": "Se hizo referencia al repositorio de GitHub de HATCHA"
@@ -1629,6 +1634,11 @@
  "n-551508ee8c": {
   "summary": "El 2026-07-02 se compartió NeumaTex con un enlace a su página del proyecto. La evidencia sellada no contiene texto fuente ni investigación de respaldo, por lo que esta entrada del historial registra la referencia pública fechada sin hacer afirmaciones sobre sus métodos, resultados, autoría o estado de publicación.",
   "title": "Página del proyecto NeumaTex compartida"
+ },
+ "n-5524914633": {
+  "research_notes": "Inspeccione los archivos de configuración del servidor para verificar si HTTP/2 está habilitado mediante directivas listen o directivas de configuración http2.\n\nActualice las instalaciones de NGINX Open Source a la versión Stable 1.30.7 o a la versión Mainline 1.31.9, o aplique las actualizaciones correspondientes del proveedor.\n\nSi no es posible programar de inmediato la actualización de los binarios, desactive el parámetro http2 en todos los bloques listen y recargue la configuración del servidor.\n\nDespliegue auditorías automatizadas de vulnerabilidades en todos los controladores de ingreso y proxies inversos perimetrales para verificar la implementación de las versiones parcheadas de NGINX.\n\nAplique un aislamiento estricto de procesos sin privilegios y perfiles de seguridad de contenedores para limitar el radio de impacto en caso de corrupción de memoria a nivel de worker.",
+  "summary": "Investigadores de seguridad divulgaron CVE-2026-123007 y CVE-2026-123633, dos vulnerabilidades críticas de ejecución remota de código en el manejo de HTTP/2 de NGINX. Se han publicado parches upstream para las ramas stable y mainline.",
+  "title": "Un aviso de seguridad detalla dos fallos críticos de ejecución remota de código en HTTP/2 de NGINX"
  },
  "n-553243c913": {
   "evolution_summary": "Originalmente basado en rotores de Clifford 3D, el proyecto se amplió con IsoQuant (4D) y las variantes PlanarQuant (2D), muy optimizadas. Ahora incluye kernels fusionados de CUDA y Metal, y se ha integrado en llama.cpp como una solución de compresión de caché de 3 bits de sustitución directa.",
@@ -3954,6 +3964,11 @@
   "summary": "Un modelo avanzado de texto a voz de Google que permite una \"interpretación dirigida\" mediante indicaciones en lenguaje natural y etiquetas de emoción en línea. Admite la generación de audio de alta fidelidad y baja latencia, con capacidades nativas de diálogo multihablante para aplicaciones interactivas.",
   "title": "Control de voz de alta precisión en Gemini 3.1 Flash TTS"
  },
+ "n-d684acf3ae": {
+  "research_notes": "Inspeccione los archivos de configuración del servidor para verificar si HTTP/2 está habilitado mediante directivas listen o mediante directivas de configuración http2.\n\nActualice las instalaciones de NGINX Open Source a la versión Stable 1.30.7 o a la versión Mainline 1.31.9, o aplique las actualizaciones correspondientes del proveedor.\n\nSi no es posible programar de inmediato la actualización de los binarios, desactive el parámetro http2 en todos los bloques listen y recargue la configuración del servidor.\n\nDespliegue auditorías automatizadas de vulnerabilidades en todos los controladores de ingreso y proxies inversos perimetrales para verificar el despliegue de las versiones parcheadas de NGINX.\n\nAplique un aislamiento estricto de procesos sin privilegios y perfiles de seguridad para contenedores que limiten el radio de impacto ante una corrupción de memoria a nivel de worker.",
+  "summary": "Las versiones 1.30.7 y 1.31.9 de NGINX corrigen vulnerabilidades de corrupción de memoria y de uso tras liberación en el módulo HTTP/2, que podrían permitir la ejecución remota de código sin autenticación en servidores con HTTP/2 habilitado.",
+  "title": "NGINX publica parches de seguridad para las vulnerabilidades de HTTP/2 CVE-2026-123007 y CVE-2026-123633"
+ },
  "n-d6ed6958b0": {
   "summary": "El 2026-08-10 se registró Hunyuan3D-WorldClaw junto con un enlace a su página pública del proyecto. La evidencia sellada establece la fecha y la URL del proyecto, pero no establece detalles de lanzamiento, capacidades, versionado, autoría ni estado operativo. Por tanto, esta entrada del historial recoge únicamente el hito datado de la referencia pública al proyecto.",
   "title": "Página del proyecto de Hunyuan3D-WorldClaw registrada"
@@ -4139,6 +4154,11 @@
   "research_notes": "Admite audio de alta fidelidad a 44.1kHz y pistas completas de hasta 6 minutos.",
   "summary": "MiniMax Music es una plataforma de creación musical con IA de nivel profesional que genera audio de alta fidelidad a partir de prompts de texto y letras. Actualmente funciona como un socio creativo completo, con herramientas para covers generados con IA y para la estructuración musical profesional.",
   "title": "MiniMax Music 2.6: plataforma de generación musical con IA"
+ },
+ "n-e023bc2664": {
+  "research_notes": "Configure el cliente MCP en Claude, ChatGPT, Gemini o Cursor usando la URL del endpoint del servidor remoto https://api.suno.com/mcp.\n\nCompleta el flujo de inicio de sesión OAuth para vincular tu cuenta de Suno y autorizar el uso de créditos.\n\nIndica al asistente descripciones de estilo musical, preferencias de género o borradores de letras para generar pistas completas, extensiones o clips de vídeo.\n\nAsegúrate de haber iniciado sesión en la cuenta de Suno de destino antes de iniciar OAuth en el asistente, para evitar vincular un perfil incorrecto.\n\nEspecifica palabras clave de género explícitas, tempo y preferencias vocales en el prompt del chat para minimizar el consumo redundante de créditos.",
+  "summary": "Suno lanzó un servidor oficial de Model Context Protocol en api.suno.com/mcp, que permite generar pistas y crear visuales de Suno Visuals directamente dentro de Claude, ChatGPT, Gemini, Claude Code y Cursor, mediante autenticación OAuth y los créditos de la cuenta existente.",
+  "title": "Suno lanza un servidor público de Model Context Protocol para asistentes de IA y IDE"
  },
  "n-e17cbf7ded": {
   "evolution_summary": "Actualizado a mediados de 2026 con cuantización de 1.25 bits mediante el marco Sherry, lo que reduce el modelo de 1.8B a 440MB para su despliegue en hardware móvil de gama baja. Actualmente es el referente del sector para la traducción sin conexión en el dispositivo.",
