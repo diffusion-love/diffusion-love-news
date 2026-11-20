@@ -1,0 +1,11 @@
+{
+ "id": "n-c6e889531e",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Suba una malla 3D sin texturizar en formato OBJ o GLB junto con una única imagen de referencia a la interfaz alojada de UltraTex en Hugging Face.\n\nInspeccione los mapas predichos de color albedo sin iluminación (unlit) y de normales de superficie multivista para verificar la alineación geométrica entre los puntos de vista canónicos.\n\nExporte el conjunto de mapas PBR de 4K resultante, que contiene los canales de albedo, normal, metálico y rugosidad, a una herramienta de creación de contenido digital 3D o a un motor de juegos en tiempo real.\n\nProporcione imágenes de referencia con iluminación difusa y neutra para facilitar una separación algorítmica limpia del color intrínseco de la superficie respecto a los reflejos especulares.\n\nPrepare las mallas de entrada con un desenrollado UV limpio y sin solapamientos antes de proyectar los mapas de características multivista generados en un espacio de textura UV unificado.",
+ "source_sha256": "2da976929ee503a5d2b02b0771df4641a8aeff0cdf6a8fcdacc76d1ec1f46416",
+ "summary": "El proyecto UltraTex demuestra la predicción multivista de albedo, normal, rugosidad y metalicidad, ensamblada en mapas UV de 4K para mallas 3D; publica un artículo técnico y una vista previa en línea, mientras que el código y los pesos del modelo siguen pendientes.",
+ "title": "Artículo de investigación y demostración de UltraTex: generación de materiales PBR desacoplados",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

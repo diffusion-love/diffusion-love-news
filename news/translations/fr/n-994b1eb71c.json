@@ -1,0 +1,11 @@
+{
+ "id": "n-994b1eb71c",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Connectez-vous à Project Genie sur labs.google/projectgenie avec un compte Google AI Ultra actif, ou rejoignez la liste d'attente de Google AI Pro.\n\nSaisissez une invite textuelle descriptive ou importez une image de référence pour définir l'environnement de départ, les personnages et le style visuel.\n\nExplorez le monde 720p généré en temps réel à l'aide des commandes standard du clavier et de la souris.\n\nModifiez la simulation en cours de manière dynamique en saisissant des commandes textuelles pour ajuster l'éclairage, la météo ou les objets de la scène, sans réinitialiser la session.\n\nPartagez ou remixez des sessions de monde achevées via la galerie communautaire de Project Genie.\n\nUtilisez des invites visuelles concises et très contrastées lors de l'initialisation des mondes afin d'éviter l'ambiguïté spatiale et la dérive précoce des textures pendant la navigation interactive.\n\nAppliquez en cours de session des invites textuelles pour des changements atmosphériques et d'éclairage progressifs plutôt que des modifications structurelles drastiques, afin de préserver la cohérence de la scène.\n\nVérifiez les objectifs de durée de session avant de lancer les simulations, en notant que la limite de trois minutes s'applique spécifiquement aux flux de travail Genie 3, tandis que Genie 4 fonctionne selon des limites de flux de prototype distinctes.",
+ "source_sha256": "72d0a24eb732e0f256b74b4a03e761bc19e55026eef7c629b8a98da89b29e4a1",
+ "summary": "Google a intégré le modèle de monde Genie 4 amélioré au prototype de recherche Project Genie pour les abonnés haut de gamme, avec une navigation clavier en temps réel, un audio multimodal synchronisé et un pilotage par invites en direct, sans déduction de crédits Google AI.",
+ "title": "Google intègre le modèle de monde Genie 4 amélioré à Project Genie",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

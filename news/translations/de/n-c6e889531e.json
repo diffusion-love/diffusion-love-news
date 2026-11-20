@@ -1,0 +1,11 @@
+{
+ "id": "n-c6e889531e",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Laden Sie ein ungetexturiertes 3D-Mesh im OBJ- oder GLB-Format zusammen mit einem einzelnen Referenzbild in die gehostete UltraTex-Oberfläche auf Hugging Face hoch.\n\nPrüfen Sie die vorhergesagten unbeleuchteten Albedo-Farbkarten und Oberflächennormalenkarten aus mehreren Ansichten, um die geometrische Ausrichtung über die kanonischen Blickwinkel hinweg zu verifizieren.\n\nExportieren Sie das resultierende, zusammengesetzte 4K-PBR-Kartenset mit Albedo-, Normal-, Metallic- und Roughness-Kanälen in ein Werkzeug für die digitale 3D-Inhaltserstellung oder in eine Echtzeit-Spiele-Engine.\n\nStellen Sie Referenzbilder mit diffuser, neutraler Beleuchtung bereit, um die saubere algorithmische Trennung der intrinsischen Oberflächenfarbe von spekularen Glanzlichtern zu erleichtern.\n\nBereiten Sie Eingabe-Meshes mit sauberer, überlappungsfreier UV-Abwicklung vor, bevor die generierten Merkmalskarten aus mehreren Ansichten in einen einheitlichen UV-Texturraum projiziert werden.",
+ "source_sha256": "2da976929ee503a5d2b02b0771df4641a8aeff0cdf6a8fcdacc76d1ec1f46416",
+ "summary": "Das UltraTex-Projekt demonstriert die Vorhersage von Albedo, Normalen, Roughness und Metallic aus mehreren Ansichten, die zu 4K-UV-Karten für 3D-Meshes zusammengesetzt werden. Es veröffentlicht ein technisches Paper und eine Online-Vorschau, während Code und Modellgewichte noch ausstehen.",
+ "title": "UltraTex-Forschungspapier und Demo zeigen entkoppelte PBR-Materialgenerierung",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-36b8a36bed",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Connectez-vous à Project Genie sur labs.google/projectgenie avec un compte Google AI Ultra actif, ou rejoignez la liste d'attente de Google AI Pro.\n\nSaisissez une invite textuelle descriptive ou importez une image de référence pour définir l'environnement de départ, les personnages et le style visuel.\n\nExplorez le monde 720p généré en temps réel à l'aide des commandes standard de déplacement au clavier et à la souris.\n\nModifiez dynamiquement la simulation en cours en saisissant des commandes textuelles pour ajuster l'éclairage, la météo ou les objets de la scène, sans réinitialiser la session.\n\nPartagez ou remixez les sessions de mondes terminées via la galerie communautaire de Project Genie.\n\nUtilisez des invites visuelles concises et à fort contraste lors de l'initialisation des mondes afin d'éviter toute ambiguïté spatiale et une dérive précoce des textures pendant la navigation interactive.\n\nAppliquez des invites textuelles en cours de session pour des changements atmosphériques et d'éclairage progressifs plutôt que des modifications structurelles drastiques, afin de préserver la cohérence de la scène.\n\nVérifiez les objectifs de durée de session avant de lancer les simulations, en notant que la limite de trois minutes s'applique spécifiquement aux flux de travail Genie 3, tandis que Genie 4 fonctionne selon des limites de flux distinctes propres à son prototype.",
+ "source_sha256": "74e258c08a23e33a884514a7e735386b8f8fb60e1e9532135940f9a0d3815a7d",
+ "summary": "Google a intégré le prototype Genie 4 à Project Genie pour les abonnés haut de gamme, ainsi qu'une liste d'attente pour Google AI Pro, précisant que la génération de mondes ne déduit pas de crédits Google AI et que la limite de session de trois minutes s'applique spécifiquement à Genie 3.",
+ "title": "Project Genie intègre le prototype Genie 4 et une liste d'attente pour Google AI Pro",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

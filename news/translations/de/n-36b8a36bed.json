@@ -1,0 +1,11 @@
+{
+ "id": "n-36b8a36bed",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Melden Sie sich bei Project Genie unter labs.google/projectgenie mit einem aktiven Google-AI-Ultra-Konto an oder tragen Sie sich auf die Warteliste für Google AI Pro ein.\n\nGeben Sie einen beschreibenden Textprompt ein oder laden Sie ein Referenzbild hoch, um die Startumgebung, die Figuren und den visuellen Stil festzulegen.\n\nErkunden Sie die generierte 720p-Welt in Echtzeit mit der üblichen Steuerung über Tastatur und Maus.\n\nVerändern Sie die laufende Simulation dynamisch, indem Sie Textbefehle eingeben, um Beleuchtung, Wetter oder Szenenobjekte anzupassen, ohne die Sitzung zurückzusetzen.\n\nTeilen Sie abgeschlossene Welt-Sitzungen über die Community-Galerie von Project Genie oder remixen Sie sie.\n\nVerwenden Sie beim Initialisieren von Welten knappe, kontrastreiche visuelle Prompts, um räumliche Mehrdeutigkeiten und frühe Texturdrift während der interaktiven Navigation zu vermeiden.\n\nNutzen Sie Prompts während einer laufenden Sitzung für schrittweise atmosphärische und beleuchtungsbezogene Änderungen statt für drastische strukturelle Umbrüche, um die Szenenkohärenz zu wahren.\n\nPrüfen Sie die Zielwerte für die Sitzungsdauer, bevor Sie Simulationen starten, und beachten Sie, dass das Drei-Minuten-Limit speziell für Genie-3-Workflows gilt, während Genie 4 unter eigenen Limits für den Prototyp-Stream läuft.",
+ "source_sha256": "74e258c08a23e33a884514a7e735386b8f8fb60e1e9532135940f9a0d3815a7d",
+ "summary": "Google hat den Genie-4-Prototyp für Abonnenten der oberen Preisstufe in Project Genie integriert und zugleich eine Warteliste für Google AI Pro eingeführt. Dabei stellt das Unternehmen klar, dass die Welterzeugung keine Google-AI-Credits verbraucht und das Drei-Minuten-Limit speziell für Genie 3 gilt.",
+ "title": "Project Genie integriert den Genie-4-Prototyp mit Warteliste für Google AI Pro",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

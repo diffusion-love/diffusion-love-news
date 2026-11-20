@@ -1,0 +1,11 @@
+{
+ "id": "n-47ea145f1a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Laden Sie ein ungetexturiertes 3D-Mesh im OBJ- oder GLB-Format zusammen mit einem einzelnen Referenzbild in die gehostete UltraTex-Oberfläche auf Hugging Face hoch.\n\nPrüfen Sie die vorhergesagten Multi-View-Karten der unbeleuchteten Albedo-Farbe und der Oberflächennormalen, um die geometrische Ausrichtung über kanonische Blickwinkel hinweg zu verifizieren.\n\nExportieren Sie das resultierende zusammengesetzte 4K-PBR-Kartenset mit Albedo-, Normalen-, Metallic- und Roughness-Kanälen in ein Werkzeug zur Erstellung digitaler 3D-Inhalte oder in eine Echtzeit-Spiel-Engine.\n\nStellen Sie Referenzbilder mit diffuser, neutraler Beleuchtung bereit, um die saubere algorithmische Trennung der intrinsischen Oberflächenfarbe von spekularen Highlights zu erleichtern.\n\nBereiten Sie Eingabe-Meshes mit sauberer, überlappungsfreier UV-Abwicklung vor, bevor die generierten Multi-View-Merkmalskarten in einen einheitlichen UV-Texturraum projiziert werden.",
+ "source_sha256": "15745763e695c7aa189f2ca4740728a314d62b6935b0815aab139f7eb6573cf3",
+ "summary": "UltraTex stellt eine kaskadierte Diffusions-Pipeline vor, die intrinsische Materialeigenschaften von der Beleuchtung trennt, um aus Referenzbildern vollständige 4K-PBR-Texturensets zu erzeugen, und wird von einer interaktiven Hugging-Face-Demo begleitet.",
+ "title": "UltraTex stellt ein Multi-View-Diffusionsframework für die Synthese von 4K-PBR-Texturen vor",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
