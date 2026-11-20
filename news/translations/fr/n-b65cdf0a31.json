@@ -1,0 +1,11 @@
+{
+ "id": "n-b65cdf0a31",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Échantillonner les composés organiques volatils émis par des objets physiques ou par l'air ambiant à l'aide de matériel de capteurs portables de chromatographie en phase gazeuse et de spectrométrie de masse.\n\nTraiter les données chimiques au moyen de modèles de réseaux de neurones sur graphes afin de faire correspondre les structures moléculaires identifiées aux dimensions de descripteurs olfactifs de la Principal Odor Map.\n\nComparer le profil chimique obtenu à des bibliothèques de matériaux vérifiées pour une classification d'authenticité, ou transmettre des coordonnées à des machines de mélange automatisées pour reproduire un parfum.\n\nContrôler la température, le flux d'air et les odeurs ambiantes de fond pendant la collecte des vapeurs afin d'éviter que des contaminants volatils ne faussent la détection chimique.\n\nValider les prédictions olfactives algorithmiques par rapport aux benchmarks de panels sensoriels et aux contrôles de chromatographie en phase gazeuse, plutôt que d'évaluer les structures moléculaires isolément.",
+ "source_sha256": "99caea150d6e3e57aa8b2f260cb2a4a10f4746858739c19f9a8985747a2307ae",
+ "summary": "Osmo a entraîné des réseaux de neurones sur graphes pour prédire les profils olfactifs à partir de structures chimiques, et a associé ces modèles à des équipements de formulation automatisés. La technologie a également été testée avec StockX pour identifier des sneakers contrefaits en analysant les vapeurs volatiles des adhésifs.",
+ "title": "Osmo développe un système d'olfaction par IA et teste des cas d'usage en authentification",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

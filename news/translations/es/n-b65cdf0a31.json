@@ -1,0 +1,11 @@
+{
+ "id": "n-b65cdf0a31",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Muestrear compuestos orgánicos volátiles de objetos físicos o del aire ambiental mediante hardware de sensores portátil de cromatografía de gases y espectrometría de masas.\n\nProcesar los datos químicos mediante modelos de redes neuronales de grafos para asignar las estructuras moleculares identificadas a las dimensiones de descriptores de aroma en el Principal Odor Map.\n\nComparar el perfil químico resultante con bibliotecas de materiales verificadas para la clasificación de autenticidad, o transmitir coordenadas a maquinaria automatizada de mezcla para la reproducción de aromas.\n\nControlar la temperatura, el flujo de aire y los olores ambientales de fondo durante la captación de vapores para evitar que los contaminantes volátiles distorsionen la detección química.\n\nValidar las predicciones algorítmicas de olor frente a benchmarks de paneles sensoriales y controles de cromatografía de gases, en lugar de evaluar las estructuras moleculares de forma aislada.",
+ "source_sha256": "99caea150d6e3e57aa8b2f260cb2a4a10f4746858739c19f9a8985747a2307ae",
+ "summary": "Osmo entrenó redes neuronales de grafos para predecir perfiles de aroma a partir de estructuras químicas y combinó los modelos con equipos automatizados de formulación. La tecnología también se probó con StockX para identificar zapatillas falsificadas mediante el análisis de vapores volátiles de adhesivos.",
+ "title": "Osmo desarrolla un sistema de olfato basado en IA y prueba casos de uso de autenticación",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
