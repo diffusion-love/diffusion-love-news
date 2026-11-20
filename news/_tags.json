@@ -3023,6 +3023,9 @@
   "YaGS": [
     "n-82f8f06562"
   ],
+  "Yandex AI products": [
+    "n-8c7cda80aa"
+  ],
   "Yedp": [
     "n-501487aec4"
   ],
@@ -9533,6 +9536,7 @@
     "n-8dc4648cdc",
     "n-8d546ea894",
     "n-8cc344a285",
+    "n-8c7cda80aa",
     "n-8c14423e0d",
     "n-8b8615589c",
     "n-8b5f11bc11",
@@ -10868,6 +10872,9 @@
     "n-69431eb7bc",
     "n-57b1c93e50",
     "n-4920069d82"
+  ],
+  "organization:yandex": [
+    "n-8c7cda80aa"
   ],
   "origin": [
     "n-d9748d5e13"
@@ -12601,6 +12608,12 @@
   ],
   "yags": [
     "n-82f8f06562"
+  ],
+  "yandex": [
+    "n-8c7cda80aa"
+  ],
+  "yandex-ai-products": [
+    "n-8c7cda80aa"
   ],
   "yedp": [
     "n-501487aec4"

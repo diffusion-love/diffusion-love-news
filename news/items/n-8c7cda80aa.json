@@ -1,0 +1,109 @@
+{
+ "schema_version": "1.4",
+ "id": "n-8c7cda80aa",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Yandex suspends turnkey data-labeling service on Yandex Tasks for external clients",
+ "summary": "Yandex suspended full-service turnkey data annotation on Yandex Tasks for external commercial clients to redirect resources to internal AI development, while retaining self-service platform access for independent task and worker management.",
+ "research_notes": "Create a commercial customer account on the Yandex Tasks platform to access self-service data labeling tools.\n\nConfigure task templates, annotation guidelines, and acceptance rules directly within the self-service interface without vendor assistance.\n\nAssign tasks to independent freelance crowd workers and manage task validation and compensation directly.\n\nEmbed automated honeypots and consensus-based validation rules in self-managed task templates to replace discontinued vendor quality assurance.\n\nCombine synthetic data pre-labeling with targeted human-in-the-loop validation to minimize reliance on external crowd annotation capacity.",
+ "project": {
+  "name": null,
+  "family_slug": null,
+  "family_display": null,
+  "model_slug": null,
+  "model_display": null,
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": {
+  "slug": "yandex",
+  "display": "Yandex AI products",
+  "homepage": null
+ },
+ "development": {
+  "scope": "organization",
+  "thread_slug": "yandex-ai-products",
+  "thread_display": "Yandex Ai Products",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Yandex AI products",
+  "article_url": "https://happyin.space/organizations/yandex/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/332989e88ac733d5ea0d08c533cd313693efcdf0/docs/organizations/yandex.md",
+  "agent_context_url": "https://happyin.space/organizations/yandex/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "Yandex suspends turnkey data-labeling service on Yandex Tasks for external clients",
+  "version": null,
+  "summary": "Yandex suspended full-service turnkey data annotation on Yandex Tasks for external commercial clients to redirect resources to internal AI development, while retaining self-service platform access for independent task and worker management."
+ },
+ "tags": [
+  "Yandex AI products",
+  "misc",
+  "organization:yandex",
+  "yandex",
+  "yandex-ai-products"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [
+   "yandex"
+  ],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://habr.com/ru/articles/1109730/",
+   "host": "habr.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T11:56:44Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "Yandex suspended full-service turnkey data annotation on Yandex Tasks for external commercial clients to redirect resources to internal AI development, while retaining self-service platform access for independent task and worker management."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T11:56:44Z",
+  "classified_at": "2026-11-20T11:56:44Z",
+  "enriched_at": "2026-11-20T11:56:44Z",
+  "verified_at": "2026-11-20T11:56:44Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
