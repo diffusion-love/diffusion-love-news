@@ -1654,6 +1654,11 @@
   "title": "Ссылка на Hugging Face для линейки моделей GGUF зафиксирована",
   "translated_at": "2026-10-24"
  },
+ "n-4f75d14eb4": {
+  "fresh": true,
+  "title": "NIRJALA представляет 3D Gaussian Splatting для реконструкции подводных сцен без влияния воды",
+  "translated_at": "2026-11-20"
+ },
  "n-4fb87f050c": {
   "fresh": true,
   "title": "Ресурсы Wan-Animate-2 зафиксированы в каналах проекта, модели и ComfyUI",
@@ -4773,6 +4778,11 @@
   "fresh": true,
   "title": "OpenReview: ИИ-бот для ревью кода от Vercel Labs",
   "translated_at": "2026-10-24"
+ },
+ "n-f08df9a83a": {
+  "fresh": true,
+  "title": "NIRJALA: фреймворк ограничивает усиление инверсии в подводном Gaussian Splatting",
+  "translated_at": "2026-11-20"
  },
  "n-f09f1875bc": {
   "fresh": true,

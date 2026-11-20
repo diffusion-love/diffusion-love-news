@@ -1,0 +1,11 @@
+{
+ "id": "n-f08df9a83a",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "标定多视角水下相机图像，并通过运动恢复结构（structure-from-motion）估计相机位姿。\n\n初始化 3D Gaussians，并使用 TRIVENI 三路径成像模型，与神经透射参数一同拟合 10 参数全局物理水介质模型。\n\n利用 SAMARASA 物理信息目标函数优化几何与外观，施加分距离区间（range-binned）颜色先验，以平衡不同距离上的通道衰减。\n\n在估计出的水介质被反演后实时渲染新视角，生成无介质影像。\n\n以 PRATIBIMBA 双向物理锚点约束神经水场估计，防止场景几何吸收介质参数。\n\n在优化过程中采用分距离区间颜色平衡，以应对不同深度区间上的差异性波长衰减。",
+ "source_sha256": "721a0d4fd5161b47a4ed8d4c4edcfb6584517bd17441a0f84dfaff6a23c2cc8d",
+ "summary": "NIRJALA 提出三路径成像模型 TRIVENI，以在不同距离上保持反演增益有界，并结合 PRATIBIMBA 可逆物理锚点、SAMARASA 物理信息目标函数以及一个包含 30 个场景的路径追踪合成基准。",
+ "title": "NIRJALA 框架在水下 Gaussian Splatting 中限制反演增益",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-f08df9a83a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Multi-View-Unterwasserkamerabilder kalibrieren und Kameraposen per Structure-from-Motion schätzen.\n\n3D-Gaussians initialisieren und das globale physikalische Wassermodell mit 10 Parametern zusammen mit neuronalen Transmissionsparametern anpassen, unter Verwendung des dreipfadigen Bildentstehungsmodells TRIVENI.\n\nGeometrie und Erscheinungsbild mit SAMARASA-Zielfunktionen optimieren und dabei distanzklassierte Farb-Priors erzwingen, um die Kanalabschwächung über verschiedene Entfernungen hinweg auszugleichen.\n\nNeue Ansichten in Echtzeit rendern, wobei das geschätzte Wassermedium invertiert wird, um medienfreie Bilder zu erzeugen.\n\nDas neuronale Wasserfeld mit dem bidirektionalen physikalischen Anker PRATIBIMBA einschränken, damit die Szenengeometrie keine Mediumparameter absorbiert.\n\nWährend der Optimierung distanzklassiertes Farbausgleichen einsetzen, um die wellenlängenabhängige differenzielle Abschwächung über Tiefenintervalle hinweg zu berücksichtigen.",
+ "source_sha256": "721a0d4fd5161b47a4ed8d4c4edcfb6584517bd17441a0f84dfaff6a23c2cc8d",
+ "summary": "NIRJALA führt ein dreipfadiges Bildentstehungsmodell (TRIVENI) ein, das die Inversionsverstärkung über verschiedene Distanzen hinweg beschränkt. Es kombiniert den reversiblen physikalischen Anker PRATIBIMBA, physikinformierte SAMARASA-Zielfunktionen und ein synthetisches Benchmark mit 30 pfadverfolgten Szenen.",
+ "title": "NIRJALA-Framework begrenzt die Inversionsverstärkung in Underwater Gaussian Splatting",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-f08df9a83a",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Calibrar imágenes de cámara submarina de múltiples vistas y estimar las poses de cámara mediante structure-from-motion.\n\nInicializar Gaussianas 3D y ajustar el modelo global de agua físico de 10 parámetros junto con los parámetros neuronales de transmisión, utilizando el modelo de formación de tres vías TRIVENI.\n\nOptimizar la geometría y la apariencia con los objetivos SAMARASA, imponiendo priores de color agrupados por rangos de distancia para equilibrar la atenuación de canales a través de las distancias.\n\nRenderizar vistas novedosas en tiempo real con el medio de agua estimado invertido para producir imágenes libres de medio.\n\nRestringir la estimación del campo neuronal de agua con el anclaje físico bidireccional PRATIBIMBA para evitar que la geometría de la escena absorba los parámetros del medio.\n\nEmplear el equilibrado de color por rangos de distancia durante la optimización para abordar la atenuación diferencial por longitud de onda a través de los intervalos de profundidad.",
+ "source_sha256": "721a0d4fd5161b47a4ed8d4c4edcfb6584517bd17441a0f84dfaff6a23c2cc8d",
+ "summary": "NIRJALA introduce un modelo de formación de imagen de tres vías (TRIVENI) para mantener acotada la ganancia de inversión a través de las distancias, combinando el anclaje físico reversible PRATIBIMBA, los objetivos SAMARASA informados por la física y un benchmark sintético de 30 escenas trazadas por camino (path-traced).",
+ "title": "NIRJALA acota la ganancia de inversión en Gaussian Splatting submarino",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

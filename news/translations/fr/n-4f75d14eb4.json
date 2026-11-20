@@ -1,0 +1,11 @@
+{
+ "id": "n-4f75d14eb4",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Calibrer des images multi-vues de caméras sous-marines et estimer les poses de caméra par structure-from-motion.\n\nInitialiser des Gaussiennes 3D et ajuster le modèle physique global de l'eau à 10 paramètres en même temps que les paramètres neuronaux de transmission, à l'aide du modèle de formation d'image à trois trajets TRIVENI.\n\nOptimiser la géométrie et l'apparence avec les objectifs SAMARASA, en imposant des a priori de couleur par intervalles de distance afin d'équilibrer l'atténuation des canaux selon les distances.\n\nRendre des vues novatrices en temps réel, le milieu aquatique estimé étant inversé pour produire des images sans milieu.\n\nContraindre l'estimation du champ neuronal de l'eau à l'aide de l'ancrage physique bidirectionnel PRATIBIMBA, afin d'empêcher la géométrie de la scène d'absorber les paramètres du milieu.\n\nAppliquer un équilibrage des couleurs par intervalles de distance pendant l'optimisation, afin de traiter l'atténuation différentielle des longueurs d'onde selon les intervalles de profondeur.",
+ "source_sha256": "12411611443c65a4f6a8795c97e538d8c5b552223ac3b85cac24aa1eec55f3c8",
+ "summary": "NIRJALA associe un modèle de formation d'image à trois trajets à la diffusion vers l'avant et à des a priori physiques pour reconstruire conjointement l'apparence et la géométrie d'une scène sous-marine nettoyée, à 44 FPS.",
+ "title": "NIRJALA introduit le Gaussian Splatting 3D pour la reconstruction sous-marine sans eau",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

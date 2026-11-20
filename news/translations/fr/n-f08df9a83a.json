@@ -1,0 +1,11 @@
+{
+ "id": "n-f08df9a83a",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Calibrer les images de caméras sous-marines multi-vues et estimer les poses des caméras via structure-from-motion.\n\nInitialiser les Gaussiennes 3D et ajuster le modèle physique global de l'eau à 10 paramètres, conjointement aux paramètres neuronaux de transmission, à l'aide du modèle de formation d'image à trois voies TRIVENI.\n\nOptimiser la géométrie et l'apparence avec les objectifs SAMARASA, en imposant des a priori de couleur par intervalles de distance afin d'équilibrer l'atténuation des canaux selon les distances.\n\nRendre des vues nouvelles en temps réel, en inversant le milieu aquatique estimé pour produire des images sans milieu.\n\nContraindre l'estimation du champ neuronal de l'eau avec l'ancrage physique bidirectionnel PRATIBIMBA, afin d'empêcher la géométrie de la scène d'absorber les paramètres du milieu.\n\nAppliquer un équilibrage des couleurs par intervalles de distance pendant l'optimisation, afin de traiter l'atténuation différentielle des longueurs d'onde selon les intervalles de profondeur.",
+ "source_sha256": "721a0d4fd5161b47a4ed8d4c4edcfb6584517bd17441a0f84dfaff6a23c2cc8d",
+ "summary": "NIRJALA introduit un modèle de formation d'image à trois voies (TRIVENI) pour maintenir le gain d'inversion borné selon les distances, en combinant l'ancrage physique réversible PRATIBIMBA, les objectifs SAMARASA informés par la physique, et un benchmark synthétique de 30 scènes obtenu par tracé de chemins.",
+ "title": "NIRJALA : un cadre qui borne le gain d'inversion dans le Gaussian Splatting sous-marin",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
