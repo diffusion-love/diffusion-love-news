@@ -1,0 +1,114 @@
+{
+ "schema_version": "1.4",
+ "id": "n-00765ae6ae",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "AADD open-source speech degradation detector released",
+ "summary": "AADD releases an open-source speech quality classifier detecting 12 degradation types every 20 ms across English and Russian audio, offering Whisper-small and 1.3M-parameter v3-lite checkpoints.",
+ "research_notes": "Clone the repository and install project dependencies to set up the local evaluation environment.\n\nDownload the pre-trained Whisper-small base or v3-lite detector weights from the official Hugging Face collection.\n\nPass English or Russian speech audio files into the sliding window inference pipeline to generate per-frame multilabel degradation predictions at 20 ms resolution.\n\nFilter or segment speech datasets using category-specific sigmoid thresholds prior to ASR or TTS model training.\n\nUse the Whisper-small 88M parameter model when classification accuracy on nuanced degradations is priority, and reserve the 1.3M v3-lite model for high-throughput or resource-constrained filtering pipelines.\n\nApply independent probability thresholding per degradation category rather than relying on an aggregate score, since multiple flaws occur simultaneously on the same audio segment.\n\nRestrict input speech evaluation to English and Russian or validate domain performance before deploying on unsupported languages.",
+ "project": {
+  "name": "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+  "family_slug": "aadd-audio-degradation-detector",
+  "family_display": "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+  "model_slug": "aadd-audio-degradation-detector",
+  "model_display": "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "aadd-audio-degradation-detector-release",
+  "thread_display": "Aadd Audio Degradation Detector Release",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+  "article_url": "https://happyin.space/projects/aadd-audio-degradation-detector/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/29f98d851f1d3d4e679ad54751a11f13e29726f3/docs/projects/aadd-audio-degradation-detector.md",
+  "agent_context_url": "https://happyin.space/projects/aadd-audio-degradation-detector/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "AADD open-source speech degradation detector released",
+  "version": null,
+  "summary": "AADD releases an open-source speech quality classifier detecting 12 degradation types every 20 ms across English and Russian audio, offering Whisper-small and 1.3M-parameter v3-lite checkpoints."
+ },
+ "tags": [
+  "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+  "aadd-audio-degradation-detector",
+  "aadd-audio-degradation-detector-release",
+  "family:aadd-audio-degradation-detector",
+  "misc"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "aadd-audio-degradation-detector"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "code",
+   "url": "https://github.com/gertelrina/aadd",
+   "host": "github.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T09:35:44Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://hf.co/collections/gertelrina/automatic-audio-degradation-detection",
+   "host": "hf.co",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T09:35:44Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "AADD releases an open-source speech quality classifier detecting 12 degradation types every 20 ms across English and Russian audio, offering Whisper-small and 1.3M-parameter v3-lite checkpoints."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T09:35:44Z",
+  "classified_at": "2026-11-20T09:35:44Z",
+  "enriched_at": "2026-11-20T09:35:44Z",
+  "verified_at": "2026-11-20T09:35:44Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

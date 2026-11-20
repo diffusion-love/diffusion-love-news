@@ -535,6 +535,127 @@
     ],
     "claims": []
   },
+  "aadd-audio-degradation-detector": {
+    "family_slug": "aadd-audio-degradation-detector",
+    "family_display": "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+    "family_display_variants": [
+      {
+        "family_display": "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-00765ae6ae"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-00765ae6ae"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-00765ae6ae",
+        "title": "AADD open-source speech degradation detector released",
+        "primary_link": "https://github.com/gertelrina/aadd"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/gertelrina/aadd",
+        "is_primary": true,
+        "verified_at": "2026-11-20T09:35:44Z",
+        "news_ids": [
+          "n-00765ae6ae"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "hf.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://hf.co/collections/gertelrina/automatic-audio-degradation-detection",
+        "is_primary": false,
+        "verified_at": "2026-11-20T09:35:44Z",
+        "news_ids": [
+          "n-00765ae6ae"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "AADD open-source speech degradation detector released",
+        "summary": "AADD releases an open-source speech quality classifier detecting 12 degradation types every 20 ms across English and Russian audio, offering Whisper-small and 1.3M-parameter v3-lite checkpoints.",
+        "version": null,
+        "news_id": "n-00765ae6ae",
+        "primary_link": "https://github.com/gertelrina/aadd"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-00765ae6ae",
+        "date": "2026-11-19",
+        "title": "AADD open-source speech degradation detector released",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "aadd-audio-degradation-detector",
+        "version": null,
+        "tags": [
+          "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+          "aadd-audio-degradation-detector",
+          "aadd-audio-degradation-detector-release",
+          "family:aadd-audio-degradation-detector",
+          "misc"
+        ],
+        "primary_link": "https://github.com/gertelrina/aadd",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "aadd-audio-degradation-detector-release",
+        "display": "Aadd Audio Degradation Detector Release",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-00765ae6ae",
+        "news_ids": [
+          "n-00765ae6ae"
+        ]
+      }
+    ]
+  },
   "abot-earth-0-5": {
     "family_slug": "abot-earth-0-5",
     "family_display": "ABot Earth 0.5",

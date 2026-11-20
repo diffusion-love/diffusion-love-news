@@ -227,6 +227,25 @@
     "has_video": false
   },
   {
+    "id": "n-00765ae6ae",
+    "date": "2026-11-19",
+    "title": "AADD open-source speech degradation detector released",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "aadd-audio-degradation-detector",
+    "version": null,
+    "tags": [
+      "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+      "aadd-audio-degradation-detector",
+      "aadd-audio-degradation-detector-release",
+      "family:aadd-audio-degradation-detector",
+      "misc"
+    ],
+    "primary_link": "https://github.com/gertelrina/aadd",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-f686305d6a",
     "date": "2026-11-18",
     "title": "Q.ANT demonstrates hybrid LLM inference with photonic NPU at SC26",

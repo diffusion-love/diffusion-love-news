@@ -73,6 +73,9 @@
   "4danyone": [
     "n-0778115bb1"
   ],
+  "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release": [
+    "n-00765ae6ae"
+  ],
   "ABot-Earth 0.5": [
     "n-ad9c9181f8"
   ],
@@ -3034,6 +3037,12 @@
   "Zeta-Chroma": [
     "n-b977739627"
   ],
+  "aadd-audio-degradation-detector": [
+    "n-00765ae6ae"
+  ],
+  "aadd-audio-degradation-detector-release": [
+    "n-00765ae6ae"
+  ],
   "abot-earth": [
     "n-ad9c9181f8"
   ],
@@ -4605,6 +4614,9 @@
   ],
   "family:4danyone": [
     "n-0778115bb1"
+  ],
+  "family:aadd-audio-degradation-detector": [
+    "n-00765ae6ae"
   ],
   "family:abot-earth-0-5": [
     "n-ad9c9181f8"
@@ -9831,6 +9843,7 @@
     "n-02cbd28ee8",
     "n-00c9c3996b",
     "n-00b6dfd5f9",
+    "n-00765ae6ae",
     "n-006a78034f",
     "n-000fcd918f"
   ],
