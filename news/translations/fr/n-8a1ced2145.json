@@ -1,0 +1,11 @@
+{
+ "id": "n-8a1ced2145",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Accédez à l'interface de prévisualisation de Project Genie dans un navigateur compatible, à l'aide d'un compte Google AI Ultra autorisé, ou obtenez des identifiants développeur en accès anticipé pour l'API Gemini dans Google AI Studio.\n\nFournissez une invite de monde initiale, composée soit d'une description textuelle de scénario, soit d'une image de référence en entrée, pour initialiser l'environnement 3D.\n\nParcourez l'environnement généré en temps réel à 720p, jusqu'à 24 images par seconde, à l'aide des commandes directionnelles du clavier, de la souris ou de la manette de jeu.\n\nEnvoyez en cours de session des commandes de pilotage en langage naturel, écrites ou vocales, pour modifier à la volée les conditions environnementales, les objets ou la dynamique de la scène.\n\nLimitez les sessions de simulation interactive à de courtes durées, d'une à deux minutes, afin d'éviter la dérive environnementale cumulative et de préserver la cohérence visuelle.\n\nÉvitez les rotations rapides de la caméra à 360 degrés pour réduire la perte de permanence des objets et les hallucinations de l'arrière-plan de la scène.\n\nPrivilégiez la navigation en vue à la première personne lors de l'exploration des espaces générés, car les vues larges à la troisième personne présentent une plus forte distorsion d'échelle et physique.",
+ "source_sha256": "eb2bda9ba7f19c54809e511389443c2dc9b5f0cf9f561dcf9390afa6dfc3bf59",
+ "summary": "Google DeepMind a publié Genie 4 en prévisualisation pour les abonnés Google AI Ultra et les partenaires API en accès anticipé, permettant la génération de simulations 720p pilotables en temps réel, jusqu'à 24 images par seconde, avec un son natif synchronisé.",
+ "title": "Google DeepMind rend disponible en prévisualisation son modèle de monde interactif Genie 4",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

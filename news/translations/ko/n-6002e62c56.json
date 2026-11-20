@@ -1,0 +1,11 @@
+{
+ "id": "n-6002e62c56",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "공식 저장소를 클론하거나 vLLM, Transformers 같은 지원되는 추론 런타임을 설치하십시오.\n\n원하는 변형에 맞는 모델 가중치를 Hugging Face에서 내려받으십시오. 범용 지시 따르기에는 tencent/Hy4-flash를, 메모리 효율적인 배포에는 tencent/Hy4-flash-FP8을 사용할 수 있습니다.\n\n소비자용 다중 GPU 또는 메모리 용량이 큰 로컬 시스템에서는 AngelSlim/Hy4-flash-GGUF에서 양자화된 GGUF 가중치를 내려받아 호환되는 llama.cpp 또는 텍스트 생성 로더로 실행하십시오.\n\nVRAM 사용량을 관리하면서 처리량을 초당 150 토큰 이상으로 끌어올리려면 FP8 양자화 체크포인트를 배포하거나 DFly 드래프트 헤드를 이용한 추측 디코딩(speculative decoding)을 활성화하십시오.\n\n1M 컨텍스트 윈도우를 로드할 때는 충분한 GPU 메모리를 할당하십시오. 하이브리드 어텐션 덕분에 KV 캐시 크기가 Hy4 대비 1/6로 최적화되어 있다는 점도 참고하십시오.\n\n로컬 워크스테이션에서 IQ2 양자화 형식을 사용할 경우, 오프로드 중 메모리 부족 오류를 방지하려면 GPU 전체에 걸쳐 최소 126 GB의 VRAM을 확보하십시오.",
+ "source_sha256": "597795c77f80b54ad24d76cafc0985409fddc7d644825cba0e231e18f48fc8a8",
+ "summary": "Hy4 Flash 베이스, 인스트럭트 및 FP8 변형의 오픈 가중치와 배포 스크립트가 Tencent Hy License에 따라 Hugging Face와 GitHub에 공개되었습니다.",
+ "title": "Hy4 Flash 코드와 가중치, Hugging Face 및 GitHub에 공개",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

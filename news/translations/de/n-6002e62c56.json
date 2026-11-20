@@ -1,0 +1,11 @@
+{
+ "id": "n-6002e62c56",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das offizielle Repository oder installieren Sie unterstützte Inferenz-Laufzeiten wie vLLM und Transformers.\n\nLaden Sie die Modellgewichte für die gewünschte Variante von Hugging Face herunter, etwa tencent/Hy4-flash für allgemeines Befolgen von Anweisungen oder tencent/Hy4-flash-FP8 für speichereffiziente Bereitstellung.\n\nFür Consumer-Systeme mit mehreren GPUs oder lokale Systeme mit viel Arbeitsspeicher laden Sie quantisierte GGUF-Gewichte von AngelSlim/Hy4-flash-GGUF herunter und führen sie über kompatible llama.cpp- oder Text-Generation-Loader aus.\n\nStellen Sie den FP8-quantisierten Checkpoint bereit oder aktivieren Sie spekulatives Decoding mit dem DFly-Draft-Head, um den Durchsatz über 150 Tokens pro Sekunde zu maximieren und gleichzeitig den VRAM-Verbrauch im Griff zu behalten.\n\nAchten Sie beim Laden des 1M-Kontextfensters auf ausreichende GPU-Speicherzuweisungen; die KV-Cache-Größe ist durch hybride Aufmerksamkeit auf 1/6 von Hy4 optimiert.\n\nFür lokale Workstations sollten Sie bei Verwendung des IQ2-Quantisierungsformats mindestens 126 GB VRAM über alle GPUs hinweg bereitstellen, um Out-of-Memory-Fehler beim Offloading zu vermeiden.",
+ "source_sha256": "597795c77f80b54ad24d76cafc0985409fddc7d644825cba0e231e18f48fc8a8",
+ "summary": "Offene Gewichte und Bereitstellungsskripte für die Hy4-Flash-Varianten Base, Instruct und FP8 wurden auf Hugging Face und GitHub unter der Tencent-Hy-Lizenz veröffentlicht.",
+ "title": "Hy4 Flash: Code und Gewichte auf Hugging Face und GitHub veröffentlicht",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-8c7cda80aa",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Créez un compte client commercial sur la plateforme Yandex Tasks pour accéder aux outils d'étiquetage de données en libre-service.\n\nConfigurez les modèles de tâches, les consignes d'annotation et les règles d'acceptation directement dans l'interface en libre-service, sans assistance du fournisseur.\n\nAssignez des tâches à des travailleurs indépendants du crowdsourcing et gérez directement la validation des tâches et la rémunération.\n\nIntégrez des pièges automatisés (honeypots) et des règles de validation fondées sur le consensus dans des modèles de tâches gérés en interne, afin de remplacer l'assurance qualité du fournisseur, désormais arrêtée.\n\nCombinez le pré-étiquetage de données synthétiques avec une validation humaine ciblée (human-in-the-loop) afin de réduire au minimum le recours à une capacité externe d'annotation par crowd.",
+ "source_sha256": "30e484003a521e935abe2f0c482153b177d19f9f790951fa7caeff1ecda5d9d5",
+ "summary": "Yandex a suspendu le service d'annotation de données clés en main sur Yandex Tasks pour les clients commerciaux externes, afin de réorienter ses ressources vers le développement interne de l'IA, tout en conservant l'accès en libre-service à la plateforme pour la gestion autonome des tâches et des travailleurs.",
+ "title": "Yandex suspend son service d'étiquetage de données clés en main sur Yandex Tasks pour les clients externes",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

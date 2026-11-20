@@ -1,0 +1,11 @@
+{
+ "id": "n-cb0846b088",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt officiel ou installez des runtimes d'inférence pris en charge, tels que vLLM et Transformers.\n\nTéléchargez les poids du modèle depuis Hugging Face pour la variante souhaitée, par exemple tencent/Hy4-flash pour le suivi d'instructions généraliste ou tencent/Hy4-flash-FP8 pour un déploiement économe en mémoire.\n\nPour les systèmes locaux grand public multi-GPU ou à forte capacité mémoire, téléchargez les poids GGUF quantifiés depuis AngelSlim/Hy4-flash-GGUF et exécutez-les via llama.cpp ou des chargeurs de génération de texte compatibles.\n\nDéployez le checkpoint quantifié en FP8 ou activez le décodage spéculatif avec la tête de brouillon DFly pour maximiser le débit au-delà de 150 tokens par seconde tout en maîtrisant la consommation de VRAM.\n\nAssurez-vous de disposer d'allocations de mémoire GPU suffisantes lors du chargement de la fenêtre de contexte de 1M, en notant que la taille du cache KV est optimisée à 1/6 de celle de Hy4 grâce à l'attention hybride.\n\nPour les stations de travail locales, allouez au moins 126 Go de VRAM agrégée sur l'ensemble des GPU lorsque vous utilisez le format de quantification IQ2 afin d'éviter les erreurs de mémoire insuffisante pendant le déchargement.",
+ "source_sha256": "0bd19d3a12f3463d828608be4cee05692b53e45ec9570181991b5fb0bdaec43f",
+ "summary": "Tencent a publié les poids du modèle Hy4 Flash, prenant en charge la compréhension de documents multimodaux, le raisonnement sur contexte long et les tâches d'agents à usage de l'ordinateur, avec une surcharge réduite du cache KV.",
+ "title": "Hy4 Flash publié pour des workflows d'agents à haut débit",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

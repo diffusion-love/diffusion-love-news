@@ -1009,6 +1009,11 @@
   "title": "GigaChat 3.5 Reasoning 开源权重与混合 MLA 架构发布",
   "translated_at": "2026-11-18"
  },
+ "n-2f21e893b0": {
+  "fresh": true,
+  "title": "Hy4 Flash 开放权重及社区 GGUF 量化版本发布",
+  "translated_at": "2026-11-20"
+ },
  "n-2f8c6f34f0": {
   "fresh": true,
   "title": "ClawEnvKit：面向 AI 智能体的自动环境生成",
@@ -1949,6 +1954,11 @@
   "title": "TensorForger 发布 Flow Upscaler 的 ComfyUI 相关资源链接",
   "translated_at": "2026-10-24"
  },
+ "n-6002e62c56": {
+  "fresh": true,
+  "title": "Hy4 Flash 代码与权重已在 Hugging Face 和 GitHub 发布",
+  "translated_at": "2026-11-20"
+ },
  "n-60ec620b9e": {
   "fresh": true,
   "title": "OpenResearcher项目、模型检查点与演示已公开发布",
@@ -2744,6 +2754,11 @@
   "title": "批量研究资料导入：通过 Gemini 3 Flash CLI 处理 21 篇文章",
   "translated_at": "2026-10-24"
  },
+ "n-8a1ced2145": {
+  "fresh": true,
+  "title": "Google DeepMind 推出交互式世界模型 Genie 4 预览版",
+  "translated_at": "2026-11-20"
+ },
  "n-8a4dfeeb5d": {
   "fresh": true,
   "title": "HyperAgents 公开代码仓库被引用",
@@ -2783,6 +2798,11 @@
   "fresh": true,
   "title": "ComfyUI-DaVinci-MagiHuman 的公开引用",
   "translated_at": "2026-10-24"
+ },
+ "n-8c7cda80aa": {
+  "fresh": true,
+  "title": "Yandex 暂停面向外部客户的 Yandex Tasks 交钥匙数据标注服务",
+  "translated_at": "2026-11-20"
  },
  "n-8c91402db3": {
   "fresh": true,
@@ -2918,6 +2938,11 @@
   "fresh": true,
   "title": "RelayVSR 视频超分辨率框架发布",
   "translated_at": "2026-11-18"
+ },
+ "n-95be0b3b16": {
+  "fresh": true,
+  "title": "Pangram将获奖的秘鲁小说判定为AI生成，出版社坚持维护该奖项",
+  "translated_at": "2026-11-20"
  },
  "n-95cbbfe193": {
   "fresh": true,
@@ -3859,6 +3884,11 @@
   "title": "Audex 模型仓库现已可被公开检索",
   "translated_at": "2026-10-24"
  },
+ "n-c607593781": {
+  "fresh": true,
+  "title": "腾讯发布开放权重的 Hy4 Flash MoE 模型",
+  "translated_at": "2026-11-20"
+ },
  "n-c660c4f559": {
   "fresh": true,
   "title": "CDM：连续时间分布匹配扩散蒸馏",
@@ -3943,6 +3973,11 @@
   "fresh": true,
   "title": "Google 宣布推出 Veo 3.1 Lite 预览版",
   "translated_at": "2026-10-24"
+ },
+ "n-cb0846b088": {
+  "fresh": true,
+  "title": "Hy4 Flash 发布，面向高吞吐智能体工作流",
+  "translated_at": "2026-11-20"
  },
  "n-cb62ae01fa": {
   "fresh": true,

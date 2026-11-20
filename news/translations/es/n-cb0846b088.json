@@ -1,0 +1,11 @@
+{
+ "id": "n-cb0846b088",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona el repositorio oficial o instala los entornos de inferencia compatibles, como vLLM y Transformers.\n\nDescarga los pesos del modelo desde Hugging Face para la variante deseada, como tencent/Hy4-flash para el seguimiento general de instrucciones o tencent/Hy4-flash-FP8 para un despliegue eficiente en memoria.\n\nPara sistemas locales de consumo con varias GPU o con mucha memoria, descarga los pesos cuantizados en GGUF desde AngelSlim/Hy4-flash-GGUF y ejecútalos mediante llama.cpp u otros cargadores de texto compatibles.\n\nDespliega el checkpoint cuantizado en FP8 o activa la decodificación especulativa con el cabezal de borrador DFly para maximizar el rendimiento por encima de 150 tokens por segundo, controlando al mismo tiempo el consumo de VRAM.\n\nAsegúrate de disponer de suficiente memoria de GPU asignada al cargar la ventana de contexto de 1M, teniendo en cuenta que el tamaño de la caché KV se optimiza a 1/6 de la de Hy4 gracias a la atención híbrida.\n\nEn estaciones de trabajo locales, asigna al menos 126 GB de VRAM agregada entre las GPU cuando utilices el formato de cuantización IQ2, para evitar errores de memoria insuficiente durante la descarga (offload).",
+ "source_sha256": "0bd19d3a12f3463d828608be4cee05692b53e45ec9570181991b5fb0bdaec43f",
+ "summary": "Tencent ha publicado los pesos del modelo Hy4 Flash, con soporte para la comprensión multimodal de documentos, el razonamiento con contexto largo y tareas de agentes que usan el ordenador, con una menor sobrecarga de caché KV.",
+ "title": "Hy4 Flash publicado para flujos de trabajo de agentes de alto rendimiento",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -1014,6 +1014,11 @@
   "title": "GigaChat 3.5 Reasoning : publication des poids ouverts et de l'architecture hybride MLA",
   "translated_at": "2026-11-18"
  },
+ "n-2f21e893b0": {
+  "fresh": true,
+  "title": "Publication des poids ouverts de Hy4 Flash et des quantifications GGUF communautaires",
+  "translated_at": "2026-11-20"
+ },
  "n-2f8c6f34f0": {
   "fresh": true,
   "title": "ClawEnvKit : génération automatique d'environnements pour agents IA",
@@ -1954,6 +1959,11 @@
   "title": "TensorForger a relié les ressources de Flow Upscaler pour ComfyUI",
   "translated_at": "2026-10-24"
  },
+ "n-6002e62c56": {
+  "fresh": true,
+  "title": "Code et poids de Hy4 Flash publiés sur Hugging Face et GitHub",
+  "translated_at": "2026-11-20"
+ },
  "n-60ec620b9e": {
   "fresh": true,
   "title": "Le projet OpenResearcher, son checkpoint de modèle et sa démo sont désormais disponibles",
@@ -2749,6 +2759,11 @@
   "title": "Ingestion par lots de recherche : 21 articles via la CLI Gemini 3 Flash",
   "translated_at": "2026-10-24"
  },
+ "n-8a1ced2145": {
+  "fresh": true,
+  "title": "Google DeepMind rend disponible en prévisualisation son modèle de monde interactif Genie 4",
+  "translated_at": "2026-11-20"
+ },
  "n-8a4dfeeb5d": {
   "fresh": true,
   "title": "Dépôt public de HyperAgents référencé",
@@ -2788,6 +2803,11 @@
   "fresh": true,
   "title": "Référence publique à ComfyUI-DaVinci-MagiHuman",
   "translated_at": "2026-10-24"
+ },
+ "n-8c7cda80aa": {
+  "fresh": true,
+  "title": "Yandex suspend son service d'étiquetage de données clés en main sur Yandex Tasks pour les clients externes",
+  "translated_at": "2026-11-20"
  },
  "n-8c91402db3": {
   "fresh": true,
@@ -2923,6 +2943,11 @@
   "fresh": true,
   "title": "Publication du cadre de super-résolution vidéo RelayVSR",
   "translated_at": "2026-11-18"
+ },
+ "n-95be0b3b16": {
+  "fresh": true,
+  "title": "Pangram classe un roman péruvien primé comme généré par IA, tandis que l'éditeur maintient le prix",
+  "translated_at": "2026-11-20"
  },
  "n-95cbbfe193": {
   "fresh": true,
@@ -3948,6 +3973,11 @@
   "fresh": true,
   "title": "Google a annoncé la version préliminaire de Veo 3.1 Lite",
   "translated_at": "2026-10-24"
+ },
+ "n-cb0846b088": {
+  "fresh": true,
+  "title": "Hy4 Flash publié pour des workflows d'agents à haut débit",
+  "translated_at": "2026-11-20"
  },
  "n-cb62ae01fa": {
   "fresh": true,

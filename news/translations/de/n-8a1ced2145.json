@@ -1,0 +1,11 @@
+{
+ "id": "n-8a1ced2145",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Greifen Sie in einem unterstützten Browser mit einem berechtigten Google-AI-Ultra-Konto auf die Vorschau-Oberfläche von Project Genie zu, oder erhalten Sie Early-Access-Zugangsdaten für die Gemini API in Google AI Studio.\n\nGeben Sie einen initialen Welt-Prompt ein, bestehend aus einer beschreibenden Textszenario oder einem Eingabe-Referenzbild, um die 3D-Umgebung zu initialisieren.\n\nNavigieren Sie in Echtzeit mit bis zu 24 Bildern pro Sekunde bei 720p durch die generierte Umgebung, mithilfe von Tastatur, Maus oder Gamepad-Richtungssteuerung.\n\nGeben Sie während der Sitzung natürlichsprachliche Text- oder Sprachbefehle ein, um Umgebungsbedingungen, Objekte oder Szenendynamiken spontan zu verändern.\n\nBeschränken Sie interaktive Simulationssitzungen auf kurze Dauern von einer bis zwei Minuten, um kumulativen Umgebungsdrift zu verhindern und die visuelle Kohärenz zu erhalten.\n\nVermeiden Sie schnelle 360-Grad-Kameradrehungen, um den Verlust der Objektpermanenz und Halluzinationen im Szenenhintergrund zu minimieren.\n\nNutzen Sie bei der Erkundung generierter Räume die Ego-Perspektive, da weite Third-Person-Ansichten eine stärkere Skalierungs- und physikalische Verzerrung aufweisen.",
+ "source_sha256": "eb2bda9ba7f19c54809e511389443c2dc9b5f0cf9f561dcf9390afa6dfc3bf59",
+ "summary": "Google DeepMind hat Genie 4 als Vorschau für Google-AI-Ultra-Abonnenten und Early-Access-API-Partner veröffentlicht. Das Modell ermöglicht steuerbare Simulationsgenerierung in Echtzeit mit 720p und bis zu 24 Bildern pro Sekunde sowie nativ synchronisiertem Audio.",
+ "title": "Google DeepMind macht das interaktive Weltmodell Genie 4 in der Vorschau verfügbar",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

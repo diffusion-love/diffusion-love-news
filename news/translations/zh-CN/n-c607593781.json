@@ -1,0 +1,11 @@
+{
+ "id": "n-c607593781",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "克隆官方代码仓库，或安装受支持的推理运行时，例如 vLLM 和 Transformers。\n\n从 Hugging Face 下载所需变体的模型权重，例如用于通用指令跟随的 tencent/Hy4-flash，或用于节省显存部署的 tencent/Hy4-flash-FP8。\n\n对于消费级多 GPU 或大内存本地系统，可下载 AngelSlim/Hy4-flash-GGUF 的量化 GGUF 权重，并通过兼容的 llama.cpp 或文本生成加载器运行。\n\n部署 FP8 量化检查点，或启用带 DFly 草稿头的投机解码，以在管理 VRAM 占用的同时将吞吐量提升至每秒 150 个 token 以上。\n\n加载 1M 上下文窗口时，需确保有足够的 GPU 显存分配。注意，通过混合注意力机制，KV cache 的大小已优化至 Hy4 的 1/6。\n\n在本地工作站上使用 IQ2 量化格式时，应为多块 GPU 分配至少 126 GB 的总 VRAM，以避免卸载过程中出现显存不足错误。",
+ "source_sha256": "aae131827e272fb95fe1053fbb785678f055e1510bfce46582d643dfe223fa14",
+ "summary": "腾讯发布了 Hy4 Flash 的开放权重。这是一个 224B 参数的多模态混合专家（MoE）模型，每个 token 激活 12B 参数，具有 1M 上下文窗口，并支持 FP8 检查点格式。",
+ "title": "腾讯发布开放权重的 Hy4 Flash MoE 模型",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

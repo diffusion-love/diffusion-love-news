@@ -1,0 +1,11 @@
+{
+ "id": "n-95be0b3b16",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "将文本片段或完整手稿提交至检测器界面，即可生成各文档片段的统计概率分数。\n\n切勿仅凭自动检测器的概率分数作为取消资格的唯一依据；应将检测结果与作者草稿、访谈记录和编辑审阅相互印证。\n\n需考虑地方方言、口述历史以及非标准的叙事节奏，这些因素常常会导致统计分类器出现较高的误报率。",
+ "source_sha256": "dcd573b491c550e73482515d2eccd4bed3b86c293d623772ba3ba59da5663782",
+ "summary": "AI文本检测工具Pangram将大卫·西尔瓦·罗哈斯（David Silva Rojas）获奖小说《Donde el agua trabaja》标记为99%由机器生成，但出版社Almadía在内部文档审查后确认了该手稿的真实性。",
+ "title": "Pangram将获奖的秘鲁小说判定为AI生成，出版社坚持维护该奖项",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -962,6 +962,11 @@
   "summary": "Sber 在 Hugging Face 上发布了 GigaChat3.5-432B-A28B-Reasoning 的开源权重。该模型是一个 432B 参数的混合专家模型，每次激活 28B 参数，交替使用 Multi-head Latent Attention 与 GatedDeltaNet 层，上下文窗口为 262K。",
   "title": "GigaChat 3.5 Reasoning 开源权重与混合 MLA 架构发布"
  },
+ "n-2f21e893b0": {
+  "research_notes": "克隆官方仓库，或安装受支持的推理运行时，例如 vLLM 和 Transformers。\n\n从 Hugging Face 下载所需变体的模型权重，例如用于通用指令遵循的 tencent/Hy4-flash，或用于节省显存部署的 tencent/Hy4-flash-FP8。\n\n对于消费级多 GPU 或大内存本地系统，请从 AngelSlim/Hy4-flash-GGUF 下载量化 GGUF 权重，并通过兼容的 llama.cpp 或文本生成加载器运行。\n\n部署 FP8 量化检查点，或启用基于 DFly 草稿头的投机解码，以在控制显存占用的同时，将吞吐量提升至每秒 150 个 token 以上。\n\n加载 1M 上下文窗口时，请确保分配足够的 GPU 显存；由于采用混合注意力机制，KV 缓存大小已优化至 Hy4 的 1/6。\n\n对于本地工作站，使用 IQ2 量化格式时，请在多块 GPU 上至少分配 126 GB 的总显存，以避免卸载过程中出现显存不足错误。",
+  "summary": "Hy4 Flash 的开放权重与社区 GGUF 量化版本已同步发布，支持本地多 GPU 运行；采用 IQ2 量化时，显存需求从 126 GB 起。",
+  "title": "Hy4 Flash 开放权重及社区 GGUF 量化版本发布"
+ },
  "n-2f8c6f34f0": {
   "evolution_summary": "该工具最初是为 1,040 项任务的 Auto-ClawEval 基准研发的研究工具，现已发展为通用工具包，支持 Model Context Protocol（MCP），以及用于智能体调试的即时环境生成。",
   "research_notes": "在基准生成中达到人类水平的质量，相比人工整理，成本和时间分别降低了 13,800 倍。",
@@ -1868,6 +1873,11 @@
   "summary": "2026年6月15日，一则项目更新附上了 TensorForger 的 Flow Upscaler ComfyUI 节点代码仓库及其关联的 Hugging Face 资源链接。这是 Flow Upscaler 开发路线的一个重要公开分发入口，但仅凭这些带日期的链接，无法确定其版本、功能集或发布状态。",
   "title": "TensorForger 发布 Flow Upscaler 的 ComfyUI 相关资源链接"
  },
+ "n-6002e62c56": {
+  "research_notes": "克隆官方代码仓库，或安装受支持的推理运行时，例如 vLLM 和 Transformers。\n\n从 Hugging Face 下载所需变体的模型权重，例如用于通用指令跟随的 tencent/Hy4-flash，或用于节省显存部署的 tencent/Hy4-flash-FP8。\n\n对于消费级多 GPU 或大内存的本地系统，请从 AngelSlim/Hy4-flash-GGUF 下载量化 GGUF 权重，并通过兼容的 llama.cpp 或文本生成加载器运行。\n\n部署 FP8 量化检查点，或启用 DFly 草稿头的投机解码，可在控制 VRAM 占用的同时，将吞吐量提升至每秒 150 个 token 以上。\n\n加载 1M 上下文窗口时，请确保分配足够的 GPU 显存。注意，通过混合注意力机制，KV 缓存大小已优化至 Hy4 的 1/6。\n\n对于本地工作站，若使用 IQ2 量化格式，请在各 GPU 之间分配至少 126 GB 的总 VRAM，以避免卸载过程中出现显存不足错误。",
+  "summary": "Hy4 Flash 基础版、指令版及 FP8 变体的开源权重和部署脚本已通过 Hugging Face 和 GitHub 发布，采用腾讯 Hy 许可证。",
+  "title": "Hy4 Flash 代码与权重已在 Hugging Face 和 GitHub 发布"
+ },
  "n-60ec620b9e": {
   "summary": "2026年3月25日，OpenResearcher通过GitHub项目仓库、OpenResearcher-30B-A3B的Hugging Face模型页面以及一个Hugging Face Space进行了展示。这些相互关联的资源共同标志着该项目在公开可用性方面的一次实质性进展。",
   "title": "OpenResearcher项目、模型检查点与演示已公开发布"
@@ -2601,6 +2611,11 @@
   "summary": "一次研究资料批量导入向公共知识库新增了 21 篇文章。",
   "title": "批量研究资料导入：通过 Gemini 3 Flash CLI 处理 21 篇文章"
  },
+ "n-8a1ced2145": {
+  "research_notes": "在支持的浏览器中使用经授权的 Google AI Ultra 账户访问 Project Genie 预览界面，或在 Google AI Studio 中获取 Gemini API 的抢先体验开发者凭证。\n\n提供初始世界提示，可以是描述性文本场景，也可以是用于初始化 3D 环境的输入参考图像。\n\n使用键盘、鼠标或游戏手柄的方向控制，以最高 24 帧每秒的 720p 分辨率实时探索生成的环境。\n\n在会话中途通过自然语言文本或语音发出引导指令，即时修改环境条件、物体或场景动态。\n\n将交互式模拟会话限制在一到两分钟的短时长内，以防止累积的环境漂移并保持视觉连贯性。\n\n避免快速的 360 度相机旋转，以减少物体持久性丧失和场景背景幻觉。\n\n探索生成空间时使用第一人称视角导航，因为宽幅第三人称视图表现出更高的尺度和物理失真。",
+  "summary": "Google DeepMind 面向 Google AI Ultra 订阅用户和早期访问 API 合作伙伴推出了 Genie 4 预览版，支持以最高 24 帧每秒的速度实时生成可引导的 720p 模拟画面，并具备原生同步音频。",
+  "title": "Google DeepMind 推出交互式世界模型 Genie 4 预览版"
+ },
  "n-8a4dfeeb5d": {
   "summary": "2026年3月25日，一条带日期的消息链接到了 Facebook Research 的 HyperAgents GitHub 代码仓库。这是该项目历史上的一个重要公开引用步骤，因为它将读者引向项目的源代码仓库；现有证据无法确定该仓库的发布内容或版本。",
   "title": "HyperAgents 公开代码仓库被引用"
@@ -2636,6 +2651,11 @@
  "n-8c14423e0d": {
   "summary": "2026年3月27日，ComfyUI-DaVinci-MagiHuman 通过其 GitHub 仓库以及一处相关的 The source 引用被公开提及。现有带日期的链接仅能证明这一公开引用，并不能证实其发布情况、功能特性、版本、作者身份或其他开发细节。",
   "title": "ComfyUI-DaVinci-MagiHuman 的公开引用"
+ },
+ "n-8c7cda80aa": {
+  "research_notes": "在 Yandex Tasks 平台上创建商业客户账户,以使用自助式数据标注工具。\n\n直接在自助服务界面中配置任务模板、标注指南和验收规则,无需供应商协助。\n\n将任务分配给独立的自由职业众包工人,并直接管理任务验证和报酬。\n\n在自主管理的任务模板中嵌入自动化蜜罐和基于共识的验证规则,以取代已停止的供应商质量保证服务。\n\n将合成数据预标注与有针对性的人在回路验证相结合,以尽量减少对外部众包标注能力的依赖。",
+  "summary": "Yandex 已暂停面向外部商业客户的 Yandex Tasks 全托管式交钥匙数据标注服务,将资源转向内部 AI 开发,同时保留自助式平台访问权限,供独立的任务和工人管理使用。",
+  "title": "Yandex 暂停面向外部客户的 Yandex Tasks 交钥匙数据标注服务"
  },
  "n-8c91402db3": {
   "evolution_summary": "该项目从基础的安全脚本演进为一个健壮的形式化方法与进攻性安全框架。主要新增内容包括基于 Kani 的 Rust 验证、用于 Lean 4 证明修复的 Axiom，以及隔离式渗透测试环境 'Kage'。",
@@ -2764,6 +2784,11 @@
   "research_notes": "克隆代码仓库并安装所需依赖，包括 PyTorch 和 torchvision。\n\n从 Hugging Face 下载预训练的 RelayVSR 模型权重，用于 2x 或 4x 增强目标。\n\n通过提供的测试脚本或 ComfyUI 自定义节点运行推理，处理长视频序列时使用流式模式。\n\n使用诸如 15 帧的关键帧间隔，在保持生成式细节重建效果的同时维持较高吞吐量。\n\n处理长序列时启用带线性交叉淡化的流式模式，以保持显存占用稳定并消除分块边界伪影。\n\n分配至少 14 GB 显存的 GPU，以满足关键帧潜变量生成过程中的峰值内存需求。",
   "summary": "RelayVSR 是一个开源视频超分辨率框架，它将稀疏生成式关键帧主干与轻量级双记忆视频 Transformer（Dual-Memory Video Transformer）相结合，用于放大并增强低质量视频。在 NVIDIA A100 GPU 上，该模型在 1080p 分辨率下可达到约 29 FPS 的运行速度，峰值显存约为 13.8 GB，支持 2x 和 4x 增强，并可集成到包括 ComfyUI 在内的本地推理流程中。",
   "title": "RelayVSR 视频超分辨率框架发布"
+ },
+ "n-95be0b3b16": {
+  "research_notes": "将文本片段或完整手稿提交至检测器界面，即可生成各文档片段的统计概率分数。\n\n切勿仅凭自动检测器的概率分数作为取消资格的唯一依据；应将检测结果与作者草稿、访谈记录和编辑审阅相互印证。\n\n需考虑地方方言、口述历史以及非标准的叙事节奏，这些因素常常会导致统计分类器出现较高的误报率。",
+  "summary": "AI文本检测工具Pangram将大卫·西尔瓦·罗哈斯（David Silva Rojas）获奖小说《Donde el agua trabaja》标记为99%由机器生成，但出版社Almadía在内部文档审查后确认了该手稿的真实性。",
+  "title": "Pangram将获奖的秘鲁小说判定为AI生成，出版社坚持维护该奖项"
  },
  "n-95cbbfe193": {
   "evolution_summary": "该新闻帖介绍了 5B 和 14B 两种 SANA-Video 2.0 架构及其性能宣称，并明确指出截至发布时，新模型的权重尚不可用。",
@@ -3682,6 +3707,11 @@
   "summary": "2026 年 7 月 7 日，该开发线链接了 NVIDIA Nemotron-Labs-Audex-30B-A3B 和 Nemotron-Labs-Audex-2B 在 Hugging Face 上的公开仓库目录。这些链接标志着两个 Audex 模型版本在公开可用性方面的重要进展，但其具体发布细节在此并未确认。",
   "title": "Audex 模型仓库现已可被公开检索"
  },
+ "n-c607593781": {
+  "research_notes": "克隆官方代码仓库，或安装受支持的推理运行时，例如 vLLM 和 Transformers。\n\n从 Hugging Face 下载所需变体的模型权重，例如用于通用指令跟随的 tencent/Hy4-flash，或用于节省显存部署的 tencent/Hy4-flash-FP8。\n\n对于消费级多 GPU 或大内存本地系统，可下载 AngelSlim/Hy4-flash-GGUF 的量化 GGUF 权重，并通过兼容的 llama.cpp 或文本生成加载器运行。\n\n部署 FP8 量化检查点，或启用带 DFly 草稿头的投机解码，以在管理 VRAM 占用的同时将吞吐量提升至每秒 150 个 token 以上。\n\n加载 1M 上下文窗口时，需确保有足够的 GPU 显存分配。注意，通过混合注意力机制，KV cache 的大小已优化至 Hy4 的 1/6。\n\n在本地工作站上使用 IQ2 量化格式时，应为多块 GPU 分配至少 126 GB 的总 VRAM，以避免卸载过程中出现显存不足错误。",
+  "summary": "腾讯发布了 Hy4 Flash 的开放权重。这是一个 224B 参数的多模态混合专家（MoE）模型，每个 token 激活 12B 参数，具有 1M 上下文窗口，并支持 FP8 检查点格式。",
+  "title": "腾讯发布开放权重的 Hy4 Flash MoE 模型"
+ },
  "n-c660c4f559": {
   "evolution_summary": "自推出以来，CDM 已被用于蒸馏 Stable Diffusion 3 Medium 和 Longcat Image 等热门模型的“Turbo”版本，这些模型目前仍在维护，并可在 Hugging Face 上获取。这些模型仅用 4 步即可达到甚至超过 100 步教师模型的质量。",
   "research_notes": "CDM 的独特之处在于训练过程中无需真实图像、GAN 判别器或外部奖励模型，相比先前方法简化了蒸馏流程。",
@@ -3769,6 +3799,11 @@
  "n-ca4cb3b16f": {
   "summary": "2026-04-01，Google 通过其博客和 Gemini API 模型文档发布了 Veo 3.1 Lite 预览版。所链接的 AI Studio 页面记录了相应的创作入口。仅凭所提供的链接，无法确定其已具备生产可用性、配额或服务限制。",
   "title": "Google 宣布推出 Veo 3.1 Lite 预览版"
+ },
+ "n-cb0846b088": {
+  "research_notes": "克隆官方仓库，或安装受支持的推理运行时，例如 vLLM 和 Transformers。\n\n从 Hugging Face 下载所需变体的模型权重，例如用于通用指令跟随的 tencent/Hy4-flash，或用于节省显存部署的 tencent/Hy4-flash-FP8。\n\n对于消费级多 GPU 或大内存本地系统，请从 AngelSlim/Hy4-flash-GGUF 下载量化 GGUF 权重，并通过兼容的 llama.cpp 或文本生成加载器运行。\n\n部署 FP8 量化检查点，或启用带 DFly 草稿头的投机解码，以在控制 VRAM 占用的同时将吞吐量提升至每秒 150 个 token 以上。\n\n加载 1M 上下文窗口时，请确保分配足够的 GPU 显存。注意，通过混合注意力机制，KV cache 大小已优化至 Hy4 的 1/6。\n\n对于本地工作站，使用 IQ2 量化格式时，请在各 GPU 之间至少分配 126 GB 的总 VRAM，以防止卸载期间出现显存不足错误。",
+  "summary": "腾讯发布了 Hy4 Flash 模型权重，支持多模态文档理解、长上下文推理和计算机使用智能体任务，并降低了 KV cache 的开销。",
+  "title": "Hy4 Flash 发布，面向高吞吐智能体工作流"
  },
  "n-cb62ae01fa": {
   "summary": "2026-07-06，PhotoQuilt 通过其项目网站、源代码仓库以及托管在 Hugging Face Space 上的演示提供了访问入口。这是一项实质性的公开开发进展，因为它为从业者提供了多个不同的途径，可用于查看、获取和试用该项目。",

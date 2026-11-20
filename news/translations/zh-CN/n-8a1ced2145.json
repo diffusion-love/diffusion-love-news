@@ -1,0 +1,11 @@
+{
+ "id": "n-8a1ced2145",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在支持的浏览器中使用经授权的 Google AI Ultra 账户访问 Project Genie 预览界面，或在 Google AI Studio 中获取 Gemini API 的抢先体验开发者凭证。\n\n提供初始世界提示，可以是描述性文本场景，也可以是用于初始化 3D 环境的输入参考图像。\n\n使用键盘、鼠标或游戏手柄的方向控制，以最高 24 帧每秒的 720p 分辨率实时探索生成的环境。\n\n在会话中途通过自然语言文本或语音发出引导指令，即时修改环境条件、物体或场景动态。\n\n将交互式模拟会话限制在一到两分钟的短时长内，以防止累积的环境漂移并保持视觉连贯性。\n\n避免快速的 360 度相机旋转，以减少物体持久性丧失和场景背景幻觉。\n\n探索生成空间时使用第一人称视角导航，因为宽幅第三人称视图表现出更高的尺度和物理失真。",
+ "source_sha256": "eb2bda9ba7f19c54809e511389443c2dc9b5f0cf9f561dcf9390afa6dfc3bf59",
+ "summary": "Google DeepMind 面向 Google AI Ultra 订阅用户和早期访问 API 合作伙伴推出了 Genie 4 预览版，支持以最高 24 帧每秒的速度实时生成可引导的 720p 模拟画面，并具备原生同步音频。",
+ "title": "Google DeepMind 推出交互式世界模型 Genie 4 预览版",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

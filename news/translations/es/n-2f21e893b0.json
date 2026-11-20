@@ -1,0 +1,11 @@
+{
+ "id": "n-2f21e893b0",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona el repositorio oficial o instala entornos de inferencia compatibles, como vLLM y Transformers.\n\nDescarga los pesos del modelo desde Hugging Face para la variante deseada, como tencent/Hy4-flash para seguimiento general de instrucciones o tencent/Hy4-flash-FP8 para un despliegue con mayor eficiencia de memoria.\n\nPara sistemas locales de consumo con múltiples GPU o de gran memoria, descarga los pesos cuantizados en GGUF desde AngelSlim/Hy4-flash-GGUF y ejecútalos mediante llama.cpp o cargadores de generación de texto compatibles.\n\nDespliega el checkpoint cuantizado en FP8 o activa la decodificación especulativa con la cabeza de borrador DFly para maximizar el rendimiento por encima de 150 tokens por segundo, controlando al mismo tiempo el consumo de VRAM.\n\nAsegúrate de contar con asignaciones de memoria de GPU suficientes al cargar la ventana de contexto de 1M, teniendo en cuenta que el tamaño de la caché KV se optimiza a 1/6 del de Hy4 gracias a la atención híbrida.\n\nEn estaciones de trabajo locales, asigna al menos 126 GB de VRAM agregada entre las GPU cuando utilices el formato de cuantización IQ2, para evitar errores de falta de memoria durante el offload.",
+ "source_sha256": "e1a4d0e0476e3c0ebf2f2e1480f7aec5b03990089d53c4f7156ca934bfe39937",
+ "summary": "Los pesos abiertos de Hy4 Flash se publicaron junto con cuantizaciones GGUF creadas por la comunidad, lo que permite la ejecución local en múltiples GPU con requisitos de VRAM a partir de 126 GB para la cuantización IQ2.",
+ "title": "Publicados los pesos abiertos de Hy4 Flash y las cuantizaciones GGUF de la comunidad",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

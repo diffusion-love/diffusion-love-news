@@ -1,0 +1,11 @@
+{
+ "id": "n-2f21e893b0",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt officiel ou installez des runtimes d'inférence pris en charge, tels que vLLM et Transformers.\n\nTéléchargez les poids du modèle depuis Hugging Face pour la variante souhaitée, par exemple tencent/Hy4-flash pour le suivi d'instructions général ou tencent/Hy4-flash-FP8 pour un déploiement économe en mémoire.\n\nPour les systèmes locaux grand public multi-GPU ou à forte capacité mémoire, téléchargez les poids GGUF quantifiés depuis AngelSlim/Hy4-flash-GGUF et exécutez-les via llama.cpp ou des chargeurs de génération de texte compatibles.\n\nDéployez le checkpoint quantifié en FP8 ou activez le décodage spéculatif avec la tête de brouillon DFly pour maximiser le débit au-delà de 150 tokens par seconde tout en maîtrisant la consommation de VRAM.\n\nVeillez à disposer de suffisamment de mémoire GPU lors du chargement de la fenêtre de contexte de 1M, sachant que la taille du cache KV est optimisée à 1/6 de celle de Hy4 grâce à l'attention hybride.\n\nSur les stations de travail locales, allouez au moins 126 Go de VRAM cumulée sur l'ensemble des GPU lors de l'utilisation du format de quantification IQ2 afin d'éviter les erreurs de mémoire insuffisante pendant le déchargement.",
+ "source_sha256": "e1a4d0e0476e3c0ebf2f2e1480f7aec5b03990089d53c4f7156ca934bfe39937",
+ "summary": "Les poids ouverts de Hy4 Flash ont été publiés en même temps que des quantifications GGUF communautaires, permettant une exécution locale multi-GPU avec des besoins en VRAM à partir de 126 Go pour la quantification IQ2.",
+ "title": "Publication des poids ouverts de Hy4 Flash et des quantifications GGUF communautaires",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-8a1ced2145",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Acceda a la interfaz de vista previa de Project Genie en un navegador compatible con una cuenta autorizada de Google AI Ultra, o obtenga credenciales de desarrollador de acceso anticipado para la API de Gemini en Google AI Studio.\n\nProporcione un prompt inicial del mundo, que consista en un escenario de texto descriptivo o en una imagen de referencia de entrada, para inicializar el entorno 3D.\n\nNavegue por el entorno generado en tiempo real a 720p y hasta 24 fotogramas por segundo, usando los controles direccionales de teclado, ratón o mando.\n\nEmita comandos de dirección en lenguaje natural, por texto o voz, durante la sesión para modificar al vuelo las condiciones ambientales, los objetos o la dinámica de la escena.\n\nMantenga las sesiones de simulación interactiva limitadas a duraciones breves de uno a dos minutos para evitar la deriva ambiental acumulativa y mantener la coherencia visual.\n\nEvite las rotaciones rápidas de cámara de 360 grados para minimizar la pérdida de permanencia de objetos y las alucinaciones en el fondo de la escena.\n\nUtilice la navegación en primera persona al explorar espacios generados, ya que las vistas de tercera persona amplias presentan mayor distorsión de escala y física.",
+ "source_sha256": "eb2bda9ba7f19c54809e511389443c2dc9b5f0cf9f561dcf9390afa6dfc3bf59",
+ "summary": "Google DeepMind ha lanzado en vista previa Genie 4 para los suscriptores de Google AI Ultra y los socios de la API de acceso anticipado, lo que permite generar simulaciones dirigibles en tiempo real a 720p y hasta 24 fotogramas por segundo, con audio nativo sincronizado.",
+ "title": "Google DeepMind pone a disposición en vista previa el modelo de mundo interactivo Genie 4",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

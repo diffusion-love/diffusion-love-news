@@ -1,0 +1,11 @@
+{
+ "id": "n-cb0846b088",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das offizielle Repository oder installieren Sie unterstützte Inferenz-Laufzeitumgebungen wie vLLM und Transformers.\n\nLaden Sie die Modellgewichte für die gewünschte Variante von Hugging Face herunter, etwa tencent/Hy4-flash für allgemeines Befolgen von Anweisungen oder tencent/Hy4-flash-FP8 für speichereffizienten Einsatz.\n\nFür Consumer-Systeme mit mehreren GPUs oder lokale Systeme mit viel Arbeitsspeicher laden Sie quantisierte GGUF-Gewichte von AngelSlim/Hy4-flash-GGUF herunter und betreiben sie über kompatible llama.cpp- oder Text-Generation-Loader.\n\nSetzen Sie den FP8-quantisierten Checkpoint ein oder aktivieren Sie spekulatives Dekodieren mit dem DFly-Draft-Head, um den Durchsatz über 150 Token pro Sekunde zu maximieren und gleichzeitig den VRAM-Verbrauch im Griff zu behalten.\n\nAchten Sie beim Laden des 1M-Kontextfensters auf ausreichende GPU-Speicherzuweisungen, da die KV-Cache-Größe durch hybride Aufmerksamkeit auf 1/6 von Hy4 optimiert ist.\n\nFür lokale Workstations sollten Sie bei Verwendung des IQ2-Quantisierungsformats mindestens 126 GB VRAM über alle GPUs hinweg bereitstellen, um Out-of-Memory-Fehler beim Offloading zu vermeiden.",
+ "source_sha256": "0bd19d3a12f3463d828608be4cee05692b53e45ec9570181991b5fb0bdaec43f",
+ "summary": "Tencent hat die Modellgewichte von Hy4 Flash veröffentlicht. Das Modell unterstützt multimodales Verstehen von Dokumenten, Schlussfolgern über lange Kontexte und Computer-Use-Agent-Aufgaben bei reduziertem KV-Cache-Overhead.",
+ "title": "Hy4 Flash veröffentlicht für Agenten-Workflows mit hohem Durchsatz",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

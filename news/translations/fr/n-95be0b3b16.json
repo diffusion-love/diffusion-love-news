@@ -1,0 +1,11 @@
+{
+ "id": "n-95be0b3b16",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Soumettez des extraits de texte ou des manuscrits complets à l'interface du détecteur pour obtenir des scores de probabilité statistiques pour chaque segment du document.\n\nNe considérez jamais les scores de probabilité d'un détecteur automatisé comme seul motif de disqualification ; corroborez les constats avec les brouillons de l'auteur, les notes d'entretien et la relecture éditoriale.\n\nTenez compte des dialectes régionaux, des récits oraux et du rythme narratif non standard, qui déclenchent fréquemment des taux élevés de faux positifs chez les classifieurs statistiques.",
+ "source_sha256": "dcd573b491c550e73482515d2eccd4bed3b86c293d623772ba3ba59da5663782",
+ "summary": "Le détecteur de texte IA Pangram a signalé à 99 % le roman primé de David Silva Rojas, Donde el agua trabaja, comme généré par une machine, mais l'éditeur Almadía a affirmé l'authenticité du manuscrit à la suite d'un examen interne de la documentation.",
+ "title": "Pangram classe un roman péruvien primé comme généré par IA, tandis que l'éditeur maintient le prix",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
