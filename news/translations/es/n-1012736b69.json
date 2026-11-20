@@ -1,0 +1,11 @@
+{
+ "id": "n-1012736b69",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Sube una fotografía de retrato en alta resolución o un vídeo de referencia de 45 segundos junto con una muestra de voz limpia para configurar la identidad del avatar.\n\nIntroduce el guion del vídeo en el editor o sube una pista de audio de habla pregrabada.\n\nInserta indicaciones de movimiento junto a las palabras del guion para dictar gestos específicos, como señalar o asentir.\n\nElige entre Avatar 6 estándar, para máxima fidelidad, o Avatar 6 Turbo, para una generación con menor latencia, antes de renderizar.\n\nUtiliza grabaciones de audio limpias y aisladas, sin ruido de fondo ni reverberación de la sala, para garantizar una alineación precisa de fonemas y una sincronización labial correcta.\n\nCombina una redacción natural del guion con indicaciones de movimiento puntuales en lugar de especificar en exceso cada frase, para evitar una densidad de gestos poco natural.",
+ "source_sha256": "9ed1a65a44fe612839bf4a46d17e3c40efd22c87881e6dd9130246f83d2a6594",
+ "summary": "HeyGen ha lanzado Avatar 6, un modelo de generación de avatares que incorpora gestos controlados por el guion, resolución nativa de 2880×1620 y soporte para hasta 28 minutos de renderizado continuo. La versión incluye los niveles estándar y Turbo, de baja latencia.",
+ "title": "HeyGen Avatar 6 introduce gestos sensibles al contexto y generación de vídeo 2K",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
