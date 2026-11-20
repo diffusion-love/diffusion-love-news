@@ -3379,6 +3379,11 @@
   "summary": "Ein Framework, das aus einem einzelnen Porträtbild steuerbare 4D-Gaussian-Avatare erzeugt, und zwar mit einem Decoder-only-Transformer. Die Avatar-Erzeugung wird als sequenzielle Vorhersageaufgabe behandelt, um hochauflösende geometrische Details und Mimik zu erreichen.",
   "title": "AvatarPointillist: AutoRegressive 4D Gaussian Avatars aus Bildern"
  },
+ "n-b65cdf0a31": {
+  "research_notes": "Proben flüchtiger organischer Verbindungen (VOC) werden von physischen Gegenständen oder aus der Umgebungsluft mit tragbarer Gaschromatographie- und Massenspektrometrie-Sensorhardware entnommen.\n\nChemische Daten werden mit Graph-Neural-Network-Modellen verarbeitet, um die identifizierten Molekülstrukturen auf Duftdeskriptor-Dimensionen der Principal Odor Map abzubilden.\n\nDas resultierende chemische Profil wird mit verifizierten Materialbibliotheken verglichen, um die Authentizität zu klassifizieren, oder Koordinaten werden an automatisierte Mischmaschinen zur Duftreproduktion übermittelt.\n\nTemperatur, Luftstrom und Hintergrundgerüche werden während der Dampfsammlung kontrolliert, damit flüchtige Verunreinigungen die chemische Detektion nicht verfälschen.\n\nAlgorithmische Geruchsvorhersagen werden gegen sensorische Panel-Benchmarks und Gaschromatographie-Kontrollen validiert, statt Molekülstrukturen isoliert zu bewerten.",
+  "summary": "Osmo trainierte Graph-Neural-Network-Modelle, um Duftprofile aus chemischen Strukturen vorherzusagen, und kombinierte die Modelle mit automatisierter Formulierungstechnik. Die Technologie wurde außerdem zusammen mit StockX getestet, um gefälschte Sneaker anhand flüchtiger Klebstoffdämpfe zu identifizieren.",
+  "title": "Osmo entwickelt KI-Riechsystem und testet Anwendungsfälle zur Authentifizierung"
+ },
  "n-b65d8e8b42": {
   "evolution_summary": "Der Nachrichtenbeitrag berichtete über Personalisierung, Verbesserungen bei Details und Prompts, Steuerungen für Aufmerksamkeitsbereiche und Reference-Latents sowie einen Low-VRAM-Modus.",
   "summary": "Der Nachrichtenbeitrag berichtete über Personalisierung, Verbesserungen bei Details und Prompts, Steuerungen für Aufmerksamkeitsbereiche und Reference-Latents sowie einen Low-VRAM-Modus.",

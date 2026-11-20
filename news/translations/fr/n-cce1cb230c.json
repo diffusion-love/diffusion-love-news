@@ -1,0 +1,11 @@
+{
+ "id": "n-cce1cb230c",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt dans le répertoire custom_nodes de ComfyUI à l'aide de git clone https://github.com/Art-xmaster/comfyui-AGSoft.git ou installez comfyui-AGSoft via ComfyUI Manager.\n\nRedémarrez le serveur ComfyUI pour charger les définitions des nœuds personnalisés.\n\nAjoutez le nœud AGSoft Save Image Plus à votre workflow ComfyUI et connectez le tenseur d'image généré à son entrée image.\n\nConfigurez le préfixe de nom de fichier et les options de format, puis activez le mode focus pour prévisualiser les générations par lots, aussi bien dans le canevas classique que dans l'interface Nodes 2.0.\n\nGardez le mode de repli vers le canevas classique activé si vous constatez des incohérences de rendu de l'interface dans les premières versions de l'interface Nodes 2.0.\n\nUtilisez le mode focus lors de la génération de lots de plusieurs images pour inspecter les images de prévisualisation individuelles sans quitter le graphe de nœuds.",
+ "source_sha256": "95860bfb55055ba71b0de1820aacb0802594b3bbda622a1df77fccebfa210ce6",
+ "summary": "Le nœud personnalisé ComfyUI AGSoft Save Image Plus a été mis à jour avec un mode de prévisualisation focus pour les lots d'images, des info-bulles de boutons bilingues et la prise en charge du rendu de prévisualisation pour l'interface Nodes 2.0 de ComfyUI, tout en restant compatible avec le canevas classique.",
+ "title": "AGSoft Save Image Plus ajoute un mode focus, des info-bulles bilingues et la prévisualisation Nodes 2.0",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

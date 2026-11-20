@@ -1,0 +1,11 @@
+{
+ "id": "n-b65cdf0a31",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Proben flüchtiger organischer Verbindungen (VOC) werden von physischen Gegenständen oder aus der Umgebungsluft mit tragbarer Gaschromatographie- und Massenspektrometrie-Sensorhardware entnommen.\n\nChemische Daten werden mit Graph-Neural-Network-Modellen verarbeitet, um die identifizierten Molekülstrukturen auf Duftdeskriptor-Dimensionen der Principal Odor Map abzubilden.\n\nDas resultierende chemische Profil wird mit verifizierten Materialbibliotheken verglichen, um die Authentizität zu klassifizieren, oder Koordinaten werden an automatisierte Mischmaschinen zur Duftreproduktion übermittelt.\n\nTemperatur, Luftstrom und Hintergrundgerüche werden während der Dampfsammlung kontrolliert, damit flüchtige Verunreinigungen die chemische Detektion nicht verfälschen.\n\nAlgorithmische Geruchsvorhersagen werden gegen sensorische Panel-Benchmarks und Gaschromatographie-Kontrollen validiert, statt Molekülstrukturen isoliert zu bewerten.",
+ "source_sha256": "99caea150d6e3e57aa8b2f260cb2a4a10f4746858739c19f9a8985747a2307ae",
+ "summary": "Osmo trainierte Graph-Neural-Network-Modelle, um Duftprofile aus chemischen Strukturen vorherzusagen, und kombinierte die Modelle mit automatisierter Formulierungstechnik. Die Technologie wurde außerdem zusammen mit StockX getestet, um gefälschte Sneaker anhand flüchtiger Klebstoffdämpfe zu identifizieren.",
+ "title": "Osmo entwickelt KI-Riechsystem und testet Anwendungsfälle zur Authentifizierung",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
