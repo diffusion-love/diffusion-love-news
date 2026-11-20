@@ -19,6 +19,25 @@
     "has_video": false
   },
   {
+    "id": "n-f0ba4e4e9c",
+    "date": "2026-11-19",
+    "title": "Gemini 4 Neon release",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Google AI Development",
+      "google",
+      "google-ai-development",
+      "misc",
+      "organization:google"
+    ],
+    "primary_link": "https://shareai.space/blog/2026/google-vypustila-gemini-4-neon-samuyu-doroguyu-model-novoy-l",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-ef68e2a314",
     "date": "2026-11-19",
     "title": "Comfy Cloud enables custom workflows on enterprise GPUs",
@@ -151,6 +170,63 @@
     "has_video": false
   },
   {
+    "id": "n-9c6aba7306",
+    "date": "2026-11-19",
+    "title": "Google releases Gemini 4 Neon",
+    "category": "llm",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Google AI Development",
+      "google",
+      "google-ai-development",
+      "llm",
+      "organization:google"
+    ],
+    "primary_link": "https://shareai.space/blog/2026/google-vypustila-gemini-4-neon-samuyu-doroguyu-model-novoy-l",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-76e2884b48",
+    "date": "2026-11-19",
+    "title": "ComfyUI v0.46.1 published on GitHub",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "comfyui",
+    "version": null,
+    "tags": [
+      "ComfyUI Development",
+      "comfyui",
+      "comfyui-development",
+      "family:comfyui",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-5e913ae316",
+    "date": "2026-11-19",
+    "title": "OpenCode releases mobile companion app for remote desktop sessions",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "opencode",
+    "version": null,
+    "tags": [
+      "Opencode",
+      "family:opencode",
+      "misc",
+      "opencode",
+      "opencode-development"
+    ],
+    "primary_link": "https://opencode.ai/mobile",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-5524914633",
     "date": "2026-11-19",
     "title": "Security advisory details two critical NGINX HTTP/2 remote code execution flaws",
@@ -170,6 +246,25 @@
     "has_video": false
   },
   {
+    "id": "n-52bae6b01d",
+    "date": "2026-11-19",
+    "title": "OpenCode launches companion mobile clients on Google Play and TestFlight",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "opencode",
+    "version": null,
+    "tags": [
+      "Opencode",
+      "family:opencode",
+      "misc",
+      "opencode",
+      "opencode-development"
+    ],
+    "primary_link": "https://opencode.ai/mobile",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-00b6dfd5f9",
     "date": "2026-11-19",
     "title": "Suno releases MCP server connector with account library synchronization",
@@ -185,6 +280,25 @@
       "suno"
     ],
     "primary_link": "https://api.suno.com/mcp",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-00765ae6ae",
+    "date": "2026-11-19",
+    "title": "AADD open-source speech degradation detector released",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "aadd-audio-degradation-detector",
+    "version": null,
+    "tags": [
+      "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+      "aadd-audio-degradation-detector",
+      "aadd-audio-degradation-detector-release",
+      "family:aadd-audio-degradation-detector",
+      "misc"
+    ],
+    "primary_link": "https://github.com/gertelrina/aadd",
     "has_image": false,
     "has_video": false
   },

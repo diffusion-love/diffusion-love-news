@@ -670,6 +670,127 @@
     ],
     "claims": []
   },
+  "aadd-audio-degradation-detector": {
+    "family_slug": "aadd-audio-degradation-detector",
+    "family_display": "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+    "family_display_variants": [
+      {
+        "family_display": "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-00765ae6ae"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-00765ae6ae"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-00765ae6ae",
+        "title": "AADD open-source speech degradation detector released",
+        "primary_link": "https://github.com/gertelrina/aadd"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/gertelrina/aadd",
+        "is_primary": true,
+        "verified_at": "2026-11-20T09:35:44Z",
+        "news_ids": [
+          "n-00765ae6ae"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "hf.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://hf.co/collections/gertelrina/automatic-audio-degradation-detection",
+        "is_primary": false,
+        "verified_at": "2026-11-20T09:35:44Z",
+        "news_ids": [
+          "n-00765ae6ae"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "AADD open-source speech degradation detector released",
+        "summary": "AADD releases an open-source speech quality classifier detecting 12 degradation types every 20 ms across English and Russian audio, offering Whisper-small and 1.3M-parameter v3-lite checkpoints.",
+        "version": null,
+        "news_id": "n-00765ae6ae",
+        "primary_link": "https://github.com/gertelrina/aadd"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-00765ae6ae",
+        "date": "2026-11-19",
+        "title": "AADD open-source speech degradation detector released",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "aadd-audio-degradation-detector",
+        "version": null,
+        "tags": [
+          "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release",
+          "aadd-audio-degradation-detector",
+          "aadd-audio-degradation-detector-release",
+          "family:aadd-audio-degradation-detector",
+          "misc"
+        ],
+        "primary_link": "https://github.com/gertelrina/aadd",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "aadd-audio-degradation-detector-release",
+        "display": "Aadd Audio Degradation Detector Release",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-00765ae6ae",
+        "news_ids": [
+          "n-00765ae6ae"
+        ]
+      }
+    ]
+  },
   "abot-earth-0-5": {
     "family_slug": "abot-earth-0-5",
     "family_display": "ABot-Earth 0.5",
@@ -17229,12 +17350,13 @@
       {
         "family_display": "ComfyUI Development",
         "first_seen": "2026-09-02",
-        "last_seen": "2026-10-23",
+        "last_seen": "2026-11-19",
         "news_ids": [
           "n-046d02af9f",
           "n-2d6b42b1d8",
           "n-3c2855adb1",
-          "n-a167c6f61b"
+          "n-a167c6f61b",
+          "n-76e2884b48"
         ]
       }
     ],
@@ -17248,9 +17370,9 @@
       "misc",
       "tools-frontend"
     ],
-    "post_count": 6,
+    "post_count": 7,
     "first_seen": "2026-03-26",
-    "last_seen": "2026-10-23",
+    "last_seen": "2026-11-19",
     "latest_version": null,
     "latest_evolution": null,
     "news_ids": [
@@ -17259,7 +17381,8 @@
       "n-046d02af9f",
       "n-2d6b42b1d8",
       "n-3c2855adb1",
-      "n-a167c6f61b"
+      "n-a167c6f61b",
+      "n-76e2884b48"
     ],
     "versions_timeline": [
       {
@@ -17303,6 +17426,13 @@
         "news_id": "n-a167c6f61b",
         "title": "ComfyUI v0.42.5 maintenance patch published",
         "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.5"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-76e2884b48",
+        "title": "ComfyUI v0.46.1 published on GitHub",
+        "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1"
       }
     ],
     "features": [],
@@ -17327,6 +17457,18 @@
         "verified_at": "2026-10-25T06:40:51Z",
         "news_ids": [
           "n-a167c6f61b"
+        ]
+      },
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1",
+        "is_primary": true,
+        "verified_at": "2026-11-20T09:43:32Z",
+        "news_ids": [
+          "n-76e2884b48"
         ]
       },
       {
@@ -17403,9 +17545,22 @@
         "status": "unverified",
         "url": "https://github.com/Comfy-Org/ComfyUI/releases",
         "is_primary": false,
-        "verified_at": "2026-10-25T06:40:51Z",
+        "verified_at": "2026-11-20T09:43:32Z",
         "news_ids": [
-          "n-a167c6f61b"
+          "n-a167c6f61b",
+          "n-76e2884b48"
+        ],
+        "occurrences": [
+          {
+            "news_id": "n-a167c6f61b",
+            "is_primary": false,
+            "verified_at": "2026-10-25T06:40:51Z"
+          },
+          {
+            "news_id": "n-76e2884b48",
+            "is_primary": false,
+            "verified_at": "2026-11-20T09:43:32Z"
+          }
         ]
       },
       {
@@ -17511,9 +17666,37 @@
         "version": null,
         "news_id": "n-a167c6f61b",
         "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.5"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "ComfyUI v0.46.1 published on GitHub",
+        "summary": "Comfy-Org released ComfyUI v0.46.1, delivering stability and patch fixes following the v0.46.0 cycle that introduced partner nodes and removed DirectML support.",
+        "version": null,
+        "news_id": "n-76e2884b48",
+        "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1"
       }
     ],
     "related_news": [
+      {
+        "id": "n-76e2884b48",
+        "date": "2026-11-19",
+        "title": "ComfyUI v0.46.1 published on GitHub",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "comfyui",
+        "version": null,
+        "tags": [
+          "ComfyUI Development",
+          "comfyui",
+          "comfyui-development",
+          "family:comfyui",
+          "tools-frontend"
+        ],
+        "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-a167c6f61b",
         "date": "2026-10-23",
@@ -17648,11 +17831,12 @@
         "slug": "comfyui-development",
         "display": "Comfyui Development",
         "first_seen": "2026-09-02",
-        "last_seen": "2026-10-23",
-        "latest_news_id": "n-a167c6f61b",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-76e2884b48",
         "news_ids": [
           "n-046d02af9f",
-          "n-a167c6f61b"
+          "n-a167c6f61b",
+          "n-76e2884b48"
         ]
       }
     ]
@@ -84358,6 +84542,193 @@
       }
     ],
     "claims": []
+  },
+  "opencode": {
+    "family_slug": "opencode",
+    "family_display": "Opencode",
+    "family_display_variants": [
+      {
+        "family_display": "Opencode",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-52bae6b01d",
+          "n-5e913ae316"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-52bae6b01d",
+      "n-5e913ae316"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-52bae6b01d",
+        "title": "OpenCode launches companion mobile clients on Google Play and TestFlight",
+        "primary_link": "https://opencode.ai/mobile"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-5e913ae316",
+        "title": "OpenCode releases mobile companion app for remote desktop sessions",
+        "primary_link": "https://opencode.ai/mobile"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "opencode.ai",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://opencode.ai/mobile",
+        "is_primary": true,
+        "verified_at": "2026-11-20T09:49:28Z",
+        "news_ids": [
+          "n-52bae6b01d",
+          "n-5e913ae316"
+        ]
+      },
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/anomalyco/opencode",
+        "is_primary": false,
+        "verified_at": "2026-11-20T09:49:28Z",
+        "news_ids": [
+          "n-52bae6b01d",
+          "n-5e913ae316"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "play.google.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://play.google.com/store/apps/details?id=ai.opencode.mobilecode",
+        "is_primary": false,
+        "verified_at": "2026-11-20T09:49:28Z",
+        "news_ids": [
+          "n-52bae6b01d",
+          "n-5e913ae316"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "testflight.apple.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://testflight.apple.com/join/M9eFEE1q",
+        "is_primary": false,
+        "verified_at": "2026-11-20T09:49:28Z",
+        "news_ids": [
+          "n-52bae6b01d",
+          "n-5e913ae316"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "OpenCode launches companion mobile clients on Google Play and TestFlight",
+        "summary": "OpenCode launched companion mobile clients on Google Play and Apple TestFlight that connect to local terminal sessions via QR pairing or OpenTunnel, supporting remote supervision and permission approvals.",
+        "version": null,
+        "news_id": "n-52bae6b01d",
+        "primary_link": "https://opencode.ai/mobile"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "OpenCode releases mobile companion app for remote desktop sessions",
+        "summary": "OpenCode released companion mobile applications for iOS and Android, enabling developers to monitor active desktop agent sessions, approve tool execution permissions, inspect file diffs, and submit text or voice input remotely via OpenTunnel.",
+        "version": null,
+        "news_id": "n-5e913ae316",
+        "primary_link": "https://opencode.ai/mobile"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-5e913ae316",
+        "date": "2026-11-19",
+        "title": "OpenCode releases mobile companion app for remote desktop sessions",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "opencode",
+        "version": null,
+        "tags": [
+          "Opencode",
+          "family:opencode",
+          "misc",
+          "opencode",
+          "opencode-development"
+        ],
+        "primary_link": "https://opencode.ai/mobile",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-52bae6b01d",
+        "date": "2026-11-19",
+        "title": "OpenCode launches companion mobile clients on Google Play and TestFlight",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "opencode",
+        "version": null,
+        "tags": [
+          "Opencode",
+          "family:opencode",
+          "misc",
+          "opencode",
+          "opencode-development"
+        ],
+        "primary_link": "https://opencode.ai/mobile",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "opencode-development",
+        "display": "Opencode Development",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-5e913ae316",
+        "news_ids": [
+          "n-52bae6b01d",
+          "n-5e913ae316"
+        ]
+      }
+    ]
   },
   "opencut": {
     "family_slug": "opencut",

@@ -1,0 +1,109 @@
+{
+ "schema_version": "1.4",
+ "id": "n-9c6aba7306",
+ "entry_type": "news",
+ "category": "llm",
+ "lang": "en",
+ "title": "Google releases Gemini 4 Neon",
+ "summary": "Google released Gemini 4 Neon, adding multimodal input capabilities across text, code, audio, video, and PDF with a one-million token context window at $3 per million input tokens and $15 per million output tokens.",
+ "research_notes": "Obtain API credentials for the Gemini API and configure client access for the multimodal endpoint.\n\nFormat input requests including text, code, audio, video, or PDF data within the supported one-million token context limit.\n\nMonitor token usage carefully when submitting dense multimodal payloads such as video or high-volume PDF files to manage input costs at $3 per million tokens.\n\nTake advantage of the one-million token context window to submit complete code repositories and reference documents in a single prompt rather than fragmenting context.",
+ "project": {
+  "name": null,
+  "family_slug": null,
+  "family_display": null,
+  "model_slug": null,
+  "model_display": null,
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": {
+  "slug": "google",
+  "display": "Google AI Development",
+  "homepage": null
+ },
+ "development": {
+  "scope": "organization",
+  "thread_slug": "google-ai-development",
+  "thread_display": "Google Ai Development",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Google AI Development",
+  "article_url": "https://happyin.space/organizations/google/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6ddd5330a72599d535d6f90a80a65b2df6f7402d/docs/organizations/google.md",
+  "agent_context_url": "https://happyin.space/organizations/google/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "Google releases Gemini 4 Neon",
+  "version": null,
+  "summary": "Google released Gemini 4 Neon, adding multimodal input capabilities across text, code, audio, video, and PDF with a one-million token context window at $3 per million input tokens and $15 per million output tokens."
+ },
+ "tags": [
+  "Google AI Development",
+  "google",
+  "google-ai-development",
+  "llm",
+  "organization:google"
+ ],
+ "facets": {
+  "category": "llm",
+  "entry_type": "news",
+  "projects": [],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [
+   "google"
+  ],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://shareai.space/blog/2026/google-vypustila-gemini-4-neon-samuyu-doroguyu-model-novoy-l",
+   "host": "shareai.space",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T09:28:41Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "Google released Gemini 4 Neon, adding multimodal input capabilities across text, code, audio, video, and PDF with a one-million token context window at $3 per million input tokens and $15 per million output tokens."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T09:28:41Z",
+  "classified_at": "2026-11-20T09:28:41Z",
+  "enriched_at": "2026-11-20T09:28:41Z",
+  "verified_at": "2026-11-20T09:28:41Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

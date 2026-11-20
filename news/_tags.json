@@ -77,6 +77,9 @@
     "n-d0ecd51ed2",
     "n-00f4cb72d6"
   ],
+  "AADD (Automatic Audio Degradation Detection): aadd-audio-degradation-detector-release": [
+    "n-00765ae6ae"
+  ],
   "ABot-Earth 0.5": [
     "n-ad9c9181f8"
   ],
@@ -545,6 +548,7 @@
   ],
   "ComfyUI Development": [
     "n-a167c6f61b",
+    "n-76e2884b48",
     "n-046d02af9f"
   ],
   "ComfyUI Hires Fix": [
@@ -1258,6 +1262,8 @@
     "n-0423f2e93d"
   ],
   "Google AI Development": [
+    "n-f0ba4e4e9c",
+    "n-9c6aba7306",
     "n-492c016626"
   ],
   "Google AI Studio": [
@@ -2450,6 +2456,10 @@
   "OpenWorker": [
     "n-e3b0bbbd83"
   ],
+  "Opencode": [
+    "n-5e913ae316",
+    "n-52bae6b01d"
+  ],
   "OrbitSheets": [
     "n-7328495c92"
   ],
@@ -3522,6 +3532,12 @@
   "a16z": [
     "n-d0ecd51ed2",
     "n-00f4cb72d6"
+  ],
+  "aadd-audio-degradation-detector": [
+    "n-00765ae6ae"
+  ],
+  "aadd-audio-degradation-detector-release": [
+    "n-00765ae6ae"
   ],
   "abot-earth": [
     "n-ad9c9181f8"
@@ -4728,6 +4744,7 @@
     "n-9744e9b73c",
     "n-95d245f3eb",
     "n-7de8349cd0",
+    "n-76e2884b48",
     "n-76a6e0d291",
     "n-6b3a93f373",
     "n-69cc1d969e",
@@ -4771,6 +4788,7 @@
   ],
   "comfyui-development": [
     "n-a167c6f61b",
+    "n-76e2884b48",
     "n-046d02af9f"
   ],
   "comfyui-drama3": [
@@ -5666,6 +5684,9 @@
     "n-d0ecd51ed2",
     "n-00f4cb72d6"
   ],
+  "family:aadd-audio-degradation-detector": [
+    "n-00765ae6ae"
+  ],
   "family:abot-earth-0-5": [
     "n-ad9c9181f8"
   ],
@@ -6087,6 +6108,7 @@
     "n-dee637a9a1",
     "n-c724eb9e4c",
     "n-a167c6f61b",
+    "n-76e2884b48",
     "n-3c2855adb1",
     "n-2d6b42b1d8",
     "n-046d02af9f"
@@ -7729,6 +7751,10 @@
   "family:openclaw-2-guide": [
     "n-af562b8dc9",
     "n-6129373208"
+  ],
+  "family:opencode": [
+    "n-5e913ae316",
+    "n-52bae6b01d"
   ],
   "family:opencut": [
     "n-fe5aa54dca"
@@ -9455,6 +9481,7 @@
     "n-d6f1ea9ec7"
   ],
   "google": [
+    "n-f0ba4e4e9c",
     "n-ed77fa3211",
     "n-e70c7b51e7",
     "n-d1157aecd1",
@@ -9463,6 +9490,7 @@
     "n-bae5434740",
     "n-b8ef8a36c7",
     "n-b278b5f533",
+    "n-9c6aba7306",
     "n-89f3d4c67f",
     "n-868e947d58",
     "n-781f7e2e75",
@@ -9475,6 +9503,8 @@
     "n-0423f2e93d"
   ],
   "google-ai-development": [
+    "n-f0ba4e4e9c",
+    "n-9c6aba7306",
     "n-492c016626"
   ],
   "google-ai-studio": [
@@ -10753,6 +10783,7 @@
     "n-a56b9d31b6",
     "n-a3aa871dfa",
     "n-a3583f87c7",
+    "n-9c6aba7306",
     "n-9af7222826",
     "n-99e3cb59c2",
     "n-97c6278d46",
@@ -11418,6 +11449,7 @@
     "n-f1f27d1e3a",
     "n-f108d81c34",
     "n-f0c1036242",
+    "n-f0ba4e4e9c",
     "n-f09f1875bc",
     "n-ef6922bf2a",
     "n-ef5357108f",
@@ -11977,6 +12009,7 @@
     "n-5efefc3953",
     "n-5ee5b179bf",
     "n-5eae5267b3",
+    "n-5e913ae316",
     "n-5dc5be210a",
     "n-5d8b6008cd",
     "n-5d775dee1a",
@@ -12010,6 +12043,7 @@
     "n-5319c89cd3",
     "n-52d4f13a45",
     "n-52bee6c102",
+    "n-52bae6b01d",
     "n-5262da1880",
     "n-520de897dc",
     "n-51a9d6c3d6",
@@ -12318,6 +12352,7 @@
     "n-00f4cb72d6",
     "n-00c9c3996b",
     "n-00b6dfd5f9",
+    "n-00765ae6ae",
     "n-006a78034f",
     "n-000fcd918f"
   ],
@@ -14059,6 +14094,14 @@
     "n-af562b8dc9",
     "n-6129373208"
   ],
+  "opencode": [
+    "n-5e913ae316",
+    "n-52bae6b01d"
+  ],
+  "opencode-development": [
+    "n-5e913ae316",
+    "n-52bae6b01d"
+  ],
   "opencut": [
     "n-fe5aa54dca"
   ],
@@ -14123,6 +14166,8 @@
     "n-3efd45843c"
   ],
   "organization:google": [
+    "n-f0ba4e4e9c",
+    "n-9c6aba7306",
     "n-492c016626"
   ],
   "organization:happyin": [
@@ -15609,6 +15654,7 @@
     "n-92aedf6bb2",
     "n-9139899069",
     "n-8c91402db3",
+    "n-76e2884b48",
     "n-76a6e0d291",
     "n-6b3a93f373",
     "n-661e84940d",
