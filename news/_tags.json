@@ -1922,6 +1922,10 @@
   "NexVid": [
     "n-20c0bd9616"
   ],
+  "Nginx: nginx-http2-vulnerability-disclosure": [
+    "n-d684acf3ae",
+    "n-5524914633"
+  ],
   "North": [
     "n-eac94cf783"
   ],
@@ -6169,6 +6173,10 @@
   "family:nexvid": [
     "n-20c0bd9616"
   ],
+  "family:nginx": [
+    "n-d684acf3ae",
+    "n-5524914633"
+  ],
   "family:nucleus": [
     "n-af83147e90",
     "n-98474cc274"
@@ -9304,6 +9312,7 @@
     "n-d76b3cf6c5",
     "n-d6f1ea9ec7",
     "n-d6ed6958b0",
+    "n-d684acf3ae",
     "n-d5e082f834",
     "n-d4f7f53653",
     "n-d497328784",
@@ -9597,6 +9606,7 @@
     "n-55b3aea30b",
     "n-55b05978df",
     "n-5540a93cb5",
+    "n-5524914633",
     "n-551508ee8c",
     "n-549e91e1c0",
     "n-54505b5f46",
@@ -10326,6 +10336,14 @@
   ],
   "nexvid": [
     "n-20c0bd9616"
+  ],
+  "nginx": [
+    "n-d684acf3ae",
+    "n-5524914633"
+  ],
+  "nginx-http2-vulnerability-disclosure": [
+    "n-d684acf3ae",
+    "n-5524914633"
   ],
   "normal-map": [
     "n-de24cf852f",

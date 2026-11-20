@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-d684acf3ae",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "NGINX releases security patches for HTTP/2 vulnerabilities CVE-2026-123007 and CVE-2026-123633",
+ "summary": "NGINX versions 1.30.7 and 1.31.9 resolve memory-corruption and use-after-free vulnerabilities in the HTTP/2 module that could allow unauthenticated remote code execution on servers with HTTP/2 enabled.",
+ "research_notes": "Inspect server configuration files to verify whether HTTP/2 is enabled via listen directives or http2 configuration directives.\n\nUpgrade NGINX Open Source installations to Stable version 1.30.7 or Mainline version 1.31.9, or apply corresponding vendor updates.\n\nIf immediate binary upgrades cannot be scheduled, disable the http2 parameter across all listen blocks and reload the server configuration.\n\nDeploy automated vulnerability auditing across all ingress controllers and edge reverse proxies to verify deployment of patched NGINX releases.\n\nEnforce strict unprivileged process isolation and container security profiles to limit blast radius in the event of worker-level memory corruption.",
+ "project": {
+  "name": "Nginx: nginx-http2-vulnerability-disclosure",
+  "family_slug": "nginx",
+  "family_display": "Nginx: nginx-http2-vulnerability-disclosure",
+  "model_slug": "nginx",
+  "model_display": "Nginx: nginx-http2-vulnerability-disclosure",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "nginx-http2-vulnerability-disclosure",
+  "thread_display": "Nginx Http2 Vulnerability Disclosure",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Nginx: nginx-http2-vulnerability-disclosure",
+  "article_url": "https://happyin.space/projects/nginx/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1abdcdbc1674c837dcc47601e5ac4a8d39a6bbf6/docs/projects/nginx.md",
+  "agent_context_url": "https://happyin.space/projects/nginx/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "NGINX releases security patches for HTTP/2 vulnerabilities CVE-2026-123007 and CVE-2026-123633",
+  "version": null,
+  "summary": "NGINX versions 1.30.7 and 1.31.9 resolve memory-corruption and use-after-free vulnerabilities in the HTTP/2 module that could allow unauthenticated remote code execution on servers with HTTP/2 enabled."
+ },
+ "tags": [
+  "Nginx: nginx-http2-vulnerability-disclosure",
+  "family:nginx",
+  "misc",
+  "nginx",
+  "nginx-http2-vulnerability-disclosure"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "nginx"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "host": "wiz.io",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T07:32:46Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "NGINX versions 1.30.7 and 1.31.9 resolve memory-corruption and use-after-free vulnerabilities in the HTTP/2 module that could allow unauthenticated remote code execution on servers with HTTP/2 enabled."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T07:32:46Z",
+  "classified_at": "2026-11-20T07:32:46Z",
+  "enriched_at": "2026-11-20T07:32:46Z",
+  "verified_at": "2026-11-20T07:32:46Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
