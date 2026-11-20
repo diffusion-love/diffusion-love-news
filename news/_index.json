@@ -417,6 +417,25 @@
     "has_video": false
   },
   {
+    "id": "n-cb0846b088",
+    "date": "2026-11-18",
+    "title": "Hy4 Flash released for high-throughput agent workflows",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "hy4-flash",
+    "version": null,
+    "tags": [
+      "Hy4 Flash: hy4-flash-release",
+      "family:hy4-flash",
+      "hy4-flash",
+      "hy4-flash-release",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-c98f6e2cbf",
     "date": "2026-11-18",
     "title": "Kling Image 4.0 debuts unified understanding and generation architecture",
@@ -432,6 +451,25 @@
       "kling-image-4-release"
     ],
     "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-c607593781",
+    "date": "2026-11-18",
+    "title": "Tencent releases open-weights Hy4 Flash MoE model",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "hy4-flash",
+    "version": null,
+    "tags": [
+      "Hy4 Flash: hy4-flash-release",
+      "family:hy4-flash",
+      "hy4-flash",
+      "hy4-flash-release",
+      "llm"
+    ],
+    "primary_link": "https://huggingface.co/tencent/Hy4-flash",
     "has_image": false,
     "has_video": false
   },
@@ -550,6 +588,25 @@
     "has_video": false
   },
   {
+    "id": "n-6002e62c56",
+    "date": "2026-11-18",
+    "title": "Hy4 Flash code and weights published on Hugging Face and GitHub",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "hy4-flash",
+    "version": null,
+    "tags": [
+      "Hy4 Flash: hy4-flash-release",
+      "family:hy4-flash",
+      "hy4-flash",
+      "hy4-flash-release",
+      "misc"
+    ],
+    "primary_link": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-4cee766be7",
     "date": "2026-11-18",
     "title": "StepRefine repository published for diffusion LLM hallucination mitigation",
@@ -602,6 +659,25 @@
       "q-ant"
     ],
     "primary_link": "https://habr.com/ru/companies/selectel/articles/1109180/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-2f21e893b0",
+    "date": "2026-11-18",
+    "title": "Hy4 Flash open weights and community GGUF quantizations published",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "hy4-flash",
+    "version": null,
+    "tags": [
+      "Hy4 Flash: hy4-flash-release",
+      "family:hy4-flash",
+      "hy4-flash",
+      "hy4-flash-release",
+      "misc"
+    ],
+    "primary_link": "https://huggingface.co/tencent/Hy4-flash",
     "has_image": false,
     "has_video": false
   },

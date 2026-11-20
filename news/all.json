@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-20T12:13:01Z",
+  "generated_at": "2026-11-20T12:23:38Z",
   "site": "diffusion.love",
-  "total": 1009,
+  "total": 1013,
   "records": [
     {
       "schema_version": "1.4",
@@ -2455,6 +2455,129 @@
     },
     {
       "schema_version": "1.4",
+      "id": "n-cb0846b088",
+      "entry_type": "news",
+      "category": "tools-frontend",
+      "lang": "en",
+      "title": "Hy4 Flash released for high-throughput agent workflows",
+      "summary": "Tencent released Hy4 Flash model weights supporting multimodal document comprehension, long-context reasoning, and computer-use agent tasks with reduced KV cache overhead.",
+      "research_notes": "Clone the official repository or install supported inference runtimes such as vLLM and Transformers.\n\nDownload model weights from Hugging Face for the desired variant, such as tencent/Hy4-flash for general instruction following or tencent/Hy4-flash-FP8 for memory-efficient deployment.\n\nFor consumer multi-GPU or high-memory local systems, download quantized GGUF weights from AngelSlim/Hy4-flash-GGUF and run via compatible llama.cpp or text-generation loaders.\n\nDeploy the FP8 quantized checkpoint or enable speculative decoding with the DFly draft head to maximize throughput above 150 tokens per second while managing VRAM consumption.\n\nEnsure adequate GPU memory allocations when loading the 1M context window, noting that KV cache size is optimized to 1/6 of Hy4 via hybrid attention.\n\nFor local workstations, allocate at least 126 GB of aggregate VRAM across GPUs when using the IQ2 quantization format to prevent out-of-memory errors during offload.",
+      "project": {
+        "name": "Hy4 Flash: hy4-flash-release",
+        "family_slug": "hy4-flash",
+        "family_display": "Hy4 Flash: hy4-flash-release",
+        "model_slug": "hy4-flash",
+        "model_display": "Hy4 Flash: hy4-flash-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "hy4-flash-release",
+        "thread_display": "Hy4 Flash Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Hy4 Flash: hy4-flash-release",
+        "article_url": "https://happyin.space/projects/hy4-flash/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/62909b5d78111acda2cf70afb2a6e1414288afed/docs/projects/hy4-flash.md",
+        "agent_context_url": "https://happyin.space/projects/hy4-flash/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Hy4 Flash released for high-throughput agent workflows",
+        "version": null,
+        "summary": "Tencent released Hy4 Flash model weights supporting multimodal document comprehension, long-context reasoning, and computer-use agent tasks with reduced KV cache overhead."
+      },
+      "tags": [
+        "Hy4 Flash: hy4-flash-release",
+        "family:hy4-flash",
+        "hy4-flash",
+        "hy4-flash-release",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "projects": [
+          "hy4-flash"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/AngelSlim/Hy4-flash-GGUF",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/tencent/Hy4-flash",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Tencent released Hy4 Flash model weights supporting multimodal document comprehension, long-context reasoning, and computer-use agent tasks with reduced KV cache overhead."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T12:23:38Z",
+        "classified_at": "2026-11-20T12:23:38Z",
+        "enriched_at": "2026-11-20T12:23:38Z",
+        "verified_at": "2026-11-20T12:23:38Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
       "id": "n-c98f6e2cbf",
       "entry_type": "news",
       "category": "diffusion-image",
@@ -2561,6 +2684,129 @@
         "classified_at": "2026-11-19T17:54:20Z",
         "enriched_at": "2026-11-19T17:54:20Z",
         "verified_at": "2026-11-19T17:54:20Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-c607593781",
+      "entry_type": "news",
+      "category": "llm",
+      "lang": "en",
+      "title": "Tencent releases open-weights Hy4 Flash MoE model",
+      "summary": "Tencent published open weights for Hy4 Flash, a 224B parameter multimodal Mixture-of-Experts model activating 12B parameters per token, featuring 1M context window and FP8 checkpointing.",
+      "research_notes": "Clone the official repository or install supported inference runtimes such as vLLM and Transformers.\n\nDownload model weights from Hugging Face for the desired variant, such as tencent/Hy4-flash for general instruction following or tencent/Hy4-flash-FP8 for memory-efficient deployment.\n\nFor consumer multi-GPU or high-memory local systems, download quantized GGUF weights from AngelSlim/Hy4-flash-GGUF and run via compatible llama.cpp or text-generation loaders.\n\nDeploy the FP8 quantized checkpoint or enable speculative decoding with the DFly draft head to maximize throughput above 150 tokens per second while managing VRAM consumption.\n\nEnsure adequate GPU memory allocations when loading the 1M context window, noting that KV cache size is optimized to 1/6 of Hy4 via hybrid attention.\n\nFor local workstations, allocate at least 126 GB of aggregate VRAM across GPUs when using the IQ2 quantization format to prevent out-of-memory errors during offload.",
+      "project": {
+        "name": "Hy4 Flash: hy4-flash-release",
+        "family_slug": "hy4-flash",
+        "family_display": "Hy4 Flash: hy4-flash-release",
+        "model_slug": "hy4-flash",
+        "model_display": "Hy4 Flash: hy4-flash-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "hy4-flash-release",
+        "thread_display": "Hy4 Flash Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Hy4 Flash: hy4-flash-release",
+        "article_url": "https://happyin.space/projects/hy4-flash/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/62909b5d78111acda2cf70afb2a6e1414288afed/docs/projects/hy4-flash.md",
+        "agent_context_url": "https://happyin.space/projects/hy4-flash/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Tencent releases open-weights Hy4 Flash MoE model",
+        "version": null,
+        "summary": "Tencent published open weights for Hy4 Flash, a 224B parameter multimodal Mixture-of-Experts model activating 12B parameters per token, featuring 1M context window and FP8 checkpointing."
+      },
+      "tags": [
+        "Hy4 Flash: hy4-flash-release",
+        "family:hy4-flash",
+        "hy4-flash",
+        "hy4-flash-release",
+        "llm"
+      ],
+      "facets": {
+        "category": "llm",
+        "entry_type": "news",
+        "projects": [
+          "hy4-flash"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/tencent/Hy4-flash",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        },
+        {
+          "kind": "code",
+          "url": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/AngelSlim/Hy4-flash-GGUF",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Tencent published open weights for Hy4 Flash, a 224B parameter multimodal Mixture-of-Experts model activating 12B parameters per token, featuring 1M context window and FP8 checkpointing."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T12:23:38Z",
+        "classified_at": "2026-11-20T12:23:38Z",
+        "enriched_at": "2026-11-20T12:23:38Z",
+        "verified_at": "2026-11-20T12:23:38Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -3212,6 +3458,129 @@
     },
     {
       "schema_version": "1.4",
+      "id": "n-6002e62c56",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Hy4 Flash code and weights published on Hugging Face and GitHub",
+      "summary": "Open weights and deployment scripts for Hy4 Flash base, instruct, and FP8 variants were published across Hugging Face and GitHub under the Tencent Hy License.",
+      "research_notes": "Clone the official repository or install supported inference runtimes such as vLLM and Transformers.\n\nDownload model weights from Hugging Face for the desired variant, such as tencent/Hy4-flash for general instruction following or tencent/Hy4-flash-FP8 for memory-efficient deployment.\n\nFor consumer multi-GPU or high-memory local systems, download quantized GGUF weights from AngelSlim/Hy4-flash-GGUF and run via compatible llama.cpp or text-generation loaders.\n\nDeploy the FP8 quantized checkpoint or enable speculative decoding with the DFly draft head to maximize throughput above 150 tokens per second while managing VRAM consumption.\n\nEnsure adequate GPU memory allocations when loading the 1M context window, noting that KV cache size is optimized to 1/6 of Hy4 via hybrid attention.\n\nFor local workstations, allocate at least 126 GB of aggregate VRAM across GPUs when using the IQ2 quantization format to prevent out-of-memory errors during offload.",
+      "project": {
+        "name": "Hy4 Flash: hy4-flash-release",
+        "family_slug": "hy4-flash",
+        "family_display": "Hy4 Flash: hy4-flash-release",
+        "model_slug": "hy4-flash",
+        "model_display": "Hy4 Flash: hy4-flash-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "hy4-flash-release",
+        "thread_display": "Hy4 Flash Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Hy4 Flash: hy4-flash-release",
+        "article_url": "https://happyin.space/projects/hy4-flash/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/62909b5d78111acda2cf70afb2a6e1414288afed/docs/projects/hy4-flash.md",
+        "agent_context_url": "https://happyin.space/projects/hy4-flash/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Hy4 Flash code and weights published on Hugging Face and GitHub",
+        "version": null,
+        "summary": "Open weights and deployment scripts for Hy4 Flash base, instruct, and FP8 variants were published across Hugging Face and GitHub under the Tencent Hy License."
+      },
+      "tags": [
+        "Hy4 Flash: hy4-flash-release",
+        "family:hy4-flash",
+        "hy4-flash",
+        "hy4-flash-release",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "hy4-flash"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/AngelSlim/Hy4-flash-GGUF",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/tencent/Hy4-flash",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Open weights and deployment scripts for Hy4 Flash base, instruct, and FP8 variants were published across Hugging Face and GitHub under the Tencent Hy License."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T12:23:38Z",
+        "classified_at": "2026-11-20T12:23:38Z",
+        "enriched_at": "2026-11-20T12:23:38Z",
+        "verified_at": "2026-11-20T12:23:38Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
       "id": "n-4cee766be7",
       "entry_type": "news",
       "category": "llm",
@@ -3549,6 +3918,129 @@
         "classified_at": "2026-11-19T21:34:46Z",
         "enriched_at": "2026-11-19T21:34:46Z",
         "verified_at": "2026-11-19T21:34:46Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-2f21e893b0",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Hy4 Flash open weights and community GGUF quantizations published",
+      "summary": "Open weights for Hy4 Flash were released alongside community GGUF quantizations, enabling local multi-GPU execution with VRAM requirements starting at 126 GB for IQ2 quantization.",
+      "research_notes": "Clone the official repository or install supported inference runtimes such as vLLM and Transformers.\n\nDownload model weights from Hugging Face for the desired variant, such as tencent/Hy4-flash for general instruction following or tencent/Hy4-flash-FP8 for memory-efficient deployment.\n\nFor consumer multi-GPU or high-memory local systems, download quantized GGUF weights from AngelSlim/Hy4-flash-GGUF and run via compatible llama.cpp or text-generation loaders.\n\nDeploy the FP8 quantized checkpoint or enable speculative decoding with the DFly draft head to maximize throughput above 150 tokens per second while managing VRAM consumption.\n\nEnsure adequate GPU memory allocations when loading the 1M context window, noting that KV cache size is optimized to 1/6 of Hy4 via hybrid attention.\n\nFor local workstations, allocate at least 126 GB of aggregate VRAM across GPUs when using the IQ2 quantization format to prevent out-of-memory errors during offload.",
+      "project": {
+        "name": "Hy4 Flash: hy4-flash-release",
+        "family_slug": "hy4-flash",
+        "family_display": "Hy4 Flash: hy4-flash-release",
+        "model_slug": "hy4-flash",
+        "model_display": "Hy4 Flash: hy4-flash-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "hy4-flash-release",
+        "thread_display": "Hy4 Flash Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Hy4 Flash: hy4-flash-release",
+        "article_url": "https://happyin.space/projects/hy4-flash/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/62909b5d78111acda2cf70afb2a6e1414288afed/docs/projects/hy4-flash.md",
+        "agent_context_url": "https://happyin.space/projects/hy4-flash/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Hy4 Flash open weights and community GGUF quantizations published",
+        "version": null,
+        "summary": "Open weights for Hy4 Flash were released alongside community GGUF quantizations, enabling local multi-GPU execution with VRAM requirements starting at 126 GB for IQ2 quantization."
+      },
+      "tags": [
+        "Hy4 Flash: hy4-flash-release",
+        "family:hy4-flash",
+        "hy4-flash",
+        "hy4-flash-release",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "hy4-flash"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/tencent/Hy4-flash",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/AngelSlim/Hy4-flash-GGUF",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        },
+        {
+          "kind": "code",
+          "url": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:23:38Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Open weights for Hy4 Flash were released alongside community GGUF quantizations, enabling local multi-GPU execution with VRAM requirements starting at 126 GB for IQ2 quantization."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T12:23:38Z",
+        "classified_at": "2026-11-20T12:23:38Z",
+        "enriched_at": "2026-11-20T12:23:38Z",
+        "verified_at": "2026-11-20T12:23:38Z",
         "models_used": {
           "research": "curated-live-material"
         },
