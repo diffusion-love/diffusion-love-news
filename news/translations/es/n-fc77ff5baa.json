@@ -1,0 +1,11 @@
+{
+ "id": "n-fc77ff5baa",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Instale el cliente de escritorio de Gemini para macOS en un Mac con Apple Silicon e inicie sesión con una cuenta de suscripción de pago de Google AI.\n\nConceda permisos de Accesibilidad y de control de pantalla en Ajustes del Sistema de macOS y añada a la lista blanca las aplicaciones de escritorio de destino en la configuración de Gemini.\n\nEnvíe en el panel de chat una instrucción de automatización de varios pasos que describa el flujo de trabajo deseado con archivos locales, formularios o aplicaciones.\n\nSupervise la ejecución a través de la ventana de vista previa en vivo aislada y confirme cualquier solicitud sensible de inicio de sesión o de transacción.\n\nConceda acceso a las aplicaciones de forma selectiva, a aplicaciones de destino concretas, en lugar de conceder acceso irrestricto al sistema.\n\nMantenga abierto el panel de vista previa en vivo del chat durante las tareas complejas para supervisar la navegación del agente y detenga la ejecución de inmediato si se producen errores.\n\nMantenga las solicitudes de aprobación manual obligatorias para los puntos de control de autenticación, el envío de credenciales y las transacciones financieras.",
+ "source_sha256": "401c1a86c10d534ff1c324cc1551551b03647e1181ba16efa7a69b0139483700",
+ "summary": "Google ha lanzado un agente de uso del ordenador para la aplicación de Gemini en macOS que ejecuta flujos de trabajo de escritorio y de aplicaciones de varios pasos dentro de una ventana aislada en segundo plano en sistemas Apple Silicon.",
+ "title": "Google añade un agente de uso del ordenador en segundo plano al cliente de Gemini para macOS",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

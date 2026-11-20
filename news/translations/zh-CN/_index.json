@@ -3189,6 +3189,11 @@
   "title": "MemPalace：面向LLM的高效无限记忆压缩",
   "translated_at": "2026-10-24"
  },
+ "n-a38742d6ad": {
+  "fresh": true,
+  "title": "纳德拉澄清自愿买断计划，同时推进智能体驱动的开发转型",
+  "translated_at": "2026-11-20"
+ },
  "n-a3aa871dfa": {
   "fresh": true,
   "title": "用于 Colab 上 Gemma 4 微调的 Unsloth Studio",
@@ -4893,6 +4898,11 @@
   "fresh": true,
   "title": "IceCache：面向长上下文大语言模型的内存高效语义 KV 缓存",
   "translated_at": "2026-10-24"
+ },
+ "n-fc77ff5baa": {
+  "fresh": true,
+  "title": "谷歌为 Gemini macOS 客户端新增后台计算机使用智能体",
+  "translated_at": "2026-11-20"
  },
  "n-fcae5fc646": {
   "fresh": true,

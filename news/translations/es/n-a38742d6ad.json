@@ -1,0 +1,11 @@
+{
+ "id": "n-a38742d6ad",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Estructure los grupos de ingeniería de software en equipos compactos que dirijan y validen agentes autónomos, en lugar de aumentar la plantilla dedicada a la programación manual.\n\nTransicione las responsabilidades de los desarrolladores desde la escritura de código de implementación línea por línea hacia la gestión, orquestación y evaluación de los resultados de agentes de inteligencia artificial.",
+ "source_sha256": "9a1aae83180d5ac4129388ea479076de3bef594c0258555073fbc22b02e98dc3",
+ "summary": "Microsoft ofreció opciones de salida voluntaria a los empleados elegibles mientras el desarrollo de software avanza hacia equipos compactos que gestionan agentes de inteligencia artificial, aclarando que la medida brinda margen de decisión durante la reestructuración en lugar de despidos masivos forzosos.",
+ "title": "Nadella aclara el programa de bajas voluntarias en medio del cambio hacia el desarrollo impulsado por agentes",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

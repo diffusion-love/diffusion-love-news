@@ -1,0 +1,11 @@
+{
+ "id": "n-fc77ff5baa",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installez le client de bureau Gemini pour macOS sur un Mac équipé d'une puce Apple Silicon et connectez-vous avec un compte d'abonnement Google AI payant.\n\nAccordez les autorisations d'accessibilité et de contrôle de l'écran dans les Réglages Système de macOS, et ajoutez à la liste blanche les applications de bureau ciblées dans les paramètres de Gemini.\n\nSoumettez, dans le panneau de discussion, une invite d'automatisation en plusieurs étapes décrivant le flux de travail souhaité sur le fichier local, le formulaire ou l'application concernés.\n\nSuivez l'exécution dans la fenêtre d'aperçu en direct isolée et confirmez toute invite sensible de connexion ou de transaction.\n\nAccordez l'accès aux applications de manière sélective, à des applications cibles précises, plutôt que d'accorder un accès système sans restriction.\n\nGardez ouvert le panneau d'aperçu en direct de la discussion lors des tâches complexes afin de suivre la navigation de l'agent et de suspendre immédiatement l'exécution en cas d'erreur.\n\nMaintenez les demandes d'approbation manuelle obligatoires pour les points de contrôle d'authentification, la soumission d'identifiants et les transactions financières.",
+ "source_sha256": "401c1a86c10d534ff1c324cc1551551b03647e1181ba16efa7a69b0139483700",
+ "summary": "Google a lancé un agent d'utilisation de l'ordinateur pour l'application macOS de Gemini, capable d'exécuter des flux de travail multi-étapes sur le bureau et dans les applications, au sein d'une fenêtre isolée en arrière-plan, sur les systèmes Apple Silicon.",
+ "title": "Google ajoute un agent d'utilisation de l'ordinateur en arrière-plan au client macOS de Gemini",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

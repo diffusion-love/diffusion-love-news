@@ -3189,6 +3189,11 @@
   "title": "MemPalace: Effiziente unendliche Speicherkompression für LLMs",
   "translated_at": "2026-10-24"
  },
+ "n-a38742d6ad": {
+  "fresh": true,
+  "title": "Nadella stellt freiwilliges Abfindungsprogramm im Zuge des Wandels zu agentengetriebener Entwicklung klar",
+  "translated_at": "2026-11-20"
+ },
  "n-a3aa871dfa": {
   "fresh": true,
   "title": "Unsloth Studio für das Fine-Tuning von Gemma 4 auf Colab",
@@ -4893,6 +4898,11 @@
   "fresh": true,
   "title": "IceCache: Speichereffizienter semantischer KV-Cache für lange LLMs",
   "translated_at": "2026-10-24"
+ },
+ "n-fc77ff5baa": {
+  "fresh": true,
+  "title": "Google ergänzt den Gemini-macOS-Client um einen Computer-Use-Agenten im Hintergrund",
+  "translated_at": "2026-11-20"
  },
  "n-fcae5fc646": {
   "fresh": true,

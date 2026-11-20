@@ -3022,6 +3022,11 @@
   "summary": "Un système de mémoire IA local-first qui s'appuie sur un chemin d'écriture sans inférence LLM et sur un stockage hiérarchique pour conserver un contexte à long terme privilégiant le texte verbatim. Il emploie un dialecte de compression personnalisé, AAAK, pour atteindre une densité de données 30x adaptée à la lisibilité par les LLM.",
   "title": "MemPalace : mémoire infinie et efficace par compression pour LLM"
  },
+ "n-a38742d6ad": {
+  "research_notes": "Structurer les équipes d'ingénierie logicielle en groupes compacts qui dirigent et valident des agents autonomes, plutôt que d'augmenter les effectifs de programmation manuelle.\n\nFaire évoluer les responsabilités des développeurs, de l'écriture de code d'implémentation ligne par ligne vers la gestion, l'orchestration et l'évaluation des productions d'agents d'intelligence artificielle.",
+  "summary": "Microsoft a proposé des options de départ volontaire aux salariés éligibles, alors que le développement logiciel évolue vers des équipes compactes chargées de piloter des agents d'intelligence artificielle, en précisant que cette démarche offre une marge de choix pendant la restructuration plutôt que des licenciements collectifs imposés.",
+  "title": "Nadella précise le programme de départs volontaires alors que le développement se tourne vers les agents"
+ },
  "n-a3aa871dfa": {
   "evolution_summary": "Étendu du fine-tuning de LLM à la prise en charge des variantes multimodales vision/audio de Gemma 4 ainsi qu'à l'apprentissage par renforcement GRPO. Intégré à l'écosystème PyTorch officiel en mai 2026.",
   "research_notes": "Prend en charge les GPU T4 gratuits de Google Colab pour les modèles Gemma 4 E2B et E4B.",
@@ -4693,6 +4698,11 @@
   "research_notes": "Atteint 99 % de précision sur les benchmarks LongBench tout en n'utilisant que 256 tokens dans le cache GPU actif.",
   "summary": "IceCache réorganise le KV-cache grâce à un regroupement sémantique des tokens et à un indexage hiérarchique afin d'optimiser l'inférence des LLM à long contexte. En chargeant sélectivement les pages de cache pertinentes depuis le CPU vers le GPU, il conserve une précision élevée tout en réduisant considérablement l'empreinte mémoire sur GPU.",
   "title": "IceCache : un KV-cache sémantique économe en mémoire pour les LLM à long contexte"
+ },
+ "n-fc77ff5baa": {
+  "research_notes": "Installez le client de bureau Gemini pour macOS sur un Mac équipé d'une puce Apple Silicon et connectez-vous avec un compte d'abonnement Google AI payant.\n\nAccordez les autorisations d'accessibilité et de contrôle de l'écran dans les Réglages Système de macOS, et ajoutez à la liste blanche les applications de bureau ciblées dans les paramètres de Gemini.\n\nSoumettez, dans le panneau de discussion, une invite d'automatisation en plusieurs étapes décrivant le flux de travail souhaité sur le fichier local, le formulaire ou l'application concernés.\n\nSuivez l'exécution dans la fenêtre d'aperçu en direct isolée et confirmez toute invite sensible de connexion ou de transaction.\n\nAccordez l'accès aux applications de manière sélective, à des applications cibles précises, plutôt que d'accorder un accès système sans restriction.\n\nGardez ouvert le panneau d'aperçu en direct de la discussion lors des tâches complexes afin de suivre la navigation de l'agent et de suspendre immédiatement l'exécution en cas d'erreur.\n\nMaintenez les demandes d'approbation manuelle obligatoires pour les points de contrôle d'authentification, la soumission d'identifiants et les transactions financières.",
+  "summary": "Google a lancé un agent d'utilisation de l'ordinateur pour l'application macOS de Gemini, capable d'exécuter des flux de travail multi-étapes sur le bureau et dans les applications, au sein d'une fenêtre isolée en arrière-plan, sur les systèmes Apple Silicon.",
+  "title": "Google ajoute un agent d'utilisation de l'ordinateur en arrière-plan au client macOS de Gemini"
  },
  "n-fcae5fc646": {
   "summary": "Le 20 juillet 2026, un message daté a renvoyé vers le dépôt GitHub de Qualcomm AI Research consacré à MobileWan ainsi que vers sa page Hugging Face. Il s'agit d'une étape notable du point de vue du public, car les praticiens peuvent désormais trouver le code du projet et les ressources hébergées. Les éléments fournis ne permettent pas d'établir le contenu de la publication, sa version ni ses capacités.",
