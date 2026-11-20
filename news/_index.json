@@ -37,6 +37,25 @@
     "has_video": false
   },
   {
+    "id": "n-b65cdf0a31",
+    "date": "2026-11-19",
+    "title": "Osmo develops AI olfaction system and tests authentication use cases",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Osmo: osmo-ai-smell-model-development",
+      "misc",
+      "organization:osmo",
+      "osmo",
+      "osmo-ai-smell-model-development"
+    ],
+    "primary_link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-a32e5b01bc",
     "date": "2026-11-19",
     "title": "Comfy Cloud adds custom builds with node and LoRA support",

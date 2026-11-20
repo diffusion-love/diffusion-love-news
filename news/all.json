@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-20T01:26:58Z",
+  "generated_at": "2026-11-20T06:17:08Z",
   "site": "diffusion.love",
-  "total": 1350,
+  "total": 1351,
   "records": [
     {
       "schema_version": "1.4",
@@ -216,6 +216,115 @@
         "classified_at": "2026-11-20T01:26:58Z",
         "enriched_at": "2026-11-20T01:26:58Z",
         "verified_at": "2026-11-20T01:26:58Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-b65cdf0a31",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Osmo develops AI olfaction system and tests authentication use cases",
+      "summary": "Osmo trained graph neural networks to predict scent profiles from chemical structures and paired the models with automated formulation equipment. The technology was also tested with StockX to identify counterfeit sneakers by analyzing volatile adhesive vapors.",
+      "research_notes": "Sample volatile organic compounds from physical items or environmental air using portable gas chromatography and mass spectrometry sensor hardware.\n\nProcess chemical data through graph neural network models to map identified molecular structures to scent descriptor dimensions on the Principal Odor Map.\n\nCompare the resulting chemical profile against verified material libraries for authenticity classification or transmit coordinates to automated mixing machinery for scent reproduction.\n\nControl for temperature, airflow, and background ambient odors during vapor collection to prevent volatile contaminants from distorting chemical detection.\n\nValidate algorithmic odor predictions against sensory panel benchmarks and gas chromatography controls rather than evaluating molecular structures in isolation.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "osmo",
+        "display": "Osmo: osmo-ai-smell-model-development",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "osmo-ai-smell-model-development",
+        "thread_display": "Osmo Ai Smell Model Development",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Osmo: osmo-ai-smell-model-development",
+        "article_url": "https://happyin.space/organizations/osmo/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1012dd1002826299a47d1370f362d6702deedd4f/docs/organizations/osmo.md",
+        "agent_context_url": "https://happyin.space/organizations/osmo/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Osmo develops AI olfaction system and tests authentication use cases",
+        "version": null,
+        "summary": "Osmo trained graph neural networks to predict scent profiles from chemical structures and paired the models with automated formulation equipment. The technology was also tested with StockX to identify counterfeit sneakers by analyzing volatile adhesive vapors."
+      },
+      "tags": [
+        "Osmo: osmo-ai-smell-model-development",
+        "misc",
+        "organization:osmo",
+        "osmo",
+        "osmo-ai-smell-model-development"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "osmo"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+          "host": "technologyreview.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T06:17:08Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Osmo trained graph neural networks to predict scent profiles from chemical structures and paired the models with automated formulation equipment. The technology was also tested with StockX to identify counterfeit sneakers by analyzing volatile adhesive vapors."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T06:17:08Z",
+        "classified_at": "2026-11-20T06:17:08Z",
+        "enriched_at": "2026-11-20T06:17:08Z",
+        "verified_at": "2026-11-20T06:17:08Z",
         "models_used": {
           "research": "curated-live-material"
         },

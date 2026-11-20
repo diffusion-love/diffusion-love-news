@@ -2452,6 +2452,9 @@
   "Ornith-1.5": [
     "n-ad1e6a3d0c"
   ],
+  "Osmo: osmo-ai-smell-model-development": [
+    "n-b65cdf0a31"
+  ],
   "Otus": [
     "n-2980d7228f",
     "n-23c78ae54f"
@@ -11591,6 +11594,7 @@
     "n-b79dee5163",
     "n-b6851c60f8",
     "n-b66c6b5fe8",
+    "n-b65cdf0a31",
     "n-b63f0f79e7",
     "n-b636bdc989",
     "n-b621424fc3",
@@ -14103,6 +14107,9 @@
     "n-5e3859fa47",
     "n-04bc8d2a40"
   ],
+  "organization:osmo": [
+    "n-b65cdf0a31"
+  ],
   "organization:q-ant": [
     "n-f686305d6a",
     "n-30e2413dd3"
@@ -14135,6 +14142,12 @@
   ],
   "ornith-1-5": [
     "n-ad1e6a3d0c"
+  ],
+  "osmo": [
+    "n-b65cdf0a31"
+  ],
+  "osmo-ai-smell-model-development": [
+    "n-b65cdf0a31"
   ],
   "otus": [
     "n-2980d7228f",
