@@ -2072,6 +2072,10 @@
   "OpenWorker": [
     "n-e3b0bbbd83"
   ],
+  "Opencode": [
+    "n-5e913ae316",
+    "n-52bae6b01d"
+  ],
   "OrbitSheets": [
     "n-7328495c92"
   ],
@@ -6295,6 +6299,10 @@
   "family:openai": [
     "n-303168f615"
   ],
+  "family:opencode": [
+    "n-5e913ae316",
+    "n-52bae6b01d"
+  ],
   "family:opencut": [
     "n-fe5aa54dca"
   ],
@@ -9621,6 +9629,7 @@
     "n-5f58046d55",
     "n-5efefc3953",
     "n-5ee5b179bf",
+    "n-5e913ae316",
     "n-5dc5be210a",
     "n-5d775dee1a",
     "n-5d5fa885b6",
@@ -9641,6 +9650,7 @@
     "n-54505b5f46",
     "n-5353f88f44",
     "n-5319c89cd3",
+    "n-52bae6b01d",
     "n-520de897dc",
     "n-51a9d6c3d6",
     "n-4fb87f050c",
@@ -10702,6 +10712,14 @@
   ],
   "openai_reasoning": [
     "n-303168f615"
+  ],
+  "opencode": [
+    "n-5e913ae316",
+    "n-52bae6b01d"
+  ],
+  "opencode-development": [
+    "n-5e913ae316",
+    "n-52bae6b01d"
   ],
   "opencut": [
     "n-fe5aa54dca"

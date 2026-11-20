@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-20T09:43:32Z",
+  "generated_at": "2026-11-20T09:49:28Z",
   "site": "diffusion.love",
-  "total": 1003,
+  "total": 1005,
   "records": [
     {
       "schema_version": "1.4",
@@ -1216,6 +1216,138 @@
     },
     {
       "schema_version": "1.4",
+      "id": "n-5e913ae316",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "OpenCode releases mobile companion app for remote desktop sessions",
+      "summary": "OpenCode released companion mobile applications for iOS and Android, enabling developers to monitor active desktop agent sessions, approve tool execution permissions, inspect file diffs, and submit text or voice input remotely via OpenTunnel.",
+      "research_notes": "Install OpenCode locally and launch the CLI or background daemon on your development workstation.\n\nRun opencode pair --remote in the terminal to generate an OpenTunnel pairing QR code and connection URL.\n\nInstall the OpenCode companion app on Android from Google Play or on iOS via TestFlight.\n\nScan the pairing QR code within the mobile app to connect to the active desktop session, review tool calls, and approve permissions remotely.\n\nKeep the host machine and local OpenCode terminal session running in a persistent process or shell multiplexer so the mobile client can maintain its connection over OpenTunnel.\n\nVerify agent tool execution prompts and file diff changes on the mobile client interface before granting authorization to run bash commands or modify repositories.\n\nUse mobile voice dictation primarily for conceptual follow-ups, prompt adjustments, and status reviews rather than full mobile code authoring.",
+      "project": {
+        "name": "Opencode",
+        "family_slug": "opencode",
+        "family_display": "Opencode",
+        "model_slug": "opencode",
+        "model_display": "Opencode",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "opencode-development",
+        "thread_display": "Opencode Development",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Opencode",
+        "article_url": "https://happyin.space/projects/opencode/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/dd3a5b280f99858506a06a8d46ffe94c99a9b5fe/docs/projects/opencode.md",
+        "agent_context_url": "https://happyin.space/projects/opencode/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "OpenCode releases mobile companion app for remote desktop sessions",
+        "version": null,
+        "summary": "OpenCode released companion mobile applications for iOS and Android, enabling developers to monitor active desktop agent sessions, approve tool execution permissions, inspect file diffs, and submit text or voice input remotely via OpenTunnel."
+      },
+      "tags": [
+        "Opencode",
+        "family:opencode",
+        "misc",
+        "opencode",
+        "opencode-development"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "opencode"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://opencode.ai/mobile",
+          "host": "opencode.ai",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T09:49:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://play.google.com/store/apps/details?id=ai.opencode.mobilecode",
+          "host": "play.google.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T09:49:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://testflight.apple.com/join/M9eFEE1q",
+          "host": "testflight.apple.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T09:49:28Z"
+        },
+        {
+          "kind": "code",
+          "url": "https://github.com/anomalyco/opencode",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T09:49:28Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "OpenCode released companion mobile applications for iOS and Android, enabling developers to monitor active desktop agent sessions, approve tool execution permissions, inspect file diffs, and submit text or voice input remotely via OpenTunnel."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T09:49:28Z",
+        "classified_at": "2026-11-20T09:49:28Z",
+        "enriched_at": "2026-11-20T09:49:28Z",
+        "verified_at": "2026-11-20T09:49:28Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
       "id": "n-5524914633",
       "entry_type": "news",
       "category": "misc",
@@ -1313,6 +1445,138 @@
         "classified_at": "2026-11-20T07:32:46Z",
         "enriched_at": "2026-11-20T07:32:46Z",
         "verified_at": "2026-11-20T07:32:46Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-52bae6b01d",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "OpenCode launches companion mobile clients on Google Play and TestFlight",
+      "summary": "OpenCode launched companion mobile clients on Google Play and Apple TestFlight that connect to local terminal sessions via QR pairing or OpenTunnel, supporting remote supervision and permission approvals.",
+      "research_notes": "Install OpenCode locally and launch the CLI or background daemon on your development workstation.\n\nRun opencode pair --remote in the terminal to generate an OpenTunnel pairing QR code and connection URL.\n\nInstall the OpenCode companion app on Android from Google Play or on iOS via TestFlight.\n\nScan the pairing QR code within the mobile app to connect to the active desktop session, review tool calls, and approve permissions remotely.\n\nKeep the host machine and local OpenCode terminal session running in a persistent process or shell multiplexer so the mobile client can maintain its connection over OpenTunnel.\n\nVerify agent tool execution prompts and file diff changes on the mobile client interface before granting authorization to run bash commands or modify repositories.\n\nUse mobile voice dictation primarily for conceptual follow-ups, prompt adjustments, and status reviews rather than full mobile code authoring.",
+      "project": {
+        "name": "Opencode",
+        "family_slug": "opencode",
+        "family_display": "Opencode",
+        "model_slug": "opencode",
+        "model_display": "Opencode",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "opencode-development",
+        "thread_display": "Opencode Development",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Opencode",
+        "article_url": "https://happyin.space/projects/opencode/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/dd3a5b280f99858506a06a8d46ffe94c99a9b5fe/docs/projects/opencode.md",
+        "agent_context_url": "https://happyin.space/projects/opencode/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "OpenCode launches companion mobile clients on Google Play and TestFlight",
+        "version": null,
+        "summary": "OpenCode launched companion mobile clients on Google Play and Apple TestFlight that connect to local terminal sessions via QR pairing or OpenTunnel, supporting remote supervision and permission approvals."
+      },
+      "tags": [
+        "Opencode",
+        "family:opencode",
+        "misc",
+        "opencode",
+        "opencode-development"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "opencode"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://opencode.ai/mobile",
+          "host": "opencode.ai",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T09:49:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://play.google.com/store/apps/details?id=ai.opencode.mobilecode",
+          "host": "play.google.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T09:49:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://testflight.apple.com/join/M9eFEE1q",
+          "host": "testflight.apple.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T09:49:28Z"
+        },
+        {
+          "kind": "code",
+          "url": "https://github.com/anomalyco/opencode",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T09:49:28Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "OpenCode launched companion mobile clients on Google Play and Apple TestFlight that connect to local terminal sessions via QR pairing or OpenTunnel, supporting remote supervision and permission approvals."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T09:49:28Z",
+        "classified_at": "2026-11-20T09:49:28Z",
+        "enriched_at": "2026-11-20T09:49:28Z",
+        "verified_at": "2026-11-20T09:49:28Z",
         "models_used": {
           "research": "curated-live-material"
         },

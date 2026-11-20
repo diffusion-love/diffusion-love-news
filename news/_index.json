@@ -208,6 +208,25 @@
     "has_video": false
   },
   {
+    "id": "n-5e913ae316",
+    "date": "2026-11-19",
+    "title": "OpenCode releases mobile companion app for remote desktop sessions",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "opencode",
+    "version": null,
+    "tags": [
+      "Opencode",
+      "family:opencode",
+      "misc",
+      "opencode",
+      "opencode-development"
+    ],
+    "primary_link": "https://opencode.ai/mobile",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-5524914633",
     "date": "2026-11-19",
     "title": "Security advisory details two critical NGINX HTTP/2 remote code execution flaws",
@@ -223,6 +242,25 @@
       "nginx-http2-vulnerability-disclosure"
     ],
     "primary_link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-52bae6b01d",
+    "date": "2026-11-19",
+    "title": "OpenCode launches companion mobile clients on Google Play and TestFlight",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "opencode",
+    "version": null,
+    "tags": [
+      "Opencode",
+      "family:opencode",
+      "misc",
+      "opencode",
+      "opencode-development"
+    ],
+    "primary_link": "https://opencode.ai/mobile",
     "has_image": false,
     "has_video": false
   },

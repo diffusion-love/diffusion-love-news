@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4",
   "site": "diffusion.love",
-  "generated_at": "2026-11-20T09:43:32Z",
+  "generated_at": "2026-11-20T09:49:28Z",
   "counts": {
-    "items": 1003,
-    "tags": 3309,
+    "items": 1005,
+    "tags": 3313,
     "categories": 11,
     "years": 3,
-    "projects": 827,
+    "projects": 828,
     "organizations": 17
   }
 }
