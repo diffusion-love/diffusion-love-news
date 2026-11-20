@@ -1,5 +1,24 @@
 [
   {
+    "id": "n-fc77ff5baa",
+    "date": "2026-11-19",
+    "title": "Google adds background computer use agent to Gemini macOS client",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "gemini",
+    "version": null,
+    "tags": [
+      "Gemini development",
+      "family:gemini",
+      "gemini",
+      "gemini-development",
+      "tools-frontend"
+    ],
+    "primary_link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-ef68e2a314",
     "date": "2026-11-19",
     "title": "Comfy Cloud enables custom workflows on enterprise GPUs",

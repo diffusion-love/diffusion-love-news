@@ -29819,7 +29819,7 @@
   },
   "gemini": {
     "family_slug": "gemini",
-    "family_display": "Gemini",
+    "family_display": "Gemini development",
     "family_display_variants": [
       {
         "family_display": "Gemini",
@@ -29831,6 +29831,14 @@
           "n-d5e685b3b1",
           "n-412ff5547f"
         ]
+      },
+      {
+        "family_display": "Gemini development",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-fc77ff5baa"
+        ]
       }
     ],
     "vendor": null,
@@ -29840,18 +29848,20 @@
     "base_model": null,
     "categories": [
       "audio-music",
-      "misc"
+      "misc",
+      "tools-frontend"
     ],
-    "post_count": 4,
+    "post_count": 5,
     "first_seen": "2026-04-10",
-    "last_seen": "2026-08-14",
+    "last_seen": "2026-11-19",
     "latest_version": null,
     "latest_evolution": null,
     "news_ids": [
       "n-55b3aea30b",
       "n-6f089116cf",
       "n-d5e685b3b1",
-      "n-412ff5547f"
+      "n-412ff5547f",
+      "n-fc77ff5baa"
     ],
     "versions_timeline": [
       {
@@ -29881,6 +29891,13 @@
         "news_id": "n-412ff5547f",
         "title": "Google introduces Gemini 3.7 Flash for AI Studio",
         "primary_link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-fc77ff5baa",
+        "title": "Google adds background computer use agent to Gemini macOS client",
+        "primary_link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
       }
     ],
     "features": [
@@ -29931,6 +29948,18 @@
         "verified_at": "2026-09-04T22:01:31Z",
         "news_ids": [
           "n-6f089116cf"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "techcrunch.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+        "is_primary": true,
+        "verified_at": "2026-11-20T07:25:48Z",
+        "news_ids": [
+          "n-fc77ff5baa"
         ]
       },
       {
@@ -30054,9 +30083,37 @@
         "version": null,
         "news_id": "n-412ff5547f",
         "primary_link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Google adds background computer use agent to Gemini macOS client",
+        "summary": "Google released a computer use agent for the Gemini macOS application that executes multi-step desktop and application workflows inside an isolated background window on Apple Silicon systems.",
+        "version": null,
+        "news_id": "n-fc77ff5baa",
+        "primary_link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
       }
     ],
     "related_news": [
+      {
+        "id": "n-fc77ff5baa",
+        "date": "2026-11-19",
+        "title": "Google adds background computer use agent to Gemini macOS client",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "gemini",
+        "version": null,
+        "tags": [
+          "Gemini development",
+          "family:gemini",
+          "gemini",
+          "gemini-development",
+          "tools-frontend"
+        ],
+        "primary_link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-412ff5547f",
         "date": "2026-08-14",
@@ -30134,7 +30191,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "gemini-development",
+        "display": "Gemini Development",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-fc77ff5baa",
+        "news_ids": [
+          "n-fc77ff5baa"
+        ]
+      }
+    ]
   },
   "gemini-3-5-live-translate": {
     "family_slug": "gemini-3-5-live-translate",

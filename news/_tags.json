@@ -995,6 +995,9 @@
   "Gemini Intelligence for Android": [
     "n-97cedb7ec2"
   ],
+  "Gemini development": [
+    "n-fc77ff5baa"
+  ],
   "Gemma": [
     "n-c7bfff5d31",
     "n-ae3f3a3876",
@@ -5351,6 +5354,7 @@
     "n-97e1334295"
   ],
   "family:gemini": [
+    "n-fc77ff5baa",
     "n-d5e685b3b1",
     "n-6f089116cf",
     "n-55b3aea30b",
@@ -7462,6 +7466,7 @@
     "n-97e1334295"
   ],
   "gemini": [
+    "n-fc77ff5baa",
     "n-d5e685b3b1",
     "n-6f089116cf",
     "n-55b3aea30b",
@@ -7476,6 +7481,9 @@
   ],
   "gemini-app": [
     "n-288cee31b2"
+  ],
+  "gemini-development": [
+    "n-fc77ff5baa"
   ],
   "gemini-embedding-2": [
     "n-1ee49081d2"
@@ -11958,6 +11966,7 @@
   ],
   "tools-frontend": [
     "n-ff03e5bf7b",
+    "n-fc77ff5baa",
     "n-fa9c04297f",
     "n-f9bd7f602b",
     "n-f861f085b8",
