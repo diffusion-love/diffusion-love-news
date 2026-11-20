@@ -1208,6 +1208,9 @@
   "Generative World Renderer": [
     "n-01b786ce9f"
   ],
+  "Genie 4: genie-world-model-line": [
+    "n-8a1ced2145"
+  ],
   "Genxr Bench: genxr-bench-release": [
     "n-2988748edd"
   ],
@@ -1426,6 +1429,12 @@
   ],
   "Hy3": [
     "n-0841776bd9"
+  ],
+  "Hy4 Flash: hy4-flash-release": [
+    "n-cb0846b088",
+    "n-c607593781",
+    "n-6002e62c56",
+    "n-2f21e893b0"
   ],
   "HyDRA": [
     "n-09ee25f7d5"
@@ -2517,6 +2526,9 @@
   "PadCaptioner": [
     "n-3a9d69d7e9"
   ],
+  "Pangram: pangram-attack-dog-shaming-campaign": [
+    "n-95be0b3b16"
+  ],
   "Parakeet": [
     "n-5b56fca93a"
   ],
@@ -3509,6 +3521,9 @@
     "n-ba304b8f26",
     "n-6c86825761",
     "n-52bee6c102"
+  ],
+  "Yandex AI products": [
+    "n-8c7cda80aa"
   ],
   "Yedp": [
     "n-501487aec4"
@@ -5348,6 +5363,7 @@
     "n-997df70c3d",
     "n-8ff86e4411",
     "n-8a851b82d9",
+    "n-8a1ced2145",
     "n-8913c98771",
     "n-88b74a7e58",
     "n-83af6888de",
@@ -6628,6 +6644,9 @@
   "family:gen-searcher": [
     "n-eaa27c5213"
   ],
+  "family:genie-4": [
+    "n-8a1ced2145"
+  ],
   "family:genxr-bench": [
     "n-2988748edd"
   ],
@@ -6919,6 +6938,12 @@
   ],
   "family:hy-wu": [
     "n-17be84d500"
+  ],
+  "family:hy4-flash": [
+    "n-cb0846b088",
+    "n-c607593781",
+    "n-6002e62c56",
+    "n-2f21e893b0"
   ],
   "family:hydra": [
     "n-09ee25f7d5"
@@ -7837,6 +7862,9 @@
   ],
   "family:pam": [
     "n-adee3ca551"
+  ],
+  "family:pangram": [
+    "n-95be0b3b16"
   ],
   "family:parakeet": [
     "n-5b56fca93a"
@@ -9194,6 +9222,12 @@
   "generative-world-renderer": [
     "n-01b786ce9f"
   ],
+  "genie-4": [
+    "n-8a1ced2145"
+  ],
+  "genie-world-model-line": [
+    "n-8a1ced2145"
+  ],
   "genxr-bench": [
     "n-2988748edd"
   ],
@@ -10307,6 +10341,18 @@
   "hy3": [
     "n-0841776bd9"
   ],
+  "hy4-flash": [
+    "n-cb0846b088",
+    "n-c607593781",
+    "n-6002e62c56",
+    "n-2f21e893b0"
+  ],
+  "hy4-flash-release": [
+    "n-cb0846b088",
+    "n-c607593781",
+    "n-6002e62c56",
+    "n-2f21e893b0"
+  ],
   "hydra": [
     "n-09ee25f7d5"
   ],
@@ -10791,6 +10837,7 @@
     "n-d111345e9c",
     "n-cfec66a95b",
     "n-c7bfff5d31",
+    "n-c607593781",
     "n-bded34e024",
     "n-bc5c88f85f",
     "n-b4bbea9668",
@@ -11807,6 +11854,7 @@
     "n-96e16d530e",
     "n-969e5271ff",
     "n-960836273b",
+    "n-95be0b3b16",
     "n-955e8f8621",
     "n-951dfe6af3",
     "n-949d991556",
@@ -11840,6 +11888,7 @@
     "n-8d546ea894",
     "n-8d34f26cae",
     "n-8cc344a285",
+    "n-8c7cda80aa",
     "n-8c14423e0d",
     "n-8b8615589c",
     "n-8b6446fbc3",
@@ -12028,6 +12077,7 @@
     "n-612fbb9ad1",
     "n-6129373208",
     "n-60ec620b9e",
+    "n-6002e62c56",
     "n-5fb7b8ba70",
     "n-5f58046d55",
     "n-5efefc3953",
@@ -12191,6 +12241,7 @@
     "n-303168f615",
     "n-2fb0f885be",
     "n-2facb069d0",
+    "n-2f21e893b0",
     "n-2f045eb33c",
     "n-2edb033ba1",
     "n-2ebc155125",
@@ -14250,6 +14301,9 @@
     "n-57b1c93e50",
     "n-4920069d82"
   ],
+  "organization:yandex": [
+    "n-8c7cda80aa"
+  ],
   "origin": [
     "n-d9748d5e13"
   ],
@@ -14312,6 +14366,12 @@
   ],
   "pam": [
     "n-adee3ca551"
+  ],
+  "pangram": [
+    "n-95be0b3b16"
+  ],
+  "pangram-attack-dog-shaming-campaign": [
+    "n-95be0b3b16"
   ],
   "paper": [
     "n-fdbf17ddf7",
@@ -15665,6 +15725,7 @@
     "n-e4d5ff5436",
     "n-df8413780a",
     "n-cce1cb230c",
+    "n-cb0846b088",
     "n-c66b8c38b0",
     "n-c2a141200b",
     "n-bb76b83d43",
@@ -16268,8 +16329,12 @@
     "n-cac6f1a139",
     "n-c3f456557a",
     "n-ba304b8f26",
+    "n-8c7cda80aa",
     "n-6c86825761",
     "n-52bee6c102"
+  ],
+  "yandex-ai-products": [
+    "n-8c7cda80aa"
   ],
   "yandex_browser_translation": [
     "n-e717e8ed06",

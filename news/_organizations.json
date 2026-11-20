@@ -266,7 +266,7 @@
           "misc",
           "organization:deepseek"
         ],
-        "primary_link": "https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs",
+        "primary_link": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
         "has_image": false,
         "has_video": false
       },
@@ -1345,7 +1345,7 @@
           "product-development-and-industry-relationships",
           "suno"
         ],
-        "primary_link": "https://api.suno.com/mcp",
+        "primary_link": "https://suno.com/mcp",
         "has_image": false,
         "has_video": false
       },
@@ -1364,7 +1364,7 @@
           "product-development-and-industry-relationships",
           "suno"
         ],
-        "primary_link": "https://api.suno.com/mcp",
+        "primary_link": "https://suno.com/mcp",
         "has_image": false,
         "has_video": false
       }
@@ -1486,6 +1486,55 @@
           "organization:unsloth"
         ],
         "primary_link": "https://github.com/unslothai/unsloth",
+        "has_image": false,
+        "has_video": false
+      }
+    ]
+  },
+  "yandex": {
+    "slug": "yandex",
+    "display": "Yandex AI products",
+    "homepage": null,
+    "project_slugs": [],
+    "post_count": 1,
+    "direct_post_count": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "news_ids": [
+      "n-8c7cda80aa"
+    ],
+    "direct_news_ids": [
+      "n-8c7cda80aa"
+    ],
+    "development_threads": [
+      {
+        "slug": "yandex-ai-products",
+        "display": "Yandex Ai Products",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-8c7cda80aa",
+        "news_ids": [
+          "n-8c7cda80aa"
+        ]
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-8c7cda80aa",
+        "date": "2026-11-19",
+        "title": "Yandex suspends turnkey data-labeling service on Yandex Tasks for external clients",
+        "category": "misc",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Yandex AI products",
+          "misc",
+          "organization:yandex",
+          "yandex",
+          "yandex-ai-products"
+        ],
+        "primary_link": "https://habr.com/ru/articles/1109730/",
         "has_image": false,
         "has_video": false
       }

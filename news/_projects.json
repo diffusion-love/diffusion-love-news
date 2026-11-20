@@ -37735,6 +37735,115 @@
     ],
     "claims": []
   },
+  "genie-4": {
+    "family_slug": "genie-4",
+    "family_display": "Genie 4: genie-world-model-line",
+    "family_display_variants": [
+      {
+        "family_display": "Genie 4: genie-world-model-line",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "news_ids": [
+          "n-8a1ced2145"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "diffusion-video"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-8a1ced2145"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-8a1ced2145",
+        "title": "Google DeepMind makes Genie 4 interactive world model available in preview",
+        "primary_link": "https://deepmind.google/blog/genie-4-is-now-available/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "deepmind.google",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+        "is_primary": true,
+        "verified_at": "2026-11-20T12:13:01Z",
+        "news_ids": [
+          "n-8a1ced2145"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Google DeepMind makes Genie 4 interactive world model available in preview",
+        "summary": "Google DeepMind released Genie 4 in preview for Google AI Ultra subscribers and early-access API partners, enabling real-time steerable 720p simulation generation at up to 24 frames per second with native synchronized audio.",
+        "version": null,
+        "news_id": "n-8a1ced2145",
+        "primary_link": "https://deepmind.google/blog/genie-4-is-now-available/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-8a1ced2145",
+        "date": "2026-11-18",
+        "title": "Google DeepMind makes Genie 4 interactive world model available in preview",
+        "category": "diffusion-video",
+        "entry_type": "news",
+        "project": "genie-4",
+        "version": null,
+        "tags": [
+          "Genie 4: genie-world-model-line",
+          "diffusion-video",
+          "family:genie-4",
+          "genie-4",
+          "genie-world-model-line"
+        ],
+        "primary_link": "https://deepmind.google/blog/genie-4-is-now-available/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "genie-world-model-line",
+        "display": "Genie World Model Line",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-8a1ced2145",
+        "news_ids": [
+          "n-8a1ced2145"
+        ]
+      }
+    ]
+  },
   "genxr-bench": {
     "family_slug": "genxr-bench",
     "family_display": "Genxr Bench: genxr-bench-release",
@@ -38690,7 +38799,6 @@
         "is_primary": false,
         "verified_at": "2026-11-18T18:56:44Z",
         "news_ids": [
-          "n-2a63a39249",
           "n-ef6922bf2a"
         ]
       }
@@ -49881,6 +49989,308 @@
       }
     ],
     "claims": []
+  },
+  "hy4-flash": {
+    "family_slug": "hy4-flash",
+    "family_display": "Hy4 Flash: hy4-flash-release",
+    "family_display_variants": [
+      {
+        "family_display": "Hy4 Flash: hy4-flash-release",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "news_ids": [
+          "n-2f21e893b0",
+          "n-6002e62c56",
+          "n-c607593781",
+          "n-cb0846b088"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "llm",
+      "misc",
+      "tools-frontend"
+    ],
+    "post_count": 4,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-2f21e893b0",
+      "n-6002e62c56",
+      "n-c607593781",
+      "n-cb0846b088"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-2f21e893b0",
+        "title": "Hy4 Flash open weights and community GGUF quantizations published",
+        "primary_link": "https://huggingface.co/tencent/Hy4-flash"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-6002e62c56",
+        "title": "Hy4 Flash code and weights published on Hugging Face and GitHub",
+        "primary_link": "https://github.com/Tencent-Hunyuan/Hy4-flash"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-c607593781",
+        "title": "Tencent releases open-weights Hy4 Flash MoE model",
+        "primary_link": "https://huggingface.co/tencent/Hy4-flash"
+      },
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-cb0846b088",
+        "title": "Hy4 Flash released for high-throughput agent workflows",
+        "primary_link": "https://github.com/Tencent-Hunyuan/Hy4-flash"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+        "is_primary": true,
+        "verified_at": "2026-11-20T12:23:38Z",
+        "news_ids": [
+          "n-2f21e893b0",
+          "n-6002e62c56",
+          "n-c607593781",
+          "n-cb0846b088"
+        ],
+        "occurrences": [
+          {
+            "news_id": "n-2f21e893b0",
+            "is_primary": false,
+            "verified_at": "2026-11-20T12:23:38Z"
+          },
+          {
+            "news_id": "n-6002e62c56",
+            "is_primary": true,
+            "verified_at": "2026-11-20T12:23:38Z"
+          },
+          {
+            "news_id": "n-c607593781",
+            "is_primary": false,
+            "verified_at": "2026-11-20T12:23:38Z"
+          },
+          {
+            "news_id": "n-cb0846b088",
+            "is_primary": true,
+            "verified_at": "2026-11-20T12:23:38Z"
+          }
+        ]
+      },
+      {
+        "kind": "weights",
+        "host": "huggingface.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://huggingface.co/tencent/Hy4-flash",
+        "is_primary": true,
+        "verified_at": "2026-11-20T12:23:38Z",
+        "news_ids": [
+          "n-2f21e893b0",
+          "n-6002e62c56",
+          "n-c607593781",
+          "n-cb0846b088"
+        ],
+        "occurrences": [
+          {
+            "news_id": "n-2f21e893b0",
+            "is_primary": true,
+            "verified_at": "2026-11-20T12:23:38Z"
+          },
+          {
+            "news_id": "n-6002e62c56",
+            "is_primary": false,
+            "verified_at": "2026-11-20T12:23:38Z"
+          },
+          {
+            "news_id": "n-c607593781",
+            "is_primary": true,
+            "verified_at": "2026-11-20T12:23:38Z"
+          },
+          {
+            "news_id": "n-cb0846b088",
+            "is_primary": false,
+            "verified_at": "2026-11-20T12:23:38Z"
+          }
+        ]
+      },
+      {
+        "kind": "weights",
+        "host": "huggingface.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://huggingface.co/AngelSlim/Hy4-flash-GGUF",
+        "is_primary": false,
+        "verified_at": "2026-11-20T12:23:38Z",
+        "news_ids": [
+          "n-2f21e893b0",
+          "n-6002e62c56",
+          "n-c607593781",
+          "n-cb0846b088"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Hy4 Flash open weights and community GGUF quantizations published",
+        "summary": "Open weights for Hy4 Flash were released alongside community GGUF quantizations, enabling local multi-GPU execution with VRAM requirements starting at 126 GB for IQ2 quantization.",
+        "version": null,
+        "news_id": "n-2f21e893b0",
+        "primary_link": "https://huggingface.co/tencent/Hy4-flash"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Hy4 Flash code and weights published on Hugging Face and GitHub",
+        "summary": "Open weights and deployment scripts for Hy4 Flash base, instruct, and FP8 variants were published across Hugging Face and GitHub under the Tencent Hy License.",
+        "version": null,
+        "news_id": "n-6002e62c56",
+        "primary_link": "https://github.com/Tencent-Hunyuan/Hy4-flash"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Tencent releases open-weights Hy4 Flash MoE model",
+        "summary": "Tencent published open weights for Hy4 Flash, a 224B parameter multimodal Mixture-of-Experts model activating 12B parameters per token, featuring 1M context window and FP8 checkpointing.",
+        "version": null,
+        "news_id": "n-c607593781",
+        "primary_link": "https://huggingface.co/tencent/Hy4-flash"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Hy4 Flash released for high-throughput agent workflows",
+        "summary": "Tencent released Hy4 Flash model weights supporting multimodal document comprehension, long-context reasoning, and computer-use agent tasks with reduced KV cache overhead.",
+        "version": null,
+        "news_id": "n-cb0846b088",
+        "primary_link": "https://github.com/Tencent-Hunyuan/Hy4-flash"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-cb0846b088",
+        "date": "2026-11-18",
+        "title": "Hy4 Flash released for high-throughput agent workflows",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "hy4-flash",
+        "version": null,
+        "tags": [
+          "Hy4 Flash: hy4-flash-release",
+          "family:hy4-flash",
+          "hy4-flash",
+          "hy4-flash-release",
+          "tools-frontend"
+        ],
+        "primary_link": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-c607593781",
+        "date": "2026-11-18",
+        "title": "Tencent releases open-weights Hy4 Flash MoE model",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "hy4-flash",
+        "version": null,
+        "tags": [
+          "Hy4 Flash: hy4-flash-release",
+          "family:hy4-flash",
+          "hy4-flash",
+          "hy4-flash-release",
+          "llm"
+        ],
+        "primary_link": "https://huggingface.co/tencent/Hy4-flash",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-6002e62c56",
+        "date": "2026-11-18",
+        "title": "Hy4 Flash code and weights published on Hugging Face and GitHub",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "hy4-flash",
+        "version": null,
+        "tags": [
+          "Hy4 Flash: hy4-flash-release",
+          "family:hy4-flash",
+          "hy4-flash",
+          "hy4-flash-release",
+          "misc"
+        ],
+        "primary_link": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-2f21e893b0",
+        "date": "2026-11-18",
+        "title": "Hy4 Flash open weights and community GGUF quantizations published",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "hy4-flash",
+        "version": null,
+        "tags": [
+          "Hy4 Flash: hy4-flash-release",
+          "family:hy4-flash",
+          "hy4-flash",
+          "hy4-flash-release",
+          "misc"
+        ],
+        "primary_link": "https://huggingface.co/tencent/Hy4-flash",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "hy4-flash-release",
+        "display": "Hy4 Flash Release",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-cb0846b088",
+        "news_ids": [
+          "n-2f21e893b0",
+          "n-6002e62c56",
+          "n-c607593781",
+          "n-cb0846b088"
+        ]
+      }
+    ]
   },
   "hydra": {
     "family_slug": "hydra",
@@ -87414,6 +87824,115 @@
       }
     ],
     "claims": []
+  },
+  "pangram": {
+    "family_slug": "pangram",
+    "family_display": "Pangram: pangram-attack-dog-shaming-campaign",
+    "family_display_variants": [
+      {
+        "family_display": "Pangram: pangram-attack-dog-shaming-campaign",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "news_ids": [
+          "n-95be0b3b16"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-95be0b3b16"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-95be0b3b16",
+        "title": "Pangram classifies award-winning Peruvian novel as AI-generated while publisher upholds award",
+        "primary_link": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "the-decoder.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+        "is_primary": true,
+        "verified_at": "2026-11-20T12:30:59Z",
+        "news_ids": [
+          "n-95be0b3b16"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Pangram classifies award-winning Peruvian novel as AI-generated while publisher upholds award",
+        "summary": "AI text detector Pangram flagged 99 percent of David Silva Rojas's prize-winning novel Donde el agua trabaja as machine-generated, but publisher Almadía affirmed the manuscript's authenticity following internal documentation review.",
+        "version": null,
+        "news_id": "n-95be0b3b16",
+        "primary_link": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-95be0b3b16",
+        "date": "2026-11-18",
+        "title": "Pangram classifies award-winning Peruvian novel as AI-generated while publisher upholds award",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "pangram",
+        "version": null,
+        "tags": [
+          "Pangram: pangram-attack-dog-shaming-campaign",
+          "family:pangram",
+          "misc",
+          "pangram",
+          "pangram-attack-dog-shaming-campaign"
+        ],
+        "primary_link": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "pangram-attack-dog-shaming-campaign",
+        "display": "Pangram Attack Dog Shaming Campaign",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-95be0b3b16",
+        "news_ids": [
+          "n-95be0b3b16"
+        ]
+      }
+    ]
   },
   "parakeet": {
     "family_slug": "parakeet",

@@ -88,7 +88,7 @@
       "product-development-and-industry-relationships",
       "suno"
     ],
-    "primary_link": "https://api.suno.com/mcp",
+    "primary_link": "https://suno.com/mcp",
     "has_image": false,
     "has_video": false
   },
@@ -207,6 +207,25 @@
     "has_video": false
   },
   {
+    "id": "n-8c7cda80aa",
+    "date": "2026-11-19",
+    "title": "Yandex suspends turnkey data-labeling service on Yandex Tasks for external clients",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Yandex AI products",
+      "misc",
+      "organization:yandex",
+      "yandex",
+      "yandex-ai-products"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1109730/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-76e2884b48",
     "date": "2026-11-19",
     "title": "ComfyUI v0.46.1 published on GitHub",
@@ -317,7 +336,7 @@
       "product-development-and-industry-relationships",
       "suno"
     ],
-    "primary_link": "https://api.suno.com/mcp",
+    "primary_link": "https://suno.com/mcp",
     "has_image": false,
     "has_video": false
   },
@@ -398,6 +417,25 @@
     "has_video": false
   },
   {
+    "id": "n-cb0846b088",
+    "date": "2026-11-18",
+    "title": "Hy4 Flash released for high-throughput agent workflows",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "hy4-flash",
+    "version": null,
+    "tags": [
+      "Hy4 Flash: hy4-flash-release",
+      "family:hy4-flash",
+      "hy4-flash",
+      "hy4-flash-release",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-c98f6e2cbf",
     "date": "2026-11-18",
     "title": "Kling Image 4.0 debuts unified understanding and generation architecture",
@@ -413,6 +451,25 @@
       "kling-image-4-release"
     ],
     "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-c607593781",
+    "date": "2026-11-18",
+    "title": "Tencent releases open-weights Hy4 Flash MoE model",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "hy4-flash",
+    "version": null,
+    "tags": [
+      "Hy4 Flash: hy4-flash-release",
+      "family:hy4-flash",
+      "hy4-flash",
+      "hy4-flash-release",
+      "llm"
+    ],
+    "primary_link": "https://huggingface.co/tencent/Hy4-flash",
     "has_image": false,
     "has_video": false
   },
@@ -493,6 +550,44 @@
     "has_video": false
   },
   {
+    "id": "n-95be0b3b16",
+    "date": "2026-11-18",
+    "title": "Pangram classifies award-winning Peruvian novel as AI-generated while publisher upholds award",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "pangram",
+    "version": null,
+    "tags": [
+      "Pangram: pangram-attack-dog-shaming-campaign",
+      "family:pangram",
+      "misc",
+      "pangram",
+      "pangram-attack-dog-shaming-campaign"
+    ],
+    "primary_link": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-8a1ced2145",
+    "date": "2026-11-18",
+    "title": "Google DeepMind makes Genie 4 interactive world model available in preview",
+    "category": "diffusion-video",
+    "entry_type": "news",
+    "project": "genie-4",
+    "version": null,
+    "tags": [
+      "Genie 4: genie-world-model-line",
+      "diffusion-video",
+      "family:genie-4",
+      "genie-4",
+      "genie-world-model-line"
+    ],
+    "primary_link": "https://deepmind.google/blog/genie-4-is-now-available/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-7c1de821f8",
     "date": "2026-11-18",
     "title": "Kling Image 4.0 update adds Tone color presets, font styling, and resolution-based API billing",
@@ -508,6 +603,25 @@
       "kling-image-4-release"
     ],
     "primary_link": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-6002e62c56",
+    "date": "2026-11-18",
+    "title": "Hy4 Flash code and weights published on Hugging Face and GitHub",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "hy4-flash",
+    "version": null,
+    "tags": [
+      "Hy4 Flash: hy4-flash-release",
+      "family:hy4-flash",
+      "hy4-flash",
+      "hy4-flash-release",
+      "misc"
+    ],
+    "primary_link": "https://github.com/Tencent-Hunyuan/Hy4-flash",
     "has_image": false,
     "has_video": false
   },
@@ -564,6 +678,25 @@
       "q-ant"
     ],
     "primary_link": "https://habr.com/ru/companies/selectel/articles/1109180/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-2f21e893b0",
+    "date": "2026-11-18",
+    "title": "Hy4 Flash open weights and community GGUF quantizations published",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "hy4-flash",
+    "version": null,
+    "tags": [
+      "Hy4 Flash: hy4-flash-release",
+      "family:hy4-flash",
+      "hy4-flash",
+      "hy4-flash-release",
+      "misc"
+    ],
+    "primary_link": "https://huggingface.co/tencent/Hy4-flash",
     "has_image": false,
     "has_video": false
   },
@@ -1001,7 +1134,7 @@
       "misc",
       "organization:deepseek"
     ],
-    "primary_link": "https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs",
+    "primary_link": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
     "has_image": false,
     "has_video": false
   },
