@@ -2133,6 +2133,9 @@
   "PadCaptioner": [
     "n-3a9d69d7e9"
   ],
+  "Pangram: pangram-attack-dog-shaming-campaign": [
+    "n-95be0b3b16"
+  ],
   "Parakeet": [
     "n-5b56fca93a"
   ],
@@ -6399,6 +6402,9 @@
   "family:pam": [
     "n-adee3ca551"
   ],
+  "family:pangram": [
+    "n-95be0b3b16"
+  ],
   "family:parakeet": [
     "n-5b56fca93a"
   ],
@@ -9556,6 +9562,7 @@
     "n-9760d7add3",
     "n-969e5271ff",
     "n-960836273b",
+    "n-95be0b3b16",
     "n-9478ff9243",
     "n-944c22a8fe",
     "n-93eeb937f1",
@@ -10970,6 +10977,12 @@
   ],
   "pam": [
     "n-adee3ca551"
+  ],
+  "pangram": [
+    "n-95be0b3b16"
+  ],
+  "pangram-attack-dog-shaming-campaign": [
+    "n-95be0b3b16"
   ],
   "paper": [
     "n-fdbf17ddf7",

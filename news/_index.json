@@ -550,6 +550,25 @@
     "has_video": false
   },
   {
+    "id": "n-95be0b3b16",
+    "date": "2026-11-18",
+    "title": "Pangram classifies award-winning Peruvian novel as AI-generated while publisher upholds award",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "pangram",
+    "version": null,
+    "tags": [
+      "Pangram: pangram-attack-dog-shaming-campaign",
+      "family:pangram",
+      "misc",
+      "pangram",
+      "pangram-attack-dog-shaming-campaign"
+    ],
+    "primary_link": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-8a1ced2145",
     "date": "2026-11-18",
     "title": "Google DeepMind makes Genie 4 interactive world model available in preview",

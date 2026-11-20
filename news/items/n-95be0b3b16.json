@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-95be0b3b16",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Pangram classifies award-winning Peruvian novel as AI-generated while publisher upholds award",
+ "summary": "AI text detector Pangram flagged 99 percent of David Silva Rojas's prize-winning novel Donde el agua trabaja as machine-generated, but publisher Almadía affirmed the manuscript's authenticity following internal documentation review.",
+ "research_notes": "Submit text excerpts or full manuscripts to the detector interface to generate statistical probability scores across individual document segments.\n\nNever treat automated detector probability scores as sole grounds for disqualification; corroborate findings against author drafts, interview notes, and editorial review.\n\nAccount for regional dialects, oral histories, and non-standard narrative rhythm, which frequently trigger high false-positive rates in statistical classifiers.",
+ "project": {
+  "name": "Pangram: pangram-attack-dog-shaming-campaign",
+  "family_slug": "pangram",
+  "family_display": "Pangram: pangram-attack-dog-shaming-campaign",
+  "model_slug": "pangram",
+  "model_display": "Pangram: pangram-attack-dog-shaming-campaign",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "pangram-attack-dog-shaming-campaign",
+  "thread_display": "Pangram Attack Dog Shaming Campaign",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Pangram: pangram-attack-dog-shaming-campaign",
+  "article_url": "https://happyin.space/projects/pangram/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/c91a11d517ac8a3fda8bbcd756ced6a4e46b53f7/docs/projects/pangram.md",
+  "agent_context_url": "https://happyin.space/projects/pangram/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-18",
+  "title": "Pangram classifies award-winning Peruvian novel as AI-generated while publisher upholds award",
+  "version": null,
+  "summary": "AI text detector Pangram flagged 99 percent of David Silva Rojas's prize-winning novel Donde el agua trabaja as machine-generated, but publisher Almadía affirmed the manuscript's authenticity following internal documentation review."
+ },
+ "tags": [
+  "Pangram: pangram-attack-dog-shaming-campaign",
+  "family:pangram",
+  "misc",
+  "pangram",
+  "pangram-attack-dog-shaming-campaign"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "pangram"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+   "host": "the-decoder.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T12:30:59Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-18",
+  "excerpt": "AI text detector Pangram flagged 99 percent of David Silva Rojas's prize-winning novel Donde el agua trabaja as machine-generated, but publisher Almadía affirmed the manuscript's authenticity following internal documentation review."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T12:30:59Z",
+  "classified_at": "2026-11-20T12:30:59Z",
+  "enriched_at": "2026-11-20T12:30:59Z",
+  "verified_at": "2026-11-20T12:30:59Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
