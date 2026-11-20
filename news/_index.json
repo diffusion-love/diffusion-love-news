@@ -74,6 +74,25 @@
     "has_video": false
   },
   {
+    "id": "n-ed7778c240",
+    "date": "2026-11-19",
+    "title": "Dream-DAW implements isolated plugin hosting and cached stem separation",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "dream-daw",
+    "version": null,
+    "tags": [
+      "Dream DAW: dream-daw-feature-updates",
+      "dream-daw",
+      "dream-daw-feature-updates",
+      "family:dream-daw",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/leoerdman/Dream-DAW",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-e023bc2664",
     "date": "2026-11-19",
     "title": "Suno launches public Model Context Protocol server for AI assistants and IDEs",
@@ -203,6 +222,25 @@
       "organization:google"
     ],
     "primary_link": "https://shareai.space/blog/2026/google-vypustila-gemini-4-neon-samuyu-doroguyu-model-novoy-l",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-90e6085d9b",
+    "date": "2026-11-19",
+    "title": "Dream-DAW integrates OpenRouter AI assistant and generative composition tools",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "dream-daw",
+    "version": null,
+    "tags": [
+      "Dream DAW: dream-daw-feature-updates",
+      "dream-daw",
+      "dream-daw-feature-updates",
+      "family:dream-daw",
+      "misc"
+    ],
+    "primary_link": "https://github.com/leoerdman/Dream-DAW",
     "has_image": false,
     "has_video": false
   },
@@ -565,6 +603,25 @@
       "pangram-attack-dog-shaming-campaign"
     ],
     "primary_link": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-8fcd7abf33",
+    "date": "2026-11-18",
+    "title": "Dream DAW open-source desktop workstation published on GitHub",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "dream-daw",
+    "version": null,
+    "tags": [
+      "Dream DAW: dream-daw-feature-updates",
+      "dream-daw",
+      "dream-daw-feature-updates",
+      "family:dream-daw",
+      "misc"
+    ],
+    "primary_link": "https://github.com/leoerdman/Dream-DAW",
     "has_image": false,
     "has_video": false
   },
