@@ -96625,6 +96625,180 @@
     ],
     "claims": []
   },
+  "ultratex": {
+    "family_slug": "ultratex",
+    "family_display": "Ultratex: ultratex-release-line",
+    "family_display_variants": [
+      {
+        "family_display": "Ultratex: ultratex-release-line",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-47ea145f1a",
+          "n-c6e889531e"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-47ea145f1a",
+      "n-c6e889531e"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-47ea145f1a",
+        "title": "UltraTex introduces multi-view diffusion framework for 4K PBR texture synthesis",
+        "primary_link": "https://arxiv.org/abs/2611.24941"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-c6e889531e",
+        "title": "UltraTex research paper and demo showcase decoupled PBR material generation",
+        "primary_link": "https://arxiv.org/abs/2611.24941"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.24941",
+        "is_primary": true,
+        "verified_at": "2026-11-20T21:04:43Z",
+        "news_ids": [
+          "n-47ea145f1a",
+          "n-c6e889531e"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "ultratex.vercel.app",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://ultratex.vercel.app/",
+        "is_primary": false,
+        "verified_at": "2026-11-20T21:04:43Z",
+        "news_ids": [
+          "n-47ea145f1a",
+          "n-c6e889531e"
+        ]
+      },
+      {
+        "kind": "weights",
+        "host": "huggingface.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://huggingface.co/Jingzhi03/UltraTex",
+        "is_primary": false,
+        "verified_at": "2026-11-20T21:04:43Z",
+        "news_ids": [
+          "n-47ea145f1a",
+          "n-c6e889531e"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "UltraTex introduces multi-view diffusion framework for 4K PBR texture synthesis",
+        "summary": "UltraTex proposes a cascaded diffusion pipeline that separates intrinsic material properties from lighting to generate complete 4K PBR texture sets from reference imagery, accompanied by an interactive Hugging Face demo.",
+        "version": null,
+        "news_id": "n-47ea145f1a",
+        "primary_link": "https://arxiv.org/abs/2611.24941"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "UltraTex research paper and demo showcase decoupled PBR material generation",
+        "summary": "The UltraTex project demonstrates multi-view albedo, normal, roughness, and metallic prediction assembled into 4K UV maps for 3D meshes, releasing a technical paper and online preview while code and model weights remain pending.",
+        "version": null,
+        "news_id": "n-c6e889531e",
+        "primary_link": "https://arxiv.org/abs/2611.24941"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-c6e889531e",
+        "date": "2026-11-19",
+        "title": "UltraTex research paper and demo showcase decoupled PBR material generation",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "ultratex",
+        "version": null,
+        "tags": [
+          "Ultratex: ultratex-release-line",
+          "family:ultratex",
+          "misc",
+          "ultratex",
+          "ultratex-release-line"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.24941",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-47ea145f1a",
+        "date": "2026-11-19",
+        "title": "UltraTex introduces multi-view diffusion framework for 4K PBR texture synthesis",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "ultratex",
+        "version": null,
+        "tags": [
+          "Ultratex: ultratex-release-line",
+          "family:ultratex",
+          "misc",
+          "ultratex",
+          "ultratex-release-line"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.24941",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "ultratex-release-line",
+        "display": "Ultratex Release Line",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-c6e889531e",
+        "news_ids": [
+          "n-47ea145f1a",
+          "n-c6e889531e"
+        ]
+      }
+    ]
+  },
   "uma": {
     "family_slug": "uma",
     "family_display": "Uma",

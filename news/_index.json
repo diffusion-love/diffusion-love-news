@@ -188,6 +188,25 @@
     "has_video": false
   },
   {
+    "id": "n-c6e889531e",
+    "date": "2026-11-19",
+    "title": "UltraTex research paper and demo showcase decoupled PBR material generation",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "ultratex",
+    "version": null,
+    "tags": [
+      "Ultratex: ultratex-release-line",
+      "family:ultratex",
+      "misc",
+      "ultratex",
+      "ultratex-release-line"
+    ],
+    "primary_link": "https://arxiv.org/abs/2611.24941",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-b65cdf0a31",
     "date": "2026-11-19",
     "title": "Osmo develops AI olfaction system and tests authentication use cases",
@@ -469,6 +488,25 @@
       "nirjala-underwater-gaussian-splatting"
     ],
     "primary_link": "https://arxiv.org/abs/2611.23450",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-47ea145f1a",
+    "date": "2026-11-19",
+    "title": "UltraTex introduces multi-view diffusion framework for 4K PBR texture synthesis",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "ultratex",
+    "version": null,
+    "tags": [
+      "Ultratex: ultratex-release-line",
+      "family:ultratex",
+      "misc",
+      "ultratex",
+      "ultratex-release-line"
+    ],
+    "primary_link": "https://arxiv.org/abs/2611.24941",
     "has_image": false,
     "has_video": false
   },

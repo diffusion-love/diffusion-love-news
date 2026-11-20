@@ -2,7 +2,7 @@
   "schema_version": "1.4",
   "generated_at": "2026-11-20T22:19:09Z",
   "site": "diffusion.love",
-  "total": 1025,
+  "total": 1027,
   "records": [
     {
       "schema_version": "1.4",
@@ -1063,6 +1063,129 @@
         "classified_at": "2026-11-20T01:26:58Z",
         "enriched_at": "2026-11-20T01:26:58Z",
         "verified_at": "2026-11-20T01:26:58Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-c6e889531e",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "UltraTex research paper and demo showcase decoupled PBR material generation",
+      "summary": "The UltraTex project demonstrates multi-view albedo, normal, roughness, and metallic prediction assembled into 4K UV maps for 3D meshes, releasing a technical paper and online preview while code and model weights remain pending.",
+      "research_notes": "Upload an untextured 3D mesh in OBJ or GLB format along with a single reference image to the hosted UltraTex interface on Hugging Face.\n\nInspect the predicted multi-view unlit albedo color and surface normal maps to verify geometric alignment across canonical viewpoints.\n\nExport the resulting assembled 4K PBR map set containing albedo, normal, metallic, and roughness channels into a 3D digital content creation tool or real-time game engine.\n\nProvide reference images with diffuse, neutral illumination to facilitate clean algorithmic separation of intrinsic surface color from specular highlights.\n\nPrepare input meshes with clean, non-overlapping UV unwrapping before projecting generated multi-view feature maps into unified UV texture space.",
+      "project": {
+        "name": "Ultratex: ultratex-release-line",
+        "family_slug": "ultratex",
+        "family_display": "Ultratex: ultratex-release-line",
+        "model_slug": "ultratex",
+        "model_display": "Ultratex: ultratex-release-line",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ultratex-release-line",
+        "thread_display": "Ultratex Release Line",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Ultratex: ultratex-release-line",
+        "article_url": "https://happyin.space/projects/ultratex/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d9b75a46ea9e00ea51297ce83118e6effff46926/docs/projects/ultratex.md",
+        "agent_context_url": "https://happyin.space/projects/ultratex/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "UltraTex research paper and demo showcase decoupled PBR material generation",
+        "version": null,
+        "summary": "The UltraTex project demonstrates multi-view albedo, normal, roughness, and metallic prediction assembled into 4K UV maps for 3D meshes, releasing a technical paper and online preview while code and model weights remain pending."
+      },
+      "tags": [
+        "Ultratex: ultratex-release-line",
+        "family:ultratex",
+        "misc",
+        "ultratex",
+        "ultratex-release-line"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "ultratex"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.24941",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://ultratex.vercel.app/",
+          "host": "ultratex.vercel.app",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/Jingzhi03/UltraTex",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "The UltraTex project demonstrates multi-view albedo, normal, roughness, and metallic prediction assembled into 4K UV maps for 3D meshes, releasing a technical paper and online preview while code and model weights remain pending."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T21:04:43Z",
+        "classified_at": "2026-11-20T21:04:43Z",
+        "enriched_at": "2026-11-20T21:04:43Z",
+        "verified_at": "2026-11-20T21:04:43Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -2748,6 +2871,129 @@
         "classified_at": "2026-11-20T18:16:12Z",
         "enriched_at": "2026-11-20T18:16:12Z",
         "verified_at": "2026-11-20T18:16:12Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-47ea145f1a",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "UltraTex introduces multi-view diffusion framework for 4K PBR texture synthesis",
+      "summary": "UltraTex proposes a cascaded diffusion pipeline that separates intrinsic material properties from lighting to generate complete 4K PBR texture sets from reference imagery, accompanied by an interactive Hugging Face demo.",
+      "research_notes": "Upload an untextured 3D mesh in OBJ or GLB format along with a single reference image to the hosted UltraTex interface on Hugging Face.\n\nInspect the predicted multi-view unlit albedo color and surface normal maps to verify geometric alignment across canonical viewpoints.\n\nExport the resulting assembled 4K PBR map set containing albedo, normal, metallic, and roughness channels into a 3D digital content creation tool or real-time game engine.\n\nProvide reference images with diffuse, neutral illumination to facilitate clean algorithmic separation of intrinsic surface color from specular highlights.\n\nPrepare input meshes with clean, non-overlapping UV unwrapping before projecting generated multi-view feature maps into unified UV texture space.",
+      "project": {
+        "name": "Ultratex: ultratex-release-line",
+        "family_slug": "ultratex",
+        "family_display": "Ultratex: ultratex-release-line",
+        "model_slug": "ultratex",
+        "model_display": "Ultratex: ultratex-release-line",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ultratex-release-line",
+        "thread_display": "Ultratex Release Line",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Ultratex: ultratex-release-line",
+        "article_url": "https://happyin.space/projects/ultratex/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d9b75a46ea9e00ea51297ce83118e6effff46926/docs/projects/ultratex.md",
+        "agent_context_url": "https://happyin.space/projects/ultratex/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "UltraTex introduces multi-view diffusion framework for 4K PBR texture synthesis",
+        "version": null,
+        "summary": "UltraTex proposes a cascaded diffusion pipeline that separates intrinsic material properties from lighting to generate complete 4K PBR texture sets from reference imagery, accompanied by an interactive Hugging Face demo."
+      },
+      "tags": [
+        "Ultratex: ultratex-release-line",
+        "family:ultratex",
+        "misc",
+        "ultratex",
+        "ultratex-release-line"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "ultratex"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.24941",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://ultratex.vercel.app/",
+          "host": "ultratex.vercel.app",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/Jingzhi03/UltraTex",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "UltraTex proposes a cascaded diffusion pipeline that separates intrinsic material properties from lighting to generate complete 4K PBR texture sets from reference imagery, accompanied by an interactive Hugging Face demo."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T21:04:43Z",
+        "classified_at": "2026-11-20T21:04:43Z",
+        "enriched_at": "2026-11-20T21:04:43Z",
+        "verified_at": "2026-11-20T21:04:43Z",
         "models_used": {
           "research": "curated-live-material"
         },

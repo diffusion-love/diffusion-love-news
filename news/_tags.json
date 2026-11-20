@@ -2836,6 +2836,10 @@
   "UltraReal - KREA2 LoRA": [
     "n-984ac0ee00"
   ],
+  "Ultratex: ultratex-release-line": [
+    "n-c6e889531e",
+    "n-47ea145f1a"
+  ],
   "Uni-ViGU": [
     "n-a5ceb23735"
   ],
@@ -7115,6 +7119,10 @@
   "family:ultrareal-krea2": [
     "n-984ac0ee00"
   ],
+  "family:ultratex": [
+    "n-c6e889531e",
+    "n-47ea145f1a"
+  ],
   "family:uma": [
     "n-207ed94fbd"
   ],
@@ -9525,6 +9533,7 @@
     "n-c73bfca8d3",
     "n-c724eb9e4c",
     "n-c6ff419784",
+    "n-c6e889531e",
     "n-c5e93c1d3a",
     "n-c4e41aef2b",
     "n-c4a0d1a186",
@@ -9820,6 +9829,7 @@
     "n-4941701283",
     "n-492c016626",
     "n-49188c7915",
+    "n-47ea145f1a",
     "n-477068c864",
     "n-4621bd0727",
     "n-45b7bbd16b",
@@ -12359,6 +12369,14 @@
   ],
   "ultrareal-krea2": [
     "n-984ac0ee00"
+  ],
+  "ultratex": [
+    "n-c6e889531e",
+    "n-47ea145f1a"
+  ],
+  "ultratex-release-line": [
+    "n-c6e889531e",
+    "n-47ea145f1a"
   ],
   "uma": [
     "n-207ed94fbd"
