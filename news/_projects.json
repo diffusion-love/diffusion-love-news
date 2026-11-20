@@ -86162,18 +86162,6 @@
         "host": "github.com",
         "lang": "en",
         "status": "unverified",
-        "url": "https://github.com/vrgamegirl19/VRGDG-SeedVR2-TensorRT-Studio/blob/main/THIRD_PARTY_NOTICES.md",
-        "is_primary": false,
-        "verified_at": "2026-09-06T00:01:23Z",
-        "news_ids": [
-          "n-92aedf6bb2"
-        ]
-      },
-      {
-        "kind": "code",
-        "host": "github.com",
-        "lang": "en",
-        "status": "unverified",
         "url": "https://github.com/vrgamegirl19/VRGDG-SeedVR2-TensorRT-Studio/blob/main/docs/INSTALLATION.md",
         "is_primary": false,
         "verified_at": "2026-09-06T00:01:23Z",
