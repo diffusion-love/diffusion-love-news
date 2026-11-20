@@ -1,0 +1,11 @@
+{
+ "id": "n-8c7cda80aa",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Cree una cuenta de cliente comercial en la plataforma Yandex Tasks para acceder a herramientas de etiquetado de datos de autoservicio.\n\nConfigure plantillas de tareas, directrices de anotación y reglas de aceptación directamente en la interfaz de autoservicio, sin asistencia del proveedor.\n\nAsigne tareas a trabajadores independientes de crowdsourcing (freelance) y gestione directamente la validación de las tareas y la compensación.\n\nIncorpore honeypots automatizados y reglas de validación basadas en consenso en plantillas de tareas autogestionadas para sustituir el control de calidad del proveedor, que ha sido discontinuado.\n\nCombine el prelabelado con datos sintéticos con una validación humana (human-in-the-loop) dirigida para minimizar la dependencia de la capacidad externa de anotación por crowdsourcing.",
+ "source_sha256": "30e484003a521e935abe2f0c482153b177d19f9f790951fa7caeff1ecda5d9d5",
+ "summary": "Yandex suspendió el servicio integral de anotación de datos llave en mano en Yandex Tasks para clientes comerciales externos, con el fin de redirigir recursos al desarrollo interno de IA, aunque mantiene el acceso a la plataforma de autoservicio para la gestión independiente de tareas y trabajadores.",
+ "title": "Yandex suspende el servicio de etiquetado de datos llave en mano en Yandex Tasks para clientes externos",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

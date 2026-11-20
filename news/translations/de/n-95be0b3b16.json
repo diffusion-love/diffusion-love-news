@@ -1,0 +1,11 @@
+{
+ "id": "n-95be0b3b16",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Reichen Sie Textauszüge oder vollständige Manuskripte über die Oberfläche des Detektors ein, um statistische Wahrscheinlichkeitswerte für einzelne Dokumentsegmente zu erhalten.\n\nBetrachten Sie die Wahrscheinlichkeitswerte automatisierter Detektoren niemals als alleinige Grundlage für einen Ausschluss; gleichen Sie die Befunde mit Manuskriptentwürfen, Interviewnotizen und redaktioneller Prüfung ab.\n\nBerücksichtigen Sie regionale Dialekte, mündliche Überlieferungen und nicht standardisierte erzählerische Rhythmen, die in statistischen Klassifikatoren häufig zu hohen Falsch-Positiv-Raten führen.",
+ "source_sha256": "dcd573b491c550e73482515d2eccd4bed3b86c293d623772ba3ba59da5663782",
+ "summary": "Der KI-Textdetektor Pangram stufte den preisgekrönten Roman Donde el agua trabaja von David Silva Rojas zu 99 Prozent als maschinell generiert ein, doch der Verlag Almadía bestätigte nach einer internen Prüfung der Dokumentation die Authentizität des Manuskripts.",
+ "title": "Pangram stuft preisgekrönten peruanischen Roman als KI-generiert ein, Verlag hält an Auszeichnung fest",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

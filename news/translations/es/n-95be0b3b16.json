@@ -1,0 +1,11 @@
+{
+ "id": "n-95be0b3b16",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Envíe fragmentos de texto o manuscritos completos a la interfaz del detector para generar puntuaciones de probabilidad estadística por segmento de documento.\n\nNunca considere las puntuaciones de probabilidad de un detector automatizado como único fundamento para una descalificación; corrobore los hallazgos con borradores del autor, notas de entrevistas y revisión editorial.\n\nTenga en cuenta los dialectos regionales, las historias orales y el ritmo narrativo no estándar, que con frecuencia provocan tasas altas de falsos positivos en los clasificadores estadísticos.",
+ "source_sha256": "dcd573b491c550e73482515d2eccd4bed3b86c293d623772ba3ba59da5663782",
+ "summary": "El detector de texto de IA Pangram marcó como generado por máquina con un 99 por ciento de probabilidad la novela premiada Donde el agua trabaja, de David Silva Rojas, pero la editorial Almadía afirmó la autenticidad del manuscrito tras revisar la documentación interna.",
+ "title": "Pangram clasifica como generada por IA una novela peruana premiada, mientras la editorial mantiene el premio",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

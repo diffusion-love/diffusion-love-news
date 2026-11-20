@@ -1,0 +1,11 @@
+{
+ "id": "n-c607593781",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "공식 저장소를 복제하거나 vLLM, Transformers 등 지원되는 추론 런타임을 설치하십시오.\n\n원하는 변형에 맞는 모델 가중치를 Hugging Face에서 내려받으십시오. 일반적인 지시 따르기에는 tencent/Hy4-flash를, 메모리 효율적인 배포에는 tencent/Hy4-flash-FP8을 사용할 수 있습니다.\n\n가정용 다중 GPU나 메모리 용량이 큰 로컬 시스템에서는 AngelSlim/Hy4-flash-GGUF에서 양자화된 GGUF 가중치를 내려받아 호환되는 llama.cpp 또는 텍스트 생성 로더로 실행하십시오.\n\nVRAM 사용량을 관리하면서 초당 150토큰 이상의 처리량을 얻으려면 FP8 양자화 체크포인트를 배포하거나 DFly 드래프트 헤드를 이용한 추측 디코딩(speculative decoding)을 활성화하십시오.\n\n1M 컨텍스트 윈도우를 로드할 때는 GPU 메모리를 충분히 할당하십시오. 하이브리드 어텐션 덕분에 KV 캐시 크기는 Hy4 대비 1/6로 최적화되어 있다는 점에 유의하십시오.\n\n로컬 워크스테이션에서 IQ2 양자화 형식을 사용할 경우, 오프로드 중 메모리 부족 오류를 방지하려면 GPU 전체에 최소 126 GB의 VRAM을 확보하십시오.",
+ "source_sha256": "aae131827e272fb95fe1053fbb785678f055e1510bfce46582d643dfe223fa14",
+ "summary": "텐센트가 Hy4 Flash의 오픈 웨이트를 공개했습니다. Hy4 Flash는 토큰당 12B 파라미터를 활성화하는 224B 규모의 멀티모달 Mixture-of-Experts 모델로, 1M 컨텍스트 윈도우와 FP8 체크포인트를 지원합니다.",
+ "title": "텐센트, 오픈 웨이트 Hy4 Flash MoE 모델 공개",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

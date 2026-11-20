@@ -1014,6 +1014,11 @@
   "title": "Publicación de los pesos abiertos de GigaChat 3.5 Reasoning y de la arquitectura híbrida MLA",
   "translated_at": "2026-11-18"
  },
+ "n-2f21e893b0": {
+  "fresh": true,
+  "title": "Publicados los pesos abiertos de Hy4 Flash y las cuantizaciones GGUF de la comunidad",
+  "translated_at": "2026-11-20"
+ },
  "n-2f8c6f34f0": {
   "fresh": true,
   "title": "ClawEnvKit: generación automática de entornos para agentes de IA",
@@ -1954,6 +1959,11 @@
   "title": "TensorForger enlazó recursos de Flow Upscaler para ComfyUI",
   "translated_at": "2026-10-24"
  },
+ "n-6002e62c56": {
+  "fresh": true,
+  "title": "Código y pesos de Hy4 Flash publicados en Hugging Face y GitHub",
+  "translated_at": "2026-11-20"
+ },
  "n-60ec620b9e": {
   "fresh": true,
   "title": "Se hicieron públicos el proyecto OpenResearcher, un checkpoint de modelo y una demo",
@@ -2749,6 +2759,11 @@
   "title": "Ingesta de investigación por lotes: 21 artículos mediante Gemini 3 Flash CLI",
   "translated_at": "2026-10-24"
  },
+ "n-8a1ced2145": {
+  "fresh": true,
+  "title": "Google DeepMind pone a disposición en vista previa el modelo de mundo interactivo Genie 4",
+  "translated_at": "2026-11-20"
+ },
  "n-8a4dfeeb5d": {
   "fresh": true,
   "title": "Repositorio público de HyperAgents referenciado",
@@ -2788,6 +2803,11 @@
   "fresh": true,
   "title": "Referencia pública a ComfyUI-DaVinci-MagiHuman",
   "translated_at": "2026-10-24"
+ },
+ "n-8c7cda80aa": {
+  "fresh": true,
+  "title": "Yandex suspende el servicio de etiquetado de datos llave en mano en Yandex Tasks para clientes externos",
+  "translated_at": "2026-11-20"
  },
  "n-8c91402db3": {
   "fresh": true,
@@ -2923,6 +2943,11 @@
   "fresh": true,
   "title": "Publicado RelayVSR, un marco de superresolución de vídeo",
   "translated_at": "2026-11-18"
+ },
+ "n-95be0b3b16": {
+  "fresh": true,
+  "title": "Pangram clasifica como generada por IA una novela peruana premiada, mientras la editorial mantiene el premio",
+  "translated_at": "2026-11-20"
  },
  "n-95cbbfe193": {
   "fresh": true,
@@ -3864,6 +3889,11 @@
   "title": "Los repositorios de modelos Audex pasan a ser públicamente localizables",
   "translated_at": "2026-10-24"
  },
+ "n-c607593781": {
+  "fresh": true,
+  "title": "Tencent publica el modelo MoE de pesos abiertos Hy4 Flash",
+  "translated_at": "2026-11-20"
+ },
  "n-c660c4f559": {
   "fresh": true,
   "title": "CDM: destilación de difusión mediante Continuous-Time Distribution Matching",
@@ -3948,6 +3978,11 @@
   "fresh": true,
   "title": "Google anunció la vista previa de Veo 3.1 Lite",
   "translated_at": "2026-10-24"
+ },
+ "n-cb0846b088": {
+  "fresh": true,
+  "title": "Hy4 Flash publicado para flujos de trabajo de agentes de alto rendimiento",
+  "translated_at": "2026-11-20"
  },
  "n-cb62ae01fa": {
   "fresh": true,

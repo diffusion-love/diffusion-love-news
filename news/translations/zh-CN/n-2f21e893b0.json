@@ -1,0 +1,11 @@
+{
+ "id": "n-2f21e893b0",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "克隆官方仓库，或安装受支持的推理运行时，例如 vLLM 和 Transformers。\n\n从 Hugging Face 下载所需变体的模型权重，例如用于通用指令遵循的 tencent/Hy4-flash，或用于节省显存部署的 tencent/Hy4-flash-FP8。\n\n对于消费级多 GPU 或大内存本地系统，请从 AngelSlim/Hy4-flash-GGUF 下载量化 GGUF 权重，并通过兼容的 llama.cpp 或文本生成加载器运行。\n\n部署 FP8 量化检查点，或启用基于 DFly 草稿头的投机解码，以在控制显存占用的同时，将吞吐量提升至每秒 150 个 token 以上。\n\n加载 1M 上下文窗口时，请确保分配足够的 GPU 显存；由于采用混合注意力机制，KV 缓存大小已优化至 Hy4 的 1/6。\n\n对于本地工作站，使用 IQ2 量化格式时，请在多块 GPU 上至少分配 126 GB 的总显存，以避免卸载过程中出现显存不足错误。",
+ "source_sha256": "e1a4d0e0476e3c0ebf2f2e1480f7aec5b03990089d53c4f7156ca934bfe39937",
+ "summary": "Hy4 Flash 的开放权重与社区 GGUF 量化版本已同步发布，支持本地多 GPU 运行；采用 IQ2 量化时，显存需求从 126 GB 起。",
+ "title": "Hy4 Flash 开放权重及社区 GGUF 量化版本发布",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

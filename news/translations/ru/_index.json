@@ -1014,6 +1014,11 @@
   "title": "Выпуск открытых весов GigaChat 3.5 Reasoning и гибридной архитектуры MLA",
   "translated_at": "2026-11-18"
  },
+ "n-2f21e893b0": {
+  "fresh": true,
+  "title": "Опубликованы открытые веса Hy4 Flash и квантования GGUF от сообщества",
+  "translated_at": "2026-11-20"
+ },
  "n-2f8c6f34f0": {
   "fresh": true,
   "title": "ClawEnvKit: автоматическая генерация окружений для ИИ-агентов",
@@ -1954,6 +1959,11 @@
   "title": "TensorForger опубликовал ресурсы Flow Upscaler для ComfyUI",
   "translated_at": "2026-10-24"
  },
+ "n-6002e62c56": {
+  "fresh": true,
+  "title": "Код и веса Hy4 Flash опубликованы на Hugging Face и GitHub",
+  "translated_at": "2026-11-20"
+ },
  "n-60ec620b9e": {
   "fresh": true,
   "title": "Проект OpenResearcher, чекпоинт модели и демо стали доступны",
@@ -2749,6 +2759,11 @@
   "title": "Пакетный прием исследований: 21 статья через Gemini 3 Flash CLI",
   "translated_at": "2026-10-24"
  },
+ "n-8a1ced2145": {
+  "fresh": true,
+  "title": "Google DeepMind открывает доступ к интерактивной модели мира Genie 4 в режиме предварительного просмотра",
+  "translated_at": "2026-11-20"
+ },
  "n-8a4dfeeb5d": {
   "fresh": true,
   "title": "Публичный репозиторий HyperAgents упомянут",
@@ -2788,6 +2803,11 @@
   "fresh": true,
   "title": "Публичная ссылка на ComfyUI-DaVinci-MagiHuman",
   "translated_at": "2026-10-24"
+ },
+ "n-8c7cda80aa": {
+  "fresh": true,
+  "title": "Яндекс приостанавливает сервис разметки данных «под ключ» на Yandex Tasks для внешних клиентов",
+  "translated_at": "2026-11-20"
  },
  "n-8c91402db3": {
   "fresh": true,
@@ -2923,6 +2943,11 @@
   "fresh": true,
   "title": "Выпущен фреймворк для видео-суперразрешения RelayVSR",
   "translated_at": "2026-11-18"
+ },
+ "n-95be0b3b16": {
+  "fresh": true,
+  "title": "Pangram классифицирует отмеченный наградой перуанский роман как созданный ИИ, но издательство сохраняет премию",
+  "translated_at": "2026-11-20"
  },
  "n-95cbbfe193": {
   "fresh": true,
@@ -3864,6 +3889,11 @@
   "title": "Репозитории моделей Audex стали публично доступны для поиска",
   "translated_at": "2026-10-24"
  },
+ "n-c607593781": {
+  "fresh": true,
+  "title": "Tencent выпустила открытые веса MoE-модели Hy4 Flash",
+  "translated_at": "2026-11-20"
+ },
  "n-c660c4f559": {
   "fresh": true,
   "title": "CDM: дистилляция диффузионных моделей с непрерывным временем Distribution Matching",
@@ -3948,6 +3978,11 @@
   "fresh": true,
   "title": "Google анонсировала превью Veo 3.1 Lite",
   "translated_at": "2026-10-24"
+ },
+ "n-cb0846b088": {
+  "fresh": true,
+  "title": "Hy4 Flash выпущена для агентных рабочих процессов с высокой пропускной способностью",
+  "translated_at": "2026-11-20"
  },
  "n-cb62ae01fa": {
   "fresh": true,

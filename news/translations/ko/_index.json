@@ -1009,6 +1009,11 @@
   "title": "GigaChat 3.5 Reasoning 오픈 가중치 및 하이브리드 MLA 아키텍처 공개",
   "translated_at": "2026-11-18"
  },
+ "n-2f21e893b0": {
+  "fresh": true,
+  "title": "Hy4 Flash 공개 가중치 및 커뮤니티 GGUF 양자화 모델 공개",
+  "translated_at": "2026-11-20"
+ },
  "n-2f8c6f34f0": {
   "fresh": true,
   "title": "ClawEnvKit: AI 에이전트를 위한 자동 환경 생성",
@@ -1949,6 +1954,11 @@
   "title": "TensorForger, ComfyUI용 Flow Upscaler 관련 리소스 링크 공개",
   "translated_at": "2026-10-24"
  },
+ "n-6002e62c56": {
+  "fresh": true,
+  "title": "Hy4 Flash 코드와 가중치, Hugging Face 및 GitHub에 공개",
+  "translated_at": "2026-11-20"
+ },
  "n-60ec620b9e": {
   "fresh": true,
   "title": "OpenResearcher 프로젝트, 모델 체크포인트, 데모 공개",
@@ -2744,6 +2754,11 @@
   "title": "Gemini 3 Flash CLI를 활용한 배치 리서치 수집: 기사 21건",
   "translated_at": "2026-10-24"
  },
+ "n-8a1ced2145": {
+  "fresh": true,
+  "title": "Google DeepMind, 인터랙티브 월드 모델 Genie 4 프리뷰 공개",
+  "translated_at": "2026-11-20"
+ },
  "n-8a4dfeeb5d": {
   "fresh": true,
   "title": "HyperAgents 공개 저장소 참조",
@@ -2783,6 +2798,11 @@
   "fresh": true,
   "title": "ComfyUI-DaVinci-MagiHuman에 대한 공개 참조",
   "translated_at": "2026-10-24"
+ },
+ "n-8c7cda80aa": {
+  "fresh": true,
+  "title": "Yandex, 외부 고객 대상 Yandex Tasks 턴키 데이터 레이블링 서비스 중단",
+  "translated_at": "2026-11-20"
  },
  "n-8c91402db3": {
   "fresh": true,
@@ -2918,6 +2938,11 @@
   "fresh": true,
   "title": "RelayVSR 비디오 초해상도 프레임워크 공개",
   "translated_at": "2026-11-18"
+ },
+ "n-95be0b3b16": {
+  "fresh": true,
+  "title": "Pangram, 수상작 페루 소설을 AI 생성물로 분류했으나 출판사는 수상 결정을 유지",
+  "translated_at": "2026-11-20"
  },
  "n-95cbbfe193": {
   "fresh": true,
@@ -3859,6 +3884,11 @@
   "title": "Audex 모델 저장소 공개 검색 가능 상태로 전환",
   "translated_at": "2026-10-24"
  },
+ "n-c607593781": {
+  "fresh": true,
+  "title": "텐센트, 오픈 웨이트 Hy4 Flash MoE 모델 공개",
+  "translated_at": "2026-11-20"
+ },
  "n-c660c4f559": {
   "fresh": true,
   "title": "CDM: Continuous-Time Distribution Matching 디퓨전 증류",
@@ -3943,6 +3973,11 @@
   "fresh": true,
   "title": "Google, Veo 3.1 Lite 프리뷰 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-cb0846b088": {
+  "fresh": true,
+  "title": "고처리량 에이전트 워크플로를 위한 Hy4 Flash 공개",
+  "translated_at": "2026-11-20"
  },
  "n-cb62ae01fa": {
   "fresh": true,

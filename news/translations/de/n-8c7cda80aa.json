@@ -1,0 +1,11 @@
+{
+ "id": "n-8c7cda80aa",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erstellen Sie auf der Plattform Yandex Tasks ein kommerzielles Kundenkonto, um Self-Service-Werkzeuge für das Datenlabeling zu nutzen.\n\nKonfigurieren Sie Aufgabenvorlagen, Annotationsrichtlinien und Abnahmeregeln direkt in der Self-Service-Oberfläche, ohne Unterstützung durch den Anbieter.\n\nWeisen Sie Aufgaben unabhängigen freiberuflichen Crowd-Workern zu und verwalten Sie Aufgabenvalidierung und Vergütung selbst.\n\nIntegrieren Sie automatisierte Honeypots und konsensbasierte Validierungsregeln in selbstverwaltete Aufgabenvorlagen, um die eingestellte Qualitätssicherung des Anbieters zu ersetzen.\n\nKombinieren Sie synthetisches Vorab-Labeling mit gezielter Human-in-the-Loop-Validierung, um die Abhängigkeit von externer Crowd-Annotationskapazität zu minimieren.",
+ "source_sha256": "30e484003a521e935abe2f0c482153b177d19f9f790951fa7caeff1ecda5d9d5",
+ "summary": "Yandex hat die vollständig betreute, schlüsselfertige Datenannotation auf Yandex Tasks für externe kommerzielle Kunden ausgesetzt, um Ressourcen auf die interne KI-Entwicklung umzulenken. Der Self-Service-Zugang zur Plattform für die eigenständige Verwaltung von Aufgaben und Workern bleibt jedoch erhalten.",
+ "title": "Yandex setzt schlüsselfertiges Datenlabeling auf Yandex Tasks für externe Kunden aus",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
