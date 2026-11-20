@@ -1891,6 +1891,9 @@
   "NUMINA": [
     "n-e3abad048f"
   ],
+  "NVIDIA Dynamo: dynamo-recipes": [
+    "n-686468ae7d"
+  ],
   "NVIDIA Synthetic Video Detector": [
     "n-0abfd5c1ff"
   ],
@@ -4497,6 +4500,9 @@
   "dynamic-band-splitting-release": [
     "n-5e96f46ead"
   ],
+  "dynamo-recipes": [
+    "n-686468ae7d"
+  ],
   "echo": [
     "n-76eee2c69c"
   ],
@@ -6285,6 +6291,9 @@
   ],
   "family:nvidia-cosmos-3-edge": [
     "n-1a1adbb4f3"
+  ],
+  "family:nvidia-dynamo": [
+    "n-686468ae7d"
   ],
   "family:nvidia-nemotron": [
     "n-0ad60b8778"
@@ -9706,6 +9715,7 @@
     "n-69ec3b0aaa",
     "n-68b3b1fae6",
     "n-687a924683",
+    "n-686468ae7d",
     "n-68299e89f1",
     "n-67e41ba5ae",
     "n-676d66ea41",
@@ -10533,6 +10543,9 @@
   ],
   "nvidia-cosmos-world-model-platform": [
     "n-c51396234c"
+  ],
+  "nvidia-dynamo": [
+    "n-686468ae7d"
   ],
   "nvidia-nemotron": [
     "n-0ad60b8778"

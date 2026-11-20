@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-686468ae7d",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "NVIDIA Dynamo introduces distributed rollout serving for reinforcement learning",
+ "summary": "NVIDIA Dynamo introduces a distributed serving layer and Kubernetes recipes to decouple RL rollout generation from training pipelines, using KV-aware routing and RDMA weight updates.",
+ "research_notes": "Configure the reinforcement learning framework (such as verl, NeMo RL, or Prime-RL) to route inference rollout generation requests through NVIDIA Dynamo.\n\nDeploy inference rollout worker pods using dynamo-recipes Kubernetes manifests configured for the target runtime, such as vLLM or SGLang.\n\nEnable KV-aware routing to steer prompts with identical system or context prefixes toward workers with resident KV cache.\n\nActivate ModelExpress to stream updated policy weights from the trainer directly to rollout workers over RDMA without restarting serving containers.\n\nApply KV-aware routing when generating multi-sample rollouts per prompt or multi-turn agent traces to minimize redundant prefix compute across worker replicas.\n\nEnable zero-downtime recovery and request migration to prevent single-pod worker failures from stalling cluster-scale training steps.\n\nDeploy validated Kubernetes blueprints from dynamo-recipes matching the specific network topology and GPU architecture rather than manually configuring parallelisms and batching parameters.",
+ "project": {
+  "name": "NVIDIA Dynamo: dynamo-recipes",
+  "family_slug": "nvidia-dynamo",
+  "family_display": "NVIDIA Dynamo: dynamo-recipes",
+  "model_slug": "nvidia-dynamo",
+  "model_display": "NVIDIA Dynamo: dynamo-recipes",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "dynamo-recipes",
+  "thread_display": "Dynamo Recipes",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "NVIDIA Dynamo: dynamo-recipes",
+  "article_url": "https://happyin.space/projects/nvidia-dynamo/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/dbde5ca96f7919a015180471ab0e3a5ffd1e46a8/docs/projects/nvidia-dynamo.md",
+  "agent_context_url": "https://happyin.space/projects/nvidia-dynamo/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "NVIDIA Dynamo introduces distributed rollout serving for reinforcement learning",
+  "version": null,
+  "summary": "NVIDIA Dynamo introduces a distributed serving layer and Kubernetes recipes to decouple RL rollout generation from training pipelines, using KV-aware routing and RDMA weight updates."
+ },
+ "tags": [
+  "NVIDIA Dynamo: dynamo-recipes",
+  "dynamo-recipes",
+  "family:nvidia-dynamo",
+  "misc",
+  "nvidia-dynamo"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "nvidia-dynamo"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/",
+   "host": "developer.nvidia.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T21:43:41Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "NVIDIA Dynamo introduces a distributed serving layer and Kubernetes recipes to decouple RL rollout generation from training pipelines, using KV-aware routing and RDMA weight updates."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T21:43:41Z",
+  "classified_at": "2026-11-20T21:43:41Z",
+  "enriched_at": "2026-11-20T21:43:41Z",
+  "verified_at": "2026-11-20T21:43:41Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

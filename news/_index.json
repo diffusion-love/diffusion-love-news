@@ -302,6 +302,25 @@
     "has_video": false
   },
   {
+    "id": "n-686468ae7d",
+    "date": "2026-11-19",
+    "title": "NVIDIA Dynamo introduces distributed rollout serving for reinforcement learning",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "nvidia-dynamo",
+    "version": null,
+    "tags": [
+      "NVIDIA Dynamo: dynamo-recipes",
+      "dynamo-recipes",
+      "family:nvidia-dynamo",
+      "misc",
+      "nvidia-dynamo"
+    ],
+    "primary_link": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-5e913ae316",
     "date": "2026-11-19",
     "title": "OpenCode releases mobile companion app for remote desktop sessions",
