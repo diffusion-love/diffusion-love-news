@@ -100,6 +100,55 @@
       }
     ]
   },
+  "amd": {
+    "slug": "amd",
+    "display": "AMD AI Compute Platform",
+    "homepage": null,
+    "project_slugs": [],
+    "post_count": 1,
+    "direct_post_count": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "news_ids": [
+      "n-9253bb5191"
+    ],
+    "direct_news_ids": [
+      "n-9253bb5191"
+    ],
+    "development_threads": [
+      {
+        "slug": "amd-ai-compute-platform",
+        "display": "Amd Ai Compute Platform",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-9253bb5191",
+        "news_ids": [
+          "n-9253bb5191"
+        ]
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-9253bb5191",
+        "date": "2026-11-19",
+        "title": "AI models achieve 14% PPA improvements on AMD flagship GPU IP",
+        "category": "misc",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "AMD AI Compute Platform",
+          "amd",
+          "amd-ai-compute-platform",
+          "misc",
+          "organization:amd"
+        ],
+        "primary_link": "https://mltimes.ai/ii-za-pyat-mesyatsev-uluchshil-uzhe-optimizirovannyy-gpu-amd/",
+        "has_image": false,
+        "has_video": false
+      }
+    ]
+  },
   "anthropic": {
     "slug": "anthropic",
     "display": "Anthropic Development",

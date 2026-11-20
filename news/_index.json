@@ -283,6 +283,25 @@
     "has_video": false
   },
   {
+    "id": "n-9253bb5191",
+    "date": "2026-11-19",
+    "title": "AI models achieve 14% PPA improvements on AMD flagship GPU IP",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "AMD AI Compute Platform",
+      "amd",
+      "amd-ai-compute-platform",
+      "misc",
+      "organization:amd"
+    ],
+    "primary_link": "https://mltimes.ai/ii-za-pyat-mesyatsev-uluchshil-uzhe-optimizirovannyy-gpu-amd/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-90e6085d9b",
     "date": "2026-11-19",
     "title": "Dream-DAW integrates OpenRouter AI assistant and generative composition tools",

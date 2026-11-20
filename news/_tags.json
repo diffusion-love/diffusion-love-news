@@ -109,6 +109,9 @@
   "AI4AnimationPy": [
     "n-535631e71f"
   ],
+  "AMD AI Compute Platform": [
+    "n-9253bb5191"
+  ],
   "AP Netflix VOID": [
     "n-08ae804484"
   ],
@@ -3239,6 +3242,12 @@
   ],
   "alibaba_latent_to_pixel": [
     "n-1e37f80b3f"
+  ],
+  "amd": [
+    "n-9253bb5191"
+  ],
+  "amd-ai-compute-platform": [
+    "n-9253bb5191"
   ],
   "animation": [
     "n-f1139f1ee9",
@@ -9618,6 +9627,7 @@
     "n-93c82cced4",
     "n-9371b417f8",
     "n-9358043c25",
+    "n-9253bb5191",
     "n-920abfb1e3",
     "n-90e6085d9b",
     "n-901220b5b4",
@@ -10903,6 +10913,9 @@
     "n-851c72bbf5",
     "n-4003adb534",
     "n-061c80a1dc"
+  ],
+  "organization:amd": [
+    "n-9253bb5191"
   ],
   "organization:anthropic": [
     "n-15f28b9d26",
