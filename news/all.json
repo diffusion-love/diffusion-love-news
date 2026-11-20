@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-20T11:56:44Z",
+  "generated_at": "2026-11-20T12:13:01Z",
   "site": "diffusion.love",
-  "total": 1008,
+  "total": 1009,
   "records": [
     {
       "schema_version": "1.4",
@@ -2985,6 +2985,111 @@
         "classified_at": "2026-11-19T16:06:25Z",
         "enriched_at": "2026-11-19T16:06:25Z",
         "verified_at": "2026-11-19T16:06:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-8a1ced2145",
+      "entry_type": "news",
+      "category": "diffusion-video",
+      "lang": "en",
+      "title": "Google DeepMind makes Genie 4 interactive world model available in preview",
+      "summary": "Google DeepMind released Genie 4 in preview for Google AI Ultra subscribers and early-access API partners, enabling real-time steerable 720p simulation generation at up to 24 frames per second with native synchronized audio.",
+      "research_notes": "Access the Project Genie preview interface in a supported browser using an authorized Google AI Ultra account, or obtain early-access developer credentials for the Gemini API in Google AI Studio.\n\nProvide an initial world prompt consisting of a descriptive text scenario or an input reference image to initialize the 3D environment.\n\nNavigate the generated environment in real time at 720p up to 24 frames per second using keyboard, mouse, or gamepad directional controls.\n\nIssue mid-session natural language text or voice steering commands to modify environmental conditions, objects, or scene dynamics on the fly.\n\nKeep interactive simulation sessions bounded to short durations of one to two minutes to prevent cumulative environmental drift and maintain visual coherence.\n\nAvoid rapid 360-degree camera rotations to minimize loss of object permanence and scene background hallucinations.\n\nUse first-person perspective navigation when exploring generated spaces, as wide third-person views exhibit higher scale and physical distortion.",
+      "project": {
+        "name": "Genie 4: genie-world-model-line",
+        "family_slug": "genie-4",
+        "family_display": "Genie 4: genie-world-model-line",
+        "model_slug": "genie-4",
+        "model_display": "Genie 4: genie-world-model-line",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "genie-world-model-line",
+        "thread_display": "Genie World Model Line",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Genie 4: genie-world-model-line",
+        "article_url": "https://happyin.space/projects/genie-4/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/ef2fb66fb0197309323a3393fae5feaecbe608ef/docs/projects/genie-4.md",
+        "agent_context_url": "https://happyin.space/projects/genie-4/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Google DeepMind makes Genie 4 interactive world model available in preview",
+        "version": null,
+        "summary": "Google DeepMind released Genie 4 in preview for Google AI Ultra subscribers and early-access API partners, enabling real-time steerable 720p simulation generation at up to 24 frames per second with native synchronized audio."
+      },
+      "tags": [
+        "Genie 4: genie-world-model-line",
+        "diffusion-video",
+        "family:genie-4",
+        "genie-4",
+        "genie-world-model-line"
+      ],
+      "facets": {
+        "category": "diffusion-video",
+        "entry_type": "news",
+        "projects": [
+          "genie-4"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+          "host": "deepmind.google",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T12:13:01Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Google DeepMind released Genie 4 in preview for Google AI Ultra subscribers and early-access API partners, enabling real-time steerable 720p simulation generation at up to 24 frames per second with native synchronized audio."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T12:13:01Z",
+        "classified_at": "2026-11-20T12:13:01Z",
+        "enriched_at": "2026-11-20T12:13:01Z",
+        "verified_at": "2026-11-20T12:13:01Z",
         "models_used": {
           "research": "curated-live-material"
         },

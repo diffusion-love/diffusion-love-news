@@ -1043,6 +1043,9 @@
   "Generative World Renderer": [
     "n-01b786ce9f"
   ],
+  "Genie 4: genie-world-model-line": [
+    "n-8a1ced2145"
+  ],
   "Genxr Bench: genxr-bench-release": [
     "n-2988748edd"
   ],
@@ -4345,6 +4348,7 @@
     "n-997df70c3d",
     "n-8ff86e4411",
     "n-8a851b82d9",
+    "n-8a1ced2145",
     "n-8913c98771",
     "n-88b74a7e58",
     "n-83af6888de",
@@ -5428,6 +5432,9 @@
   ],
   "family:gen-searcher": [
     "n-eaa27c5213"
+  ],
+  "family:genie-4": [
+    "n-8a1ced2145"
   ],
   "family:genxr-bench": [
     "n-2988748edd"
@@ -7593,6 +7600,12 @@
   ],
   "generative-world-renderer": [
     "n-01b786ce9f"
+  ],
+  "genie-4": [
+    "n-8a1ced2145"
+  ],
+  "genie-world-model-line": [
+    "n-8a1ced2145"
   ],
   "genxr-bench": [
     "n-2988748edd"

@@ -512,6 +512,25 @@
     "has_video": false
   },
   {
+    "id": "n-8a1ced2145",
+    "date": "2026-11-18",
+    "title": "Google DeepMind makes Genie 4 interactive world model available in preview",
+    "category": "diffusion-video",
+    "entry_type": "news",
+    "project": "genie-4",
+    "version": null,
+    "tags": [
+      "Genie 4: genie-world-model-line",
+      "diffusion-video",
+      "family:genie-4",
+      "genie-4",
+      "genie-world-model-line"
+    ],
+    "primary_link": "https://deepmind.google/blog/genie-4-is-now-available/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-7c1de821f8",
     "date": "2026-11-18",
     "title": "Kling Image 4.0 update adds Tone color presets, font styling, and resolution-based API billing",

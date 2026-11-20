@@ -31569,6 +31569,115 @@
     ],
     "claims": []
   },
+  "genie-4": {
+    "family_slug": "genie-4",
+    "family_display": "Genie 4: genie-world-model-line",
+    "family_display_variants": [
+      {
+        "family_display": "Genie 4: genie-world-model-line",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "news_ids": [
+          "n-8a1ced2145"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "diffusion-video"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-18",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-8a1ced2145"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-8a1ced2145",
+        "title": "Google DeepMind makes Genie 4 interactive world model available in preview",
+        "primary_link": "https://deepmind.google/blog/genie-4-is-now-available/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "deepmind.google",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+        "is_primary": true,
+        "verified_at": "2026-11-20T12:13:01Z",
+        "news_ids": [
+          "n-8a1ced2145"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Google DeepMind makes Genie 4 interactive world model available in preview",
+        "summary": "Google DeepMind released Genie 4 in preview for Google AI Ultra subscribers and early-access API partners, enabling real-time steerable 720p simulation generation at up to 24 frames per second with native synchronized audio.",
+        "version": null,
+        "news_id": "n-8a1ced2145",
+        "primary_link": "https://deepmind.google/blog/genie-4-is-now-available/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-8a1ced2145",
+        "date": "2026-11-18",
+        "title": "Google DeepMind makes Genie 4 interactive world model available in preview",
+        "category": "diffusion-video",
+        "entry_type": "news",
+        "project": "genie-4",
+        "version": null,
+        "tags": [
+          "Genie 4: genie-world-model-line",
+          "diffusion-video",
+          "family:genie-4",
+          "genie-4",
+          "genie-world-model-line"
+        ],
+        "primary_link": "https://deepmind.google/blog/genie-4-is-now-available/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "genie-world-model-line",
+        "display": "Genie World Model Line",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-18",
+        "latest_news_id": "n-8a1ced2145",
+        "news_ids": [
+          "n-8a1ced2145"
+        ]
+      }
+    ]
+  },
   "genxr-bench": {
     "family_slug": "genxr-bench",
     "family_display": "Genxr Bench: genxr-bench-release",
