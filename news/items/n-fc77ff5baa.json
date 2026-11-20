@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-fc77ff5baa",
+ "entry_type": "news",
+ "category": "tools-frontend",
+ "lang": "en",
+ "title": "Google adds background computer use agent to Gemini macOS client",
+ "summary": "Google released a computer use agent for the Gemini macOS application that executes multi-step desktop and application workflows inside an isolated background window on Apple Silicon systems.",
+ "research_notes": "Install the Gemini for macOS desktop client on an Apple Silicon Mac and sign in with a paid Google AI subscription account.\n\nGrant Accessibility and screen control permissions in macOS System Settings and whitelist target desktop applications in the Gemini settings.\n\nSubmit a multi-step automation prompt in the chat panel describing the desired local file, form, or application workflow.\n\nMonitor execution through the isolated live preview window and confirm any sensitive login or transaction prompts.\n\nGrant application access selectively to specific target applications rather than granting unrestricted system access.\n\nKeep the chat live preview panel open during complex tasks to monitor agent navigation and pause execution immediately if missteps occur.\n\nMaintain mandatory manual approval prompts for authentication checkpoints, credential submission, and financial transactions.",
+ "project": {
+  "name": "Gemini development",
+  "family_slug": "gemini",
+  "family_display": "Gemini development",
+  "model_slug": "gemini",
+  "model_display": "Gemini development",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gemini-development",
+  "thread_display": "Gemini Development",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Gemini development",
+  "article_url": "https://happyin.space/projects/gemini/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/623741799a483fb758ea8628cb85d8eac12a2deb/docs/projects/gemini.md",
+  "agent_context_url": "https://happyin.space/projects/gemini/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "Google adds background computer use agent to Gemini macOS client",
+  "version": null,
+  "summary": "Google released a computer use agent for the Gemini macOS application that executes multi-step desktop and application workflows inside an isolated background window on Apple Silicon systems."
+ },
+ "tags": [
+  "Gemini development",
+  "family:gemini",
+  "gemini",
+  "gemini-development",
+  "tools-frontend"
+ ],
+ "facets": {
+  "category": "tools-frontend",
+  "entry_type": "news",
+  "projects": [
+   "gemini"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+   "host": "techcrunch.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T07:25:48Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "Google released a computer use agent for the Gemini macOS application that executes multi-step desktop and application workflows inside an isolated background window on Apple Silicon systems."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T07:25:48Z",
+  "classified_at": "2026-11-20T07:25:48Z",
+  "enriched_at": "2026-11-20T07:25:48Z",
+  "verified_at": "2026-11-20T07:25:48Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

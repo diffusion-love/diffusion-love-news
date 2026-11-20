@@ -596,6 +596,55 @@
       }
     ]
   },
+  "microsoft": {
+    "slug": "microsoft",
+    "display": "Microsoft generative AI rollout and adoption",
+    "homepage": null,
+    "project_slugs": [],
+    "post_count": 1,
+    "direct_post_count": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "news_ids": [
+      "n-a38742d6ad"
+    ],
+    "direct_news_ids": [
+      "n-a38742d6ad"
+    ],
+    "development_threads": [
+      {
+        "slug": "microsoft-generative-ai-rollout-and-adoption",
+        "display": "Microsoft Generative Ai Rollout And Adoption",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-a38742d6ad",
+        "news_ids": [
+          "n-a38742d6ad"
+        ]
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-a38742d6ad",
+        "date": "2026-11-19",
+        "title": "Nadella clarifies voluntary buyout program amid shift to agent-driven development",
+        "category": "misc",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Microsoft generative AI rollout and adoption",
+          "microsoft",
+          "microsoft-generative-ai-rollout-and-adoption",
+          "misc",
+          "organization:microsoft"
+        ],
+        "primary_link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+        "has_image": false,
+        "has_video": false
+      }
+    ]
+  },
   "nvidia": {
     "slug": "nvidia",
     "display": "NVIDIA",
