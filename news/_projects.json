@@ -38977,18 +38977,6 @@
           "n-2a63a39249",
           "n-ef6922bf2a"
         ]
-      },
-      {
-        "kind": "reference",
-        "host": "gitverse.ru",
-        "lang": "en",
-        "status": "unverified",
-        "url": "https://gitverse.ru/GigaTeam/gigachat3.5-reasoning",
-        "is_primary": false,
-        "verified_at": "2026-11-18T18:56:44Z",
-        "news_ids": [
-          "n-ef6922bf2a"
-        ]
       }
     ],
     "timeline": [
@@ -105054,6 +105042,18 @@
         "lang": "en",
         "status": "unverified",
         "url": "https://github.com/vrgamegirl19/VRGDG-SeedVR2-TensorRT-Studio/blob/main/README.md",
+        "is_primary": false,
+        "verified_at": "2026-09-06T00:01:23Z",
+        "news_ids": [
+          "n-92aedf6bb2"
+        ]
+      },
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/vrgamegirl19/VRGDG-SeedVR2-TensorRT-Studio/blob/main/THIRD_PARTY_NOTICES.md",
         "is_primary": false,
         "verified_at": "2026-09-06T00:01:23Z",
         "news_ids": [
