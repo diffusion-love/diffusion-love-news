@@ -1,0 +1,11 @@
+{
+ "id": "n-90e6085d9b",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository von GitHub und installieren Sie die System-Abhängigkeiten, darunter Rust, Node.js und die plattformspezifischen Audio-Build-Bibliotheken.\n\nBauen Sie die Tauri-Desktopanwendung und starten Sie sie, um die React-Benutzeroberfläche und die native Audiowiedergabe-Engine zu initialisieren.\n\nHinterlegen Sie in den Anwendungseinstellungen einen OpenRouter-API-Schlüssel, um den KI-Assistenten für das Erstellen von Spuren, das Bearbeiten von Clips und die Akkorderzeugung zu aktivieren.\n\nDurchsuchen Sie lokale VST2-, VST3- und AU-Plugin-Ordner oder importieren Sie bestehende Ableton-Live-Projektdateien in die Timeline.\n\nBetreiben Sie komplexe oder instabile VST- und AU-Plugins von Drittanbietern in separaten Prozessen, damit Fehler externer Plugins die zentrale Audio-Engine nicht zum Absturz bringen.\n\nLassen Sie das Audio-Fingerprint-Caching während der Stem-Separation aktiv, um redundanten Rechenaufwand bei wiederholten Audiosegmenten zu vermeiden.\n\nPrüfen Sie vom Assistenten erzeugte MIDI-Noten und Spurstrukturen vor destruktiven Übernahmen in die Timeline, um die musikalische Kohärenz sicherzustellen.",
+ "source_sha256": "1d5a1d9b9af85384660d899170c31defc1a72e36dcce7547a9731c2b9ff70dfd",
+ "summary": "Dream-DAW ergänzt einen OpenRouter-gestützten KI-Assistenten, der Projekte und Clips programmatisch bearbeiten kann, sowie algorithmische Generatoren für Akkorde und Arpeggios, die Synthese von Beat-Mustern, Spracheingabe und den Import von Ableton-Live-Projekten.",
+ "title": "Dream-DAW integriert OpenRouter-KI-Assistenten und generative Kompositionswerkzeuge",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

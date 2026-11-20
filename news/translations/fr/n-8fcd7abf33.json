@@ -1,0 +1,11 @@
+{
+ "id": "n-8fcd7abf33",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt depuis GitHub et installez les dépendances système, notamment Rust, Node.js et les bibliothèques de compilation audio propres à la plateforme.\n\nCompilez et lancez l'application de bureau Tauri pour initialiser l'interface utilisateur React et le moteur de lecture audio natif.\n\nRenseignez une clé API OpenRouter dans les préférences de l'application pour activer l'assistant IA destiné à la création de pistes, à l'édition de clips et à la génération d'accords.\n\nAnalysez les dossiers locaux de plugins VST2, VST3 et AU, ou importez des fichiers de projet Ableton Live existants dans la timeline.\n\nHébergez les plugins VST et AU tiers complexes ou instables dans des processus séparés afin d'empêcher que leurs erreurs ne fassent planter le moteur audio principal.\n\nGardez la mise en cache des empreintes audio active pendant la séparation des stems afin d'éliminer le surcoût de calcul redondant sur les segments audio déjà traités.\n\nVérifiez les notes MIDI et les structures de pistes générées par l'assistant avant toute validation destructive dans la timeline, afin de garantir la cohérence musicale.",
+ "source_sha256": "e4fdf7fa5d2de84d3f04f2811c5a22070a7c63e752a809e0f4afff2096453189",
+ "summary": "Dream DAW a publié sur GitHub le dépôt de sa station de travail audionumérique multiplateforme, dotée d'un moteur audio natif écrit en Rust et d'une interface de bureau basée sur Tauri et TypeScript.",
+ "title": "Dream DAW, station de travail de bureau open source, publiée sur GitHub",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
