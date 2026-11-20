@@ -1,0 +1,109 @@
+{
+ "schema_version": "1.4",
+ "id": "n-9253bb5191",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "AI models achieve 14% PPA improvements on AMD flagship GPU IP",
+ "summary": "AI models achieved up to 14% power, performance, and area (PPA) circuit optimizations by rewriting RTL code for AMD's flagship GPU IP over five months. Anthropic demonstrated rapid three-day low-level kernel migration on the Instinct MI355X platform, where manual kernel porting requires 6 to 12 months of engineering effort.",
+ "research_notes": "Deploy AI workloads to AMD Instinct MI355X accelerators by utilizing automated model agents to port and compile low-level compute kernels for prompt processing.\n\nVerify AI-synthesized RTL modifications on GPU architecture against functional testbenches using automated EDA simulation workflows before committing layouts to silicon production.",
+ "project": {
+  "name": null,
+  "family_slug": null,
+  "family_display": null,
+  "model_slug": null,
+  "model_display": null,
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": {
+  "slug": "amd",
+  "display": "AMD AI Compute Platform",
+  "homepage": null
+ },
+ "development": {
+  "scope": "organization",
+  "thread_slug": "amd-ai-compute-platform",
+  "thread_display": "Amd Ai Compute Platform",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "AMD AI Compute Platform",
+  "article_url": "https://happyin.space/organizations/amd/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/808b950feb992d33e3da307349a9ff76dcd75f91/docs/organizations/amd.md",
+  "agent_context_url": "https://happyin.space/organizations/amd/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "AI models achieve 14% PPA improvements on AMD flagship GPU IP",
+  "version": null,
+  "summary": "AI models achieved up to 14% power, performance, and area (PPA) circuit optimizations by rewriting RTL code for AMD's flagship GPU IP over five months. Anthropic demonstrated rapid three-day low-level kernel migration on the Instinct MI355X platform, where manual kernel porting requires 6 to 12 months of engineering effort."
+ },
+ "tags": [
+  "AMD AI Compute Platform",
+  "amd",
+  "amd-ai-compute-platform",
+  "misc",
+  "organization:amd"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [
+   "amd"
+  ],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://mltimes.ai/ii-za-pyat-mesyatsev-uluchshil-uzhe-optimizirovannyy-gpu-amd/",
+   "host": "mltimes.ai",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T22:19:09Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "AI models achieved up to 14% power, performance, and area (PPA) circuit optimizations by rewriting RTL code for AMD's flagship GPU IP over five months. Anthropic demonstrated rapid three-day low-level kernel migration on the Instinct MI355X platform, where manual kernel porting requires 6 to 12 months of engineering effort."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T22:19:09Z",
+  "classified_at": "2026-11-20T22:19:09Z",
+  "enriched_at": "2026-11-20T22:19:09Z",
+  "verified_at": "2026-11-20T22:19:09Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

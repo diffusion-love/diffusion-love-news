@@ -119,6 +119,9 @@
   "AMD": [
     "n-6d4f5a4c09"
   ],
+  "AMD AI Compute Platform": [
+    "n-9253bb5191"
+  ],
   "AP Netflix VOID": [
     "n-08ae804484"
   ],
@@ -2202,6 +2205,9 @@
     "n-0fe927a2ab",
     "n-0785ddb34a"
   ],
+  "NVIDIA Dynamo: dynamo-recipes": [
+    "n-686468ae7d"
+  ],
   "NVIDIA Synthetic Video Detector": [
     "n-0abfd5c1ff"
   ],
@@ -3473,6 +3479,10 @@
     "n-d4832f37b0",
     "n-6ee5d062c1"
   ],
+  "Weight-Space Programming: weight-space-programming-research": [
+    "n-dda49a7597",
+    "n-9944feb281"
+  ],
   "What to Edit Next": [
     "n-c4e41aef2b"
   ],
@@ -3774,7 +3784,11 @@
     "n-a89ec476bc"
   ],
   "amd": [
+    "n-9253bb5191",
     "n-6d4f5a4c09"
+  ],
+  "amd-ai-compute-platform": [
+    "n-9253bb5191"
   ],
   "amd_mi300x": [
     "n-6d4f5a4c09"
@@ -5551,6 +5565,9 @@
   ],
   "dynamic-band-splitting-release": [
     "n-5e96f46ead"
+  ],
+  "dynamo-recipes": [
+    "n-686468ae7d"
   ],
   "echo": [
     "n-76eee2c69c"
@@ -7674,6 +7691,9 @@
     "n-3a37efa7b1",
     "n-1a1adbb4f3"
   ],
+  "family:nvidia-dynamo": [
+    "n-686468ae7d"
+  ],
   "family:nvidia-nemotron": [
     "n-d6f8f63a6e",
     "n-0ad60b8778"
@@ -8789,6 +8809,10 @@
   "family:weathernext-3": [
     "n-d4832f37b0",
     "n-6ee5d062c1"
+  ],
+  "family:weight-space-programming": [
+    "n-dda49a7597",
+    "n-9944feb281"
   ],
   "family:what-to-edit-next": [
     "n-c4e41aef2b"
@@ -10860,6 +10884,7 @@
     "n-e4b7a4de7b",
     "n-e17cbf7ded",
     "n-df001e7bab",
+    "n-dda49a7597",
     "n-dd8d68b69f",
     "n-dc7072d90a",
     "n-db7fee9bb2",
@@ -11868,6 +11893,7 @@
     "n-9a04c1514f",
     "n-99ff299eee",
     "n-99dadfd9bc",
+    "n-9944feb281",
     "n-992fb237e4",
     "n-98fc3b041f",
     "n-98dd5dab2b",
@@ -11898,6 +11924,7 @@
     "n-9358043c25",
     "n-931c589133",
     "n-92d11a1f17",
+    "n-9253bb5191",
     "n-920abfb1e3",
     "n-91acd5d17b",
     "n-90e6085d9b",
@@ -12075,6 +12102,7 @@
     "n-69a1028e31",
     "n-68b3b1fae6",
     "n-687a924683",
+    "n-686468ae7d",
     "n-68585b945d",
     "n-68299e89f1",
     "n-67e41ba5ae",
@@ -13191,6 +13219,9 @@
   "nvidia-cosmos-world-model-platform": [
     "n-c51396234c"
   ],
+  "nvidia-dynamo": [
+    "n-686468ae7d"
+  ],
   "nvidia-nemotron": [
     "n-d6f8f63a6e",
     "n-0ad60b8778"
@@ -14261,6 +14292,9 @@
     "n-851c72bbf5",
     "n-4003adb534",
     "n-061c80a1dc"
+  ],
+  "organization:amd": [
+    "n-9253bb5191"
   ],
   "organization:anthropic": [
     "n-15f28b9d26",
@@ -16297,6 +16331,14 @@
     "n-1c50287b34",
     "n-093c066bee",
     "n-0588f1e672"
+  ],
+  "weight-space-programming": [
+    "n-dda49a7597",
+    "n-9944feb281"
+  ],
+  "weight-space-programming-research": [
+    "n-dda49a7597",
+    "n-9944feb281"
   ],
   "what-to-edit-next": [
     "n-c4e41aef2b"

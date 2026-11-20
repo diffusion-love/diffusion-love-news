@@ -131,6 +131,25 @@
     "has_video": false
   },
   {
+    "id": "n-dda49a7597",
+    "date": "2026-11-19",
+    "title": "POSTECH evaluates LLM-driven weight synthesis across reasoning benchmarks",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "weight-space-programming",
+    "version": null,
+    "tags": [
+      "Weight-Space Programming: weight-space-programming-research",
+      "family:weight-space-programming",
+      "llm",
+      "weight-space-programming",
+      "weight-space-programming-research"
+    ],
+    "primary_link": "https://github.com/effl-lab/Weight-Space-Programming",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-d684acf3ae",
     "date": "2026-11-19",
     "title": "NGINX releases security patches for HTTP/2 vulnerabilities CVE-2026-123007 and CVE-2026-123633",
@@ -245,6 +264,44 @@
     "has_video": false
   },
   {
+    "id": "n-9944feb281",
+    "date": "2026-11-19",
+    "title": "Weight-Space Programming compiles facts into sparse concept tables without gradient training",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "weight-space-programming",
+    "version": null,
+    "tags": [
+      "Weight-Space Programming: weight-space-programming-research",
+      "family:weight-space-programming",
+      "misc",
+      "weight-space-programming",
+      "weight-space-programming-research"
+    ],
+    "primary_link": "https://github.com/effl-lab/Weight-Space-Programming",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-9253bb5191",
+    "date": "2026-11-19",
+    "title": "AI models achieve 14% PPA improvements on AMD flagship GPU IP",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "AMD AI Compute Platform",
+      "amd",
+      "amd-ai-compute-platform",
+      "misc",
+      "organization:amd"
+    ],
+    "primary_link": "https://mltimes.ai/ii-za-pyat-mesyatsev-uluchshil-uzhe-optimizirovannyy-gpu-amd/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-90e6085d9b",
     "date": "2026-11-19",
     "title": "Dream-DAW integrates OpenRouter AI assistant and generative composition tools",
@@ -298,6 +355,25 @@
       "tools-frontend"
     ],
     "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-686468ae7d",
+    "date": "2026-11-19",
+    "title": "NVIDIA Dynamo introduces distributed rollout serving for reinforcement learning",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "nvidia-dynamo",
+    "version": null,
+    "tags": [
+      "NVIDIA Dynamo: dynamo-recipes",
+      "dynamo-recipes",
+      "family:nvidia-dynamo",
+      "misc",
+      "nvidia-dynamo"
+    ],
+    "primary_link": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/",
     "has_image": false,
     "has_video": false
   },

@@ -79382,6 +79382,115 @@
     ],
     "claims": []
   },
+  "nvidia-dynamo": {
+    "family_slug": "nvidia-dynamo",
+    "family_display": "NVIDIA Dynamo: dynamo-recipes",
+    "family_display_variants": [
+      {
+        "family_display": "NVIDIA Dynamo: dynamo-recipes",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-686468ae7d"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-686468ae7d"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-686468ae7d",
+        "title": "NVIDIA Dynamo introduces distributed rollout serving for reinforcement learning",
+        "primary_link": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "developer.nvidia.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/",
+        "is_primary": true,
+        "verified_at": "2026-11-20T21:43:41Z",
+        "news_ids": [
+          "n-686468ae7d"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "NVIDIA Dynamo introduces distributed rollout serving for reinforcement learning",
+        "summary": "NVIDIA Dynamo introduces a distributed serving layer and Kubernetes recipes to decouple RL rollout generation from training pipelines, using KV-aware routing and RDMA weight updates.",
+        "version": null,
+        "news_id": "n-686468ae7d",
+        "primary_link": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-686468ae7d",
+        "date": "2026-11-19",
+        "title": "NVIDIA Dynamo introduces distributed rollout serving for reinforcement learning",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "nvidia-dynamo",
+        "version": null,
+        "tags": [
+          "NVIDIA Dynamo: dynamo-recipes",
+          "dynamo-recipes",
+          "family:nvidia-dynamo",
+          "misc",
+          "nvidia-dynamo"
+        ],
+        "primary_link": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "dynamo-recipes",
+        "display": "Dynamo Recipes",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-686468ae7d",
+        "news_ids": [
+          "n-686468ae7d"
+        ]
+      }
+    ]
+  },
   "nvidia-nemotron": {
     "family_slug": "nvidia-nemotron",
     "family_display": "Nvidia Nemotron",
@@ -123610,6 +123719,155 @@
       }
     ],
     "claims": []
+  },
+  "weight-space-programming": {
+    "family_slug": "weight-space-programming",
+    "family_display": "Weight-Space Programming: weight-space-programming-research",
+    "family_display_variants": [
+      {
+        "family_display": "Weight-Space Programming: weight-space-programming-research",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-9944feb281",
+          "n-dda49a7597"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "llm",
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-9944feb281",
+      "n-dda49a7597"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-9944feb281",
+        "title": "Weight-Space Programming compiles facts into sparse concept tables without gradient training",
+        "primary_link": "https://github.com/effl-lab/Weight-Space-Programming"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-dda49a7597",
+        "title": "POSTECH evaluates LLM-driven weight synthesis across reasoning benchmarks",
+        "primary_link": "https://github.com/effl-lab/Weight-Space-Programming"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/effl-lab/Weight-Space-Programming",
+        "is_primary": true,
+        "verified_at": "2026-11-20T22:00:24Z",
+        "news_ids": [
+          "n-9944feb281",
+          "n-dda49a7597"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Weight-Space Programming compiles facts into sparse concept tables without gradient training",
+        "summary": "POSTECH EffL researchers demonstrate that language models writing weights directly compile knowledge into sparse concept tables instead of standard transformers, yielding up to ~1,800x parameter reduction and higher GPU inference throughput while underperforming gradient descent on continuous perceptual tasks.",
+        "version": null,
+        "news_id": "n-9944feb281",
+        "primary_link": "https://github.com/effl-lab/Weight-Space-Programming"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "POSTECH evaluates LLM-driven weight synthesis across reasoning benchmarks",
+        "summary": "Researchers evaluate weight-space programming using frontier reasoning models in an interactive execution sandbox, demonstrating tabular parameter efficiency over transformer baselines across reasoning benchmarks while relying strictly on human-written knowledge.",
+        "version": null,
+        "news_id": "n-dda49a7597",
+        "primary_link": "https://github.com/effl-lab/Weight-Space-Programming"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-dda49a7597",
+        "date": "2026-11-19",
+        "title": "POSTECH evaluates LLM-driven weight synthesis across reasoning benchmarks",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "weight-space-programming",
+        "version": null,
+        "tags": [
+          "Weight-Space Programming: weight-space-programming-research",
+          "family:weight-space-programming",
+          "llm",
+          "weight-space-programming",
+          "weight-space-programming-research"
+        ],
+        "primary_link": "https://github.com/effl-lab/Weight-Space-Programming",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-9944feb281",
+        "date": "2026-11-19",
+        "title": "Weight-Space Programming compiles facts into sparse concept tables without gradient training",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "weight-space-programming",
+        "version": null,
+        "tags": [
+          "Weight-Space Programming: weight-space-programming-research",
+          "family:weight-space-programming",
+          "misc",
+          "weight-space-programming",
+          "weight-space-programming-research"
+        ],
+        "primary_link": "https://github.com/effl-lab/Weight-Space-Programming",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "weight-space-programming-research",
+        "display": "Weight Space Programming Research",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-dda49a7597",
+        "news_ids": [
+          "n-9944feb281",
+          "n-dda49a7597"
+        ]
+      }
+    ]
   },
   "what-to-edit-next": {
     "family_slug": "what-to-edit-next",
