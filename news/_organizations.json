@@ -841,6 +841,55 @@
       }
     ]
   },
+  "osmo": {
+    "slug": "osmo",
+    "display": "Osmo: osmo-ai-smell-model-development",
+    "homepage": null,
+    "project_slugs": [],
+    "post_count": 1,
+    "direct_post_count": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "news_ids": [
+      "n-b65cdf0a31"
+    ],
+    "direct_news_ids": [
+      "n-b65cdf0a31"
+    ],
+    "development_threads": [
+      {
+        "slug": "osmo-ai-smell-model-development",
+        "display": "Osmo Ai Smell Model Development",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-b65cdf0a31",
+        "news_ids": [
+          "n-b65cdf0a31"
+        ]
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-b65cdf0a31",
+        "date": "2026-11-19",
+        "title": "Osmo develops AI olfaction system and tests authentication use cases",
+        "category": "misc",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Osmo: osmo-ai-smell-model-development",
+          "misc",
+          "organization:osmo",
+          "osmo",
+          "osmo-ai-smell-model-development"
+        ],
+        "primary_link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+        "has_image": false,
+        "has_video": false
+      }
+    ]
+  },
   "q-ant": {
     "slug": "q-ant",
     "display": "Q.ANT: llm-inference-on-photonic-hardware",
