@@ -1,0 +1,11 @@
+{
+ "id": "n-9c6aba7306",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Obtenez des identifiants d'API pour l'API Gemini et configurez l'accès client pour le point de terminaison multimodal.\n\nFormatez les requêtes d'entrée comprenant du texte, du code, de l'audio, de la vidéo ou des données PDF dans la limite de contexte prise en charge d'un million de tokens.\n\nSurveillez attentivement l'utilisation des tokens lors de l'envoi de charges utiles multimodales denses, telles que des vidéos ou des fichiers PDF volumineux, afin de maîtriser les coûts d'entrée à 3 $ par million de tokens.\n\nProfitez de la fenêtre de contexte d'un million de tokens pour soumettre des dépôts de code complets et des documents de référence en une seule requête, plutôt que de fragmenter le contexte.",
+ "source_sha256": "7be44077ab68b2263244d14f55f674b2ba9b2e56f218d5ba9da1d31ba28d4b1c",
+ "summary": "Google a publié Gemini 4 Neon, qui ajoute des capacités d'entrée multimodales couvrant le texte, le code, l'audio, la vidéo et les PDF, avec une fenêtre de contexte d'un million de tokens à 3 $ par million de tokens d'entrée et 15 $ par million de tokens de sortie.",
+ "title": "Google publie Gemini 4 Neon",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

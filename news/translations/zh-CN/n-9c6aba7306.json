@@ -1,0 +1,11 @@
+{
+ "id": "n-9c6aba7306",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "为 Gemini API 获取 API 凭证，并为多模态端点配置客户端访问。\n\n在受支持的一百万 token 上下文限制内，格式化输入请求，包括文本、代码、音频、视频或 PDF 数据。\n\n提交视频或大量 PDF 文件等高密度多模态负载时，需仔细监控 token 用量，以控制输入成本，价格为每百万 token 3 美元。\n\n利用一百万 token 的上下文窗口，在单次提示中提交完整的代码仓库和参考文档，而不是将上下文切分成碎片。",
+ "source_sha256": "7be44077ab68b2263244d14f55f674b2ba9b2e56f218d5ba9da1d31ba28d4b1c",
+ "summary": "谷歌发布了 Gemini 4 Neon，新增对文本、代码、音频、视频和 PDF 的多模态输入能力，上下文窗口为一百万 token，输入价格为每百万 token 3 美元，输出价格为每百万 token 15 美元。",
+ "title": "谷歌发布 Gemini 4 Neon",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

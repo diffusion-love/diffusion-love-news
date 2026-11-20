@@ -1,0 +1,11 @@
+{
+ "id": "n-5e913ae316",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installiere OpenCode lokal und starte die CLI oder den Hintergrunddienst (Daemon) auf deinem Entwicklungsrechner.\n\nFühre `opencode pair --remote` im Terminal aus, um einen OpenTunnel-Pairing-QR-Code und eine Verbindungs-URL zu erzeugen.\n\nInstalliere die OpenCode-Companion-App auf Android über Google Play oder auf iOS über TestFlight.\n\nScanne den Pairing-QR-Code in der mobilen App, um dich mit der aktiven Desktop-Sitzung zu verbinden, Tool-Aufrufe zu prüfen und Berechtigungen remote zu genehmigen.\n\nHalte den Host-Rechner und die lokale OpenCode-Terminalsitzung in einem persistenten Prozess oder einem Shell-Multiplexer am Laufen, damit der mobile Client seine Verbindung über OpenTunnel aufrechterhalten kann.\n\nPrüfe die Aufforderungen zur Ausführung von Agenten-Tools und die Datei-Diffs in der mobilen Client-Oberfläche, bevor du die Freigabe erteilst, Bash-Befehle auszuführen oder Repositories zu ändern.\n\nNutze mobile Spracheingabe vor allem für konzeptionelle Nachfragen, Anpassungen am Prompt und Statusprüfungen und nicht für das vollständige Schreiben von Code auf dem Smartphone.",
+ "source_sha256": "323666bad03d5c706cbbf312bde4a0e04b97b0581362dae9bdafb4b75275d005",
+ "summary": "OpenCode hat mobile Companion-Apps für iOS und Android veröffentlicht, mit denen Entwickler aktive Agenten-Sitzungen auf dem Desktop überwachen, Berechtigungen für Tool-Ausführungen genehmigen, Datei-Diffs prüfen und Text- oder Spracheingaben remote über OpenTunnel senden können.",
+ "title": "OpenCode veröffentlicht mobile Companion-App für Remote-Desktop-Sitzungen",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

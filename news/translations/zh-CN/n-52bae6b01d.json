@@ -1,0 +1,11 @@
+{
+ "id": "n-52bae6b01d",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在本地开发工作站上安装 OpenCode，并启动 CLI 或后台守护进程。\n\n在终端中运行 opencode pair --remote，以生成 OpenTunnel 配对二维码和连接 URL。\n\n在 Android 上从 Google Play 安装 OpenCode 配套应用，或在 iOS 上通过 TestFlight 安装。\n\n在移动应用中扫描配对二维码，即可连接到活动的桌面会话，查看工具调用、远程批准权限。\n\n将主机和本地 OpenCode 终端会话保持在持久进程或终端复用器（shell multiplexer）中运行，以便移动客户端通过 OpenTunnel 维持连接。\n\n在授权运行 bash 命令或修改代码仓库之前，先在移动客户端界面上核对智能体的工具执行提示和文件差异变更。\n\n移动端语音听写主要用于概念性追问、提示词调整和状态查看，而不适合用于完整的移动端代码编写。",
+ "source_sha256": "76a665692942d19e0b25b688e83111bb3daaf606b5d94cb3aae16be97ef1cdc1",
+ "summary": "OpenCode 推出了可在 Google Play 和 Apple TestFlight 获取的配套移动客户端，可通过二维码配对或 OpenTunnel 连接本地终端会话，支持远程监督和权限审批。",
+ "title": "OpenCode 在 Google Play 和 TestFlight 推出配套移动客户端",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-f0ba4e4e9c",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Obtenez des identifiants d'API pour l'API Gemini et configurez l'accès client pour le point de terminaison multimodal.\n\nFormatez les requêtes d'entrée contenant du texte, du code, de l'audio, de la vidéo ou des données PDF dans la limite de contexte d'un million de jetons prise en charge.\n\nSurveillez attentivement l'utilisation des jetons lorsque vous soumettez des charges utiles multimodales denses, telles que des vidéos ou des fichiers PDF volumineux, afin de maîtriser les coûts d'entrée à 3 $ par million de jetons.\n\nProfitez de la fenêtre de contexte d'un million de jetons pour soumettre des dépôts de code complets et des documents de référence en une seule requête, plutôt que de fragmenter le contexte.",
+ "source_sha256": "fe88558b4097921843dcae76809c1b0a3c3f4dd8f889009a76aa720af1b67620",
+ "summary": "Google a présenté Gemini 4 Neon dans sa gamme de modèles.",
+ "title": "Sortie de Gemini 4 Neon",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

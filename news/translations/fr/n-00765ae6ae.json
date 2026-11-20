@@ -1,0 +1,11 @@
+{
+ "id": "n-00765ae6ae",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt et installez les dépendances du projet pour mettre en place l'environnement d'évaluation local.\n\nTéléchargez les poids pré-entraînés des détecteurs Whisper-small base ou v3-lite depuis la collection officielle sur Hugging Face.\n\nTransmettez des fichiers audio de parole en anglais ou en russe au pipeline d'inférence par fenêtre glissante afin de générer des prédictions multi-étiquettes de dégradation par trame, à une résolution de 20 ms.\n\nFiltrez ou segmentez les jeux de données de parole à l'aide de seuils sigmoïdes propres à chaque catégorie, avant l'entraînement de modèles ASR ou TTS.\n\nUtilisez le modèle Whisper-small de 88M de paramètres lorsque la précision de classification des dégradations subtiles est prioritaire, et réservez le modèle v3-lite de 1.3M de paramètres aux pipelines de filtrage à haut débit ou à ressources limitées.\n\nAppliquez un seuillage probabiliste indépendant pour chaque catégorie de dégradation plutôt que de vous fier à un score agrégé, car plusieurs défauts peuvent survenir simultanément sur un même segment audio.\n\nLimitez l'évaluation de la parole en entrée à l'anglais et au russe, ou validez les performances sur votre domaine avant tout déploiement sur des langues non prises en charge.",
+ "source_sha256": "f7762be5f808c4cd5d9b836cd6785d4523387937c84add04c8465a68033345f8",
+ "summary": "AADD publie un classifieur open source de qualité de la parole qui détecte 12 types de dégradation toutes les 20 ms dans des audios en anglais et en russe, avec des checkpoints Whisper-small et v3-lite de 1.3M de paramètres.",
+ "title": "Publication en open source du détecteur de dégradations de la parole d'AADD",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

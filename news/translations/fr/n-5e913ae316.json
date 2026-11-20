@@ -1,0 +1,11 @@
+{
+ "id": "n-5e913ae316",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installez OpenCode localement et lancez la CLI ou le démon en arrière-plan sur votre poste de développement.\n\nExécutez `opencode pair --remote` dans le terminal pour générer un QR code d'appairage OpenTunnel et une URL de connexion.\n\nInstallez l'application compagnon OpenCode sur Android depuis Google Play ou sur iOS via TestFlight.\n\nScannez le QR code d'appairage dans l'application mobile pour vous connecter à la session de bureau active, examiner les appels d'outils et approuver les autorisations à distance.\n\nMaintenez la machine hôte et la session de terminal OpenCode locale en cours d'exécution dans un processus persistant ou un multiplexeur de shell afin que le client mobile puisse conserver sa connexion via OpenTunnel.\n\nVérifiez les invites d'exécution des outils de l'agent et les modifications de diff des fichiers dans l'interface du client mobile avant d'accorder l'autorisation d'exécuter des commandes bash ou de modifier des dépôts.\n\nUtilisez la dictée vocale mobile principalement pour les questions de suivi conceptuelles, les ajustements de prompt et les revues de statut plutôt que pour la rédaction complète de code sur mobile.",
+ "source_sha256": "323666bad03d5c706cbbf312bde4a0e04b97b0581362dae9bdafb4b75275d005",
+ "summary": "OpenCode a publié des applications mobiles compagnons pour iOS et Android, permettant aux développeurs de suivre les sessions d'agent actives sur ordinateur, d'approuver les autorisations d'exécution des outils, d'inspecter les diffs de fichiers et de soumettre à distance une saisie textuelle ou vocale via OpenTunnel.",
+ "title": "OpenCode lance une application mobile compagnon pour les sessions de bureau à distance",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

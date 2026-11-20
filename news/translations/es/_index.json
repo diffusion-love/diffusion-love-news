@@ -14,6 +14,11 @@
   "title": "UNI-1 recibió una referencia oficial de proyecto de Luma Labs",
   "translated_at": "2026-10-24"
  },
+ "n-00765ae6ae": {
+  "fresh": true,
+  "title": "Se publica el detector de degradaciones de voz de código abierto AADD",
+  "translated_at": "2026-11-20"
+ },
  "n-00b6dfd5f9": {
   "fresh": true,
   "title": "Suno lanza un conector de servidor MCP con sincronización de la biblioteca de la cuenta",
@@ -1669,6 +1674,11 @@
   "title": "EMF: Extendiendo la generación de imágenes en un solo paso (Alibaba)",
   "translated_at": "2026-10-24"
  },
+ "n-52bae6b01d": {
+  "fresh": true,
+  "title": "OpenCode lanza clientes móviles complementarios en Google Play y TestFlight",
+  "translated_at": "2026-11-20"
+ },
  "n-52e566a651": {
   "fresh": true,
   "title": "LumiVid: generación de video de SDR a HDR mediante LTX-Video 2.3",
@@ -1893,6 +1903,11 @@
   "fresh": true,
   "title": "Llegan el código y los pesos de SANA-Video",
   "translated_at": "2026-10-24"
+ },
+ "n-5e913ae316": {
+  "fresh": true,
+  "title": "OpenCode lanza una aplicación móvil complementaria para sesiones de escritorio remotas",
+  "translated_at": "2026-11-20"
  },
  "n-5e92efec32": {
   "fresh": true,
@@ -2408,6 +2423,11 @@
   "fresh": true,
   "title": "ComfyUI-Flux2Klein-Enhancer: nodos de preservación facial",
   "translated_at": "2026-11-13"
+ },
+ "n-76e2884b48": {
+  "fresh": true,
+  "title": "ComfyUI v0.46.1 publicado en GitHub",
+  "translated_at": "2026-11-20"
  },
  "n-76eee2c69c": {
   "fresh": true,
@@ -3053,6 +3073,11 @@
   "fresh": true,
   "title": "Qwen-Image llega con renderizado de texto nativo",
   "translated_at": "2026-10-24"
+ },
+ "n-9c6aba7306": {
+  "fresh": true,
+  "title": "Google lanza Gemini 4 Neon",
+  "translated_at": "2026-11-20"
  },
  "n-9cb04ca5a6": {
   "fresh": true,
@@ -4698,6 +4723,11 @@
   "fresh": true,
   "title": "Sitio del proyecto KnowAct-GUIClaw y repositorio de código fuente enlazados",
   "translated_at": "2026-10-24"
+ },
+ "n-f0ba4e4e9c": {
+  "fresh": true,
+  "title": "Lanzamiento de Gemini 4 Neon",
+  "translated_at": "2026-11-20"
  },
  "n-f0c1036242": {
   "fresh": true,

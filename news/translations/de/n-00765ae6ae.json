@@ -1,0 +1,11 @@
+{
+ "id": "n-00765ae6ae",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository und installieren Sie die Projektabhängigkeiten, um die lokale Evaluierungsumgebung einzurichten.\n\nLaden Sie die vortrainierten Whisper-small-Basis- oder v3-lite-Detektorgewichte aus der offiziellen Hugging-Face-Sammlung herunter.\n\nLeiten Sie englische oder russische Sprachaufnahmen durch die Inferenzpipeline mit gleitendem Fenster, um pro Frame Multilabel-Vorhersagen zu Qualitätsbeeinträchtigungen mit 20 ms Auflösung zu erzeugen.\n\nFiltern oder segmentieren Sie Sprachdatensätze mithilfe kategoriespezifischer Sigmoid-Schwellenwerte, bevor Sie ASR- oder TTS-Modelle trainieren.\n\nVerwenden Sie das Whisper-small-Modell mit 88M Parametern, wenn die Klassifikationsgenauigkeit bei subtilen Beeinträchtigungen Priorität hat, und reservieren Sie das 1.3M-v3-lite-Modell für Filterpipelines mit hohem Durchsatz oder begrenzten Ressourcen.\n\nWenden Sie unabhängige Wahrscheinlichkeitsschwellen je Beeinträchtigungskategorie an, statt sich auf einen aggregierten Wert zu verlassen, da mehrere Fehler gleichzeitig im selben Audiosegment auftreten können.\n\nBeschränken Sie die Bewertung von Spracheingaben auf Englisch und Russisch, oder validieren Sie die Domänenleistung, bevor Sie das Modell für nicht unterstützte Sprachen einsetzen.",
+ "source_sha256": "f7762be5f808c4cd5d9b836cd6785d4523387937c84add04c8465a68033345f8",
+ "summary": "AADD veröffentlicht einen Open-Source-Klassifikator für Sprachqualität, der alle 20 ms 12 Arten von Beeinträchtigungen in englischen und russischen Audiodaten erkennt und Whisper-small- sowie 1.3M-Parameter-v3-lite-Checkpoints anbietet.",
+ "title": "AADD veröffentlicht Open-Source-Detektor für Sprachbeeinträchtigungen",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

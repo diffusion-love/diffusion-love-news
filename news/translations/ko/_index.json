@@ -14,6 +14,11 @@
   "title": "UNI-1이 Luma Labs의 공식 프로젝트 참조를 받다",
   "translated_at": "2026-10-24"
  },
+ "n-00765ae6ae": {
+  "fresh": true,
+  "title": "AADD 오픈소스 음성 열화 탐지기 공개",
+  "translated_at": "2026-11-20"
+ },
  "n-00c9c3996b": {
   "fresh": true,
   "title": "HATCHA의 GitHub 저장소가 언급되었습니다",
@@ -1664,6 +1669,11 @@
   "title": "EMF: 원스텝 이미지 생성 확장 (Alibaba)",
   "translated_at": "2026-10-24"
  },
+ "n-52bae6b01d": {
+  "fresh": true,
+  "title": "OpenCode, Google Play와 TestFlight에서 컴패니언 모바일 클라이언트 출시",
+  "translated_at": "2026-11-20"
+ },
  "n-52e566a651": {
   "fresh": true,
   "title": "LumiVid: LTX-Video 2.3을 통한 SDR-to-HDR 비디오 생성",
@@ -1888,6 +1898,11 @@
   "fresh": true,
   "title": "SANA-Video 코드와 가중치 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-5e913ae316": {
+  "fresh": true,
+  "title": "OpenCode, 원격 데스크톱 세션용 모바일 컴패니언 앱 출시",
+  "translated_at": "2026-11-20"
  },
  "n-5e92efec32": {
   "fresh": true,
@@ -2403,6 +2418,11 @@
   "fresh": true,
   "title": "ComfyUI-Flux2Klein-Enhancer 얼굴 보존 노드",
   "translated_at": "2026-11-13"
+ },
+ "n-76e2884b48": {
+  "fresh": true,
+  "title": "ComfyUI v0.46.1, GitHub에 공개",
+  "translated_at": "2026-11-20"
  },
  "n-76eee2c69c": {
   "fresh": true,
@@ -3048,6 +3068,11 @@
   "fresh": true,
   "title": "Qwen-Image, 네이티브 텍스트 렌더링 기능과 함께 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-9c6aba7306": {
+  "fresh": true,
+  "title": "Google, Gemini 4 Neon 출시",
+  "translated_at": "2026-11-20"
  },
  "n-9cb04ca5a6": {
   "fresh": true,
@@ -4688,6 +4713,11 @@
   "fresh": true,
   "title": "KnowAct-GUIClaw 프로젝트 사이트 및 소스 저장소 연결",
   "translated_at": "2026-10-24"
+ },
+ "n-f0ba4e4e9c": {
+  "fresh": true,
+  "title": "Gemini 4 Neon 출시",
+  "translated_at": "2026-11-20"
  },
  "n-f0c1036242": {
   "fresh": true,

@@ -12,6 +12,11 @@
   "summary": "Am 2026-03-23 verwies eine versiegelte Nachricht Leser auf die UNI-1-Seite bei Luma Labs sowie auf die Anwendung von Luma Labs. Damit ist ein datierter offizieller Projektverweis in der Entwicklungsgeschichte von UNI-1 belegt. Die vorliegenden Belege lassen jedoch weder den genauen Veröffentlichungsstatus noch die Fähigkeiten oder Einzelheiten der Ankündigung erkennen.",
   "title": "UNI-1 erhielt einen offiziellen Projektverweis von Luma Labs"
  },
+ "n-00765ae6ae": {
+  "research_notes": "Klonen Sie das Repository und installieren Sie die Projektabhängigkeiten, um die lokale Evaluierungsumgebung einzurichten.\n\nLaden Sie die vortrainierten Whisper-small-Basis- oder v3-lite-Detektorgewichte aus der offiziellen Hugging-Face-Sammlung herunter.\n\nLeiten Sie englische oder russische Sprachaufnahmen durch die Inferenzpipeline mit gleitendem Fenster, um pro Frame Multilabel-Vorhersagen zu Qualitätsbeeinträchtigungen mit 20 ms Auflösung zu erzeugen.\n\nFiltern oder segmentieren Sie Sprachdatensätze mithilfe kategoriespezifischer Sigmoid-Schwellenwerte, bevor Sie ASR- oder TTS-Modelle trainieren.\n\nVerwenden Sie das Whisper-small-Modell mit 88M Parametern, wenn die Klassifikationsgenauigkeit bei subtilen Beeinträchtigungen Priorität hat, und reservieren Sie das 1.3M-v3-lite-Modell für Filterpipelines mit hohem Durchsatz oder begrenzten Ressourcen.\n\nWenden Sie unabhängige Wahrscheinlichkeitsschwellen je Beeinträchtigungskategorie an, statt sich auf einen aggregierten Wert zu verlassen, da mehrere Fehler gleichzeitig im selben Audiosegment auftreten können.\n\nBeschränken Sie die Bewertung von Spracheingaben auf Englisch und Russisch, oder validieren Sie die Domänenleistung, bevor Sie das Modell für nicht unterstützte Sprachen einsetzen.",
+  "summary": "AADD veröffentlicht einen Open-Source-Klassifikator für Sprachqualität, der alle 20 ms 12 Arten von Beeinträchtigungen in englischen und russischen Audiodaten erkennt und Whisper-small- sowie 1.3M-Parameter-v3-lite-Checkpoints anbietet.",
+  "title": "AADD veröffentlicht Open-Source-Detektor für Sprachbeeinträchtigungen"
+ },
  "n-00b6dfd5f9": {
   "research_notes": "Konfigurieren Sie den MCP-Client in Claude, ChatGPT, Gemini oder Cursor mit der Endpunkt-URL des Remote-Servers https://api.suno.com/mcp.\n\nSchließen Sie den OAuth-Anmeldevorgang ab, um Ihr Suno-Konto zu verknüpfen und die Nutzung von Credits zu autorisieren.\n\nBeschreiben Sie dem Assistenten musikalische Stile, Genrepräferenzen oder Liedtext-Entwürfe, um vollständige Tracks, Erweiterungen oder Videoclips zu generieren.\n\nStellen Sie sicher, dass Sie vor dem Start von OAuth im Assistenten beim gewünschten Suno-Konto angemeldet sind, um die Verknüpfung mit einem falschen Profil zu vermeiden.\n\nGeben Sie im Chat-Prompt explizite Genre-Schlüsselwörter, Tempo und Gesangspräferenzen an, um unnötigen Credit-Verbrauch zu minimieren.",
   "summary": "Suno hat Client-Setup-Konfigurationen für Claude, ChatGPT, Gemini und Cursor veröffentlicht, die sich mit api.suno.com/mcp verbinden und erzeugte Songs ohne API-Schlüssel automatisch mit der Web-Bibliothek des Nutzers synchronisieren.",
@@ -1584,6 +1589,11 @@
   "summary": "Entwickelt vom DreamX-Team von Alibaba, ist EMF ein Forschungsframework für hocheffiziente Einschritt-Text-zu-Bild-Generierung. Es nutzt diskriminative Textrepräsentationen, um komplexe Semantik in einen einzigen Generierungsschritt abzubilden, wodurch die Inferenzlatenz deutlich sinkt, ohne die Qualität zu beeinträchtigen.",
   "title": "EMF: Erweiterung der Einschritt-Bildgenerierung (Alibaba)"
  },
+ "n-52bae6b01d": {
+  "research_notes": "Installieren Sie OpenCode lokal und starten Sie die CLI oder den Hintergrunddienst (Daemon) auf Ihrer Entwicklungsworkstation.\n\nFühren Sie opencode pair --remote im Terminal aus, um einen OpenTunnel-Kopplungs-QR-Code und eine Verbindungs-URL zu erzeugen.\n\nInstallieren Sie die OpenCode-Begleit-App für Android über Google Play oder für iOS über TestFlight.\n\nScannen Sie in der mobilen App den Kopplungs-QR-Code, um sich mit der aktiven Desktop-Sitzung zu verbinden, Tool-Aufrufe zu prüfen und Berechtigungen remote zu genehmigen.\n\nHalten Sie den Host-Rechner und die lokale OpenCode-Terminalsitzung in einem dauerhaften Prozess oder einem Shell-Multiplexer am Laufen, damit der mobile Client seine Verbindung über OpenTunnel aufrechterhalten kann.\n\nPrüfen Sie Ausführungsaufforderungen für Agent-Tools und Dateidiff-Änderungen in der Oberfläche des mobilen Clients, bevor Sie die Berechtigung erteilen, Bash-Befehle auszuführen oder Repositories zu ändern.\n\nNutzen Sie die mobile Spracheingabe vor allem für konzeptionelle Rückfragen, Anpassungen von Prompts und Statusabfragen, nicht für das vollständige Schreiben von Code auf dem Mobilgerät.",
+  "summary": "OpenCode hat mobile Begleit-Clients auf Google Play und Apple TestFlight veröffentlicht, die sich per QR-Kopplung oder OpenTunnel mit lokalen Terminal-Sitzungen verbinden und so Fernüberwachung sowie das Erteilen von Berechtigungen ermöglichen.",
+  "title": "OpenCode veröffentlicht mobile Begleit-Clients für Google Play und TestFlight"
+ },
  "n-52e566a651": {
   "evolution_summary": "Veröffentlicht im April 2026 als Teil des Ökosystems LTX-Video 2.3; enthält die Bildvariante LumiPic und ist vollständig in ComfyUI für lokale Inferenz integriert.",
   "research_notes": "Erzeugt professionelle float16-EXR-Sequenzen, die mit VFX-Pipelines und Grading-Werkzeugen wie DaVinci Resolve und Nuke kompatibel sind.",
@@ -1814,6 +1824,11 @@
   "evolution_summary": "Der Nachrichtenbeitrag meldete die Veröffentlichung von Code und Gewichten für SANA-Video, Demos, Links zu Hugging Face und Diffusers, eine mögliche Nutzung mit ComfyUI sowie einen negativen Eindruck nach einem Test mit vier Schritten.",
   "summary": "Der Nachrichtenbeitrag meldete die Veröffentlichung von Code und Gewichten für SANA-Video, Demos, Links zu Hugging Face und Diffusers, eine mögliche Nutzung mit ComfyUI sowie einen negativen Eindruck nach einem Test mit vier Schritten.",
   "title": "SANA-Video-Code und Gewichte veröffentlicht"
+ },
+ "n-5e913ae316": {
+  "research_notes": "Installiere OpenCode lokal und starte die CLI oder den Hintergrunddienst (Daemon) auf deinem Entwicklungsrechner.\n\nFühre `opencode pair --remote` im Terminal aus, um einen OpenTunnel-Pairing-QR-Code und eine Verbindungs-URL zu erzeugen.\n\nInstalliere die OpenCode-Companion-App auf Android über Google Play oder auf iOS über TestFlight.\n\nScanne den Pairing-QR-Code in der mobilen App, um dich mit der aktiven Desktop-Sitzung zu verbinden, Tool-Aufrufe zu prüfen und Berechtigungen remote zu genehmigen.\n\nHalte den Host-Rechner und die lokale OpenCode-Terminalsitzung in einem persistenten Prozess oder einem Shell-Multiplexer am Laufen, damit der mobile Client seine Verbindung über OpenTunnel aufrechterhalten kann.\n\nPrüfe die Aufforderungen zur Ausführung von Agenten-Tools und die Datei-Diffs in der mobilen Client-Oberfläche, bevor du die Freigabe erteilst, Bash-Befehle auszuführen oder Repositories zu ändern.\n\nNutze mobile Spracheingabe vor allem für konzeptionelle Nachfragen, Anpassungen am Prompt und Statusprüfungen und nicht für das vollständige Schreiben von Code auf dem Smartphone.",
+  "summary": "OpenCode hat mobile Companion-Apps für iOS und Android veröffentlicht, mit denen Entwickler aktive Agenten-Sitzungen auf dem Desktop überwachen, Berechtigungen für Tool-Ausführungen genehmigen, Datei-Diffs prüfen und Text- oder Spracheingaben remote über OpenTunnel senden können.",
+  "title": "OpenCode veröffentlicht mobile Companion-App für Remote-Desktop-Sitzungen"
  },
  "n-5e92efec32": {
   "evolution_summary": "Folgt auf ERNIE 5.0 und verlagert sich von massiver Parameterzahl (2.4T) hin zu einer effizienteren 800B-Architektur über das Framework Once-For-All. Sie bietet eine neue asynchrone Reinforcement-Learning-Pipeline und ein verbessertes vierstufiges Post-Training.",
@@ -2290,6 +2305,11 @@
   "research_notes": "Entwickelt von capitan01R; umgeht die Einschränkungen des auf Qwen3 basierenden Text-Encoders, indem aktive Token isoliert und interne Modellblöcke direkt angesprochen werden.",
   "summary": "Eine ComfyUI-Node-Suite zur Erhaltung der Figurenidentität in FLUX.2-Klein-Modellen ohne LoRA-Training. Sie nutzt Modell-Hook-Tracing und Identitätsführung, um Referenzmerkmale direkt in die Dual-Stream-Architektur des Modells einzuspeisen.",
   "title": "ComfyUI-Flux2Klein-Enhancer: Nodes zur Gesichtserhaltung"
+ },
+ "n-76e2884b48": {
+  "research_notes": "ComfyUI installieren oder eine bestehende Installation aktualisieren, entweder per git pull aus dem offiziellen Repository oder über den Desktop-Launcher.\n\nDiffusion-Checkpoint-Gewichte und Text-Encoder-Modelle in das dafür vorgesehene models-Verzeichnis legen.\n\nEinen Workflow-Graphen aufbauen, indem Checkpoint-Loader, CLIP Text Encode, KSampler und VAE Decode verknüpft werden.\n\nDie Prompt-Ausführung in die Warteschlange stellen, um die Tensorerzeugung auszuführen, und Ausgabebilder über Save-Image-Knoten schreiben lassen.\n\nStandard-Backends für CUDA oder Apple Silicon statt DirectML verwenden, nachdem die DirectML-Beschleunigung in den Kernversionen entfernt wurde.\n\nCustom-Node-Pakete isolieren und Abhängigkeitsaktualisierungen in einer Staging-Umgebung testen, um Ausführungsfehler im Node-Graphen zu verhindern.",
+  "summary": "Comfy-Org hat ComfyUI v0.46.1 veröffentlicht, mit Stabilitäts- und Patch-Korrekturen im Anschluss an den v0.46.0-Zyklus, der Partner-Nodes einführte und die DirectML-Unterstützung entfernte.",
+  "title": "ComfyUI v0.46.1 auf GitHub veröffentlicht"
  },
  "n-76eee2c69c": {
   "evolution_summary": "Echo-2 wurde Ende April 2026 vorgestellt und führte über Gaussian Splatting räumliche Persistenz sowie objektbezogene Bearbeitung ein. Es folgt früheren Prototypen, indem es auf eine „physikalisch fundierte“ Geometrie setzt, die Drift während der Navigation verhindert.",
@@ -2898,6 +2918,11 @@
   "evolution_summary": "Der Nachrichtenbeitrag stellte Qwen-Image vor, mit Schwerpunkt auf der Darstellung von Text und konsistenter Bearbeitung, sowie verlinkten Repository-, Gewichts- und Demo-Oberflächen.",
   "summary": "Der Nachrichtenbeitrag stellte Qwen-Image vor, mit Schwerpunkt auf der Darstellung von Text und konsistenter Bearbeitung, sowie verlinkten Repository-, Gewichts- und Demo-Oberflächen.",
   "title": "Qwen-Image startet mit nativer Textdarstellung"
+ },
+ "n-9c6aba7306": {
+  "research_notes": "Besorgen Sie sich API-Zugangsdaten für die Gemini API und konfigurieren Sie den Client-Zugriff für den multimodalen Endpunkt.\n\nFormatieren Sie Eingabeanfragen mit Text-, Code-, Audio-, Video- oder PDF-Daten innerhalb des unterstützten Kontextlimits von einer Million Tokens.\n\nÜberwachen Sie den Token-Verbrauch sorgfältig, wenn Sie dichte multimodale Payloads wie Videos oder PDF-Dateien mit hohem Volumen einreichen, um die Eingabekosten bei 3 $ pro Million Tokens im Griff zu behalten.\n\nNutzen Sie das Kontextfenster von einer Million Tokens, um vollständige Code-Repositories und Referenzdokumente in einem einzigen Prompt einzureichen, anstatt den Kontext zu fragmentieren.",
+  "summary": "Google hat Gemini 4 Neon veröffentlicht, das multimodale Eingaben für Text, Code, Audio, Video und PDF mit einem Kontextfenster von einer Million Tokens unterstützt und 3 $ pro Million Eingabe-Tokens sowie 15 $ pro Million Ausgabe-Tokens kostet.",
+  "title": "Google veröffentlicht Gemini 4 Neon"
  },
  "n-9cb04ca5a6": {
   "evolution_summary": "Das öffentliche Repository wurde mit 385 Einträgen in 21 Domänen initialisiert.",
@@ -4502,6 +4527,11 @@
  "n-f09f1875bc": {
   "summary": "Am 18. Juli 2026 verlinkte eine öffentliche Nachricht die Projektseite von KnowAct-GUIClaw und das KnowAct-GitHub-Repository. Damit ist eine datierte öffentliche Verbindung zwischen dem GUIClaw-Projekt und der KnowAct-Codebasis belegt; sie belegt jedoch weder ein bestimmtes Release, ein Feature noch einen Meilenstein bei der Implementierung.",
   "title": "KnowAct-GUIClaw-Projektseite und Quellcode-Repository verlinkt"
+ },
+ "n-f0ba4e4e9c": {
+  "research_notes": "Beschaffen Sie API-Zugangsdaten für die Gemini API und konfigurieren Sie den Client-Zugriff für den multimodalen Endpunkt.\n\nFormatieren Sie Eingabeanfragen mit Text, Code, Audio, Video oder PDF-Daten innerhalb des unterstützten Kontextlimits von einer Million Token.\n\nÜberwachen Sie die Token-Nutzung sorgfältig, wenn Sie dichte multimodale Payloads wie Videos oder PDF-Dateien mit hohem Volumen einreichen, um die Eingabekosten bei 3 $ pro Million Token im Griff zu behalten.\n\nNutzen Sie das Kontextfenster von einer Million Token, um vollständige Code-Repositories und Referenzdokumente in einem einzigen Prompt zu übermitteln, statt den Kontext zu fragmentieren.",
+  "summary": "Google hat Gemini 4 Neon in sein Modellportfolio aufgenommen.",
+  "title": "Gemini 4 Neon veröffentlicht"
  },
  "n-f0c1036242": {
   "summary": "Am 24.08.2026 wurde die Entwicklungslinie MiniMax-H3 x Z-Image mit Hugging-Face-Links für ein natives Repository und ein GGUF-Repository in Verbindung gebracht. Dies ist ein wesentlicher Verbreitungsschritt, da er zwei Zugangspunkte für Modellformate benennt; die verfügbare Quelle belegt jedoch weder deren Veröffentlichungsstatus, Inhalte noch Kompatibilität.",
