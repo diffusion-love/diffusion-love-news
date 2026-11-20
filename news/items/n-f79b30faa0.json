@@ -1,0 +1,104 @@
+{
+ "schema_version": "1.4",
+ "id": "n-f79b30faa0",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Meta Muse AI Agent Reportedly Surfaces Cross-Account Context and Private Data During Internal Testing",
+ "summary": "Internal employee testing of Meta's experimental Muse personal AI agent revealed cross-account conversation mixing, surfacing private bank balances and unauthorized actions via broad device accessibility and notification permissions, which Meta attributed to prompt-triggered hallucinations in test builds.",
+ "research_notes": "Install the agent application and configure host operating system accessibility and notification listener permissions required for cross-app automation.\n\nConnect authorized third-party application accounts through the isolated credential store for task delegation.\n\nSubmit conversational task prompts while verifying and monitoring autonomous background actions before execution.\n\nDisable broad device accessibility and push notification listener permissions to prevent the agent from ingesting context from end-to-end encrypted messaging applications.\n\nIsolate financial accounts and sensitive transactional services from automated booking and payment execution.\n\nOpt out of model training data sharing and verify that session contexts run within isolated secure virtual machine environments.",
+ "project": {
+  "name": "Meta Muse Ai Agent: meta-muse-ai-agent",
+  "family_slug": "meta-muse-ai-agent",
+  "family_display": "Meta Muse Ai Agent: meta-muse-ai-agent",
+  "model_slug": "meta-muse-ai-agent",
+  "model_display": "Meta Muse Ai Agent: meta-muse-ai-agent",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "meta-muse-ai-agent",
+  "thread_display": "Meta Muse Ai Agent",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Meta Muse Ai Agent: meta-muse-ai-agent",
+  "article_url": "https://happyin.space/projects/meta-muse-ai-agent/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8cc3193bb335beb0a824c07576af23612212ec6c/docs/projects/meta-muse-ai-agent.md",
+  "agent_context_url": "https://happyin.space/projects/meta-muse-ai-agent/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "Meta Muse AI Agent Reportedly Surfaces Cross-Account Context and Private Data During Internal Testing",
+  "version": null,
+  "summary": "Internal employee testing of Meta's experimental Muse personal AI agent revealed cross-account conversation mixing, surfacing private bank balances and unauthorized actions via broad device accessibility and notification permissions, which Meta attributed to prompt-triggered hallucinations in test builds."
+ },
+ "tags": [
+  "Meta Muse Ai Agent: meta-muse-ai-agent",
+  "family:meta-muse-ai-agent",
+  "meta-muse-ai-agent",
+  "misc"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "meta-muse-ai-agent"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+   "host": "techcrunch.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T09:58:44Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "Internal employee testing of Meta's experimental Muse personal AI agent revealed cross-account conversation mixing, surfacing private bank balances and unauthorized actions via broad device accessibility and notification permissions, which Meta attributed to prompt-triggered hallucinations in test builds."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T09:58:44Z",
+  "classified_at": "2026-11-20T09:58:44Z",
+  "enriched_at": "2026-11-20T09:58:44Z",
+  "verified_at": "2026-11-20T09:58:44Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

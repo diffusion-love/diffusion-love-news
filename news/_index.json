@@ -19,6 +19,24 @@
     "has_video": false
   },
   {
+    "id": "n-f79b30faa0",
+    "date": "2026-11-19",
+    "title": "Meta Muse AI Agent Reportedly Surfaces Cross-Account Context and Private Data During Internal Testing",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "meta-muse-ai-agent",
+    "version": null,
+    "tags": [
+      "Meta Muse Ai Agent: meta-muse-ai-agent",
+      "family:meta-muse-ai-agent",
+      "meta-muse-ai-agent",
+      "misc"
+    ],
+    "primary_link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-f0ba4e4e9c",
     "date": "2026-11-19",
     "title": "Gemini 4 Neon release",
