@@ -1,0 +1,11 @@
+{
+ "id": "n-5e913ae316",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Instala OpenCode localmente e inicia la CLI o el daemon en segundo plano en tu estación de trabajo de desarrollo.\n\nEjecuta `opencode pair --remote` en la terminal para generar un código QR de emparejamiento de OpenTunnel y una URL de conexión.\n\nInstala la aplicación complementaria de OpenCode en Android desde Google Play o en iOS a través de TestFlight.\n\nEscanea el código QR de emparejamiento dentro de la aplicación móvil para conectarte a la sesión de escritorio activa, revisar las llamadas a herramientas y aprobar permisos de forma remota.\n\nMantén la máquina host y la sesión de terminal local de OpenCode ejecutándose en un proceso persistente o en un multiplexor de shell, para que el cliente móvil pueda mantener su conexión a través de OpenTunnel.\n\nVerifica las solicitudes de ejecución de herramientas del agente y los cambios en los diffs de archivos en la interfaz del cliente móvil antes de conceder autorización para ejecutar comandos bash o modificar repositorios.\n\nUtiliza el dictado por voz en el móvil principalmente para preguntas conceptuales de seguimiento, ajustes de prompts y revisiones de estado, en lugar de para escribir código completo desde el móvil.",
+ "source_sha256": "323666bad03d5c706cbbf312bde4a0e04b97b0581362dae9bdafb4b75275d005",
+ "summary": "OpenCode lanzó aplicaciones móviles complementarias para iOS y Android, que permiten a los desarrolladores monitorizar sesiones activas de agentes en el escritorio, aprobar permisos de ejecución de herramientas, inspeccionar diffs de archivos y enviar entrada de texto o voz de forma remota mediante OpenTunnel.",
+ "title": "OpenCode lanza una aplicación móvil complementaria para sesiones de escritorio remotas",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

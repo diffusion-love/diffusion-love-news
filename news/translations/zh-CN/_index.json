@@ -14,6 +14,11 @@
   "title": "UNI-1 获得 Luma Labs 官方项目引用",
   "translated_at": "2026-10-24"
  },
+ "n-00765ae6ae": {
+  "fresh": true,
+  "title": "AADD 开源语音退化检测器发布",
+  "translated_at": "2026-11-20"
+ },
  "n-00c9c3996b": {
   "fresh": true,
   "title": "HATCHA 的 GitHub 仓库被引用",
@@ -1664,6 +1669,11 @@
   "title": "EMF：扩展一步式图像生成（阿里巴巴）",
   "translated_at": "2026-10-24"
  },
+ "n-52bae6b01d": {
+  "fresh": true,
+  "title": "OpenCode 在 Google Play 和 TestFlight 推出配套移动客户端",
+  "translated_at": "2026-11-20"
+ },
  "n-52e566a651": {
   "fresh": true,
   "title": "LumiVid：基于 LTX-Video 2.3 的 SDR 到 HDR 视频生成",
@@ -1888,6 +1898,11 @@
   "fresh": true,
   "title": "SANA-Video 代码与权重发布",
   "translated_at": "2026-10-24"
+ },
+ "n-5e913ae316": {
+  "fresh": true,
+  "title": "OpenCode 发布移动配套应用，支持远程桌面会话",
+  "translated_at": "2026-11-20"
  },
  "n-5e92efec32": {
   "fresh": true,
@@ -2403,6 +2418,11 @@
   "fresh": true,
   "title": "ComfyUI-Flux2Klein-Enhancer 面部保持节点",
   "translated_at": "2026-11-13"
+ },
+ "n-76e2884b48": {
+  "fresh": true,
+  "title": "ComfyUI v0.46.1 已在 GitHub 上发布",
+  "translated_at": "2026-11-20"
  },
  "n-76eee2c69c": {
   "fresh": true,
@@ -3048,6 +3068,11 @@
   "fresh": true,
   "title": "Qwen-Image 发布，原生支持文字渲染",
   "translated_at": "2026-10-24"
+ },
+ "n-9c6aba7306": {
+  "fresh": true,
+  "title": "谷歌发布 Gemini 4 Neon",
+  "translated_at": "2026-11-20"
  },
  "n-9cb04ca5a6": {
   "fresh": true,
@@ -4688,6 +4713,11 @@
   "fresh": true,
   "title": "KnowAct-GUIClaw项目网站与源代码仓库已关联",
   "translated_at": "2026-10-24"
+ },
+ "n-f0ba4e4e9c": {
+  "fresh": true,
+  "title": "Gemini 4 Neon 发布",
+  "translated_at": "2026-11-20"
  },
  "n-f0c1036242": {
   "fresh": true,

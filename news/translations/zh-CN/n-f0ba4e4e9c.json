@@ -1,0 +1,11 @@
+{
+ "id": "n-f0ba4e4e9c",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "获取 Gemini API 的 API 凭证，并为多模态端点配置客户端访问。\n\n在支持的一百万 token 上下文限制内，格式化输入请求，包括文本、代码、音频、视频或 PDF 数据。\n\n提交视频或大量 PDF 文件等高密度多模态载荷时，请仔细监控 token 用量，以控制输入成本（每百万 token 3 美元）。\n\n利用一百万 token 的上下文窗口，在单个提示中提交完整的代码仓库和参考文档，而不是将上下文拆分开来。",
+ "source_sha256": "fe88558b4097921843dcae76809c1b0a3c3f4dd8f889009a76aa720af1b67620",
+ "summary": "Google 在其模型产品线中推出了 Gemini 4 Neon。",
+ "title": "Gemini 4 Neon 发布",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -14,6 +14,11 @@
   "title": "UNI-1 erhielt einen offiziellen Projektverweis von Luma Labs",
   "translated_at": "2026-10-24"
  },
+ "n-00765ae6ae": {
+  "fresh": true,
+  "title": "AADD veröffentlicht Open-Source-Detektor für Sprachbeeinträchtigungen",
+  "translated_at": "2026-11-20"
+ },
  "n-00b6dfd5f9": {
   "fresh": true,
   "title": "Suno veröffentlicht MCP-Server-Connector mit Synchronisation der Kontobibliothek",
@@ -1669,6 +1674,11 @@
   "title": "EMF: Erweiterung der Einschritt-Bildgenerierung (Alibaba)",
   "translated_at": "2026-10-24"
  },
+ "n-52bae6b01d": {
+  "fresh": true,
+  "title": "OpenCode veröffentlicht mobile Begleit-Clients für Google Play und TestFlight",
+  "translated_at": "2026-11-20"
+ },
  "n-52e566a651": {
   "fresh": true,
   "title": "LumiVid: SDR-zu-HDR-Videogenerierung mit LTX-Video 2.3",
@@ -1893,6 +1903,11 @@
   "fresh": true,
   "title": "SANA-Video-Code und Gewichte veröffentlicht",
   "translated_at": "2026-10-24"
+ },
+ "n-5e913ae316": {
+  "fresh": true,
+  "title": "OpenCode veröffentlicht mobile Companion-App für Remote-Desktop-Sitzungen",
+  "translated_at": "2026-11-20"
  },
  "n-5e92efec32": {
   "fresh": true,
@@ -2408,6 +2423,11 @@
   "fresh": true,
   "title": "ComfyUI-Flux2Klein-Enhancer: Nodes zur Gesichtserhaltung",
   "translated_at": "2026-11-13"
+ },
+ "n-76e2884b48": {
+  "fresh": true,
+  "title": "ComfyUI v0.46.1 auf GitHub veröffentlicht",
+  "translated_at": "2026-11-20"
  },
  "n-76eee2c69c": {
   "fresh": true,
@@ -3053,6 +3073,11 @@
   "fresh": true,
   "title": "Qwen-Image startet mit nativer Textdarstellung",
   "translated_at": "2026-10-24"
+ },
+ "n-9c6aba7306": {
+  "fresh": true,
+  "title": "Google veröffentlicht Gemini 4 Neon",
+  "translated_at": "2026-11-20"
  },
  "n-9cb04ca5a6": {
   "fresh": true,
@@ -4698,6 +4723,11 @@
   "fresh": true,
   "title": "KnowAct-GUIClaw-Projektseite und Quellcode-Repository verlinkt",
   "translated_at": "2026-10-24"
+ },
+ "n-f0ba4e4e9c": {
+  "fresh": true,
+  "title": "Gemini 4 Neon veröffentlicht",
+  "translated_at": "2026-11-20"
  },
  "n-f0c1036242": {
   "fresh": true,

@@ -1,0 +1,11 @@
+{
+ "id": "n-76e2884b48",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "ComfyUI installieren oder eine bestehende Installation aktualisieren, entweder per git pull aus dem offiziellen Repository oder über den Desktop-Launcher.\n\nDiffusion-Checkpoint-Gewichte und Text-Encoder-Modelle in das dafür vorgesehene models-Verzeichnis legen.\n\nEinen Workflow-Graphen aufbauen, indem Checkpoint-Loader, CLIP Text Encode, KSampler und VAE Decode verknüpft werden.\n\nDie Prompt-Ausführung in die Warteschlange stellen, um die Tensorerzeugung auszuführen, und Ausgabebilder über Save-Image-Knoten schreiben lassen.\n\nStandard-Backends für CUDA oder Apple Silicon statt DirectML verwenden, nachdem die DirectML-Beschleunigung in den Kernversionen entfernt wurde.\n\nCustom-Node-Pakete isolieren und Abhängigkeitsaktualisierungen in einer Staging-Umgebung testen, um Ausführungsfehler im Node-Graphen zu verhindern.",
+ "source_sha256": "d3d17fe02ba9ed51bf95fb43ebcd6a8424d4462c5cf4d2be023117820c8d7a33",
+ "summary": "Comfy-Org hat ComfyUI v0.46.1 veröffentlicht, mit Stabilitäts- und Patch-Korrekturen im Anschluss an den v0.46.0-Zyklus, der Partner-Nodes einführte und die DirectML-Unterstützung entfernte.",
+ "title": "ComfyUI v0.46.1 auf GitHub veröffentlicht",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

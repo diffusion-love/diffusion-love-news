@@ -14,6 +14,11 @@
   "title": "UNI-1 получил официальную проектную ссылку Luma Labs",
   "translated_at": "2026-10-24"
  },
+ "n-00765ae6ae": {
+  "fresh": true,
+  "title": "Открытый детектор деградаций речи от AADD выпущен",
+  "translated_at": "2026-11-20"
+ },
  "n-00b6dfd5f9": {
   "fresh": true,
   "title": "Suno выпустила MCP-коннектор с синхронизацией библиотеки аккаунта",
@@ -1669,6 +1674,11 @@
   "title": "EMF: расширение одношаговой генерации изображений (Alibaba)",
   "translated_at": "2026-10-24"
  },
+ "n-52bae6b01d": {
+  "fresh": true,
+  "title": "OpenCode выпускает companion-клиенты для мобильных устройств в Google Play и TestFlight",
+  "translated_at": "2026-11-20"
+ },
  "n-52e566a651": {
   "fresh": true,
   "title": "LumiVid: генерация видео из SDR в HDR через LTX-Video 2.3",
@@ -1893,6 +1903,11 @@
   "fresh": true,
   "title": "Код и веса SANA-Video опубликованы",
   "translated_at": "2026-10-24"
+ },
+ "n-5e913ae316": {
+  "fresh": true,
+  "title": "OpenCode выпустила мобильное приложение-компаньон для удалённых сессий на компьютере",
+  "translated_at": "2026-11-20"
  },
  "n-5e92efec32": {
   "fresh": true,
@@ -2408,6 +2423,11 @@
   "fresh": true,
   "title": "ComfyUI-Flux2Klein-Enhancer: узлы сохранения лица",
   "translated_at": "2026-11-13"
+ },
+ "n-76e2884b48": {
+  "fresh": true,
+  "title": "ComfyUI v0.46.1 опубликован на GitHub",
+  "translated_at": "2026-11-20"
  },
  "n-76eee2c69c": {
   "fresh": true,
@@ -3053,6 +3073,11 @@
   "fresh": true,
   "title": "Qwen-Image выходит с нативной генерацией текста",
   "translated_at": "2026-10-24"
+ },
+ "n-9c6aba7306": {
+  "fresh": true,
+  "title": "Google выпускает Gemini 4 Neon",
+  "translated_at": "2026-11-20"
  },
  "n-9cb04ca5a6": {
   "fresh": true,
@@ -4698,6 +4723,11 @@
   "fresh": true,
   "title": "Сайт проекта KnowAct-GUIClaw и репозиторий с исходным кодом опубликованы вместе",
   "translated_at": "2026-10-24"
+ },
+ "n-f0ba4e4e9c": {
+  "fresh": true,
+  "title": "Выпуск Gemini 4 Neon",
+  "translated_at": "2026-11-20"
  },
  "n-f0c1036242": {
   "fresh": true,

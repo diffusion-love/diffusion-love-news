@@ -12,6 +12,11 @@
   "summary": "2026 年 3 月 23 日，一条密封消息将读者引向 Luma Labs 上的 UNI-1 页面以及 Luma Labs 应用。这确立了 UNI-1 开发历程中一条带日期的官方项目引用。所提供的证据并不能确定其确切的发布状态、能力或公告细节。",
   "title": "UNI-1 获得 Luma Labs 官方项目引用"
  },
+ "n-00765ae6ae": {
+  "research_notes": "克隆代码仓库并安装项目依赖，以搭建本地评测环境。\n\n从官方 Hugging Face 集合下载预训练的 Whisper-small 基础版或 v3-lite 检测器权重。\n\n将英语或俄语语音音频文件输入滑动窗口推理流程，以 20 毫秒的分辨率生成逐帧多标签退化预测。\n\n在进行 ASR 或 TTS 模型训练之前，使用各类别专属的 sigmoid 阈值对语音数据集进行过滤或切分。\n\n当对细微退化的分类精度是首要目标时，使用 Whisper-small 88M 参数模型；对于高吞吐量或资源受限的过滤流程，则保留使用 1.3M 参数的 v3-lite 模型。\n\n应对每个退化类别独立应用概率阈值，而不是依赖综合评分，因为同一音频片段上可能同时出现多种缺陷。\n\n将输入语音评测范围限定为英语和俄语；若要在不支持的语言上部署，请先验证其领域性能。",
+  "summary": "AADD 发布了一款开源语音质量分类器，可在英语和俄语音频上每 20 毫秒检测 12 种退化类型，提供 Whisper-small 和 1.3M 参数的 v3-lite 两种模型权重。",
+  "title": "AADD 开源语音退化检测器发布"
+ },
  "n-00c9c3996b": {
   "summary": "2026-06-27，HATCHA 的一份带日期的来源资料中包含了该项目 GitHub 仓库的链接。这记录了 HATCHA 历史中一次公开仓库引用，但并不能确定该仓库的创建日期、发布版本或任何具体能力。",
   "title": "HATCHA 的 GitHub 仓库被引用"
@@ -1579,6 +1584,11 @@
   "summary": "EMF 由阿里巴巴 DreamX 团队开发，是一个面向高效率一步式文生图的研究框架。它利用判别式文本表示，将复杂语义映射到单步生成过程中，在保持生成质量的同时显著降低推理延迟。",
   "title": "EMF：扩展一步式图像生成（阿里巴巴）"
  },
+ "n-52bae6b01d": {
+  "research_notes": "在本地开发工作站上安装 OpenCode，并启动 CLI 或后台守护进程。\n\n在终端中运行 opencode pair --remote，以生成 OpenTunnel 配对二维码和连接 URL。\n\n在 Android 上从 Google Play 安装 OpenCode 配套应用，或在 iOS 上通过 TestFlight 安装。\n\n在移动应用中扫描配对二维码，即可连接到活动的桌面会话，查看工具调用、远程批准权限。\n\n将主机和本地 OpenCode 终端会话保持在持久进程或终端复用器（shell multiplexer）中运行，以便移动客户端通过 OpenTunnel 维持连接。\n\n在授权运行 bash 命令或修改代码仓库之前，先在移动客户端界面上核对智能体的工具执行提示和文件差异变更。\n\n移动端语音听写主要用于概念性追问、提示词调整和状态查看，而不适合用于完整的移动端代码编写。",
+  "summary": "OpenCode 推出了可在 Google Play 和 Apple TestFlight 获取的配套移动客户端，可通过二维码配对或 OpenTunnel 连接本地终端会话，支持远程监督和权限审批。",
+  "title": "OpenCode 在 Google Play 和 TestFlight 推出配套移动客户端"
+ },
  "n-52e566a651": {
   "evolution_summary": "作为 LTX-Video 2.3 生态系统的一部分，于 2026 年 4 月发布；包括 LumiPic 图像变体，并已完全集成到 ComfyUI 中用于本地推理。",
   "research_notes": "可生成与 DaVinci Resolve 和 Nuke 等调色与合成工具兼容的专业级 float16 EXR 序列。",
@@ -1809,6 +1819,11 @@
   "evolution_summary": "该新闻帖报道了 SANA-Video 的代码与权重已发布，并提供了演示、Hugging Face 与 Diffusers 链接，提到可能在 ComfyUI 中使用，以及一次对四步采样的负面试用印象。",
   "summary": "该新闻帖报道了 SANA-Video 的代码与权重已发布，并提供了演示、Hugging Face 与 Diffusers 链接，提到可能在 ComfyUI 中使用，以及一次对四步采样的负面试用印象。",
   "title": "SANA-Video 代码与权重发布"
+ },
+ "n-5e913ae316": {
+  "research_notes": "在开发工作站上本地安装 OpenCode，并启动 CLI 或后台守护进程。\n\n在终端中运行 opencode pair --remote，以生成 OpenTunnel 配对二维码和连接 URL。\n\n在 Android 上从 Google Play 安装 OpenCode 配套应用，或在 iOS 上通过 TestFlight 安装。\n\n在移动应用中扫描配对二维码，即可连接到正在运行的桌面会话，查看工具调用，并远程批准权限请求。\n\n请让主机和本地 OpenCode 终端会话在持久进程或终端复用器（shell multiplexer）中保持运行，以便移动客户端通过 OpenTunnel 维持连接。\n\n在授权运行 bash 命令或修改代码仓库之前，请先在移动端界面中核对智能体的工具执行提示和文件差异变更。\n\n移动端语音听写主要适用于概念性追问、提示词调整和状态查看，不建议用于完整的移动端代码编写。",
+  "summary": "OpenCode 发布了适用于 iOS 和 Android 的配套移动应用，使开发者能够监控正在运行的桌面智能体会话、批准工具执行权限、检查文件差异，并通过 OpenTunnel 远程提交文本或语音输入。",
+  "title": "OpenCode 发布移动配套应用，支持远程桌面会话"
  },
  "n-5e92efec32": {
   "evolution_summary": "承接 ERNIE 5.0，该模型从庞大的参数规模（2.4T）转向通过 Once-For-All 框架实现的更高效的 800B 架构。它采用了全新的异步强化学习流程，并增强了四阶段后训练。",
@@ -2285,6 +2300,11 @@
   "research_notes": "由 capitan01R 开发；通过隔离活跃 token 并直接针对模型内部模块，绕过了基于 Qwen3 的文本编码器的限制。",
   "summary": "一个用于 FLUX.2 Klein 模型的 ComfyUI 节点套件，无需 LoRA 训练即可实现角色身份保持。它利用模型 hook 追踪和身份引导，将参考特征直接注入模型的双流架构中。",
   "title": "ComfyUI-Flux2Klein-Enhancer 面部保持节点"
+ },
+ "n-76e2884b48": {
+  "research_notes": "安装 ComfyUI，或使用 git pull 从官方仓库更新现有安装，也可以使用桌面启动器进行更新。\n\n将扩散模型检查点权重和文本编码器模型放入指定的 models 目录。\n\n通过连接 checkpoint loader、CLIP text encode、KSampler 和 VAE decode 节点来构建工作流图。\n\n提交提示词队列以执行张量生成，并使用 save image 节点输出图像。\n\n由于核心版本已移除 DirectML 加速，请使用标准的 CUDA 或 Apple Silicon 后端，而不是 DirectML。\n\n将自定义节点包隔离，并在预发布环境中测试依赖更新，以防止节点图执行失败。",
+  "summary": "Comfy-Org 发布了 ComfyUI v0.46.1，在 v0.46.0 版本周期引入合作伙伴节点并移除 DirectML 支持之后，此版本提供稳定性改进和补丁修复。",
+  "title": "ComfyUI v0.46.1 已在 GitHub 上发布"
  },
  "n-76eee2c69c": {
   "evolution_summary": "Echo-2 于 2026 年 4 月下旬发布，通过 Gaussian Splatting 引入了空间持久性和对象级编辑功能。它取代了早期原型，重点关注“基于物理”的几何结构，以消除导航过程中的漂移问题。",
@@ -2893,6 +2913,11 @@
   "evolution_summary": "该新闻稿介绍了 Qwen-Image，重点在于文字渲染和一致性编辑，并附上了代码仓库、模型权重和演示页面的链接。",
   "summary": "该新闻稿介绍了 Qwen-Image，重点在于文字渲染和一致性编辑，并附上了代码仓库、模型权重和演示页面的链接。",
   "title": "Qwen-Image 发布，原生支持文字渲染"
+ },
+ "n-9c6aba7306": {
+  "research_notes": "为 Gemini API 获取 API 凭证，并为多模态端点配置客户端访问。\n\n在受支持的一百万 token 上下文限制内，格式化输入请求，包括文本、代码、音频、视频或 PDF 数据。\n\n提交视频或大量 PDF 文件等高密度多模态负载时，需仔细监控 token 用量，以控制输入成本，价格为每百万 token 3 美元。\n\n利用一百万 token 的上下文窗口，在单次提示中提交完整的代码仓库和参考文档，而不是将上下文切分成碎片。",
+  "summary": "谷歌发布了 Gemini 4 Neon，新增对文本、代码、音频、视频和 PDF 的多模态输入能力，上下文窗口为一百万 token，输入价格为每百万 token 3 美元，输出价格为每百万 token 15 美元。",
+  "title": "谷歌发布 Gemini 4 Neon"
  },
  "n-9cb04ca5a6": {
   "evolution_summary": "公共仓库已初始化，包含21个领域共385条条目。",
@@ -4492,6 +4517,11 @@
  "n-f09f1875bc": {
   "summary": "2026年7月18日，一条公开消息链接了KnowAct-GUIClaw项目网站和KnowAct GitHub仓库。这确立了GUIClaw项目与KnowAct代码库之间一个有明确日期的公开关联，但并不能证明某个具体版本发布、功能或实现里程碑。",
   "title": "KnowAct-GUIClaw项目网站与源代码仓库已关联"
+ },
+ "n-f0ba4e4e9c": {
+  "research_notes": "获取 Gemini API 的 API 凭证，并为多模态端点配置客户端访问。\n\n在支持的一百万 token 上下文限制内，格式化输入请求，包括文本、代码、音频、视频或 PDF 数据。\n\n提交视频或大量 PDF 文件等高密度多模态载荷时，请仔细监控 token 用量，以控制输入成本（每百万 token 3 美元）。\n\n利用一百万 token 的上下文窗口，在单个提示中提交完整的代码仓库和参考文档，而不是将上下文拆分开来。",
+  "summary": "Google 在其模型产品线中推出了 Gemini 4 Neon。",
+  "title": "Gemini 4 Neon 发布"
  },
  "n-f0c1036242": {
   "summary": "2026年8月24日，MiniMax-H3 x Z-Image 开发线与 Hugging Face 上的两个链接建立了关联，分别对应一个原生（native）仓库和一个 GGUF 仓库。这一分发步骤意义重大，因为它标明了两个模型格式的获取入口；但现有记录并未确认这两个仓库的发布状态、内容或兼容性。",

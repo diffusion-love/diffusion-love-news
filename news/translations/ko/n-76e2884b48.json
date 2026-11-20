@@ -1,0 +1,11 @@
+{
+ "id": "n-76e2884b48",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "공식 저장소에서 git pull을 사용하거나 데스크톱 런처를 통해 ComfyUI를 설치하거나 기존 설치본을 업데이트하십시오.\n\n디퓨전 체크포인트 가중치와 텍스트 인코더 모델을 지정된 models 디렉터리에 배치하십시오.\n\n체크포인트 로더, CLIP 텍스트 인코드, KSampler, VAE 디코드 노드를 연결하여 워크플로 그래프를 구성하십시오.\n\n프롬프트 실행을 큐에 넣어 텐서 생성을 수행하고 save image 노드를 사용하여 출력 이미지를 저장하십시오.\n\n코어 릴리스에서 DirectML 가속이 제거된 이후에는 DirectML 대신 표준 CUDA 또는 Apple Silicon 백엔드를 사용하십시오.\n\n노드 그래프 실행 실패를 방지하기 위해 커스텀 노드 패키지를 격리하고 의존성 업데이트는 스테이징 환경에서 테스트하십시오.",
+ "source_sha256": "d3d17fe02ba9ed51bf95fb43ebcd6a8424d4462c5cf4d2be023117820c8d7a33",
+ "summary": "Comfy-Org가 ComfyUI v0.46.1을 공개했습니다. 이번 릴리스는 파트너 노드를 도입하고 DirectML 지원을 제거한 v0.46.0 사이클에 이어, 안정성 개선과 패치 수정을 제공합니다.",
+ "title": "ComfyUI v0.46.1, GitHub에 공개",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

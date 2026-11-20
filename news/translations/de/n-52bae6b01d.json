@@ -1,0 +1,11 @@
+{
+ "id": "n-52bae6b01d",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installieren Sie OpenCode lokal und starten Sie die CLI oder den Hintergrunddienst (Daemon) auf Ihrer Entwicklungsworkstation.\n\nFühren Sie opencode pair --remote im Terminal aus, um einen OpenTunnel-Kopplungs-QR-Code und eine Verbindungs-URL zu erzeugen.\n\nInstallieren Sie die OpenCode-Begleit-App für Android über Google Play oder für iOS über TestFlight.\n\nScannen Sie in der mobilen App den Kopplungs-QR-Code, um sich mit der aktiven Desktop-Sitzung zu verbinden, Tool-Aufrufe zu prüfen und Berechtigungen remote zu genehmigen.\n\nHalten Sie den Host-Rechner und die lokale OpenCode-Terminalsitzung in einem dauerhaften Prozess oder einem Shell-Multiplexer am Laufen, damit der mobile Client seine Verbindung über OpenTunnel aufrechterhalten kann.\n\nPrüfen Sie Ausführungsaufforderungen für Agent-Tools und Dateidiff-Änderungen in der Oberfläche des mobilen Clients, bevor Sie die Berechtigung erteilen, Bash-Befehle auszuführen oder Repositories zu ändern.\n\nNutzen Sie die mobile Spracheingabe vor allem für konzeptionelle Rückfragen, Anpassungen von Prompts und Statusabfragen, nicht für das vollständige Schreiben von Code auf dem Mobilgerät.",
+ "source_sha256": "76a665692942d19e0b25b688e83111bb3daaf606b5d94cb3aae16be97ef1cdc1",
+ "summary": "OpenCode hat mobile Begleit-Clients auf Google Play und Apple TestFlight veröffentlicht, die sich per QR-Kopplung oder OpenTunnel mit lokalen Terminal-Sitzungen verbinden und so Fernüberwachung sowie das Erteilen von Berechtigungen ermöglichen.",
+ "title": "OpenCode veröffentlicht mobile Begleit-Clients für Google Play und TestFlight",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

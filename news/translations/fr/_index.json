@@ -14,6 +14,11 @@
   "title": "UNI-1 a reçu une référence officielle de projet de Luma Labs",
   "translated_at": "2026-10-24"
  },
+ "n-00765ae6ae": {
+  "fresh": true,
+  "title": "Publication en open source du détecteur de dégradations de la parole d'AADD",
+  "translated_at": "2026-11-20"
+ },
  "n-00b6dfd5f9": {
   "fresh": true,
   "title": "Suno publie un connecteur serveur MCP avec synchronisation de la bibliothèque de compte",
@@ -1669,6 +1674,11 @@
   "title": "EMF : extension de la génération d'images en une seule étape (Alibaba)",
   "translated_at": "2026-10-24"
  },
+ "n-52bae6b01d": {
+  "fresh": true,
+  "title": "OpenCode lance des clients mobiles compagnons sur Google Play et TestFlight",
+  "translated_at": "2026-11-20"
+ },
  "n-52e566a651": {
   "fresh": true,
   "title": "LumiVid : génération vidéo SDR vers HDR via LTX-Video 2.3",
@@ -1893,6 +1903,11 @@
   "fresh": true,
   "title": "Le code et les poids de SANA-Video sont disponibles",
   "translated_at": "2026-10-24"
+ },
+ "n-5e913ae316": {
+  "fresh": true,
+  "title": "OpenCode lance une application mobile compagnon pour les sessions de bureau à distance",
+  "translated_at": "2026-11-20"
  },
  "n-5e92efec32": {
   "fresh": true,
@@ -2408,6 +2423,11 @@
   "fresh": true,
   "title": "ComfyUI-Flux2Klein-Enhancer : nœuds de préservation des visages",
   "translated_at": "2026-11-13"
+ },
+ "n-76e2884b48": {
+  "fresh": true,
+  "title": "ComfyUI v0.46.1 publié sur GitHub",
+  "translated_at": "2026-11-20"
  },
  "n-76eee2c69c": {
   "fresh": true,
@@ -3053,6 +3073,11 @@
   "fresh": true,
   "title": "Qwen-Image arrive avec un rendu de texte natif",
   "translated_at": "2026-10-24"
+ },
+ "n-9c6aba7306": {
+  "fresh": true,
+  "title": "Google publie Gemini 4 Neon",
+  "translated_at": "2026-11-20"
  },
  "n-9cb04ca5a6": {
   "fresh": true,
@@ -4698,6 +4723,11 @@
   "fresh": true,
   "title": "Site du projet KnowAct-GUIClaw et dépôt source associé",
   "translated_at": "2026-10-24"
+ },
+ "n-f0ba4e4e9c": {
+  "fresh": true,
+  "title": "Sortie de Gemini 4 Neon",
+  "translated_at": "2026-11-20"
  },
  "n-f0c1036242": {
   "fresh": true,

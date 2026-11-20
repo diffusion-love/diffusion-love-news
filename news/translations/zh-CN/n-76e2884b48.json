@@ -1,0 +1,11 @@
+{
+ "id": "n-76e2884b48",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "安装 ComfyUI，或使用 git pull 从官方仓库更新现有安装，也可以使用桌面启动器进行更新。\n\n将扩散模型检查点权重和文本编码器模型放入指定的 models 目录。\n\n通过连接 checkpoint loader、CLIP text encode、KSampler 和 VAE decode 节点来构建工作流图。\n\n提交提示词队列以执行张量生成，并使用 save image 节点输出图像。\n\n由于核心版本已移除 DirectML 加速，请使用标准的 CUDA 或 Apple Silicon 后端，而不是 DirectML。\n\n将自定义节点包隔离，并在预发布环境中测试依赖更新，以防止节点图执行失败。",
+ "source_sha256": "d3d17fe02ba9ed51bf95fb43ebcd6a8424d4462c5cf4d2be023117820c8d7a33",
+ "summary": "Comfy-Org 发布了 ComfyUI v0.46.1，在 v0.46.0 版本周期引入合作伙伴节点并移除 DirectML 支持之后，此版本提供稳定性改进和补丁修复。",
+ "title": "ComfyUI v0.46.1 已在 GitHub 上发布",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

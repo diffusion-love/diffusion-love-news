@@ -12,6 +12,11 @@
   "summary": "El 2026-03-23, un mensaje sellado remitió a los lectores a la página de UNI-1 en Luma Labs y a la aplicación de Luma Labs. Esto establece una referencia oficial de proyecto con fecha en la historia de desarrollo de UNI-1. Las pruebas disponibles no permiten confirmar el estado exacto de lanzamiento, las capacidades ni los detalles del anuncio.",
   "title": "UNI-1 recibió una referencia oficial de proyecto de Luma Labs"
  },
+ "n-00765ae6ae": {
+  "research_notes": "Clona el repositorio e instala las dependencias del proyecto para configurar el entorno local de evaluación.\n\nDescarga los pesos base preentrenados del detector Whisper-small o v3-lite desde la colección oficial de Hugging Face.\n\nPasa archivos de audio de voz en inglés o ruso por el pipeline de inferencia con ventana deslizante para generar predicciones multietiqueta de degradación por fotograma, con una resolución de 20 ms.\n\nFiltra o segmenta los conjuntos de datos de voz aplicando umbrales sigmoides específicos para cada categoría antes de entrenar modelos de ASR o TTS.\n\nUsa el modelo Whisper-small de 88M de parámetros cuando la precisión de clasificación en degradaciones sutiles sea prioritaria, y reserva el modelo v3-lite de 1.3M para pipelines de filtrado de alto rendimiento o con recursos limitados.\n\nAplica un umbral de probabilidad independiente por categoría de degradación, en lugar de depender de una puntuación agregada, ya que varios defectos pueden aparecer simultáneamente en el mismo segmento de audio.\n\nRestringe la evaluación de voz de entrada a inglés y ruso, o valida el rendimiento en el dominio antes de desplegarlo en idiomas no compatibles.",
+  "summary": "AADD publica un clasificador de calidad de voz de código abierto que detecta 12 tipos de degradación cada 20 ms en audio en inglés y ruso, con checkpoints Whisper-small y v3-lite de 1.3M de parámetros.",
+  "title": "Se publica el detector de degradaciones de voz de código abierto AADD"
+ },
  "n-00b6dfd5f9": {
   "research_notes": "Configura el cliente MCP en Claude, ChatGPT, Gemini o Cursor usando la URL del endpoint del servidor remoto https://api.suno.com/mcp.\n\nCompleta el flujo de inicio de sesión OAuth para vincular tu cuenta de Suno y autorizar el uso de créditos.\n\nIndica al asistente descripciones de estilo musical, preferencias de género o borradores de letras para generar pistas completas, extensiones o videoclips.\n\nAsegúrate de haber iniciado sesión en la cuenta de Suno de destino antes de iniciar OAuth en el asistente, para evitar vincular un perfil incorrecto.\n\nEspecifica en el prompt del chat palabras clave de género explícitas, tempo y preferencias vocales para minimizar el consumo redundante de créditos.",
   "summary": "Suno publicó configuraciones de cliente para Claude, ChatGPT, Gemini y Cursor que se conectan a api.suno.com/mcp, sincronizando automáticamente las canciones generadas con la biblioteca web del usuario sin necesidad de claves de API.",
@@ -1584,6 +1589,11 @@
   "summary": "Desarrollado por el equipo DreamX de Alibaba, EMF es un marco de investigación para la generación de imágenes a partir de texto en un solo paso y con alta eficiencia. Utiliza representaciones textuales discriminativas para trasladar semántica compleja a un proceso de generación de un único paso, lo que reduce significativamente la latencia de inferencia sin sacrificar la calidad.",
   "title": "EMF: Extendiendo la generación de imágenes en un solo paso (Alibaba)"
  },
+ "n-52bae6b01d": {
+  "research_notes": "Instala OpenCode localmente e inicia la CLI o el daemon en segundo plano en tu estación de trabajo de desarrollo.\n\nEjecuta opencode pair --remote en la terminal para generar un código QR de emparejamiento de OpenTunnel y una URL de conexión.\n\nInstala la aplicación complementaria de OpenCode en Android desde Google Play o en iOS a través de TestFlight.\n\nEscanea el código QR de emparejamiento dentro de la aplicación móvil para conectarte a la sesión de escritorio activa, revisar las llamadas a herramientas y aprobar los permisos de forma remota.\n\nMantén la máquina host y la sesión de terminal local de OpenCode ejecutándose en un proceso persistente o en un multiplexor de shell, para que el cliente móvil pueda mantener su conexión a través de OpenTunnel.\n\nVerifica en la interfaz del cliente móvil las solicitudes de ejecución de herramientas del agente y los cambios en los diffs de archivos antes de conceder autorización para ejecutar comandos bash o modificar repositorios.\n\nUsa el dictado por voz móvil principalmente para preguntas de seguimiento conceptuales, ajustes de prompts y revisiones de estado, en lugar de escribir código completo desde el móvil.",
+  "summary": "OpenCode lanzó clientes móviles complementarios en Google Play y TestFlight que se conectan a sesiones de terminal locales mediante emparejamiento por QR u OpenTunnel, permitiendo la supervisión remota y la aprobación de permisos.",
+  "title": "OpenCode lanza clientes móviles complementarios en Google Play y TestFlight"
+ },
  "n-52e566a651": {
   "evolution_summary": "Publicado en abril de 2026 como parte del ecosistema LTX-Video 2.3; incluye la variante de imagen LumiPic y está integrado por completo en ComfyUI para la inferencia local.",
   "research_notes": "Genera secuencias EXR en float16 de calidad profesional, compatibles con pipelines de VFX y con herramientas de gradación como DaVinci Resolve y Nuke.",
@@ -1814,6 +1824,11 @@
   "evolution_summary": "La noticia informaba de la publicación del código y los pesos de SANA-Video, de demos, de enlaces a Hugging Face y Diffusers, de un posible uso en ComfyUI y de una impresión negativa tras una prueba de cuatro pasos.",
   "summary": "La noticia informaba de la publicación del código y los pesos de SANA-Video, de demos, de enlaces a Hugging Face y Diffusers, de un posible uso en ComfyUI y de una impresión negativa tras una prueba de cuatro pasos.",
   "title": "Llegan el código y los pesos de SANA-Video"
+ },
+ "n-5e913ae316": {
+  "research_notes": "Instala OpenCode localmente e inicia la CLI o el daemon en segundo plano en tu estación de trabajo de desarrollo.\n\nEjecuta `opencode pair --remote` en la terminal para generar un código QR de emparejamiento de OpenTunnel y una URL de conexión.\n\nInstala la aplicación complementaria de OpenCode en Android desde Google Play o en iOS a través de TestFlight.\n\nEscanea el código QR de emparejamiento dentro de la aplicación móvil para conectarte a la sesión de escritorio activa, revisar las llamadas a herramientas y aprobar permisos de forma remota.\n\nMantén la máquina host y la sesión de terminal local de OpenCode ejecutándose en un proceso persistente o en un multiplexor de shell, para que el cliente móvil pueda mantener su conexión a través de OpenTunnel.\n\nVerifica las solicitudes de ejecución de herramientas del agente y los cambios en los diffs de archivos en la interfaz del cliente móvil antes de conceder autorización para ejecutar comandos bash o modificar repositorios.\n\nUtiliza el dictado por voz en el móvil principalmente para preguntas conceptuales de seguimiento, ajustes de prompts y revisiones de estado, en lugar de para escribir código completo desde el móvil.",
+  "summary": "OpenCode lanzó aplicaciones móviles complementarias para iOS y Android, que permiten a los desarrolladores monitorizar sesiones activas de agentes en el escritorio, aprobar permisos de ejecución de herramientas, inspeccionar diffs de archivos y enviar entrada de texto o voz de forma remota mediante OpenTunnel.",
+  "title": "OpenCode lanza una aplicación móvil complementaria para sesiones de escritorio remotas"
  },
  "n-5e92efec32": {
   "evolution_summary": "Sucede a ERNIE 5.0 y pasa de una escala masiva de parámetros (2.4T) a una arquitectura más eficiente de 800B mediante el marco Once-For-All. Incorpora una nueva canalización de aprendizaje por refuerzo asíncrono y un posentrenamiento de cuatro etapas mejorado.",
@@ -2290,6 +2305,11 @@
   "research_notes": "Desarrollado por capitan01R; evita las limitaciones del codificador de texto basado en Qwen3 aislando los tokens activos y actuando directamente sobre bloques internos del modelo.",
   "summary": "Una suite de nodos para ComfyUI que preserva la identidad de personajes en los modelos FLUX.2 Klein sin entrenar LoRA. Utiliza el rastreo de hooks del modelo y la guía de identidad para inyectar características de referencia directamente en la arquitectura de doble flujo del modelo.",
   "title": "ComfyUI-Flux2Klein-Enhancer: nodos de preservación facial"
+ },
+ "n-76e2884b48": {
+  "research_notes": "Instale ComfyUI o actualice una instalación existente con git pull desde el repositorio oficial o mediante el lanzador de escritorio.\n\nColoque los pesos de los checkpoints de difusión y los modelos de codificador de texto en el directorio de modelos designado.\n\nConstruya un grafo de flujo de trabajo conectando los nodos de carga de checkpoint, CLIP text encode, KSampler y VAE decode.\n\nEncole la ejecución del prompt para generar tensores y guardar las imágenes resultantes mediante nodos save image.\n\nUtilice los backends estándar CUDA o Apple Silicon en lugar de DirectML, tras la eliminación de la aceleración DirectML en las versiones principales.\n\nAísle los paquetes de nodos personalizados y pruebe las actualizaciones de dependencias en un entorno de staging para evitar fallos en la ejecución del grafo de nodos.",
+  "summary": "Comfy-Org publicó ComfyUI v0.46.1, con correcciones de estabilidad y parches tras el ciclo v0.46.0, que introdujo los nodos de socios y eliminó el soporte para DirectML.",
+  "title": "ComfyUI v0.46.1 publicado en GitHub"
  },
  "n-76eee2c69c": {
   "evolution_summary": "Lanzado a finales de abril de 2026, Echo-2 introdujo la persistencia espacial y la edición a nivel de objeto mediante Gaussian Splatting, sucediendo a prototipos anteriores al centrarse en una geometría «physically-grounded» que elimina la deriva durante la navegación.",
@@ -2898,6 +2918,11 @@
   "evolution_summary": "La publicación presentó Qwen-Image con un enfoque en el renderizado de texto y la edición consistente, y enlazó los repositorios, los pesos y las superficies de demostración.",
   "summary": "La publicación presentó Qwen-Image con un enfoque en el renderizado de texto y la edición consistente, y enlazó los repositorios, los pesos y las superficies de demostración.",
   "title": "Qwen-Image llega con renderizado de texto nativo"
+ },
+ "n-9c6aba7306": {
+  "research_notes": "Obtenga credenciales de API para la API de Gemini y configure el acceso del cliente al endpoint multimodal.\n\nFormatee las solicitudes de entrada que incluyan datos de texto, código, audio, vídeo o PDF dentro del límite de contexto de un millón de tokens compatible.\n\nSupervise con atención el uso de tokens al enviar cargas multimodales densas, como vídeo o archivos PDF de gran volumen, para gestionar los costes de entrada a 3 $ por millón de tokens.\n\nAproveche la ventana de contexto de un millón de tokens para enviar repositorios de código completos y documentos de referencia en un único prompt, en lugar de fragmentar el contexto.",
+  "summary": "Google ha lanzado Gemini 4 Neon, que añade capacidades de entrada multimodal para texto, código, audio, vídeo y PDF, con una ventana de contexto de un millón de tokens a 3 $ por millón de tokens de entrada y 15 $ por millón de tokens de salida.",
+  "title": "Google lanza Gemini 4 Neon"
  },
  "n-9cb04ca5a6": {
   "evolution_summary": "El repositorio público se inicializó con 385 entradas en 21 dominios.",
@@ -4502,6 +4527,11 @@
  "n-f09f1875bc": {
   "summary": "El 18 de julio de 2026, un mensaje público enlazó el sitio del proyecto KnowAct-GUIClaw y el repositorio de GitHub de KnowAct. Esto establece una asociación pública y fechada entre el proyecto GUIClaw y la base de código de KnowAct, pero no demuestra una versión, funcionalidad o hito de implementación concreto.",
   "title": "Sitio del proyecto KnowAct-GUIClaw y repositorio de código fuente enlazados"
+ },
+ "n-f0ba4e4e9c": {
+  "research_notes": "Obtén las credenciales de API para la API de Gemini y configura el acceso del cliente al endpoint multimodal.\n\nDa formato a las solicitudes de entrada que incluyan datos de texto, código, audio, vídeo o PDF dentro del límite de contexto soportado de un millón de tokens.\n\nControla con atención el uso de tokens al enviar cargas multimodales densas, como vídeo o archivos PDF de gran volumen, para gestionar los costes de entrada a 3 $ por millón de tokens.\n\nAprovecha la ventana de contexto de un millón de tokens para enviar repositorios de código completos y documentos de referencia en un único prompt, en lugar de fragmentar el contexto.",
+  "summary": "Google presentó Gemini 4 Neon en su catálogo de modelos.",
+  "title": "Lanzamiento de Gemini 4 Neon"
  },
  "n-f0c1036242": {
   "summary": "El 2026-08-24, la línea de desarrollo MiniMax-H3 x Z-Image se asoció con enlaces de Hugging Face a un repositorio nativo y a un repositorio GGUF. Se trata de un paso relevante en la distribución, ya que identifica dos puntos de acceso en formatos de modelo, aunque el registro disponible no establece su estado de publicación, su contenido ni su compatibilidad.",

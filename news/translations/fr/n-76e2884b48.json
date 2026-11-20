@@ -1,0 +1,11 @@
+{
+ "id": "n-76e2884b48",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installez ComfyUI ou mettez à jour une installation existante à l'aide de git pull depuis le dépôt officiel ou via le lanceur de bureau.\n\nPlacez les poids des checkpoints de diffusion et les modèles d'encodeur de texte dans le répertoire models prévu à cet effet.\n\nConstruisez un graphe de workflow en reliant les nœuds checkpoint loader, CLIP text encode, KSampler et VAE decode.\n\nLancez l'exécution des prompts en file d'attente pour générer les tenseurs et écrire les images de sortie à l'aide des nœuds save image.\n\nUtilisez les backends standard CUDA ou Apple Silicon plutôt que DirectML, suite à la suppression de l'accélération DirectML dans les versions principales.\n\nIsolez les paquets de nœuds personnalisés et testez les mises à jour de dépendances dans un environnement de préproduction afin d'éviter les échecs d'exécution du graphe de nœuds.",
+ "source_sha256": "d3d17fe02ba9ed51bf95fb43ebcd6a8424d4462c5cf4d2be023117820c8d7a33",
+ "summary": "Comfy-Org a publié ComfyUI v0.46.1, apportant des correctifs de stabilité et de patch à la suite du cycle v0.46.0, qui a introduit les nœuds partenaires et supprimé la prise en charge de DirectML.",
+ "title": "ComfyUI v0.46.1 publié sur GitHub",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

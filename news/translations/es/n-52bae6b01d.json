@@ -1,0 +1,11 @@
+{
+ "id": "n-52bae6b01d",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Instala OpenCode localmente e inicia la CLI o el daemon en segundo plano en tu estación de trabajo de desarrollo.\n\nEjecuta opencode pair --remote en la terminal para generar un código QR de emparejamiento de OpenTunnel y una URL de conexión.\n\nInstala la aplicación complementaria de OpenCode en Android desde Google Play o en iOS a través de TestFlight.\n\nEscanea el código QR de emparejamiento dentro de la aplicación móvil para conectarte a la sesión de escritorio activa, revisar las llamadas a herramientas y aprobar los permisos de forma remota.\n\nMantén la máquina host y la sesión de terminal local de OpenCode ejecutándose en un proceso persistente o en un multiplexor de shell, para que el cliente móvil pueda mantener su conexión a través de OpenTunnel.\n\nVerifica en la interfaz del cliente móvil las solicitudes de ejecución de herramientas del agente y los cambios en los diffs de archivos antes de conceder autorización para ejecutar comandos bash o modificar repositorios.\n\nUsa el dictado por voz móvil principalmente para preguntas de seguimiento conceptuales, ajustes de prompts y revisiones de estado, en lugar de escribir código completo desde el móvil.",
+ "source_sha256": "76a665692942d19e0b25b688e83111bb3daaf606b5d94cb3aae16be97ef1cdc1",
+ "summary": "OpenCode lanzó clientes móviles complementarios en Google Play y TestFlight que se conectan a sesiones de terminal locales mediante emparejamiento por QR u OpenTunnel, permitiendo la supervisión remota y la aprobación de permisos.",
+ "title": "OpenCode lanza clientes móviles complementarios en Google Play y TestFlight",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

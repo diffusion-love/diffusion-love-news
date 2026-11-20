@@ -1,0 +1,11 @@
+{
+ "id": "n-00765ae6ae",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona el repositorio e instala las dependencias del proyecto para configurar el entorno local de evaluación.\n\nDescarga los pesos base preentrenados del detector Whisper-small o v3-lite desde la colección oficial de Hugging Face.\n\nPasa archivos de audio de voz en inglés o ruso por el pipeline de inferencia con ventana deslizante para generar predicciones multietiqueta de degradación por fotograma, con una resolución de 20 ms.\n\nFiltra o segmenta los conjuntos de datos de voz aplicando umbrales sigmoides específicos para cada categoría antes de entrenar modelos de ASR o TTS.\n\nUsa el modelo Whisper-small de 88M de parámetros cuando la precisión de clasificación en degradaciones sutiles sea prioritaria, y reserva el modelo v3-lite de 1.3M para pipelines de filtrado de alto rendimiento o con recursos limitados.\n\nAplica un umbral de probabilidad independiente por categoría de degradación, en lugar de depender de una puntuación agregada, ya que varios defectos pueden aparecer simultáneamente en el mismo segmento de audio.\n\nRestringe la evaluación de voz de entrada a inglés y ruso, o valida el rendimiento en el dominio antes de desplegarlo en idiomas no compatibles.",
+ "source_sha256": "f7762be5f808c4cd5d9b836cd6785d4523387937c84add04c8465a68033345f8",
+ "summary": "AADD publica un clasificador de calidad de voz de código abierto que detecta 12 tipos de degradación cada 20 ms en audio en inglés y ruso, con checkpoints Whisper-small y v3-lite de 1.3M de parámetros.",
+ "title": "Se publica el detector de degradaciones de voz de código abierto AADD",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

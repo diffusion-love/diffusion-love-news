@@ -1,0 +1,11 @@
+{
+ "id": "n-9c6aba7306",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Besorgen Sie sich API-Zugangsdaten für die Gemini API und konfigurieren Sie den Client-Zugriff für den multimodalen Endpunkt.\n\nFormatieren Sie Eingabeanfragen mit Text-, Code-, Audio-, Video- oder PDF-Daten innerhalb des unterstützten Kontextlimits von einer Million Tokens.\n\nÜberwachen Sie den Token-Verbrauch sorgfältig, wenn Sie dichte multimodale Payloads wie Videos oder PDF-Dateien mit hohem Volumen einreichen, um die Eingabekosten bei 3 $ pro Million Tokens im Griff zu behalten.\n\nNutzen Sie das Kontextfenster von einer Million Tokens, um vollständige Code-Repositories und Referenzdokumente in einem einzigen Prompt einzureichen, anstatt den Kontext zu fragmentieren.",
+ "source_sha256": "7be44077ab68b2263244d14f55f674b2ba9b2e56f218d5ba9da1d31ba28d4b1c",
+ "summary": "Google hat Gemini 4 Neon veröffentlicht, das multimodale Eingaben für Text, Code, Audio, Video und PDF mit einem Kontextfenster von einer Million Tokens unterstützt und 3 $ pro Million Eingabe-Tokens sowie 15 $ pro Million Ausgabe-Tokens kostet.",
+ "title": "Google veröffentlicht Gemini 4 Neon",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

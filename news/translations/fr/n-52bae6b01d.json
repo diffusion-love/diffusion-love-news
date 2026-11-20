@@ -1,0 +1,11 @@
+{
+ "id": "n-52bae6b01d",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installez OpenCode localement, puis lancez la CLI ou le démon en arrière-plan sur votre poste de développement.\n\nExécutez `opencode pair --remote` dans le terminal pour générer un QR code d'appairage OpenTunnel ainsi qu'une URL de connexion.\n\nInstallez l'application compagnon OpenCode sur Android depuis Google Play, ou sur iOS via TestFlight.\n\nScannez le QR code d'appairage dans l'application mobile pour vous connecter à la session de bureau active, examiner les appels d'outils et approuver les permissions à distance.\n\nGardez la machine hôte et la session de terminal OpenCode locale dans un processus persistant ou un multiplexeur de shell, afin que le client mobile puisse maintenir sa connexion via OpenTunnel.\n\nVérifiez les invites d'exécution des outils de l'agent et les modifications de diff de fichiers dans l'interface du client mobile avant d'accorder l'autorisation d'exécuter des commandes bash ou de modifier des dépôts.\n\nUtilisez la dictée vocale mobile principalement pour les questions de suivi conceptuelles, les ajustements de prompt et les revues d'état, plutôt que pour la rédaction complète de code sur mobile.",
+ "source_sha256": "76a665692942d19e0b25b688e83111bb3daaf606b5d94cb3aae16be97ef1cdc1",
+ "summary": "OpenCode a lancé sur Google Play et sur TestFlight d'Apple des clients mobiles compagnons qui se connectent aux sessions de terminal locales via un appairage par QR code ou OpenTunnel, permettant la supervision à distance et l'approbation des permissions.",
+ "title": "OpenCode lance des clients mobiles compagnons sur Google Play et TestFlight",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
