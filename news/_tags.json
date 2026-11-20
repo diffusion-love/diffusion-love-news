@@ -91,6 +91,9 @@
   "AGORA": [
     "n-27957b3eee"
   ],
+  "AGSoft Save Image Plus: agsoft-save-image-plus-update": [
+    "n-cce1cb230c"
+  ],
   "AI Metadata Inspector": [
     "n-02e0b8ae6c"
   ],
@@ -3128,6 +3131,12 @@
   "agora": [
     "n-27957b3eee"
   ],
+  "agsoft-save-image-plus": [
+    "n-cce1cb230c"
+  ],
+  "agsoft-save-image-plus-update": [
+    "n-cce1cb230c"
+  ],
   "ai-metadata-inspector": [
     "n-02e0b8ae6c"
   ],
@@ -4617,6 +4626,9 @@
   ],
   "family:agora": [
     "n-27957b3eee"
+  ],
+  "family:agsoft-save-image-plus": [
+    "n-cce1cb230c"
   ],
   "family:ai-metadata-inspector": [
     "n-02e0b8ae6c"
@@ -11932,6 +11944,7 @@
     "n-e712086893",
     "n-e4d5ff5436",
     "n-df8413780a",
+    "n-cce1cb230c",
     "n-c66b8c38b0",
     "n-c2a141200b",
     "n-bb76b83d43",

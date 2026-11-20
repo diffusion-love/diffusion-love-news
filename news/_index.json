@@ -18,6 +18,25 @@
     "has_video": false
   },
   {
+    "id": "n-cce1cb230c",
+    "date": "2026-11-19",
+    "title": "AGSoft Save Image Plus adds focus mode, bilingual tooltips, and Nodes 2.0 preview",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "agsoft-save-image-plus",
+    "version": null,
+    "tags": [
+      "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+      "agsoft-save-image-plus",
+      "agsoft-save-image-plus-update",
+      "family:agsoft-save-image-plus",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-a32e5b01bc",
     "date": "2026-11-19",
     "title": "Comfy Cloud adds custom builds with node and LoRA support",

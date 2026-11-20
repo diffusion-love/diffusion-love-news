@@ -2210,6 +2210,115 @@
     ],
     "claims": []
   },
+  "agsoft-save-image-plus": {
+    "family_slug": "agsoft-save-image-plus",
+    "family_display": "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+    "family_display_variants": [
+      {
+        "family_display": "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-cce1cb230c"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "tools-frontend"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-cce1cb230c"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-cce1cb230c",
+        "title": "AGSoft Save Image Plus adds focus mode, bilingual tooltips, and Nodes 2.0 preview",
+        "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/Art-xmaster/comfyui-AGSoft",
+        "is_primary": true,
+        "verified_at": "2026-11-20T01:26:58Z",
+        "news_ids": [
+          "n-cce1cb230c"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "AGSoft Save Image Plus adds focus mode, bilingual tooltips, and Nodes 2.0 preview",
+        "summary": "The AGSoft Save Image Plus ComfyUI custom node was updated with an image batch focus preview mode, bilingual button tooltips, and preview rendering support for the ComfyUI Nodes 2.0 interface alongside classic canvas compatibility.",
+        "version": null,
+        "news_id": "n-cce1cb230c",
+        "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-cce1cb230c",
+        "date": "2026-11-19",
+        "title": "AGSoft Save Image Plus adds focus mode, bilingual tooltips, and Nodes 2.0 preview",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "agsoft-save-image-plus",
+        "version": null,
+        "tags": [
+          "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+          "agsoft-save-image-plus",
+          "agsoft-save-image-plus-update",
+          "family:agsoft-save-image-plus",
+          "tools-frontend"
+        ],
+        "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "agsoft-save-image-plus-update",
+        "display": "Agsoft Save Image Plus Update",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-cce1cb230c",
+        "news_ids": [
+          "n-cce1cb230c"
+        ]
+      }
+    ]
+  },
   "ai-metadata-inspector": {
     "family_slug": "ai-metadata-inspector",
     "family_display": "AI Metadata Inspector",
