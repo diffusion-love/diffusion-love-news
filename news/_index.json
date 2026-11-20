@@ -189,6 +189,25 @@
     "has_video": false
   },
   {
+    "id": "n-76e2884b48",
+    "date": "2026-11-19",
+    "title": "ComfyUI v0.46.1 published on GitHub",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "comfyui",
+    "version": null,
+    "tags": [
+      "ComfyUI Development",
+      "comfyui",
+      "comfyui-development",
+      "family:comfyui",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-5524914633",
     "date": "2026-11-19",
     "title": "Security advisory details two critical NGINX HTTP/2 remote code execution flaws",
