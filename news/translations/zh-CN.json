@@ -3011,6 +3011,11 @@
   "summary": "2026年3月20日，Hailuo Light Studio 的开发动态中包含了指向其 Relight 工具页面的链接。现有封存证据可以确认这一带有日期的工具引用，但无法判断它代表的是正式发布、功能更新还是例行推广。因此，本条历史事件仅记录该引用本身，不对其功能或可用性作进一步的断言。",
   "title": "Hailuo Light Studio 引用了其 Relight 工具"
  },
+ "n-a32e5b01bc": {
+  "research_notes": "在本地 ComfyUI 工作流或桌面快照中，准备所需的自定义节点、LoRA 权重和依赖项。\n\n在 Standard、Creator 或 Team 账户下，将自定义构建配置上传至 Comfy Cloud，以便将依赖项打包到持久化的云端环境中。\n\n根据模型大小和显存需求，从 RTX PRO 6000（96 GB 显存）到 NVIDIA B200（180 GB 显存）中选择目标 GPU 硬件。\n\n可通过云端浏览器画布交互式执行生成任务，也可借助 Comfy Cloud REST API 将已部署的工作流集成到自动化应用中。\n\n在打包云端自定义构建之前，先在本地桌面快照中验证所有所需的自定义节点和 Python 依赖项能否干净地完成解析。\n\n根据工作流复杂度选择匹配的硬件层级：标准高分辨率流程使用 RTX PRO 6000，极端内存负载则保留 B200 实例，以优化按秒计费的计算成本。\n\n在团队成员之间共享标准化工作区构建的同时，监控持久化网络存储的使用情况，以控制每月的数据费用。",
+  "summary": "Comfy Cloud 新增自定义构建支持，允许用户打包包含自定义节点和 LoRA 的本地环境，在团队间共享配置，并通过浏览器或 API 在从 RTX PRO 6000 到 B200 的 GPU 上执行工作流。",
+  "title": "Comfy Cloud 新增支持自定义节点与 LoRA 的自定义构建"
+ },
  "n-a3583f87c7": {
   "evolution_summary": "该项目从一个在GitHub上广泛传播的仓库，发展为一个完整的框架，并附带技术性的arXiv论文，同时支持Model Context Protocol（MCP）。v3.x版本引入了AAAK压缩方言，并增强了本地优先的性能。",
   "research_notes": "由女演员 Milla Jovovich 与开发者 Ben Sigman 共同创建；其显著特点是避免了其他AI记忆系统中存在的“摘要漂移”问题。",
@@ -3749,6 +3754,11 @@
   "summary": "一款专为 LTX-2.3 视频基础模型设计的专用 In-Context LoRA，用于去除电影式调色与对比度。它通过处理输入视频来还原自然光照与中性色彩平衡，可作为“去调色”工具服务于后续制作流程。",
   "title": "LTX-2.3-22b-IC-LoRA-Ungrade 中性色彩还原"
  },
+ "n-cce1cb230c": {
+  "research_notes": "使用 git clone https://github.com/Art-xmaster/comfyui-AGSoft.git 将仓库克隆到 ComfyUI 的 custom_nodes 目录中，或通过 ComfyUI Manager 安装 comfyui-AGSoft。\n\n重启 ComfyUI 服务器以加载自定义节点定义。\n\n将 AGSoft Save Image Plus 节点添加到 ComfyUI 工作流中，并将生成的图像张量连接到其 image 输入端。\n\n配置文件名前缀和格式选项，然后切换聚焦模式，以便在经典画布或 Nodes 2.0 界面中预览批量生成结果。\n\n如果在早期 Nodes 2.0 界面版本中出现 UI 渲染不一致的情况，请保持启用经典画布模式回退。\n\n生成多图批次时使用聚焦模式，可在不离开节点图的情况下检查各个预览帧。",
+  "summary": "AGSoft Save Image Plus ComfyUI 自定义节点已更新，新增图像批次聚焦预览模式、双语按钮工具提示，并在兼容经典画布的同时支持 ComfyUI Nodes 2.0 界面的预览渲染。",
+  "title": "AGSoft Save Image Plus 新增聚焦模式、双语工具提示和 Nodes 2.0 预览支持"
+ },
  "n-cce36dc967": {
   "research_notes": "请使用制品所指定的确切基础模型：krea/Krea-2-Turbo。请在兼容的本地工作流中加载 ComfyUI 格式的文件，或在 Krea2Pipeline 中加载 Diffusers 格式的文件。本包没有任何兼容性证据支持 Krea 2 Raw、FLUX.1 Krea 或其他 Turbo 模型。\n\n运行声明的 8 步 Turbo 方案，并且仅在前两个去噪步内保持适配器激活（gate=2）。作者的说明指出，普通 ComfyUI 会在每一步都应用 LoRA，因此需要使用按步调度 LoRA 的节点或 hook 节点，以便在第 2 步之后将其关闭；作者并未指定或提供标准的自定义节点或工作流 JSON。\n\n对于 Diffusers，作者记录了在 0.39.0.dev0 之后合并的构建版本中的 Krea2Pipeline、bf16、8 次推理步、guidance 1.0，以及在第二个基于零的步之后禁用 LoRA 的回调。这是创作者提供的配方，并非我们自己的运行结果。\n\n请将公开的 Space 仅视为演示界面。其列表确认 hugging-apps/krea2-turbo-sda-demo 确实存在，但在本次研究中，未获得可复现的工作流导出、运行时版本、硬件配置或独立的输出凭证。\n\n除非进行新的、带版本的对比，否则请将适配器 gate 保持为 2。作者报告称，在所有八步中保持开启会导致质量崩溃或模糊，在该固定面板中高频能量比为 2.2 倍，HPS 降低约 10%。\n\n所有多样性数值均应描述为创作者报告的数据。报告面板为 10 个提示词 × 16 个随机种子，分辨率 1024x1024，8 步，guidance 1.0，shift mu 1.15；它不是独立基准，也不是对 Krea 2 的通用保证。\n\n对于创作者报告的确切 gate-2 面板，请完整保留指标背景：10 个提示词 × 16 个随机种子，成对 CLIP 余弦距离为 0.0296 至 0.0548，HPSv2.1 为 0.2990 至 0.2987。这些数值并非独立复现的结果。\n\n请使用正确的权重格式。创作者区分了 krea2_turbo_sda_v1.0_comfy.safetensors 与 krea2_turbo_sda_v1.0_diffusers.safetensors；格式不匹配属于设置错误，并不能说明适配器的多样性效果。\n\n不要将该适配器描述为通用的缺陷修复方案。其自身的局限性说明指出，恢复多样性会降低稳定性，并可能使肢体等解剖结构问题更容易出现。",
   "summary": "一款面向 Krea 2 Turbo 的社区 LoRA，据报告能使相同提示词在不同随机种子下产生更多变化。它的关键约束在于操作方式：必须仅在 Turbo 八个去噪步中的前两步运行，然后关闭。报告结果来自创作者的固定评估面板；目前尚无独立复现。",
@@ -4442,6 +4452,11 @@
  "n-ef5357108f": {
   "summary": "2026-04-08，Volumography 启动帖中的一条消息链接到了 Volumography 网站。现有证据只能证明该项目链接在当天被分享；无法证明存在产品发布、功能上线或其他能力声明。",
   "title": "启动帖中引用的 Volumography 网站"
+ },
+ "n-ef68e2a314": {
+  "research_notes": "在本地准备一个 ComfyUI 工作流或桌面快照,其中包含所需的自定义节点、LoRA 权重和依赖项。\n\n在 Standard、Creator 或 Team 账户下将自定义构建配置上传至 Comfy Cloud,以便将依赖项打包到持久化的云端环境中。\n\n根据模型大小和显存需求,从 RTX PRO 6000(96 GB 显存)到 NVIDIA B200(180 GB 显存)中选择目标 GPU 硬件。\n\n可以通过云端浏览器画布交互式地执行生成任务,也可以使用 Comfy Cloud REST API 将已部署的工作流集成到自动化应用中。\n\n在打包云端自定义构建之前,先在本地桌面快照中验证所有所需的自定义节点和 Python 依赖项能够干净地解析。\n\n根据工作流复杂度选择匹配的硬件档位:标准高分辨率流程使用 RTX PRO 6000,将 B200 实例保留给极端内存负载,以优化每秒计算成本。\n\n在团队成员之间共享标准化工作区构建的同时,监控持久化网络存储的使用情况,以管理每月的数据费用。",
+  "summary": "Comfy Cloud 推出了在最高配备 NVIDIA B200 的硬件上执行自定义工作流的功能,并提供持久化存储。",
+  "title": "Comfy Cloud 支持在企业级 GPU 上运行自定义工作流"
  },
  "n-ef6922bf2a": {
   "research_notes": "从 Hugging Face 仓库 ai-sage/GigaChat3.5-432B-A28B-Reasoning 下载开放权重，或从 GitVerse 克隆该仓库。\n\n使用支持混合 MLA 与 MoE 架构的推理引擎（如 vLLM 或 SGLang），在多 GPU 服务器基础设施上部署模型。\n\n在多阶段分析任务中开启推理模式提示模型，使其在给出最终答案之前生成思维链中间步骤。\n\n为容纳 432B MoE 权重，分配具有高总显存的多节点 GPU 集群；当完整 BF16 显存受限时，采用 FP8 量化。\n\n在处理大型文档集合、法律合同或多文件代码库时，启用 YaRN 上下文扩展缩放，最长支持 256K 词元。\n\n将复杂的多步逻辑推演、数学证明和程序验证交由推理模式处理，同时将直接的生成任务保留在标准模型上，以优化词元消耗。",

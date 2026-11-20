@@ -1,0 +1,11 @@
+{
+ "id": "n-a32e5b01bc",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Préparez un workflow ComfyUI local ou un instantané de bureau contenant les nœuds personnalisés requis, les poids LoRA et les dépendances.\n\nChargez la configuration du build personnalisé sur Comfy Cloud avec un compte Standard, Creator ou Team afin d'empaqueter les dépendances dans un environnement cloud persistant.\n\nSélectionnez le matériel GPU cible, de la RTX PRO 6000 (96 Go de VRAM) à la NVIDIA B200 (180 Go de VRAM), en fonction de la taille du modèle et de ses besoins en VRAM.\n\nExécutez les tâches de génération de manière interactive via le canevas du navigateur cloud, ou intégrez le workflow déployé dans des applications automatisées à l'aide de l'API REST de Comfy Cloud.\n\nVérifiez que tous les nœuds personnalisés requis et les dépendances Python se résolvent correctement dans un instantané de bureau local avant d'empaqueter un build personnalisé pour le cloud.\n\nSélectionnez des niveaux de matériel adaptés à la complexité du workflow : utilisez la RTX PRO 6000 pour les pipelines standard en haute résolution et réservez les instances B200 aux charges de travail à mémoire extrême, afin d'optimiser les coûts de calcul facturés à la seconde.\n\nSurveillez l'utilisation du stockage réseau persistant pour maîtriser les frais mensuels de données, tout en partageant des builds d'espace de travail standardisés entre les membres de l'équipe.",
+ "source_sha256": "4b1130e479ff656d8d4d661f48f3da87be483133fe820673152e43a9c947a7f7",
+ "summary": "Comfy Cloud ajoute la prise en charge des builds personnalisés, permettant aux utilisateurs d'empaqueter des environnements locaux avec nœuds personnalisés et LoRA, de partager leurs configurations au sein d'équipes, et d'exécuter les workflows dans le navigateur ou via API sur des GPU allant de la RTX PRO 6000 à la B200.",
+ "title": "Comfy Cloud ajoute les builds personnalisés avec prise en charge des nœuds et des LoRA",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

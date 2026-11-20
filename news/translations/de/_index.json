@@ -3179,6 +3179,11 @@
   "title": "Hailuo Light Studio verweist auf sein Relight-Tool",
   "translated_at": "2026-10-24"
  },
+ "n-a32e5b01bc": {
+  "fresh": true,
+  "title": "Comfy Cloud ergänzt benutzerdefinierte Builds mit Unterstützung für Nodes und LoRAs",
+  "translated_at": "2026-11-20"
+ },
  "n-a3583f87c7": {
   "fresh": true,
   "title": "MemPalace: Effiziente unendliche Speicherkompression für LLMs",
@@ -3924,6 +3929,11 @@
   "title": "LTX-2.3-22b-IC-LoRA-Ungrade Neutral Color Recovery",
   "translated_at": "2026-10-24"
  },
+ "n-cce1cb230c": {
+  "fresh": true,
+  "title": "AGSoft Save Image Plus ergänzt Fokusmodus, zweisprachige Tooltips und Vorschau für Nodes 2.0",
+  "translated_at": "2026-11-20"
+ },
  "n-cce36dc967": {
   "fresh": true,
   "title": "Krea 2 Turbo SDA LoRA ergänzt ein Zwei-Schritt-Diversitäts-Gate",
@@ -4638,6 +4648,11 @@
   "fresh": true,
   "title": "Volumography-Website in einem Launch-Thread erwähnt",
   "translated_at": "2026-10-24"
+ },
+ "n-ef68e2a314": {
+  "fresh": true,
+  "title": "Comfy Cloud ermöglicht individuelle Workflows auf Enterprise-GPUs",
+  "translated_at": "2026-11-20"
  },
  "n-ef6922bf2a": {
   "fresh": true,

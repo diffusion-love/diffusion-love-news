@@ -1,0 +1,11 @@
+{
+ "id": "n-cce1cb230c",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona el repositorio en el directorio custom_nodes de ComfyUI con git clone https://github.com/Art-xmaster/comfyui-AGSoft.git o instala comfyui-AGSoft mediante ComfyUI Manager.\n\nReinicia el servidor de ComfyUI para cargar las definiciones de los nodos personalizados.\n\nAñade el nodo AGSoft Save Image Plus a tu flujo de trabajo de ComfyUI y conecta el tensor de imagen generado a su entrada de imagen.\n\nConfigura el prefijo de nombre de archivo y las opciones de formato, y luego activa el modo de enfoque para previsualizar los lotes generados tanto en la interfaz de lienzo clásico como en la de Nodes 2.0.\n\nMantén habilitado el modo de respaldo de lienzo clásico si experimentas inconsistencias de renderizado de la interfaz en las primeras versiones de compilación de la interfaz de Nodes 2.0.\n\nUtiliza el modo de enfoque al generar lotes de varias imágenes para inspeccionar cada fotograma de vista previa individualmente sin salir del grafo de nodos.",
+ "source_sha256": "95860bfb55055ba71b0de1820aacb0802594b3bbda622a1df77fccebfa210ce6",
+ "summary": "El nodo personalizado AGSoft Save Image Plus para ComfyUI se actualizó con un modo de vista previa con enfoque para lotes de imágenes, tooltips bilingües en los botones y soporte de renderizado de vista previa para la interfaz Nodes 2.0 de ComfyUI, manteniendo la compatibilidad con el lienzo clásico.",
+ "title": "AGSoft Save Image Plus añade modo de enfoque, tooltips bilingües y vista previa de Nodes 2.0",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

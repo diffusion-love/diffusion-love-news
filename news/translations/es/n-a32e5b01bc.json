@@ -1,0 +1,11 @@
+{
+ "id": "n-a32e5b01bc",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Prepare una instantánea local de flujo de trabajo o de escritorio de ComfyUI que contenga los nodos personalizados, los pesos de LoRA y las dependencias necesarias.\n\nSube la configuración de compilación personalizada a Comfy Cloud con una cuenta Standard, Creator o Team para empaquetar las dependencias en un entorno persistente en la nube.\n\nSelecciona el hardware de GPU objetivo, desde RTX PRO 6000 (96 GB de VRAM) hasta NVIDIA B200 (180 GB de VRAM), según el tamaño del modelo y los requisitos de VRAM.\n\nEjecuta las tareas de generación de forma interactiva a través del lienzo del navegador en la nube, o integra el flujo de trabajo desplegado en aplicaciones automatizadas mediante la API REST de Comfy Cloud.\n\nComprueba que todos los nodos personalizados requeridos y las dependencias de Python se resuelven correctamente en una instantánea de escritorio local antes de empaquetar una compilación personalizada en la nube.\n\nSelecciona niveles de hardware acordes con la complejidad del flujo de trabajo, usando RTX PRO 6000 para canalizaciones estándar de alta resolución y reservando las instancias B200 para cargas de trabajo de memoria extrema, con el fin de optimizar los costes de cómputo por segundo.\n\nSupervisa la utilización del almacenamiento de red persistente para gestionar los cargos mensuales de datos y, al mismo tiempo, compartir espacios de trabajo estandarizados entre los miembros del equipo.",
+ "source_sha256": "4b1130e479ff656d8d4d661f48f3da87be483133fe820673152e43a9c947a7f7",
+ "summary": "Comfy Cloud añadió compatibilidad con compilaciones personalizadas, que permite a los usuarios empaquetar entornos locales con nodos personalizados y LoRA, compartir configuraciones entre equipos y ejecutar flujos de trabajo desde el navegador o mediante API en GPU que van desde RTX PRO 6000 hasta B200.",
+ "title": "Comfy Cloud añade compilaciones personalizadas con soporte para nodos y LoRA",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

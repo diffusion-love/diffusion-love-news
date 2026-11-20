@@ -1,0 +1,11 @@
+{
+ "id": "n-a32e5b01bc",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Bereite einen lokalen ComfyUI-Workflow oder Desktop-Snapshot vor, der die erforderlichen Custom Nodes, LoRA-Gewichte und Abhängigkeiten enthält.\n\nLade die benutzerdefinierte Build-Konfiguration in Comfy Cloud hoch, und zwar unter einem Standard-, Creator- oder Team-Konto, um die Abhängigkeiten in einer persistenten Cloud-Umgebung zu bündeln.\n\nWähle die Ziel-GPU-Hardware aus, die von RTX PRO 6000 (96 GB VRAM) bis NVIDIA B200 (180 GB VRAM) reicht, abhängig von Modellgröße und VRAM-Anforderungen.\n\nFühre Generierungsaufgaben interaktiv über den Cloud-Browser-Canvas aus oder integriere den bereitgestellten Workflow mithilfe der Comfy Cloud REST API in automatisierte Anwendungen.\n\nPrüfe, ob alle erforderlichen Custom Nodes und Python-Abhängigkeiten in einem lokalen Desktop-Snapshot sauber aufgelöst werden, bevor du einen Cloud-Custom-Build packst.\n\nWähle Hardware-Stufen passend zur Komplexität des Workflows: Nutze RTX PRO 6000 für standardmäßige hochauflösende Pipelines und reserviere B200-Instanzen für extreme Speicherlasten, um die Rechenkosten pro Sekunde zu optimieren.\n\nÜberwache die Auslastung des persistenten Netzwerkspeichers, um die monatlichen Datenkosten im Griff zu behalten, und teile standardisierte Workspace-Builds im Team.",
+ "source_sha256": "4b1130e479ff656d8d4d661f48f3da87be483133fe820673152e43a9c947a7f7",
+ "summary": "Comfy Cloud unterstützt jetzt benutzerdefinierte Builds: Nutzer können lokale Umgebungen mit Custom Nodes und LoRAs paketieren, Setups im Team teilen und Workflows im Browser oder per API auf GPUs von RTX PRO 6000 bis B200 ausführen.",
+ "title": "Comfy Cloud ergänzt benutzerdefinierte Builds mit Unterstützung für Nodes und LoRAs",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

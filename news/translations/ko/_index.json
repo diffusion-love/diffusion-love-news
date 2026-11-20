@@ -3179,6 +3179,11 @@
   "title": "Hailuo Light Studio가 Relight 도구를 언급했다",
   "translated_at": "2026-10-24"
  },
+ "n-a32e5b01bc": {
+  "fresh": true,
+  "title": "Comfy Cloud, 노드 및 LoRA 지원 커스텀 빌드 추가",
+  "translated_at": "2026-11-20"
+ },
  "n-a3583f87c7": {
   "fresh": true,
   "title": "MemPalace: LLM을 위한 효율적 무한 메모리 압축",
@@ -3924,6 +3929,11 @@
   "title": "LTX-2.3-22b-IC-LoRA-Ungrade 중립 색감 복원",
   "translated_at": "2026-10-24"
  },
+ "n-cce1cb230c": {
+  "fresh": true,
+  "title": "AGSoft Save Image Plus, 포커스 모드·이중 언어 툴팁·Nodes 2.0 미리보기 추가",
+  "translated_at": "2026-11-20"
+ },
  "n-cce36dc967": {
   "fresh": true,
   "title": "Krea 2 Turbo SDA LoRA, 2단계 다양성 게이트 추가",
@@ -4638,6 +4648,11 @@
   "fresh": true,
   "title": "출시 스레드에서 언급된 Volumography 웹사이트",
   "translated_at": "2026-10-24"
+ },
+ "n-ef68e2a314": {
+  "fresh": true,
+  "title": "Comfy Cloud, 엔터프라이즈 GPU에서 커스텀 워크플로우 지원",
+  "translated_at": "2026-11-20"
  },
  "n-ef6922bf2a": {
   "fresh": true,
