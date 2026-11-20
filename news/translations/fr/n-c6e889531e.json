@@ -1,0 +1,11 @@
+{
+ "id": "n-c6e889531e",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Téléversez un maillage 3D non texturé au format OBJ ou GLB, accompagné d'une seule image de référence, dans l'interface hébergée d'UltraTex sur Hugging Face.\n\nInspectez les cartes prédites de couleur d'albédo sans éclairage et de normales de surface multi-vues afin de vérifier l'alignement géométrique selon les points de vue canoniques.\n\nExportez l'ensemble de cartes PBR 4K assemblé, comprenant les canaux d'albédo, de normales, de métallicité et de rugosité, vers un outil de création de contenu numérique 3D ou un moteur de jeu temps réel.\n\nFournissez des images de référence à éclairage diffus et neutre afin de faciliter une séparation algorithmique nette entre la couleur intrinsèque de la surface et les reflets spéculaires.\n\nPréparez les maillages d'entrée avec un dépliage UV propre et sans chevauchement avant de projeter les cartes de caractéristiques multi-vues générées dans un espace de texture UV unifié.",
+ "source_sha256": "2da976929ee503a5d2b02b0771df4641a8aeff0cdf6a8fcdacc76d1ec1f46416",
+ "summary": "Le projet UltraTex démontre la prédiction multi-vues de l'albédo, des normales, de la rugosité et de la métallicité, assemblées en cartes UV 4K pour des maillages 3D, avec la publication d'un article technique et d'un aperçu en ligne, tandis que le code et les poids du modèle restent à venir.",
+ "title": "Article de recherche et démonstration d'UltraTex : génération de matériaux PBR découplée",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

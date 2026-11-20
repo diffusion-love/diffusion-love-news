@@ -1,0 +1,11 @@
+{
+ "id": "n-994b1eb71c",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Melden Sie sich mit einem aktiven Google-AI-Ultra-Konto unter labs.google/projectgenie bei Project Genie an oder tragen Sie sich auf die Warteliste für Google AI Pro ein.\n\nGeben Sie einen beschreibenden Text-Prompt ein oder laden Sie ein Referenzbild hoch, um Startumgebung, Figuren und visuellen Stil festzulegen.\n\nErkunden Sie die generierte 720p-Welt in Echtzeit mit der üblichen Steuerung per Tastatur und Maus.\n\nVerändern Sie die laufende Simulation dynamisch, indem Sie Textbefehle eingeben, um Beleuchtung, Wetter oder Szenenobjekte anzupassen, ohne die Sitzung zurückzusetzen.\n\nTeilen oder remixen Sie abgeschlossene Welt-Sitzungen über die Community-Galerie von Project Genie.\n\nVerwenden Sie beim Initialisieren von Welten knappe, kontrastreiche visuelle Prompts, um räumliche Mehrdeutigkeit und frühe Texturdrift während der interaktiven Navigation zu vermeiden.\n\nSetzen Sie Text-Prompts während der Sitzung für schrittweise Änderungen von Atmosphäre und Beleuchtung ein statt drastischer struktureller Umbrüche, um die Kohärenz der Szene zu erhalten.\n\nPrüfen Sie die Zielwerte für die Sitzungsdauer, bevor Sie Simulationen starten. Beachten Sie, dass das Drei-Minuten-Limit speziell für Workflows mit Genie 3 gilt, während Genie 4 unter eigenen Stream-Limits des Prototyps arbeitet.",
+ "source_sha256": "72d0a24eb732e0f256b74b4a03e761bc19e55026eef7c629b8a98da89b29e4a1",
+ "summary": "Google hat das verbesserte Weltmodell Genie 4 in den Forschungsprototyp Project Genie für Abonnenten der höchsten Stufe integriert. Enthalten sind Echtzeit-Navigation per Tastatur, synchronisiertes multimodales Audio und die Steuerung per Prompt während der Laufzeit, ohne dass Google-AI-Guthaben abgezogen wird.",
+ "title": "Google integriert das verbesserte Weltmodell Genie 4 in Project Genie",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

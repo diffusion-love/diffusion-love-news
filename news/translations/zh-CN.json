@@ -1140,6 +1140,11 @@
   "summary": "2026年3月9日,Flux LoRAs 讨论串链接了 Flux2-Klein-9B-Enhanced-Details 在 Hugging Face 上的资源。同一日期条目还包含两个 YouTube 链接和一个 hf.ru 链接,标志着一个与项目相关的公开参考节点,但并未确立任何具体的技术变更。",
   "title": "Flux2-Klein-9B-Enhanced-Details 资源已被链接"
  },
+ "n-36b8a36bed": {
+  "research_notes": "使用有效的 Google AI Ultra 账户登录 labs.google/projectgenie 上的 Project Genie，或加入 Google AI Pro 候补名单。\n\n输入描述性文本提示词，或上传参考图像，以定义初始环境、角色和视觉风格。\n\n使用标准键盘和鼠标移动控件，实时探索生成的 720p 世界。\n\n通过输入文本指令动态修改正在运行的模拟，以调整光照、天气或场景物体，无需重置会话。\n\n通过 Project Genie 社区画廊分享或二次创作已完成的世界会话。\n\n初始化世界时，使用简洁、高对比度的视觉提示词，以防止交互式导航过程中出现空间歧义和早期纹理漂移。\n\n会话中途使用文本提示词进行渐进式的氛围和光照变化，而非剧烈的结构性变化，以保持场景连贯性。\n\n启动模拟前核对会话时长目标，注意三分钟限制仅适用于 Genie 3 工作流，而 Genie 4 遵循独立的原型流式传输限制。",
+  "summary": "Google 将 Genie 4 原型集成到 Project Genie 中，面向顶级订阅用户开放，并同时推出 Google AI Pro 候补名单。文中说明，世界生成不会扣除 Google AI 积分，且三分钟会话限制仅适用于 Genie 3。",
+  "title": "Project Genie 集成 Genie 4 原型，并推出 Google AI Pro 候补名单"
+ },
  "n-36e9bae8ed": {
   "evolution_summary": "该系列分支出 MiniCPM-o，用于实时全模态交互（音频/视频）；而 V 系列则专注于边缘效率，具备高分辨率 OCR 和先进的视频 token 压缩能力。",
   "research_notes": "基于 Qwen3.5 构建；支持最高 1.8M 像素的高分辨率图像处理，并针对 iOS 和 Android 的 NPU/GPU 执行进行了优化。",
@@ -1431,6 +1436,11 @@
  "n-477068c864": {
   "summary": "2026-04-02，H Company 发布了新模型 Holo3。相关项目、API 和模型仓库页面表明，此次发布既面向直接使用，也面向模型访问。该记录不包含原始文本或独立研究，因此具体能力和发布条款仍未经证实。",
   "title": "H Company 发布 Holo3 模型"
+ },
+ "n-47ea145f1a": {
+  "research_notes": "在 Hugging Face 上托管的 UltraTex 界面中，上传一个无纹理的 OBJ 或 GLB 格式 3D 网格，以及一张参考图像。\n\n检查预测的多视角无光照反照率颜色与表面法线贴图，以验证在标准视角下的几何对齐情况。\n\n将生成的 4K PBR 贴图集（包含反照率、法线、金属度和粗糙度通道）导出到 3D 数字内容创作工具或实时游戏引擎中。\n\n提供具有漫反射、中性光照的参考图像，以便从镜面高光中干净地分离出本征表面颜色。\n\n在将生成的多视角特征图投影到统一的 UV 纹理空间之前，请为输入网格准备干净、无重叠的 UV 展开。",
+  "summary": "UltraTex 提出了一种级联扩散流程，将本征材质属性与光照分离，从参考图像生成完整的 4K PBR 纹理集，并配有可交互的 Hugging Face 演示。",
+  "title": "UltraTex 推出用于 4K PBR 纹理合成的多视角扩散框架"
  },
  "n-49188c7915": {
   "summary": "2026年3月24日，该记录登记了一个指向 NVIDIA Hugging Face 仓库的链接，其路径标明为面向 Matterport3D 的 NVPanoptix-3D v1.1。此条目被提议作为一个重要的历史节点，因为它指向了该项目的一个带版本号的模型制品。仅凭该链接无法确定这是一次正式发布、更新还是重新发布，因此本文不作任何能力或可用性方面的断言。",
@@ -2921,6 +2931,11 @@
   "summary": "研究人员提出了SCAN，这是一种免训练框架，通过聚合差分隐私类别原型，在67个临床站点之间对3D脑部MRI视觉-语言基础模型进行适配，且无需传输原始扫描数据。",
   "title": "SCAN框架：面向脑部MRI视觉-语言模型隐私保护协同适配的方法提出"
  },
+ "n-994b1eb71c": {
+  "research_notes": "使用有效的 Google AI Ultra 账户登录 labs.google/projectgenie 上的 Project Genie，或加入 Google AI Pro 候补名单。\n\n输入描述性文本提示词，或上传参考图像，以定义初始环境、角色和视觉风格。\n\n使用标准键盘和鼠标移动控制，实时探索生成的 720p 世界。\n\n在模拟运行过程中输入文本指令，动态调整光照、天气或场景物体，无需重置会话。\n\n通过 Project Genie 社区画廊分享或混编已完成的世界会话。\n\n初始化世界时，使用简洁、高对比度的视觉提示词，以防止空间歧义，并避免交互式导航过程中出现早期纹理漂移。\n\n会话中途应使用文本提示词进行渐进式的氛围和光照调整，而非剧烈的结构性改变，以保持场景连贯性。\n\n启动模拟前，请核实会话时长目标。需注意，三分钟限制仅适用于 Genie 3 工作流，而 Genie 4 则遵循独立的原型流限制。",
+  "summary": "谷歌为顶级订阅用户将升级后的 Genie 4 世界模型集成到 Project Genie 研究原型中，支持实时键盘导航、同步多模态音频和实时提示词调控，且不扣除 Google AI 积分。",
+  "title": "谷歌将升级版 Genie 4 世界模型集成至 Project Genie"
+ },
  "n-997df70c3d": {
   "evolution_summary": "2026 年 4 月发布的 v1.1 更新对蒸馏模型进行了重新训练，显著提升了音频保真度，减少了伪影，并稳定了运动。Lightricks 还为该版本更新了相关 LoRA 和 ComfyUI 工作流。",
   "research_notes": "以 Apache 2.0 许可证发布；社区提供的 GGUF 和 FP8 量化版本使其能够在约 20GB 显存的消费级 GPU 上本地运行。",
@@ -3758,6 +3773,11 @@
   "research_notes": "在 Fizgig Training 标签页的 Subjects 卡片中，为至少两个不同身份分别准备训练数据集，并放入不同的文件夹。\n\n为每张图片添加标题，以唯一的触发 token 开头，后接逗号和类别描述词（例如 'zwxem, a woman smiling'），以便 Fizgig 生成内部融合 token。\n\n在训练配置中启用 LoRA Isolation，将差分输出保持与自动合成的陌生人图像配对相结合。\n\n生成推理图像时，使用融合触发 token，并同时描述场景中的其他主体，以在不出现人脸串扰的情况下保持身份边界。\n\n即使只针对单个主要角色，也要同时使用至少两个不同的角色身份进行训练，迫使网络将身份 token 与基础人类类别 token 解耦。\n\n在提示背景人物或人群时，完全省略触发 token，使基础模型能够渲染默认的多样化人脸，避免信息泄露。\n\n在训练中对多人负样本合成图进行配对时，将标题按因果顺序组织，并将陌生人描述词置于最前。",
   "summary": "Fizgig v8.4.0 引入了 LoRA Isolation，结合差分输出保持（Differential Output Preservation）、融合 token 类别解耦和负样本对训练，以防止在生成包含多个角色的场景时出现人脸串扰。",
   "title": "Fizgig 发布用于多身份训练的 LoRA Isolation"
+ },
+ "n-c6e889531e": {
+  "research_notes": "在 Hugging Face 上托管的 UltraTex 界面中，上传一个无纹理的 OBJ 或 GLB 格式 3D 网格，以及一张参考图像。\n\n检查预测得到的多视角无光照反照率颜色图和表面法线图，以验证在标准视角下的几何对齐情况。\n\n将最终组装好的 4K PBR 贴图集（包含反照率、法线、金属度和粗糙度通道）导出到 3D 数字内容创作工具或实时游戏引擎中。\n\n提供具有漫反射、中性光照的参考图像，以便于将本征表面颜色与高光进行干净的算法分离。\n\n在将生成的多视角特征图投影到统一的 UV 纹理空间之前，请为输入网格准备干净、无重叠的 UV 展开。",
+  "summary": "UltraTex 项目展示了多视角反照率、法线、粗糙度和金属度预测，并将其组装为 3D 网格的 4K UV 贴图。该项目发布了技术论文和在线预览，代码和模型权重仍待发布。",
+  "title": "UltraTex 研究论文与演示展示解耦的 PBR 材质生成"
  },
  "n-c6ff419784": {
   "research_notes": "相关的第一方概览页面标注日期为 2026-08-14，并表示 Soundtrack、Music、SFX 和 Speech 已加入 Pika API Club。",

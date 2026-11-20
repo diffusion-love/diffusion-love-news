@@ -1,0 +1,11 @@
+{
+ "id": "n-36b8a36bed",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Inicia sesión en Project Genie en labs.google/projectgenie con una cuenta activa de Google AI Ultra, o únete a la lista de espera de Google AI Pro.\n\nIntroduce un prompt de texto descriptivo o sube una imagen de referencia para definir el entorno inicial, los personajes y el estilo visual.\n\nExplora el mundo generado en 720p en tiempo real con los controles estándar de teclado y ratón.\n\nModifica la simulación en curso de forma dinámica introduciendo comandos de texto para ajustar la iluminación, el clima o los objetos de la escena sin reiniciar la sesión.\n\nComparte o remezcla las sesiones de mundo completadas a través de la galería de la comunidad de Project Genie.\n\nUsa prompts visuales concisos y de alto contraste al inicializar los mundos para evitar la ambigüedad espacial y la deriva temprana de texturas durante la navegación interactiva.\n\nAplica prompts de texto durante la sesión para introducir cambios atmosféricos y de iluminación incrementales en lugar de cambios estructurales drásticos, con el fin de preservar la coherencia de la escena.\n\nVerifica los objetivos de duración de la sesión antes de lanzar las simulaciones, teniendo en cuenta que el límite de tres minutos se aplica específicamente a los flujos de trabajo de Genie 3, mientras que Genie 4 opera bajo límites de flujo distintos propios de su prototipo.",
+ "source_sha256": "74e258c08a23e33a884514a7e735386b8f8fb60e1e9532135940f9a0d3815a7d",
+ "summary": "Google integró el prototipo Genie 4 en Project Genie para suscriptores de nivel superior, junto con una lista de espera para Google AI Pro, y aclaró que la generación de mundos no descuenta créditos de Google AI y que el límite de sesión de tres minutos se aplica específicamente a Genie 3.",
+ "title": "Project Genie integra el prototipo Genie 4 y una lista de espera para Google AI Pro",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

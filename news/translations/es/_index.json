@@ -1199,6 +1199,11 @@
   "title": "Se enlazó el recurso Flux2-Klein-9B-Enhanced-Details",
   "translated_at": "2026-10-24"
  },
+ "n-36b8a36bed": {
+  "fresh": true,
+  "title": "Project Genie integra el prototipo Genie 4 y una lista de espera para Google AI Pro",
+  "translated_at": "2026-11-21"
+ },
  "n-36e9bae8ed": {
   "fresh": true,
   "title": "MiniCPM-V 4.6: modelo multimodal eficiente y nativo para edge",
@@ -1508,6 +1513,11 @@
   "fresh": true,
   "title": "H Company lanzó el modelo Holo3",
   "translated_at": "2026-10-24"
+ },
+ "n-47ea145f1a": {
+  "fresh": true,
+  "title": "UltraTex presenta un marco de difusión multivista para la síntesis de texturas PBR en 4K",
+  "translated_at": "2026-11-21"
  },
  "n-49188c7915": {
   "fresh": true,
@@ -3084,6 +3094,11 @@
   "title": "Propuesto SCAN, un marco para la adaptación colaborativa de modelos visión-lenguaje de resonancia magnética cerebral que preserva la privacidad",
   "translated_at": "2026-11-19"
  },
+ "n-994b1eb71c": {
+  "fresh": true,
+  "title": "Google integra el modelo de mundo Genie 4 mejorado en Project Genie",
+  "translated_at": "2026-11-21"
+ },
  "n-997df70c3d": {
   "fresh": true,
   "title": "LTX-2.3-22B-DISTILLED-1.1: modelo DiT de video",
@@ -3938,6 +3953,11 @@
   "fresh": true,
   "title": "Fizgig lanza LoRA Isolation para el entrenamiento de múltiples identidades",
   "translated_at": "2026-10-24"
+ },
+ "n-c6e889531e": {
+  "fresh": true,
+  "title": "Artículo de investigación y demostración de UltraTex: generación de materiales PBR desacoplados",
+  "translated_at": "2026-11-21"
  },
  "n-c6ff419784": {
   "fresh": true,

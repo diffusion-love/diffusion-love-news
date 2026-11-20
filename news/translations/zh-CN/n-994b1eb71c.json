@@ -1,0 +1,11 @@
+{
+ "id": "n-994b1eb71c",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "使用有效的 Google AI Ultra 账户登录 labs.google/projectgenie 上的 Project Genie，或加入 Google AI Pro 候补名单。\n\n输入描述性文本提示词，或上传参考图像，以定义初始环境、角色和视觉风格。\n\n使用标准键盘和鼠标移动控制，实时探索生成的 720p 世界。\n\n在模拟运行过程中输入文本指令，动态调整光照、天气或场景物体，无需重置会话。\n\n通过 Project Genie 社区画廊分享或混编已完成的世界会话。\n\n初始化世界时，使用简洁、高对比度的视觉提示词，以防止空间歧义，并避免交互式导航过程中出现早期纹理漂移。\n\n会话中途应使用文本提示词进行渐进式的氛围和光照调整，而非剧烈的结构性改变，以保持场景连贯性。\n\n启动模拟前，请核实会话时长目标。需注意，三分钟限制仅适用于 Genie 3 工作流，而 Genie 4 则遵循独立的原型流限制。",
+ "source_sha256": "72d0a24eb732e0f256b74b4a03e761bc19e55026eef7c629b8a98da89b29e4a1",
+ "summary": "谷歌为顶级订阅用户将升级后的 Genie 4 世界模型集成到 Project Genie 研究原型中，支持实时键盘导航、同步多模态音频和实时提示词调控，且不扣除 Google AI 积分。",
+ "title": "谷歌将升级版 Genie 4 世界模型集成至 Project Genie",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

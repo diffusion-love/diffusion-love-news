@@ -1,0 +1,11 @@
+{
+ "id": "n-47ea145f1a",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Importez un maillage 3D sans texture au format OBJ ou GLB, accompagné d'une seule image de référence, dans l'interface hébergée UltraTex sur Hugging Face.\n\nInspectez les cartes prédites d'albédo couleur sans éclairage et de normales de surface multi-vues afin de vérifier l'alignement géométrique selon les points de vue canoniques.\n\nExportez le jeu de cartes PBR 4K assemblé, comprenant les canaux d'albédo, de normales, de métallicité et de rugosité, vers un outil de création de contenu numérique 3D ou un moteur de jeu temps réel.\n\nFournissez des images de référence à éclairage diffus et neutre afin de faciliter une séparation algorithmique nette de la couleur intrinsèque de la surface et des reflets spéculaires.\n\nPréparez les maillages d'entrée avec un dépliage UV propre et sans chevauchement avant de projeter les cartes de caractéristiques multi-vues générées dans un espace de texture UV unifié.",
+ "source_sha256": "15745763e695c7aa189f2ca4740728a314d62b6935b0815aab139f7eb6573cf3",
+ "summary": "UltraTex propose un pipeline de diffusion en cascade qui sépare les propriétés matérielles intrinsèques de l'éclairage afin de générer des jeux complets de textures PBR 4K à partir d'images de référence, accompagné d'une démonstration interactive sur Hugging Face.",
+ "title": "UltraTex introduit un cadre de diffusion multi-vues pour la synthèse de textures PBR 4K",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

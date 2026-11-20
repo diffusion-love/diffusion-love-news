@@ -1,0 +1,11 @@
+{
+ "id": "n-36b8a36bed",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "使用有效的 Google AI Ultra 账户登录 labs.google/projectgenie 上的 Project Genie，或加入 Google AI Pro 候补名单。\n\n输入描述性文本提示词，或上传参考图像，以定义初始环境、角色和视觉风格。\n\n使用标准键盘和鼠标移动控件，实时探索生成的 720p 世界。\n\n通过输入文本指令动态修改正在运行的模拟，以调整光照、天气或场景物体，无需重置会话。\n\n通过 Project Genie 社区画廊分享或二次创作已完成的世界会话。\n\n初始化世界时，使用简洁、高对比度的视觉提示词，以防止交互式导航过程中出现空间歧义和早期纹理漂移。\n\n会话中途使用文本提示词进行渐进式的氛围和光照变化，而非剧烈的结构性变化，以保持场景连贯性。\n\n启动模拟前核对会话时长目标，注意三分钟限制仅适用于 Genie 3 工作流，而 Genie 4 遵循独立的原型流式传输限制。",
+ "source_sha256": "74e258c08a23e33a884514a7e735386b8f8fb60e1e9532135940f9a0d3815a7d",
+ "summary": "Google 将 Genie 4 原型集成到 Project Genie 中，面向顶级订阅用户开放，并同时推出 Google AI Pro 候补名单。文中说明，世界生成不会扣除 Google AI 积分，且三分钟会话限制仅适用于 Genie 3。",
+ "title": "Project Genie 集成 Genie 4 原型，并推出 Google AI Pro 候补名单",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

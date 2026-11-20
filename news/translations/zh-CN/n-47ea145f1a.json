@@ -1,0 +1,11 @@
+{
+ "id": "n-47ea145f1a",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 Hugging Face 上托管的 UltraTex 界面中，上传一个无纹理的 OBJ 或 GLB 格式 3D 网格，以及一张参考图像。\n\n检查预测的多视角无光照反照率颜色与表面法线贴图，以验证在标准视角下的几何对齐情况。\n\n将生成的 4K PBR 贴图集（包含反照率、法线、金属度和粗糙度通道）导出到 3D 数字内容创作工具或实时游戏引擎中。\n\n提供具有漫反射、中性光照的参考图像，以便从镜面高光中干净地分离出本征表面颜色。\n\n在将生成的多视角特征图投影到统一的 UV 纹理空间之前，请为输入网格准备干净、无重叠的 UV 展开。",
+ "source_sha256": "15745763e695c7aa189f2ca4740728a314d62b6935b0815aab139f7eb6573cf3",
+ "summary": "UltraTex 提出了一种级联扩散流程，将本征材质属性与光照分离，从参考图像生成完整的 4K PBR 纹理集，并配有可交互的 Hugging Face 演示。",
+ "title": "UltraTex 推出用于 4K PBR 纹理合成的多视角扩散框架",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

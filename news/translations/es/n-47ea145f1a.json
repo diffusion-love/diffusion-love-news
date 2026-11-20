@@ -1,0 +1,11 @@
+{
+ "id": "n-47ea145f1a",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Suba una malla 3D sin texturar en formato OBJ o GLB junto con una única imagen de referencia a la interfaz alojada de UltraTex en Hugging Face.\n\nInspeccione los mapas predichos de color albedo sin iluminación y de normales de superficie multivista para verificar la alineación geométrica entre los puntos de vista canónicos.\n\nExporte el conjunto resultante de mapas PBR en 4K, que contiene los canales de albedo, normales, metalicidad y rugosidad, a una herramienta de creación de contenido digital 3D o a un motor de videojuegos en tiempo real.\n\nProporcione imágenes de referencia con iluminación difusa y neutra para facilitar una separación algorítmica limpia del color intrínseco de la superficie respecto de los reflejos especulares.\n\nPrepare las mallas de entrada con un desenvolvimiento UV limpio y sin solapamientos antes de proyectar los mapas de características multivista generados sobre el espacio de textura UV unificado.",
+ "source_sha256": "15745763e695c7aa189f2ca4740728a314d62b6935b0815aab139f7eb6573cf3",
+ "summary": "UltraTex propone un pipeline de difusión en cascada que separa las propiedades materiales intrínsecas de la iluminación para generar conjuntos completos de texturas PBR en 4K a partir de imágenes de referencia, acompañado de una demo interactiva en Hugging Face.",
+ "title": "UltraTex presenta un marco de difusión multivista para la síntesis de texturas PBR en 4K",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

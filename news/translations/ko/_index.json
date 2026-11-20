@@ -1194,6 +1194,11 @@
   "title": "Flux2-Klein-9B-Enhanced-Details 리소스가 공유됨",
   "translated_at": "2026-10-24"
  },
+ "n-36b8a36bed": {
+  "fresh": true,
+  "title": "Project Genie, Genie 4 프로토타입 통합 및 Google AI Pro 대기자 명단 운영",
+  "translated_at": "2026-11-21"
+ },
  "n-36e9bae8ed": {
   "fresh": true,
   "title": "MiniCPM-V 4.6: 효율적인 엣지 네이티브 멀티모달 AI 모델",
@@ -1503,6 +1508,11 @@
   "fresh": true,
   "title": "H Company가 Holo3 모델을 공개했다",
   "translated_at": "2026-10-24"
+ },
+ "n-47ea145f1a": {
+  "fresh": true,
+  "title": "UltraTex, 4K PBR 텍스처 합성을 위한 다중 뷰 디퓨전 프레임워크 소개",
+  "translated_at": "2026-11-21"
  },
  "n-49188c7915": {
   "fresh": true,
@@ -3079,6 +3089,11 @@
   "title": "뇌 MRI 시각-언어 모델의 프라이버시 보호 협업 적응을 위한 SCAN 프레임워크 제안",
   "translated_at": "2026-11-19"
  },
+ "n-994b1eb71c": {
+  "fresh": true,
+  "title": "Google, 업그레이드된 Genie 4 월드 모델을 Project Genie에 통합",
+  "translated_at": "2026-11-21"
+ },
  "n-997df70c3d": {
   "fresh": true,
   "title": "LTX-2.3-22B-DISTILLED-1.1 비디오 DiT 모델",
@@ -3933,6 +3948,11 @@
   "fresh": true,
   "title": "Fizgig, 다중 정체성 학습을 위한 LoRA Isolation 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-c6e889531e": {
+  "fresh": true,
+  "title": "UltraTex 연구 논문 및 데모 공개: 분리된 PBR 머티리얼 생성",
+  "translated_at": "2026-11-21"
  },
  "n-c6ff419784": {
   "fresh": true,

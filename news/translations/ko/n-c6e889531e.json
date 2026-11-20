@@ -1,0 +1,11 @@
+{
+ "id": "n-c6e889531e",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "OBJ 또는 GLB 형식의 텍스처가 없는 3D 메시와 참조 이미지 한 장을 Hugging Face에 호스팅된 UltraTex 인터페이스에 업로드합니다.\n\n예측된 다중 뷰 unlit albedo 색상 맵과 표면 노멀 맵을 점검하여 정규 시점 전반에서 기하학적 정렬이 맞는지 확인합니다.\n\n생성된 4K PBR 맵 세트(albedo, normal, metallic, roughness 채널 포함)를 3D 디지털 콘텐츠 제작 도구 또는 실시간 게임 엔진으로 내보냅니다.\n\n확산(diffuse)되고 중립적인 조명 아래에서 촬영된 참조 이미지를 제공하면 표면 고유 색상과 스페큘러 하이라이트를 알고리즘적으로 깔끔하게 분리하는 데 도움이 됩니다.\n\n생성된 다중 뷰 특징 맵을 통합 UV 텍스처 공간에 투영하기 전에, 겹치지 않는 깨끗한 UV 언래핑을 갖춘 입력 메시를 준비합니다.",
+ "source_sha256": "2da976929ee503a5d2b02b0771df4641a8aeff0cdf6a8fcdacc76d1ec1f46416",
+ "summary": "UltraTex 프로젝트는 다중 뷰 기반 albedo, normal, roughness, metallic 예측을 3D 메시용 4K UV 맵으로 조립하는 방식을 보여주며, 기술 논문과 온라인 미리보기를 공개했고 코드와 모델 가중치는 아직 공개되지 않았습니다.",
+ "title": "UltraTex 연구 논문 및 데모 공개: 분리된 PBR 머티리얼 생성",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
