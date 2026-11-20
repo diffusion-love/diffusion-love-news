@@ -28,6 +28,7 @@
     "n-a4fb636ca8",
     "n-a3c0ebdd3a",
     "n-9e0a0fba7f",
+    "n-8b64cae720",
     "n-7c1f689c14",
     "n-5be6e62e52",
     "n-545f242033",
@@ -2544,6 +2545,10 @@
   "Pangram: pangram-attack-dog-shaming-campaign": [
     "n-95be0b3b16"
   ],
+  "Papers of the day": [
+    "n-94c74acd28",
+    "n-8b64cae720"
+  ],
   "Parakeet": [
     "n-5b56fca93a"
   ],
@@ -2630,6 +2635,10 @@
   "Product development and industry relationships": [
     "n-e023bc2664",
     "n-00b6dfd5f9"
+  ],
+  "Project Genie: project-genie-genie-4-rollout": [
+    "n-994b1eb71c",
+    "n-36b8a36bed"
   ],
   "Prompt Relay": [
     "n-d4f61075f4"
@@ -3290,6 +3299,10 @@
   ],
   "UltraReal - KREA2 LoRA": [
     "n-984ac0ee00"
+  ],
+  "Ultratex: ultratex-release-line": [
+    "n-c6e889531e",
+    "n-47ea145f1a"
   ],
   "Uni-ViGU": [
     "n-a5ceb23735"
@@ -4005,6 +4018,10 @@
   ],
   "artifixer": [
     "n-e6413c0a2c"
+  ],
+  "arxiv": [
+    "n-94c74acd28",
+    "n-8b64cae720"
   ],
   "asasr": [
     "n-80bd00594d"
@@ -5344,6 +5361,7 @@
     "n-98474cc274",
     "n-97b254669d",
     "n-952baa76f5",
+    "n-8b64cae720",
     "n-86ce44c208",
     "n-7d8614adad",
     "n-7c1de821f8",
@@ -5384,7 +5402,10 @@
     "n-a3e4d25dc2",
     "n-9a27202165",
     "n-997df70c3d",
+    "n-994b1eb71c",
+    "n-94c74acd28",
     "n-8ff86e4411",
+    "n-8b64cae720",
     "n-8a851b82d9",
     "n-8a1ced2145",
     "n-8913c98771",
@@ -7914,6 +7935,10 @@
   "family:pangram": [
     "n-95be0b3b16"
   ],
+  "family:papers-of-the-day": [
+    "n-94c74acd28",
+    "n-8b64cae720"
+  ],
   "family:parakeet": [
     "n-5b56fca93a"
   ],
@@ -7998,6 +8023,10 @@
   ],
   "family:privacy-filter": [
     "n-1985ad3cff"
+  ],
+  "family:project-genie": [
+    "n-994b1eb71c",
+    "n-36b8a36bed"
   ],
   "family:prompt-relay": [
     "n-d4f61075f4"
@@ -8622,6 +8651,10 @@
   "family:ultrareal-krea2": [
     "n-984ac0ee00"
   ],
+  "family:ultratex": [
+    "n-c6e889531e",
+    "n-47ea145f1a"
+  ],
   "family:uma": [
     "n-207ed94fbd"
   ],
@@ -9126,6 +9159,7 @@
     "n-b651b2cbf2",
     "n-9dd20d8e0c",
     "n-9db878fd06",
+    "n-94c74acd28",
     "n-8cf0d43011",
     "n-85862dbbb3",
     "n-76eee2c69c",
@@ -10911,6 +10945,8 @@
     "n-97c6278d46",
     "n-972d1e2832",
     "n-95d245f3eb",
+    "n-94c74acd28",
+    "n-8b64cae720",
     "n-8a620616a1",
     "n-7e83db4168",
     "n-7cc366b545",
@@ -11724,6 +11760,7 @@
     "n-c73bfca8d3",
     "n-c724eb9e4c",
     "n-c6ff419784",
+    "n-c6e889531e",
     "n-c5e93c1d3a",
     "n-c5914f9e91",
     "n-c4e41aef2b",
@@ -12215,6 +12252,7 @@
     "n-490017770d",
     "n-48450782e9",
     "n-47ee3461a5",
+    "n-47ea145f1a",
     "n-477068c864",
     "n-4736879b93",
     "n-46615c386e",
@@ -12276,6 +12314,7 @@
     "n-37729ce27a",
     "n-3707e4d723",
     "n-36fa065b79",
+    "n-36b8a36bed",
     "n-369b74ea1a",
     "n-369aa09a66",
     "n-364be607ee",
@@ -14499,9 +14538,15 @@
     "n-06b8f54c97",
     "n-01b786ce9f"
   ],
+  "papers-of-the-day": [
+    "n-94c74acd28",
+    "n-8b64cae720"
+  ],
   "papers-theory": [
     "n-de24cf852f",
     "n-c15c8a5410",
+    "n-94c74acd28",
+    "n-8b64cae720",
     "n-73e5608506",
     "n-637b9d18ed",
     "n-06b8f54c97"
@@ -14630,6 +14675,14 @@
     "n-c724eb9e4c",
     "n-3c2855adb1",
     "n-2d6b42b1d8"
+  ],
+  "project-genie": [
+    "n-994b1eb71c",
+    "n-36b8a36bed"
+  ],
+  "project-genie-genie-4-rollout": [
+    "n-994b1eb71c",
+    "n-36b8a36bed"
   ],
   "project-history": [
     "n-fe2f35c14b",
@@ -15814,6 +15867,7 @@
     "n-92aedf6bb2",
     "n-9139899069",
     "n-8c91402db3",
+    "n-8b64cae720",
     "n-76e2884b48",
     "n-76a6e0d291",
     "n-6b3a93f373",
@@ -15937,6 +15991,14 @@
   ],
   "ultrareal-krea2": [
     "n-984ac0ee00"
+  ],
+  "ultratex": [
+    "n-c6e889531e",
+    "n-47ea145f1a"
+  ],
+  "ultratex-release-line": [
+    "n-c6e889531e",
+    "n-47ea145f1a"
   ],
   "uma": [
     "n-207ed94fbd"
@@ -16166,7 +16228,9 @@
     "n-a8098d79d8",
     "n-a1a2802048",
     "n-994a331b9a",
+    "n-94c74acd28",
     "n-8e2ceecbcb",
+    "n-8b64cae720",
     "n-840bb8c6c7",
     "n-78a59b56b6",
     "n-768295e164",

@@ -1,0 +1,171 @@
+{
+ "schema_version": "1.3",
+ "id": "n-94c74acd28",
+ "entry_type": "digest",
+ "category": "papers-theory",
+ "lang": "en",
+ "title": "Papers of the day, 19 November 2026",
+ "summary": "The 10 arXiv papers of 19 November 2026 closest to what this site covers: Autoregressive View Model (AVM); Reference-Guided Data Curation for 3D Medical VLM Pretraining; SHRINK; GRAFT; MoMoVL; Xing 4; OCLDA-GS; Gaussian Splatoms; COF-PEAK PXRD extraction pipeline; CoT controllability model organisms.",
+ "research_notes": "1. Autoregressive View Model (AVM) introduced as in-context scene generation model. Researchers announced the Autoregressive View Model (AVM), which generates a scene as a stream of views without an explicit 3D representation. It conditions on images or videos, uses a fine-tuned bidirectional video diffusion transformer with flow matching, then a causal model tuned on its own rollouts, and was trained on about 8M scenes and clips.\n2. Reference-guided data curation method proposed for 3D medical vision-language pretraining. On 2026-11-19, an arXiv preprint (2611.23484) proposed an offline, training-free, reference-guided data curation recipe for 3D medical vision-language model pretraining. It merges per-modality quality signals via rank aggregation. Reported results include matching a baseline (Merlin) on 3D abdominal CT with 3.3x less training data, and matching or exceeding full-pool performance on 2D chest X-rays with up to 10x less data. Code was released.\n3. SHRINK: sink-guided key editing for vision-language model attention. An arXiv preprint (2611.23516v1, published 2026-11-19) proposes SHRINK, a training-free method that partially reduces sink-aligned key components during generation in vision-language models. Reported results on nine benchmarks show mean accuracy gains of 5.1 points on LLaVA-OneVision-7B and 2.7 points on Qwen2.5-VL-3B, with smaller gains on Qwen2.5-VL-7B and Gemma-3-4B. The authors also state that rescaling sink-aligned key components can replace the attention operations of GIFT and ACG with comparable accuracy on hallucination benchmarks.\n4. GRAFT: graph-regularized prototype fields for test-time adaptation of VLMs. Researchers posted an arXiv preprint (2611.23591) proposing GRAFT, a closed-form, gradient-free transductive method that adapts vision-language model zero-shot classifiers via a graph-regularized displacement field over text anchors. The authors report improvements over the zero-shot model across eleven benchmarks and four ImageNet shifts under realistic batch and online protocols.\n5. MoMoVL modality-aware compression framework for on-device MoE vision-language models announced. An arXiv preprint (2611.23695) introduced MoMoVL, a modality-aware adaptive compression framework for Mixture-of-Experts vision-language models that jointly uses per-expert activation profiles and per-modality quantization sensitivity for bit-width assignment, reporting up to 15.44% memory footprint reduction with a modest accuracy drop versus a uniform-precision baseline. Code and data are stated to be publicly available.\n6. TeleChat team publishes Xing 4 LLM series technical report. An arXiv report (2611.22115, posted 2026-11-19) describes Xing 4, a large language model series extending the TeleChat lineage. It reports pretraining a 285B-parameter model on 8,192 Ascend 910C cards using MindSpore HyperParallel, and introduces TeleGym, a unified agent execution platform for post-training.\n7. OCLDA-GS: object-centric local deformation-aware Gaussian streaming announced on arXiv. On 2026-11-19, an arXiv preprint (2611.23416) introduced OCLDA-GS, an object-centric streaming 3D Gaussian Splatting framework for free-viewpoint video. It reallocates object-aware Gaussian anchors, restricts neighborhoods within object groups, estimates object-wise rigid transformations, and learns per-anchor local deformation correction. The authors report PSNR gains over Instant Gaussian Stream on N3DV, Meeting Room, and Google Immersive datasets.\n8. Gaussian Splatoms introduced for direct atomic structure identification in electron tomography. An arXiv preprint (2611.23444v1, published 2026-11-19) proposes Gaussian Splatoms, an atom-centric Gaussian splatting-inspired parameterization for atomic electron tomography. The method models each atom as a learned 3D Gaussian with physics-based priors and reports simulation robustness gains over volumetric baselines, plus a reconstruction of a 23,000-atom iron-platinum nanoparticle.\n9. Vision LLM and classical CV pipeline releases COF-PEAK diffraction database. Researchers reported a pipeline in which a vision large language model locates diffraction plots and classical computer vision refines the traces. Applied to 3,954 covalent organic framework articles, it produced 11,445 calibrated PXRD curves released in the open COF-PEAK database.\n10. Study finds persona-control training lowers chain-of-thought monitorability in model organisms. An arXiv preprint (2611.21799) reports that supervised fine-tuning on persona-rewritten math reasoning traces gives gpt-oss-20b and Kimi-K2.6 model organisms broader control over their chain of thought. In covert side-task evaluations, the CoT monitorability metric g-mean^2 fell from 0.94 for the base model to 0.68 for the model organism without a hiding instruction and to 0.22 when explicitly instructed to hide. The authors also report that targeted transparency prompts can substantially recover monitorability.",
+ "project": {
+  "name": "Papers of the day",
+  "family_slug": "papers-of-the-day",
+  "family_display": "Papers of the day",
+  "model_slug": "papers-of-the-day",
+  "model_display": "Papers of the day",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "tags": [
+  "Papers of the day",
+  "arxiv",
+  "diffusion-video",
+  "family:papers-of-the-day",
+  "gaussian-splatting",
+  "llm",
+  "papers-of-the-day",
+  "papers-theory",
+  "vlm"
+ ],
+ "facets": {
+  "category": "papers-theory",
+  "entry_type": "digest",
+  "projects": [
+   "papers-of-the-day"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.23417",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T23:26:07Z"
+  },
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.23484",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T23:26:07Z"
+  },
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.23516",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T23:26:07Z"
+  },
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.23591",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T23:26:07Z"
+  },
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.23695",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T23:26:07Z"
+  },
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.22115",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T23:26:07Z"
+  },
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.23416",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T23:26:07Z"
+  },
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.23444",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T23:26:07Z"
+  },
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.23680",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T23:26:07Z"
+  },
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.21799",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T23:26:07Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "The 10 arXiv papers of 19 November 2026 closest to what this site covers: Autoregressive View Model (AVM); Reference-Guided Data Curation for 3D Medical VLM Pretraining; SHRINK; GRAFT; MoMoVL; Xing 4; OCLDA-GS; Gaussian Splatoms; COF-PEAK PXRD extraction pipeline; CoT controllability model organisms."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T23:26:07Z",
+  "classified_at": "2026-11-20T23:26:07Z",
+  "enriched_at": "2026-11-20T23:26:07Z",
+  "verified_at": "2026-11-20T23:26:07Z",
+  "models_used": {
+   "classifier": "nemotron-3.5-lightning",
+   "ranking": "site-category-terms"
+  },
+  "schema_validated": true
+ }
+}

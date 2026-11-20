@@ -88367,6 +88367,374 @@
       }
     ]
   },
+  "papers-of-the-day": {
+    "family_slug": "papers-of-the-day",
+    "family_display": "Papers of the day",
+    "family_display_variants": [
+      {
+        "family_display": "Papers of the day",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-94c74acd28",
+          "n-8b64cae720"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "papers-theory"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-94c74acd28",
+      "n-8b64cae720"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-94c74acd28",
+        "title": "Papers of the day, 19 November 2026",
+        "primary_link": "https://arxiv.org/abs/2611.23417"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-8b64cae720",
+        "title": "Papers of the day, 20 November 2026",
+        "primary_link": "https://arxiv.org/abs/2611.25338"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23417",
+        "is_primary": true,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-94c74acd28"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.25338",
+        "is_primary": true,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-8b64cae720"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.21799",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-94c74acd28"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.22115",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-94c74acd28"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23365",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-8b64cae720"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23375",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-8b64cae720"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23410",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-8b64cae720"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23416",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-94c74acd28"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23444",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-94c74acd28"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23484",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-94c74acd28"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23516",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-94c74acd28"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23588",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-8b64cae720"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23591",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-94c74acd28"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23680",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-94c74acd28"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23695",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-94c74acd28"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23749",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-8b64cae720"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.25210",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-8b64cae720"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.25235",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-8b64cae720"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.25257",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-8b64cae720"
+        ]
+      },
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.25340",
+        "is_primary": false,
+        "verified_at": "2026-11-20T23:26:07Z",
+        "news_ids": [
+          "n-8b64cae720"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "news",
+        "date": "2026-11-19",
+        "title": "Papers of the day, 19 November 2026",
+        "summary": "The 10 arXiv papers of 19 November 2026 closest to what this site covers: Autoregressive View Model (AVM); Reference-Guided Data Curation for 3D Medical VLM Pretraining; SHRINK; GRAFT; MoMoVL; Xing 4; OCLDA-GS; Gaussian Splatoms; COF-PEAK PXRD extraction pipeline; CoT controllability model organisms.",
+        "version": null,
+        "news_id": "n-94c74acd28",
+        "primary_link": "https://arxiv.org/abs/2611.23417"
+      },
+      {
+        "kind": "news",
+        "date": "2026-11-20",
+        "title": "Papers of the day, 20 November 2026",
+        "summary": "The 10 arXiv papers of 20 November 2026 closest to what this site covers: VideoRNG; Keel; ARISE; T/E/S structural representation for LLM reasoning dynamics; RecurrentVLM; Parametric memory management for LLMs (fixed-capacity LoRA memory substrate); SceneAnything; Introspective Oversight; Software thermodynamics theory for agentic coding; RFBench.",
+        "version": null,
+        "news_id": "n-8b64cae720",
+        "primary_link": "https://arxiv.org/abs/2611.25338"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-8b64cae720",
+        "date": "2026-11-20",
+        "title": "Papers of the day, 20 November 2026",
+        "category": "papers-theory",
+        "entry_type": "digest",
+        "project": "papers-of-the-day",
+        "version": null,
+        "tags": [
+          "3d",
+          "Papers of the day",
+          "arxiv",
+          "diffusion-image",
+          "diffusion-video",
+          "family:papers-of-the-day",
+          "llm",
+          "papers-of-the-day"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.25338",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-94c74acd28",
+        "date": "2026-11-19",
+        "title": "Papers of the day, 19 November 2026",
+        "category": "papers-theory",
+        "entry_type": "digest",
+        "project": "papers-of-the-day",
+        "version": null,
+        "tags": [
+          "Papers of the day",
+          "arxiv",
+          "diffusion-video",
+          "family:papers-of-the-day",
+          "gaussian-splatting",
+          "llm",
+          "papers-of-the-day",
+          "papers-theory"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.23417",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": []
+  },
   "parakeet": {
     "family_slug": "parakeet",
     "family_display": "Parakeet",
@@ -91760,6 +92128,181 @@
       }
     ],
     "claims": []
+  },
+  "project-genie": {
+    "family_slug": "project-genie",
+    "family_display": "Project Genie: project-genie-genie-4-rollout",
+    "family_display_variants": [
+      {
+        "family_display": "Project Genie: project-genie-genie-4-rollout",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-36b8a36bed",
+          "n-994b1eb71c"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "diffusion-video",
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-36b8a36bed",
+      "n-994b1eb71c"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-36b8a36bed",
+        "title": "Project Genie integrates Genie 4 prototype with waitlist for Google AI Pro",
+        "primary_link": "https://labs.google/projectgenie"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-994b1eb71c",
+        "title": "Google integrates upgraded Genie 4 world model into Project Genie",
+        "primary_link": "https://labs.google/projectgenie"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "labs.google",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://labs.google/projectgenie",
+        "is_primary": true,
+        "verified_at": "2026-11-20T20:57:21Z",
+        "news_ids": [
+          "n-36b8a36bed",
+          "n-994b1eb71c"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "deepmind.google",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+        "is_primary": false,
+        "verified_at": "2026-11-20T20:57:21Z",
+        "news_ids": [
+          "n-36b8a36bed",
+          "n-994b1eb71c"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "support.google.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://support.google.com/labs/answer/16875695",
+        "is_primary": false,
+        "verified_at": "2026-11-20T20:57:21Z",
+        "news_ids": [
+          "n-36b8a36bed",
+          "n-994b1eb71c"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Project Genie integrates Genie 4 prototype with waitlist for Google AI Pro",
+        "summary": "Google integrated the Genie 4 prototype into Project Genie for top-tier subscribers alongside a Google AI Pro waitlist, clarifying that world generation does not deduct Google AI credits and that the three-minute session limit applies specifically to Genie 3.",
+        "version": null,
+        "news_id": "n-36b8a36bed",
+        "primary_link": "https://labs.google/projectgenie"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Google integrates upgraded Genie 4 world model into Project Genie",
+        "summary": "Google integrated the upgraded Genie 4 world model into the Project Genie research prototype for top-tier subscribers, featuring real-time keyboard navigation, synchronized multimodal audio, and live prompt steering without deducting Google AI credits.",
+        "version": null,
+        "news_id": "n-994b1eb71c",
+        "primary_link": "https://labs.google/projectgenie"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-994b1eb71c",
+        "date": "2026-11-19",
+        "title": "Google integrates upgraded Genie 4 world model into Project Genie",
+        "category": "diffusion-video",
+        "entry_type": "news",
+        "project": "project-genie",
+        "version": null,
+        "tags": [
+          "Project Genie: project-genie-genie-4-rollout",
+          "diffusion-video",
+          "family:project-genie",
+          "project-genie",
+          "project-genie-genie-4-rollout"
+        ],
+        "primary_link": "https://labs.google/projectgenie",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-36b8a36bed",
+        "date": "2026-11-19",
+        "title": "Project Genie integrates Genie 4 prototype with waitlist for Google AI Pro",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "project-genie",
+        "version": null,
+        "tags": [
+          "Project Genie: project-genie-genie-4-rollout",
+          "family:project-genie",
+          "misc",
+          "project-genie",
+          "project-genie-genie-4-rollout"
+        ],
+        "primary_link": "https://labs.google/projectgenie",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "project-genie-genie-4-rollout",
+        "display": "Project Genie Genie 4 Rollout",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-994b1eb71c",
+        "news_ids": [
+          "n-36b8a36bed",
+          "n-994b1eb71c"
+        ]
+      }
+    ]
   },
   "prompt-relay": {
     "family_slug": "prompt-relay",
@@ -116290,6 +116833,180 @@
       }
     ],
     "claims": []
+  },
+  "ultratex": {
+    "family_slug": "ultratex",
+    "family_display": "Ultratex: ultratex-release-line",
+    "family_display_variants": [
+      {
+        "family_display": "Ultratex: ultratex-release-line",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-47ea145f1a",
+          "n-c6e889531e"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-47ea145f1a",
+      "n-c6e889531e"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-47ea145f1a",
+        "title": "UltraTex introduces multi-view diffusion framework for 4K PBR texture synthesis",
+        "primary_link": "https://arxiv.org/abs/2611.24941"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-c6e889531e",
+        "title": "UltraTex research paper and demo showcase decoupled PBR material generation",
+        "primary_link": "https://arxiv.org/abs/2611.24941"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.24941",
+        "is_primary": true,
+        "verified_at": "2026-11-20T21:04:43Z",
+        "news_ids": [
+          "n-47ea145f1a",
+          "n-c6e889531e"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "ultratex.vercel.app",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://ultratex.vercel.app/",
+        "is_primary": false,
+        "verified_at": "2026-11-20T21:04:43Z",
+        "news_ids": [
+          "n-47ea145f1a",
+          "n-c6e889531e"
+        ]
+      },
+      {
+        "kind": "weights",
+        "host": "huggingface.co",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://huggingface.co/Jingzhi03/UltraTex",
+        "is_primary": false,
+        "verified_at": "2026-11-20T21:04:43Z",
+        "news_ids": [
+          "n-47ea145f1a",
+          "n-c6e889531e"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "UltraTex introduces multi-view diffusion framework for 4K PBR texture synthesis",
+        "summary": "UltraTex proposes a cascaded diffusion pipeline that separates intrinsic material properties from lighting to generate complete 4K PBR texture sets from reference imagery, accompanied by an interactive Hugging Face demo.",
+        "version": null,
+        "news_id": "n-47ea145f1a",
+        "primary_link": "https://arxiv.org/abs/2611.24941"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "UltraTex research paper and demo showcase decoupled PBR material generation",
+        "summary": "The UltraTex project demonstrates multi-view albedo, normal, roughness, and metallic prediction assembled into 4K UV maps for 3D meshes, releasing a technical paper and online preview while code and model weights remain pending.",
+        "version": null,
+        "news_id": "n-c6e889531e",
+        "primary_link": "https://arxiv.org/abs/2611.24941"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-c6e889531e",
+        "date": "2026-11-19",
+        "title": "UltraTex research paper and demo showcase decoupled PBR material generation",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "ultratex",
+        "version": null,
+        "tags": [
+          "Ultratex: ultratex-release-line",
+          "family:ultratex",
+          "misc",
+          "ultratex",
+          "ultratex-release-line"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.24941",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-47ea145f1a",
+        "date": "2026-11-19",
+        "title": "UltraTex introduces multi-view diffusion framework for 4K PBR texture synthesis",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "ultratex",
+        "version": null,
+        "tags": [
+          "Ultratex: ultratex-release-line",
+          "family:ultratex",
+          "misc",
+          "ultratex",
+          "ultratex-release-line"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.24941",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "ultratex-release-line",
+        "display": "Ultratex Release Line",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-c6e889531e",
+        "news_ids": [
+          "n-47ea145f1a",
+          "n-c6e889531e"
+        ]
+      }
+    ]
   },
   "uma": {
     "family_slug": "uma",

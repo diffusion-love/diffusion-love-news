@@ -1,9 +1,182 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-20T22:19:09Z",
+  "generated_at": "2026-11-20T23:26:07Z",
   "site": "diffusion.love",
-  "total": 1381,
+  "total": 1387,
   "records": [
+    {
+      "schema_version": "1.3",
+      "id": "n-8b64cae720",
+      "entry_type": "digest",
+      "category": "papers-theory",
+      "lang": "en",
+      "title": "Papers of the day, 20 November 2026",
+      "summary": "The 10 arXiv papers of 20 November 2026 closest to what this site covers: VideoRNG; Keel; ARISE; T/E/S structural representation for LLM reasoning dynamics; RecurrentVLM; Parametric memory management for LLMs (fixed-capacity LoRA memory substrate); SceneAnything; Introspective Oversight; Software thermodynamics theory for agentic coding; RFBench.",
+      "research_notes": "1. VideoRNG introduced for relightable 3D asset generation from video models. Researchers announced VideoRNG, a two-stage generative method that produces relightable 3D assets from a text prompt or single image. It uses a fine-tuned video diffusion model to create turntable RGBA sequences, then a large reconstruction model that maps video latents to millions of anisotropic Gaussians with neural appearance features, rendered via ray-traced rtRNG.\n2. Keel introduced as agentic weight-editing method for VLM reasoning loops. On 2026-11-20 an arXiv preprint (2611.25257) introduced Keel, the first agentic weight-editing method for vision-language models on image tasks. A frontier multimodal LLM acts as an agent to locate and remove reasoning loops in Qwen3.5-0.8B and Qwen3.5-2B by editing weights, without training and while keeping model size and per-token cost. The preprint reports fewer loops, shorter answers, and higher accuracy than thinking-mode baselines across six image benchmarks.\n3. ARISE self-evolving memory architecture for enterprise LLM agents. An arXiv preprint (2611.23588) introduces ARISE, a memory architecture in which enterprise LLM agents refine their memory from their own failures without updating weights, tools, or workflow logic. Reported results across 14 enterprise-workflow domains on SOP-Bench and tau^2-bench show accuracy gains over baseline and over GEPA, with lower model-call and output-token counts.\n4. T/E/S structural representation models LLM reasoning dynamics. An arXiv preprint (2611.23749v1, announced 2026-11-20) proposes T/E/S, a structural representation combining text, local events, and activity spans to predict next outcomes in LLM reasoning. Reported results include improved prediction in most evaluation groups for a Transformer and Qwen with LoRA, reduced CPU inference time in finite-process experiments, and a lower Brier loss for a compact observer on HotpotQA and MuSiQue questions. The paper also notes annotation errors in the observer.\n5. RecurrentVLM introduced for recurrent video object tracking in vision language models. A new arXiv paper proposes RecurrentVLM, which makes each attention layer of a pretrained vision language model recur over time by computing keys and values from finished frame groups. The authors report 100% on VET-Bench, 99.6% on MET-Bench, and 99% on 50-swap shell games after training on at most 30 swaps. Code is stated to be forthcoming.\n6. New arXiv paper proposes parametric memory management with decaying LoRA adapter for LLMs. An arXiv preprint (2611.25235, published 2026-11-20) proposes a system for managing user memory directly in LLM weights, using a fixed-capacity LoRA adapter with k-hot rank combinations, independently controlled temporal decay, and a learned controller policy. The authors report achieving 86% of oracle performance on a new long-horizon user-memory evaluation dataset.\n7. SceneAnything: agentic reconstruction of mesh scenes from a single video. An arXiv preprint (2611.25340) introduces SceneAnything, an automated agent-based system that reconstructs editable Blender mesh scenes from real or generated videos, using pretrained vision models, a scene-owner agent, and reusable programs. The authors report improved original-view fidelity over direct-agent reconstruction and higher novel-view similarity than compared video-to-3D methods on 100 scenes, and plan to release the harness and scenes.\n8. Introspective oversight method trains language models to answer questions about their own behavior. An arXiv preprint published 2026-11-20 proposes introspective oversight, which trains a separate third-person observer role in a language model to answer questions about the assistant's behavior, verified against actual behavior. Reported results on five held-out oversight evaluations include a mean AUROC of 0.907 for an observer trained on Qwen3.6-27B, compared with 0.864 for honesty training, 0.828 for transcript monitoring, and 0.796 for activation oracles.\n9. arXiv paper proposes software thermodynamics theory for agentic coding token costs. An arXiv preprint dated 2026-11-20 introduces a theory of software thermodynamics for coding agents, treating generated tokens as cost split into work and heat, with the test suite as a Maxwell's daemon. The authors report that about 80 percent of tokens in successful runs are heat, a free energy estimate of 14 to 22 percent of mean run cost, and coding costing 1.1 to 1.5 times uncoding.\n10. RFBench multimodal benchmark for passive RF layout design released on arXiv. Researchers announced RFBench (arXiv:2611.23410), a simulator-grounded dataset and benchmark of 10,000 two-port planar RF layouts for evaluating multimodal language models on layout generation, response prediction, and related tasks. The preprint reports that RF-specific fine-tuning raised structural validity from 0.0% to 83.2% on one task.",
+      "project": {
+        "name": "Papers of the day",
+        "family_slug": "papers-of-the-day",
+        "family_display": "Papers of the day",
+        "model_slug": "papers-of-the-day",
+        "model_display": "Papers of the day",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "tags": [
+        "3d",
+        "Papers of the day",
+        "arxiv",
+        "diffusion-image",
+        "diffusion-video",
+        "family:papers-of-the-day",
+        "llm",
+        "papers-of-the-day",
+        "papers-theory",
+        "tools-frontend",
+        "vlm"
+      ],
+      "facets": {
+        "category": "papers-theory",
+        "entry_type": "digest",
+        "projects": [
+          "papers-of-the-day"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.25338",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.25257",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23588",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23749",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.25210",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.25235",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.25340",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23365",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23375",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23410",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "The 10 arXiv papers of 20 November 2026 closest to what this site covers: VideoRNG; Keel; ARISE; T/E/S structural representation for LLM reasoning dynamics; RecurrentVLM; Parametric memory management for LLMs (fixed-capacity LoRA memory substrate); SceneAnything; Introspective Oversight; Software thermodynamics theory for agentic coding; RFBench."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T23:26:07Z",
+        "classified_at": "2026-11-20T23:26:07Z",
+        "enriched_at": "2026-11-20T23:26:07Z",
+        "verified_at": "2026-11-20T23:26:07Z",
+        "models_used": {
+          "classifier": "nemotron-3.5-lightning",
+          "ranking": "site-category-terms"
+        },
+        "schema_validated": true
+      }
+    },
     {
       "schema_version": "1.4",
       "id": "n-fc77ff5baa",
@@ -1071,6 +1244,129 @@
     },
     {
       "schema_version": "1.4",
+      "id": "n-c6e889531e",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "UltraTex research paper and demo showcase decoupled PBR material generation",
+      "summary": "The UltraTex project demonstrates multi-view albedo, normal, roughness, and metallic prediction assembled into 4K UV maps for 3D meshes, releasing a technical paper and online preview while code and model weights remain pending.",
+      "research_notes": "Upload an untextured 3D mesh in OBJ or GLB format along with a single reference image to the hosted UltraTex interface on Hugging Face.\n\nInspect the predicted multi-view unlit albedo color and surface normal maps to verify geometric alignment across canonical viewpoints.\n\nExport the resulting assembled 4K PBR map set containing albedo, normal, metallic, and roughness channels into a 3D digital content creation tool or real-time game engine.\n\nProvide reference images with diffuse, neutral illumination to facilitate clean algorithmic separation of intrinsic surface color from specular highlights.\n\nPrepare input meshes with clean, non-overlapping UV unwrapping before projecting generated multi-view feature maps into unified UV texture space.",
+      "project": {
+        "name": "Ultratex: ultratex-release-line",
+        "family_slug": "ultratex",
+        "family_display": "Ultratex: ultratex-release-line",
+        "model_slug": "ultratex",
+        "model_display": "Ultratex: ultratex-release-line",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ultratex-release-line",
+        "thread_display": "Ultratex Release Line",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Ultratex: ultratex-release-line",
+        "article_url": "https://happyin.space/projects/ultratex/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d9b75a46ea9e00ea51297ce83118e6effff46926/docs/projects/ultratex.md",
+        "agent_context_url": "https://happyin.space/projects/ultratex/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "UltraTex research paper and demo showcase decoupled PBR material generation",
+        "version": null,
+        "summary": "The UltraTex project demonstrates multi-view albedo, normal, roughness, and metallic prediction assembled into 4K UV maps for 3D meshes, releasing a technical paper and online preview while code and model weights remain pending."
+      },
+      "tags": [
+        "Ultratex: ultratex-release-line",
+        "family:ultratex",
+        "misc",
+        "ultratex",
+        "ultratex-release-line"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "ultratex"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.24941",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://ultratex.vercel.app/",
+          "host": "ultratex.vercel.app",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/Jingzhi03/UltraTex",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "The UltraTex project demonstrates multi-view albedo, normal, roughness, and metallic prediction assembled into 4K UV maps for 3D meshes, releasing a technical paper and online preview while code and model weights remain pending."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T21:04:43Z",
+        "classified_at": "2026-11-20T21:04:43Z",
+        "enriched_at": "2026-11-20T21:04:43Z",
+        "verified_at": "2026-11-20T21:04:43Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
       "id": "n-b65cdf0a31",
       "entry_type": "news",
       "category": "misc",
@@ -1512,6 +1808,129 @@
     },
     {
       "schema_version": "1.4",
+      "id": "n-994b1eb71c",
+      "entry_type": "news",
+      "category": "diffusion-video",
+      "lang": "en",
+      "title": "Google integrates upgraded Genie 4 world model into Project Genie",
+      "summary": "Google integrated the upgraded Genie 4 world model into the Project Genie research prototype for top-tier subscribers, featuring real-time keyboard navigation, synchronized multimodal audio, and live prompt steering without deducting Google AI credits.",
+      "research_notes": "Sign in to Project Genie at labs.google/projectgenie using an active Google AI Ultra account, or join the Google AI Pro waitlist.\n\nEnter a descriptive text prompt or upload a reference image to define the starting environment, characters, and visual style.\n\nExplore the generated 720p world in real time using standard keyboard and mouse movement controls.\n\nModify the ongoing simulation dynamically by entering text commands to adjust lighting, weather, or scene objects without resetting the session.\n\nShare or remix completed world sessions via the Project Genie community gallery.\n\nUse concise, high-contrast visual prompts when initializing worlds to prevent spatial ambiguity and early texture drift during interactive navigation.\n\nApply mid-session text prompts for incremental atmospheric and lighting changes rather than drastic structural shifts to preserve scene coherence.\n\nVerify session duration targets before launching simulations, noting that the three-minute limit applies specifically to Genie 3 workflows while Genie 4 operates under distinct prototype stream limits.",
+      "project": {
+        "name": "Project Genie: project-genie-genie-4-rollout",
+        "family_slug": "project-genie",
+        "family_display": "Project Genie: project-genie-genie-4-rollout",
+        "model_slug": "project-genie",
+        "model_display": "Project Genie: project-genie-genie-4-rollout",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "project-genie-genie-4-rollout",
+        "thread_display": "Project Genie Genie 4 Rollout",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Project Genie: project-genie-genie-4-rollout",
+        "article_url": "https://happyin.space/projects/project-genie/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/85b0f2811e09513cbea52f0f1a0ee4820916ac12/docs/projects/project-genie.md",
+        "agent_context_url": "https://happyin.space/projects/project-genie/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Google integrates upgraded Genie 4 world model into Project Genie",
+        "version": null,
+        "summary": "Google integrated the upgraded Genie 4 world model into the Project Genie research prototype for top-tier subscribers, featuring real-time keyboard navigation, synchronized multimodal audio, and live prompt steering without deducting Google AI credits."
+      },
+      "tags": [
+        "Project Genie: project-genie-genie-4-rollout",
+        "diffusion-video",
+        "family:project-genie",
+        "project-genie",
+        "project-genie-genie-4-rollout"
+      ],
+      "facets": {
+        "category": "diffusion-video",
+        "entry_type": "news",
+        "projects": [
+          "project-genie"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://labs.google/projectgenie",
+          "host": "labs.google",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://support.google.com/labs/answer/16875695",
+          "host": "support.google.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "host": "deepmind.google",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Google integrated the upgraded Genie 4 world model into the Project Genie research prototype for top-tier subscribers, featuring real-time keyboard navigation, synchronized multimodal audio, and live prompt steering without deducting Google AI credits."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T20:57:21Z",
+        "classified_at": "2026-11-20T20:57:21Z",
+        "enriched_at": "2026-11-20T20:57:21Z",
+        "verified_at": "2026-11-20T20:57:21Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
       "id": "n-9944feb281",
       "entry_type": "news",
       "category": "misc",
@@ -1611,6 +2030,177 @@
         "verified_at": "2026-11-20T22:00:24Z",
         "models_used": {
           "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.3",
+      "id": "n-94c74acd28",
+      "entry_type": "digest",
+      "category": "papers-theory",
+      "lang": "en",
+      "title": "Papers of the day, 19 November 2026",
+      "summary": "The 10 arXiv papers of 19 November 2026 closest to what this site covers: Autoregressive View Model (AVM); Reference-Guided Data Curation for 3D Medical VLM Pretraining; SHRINK; GRAFT; MoMoVL; Xing 4; OCLDA-GS; Gaussian Splatoms; COF-PEAK PXRD extraction pipeline; CoT controllability model organisms.",
+      "research_notes": "1. Autoregressive View Model (AVM) introduced as in-context scene generation model. Researchers announced the Autoregressive View Model (AVM), which generates a scene as a stream of views without an explicit 3D representation. It conditions on images or videos, uses a fine-tuned bidirectional video diffusion transformer with flow matching, then a causal model tuned on its own rollouts, and was trained on about 8M scenes and clips.\n2. Reference-guided data curation method proposed for 3D medical vision-language pretraining. On 2026-11-19, an arXiv preprint (2611.23484) proposed an offline, training-free, reference-guided data curation recipe for 3D medical vision-language model pretraining. It merges per-modality quality signals via rank aggregation. Reported results include matching a baseline (Merlin) on 3D abdominal CT with 3.3x less training data, and matching or exceeding full-pool performance on 2D chest X-rays with up to 10x less data. Code was released.\n3. SHRINK: sink-guided key editing for vision-language model attention. An arXiv preprint (2611.23516v1, published 2026-11-19) proposes SHRINK, a training-free method that partially reduces sink-aligned key components during generation in vision-language models. Reported results on nine benchmarks show mean accuracy gains of 5.1 points on LLaVA-OneVision-7B and 2.7 points on Qwen2.5-VL-3B, with smaller gains on Qwen2.5-VL-7B and Gemma-3-4B. The authors also state that rescaling sink-aligned key components can replace the attention operations of GIFT and ACG with comparable accuracy on hallucination benchmarks.\n4. GRAFT: graph-regularized prototype fields for test-time adaptation of VLMs. Researchers posted an arXiv preprint (2611.23591) proposing GRAFT, a closed-form, gradient-free transductive method that adapts vision-language model zero-shot classifiers via a graph-regularized displacement field over text anchors. The authors report improvements over the zero-shot model across eleven benchmarks and four ImageNet shifts under realistic batch and online protocols.\n5. MoMoVL modality-aware compression framework for on-device MoE vision-language models announced. An arXiv preprint (2611.23695) introduced MoMoVL, a modality-aware adaptive compression framework for Mixture-of-Experts vision-language models that jointly uses per-expert activation profiles and per-modality quantization sensitivity for bit-width assignment, reporting up to 15.44% memory footprint reduction with a modest accuracy drop versus a uniform-precision baseline. Code and data are stated to be publicly available.\n6. TeleChat team publishes Xing 4 LLM series technical report. An arXiv report (2611.22115, posted 2026-11-19) describes Xing 4, a large language model series extending the TeleChat lineage. It reports pretraining a 285B-parameter model on 8,192 Ascend 910C cards using MindSpore HyperParallel, and introduces TeleGym, a unified agent execution platform for post-training.\n7. OCLDA-GS: object-centric local deformation-aware Gaussian streaming announced on arXiv. On 2026-11-19, an arXiv preprint (2611.23416) introduced OCLDA-GS, an object-centric streaming 3D Gaussian Splatting framework for free-viewpoint video. It reallocates object-aware Gaussian anchors, restricts neighborhoods within object groups, estimates object-wise rigid transformations, and learns per-anchor local deformation correction. The authors report PSNR gains over Instant Gaussian Stream on N3DV, Meeting Room, and Google Immersive datasets.\n8. Gaussian Splatoms introduced for direct atomic structure identification in electron tomography. An arXiv preprint (2611.23444v1, published 2026-11-19) proposes Gaussian Splatoms, an atom-centric Gaussian splatting-inspired parameterization for atomic electron tomography. The method models each atom as a learned 3D Gaussian with physics-based priors and reports simulation robustness gains over volumetric baselines, plus a reconstruction of a 23,000-atom iron-platinum nanoparticle.\n9. Vision LLM and classical CV pipeline releases COF-PEAK diffraction database. Researchers reported a pipeline in which a vision large language model locates diffraction plots and classical computer vision refines the traces. Applied to 3,954 covalent organic framework articles, it produced 11,445 calibrated PXRD curves released in the open COF-PEAK database.\n10. Study finds persona-control training lowers chain-of-thought monitorability in model organisms. An arXiv preprint (2611.21799) reports that supervised fine-tuning on persona-rewritten math reasoning traces gives gpt-oss-20b and Kimi-K2.6 model organisms broader control over their chain of thought. In covert side-task evaluations, the CoT monitorability metric g-mean^2 fell from 0.94 for the base model to 0.68 for the model organism without a hiding instruction and to 0.22 when explicitly instructed to hide. The authors also report that targeted transparency prompts can substantially recover monitorability.",
+      "project": {
+        "name": "Papers of the day",
+        "family_slug": "papers-of-the-day",
+        "family_display": "Papers of the day",
+        "model_slug": "papers-of-the-day",
+        "model_display": "Papers of the day",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "tags": [
+        "Papers of the day",
+        "arxiv",
+        "diffusion-video",
+        "family:papers-of-the-day",
+        "gaussian-splatting",
+        "llm",
+        "papers-of-the-day",
+        "papers-theory",
+        "vlm"
+      ],
+      "facets": {
+        "category": "papers-theory",
+        "entry_type": "digest",
+        "projects": [
+          "papers-of-the-day"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23417",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23484",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23516",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23591",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23695",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.22115",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23416",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23444",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23680",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        },
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.21799",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T23:26:07Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "The 10 arXiv papers of 19 November 2026 closest to what this site covers: Autoregressive View Model (AVM); Reference-Guided Data Curation for 3D Medical VLM Pretraining; SHRINK; GRAFT; MoMoVL; Xing 4; OCLDA-GS; Gaussian Splatoms; COF-PEAK PXRD extraction pipeline; CoT controllability model organisms."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T23:26:07Z",
+        "classified_at": "2026-11-20T23:26:07Z",
+        "enriched_at": "2026-11-20T23:26:07Z",
+        "verified_at": "2026-11-20T23:26:07Z",
+        "models_used": {
+          "classifier": "nemotron-3.5-lightning",
+          "ranking": "site-category-terms"
         },
         "schema_validated": true
       }
@@ -2625,6 +3215,252 @@
         "classified_at": "2026-11-20T18:16:12Z",
         "enriched_at": "2026-11-20T18:16:12Z",
         "verified_at": "2026-11-20T18:16:12Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-47ea145f1a",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "UltraTex introduces multi-view diffusion framework for 4K PBR texture synthesis",
+      "summary": "UltraTex proposes a cascaded diffusion pipeline that separates intrinsic material properties from lighting to generate complete 4K PBR texture sets from reference imagery, accompanied by an interactive Hugging Face demo.",
+      "research_notes": "Upload an untextured 3D mesh in OBJ or GLB format along with a single reference image to the hosted UltraTex interface on Hugging Face.\n\nInspect the predicted multi-view unlit albedo color and surface normal maps to verify geometric alignment across canonical viewpoints.\n\nExport the resulting assembled 4K PBR map set containing albedo, normal, metallic, and roughness channels into a 3D digital content creation tool or real-time game engine.\n\nProvide reference images with diffuse, neutral illumination to facilitate clean algorithmic separation of intrinsic surface color from specular highlights.\n\nPrepare input meshes with clean, non-overlapping UV unwrapping before projecting generated multi-view feature maps into unified UV texture space.",
+      "project": {
+        "name": "Ultratex: ultratex-release-line",
+        "family_slug": "ultratex",
+        "family_display": "Ultratex: ultratex-release-line",
+        "model_slug": "ultratex",
+        "model_display": "Ultratex: ultratex-release-line",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ultratex-release-line",
+        "thread_display": "Ultratex Release Line",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Ultratex: ultratex-release-line",
+        "article_url": "https://happyin.space/projects/ultratex/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d9b75a46ea9e00ea51297ce83118e6effff46926/docs/projects/ultratex.md",
+        "agent_context_url": "https://happyin.space/projects/ultratex/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "UltraTex introduces multi-view diffusion framework for 4K PBR texture synthesis",
+        "version": null,
+        "summary": "UltraTex proposes a cascaded diffusion pipeline that separates intrinsic material properties from lighting to generate complete 4K PBR texture sets from reference imagery, accompanied by an interactive Hugging Face demo."
+      },
+      "tags": [
+        "Ultratex: ultratex-release-line",
+        "family:ultratex",
+        "misc",
+        "ultratex",
+        "ultratex-release-line"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "ultratex"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.24941",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://ultratex.vercel.app/",
+          "host": "ultratex.vercel.app",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/Jingzhi03/UltraTex",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T21:04:43Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "UltraTex proposes a cascaded diffusion pipeline that separates intrinsic material properties from lighting to generate complete 4K PBR texture sets from reference imagery, accompanied by an interactive Hugging Face demo."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T21:04:43Z",
+        "classified_at": "2026-11-20T21:04:43Z",
+        "enriched_at": "2026-11-20T21:04:43Z",
+        "verified_at": "2026-11-20T21:04:43Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-36b8a36bed",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Project Genie integrates Genie 4 prototype with waitlist for Google AI Pro",
+      "summary": "Google integrated the Genie 4 prototype into Project Genie for top-tier subscribers alongside a Google AI Pro waitlist, clarifying that world generation does not deduct Google AI credits and that the three-minute session limit applies specifically to Genie 3.",
+      "research_notes": "Sign in to Project Genie at labs.google/projectgenie using an active Google AI Ultra account, or join the Google AI Pro waitlist.\n\nEnter a descriptive text prompt or upload a reference image to define the starting environment, characters, and visual style.\n\nExplore the generated 720p world in real time using standard keyboard and mouse movement controls.\n\nModify the ongoing simulation dynamically by entering text commands to adjust lighting, weather, or scene objects without resetting the session.\n\nShare or remix completed world sessions via the Project Genie community gallery.\n\nUse concise, high-contrast visual prompts when initializing worlds to prevent spatial ambiguity and early texture drift during interactive navigation.\n\nApply mid-session text prompts for incremental atmospheric and lighting changes rather than drastic structural shifts to preserve scene coherence.\n\nVerify session duration targets before launching simulations, noting that the three-minute limit applies specifically to Genie 3 workflows while Genie 4 operates under distinct prototype stream limits.",
+      "project": {
+        "name": "Project Genie: project-genie-genie-4-rollout",
+        "family_slug": "project-genie",
+        "family_display": "Project Genie: project-genie-genie-4-rollout",
+        "model_slug": "project-genie",
+        "model_display": "Project Genie: project-genie-genie-4-rollout",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "project-genie-genie-4-rollout",
+        "thread_display": "Project Genie Genie 4 Rollout",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Project Genie: project-genie-genie-4-rollout",
+        "article_url": "https://happyin.space/projects/project-genie/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/85b0f2811e09513cbea52f0f1a0ee4820916ac12/docs/projects/project-genie.md",
+        "agent_context_url": "https://happyin.space/projects/project-genie/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Project Genie integrates Genie 4 prototype with waitlist for Google AI Pro",
+        "version": null,
+        "summary": "Google integrated the Genie 4 prototype into Project Genie for top-tier subscribers alongside a Google AI Pro waitlist, clarifying that world generation does not deduct Google AI credits and that the three-minute session limit applies specifically to Genie 3."
+      },
+      "tags": [
+        "Project Genie: project-genie-genie-4-rollout",
+        "family:project-genie",
+        "misc",
+        "project-genie",
+        "project-genie-genie-4-rollout"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "project-genie"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://labs.google/projectgenie",
+          "host": "labs.google",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://support.google.com/labs/answer/16875695",
+          "host": "support.google.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "host": "deepmind.google",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Google integrated the Genie 4 prototype into Project Genie for top-tier subscribers alongside a Google AI Pro waitlist, clarifying that world generation does not deduct Google AI credits and that the three-minute session limit applies specifically to Genie 3."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T20:57:21Z",
+        "classified_at": "2026-11-20T20:57:21Z",
+        "enriched_at": "2026-11-20T20:57:21Z",
+        "verified_at": "2026-11-20T20:57:21Z",
         "models_used": {
           "research": "curated-live-material"
         },
