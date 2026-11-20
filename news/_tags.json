@@ -1952,6 +1952,10 @@
     "n-d684acf3ae",
     "n-5524914633"
   ],
+  "Nirjala: nirjala-underwater-gaussian-splatting": [
+    "n-f08df9a83a",
+    "n-4f75d14eb4"
+  ],
   "North": [
     "n-eac94cf783"
   ],
@@ -6262,6 +6266,10 @@
     "n-d684acf3ae",
     "n-5524914633"
   ],
+  "family:nirjala": [
+    "n-f08df9a83a",
+    "n-4f75d14eb4"
+  ],
   "family:nucleus": [
     "n-af83147e90",
     "n-98474cc274"
@@ -7540,6 +7548,7 @@
     "n-fdbf17ddf7",
     "n-f735b8e846",
     "n-f4c04ff479",
+    "n-f08df9a83a",
     "n-e4fab55e05",
     "n-ccb2a502fb",
     "n-c96f664d5d",
@@ -7550,6 +7559,7 @@
     "n-85862dbbb3",
     "n-76eee2c69c",
     "n-60f7bb3300",
+    "n-4f75d14eb4",
     "n-2915ceca6f",
     "n-110bebc860"
   ],
@@ -10482,6 +10492,14 @@
   "nginx-http2-vulnerability-disclosure": [
     "n-d684acf3ae",
     "n-5524914633"
+  ],
+  "nirjala": [
+    "n-f08df9a83a",
+    "n-4f75d14eb4"
+  ],
+  "nirjala-underwater-gaussian-splatting": [
+    "n-f08df9a83a",
+    "n-4f75d14eb4"
   ],
   "normal-map": [
     "n-de24cf852f",
