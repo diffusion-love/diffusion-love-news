@@ -264,6 +264,25 @@
     "has_video": false
   },
   {
+    "id": "n-994b1eb71c",
+    "date": "2026-11-19",
+    "title": "Google integrates upgraded Genie 4 world model into Project Genie",
+    "category": "diffusion-video",
+    "entry_type": "news",
+    "project": "project-genie",
+    "version": null,
+    "tags": [
+      "Project Genie: project-genie-genie-4-rollout",
+      "diffusion-video",
+      "family:project-genie",
+      "project-genie",
+      "project-genie-genie-4-rollout"
+    ],
+    "primary_link": "https://labs.google/projectgenie",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-9944feb281",
     "date": "2026-11-19",
     "title": "Weight-Space Programming compiles facts into sparse concept tables without gradient training",
@@ -450,6 +469,25 @@
       "nirjala-underwater-gaussian-splatting"
     ],
     "primary_link": "https://arxiv.org/abs/2611.23450",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-36b8a36bed",
+    "date": "2026-11-19",
+    "title": "Project Genie integrates Genie 4 prototype with waitlist for Google AI Pro",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "project-genie",
+    "version": null,
+    "tags": [
+      "Project Genie: project-genie-genie-4-rollout",
+      "family:project-genie",
+      "misc",
+      "project-genie",
+      "project-genie-genie-4-rollout"
+    ],
+    "primary_link": "https://labs.google/projectgenie",
     "has_image": false,
     "has_video": false
   },

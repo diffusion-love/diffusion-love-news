@@ -74113,6 +74113,181 @@
     ],
     "claims": []
   },
+  "project-genie": {
+    "family_slug": "project-genie",
+    "family_display": "Project Genie: project-genie-genie-4-rollout",
+    "family_display_variants": [
+      {
+        "family_display": "Project Genie: project-genie-genie-4-rollout",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-36b8a36bed",
+          "n-994b1eb71c"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "diffusion-video",
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-36b8a36bed",
+      "n-994b1eb71c"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-36b8a36bed",
+        "title": "Project Genie integrates Genie 4 prototype with waitlist for Google AI Pro",
+        "primary_link": "https://labs.google/projectgenie"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-994b1eb71c",
+        "title": "Google integrates upgraded Genie 4 world model into Project Genie",
+        "primary_link": "https://labs.google/projectgenie"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "labs.google",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://labs.google/projectgenie",
+        "is_primary": true,
+        "verified_at": "2026-11-20T20:57:21Z",
+        "news_ids": [
+          "n-36b8a36bed",
+          "n-994b1eb71c"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "deepmind.google",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+        "is_primary": false,
+        "verified_at": "2026-11-20T20:57:21Z",
+        "news_ids": [
+          "n-36b8a36bed",
+          "n-994b1eb71c"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "support.google.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://support.google.com/labs/answer/16875695",
+        "is_primary": false,
+        "verified_at": "2026-11-20T20:57:21Z",
+        "news_ids": [
+          "n-36b8a36bed",
+          "n-994b1eb71c"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Project Genie integrates Genie 4 prototype with waitlist for Google AI Pro",
+        "summary": "Google integrated the Genie 4 prototype into Project Genie for top-tier subscribers alongside a Google AI Pro waitlist, clarifying that world generation does not deduct Google AI credits and that the three-minute session limit applies specifically to Genie 3.",
+        "version": null,
+        "news_id": "n-36b8a36bed",
+        "primary_link": "https://labs.google/projectgenie"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Google integrates upgraded Genie 4 world model into Project Genie",
+        "summary": "Google integrated the upgraded Genie 4 world model into the Project Genie research prototype for top-tier subscribers, featuring real-time keyboard navigation, synchronized multimodal audio, and live prompt steering without deducting Google AI credits.",
+        "version": null,
+        "news_id": "n-994b1eb71c",
+        "primary_link": "https://labs.google/projectgenie"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-994b1eb71c",
+        "date": "2026-11-19",
+        "title": "Google integrates upgraded Genie 4 world model into Project Genie",
+        "category": "diffusion-video",
+        "entry_type": "news",
+        "project": "project-genie",
+        "version": null,
+        "tags": [
+          "Project Genie: project-genie-genie-4-rollout",
+          "diffusion-video",
+          "family:project-genie",
+          "project-genie",
+          "project-genie-genie-4-rollout"
+        ],
+        "primary_link": "https://labs.google/projectgenie",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-36b8a36bed",
+        "date": "2026-11-19",
+        "title": "Project Genie integrates Genie 4 prototype with waitlist for Google AI Pro",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "project-genie",
+        "version": null,
+        "tags": [
+          "Project Genie: project-genie-genie-4-rollout",
+          "family:project-genie",
+          "misc",
+          "project-genie",
+          "project-genie-genie-4-rollout"
+        ],
+        "primary_link": "https://labs.google/projectgenie",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "project-genie-genie-4-rollout",
+        "display": "Project Genie Genie 4 Rollout",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-994b1eb71c",
+        "news_ids": [
+          "n-36b8a36bed",
+          "n-994b1eb71c"
+        ]
+      }
+    ]
+  },
   "prompt-relay": {
     "family_slug": "prompt-relay",
     "family_display": "Prompt Relay",

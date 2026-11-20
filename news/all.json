@@ -2,7 +2,7 @@
   "schema_version": "1.4",
   "generated_at": "2026-11-20T22:19:09Z",
   "site": "diffusion.love",
-  "total": 1023,
+  "total": 1025,
   "records": [
     {
       "schema_version": "1.4",
@@ -1512,6 +1512,129 @@
     },
     {
       "schema_version": "1.4",
+      "id": "n-994b1eb71c",
+      "entry_type": "news",
+      "category": "diffusion-video",
+      "lang": "en",
+      "title": "Google integrates upgraded Genie 4 world model into Project Genie",
+      "summary": "Google integrated the upgraded Genie 4 world model into the Project Genie research prototype for top-tier subscribers, featuring real-time keyboard navigation, synchronized multimodal audio, and live prompt steering without deducting Google AI credits.",
+      "research_notes": "Sign in to Project Genie at labs.google/projectgenie using an active Google AI Ultra account, or join the Google AI Pro waitlist.\n\nEnter a descriptive text prompt or upload a reference image to define the starting environment, characters, and visual style.\n\nExplore the generated 720p world in real time using standard keyboard and mouse movement controls.\n\nModify the ongoing simulation dynamically by entering text commands to adjust lighting, weather, or scene objects without resetting the session.\n\nShare or remix completed world sessions via the Project Genie community gallery.\n\nUse concise, high-contrast visual prompts when initializing worlds to prevent spatial ambiguity and early texture drift during interactive navigation.\n\nApply mid-session text prompts for incremental atmospheric and lighting changes rather than drastic structural shifts to preserve scene coherence.\n\nVerify session duration targets before launching simulations, noting that the three-minute limit applies specifically to Genie 3 workflows while Genie 4 operates under distinct prototype stream limits.",
+      "project": {
+        "name": "Project Genie: project-genie-genie-4-rollout",
+        "family_slug": "project-genie",
+        "family_display": "Project Genie: project-genie-genie-4-rollout",
+        "model_slug": "project-genie",
+        "model_display": "Project Genie: project-genie-genie-4-rollout",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "project-genie-genie-4-rollout",
+        "thread_display": "Project Genie Genie 4 Rollout",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Project Genie: project-genie-genie-4-rollout",
+        "article_url": "https://happyin.space/projects/project-genie/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/85b0f2811e09513cbea52f0f1a0ee4820916ac12/docs/projects/project-genie.md",
+        "agent_context_url": "https://happyin.space/projects/project-genie/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Google integrates upgraded Genie 4 world model into Project Genie",
+        "version": null,
+        "summary": "Google integrated the upgraded Genie 4 world model into the Project Genie research prototype for top-tier subscribers, featuring real-time keyboard navigation, synchronized multimodal audio, and live prompt steering without deducting Google AI credits."
+      },
+      "tags": [
+        "Project Genie: project-genie-genie-4-rollout",
+        "diffusion-video",
+        "family:project-genie",
+        "project-genie",
+        "project-genie-genie-4-rollout"
+      ],
+      "facets": {
+        "category": "diffusion-video",
+        "entry_type": "news",
+        "projects": [
+          "project-genie"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://labs.google/projectgenie",
+          "host": "labs.google",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://support.google.com/labs/answer/16875695",
+          "host": "support.google.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "host": "deepmind.google",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Google integrated the upgraded Genie 4 world model into the Project Genie research prototype for top-tier subscribers, featuring real-time keyboard navigation, synchronized multimodal audio, and live prompt steering without deducting Google AI credits."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T20:57:21Z",
+        "classified_at": "2026-11-20T20:57:21Z",
+        "enriched_at": "2026-11-20T20:57:21Z",
+        "verified_at": "2026-11-20T20:57:21Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
       "id": "n-9944feb281",
       "entry_type": "news",
       "category": "misc",
@@ -2625,6 +2748,129 @@
         "classified_at": "2026-11-20T18:16:12Z",
         "enriched_at": "2026-11-20T18:16:12Z",
         "verified_at": "2026-11-20T18:16:12Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-36b8a36bed",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Project Genie integrates Genie 4 prototype with waitlist for Google AI Pro",
+      "summary": "Google integrated the Genie 4 prototype into Project Genie for top-tier subscribers alongside a Google AI Pro waitlist, clarifying that world generation does not deduct Google AI credits and that the three-minute session limit applies specifically to Genie 3.",
+      "research_notes": "Sign in to Project Genie at labs.google/projectgenie using an active Google AI Ultra account, or join the Google AI Pro waitlist.\n\nEnter a descriptive text prompt or upload a reference image to define the starting environment, characters, and visual style.\n\nExplore the generated 720p world in real time using standard keyboard and mouse movement controls.\n\nModify the ongoing simulation dynamically by entering text commands to adjust lighting, weather, or scene objects without resetting the session.\n\nShare or remix completed world sessions via the Project Genie community gallery.\n\nUse concise, high-contrast visual prompts when initializing worlds to prevent spatial ambiguity and early texture drift during interactive navigation.\n\nApply mid-session text prompts for incremental atmospheric and lighting changes rather than drastic structural shifts to preserve scene coherence.\n\nVerify session duration targets before launching simulations, noting that the three-minute limit applies specifically to Genie 3 workflows while Genie 4 operates under distinct prototype stream limits.",
+      "project": {
+        "name": "Project Genie: project-genie-genie-4-rollout",
+        "family_slug": "project-genie",
+        "family_display": "Project Genie: project-genie-genie-4-rollout",
+        "model_slug": "project-genie",
+        "model_display": "Project Genie: project-genie-genie-4-rollout",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "project-genie-genie-4-rollout",
+        "thread_display": "Project Genie Genie 4 Rollout",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Project Genie: project-genie-genie-4-rollout",
+        "article_url": "https://happyin.space/projects/project-genie/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/85b0f2811e09513cbea52f0f1a0ee4820916ac12/docs/projects/project-genie.md",
+        "agent_context_url": "https://happyin.space/projects/project-genie/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Project Genie integrates Genie 4 prototype with waitlist for Google AI Pro",
+        "version": null,
+        "summary": "Google integrated the Genie 4 prototype into Project Genie for top-tier subscribers alongside a Google AI Pro waitlist, clarifying that world generation does not deduct Google AI credits and that the three-minute session limit applies specifically to Genie 3."
+      },
+      "tags": [
+        "Project Genie: project-genie-genie-4-rollout",
+        "family:project-genie",
+        "misc",
+        "project-genie",
+        "project-genie-genie-4-rollout"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "project-genie"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://labs.google/projectgenie",
+          "host": "labs.google",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://support.google.com/labs/answer/16875695",
+          "host": "support.google.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "host": "deepmind.google",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T20:57:21Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Google integrated the Genie 4 prototype into Project Genie for top-tier subscribers alongside a Google AI Pro waitlist, clarifying that world generation does not deduct Google AI credits and that the three-minute session limit applies specifically to Genie 3."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T20:57:21Z",
+        "classified_at": "2026-11-20T20:57:21Z",
+        "enriched_at": "2026-11-20T20:57:21Z",
+        "verified_at": "2026-11-20T20:57:21Z",
         "models_used": {
           "research": "curated-live-material"
         },
