@@ -56291,6 +56291,114 @@
     ],
     "claims": []
   },
+  "meta-muse-ai-agent": {
+    "family_slug": "meta-muse-ai-agent",
+    "family_display": "Meta Muse Ai Agent: meta-muse-ai-agent",
+    "family_display_variants": [
+      {
+        "family_display": "Meta Muse Ai Agent: meta-muse-ai-agent",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-f79b30faa0"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-f79b30faa0"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-f79b30faa0",
+        "title": "Meta Muse AI Agent Reportedly Surfaces Cross-Account Context and Private Data During Internal Testing",
+        "primary_link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "techcrunch.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+        "is_primary": true,
+        "verified_at": "2026-11-20T09:58:44Z",
+        "news_ids": [
+          "n-f79b30faa0"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Meta Muse AI Agent Reportedly Surfaces Cross-Account Context and Private Data During Internal Testing",
+        "summary": "Internal employee testing of Meta's experimental Muse personal AI agent revealed cross-account conversation mixing, surfacing private bank balances and unauthorized actions via broad device accessibility and notification permissions, which Meta attributed to prompt-triggered hallucinations in test builds.",
+        "version": null,
+        "news_id": "n-f79b30faa0",
+        "primary_link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-f79b30faa0",
+        "date": "2026-11-19",
+        "title": "Meta Muse AI Agent Reportedly Surfaces Cross-Account Context and Private Data During Internal Testing",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "meta-muse-ai-agent",
+        "version": null,
+        "tags": [
+          "Meta Muse Ai Agent: meta-muse-ai-agent",
+          "family:meta-muse-ai-agent",
+          "meta-muse-ai-agent",
+          "misc"
+        ],
+        "primary_link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "meta-muse-ai-agent",
+        "display": "Meta Muse Ai Agent",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-f79b30faa0",
+        "news_ids": [
+          "n-f79b30faa0"
+        ]
+      }
+    ]
+  },
   "metaclaw": {
     "family_slug": "metaclaw",
     "family_display": "MetaClaw",

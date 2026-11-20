@@ -1718,6 +1718,9 @@
   "Meta AI": [
     "n-d46d9eb28f"
   ],
+  "Meta Muse Ai Agent: meta-muse-ai-agent": [
+    "n-f79b30faa0"
+  ],
   "Meta-CoT": [
     "n-2c91e42c2d"
   ],
@@ -6020,6 +6023,9 @@
   "family:meta-cot": [
     "n-2c91e42c2d"
   ],
+  "family:meta-muse-ai-agent": [
+    "n-f79b30faa0"
+  ],
   "family:metaclaw": [
     "n-81ebf14eea"
   ],
@@ -9129,6 +9135,9 @@
   "meta-cot": [
     "n-2c91e42c2d"
   ],
+  "meta-muse-ai-agent": [
+    "n-f79b30faa0"
+  ],
   "meta-pocket": [
     "n-17e916004b"
   ],
@@ -9275,6 +9284,7 @@
     "n-f80e0da140",
     "n-f7f969bd27",
     "n-f7bf45f8a9",
+    "n-f79b30faa0",
     "n-f77e6ada52",
     "n-f5abb4cf9b",
     "n-f5a3ca876d",
