@@ -1255,6 +1255,77 @@
       }
     ]
   },
+  "suno": {
+    "slug": "suno",
+    "display": "Product development and industry relationships",
+    "homepage": null,
+    "project_slugs": [],
+    "post_count": 2,
+    "direct_post_count": 2,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "news_ids": [
+      "n-00b6dfd5f9",
+      "n-e023bc2664"
+    ],
+    "direct_news_ids": [
+      "n-00b6dfd5f9",
+      "n-e023bc2664"
+    ],
+    "development_threads": [
+      {
+        "slug": "product-development-and-industry-relationships",
+        "display": "Product Development And Industry Relationships",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-e023bc2664",
+        "news_ids": [
+          "n-00b6dfd5f9",
+          "n-e023bc2664"
+        ]
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-e023bc2664",
+        "date": "2026-11-19",
+        "title": "Suno launches public Model Context Protocol server for AI assistants and IDEs",
+        "category": "misc",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Product development and industry relationships",
+          "misc",
+          "organization:suno",
+          "product-development-and-industry-relationships",
+          "suno"
+        ],
+        "primary_link": "https://api.suno.com/mcp",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-00b6dfd5f9",
+        "date": "2026-11-19",
+        "title": "Suno releases MCP server connector with account library synchronization",
+        "category": "misc",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Product development and industry relationships",
+          "misc",
+          "organization:suno",
+          "product-development-and-industry-relationships",
+          "suno"
+        ],
+        "primary_link": "https://api.suno.com/mcp",
+        "has_image": false,
+        "has_video": false
+      }
+    ]
+  },
   "unsloth": {
     "slug": "unsloth",
     "display": "Unsloth",
