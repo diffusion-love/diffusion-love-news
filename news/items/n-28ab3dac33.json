@@ -80,15 +80,6 @@
    "is_primary": true,
    "status": "unverified",
    "verified_at": "2026-10-23T14:21:16Z"
-  },
-  {
-   "kind": "reference",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs",
-   "host": "bloomberg.com",
-   "lang": "en",
-   "is_primary": false,
-   "status": "unverified",
-   "verified_at": "2026-10-23T14:21:16Z"
   }
  ],
  "evolution": {
