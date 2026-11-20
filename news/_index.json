@@ -1,5 +1,61 @@
 [
   {
+    "id": "n-ef68e2a314",
+    "date": "2026-11-19",
+    "title": "Comfy Cloud enables custom workflows on enterprise GPUs",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "comfy",
+    "version": null,
+    "tags": [
+      "Comfy Cloud: comfy",
+      "comfy",
+      "family:comfy",
+      "tools-frontend"
+    ],
+    "primary_link": "https://blog.comfy.org/p/your-custom-comfyui-is-now-in-comfy?r=7xlbaw",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-cce1cb230c",
+    "date": "2026-11-19",
+    "title": "AGSoft Save Image Plus adds focus mode, bilingual tooltips, and Nodes 2.0 preview",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "agsoft-save-image-plus",
+    "version": null,
+    "tags": [
+      "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+      "agsoft-save-image-plus",
+      "agsoft-save-image-plus-update",
+      "family:agsoft-save-image-plus",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-a32e5b01bc",
+    "date": "2026-11-19",
+    "title": "Comfy Cloud adds custom builds with node and LoRA support",
+    "category": "diffusion-image",
+    "entry_type": "news",
+    "project": "comfy",
+    "version": null,
+    "tags": [
+      "Comfy Cloud: comfy",
+      "comfy",
+      "diffusion-image",
+      "family:comfy",
+      "tools-frontend"
+    ],
+    "primary_link": "https://blog.comfy.org/p/your-custom-comfyui-is-now-in-comfy?r=7xlbaw",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-f686305d6a",
     "date": "2026-11-18",
     "title": "Q.ANT demonstrates hybrid LLM inference with photonic NPU at SC26",

@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-cce1cb230c",
+ "entry_type": "news",
+ "category": "tools-frontend",
+ "lang": "en",
+ "title": "AGSoft Save Image Plus adds focus mode, bilingual tooltips, and Nodes 2.0 preview",
+ "summary": "The AGSoft Save Image Plus ComfyUI custom node was updated with an image batch focus preview mode, bilingual button tooltips, and preview rendering support for the ComfyUI Nodes 2.0 interface alongside classic canvas compatibility.",
+ "research_notes": "Clone the repository into the ComfyUI custom_nodes directory using git clone https://github.com/Art-xmaster/comfyui-AGSoft.git or install comfyui-AGSoft via ComfyUI Manager.\n\nRestart the ComfyUI server to load the custom node definitions.\n\nAdd the AGSoft Save Image Plus node to your ComfyUI workflow and connect the generated image tensor to its image input.\n\nConfigure the filename prefix and format options, then toggle focus mode to preview batch generations in either classic canvas or Nodes 2.0 interface.\n\nKeep classic canvas mode fallback enabled if experiencing UI rendering inconsistencies in early Nodes 2.0 interface builds.\n\nUse focus mode when generating multi-image batches to inspect individual preview frames without leaving the node graph.",
+ "project": {
+  "name": "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+  "family_slug": "agsoft-save-image-plus",
+  "family_display": "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+  "model_slug": "agsoft-save-image-plus",
+  "model_display": "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "agsoft-save-image-plus-update",
+  "thread_display": "Agsoft Save Image Plus Update",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+  "article_url": "https://happyin.space/projects/agsoft-save-image-plus/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/2758437e2c3cedcec6b5ea70fb51f06fc2f6c99c/docs/projects/agsoft-save-image-plus.md",
+  "agent_context_url": "https://happyin.space/projects/agsoft-save-image-plus/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "AGSoft Save Image Plus adds focus mode, bilingual tooltips, and Nodes 2.0 preview",
+  "version": null,
+  "summary": "The AGSoft Save Image Plus ComfyUI custom node was updated with an image batch focus preview mode, bilingual button tooltips, and preview rendering support for the ComfyUI Nodes 2.0 interface alongside classic canvas compatibility."
+ },
+ "tags": [
+  "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+  "agsoft-save-image-plus",
+  "agsoft-save-image-plus-update",
+  "family:agsoft-save-image-plus",
+  "tools-frontend"
+ ],
+ "facets": {
+  "category": "tools-frontend",
+  "entry_type": "news",
+  "projects": [
+   "agsoft-save-image-plus"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "code",
+   "url": "https://github.com/Art-xmaster/comfyui-AGSoft",
+   "host": "github.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T01:26:58Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "The AGSoft Save Image Plus ComfyUI custom node was updated with an image batch focus preview mode, bilingual button tooltips, and preview rendering support for the ComfyUI Nodes 2.0 interface alongside classic canvas compatibility."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T01:26:58Z",
+  "classified_at": "2026-11-20T01:26:58Z",
+  "enriched_at": "2026-11-20T01:26:58Z",
+  "verified_at": "2026-11-20T01:26:58Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

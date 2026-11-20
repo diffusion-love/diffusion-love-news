@@ -98,6 +98,9 @@
   "AGORA": [
     "n-27957b3eee"
   ],
+  "AGSoft Save Image Plus: agsoft-save-image-plus-update": [
+    "n-cce1cb230c"
+  ],
   "AI Metadata Inspector": [
     "n-02e0b8ae6c"
   ],
@@ -517,6 +520,10 @@
   ],
   "ComPyter": [
     "n-fb33cdc42d"
+  ],
+  "Comfy Cloud: comfy": [
+    "n-ef68e2a314",
+    "n-a32e5b01bc"
   ],
   "ComfyStudio": [
     "n-18e6b47885"
@@ -3641,6 +3648,12 @@
   "agora": [
     "n-27957b3eee"
   ],
+  "agsoft-save-image-plus": [
+    "n-cce1cb230c"
+  ],
+  "agsoft-save-image-plus-update": [
+    "n-cce1cb230c"
+  ],
   "ai-fund-increase": [
     "n-d0ecd51ed2",
     "n-00f4cb72d6"
@@ -4666,6 +4679,10 @@
   "color-grade-transfer": [
     "n-250fdb3b1b"
   ],
+  "comfy": [
+    "n-ef68e2a314",
+    "n-a32e5b01bc"
+  ],
   "comfy-cloud-pricing": [
     "n-dee637a9a1",
     "n-c724eb9e4c",
@@ -5241,6 +5258,7 @@
     "n-af83147e90",
     "n-af7e0341d4",
     "n-a7d1f83b13",
+    "n-a32e5b01bc",
     "n-9f3f263dfe",
     "n-99c607c318",
     "n-98474cc274",
@@ -5686,6 +5704,9 @@
   "family:agora": [
     "n-27957b3eee"
   ],
+  "family:agsoft-save-image-plus": [
+    "n-cce1cb230c"
+  ],
   "family:ai-metadata-inspector": [
     "n-02e0b8ae6c"
   ],
@@ -6037,6 +6058,10 @@
   ],
   "family:collabvr": [
     "n-e8fb056748"
+  ],
+  "family:comfy": [
+    "n-ef68e2a314",
+    "n-a32e5b01bc"
   ],
   "family:comfystudio": [
     "n-18e6b47885"
@@ -15497,16 +15522,19 @@
     "n-f9bd7f602b",
     "n-f861f085b8",
     "n-f6c6cdf729",
+    "n-ef68e2a314",
     "n-edad1a10a0",
     "n-ebeab9837a",
     "n-e712086893",
     "n-e4d5ff5436",
     "n-df8413780a",
+    "n-cce1cb230c",
     "n-c66b8c38b0",
     "n-c2a141200b",
     "n-bb76b83d43",
     "n-af1e479850",
     "n-a71a838b34",
+    "n-a32e5b01bc",
     "n-a167c6f61b",
     "n-9744e9b73c",
     "n-963305f6b7",

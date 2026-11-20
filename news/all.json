@@ -1,9 +1,341 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-19T21:34:46Z",
+  "generated_at": "2026-11-20T01:26:58Z",
   "site": "diffusion.love",
-  "total": 1347,
+  "total": 1350,
   "records": [
+    {
+      "schema_version": "1.4",
+      "id": "n-ef68e2a314",
+      "entry_type": "news",
+      "category": "tools-frontend",
+      "lang": "en",
+      "title": "Comfy Cloud enables custom workflows on enterprise GPUs",
+      "summary": "Comfy Cloud introduced custom workflow execution on hardware up to NVIDIA B200, offering persistent storage.",
+      "research_notes": "Prepare a local ComfyUI workflow or desktop snapshot containing required custom nodes, LoRA weights, and dependencies.\n\nUpload the custom build configuration to Comfy Cloud under a Standard, Creator, or Team account to package dependencies into a persistent cloud environment.\n\nSelect target GPU hardware ranging from RTX PRO 6000 (96 GB VRAM) to NVIDIA B200 (180 GB VRAM) based on model size and VRAM requirements.\n\nExecute generation tasks interactively through the cloud browser canvas or integrate the deployed workflow into automated applications using the Comfy Cloud REST API.\n\nVerify that all required custom nodes and Python dependencies resolve cleanly in a local desktop snapshot before packaging a cloud custom build.\n\nSelect hardware tiers matched to workflow complexity, utilizing RTX PRO 6000 for standard high-resolution pipelines and reserving B200 instances for extreme memory workloads to optimize per-second compute costs.\n\nMonitor persistent network storage utilization to manage monthly data charges while sharing standardized workspace builds across team members.",
+      "project": {
+        "name": "Comfy Cloud: comfy",
+        "family_slug": "comfy",
+        "family_display": "Comfy Cloud: comfy",
+        "model_slug": "comfy",
+        "model_display": "Comfy Cloud: comfy",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "comfy",
+        "thread_display": "Comfy",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Comfy Cloud: comfy",
+        "article_url": "https://happyin.space/projects/comfy/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/f8ad0afb03ccbfede2dd1546320f2a15ebe5406f/docs/projects/comfy.md",
+        "agent_context_url": "https://happyin.space/projects/comfy/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Comfy Cloud enables custom workflows on enterprise GPUs",
+        "version": null,
+        "summary": "Comfy Cloud introduced custom workflow execution on hardware up to NVIDIA B200, offering persistent storage."
+      },
+      "tags": [
+        "Comfy Cloud: comfy",
+        "comfy",
+        "family:comfy",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "projects": [
+          "comfy"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://blog.comfy.org/p/your-custom-comfyui-is-now-in-comfy?r=7xlbaw",
+          "host": "blog.comfy.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T01:21:57Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://x.com/ComfyUI/status/2123101758885085511",
+          "host": "x.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T01:21:57Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Comfy Cloud introduced custom workflow execution on hardware up to NVIDIA B200, offering persistent storage."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T01:21:57Z",
+        "classified_at": "2026-11-20T01:21:57Z",
+        "enriched_at": "2026-11-20T01:21:57Z",
+        "verified_at": "2026-11-20T01:21:57Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-cce1cb230c",
+      "entry_type": "news",
+      "category": "tools-frontend",
+      "lang": "en",
+      "title": "AGSoft Save Image Plus adds focus mode, bilingual tooltips, and Nodes 2.0 preview",
+      "summary": "The AGSoft Save Image Plus ComfyUI custom node was updated with an image batch focus preview mode, bilingual button tooltips, and preview rendering support for the ComfyUI Nodes 2.0 interface alongside classic canvas compatibility.",
+      "research_notes": "Clone the repository into the ComfyUI custom_nodes directory using git clone https://github.com/Art-xmaster/comfyui-AGSoft.git or install comfyui-AGSoft via ComfyUI Manager.\n\nRestart the ComfyUI server to load the custom node definitions.\n\nAdd the AGSoft Save Image Plus node to your ComfyUI workflow and connect the generated image tensor to its image input.\n\nConfigure the filename prefix and format options, then toggle focus mode to preview batch generations in either classic canvas or Nodes 2.0 interface.\n\nKeep classic canvas mode fallback enabled if experiencing UI rendering inconsistencies in early Nodes 2.0 interface builds.\n\nUse focus mode when generating multi-image batches to inspect individual preview frames without leaving the node graph.",
+      "project": {
+        "name": "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+        "family_slug": "agsoft-save-image-plus",
+        "family_display": "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+        "model_slug": "agsoft-save-image-plus",
+        "model_display": "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "agsoft-save-image-plus-update",
+        "thread_display": "Agsoft Save Image Plus Update",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+        "article_url": "https://happyin.space/projects/agsoft-save-image-plus/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/2758437e2c3cedcec6b5ea70fb51f06fc2f6c99c/docs/projects/agsoft-save-image-plus.md",
+        "agent_context_url": "https://happyin.space/projects/agsoft-save-image-plus/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "AGSoft Save Image Plus adds focus mode, bilingual tooltips, and Nodes 2.0 preview",
+        "version": null,
+        "summary": "The AGSoft Save Image Plus ComfyUI custom node was updated with an image batch focus preview mode, bilingual button tooltips, and preview rendering support for the ComfyUI Nodes 2.0 interface alongside classic canvas compatibility."
+      },
+      "tags": [
+        "AGSoft Save Image Plus: agsoft-save-image-plus-update",
+        "agsoft-save-image-plus",
+        "agsoft-save-image-plus-update",
+        "family:agsoft-save-image-plus",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "projects": [
+          "agsoft-save-image-plus"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/Art-xmaster/comfyui-AGSoft",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T01:26:58Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "The AGSoft Save Image Plus ComfyUI custom node was updated with an image batch focus preview mode, bilingual button tooltips, and preview rendering support for the ComfyUI Nodes 2.0 interface alongside classic canvas compatibility."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T01:26:58Z",
+        "classified_at": "2026-11-20T01:26:58Z",
+        "enriched_at": "2026-11-20T01:26:58Z",
+        "verified_at": "2026-11-20T01:26:58Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-a32e5b01bc",
+      "entry_type": "news",
+      "category": "diffusion-image",
+      "lang": "en",
+      "title": "Comfy Cloud adds custom builds with node and LoRA support",
+      "summary": "Comfy Cloud added custom build support allowing users to package local environments with custom nodes and LoRAs, share setups across teams, and execute workflows in browser or via API on GPUs from RTX PRO 6000 to B200.",
+      "research_notes": "Prepare a local ComfyUI workflow or desktop snapshot containing required custom nodes, LoRA weights, and dependencies.\n\nUpload the custom build configuration to Comfy Cloud under a Standard, Creator, or Team account to package dependencies into a persistent cloud environment.\n\nSelect target GPU hardware ranging from RTX PRO 6000 (96 GB VRAM) to NVIDIA B200 (180 GB VRAM) based on model size and VRAM requirements.\n\nExecute generation tasks interactively through the cloud browser canvas or integrate the deployed workflow into automated applications using the Comfy Cloud REST API.\n\nVerify that all required custom nodes and Python dependencies resolve cleanly in a local desktop snapshot before packaging a cloud custom build.\n\nSelect hardware tiers matched to workflow complexity, utilizing RTX PRO 6000 for standard high-resolution pipelines and reserving B200 instances for extreme memory workloads to optimize per-second compute costs.\n\nMonitor persistent network storage utilization to manage monthly data charges while sharing standardized workspace builds across team members.",
+      "project": {
+        "name": "Comfy Cloud: comfy",
+        "family_slug": "comfy",
+        "family_display": "Comfy Cloud: comfy",
+        "model_slug": "comfy",
+        "model_display": "Comfy Cloud: comfy",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "comfy",
+        "thread_display": "Comfy",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Comfy Cloud: comfy",
+        "article_url": "https://happyin.space/projects/comfy/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/f8ad0afb03ccbfede2dd1546320f2a15ebe5406f/docs/projects/comfy.md",
+        "agent_context_url": "https://happyin.space/projects/comfy/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Comfy Cloud adds custom builds with node and LoRA support",
+        "version": null,
+        "summary": "Comfy Cloud added custom build support allowing users to package local environments with custom nodes and LoRAs, share setups across teams, and execute workflows in browser or via API on GPUs from RTX PRO 6000 to B200."
+      },
+      "tags": [
+        "Comfy Cloud: comfy",
+        "comfy",
+        "diffusion-image",
+        "family:comfy",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "diffusion-image",
+        "entry_type": "news",
+        "projects": [
+          "comfy"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://blog.comfy.org/p/your-custom-comfyui-is-now-in-comfy?r=7xlbaw",
+          "host": "blog.comfy.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T01:21:57Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://x.com/ComfyUI/status/2123101758885085511",
+          "host": "x.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T01:21:57Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Comfy Cloud added custom build support allowing users to package local environments with custom nodes and LoRAs, share setups across teams, and execute workflows in browser or via API on GPUs from RTX PRO 6000 to B200."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T01:21:57Z",
+        "classified_at": "2026-11-20T01:21:57Z",
+        "enriched_at": "2026-11-20T01:21:57Z",
+        "verified_at": "2026-11-20T01:21:57Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
     {
       "schema_version": "1.4",
       "id": "n-f686305d6a",
