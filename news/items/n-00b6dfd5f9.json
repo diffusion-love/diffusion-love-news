@@ -74,19 +74,10 @@
  "links": [
   {
    "kind": "reference",
-   "url": "https://api.suno.com/mcp",
-   "host": "api.suno.com",
-   "lang": "en",
-   "is_primary": true,
-   "status": "unverified",
-   "verified_at": "2026-11-20T08:23:54Z"
-  },
-  {
-   "kind": "reference",
    "url": "https://suno.com/mcp",
    "host": "suno.com",
    "lang": "en",
-   "is_primary": false,
+   "is_primary": true,
    "status": "unverified",
    "verified_at": "2026-11-20T08:23:54Z"
   }
