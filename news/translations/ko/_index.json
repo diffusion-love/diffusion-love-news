@@ -2874,6 +2874,11 @@
   "title": "오픈소스 karpathy-output-style, AI 에이전트를 위한 시각적 출력 단계 구현",
   "translated_at": "2026-10-24"
  },
+ "n-8fcd7abf33": {
+  "fresh": true,
+  "title": "Dream DAW 오픈소스 데스크톱 워크스테이션, GitHub에 공개",
+  "translated_at": "2026-11-20"
+ },
  "n-8fe6695c64": {
   "fresh": true,
   "title": "PrismAudio: 분해된 CoT를 통한 비디오-오디오 생성",
@@ -2888,6 +2893,11 @@
   "fresh": true,
   "title": "Evoke 공개 프로젝트 리소스 연결됨",
   "translated_at": "2026-10-24"
+ },
+ "n-90e6085d9b": {
+  "fresh": true,
+  "title": "Dream-DAW, OpenRouter AI 어시스턴트 및 생성형 작곡 도구 통합",
+  "translated_at": "2026-11-20"
  },
  "n-9139899069": {
   "fresh": true,
@@ -4703,6 +4713,11 @@
   "fresh": true,
   "title": "DVD 공개 프로젝트 리소스가 연결되었습니다",
   "translated_at": "2026-10-24"
+ },
+ "n-ed7778c240": {
+  "fresh": true,
+  "title": "Dream-DAW, 격리된 플러그인 호스팅과 캐싱 기반 스템 분리 구현",
+  "translated_at": "2026-11-20"
  },
  "n-edad1a10a0": {
   "fresh": true,

@@ -1,0 +1,11 @@
+{
+ "id": "n-90e6085d9b",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt depuis GitHub et installez les dépendances système, notamment Rust, Node.js et les bibliothèques de compilation audio propres à votre plateforme.\n\nCompilez et lancez l'application de bureau Tauri pour initialiser l'interface utilisateur React et le moteur natif de lecture audio.\n\nRenseignez une clé API OpenRouter dans les préférences de l'application pour activer l'assistant IA destiné à la création de pistes, à l'édition de clips et à la génération d'accords.\n\nAnalysez les dossiers locaux de plugins VST2, VST3 et AU, ou importez des fichiers de projet Ableton Live existants dans la timeline.\n\nHébergez les plugins VST et AU tiers complexes ou instables dans des processus séparés afin d'éviter que leurs erreurs ne fassent planter le moteur audio principal.\n\nMaintenez activé le cache d'empreintes audio pendant la séparation des stems afin d'éliminer les calculs redondants sur les segments audio répétés.\n\nVérifiez les notes MIDI et les structures de pistes générées par l'assistant avant toute validation destructive dans la timeline, afin de garantir la cohérence musicale.",
+ "source_sha256": "1d5a1d9b9af85384660d899170c31defc1a72e36dcce7547a9731c2b9ff70dfd",
+ "summary": "Dream-DAW ajoute un assistant IA propulsé par OpenRouter, capable de manipuler programmatiquement le projet et les clips, accompagné de générateurs algorithmiques d'accords et d'arpèges, d'une synthèse de motifs rythmiques, d'une saisie vocale et de l'importation de projets Ableton Live.",
+ "title": "Dream-DAW intègre un assistant IA OpenRouter et des outils de composition générative",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

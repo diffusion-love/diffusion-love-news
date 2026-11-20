@@ -1,0 +1,11 @@
+{
+ "id": "n-8fcd7abf33",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从 GitHub 克隆仓库,并安装系统依赖,包括 Rust、Node.js 以及各平台的音频构建库。\n\n构建并运行 Tauri 桌面应用,以初始化 React 用户界面和原生音频播放引擎。\n\n在应用偏好设置中提供 OpenRouter API 密钥,即可启用 AI 助手,用于音轨创建、片段编辑和和弦生成。\n\n扫描本地 VST2、VST3 和 AU 插件文件夹,或将现有的 Ableton Live 工程文件导入时间线。\n\n在独立进程中托管复杂或不稳定的第三方 VST 和 AU 插件,以防止外部插件错误导致主音频引擎崩溃。\n\n在音轨分离(stem separation)期间保持音频指纹缓存处于启用状态,以消除对重复音频片段的冗余计算开销。\n\n在对时间线进行具有破坏性的提交之前,检查助手生成的 MIDI 音符和音轨结构,以确保音乐上的连贯性。",
+ "source_sha256": "e4fdf7fa5d2de84d3f04f2811c5a22070a7c63e752a809e0f4afff2096453189",
+ "summary": "Dream DAW 在 GitHub 上发布了其跨平台数字音频工作站代码仓库,该项目采用 Rust 编写原生音频引擎,并配有基于 Tauri 和 TypeScript 的桌面界面。",
+ "title": "Dream DAW 开源桌面工作站已在 GitHub 上发布",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

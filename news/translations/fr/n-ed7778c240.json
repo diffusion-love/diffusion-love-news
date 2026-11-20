@@ -1,0 +1,11 @@
+{
+ "id": "n-ed7778c240",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt depuis GitHub et installez les dépendances système, dont Rust, Node.js et les bibliothèques de compilation audio propres à la plateforme.\n\nCompilez et lancez l'application de bureau Tauri pour initialiser l'interface utilisateur React et le moteur de lecture audio natif.\n\nRenseignez une clé API OpenRouter dans les préférences de l'application pour activer l'assistant IA dédié à la création de pistes, à l'édition de clips et à la génération d'accords.\n\nAnalysez les dossiers locaux de plugins VST2, VST3 et AU, ou importez des projets Ableton Live existants dans la timeline.\n\nHébergez les plugins VST et AU tiers complexes ou instables dans des processus séparés afin d'empêcher que leurs erreurs ne fassent planter le moteur audio principal.\n\nGardez la mise en cache des empreintes audio active pendant la séparation des stems afin d'éliminer les calculs redondants sur les segments audio répétés.\n\nVérifiez les notes MIDI et les structures de pistes générées par l'assistant avant toute validation destructive dans la timeline, afin de garantir la cohérence musicale.",
+ "source_sha256": "eea782e4124491bdca6f8b8767834818a3917409544e7410d2087122b2475d79",
+ "summary": "Dream-DAW introduit un hébergement de plugins hors processus pour les formats VST2, VST3 et AU afin d'éviter les plantages du moteur audio, ainsi qu'une séparation neuronale de stems audio avec mise en cache des empreintes audio.",
+ "title": "Dream-DAW met en place un hébergement de plugins isolé et une séparation de stems avec mise en cache",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-8fcd7abf33",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository von GitHub und installieren Sie die Systemabhängigkeiten, darunter Rust, Node.js und die plattformspezifischen Audio-Build-Bibliotheken.\n\nBauen und starten Sie die Tauri-Desktopanwendung, um die React-Benutzeroberfläche und die native Audio-Wiedergabe-Engine zu initialisieren.\n\nHinterlegen Sie einen OpenRouter-API-Schlüssel in den Anwendungseinstellungen, um den KI-Assistenten für die Spurerstellung, die Clip-Bearbeitung und die Akkordgenerierung zu aktivieren.\n\nDurchsuchen Sie lokale Ordner mit VST2-, VST3- und AU-Plugins oder importieren Sie bestehende Ableton-Live-Projektdateien in die Timeline.\n\nBetreiben Sie komplexe oder instabile VST- und AU-Plugins von Drittanbietern in separaten Prozessen, damit Fehler externer Plugins die zentrale Audio-Engine nicht zum Absturz bringen.\n\nLassen Sie das Caching von Audio-Fingerprints während der Stem-Separation aktiv, um unnötigen Rechenaufwand bei wiederholt auftretenden Audiosegmenten zu vermeiden.\n\nPrüfen Sie die vom Assistenten erzeugten MIDI-Noten und Spurstrukturen, bevor Sie sie destruktiv in die Timeline übernehmen, um die musikalische Stimmigkeit sicherzustellen.",
+ "source_sha256": "e4fdf7fa5d2de84d3f04f2811c5a22070a7c63e752a809e0f4afff2096453189",
+ "summary": "Dream DAW hat sein plattformübergreifendes Repository für eine Digital Audio Workstation (DAW) auf GitHub veröffentlicht. Es umfasst eine in Rust geschriebene native Audio-Engine und eine Desktop-Oberfläche auf Basis von Tauri und TypeScript.",
+ "title": "Dream DAW: Open-Source-Desktop-Workstation auf GitHub veröffentlicht",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

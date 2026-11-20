@@ -1,0 +1,11 @@
+{
+ "id": "n-ed7778c240",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository von GitHub und installieren Sie die System-Abhängigkeiten, einschließlich Rust, Node.js und der plattformspezifischen Audio-Build-Bibliotheken.\n\nErstellen und starten Sie die Tauri-Desktop-Anwendung, um die React-Benutzeroberfläche und die native Audio-Wiedergabe-Engine zu initialisieren.\n\nHinterlegen Sie in den Anwendungseinstellungen einen OpenRouter-API-Schlüssel, um den KI-Assistenten für die Erstellung von Spuren, die Bearbeitung von Clips und die Generierung von Akkorden zu aktivieren.\n\nDurchsuchen Sie lokale VST2-, VST3- und AU-Plug-in-Ordner oder importieren Sie bestehende Ableton-Live-Projektdateien in die Timeline.\n\nHosten Sie komplexe oder instabile VST- und AU-Plug-ins von Drittanbietern in separaten Prozessen, damit Fehler externer Plug-ins die zentrale Audio-Engine nicht zum Absturz bringen.\n\nLassen Sie das Caching von Audio-Fingerprints während der Stem-Separation aktiv, um redundanten Rechenaufwand bei wiederholten Audiosegmenten zu vermeiden.\n\nPrüfen Sie vom Assistenten erzeugte MIDI-Noten und Spurstrukturen vor destruktiven Übernahmen in die Timeline, um die musikalische Kohärenz sicherzustellen.",
+ "source_sha256": "eea782e4124491bdca6f8b8767834818a3917409544e7410d2087122b2475d79",
+ "summary": "Dream-DAW führt das prozessisolierte Plug-in-Hosting für die Formate VST2, VST3 und AU ein, um Abstürze der Audio-Engine zu verhindern, sowie die neuronale Audio-Stem-Separation mit Caching von Audio-Fingerprints.",
+ "title": "Dream-DAW implementiert isoliertes Plug-in-Hosting und gecachte Stem-Separation",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
