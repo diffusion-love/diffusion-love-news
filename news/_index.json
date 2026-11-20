@@ -283,6 +283,26 @@
     "has_video": false
   },
   {
+    "id": "n-1012736b69",
+    "date": "2026-11-19",
+    "title": "HeyGen Avatar 6 introduces context-aware gestures and 2K video generation",
+    "category": "animation-motion",
+    "entry_type": "news",
+    "project": "heygen-avatar-6",
+    "version": null,
+    "tags": [
+      "HeyGen Avatar 6: heygen-avatar-6-launch",
+      "animation-motion",
+      "diffusion-video",
+      "family:heygen-avatar-6",
+      "heygen-avatar-6",
+      "heygen-avatar-6-launch"
+    ],
+    "primary_link": "https://www.heygen.com/models/heygen-avatar-6",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-00b6dfd5f9",
     "date": "2026-11-19",
     "title": "Suno releases MCP server connector with account library synchronization",

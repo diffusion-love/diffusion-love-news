@@ -47175,6 +47175,116 @@
     ],
     "claims": []
   },
+  "heygen-avatar-6": {
+    "family_slug": "heygen-avatar-6",
+    "family_display": "HeyGen Avatar 6: heygen-avatar-6-launch",
+    "family_display_variants": [
+      {
+        "family_display": "HeyGen Avatar 6: heygen-avatar-6-launch",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-1012736b69"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "animation-motion"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-1012736b69"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-1012736b69",
+        "title": "HeyGen Avatar 6 introduces context-aware gestures and 2K video generation",
+        "primary_link": "https://www.heygen.com/models/heygen-avatar-6"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "heygen.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://www.heygen.com/models/heygen-avatar-6",
+        "is_primary": true,
+        "verified_at": "2026-11-20T11:50:40Z",
+        "news_ids": [
+          "n-1012736b69"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "HeyGen Avatar 6 introduces context-aware gestures and 2K video generation",
+        "summary": "HeyGen released Avatar 6, an avatar generation model featuring script-driven gestures, native 2880×1620 resolution, and support for up to 28 minutes of continuous rendering. The release includes standard and low-latency Turbo tiers.",
+        "version": null,
+        "news_id": "n-1012736b69",
+        "primary_link": "https://www.heygen.com/models/heygen-avatar-6"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-1012736b69",
+        "date": "2026-11-19",
+        "title": "HeyGen Avatar 6 introduces context-aware gestures and 2K video generation",
+        "category": "animation-motion",
+        "entry_type": "news",
+        "project": "heygen-avatar-6",
+        "version": null,
+        "tags": [
+          "HeyGen Avatar 6: heygen-avatar-6-launch",
+          "animation-motion",
+          "diffusion-video",
+          "family:heygen-avatar-6",
+          "heygen-avatar-6",
+          "heygen-avatar-6-launch"
+        ],
+        "primary_link": "https://www.heygen.com/models/heygen-avatar-6",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "heygen-avatar-6-launch",
+        "display": "Heygen Avatar 6 Launch",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-1012736b69",
+        "news_ids": [
+          "n-1012736b69"
+        ]
+      }
+    ]
+  },
   "heygen-hyperframes": {
     "family_slug": "heygen-hyperframes",
     "family_display": "Heygen Hyperframes",
