@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-20T06:17:08Z",
+  "generated_at": "2026-11-20T07:12:14Z",
   "site": "diffusion.love",
-  "total": 993,
+  "total": 994,
   "records": [
     {
       "schema_version": "1.4",
@@ -325,6 +325,115 @@
         "classified_at": "2026-11-20T06:17:08Z",
         "enriched_at": "2026-11-20T06:17:08Z",
         "verified_at": "2026-11-20T06:17:08Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-a38742d6ad",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Nadella clarifies voluntary buyout program amid shift to agent-driven development",
+      "summary": "Microsoft offered voluntary exit options to eligible employees as software development transitions toward compact teams managing artificial intelligence agents, clarifying that the move provides agency during restructuring rather than forced mass layoffs.",
+      "research_notes": "Structure software engineering groups into compact teams that direct and validate autonomous agents rather than expanding manual programming headcount.\n\nTransition developer responsibilities from writing line-by-line implementation code to managing, orchestrating, and evaluating artificial intelligence agent outputs.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "microsoft",
+        "display": "Microsoft generative AI rollout and adoption",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "microsoft-generative-ai-rollout-and-adoption",
+        "thread_display": "Microsoft Generative Ai Rollout And Adoption",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Microsoft generative AI rollout and adoption",
+        "article_url": "https://happyin.space/organizations/microsoft/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6bf0baf89451d589a90085533a3d1fcbcfc6cf35/docs/organizations/microsoft.md",
+        "agent_context_url": "https://happyin.space/organizations/microsoft/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Nadella clarifies voluntary buyout program amid shift to agent-driven development",
+        "version": null,
+        "summary": "Microsoft offered voluntary exit options to eligible employees as software development transitions toward compact teams managing artificial intelligence agents, clarifying that the move provides agency during restructuring rather than forced mass layoffs."
+      },
+      "tags": [
+        "Microsoft generative AI rollout and adoption",
+        "microsoft",
+        "microsoft-generative-ai-rollout-and-adoption",
+        "misc",
+        "organization:microsoft"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "microsoft"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+          "host": "techcrunch.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T07:12:14Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Microsoft offered voluntary exit options to eligible employees as software development transitions toward compact teams managing artificial intelligence agents, clarifying that the move provides agency during restructuring rather than forced mass layoffs."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T07:12:14Z",
+        "classified_at": "2026-11-20T07:12:14Z",
+        "enriched_at": "2026-11-20T07:12:14Z",
+        "verified_at": "2026-11-20T07:12:14Z",
         "models_used": {
           "research": "curated-live-material"
         },

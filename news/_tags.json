@@ -1730,6 +1730,9 @@
   "Microsoft 365 Copilot Researcher": [
     "n-e859acd94e"
   ],
+  "Microsoft generative AI rollout and adoption": [
+    "n-a38742d6ad"
+  ],
   "Midjourney": [
     "n-632e606b02"
   ],
@@ -9094,10 +9097,14 @@
     "n-221dea80c4"
   ],
   "microsoft": [
+    "n-a38742d6ad",
     "n-97e1334295"
   ],
   "microsoft-copilot-researcher": [
     "n-e859acd94e"
+  ],
+  "microsoft-generative-ai-rollout-and-adoption": [
+    "n-a38742d6ad"
   ],
   "microsoft-mage-flow": [
     "n-594cd03215"
@@ -9396,6 +9403,7 @@
     "n-a5a6f42edd",
     "n-a5a478ec38",
     "n-a54747f312",
+    "n-a38742d6ad",
     "n-a316da2631",
     "n-a2c367a2ab",
     "n-a2b2f064d2",
@@ -10712,6 +10720,9 @@
   ],
   "organization:meta": [
     "n-d46d9eb28f"
+  ],
+  "organization:microsoft": [
+    "n-a38742d6ad"
   ],
   "organization:nvidia": [
     "n-f8cc9060c3",
