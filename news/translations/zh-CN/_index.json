@@ -1649,6 +1649,11 @@
   "title": "GGUF 模型系列的 Hugging Face 参考记录",
   "translated_at": "2026-10-24"
  },
+ "n-4f75d14eb4": {
+  "fresh": true,
+  "title": "NIRJALA 引入 3D Gaussian Splatting，实现无水水下重建",
+  "translated_at": "2026-11-20"
+ },
  "n-4fb87f050c": {
   "fresh": true,
   "title": "Wan-Animate-2 相关资源已在项目、模型和 ComfyUI 渠道中被记录",
@@ -4763,6 +4768,11 @@
   "fresh": true,
   "title": "OpenReview：Vercel Labs 推出的 AI 代码审查机器人",
   "translated_at": "2026-10-24"
+ },
+ "n-f08df9a83a": {
+  "fresh": true,
+  "title": "NIRJALA 框架在水下 Gaussian Splatting 中限制反演增益",
+  "translated_at": "2026-11-20"
  },
  "n-f09f1875bc": {
   "fresh": true,

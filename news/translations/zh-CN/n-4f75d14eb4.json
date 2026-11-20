@@ -1,0 +1,11 @@
+{
+ "id": "n-4f75d14eb4",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "通过运动恢复结构（structure-from-motion）标定多视角水下相机图像并估计相机位姿。\n\n初始化3D高斯，并利用TRIVENI三路径成像模型，将10参数全局物理水体模型与神经透射参数一同拟合。\n\n使用SAMARASA目标优化几何与外观，通过距离分段颜色先验平衡各距离上的通道衰减。\n\n在估计出的水体介质被逆向去除后，实时渲染新视角，生成无介质图像。\n\n利用PRATIBIMBA双向物理锚点约束神经水场估计，防止场景几何吸收介质参数。\n\n优化过程中采用距离分段颜色平衡，以应对不同深度区间内的差异化波长衰减。",
+ "source_sha256": "12411611443c65a4f6a8795c97e538d8c5b552223ac3b85cac24aa1eec55f3c8",
+ "summary": "NIRJALA将三路径成像模型与前向散射及物理先验相结合，以44 FPS的速度联合重建清晰的水下场景外观与几何。",
+ "title": "NIRJALA 引入 3D Gaussian Splatting，实现无水水下重建",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

@@ -1654,6 +1654,11 @@
   "title": "Referencia en Hugging Face registrada para la línea de modelos GGUF",
   "translated_at": "2026-10-24"
  },
+ "n-4f75d14eb4": {
+  "fresh": true,
+  "title": "NIRJALA introduce el Gaussian Splatting 3D para la reconstrucción submarina sin agua",
+  "translated_at": "2026-11-20"
+ },
  "n-4fb87f050c": {
   "fresh": true,
   "title": "Los recursos de Wan-Animate-2 quedaron registrados en los canales del proyecto, del modelo y de ComfyUI",
@@ -4773,6 +4778,11 @@
   "fresh": true,
   "title": "OpenReview: bot de revisión de código con IA de Vercel Labs",
   "translated_at": "2026-10-24"
+ },
+ "n-f08df9a83a": {
+  "fresh": true,
+  "title": "NIRJALA acota la ganancia de inversión en Gaussian Splatting submarino",
+  "translated_at": "2026-11-20"
  },
  "n-f09f1875bc": {
   "fresh": true,

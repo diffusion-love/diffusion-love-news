@@ -1564,6 +1564,11 @@
   "summary": "2026-03-25 有一条带日期的记录链接到该 GGUF 模型系列的一个 Hugging Face 页面。该 URL 提供了 mradermacher 账户下一个具体的公开分发参考。仅凭这一带日期的链接，无法确定该模型的来源、内容、可用性或技术变更。",
   "title": "GGUF 模型系列的 Hugging Face 参考记录"
  },
+ "n-4f75d14eb4": {
+  "research_notes": "通过运动恢复结构（structure-from-motion）标定多视角水下相机图像并估计相机位姿。\n\n初始化3D高斯，并利用TRIVENI三路径成像模型，将10参数全局物理水体模型与神经透射参数一同拟合。\n\n使用SAMARASA目标优化几何与外观，通过距离分段颜色先验平衡各距离上的通道衰减。\n\n在估计出的水体介质被逆向去除后，实时渲染新视角，生成无介质图像。\n\n利用PRATIBIMBA双向物理锚点约束神经水场估计，防止场景几何吸收介质参数。\n\n优化过程中采用距离分段颜色平衡，以应对不同深度区间内的差异化波长衰减。",
+  "summary": "NIRJALA将三路径成像模型与前向散射及物理先验相结合，以44 FPS的速度联合重建清晰的水下场景外观与几何。",
+  "title": "NIRJALA 引入 3D Gaussian Splatting，实现无水水下重建"
+ },
  "n-4fb87f050c": {
   "summary": "2026 年 8 月 8 日，该记录收录了一组 Wan-Animate-2 相关资源，涵盖官方项目页面、源代码仓库、模型仓库、ComfyUI 软件包以及工作流模板。这一进展值得关注，因为它将项目与具体的实现和工作流入口连接了起来。仅凭这些带日期的链接，无法确定发布声明、版本变更或性能结果。",
   "title": "Wan-Animate-2 相关资源已在项目、模型和 ComfyUI 渠道中被记录"
@@ -4568,6 +4573,11 @@
   "research_notes": "采用渐进式技能系统，仅在相关时才加载针对 Next.js 等特定框架的专用指令。",
   "summary": "一款开源、可自托管的 AI 代码审查助手，支持按需进行 Pull Request 分析并自动修复问题。它使用 Claude 3.5 Sonnet 和 Vercel Workflow，在沙盒环境中执行审查，从而可以运行 linter 和测试。",
   "title": "OpenReview：Vercel Labs 推出的 AI 代码审查机器人"
+ },
+ "n-f08df9a83a": {
+  "research_notes": "标定多视角水下相机图像，并通过运动恢复结构（structure-from-motion）估计相机位姿。\n\n初始化 3D Gaussians，并使用 TRIVENI 三路径成像模型，与神经透射参数一同拟合 10 参数全局物理水介质模型。\n\n利用 SAMARASA 物理信息目标函数优化几何与外观，施加分距离区间（range-binned）颜色先验，以平衡不同距离上的通道衰减。\n\n在估计出的水介质被反演后实时渲染新视角，生成无介质影像。\n\n以 PRATIBIMBA 双向物理锚点约束神经水场估计，防止场景几何吸收介质参数。\n\n在优化过程中采用分距离区间颜色平衡，以应对不同深度区间上的差异性波长衰减。",
+  "summary": "NIRJALA 提出三路径成像模型 TRIVENI，以在不同距离上保持反演增益有界，并结合 PRATIBIMBA 可逆物理锚点、SAMARASA 物理信息目标函数以及一个包含 30 个场景的路径追踪合成基准。",
+  "title": "NIRJALA 框架在水下 Gaussian Splatting 中限制反演增益"
  },
  "n-f09f1875bc": {
   "summary": "2026年7月18日，一条公开消息链接了KnowAct-GUIClaw项目网站和KnowAct GitHub仓库。这确立了GUIClaw项目与KnowAct代码库之间一个有明确日期的公开关联，但并不能证明某个具体版本发布、功能或实现里程碑。",

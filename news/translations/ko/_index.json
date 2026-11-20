@@ -1649,6 +1649,11 @@
   "title": "GGUF 모델 계열의 Hugging Face 참조 기록",
   "translated_at": "2026-10-24"
  },
+ "n-4f75d14eb4": {
+  "fresh": true,
+  "title": "NIRJALA, 물 없는 수중 복원을 위한 3D 가우시안 스플래팅 도입",
+  "translated_at": "2026-11-20"
+ },
  "n-4fb87f050c": {
   "fresh": true,
   "title": "Wan-Animate-2 관련 리소스가 프로젝트, 모델, ComfyUI 채널에 걸쳐 기록됨",
@@ -4763,6 +4768,11 @@
   "fresh": true,
   "title": "OpenReview: Vercel Labs의 AI 기반 코드 리뷰 봇",
   "translated_at": "2026-10-24"
+ },
+ "n-f08df9a83a": {
+  "fresh": true,
+  "title": "NIRJALA 프레임워크, 수중 Gaussian Splatting의 역변환 이득을 제한하다",
+  "translated_at": "2026-11-20"
  },
  "n-f09f1875bc": {
   "fresh": true,
