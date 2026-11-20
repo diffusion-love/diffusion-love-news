@@ -1,0 +1,11 @@
+{
+ "id": "n-1012736b69",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Lade ein hochauflösendes Porträtfoto oder ein 45-sekündiges Referenzvideo zusammen mit einer sauberen Sprachprobe hoch, um die Avatar-Identität zu konfigurieren.\n\nFüge das Videoskript in den Editor ein oder lade eine vorab aufgenommene Sprachspur hoch.\n\nFüge Bewegungs-Prompts neben Skriptwörtern ein, um bestimmte Gesten wie Zeigen oder Nicken vorzugeben.\n\nWähle vor dem Rendern zwischen dem Standard-Avatar 6 für maximale Detailtreue und Avatar 6 Turbo für eine geringere Latenz bei der Generierung.\n\nVerwende saubere, isolierte Audioaufnahmen ohne Hintergrundgeräusche oder Raumhall, um eine präzise Phonem-Ausrichtung und Lippensynchronisation zu gewährleisten.\n\nKombiniere natürliche Skriptformulierungen mit gezielten Bewegungs-Prompt-Hinweisen, statt jeden Satz übermäßig zu spezifizieren, um unnatürliche Gestendichte zu vermeiden.",
+ "source_sha256": "9ed1a65a44fe612839bf4a46d17e3c40efd22c87881e6dd9130246f83d2a6594",
+ "summary": "HeyGen hat Avatar 6 veröffentlicht, ein Modell zur Avatar-Generierung mit skriptgesteuerten Gesten, nativer Auflösung von 2880×1620 und Unterstützung für bis zu 28 Minuten durchgehendes Rendering. Die Veröffentlichung umfasst eine Standardstufe sowie die Turbo-Stufe mit niedriger Latenz.",
+ "title": "HeyGen Avatar 6 bringt kontextbezogene Gesten und 2K-Videogenerierung",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

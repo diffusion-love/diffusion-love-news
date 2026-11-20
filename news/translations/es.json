@@ -336,6 +336,11 @@
   "summary": "Anthropic se comprometió a destinar el 5% de las acciones de la compañía a la creación de Anthropic Public Benefit Fund LLC, a la espera de la aprobación de los accionistas, con disposiciones dinámicas en el consejo de administración para añadir un 2% de capital por cada aumento del 50% en la valoración, destinado al apoyo a organizaciones sin ánimo de lucro y a la mitigación de los efectos laborales.",
   "title": "Anthropic compromete una participación accionarial del 5% para un fondo de beneficio público LLC"
  },
+ "n-1012736b69": {
+  "research_notes": "Sube una fotografía de retrato en alta resolución o un vídeo de referencia de 45 segundos junto con una muestra de voz limpia para configurar la identidad del avatar.\n\nIntroduce el guion del vídeo en el editor o sube una pista de audio de habla pregrabada.\n\nInserta indicaciones de movimiento junto a las palabras del guion para dictar gestos específicos, como señalar o asentir.\n\nElige entre Avatar 6 estándar, para máxima fidelidad, o Avatar 6 Turbo, para una generación con menor latencia, antes de renderizar.\n\nUtiliza grabaciones de audio limpias y aisladas, sin ruido de fondo ni reverberación de la sala, para garantizar una alineación precisa de fonemas y una sincronización labial correcta.\n\nCombina una redacción natural del guion con indicaciones de movimiento puntuales en lugar de especificar en exceso cada frase, para evitar una densidad de gestos poco natural.",
+  "summary": "HeyGen ha lanzado Avatar 6, un modelo de generación de avatares que incorpora gestos controlados por el guion, resolución nativa de 2880×1620 y soporte para hasta 28 minutos de renderizado continuo. La versión incluye los niveles estándar y Turbo, de baja latencia.",
+  "title": "HeyGen Avatar 6 introduce gestos sensibles al contexto y generación de vídeo 2K"
+ },
  "n-1027303bd3": {
   "summary": "El 2026-06-30, un elemento de la línea de desarrollo de LiveEdit enlazó el sitio web del proyecto, el repositorio de código fuente y la página de Hugging Face. Estos enlaces con fecha constituyen un punto de referencia público relevante para el proyecto, sin establecer una versión concreta, una versión de modelo ni un conjunto particular de funcionalidades.",
   "title": "Los recursos del proyecto LiveEdit se enlazaron públicamente"

@@ -336,6 +336,11 @@
   "summary": "Anthropic hat zugesagt, 5 % der Unternehmensanteile für die Gründung der Anthropic Public Benefit Fund LLC bereitzustellen, vorbehaltlich der Zustimmung der Aktionäre. Vorgesehen sind zudem dynamische Vorstandsregelungen, nach denen für jeden Wertzuwachs von 50 % weitere 2 % Eigenkapital hinzukommen, um gemeinnützige Organisationen zu unterstützen und den Arbeitsmarkt abzufedern.",
   "title": "Anthropic verpflichtet 5 % Eigenkapital für Public-Benefit-Fonds-LLC"
  },
+ "n-1012736b69": {
+  "research_notes": "Lade ein hochauflösendes Porträtfoto oder ein 45-sekündiges Referenzvideo zusammen mit einer sauberen Sprachprobe hoch, um die Avatar-Identität zu konfigurieren.\n\nFüge das Videoskript in den Editor ein oder lade eine vorab aufgenommene Sprachspur hoch.\n\nFüge Bewegungs-Prompts neben Skriptwörtern ein, um bestimmte Gesten wie Zeigen oder Nicken vorzugeben.\n\nWähle vor dem Rendern zwischen dem Standard-Avatar 6 für maximale Detailtreue und Avatar 6 Turbo für eine geringere Latenz bei der Generierung.\n\nVerwende saubere, isolierte Audioaufnahmen ohne Hintergrundgeräusche oder Raumhall, um eine präzise Phonem-Ausrichtung und Lippensynchronisation zu gewährleisten.\n\nKombiniere natürliche Skriptformulierungen mit gezielten Bewegungs-Prompt-Hinweisen, statt jeden Satz übermäßig zu spezifizieren, um unnatürliche Gestendichte zu vermeiden.",
+  "summary": "HeyGen hat Avatar 6 veröffentlicht, ein Modell zur Avatar-Generierung mit skriptgesteuerten Gesten, nativer Auflösung von 2880×1620 und Unterstützung für bis zu 28 Minuten durchgehendes Rendering. Die Veröffentlichung umfasst eine Standardstufe sowie die Turbo-Stufe mit niedriger Latenz.",
+  "title": "HeyGen Avatar 6 bringt kontextbezogene Gesten und 2K-Videogenerierung"
+ },
  "n-1027303bd3": {
   "summary": "Am 30.06.2026 verlinkte ein Eintrag der LiveEdit-Entwicklungslinie die Projektwebsite, das Quellcode-Repository und die Hugging-Face-Seite. Diese datierten Links bilden einen wesentlichen öffentlichen Bezugspunkt für das Projekt, ohne jedoch eine bestimmte Veröffentlichung, Modellversion oder einen bestimmten Funktionsumfang festzulegen.",
   "title": "LiveEdit-Projektressourcen wurden öffentlich verlinkt"

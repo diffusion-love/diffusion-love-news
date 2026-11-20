@@ -336,6 +336,11 @@
   "summary": "Anthropic s'est engagée à céder 5 % des actions de la société pour créer l'Anthropic Public Benefit Fund LLC, sous réserve de l'approbation des actionnaires, avec des dispositions dynamiques du conseil d'administration prévoyant l'ajout de 2 % de capital par tranche de 50 % de hausse de la valorisation, afin de soutenir des organisations à but non lucratif et d'atténuer les effets sur l'emploi.",
   "title": "Anthropic engage 5 % de son capital dans un fonds d'utilité publique sous forme de LLC"
  },
+ "n-1012736b69": {
+  "research_notes": "Importez un portrait photographique haute résolution ou une vidéo de référence de 45 secondes, accompagné d'un échantillon vocal propre, afin de configurer l'identité de l'avatar.\n\nSaisissez le script vidéo dans l'éditeur ou importez une piste audio de discours préenregistrée.\n\nInsérez des indications de mouvement à côté des mots du script pour dicter des gestes précis, tels que pointer du doigt ou hocher la tête.\n\nChoisissez entre Avatar 6 standard, pour une fidélité maximale, ou Avatar 6 Turbo, pour une génération à latence réduite, avant le rendu.\n\nUtilisez des enregistrements audio propres et isolés, sans bruit de fond ni réverbération de pièce, afin de garantir un alignement précis des phonèmes et une synchronisation labiale fidèle.\n\nAssociez une formulation naturelle du script à des indications de mouvement ciblées plutôt que de spécifier chaque phrase, afin d'éviter une densité de gestes peu naturelle.",
+  "summary": "HeyGen a publié Avatar 6, un modèle de génération d'avatars proposant des gestes pilotés par le script, une résolution native de 2880×1620 et la prise en charge de jusqu'à 28 minutes de rendu continu. La version comprend des niveaux standard et Turbo à faible latence.",
+  "title": "HeyGen Avatar 6 introduit des gestes sensibles au contexte et la génération vidéo en 2K"
+ },
  "n-1027303bd3": {
   "summary": "Le 30 juin 2026, un élément de la ligne de développement de LiveEdit a publié des liens vers le site web du projet, son dépôt source et sa page Hugging Face. Ces liens datés constituent un point de référence public concret pour le projet, sans toutefois établir une version particulière, une version de modèle ou un ensemble de fonctionnalités donné.",
   "title": "Les ressources du projet LiveEdit ont été rendues publiques"
