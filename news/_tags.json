@@ -3004,6 +3004,10 @@
   "Waypoint-1.5": [
     "n-2090ac5f1b"
   ],
+  "Weight-Space Programming: weight-space-programming-research": [
+    "n-dda49a7597",
+    "n-9944feb281"
+  ],
   "What to Edit Next": [
     "n-c4e41aef2b"
   ],
@@ -7268,6 +7272,10 @@
   "family:waypoint": [
     "n-2090ac5f1b"
   ],
+  "family:weight-space-programming": [
+    "n-dda49a7597",
+    "n-9944feb281"
+  ],
   "family:what-to-edit-next": [
     "n-c4e41aef2b"
   ],
@@ -8800,6 +8808,7 @@
     "n-e4b7a4de7b",
     "n-e17cbf7ded",
     "n-df001e7bab",
+    "n-dda49a7597",
     "n-dd8d68b69f",
     "n-dc7072d90a",
     "n-db7fee9bb2",
@@ -9590,6 +9599,7 @@
     "n-9bab984caa",
     "n-99ff299eee",
     "n-99dadfd9bc",
+    "n-9944feb281",
     "n-992fb237e4",
     "n-98db5e9f27",
     "n-984ac0ee00",
@@ -12660,6 +12670,14 @@
     "n-1c50287b34",
     "n-093c066bee",
     "n-0588f1e672"
+  ],
+  "weight-space-programming": [
+    "n-dda49a7597",
+    "n-9944feb281"
+  ],
+  "weight-space-programming-research": [
+    "n-dda49a7597",
+    "n-9944feb281"
   ],
   "what-to-edit-next": [
     "n-c4e41aef2b"

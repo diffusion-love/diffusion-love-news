@@ -131,6 +131,25 @@
     "has_video": false
   },
   {
+    "id": "n-dda49a7597",
+    "date": "2026-11-19",
+    "title": "POSTECH evaluates LLM-driven weight synthesis across reasoning benchmarks",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "weight-space-programming",
+    "version": null,
+    "tags": [
+      "Weight-Space Programming: weight-space-programming-research",
+      "family:weight-space-programming",
+      "llm",
+      "weight-space-programming",
+      "weight-space-programming-research"
+    ],
+    "primary_link": "https://github.com/effl-lab/Weight-Space-Programming",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-d684acf3ae",
     "date": "2026-11-19",
     "title": "NGINX releases security patches for HTTP/2 vulnerabilities CVE-2026-123007 and CVE-2026-123633",
@@ -241,6 +260,25 @@
       "organization:google"
     ],
     "primary_link": "https://shareai.space/blog/2026/google-vypustila-gemini-4-neon-samuyu-doroguyu-model-novoy-l",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-9944feb281",
+    "date": "2026-11-19",
+    "title": "Weight-Space Programming compiles facts into sparse concept tables without gradient training",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "weight-space-programming",
+    "version": null,
+    "tags": [
+      "Weight-Space Programming: weight-space-programming-research",
+      "family:weight-space-programming",
+      "misc",
+      "weight-space-programming",
+      "weight-space-programming-research"
+    ],
+    "primary_link": "https://github.com/effl-lab/Weight-Space-Programming",
     "has_image": false,
     "has_video": false
   },

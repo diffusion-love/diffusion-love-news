@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-9944feb281",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Weight-Space Programming compiles facts into sparse concept tables without gradient training",
+ "summary": "POSTECH EffL researchers demonstrate that language models writing weights directly compile knowledge into sparse concept tables instead of standard transformers, yielding up to ~1,800x parameter reduction and higher GPU inference throughput while underperforming gradient descent on continuous perceptual tasks.",
+ "research_notes": "Clone the repository and install required environment dependencies: git clone https://github.com/effl-lab/Weight-Space-Programming.git\n\nDefine target task specifications, few-shot demonstrations, and configure the local interactive execution sandbox.\n\nPrompt a frontier reasoning language model to extract concepts and compile key-value weights and fixed search routines without backpropagation.\n\nEvaluate the generated sparse concept table on target reasoning benchmarks and inspect row-level activations for error analysis.\n\nConstrain weight-space compilation to sparse associative concept tables rather than attempting to hand-code dense multi-layer transformer matrices.\n\nDeploy weight-space synthesis specifically for reasoning and structured knowledge retrieval tasks where human-written facts can be isolated, avoiding raw perceptual pixel tasks where gradient descent remains superior.\n\nUtilize the tabular row-based representation of compiled weights for line-by-line inspection and surgical parameter debugging without risking catastrophic forgetting or global parameter drift.",
+ "project": {
+  "name": "Weight-Space Programming: weight-space-programming-research",
+  "family_slug": "weight-space-programming",
+  "family_display": "Weight-Space Programming: weight-space-programming-research",
+  "model_slug": "weight-space-programming",
+  "model_display": "Weight-Space Programming: weight-space-programming-research",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "weight-space-programming-research",
+  "thread_display": "Weight Space Programming Research",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Weight-Space Programming: weight-space-programming-research",
+  "article_url": "https://happyin.space/projects/weight-space-programming/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/932a0f9fd761c9b64c6002ce40d08efa13ab415c/docs/projects/weight-space-programming.md",
+  "agent_context_url": "https://happyin.space/projects/weight-space-programming/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "Weight-Space Programming compiles facts into sparse concept tables without gradient training",
+  "version": null,
+  "summary": "POSTECH EffL researchers demonstrate that language models writing weights directly compile knowledge into sparse concept tables instead of standard transformers, yielding up to ~1,800x parameter reduction and higher GPU inference throughput while underperforming gradient descent on continuous perceptual tasks."
+ },
+ "tags": [
+  "Weight-Space Programming: weight-space-programming-research",
+  "family:weight-space-programming",
+  "misc",
+  "weight-space-programming",
+  "weight-space-programming-research"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "weight-space-programming"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "code",
+   "url": "https://github.com/effl-lab/Weight-Space-Programming",
+   "host": "github.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T22:00:24Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "POSTECH EffL researchers demonstrate that language models writing weights directly compile knowledge into sparse concept tables instead of standard transformers, yielding up to ~1,800x parameter reduction and higher GPU inference throughput while underperforming gradient descent on continuous perceptual tasks."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T22:00:24Z",
+  "classified_at": "2026-11-20T22:00:24Z",
+  "enriched_at": "2026-11-20T22:00:24Z",
+  "verified_at": "2026-11-20T22:00:24Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
