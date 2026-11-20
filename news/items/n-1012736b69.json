@@ -1,0 +1,106 @@
+{
+ "schema_version": "1.4",
+ "id": "n-1012736b69",
+ "entry_type": "news",
+ "category": "animation-motion",
+ "lang": "en",
+ "title": "HeyGen Avatar 6 introduces context-aware gestures and 2K video generation",
+ "summary": "HeyGen released Avatar 6, an avatar generation model featuring script-driven gestures, native 2880×1620 resolution, and support for up to 28 minutes of continuous rendering. The release includes standard and low-latency Turbo tiers.",
+ "research_notes": "Upload a high-resolution portrait photograph or a 45-second reference video along with a clean voice sample to configure the avatar identity.\n\nInput the video script into the editor or upload a pre-recorded speech audio track.\n\nInsert motion prompts next to script words to dictate specific gestures such as pointing or nodding.\n\nSelect between standard Avatar 6 for maximum fidelity or Avatar 6 Turbo for lower-latency generation before rendering.\n\nUse clean, isolated audio recordings without background noise or room reverberation to ensure accurate phoneme alignment and lip synchronization.\n\nPair natural script phrasing with targeted motion prompt cues rather than over-specifying every sentence to avoid unnatural gesture density.",
+ "project": {
+  "name": "HeyGen Avatar 6: heygen-avatar-6-launch",
+  "family_slug": "heygen-avatar-6",
+  "family_display": "HeyGen Avatar 6: heygen-avatar-6-launch",
+  "model_slug": "heygen-avatar-6",
+  "model_display": "HeyGen Avatar 6: heygen-avatar-6-launch",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "heygen-avatar-6-launch",
+  "thread_display": "Heygen Avatar 6 Launch",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "HeyGen Avatar 6: heygen-avatar-6-launch",
+  "article_url": "https://happyin.space/projects/heygen-avatar-6/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a73ef17fb8e0e8f06f9ab8eae52af8a06d58ec49/docs/projects/heygen-avatar-6.md",
+  "agent_context_url": "https://happyin.space/projects/heygen-avatar-6/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "HeyGen Avatar 6 introduces context-aware gestures and 2K video generation",
+  "version": null,
+  "summary": "HeyGen released Avatar 6, an avatar generation model featuring script-driven gestures, native 2880×1620 resolution, and support for up to 28 minutes of continuous rendering. The release includes standard and low-latency Turbo tiers."
+ },
+ "tags": [
+  "HeyGen Avatar 6: heygen-avatar-6-launch",
+  "animation-motion",
+  "diffusion-video",
+  "family:heygen-avatar-6",
+  "heygen-avatar-6",
+  "heygen-avatar-6-launch"
+ ],
+ "facets": {
+  "category": "animation-motion",
+  "entry_type": "news",
+  "projects": [
+   "heygen-avatar-6"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://www.heygen.com/models/heygen-avatar-6",
+   "host": "heygen.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T11:50:40Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "HeyGen released Avatar 6, an avatar generation model featuring script-driven gestures, native 2880×1620 resolution, and support for up to 28 minutes of continuous rendering. The release includes standard and low-latency Turbo tiers."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T11:50:40Z",
+  "classified_at": "2026-11-20T11:50:40Z",
+  "enriched_at": "2026-11-20T11:50:40Z",
+  "verified_at": "2026-11-20T11:50:40Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

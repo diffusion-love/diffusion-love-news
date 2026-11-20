@@ -1160,6 +1160,9 @@
     "n-95d245f3eb",
     "n-367db0be8e"
   ],
+  "HeyGen Avatar 6: heygen-avatar-6-launch": [
+    "n-1012736b69"
+  ],
   "HeyGen avatar platform and developer integration": [
     "n-96edc5b567"
   ],
@@ -3238,6 +3241,7 @@
     "n-2fd5e60740",
     "n-207ed94fbd",
     "n-18c1e67c85",
+    "n-1012736b69",
     "n-0cf9d026b8",
     "n-03e4a812c8"
   ],
@@ -4361,6 +4365,7 @@
     "n-34034d382e",
     "n-2af8215f2c",
     "n-2090ac5f1b",
+    "n-1012736b69",
     "n-09f901429d",
     "n-09ee25f7d5",
     "n-0948d8e4a5",
@@ -5574,6 +5579,9 @@
   ],
   "family:hermes-agent": [
     "n-95d245f3eb"
+  ],
+  "family:heygen-avatar-6": [
+    "n-1012736b69"
   ],
   "family:heygen-hyperframes": [
     "n-076b3f0be6"
@@ -8039,6 +8047,12 @@
   ],
   "heygen": [
     "n-96edc5b567"
+  ],
+  "heygen-avatar-6": [
+    "n-1012736b69"
+  ],
+  "heygen-avatar-6-launch": [
+    "n-1012736b69"
   ],
   "heygen-hyperframes": [
     "n-076b3f0be6"
