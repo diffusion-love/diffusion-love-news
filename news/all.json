@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-20T07:25:48Z",
+  "generated_at": "2026-11-20T08:23:54Z",
   "site": "diffusion.love",
-  "total": 1353,
+  "total": 1357,
   "records": [
     {
       "schema_version": "1.4",
@@ -216,6 +216,229 @@
         "classified_at": "2026-11-20T01:21:57Z",
         "enriched_at": "2026-11-20T01:21:57Z",
         "verified_at": "2026-11-20T01:21:57Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-e023bc2664",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Suno launches public Model Context Protocol server for AI assistants and IDEs",
+      "summary": "Suno launched an official Model Context Protocol server at api.suno.com/mcp, enabling track generation and Suno Visuals creation directly inside Claude, ChatGPT, Gemini, Claude Code, and Cursor using OAuth authentication and existing account credits.",
+      "research_notes": "Configure the MCP client in Claude, ChatGPT, Gemini, or Cursor using the remote server endpoint URL https://api.suno.com/mcp.\n\nComplete the OAuth sign-in flow to link your Suno account and authorize credit usage.\n\nPrompt the assistant with musical style descriptions, genre preferences, or lyric drafts to generate full tracks, extensions, or video clips.\n\nEnsure you are logged into the target Suno account prior to initiating OAuth in the assistant to prevent linking an incorrect profile.\n\nSpecify explicit genre keywords, tempo, and vocal preferences in the chat prompt to minimize redundant credit consumption.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "suno",
+        "display": "Product development and industry relationships",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "product-development-and-industry-relationships",
+        "thread_display": "Product Development And Industry Relationships",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Product development and industry relationships",
+        "article_url": "https://happyin.space/organizations/suno/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/f653f9c1a512dc897a8b60cb5e864f4af3232647/docs/organizations/suno.md",
+        "agent_context_url": "https://happyin.space/organizations/suno/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Suno launches public Model Context Protocol server for AI assistants and IDEs",
+        "version": null,
+        "summary": "Suno launched an official Model Context Protocol server at api.suno.com/mcp, enabling track generation and Suno Visuals creation directly inside Claude, ChatGPT, Gemini, Claude Code, and Cursor using OAuth authentication and existing account credits."
+      },
+      "tags": [
+        "Product development and industry relationships",
+        "misc",
+        "organization:suno",
+        "product-development-and-industry-relationships",
+        "suno"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "suno"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://api.suno.com/mcp",
+          "host": "api.suno.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T08:23:54Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://suno.com/mcp",
+          "host": "suno.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T08:23:54Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Suno launched an official Model Context Protocol server at api.suno.com/mcp, enabling track generation and Suno Visuals creation directly inside Claude, ChatGPT, Gemini, Claude Code, and Cursor using OAuth authentication and existing account credits."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T08:23:54Z",
+        "classified_at": "2026-11-20T08:23:54Z",
+        "enriched_at": "2026-11-20T08:23:54Z",
+        "verified_at": "2026-11-20T08:23:54Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-d684acf3ae",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "NGINX releases security patches for HTTP/2 vulnerabilities CVE-2026-123007 and CVE-2026-123633",
+      "summary": "NGINX versions 1.30.7 and 1.31.9 resolve memory-corruption and use-after-free vulnerabilities in the HTTP/2 module that could allow unauthenticated remote code execution on servers with HTTP/2 enabled.",
+      "research_notes": "Inspect server configuration files to verify whether HTTP/2 is enabled via listen directives or http2 configuration directives.\n\nUpgrade NGINX Open Source installations to Stable version 1.30.7 or Mainline version 1.31.9, or apply corresponding vendor updates.\n\nIf immediate binary upgrades cannot be scheduled, disable the http2 parameter across all listen blocks and reload the server configuration.\n\nDeploy automated vulnerability auditing across all ingress controllers and edge reverse proxies to verify deployment of patched NGINX releases.\n\nEnforce strict unprivileged process isolation and container security profiles to limit blast radius in the event of worker-level memory corruption.",
+      "project": {
+        "name": "Nginx: nginx-http2-vulnerability-disclosure",
+        "family_slug": "nginx",
+        "family_display": "Nginx: nginx-http2-vulnerability-disclosure",
+        "model_slug": "nginx",
+        "model_display": "Nginx: nginx-http2-vulnerability-disclosure",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "nginx-http2-vulnerability-disclosure",
+        "thread_display": "Nginx Http2 Vulnerability Disclosure",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Nginx: nginx-http2-vulnerability-disclosure",
+        "article_url": "https://happyin.space/projects/nginx/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1abdcdbc1674c837dcc47601e5ac4a8d39a6bbf6/docs/projects/nginx.md",
+        "agent_context_url": "https://happyin.space/projects/nginx/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "NGINX releases security patches for HTTP/2 vulnerabilities CVE-2026-123007 and CVE-2026-123633",
+        "version": null,
+        "summary": "NGINX versions 1.30.7 and 1.31.9 resolve memory-corruption and use-after-free vulnerabilities in the HTTP/2 module that could allow unauthenticated remote code execution on servers with HTTP/2 enabled."
+      },
+      "tags": [
+        "Nginx: nginx-http2-vulnerability-disclosure",
+        "family:nginx",
+        "misc",
+        "nginx",
+        "nginx-http2-vulnerability-disclosure"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "nginx"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+          "host": "wiz.io",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T07:32:46Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "NGINX versions 1.30.7 and 1.31.9 resolve memory-corruption and use-after-free vulnerabilities in the HTTP/2 module that could allow unauthenticated remote code execution on servers with HTTP/2 enabled."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T07:32:46Z",
+        "classified_at": "2026-11-20T07:32:46Z",
+        "enriched_at": "2026-11-20T07:32:46Z",
+        "verified_at": "2026-11-20T07:32:46Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -653,6 +876,229 @@
         "classified_at": "2026-11-20T01:21:57Z",
         "enriched_at": "2026-11-20T01:21:57Z",
         "verified_at": "2026-11-20T01:21:57Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-5524914633",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Security advisory details two critical NGINX HTTP/2 remote code execution flaws",
+      "summary": "Security researchers disclosed CVE-2026-123007 and CVE-2026-123633, two critical remote code execution vulnerabilities in NGINX HTTP/2 handling. Upstream patches have been released for stable and mainline branches.",
+      "research_notes": "Inspect server configuration files to verify whether HTTP/2 is enabled via listen directives or http2 configuration directives.\n\nUpgrade NGINX Open Source installations to Stable version 1.30.7 or Mainline version 1.31.9, or apply corresponding vendor updates.\n\nIf immediate binary upgrades cannot be scheduled, disable the http2 parameter across all listen blocks and reload the server configuration.\n\nDeploy automated vulnerability auditing across all ingress controllers and edge reverse proxies to verify deployment of patched NGINX releases.\n\nEnforce strict unprivileged process isolation and container security profiles to limit blast radius in the event of worker-level memory corruption.",
+      "project": {
+        "name": "Nginx: nginx-http2-vulnerability-disclosure",
+        "family_slug": "nginx",
+        "family_display": "Nginx: nginx-http2-vulnerability-disclosure",
+        "model_slug": "nginx",
+        "model_display": "Nginx: nginx-http2-vulnerability-disclosure",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "nginx-http2-vulnerability-disclosure",
+        "thread_display": "Nginx Http2 Vulnerability Disclosure",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Nginx: nginx-http2-vulnerability-disclosure",
+        "article_url": "https://happyin.space/projects/nginx/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1abdcdbc1674c837dcc47601e5ac4a8d39a6bbf6/docs/projects/nginx.md",
+        "agent_context_url": "https://happyin.space/projects/nginx/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Security advisory details two critical NGINX HTTP/2 remote code execution flaws",
+        "version": null,
+        "summary": "Security researchers disclosed CVE-2026-123007 and CVE-2026-123633, two critical remote code execution vulnerabilities in NGINX HTTP/2 handling. Upstream patches have been released for stable and mainline branches."
+      },
+      "tags": [
+        "Nginx: nginx-http2-vulnerability-disclosure",
+        "family:nginx",
+        "misc",
+        "nginx",
+        "nginx-http2-vulnerability-disclosure"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "nginx"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+          "host": "wiz.io",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T07:32:46Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Security researchers disclosed CVE-2026-123007 and CVE-2026-123633, two critical remote code execution vulnerabilities in NGINX HTTP/2 handling. Upstream patches have been released for stable and mainline branches."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T07:32:46Z",
+        "classified_at": "2026-11-20T07:32:46Z",
+        "enriched_at": "2026-11-20T07:32:46Z",
+        "verified_at": "2026-11-20T07:32:46Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-00b6dfd5f9",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Suno releases MCP server connector with account library synchronization",
+      "summary": "Suno published client setup configurations for Claude, ChatGPT, Gemini, and Cursor connecting to api.suno.com/mcp, automatically synchronizing generated songs into the user's web library without API keys.",
+      "research_notes": "Configure the MCP client in Claude, ChatGPT, Gemini, or Cursor using the remote server endpoint URL https://api.suno.com/mcp.\n\nComplete the OAuth sign-in flow to link your Suno account and authorize credit usage.\n\nPrompt the assistant with musical style descriptions, genre preferences, or lyric drafts to generate full tracks, extensions, or video clips.\n\nEnsure you are logged into the target Suno account prior to initiating OAuth in the assistant to prevent linking an incorrect profile.\n\nSpecify explicit genre keywords, tempo, and vocal preferences in the chat prompt to minimize redundant credit consumption.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "suno",
+        "display": "Product development and industry relationships",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "product-development-and-industry-relationships",
+        "thread_display": "Product Development And Industry Relationships",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Product development and industry relationships",
+        "article_url": "https://happyin.space/organizations/suno/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/f653f9c1a512dc897a8b60cb5e864f4af3232647/docs/organizations/suno.md",
+        "agent_context_url": "https://happyin.space/organizations/suno/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Suno releases MCP server connector with account library synchronization",
+        "version": null,
+        "summary": "Suno published client setup configurations for Claude, ChatGPT, Gemini, and Cursor connecting to api.suno.com/mcp, automatically synchronizing generated songs into the user's web library without API keys."
+      },
+      "tags": [
+        "Product development and industry relationships",
+        "misc",
+        "organization:suno",
+        "product-development-and-industry-relationships",
+        "suno"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "suno"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://api.suno.com/mcp",
+          "host": "api.suno.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T08:23:54Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://suno.com/mcp",
+          "host": "suno.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-20T08:23:54Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Suno published client setup configurations for Claude, ChatGPT, Gemini, and Cursor connecting to api.suno.com/mcp, automatically synchronizing generated songs into the user's web library without API keys."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T08:23:54Z",
+        "classified_at": "2026-11-20T08:23:54Z",
+        "enriched_at": "2026-11-20T08:23:54Z",
+        "verified_at": "2026-11-20T08:23:54Z",
         "models_used": {
           "research": "curated-live-material"
         },

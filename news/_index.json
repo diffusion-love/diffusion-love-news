@@ -37,6 +37,44 @@
     "has_video": false
   },
   {
+    "id": "n-e023bc2664",
+    "date": "2026-11-19",
+    "title": "Suno launches public Model Context Protocol server for AI assistants and IDEs",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Product development and industry relationships",
+      "misc",
+      "organization:suno",
+      "product-development-and-industry-relationships",
+      "suno"
+    ],
+    "primary_link": "https://api.suno.com/mcp",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-d684acf3ae",
+    "date": "2026-11-19",
+    "title": "NGINX releases security patches for HTTP/2 vulnerabilities CVE-2026-123007 and CVE-2026-123633",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "nginx",
+    "version": null,
+    "tags": [
+      "Nginx: nginx-http2-vulnerability-disclosure",
+      "family:nginx",
+      "misc",
+      "nginx",
+      "nginx-http2-vulnerability-disclosure"
+    ],
+    "primary_link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-cce1cb230c",
     "date": "2026-11-19",
     "title": "AGSoft Save Image Plus adds focus mode, bilingual tooltips, and Nodes 2.0 preview",
@@ -109,6 +147,44 @@
       "tools-frontend"
     ],
     "primary_link": "https://blog.comfy.org/p/your-custom-comfyui-is-now-in-comfy?r=7xlbaw",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-5524914633",
+    "date": "2026-11-19",
+    "title": "Security advisory details two critical NGINX HTTP/2 remote code execution flaws",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "nginx",
+    "version": null,
+    "tags": [
+      "Nginx: nginx-http2-vulnerability-disclosure",
+      "family:nginx",
+      "misc",
+      "nginx",
+      "nginx-http2-vulnerability-disclosure"
+    ],
+    "primary_link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-00b6dfd5f9",
+    "date": "2026-11-19",
+    "title": "Suno releases MCP server connector with account library synchronization",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Product development and industry relationships",
+      "misc",
+      "organization:suno",
+      "product-development-and-industry-relationships",
+      "suno"
+    ],
+    "primary_link": "https://api.suno.com/mcp",
     "has_image": false,
     "has_video": false
   },

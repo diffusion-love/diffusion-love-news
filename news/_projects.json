@@ -75558,6 +75558,154 @@
     ],
     "claims": []
   },
+  "nginx": {
+    "family_slug": "nginx",
+    "family_display": "Nginx: nginx-http2-vulnerability-disclosure",
+    "family_display_variants": [
+      {
+        "family_display": "Nginx: nginx-http2-vulnerability-disclosure",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-5524914633",
+          "n-d684acf3ae"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-5524914633",
+      "n-d684acf3ae"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-5524914633",
+        "title": "Security advisory details two critical NGINX HTTP/2 remote code execution flaws",
+        "primary_link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-d684acf3ae",
+        "title": "NGINX releases security patches for HTTP/2 vulnerabilities CVE-2026-123007 and CVE-2026-123633",
+        "primary_link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "wiz.io",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+        "is_primary": true,
+        "verified_at": "2026-11-20T07:32:46Z",
+        "news_ids": [
+          "n-5524914633",
+          "n-d684acf3ae"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Security advisory details two critical NGINX HTTP/2 remote code execution flaws",
+        "summary": "Security researchers disclosed CVE-2026-123007 and CVE-2026-123633, two critical remote code execution vulnerabilities in NGINX HTTP/2 handling. Upstream patches have been released for stable and mainline branches.",
+        "version": null,
+        "news_id": "n-5524914633",
+        "primary_link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "NGINX releases security patches for HTTP/2 vulnerabilities CVE-2026-123007 and CVE-2026-123633",
+        "summary": "NGINX versions 1.30.7 and 1.31.9 resolve memory-corruption and use-after-free vulnerabilities in the HTTP/2 module that could allow unauthenticated remote code execution on servers with HTTP/2 enabled.",
+        "version": null,
+        "news_id": "n-d684acf3ae",
+        "primary_link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-d684acf3ae",
+        "date": "2026-11-19",
+        "title": "NGINX releases security patches for HTTP/2 vulnerabilities CVE-2026-123007 and CVE-2026-123633",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "nginx",
+        "version": null,
+        "tags": [
+          "Nginx: nginx-http2-vulnerability-disclosure",
+          "family:nginx",
+          "misc",
+          "nginx",
+          "nginx-http2-vulnerability-disclosure"
+        ],
+        "primary_link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-5524914633",
+        "date": "2026-11-19",
+        "title": "Security advisory details two critical NGINX HTTP/2 remote code execution flaws",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "nginx",
+        "version": null,
+        "tags": [
+          "Nginx: nginx-http2-vulnerability-disclosure",
+          "family:nginx",
+          "misc",
+          "nginx",
+          "nginx-http2-vulnerability-disclosure"
+        ],
+        "primary_link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "nginx-http2-vulnerability-disclosure",
+        "display": "Nginx Http2 Vulnerability Disclosure",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-d684acf3ae",
+        "news_ids": [
+          "n-5524914633",
+          "n-d684acf3ae"
+        ]
+      }
+    ]
+  },
   "nm-tech": {
     "family_slug": "nm-tech",
     "family_display": "Nm Tech",

@@ -1,0 +1,118 @@
+{
+ "schema_version": "1.4",
+ "id": "n-00b6dfd5f9",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Suno releases MCP server connector with account library synchronization",
+ "summary": "Suno published client setup configurations for Claude, ChatGPT, Gemini, and Cursor connecting to api.suno.com/mcp, automatically synchronizing generated songs into the user's web library without API keys.",
+ "research_notes": "Configure the MCP client in Claude, ChatGPT, Gemini, or Cursor using the remote server endpoint URL https://api.suno.com/mcp.\n\nComplete the OAuth sign-in flow to link your Suno account and authorize credit usage.\n\nPrompt the assistant with musical style descriptions, genre preferences, or lyric drafts to generate full tracks, extensions, or video clips.\n\nEnsure you are logged into the target Suno account prior to initiating OAuth in the assistant to prevent linking an incorrect profile.\n\nSpecify explicit genre keywords, tempo, and vocal preferences in the chat prompt to minimize redundant credit consumption.",
+ "project": {
+  "name": null,
+  "family_slug": null,
+  "family_display": null,
+  "model_slug": null,
+  "model_display": null,
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": {
+  "slug": "suno",
+  "display": "Product development and industry relationships",
+  "homepage": null
+ },
+ "development": {
+  "scope": "organization",
+  "thread_slug": "product-development-and-industry-relationships",
+  "thread_display": "Product Development And Industry Relationships",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Product development and industry relationships",
+  "article_url": "https://happyin.space/organizations/suno/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/f653f9c1a512dc897a8b60cb5e864f4af3232647/docs/organizations/suno.md",
+  "agent_context_url": "https://happyin.space/organizations/suno/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-19",
+  "title": "Suno releases MCP server connector with account library synchronization",
+  "version": null,
+  "summary": "Suno published client setup configurations for Claude, ChatGPT, Gemini, and Cursor connecting to api.suno.com/mcp, automatically synchronizing generated songs into the user's web library without API keys."
+ },
+ "tags": [
+  "Product development and industry relationships",
+  "misc",
+  "organization:suno",
+  "product-development-and-industry-relationships",
+  "suno"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [
+   "suno"
+  ],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://api.suno.com/mcp",
+   "host": "api.suno.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-20T08:23:54Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://suno.com/mcp",
+   "host": "suno.com",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-20T08:23:54Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-19",
+  "excerpt": "Suno published client setup configurations for Claude, ChatGPT, Gemini, and Cursor connecting to api.suno.com/mcp, automatically synchronizing generated songs into the user's web library without API keys."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-20T08:23:54Z",
+  "classified_at": "2026-11-20T08:23:54Z",
+  "enriched_at": "2026-11-20T08:23:54Z",
+  "verified_at": "2026-11-20T08:23:54Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
