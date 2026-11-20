@@ -1,0 +1,11 @@
+{
+ "id": "n-f79b30faa0",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Instale la aplicación del agente y configure los permisos del sistema operativo del host para la accesibilidad y el listener de notificaciones necesarios para la automatización entre aplicaciones.\n\nConecte cuentas de aplicaciones de terceros autorizadas a través del almacén de credenciales aislado para la delegación de tareas.\n\nEnvíe indicaciones de tareas en lenguaje conversacional mientras verifica y supervisa las acciones autónomas en segundo plano antes de su ejecución.\n\nDeshabilite los permisos amplios de accesibilidad del dispositivo y del listener de notificaciones push para evitar que el agente ingiera contexto de aplicaciones de mensajería cifradas de extremo a extremo.\n\nAísle las cuentas financieras y los servicios transaccionales sensibles de la ejecución automatizada de reservas y pagos.\n\nExcluya sus datos de la compartición para el entrenamiento de modelos y verifique que los contextos de sesión se ejecuten dentro de entornos de máquinas virtuales seguros y aislados.",
+ "source_sha256": "694c628832383fa3a3cdde01ff2e450268fe7b05a06e81323aa8ee4c33272622",
+ "summary": "Las pruebas internas realizadas por empleados con el agente de IA personal experimental Muse de Meta revelaron una mezcla de conversaciones entre cuentas, que dejó al descubierto saldos bancarios privados y acciones no autorizadas a través de permisos amplios de accesibilidad y de notificaciones del dispositivo; Meta atribuyó estos hechos a alucinaciones provocadas por indicaciones en las versiones de prueba.",
+ "title": "El agente de IA Muse de Meta supuestamente muestra contexto de otras cuentas y datos privados durante las pruebas internas",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}
