@@ -27578,6 +27578,194 @@
     ],
     "claims": []
   },
+  "dream-daw": {
+    "family_slug": "dream-daw",
+    "family_display": "Dream DAW: dream-daw-feature-updates",
+    "family_display_variants": [
+      {
+        "family_display": "Dream DAW: dream-daw-feature-updates",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-8fcd7abf33",
+          "n-90e6085d9b",
+          "n-ed7778c240"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc",
+      "tools-frontend"
+    ],
+    "post_count": 3,
+    "first_seen": "2026-11-18",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-8fcd7abf33",
+      "n-90e6085d9b",
+      "n-ed7778c240"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-18",
+        "news_id": "n-8fcd7abf33",
+        "title": "Dream DAW open-source desktop workstation published on GitHub",
+        "primary_link": "https://github.com/leoerdman/Dream-DAW"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-90e6085d9b",
+        "title": "Dream-DAW integrates OpenRouter AI assistant and generative composition tools",
+        "primary_link": "https://github.com/leoerdman/Dream-DAW"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-ed7778c240",
+        "title": "Dream-DAW implements isolated plugin hosting and cached stem separation",
+        "primary_link": "https://github.com/leoerdman/Dream-DAW"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/leoerdman/Dream-DAW",
+        "is_primary": true,
+        "verified_at": "2026-11-20T17:14:17Z",
+        "news_ids": [
+          "n-8fcd7abf33",
+          "n-90e6085d9b",
+          "n-ed7778c240"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Dream DAW open-source desktop workstation published on GitHub",
+        "summary": "Dream DAW published its cross-platform digital audio workstation repository on GitHub, featuring a native audio engine written in Rust with a Tauri and TypeScript desktop interface.",
+        "version": null,
+        "news_id": "n-8fcd7abf33",
+        "primary_link": "https://github.com/leoerdman/Dream-DAW"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Dream-DAW integrates OpenRouter AI assistant and generative composition tools",
+        "summary": "Dream-DAW added an OpenRouter-powered AI assistant capable of programmatic project and clip manipulation, accompanied by algorithmic chord and arpeggio generators, beat pattern synthesis, voice input, and Ableton Live project import.",
+        "version": null,
+        "news_id": "n-90e6085d9b",
+        "primary_link": "https://github.com/leoerdman/Dream-DAW"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Dream-DAW implements isolated plugin hosting and cached stem separation",
+        "summary": "Dream-DAW introduced out-of-process plugin hosting for VST2, VST3, and AU formats to prevent audio engine crashes, alongside neural audio stem separation with audio fingerprint caching.",
+        "version": null,
+        "news_id": "n-ed7778c240",
+        "primary_link": "https://github.com/leoerdman/Dream-DAW"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-ed7778c240",
+        "date": "2026-11-19",
+        "title": "Dream-DAW implements isolated plugin hosting and cached stem separation",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "dream-daw",
+        "version": null,
+        "tags": [
+          "Dream DAW: dream-daw-feature-updates",
+          "dream-daw",
+          "dream-daw-feature-updates",
+          "family:dream-daw",
+          "tools-frontend"
+        ],
+        "primary_link": "https://github.com/leoerdman/Dream-DAW",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-90e6085d9b",
+        "date": "2026-11-19",
+        "title": "Dream-DAW integrates OpenRouter AI assistant and generative composition tools",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "dream-daw",
+        "version": null,
+        "tags": [
+          "Dream DAW: dream-daw-feature-updates",
+          "dream-daw",
+          "dream-daw-feature-updates",
+          "family:dream-daw",
+          "misc"
+        ],
+        "primary_link": "https://github.com/leoerdman/Dream-DAW",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-8fcd7abf33",
+        "date": "2026-11-18",
+        "title": "Dream DAW open-source desktop workstation published on GitHub",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "dream-daw",
+        "version": null,
+        "tags": [
+          "Dream DAW: dream-daw-feature-updates",
+          "dream-daw",
+          "dream-daw-feature-updates",
+          "family:dream-daw",
+          "misc"
+        ],
+        "primary_link": "https://github.com/leoerdman/Dream-DAW",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "dream-daw-feature-updates",
+        "display": "Dream Daw Feature Updates",
+        "first_seen": "2026-11-18",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-ed7778c240",
+        "news_ids": [
+          "n-8fcd7abf33",
+          "n-90e6085d9b",
+          "n-ed7778c240"
+        ]
+      }
+    ]
+  },
   "dreamlite": {
     "family_slug": "dreamlite",
     "family_display": "DreamLite",

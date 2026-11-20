@@ -812,6 +812,11 @@
   "Dramabox": [
     "n-145acbde64"
   ],
+  "Dream DAW: dream-daw-feature-updates": [
+    "n-ed7778c240",
+    "n-90e6085d9b",
+    "n-8fcd7abf33"
+  ],
   "DreamLite": [
     "n-c56d07046e"
   ],
@@ -5472,6 +5477,16 @@
   "dramabox": [
     "n-145acbde64"
   ],
+  "dream-daw": [
+    "n-ed7778c240",
+    "n-90e6085d9b",
+    "n-8fcd7abf33"
+  ],
+  "dream-daw-feature-updates": [
+    "n-ed7778c240",
+    "n-90e6085d9b",
+    "n-8fcd7abf33"
+  ],
   "dreambooth-hackathon": [
     "n-eaca645aaa",
     "n-8b6446fbc3",
@@ -6398,6 +6413,11 @@
   ],
   "family:dramabox": [
     "n-145acbde64"
+  ],
+  "family:dream-daw": [
+    "n-ed7778c240",
+    "n-90e6085d9b",
+    "n-8fcd7abf33"
   ],
   "family:dreamlite": [
     "n-c56d07046e"
@@ -11870,10 +11890,12 @@
     "n-92d11a1f17",
     "n-920abfb1e3",
     "n-91acd5d17b",
+    "n-90e6085d9b",
     "n-90de9801d2",
     "n-90bd6c1615",
     "n-904eaadcd5",
     "n-901220b5b4",
+    "n-8fcd7abf33",
     "n-8f82aff737",
     "n-8f2e77690e",
     "n-8ef1289f87",
@@ -15720,6 +15742,7 @@
     "n-f6c6cdf729",
     "n-ef68e2a314",
     "n-edad1a10a0",
+    "n-ed7778c240",
     "n-ebeab9837a",
     "n-e712086893",
     "n-e4d5ff5436",

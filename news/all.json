@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-20T12:30:59Z",
+  "generated_at": "2026-11-20T17:14:17Z",
   "site": "diffusion.love",
-  "total": 1372,
+  "total": 1375,
   "records": [
     {
       "schema_version": "1.4",
@@ -429,6 +429,111 @@
         "classified_at": "2026-11-20T01:21:57Z",
         "enriched_at": "2026-11-20T01:21:57Z",
         "verified_at": "2026-11-20T01:21:57Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-ed7778c240",
+      "entry_type": "news",
+      "category": "tools-frontend",
+      "lang": "en",
+      "title": "Dream-DAW implements isolated plugin hosting and cached stem separation",
+      "summary": "Dream-DAW introduced out-of-process plugin hosting for VST2, VST3, and AU formats to prevent audio engine crashes, alongside neural audio stem separation with audio fingerprint caching.",
+      "research_notes": "Clone the repository from GitHub and install system dependencies including Rust, Node.js, and platform audio build libraries.\n\nBuild and run the Tauri desktop application to initialize the React user interface and native audio playback engine.\n\nProvide an OpenRouter API key in application preferences to activate the AI assistant for track creation, clip editing, and chord generation.\n\nScan local VST2, VST3, and AU plugin folders or import existing Ableton Live project files into the timeline.\n\nHost complex or unstable third-party VST and AU plugins in separate processes to prevent external plugin errors from crashing the main audio engine.\n\nKeep audio fingerprint caching active during stem separation to eliminate redundant compute overhead on repeated audio segments.\n\nReview assistant-generated MIDI notes and track structures prior to destructive timeline commits to ensure musical coherence.",
+      "project": {
+        "name": "Dream DAW: dream-daw-feature-updates",
+        "family_slug": "dream-daw",
+        "family_display": "Dream DAW: dream-daw-feature-updates",
+        "model_slug": "dream-daw",
+        "model_display": "Dream DAW: dream-daw-feature-updates",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "dream-daw-feature-updates",
+        "thread_display": "Dream Daw Feature Updates",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Dream DAW: dream-daw-feature-updates",
+        "article_url": "https://happyin.space/projects/dream-daw/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/0681d5e48ea6c9260861fa6badd038a5e32dfd2c/docs/projects/dream-daw.md",
+        "agent_context_url": "https://happyin.space/projects/dream-daw/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Dream-DAW implements isolated plugin hosting and cached stem separation",
+        "version": null,
+        "summary": "Dream-DAW introduced out-of-process plugin hosting for VST2, VST3, and AU formats to prevent audio engine crashes, alongside neural audio stem separation with audio fingerprint caching."
+      },
+      "tags": [
+        "Dream DAW: dream-daw-feature-updates",
+        "dream-daw",
+        "dream-daw-feature-updates",
+        "family:dream-daw",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "projects": [
+          "dream-daw"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/leoerdman/Dream-DAW",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T17:14:17Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Dream-DAW introduced out-of-process plugin hosting for VST2, VST3, and AU formats to prevent audio engine crashes, alongside neural audio stem separation with audio fingerprint caching."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T17:14:17Z",
+        "classified_at": "2026-11-20T17:14:17Z",
+        "enriched_at": "2026-11-20T17:14:17Z",
+        "verified_at": "2026-11-20T17:14:17Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -1189,6 +1294,111 @@
         "classified_at": "2026-11-20T09:28:41Z",
         "enriched_at": "2026-11-20T09:28:41Z",
         "verified_at": "2026-11-20T09:28:41Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-90e6085d9b",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Dream-DAW integrates OpenRouter AI assistant and generative composition tools",
+      "summary": "Dream-DAW added an OpenRouter-powered AI assistant capable of programmatic project and clip manipulation, accompanied by algorithmic chord and arpeggio generators, beat pattern synthesis, voice input, and Ableton Live project import.",
+      "research_notes": "Clone the repository from GitHub and install system dependencies including Rust, Node.js, and platform audio build libraries.\n\nBuild and run the Tauri desktop application to initialize the React user interface and native audio playback engine.\n\nProvide an OpenRouter API key in application preferences to activate the AI assistant for track creation, clip editing, and chord generation.\n\nScan local VST2, VST3, and AU plugin folders or import existing Ableton Live project files into the timeline.\n\nHost complex or unstable third-party VST and AU plugins in separate processes to prevent external plugin errors from crashing the main audio engine.\n\nKeep audio fingerprint caching active during stem separation to eliminate redundant compute overhead on repeated audio segments.\n\nReview assistant-generated MIDI notes and track structures prior to destructive timeline commits to ensure musical coherence.",
+      "project": {
+        "name": "Dream DAW: dream-daw-feature-updates",
+        "family_slug": "dream-daw",
+        "family_display": "Dream DAW: dream-daw-feature-updates",
+        "model_slug": "dream-daw",
+        "model_display": "Dream DAW: dream-daw-feature-updates",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "dream-daw-feature-updates",
+        "thread_display": "Dream Daw Feature Updates",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Dream DAW: dream-daw-feature-updates",
+        "article_url": "https://happyin.space/projects/dream-daw/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/0681d5e48ea6c9260861fa6badd038a5e32dfd2c/docs/projects/dream-daw.md",
+        "agent_context_url": "https://happyin.space/projects/dream-daw/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "Dream-DAW integrates OpenRouter AI assistant and generative composition tools",
+        "version": null,
+        "summary": "Dream-DAW added an OpenRouter-powered AI assistant capable of programmatic project and clip manipulation, accompanied by algorithmic chord and arpeggio generators, beat pattern synthesis, voice input, and Ableton Live project import."
+      },
+      "tags": [
+        "Dream DAW: dream-daw-feature-updates",
+        "dream-daw",
+        "dream-daw-feature-updates",
+        "family:dream-daw",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "dream-daw"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/leoerdman/Dream-DAW",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T17:14:17Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "Dream-DAW added an OpenRouter-powered AI assistant capable of programmatic project and clip manipulation, accompanied by algorithmic chord and arpeggio generators, beat pattern synthesis, voice input, and Ableton Live project import."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T17:14:17Z",
+        "classified_at": "2026-11-20T17:14:17Z",
+        "enriched_at": "2026-11-20T17:14:17Z",
+        "verified_at": "2026-11-20T17:14:17Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -3336,6 +3546,111 @@
         "classified_at": "2026-11-20T12:30:59Z",
         "enriched_at": "2026-11-20T12:30:59Z",
         "verified_at": "2026-11-20T12:30:59Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-8fcd7abf33",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Dream DAW open-source desktop workstation published on GitHub",
+      "summary": "Dream DAW published its cross-platform digital audio workstation repository on GitHub, featuring a native audio engine written in Rust with a Tauri and TypeScript desktop interface.",
+      "research_notes": "Clone the repository from GitHub and install system dependencies including Rust, Node.js, and platform audio build libraries.\n\nBuild and run the Tauri desktop application to initialize the React user interface and native audio playback engine.\n\nProvide an OpenRouter API key in application preferences to activate the AI assistant for track creation, clip editing, and chord generation.\n\nScan local VST2, VST3, and AU plugin folders or import existing Ableton Live project files into the timeline.\n\nHost complex or unstable third-party VST and AU plugins in separate processes to prevent external plugin errors from crashing the main audio engine.\n\nKeep audio fingerprint caching active during stem separation to eliminate redundant compute overhead on repeated audio segments.\n\nReview assistant-generated MIDI notes and track structures prior to destructive timeline commits to ensure musical coherence.",
+      "project": {
+        "name": "Dream DAW: dream-daw-feature-updates",
+        "family_slug": "dream-daw",
+        "family_display": "Dream DAW: dream-daw-feature-updates",
+        "model_slug": "dream-daw",
+        "model_display": "Dream DAW: dream-daw-feature-updates",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "dream-daw-feature-updates",
+        "thread_display": "Dream Daw Feature Updates",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Dream DAW: dream-daw-feature-updates",
+        "article_url": "https://happyin.space/projects/dream-daw/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/0681d5e48ea6c9260861fa6badd038a5e32dfd2c/docs/projects/dream-daw.md",
+        "agent_context_url": "https://happyin.space/projects/dream-daw/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-18",
+        "title": "Dream DAW open-source desktop workstation published on GitHub",
+        "version": null,
+        "summary": "Dream DAW published its cross-platform digital audio workstation repository on GitHub, featuring a native audio engine written in Rust with a Tauri and TypeScript desktop interface."
+      },
+      "tags": [
+        "Dream DAW: dream-daw-feature-updates",
+        "dream-daw",
+        "dream-daw-feature-updates",
+        "family:dream-daw",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "dream-daw"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/leoerdman/Dream-DAW",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T17:14:17Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-18",
+        "excerpt": "Dream DAW published its cross-platform digital audio workstation repository on GitHub, featuring a native audio engine written in Rust with a Tauri and TypeScript desktop interface."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T17:14:17Z",
+        "classified_at": "2026-11-20T17:14:17Z",
+        "enriched_at": "2026-11-20T17:14:17Z",
+        "verified_at": "2026-11-20T17:14:17Z",
         "models_used": {
           "research": "curated-live-material"
         },
