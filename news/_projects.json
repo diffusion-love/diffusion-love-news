@@ -38977,6 +38977,18 @@
           "n-2a63a39249",
           "n-ef6922bf2a"
         ]
+      },
+      {
+        "kind": "reference",
+        "host": "gitverse.ru",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://gitverse.ru/GigaTeam/gigachat3.5-reasoning",
+        "is_primary": false,
+        "verified_at": "2026-11-18T18:56:44Z",
+        "news_ids": [
+          "n-ef6922bf2a"
+        ]
       }
     ],
     "timeline": [
@@ -76694,6 +76706,154 @@
       }
     ]
   },
+  "nirjala": {
+    "family_slug": "nirjala",
+    "family_display": "Nirjala: nirjala-underwater-gaussian-splatting",
+    "family_display_variants": [
+      {
+        "family_display": "Nirjala: nirjala-underwater-gaussian-splatting",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "news_ids": [
+          "n-4f75d14eb4",
+          "n-f08df9a83a"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "gaussian-splatting"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-19",
+    "last_seen": "2026-11-19",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-4f75d14eb4",
+      "n-f08df9a83a"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-4f75d14eb4",
+        "title": "NIRJALA introduces 3D Gaussian Splatting for water-free underwater reconstruction",
+        "primary_link": "https://arxiv.org/abs/2611.23450"
+      },
+      {
+        "version": null,
+        "date": "2026-11-19",
+        "news_id": "n-f08df9a83a",
+        "title": "NIRJALA framework bounds inversion gain in underwater Gaussian Splatting",
+        "primary_link": "https://arxiv.org/abs/2611.23450"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.23450",
+        "is_primary": true,
+        "verified_at": "2026-11-20T18:16:12Z",
+        "news_ids": [
+          "n-4f75d14eb4",
+          "n-f08df9a83a"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "NIRJALA introduces 3D Gaussian Splatting for water-free underwater reconstruction",
+        "summary": "NIRJALA couples a three-path image formation model with forward scattering and physical priors to jointly reconstruct clean underwater scene appearance and geometry at 44 FPS.",
+        "version": null,
+        "news_id": "n-4f75d14eb4",
+        "primary_link": "https://arxiv.org/abs/2611.23450"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "NIRJALA framework bounds inversion gain in underwater Gaussian Splatting",
+        "summary": "NIRJALA introduces a three-path image formation model (TRIVENI) to keep inversion gain bounded across distances, combining the PRATIBIMBA reversible physical anchor, SAMARASA physics-informed objectives, and a 30-scene path-traced synthetic benchmark.",
+        "version": null,
+        "news_id": "n-f08df9a83a",
+        "primary_link": "https://arxiv.org/abs/2611.23450"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-f08df9a83a",
+        "date": "2026-11-19",
+        "title": "NIRJALA framework bounds inversion gain in underwater Gaussian Splatting",
+        "category": "gaussian-splatting",
+        "entry_type": "news",
+        "project": "nirjala",
+        "version": null,
+        "tags": [
+          "Nirjala: nirjala-underwater-gaussian-splatting",
+          "family:nirjala",
+          "gaussian-splatting",
+          "nirjala",
+          "nirjala-underwater-gaussian-splatting"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.23450",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-4f75d14eb4",
+        "date": "2026-11-19",
+        "title": "NIRJALA introduces 3D Gaussian Splatting for water-free underwater reconstruction",
+        "category": "gaussian-splatting",
+        "entry_type": "news",
+        "project": "nirjala",
+        "version": null,
+        "tags": [
+          "Nirjala: nirjala-underwater-gaussian-splatting",
+          "family:nirjala",
+          "gaussian-splatting",
+          "nirjala",
+          "nirjala-underwater-gaussian-splatting"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.23450",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "nirjala-underwater-gaussian-splatting",
+        "display": "Nirjala Underwater Gaussian Splatting",
+        "first_seen": "2026-11-19",
+        "last_seen": "2026-11-19",
+        "latest_news_id": "n-f08df9a83a",
+        "news_ids": [
+          "n-4f75d14eb4",
+          "n-f08df9a83a"
+        ]
+      }
+    ]
+  },
   "nm-tech": {
     "family_slug": "nm-tech",
     "family_display": "Nm Tech",
@@ -104894,18 +105054,6 @@
         "lang": "en",
         "status": "unverified",
         "url": "https://github.com/vrgamegirl19/VRGDG-SeedVR2-TensorRT-Studio/blob/main/README.md",
-        "is_primary": false,
-        "verified_at": "2026-09-06T00:01:23Z",
-        "news_ids": [
-          "n-92aedf6bb2"
-        ]
-      },
-      {
-        "kind": "code",
-        "host": "github.com",
-        "lang": "en",
-        "status": "unverified",
-        "url": "https://github.com/vrgamegirl19/VRGDG-SeedVR2-TensorRT-Studio/blob/main/THIRD_PARTY_NOTICES.md",
         "is_primary": false,
         "verified_at": "2026-09-06T00:01:23Z",
         "news_ids": [

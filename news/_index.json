@@ -56,6 +56,25 @@
     "has_video": false
   },
   {
+    "id": "n-f08df9a83a",
+    "date": "2026-11-19",
+    "title": "NIRJALA framework bounds inversion gain in underwater Gaussian Splatting",
+    "category": "gaussian-splatting",
+    "entry_type": "news",
+    "project": "nirjala",
+    "version": null,
+    "tags": [
+      "Nirjala: nirjala-underwater-gaussian-splatting",
+      "family:nirjala",
+      "gaussian-splatting",
+      "nirjala",
+      "nirjala-underwater-gaussian-splatting"
+    ],
+    "primary_link": "https://arxiv.org/abs/2611.23450",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-ef68e2a314",
     "date": "2026-11-19",
     "title": "Comfy Cloud enables custom workflows on enterprise GPUs",
@@ -336,6 +355,25 @@
       "opencode-development"
     ],
     "primary_link": "https://opencode.ai/mobile",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-4f75d14eb4",
+    "date": "2026-11-19",
+    "title": "NIRJALA introduces 3D Gaussian Splatting for water-free underwater reconstruction",
+    "category": "gaussian-splatting",
+    "entry_type": "news",
+    "project": "nirjala",
+    "version": null,
+    "tags": [
+      "Nirjala: nirjala-underwater-gaussian-splatting",
+      "family:nirjala",
+      "gaussian-splatting",
+      "nirjala",
+      "nirjala-underwater-gaussian-splatting"
+    ],
+    "primary_link": "https://arxiv.org/abs/2611.23450",
     "has_image": false,
     "has_video": false
   },

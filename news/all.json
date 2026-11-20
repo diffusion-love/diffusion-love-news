@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-20T17:14:17Z",
+  "generated_at": "2026-11-20T18:16:12Z",
   "site": "diffusion.love",
-  "total": 1375,
+  "total": 1377,
   "records": [
     {
       "schema_version": "1.4",
@@ -316,6 +316,111 @@
         "classified_at": "2026-11-20T09:28:41Z",
         "enriched_at": "2026-11-20T09:28:41Z",
         "verified_at": "2026-11-20T09:28:41Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-f08df9a83a",
+      "entry_type": "news",
+      "category": "gaussian-splatting",
+      "lang": "en",
+      "title": "NIRJALA framework bounds inversion gain in underwater Gaussian Splatting",
+      "summary": "NIRJALA introduces a three-path image formation model (TRIVENI) to keep inversion gain bounded across distances, combining the PRATIBIMBA reversible physical anchor, SAMARASA physics-informed objectives, and a 30-scene path-traced synthetic benchmark.",
+      "research_notes": "Calibrate multi-view underwater camera images and estimate camera poses via structure-from-motion.\n\nInitialize 3D Gaussians and fit the 10-parameter global physical water model alongside neural transmission parameters using the TRIVENI three-path formation model.\n\nOptimize geometry and appearance with SAMARASA objectives, enforcing range-binned color priors to balance channel attenuation across distances.\n\nRender novel views in real time with the estimated water medium inverted to produce medium-free imagery.\n\nConstrain neural water field estimation with the PRATIBIMBA bidirectional physical anchor to prevent scene geometry from absorbing medium parameters.\n\nEmploy range-binned color balancing during optimization to address differential wavelength attenuation across depth intervals.",
+      "project": {
+        "name": "Nirjala: nirjala-underwater-gaussian-splatting",
+        "family_slug": "nirjala",
+        "family_display": "Nirjala: nirjala-underwater-gaussian-splatting",
+        "model_slug": "nirjala",
+        "model_display": "Nirjala: nirjala-underwater-gaussian-splatting",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "nirjala-underwater-gaussian-splatting",
+        "thread_display": "Nirjala Underwater Gaussian Splatting",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Nirjala: nirjala-underwater-gaussian-splatting",
+        "article_url": "https://happyin.space/projects/nirjala/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/c4b481bfd6c3675aea6af36ed582856fdb13e5be/docs/projects/nirjala.md",
+        "agent_context_url": "https://happyin.space/projects/nirjala/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "NIRJALA framework bounds inversion gain in underwater Gaussian Splatting",
+        "version": null,
+        "summary": "NIRJALA introduces a three-path image formation model (TRIVENI) to keep inversion gain bounded across distances, combining the PRATIBIMBA reversible physical anchor, SAMARASA physics-informed objectives, and a 30-scene path-traced synthetic benchmark."
+      },
+      "tags": [
+        "Nirjala: nirjala-underwater-gaussian-splatting",
+        "family:nirjala",
+        "gaussian-splatting",
+        "nirjala",
+        "nirjala-underwater-gaussian-splatting"
+      ],
+      "facets": {
+        "category": "gaussian-splatting",
+        "entry_type": "news",
+        "projects": [
+          "nirjala"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23450",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T18:16:12Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "NIRJALA introduces a three-path image formation model (TRIVENI) to keep inversion gain bounded across distances, combining the PRATIBIMBA reversible physical anchor, SAMARASA physics-informed objectives, and a 30-scene path-traced synthetic benchmark."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T18:16:12Z",
+        "classified_at": "2026-11-20T18:16:12Z",
+        "enriched_at": "2026-11-20T18:16:12Z",
+        "verified_at": "2026-11-20T18:16:12Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -1991,6 +2096,111 @@
         "classified_at": "2026-11-20T09:49:28Z",
         "enriched_at": "2026-11-20T09:49:28Z",
         "verified_at": "2026-11-20T09:49:28Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-4f75d14eb4",
+      "entry_type": "news",
+      "category": "gaussian-splatting",
+      "lang": "en",
+      "title": "NIRJALA introduces 3D Gaussian Splatting for water-free underwater reconstruction",
+      "summary": "NIRJALA couples a three-path image formation model with forward scattering and physical priors to jointly reconstruct clean underwater scene appearance and geometry at 44 FPS.",
+      "research_notes": "Calibrate multi-view underwater camera images and estimate camera poses via structure-from-motion.\n\nInitialize 3D Gaussians and fit the 10-parameter global physical water model alongside neural transmission parameters using the TRIVENI three-path formation model.\n\nOptimize geometry and appearance with SAMARASA objectives, enforcing range-binned color priors to balance channel attenuation across distances.\n\nRender novel views in real time with the estimated water medium inverted to produce medium-free imagery.\n\nConstrain neural water field estimation with the PRATIBIMBA bidirectional physical anchor to prevent scene geometry from absorbing medium parameters.\n\nEmploy range-binned color balancing during optimization to address differential wavelength attenuation across depth intervals.",
+      "project": {
+        "name": "Nirjala: nirjala-underwater-gaussian-splatting",
+        "family_slug": "nirjala",
+        "family_display": "Nirjala: nirjala-underwater-gaussian-splatting",
+        "model_slug": "nirjala",
+        "model_display": "Nirjala: nirjala-underwater-gaussian-splatting",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "nirjala-underwater-gaussian-splatting",
+        "thread_display": "Nirjala Underwater Gaussian Splatting",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Nirjala: nirjala-underwater-gaussian-splatting",
+        "article_url": "https://happyin.space/projects/nirjala/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/c4b481bfd6c3675aea6af36ed582856fdb13e5be/docs/projects/nirjala.md",
+        "agent_context_url": "https://happyin.space/projects/nirjala/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-19",
+        "title": "NIRJALA introduces 3D Gaussian Splatting for water-free underwater reconstruction",
+        "version": null,
+        "summary": "NIRJALA couples a three-path image formation model with forward scattering and physical priors to jointly reconstruct clean underwater scene appearance and geometry at 44 FPS."
+      },
+      "tags": [
+        "Nirjala: nirjala-underwater-gaussian-splatting",
+        "family:nirjala",
+        "gaussian-splatting",
+        "nirjala",
+        "nirjala-underwater-gaussian-splatting"
+      ],
+      "facets": {
+        "category": "gaussian-splatting",
+        "entry_type": "news",
+        "projects": [
+          "nirjala"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.23450",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-20T18:16:12Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-19",
+        "excerpt": "NIRJALA couples a three-path image formation model with forward scattering and physical priors to jointly reconstruct clean underwater scene appearance and geometry at 44 FPS."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-20T18:16:12Z",
+        "classified_at": "2026-11-20T18:16:12Z",
+        "enriched_at": "2026-11-20T18:16:12Z",
+        "verified_at": "2026-11-20T18:16:12Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -10496,6 +10706,15 @@
           "host": "huggingface.co",
           "lang": "en",
           "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-18T18:56:44Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://gitverse.ru/GigaTeam/gigachat3.5-reasoning",
+          "host": "gitverse.ru",
+          "lang": "en",
+          "is_primary": false,
           "status": "unverified",
           "verified_at": "2026-11-18T18:56:44Z"
         }
@@ -32205,15 +32424,6 @@
         {
           "kind": "code",
           "url": "https://github.com/vrgamegirl19/VRGDG-SeedVR2-TensorRT-Studio/blob/main/README.md",
-          "host": "github.com",
-          "lang": "en",
-          "is_primary": false,
-          "status": "unverified",
-          "verified_at": "2026-09-06T00:01:23Z"
-        },
-        {
-          "kind": "code",
-          "url": "https://github.com/vrgamegirl19/VRGDG-SeedVR2-TensorRT-Studio/blob/main/THIRD_PARTY_NOTICES.md",
           "host": "github.com",
           "lang": "en",
           "is_primary": false,
