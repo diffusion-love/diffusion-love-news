@@ -1,0 +1,11 @@
+{
+ "id": "n-cce1cb230c",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository mit git clone https://github.com/Art-xmaster/comfyui-AGSoft.git in das Verzeichnis custom_nodes von ComfyUI oder installieren Sie comfyui-AGSoft über den ComfyUI Manager.\n\nStarten Sie den ComfyUI-Server neu, um die Definitionen der benutzerdefinierten Knoten zu laden.\n\nFügen Sie den Knoten AGSoft Save Image Plus Ihrem ComfyUI-Workflow hinzu und verbinden Sie den generierten Bild-Tensor mit dessen Eingang image.\n\nKonfigurieren Sie das Dateinamenpräfix und die Formatoptionen und schalten Sie anschließend den Fokusmodus um, um Batch-Generierungen entweder in der klassischen Canvas-Oberfläche oder in der Nodes-2.0-Oberfläche in der Vorschau zu betrachten.\n\nLassen Sie den Fallback auf den klassischen Canvas-Modus aktiviert, falls es in frühen Nodes-2.0-Builds zu Inkonsistenzen bei der UI-Darstellung kommt.\n\nVerwenden Sie den Fokusmodus bei der Generierung von Multi-Image-Batches, um einzelne Vorschaubilder zu prüfen, ohne den Knotengraphen zu verlassen.",
+ "source_sha256": "95860bfb55055ba71b0de1820aacb0802594b3bbda622a1df77fccebfa210ce6",
+ "summary": "Der ComfyUI-Custom-Node AGSoft Save Image Plus wurde um einen Fokus-Vorschaumodus für Bild-Batches, zweisprachige Tooltips für Schaltflächen und Unterstützung der Vorschaudarstellung in der Nodes-2.0-Oberfläche erweitert, wobei die Kompatibilität mit dem klassischen Canvas erhalten bleibt.",
+ "title": "AGSoft Save Image Plus ergänzt Fokusmodus, zweisprachige Tooltips und Vorschau für Nodes 2.0",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

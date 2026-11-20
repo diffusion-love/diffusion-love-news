@@ -3179,6 +3179,11 @@
   "title": "Hailuo Light Studio сослалась на свой инструмент Relight",
   "translated_at": "2026-10-24"
  },
+ "n-a32e5b01bc": {
+  "fresh": true,
+  "title": "Comfy Cloud добавляет кастомные сборки с поддержкой нод и LoRA",
+  "translated_at": "2026-11-20"
+ },
  "n-a3583f87c7": {
   "fresh": true,
   "title": "MemPalace: эффективное сжатие бесконечной памяти для LLM",
@@ -3924,6 +3929,11 @@
   "title": "LTX-2.3-22b-IC-LoRA-Ungrade: восстановление нейтрального цвета",
   "translated_at": "2026-10-24"
  },
+ "n-cce1cb230c": {
+  "fresh": true,
+  "title": "AGSoft Save Image Plus получил режим фокуса, двуязычные подсказки и предпросмотр в Nodes 2.0",
+  "translated_at": "2026-11-20"
+ },
  "n-cce36dc967": {
   "fresh": true,
   "title": "LoRA SDA для Krea 2 Turbo добавляет гейт разнообразия на два шага",
@@ -4638,6 +4648,11 @@
   "fresh": true,
   "title": "Сайт Volumography, упомянутый в ветке о запуске",
   "translated_at": "2026-10-24"
+ },
+ "n-ef68e2a314": {
+  "fresh": true,
+  "title": "Comfy Cloud обеспечивает запуск пользовательских рабочих процессов на корпоративных GPU",
+  "translated_at": "2026-11-20"
  },
  "n-ef6922bf2a": {
   "fresh": true,

@@ -3179,6 +3179,11 @@
   "title": "Hailuo Light Studio 引用了其 Relight 工具",
   "translated_at": "2026-10-24"
  },
+ "n-a32e5b01bc": {
+  "fresh": true,
+  "title": "Comfy Cloud 新增支持自定义节点与 LoRA 的自定义构建",
+  "translated_at": "2026-11-20"
+ },
  "n-a3583f87c7": {
   "fresh": true,
   "title": "MemPalace：面向LLM的高效无限记忆压缩",
@@ -3924,6 +3929,11 @@
   "title": "LTX-2.3-22b-IC-LoRA-Ungrade 中性色彩还原",
   "translated_at": "2026-10-24"
  },
+ "n-cce1cb230c": {
+  "fresh": true,
+  "title": "AGSoft Save Image Plus 新增聚焦模式、双语工具提示和 Nodes 2.0 预览支持",
+  "translated_at": "2026-11-20"
+ },
  "n-cce36dc967": {
   "fresh": true,
   "title": "Krea 2 Turbo SDA LoRA：增加两步多样性门控",
@@ -4638,6 +4648,11 @@
   "fresh": true,
   "title": "启动帖中引用的 Volumography 网站",
   "translated_at": "2026-10-24"
+ },
+ "n-ef68e2a314": {
+  "fresh": true,
+  "title": "Comfy Cloud 支持在企业级 GPU 上运行自定义工作流",
+  "translated_at": "2026-11-20"
  },
  "n-ef6922bf2a": {
   "fresh": true,

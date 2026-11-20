@@ -1,0 +1,11 @@
+{
+ "id": "n-cce1cb230c",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "使用 git clone https://github.com/Art-xmaster/comfyui-AGSoft.git 将仓库克隆到 ComfyUI 的 custom_nodes 目录中，或通过 ComfyUI Manager 安装 comfyui-AGSoft。\n\n重启 ComfyUI 服务器以加载自定义节点定义。\n\n将 AGSoft Save Image Plus 节点添加到 ComfyUI 工作流中，并将生成的图像张量连接到其 image 输入端。\n\n配置文件名前缀和格式选项，然后切换聚焦模式，以便在经典画布或 Nodes 2.0 界面中预览批量生成结果。\n\n如果在早期 Nodes 2.0 界面版本中出现 UI 渲染不一致的情况，请保持启用经典画布模式回退。\n\n生成多图批次时使用聚焦模式，可在不离开节点图的情况下检查各个预览帧。",
+ "source_sha256": "95860bfb55055ba71b0de1820aacb0802594b3bbda622a1df77fccebfa210ce6",
+ "summary": "AGSoft Save Image Plus ComfyUI 自定义节点已更新，新增图像批次聚焦预览模式、双语按钮工具提示，并在兼容经典画布的同时支持 ComfyUI Nodes 2.0 界面的预览渲染。",
+ "title": "AGSoft Save Image Plus 新增聚焦模式、双语工具提示和 Nodes 2.0 预览支持",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

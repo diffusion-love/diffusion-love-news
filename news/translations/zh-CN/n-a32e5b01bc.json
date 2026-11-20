@@ -1,0 +1,11 @@
+{
+ "id": "n-a32e5b01bc",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在本地 ComfyUI 工作流或桌面快照中，准备所需的自定义节点、LoRA 权重和依赖项。\n\n在 Standard、Creator 或 Team 账户下，将自定义构建配置上传至 Comfy Cloud，以便将依赖项打包到持久化的云端环境中。\n\n根据模型大小和显存需求，从 RTX PRO 6000（96 GB 显存）到 NVIDIA B200（180 GB 显存）中选择目标 GPU 硬件。\n\n可通过云端浏览器画布交互式执行生成任务，也可借助 Comfy Cloud REST API 将已部署的工作流集成到自动化应用中。\n\n在打包云端自定义构建之前，先在本地桌面快照中验证所有所需的自定义节点和 Python 依赖项能否干净地完成解析。\n\n根据工作流复杂度选择匹配的硬件层级：标准高分辨率流程使用 RTX PRO 6000，极端内存负载则保留 B200 实例，以优化按秒计费的计算成本。\n\n在团队成员之间共享标准化工作区构建的同时，监控持久化网络存储的使用情况，以控制每月的数据费用。",
+ "source_sha256": "4b1130e479ff656d8d4d661f48f3da87be483133fe820673152e43a9c947a7f7",
+ "summary": "Comfy Cloud 新增自定义构建支持，允许用户打包包含自定义节点和 LoRA 的本地环境，在团队间共享配置，并通过浏览器或 API 在从 RTX PRO 6000 到 B200 的 GPU 上执行工作流。",
+ "title": "Comfy Cloud 新增支持自定义节点与 LoRA 的自定义构建",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

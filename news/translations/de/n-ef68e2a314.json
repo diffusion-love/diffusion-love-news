@@ -1,0 +1,11 @@
+{
+ "id": "n-ef68e2a314",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Bereiten Sie einen lokalen ComfyUI-Workflow oder einen Desktop-Snapshot vor, der die erforderlichen Custom Nodes, LoRA-Gewichte und Abhängigkeiten enthält.\n\nLaden Sie die Konfiguration des individuellen Builds in Comfy Cloud hoch, und zwar unter einem Standard-, Creator- oder Team-Konto, um die Abhängigkeiten in einer persistenten Cloud-Umgebung zu bündeln.\n\nWählen Sie die Ziel-GPU-Hardware aus, die von RTX PRO 6000 (96 GB VRAM) bis NVIDIA B200 (180 GB VRAM) reicht, abhängig von der Modellgröße und den VRAM-Anforderungen.\n\nFühren Sie Generierungsaufgaben interaktiv über den Cloud-Browser-Canvas aus oder integrieren Sie den bereitgestellten Workflow mithilfe der Comfy Cloud REST API in automatisierte Anwendungen.\n\nPrüfen Sie, ob alle erforderlichen Custom Nodes und Python-Abhängigkeiten in einem lokalen Desktop-Snapshot sauber aufgelöst werden, bevor Sie einen individuellen Cloud-Build paketieren.\n\nWählen Sie Hardware-Stufen passend zur Komplexität des Workflows: Nutzen Sie die RTX PRO 6000 für standardmäßige hochauflösende Pipelines und reservieren Sie B200-Instanzen für extreme Speicheranforderungen, um die Rechenkosten pro Sekunde zu optimieren.\n\nÜberwachen Sie die Auslastung des persistenten Netzwerkspeichers, um die monatlichen Datenkosten im Griff zu behalten, und teilen Sie standardisierte Arbeitsbereich-Builds mit den Teammitgliedern.",
+ "source_sha256": "41e92fb1b4f06dd01b82040c22aee0346e3ed179b3ef507809772cc0a376aae2",
+ "summary": "Comfy Cloud hat die Ausführung individueller Workflows auf Hardware bis hin zur NVIDIA B200 mit persistentem Speicher eingeführt.",
+ "title": "Comfy Cloud ermöglicht individuelle Workflows auf Enterprise-GPUs",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

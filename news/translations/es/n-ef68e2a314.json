@@ -1,0 +1,11 @@
+{
+ "id": "n-ef68e2a314",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Prepare un flujo de trabajo de ComfyUI o una instantánea de escritorio local que contenga los nodos personalizados requeridos, los pesos de LoRA y las dependencias.\n\nSuba la configuración de build personalizada a Comfy Cloud con una cuenta Standard, Creator o Team para empaquetar las dependencias en un entorno persistente en la nube.\n\nSeleccione el hardware de GPU de destino, desde RTX PRO 6000 (96 GB de VRAM) hasta NVIDIA B200 (180 GB de VRAM), según el tamaño del modelo y los requisitos de VRAM.\n\nEjecute las tareas de generación de forma interactiva a través del lienzo del navegador en la nube, o integre el flujo de trabajo desplegado en aplicaciones automatizadas mediante la API REST de Comfy Cloud.\n\nVerifique que todos los nodos personalizados requeridos y las dependencias de Python se resuelvan correctamente en una instantánea de escritorio local antes de empaquetar un build personalizado en la nube.\n\nSeleccione niveles de hardware acordes con la complejidad del flujo de trabajo, usando RTX PRO 6000 para canalizaciones estándar de alta resolución y reservando las instancias B200 para cargas de trabajo de memoria extrema, a fin de optimizar los costes de cómputo por segundo.\n\nSupervise el uso del almacenamiento de red persistente para gestionar los cargos mensuales de datos, mientras comparte builds de espacio de trabajo estandarizados entre los miembros del equipo.",
+ "source_sha256": "41e92fb1b4f06dd01b82040c22aee0346e3ed179b3ef507809772cc0a376aae2",
+ "summary": "Comfy Cloud introduce la ejecución de flujos de trabajo personalizados en hardware de hasta NVIDIA B200, con almacenamiento persistente.",
+ "title": "Comfy Cloud habilita flujos de trabajo personalizados en GPU empresariales",
+ "translated_at": "2026-11-20",
+ "translation": "machine"
+}

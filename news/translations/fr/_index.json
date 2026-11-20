@@ -3179,6 +3179,11 @@
   "title": "Hailuo Light Studio a référencé son outil Relight",
   "translated_at": "2026-10-24"
  },
+ "n-a32e5b01bc": {
+  "fresh": true,
+  "title": "Comfy Cloud ajoute les builds personnalisés avec prise en charge des nœuds et des LoRA",
+  "translated_at": "2026-11-20"
+ },
  "n-a3583f87c7": {
   "fresh": true,
   "title": "MemPalace : mémoire infinie et efficace par compression pour LLM",
@@ -4638,6 +4643,11 @@
   "fresh": true,
   "title": "Site web de Volumography cité dans le fil de lancement",
   "translated_at": "2026-10-24"
+ },
+ "n-ef68e2a314": {
+  "fresh": true,
+  "title": "Comfy Cloud permet d'exécuter des workflows personnalisés sur des GPU d'entreprise",
+  "translated_at": "2026-11-20"
  },
  "n-ef6922bf2a": {
   "fresh": true,
