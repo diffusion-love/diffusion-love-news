@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-0a2549f33e",
+ "entry_type": "news",
+ "category": "tools-frontend",
+ "lang": "en",
+ "title": "ComfyUI v0.46.2 maintenance release addresses memory management and config crashes",
+ "summary": "ComfyUI released v0.46.2 with memory deallocation fixes after model unload, YAML parsing tolerance for empty or commented paths, VAE slicing adjustments, and partner node additions.",
+ "research_notes": "Clone the repository using Git or extract the official portable package to a local directory.\n\nInstall the required Python packages by executing pip install -r requirements.txt in the active environment.\n\nStart the backend server by launching python main.py and open the graph interface in a web browser to build and queue node workflows.\n\nConfigure model checkpoint, VAE, and LoRA paths in extra_model_paths.yaml to share storage locations across environments without duplicating large model weights.\n\nUpdate custom nodes and dependencies via ComfyUI Manager to maintain schema compatibility with recent core engine and partner node releases.",
+ "project": {
+  "name": "ComfyUI Development",
+  "family_slug": "comfyui",
+  "family_display": "ComfyUI Development",
+  "model_slug": "comfyui",
+  "model_display": "ComfyUI Development",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "comfyui-development",
+  "thread_display": "Comfyui Development",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "ComfyUI Development",
+  "article_url": "https://happyin.space/projects/comfyui/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/23d227e1a90fe0417fe51ed23ef6795337cd299b/docs/projects/comfyui.md",
+  "agent_context_url": "https://happyin.space/projects/comfyui/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "ComfyUI v0.46.2 maintenance release addresses memory management and config crashes",
+  "version": null,
+  "summary": "ComfyUI released v0.46.2 with memory deallocation fixes after model unload, YAML parsing tolerance for empty or commented paths, VAE slicing adjustments, and partner node additions."
+ },
+ "tags": [
+  "ComfyUI Development",
+  "comfyui",
+  "comfyui-development",
+  "family:comfyui",
+  "tools-frontend"
+ ],
+ "facets": {
+  "category": "tools-frontend",
+  "entry_type": "news",
+  "projects": [
+   "comfyui"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "code",
+   "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.2",
+   "host": "github.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T08:10:49Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "ComfyUI released v0.46.2 with memory deallocation fixes after model unload, YAML parsing tolerance for empty or commented paths, VAE slicing adjustments, and partner node additions."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T08:10:49Z",
+  "classified_at": "2026-11-21T08:10:49Z",
+  "enriched_at": "2026-11-21T08:10:49Z",
+  "verified_at": "2026-11-21T08:10:49Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

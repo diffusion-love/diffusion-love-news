@@ -344,6 +344,25 @@
     "has_video": false
   },
   {
+    "id": "n-0a2549f33e",
+    "date": "2026-11-20",
+    "title": "ComfyUI v0.46.2 maintenance release addresses memory management and config crashes",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "comfyui",
+    "version": null,
+    "tags": [
+      "ComfyUI Development",
+      "comfyui",
+      "comfyui-development",
+      "family:comfyui",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.2",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-fc77ff5baa",
     "date": "2026-11-19",
     "title": "Google adds background computer use agent to Gemini macOS client",

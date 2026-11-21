@@ -13520,11 +13520,12 @@
       {
         "family_display": "ComfyUI Development",
         "first_seen": "2026-09-02",
-        "last_seen": "2026-11-19",
+        "last_seen": "2026-11-20",
         "news_ids": [
           "n-046d02af9f",
           "n-a167c6f61b",
-          "n-76e2884b48"
+          "n-76e2884b48",
+          "n-0a2549f33e"
         ]
       }
     ],
@@ -13538,16 +13539,17 @@
       "misc",
       "tools-frontend"
     ],
-    "post_count": 4,
+    "post_count": 5,
     "first_seen": "2026-03-26",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "latest_version": null,
     "latest_evolution": null,
     "news_ids": [
       "n-c724eb9e4c",
       "n-046d02af9f",
       "n-a167c6f61b",
-      "n-76e2884b48"
+      "n-76e2884b48",
+      "n-0a2549f33e"
     ],
     "versions_timeline": [
       {
@@ -13577,6 +13579,13 @@
         "news_id": "n-76e2884b48",
         "title": "ComfyUI v0.46.1 published on GitHub",
         "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-0a2549f33e",
+        "title": "ComfyUI v0.46.2 maintenance release addresses memory management and config crashes",
+        "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.2"
       }
     ],
     "features": [],
@@ -13613,6 +13622,18 @@
         "verified_at": "2026-11-20T09:43:32Z",
         "news_ids": [
           "n-76e2884b48"
+        ]
+      },
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.2",
+        "is_primary": true,
+        "verified_at": "2026-11-21T08:10:49Z",
+        "news_ids": [
+          "n-0a2549f33e"
         ]
       },
       {
@@ -13749,9 +13770,37 @@
         "version": null,
         "news_id": "n-76e2884b48",
         "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "ComfyUI v0.46.2 maintenance release addresses memory management and config crashes",
+        "summary": "ComfyUI released v0.46.2 with memory deallocation fixes after model unload, YAML parsing tolerance for empty or commented paths, VAE slicing adjustments, and partner node additions.",
+        "version": null,
+        "news_id": "n-0a2549f33e",
+        "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.2"
       }
     ],
     "related_news": [
+      {
+        "id": "n-0a2549f33e",
+        "date": "2026-11-20",
+        "title": "ComfyUI v0.46.2 maintenance release addresses memory management and config crashes",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "comfyui",
+        "version": null,
+        "tags": [
+          "ComfyUI Development",
+          "comfyui",
+          "comfyui-development",
+          "family:comfyui",
+          "tools-frontend"
+        ],
+        "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.2",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-76e2884b48",
         "date": "2026-11-19",
@@ -13839,12 +13888,13 @@
         "slug": "comfyui-development",
         "display": "Comfyui Development",
         "first_seen": "2026-09-02",
-        "last_seen": "2026-11-19",
-        "latest_news_id": "n-76e2884b48",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-0a2549f33e",
         "news_ids": [
           "n-046d02af9f",
           "n-a167c6f61b",
-          "n-76e2884b48"
+          "n-76e2884b48",
+          "n-0a2549f33e"
         ]
       }
     ]
