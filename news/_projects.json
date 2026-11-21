@@ -2331,6 +2331,115 @@
     ],
     "claims": []
   },
+  "agsoft-image-crop-plus": {
+    "family_slug": "agsoft-image-crop-plus",
+    "family_display": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+    "family_display_variants": [
+      {
+        "family_display": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-ecf46cfdeb"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "tools-frontend"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-ecf46cfdeb"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-ecf46cfdeb",
+        "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+        "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/Art-xmaster/comfyui-AGSoft",
+        "is_primary": true,
+        "verified_at": "2026-11-21T12:14:52Z",
+        "news_ids": [
+          "n-ecf46cfdeb"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+        "summary": "The AGSoft Image Crop Plus custom node for ComfyUI has been updated with Nodes 2.0 support, dynamic preview scaling matching node size, improved frame dragging mechanics, bilingual tooltips, and interactive Upload, Reset, and Resume controls.",
+        "version": null,
+        "news_id": "n-ecf46cfdeb",
+        "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-ecf46cfdeb",
+        "date": "2026-11-20",
+        "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "agsoft-image-crop-plus",
+        "version": null,
+        "tags": [
+          "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+          "agsoft-image-crop-plus",
+          "agsoft-image-crop-plus-releases",
+          "family:agsoft-image-crop-plus",
+          "tools-frontend"
+        ],
+        "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "agsoft-image-crop-plus-releases",
+        "display": "Agsoft Image Crop Plus Releases",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-ecf46cfdeb",
+        "news_ids": [
+          "n-ecf46cfdeb"
+        ]
+      }
+    ]
+  },
   "agsoft-save-image-plus": {
     "family_slug": "agsoft-save-image-plus",
     "family_display": "AGSoft Save Image Plus: agsoft-save-image-plus-update",

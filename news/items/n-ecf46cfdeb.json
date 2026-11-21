@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-ecf46cfdeb",
+ "entry_type": "news",
+ "category": "tools-frontend",
+ "lang": "en",
+ "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+ "summary": "The AGSoft Image Crop Plus custom node for ComfyUI has been updated with Nodes 2.0 support, dynamic preview scaling matching node size, improved frame dragging mechanics, bilingual tooltips, and interactive Upload, Reset, and Resume controls.",
+ "research_notes": "Install the comfyui-AGSoft extension pack through ComfyUI Manager or by cloning https://github.com/Art-xmaster/comfyui-AGSoft into the ComfyUI custom_nodes directory.\n\nLocate and place the AGSoft Image Crop Plus node in the graph, connecting an input image to its input port.\n\nResize the node to scale the preview window, manipulate the crop frame directly on the canvas, or use the Upload button to load a source image directly.\n\nPass the cropped image output to downstream processing, utilizing the Reset or Resume buttons to reconfigure the cropping boundaries without rebuilding the node.\n\nPair AGSoft Image Crop Plus with inpainting workflows and stitching nodes to process cropped regions at native resolution while preserving full-frame context.\n\nUse bilingual tooltips to verify coordinate parameters while maintaining standard English labels across ComfyUI Nodes 2.0 interface graphs.",
+ "project": {
+  "name": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+  "family_slug": "agsoft-image-crop-plus",
+  "family_display": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+  "model_slug": "agsoft-image-crop-plus",
+  "model_display": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "agsoft-image-crop-plus-releases",
+  "thread_display": "Agsoft Image Crop Plus Releases",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+  "article_url": "https://happyin.space/projects/agsoft-image-crop-plus/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/29d67b39ff4e45a4e3317fa05f69fc021b395ddf/docs/projects/agsoft-image-crop-plus.md",
+  "agent_context_url": "https://happyin.space/projects/agsoft-image-crop-plus/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+  "version": null,
+  "summary": "The AGSoft Image Crop Plus custom node for ComfyUI has been updated with Nodes 2.0 support, dynamic preview scaling matching node size, improved frame dragging mechanics, bilingual tooltips, and interactive Upload, Reset, and Resume controls."
+ },
+ "tags": [
+  "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+  "agsoft-image-crop-plus",
+  "agsoft-image-crop-plus-releases",
+  "family:agsoft-image-crop-plus",
+  "tools-frontend"
+ ],
+ "facets": {
+  "category": "tools-frontend",
+  "entry_type": "news",
+  "projects": [
+   "agsoft-image-crop-plus"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "code",
+   "url": "https://github.com/Art-xmaster/comfyui-AGSoft",
+   "host": "github.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T12:14:52Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "The AGSoft Image Crop Plus custom node for ComfyUI has been updated with Nodes 2.0 support, dynamic preview scaling matching node size, improved frame dragging mechanics, bilingual tooltips, and interactive Upload, Reset, and Resume controls."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T12:14:52Z",
+  "classified_at": "2026-11-21T12:14:52Z",
+  "enriched_at": "2026-11-21T12:14:52Z",
+  "verified_at": "2026-11-21T12:14:52Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

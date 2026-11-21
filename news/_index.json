@@ -78,6 +78,25 @@
     "has_video": false
   },
   {
+    "id": "n-ecf46cfdeb",
+    "date": "2026-11-20",
+    "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "agsoft-image-crop-plus",
+    "version": null,
+    "tags": [
+      "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+      "agsoft-image-crop-plus",
+      "agsoft-image-crop-plus-releases",
+      "family:agsoft-image-crop-plus",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-ebe85d9d57",
     "date": "2026-11-20",
     "title": "Claude multi-agent setup applied to theoretical black hole physics",

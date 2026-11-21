@@ -94,6 +94,9 @@
   "AGORA": [
     "n-27957b3eee"
   ],
+  "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases": [
+    "n-ecf46cfdeb"
+  ],
   "AGSoft Save Image Plus: agsoft-save-image-plus-update": [
     "n-cce1cb230c"
   ],
@@ -3273,6 +3276,12 @@
   "agora": [
     "n-27957b3eee"
   ],
+  "agsoft-image-crop-plus": [
+    "n-ecf46cfdeb"
+  ],
+  "agsoft-image-crop-plus-releases": [
+    "n-ecf46cfdeb"
+  ],
   "agsoft-save-image-plus": [
     "n-cce1cb230c"
   ],
@@ -4839,6 +4848,9 @@
   ],
   "family:agora": [
     "n-27957b3eee"
+  ],
+  "family:agsoft-image-crop-plus": [
+    "n-ecf46cfdeb"
   ],
   "family:agsoft-save-image-plus": [
     "n-cce1cb230c"
@@ -12493,6 +12505,7 @@
     "n-ef68e2a314",
     "n-edad1a10a0",
     "n-ed7778c240",
+    "n-ecf46cfdeb",
     "n-ebeab9837a",
     "n-ebe85d9d57",
     "n-e712086893",
