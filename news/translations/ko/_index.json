@@ -704,6 +704,11 @@
   "title": "CanAI, fal.ai 연동을 갖춘 오픈소스 로컬 캔버스 스튜디오 출시",
   "translated_at": "2026-10-24"
  },
+ "n-21d10fc208": {
+  "fresh": true,
+  "title": "Apple, 네이티브 에이전트 개발과 함께 macOS 자동화 장벽 강화",
+  "translated_at": "2026-11-21"
+ },
  "n-22001436c1": {
   "fresh": true,
   "title": "Image-to-LoRA V2 컬렉션, 공개 프로젝트의 이정표로 자리매김",
@@ -1408,6 +1413,11 @@
   "fresh": true,
   "title": "Map2World: 세그먼트 맵 조건부 텍스트-투-3D 월드 생성",
   "translated_at": "2026-10-24"
+ },
+ "n-4108f8b1e7": {
+  "fresh": true,
+  "title": "macOS 27.3 베타, 서드파티 에이전트 권한 단계 확대…Apple은 네이티브 에이전트 개발 계획",
+  "translated_at": "2026-11-21"
  },
  "n-412ff5547f": {
   "fresh": true,
@@ -2964,6 +2974,11 @@
   "title": "Realism Enhancer Krea2 모델 버전 기록됨",
   "translated_at": "2026-10-24"
  },
+ "n-93d71a9cbf": {
+  "fresh": true,
+  "title": "Apple, 자체 어시스턴트 개발과 함께 macOS 에이전트 권한 강화",
+  "translated_at": "2026-11-21"
+ },
  "n-93eeb937f1": {
   "fresh": true,
   "title": "DeepSeek, Flash API 모델을 V4.1-Flash-1017로 업데이트",
@@ -4239,6 +4254,11 @@
   "title": "Modly GitHub 저장소 참조",
   "translated_at": "2026-10-24"
  },
+ "n-d4c199de97": {
+  "fresh": true,
+  "title": "Apple, 자율 컴퓨터 사용 AI를 위한 엔지니어링 매니저 직무 개설",
+  "translated_at": "2026-11-21"
+ },
  "n-d4d07dd0bf": {
   "fresh": true,
   "title": "P-Video-Avatar: 고속 AI 토킹 헤드 애니메이션",
@@ -4704,6 +4724,11 @@
   "title": "Gen-Searcher: 검색 기반 다중모달 심층 리서치 에이전트",
   "translated_at": "2026-10-24"
  },
+ "n-eab4a185f3": {
+  "fresh": true,
+  "title": "Apple, 네이티브 Mac AI 에이전트 개발 보도",
+  "translated_at": "2026-11-21"
+ },
  "n-eab857eece": {
   "fresh": true,
   "title": "OmniStream, 프로젝트·코드·모델 리소스를 통해 공개적으로 연결되다",
@@ -4818,6 +4843,11 @@
   "fresh": true,
   "title": "OpenReview: Vercel Labs의 AI 기반 코드 리뷰 봇",
   "translated_at": "2026-10-24"
+ },
+ "n-efb0fb8a5d": {
+  "fresh": true,
+  "title": "Apple 채용 공고, 앱 간 자동화를 위한 에이전트형 AI 리더십 공개",
+  "translated_at": "2026-11-21"
  },
  "n-f08df9a83a": {
   "fresh": true,

@@ -1,0 +1,11 @@
+{
+ "id": "n-21d10fc208",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configura los ajustes de accesibilidad, acceso completo al disco y automatización de seguridad a través de las solicitudes de permisos en varios pasos en los entornos beta de macOS para habilitar herramientas externas de uso del ordenador.\n\nAlinea los scripts de desarrollo automatizado con las utilidades estándar de terminal, las API compatibles y los diccionarios de scripting específicos de cada aplicación, en lugar de la captura de interfaz sin restricciones, a la espera de las versiones nativas de la API de agentes de Apple.\n\nPrevé diálogos de autorización de seguridad más extensos en las próximas versiones de macOS al diseñar flujos de trabajo de escritorio automatizados.\n\nEstructura las herramientas agénticas en torno a llamadas API explícitas y en entornos sandbox y a endpoints CLI, en lugar de depender de eventos sintéticos de interfaz de usuario, que son frágiles.",
+ "source_sha256": "e4a4b91dee977cd415a94c0a651e893643d6bfbed96e68316058814a5b22fd8a",
+ "summary": "La información confirma que Apple está desarrollando agentes de IA para el control de dispositivos, al tiempo que endurece los límites de permisos a nivel del sistema operativo para los servicios de automatización externos que compiten con ella.",
+ "title": "Apple combina el desarrollo de agentes nativos con barreras más estrictas para la automatización en macOS",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

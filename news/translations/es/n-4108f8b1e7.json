@@ -1,0 +1,11 @@
+{
+ "id": "n-4108f8b1e7",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configure los ajustes de accesibilidad, acceso completo al disco y automatización de seguridad a través de las solicitudes de permisos de varios pasos en los entornos beta de macOS para habilitar herramientas externas de uso del ordenador.\n\nAlinee los scripts de desarrollo automatizados con las utilidades estándar de terminal, las API compatibles y los diccionarios de scripting específicos de cada aplicación, en lugar de la captura de interfaz sin restricciones, a la espera de las versiones nativas de la API de agentes de Apple.\n\nPrevea diálogos de autorización de seguridad más extensos en las próximas versiones de macOS al diseñar flujos de trabajo automatizados de escritorio.\n\nEstructure las herramientas agénticas en torno a llamadas a API explícitas y en entornos aislados (sandbox) y a endpoints de CLI, en lugar de depender de eventos de interfaz de usuario sintéticos frágiles.",
+ "source_sha256": "e695b77abba5b83514b00d39f26c6917a18dba10c7ecb30000b9018e2ed0f18a",
+ "summary": "La beta de macOS 27.3 aumenta, según se informa, los requisitos de autorización para las herramientas de control de dispositivos de terceros de 4 a 14 pasos, junto con informes de que Apple desarrolla un agente autónomo nativo.",
+ "title": "La beta de macOS 27.3 amplía los pasos de permisos para agentes de terceros mientras Apple planea un agente nativo",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

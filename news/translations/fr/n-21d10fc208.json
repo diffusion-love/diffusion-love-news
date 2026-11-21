@@ -1,0 +1,11 @@
+{
+ "id": "n-21d10fc208",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configurez les réglages de sécurité relatifs à l'accessibilité, à l'accès complet au disque et à l'automatisation dans les invites d'autorisation en plusieurs étapes des environnements bêta de macOS afin d'activer les outils externes de contrôle d'ordinateur.\n\nAlignez les scripts de développement automatisés sur les utilitaires de terminal standard, les API prises en charge et les dictionnaires de script propres à chaque application, plutôt que sur une capture d'interface non restreinte, en attendant la sortie d'API natives d'agents chez Apple.\n\nPrévoyez des boîtes de dialogue d'autorisation de sécurité plus nombreuses dans les prochaines versions de macOS lors de la conception de flux de travail automatisés sur ordinateur de bureau.\n\nStructurez les outils agentiques autour d'appels d'API explicites et sandboxés et de points de terminaison CLI, plutôt que de vous appuyer sur des événements d'interface utilisateur synthétiques fragiles.",
+ "source_sha256": "e4a4b91dee977cd415a94c0a651e893643d6bfbed96e68316058814a5b22fd8a",
+ "summary": "Des articles de presse confirment qu'Apple développe des agents d'IA capables de contrôler des appareils, tout en renforçant les limites de permissions au niveau du système d'exploitation pour les services d'automatisation externes concurrents.",
+ "title": "Apple associe le développement d'agents natifs à des barrières d'automatisation plus strictes sous macOS",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

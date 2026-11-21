@@ -1,0 +1,11 @@
+{
+ "id": "n-efb0fb8a5d",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Konfigurieren Sie Einstellungen für Bedienungshilfen, vollständigen Festplattenzugriff und Automatisierungssicherheit über die mehrstufigen Berechtigungsabfragen in macOS-Beta-Umgebungen, um externe Computer-Use-Tools zu ermöglichen.\n\nRichten Sie automatisierte Entwicklungsskripte an gängigen Terminal-Dienstprogrammen, unterstützten APIs und anwendungsspezifischen Skriptwörterbüchern aus, statt auf ungebremste UI-Erfassung zu setzen, bis native Agenten-APIs von Apple veröffentlicht werden.\n\nPlanen Sie bei der Architektur automatisierter Desktop-Workflows mit erweiterten Sicherheitsautorisierungsdialogen in kommenden macOS-Versionen.\n\nStrukturieren Sie agentische Tools um explizite, sandboxed API-Aufrufe und CLI-Endpunkte herum, statt sich auf fragile synthetische Benutzeroberflächenereignisse zu verlassen.",
+ "source_sha256": "3116b8e200638c2fa29bb834e3b22200740e1e656efb75ece655b1d92f462bce",
+ "summary": "Eine Stellenausschreibung für einen Senior Engineering Manager, Agentic AI deutet darauf hin, dass Apple Assistenten entwickelt, die mehrstufige Workflows über Terminalbefehle, APIs und Webtools hinweg ausführen sollen.",
+ "title": "Apple-Stellenausschreibung zeigt Führungsanspruch im Bereich agentische KI für appübergreifende Automatisierung",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-21d10fc208",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Konfigurieren Sie Einstellungen für Bedienungshilfen, vollständigen Festplattenzugriff und Automatisierungssicherheit über die mehrstufigen Berechtigungsabfragen in macOS-Beta-Umgebungen, um externe Tools für die Computersteuerung zu ermöglichen.\n\nRichten Sie automatisierte Entwicklungsskripte an gängigen Terminal-Dienstprogrammen, unterstützten APIs und anwendungsspezifischen Scripting-Wörterbüchern aus, statt an ungebremster UI-Erfassung, bis native Agenten-APIs von Apple veröffentlicht werden.\n\nPlanen Sie bei der Architektur automatisierter Desktop-Workflows mit umfangreicheren Sicherheitsautorisierungsdialogen in kommenden macOS-Versionen.\n\nStrukturieren Sie agentische Tools um explizite, sandboxed API-Aufrufe und CLI-Endpunkte, statt sich auf fragile synthetische Benutzeroberflächen-Ereignisse zu verlassen.",
+ "source_sha256": "e4a4b91dee977cd415a94c0a651e893643d6bfbed96e68316058814a5b22fd8a",
+ "summary": "Berichten zufolge entwickelt Apple KI-Agenten zur Gerätesteuerung und verschärft gleichzeitig die Berechtigungsgrenzen auf Betriebssystemebene für konkurrierende externe Automatisierungsdienste.",
+ "title": "Apple kombiniert die Entwicklung eigener Agenten mit strengeren macOS-Automatisierungsbarrieren",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

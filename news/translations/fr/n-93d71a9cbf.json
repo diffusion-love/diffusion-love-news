@@ -1,0 +1,11 @@
+{
+ "id": "n-93d71a9cbf",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configurez les paramètres de sécurité liés à l'accessibilité, à l'accès complet au disque et à l'automatisation via les invites d'autorisation en plusieurs étapes dans les environnements bêta de macOS afin de permettre l'usage d'outils externes de contrôle informatique.\n\nAlignez les scripts de développement automatisés sur les utilitaires de terminal standard, les API prises en charge et les dictionnaires de scripts propres aux applications, plutôt que sur une capture d'interface utilisateur sans restriction, en attendant la publication d'API natives d'agents par Apple.\n\nPrévoyez des boîtes de dialogue d'autorisation de sécurité plus nombreuses dans les prochaines versions de macOS lorsque vous concevez des flux de travail automatisés sur le bureau.\n\nStructurez les outils agentiques autour d'appels d'API explicites et sandboxés ainsi que de points de terminaison CLI, plutôt que de vous appuyer sur des événements d'interface utilisateur synthétiques et fragiles.",
+ "source_sha256": "b2c632560854e0b6f5190cf96d2254e9ac735d5ca959340521dcf893f062b40b",
+ "summary": "Les récentes versions bêta de macOS imposent un processus de configuration en 14 étapes aux outils d'automatisation IA tiers, tandis qu'Apple développe son propre système agentique de contrôle des applications et de l'appareil.",
+ "title": "Apple renforce les autorisations des agents sous macOS tout en développant son propre assistant propriétaire",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

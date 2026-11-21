@@ -709,6 +709,11 @@
   "title": "CanAI, un estudio local de lienzo de código abierto lanzado con integración de fal.ai",
   "translated_at": "2026-10-24"
  },
+ "n-21d10fc208": {
+  "fresh": true,
+  "title": "Apple combina el desarrollo de agentes nativos con barreras más estrictas para la automatización en macOS",
+  "translated_at": "2026-11-21"
+ },
  "n-22001436c1": {
   "fresh": true,
   "title": "La colección de Image-to-LoRA V2 se convierte en un hito público del proyecto",
@@ -1413,6 +1418,11 @@
   "fresh": true,
   "title": "Map2World: generación de mundos 3D a partir de texto condicionado por mapas de segmentación",
   "translated_at": "2026-10-24"
+ },
+ "n-4108f8b1e7": {
+  "fresh": true,
+  "title": "La beta de macOS 27.3 amplía los pasos de permisos para agentes de terceros mientras Apple planea un agente nativo",
+  "translated_at": "2026-11-21"
  },
  "n-412ff5547f": {
   "fresh": true,
@@ -2969,6 +2979,11 @@
   "title": "Versión del modelo Realism Enhancer Krea2 registrada",
   "translated_at": "2026-10-24"
  },
+ "n-93d71a9cbf": {
+  "fresh": true,
+  "title": "Apple endurece los permisos de agentes en macOS mientras desarrolla un asistente propietario",
+  "translated_at": "2026-11-21"
+ },
  "n-93eeb937f1": {
   "fresh": true,
   "title": "DeepSeek actualiza su modelo Flash de la API a V4.1-Flash-1017",
@@ -4244,6 +4259,11 @@
   "title": "Referencia al repositorio de GitHub de Modly",
   "translated_at": "2026-10-24"
  },
+ "n-d4c199de97": {
+  "fresh": true,
+  "title": "Apple abre un puesto de gerente de ingeniería para IA autónoma de uso de equipo",
+  "translated_at": "2026-11-21"
+ },
  "n-d4d07dd0bf": {
   "fresh": true,
   "title": "P-Video-Avatar: animación de cabezas parlantes con IA de alta velocidad",
@@ -4714,6 +4734,11 @@
   "title": "Gen-Searcher: agente multimodal de investigación profunda basado en búsqueda",
   "translated_at": "2026-10-24"
  },
+ "n-eab4a185f3": {
+  "fresh": true,
+  "title": "Apple desarrolla supuestamente un agente de IA nativo para Mac",
+  "translated_at": "2026-11-21"
+ },
  "n-eab857eece": {
   "fresh": true,
   "title": "OmniStream quedó vinculado públicamente a través de su página de proyecto, su código y sus recursos de modelo",
@@ -4828,6 +4853,11 @@
   "fresh": true,
   "title": "OpenReview: bot de revisión de código con IA de Vercel Labs",
   "translated_at": "2026-10-24"
+ },
+ "n-efb0fb8a5d": {
+  "fresh": true,
+  "title": "Una oferta de empleo de Apple detalla el liderazgo en IA agéntica para la automatización entre aplicaciones",
+  "translated_at": "2026-11-21"
  },
  "n-f08df9a83a": {
   "fresh": true,

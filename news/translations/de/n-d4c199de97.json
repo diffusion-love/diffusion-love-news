@@ -1,0 +1,11 @@
+{
+ "id": "n-d4c199de97",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Konfigurieren Sie Einstellungen für Bedienungshilfen, vollständigen Festplattenzugriff und Automatisierungssicherheit über die mehrstufigen Berechtigungsabfragen in macOS-Beta-Umgebungen, um externe Tools für die Computernutzung durch KI zu ermöglichen.\n\nRichten Sie automatisierte Entwicklungsskripte an gängigen Terminal-Dienstprogrammen, unterstützten APIs und anwendungsspezifischen Skriptwörterbüchern aus, statt auf uneingeschränkte UI-Erfassung zu setzen, bis Apple native APIs für Agenten veröffentlicht.\n\nPlanen Sie bei der Architektur automatisierter Desktop-Workflows mit erweiterten Sicherheitsautorisierungsdialogen in kommenden macOS-Versionen.\n\nStrukturieren Sie agentische Tools um explizite, sandboxed API-Aufrufe und CLI-Endpunkte, anstatt sich auf fragile synthetische Benutzeroberflächen-Ereignisse zu verlassen.",
+ "source_sha256": "c2005526e72956f14e4e25df4326ca47e6399ccc40fb4fad8d12010c1becf2c8",
+ "summary": "Eine Stellenausschreibung zeigt, dass Apple einen Senior Engineering Manager sucht, der autonome Agentensysteme leiten soll, die Software bedienen, Websites durchsuchen und Code erzeugen können.",
+ "title": "Apple schreibt Engineering-Manager-Stelle für autonome KI zur Computernutzung aus",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
