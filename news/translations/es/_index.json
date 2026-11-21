@@ -249,6 +249,11 @@
   "title": "Página de producto de Seed Audio 1.0 y ruta de activación en BytePlus",
   "translated_at": "2026-10-24"
  },
+ "n-0a2549f33e": {
+  "fresh": true,
+  "title": "ComfyUI v0.46.2: la versión de mantenimiento corrige la gestión de memoria y los fallos de configuración",
+  "translated_at": "2026-11-21"
+ },
  "n-0a40fd014f": {
   "fresh": true,
   "title": "ComfyUI-MiniMaxH3_LatentUpscaler fue enlazado públicamente en The source",
@@ -4733,6 +4738,11 @@
   "fresh": true,
   "title": "Se enlazaron los recursos del proyecto Self Gradient Forcing",
   "translated_at": "2026-10-24"
+ },
+ "n-ea13284ff9": {
+  "fresh": true,
+  "title": "StableGrasp: reconstrucción de agarres de mano a partir de una sola imagen mediante simulación física diferenciable",
+  "translated_at": "2026-11-21"
  },
  "n-ea26f61d82": {
   "fresh": true,

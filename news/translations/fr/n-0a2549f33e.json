@@ -1,0 +1,11 @@
+{
+ "id": "n-0a2549f33e",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt avec Git ou extrayez le paquet portable officiel dans un répertoire local.\n\nInstallez les paquets Python requis en exécutant pip install -r requirements.txt dans l'environnement actif.\n\nDémarrez le serveur backend en lançant python main.py, puis ouvrez l'interface en graphe dans un navigateur web pour construire et mettre en file d'attente des workflows de nœuds.\n\nConfigurez les chemins des checkpoints de modèles, du VAE et des LoRA dans extra_model_paths.yaml afin de partager les espaces de stockage entre environnements sans dupliquer les poids volumineux des modèles.\n\nMettez à jour les nœuds personnalisés et leurs dépendances via ComfyUI Manager pour maintenir la compatibilité des schémas avec les versions récentes du moteur principal et des nœuds partenaires.",
+ "source_sha256": "a101669d41f782232ad4b924b7a08d90cfc9b08f8889ac98d864868c5bec3183",
+ "summary": "ComfyUI publie la v0.46.2 avec des corrections de désallocation mémoire après le déchargement d'un modèle, une meilleure tolérance de l'analyse YAML pour les chemins vides ou commentés, des ajustements du VAE slicing et l'ajout de nouveaux nœuds partenaires.",
+ "title": "ComfyUI v0.46.2 : une version de maintenance corrige la gestion de la mémoire et les plantages liés à la configuration",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

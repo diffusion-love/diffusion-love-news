@@ -1,0 +1,11 @@
+{
+ "id": "n-ea13284ff9",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Proporcione una única imagen RGB que capture un agarre mano-objeto junto con el modelo 3D del objeto objetivo.\n\nInicialice las estimaciones visuales de la pose de la mano utilizando un estimador 3D de pose de la mano basado en imágenes situado en una etapa previa.\n\nInicialice los objetivos de control del agarre de forma separada de los parámetros visuales de la pose de la mano.\n\nEjecute una simulación física diferenciable que minimice la energía cinética del agarre junto con pérdidas de alineamiento geométrico y visual.\n\nExtraiga la malla 3D de la mano optimizada y físicamente estable, así como las fuerzas de control correspondientes, para su uso en simulación robótica o en interacción virtual.\n\nDesacople los parámetros visuales de la pose de los objetivos de control físico, en lugar de traducir directamente las poses articulares visuales en pares de control.\n\nCombine la minimización de la energía cinética del agarre en una simulación diferenciable con una regularización geométrica respecto a la imagen de entrada, para evitar deformaciones antinaturales de la malla de la mano.\n\nDespliegue el marco como un paso de refinamiento físico posterior sobre los estimadores de pose de la mano basados en visión ya existentes, para eliminar las penetraciones de objetos y los fallos por caída.",
+ "source_sha256": "7dbc475f489d5c275f4073ac1ac991d22a58ef033f2f64e9384919502049c4b0",
+ "summary": "StableGrasp separa la estimación visual de la pose de la mano de los objetivos de control del agarre, minimizando la energía cinética del agarre dentro de una simulación física diferenciable para generar interacciones mano-objeto físicamente estables a partir de imágenes RGB individuales, preservando la consistencia visual y geométrica.",
+ "title": "StableGrasp: reconstrucción de agarres de mano a partir de una sola imagen mediante simulación física diferenciable",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

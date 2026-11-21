@@ -1,0 +1,11 @@
+{
+ "id": "n-0a2549f33e",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonar el repositorio con Git o extraer el paquete portable oficial en un directorio local.\n\nInstalar los paquetes de Python necesarios ejecutando pip install -r requirements.txt en el entorno activo.\n\nIniciar el servidor backend ejecutando python main.py y abrir la interfaz de grafos en un navegador web para construir y encolar flujos de trabajo de nodos.\n\nConfigurar las rutas de checkpoints de modelos, VAE y LoRA en extra_model_paths.yaml para compartir ubicaciones de almacenamiento entre entornos sin duplicar los pesos grandes de los modelos.\n\nActualizar los nodos personalizados y las dependencias mediante ComfyUI Manager para mantener la compatibilidad de esquemas con las versiones recientes del motor central y de los nodos partner.",
+ "source_sha256": "a101669d41f782232ad4b924b7a08d90cfc9b08f8889ac98d864868c5bec3183",
+ "summary": "ComfyUI publicó v0.46.2 con correcciones en la liberación de memoria tras descargar modelos, tolerancia en el análisis de YAML para rutas vacías o comentadas, ajustes en el slicing de VAE y nuevos nodos partner.",
+ "title": "ComfyUI v0.46.2: la versión de mantenimiento corrige la gestión de memoria y los fallos de configuración",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

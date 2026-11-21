@@ -244,6 +244,11 @@
   "title": "Seed Audio 1.0 제품 페이지와 BytePlus 활성화 경로",
   "translated_at": "2026-10-24"
  },
+ "n-0a2549f33e": {
+  "fresh": true,
+  "title": "ComfyUI v0.46.2 유지보수 릴리스, 메모리 관리 및 설정 충돌 문제 해결",
+  "translated_at": "2026-11-21"
+ },
  "n-0a40fd014f": {
   "fresh": true,
   "title": "ComfyUI-MiniMaxH3_LatentUpscaler, 'The source'에 공개 링크로 게재됨",
@@ -4723,6 +4728,11 @@
   "fresh": true,
   "title": "Self Gradient Forcing 프로젝트 리소스 링크 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-ea13284ff9": {
+  "fresh": true,
+  "title": "StableGrasp: 미분 가능한 물리 시뮬레이션을 이용한 단일 이미지 기반 손 파지 복원",
+  "translated_at": "2026-11-21"
  },
  "n-ea26f61d82": {
   "fresh": true,

@@ -1,0 +1,11 @@
+{
+ "id": "n-0a2549f33e",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Git을 사용해 저장소를 클론하거나 공식 포터블 패키지를 로컬 디렉터리에 압축 해제합니다.\n\n활성 환경에서 pip install -r requirements.txt를 실행해 필요한 Python 패키지를 설치합니다.\n\npython main.py를 실행해 백엔드 서버를 시작한 다음, 웹 브라우저에서 그래프 인터페이스를 열어 노드 워크플로를 구성하고 큐에 등록합니다.\n\nextra_model_paths.yaml에서 모델 체크포인트, VAE, LoRA 경로를 설정하면 대용량 모델 가중치를 중복 저장하지 않고도 여러 환경에서 저장 위치를 공유할 수 있습니다.\n\nComfyUI Manager를 통해 커스텀 노드와 의존성을 업데이트하면 최신 코어 엔진 및 파트너 노드 릴리스와의 스키마 호환성을 유지할 수 있습니다.",
+ "source_sha256": "a101669d41f782232ad4b924b7a08d90cfc9b08f8889ac98d864868c5bec3183",
+ "summary": "ComfyUI v0.46.2가 출시되었으며, 모델 언로드 후 메모리 해제 문제 수정, 비어 있거나 주석 처리된 경로에 대한 YAML 파싱 허용 범위 개선, VAE 슬라이싱 조정, 파트너 노드 추가가 포함되었습니다.",
+ "title": "ComfyUI v0.46.2 유지보수 릴리스, 메모리 관리 및 설정 충돌 문제 해결",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
