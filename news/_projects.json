@@ -74684,10 +74684,11 @@
       {
         "family_display": "Project Genie: project-genie-genie-4-rollout",
         "first_seen": "2026-11-19",
-        "last_seen": "2026-11-19",
+        "last_seen": "2026-11-20",
         "news_ids": [
           "n-36b8a36bed",
-          "n-994b1eb71c"
+          "n-994b1eb71c",
+          "n-4526450394"
         ]
       }
     ],
@@ -74700,14 +74701,15 @@
       "diffusion-video",
       "misc"
     ],
-    "post_count": 2,
+    "post_count": 3,
     "first_seen": "2026-11-19",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "latest_version": null,
     "latest_evolution": null,
     "news_ids": [
       "n-36b8a36bed",
-      "n-994b1eb71c"
+      "n-994b1eb71c",
+      "n-4526450394"
     ],
     "versions_timeline": [
       {
@@ -74723,6 +74725,13 @@
         "news_id": "n-994b1eb71c",
         "title": "Google integrates upgraded Genie 4 world model into Project Genie",
         "primary_link": "https://labs.google/projectgenie"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-4526450394",
+        "title": "Google opens early Project Genie access powered by Genie 4",
+        "primary_link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
       }
     ],
     "features": [],
@@ -74737,6 +74746,18 @@
     "aliases": [],
     "domains": [],
     "links": [
+      {
+        "kind": "reference",
+        "host": "blog.google",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T09:11:09Z",
+        "news_ids": [
+          "n-4526450394"
+        ]
+      },
       {
         "kind": "reference",
         "host": "labs.google",
@@ -74795,9 +74816,37 @@
         "version": null,
         "news_id": "n-994b1eb71c",
         "primary_link": "https://labs.google/projectgenie"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Google opens early Project Genie access powered by Genie 4",
+        "summary": "Google launched an experimental preview of Project Genie for Google AI Ultra subscribers in the United States, utilizing the Genie 4 world model to generate interactive, short-lived 720p environments with synchronized audio from text and image prompts.",
+        "version": null,
+        "news_id": "n-4526450394",
+        "primary_link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
       }
     ],
     "related_news": [
+      {
+        "id": "n-4526450394",
+        "date": "2026-11-20",
+        "title": "Google opens early Project Genie access powered by Genie 4",
+        "category": "diffusion-video",
+        "entry_type": "news",
+        "project": "project-genie",
+        "version": null,
+        "tags": [
+          "Project Genie: project-genie-genie-4-rollout",
+          "diffusion-video",
+          "family:project-genie",
+          "project-genie",
+          "project-genie-genie-4-rollout"
+        ],
+        "primary_link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-994b1eb71c",
         "date": "2026-11-19",
@@ -74843,11 +74892,12 @@
         "slug": "project-genie-genie-4-rollout",
         "display": "Project Genie Genie 4 Rollout",
         "first_seen": "2026-11-19",
-        "last_seen": "2026-11-19",
-        "latest_news_id": "n-994b1eb71c",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-4526450394",
         "news_ids": [
           "n-36b8a36bed",
-          "n-994b1eb71c"
+          "n-994b1eb71c",
+          "n-4526450394"
         ]
       }
     ]

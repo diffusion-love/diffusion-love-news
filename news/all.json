@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T08:10:49Z",
+  "generated_at": "2026-11-21T09:11:09Z",
   "site": "diffusion.love",
-  "total": 1046,
+  "total": 1047,
   "records": [
     {
       "schema_version": "1.4",
@@ -1489,6 +1489,111 @@
         "classified_at": "2026-11-21T00:39:13Z",
         "enriched_at": "2026-11-21T00:39:13Z",
         "verified_at": "2026-11-21T00:39:13Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-4526450394",
+      "entry_type": "news",
+      "category": "diffusion-video",
+      "lang": "en",
+      "title": "Google opens early Project Genie access powered by Genie 4",
+      "summary": "Google launched an experimental preview of Project Genie for Google AI Ultra subscribers in the United States, utilizing the Genie 4 world model to generate interactive, short-lived 720p environments with synchronized audio from text and image prompts.",
+      "research_notes": "Access Project Genie through a desktop web browser using an authenticated Google AI Ultra account eligible in supported jurisdictions (US, 18+).\n\nEnter a natural-language description or upload a reference image specifying the scene layout, aesthetic, and playable character.\n\nExplore and navigate the generated 3D environment in real time using standard keyboard and mouse controls.\n\nModify the active simulation dynamically by typing or speaking live text prompts to adjust lighting, weather, or introduce new entities.\n\nProvide specific initial text descriptions or clean framing images for both environment and character to anchor visual coherence before starting real-time navigation.\n\nApply incremental mid-session prompt modifications rather than drastic scene transformations to minimize physics drift and spatial artifacts.\n\nScope exploration sessions to short intervals suitable for concept prototyping, avoiding prolonged runs where accumulated drift degrades environment continuity.",
+      "project": {
+        "name": "Project Genie: project-genie-genie-4-rollout",
+        "family_slug": "project-genie",
+        "family_display": "Project Genie: project-genie-genie-4-rollout",
+        "model_slug": "project-genie",
+        "model_display": "Project Genie: project-genie-genie-4-rollout",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "project-genie-genie-4-rollout",
+        "thread_display": "Project Genie Genie 4 Rollout",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Project Genie: project-genie-genie-4-rollout",
+        "article_url": "https://happyin.space/projects/project-genie/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d5b36199b6b1966ed90702320b92318e0f77e4a2/docs/projects/project-genie.md",
+        "agent_context_url": "https://happyin.space/projects/project-genie/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Google opens early Project Genie access powered by Genie 4",
+        "version": null,
+        "summary": "Google launched an experimental preview of Project Genie for Google AI Ultra subscribers in the United States, utilizing the Genie 4 world model to generate interactive, short-lived 720p environments with synchronized audio from text and image prompts."
+      },
+      "tags": [
+        "Project Genie: project-genie-genie-4-rollout",
+        "diffusion-video",
+        "family:project-genie",
+        "project-genie",
+        "project-genie-genie-4-rollout"
+      ],
+      "facets": {
+        "category": "diffusion-video",
+        "entry_type": "news",
+        "projects": [
+          "project-genie"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "host": "blog.google",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T09:11:09Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Google launched an experimental preview of Project Genie for Google AI Ultra subscribers in the United States, utilizing the Genie 4 world model to generate interactive, short-lived 720p environments with synchronized audio from text and image prompts."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T09:11:09Z",
+        "classified_at": "2026-11-21T09:11:09Z",
+        "enriched_at": "2026-11-21T09:11:09Z",
+        "verified_at": "2026-11-21T09:11:09Z",
         "models_used": {
           "research": "curated-live-material"
         },

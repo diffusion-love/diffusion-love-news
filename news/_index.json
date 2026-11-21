@@ -249,6 +249,25 @@
     "has_video": false
   },
   {
+    "id": "n-4526450394",
+    "date": "2026-11-20",
+    "title": "Google opens early Project Genie access powered by Genie 4",
+    "category": "diffusion-video",
+    "entry_type": "news",
+    "project": "project-genie",
+    "version": null,
+    "tags": [
+      "Project Genie: project-genie-genie-4-rollout",
+      "diffusion-video",
+      "family:project-genie",
+      "project-genie",
+      "project-genie-genie-4-rollout"
+    ],
+    "primary_link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-4108f8b1e7",
     "date": "2026-11-20",
     "title": "macOS 27.3 beta expands third-party agent permission steps as Apple plans native agent",
