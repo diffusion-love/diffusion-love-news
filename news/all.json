@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T11:09:53Z",
+  "generated_at": "2026-11-21T11:23:58Z",
   "site": "diffusion.love",
-  "total": 1054,
+  "total": 1055,
   "records": [
     {
       "schema_version": "1.4",
@@ -1823,6 +1823,120 @@
         "classified_at": "2026-11-21T02:30:20Z",
         "enriched_at": "2026-11-21T02:30:20Z",
         "verified_at": "2026-11-21T02:30:20Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-6a22761304",
+      "entry_type": "news",
+      "category": "llm",
+      "lang": "en",
+      "title": "Position paper defines architectural requirements for curiosity in language model agents",
+      "summary": "A position paper accepted to NeurIPS 2026 defines five structural criteria for artificial curiosity in language model agents, demonstrating that stochastic sampling and prompt variations fail to update internal world representations and that true exploration requires predictive modeling, persistent state updates, and intrinsic goal generation.",
+      "research_notes": "Audit candidate agent architectures against the five curiosity criteria to assess whether exploration relies on stochastic sampling or active world model updating.\n\nEquip the agent with an explicit predictive structure that models environment transitions rather than relying solely on next-token probability distributions.\n\nImplement online update mechanisms and persistent external memory so that learned empirical feedback persists beyond the context window.\n\nAvoid treating temperature adjustments, best-of-N reranking, or retrieval-augmented generation as curiosity mechanisms, as they fail to update the agent's internal environment model.\n\nSelect exploratory actions based on expected model improvement and prediction error reduction rather than random sampling over frozen model weights.",
+      "project": {
+        "name": "Sampling Is Not Curiosity Llm Agents: sampling-is-not-curiosity-llm-agents-curiosity-requirements",
+        "family_slug": "sampling-is-not-curiosity-llm-agents",
+        "family_display": "Sampling Is Not Curiosity Llm Agents: sampling-is-not-curiosity-llm-agents-curiosity-requirements",
+        "model_slug": "sampling-is-not-curiosity-llm-agents",
+        "model_display": "Sampling Is Not Curiosity Llm Agents: sampling-is-not-curiosity-llm-agents-curiosity-requirements",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "sampling-is-not-curiosity-llm-agents-curiosity-requirements",
+        "thread_display": "Sampling Is Not Curiosity Llm Agents Curiosity Requirements",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Sampling Is Not Curiosity Llm Agents: sampling-is-not-curiosity-llm-agents-curiosity-requirements",
+        "article_url": "https://happyin.space/projects/sampling-is-not-curiosity-llm-agents/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/62139e532bcc962cc9aa1f2bc9e50c866c9113d9/docs/projects/sampling-is-not-curiosity-llm-agents.md",
+        "agent_context_url": "https://happyin.space/projects/sampling-is-not-curiosity-llm-agents/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Position paper defines architectural requirements for curiosity in language model agents",
+        "version": null,
+        "summary": "A position paper accepted to NeurIPS 2026 defines five structural criteria for artificial curiosity in language model agents, demonstrating that stochastic sampling and prompt variations fail to update internal world representations and that true exploration requires predictive modeling, persistent state updates, and intrinsic goal generation."
+      },
+      "tags": [
+        "Sampling Is Not Curiosity Llm Agents: sampling-is-not-curiosity-llm-agents-curiosity-requirements",
+        "family:sampling-is-not-curiosity-llm-agents",
+        "llm",
+        "sampling-is-not-curiosity-llm-agents",
+        "sampling-is-not-curiosity-llm-agents-curiosity-requirements"
+      ],
+      "facets": {
+        "category": "llm",
+        "entry_type": "news",
+        "projects": [
+          "sampling-is-not-curiosity-llm-agents"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "paper",
+          "url": "https://arxiv.org/abs/2611.10501",
+          "host": "arxiv.org",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T11:23:58Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://arxiviq.substack.com/p/sampling-is-not-curiosity-why-llm",
+          "host": "arxiviq.substack.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T11:23:58Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "A position paper accepted to NeurIPS 2026 defines five structural criteria for artificial curiosity in language model agents, demonstrating that stochastic sampling and prompt variations fail to update internal world representations and that true exploration requires predictive modeling, persistent state updates, and intrinsic goal generation."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T11:23:58Z",
+        "classified_at": "2026-11-21T11:23:58Z",
+        "enriched_at": "2026-11-21T11:23:58Z",
+        "verified_at": "2026-11-21T11:23:58Z",
         "models_used": {
           "research": "curated-live-material"
         },

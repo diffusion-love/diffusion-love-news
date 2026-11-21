@@ -307,6 +307,25 @@
     "has_video": false
   },
   {
+    "id": "n-6a22761304",
+    "date": "2026-11-20",
+    "title": "Position paper defines architectural requirements for curiosity in language model agents",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "sampling-is-not-curiosity-llm-agents",
+    "version": null,
+    "tags": [
+      "Sampling Is Not Curiosity Llm Agents: sampling-is-not-curiosity-llm-agents-curiosity-requirements",
+      "family:sampling-is-not-curiosity-llm-agents",
+      "llm",
+      "sampling-is-not-curiosity-llm-agents",
+      "sampling-is-not-curiosity-llm-agents-curiosity-requirements"
+    ],
+    "primary_link": "https://arxiv.org/abs/2611.10501",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-617332c918",
     "date": "2026-11-20",
     "title": "GRAFT introduces execution-guided genetic recombination for LLM agent design",

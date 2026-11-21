@@ -85099,6 +85099,127 @@
     ],
     "claims": []
   },
+  "sampling-is-not-curiosity-llm-agents": {
+    "family_slug": "sampling-is-not-curiosity-llm-agents",
+    "family_display": "Sampling Is Not Curiosity Llm Agents: sampling-is-not-curiosity-llm-agents-curiosity-requirements",
+    "family_display_variants": [
+      {
+        "family_display": "Sampling Is Not Curiosity Llm Agents: sampling-is-not-curiosity-llm-agents-curiosity-requirements",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-6a22761304"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "llm"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-6a22761304"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-6a22761304",
+        "title": "Position paper defines architectural requirements for curiosity in language model agents",
+        "primary_link": "https://arxiv.org/abs/2611.10501"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2611.10501",
+        "is_primary": true,
+        "verified_at": "2026-11-21T11:23:58Z",
+        "news_ids": [
+          "n-6a22761304"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "arxiviq.substack.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiviq.substack.com/p/sampling-is-not-curiosity-why-llm",
+        "is_primary": false,
+        "verified_at": "2026-11-21T11:23:58Z",
+        "news_ids": [
+          "n-6a22761304"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Position paper defines architectural requirements for curiosity in language model agents",
+        "summary": "A position paper accepted to NeurIPS 2026 defines five structural criteria for artificial curiosity in language model agents, demonstrating that stochastic sampling and prompt variations fail to update internal world representations and that true exploration requires predictive modeling, persistent state updates, and intrinsic goal generation.",
+        "version": null,
+        "news_id": "n-6a22761304",
+        "primary_link": "https://arxiv.org/abs/2611.10501"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-6a22761304",
+        "date": "2026-11-20",
+        "title": "Position paper defines architectural requirements for curiosity in language model agents",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "sampling-is-not-curiosity-llm-agents",
+        "version": null,
+        "tags": [
+          "Sampling Is Not Curiosity Llm Agents: sampling-is-not-curiosity-llm-agents-curiosity-requirements",
+          "family:sampling-is-not-curiosity-llm-agents",
+          "llm",
+          "sampling-is-not-curiosity-llm-agents",
+          "sampling-is-not-curiosity-llm-agents-curiosity-requirements"
+        ],
+        "primary_link": "https://arxiv.org/abs/2611.10501",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "sampling-is-not-curiosity-llm-agents-curiosity-requirements",
+        "display": "Sampling Is Not Curiosity Llm Agents Curiosity Requirements",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-6a22761304",
+        "news_ids": [
+          "n-6a22761304"
+        ]
+      }
+    ]
+  },
   "sana": {
     "family_slug": "sana",
     "family_display": "SANA",
