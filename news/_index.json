@@ -1,5 +1,24 @@
 [
   {
+    "id": "n-fe297bbc98",
+    "date": "2026-11-20",
+    "title": "PAMI part-anchored interaction generation repository published",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "pami",
+    "version": null,
+    "tags": [
+      "Pami: pami-part-anchored-hoi-generation",
+      "family:pami",
+      "misc",
+      "pami",
+      "pami-part-anchored-hoi-generation"
+    ],
+    "primary_link": "https://github.com/Coral79/PAMI-Code",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-efb0fb8a5d",
     "date": "2026-11-20",
     "title": "Apple job listing details agentic AI leadership for cross-app automation",
@@ -93,6 +112,25 @@
       "organization:apple"
     ],
     "primary_link": "https://habr.com/ru/articles/1110310/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-d1f7c7e277",
+    "date": "2026-11-20",
+    "title": "PAMI releases code for part-anchored text-to-HOI synthesis",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "pami",
+    "version": null,
+    "tags": [
+      "Pami: pami-part-anchored-hoi-generation",
+      "family:pami",
+      "misc",
+      "pami",
+      "pami-part-anchored-hoi-generation"
+    ],
+    "primary_link": "https://github.com/Coral79/PAMI-Code",
     "has_image": false,
     "has_video": false
   },

@@ -1,9 +1,114 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T03:43:51Z",
+  "generated_at": "2026-11-21T04:01:52Z",
   "site": "diffusion.love",
-  "total": 1042,
+  "total": 1044,
   "records": [
+    {
+      "schema_version": "1.4",
+      "id": "n-fe297bbc98",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "PAMI part-anchored interaction generation repository published",
+      "summary": "The official repository for Part-Anchored Motion (PAMI) was published on GitHub, providing model code for generating coordinated human motion and 3D object trajectories from text prompts and object meshes.",
+      "research_notes": "Clone the Coral79/PAMI-Code repository from GitHub and configure the environment with the required PyTorch, CUDA, and 3D geometry packages.\n\nProvide a descriptive text prompt paired with a 3D target object mesh conforming to the expected coordinate conventions.\n\nExecute the coarse generation pipeline using PamiGen within the PamiVAE latent space to produce anchor-voted candidate trajectories.\n\nApply the recursive PamiRefiner module to adjust fine contact geometry and resolve foot or hand penetrations against the object surface.\n\nEnsure input object meshes possess clean surface geometry and consistent scale to allow proximity sensors in the refiner to compute valid contact fields.\n\nRetain the full coarse-to-fine generation pipeline with PamiRefiner rather than using coarse latent samples alone, preventing localized contact penetrations.",
+      "project": {
+        "name": "Pami: pami-part-anchored-hoi-generation",
+        "family_slug": "pami",
+        "family_display": "Pami: pami-part-anchored-hoi-generation",
+        "model_slug": "pami",
+        "model_display": "Pami: pami-part-anchored-hoi-generation",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "pami-part-anchored-hoi-generation",
+        "thread_display": "Pami Part Anchored Hoi Generation",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Pami: pami-part-anchored-hoi-generation",
+        "article_url": "https://happyin.space/projects/pami/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/03aa92f128a5e269b291ecf4b2e83fb343ce0cae/docs/projects/pami.md",
+        "agent_context_url": "https://happyin.space/projects/pami/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "PAMI part-anchored interaction generation repository published",
+        "version": null,
+        "summary": "The official repository for Part-Anchored Motion (PAMI) was published on GitHub, providing model code for generating coordinated human motion and 3D object trajectories from text prompts and object meshes."
+      },
+      "tags": [
+        "Pami: pami-part-anchored-hoi-generation",
+        "family:pami",
+        "misc",
+        "pami",
+        "pami-part-anchored-hoi-generation"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "pami"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/Coral79/PAMI-Code",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T04:01:52Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "The official repository for Part-Anchored Motion (PAMI) was published on GitHub, providing model code for generating coordinated human motion and 3D object trajectories from text prompts and object meshes."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T04:01:52Z",
+        "classified_at": "2026-11-21T04:01:52Z",
+        "enriched_at": "2026-11-21T04:01:52Z",
+        "verified_at": "2026-11-21T04:01:52Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
     {
       "schema_version": "1.4",
       "id": "n-efb0fb8a5d",
@@ -618,6 +723,111 @@
         "classified_at": "2026-11-21T01:14:25Z",
         "enriched_at": "2026-11-21T01:14:25Z",
         "verified_at": "2026-11-21T01:14:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-d1f7c7e277",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "PAMI releases code for part-anchored text-to-HOI synthesis",
+      "summary": "The release introduces PAMI by Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger, and Gerard Pons-Moll, implementing part-anchored trajectory voting via PamiVAE, PamiGen, and PamiRefiner.",
+      "research_notes": "Clone the Coral79/PAMI-Code repository from GitHub and configure the environment with the required PyTorch, CUDA, and 3D geometry packages.\n\nProvide a descriptive text prompt paired with a 3D target object mesh conforming to the expected coordinate conventions.\n\nExecute the coarse generation pipeline using PamiGen within the PamiVAE latent space to produce anchor-voted candidate trajectories.\n\nApply the recursive PamiRefiner module to adjust fine contact geometry and resolve foot or hand penetrations against the object surface.\n\nEnsure input object meshes possess clean surface geometry and consistent scale to allow proximity sensors in the refiner to compute valid contact fields.\n\nRetain the full coarse-to-fine generation pipeline with PamiRefiner rather than using coarse latent samples alone, preventing localized contact penetrations.",
+      "project": {
+        "name": "Pami: pami-part-anchored-hoi-generation",
+        "family_slug": "pami",
+        "family_display": "Pami: pami-part-anchored-hoi-generation",
+        "model_slug": "pami",
+        "model_display": "Pami: pami-part-anchored-hoi-generation",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "pami-part-anchored-hoi-generation",
+        "thread_display": "Pami Part Anchored Hoi Generation",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Pami: pami-part-anchored-hoi-generation",
+        "article_url": "https://happyin.space/projects/pami/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/03aa92f128a5e269b291ecf4b2e83fb343ce0cae/docs/projects/pami.md",
+        "agent_context_url": "https://happyin.space/projects/pami/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "PAMI releases code for part-anchored text-to-HOI synthesis",
+        "version": null,
+        "summary": "The release introduces PAMI by Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger, and Gerard Pons-Moll, implementing part-anchored trajectory voting via PamiVAE, PamiGen, and PamiRefiner."
+      },
+      "tags": [
+        "Pami: pami-part-anchored-hoi-generation",
+        "family:pami",
+        "misc",
+        "pami",
+        "pami-part-anchored-hoi-generation"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "pami"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/Coral79/PAMI-Code",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T04:01:52Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "The release introduces PAMI by Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger, and Gerard Pons-Moll, implementing part-anchored trajectory voting via PamiVAE, PamiGen, and PamiRefiner."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T04:01:52Z",
+        "classified_at": "2026-11-21T04:01:52Z",
+        "enriched_at": "2026-11-21T04:01:52Z",
+        "verified_at": "2026-11-21T04:01:52Z",
         "models_used": {
           "research": "curated-live-material"
         },

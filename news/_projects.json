@@ -71085,6 +71085,154 @@
     ],
     "claims": []
   },
+  "pami": {
+    "family_slug": "pami",
+    "family_display": "Pami: pami-part-anchored-hoi-generation",
+    "family_display_variants": [
+      {
+        "family_display": "Pami: pami-part-anchored-hoi-generation",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-d1f7c7e277",
+          "n-fe297bbc98"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-d1f7c7e277",
+      "n-fe297bbc98"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-d1f7c7e277",
+        "title": "PAMI releases code for part-anchored text-to-HOI synthesis",
+        "primary_link": "https://github.com/Coral79/PAMI-Code"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-fe297bbc98",
+        "title": "PAMI part-anchored interaction generation repository published",
+        "primary_link": "https://github.com/Coral79/PAMI-Code"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/Coral79/PAMI-Code",
+        "is_primary": true,
+        "verified_at": "2026-11-21T04:01:52Z",
+        "news_ids": [
+          "n-d1f7c7e277",
+          "n-fe297bbc98"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "PAMI releases code for part-anchored text-to-HOI synthesis",
+        "summary": "The release introduces PAMI by Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger, and Gerard Pons-Moll, implementing part-anchored trajectory voting via PamiVAE, PamiGen, and PamiRefiner.",
+        "version": null,
+        "news_id": "n-d1f7c7e277",
+        "primary_link": "https://github.com/Coral79/PAMI-Code"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "PAMI part-anchored interaction generation repository published",
+        "summary": "The official repository for Part-Anchored Motion (PAMI) was published on GitHub, providing model code for generating coordinated human motion and 3D object trajectories from text prompts and object meshes.",
+        "version": null,
+        "news_id": "n-fe297bbc98",
+        "primary_link": "https://github.com/Coral79/PAMI-Code"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-fe297bbc98",
+        "date": "2026-11-20",
+        "title": "PAMI part-anchored interaction generation repository published",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "pami",
+        "version": null,
+        "tags": [
+          "Pami: pami-part-anchored-hoi-generation",
+          "family:pami",
+          "misc",
+          "pami",
+          "pami-part-anchored-hoi-generation"
+        ],
+        "primary_link": "https://github.com/Coral79/PAMI-Code",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-d1f7c7e277",
+        "date": "2026-11-20",
+        "title": "PAMI releases code for part-anchored text-to-HOI synthesis",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "pami",
+        "version": null,
+        "tags": [
+          "Pami: pami-part-anchored-hoi-generation",
+          "family:pami",
+          "misc",
+          "pami",
+          "pami-part-anchored-hoi-generation"
+        ],
+        "primary_link": "https://github.com/Coral79/PAMI-Code",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "pami-part-anchored-hoi-generation",
+        "display": "Pami Part Anchored Hoi Generation",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-fe297bbc98",
+        "news_ids": [
+          "n-d1f7c7e277",
+          "n-fe297bbc98"
+        ]
+      }
+    ]
+  },
   "pangram": {
     "family_slug": "pangram",
     "family_display": "Pangram: pangram-attack-dog-shaming-campaign",
