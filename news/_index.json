@@ -287,6 +287,25 @@
     "has_video": false
   },
   {
+    "id": "n-511a5a9fcc",
+    "date": "2026-11-20",
+    "title": "Alljoined details ENIGMA model and open EEG datasets for visual neural decoding",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Alljoined: alljoined-bci-eeg-research",
+      "alljoined",
+      "alljoined-bci-eeg-research",
+      "misc",
+      "organization:alljoined"
+    ],
+    "primary_link": "https://www.alljoined.com/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-4526450394",
     "date": "2026-11-20",
     "title": "Google opens early Project Genie access powered by Genie 4",

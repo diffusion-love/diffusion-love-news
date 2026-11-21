@@ -163,6 +163,9 @@
   "Alibaba": [
     "n-1e37f80b3f"
   ],
+  "Alljoined: alljoined-bci-eeg-research": [
+    "n-511a5a9fcc"
+  ],
   "Anthropic": [
     "n-b7c4d9268f",
     "n-66988bb8af",
@@ -3292,6 +3295,12 @@
   ],
   "alibaba_latent_to_pixel": [
     "n-1e37f80b3f"
+  ],
+  "alljoined": [
+    "n-511a5a9fcc"
+  ],
+  "alljoined-bci-eeg-research": [
+    "n-511a5a9fcc"
   ],
   "amd": [
     "n-9253bb5191"
@@ -9937,6 +9946,7 @@
     "n-52bae6b01d",
     "n-520de897dc",
     "n-51a9d6c3d6",
+    "n-511a5a9fcc",
     "n-4fb87f050c",
     "n-4f107b5ebf",
     "n-4ef65aa7f6",
@@ -11067,6 +11077,9 @@
     "n-851c72bbf5",
     "n-4003adb534",
     "n-061c80a1dc"
+  ],
+  "organization:alljoined": [
+    "n-511a5a9fcc"
   ],
   "organization:amd": [
     "n-9253bb5191"
