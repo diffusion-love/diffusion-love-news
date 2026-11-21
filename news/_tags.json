@@ -2701,6 +2701,10 @@
   "Qwen 3.6 Plus Preview": [
     "n-3f35c2ca4e"
   ],
+  "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning": [
+    "n-ef9fd5e4ca",
+    "n-3ea587526f"
+  ],
   "Qwen Audio": [
     "n-af926b6d88"
   ],
@@ -3567,6 +3571,9 @@
     "n-ba304b8f26",
     "n-6c86825761",
     "n-52bee6c102"
+  ],
+  "Yandex 360: yandex-360-mcp-server": [
+    "n-74431781c7"
   ],
   "Yandex AI products": [
     "n-8c7cda80aa"
@@ -8117,6 +8124,10 @@
   "family:qwen-3-6-plus-preview": [
     "n-3f35c2ca4e"
   ],
+  "family:qwen-3-8-122b": [
+    "n-ef9fd5e4ca",
+    "n-3ea587526f"
+  ],
   "family:qwen-3-8-27b": [
     "n-5d775dee1a",
     "n-4340409e0e"
@@ -8938,6 +8949,9 @@
     "n-ba304b8f26",
     "n-6c86825761",
     "n-52bee6c102"
+  ],
+  "family:yandex-360": [
+    "n-74431781c7"
   ],
   "family:yedp": [
     "n-501487aec4"
@@ -10946,6 +10960,7 @@
     "n-f306331601",
     "n-efb0fb8a5d",
     "n-efaa00d50b",
+    "n-ef9fd5e4ca",
     "n-ee8bd2e38f",
     "n-ec5428386a",
     "n-eb965439db",
@@ -11009,6 +11024,7 @@
     "n-49a6616381",
     "n-44c547a245",
     "n-3ef8391496",
+    "n-3ea587526f",
     "n-367db0be8e",
     "n-34c22d3127",
     "n-31b3b17c7b",
@@ -12128,6 +12144,7 @@
     "n-75473141c2",
     "n-75171cd2c8",
     "n-744a693cde",
+    "n-74431781c7",
     "n-740438cbeb",
     "n-738dba3c5e",
     "n-73472136b4",
@@ -14858,6 +14875,14 @@
   "qwen-3-6-plus-preview": [
     "n-3f35c2ca4e"
   ],
+  "qwen-3-8-122b": [
+    "n-ef9fd5e4ca",
+    "n-3ea587526f"
+  ],
+  "qwen-3-8-122b-local-finetuning": [
+    "n-ef9fd5e4ca",
+    "n-3ea587526f"
+  ],
   "qwen-3-8-27b": [
     "n-5d775dee1a",
     "n-4340409e0e"
@@ -15908,6 +15933,7 @@
     "n-f861f085b8",
     "n-f6c6cdf729",
     "n-efb0fb8a5d",
+    "n-ef9fd5e4ca",
     "n-ef68e2a314",
     "n-edad1a10a0",
     "n-ed7778c240",
@@ -16542,6 +16568,12 @@
     "n-8c7cda80aa",
     "n-6c86825761",
     "n-52bee6c102"
+  ],
+  "yandex-360": [
+    "n-74431781c7"
+  ],
+  "yandex-360-mcp-server": [
+    "n-74431781c7"
   ],
   "yandex-ai-products": [
     "n-8c7cda80aa"

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T01:14:25Z",
+  "generated_at": "2026-11-21T02:30:20Z",
   "site": "diffusion.love",
-  "total": 1395,
+  "total": 1398,
   "records": [
     {
       "schema_version": "1.4",
@@ -135,6 +135,112 @@
         "classified_at": "2026-11-21T01:14:25Z",
         "enriched_at": "2026-11-21T01:14:25Z",
         "verified_at": "2026-11-21T01:14:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-ef9fd5e4ca",
+      "entry_type": "news",
+      "category": "llm",
+      "lang": "en",
+      "title": "Local output-module fine-tuning demonstrated for Qwen 3.8 122B in Strata",
+      "summary": "A local fine-tuning workflow runs Qwen 3.8 122B on 16 GB VRAM and 64 GB RAM by freezing 48 main layers, caching activations on GPU, and training a 12.54 MiB output module on CPU.",
+      "research_notes": "Deploy the base Qwen 3.8 122B model inside the Strata inference engine on a workstation with at least 16 GB VRAM and 64 GB system RAM.\n\nFreeze the 48 main transformer layers and route training dialogues through the GPU forward pass to cache intermediate activations.\n\nExecute SFT and DPO training on CPU exclusively targeting the 12.54 MiB output module.\n\nValidate behavioral updates against the laboratory agent and maintain the rollback script to revert output-module modifications if regressions occur.\n\nCache forward-pass activations on the GPU before initiating CPU training to prevent VRAM exhaustion and avoid full backpropagation through frozen layers.\n\nMaintain automated rollback scripts to restore base output-module weights immediately if specialized agent evaluations degrade.\n\nLimit local CPU fine-tuning iterations to lightweight alignment passes such as SFT and DPO to keep cycle duration around one minute.",
+      "project": {
+        "name": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+        "family_slug": "qwen-3-8-122b",
+        "family_display": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+        "model_slug": "qwen-3-8-122b",
+        "model_display": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "qwen-3-8-122b-local-finetuning",
+        "thread_display": "Qwen 3 8 122B Local Finetuning",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+        "article_url": "https://happyin.space/projects/qwen-3-8-122b/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/10482f5ddefa62cf3df2ea0b18a53000aa1a7412/docs/projects/qwen-3-8-122b.md",
+        "agent_context_url": "https://happyin.space/projects/qwen-3-8-122b/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Local output-module fine-tuning demonstrated for Qwen 3.8 122B in Strata",
+        "version": null,
+        "summary": "A local fine-tuning workflow runs Qwen 3.8 122B on 16 GB VRAM and 64 GB RAM by freezing 48 main layers, caching activations on GPU, and training a 12.54 MiB output module on CPU."
+      },
+      "tags": [
+        "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+        "family:qwen-3-8-122b",
+        "llm",
+        "qwen-3-8-122b",
+        "qwen-3-8-122b-local-finetuning",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "llm",
+        "entry_type": "news",
+        "projects": [
+          "qwen-3-8-122b"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110182/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T02:25:05Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "A local fine-tuning workflow runs Qwen 3.8 122B on 16 GB VRAM and 64 GB RAM by freezing 48 main layers, caching activations on GPU, and training a 12.54 MiB output module on CPU."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T02:25:05Z",
+        "classified_at": "2026-11-21T02:25:05Z",
+        "enriched_at": "2026-11-21T02:25:05Z",
+        "verified_at": "2026-11-21T02:25:05Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -724,6 +830,111 @@
     },
     {
       "schema_version": "1.4",
+      "id": "n-74431781c7",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Yandex 360 opens virtual office tools to external AI agents via MCP server",
+      "summary": "Yandex 360 launched a Model Context Protocol (MCP) server enabling external AI clients like ChatGPT, Claude, and DeepSeek, as well as Alice AI for business and Yandex AI Studio, to interface with its corporate mail, calendar, disk, and directory services.",
+      "research_notes": "Obtain corporate API credentials including the OAuth authorization token and Organization ID from the Yandex 360 administrative settings.\n\nConfigure the target MCP client with the Yandex 360 MCP server endpoint and required authentication headers.\n\nInteract through the AI assistant interface to query calendar schedules, search emails, inspect files on Yandex Disk, or manage organization structure.\n\nScope OAuth token permissions strictly to the required Yandex 360 services such as Mail, Calendar, or Disk to enforce least-privilege boundaries for external agent integrations.\n\nVerify corporate organization ID and domain administrative rights before provisioning MCP server access across team environments.",
+      "project": {
+        "name": "Yandex 360: yandex-360-mcp-server",
+        "family_slug": "yandex-360",
+        "family_display": "Yandex 360: yandex-360-mcp-server",
+        "model_slug": "yandex-360",
+        "model_display": "Yandex 360: yandex-360-mcp-server",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "yandex-360-mcp-server",
+        "thread_display": "Yandex 360 Mcp Server",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Yandex 360: yandex-360-mcp-server",
+        "article_url": "https://happyin.space/projects/yandex-360/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/7ff8873db0ce64ce668575483c25d8ceb729b8b5/docs/projects/yandex-360.md",
+        "agent_context_url": "https://happyin.space/projects/yandex-360/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Yandex 360 opens virtual office tools to external AI agents via MCP server",
+        "version": null,
+        "summary": "Yandex 360 launched a Model Context Protocol (MCP) server enabling external AI clients like ChatGPT, Claude, and DeepSeek, as well as Alice AI for business and Yandex AI Studio, to interface with its corporate mail, calendar, disk, and directory services."
+      },
+      "tags": [
+        "Yandex 360: yandex-360-mcp-server",
+        "family:yandex-360",
+        "misc",
+        "yandex-360",
+        "yandex-360-mcp-server"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "yandex-360"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110214/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T02:30:20Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Yandex 360 launched a Model Context Protocol (MCP) server enabling external AI clients like ChatGPT, Claude, and DeepSeek, as well as Alice AI for business and Yandex AI Studio, to interface with its corporate mail, calendar, disk, and directory services."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T02:30:20Z",
+        "classified_at": "2026-11-21T02:30:20Z",
+        "enriched_at": "2026-11-21T02:30:20Z",
+        "verified_at": "2026-11-21T02:30:20Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
       "id": "n-617332c918",
       "entry_type": "news",
       "category": "llm",
@@ -957,6 +1168,111 @@
         "classified_at": "2026-11-21T01:14:25Z",
         "enriched_at": "2026-11-21T01:14:25Z",
         "verified_at": "2026-11-21T01:14:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-3ea587526f",
+      "entry_type": "news",
+      "category": "llm",
+      "lang": "en",
+      "title": "Strata output-module training enables SFT and DPO for 122B model on consumer hardware",
+      "summary": "Adapting Qwen 3.8 122B locally uses GPU forward activation caching to train a 12.54 MiB output module on CPU in roughly one minute across SFT and DPO passes with rollback protection.",
+      "research_notes": "Deploy the base Qwen 3.8 122B model inside the Strata inference engine on a workstation with at least 16 GB VRAM and 64 GB system RAM.\n\nFreeze the 48 main transformer layers and route training dialogues through the GPU forward pass to cache intermediate activations.\n\nExecute SFT and DPO training on CPU exclusively targeting the 12.54 MiB output module.\n\nValidate behavioral updates against the laboratory agent and maintain the rollback script to revert output-module modifications if regressions occur.\n\nCache forward-pass activations on the GPU before initiating CPU training to prevent VRAM exhaustion and avoid full backpropagation through frozen layers.\n\nMaintain automated rollback scripts to restore base output-module weights immediately if specialized agent evaluations degrade.\n\nLimit local CPU fine-tuning iterations to lightweight alignment passes such as SFT and DPO to keep cycle duration around one minute.",
+      "project": {
+        "name": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+        "family_slug": "qwen-3-8-122b",
+        "family_display": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+        "model_slug": "qwen-3-8-122b",
+        "model_display": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "qwen-3-8-122b-local-finetuning",
+        "thread_display": "Qwen 3 8 122B Local Finetuning",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+        "article_url": "https://happyin.space/projects/qwen-3-8-122b/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/10482f5ddefa62cf3df2ea0b18a53000aa1a7412/docs/projects/qwen-3-8-122b.md",
+        "agent_context_url": "https://happyin.space/projects/qwen-3-8-122b/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Strata output-module training enables SFT and DPO for 122B model on consumer hardware",
+        "version": null,
+        "summary": "Adapting Qwen 3.8 122B locally uses GPU forward activation caching to train a 12.54 MiB output module on CPU in roughly one minute across SFT and DPO passes with rollback protection."
+      },
+      "tags": [
+        "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+        "family:qwen-3-8-122b",
+        "llm",
+        "qwen-3-8-122b",
+        "qwen-3-8-122b-local-finetuning"
+      ],
+      "facets": {
+        "category": "llm",
+        "entry_type": "news",
+        "projects": [
+          "qwen-3-8-122b"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110182/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T02:25:05Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Adapting Qwen 3.8 122B locally uses GPU forward activation caching to train a 12.54 MiB output module on CPU in roughly one minute across SFT and DPO passes with rollback protection."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T02:25:05Z",
+        "classified_at": "2026-11-21T02:25:05Z",
+        "enriched_at": "2026-11-21T02:25:05Z",
+        "verified_at": "2026-11-21T02:25:05Z",
         "models_used": {
           "research": "curated-live-material"
         },
