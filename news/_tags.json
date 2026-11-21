@@ -561,6 +561,7 @@
   "ComfyUI Development": [
     "n-a167c6f61b",
     "n-76e2884b48",
+    "n-0a2549f33e",
     "n-046d02af9f"
   ],
   "ComfyUI Hires Fix": [
@@ -3137,6 +3138,9 @@
   "Stable Layers": [
     "n-a5a478ec38"
   ],
+  "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction": [
+    "n-ea13284ff9"
+  ],
   "Star Wars Zero Company": [
     "n-e6dc6cad59",
     "n-24ca0116e9"
@@ -4880,6 +4884,7 @@
     "n-18e6b47885",
     "n-133a0bfd18",
     "n-0cf9d026b8",
+    "n-0a2549f33e",
     "n-08fceb7eae",
     "n-08ae804484",
     "n-0739891476",
@@ -4900,6 +4905,7 @@
   "comfyui-development": [
     "n-a167c6f61b",
     "n-76e2884b48",
+    "n-0a2549f33e",
     "n-046d02af9f"
   ],
   "comfyui-drama3": [
@@ -6249,6 +6255,7 @@
     "n-76e2884b48",
     "n-3c2855adb1",
     "n-2d6b42b1d8",
+    "n-0a2549f33e",
     "n-046d02af9f"
   ],
   "family:comfyui-6dof": [
@@ -8554,6 +8561,9 @@
   ],
   "family:stable-layers": [
     "n-a5a478ec38"
+  ],
+  "family:stablegrasp": [
+    "n-ea13284ff9"
   ],
   "family:star-wars-zero-company": [
     "n-e6dc6cad59",
@@ -11733,6 +11743,7 @@
     "n-eaa0dc5be8",
     "n-ea52f36353",
     "n-ea26f61d82",
+    "n-ea13284ff9",
     "n-e9d344fa77",
     "n-e94bd15184",
     "n-e8fb056748",
@@ -15657,6 +15668,12 @@
   "stable-layers": [
     "n-a5a478ec38"
   ],
+  "stablegrasp": [
+    "n-ea13284ff9"
+  ],
+  "stablegrasp-physically-stable-hand-grasp-reconstruction": [
+    "n-ea13284ff9"
+  ],
   "star-wars-zero-company": [
     "n-e6dc6cad59",
     "n-24ca0116e9"
@@ -16038,6 +16055,7 @@
     "n-169e12a080",
     "n-133a0bfd18",
     "n-0ecaaac1b0",
+    "n-0a2549f33e",
     "n-08fceb7eae",
     "n-08ae804484",
     "n-0739891476",

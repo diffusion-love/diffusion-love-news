@@ -78,6 +78,25 @@
     "has_video": false
   },
   {
+    "id": "n-ea13284ff9",
+    "date": "2026-11-20",
+    "title": "StableGrasp: single-image hand grasp reconstruction using differentiable physics simulation",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "stablegrasp",
+    "version": null,
+    "tags": [
+      "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction",
+      "family:stablegrasp",
+      "misc",
+      "stablegrasp",
+      "stablegrasp-physically-stable-hand-grasp-reconstruction"
+    ],
+    "primary_link": "https://arxiv.org/abs/2610.09195",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-d8b407c155",
     "date": "2026-11-20",
     "title": "FastUnlock zero-day bypasses Windows 11 lock screen via Narrator interface",
@@ -343,6 +362,25 @@
       "misc"
     ],
     "primary_link": "https://www.jinkuncao.com/FAB/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-0a2549f33e",
+    "date": "2026-11-20",
+    "title": "ComfyUI v0.46.2 maintenance release addresses memory management and config crashes",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "comfyui",
+    "version": null,
+    "tags": [
+      "ComfyUI Development",
+      "comfyui",
+      "comfyui-development",
+      "family:comfyui",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.2",
     "has_image": false,
     "has_video": false
   },
