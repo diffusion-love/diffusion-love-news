@@ -1,0 +1,11 @@
+{
+ "id": "n-4108f8b1e7",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Konfigurieren Sie die Einstellungen für Bedienungshilfen, den vollständigen Festplattenzugriff und die Automatisierungssicherheit über die mehrstufigen Berechtigungsabfragen in macOS-Beta-Umgebungen, um externe Tools zur Computersteuerung zu ermöglichen.\n\nRichten Sie automatisierte Entwicklungsskripte an gängigen Terminal-Dienstprogrammen, unterstützten APIs und anwendungsspezifischen Scripting-Wörterbüchern aus, statt auf ungebremste UI-Erfassung zu setzen, bis Apple native Agenten-APIs veröffentlicht.\n\nPlanen Sie bei der Architektur automatisierter Desktop-Workflows erweiterte Sicherheitsautorisierungsdialoge in kommenden macOS-Versionen ein.\n\nStrukturieren Sie agentische Tools um explizite, Sandbox-geschützte API-Aufrufe und CLI-Endpunkte, statt sich auf fragile synthetische Benutzeroberflächen-Ereignisse zu verlassen.",
+ "source_sha256": "e695b77abba5b83514b00d39f26c6917a18dba10c7ecb30000b9018e2ed0f18a",
+ "summary": "Die macOS 27.3 Beta erhöht laut Berichten die Autorisierungsanforderungen für Drittanbieter-Tools zur Gerätesteuerung von 4 auf 14 Schritte. Zugleich gibt es Berichte, dass Apple an einem nativen autonomen Agenten arbeitet.",
+ "title": "macOS 27.3 Beta erweitert Berechtigungsschritte für Drittanbieter-Agenten, während Apple an einem nativen Agenten arbeitet",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

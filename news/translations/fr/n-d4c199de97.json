@@ -1,0 +1,11 @@
+{
+ "id": "n-d4c199de97",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configurez les paramètres de sécurité liés à l'accessibilité, à l'accès complet au disque et à l'automatisation via les invites d'autorisation en plusieurs étapes dans les environnements bêta de macOS, afin de permettre l'utilisation d'outils externes de contrôle informatique.\n\nAlignez les scripts de développement automatisés sur les utilitaires de terminal standard, les API prises en charge et les dictionnaires de script propres aux applications, plutôt que sur une capture d'interface utilisateur sans restriction, en attendant la publication d'API natives d'agents par Apple.\n\nPrévoyez des boîtes de dialogue d'autorisation de sécurité plus nombreuses dans les prochaines versions de macOS lorsque vous concevez des flux de travail automatisés sur ordinateur.\n\nStructurez les outils agentiques autour d'appels d'API explicites et sandboxés et de points d'accès CLI, plutôt que de vous appuyer sur des événements d'interface utilisateur synthétiques et fragiles.",
+ "source_sha256": "c2005526e72956f14e4e25df4326ca47e6399ccc40fb4fad8d12010c1becf2c8",
+ "summary": "Une offre d'emploi révèle qu'Apple recrute un responsable senior en ingénierie chargé de diriger des systèmes d'agents autonomes capables de naviguer dans des logiciels, de parcourir des sites web et de générer du code.",
+ "title": "Apple ouvre un poste de responsable en ingénierie pour une IA autonome de contrôle informatique",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

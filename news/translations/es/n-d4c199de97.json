@@ -1,0 +1,11 @@
+{
+ "id": "n-d4c199de97",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configure los ajustes de accesibilidad, acceso completo al disco y automatización de seguridad mediante las peticiones de permisos de varios pasos en los entornos beta de macOS para habilitar herramientas externas de uso de equipo por IA.\n\nAlinee los scripts de desarrollo automatizados con las utilidades estándar de terminal, las APIs compatibles y los diccionarios de scripting específicos de cada aplicación, en lugar de la captura de interfaz sin restricciones, a la espera de las versiones nativas de la API de agentes de Apple.\n\nPrevea diálogos de autorización de seguridad más extensos en las próximas versiones de macOS al diseñar flujos de trabajo automatizados de escritorio.\n\nEstructure las herramientas agénticas en torno a llamadas a API sandboxed explícitas y endpoints de CLI, en lugar de depender de eventos de interfaz de usuario sintéticos y frágiles.",
+ "source_sha256": "c2005526e72956f14e4e25df4326ca47e6399ccc40fb4fad8d12010c1becf2c8",
+ "summary": "Una oferta de empleo revela que Apple está contratando a un gerente senior de ingeniería para dirigir sistemas de agentes autónomos capaces de navegar por software, explorar sitios web y generar código.",
+ "title": "Apple abre un puesto de gerente de ingeniería para IA autónoma de uso de equipo",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

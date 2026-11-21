@@ -1,0 +1,11 @@
+{
+ "id": "n-efb0fb8a5d",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configure los ajustes de accesibilidad, acceso completo al disco y automatización de seguridad a través de las solicitudes de permisos de varios pasos en entornos beta de macOS para habilitar herramientas externas de uso del ordenador.\n\nAlinee los scripts de desarrollo automatizados con las utilidades estándar de terminal, las APIs compatibles y los diccionarios de scripting específicos de cada aplicación, en lugar de la captura de interfaz sin restricciones, a la espera de las versiones nativas de APIs de agentes de Apple.\n\nPrevea diálogos de autorización de seguridad ampliados en las próximas versiones de macOS al diseñar flujos de trabajo de escritorio automatizados.\n\nEstructure las herramientas agénticas en torno a llamadas a API explícitas y en entornos aislados (sandbox) y a endpoints de CLI, en lugar de depender de eventos sintéticos de interfaz de usuario frágiles.",
+ "source_sha256": "3116b8e200638c2fa29bb834e3b22200740e1e656efb75ece655b1d92f462bce",
+ "summary": "Un anuncio de puesto de Senior Engineering Manager, Agentic AI indica que Apple está desarrollando asistentes para ejecutar flujos de trabajo de varios pasos a través de comandos de terminal, APIs y herramientas web.",
+ "title": "Una oferta de empleo de Apple detalla el liderazgo en IA agéntica para la automatización entre aplicaciones",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

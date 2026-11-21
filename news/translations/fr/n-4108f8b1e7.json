@@ -1,0 +1,11 @@
+{
+ "id": "n-4108f8b1e7",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Configurez les paramètres de sécurité de l'accessibilité, de l'accès complet au disque et de l'automatisation via les invites d'autorisation en plusieurs étapes dans les environnements bêta de macOS, afin de permettre l'utilisation d'outils externes de contrôle informatique.\n\nAlignez les scripts de développement automatisés sur les utilitaires de terminal standards, les API prises en charge et les dictionnaires de scripts propres aux applications, plutôt que sur une capture d'interface sans restriction, en attendant la sortie d'API natives d'agents par Apple.\n\nPrévoyez des boîtes de dialogue d'autorisation de sécurité plus nombreuses dans les prochaines versions de macOS lors de la conception de flux de travail de bureau automatisés.\n\nStructurez les outils agentiques autour d'appels d'API explicitement sandboxés et de points d'accès CLI, plutôt que de vous appuyer sur des événements d'interface utilisateur synthétiques fragiles.",
+ "source_sha256": "e695b77abba5b83514b00d39f26c6917a18dba10c7ecb30000b9018e2ed0f18a",
+ "summary": "macOS 27.3 bêta augmenterait selon certaines informations les exigences d'autorisation pour les outils tiers de contrôle d'appareils, passant de 4 à 14 étapes, tandis que des rapports indiquent qu'Apple développe un agent autonome natif.",
+ "title": "macOS 27.3 bêta étend les étapes d'autorisation des agents tiers alors qu'Apple prépare un agent natif",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

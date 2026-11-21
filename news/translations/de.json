@@ -684,6 +684,11 @@
   "summary": "CanAI ist als Open-Source-Studio für den lokalen Betrieb gestartet. Es bietet eine unendliche Arbeitsfläche für Bild- und Video-Workflows, Makro-Knoten, Prompt-Unterstützung, eine Web-Demo sowie Windows-Release-Binaries, für die ein vom Nutzer bereitgestellter fal.ai-Schlüssel erforderlich ist.",
   "title": "CanAI als Open-Source-Canvas-Studio für lokale Nutzung mit fal.ai-Integration veröffentlicht"
  },
+ "n-21d10fc208": {
+  "research_notes": "Konfigurieren Sie Einstellungen für Bedienungshilfen, vollständigen Festplattenzugriff und Automatisierungssicherheit über die mehrstufigen Berechtigungsabfragen in macOS-Beta-Umgebungen, um externe Tools für die Computersteuerung zu ermöglichen.\n\nRichten Sie automatisierte Entwicklungsskripte an gängigen Terminal-Dienstprogrammen, unterstützten APIs und anwendungsspezifischen Scripting-Wörterbüchern aus, statt an ungebremster UI-Erfassung, bis native Agenten-APIs von Apple veröffentlicht werden.\n\nPlanen Sie bei der Architektur automatisierter Desktop-Workflows mit umfangreicheren Sicherheitsautorisierungsdialogen in kommenden macOS-Versionen.\n\nStrukturieren Sie agentische Tools um explizite, sandboxed API-Aufrufe und CLI-Endpunkte, statt sich auf fragile synthetische Benutzeroberflächen-Ereignisse zu verlassen.",
+  "summary": "Berichten zufolge entwickelt Apple KI-Agenten zur Gerätesteuerung und verschärft gleichzeitig die Berechtigungsgrenzen auf Betriebssystemebene für konkurrierende externe Automatisierungsdienste.",
+  "title": "Apple kombiniert die Entwicklung eigener Agenten mit strengeren macOS-Automatisierungsbarrieren"
+ },
  "n-22001436c1": {
   "summary": "Am 17.06.2026 wurde die Entwicklungslinie von Image-to-LoRA mit einer öffentlichen ModelScope-Sammlung für Image-to-LoRA V2 verknüpft. Dies ist ein wesentlicher Meilenstein auf Versionsebene, da er zu diesem Datum einen konkreten öffentlichen Verteilungspunkt für das Projekt benennt. Die verfügbaren Belege lassen über diese verlinkte Sammlung hinaus weder die technischen Änderungen des Modells, seine Urheberschaft noch seinen Veröffentlichungsstatus erkennen.",
   "title": "Image-to-LoRA-V2-Sammlung wird zum öffentlichen Projektmeilenstein"
@@ -1343,6 +1348,11 @@
   "research_notes": "Gemeinsam entwickelt von der Seoul National University und Microsoft Research Asia; der Quellcode ist derzeit als „coming soon“ angekündigt.",
   "summary": "Ein Framework zur Erzeugung großskaliger, kontinuierlicher 3D-Umgebungen aus Draufsicht-Segmentkarten und Textprompts. Es setzt eine Multi-Diffusion-Strategie ein, um sich überlappende 3D-Fenster zu koordinieren, und gewährleistet so nahtlose Übergänge und Skalenkonsistenz über ausgedehnte Welten hinweg.",
   "title": "Map2World: Segmentkarten-gesteuerte Generierung von 3D-Welten aus Text"
+ },
+ "n-4108f8b1e7": {
+  "research_notes": "Konfigurieren Sie die Einstellungen für Bedienungshilfen, den vollständigen Festplattenzugriff und die Automatisierungssicherheit über die mehrstufigen Berechtigungsabfragen in macOS-Beta-Umgebungen, um externe Tools zur Computersteuerung zu ermöglichen.\n\nRichten Sie automatisierte Entwicklungsskripte an gängigen Terminal-Dienstprogrammen, unterstützten APIs und anwendungsspezifischen Scripting-Wörterbüchern aus, statt auf ungebremste UI-Erfassung zu setzen, bis Apple native Agenten-APIs veröffentlicht.\n\nPlanen Sie bei der Architektur automatisierter Desktop-Workflows erweiterte Sicherheitsautorisierungsdialoge in kommenden macOS-Versionen ein.\n\nStrukturieren Sie agentische Tools um explizite, Sandbox-geschützte API-Aufrufe und CLI-Endpunkte, statt sich auf fragile synthetische Benutzeroberflächen-Ereignisse zu verlassen.",
+  "summary": "Die macOS 27.3 Beta erhöht laut Berichten die Autorisierungsanforderungen für Drittanbieter-Tools zur Gerätesteuerung von 4 auf 14 Schritte. Zugleich gibt es Berichte, dass Apple an einem nativen autonomen Agenten arbeitet.",
+  "title": "macOS 27.3 Beta erweitert Berechtigungsschritte für Drittanbieter-Agenten, während Apple an einem nativen Agenten arbeitet"
  },
  "n-412ff5547f": {
   "summary": "Am 14.08.2026 verlinkte Google eine offizielle Ankündigung, die Gemini 3.7 Flash vorstellt, sowie eine AI-Studio-Prompt-URL, über die dieses Modell ausgewählt wird. Das ist ein wesentlicher Schritt bei der Modellveröffentlichung und der Verfügbarkeit für Entwickler. Die bereitgestellten Links belegen jedoch nicht den endgültigen Status des Modells, seine Limits oder seine regionale Verfügbarkeit.",
@@ -2817,6 +2827,11 @@
   "summary": "Am 2026-06-29 hat der Datensatz einen Civitai-Link zu Realism Enhancer Krea2 mit der Modellversions-ID 3065628 erfasst. Dies wird als wesentliches Ereignis in der Historie vorgeschlagen, weil es das Projekt an einem bestimmten öffentlichen Modellversions-Verweis zu diesem Datum verankert. Der vorliegende Link allein belegt jedoch weder den Veröffentlichungsstatus des Modells, seinen Inhalt, seine Lizenzierung noch die behaupteten Wirkungen.",
   "title": "Realism Enhancer Krea2-Modellversion erfasst"
  },
+ "n-93d71a9cbf": {
+  "research_notes": "Konfigurieren Sie Einstellungen für Bedienungshilfen, vollen Festplattenzugriff und Automatisierungssicherheit über die mehrstufigen Berechtigungsabfragen in macOS-Beta-Umgebungen, um externe Tools für Computer-Use zu ermöglichen.\n\nRichten Sie automatisierte Entwicklungsskripte an gängigen Terminal-Dienstprogrammen, unterstützten APIs und anwendungsspezifischen Scripting-Wörterbüchern aus, statt auf ungebremste UI-Erfassung zu setzen, bis Apple seine nativen Agent-APIs veröffentlicht.\n\nRechnen Sie bei der Architektur automatisierter Desktop-Workflows mit erweiterten Sicherheitsautorisierungsdialogen in kommenden macOS-Versionen.\n\nStrukturieren Sie agentische Tools um explizite, sandboxed API-Aufrufe und CLI-Endpunkte, statt sich auf fragile synthetische Benutzeroberflächen-Ereignisse zu verlassen.",
+  "summary": "Aktuelle macOS-Beta-Builds erlegen Drittanbieter-Tools für KI-Automatisierung einen 14-stufigen Einrichtungsprozess auf, während Apple an einem eigenen agentischen System für die Steuerung von Apps und Geräten arbeitet.",
+  "title": "Apple verschärft Berechtigungen für macOS-Agenten, während das Unternehmen einen proprietären Assistenten entwickelt"
+ },
  "n-93eeb937f1": {
   "research_notes": "Für das gehostete Modell die bestehende API-Integration beibehalten und das Modell auf `deepseek-flash` setzen; es wird auf die aktuelle V4.1-Flash-Version aufgelöst.\n\nFür lokale Experimente aktualisierte Versionen von Transformers und Accelerate installieren und anschließend `deepseek-ai/DeepSeek-V4.1-Flash-1017` über die dokumentierte Image-Text-to-Text-Pipeline oder den `AutoModelForCausalLM`-Pfad laden.\n\nIn gehosteten Integrationen den stabilen API-Namen `deepseek-flash` verwenden, statt den Checkpoint-Namen einzubetten. So wird die dokumentierte aktuelle Version ausgewählt, ohne das Aufrufformat zu ändern.\n\nBei Self-Hosting von einem offiziell dokumentierten Lade-Pfad in Transformers oder vLLM ausgehen, statt anzunehmen, dass eine ältere Laufzeitkonfiguration für V4 Flash unverändert funktioniert.",
   "summary": "DeepSeek dokumentiert V4.1-Flash-1017 als aktuelles Ziel hinter `deepseek-flash`; die Methode zum API-Aufruf und die Preisgestaltung bleiben unverändert.",
@@ -4053,6 +4068,11 @@
   "summary": "Am 20.03.2026 verknüpfte die Entwicklungslinie von Modly das öffentliche GitHub-Repository github.com/lightningpixel/modly. Damit ist ein datierter Repository-Verweis für das Projekt belegt, die vorliegenden Belege nennen jedoch weder ein bestimmtes Release, einen Commit, ein Feature noch eine betriebliche Änderung.",
   "title": "Modly-GitHub-Repository-Verweis"
  },
+ "n-d4c199de97": {
+  "research_notes": "Konfigurieren Sie Einstellungen für Bedienungshilfen, vollständigen Festplattenzugriff und Automatisierungssicherheit über die mehrstufigen Berechtigungsabfragen in macOS-Beta-Umgebungen, um externe Tools für die Computernutzung durch KI zu ermöglichen.\n\nRichten Sie automatisierte Entwicklungsskripte an gängigen Terminal-Dienstprogrammen, unterstützten APIs und anwendungsspezifischen Skriptwörterbüchern aus, statt auf uneingeschränkte UI-Erfassung zu setzen, bis Apple native APIs für Agenten veröffentlicht.\n\nPlanen Sie bei der Architektur automatisierter Desktop-Workflows mit erweiterten Sicherheitsautorisierungsdialogen in kommenden macOS-Versionen.\n\nStrukturieren Sie agentische Tools um explizite, sandboxed API-Aufrufe und CLI-Endpunkte, anstatt sich auf fragile synthetische Benutzeroberflächen-Ereignisse zu verlassen.",
+  "summary": "Eine Stellenausschreibung zeigt, dass Apple einen Senior Engineering Manager sucht, der autonome Agentensysteme leiten soll, die Software bedienen, Websites durchsuchen und Code erzeugen können.",
+  "title": "Apple schreibt Engineering-Manager-Stelle für autonome KI zur Computernutzung aus"
+ },
  "n-d4d07dd0bf": {
   "evolution_summary": "Das Modell ist nun in die Pruna Performance Suite zusammen mit P-Image und P-Image-Edit integriert, unterstützt Auflösungen bis 1080p und Echtzeit-API-Zugriff. Es wurde für Inferenzzeiten von unter 2 Sekunden optimiert.",
   "research_notes": "Verfügbar über REST-API und Replicate; die Preise richten sich nach der Auflösung ($0.025-$0.045/sec).",
@@ -4520,6 +4540,11 @@
   "summary": "Ein autonomer multimodaler Agent, der vor der Bilderzeugung Echtzeit-Websuchen und visuelle Suchen durchführt. Er nutzt einen Such-dann-Generiere-Workflow, um sachliche Richtigkeit und visuelle Konsistenz bei der Text-zu-Bild-Synthese sicherzustellen.",
   "title": "Gen-Searcher: Search-Grounded Multimodal Deep Research Agent"
  },
+ "n-eab4a185f3": {
+  "research_notes": "Konfigurieren Sie die Einstellungen für Bedienungshilfen, vollen Festplattenzugriff und Automatisierungssicherheit über die mehrstufigen Berechtigungsabfragen in macOS-Betaumgebungen, um externe Computer-Use-Werkzeuge zu ermöglichen.\n\nRichten Sie automatisierte Entwicklungsskripte an gängigen Terminal-Dienstprogrammen, unterstützten APIs und anwendungsspezifischen Scripting-Wörterbüchern aus, statt an ungebremste UI-Erfassung, bis native Agenten-APIs von Apple veröffentlicht werden.\n\nPlanen Sie bei der Architektur automatisierter Desktop-Workflows mit erweiterten Sicherheitsautorisierungsdialogen in kommenden macOS-Versionen.\n\nStrukturieren Sie agentische Werkzeuge um explizite, sandboxed API-Aufrufe und CLI-Endpunkte herum, statt sich auf fragile synthetische Benutzeroberflächenereignisse zu verlassen.",
+  "summary": "Berichten zufolge entwickelt Apple einen autonomen KI-Agenten, der Mac-Geräte und Anwendungen bedienen soll und mit Computer-Use-Modellen von OpenAI, Anthropic und Meta konkurriert.",
+  "title": "Apple entwickelt Berichten zufolge einen nativen KI-Agenten für den Mac"
+ },
  "n-eab857eece": {
   "summary": "Am 13.03.2026 wurde OmniStream mit Links zu einer Projektseite, einem GitHub-Quellcode-Repository und einer Hugging-Face-Ressource in Verbindung gebracht. Dies liefert einen datierten öffentlichen Bezugspunkt für die Präsenz des Projekts im Web, im Code und bei den Modellen, ohne jedoch eine bestimmte Version, Fähigkeit oder einen Veröffentlichungsstatus festzulegen.",
   "title": "OmniStream war öffentlich über seine Projektseite, seinen Code und seine Modellressourcen verlinkt"
@@ -4633,6 +4658,11 @@
   "research_notes": "Setzt ein progressives Skill-System ein, das spezialisierte Anweisungen für bestimmte Frameworks wie Next.js nur dann lädt, wenn sie relevant sind.",
   "summary": "Ein quelloffener, selbst gehosteter KI-Assistent für Code-Reviews, der On-Demand-Analysen von Pull Requests und automatisierte Korrekturen bereitstellt. Er nutzt Claude 3.5 Sonnet und Vercel Workflow, um Reviews in Sandbox-Umgebungen auszuführen, sodass er Linter und Tests laufen lassen kann.",
   "title": "OpenReview: KI-gestützter Code-Review-Bot von Vercel Labs"
+ },
+ "n-efb0fb8a5d": {
+  "research_notes": "Konfigurieren Sie Einstellungen für Bedienungshilfen, vollständigen Festplattenzugriff und Automatisierungssicherheit über die mehrstufigen Berechtigungsabfragen in macOS-Beta-Umgebungen, um externe Computer-Use-Tools zu ermöglichen.\n\nRichten Sie automatisierte Entwicklungsskripte an gängigen Terminal-Dienstprogrammen, unterstützten APIs und anwendungsspezifischen Skriptwörterbüchern aus, statt auf ungebremste UI-Erfassung zu setzen, bis native Agenten-APIs von Apple veröffentlicht werden.\n\nPlanen Sie bei der Architektur automatisierter Desktop-Workflows mit erweiterten Sicherheitsautorisierungsdialogen in kommenden macOS-Versionen.\n\nStrukturieren Sie agentische Tools um explizite, sandboxed API-Aufrufe und CLI-Endpunkte herum, statt sich auf fragile synthetische Benutzeroberflächenereignisse zu verlassen.",
+  "summary": "Eine Stellenausschreibung für einen Senior Engineering Manager, Agentic AI deutet darauf hin, dass Apple Assistenten entwickelt, die mehrstufige Workflows über Terminalbefehle, APIs und Webtools hinweg ausführen sollen.",
+  "title": "Apple-Stellenausschreibung zeigt Führungsanspruch im Bereich agentische KI für appübergreifende Automatisierung"
  },
  "n-f08df9a83a": {
   "research_notes": "Multi-View-Unterwasserkamerabilder kalibrieren und Kameraposen per Structure-from-Motion schätzen.\n\n3D-Gaussians initialisieren und das globale physikalische Wassermodell mit 10 Parametern zusammen mit neuronalen Transmissionsparametern anpassen, unter Verwendung des dreipfadigen Bildentstehungsmodells TRIVENI.\n\nGeometrie und Erscheinungsbild mit SAMARASA-Zielfunktionen optimieren und dabei distanzklassierte Farb-Priors erzwingen, um die Kanalabschwächung über verschiedene Entfernungen hinweg auszugleichen.\n\nNeue Ansichten in Echtzeit rendern, wobei das geschätzte Wassermedium invertiert wird, um medienfreie Bilder zu erzeugen.\n\nDas neuronale Wasserfeld mit dem bidirektionalen physikalischen Anker PRATIBIMBA einschränken, damit die Szenengeometrie keine Mediumparameter absorbiert.\n\nWährend der Optimierung distanzklassiertes Farbausgleichen einsetzen, um die wellenlängenabhängige differenzielle Abschwächung über Tiefenintervalle hinweg zu berücksichtigen.",
