@@ -135,6 +135,25 @@
     "has_video": false
   },
   {
+    "id": "n-7ac78e35db",
+    "date": "2026-11-20",
+    "title": "Gemini app introduces background computer use on macOS",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "gemini-app",
+    "version": null,
+    "tags": [
+      "Gemini app: gemini-app-mac-background-computer-use",
+      "family:gemini-app",
+      "gemini-app",
+      "gemini-app-mac-background-computer-use",
+      "tools-frontend"
+    ],
+    "primary_link": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-74431781c7",
     "date": "2026-11-20",
     "title": "Yandex 360 opens virtual office tools to external AI agents via MCP server",

@@ -1019,6 +1019,9 @@
   "Gemini Intelligence for Android": [
     "n-97cedb7ec2"
   ],
+  "Gemini app: gemini-app-mac-background-computer-use": [
+    "n-7ac78e35db"
+  ],
   "Gemini development": [
     "n-fc77ff5baa"
   ],
@@ -5523,6 +5526,9 @@
   "family:gemini-3-5-live-translate": [
     "n-599684b34f"
   ],
+  "family:gemini-app": [
+    "n-7ac78e35db"
+  ],
   "family:gemini-embedding-2": [
     "n-1ee49081d2"
   ],
@@ -7703,7 +7709,11 @@
     "n-599684b34f"
   ],
   "gemini-app": [
+    "n-7ac78e35db",
     "n-288cee31b2"
+  ],
+  "gemini-app-mac-background-computer-use": [
+    "n-7ac78e35db"
   ],
   "gemini-development": [
     "n-fc77ff5baa"
@@ -12374,6 +12384,7 @@
     "n-92aedf6bb2",
     "n-9139899069",
     "n-8c91402db3",
+    "n-7ac78e35db",
     "n-76e2884b48",
     "n-76a6e0d291",
     "n-6b3a93f373",
