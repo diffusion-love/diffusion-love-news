@@ -1299,6 +1299,9 @@
     "n-c2ad0b7fcb",
     "n-9c89b68271"
   ],
+  "Graft: graft-execution-guided-agent-design": [
+    "n-617332c918"
+  ],
   "Griptape": [
     "n-ebeab9837a"
   ],
@@ -3025,6 +3028,9 @@
   ],
   "Seoul World Model": [
     "n-3a170e8f1b"
+  ],
+  "Sgne Cc: sgne-cc-weight-geometry-edit": [
+    "n-128d7dba17"
   ],
   "ShotStream": [
     "n-dbba09c3a2"
@@ -6855,6 +6861,9 @@
     "n-ca390bf3b3",
     "n-af7e0341d4"
   ],
+  "family:graft": [
+    "n-617332c918"
+  ],
   "family:griptape": [
     "n-ebeab9837a"
   ],
@@ -8387,6 +8396,9 @@
   ],
   "family:seoul-world-model": [
     "n-3a170e8f1b"
+  ],
+  "family:sgne-cc": [
+    "n-128d7dba17"
   ],
   "family:shotstream": [
     "n-dbba09c3a2"
@@ -10041,6 +10053,12 @@
     "n-0dc009d4d0",
     "n-0912d0b95f"
   ],
+  "graft": [
+    "n-617332c918"
+  ],
+  "graft-execution-guided-agent-design": [
+    "n-617332c918"
+  ],
   "graphics_tech": [
     "n-6d500875d2"
   ],
@@ -10956,6 +10974,7 @@
     "n-6a60e32785",
     "n-662ab03ff4",
     "n-63cbd51a4a",
+    "n-617332c918",
     "n-5e92efec32",
     "n-5d75a2276e",
     "n-5cac0a3186",
@@ -12466,6 +12485,7 @@
     "n-13290b7929",
     "n-1320f519a1",
     "n-12ed59bd83",
+    "n-128d7dba17",
     "n-11ae14ece9",
     "n-118fe57886",
     "n-10a2de18b3",
@@ -15379,6 +15399,12 @@
   ],
   "seoul-world-model": [
     "n-3a170e8f1b"
+  ],
+  "sgne-cc": [
+    "n-128d7dba17"
+  ],
+  "sgne-cc-weight-geometry-edit": [
+    "n-128d7dba17"
   ],
   "shedevrum": [
     "n-e717e8ed06",
