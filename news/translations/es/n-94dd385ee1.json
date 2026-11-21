@@ -1,0 +1,11 @@
+{
+ "id": "n-94dd385ee1",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Introduzca datos de estructura molecular, como grafos químicos o representaciones de conectividad atómica, en el pipeline del modelo de red neuronal de grafos.\n\nUbique las coordenadas de olor predichas en el mapa principal de olores para identificar los grupos correspondientes de descriptores sensoriales humanos.\n\nFiltre las formulaciones químicas candidatas según el perfil olfativo objetivo para priorizar los candidatos sintéticos antes de las pruebas físicas en banco.\n\nValide de forma cruzada los perfiles de aroma predichos por el modelo frente a paneles sensoriales humanos calibrados, para tener en cuenta anomalías perceptivas e interacciones complejas de mezclas de olores.\n\nVerifique el cumplimiento normativo, el potencial alergénico y la estabilidad química antes de avanzar los candidatos sintéticos de aroma seleccionados por el modelo hacia producción.",
+ "source_sha256": "7e9b247fed3dd71def26b63bf67fc476a9cad1d8e42bc2fa6c46b5ebd0c4b089",
+ "summary": "Osmo desarrolló una plataforma de olfacción artificial que emplea redes neuronales de grafos para predecir descriptores de olor humanos a partir de la estructura molecular. Las primeras evaluaciones indican un rendimiento comparable al de los paneles humanos en la clasificación de aromas de moléculas individuales, con el objetivo de asistir en el cribado de fragancias y sustancias químicas, y no de reemplazar las pruebas sensoriales biológicas.",
+ "title": "Osmo aplica el mapeo de olores mediante redes neuronales al cribado de moléculas de fragancias",
+ "translated_at": "2026-11-22",
+ "translation": "machine"
+}

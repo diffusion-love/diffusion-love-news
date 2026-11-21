@@ -1,0 +1,11 @@
+{
+ "id": "n-94dd385ee1",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Übergeben Sie Molekülstrukturdaten, etwa chemische Graphen oder Darstellungen der Atomkonnektivität, an die Pipeline des Graph-Neural-Network-Modells.\n\nOrten Sie vorhergesagte Geruchskoordinaten auf der principal odor map, um die entsprechenden menschlichen sensorischen Deskriptor-Cluster zu identifizieren.\n\nFiltern Sie Kandidaten für chemische Formulierungen nach dem gewünschten olfaktorischen Profil, um synthetische Kandidaten vor physischen Labortests zu priorisieren.\n\nValidieren Sie die vom Modell vorhergesagten Duftprofile gegen kalibrierte menschliche Sensorikpanels, um wahrnehmungsbedingte Anomalien und komplexe Wechselwirkungen von Geruchsmischungen zu berücksichtigen.\n\nPrüfen Sie die regulatorische Konformität, das Allergenpotenzial und die chemische Stabilität, bevor Sie vom Modell ausgewählte synthetische Duftstoffkandidaten in die Produktion überführen.",
+ "source_sha256": "7e9b247fed3dd71def26b63bf67fc476a9cad1d8e42bc2fa6c46b5ebd0c4b089",
+ "summary": "Osmo hat eine Plattform für künstliche Olfaktorik entwickelt, die Graph-Neural-Networks nutzt, um menschliche Geruchsdeskriptoren aus der Molekülstruktur vorherzusagen. Erste Auswertungen deuten auf eine Leistung hin, die mit menschlichen Panels bei der Klassifikation einzelner Duftmoleküle vergleichbar ist. Ziel ist es, das Screening von Duft- und Chemikalien zu unterstützen, nicht aber die biologische sensorische Prüfung zu ersetzen.",
+ "title": "Osmo wendet neuronale Netze zur Geruchskartierung im Screening von Duftmolekülen an",
+ "translated_at": "2026-11-22",
+ "translation": "machine"
+}
