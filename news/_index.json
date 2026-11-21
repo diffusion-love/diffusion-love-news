@@ -78,6 +78,25 @@
     "has_video": false
   },
   {
+    "id": "n-ebe85d9d57",
+    "date": "2026-11-20",
+    "title": "Claude multi-agent setup applied to theoretical black hole physics",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "claude",
+    "version": null,
+    "tags": [
+      "Claude product development",
+      "claude",
+      "claude-product-development",
+      "family:claude",
+      "tools-frontend"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110482/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-eab4a185f3",
     "date": "2026-11-20",
     "title": "Apple reportedly developing native Mac AI agent",
@@ -169,6 +188,25 @@
       "pami-part-anchored-hoi-generation"
     ],
     "primary_link": "https://github.com/Coral79/PAMI-Code",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-c6e493599c",
+    "date": "2026-11-20",
+    "title": "Levent Alpöge announces Claude-assisted Riemann Hypothesis formalization claim",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "claude",
+    "version": null,
+    "tags": [
+      "Claude product development",
+      "claude",
+      "claude-product-development",
+      "family:claude",
+      "misc"
+    ],
+    "primary_link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
     "has_image": false,
     "has_video": false
   },
@@ -341,6 +379,25 @@
       "llm"
     ],
     "primary_link": "https://arxiv.org/abs/2611.23509",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-5bd77e584f",
+    "date": "2026-11-20",
+    "title": "Unverified Claude-assisted Riemann Hypothesis proof claim circulating",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "claude",
+    "version": null,
+    "tags": [
+      "Claude product development",
+      "claude",
+      "claude-product-development",
+      "family:claude",
+      "misc"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110558/",
     "has_image": false,
     "has_video": false
   },

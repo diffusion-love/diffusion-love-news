@@ -1,0 +1,132 @@
+{
+ "schema_version": "1.4",
+ "id": "n-c6e493599c",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Levent Alpöge announces Claude-assisted Riemann Hypothesis formalization claim",
+ "summary": "Mathematician Levent Alpöge announced a Claude-assisted formalization claim for the Riemann Hypothesis and Generalized Riemann Hypothesis in Lean 4 across 14 code archives, currently undergoing community review.",
+ "research_notes": "Formulate mathematical conjectures or theoretical physics questions and translate problems into formal specification frameworks such as Lean 4.\n\nDeploy multi-copy or agentic Claude workflows to explore proof trees, perform symbolic expansions, and generate formal code modules.\n\nRun independent verification through formal theorem prover kernels like Lean 4 and alternative cross-checked derivations to audit AI-generated arguments.\n\nRequire formal interactive theorem provers such as Lean 4 to mechanically verify AI-generated mathematical claims rather than relying on natural-language prose.\n\nEmploy multi-agent verification configurations where distinct model copies independently compute and cross-verify intermediate mathematical and physical derivations.",
+ "project": {
+  "name": "Claude product development",
+  "family_slug": "claude",
+  "family_display": "Claude product development",
+  "model_slug": "claude",
+  "model_display": "Claude product development",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "claude-product-development",
+  "thread_display": "Claude Product Development",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Claude product development",
+  "article_url": "https://happyin.space/projects/claude/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/92edf27529de0c237e35043441b09e9416cbc11d/docs/projects/claude.md",
+  "agent_context_url": "https://happyin.space/projects/claude/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "Levent Alpöge announces Claude-assisted Riemann Hypothesis formalization claim",
+  "version": null,
+  "summary": "Mathematician Levent Alpöge announced a Claude-assisted formalization claim for the Riemann Hypothesis and Generalized Riemann Hypothesis in Lean 4 across 14 code archives, currently undergoing community review."
+ },
+ "tags": [
+  "Claude product development",
+  "claude",
+  "claude-product-development",
+  "family:claude",
+  "misc"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "claude"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+   "host": "simonwillison.net",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T12:09:28Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://alpo.ge/remark.pdf",
+   "host": "alpo.ge",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-21T12:09:28Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://habr.com/ru/articles/1110482/",
+   "host": "habr.com",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-21T12:09:28Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://habr.com/ru/articles/1110558/",
+   "host": "habr.com",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-21T12:09:28Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "Mathematician Levent Alpöge announced a Claude-assisted formalization claim for the Riemann Hypothesis and Generalized Riemann Hypothesis in Lean 4 across 14 code archives, currently undergoing community review."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T12:09:28Z",
+  "classified_at": "2026-11-21T12:09:28Z",
+  "enriched_at": "2026-11-21T12:09:28Z",
+  "verified_at": "2026-11-21T12:09:28Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

@@ -414,6 +414,11 @@
   "Claude Sonnet 5": [
     "n-cfd3254184"
   ],
+  "Claude product development": [
+    "n-ebe85d9d57",
+    "n-c6e493599c",
+    "n-5bd77e584f"
+  ],
   "Claw": [
     "n-2f8c6f34f0"
   ],
@@ -3862,10 +3867,13 @@
   ],
   "claude": [
     "n-ec5428386a",
+    "n-ebe85d9d57",
+    "n-c6e493599c",
     "n-b7c4d9268f",
     "n-b4bbea9668",
     "n-a81182e9ac",
     "n-66988bb8af",
+    "n-5bd77e584f",
     "n-14a863c9d3"
   ],
   "claude-4-7": [
@@ -3883,6 +3891,11 @@
   ],
   "claude-opus-5": [
     "n-4ea5eb69ba"
+  ],
+  "claude-product-development": [
+    "n-ebe85d9d57",
+    "n-c6e493599c",
+    "n-5bd77e584f"
   ],
   "claude-sonnet-5": [
     "n-cfd3254184"
@@ -5058,8 +5071,11 @@
   ],
   "family:claude": [
     "n-ec5428386a",
+    "n-ebe85d9d57",
+    "n-c6e493599c",
     "n-b4bbea9668",
-    "n-a81182e9ac"
+    "n-a81182e9ac",
+    "n-5bd77e584f"
   ],
   "family:claude-code": [
     "n-f861f085b8",
@@ -9707,6 +9723,7 @@
     "n-c724eb9e4c",
     "n-c6ff419784",
     "n-c6e889531e",
+    "n-c6e493599c",
     "n-c5e93c1d3a",
     "n-c4e41aef2b",
     "n-c4a0d1a186",
@@ -9966,6 +9983,7 @@
     "n-5d526ba827",
     "n-5cd28a2bd1",
     "n-5cbb79d999",
+    "n-5bd77e584f",
     "n-5b5558fedd",
     "n-599684b34f",
     "n-5966d93d70",
@@ -12476,6 +12494,7 @@
     "n-edad1a10a0",
     "n-ed7778c240",
     "n-ebeab9837a",
+    "n-ebe85d9d57",
     "n-e712086893",
     "n-e4d5ff5436",
     "n-df8413780a",
