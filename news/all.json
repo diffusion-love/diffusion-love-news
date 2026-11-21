@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T12:14:52Z",
+  "generated_at": "2026-11-21T12:34:41Z",
   "site": "diffusion.love",
-  "total": 1059,
+  "total": 1060,
   "records": [
     {
       "schema_version": "1.4",
@@ -2757,6 +2757,111 @@
         "classified_at": "2026-11-21T09:37:39Z",
         "enriched_at": "2026-11-21T09:37:39Z",
         "verified_at": "2026-11-21T09:37:39Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-4a6c47b7aa",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+      "summary": "OpenAI released GPT-6.2 Astra and Sol with standard access for general coding and stricter identity verification for high-risk cybersecurity tasks.",
+      "research_notes": "Deploy standard coding and agentic workflows via the API or developer tools under default account quotas without identity verification.\n\nSubmit organizational identity credentials and undergo compliance verification to request access to restricted cybersecurity and penetration testing capabilities under the tiered trusted-access program.\n\nSeparate routine programming tasks from security audit prompts to avoid triggering defensive refusal filters on unverified developer accounts.\n\nMaintain documented audit trails and compliance logging when operating under trusted access to adhere to safety requirements.",
+      "project": {
+        "name": "GPT-6.2: gpt-6-2-release",
+        "family_slug": "gpt-6-2",
+        "family_display": "GPT-6.2: gpt-6-2-release",
+        "model_slug": "gpt-6-2",
+        "model_display": "GPT-6.2: gpt-6-2-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gpt-6-2-release",
+        "thread_display": "Gpt 6 2 Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "GPT-6.2: gpt-6-2-release",
+        "article_url": "https://happyin.space/projects/gpt-6-2/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/66d5203d5fccbbef57b3353ee9917439f6a91321/docs/projects/gpt-6-2.md",
+        "agent_context_url": "https://happyin.space/projects/gpt-6-2/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+        "version": null,
+        "summary": "OpenAI released GPT-6.2 Astra and Sol with standard access for general coding and stricter identity verification for high-risk cybersecurity tasks."
+      },
+      "tags": [
+        "GPT-6.2: gpt-6-2-release",
+        "family:gpt-6-2",
+        "gpt-6-2",
+        "gpt-6-2-release",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "gpt-6-2"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110122/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:34:41Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "OpenAI released GPT-6.2 Astra and Sol with standard access for general coding and stricter identity verification for high-risk cybersecurity tasks."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T12:34:41Z",
+        "classified_at": "2026-11-21T12:34:41Z",
+        "enriched_at": "2026-11-21T12:34:41Z",
+        "verified_at": "2026-11-21T12:34:41Z",
         "models_used": {
           "research": "curated-live-material"
         },

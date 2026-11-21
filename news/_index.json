@@ -459,6 +459,25 @@
     "has_video": false
   },
   {
+    "id": "n-4a6c47b7aa",
+    "date": "2026-11-20",
+    "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "gpt-6-2",
+    "version": null,
+    "tags": [
+      "GPT-6.2: gpt-6-2-release",
+      "family:gpt-6-2",
+      "gpt-6-2",
+      "gpt-6-2-release",
+      "misc"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110122/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-4526450394",
     "date": "2026-11-20",
     "title": "Google opens early Project Genie access powered by Genie 4",

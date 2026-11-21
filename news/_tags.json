@@ -982,6 +982,9 @@
   "GPT-5.6 Sol": [
     "n-d76b3cf6c5"
   ],
+  "GPT-6.2: gpt-6-2-release": [
+    "n-4a6c47b7aa"
+  ],
   "GPT-Image": [
     "n-ca390bf3b3"
   ],
@@ -5707,6 +5710,9 @@
   "family:gpt-5-6-sol": [
     "n-d76b3cf6c5"
   ],
+  "family:gpt-6-2": [
+    "n-4a6c47b7aa"
+  ],
   "family:gpt-image": [
     "n-df001e7bab",
     "n-ca390bf3b3",
@@ -8205,6 +8211,12 @@
     "n-d76b3cf6c5",
     "n-303168f615"
   ],
+  "gpt-6-2": [
+    "n-4a6c47b7aa"
+  ],
+  "gpt-6-2-release": [
+    "n-4a6c47b7aa"
+  ],
   "gpt-image": [
     "n-df001e7bab",
     "n-ca390bf3b3",
@@ -10029,6 +10041,7 @@
     "n-4b181dadc0",
     "n-4aa029af73",
     "n-4a97c79072",
+    "n-4a6c47b7aa",
     "n-49f80a3add",
     "n-49a53e09e5",
     "n-498f6ed5c2",

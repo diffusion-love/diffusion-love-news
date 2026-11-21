@@ -35828,6 +35828,115 @@
     ],
     "claims": []
   },
+  "gpt-6-2": {
+    "family_slug": "gpt-6-2",
+    "family_display": "GPT-6.2: gpt-6-2-release",
+    "family_display_variants": [
+      {
+        "family_display": "GPT-6.2: gpt-6-2-release",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-4a6c47b7aa"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-4a6c47b7aa"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-4a6c47b7aa",
+        "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+        "primary_link": "https://habr.com/ru/articles/1110122/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "habr.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://habr.com/ru/articles/1110122/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T12:34:41Z",
+        "news_ids": [
+          "n-4a6c47b7aa"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+        "summary": "OpenAI released GPT-6.2 Astra and Sol with standard access for general coding and stricter identity verification for high-risk cybersecurity tasks.",
+        "version": null,
+        "news_id": "n-4a6c47b7aa",
+        "primary_link": "https://habr.com/ru/articles/1110122/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-4a6c47b7aa",
+        "date": "2026-11-20",
+        "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "gpt-6-2",
+        "version": null,
+        "tags": [
+          "GPT-6.2: gpt-6-2-release",
+          "family:gpt-6-2",
+          "gpt-6-2",
+          "gpt-6-2-release",
+          "misc"
+        ],
+        "primary_link": "https://habr.com/ru/articles/1110122/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "gpt-6-2-release",
+        "display": "Gpt 6 2 Release",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-4a6c47b7aa",
+        "news_ids": [
+          "n-4a6c47b7aa"
+        ]
+      }
+    ]
+  },
   "gpt-image": {
     "family_slug": "gpt-image",
     "family_display": "GPT Image",
