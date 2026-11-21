@@ -1,0 +1,11 @@
+{
+ "id": "n-3ea587526f",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在具有至少 16 GB VRAM 和 64 GB 系统内存的工作站上,在 Strata 推理引擎中部署基础 Qwen 3.8 122B 模型。\n\n冻结 48 个主 Transformer 层,并将训练对话通过 GPU 前向传播,以缓存中间激活值。\n\n专门在 CPU 上执行 SFT 和 DPO 训练,目标为 12.54 MiB 的输出模块。\n\n针对实验室智能体验证行为更新,并维护回滚脚本,以便在出现回归时撤销对输出模块的修改。\n\n在开始 CPU 训练之前,先在 GPU 上缓存前向传播激活值,以防止 VRAM 耗尽,并避免对冻结层进行完整反向传播。\n\n维护自动回滚脚本,以便在专用智能体评估结果下降时立即恢复基础输出模块权重。\n\n将本地 CPU 微调迭代限制为 SFT 和 DPO 等轻量对齐训练轮次,使每个周期的耗时保持在约一分钟。",
+ "source_sha256": "11bb02ee6d506717ce2de91adba6c7303d50805795af82a3ebf022de0d539114",
+ "summary": "在本地适配 Qwen 3.8 122B 时,利用 GPU 前向激活缓存,在 CPU 上训练 12.54 MiB 的输出模块,约一分钟内完成 SFT 和 DPO 训练轮次,并提供回滚保护。",
+ "title": "Strata 输出模块训练可在消费级硬件上为 122B 模型实现 SFT 与 DPO",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

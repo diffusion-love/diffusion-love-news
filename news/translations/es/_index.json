@@ -1354,6 +1354,11 @@
   "title": "Tripo lanza acceso anticipado a desenvolvimiento UV y retopología",
   "translated_at": "2026-10-24"
  },
+ "n-3ea587526f": {
+  "fresh": true,
+  "title": "El entrenamiento del módulo de salida en Strata permite SFT y DPO para un modelo de 122B en hardware de consumo",
+  "translated_at": "2026-11-21"
+ },
  "n-3ec7e1a063": {
   "fresh": true,
   "title": "Black Forest Labs publicó una actualización de blog sobre FLUX 3",
@@ -2438,6 +2443,11 @@
   "fresh": true,
   "title": "Anuncio de Seedream 5.0 Pro",
   "translated_at": "2026-10-24"
+ },
+ "n-74431781c7": {
+  "fresh": true,
+  "title": "Yandex 360 abre sus herramientas de oficina virtual a agentes de IA externos mediante un servidor MCP",
+  "translated_at": "2026-11-21"
  },
  "n-75171cd2c8": {
   "fresh": true,
@@ -4848,6 +4858,11 @@
   "fresh": true,
   "title": "GigaChat 3.5 Reasoning: pesos abiertos y configuraciones de despliegue",
   "translated_at": "2026-11-18"
+ },
+ "n-ef9fd5e4ca": {
+  "fresh": true,
+  "title": "Ajuste fino local del módulo de salida para Qwen 3.8 122B en Strata",
+  "translated_at": "2026-11-21"
  },
  "n-efaa00d50b": {
   "fresh": true,

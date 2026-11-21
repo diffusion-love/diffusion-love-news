@@ -1,0 +1,11 @@
+{
+ "id": "n-74431781c7",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从 Yandex 360 管理设置中获取企业 API 凭证，包括 OAuth 授权令牌和 Organization ID。\n\n为目标 MCP 客户端配置 Yandex 360 MCP 服务器端点及所需的身份验证请求头。\n\n通过 AI 助手界面查询日历日程、搜索邮件、查看 Yandex Disk 上的文件，或管理组织结构。\n\n将 OAuth 令牌权限严格限定在所需的 Yandex 360 服务范围内，例如 Mail、Calendar 或 Disk，以便为外部智能体集成执行最小权限边界。\n\n在为团队环境配置 MCP 服务器访问权限之前，请核实企业 Organization ID 及域名的管理员权限。",
+ "source_sha256": "b8a288ab081e016cca608ad058bbe06f13177fde1bd335422968011d5d4b87f8",
+ "summary": "Yandex 360 推出了模型上下文协议（MCP）服务器，使 ChatGPT、Claude 和 DeepSeek 等外部 AI 客户端，以及面向企业的 Alice AI 和 Yandex AI Studio，能够与其企业邮件、日历、云盘和通讯录服务进行交互。",
+ "title": "Yandex 360 通过 MCP 服务器向外部 AI 智能体开放虚拟办公工具",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

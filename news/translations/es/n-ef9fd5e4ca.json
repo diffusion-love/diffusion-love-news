@@ -1,0 +1,11 @@
+{
+ "id": "n-ef9fd5e4ca",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Despliegue el modelo base Qwen 3.8 122B dentro del motor de inferencia Strata en una estación de trabajo con al menos 16 GB de VRAM y 64 GB de RAM del sistema.\n\nCongele las 48 capas principales del transformador y dirija los diálogos de entrenamiento a través del pase forward en GPU para almacenar en caché las activaciones intermedias.\n\nEjecute el entrenamiento SFT y DPO exclusivamente en CPU, con el objetivo de modificar el módulo de salida de 12.54 MiB.\n\nValide las actualizaciones de comportamiento frente al agente de laboratorio y mantenga el script de reversión para deshacer las modificaciones del módulo de salida si se producen regresiones.\n\nAlmacene en caché las activaciones del pase forward en la GPU antes de iniciar el entrenamiento en CPU, para evitar el agotamiento de la VRAM y evitar la retropropagación completa a través de las capas congeladas.\n\nMantenga scripts de reversión automatizados que restauren de inmediato los pesos base del módulo de salida si las evaluaciones del agente especializado empeoran.\n\nLimite las iteraciones locales de ajuste fino en CPU a pasadas ligeras de alineamiento, como SFT y DPO, para mantener la duración del ciclo en torno a un minuto.",
+ "source_sha256": "df6a26cfbffe755c743a3ad6785551cc2e2e2e3aabfba549e9a90089b8da6567",
+ "summary": "Un flujo de trabajo de ajuste fino local ejecuta Qwen 3.8 122B en 16 GB de VRAM y 64 GB de RAM congelando 48 capas principales, almacenando en caché las activaciones en la GPU y entrenando en CPU un módulo de salida de 12.54 MiB.",
+ "title": "Ajuste fino local del módulo de salida para Qwen 3.8 122B en Strata",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

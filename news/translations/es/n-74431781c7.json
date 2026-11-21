@@ -1,0 +1,11 @@
+{
+ "id": "n-74431781c7",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Obtenga las credenciales de API corporativas, incluido el token de autorización OAuth y el ID de la organización, desde la configuración administrativa de Yandex 360.\n\nConfigure el cliente MCP de destino con el endpoint del servidor MCP de Yandex 360 y las cabeceras de autenticación necesarias.\n\nInteractúe a través de la interfaz del asistente de IA para consultar horarios de calendario, buscar correos electrónicos, inspeccionar archivos en Yandex Disk o gestionar la estructura de la organización.\n\nLimite los permisos del token OAuth estrictamente a los servicios requeridos de Yandex 360, como Mail, Calendar o Disk, para aplicar límites de mínimo privilegio en las integraciones de agentes externos.\n\nVerifique el ID de la organización corporativa y los derechos administrativos sobre el dominio antes de aprovisionar el acceso al servidor MCP en los entornos de los equipos.",
+ "source_sha256": "b8a288ab081e016cca608ad058bbe06f13177fde1bd335422968011d5d4b87f8",
+ "summary": "Yandex 360 lanzó un servidor de Model Context Protocol (MCP) que permite a clientes de IA externos como ChatGPT, Claude y DeepSeek, así como a Alice AI para empresas y Yandex AI Studio, interactuar con sus servicios corporativos de correo, calendario, disco y directorio.",
+ "title": "Yandex 360 abre sus herramientas de oficina virtual a agentes de IA externos mediante un servidor MCP",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

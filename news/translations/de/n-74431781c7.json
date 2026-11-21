@@ -1,0 +1,11 @@
+{
+ "id": "n-74431781c7",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Besorgen Sie sich die Unternehmens-API-Zugangsdaten, einschließlich des OAuth-Autorisierungstokens und der Organisations-ID, aus den administrativen Einstellungen von Yandex 360.\n\nKonfigurieren Sie den gewünschten MCP-Client mit dem Endpunkt des Yandex-360-MCP-Servers und den erforderlichen Authentifizierungs-Headern.\n\nInteragieren Sie über die KI-Assistenz-Oberfläche, um Kalenderzeitpläne abzufragen, E-Mails zu durchsuchen, Dateien auf Yandex Disk zu prüfen oder die Organisationsstruktur zu verwalten.\n\nBeschränken Sie die Berechtigungen des OAuth-Tokens streng auf die erforderlichen Yandex-360-Dienste wie Mail, Calendar oder Disk, um das Prinzip der minimalen Rechte für externe Agenten-Integrationen durchzusetzen.\n\nPrüfen Sie die Organisations-ID des Unternehmens und die administrativen Rechte für die Domain, bevor Sie den MCP-Serverzugang über Teamumgebungen hinweg bereitstellen.",
+ "source_sha256": "b8a288ab081e016cca608ad058bbe06f13177fde1bd335422968011d5d4b87f8",
+ "summary": "Yandex 360 hat einen Model-Context-Protocol-(MCP)-Server gestartet, der externen KI-Clients wie ChatGPT, Claude und DeepSeek sowie Alice AI for Business und Yandex AI Studio die Anbindung an die Unternehmensdienste für E-Mail, Kalender, Disk und Verzeichnis ermöglicht.",
+ "title": "Yandex 360 öffnet virtuelle Büro-Werkzeuge für externe KI-Agenten über MCP-Server",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
