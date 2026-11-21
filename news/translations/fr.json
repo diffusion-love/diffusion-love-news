@@ -752,6 +752,11 @@
   "summary": "Le 2026-07-10, la fiche a référencé la page publique du projet PointDiT ainsi que sa galerie. Il s'agit d'un point de référence public important pour le projet, car il oriente les lecteurs vers la ressource du projet et vers des exemples. Les éléments fournis n'établissent ni une publication, ni une affirmation technique, ni une paternité, ni aucune modification au-delà de ces ressources liées.",
   "title": "La page du projet PointDiT et sa galerie ont été liées"
  },
+ "n-23426c6022": {
+  "research_notes": "Déployez Hermes Agent dans Microsoft Teams ou ajoutez-le à Teams pour interagir via un chat 1:1 ou par des @mentions dans les canaux.\n\nConfiez des tâches d'analyse, de tri ou de rédaction de documents directement à l'agent, dans des fils de conversation.\n\nPubliez les workflows validés sous forme de compétences réutilisables dans la bibliothèque Collective Wisdom, afin que toute l'équipe y accède.\n\nAuditez et vérifiez les compétences autonomes avant de les partager entre les espaces de travail de l'organisation via Collective Wisdom.\n\nUtilisez des bacs à sable conteneurisés et isolés pour l'exécution de tâches en microVM, afin de garantir l'isolation des données de l'entreprise.",
+  "summary": "Hermes Agent intègre nativement Microsoft Teams, pour les discussions directes et les mentions dans les canaux. Il exécute les charges de travail des agents en bac à sable dans Azure Container Apps et permet aux employés de publier des workflows validés dans une bibliothèque de compétences partagée par l'équipe.",
+  "title": "Hermes Agent ajoute l'intégration à Microsoft Teams et le partage de compétences via Collective Wisdom"
+ },
  "n-238cbd39cb": {
   "summary": "Le 2026-07-27, un lien daté et enregistré renvoyait vers le dépôt GitHub bradautomates/claude-video. Il s'agit de la première référence publique horodatée et figée de cette lignée de développement, et elle fournit aux lecteurs une source de projet concrète à consulter.",
   "title": "Dépôt claude-video cité publiquement"

@@ -1,0 +1,11 @@
+{
+ "id": "n-23426c6022",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Déployez Hermes Agent dans Microsoft Teams ou ajoutez-le à Teams pour interagir via un chat 1:1 ou par des @mentions dans les canaux.\n\nConfiez des tâches d'analyse, de tri ou de rédaction de documents directement à l'agent, dans des fils de conversation.\n\nPubliez les workflows validés sous forme de compétences réutilisables dans la bibliothèque Collective Wisdom, afin que toute l'équipe y accède.\n\nAuditez et vérifiez les compétences autonomes avant de les partager entre les espaces de travail de l'organisation via Collective Wisdom.\n\nUtilisez des bacs à sable conteneurisés et isolés pour l'exécution de tâches en microVM, afin de garantir l'isolation des données de l'entreprise.",
+ "source_sha256": "fd377dd9e5fa4194ba326b295f54a5c96448983e6d1d7088af40637e1147bed4",
+ "summary": "Hermes Agent intègre nativement Microsoft Teams, pour les discussions directes et les mentions dans les canaux. Il exécute les charges de travail des agents en bac à sable dans Azure Container Apps et permet aux employés de publier des workflows validés dans une bibliothèque de compétences partagée par l'équipe.",
+ "title": "Hermes Agent ajoute l'intégration à Microsoft Teams et le partage de compétences via Collective Wisdom",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
