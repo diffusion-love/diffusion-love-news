@@ -1,0 +1,11 @@
+{
+ "id": "n-128d7dba17",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "기본 DeepSeek-R1-Distill-Qwen-1.5B 모델 가중치를 safetensors 형식으로 확보한다.\n\n모델 아키텍처나 추론 코드를 변경하지 않고, 지정된 205개의 mlp.down_proj 가중치 열에 603 KB 규모의 열 회전 패치를 직접 적용한다.\n\n그리디 디코딩(temperature=0, presence_penalty=0)으로 모델 평가를 실행하여, 토큰 한도 루프 없이 간결한 추론 트레이스를 생성한다.\n\nSGNE-CC는 그리디 추론 경로를 안정화하도록 특별히 최적화되어 있으므로, 샘플링 페널티에 의존하지 않고 결정론적 그리디 디코딩(temperature=0, presence_penalty=0)으로 모델을 평가한다.\n\nBF16 반올림 이후에도 mlp.down_proj의 유클리드 열 노름이 0.16% 편차 이내로 유지되는지 확인하여 수치적 안정성을 보장하고 내부 표현이 저하되는 것을 방지한다.",
+ "source_sha256": "f1b7b35fb78e80c94a02b3e31a187c26734b808213279c8a94f367430df5f5a2",
+ "summary": "SGNE-CC(구면 게이트 노름 보존 편집, 열 제약) 가중치 편집 기법을 DeepSeek-R1-Distill-Qwen-1.5B에 적용하여, MLP 계층의 205개 down-projection 열을 회전시켰다. 학습이 필요 없는 603 KB 규모의 패치로, 결정론적 그리디 디코딩에서 유클리드 열 노름을 보존하면서 반복적인 자기 검증 루프와 추론 트레이스 길이를 줄인다.",
+ "title": "DeepSeek-R1-Distill-Qwen-1.5B에 이식된 SGNE-CC v2 열 제약 가중치 편집",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

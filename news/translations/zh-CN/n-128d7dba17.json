@@ -1,0 +1,11 @@
+{
+ "id": "n-128d7dba17",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "获取基础模型 DeepSeek-R1-Distill-Qwen-1.5B 的 safetensors 格式权重。\n\n将 603 KB 的列旋转补丁直接应用于指定的 205 个 mlp.down_proj 权重列，且不改变模型架构或推理代码。\n\n使用贪婪解码（temperature=0，presence_penalty=0）运行模型评估，以生成简洁的推理轨迹并避免词元数上限导致的循环。\n\n在确定性贪婪解码（temperature=0，presence_penalty=0）下评估模型，而不是依赖采样惩罚，因为 SGNE-CC 专门针对稳定贪婪推理路径进行了优化。\n\n验证在 BF16 舍入之后，mlp.down_proj 的欧几里得列范数在 0.16% 的方差范围内保持不变，以确保数值稳定性并防止内部表示退化。",
+ "source_sha256": "f1b7b35fb78e80c94a02b3e31a187c26734b808213279c8a94f367430df5f5a2",
+ "summary": "SGNE-CC（Spherical Gated Norm-preserving Edit, Column-Constrained，球面门控保范数编辑，列约束）权重编辑技术已应用于 DeepSeek-R1-Distill-Qwen-1.5B，方法是旋转 MLP 层中的 205 个下投影列。这一无需训练的 603 KB 补丁在保持欧几里得列范数的同时，减少了确定性贪婪解码下的重复自我验证循环和推理轨迹长度。",
+ "title": "SGNE-CC v2 列约束权重编辑移植到 DeepSeek-R1-Distill-Qwen-1.5B",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

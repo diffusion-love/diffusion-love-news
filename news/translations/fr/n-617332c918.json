@@ -1,0 +1,11 @@
+{
+ "id": "n-617332c918",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Définir l'espace de recherche des agents candidats, en précisant les modèles de prompts, les étapes de décomposition et les protocoles de coordination autorisés pour les tâches cibles.\n\nExécuter les architectures parentes sur les benchmarks d'évaluation afin de collecter à la fois les scores de performance scalaires et des journaux d'exécution d'échantillons enregistrant les réussites et les échecs.\n\nSélectionner les candidats parents en fonction de la fitness agrégée, puis construire des prompts de recombinaison qui présentent le code parent aux côtés de leurs traces d'exécution bornées.\n\nDemander au LLM de recombinaison de synthétiser des conceptions d'agents descendantes qui conservent les comportements d'exécution réussis et mutent les composants défaillants, sans exposer les réponses de référence.\n\nRecycler les traces d'exécution issues des évaluations de fitness standard plutôt que d'exécuter des inférences auxiliaires, afin de maintenir le coût de calcul de la recherche borné.\n\nMaintenir une séparation stricte entre les traces d'exécution intermédiaires et les étiquettes de vérité terrain lors des prompts de croisement, afin d'éviter le surapprentissage sur les benchmarks et la fuite de données de test.\n\nConserver la fitness agrégée pour la sélection par tournoi de premier niveau, en limitant strictement le retour d'information guidé par l'exécution aux opérateurs de croisement et de mutation.",
+ "source_sha256": "36a21bb1a87b6ffc24629a886d1749d4b033208335623aa5336e8fb28b7fcd12",
+ "summary": "Un préprint de recherche a présenté GRAFT, un cadre de recherche évolutionnaire pour les architectures d'agents LLM, qui oriente le croisement sémantique à l'aide des traces d'exécution des parents plutôt que des seuls scores de fitness agrégés, et rapporte une amélioration des performances sur des benchmarks de raisonnement et de code avec des modèles à poids ouverts.",
+ "title": "GRAFT introduit une recombinaison génétique guidée par l'exécution pour la conception d'agents LLM",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

@@ -379,6 +379,11 @@
   "title": "Rowboat: 로컬 우선 AI 에이전트이자 개인 지식 그래프",
   "translated_at": "2026-10-24"
  },
+ "n-128d7dba17": {
+  "fresh": true,
+  "title": "DeepSeek-R1-Distill-Qwen-1.5B에 이식된 SGNE-CC v2 열 제약 가중치 편집",
+  "translated_at": "2026-11-21"
+ },
  "n-129b6b09c0": {
   "fresh": true,
   "title": "Qwen3.6-35B Claude 4.6 Opus 추론 증류 모델",
@@ -1993,6 +1998,11 @@
   "fresh": true,
   "title": "KIRI Engine, Gaussian Splatting 플러그인 GitHub 저장소 공개",
   "translated_at": "2026-10-24"
+ },
+ "n-617332c918": {
+  "fresh": true,
+  "title": "GRAFT, 실행 기반 유전적 재조합을 도입한 LLM 에이전트 설계",
+  "translated_at": "2026-11-21"
  },
  "n-61c8c02fec": {
   "fresh": true,

@@ -379,6 +379,11 @@
   "title": "Rowboat：本地优先的 AI 智能体与个人知识图谱",
   "translated_at": "2026-10-24"
  },
+ "n-128d7dba17": {
+  "fresh": true,
+  "title": "SGNE-CC v2 列约束权重编辑移植到 DeepSeek-R1-Distill-Qwen-1.5B",
+  "translated_at": "2026-11-21"
+ },
  "n-129b6b09c0": {
   "fresh": true,
   "title": "Qwen3.6-35B Claude 4.6 Opus 推理蒸馏版",
@@ -1993,6 +1998,11 @@
   "fresh": true,
   "title": "KIRI Engine 公开了一个 Gaussian Splatting 插件的 GitHub 仓库",
   "translated_at": "2026-10-24"
+ },
+ "n-617332c918": {
+  "fresh": true,
+  "title": "GRAFT 提出面向 LLM 智能体设计的执行引导式遗传重组",
+  "translated_at": "2026-11-21"
  },
  "n-61c8c02fec": {
   "fresh": true,
