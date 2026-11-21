@@ -14158,6 +14158,15 @@
           "is_primary": true,
           "status": "unverified",
           "verified_at": "2026-11-18T18:56:44Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://gitverse.ru/GigaTeam/gigachat3.5-reasoning",
+          "host": "gitverse.ru",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-18T18:56:44Z"
         }
       ],
       "evolution": {
