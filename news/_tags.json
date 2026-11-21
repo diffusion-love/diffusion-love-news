@@ -937,6 +937,10 @@
   "FLUX.2-klein-9B-Nunchaku": [
     "n-bb60458b02"
   ],
+  "Fab: fab-human-motion-reconstruction": [
+    "n-b89e603f7f",
+    "n-0d2dc88143"
+  ],
   "Face Anything": [
     "n-a4fb636ca8"
   ],
@@ -1179,6 +1183,9 @@
   ],
   "Gemini Intelligence for Android": [
     "n-97cedb7ec2"
+  ],
+  "Gemini app: gemini-app-mac-background-computer-use": [
+    "n-7ac78e35db"
   ],
   "Gemini development": [
     "n-fc77ff5baa"
@@ -2553,6 +2560,10 @@
   "PadCaptioner": [
     "n-3a9d69d7e9"
   ],
+  "Pami: pami-part-anchored-hoi-generation": [
+    "n-fe297bbc98",
+    "n-d1f7c7e277"
+  ],
   "Pangram: pangram-attack-dog-shaming-campaign": [
     "n-95be0b3b16"
   ],
@@ -3529,6 +3540,9 @@
   "Windows 11": [
     "n-8705af97a2",
     "n-38ff523738"
+  ],
+  "Windows 11: windows-11-memory-integrity": [
+    "n-d8b407c155"
   ],
   "Windows-Copilot-API": [
     "n-25eed24e0d"
@@ -5761,6 +5775,14 @@
     "n-4b181dadc0",
     "n-2c76b163d3"
   ],
+  "fab": [
+    "n-b89e603f7f",
+    "n-0d2dc88143"
+  ],
+  "fab-human-motion-reconstruction": [
+    "n-b89e603f7f",
+    "n-0d2dc88143"
+  ],
   "face": [
     "n-f1139f1ee9",
     "n-d9eaebd61d",
@@ -6567,6 +6589,10 @@
     "n-4b181dadc0",
     "n-2c76b163d3"
   ],
+  "family:fab": [
+    "n-b89e603f7f",
+    "n-0d2dc88143"
+  ],
   "family:face-anything": [
     "n-a4fb636ca8"
   ],
@@ -6714,6 +6740,9 @@
   "family:gemini-3-5-live-translate": [
     "n-6fd15dc934",
     "n-599684b34f"
+  ],
+  "family:gemini-app": [
+    "n-7ac78e35db"
   ],
   "family:gemini-embedding-2": [
     "n-1ee49081d2"
@@ -7970,6 +7999,10 @@
   "family:pam": [
     "n-adee3ca551"
   ],
+  "family:pami": [
+    "n-fe297bbc98",
+    "n-d1f7c7e277"
+  ],
   "family:pangram": [
     "n-95be0b3b16"
   ],
@@ -8905,6 +8938,7 @@
     "n-c5207bfa4a"
   ],
   "family:windows-11": [
+    "n-d8b407c155",
     "n-8705af97a2",
     "n-38ff523738"
   ],
@@ -9287,9 +9321,13 @@
     "n-599684b34f"
   ],
   "gemini-app": [
+    "n-7ac78e35db",
     "n-77adb2265c",
     "n-71b296f814",
     "n-288cee31b2"
+  ],
+  "gemini-app-mac-background-computer-use": [
+    "n-7ac78e35db"
   ],
   "gemini-development": [
     "n-fc77ff5baa"
@@ -11623,6 +11661,7 @@
     "n-fe5aa54dca",
     "n-fe49770141",
     "n-fe403ecd72",
+    "n-fe297bbc98",
     "n-fdf3f32bde",
     "n-fdae3b02e0",
     "n-fdaa3b9adb",
@@ -11751,6 +11790,7 @@
     "n-da095b401f",
     "n-d99912828e",
     "n-d9748d5e13",
+    "n-d8b407c155",
     "n-d8ac79bdc7",
     "n-d83223a468",
     "n-d7ef7b4828",
@@ -11780,6 +11820,7 @@
     "n-d226a9b24c",
     "n-d224767d18",
     "n-d217501a0c",
+    "n-d1f7c7e277",
     "n-d1c36e4341",
     "n-d1aace8b4a",
     "n-d182530af4",
@@ -11872,6 +11913,7 @@
     "n-b8d5334397",
     "n-b8afea4624",
     "n-b8abd7e35e",
+    "n-b89e603f7f",
     "n-b88d648185",
     "n-b87b80291d",
     "n-b815f82305",
@@ -12548,6 +12590,7 @@
     "n-0dd4de1b97",
     "n-0dc009d4d0",
     "n-0d7aed5e86",
+    "n-0d2dc88143",
     "n-0cf91afec3",
     "n-0c94fdb677",
     "n-0c8443f593",
@@ -14553,6 +14596,14 @@
   "pam": [
     "n-adee3ca551"
   ],
+  "pami": [
+    "n-fe297bbc98",
+    "n-d1f7c7e277"
+  ],
+  "pami-part-anchored-hoi-generation": [
+    "n-fe297bbc98",
+    "n-d1f7c7e277"
+  ],
   "pangram": [
     "n-95be0b3b16"
   ],
@@ -15957,6 +16008,7 @@
     "n-9139899069",
     "n-8c91402db3",
     "n-8b64cae720",
+    "n-7ac78e35db",
     "n-76e2884b48",
     "n-76a6e0d291",
     "n-6b3a93f373",
@@ -16509,8 +16561,12 @@
     "n-c5207bfa4a"
   ],
   "windows-11": [
+    "n-d8b407c155",
     "n-8705af97a2",
     "n-38ff523738"
+  ],
+  "windows-11-memory-integrity": [
+    "n-d8b407c155"
   ],
   "windows-copilot-api": [
     "n-25eed24e0d"

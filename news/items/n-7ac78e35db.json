@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-7ac78e35db",
+ "entry_type": "news",
+ "category": "tools-frontend",
+ "lang": "en",
+ "title": "Gemini app introduces background computer use on macOS",
+ "summary": "Google released background computer use for the Gemini app on Apple Silicon Macs, executing multi-step application and web workflows in an isolated window without cursor takeover for US Google AI Plus, Pro, and Ultra subscribers.",
+ "research_notes": "Install and open the official Gemini app on an Apple Silicon Mac running macOS with a personal Google account subscribed to an eligible Google AI tier.\n\nOpen Gemini Settings from the menu bar (or press Command + Comma), select Computer use in the sidebar, and toggle on 'Allow Gemini to work with your Mac'.\n\nGrant macOS system permissions for Accessibility and Screen & System Audio Recording when prompted in System Settings.\n\nConfigure optional safety parameters in Gemini Settings by adding sensitive applications to the Blocked apps list.\n\nInitiate a task in the Gemini prompt bar using the @Computer use tag or natural language instructions, monitor progress via the live preview panel, and approve critical action prompts when requested.\n\nPreemptively add password managers, personal banking apps, and sensitive communication tools to the Blocked apps list in settings to prevent inadvertent data exposure.\n\nKeep the in-chat live preview window visible during initial runs of complex workflows to verify execution accuracy and respond promptly to confirmation requests.\n\nBreak multi-stage workflows into discrete prompts with explicit verification checkpoints before executing destructive operations like bulk file deletion or batch document overwriting.\n\nEnable on-demand file backups prior to delegating automated document transformation or file renaming routines.",
+ "project": {
+  "name": "Gemini app: gemini-app-mac-background-computer-use",
+  "family_slug": "gemini-app",
+  "family_display": "Gemini app: gemini-app-mac-background-computer-use",
+  "model_slug": "gemini-app",
+  "model_display": "Gemini app: gemini-app-mac-background-computer-use",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gemini-app-mac-background-computer-use",
+  "thread_display": "Gemini App Mac Background Computer Use",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Gemini app: gemini-app-mac-background-computer-use",
+  "article_url": "https://happyin.space/projects/gemini-app/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/62146d7995e55f21f72e51509c3b77e13b5c26a5/docs/projects/gemini-app.md",
+  "agent_context_url": "https://happyin.space/projects/gemini-app/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "Gemini app introduces background computer use on macOS",
+  "version": null,
+  "summary": "Google released background computer use for the Gemini app on Apple Silicon Macs, executing multi-step application and web workflows in an isolated window without cursor takeover for US Google AI Plus, Pro, and Ultra subscribers."
+ },
+ "tags": [
+  "Gemini app: gemini-app-mac-background-computer-use",
+  "family:gemini-app",
+  "gemini-app",
+  "gemini-app-mac-background-computer-use",
+  "tools-frontend"
+ ],
+ "facets": {
+  "category": "tools-frontend",
+  "entry_type": "news",
+  "projects": [
+   "gemini-app"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+   "host": "blog.google",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T03:43:51Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "Google released background computer use for the Gemini app on Apple Silicon Macs, executing multi-step application and web workflows in an isolated window without cursor takeover for US Google AI Plus, Pro, and Ultra subscribers."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T03:43:51Z",
+  "classified_at": "2026-11-21T03:43:51Z",
+  "enriched_at": "2026-11-21T03:43:51Z",
+  "verified_at": "2026-11-21T03:43:51Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

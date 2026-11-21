@@ -1,9 +1,114 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T02:30:20Z",
+  "generated_at": "2026-11-21T04:01:52Z",
   "site": "diffusion.love",
-  "total": 1398,
+  "total": 1404,
   "records": [
+    {
+      "schema_version": "1.4",
+      "id": "n-fe297bbc98",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "PAMI part-anchored interaction generation repository published",
+      "summary": "The official repository for Part-Anchored Motion (PAMI) was published on GitHub, providing model code for generating coordinated human motion and 3D object trajectories from text prompts and object meshes.",
+      "research_notes": "Clone the Coral79/PAMI-Code repository from GitHub and configure the environment with the required PyTorch, CUDA, and 3D geometry packages.\n\nProvide a descriptive text prompt paired with a 3D target object mesh conforming to the expected coordinate conventions.\n\nExecute the coarse generation pipeline using PamiGen within the PamiVAE latent space to produce anchor-voted candidate trajectories.\n\nApply the recursive PamiRefiner module to adjust fine contact geometry and resolve foot or hand penetrations against the object surface.\n\nEnsure input object meshes possess clean surface geometry and consistent scale to allow proximity sensors in the refiner to compute valid contact fields.\n\nRetain the full coarse-to-fine generation pipeline with PamiRefiner rather than using coarse latent samples alone, preventing localized contact penetrations.",
+      "project": {
+        "name": "Pami: pami-part-anchored-hoi-generation",
+        "family_slug": "pami",
+        "family_display": "Pami: pami-part-anchored-hoi-generation",
+        "model_slug": "pami",
+        "model_display": "Pami: pami-part-anchored-hoi-generation",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "pami-part-anchored-hoi-generation",
+        "thread_display": "Pami Part Anchored Hoi Generation",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Pami: pami-part-anchored-hoi-generation",
+        "article_url": "https://happyin.space/projects/pami/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/03aa92f128a5e269b291ecf4b2e83fb343ce0cae/docs/projects/pami.md",
+        "agent_context_url": "https://happyin.space/projects/pami/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "PAMI part-anchored interaction generation repository published",
+        "version": null,
+        "summary": "The official repository for Part-Anchored Motion (PAMI) was published on GitHub, providing model code for generating coordinated human motion and 3D object trajectories from text prompts and object meshes."
+      },
+      "tags": [
+        "Pami: pami-part-anchored-hoi-generation",
+        "family:pami",
+        "misc",
+        "pami",
+        "pami-part-anchored-hoi-generation"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "pami"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/Coral79/PAMI-Code",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T04:01:52Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "The official repository for Part-Anchored Motion (PAMI) was published on GitHub, providing model code for generating coordinated human motion and 3D object trajectories from text prompts and object meshes."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T04:01:52Z",
+        "classified_at": "2026-11-21T04:01:52Z",
+        "enriched_at": "2026-11-21T04:01:52Z",
+        "verified_at": "2026-11-21T04:01:52Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
     {
       "schema_version": "1.4",
       "id": "n-efb0fb8a5d",
@@ -385,6 +490,111 @@
     },
     {
       "schema_version": "1.4",
+      "id": "n-d8b407c155",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "FastUnlock zero-day bypasses Windows 11 lock screen via Narrator interface",
+      "summary": "Researcher Abdelhamid Naceri disclosed FastUnlock, a zero-day flaw in Windows 11 where an unconstrained interface in Narrator enables physically present attackers to access Settings and execute arbitrary executables on decrypted, locked BitLocker systems under WsiAccount.",
+      "research_notes": "Ensure physical control of running Windows 11 hardware by disabling automatic wake and disconnecting unattended external peripheral ports.\n\nShut down or hibernate devices completely rather than leaving them locked when unattended to force BitLocker volume encryption at rest.\n\nEnforce complete system shutdown or hibernation rather than standard lock-screen state in shared or untrusted physical environments to prevent memory-decrypted BitLocker access.\n\nRestrict external USB mass storage execution and monitor for uncoordinated accessibility zero-day patches from vendor security updates.",
+      "project": {
+        "name": "Windows 11: windows-11-memory-integrity",
+        "family_slug": "windows-11",
+        "family_display": "Windows 11: windows-11-memory-integrity",
+        "model_slug": "windows-11",
+        "model_display": "Windows 11: windows-11-memory-integrity",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "windows-11-memory-integrity",
+        "thread_display": "Windows 11 Memory Integrity",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Windows 11: windows-11-memory-integrity",
+        "article_url": "https://happyin.space/projects/windows-11/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/c8e6c17de33007c20e76419aedf82e9098b78104/docs/projects/windows-11.md",
+        "agent_context_url": "https://happyin.space/projects/windows-11/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "FastUnlock zero-day bypasses Windows 11 lock screen via Narrator interface",
+        "version": null,
+        "summary": "Researcher Abdelhamid Naceri disclosed FastUnlock, a zero-day flaw in Windows 11 where an unconstrained interface in Narrator enables physically present attackers to access Settings and execute arbitrary executables on decrypted, locked BitLocker systems under WsiAccount."
+      },
+      "tags": [
+        "Windows 11: windows-11-memory-integrity",
+        "family:windows-11",
+        "misc",
+        "windows-11",
+        "windows-11-memory-integrity"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "windows-11"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://rozetked.me/news/49588",
+          "host": "rozetked.me",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T03:04:12Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Researcher Abdelhamid Naceri disclosed FastUnlock, a zero-day flaw in Windows 11 where an unconstrained interface in Narrator enables physically present attackers to access Settings and execute arbitrary executables on decrypted, locked BitLocker systems under WsiAccount."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T03:04:12Z",
+        "classified_at": "2026-11-21T03:04:12Z",
+        "enriched_at": "2026-11-21T03:04:12Z",
+        "verified_at": "2026-11-21T03:04:12Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
       "id": "n-d4c199de97",
       "entry_type": "news",
       "category": "misc",
@@ -513,6 +723,216 @@
         "classified_at": "2026-11-21T01:14:25Z",
         "enriched_at": "2026-11-21T01:14:25Z",
         "verified_at": "2026-11-21T01:14:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-d1f7c7e277",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "PAMI releases code for part-anchored text-to-HOI synthesis",
+      "summary": "The release introduces PAMI by Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger, and Gerard Pons-Moll, implementing part-anchored trajectory voting via PamiVAE, PamiGen, and PamiRefiner.",
+      "research_notes": "Clone the Coral79/PAMI-Code repository from GitHub and configure the environment with the required PyTorch, CUDA, and 3D geometry packages.\n\nProvide a descriptive text prompt paired with a 3D target object mesh conforming to the expected coordinate conventions.\n\nExecute the coarse generation pipeline using PamiGen within the PamiVAE latent space to produce anchor-voted candidate trajectories.\n\nApply the recursive PamiRefiner module to adjust fine contact geometry and resolve foot or hand penetrations against the object surface.\n\nEnsure input object meshes possess clean surface geometry and consistent scale to allow proximity sensors in the refiner to compute valid contact fields.\n\nRetain the full coarse-to-fine generation pipeline with PamiRefiner rather than using coarse latent samples alone, preventing localized contact penetrations.",
+      "project": {
+        "name": "Pami: pami-part-anchored-hoi-generation",
+        "family_slug": "pami",
+        "family_display": "Pami: pami-part-anchored-hoi-generation",
+        "model_slug": "pami",
+        "model_display": "Pami: pami-part-anchored-hoi-generation",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "pami-part-anchored-hoi-generation",
+        "thread_display": "Pami Part Anchored Hoi Generation",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Pami: pami-part-anchored-hoi-generation",
+        "article_url": "https://happyin.space/projects/pami/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/03aa92f128a5e269b291ecf4b2e83fb343ce0cae/docs/projects/pami.md",
+        "agent_context_url": "https://happyin.space/projects/pami/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "PAMI releases code for part-anchored text-to-HOI synthesis",
+        "version": null,
+        "summary": "The release introduces PAMI by Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger, and Gerard Pons-Moll, implementing part-anchored trajectory voting via PamiVAE, PamiGen, and PamiRefiner."
+      },
+      "tags": [
+        "Pami: pami-part-anchored-hoi-generation",
+        "family:pami",
+        "misc",
+        "pami",
+        "pami-part-anchored-hoi-generation"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "pami"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/Coral79/PAMI-Code",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T04:01:52Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "The release introduces PAMI by Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger, and Gerard Pons-Moll, implementing part-anchored trajectory voting via PamiVAE, PamiGen, and PamiRefiner."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T04:01:52Z",
+        "classified_at": "2026-11-21T04:01:52Z",
+        "enriched_at": "2026-11-21T04:01:52Z",
+        "verified_at": "2026-11-21T04:01:52Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-b89e603f7f",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "FAB human body reconstruction code and weights published",
+      "summary": "Open-source weights and implementation code for the FAB human body reconstruction model are released, providing real-time monocular video extraction of dense surface points and skeletal motion using a distilled ViT-L student network.",
+      "research_notes": "Clone the FAB project repository and set up the Python environment with PyTorch and dependencies.\n\nDownload the pre-trained ViT-L student model weights from the provided model repository.\n\nExecute the video inference script to extract 3D joint skeletons, dense surface point clouds, and joint contact states from monocular video.\n\nMap predicted joint poses and contact signals to humanoid control targets such as the Unitree G1 robot.\n\nDeploy on a high-throughput GPU such as an RTX 4070 Ti SUPER to maintain real-time reconstruction throughput above thirty-nine frames per second with detection included.\n\nLeverage predicted contact states at the heels, toes, hands, and knees to enforce physical contact constraints and mitigate foot sliding or floor penetration during robotic retargeting.",
+      "project": {
+        "name": "Fab: fab-human-motion-reconstruction",
+        "family_slug": "fab",
+        "family_display": "Fab: fab-human-motion-reconstruction",
+        "model_slug": "fab",
+        "model_display": "Fab: fab-human-motion-reconstruction",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "fab-human-motion-reconstruction",
+        "thread_display": "Fab Human Motion Reconstruction",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Fab: fab-human-motion-reconstruction",
+        "article_url": "https://happyin.space/projects/fab/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/b90298a2d5dd465715eed72e9442142ad8f464be/docs/projects/fab.md",
+        "agent_context_url": "https://happyin.space/projects/fab/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "FAB human body reconstruction code and weights published",
+        "version": null,
+        "summary": "Open-source weights and implementation code for the FAB human body reconstruction model are released, providing real-time monocular video extraction of dense surface points and skeletal motion using a distilled ViT-L student network."
+      },
+      "tags": [
+        "Fab: fab-human-motion-reconstruction",
+        "fab",
+        "fab-human-motion-reconstruction",
+        "family:fab",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "fab"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://www.jinkuncao.com/FAB/",
+          "host": "jinkuncao.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T03:15:11Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Open-source weights and implementation code for the FAB human body reconstruction model are released, providing real-time monocular video extraction of dense surface points and skeletal motion using a distilled ViT-L student network."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T03:15:11Z",
+        "classified_at": "2026-11-21T03:15:11Z",
+        "enriched_at": "2026-11-21T03:15:11Z",
+        "verified_at": "2026-11-21T03:15:11Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -824,6 +1244,111 @@
         "models_used": {
           "classifier": "nemotron-3.5-lightning",
           "ranking": "site-category-terms"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-7ac78e35db",
+      "entry_type": "news",
+      "category": "tools-frontend",
+      "lang": "en",
+      "title": "Gemini app introduces background computer use on macOS",
+      "summary": "Google released background computer use for the Gemini app on Apple Silicon Macs, executing multi-step application and web workflows in an isolated window without cursor takeover for US Google AI Plus, Pro, and Ultra subscribers.",
+      "research_notes": "Install and open the official Gemini app on an Apple Silicon Mac running macOS with a personal Google account subscribed to an eligible Google AI tier.\n\nOpen Gemini Settings from the menu bar (or press Command + Comma), select Computer use in the sidebar, and toggle on 'Allow Gemini to work with your Mac'.\n\nGrant macOS system permissions for Accessibility and Screen & System Audio Recording when prompted in System Settings.\n\nConfigure optional safety parameters in Gemini Settings by adding sensitive applications to the Blocked apps list.\n\nInitiate a task in the Gemini prompt bar using the @Computer use tag or natural language instructions, monitor progress via the live preview panel, and approve critical action prompts when requested.\n\nPreemptively add password managers, personal banking apps, and sensitive communication tools to the Blocked apps list in settings to prevent inadvertent data exposure.\n\nKeep the in-chat live preview window visible during initial runs of complex workflows to verify execution accuracy and respond promptly to confirmation requests.\n\nBreak multi-stage workflows into discrete prompts with explicit verification checkpoints before executing destructive operations like bulk file deletion or batch document overwriting.\n\nEnable on-demand file backups prior to delegating automated document transformation or file renaming routines.",
+      "project": {
+        "name": "Gemini app: gemini-app-mac-background-computer-use",
+        "family_slug": "gemini-app",
+        "family_display": "Gemini app: gemini-app-mac-background-computer-use",
+        "model_slug": "gemini-app",
+        "model_display": "Gemini app: gemini-app-mac-background-computer-use",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gemini-app-mac-background-computer-use",
+        "thread_display": "Gemini App Mac Background Computer Use",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Gemini app: gemini-app-mac-background-computer-use",
+        "article_url": "https://happyin.space/projects/gemini-app/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/62146d7995e55f21f72e51509c3b77e13b5c26a5/docs/projects/gemini-app.md",
+        "agent_context_url": "https://happyin.space/projects/gemini-app/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Gemini app introduces background computer use on macOS",
+        "version": null,
+        "summary": "Google released background computer use for the Gemini app on Apple Silicon Macs, executing multi-step application and web workflows in an isolated window without cursor takeover for US Google AI Plus, Pro, and Ultra subscribers."
+      },
+      "tags": [
+        "Gemini app: gemini-app-mac-background-computer-use",
+        "family:gemini-app",
+        "gemini-app",
+        "gemini-app-mac-background-computer-use",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "projects": [
+          "gemini-app"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+          "host": "blog.google",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T03:43:51Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Google released background computer use for the Gemini app on Apple Silicon Macs, executing multi-step application and web workflows in an isolated window without cursor takeover for US Google AI Plus, Pro, and Ultra subscribers."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T03:43:51Z",
+        "classified_at": "2026-11-21T03:43:51Z",
+        "enriched_at": "2026-11-21T03:43:51Z",
+        "verified_at": "2026-11-21T03:43:51Z",
+        "models_used": {
+          "research": "curated-live-material"
         },
         "schema_validated": true
       }
@@ -1514,6 +2039,111 @@
         "classified_at": "2026-11-21T00:34:14Z",
         "enriched_at": "2026-11-21T00:34:14Z",
         "verified_at": "2026-11-21T00:34:14Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-0d2dc88143",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "FAB: fast human body reconstruction model released",
+      "summary": "FAB introduces a fast 3D human body reconstruction model distilled from SAM 3D Body into a ViT-L student architecture. It estimates 3D skeletons, dense surface point clouds, and contact predictions for heels, toes, hands, and knees at 39.2 FPS on an RTX 4070 Ti SUPER GPU with integrated detection, enabling direct motion retargeting to the Unitree G1 humanoid robot.",
+      "research_notes": "Clone the FAB project repository and set up the Python environment with PyTorch and dependencies.\n\nDownload the pre-trained ViT-L student model weights from the provided model repository.\n\nExecute the video inference script to extract 3D joint skeletons, dense surface point clouds, and joint contact states from monocular video.\n\nMap predicted joint poses and contact signals to humanoid control targets such as the Unitree G1 robot.\n\nDeploy on a high-throughput GPU such as an RTX 4070 Ti SUPER to maintain real-time reconstruction throughput above thirty-nine frames per second with detection included.\n\nLeverage predicted contact states at the heels, toes, hands, and knees to enforce physical contact constraints and mitigate foot sliding or floor penetration during robotic retargeting.",
+      "project": {
+        "name": "Fab: fab-human-motion-reconstruction",
+        "family_slug": "fab",
+        "family_display": "Fab: fab-human-motion-reconstruction",
+        "model_slug": "fab",
+        "model_display": "Fab: fab-human-motion-reconstruction",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "fab-human-motion-reconstruction",
+        "thread_display": "Fab Human Motion Reconstruction",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Fab: fab-human-motion-reconstruction",
+        "article_url": "https://happyin.space/projects/fab/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/b90298a2d5dd465715eed72e9442142ad8f464be/docs/projects/fab.md",
+        "agent_context_url": "https://happyin.space/projects/fab/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "FAB: fast human body reconstruction model released",
+        "version": null,
+        "summary": "FAB introduces a fast 3D human body reconstruction model distilled from SAM 3D Body into a ViT-L student architecture. It estimates 3D skeletons, dense surface point clouds, and contact predictions for heels, toes, hands, and knees at 39.2 FPS on an RTX 4070 Ti SUPER GPU with integrated detection, enabling direct motion retargeting to the Unitree G1 humanoid robot."
+      },
+      "tags": [
+        "Fab: fab-human-motion-reconstruction",
+        "fab",
+        "fab-human-motion-reconstruction",
+        "family:fab",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "fab"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://www.jinkuncao.com/FAB/",
+          "host": "jinkuncao.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T03:15:11Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "FAB introduces a fast 3D human body reconstruction model distilled from SAM 3D Body into a ViT-L student architecture. It estimates 3D skeletons, dense surface point clouds, and contact predictions for heels, toes, hands, and knees at 39.2 FPS on an RTX 4070 Ti SUPER GPU with integrated detection, enabling direct motion retargeting to the Unitree G1 humanoid robot."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T03:15:11Z",
+        "classified_at": "2026-11-21T03:15:11Z",
+        "enriched_at": "2026-11-21T03:15:11Z",
+        "verified_at": "2026-11-21T03:15:11Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -13309,6 +13939,15 @@
           "host": "huggingface.co",
           "lang": "en",
           "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-18T18:56:44Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://gitverse.ru/GigaTeam/gigachat3.5-reasoning",
+          "host": "gitverse.ru",
+          "lang": "en",
+          "is_primary": false,
           "status": "unverified",
           "verified_at": "2026-11-18T18:56:44Z"
         }

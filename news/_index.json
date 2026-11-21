@@ -1,5 +1,24 @@
 [
   {
+    "id": "n-fe297bbc98",
+    "date": "2026-11-20",
+    "title": "PAMI part-anchored interaction generation repository published",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "pami",
+    "version": null,
+    "tags": [
+      "Pami: pami-part-anchored-hoi-generation",
+      "family:pami",
+      "misc",
+      "pami",
+      "pami-part-anchored-hoi-generation"
+    ],
+    "primary_link": "https://github.com/Coral79/PAMI-Code",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-efb0fb8a5d",
     "date": "2026-11-20",
     "title": "Apple job listing details agentic AI leadership for cross-app automation",
@@ -59,6 +78,25 @@
     "has_video": false
   },
   {
+    "id": "n-d8b407c155",
+    "date": "2026-11-20",
+    "title": "FastUnlock zero-day bypasses Windows 11 lock screen via Narrator interface",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "windows-11",
+    "version": null,
+    "tags": [
+      "Windows 11: windows-11-memory-integrity",
+      "family:windows-11",
+      "misc",
+      "windows-11",
+      "windows-11-memory-integrity"
+    ],
+    "primary_link": "https://rozetked.me/news/49588",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-d4c199de97",
     "date": "2026-11-20",
     "title": "Apple opens engineering manager role for autonomous computer-use AI",
@@ -74,6 +112,44 @@
       "organization:apple"
     ],
     "primary_link": "https://habr.com/ru/articles/1110310/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-d1f7c7e277",
+    "date": "2026-11-20",
+    "title": "PAMI releases code for part-anchored text-to-HOI synthesis",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "pami",
+    "version": null,
+    "tags": [
+      "Pami: pami-part-anchored-hoi-generation",
+      "family:pami",
+      "misc",
+      "pami",
+      "pami-part-anchored-hoi-generation"
+    ],
+    "primary_link": "https://github.com/Coral79/PAMI-Code",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-b89e603f7f",
+    "date": "2026-11-20",
+    "title": "FAB human body reconstruction code and weights published",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "fab",
+    "version": null,
+    "tags": [
+      "Fab: fab-human-motion-reconstruction",
+      "fab",
+      "fab-human-motion-reconstruction",
+      "family:fab",
+      "misc"
+    ],
+    "primary_link": "https://www.jinkuncao.com/FAB/",
     "has_image": false,
     "has_video": false
   },
@@ -115,6 +191,25 @@
       "papers-of-the-day"
     ],
     "primary_link": "https://arxiv.org/abs/2611.25338",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-7ac78e35db",
+    "date": "2026-11-20",
+    "title": "Gemini app introduces background computer use on macOS",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "gemini-app",
+    "version": null,
+    "tags": [
+      "Gemini app: gemini-app-mac-background-computer-use",
+      "family:gemini-app",
+      "gemini-app",
+      "gemini-app-mac-background-computer-use",
+      "tools-frontend"
+    ],
+    "primary_link": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
     "has_image": false,
     "has_video": false
   },
@@ -229,6 +324,25 @@
       "sgne-cc-weight-geometry-edit"
     ],
     "primary_link": "https://habr.com/ru/articles/1110462/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-0d2dc88143",
+    "date": "2026-11-20",
+    "title": "FAB: fast human body reconstruction model released",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "fab",
+    "version": null,
+    "tags": [
+      "Fab: fab-human-motion-reconstruction",
+      "fab",
+      "fab-human-motion-reconstruction",
+      "family:fab",
+      "misc"
+    ],
+    "primary_link": "https://www.jinkuncao.com/FAB/",
     "has_image": false,
     "has_video": false
   },
