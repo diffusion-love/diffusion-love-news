@@ -366,6 +366,11 @@
   "summary": "Rowboat 是一款本地优先的 AI 助手，可处理邮件、笔记等数字数据，并构建动态更新的知识图谱。它将信息存储为人类可读的 Markdown 文件，并在用户设备上私密运行。",
   "title": "Rowboat：本地优先的 AI 智能体与个人知识图谱"
  },
+ "n-128d7dba17": {
+  "research_notes": "获取基础模型 DeepSeek-R1-Distill-Qwen-1.5B 的 safetensors 格式权重。\n\n将 603 KB 的列旋转补丁直接应用于指定的 205 个 mlp.down_proj 权重列，且不改变模型架构或推理代码。\n\n使用贪婪解码（temperature=0，presence_penalty=0）运行模型评估，以生成简洁的推理轨迹并避免词元数上限导致的循环。\n\n在确定性贪婪解码（temperature=0，presence_penalty=0）下评估模型，而不是依赖采样惩罚，因为 SGNE-CC 专门针对稳定贪婪推理路径进行了优化。\n\n验证在 BF16 舍入之后，mlp.down_proj 的欧几里得列范数在 0.16% 的方差范围内保持不变，以确保数值稳定性并防止内部表示退化。",
+  "summary": "SGNE-CC（Spherical Gated Norm-preserving Edit, Column-Constrained，球面门控保范数编辑，列约束）权重编辑技术已应用于 DeepSeek-R1-Distill-Qwen-1.5B，方法是旋转 MLP 层中的 205 个下投影列。这一无需训练的 603 KB 补丁在保持欧几里得列范数的同时，减少了确定性贪婪解码下的重复自我验证循环和推理轨迹长度。",
+  "title": "SGNE-CC v2 列约束权重编辑移植到 DeepSeek-R1-Distill-Qwen-1.5B"
+ },
  "n-129b6b09c0": {
   "evolution_summary": "该模型继承了早期基于 Qwen3.5 的蒸馏实验，借助较新的 MoE 架构和多词元预测（MTP）提升效率。截至 mid-2026，它仍是本地推理任务的首选之一。",
   "research_notes": "原生上下文窗口为 262,144 个词元；兼容最新版 llama.cpp。由于有报告称 CUDA 13.2 会导致输出损坏，请避免与其搭配使用。",
@@ -1910,6 +1915,11 @@
  "n-61589d5fc9": {
   "summary": "2026年7月31日，KIRI Engine 的开发动态中包含一个名为 Gaussian-Splatting-plugin-by-KIRI-Engine 的 GitHub 仓库链接。该带日期的链接表明存在一个公开的 Gaussian Splatting 插件仓库，但并不能证实其发布情况、功能范围或可用性。",
   "title": "KIRI Engine 公开了一个 Gaussian Splatting 插件的 GitHub 仓库"
+ },
+ "n-617332c918": {
+  "research_notes": "定义候选智能体的搜索空间，明确目标任务可用的提示模板、分解步骤与协调协议。\n\n在评估基准上执行父代架构，收集标量性能分数以及记录成功与失败情况的样本执行日志。\n\n依据综合适应度选择父代候选，然后构造重组提示，将父代代码与其有界的执行轨迹一并呈现。\n\n提示重组大语言模型综合出子代智能体设计，使其保留成功的执行行为，并在不暴露标准答案的前提下改造失败的组件。\n\n复用标准适应度评估过程中产生的执行轨迹，而不额外运行辅助推理，以将搜索计算开销控制在有界范围内。\n\n在交叉提示过程中，严格区分中间执行轨迹与真实标签，以避免基准过拟合和测试数据泄露。\n\n顶层锦标赛选择仍采用综合适应度，执行引导的反馈则严格限定于交叉与变异算子。",
+  "summary": "一篇研究预印本提出了 GRAFT，这是一种面向 LLM 智能体架构的进化搜索框架，它利用父代的执行轨迹而非仅依赖综合适应度分数来引导语义交叉，并在开放权重模型上报告了推理与编程基准性能的提升。",
+  "title": "GRAFT 提出面向 LLM 智能体设计的执行引导式遗传重组"
  },
  "n-61c8c02fec": {
   "evolution_summary": "Kimodo 于2026年3月发布后，被集成到 NVIDIA 的 ProtoMotions 框架中，用于为 Unitree G1 等人形机器人生成合成训练数据。目前，该模型正在扩展，以便在 NVIDIA Omniverse 中用于工业数字孪生仿真。",

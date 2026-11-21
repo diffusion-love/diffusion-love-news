@@ -1,0 +1,11 @@
+{
+ "id": "n-617332c918",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Definir el espacio de búsqueda de agentes candidatos, especificando las plantillas de prompt admisibles, los pasos de descomposición y los protocolos de coordinación para las tareas objetivo.\n\nEjecutar las arquitecturas progenitoras en benchmarks de evaluación para recopilar tanto puntuaciones de rendimiento escalares como registros de ejecución de muestra que documenten aciertos y fallos.\n\nSeleccionar los candidatos progenitores según la aptitud agregada y, a continuación, construir prompts de recombinación que presenten el código de los progenitores junto con sus trazas de ejecución acotadas.\n\nIndicar al LLM de recombinación que sintetice diseños de agentes descendientes que conserven los comportamientos de ejecución exitosos y muten los componentes defectuosos sin exponer respuestas de referencia.\n\nReutilizar las trazas de ejecución de las evaluaciones estándar de aptitud en lugar de ejecutar inferencias auxiliares, para mantener acotado el cómputo de la búsqueda.\n\nMantener una separación estricta entre las trazas de ejecución intermedias y las etiquetas de verdad fundamental durante los prompts de cruce, para evitar el sobreajuste al benchmark y la fuga de datos de prueba.\n\nConservar la aptitud agregada para la selección por torneo de nivel superior, limitando estrictamente la retroalimentación guiada por la ejecución a los operadores de cruce y mutación.",
+ "source_sha256": "36a21bb1a87b6ffc24629a886d1749d4b033208335623aa5336e8fb28b7fcd12",
+ "summary": "Un preprint de investigación presentó GRAFT, un marco de búsqueda evolutiva para arquitecturas de agentes basados en LLM que orienta el cruce semántico mediante las trazas de ejecución de los progenitores, en lugar de basarse únicamente en puntuaciones de aptitud agregadas, y que informa de mejoras en el rendimiento en benchmarks de razonamiento y programación con modelos de pesos abiertos.",
+ "title": "GRAFT introduce la recombinación genética guiada por la ejecución para el diseño de agentes LLM",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

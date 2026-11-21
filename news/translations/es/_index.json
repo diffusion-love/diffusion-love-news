@@ -384,6 +384,11 @@
   "title": "Rowboat: agente de IA local-first y grafo de conocimiento personal",
   "translated_at": "2026-10-24"
  },
+ "n-128d7dba17": {
+  "fresh": true,
+  "title": "SGNE-CC v2 con edición de pesos de columnas restringidas portada a DeepSeek-R1-Distill-Qwen-1.5B",
+  "translated_at": "2026-11-21"
+ },
  "n-129b6b09c0": {
   "fresh": true,
   "title": "Qwen3.6-35B, razonamiento destilado de Claude 4.6 Opus",
@@ -1998,6 +2003,11 @@
   "fresh": true,
   "title": "KIRI Engine difundió un repositorio de GitHub para un plugin de Gaussian Splatting",
   "translated_at": "2026-10-24"
+ },
+ "n-617332c918": {
+  "fresh": true,
+  "title": "GRAFT introduce la recombinación genética guiada por la ejecución para el diseño de agentes LLM",
+  "translated_at": "2026-11-21"
  },
  "n-61c8c02fec": {
   "fresh": true,

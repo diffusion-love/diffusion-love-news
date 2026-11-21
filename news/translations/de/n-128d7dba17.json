@@ -1,0 +1,11 @@
+{
+ "id": "n-128d7dba17",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Die Basismodellgewichte von DeepSeek-R1-Distill-Qwen-1.5B im Format safetensors beschaffen.\n\nDen 603 KB großen Spaltenrotations-Patch direkt auf die 205 vorgesehenen mlp.down_proj-Gewichtsspalten anwenden, ohne die Modellarchitektur oder den Inferenzcode zu verändern.\n\nDie Modellevaluation mit Greedy-Decoding (temperature=0, presence_penalty=0) durchführen, um prägnante Reasoning-Traces ohne Endlosschleifen durch Token-Limits zu erzeugen.\n\nModelle unter deterministischem Greedy-Decoding (temperature=0, presence_penalty=0) evaluieren, statt sich auf Sampling-Strafterme zu verlassen, da SGNE-CC speziell darauf optimiert ist, Greedy-Reasoning-Pfade zu stabilisieren.\n\nPrüfen, dass die euklidischen Spaltennormen in mlp.down_proj nach dem BF16-Rounding innerhalb einer Abweichung von 0,16 % erhalten bleiben, um numerische Stabilität sicherzustellen und eine Degradation der internen Repräsentationen zu verhindern.",
+ "source_sha256": "f1b7b35fb78e80c94a02b3e31a187c26734b808213279c8a94f367430df5f5a2",
+ "summary": "Die Gewichtsbearbeitungstechnik SGNE-CC (Spherical Gated Norm-preserving Edit, Column-Constrained) wurde auf DeepSeek-R1-Distill-Qwen-1.5B angewendet, indem 205 Down-Projection-Spalten in den MLP-Schichten rotiert wurden. Der 603 KB große, trainingsfreie Patch erhält die euklidischen Spaltennormen und verringert unter deterministischem Greedy-Decoding die wiederholten Selbstverifikationsschleifen sowie die Länge der Reasoning-Traces.",
+ "title": "SGNE-CC v2: spaltenbeschränkte Gewichtsbearbeitung auf DeepSeek-R1-Distill-Qwen-1.5B übertragen",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

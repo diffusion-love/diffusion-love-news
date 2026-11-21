@@ -1,0 +1,11 @@
+{
+ "id": "n-128d7dba17",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Obtenez les poids du modèle de base DeepSeek-R1-Distill-Qwen-1.5B au format safetensors.\n\nAppliquez le correctif de rotation de colonnes de 603 Ko directement aux 205 colonnes de poids mlp.down_proj désignées, sans modifier l'architecture du modèle ni le code d'inférence.\n\nExécutez l'évaluation du modèle avec un décodage glouton (temperature=0, presence_penalty=0) afin de générer des traces de raisonnement concises, sans boucles de limite de tokens.\n\nÉvaluez les modèles avec un décodage glouton déterministe (temperature=0, presence_penalty=0) plutôt que de vous appuyer sur des pénalités d'échantillonnage, car SGNE-CC est spécifiquement optimisé pour stabiliser les chemins de raisonnement gloutons.\n\nVérifiez que les normes euclidiennes des colonnes de mlp.down_proj restent préservées à 0,16 % de variance près après l'arrondi en BF16, afin de garantir la stabilité numérique et d'éviter la dégradation des représentations internes.",
+ "source_sha256": "f1b7b35fb78e80c94a02b3e31a187c26734b808213279c8a94f367430df5f5a2",
+ "summary": "La technique d'édition de poids SGNE-CC (Spherical Gated Norm-preserving Edit, Column-Constrained) a été appliquée à DeepSeek-R1-Distill-Qwen-1.5B en faisant pivoter 205 colonnes de projection descendante dans les couches MLP. Ce correctif sans entraînement de 603 Ko préserve les normes euclidiennes des colonnes tout en réduisant les boucles de auto-vérification répétitives et la longueur des traces de raisonnement sous décodage glouton déterministe.",
+ "title": "SGNE-CC v2 : édition de poids à colonnes contraintes portée sur DeepSeek-R1-Distill-Qwen-1.5B",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
