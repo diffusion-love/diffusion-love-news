@@ -25746,6 +25746,154 @@
     ],
     "claims": []
   },
+  "fab": {
+    "family_slug": "fab",
+    "family_display": "Fab: fab-human-motion-reconstruction",
+    "family_display_variants": [
+      {
+        "family_display": "Fab: fab-human-motion-reconstruction",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-0d2dc88143",
+          "n-b89e603f7f"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-0d2dc88143",
+      "n-b89e603f7f"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-0d2dc88143",
+        "title": "FAB: fast human body reconstruction model released",
+        "primary_link": "https://www.jinkuncao.com/FAB/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-b89e603f7f",
+        "title": "FAB human body reconstruction code and weights published",
+        "primary_link": "https://www.jinkuncao.com/FAB/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "jinkuncao.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://www.jinkuncao.com/FAB/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T03:15:11Z",
+        "news_ids": [
+          "n-0d2dc88143",
+          "n-b89e603f7f"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "FAB: fast human body reconstruction model released",
+        "summary": "FAB introduces a fast 3D human body reconstruction model distilled from SAM 3D Body into a ViT-L student architecture. It estimates 3D skeletons, dense surface point clouds, and contact predictions for heels, toes, hands, and knees at 39.2 FPS on an RTX 4070 Ti SUPER GPU with integrated detection, enabling direct motion retargeting to the Unitree G1 humanoid robot.",
+        "version": null,
+        "news_id": "n-0d2dc88143",
+        "primary_link": "https://www.jinkuncao.com/FAB/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "FAB human body reconstruction code and weights published",
+        "summary": "Open-source weights and implementation code for the FAB human body reconstruction model are released, providing real-time monocular video extraction of dense surface points and skeletal motion using a distilled ViT-L student network.",
+        "version": null,
+        "news_id": "n-b89e603f7f",
+        "primary_link": "https://www.jinkuncao.com/FAB/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-b89e603f7f",
+        "date": "2026-11-20",
+        "title": "FAB human body reconstruction code and weights published",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "fab",
+        "version": null,
+        "tags": [
+          "Fab: fab-human-motion-reconstruction",
+          "fab",
+          "fab-human-motion-reconstruction",
+          "family:fab",
+          "misc"
+        ],
+        "primary_link": "https://www.jinkuncao.com/FAB/",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-0d2dc88143",
+        "date": "2026-11-20",
+        "title": "FAB: fast human body reconstruction model released",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "fab",
+        "version": null,
+        "tags": [
+          "Fab: fab-human-motion-reconstruction",
+          "fab",
+          "fab-human-motion-reconstruction",
+          "family:fab",
+          "misc"
+        ],
+        "primary_link": "https://www.jinkuncao.com/FAB/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "fab-human-motion-reconstruction",
+        "display": "Fab Human Motion Reconstruction",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-b89e603f7f",
+        "news_ids": [
+          "n-0d2dc88143",
+          "n-b89e603f7f"
+        ]
+      }
+    ]
+  },
   "face-anything": {
     "family_slug": "face-anything",
     "family_display": "Face Anything",

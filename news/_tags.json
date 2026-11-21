@@ -827,6 +827,10 @@
   "FLUX.2-klein-9B-Nunchaku": [
     "n-bb60458b02"
   ],
+  "Fab: fab-human-motion-reconstruction": [
+    "n-b89e603f7f",
+    "n-0d2dc88143"
+  ],
   "Face Anything": [
     "n-a4fb636ca8"
   ],
@@ -4696,6 +4700,14 @@
     "n-4b181dadc0",
     "n-2c76b163d3"
   ],
+  "fab": [
+    "n-b89e603f7f",
+    "n-0d2dc88143"
+  ],
+  "fab-human-motion-reconstruction": [
+    "n-b89e603f7f",
+    "n-0d2dc88143"
+  ],
   "face": [
     "n-f1139f1ee9",
     "n-d9eaebd61d",
@@ -5383,6 +5395,10 @@
   "family:f4splat": [
     "n-4b181dadc0",
     "n-2c76b163d3"
+  ],
+  "family:fab": [
+    "n-b89e603f7f",
+    "n-0d2dc88143"
   ],
   "family:face-anything": [
     "n-a4fb636ca8"
@@ -9628,6 +9644,7 @@
     "n-b8d5334397",
     "n-b8afea4624",
     "n-b8abd7e35e",
+    "n-b89e603f7f",
     "n-b815f82305",
     "n-b7c4d9268f",
     "n-b79dee5163",
@@ -10055,6 +10072,7 @@
     "n-0e3939a347",
     "n-0dea9b891a",
     "n-0d7aed5e86",
+    "n-0d2dc88143",
     "n-0cf91afec3",
     "n-0c94fdb677",
     "n-0c7b2e5273",

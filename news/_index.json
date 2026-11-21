@@ -97,6 +97,25 @@
     "has_video": false
   },
   {
+    "id": "n-b89e603f7f",
+    "date": "2026-11-20",
+    "title": "FAB human body reconstruction code and weights published",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "fab",
+    "version": null,
+    "tags": [
+      "Fab: fab-human-motion-reconstruction",
+      "fab",
+      "fab-human-motion-reconstruction",
+      "family:fab",
+      "misc"
+    ],
+    "primary_link": "https://www.jinkuncao.com/FAB/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-93d71a9cbf",
     "date": "2026-11-20",
     "title": "Apple tightens macOS agent permissions while developing proprietary assistant",
@@ -226,6 +245,25 @@
       "sgne-cc-weight-geometry-edit"
     ],
     "primary_link": "https://habr.com/ru/articles/1110462/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-0d2dc88143",
+    "date": "2026-11-20",
+    "title": "FAB: fast human body reconstruction model released",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "fab",
+    "version": null,
+    "tags": [
+      "Fab: fab-human-motion-reconstruction",
+      "fab",
+      "fab-human-motion-reconstruction",
+      "family:fab",
+      "misc"
+    ],
+    "primary_link": "https://www.jinkuncao.com/FAB/",
     "has_image": false,
     "has_video": false
   },

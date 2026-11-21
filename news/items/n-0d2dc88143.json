@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-0d2dc88143",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "FAB: fast human body reconstruction model released",
+ "summary": "FAB introduces a fast 3D human body reconstruction model distilled from SAM 3D Body into a ViT-L student architecture. It estimates 3D skeletons, dense surface point clouds, and contact predictions for heels, toes, hands, and knees at 39.2 FPS on an RTX 4070 Ti SUPER GPU with integrated detection, enabling direct motion retargeting to the Unitree G1 humanoid robot.",
+ "research_notes": "Clone the FAB project repository and set up the Python environment with PyTorch and dependencies.\n\nDownload the pre-trained ViT-L student model weights from the provided model repository.\n\nExecute the video inference script to extract 3D joint skeletons, dense surface point clouds, and joint contact states from monocular video.\n\nMap predicted joint poses and contact signals to humanoid control targets such as the Unitree G1 robot.\n\nDeploy on a high-throughput GPU such as an RTX 4070 Ti SUPER to maintain real-time reconstruction throughput above thirty-nine frames per second with detection included.\n\nLeverage predicted contact states at the heels, toes, hands, and knees to enforce physical contact constraints and mitigate foot sliding or floor penetration during robotic retargeting.",
+ "project": {
+  "name": "Fab: fab-human-motion-reconstruction",
+  "family_slug": "fab",
+  "family_display": "Fab: fab-human-motion-reconstruction",
+  "model_slug": "fab",
+  "model_display": "Fab: fab-human-motion-reconstruction",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "fab-human-motion-reconstruction",
+  "thread_display": "Fab Human Motion Reconstruction",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Fab: fab-human-motion-reconstruction",
+  "article_url": "https://happyin.space/projects/fab/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/b90298a2d5dd465715eed72e9442142ad8f464be/docs/projects/fab.md",
+  "agent_context_url": "https://happyin.space/projects/fab/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "FAB: fast human body reconstruction model released",
+  "version": null,
+  "summary": "FAB introduces a fast 3D human body reconstruction model distilled from SAM 3D Body into a ViT-L student architecture. It estimates 3D skeletons, dense surface point clouds, and contact predictions for heels, toes, hands, and knees at 39.2 FPS on an RTX 4070 Ti SUPER GPU with integrated detection, enabling direct motion retargeting to the Unitree G1 humanoid robot."
+ },
+ "tags": [
+  "Fab: fab-human-motion-reconstruction",
+  "fab",
+  "fab-human-motion-reconstruction",
+  "family:fab",
+  "misc"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "fab"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://www.jinkuncao.com/FAB/",
+   "host": "jinkuncao.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T03:15:11Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "FAB introduces a fast 3D human body reconstruction model distilled from SAM 3D Body into a ViT-L student architecture. It estimates 3D skeletons, dense surface point clouds, and contact predictions for heels, toes, hands, and knees at 39.2 FPS on an RTX 4070 Ti SUPER GPU with integrated detection, enabling direct motion retargeting to the Unitree G1 humanoid robot."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T03:15:11Z",
+  "classified_at": "2026-11-21T03:15:11Z",
+  "enriched_at": "2026-11-21T03:15:11Z",
+  "verified_at": "2026-11-21T03:15:11Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
