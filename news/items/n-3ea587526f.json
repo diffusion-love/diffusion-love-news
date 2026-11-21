@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-3ea587526f",
+ "entry_type": "news",
+ "category": "llm",
+ "lang": "en",
+ "title": "Strata output-module training enables SFT and DPO for 122B model on consumer hardware",
+ "summary": "Adapting Qwen 3.8 122B locally uses GPU forward activation caching to train a 12.54 MiB output module on CPU in roughly one minute across SFT and DPO passes with rollback protection.",
+ "research_notes": "Deploy the base Qwen 3.8 122B model inside the Strata inference engine on a workstation with at least 16 GB VRAM and 64 GB system RAM.\n\nFreeze the 48 main transformer layers and route training dialogues through the GPU forward pass to cache intermediate activations.\n\nExecute SFT and DPO training on CPU exclusively targeting the 12.54 MiB output module.\n\nValidate behavioral updates against the laboratory agent and maintain the rollback script to revert output-module modifications if regressions occur.\n\nCache forward-pass activations on the GPU before initiating CPU training to prevent VRAM exhaustion and avoid full backpropagation through frozen layers.\n\nMaintain automated rollback scripts to restore base output-module weights immediately if specialized agent evaluations degrade.\n\nLimit local CPU fine-tuning iterations to lightweight alignment passes such as SFT and DPO to keep cycle duration around one minute.",
+ "project": {
+  "name": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+  "family_slug": "qwen-3-8-122b",
+  "family_display": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+  "model_slug": "qwen-3-8-122b",
+  "model_display": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "qwen-3-8-122b-local-finetuning",
+  "thread_display": "Qwen 3 8 122B Local Finetuning",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+  "article_url": "https://happyin.space/projects/qwen-3-8-122b/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/10482f5ddefa62cf3df2ea0b18a53000aa1a7412/docs/projects/qwen-3-8-122b.md",
+  "agent_context_url": "https://happyin.space/projects/qwen-3-8-122b/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "Strata output-module training enables SFT and DPO for 122B model on consumer hardware",
+  "version": null,
+  "summary": "Adapting Qwen 3.8 122B locally uses GPU forward activation caching to train a 12.54 MiB output module on CPU in roughly one minute across SFT and DPO passes with rollback protection."
+ },
+ "tags": [
+  "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+  "family:qwen-3-8-122b",
+  "llm",
+  "qwen-3-8-122b",
+  "qwen-3-8-122b-local-finetuning"
+ ],
+ "facets": {
+  "category": "llm",
+  "entry_type": "news",
+  "projects": [
+   "qwen-3-8-122b"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://habr.com/ru/articles/1110182/",
+   "host": "habr.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T02:25:05Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "Adapting Qwen 3.8 122B locally uses GPU forward activation caching to train a 12.54 MiB output module on CPU in roughly one minute across SFT and DPO passes with rollback protection."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T02:25:05Z",
+  "classified_at": "2026-11-21T02:25:05Z",
+  "enriched_at": "2026-11-21T02:25:05Z",
+  "verified_at": "2026-11-21T02:25:05Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

@@ -20,6 +20,26 @@
     "has_video": false
   },
   {
+    "id": "n-ef9fd5e4ca",
+    "date": "2026-11-20",
+    "title": "Local output-module fine-tuning demonstrated for Qwen 3.8 122B in Strata",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "qwen-3-8-122b",
+    "version": null,
+    "tags": [
+      "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+      "family:qwen-3-8-122b",
+      "llm",
+      "qwen-3-8-122b",
+      "qwen-3-8-122b-local-finetuning",
+      "tools-frontend"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110182/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-eab4a185f3",
     "date": "2026-11-20",
     "title": "Apple reportedly developing native Mac AI agent",
@@ -111,6 +131,25 @@
       "organization:apple"
     ],
     "primary_link": "https://habr.com/ru/companies/selectel/articles/1110360/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-3ea587526f",
+    "date": "2026-11-20",
+    "title": "Strata output-module training enables SFT and DPO for 122B model on consumer hardware",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "qwen-3-8-122b",
+    "version": null,
+    "tags": [
+      "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+      "family:qwen-3-8-122b",
+      "llm",
+      "qwen-3-8-122b",
+      "qwen-3-8-122b-local-finetuning"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110182/",
     "has_image": false,
     "has_video": false
   },

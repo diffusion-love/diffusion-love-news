@@ -76844,6 +76844,155 @@
     ],
     "claims": []
   },
+  "qwen-3-8-122b": {
+    "family_slug": "qwen-3-8-122b",
+    "family_display": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+    "family_display_variants": [
+      {
+        "family_display": "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-3ea587526f",
+          "n-ef9fd5e4ca"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "llm"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-3ea587526f",
+      "n-ef9fd5e4ca"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-3ea587526f",
+        "title": "Strata output-module training enables SFT and DPO for 122B model on consumer hardware",
+        "primary_link": "https://habr.com/ru/articles/1110182/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-ef9fd5e4ca",
+        "title": "Local output-module fine-tuning demonstrated for Qwen 3.8 122B in Strata",
+        "primary_link": "https://habr.com/ru/articles/1110182/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "habr.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://habr.com/ru/articles/1110182/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T02:25:05Z",
+        "news_ids": [
+          "n-3ea587526f",
+          "n-ef9fd5e4ca"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Strata output-module training enables SFT and DPO for 122B model on consumer hardware",
+        "summary": "Adapting Qwen 3.8 122B locally uses GPU forward activation caching to train a 12.54 MiB output module on CPU in roughly one minute across SFT and DPO passes with rollback protection.",
+        "version": null,
+        "news_id": "n-3ea587526f",
+        "primary_link": "https://habr.com/ru/articles/1110182/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Local output-module fine-tuning demonstrated for Qwen 3.8 122B in Strata",
+        "summary": "A local fine-tuning workflow runs Qwen 3.8 122B on 16 GB VRAM and 64 GB RAM by freezing 48 main layers, caching activations on GPU, and training a 12.54 MiB output module on CPU.",
+        "version": null,
+        "news_id": "n-ef9fd5e4ca",
+        "primary_link": "https://habr.com/ru/articles/1110182/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-ef9fd5e4ca",
+        "date": "2026-11-20",
+        "title": "Local output-module fine-tuning demonstrated for Qwen 3.8 122B in Strata",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "qwen-3-8-122b",
+        "version": null,
+        "tags": [
+          "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+          "family:qwen-3-8-122b",
+          "llm",
+          "qwen-3-8-122b",
+          "qwen-3-8-122b-local-finetuning",
+          "tools-frontend"
+        ],
+        "primary_link": "https://habr.com/ru/articles/1110182/",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-3ea587526f",
+        "date": "2026-11-20",
+        "title": "Strata output-module training enables SFT and DPO for 122B model on consumer hardware",
+        "category": "llm",
+        "entry_type": "news",
+        "project": "qwen-3-8-122b",
+        "version": null,
+        "tags": [
+          "Qwen 3.8 122B local fine-tuning in Strata: qwen-3-8-122b-local-finetuning",
+          "family:qwen-3-8-122b",
+          "llm",
+          "qwen-3-8-122b",
+          "qwen-3-8-122b-local-finetuning"
+        ],
+        "primary_link": "https://habr.com/ru/articles/1110182/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "qwen-3-8-122b-local-finetuning",
+        "display": "Qwen 3 8 122B Local Finetuning",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-ef9fd5e4ca",
+        "news_ids": [
+          "n-3ea587526f",
+          "n-ef9fd5e4ca"
+        ]
+      }
+    ]
+  },
   "qwen-3-8-27b": {
     "family_slug": "qwen-3-8-27b",
     "family_display": "Qwen 3 8 27B",
