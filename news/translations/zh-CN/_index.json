@@ -244,6 +244,11 @@
   "title": "Seed Audio 1.0 产品页与 BytePlus 语音控制台开通路径",
   "translated_at": "2026-10-24"
  },
+ "n-0a2549f33e": {
+  "fresh": true,
+  "title": "ComfyUI v0.46.2 维护版本修复内存管理与配置崩溃问题",
+  "translated_at": "2026-11-21"
+ },
  "n-0a40fd014f": {
   "fresh": true,
   "title": "ComfyUI-MiniMaxH3_LatentUpscaler 在 The source 中被公开链接",
@@ -4723,6 +4728,11 @@
   "fresh": true,
   "title": "Self Gradient Forcing 项目资源已公开链接",
   "translated_at": "2026-10-24"
+ },
+ "n-ea13284ff9": {
+  "fresh": true,
+  "title": "StableGrasp：基于可微物理仿真的单图像手部抓取重建",
+  "translated_at": "2026-11-21"
  },
  "n-ea26f61d82": {
   "fresh": true,

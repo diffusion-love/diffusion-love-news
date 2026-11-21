@@ -1,0 +1,11 @@
+{
+ "id": "n-0a2549f33e",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository mit Git oder entpacken Sie das offizielle portable Paket in ein lokales Verzeichnis.\n\nInstallieren Sie die erforderlichen Python-Pakete, indem Sie pip install -r requirements.txt in der aktiven Umgebung ausführen.\n\nStarten Sie den Backend-Server mit python main.py und öffnen Sie die Graph-Oberfläche in einem Webbrowser, um Node-Workflows zu erstellen und in die Warteschlange zu stellen.\n\nKonfigurieren Sie die Pfade für Model-Checkpoints, VAE und LoRA in extra_model_paths.yaml, um Speicherorte über verschiedene Umgebungen hinweg gemeinsam zu nutzen, ohne große Modellgewichte zu duplizieren.\n\nAktualisieren Sie Custom Nodes und Abhängigkeiten über ComfyUI Manager, um die Schema-Kompatibilität mit den aktuellen Releases der Core-Engine und der Partner-Nodes zu erhalten.",
+ "source_sha256": "a101669d41f782232ad4b924b7a08d90cfc9b08f8889ac98d864868c5bec3183",
+ "summary": "ComfyUI hat v0.46.2 veröffentlicht. Die Version enthält Korrekturen zur Speicherfreigabe nach dem Entladen von Modellen, eine toleranzfähigere YAML-Verarbeitung für leere oder auskommentierte Pfade, Anpassungen am VAE-Slicing sowie neue Partner-Nodes.",
+ "title": "ComfyUI v0.46.2: Wartungsrelease behebt Probleme bei der Speicherverwaltung und Abstürze durch Konfigurationsfehler",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

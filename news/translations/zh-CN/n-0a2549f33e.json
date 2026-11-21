@@ -1,0 +1,11 @@
+{
+ "id": "n-0a2549f33e",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "使用 Git 克隆代码仓库，或将官方便携版安装包解压到本地目录。\n\n在当前激活的环境中执行 pip install -r requirements.txt，安装所需的 Python 包。\n\n运行 python main.py 启动后端服务器，然后在网页浏览器中打开图形界面，以构建并排队执行节点工作流。\n\n在 extra_model_paths.yaml 中配置模型检查点、VAE 和 LoRA 路径，即可在多个环境之间共享存储位置，无需重复存放大型模型权重。\n\n通过 ComfyUI Manager 更新自定义节点及其依赖项，以确保与近期核心引擎和合作伙伴节点版本保持 schema 兼容。",
+ "source_sha256": "a101669d41f782232ad4b924b7a08d90cfc9b08f8889ac98d864868c5bec3183",
+ "summary": "ComfyUI 发布 v0.46.2 版本，修复了模型卸载后的内存释放问题，增强了对空路径或被注释路径的 YAML 解析容错能力，调整了 VAE 切片相关设置，并新增了合作伙伴节点。",
+ "title": "ComfyUI v0.46.2 维护版本修复内存管理与配置崩溃问题",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

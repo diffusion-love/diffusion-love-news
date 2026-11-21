@@ -1,0 +1,11 @@
+{
+ "id": "n-ea13284ff9",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Man benötigt ein einzelnes RGB-Bild, das einen Hand-Objekt-Griff zeigt, sowie das 3D-Modell des Zielobjekts.\n\nDie visuellen Schätzungen der Handpose werden mit einem vorgelagerten bildbasierten 3D-Handpose-Schätzer initialisiert.\n\nDie Regelziele für den Griff werden getrennt von den visuellen Parametern der Handpose initialisiert.\n\nEine differenzierbare Physiksimulation wird ausgeführt, die die kinetische Energie des Griffs zusammen mit geometrischen und visuellen Ausrichtungsverlusten minimiert.\n\nAus der Optimierung werden das physikalisch stabile 3D-Handnetz sowie die zugehörigen Steuerkräfte extrahiert, etwa für Robotiksimulationen oder virtuelle Interaktion.\n\nVisuelle Posenparameter und physikalische Regelziele werden entkoppelt, anstatt visuelle Gelenkposen direkt in Stellmomente zu übersetzen.\n\nDie Minimierung der kinetischen Griffenergie in der differenzierbaren Simulation wird mit einer geometrischen Regularisierung bezüglich des Eingangsbildes kombiniert, um unnatürliche Verformungen des Handnetzes zu vermeiden.\n\nDas Framework wird als nachgelagerter physikalischer Verfeinerungsschritt auf bestehenden bildbasierten Handpose-Schätzern eingesetzt, um Objektdurchdringungen und Fallfehler zu beseitigen.",
+ "source_sha256": "7dbc475f489d5c275f4073ac1ac991d22a58ef033f2f64e9384919502049c4b0",
+ "summary": "StableGrasp trennt die visuelle Handpose-Schätzung von den Regelzielen für den Griff und minimiert innerhalb einer differenzierbaren Physiksimulation die kinetische Griffenergie, um aus einzelnen RGB-Bildern physikalisch stabile Hand-Objekt-Interaktionen zu erzeugen, wobei visuelle und geometrische Konsistenz erhalten bleiben.",
+ "title": "StableGrasp: Hand-Griff-Rekonstruktion aus einem einzelnen Bild mittels differenzierbarer Physiksimulation",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
