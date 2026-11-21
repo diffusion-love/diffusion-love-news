@@ -30405,9 +30405,10 @@
       {
         "family_display": "Gemini development",
         "first_seen": "2026-11-19",
-        "last_seen": "2026-11-19",
+        "last_seen": "2026-11-20",
         "news_ids": [
-          "n-fc77ff5baa"
+          "n-fc77ff5baa",
+          "n-8204e1013e"
         ]
       }
     ],
@@ -30421,9 +30422,9 @@
       "misc",
       "tools-frontend"
     ],
-    "post_count": 5,
+    "post_count": 6,
     "first_seen": "2026-04-10",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "latest_version": null,
     "latest_evolution": null,
     "news_ids": [
@@ -30431,7 +30432,8 @@
       "n-6f089116cf",
       "n-d5e685b3b1",
       "n-412ff5547f",
-      "n-fc77ff5baa"
+      "n-fc77ff5baa",
+      "n-8204e1013e"
     ],
     "versions_timeline": [
       {
@@ -30468,6 +30470,13 @@
         "news_id": "n-fc77ff5baa",
         "title": "Google adds background computer use agent to Gemini macOS client",
         "primary_link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-8204e1013e",
+        "title": "Google adds background Computer Use to Gemini for Mac",
+        "primary_link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/"
       }
     ],
     "features": [
@@ -30530,6 +30539,18 @@
         "verified_at": "2026-11-20T07:25:48Z",
         "news_ids": [
           "n-fc77ff5baa"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "the-decoder.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T09:59:28Z",
+        "news_ids": [
+          "n-8204e1013e"
         ]
       },
       {
@@ -30662,9 +30683,37 @@
         "version": null,
         "news_id": "n-fc77ff5baa",
         "primary_link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Google adds background Computer Use to Gemini for Mac",
+        "summary": "Google introduced a Computer Use capability for the Gemini app on macOS, allowing the AI assistant to perform multi-step desktop tasks in an isolated background window without taking over the user's cursor.",
+        "version": null,
+        "news_id": "n-8204e1013e",
+        "primary_link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/"
       }
     ],
     "related_news": [
+      {
+        "id": "n-8204e1013e",
+        "date": "2026-11-20",
+        "title": "Google adds background Computer Use to Gemini for Mac",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "gemini",
+        "version": null,
+        "tags": [
+          "Gemini development",
+          "family:gemini",
+          "gemini",
+          "gemini-development",
+          "misc"
+        ],
+        "primary_link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-fc77ff5baa",
         "date": "2026-11-19",
@@ -30767,10 +30816,11 @@
         "slug": "gemini-development",
         "display": "Gemini Development",
         "first_seen": "2026-11-19",
-        "last_seen": "2026-11-19",
-        "latest_news_id": "n-fc77ff5baa",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-8204e1013e",
         "news_ids": [
-          "n-fc77ff5baa"
+          "n-fc77ff5baa",
+          "n-8204e1013e"
         ]
       }
     ]

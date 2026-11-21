@@ -1027,7 +1027,8 @@
     "n-7ac78e35db"
   ],
   "Gemini development": [
-    "n-fc77ff5baa"
+    "n-fc77ff5baa",
+    "n-8204e1013e"
   ],
   "Gemma": [
     "n-c7bfff5d31",
@@ -5544,6 +5545,7 @@
   "family:gemini": [
     "n-fc77ff5baa",
     "n-d5e685b3b1",
+    "n-8204e1013e",
     "n-6f089116cf",
     "n-55b3aea30b",
     "n-412ff5547f"
@@ -7732,6 +7734,7 @@
   "gemini": [
     "n-fc77ff5baa",
     "n-d5e685b3b1",
+    "n-8204e1013e",
     "n-6f089116cf",
     "n-55b3aea30b",
     "n-412ff5547f",
@@ -7751,7 +7754,8 @@
     "n-7ac78e35db"
   ],
   "gemini-development": [
-    "n-fc77ff5baa"
+    "n-fc77ff5baa",
+    "n-8204e1013e"
   ],
   "gemini-embedding-2": [
     "n-1ee49081d2"
@@ -9818,6 +9822,7 @@
     "n-82f8f06562",
     "n-82a94d3961",
     "n-825557a5f2",
+    "n-8204e1013e",
     "n-81ebf14eea",
     "n-819e122ccd",
     "n-819b4129d7",
