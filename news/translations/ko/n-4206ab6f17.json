@@ -1,0 +1,11 @@
+{
+ "id": "n-4206ab6f17",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "커스텀 노드 저장소를 복제하거나 설치해 ComfyUI/custom_nodes 디렉터리에 넣고, Python 종속성을 설치하세요.\n\nLongCat-Avatar 모델 체크포인트 가중치와 Whisper 오디오 인코더를 지정된 ComfyUI 모델 폴더에 다운로드하세요.\n\nLongCat Avatar 워크플로 그래프를 불러온 뒤, 단일 캐릭터 초상 이미지와 대상 음성 오디오 파일을 노드 입력에 연결하세요.\n\n빠른 렌더링을 원하면 증류된 8단계 샘플링을 사용해 생성 큐를 실행하고, 더 긴 오디오 트랙에는 자동 확장 루프를 사용하세요.\n\n정확한 Whisper 특징 추출과 정밀한 입 모양 동기화를 위해 발음이 명확하고 잡음이 없는 깨끗한 음성 오디오를 사용하세요.\n\n다중 프레임 시퀀스에서 원치 않는 카메라 움직임이나 자세 변화를 억제하려면, 안정적인 framing과 의상을 설명하는 긍정적 텍스트 프롬프트를 적용하세요.\n\n단일 클립 길이보다 긴 오디오는 시간적 일관성을 유지하고 경계 이음새 아티팩트를 방지하기 위해 프레임을 겹치는 자동 확장 윈도잉을 사용하세요.",
+ "source_sha256": "5e0d2006b1bf32e8f5a5faec56e7574102652bc5cb3169c683ee21e92c5485a8",
+ "summary": "PixelAILabs가 Meituan의 LongCat-Avatar 1.6용 오픈소스 ComfyUI 커스텀 노드 패키지를 공개했습니다. Whisper 기반 특징 추출과 다중 프레임 자동 확장 워크플로를 추가해 오디오 기반 아바타 애니메이션을 지원합니다.",
+ "title": "PixelAILabs, LongCat-Avatar용 ComfyUI 노드 팩 공개",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

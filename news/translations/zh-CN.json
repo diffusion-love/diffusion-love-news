@@ -1386,6 +1386,11 @@
   "summary": "一组用于 ComfyUI 的自定义节点，支持与商汤科技的 SenseNova U1 原生统一多模态模型交互。它支持使用 8-step LoRA 和 GGUF 量化实现高速生成，适用于消费级硬件。",
   "title": "ComfyUI_SenseNova_U1 多模态模型自定义节点"
  },
+ "n-4206ab6f17": {
+  "research_notes": "将自定义节点仓库克隆或安装到 ComfyUI/custom_nodes 目录中，并安装 Python 依赖。\n\n将 LongCat-Avatar 模型 checkpoint 权重和 Whisper 音频编码器下载到指定的 ComfyUI 模型文件夹中。\n\n加载 LongCat Avatar 工作流图，将单张角色肖像图像和目标语音音频文件连接到节点输入端。\n\n执行生成队列时，可使用蒸馏版 8 步采样以实现快速渲染，或使用自动扩展循环处理较长的音频。\n\n使用干净、无噪声且发音清晰的语音音频，以确保 Whisper 特征提取准确，并实现精确的口型同步。\n\n应用描述稳定构图和服装的正向文本提示词，以约束多帧序列中不必要的镜头运动或姿态变化。\n\n对于长于单个片段时长的音频，使用带有重叠帧的自动扩展窗口处理，以保持时间一致性并防止片段边界接缝伪影。",
+  "summary": "PixelAILabs 为美团 LongCat-Avatar 1.6 发布了开源 ComfyUI 自定义节点包，新增基于音频驱动的虚拟形象动画功能，并支持基于 Whisper 的特征提取和多帧自动扩展工作流。",
+  "title": "PixelAILabs 发布 LongCat-Avatar 的 ComfyUI 节点包"
+ },
  "n-42aacd4f9b": {
   "summary": "2026-04-01，Omma 的开发记录中出现一条与上线相关的条目，链接指向 omma.build 和 spline.design。现有的封存证据除这些带日期的链接外，无法确认该产品的功能、发布范围，或其与 Spline 的确切关系。",
   "title": "Omma 平台上线条目"
@@ -2577,6 +2582,11 @@
   "summary": "2026-03-19，MetaClaw 的开发动态中包含了其 GitHub 仓库的公开链接。这为该项目确立了一个带日期的公开参考节点，但现有证据并未说明具体的发布、功能或其他特定变更。",
   "title": "MetaClaw 的 GitHub 仓库被公开引用"
  },
+ "n-8204e1013e": {
+  "research_notes": "在搭载 Apple Silicon 芯片、运行 macOS 且拥有有效 Google AI 订阅的 Mac 上安装并打开 Gemini 桌面应用。\n\n在 Gemini 聊天输入框中输入 @Computer use，后接多步骤请求，即可启动自动化桌面任务。\n\n针对任务所需的特定本地软件和目录，授予应用级权限。\n\n在后台窗口预览流中实时监控执行过程，并在需要时确认敏感操作的提示。\n\n有选择地授予桌面应用访问权限，以尽量减少敏感本地文件和无关软件的暴露。\n\n在运行不熟悉的自动化序列时保持实时流预览可见，以便在关键操作请求批准之前发现异常。",
+  "summary": "谷歌为 macOS 版 Gemini 应用推出了 Computer Use 功能，使这一 AI 助手能够在独立的后台窗口中执行多步骤桌面任务，而无需接管用户的光标。",
+  "title": "谷歌为 Mac 版 Gemini 加入后台 Computer Use 功能"
+ },
  "n-825557a5f2": {
   "summary": "2026年6月21日，封存的开发记录中出现了指向 Hugging Face 仓库 NO8D/ExpressionControl 的直接链接。此事被视为公开仓库方面的一项重要里程碑，但现有证据无法确定这一事件究竟是首次发布、一次更新，还是重新转发。",
   "title": "ExpressionControl 的 Hugging Face 仓库已建立链接"
@@ -3059,6 +3069,11 @@
   "summary": "谷歌发布了 Gemini 4 Neon，新增对文本、代码、音频、视频和 PDF 的多模态输入能力，上下文窗口为一百万 token，输入价格为每百万 token 3 美元，输出价格为每百万 token 15 美元。",
   "title": "谷歌发布 Gemini 4 Neon"
  },
+ "n-9c903a6a95": {
+  "research_notes": "将自定义节点仓库克隆或安装到 ComfyUI/custom_nodes 目录中，并安装 Python 依赖。\n\n将 LongCat-Avatar 模型检查点权重和 Whisper 音频编码器下载到指定的 ComfyUI 模型文件夹中。\n\n加载 LongCat Avatar 工作流图，将单张角色肖像图像和目标语音音频文件连接到节点输入。\n\n执行生成队列时，可使用蒸馏的 8 步采样以实现快速渲染，或使用自动扩展循环处理较长的音频。\n\n使用干净、无噪声且发音清晰的语音音频，以确保 Whisper 特征提取准确并实现精确的口型同步。\n\n应用描述稳定构图和服装的正向文本提示，以抑制多帧序列中不必要的镜头运动或姿态变化。\n\n对于长于单个片段时长的音频，使用带有重叠帧的自动扩展分窗处理，以保持时间一致性并防止片段边界接缝伪影。",
+  "summary": "PedroMarinhoDev 发布了 LongCat-Avatar 1.6 的 ComfyUI 集成，通过模块化节点流程实现本地角色肖像口型同步生成。",
+  "title": "PedroMarinhoDev 发布 ComfyUI-LongCat-Avatar 封装包"
+ },
  "n-9cb04ca5a6": {
   "evolution_summary": "公共仓库已初始化，包含21个领域共385条条目。",
   "research_notes": "该公共项目历史条目源自不可变的仓库提交及其记录的元数据。",
@@ -3172,6 +3187,11 @@
  "n-a2b2f064d2": {
   "summary": "2026-03-11,HKUDS/CLI-Anything GitHub 仓库在 agent_tools 讨论串中被链接。这为所审阅的来源中该项目提供了一个带日期的参考。现有证据并不能证实该项目的发布、版本、功能变更或其他里程碑事件。",
   "title": "CLI-Anything GitHub 仓库在 agent_tools 讨论串中被提及"
+ },
+ "n-a2bdbb6a58": {
+  "research_notes": "在网页界面的模型选择器中选择 Ideogram 4.6，或在 Ideogram API 中指定 4.6 模型端点。\n\n通过选择原生 4K 分辨率（最高 4096 x 4096）配置生成参数，无需后期放大即可获得完整细节的生成结果。\n\n提供带有明确版式、字体排印或风格约束的文本提示词，并可选择附加最多五张图像参考，用于多步骤构图。\n\n使用 Precise Edit 工具执行迭代式局部修改，在调整目标区域的同时保留周围的人物和背景像素。\n\n针对商业印刷、包装和精细字体排印素材，直接使用原生 4K 模式，以避免单独放大处理所带来的失真伪影。\n\n在执行复杂的品牌或产品编辑时，最多提供五张参考图像，以便在连续迭代中约束风格、主体身份和色彩调色板。\n\n使用 Precise Edit 蒙版将编辑指令限定在特定区域，以最大限度提高目标区域修改的准确性，并尽量减少全局像素漂移。",
+  "summary": "Ideogram 4.6 引入原生 4K 生成功能，最高支持 4096 x 4096 像素，无需后处理放大；支持最多五张参考图像的多轮图像编辑，并降低了目标修改中的像素漂移。",
+  "title": "Ideogram 4.6 新增原生 4K 渲染与多步骤编辑功能"
  },
  "n-a2c367a2ab": {
   "summary": "2026年6月18日，MolmoMotion 开发线记录了 MolmoMotion-4B-H3-F30 的一个 Hugging Face 资源。该带日期的链接指向一个具体的模型变体，使其成为该项目公开模型可用性历史中的一个重要检查点。由于未提供源文本或独立的发布文档，本事件不对其能力、许可或该变体与其他发布版本之间的关系作出任何断言。",

@@ -1459,6 +1459,11 @@
   "title": "ComfyUI_SenseNova_U1 多模态模型自定义节点",
   "translated_at": "2026-11-13"
  },
+ "n-4206ab6f17": {
+  "fresh": true,
+  "title": "PixelAILabs 发布 LongCat-Avatar 的 ComfyUI 节点包",
+  "translated_at": "2026-11-21"
+ },
  "n-42aacd4f9b": {
   "fresh": true,
   "title": "Omma 平台上线条目",
@@ -2714,6 +2719,11 @@
   "title": "MetaClaw 的 GitHub 仓库被公开引用",
   "translated_at": "2026-10-24"
  },
+ "n-8204e1013e": {
+  "fresh": true,
+  "title": "谷歌为 Mac 版 Gemini 加入后台 Computer Use 功能",
+  "translated_at": "2026-11-21"
+ },
  "n-825557a5f2": {
   "fresh": true,
   "title": "ExpressionControl 的 Hugging Face 仓库已建立链接",
@@ -3214,6 +3224,11 @@
   "title": "谷歌发布 Gemini 4 Neon",
   "translated_at": "2026-11-20"
  },
+ "n-9c903a6a95": {
+  "fresh": true,
+  "title": "PedroMarinhoDev 发布 ComfyUI-LongCat-Avatar 封装包",
+  "translated_at": "2026-11-21"
+ },
  "n-9cb04ca5a6": {
   "fresh": true,
   "title": "初始知识库：21个领域共385条条目",
@@ -3338,6 +3353,11 @@
   "fresh": true,
   "title": "CLI-Anything GitHub 仓库在 agent_tools 讨论串中被提及",
   "translated_at": "2026-10-24"
+ },
+ "n-a2bdbb6a58": {
+  "fresh": true,
+  "title": "Ideogram 4.6 新增原生 4K 渲染与多步骤编辑功能",
+  "translated_at": "2026-11-21"
  },
  "n-a2c367a2ab": {
   "fresh": true,

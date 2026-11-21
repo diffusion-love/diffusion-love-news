@@ -1391,6 +1391,11 @@
   "summary": "Un conjunto de nodos personalizados para ComfyUI que permite interactuar con los modelos multimodales unificados nativos SenseNova U1 de SenseTime. Admite generación de alta velocidad mediante LoRA de 8 pasos y cuantización GGUF para hardware de consumo.",
   "title": "ComfyUI_SenseNova_U1: nodos personalizados para modelos multimodales"
  },
+ "n-4206ab6f17": {
+  "research_notes": "Clona o instala el repositorio de nodos personalizados en el directorio ComfyUI/custom_nodes e instala las dependencias de Python.\n\nDescarga los pesos del checkpoint del modelo LongCat-Avatar y el codificador de audio Whisper en las carpetas de modelos designadas de ComfyUI.\n\nCarga el grafo de flujo de trabajo de LongCat Avatar y conecta una única imagen de retrato del personaje y un archivo de audio de voz objetivo a las entradas del nodo.\n\nEjecuta la cola de generación usando muestreo destilado de 8 pasos para un renderizado rápido, o el bucle de extensión automática para pistas de audio más largas.\n\nUtiliza audio de voz limpio, sin ruido y con pronunciación clara para garantizar una extracción precisa de características con Whisper y una sincronización labial exacta.\n\nAplica prompts de texto positivos que describan un encuadre y una vestimenta estables para limitar los movimientos de cámara o los cambios de postura no deseados en secuencias de múltiples fotogramas.\n\nPara audio más largo que la duración de un único clip, usa el ventaneo de extensión automática con fotogramas superpuestos para mantener la consistencia temporal y evitar artefactos de costura en los límites entre segmentos.",
+  "summary": "PixelAILabs publicó un paquete de nodos personalizados de código abierto para ComfyUI con Meituan LongCat-Avatar 1.6, que añade animación de avatares impulsada por audio, extracción de características basada en Whisper y flujos de trabajo de extensión automática de múltiples fotogramas.",
+  "title": "Publicado un paquete de nodos de ComfyUI para LongCat-Avatar de PixelAILabs"
+ },
  "n-42aacd4f9b": {
   "summary": "El 2026-04-01, la línea de desarrollo de Omma registró una entrada relacionada con un lanzamiento que enlaza a omma.build y spline.design. La evidencia sellada no establece las funciones del producto, el alcance de la publicación ni la relación exacta con Spline más allá de esos enlaces fechados.",
   "title": "Entrada de lanzamiento de la plataforma Omma"
@@ -2582,6 +2587,11 @@
   "summary": "El 19/03/2026, la línea de desarrollo de MetaClaw incluyó un enlace público a su repositorio de GitHub. Esto establece un punto de referencia público fechado para el proyecto, pero las pruebas disponibles no permiten identificar una versión, una funcionalidad u otro cambio concreto.",
   "title": "Se hizo referencia públicamente al repositorio de GitHub de MetaClaw"
  },
+ "n-8204e1013e": {
+  "research_notes": "Instala y abre la aplicación de escritorio de Gemini en un Mac con Apple Silicon que ejecute macOS y cuente con una suscripción activa a Google AI.\n\nInicia una tarea automatizada de escritorio escribiendo @Computer use seguido de la solicitud de varios pasos en el campo de entrada del chat de Gemini.\n\nConcede permisos a nivel de aplicación para el software local y los directorios específicos que requiera la tarea.\n\nSupervisa la ejecución en tiempo real en el flujo de vista previa de la ventana en segundo plano y confirma las solicitudes para acciones sensibles cuando sea necesario.\n\nConcede permisos de acceso a aplicaciones de escritorio de forma selectiva para minimizar la exposición de archivos locales sensibles y de software no relacionado.\n\nMantén visible la vista previa en directo durante secuencias de automatización poco familiares para detectar anomalías antes de que las operaciones críticas soliciten aprobación.",
+  "summary": "Google presentó una capacidad de Computer Use para la aplicación Gemini en macOS, que permite al asistente de IA realizar tareas de escritorio de varios pasos en una ventana aislada en segundo plano sin apropiarse del cursor del usuario.",
+  "title": "Google añade Computer Use en segundo plano a Gemini para Mac"
+ },
  "n-825557a5f2": {
   "summary": "El 21/06/2026, la línea de desarrollo sellada registró un enlace directo al repositorio de Hugging Face NO8D/ExpressionControl. Se considera un hito significativo para el repositorio público, aunque las pruebas disponibles no permiten establecer si marcó una primera publicación, una actualización o una nueva publicación.",
   "title": "Se vinculó el repositorio de Hugging Face de ExpressionControl"
@@ -3064,6 +3074,11 @@
   "summary": "Google ha lanzado Gemini 4 Neon, que añade capacidades de entrada multimodal para texto, código, audio, vídeo y PDF, con una ventana de contexto de un millón de tokens a 3 $ por millón de tokens de entrada y 15 $ por millón de tokens de salida.",
   "title": "Google lanza Gemini 4 Neon"
  },
+ "n-9c903a6a95": {
+  "research_notes": "Clona o instala el repositorio de nodos personalizados en el directorio ComfyUI/custom_nodes e instala las dependencias de Python.\n\nDescarga los pesos del checkpoint del modelo LongCat-Avatar y el codificador de audio Whisper en las carpetas de modelos designadas de ComfyUI.\n\nCarga el grafo de flujo de trabajo de LongCat Avatar y conecta una única imagen de retrato del personaje y un archivo de audio de voz de destino a las entradas del nodo.\n\nEjecuta la cola de generación usando muestreo destilado de 8 pasos para un renderizado rápido, o el bucle de auto-extensión para pistas de audio más largas.\n\nUsa audio de voz limpio, sin ruido y con pronunciación clara para garantizar una extracción precisa de características de Whisper y una sincronización labial precisa.\n\nAplica prompts de texto positivos que describan un encuadre y una vestimenta estables para limitar movimientos de cámara o cambios de postura no deseados a lo largo de secuencias de múltiples fotogramas.\n\nPara audio más largo que la duración de un solo clip, usa el ventaneo de auto-extensión con fotogramas superpuestos para mantener la consistencia temporal y evitar artefactos de costura en los límites.",
+  "summary": "PedroMarinhoDev publicó una integración de ComfyUI para LongCat-Avatar 1.6, que permite generar localmente sincronización labial a partir de retratos de personajes mediante pipelines de nodos modulares.",
+  "title": "Publicado el wrapper ComfyUI-LongCat-Avatar de PedroMarinhoDev"
+ },
  "n-9cb04ca5a6": {
   "evolution_summary": "El repositorio público se inicializó con 385 entradas en 21 dominios.",
   "research_notes": "Entrada pública del historial del proyecto, derivada del commit inmutable del repositorio y de sus metadatos registrados.",
@@ -3177,6 +3192,11 @@
  "n-a2b2f064d2": {
   "summary": "El 2026-03-11, el repositorio de GitHub HKUDS/CLI-Anything fue enlazado en el hilo agent_tools. Esto establece una referencia fechada al proyecto en la fuente revisada. La evidencia disponible no establece una versión, una publicación, un cambio de funcionalidades ni ningún otro hito del proyecto.",
   "title": "El repositorio de GitHub CLI-Anything aparece en el hilo agent_tools"
+ },
+ "n-a2bdbb6a58": {
+  "research_notes": "Seleccione Ideogram 4.6 en el selector de modelos de la interfaz web o especifique el endpoint del modelo 4.6 en la API de Ideogram.\n\nConfigure los parámetros de generación seleccionando la resolución nativa 4K (hasta 4096 x 4096) para una generación con detalle completo sin escalado posterior.\n\nProporcione un prompt de texto con restricciones explícitas de composición, tipografía o estilo, y opcionalmente adjunte hasta cinco imágenes de referencia para una composición en varios pasos.\n\nRealice modificaciones localizadas e iterativas con la herramienta Precise Edit para ajustar zonas específicas conservando los píxeles del personaje y del fondo circundantes.\n\nUtilice directamente el modo 4K nativo para material comercial de impresión, envases y recursos de tipografía fina, a fin de evitar los artefactos de distorsión introducidos por pasadas de escalado independientes.\n\nAporte hasta cinco imágenes de referencia al ejecutar ediciones complejas de marca o producto, para restringir el estilo, la identidad y la paleta de colores a lo largo de iteraciones consecutivas.\n\nAísle las instrucciones de edición en regiones específicas con máscaras de Precise Edit para maximizar la precisión de la modificación en zonas concretas y minimizar la deriva global de píxeles.",
+  "summary": "Ideogram 4.6 introduce la generación nativa en 4K de hasta 4096 x 4096 píxeles sin escalado posterior, la edición de imágenes en varios turnos con hasta cinco imágenes de referencia y una menor deriva de píxeles en las modificaciones dirigidas.",
+  "title": "Ideogram 4.6 añade renderizado nativo en 4K y edición en varios pasos"
  },
  "n-a2c367a2ab": {
   "summary": "El 18 de junio de 2026, la línea de desarrollo de MolmoMotion registró un recurso de Hugging Face para MolmoMotion-4B-H3-F30. El enlace fechado identifica una variante concreta del modelo, lo que lo convierte en un checkpoint relevante en el historial público de disponibilidad de modelos del proyecto. No se facilitó texto fuente ni documentación independiente sobre la publicación, por lo que este evento no afirma capacidades, licencias ni la relación de la variante con otras versiones.",

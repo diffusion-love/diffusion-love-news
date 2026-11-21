@@ -1,0 +1,11 @@
+{
+ "id": "n-8204e1013e",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installieren und öffnen Sie die Gemini-Desktopanwendung auf einem Mac mit Apple Silicon unter macOS, mit einem aktiven Google-AI-Abonnement.\n\nStarten Sie eine automatisierte Desktop-Aufgabe, indem Sie im Eingabefeld des Gemini-Chats @Computer use gefolgt von der mehrstufigen Anfrage eingeben.\n\nErteilen Sie Berechtigungen auf Anwendungsebene für die spezifische lokale Software und die Verzeichnisse, die für die Aufgabe erforderlich sind.\n\nÜberwachen Sie die Ausführung in Echtzeit im Vorschau-Stream des Hintergrundfensters und bestätigen Sie Abfragen bei sensiblen Aktionen, sofern sie erforderlich sind.\n\nErteilen Sie Zugriffsberechtigungen für Desktopanwendungen gezielt, um die Offenlegung sensibler lokaler Dateien und nicht zusammenhängender Software zu minimieren.\n\nBehalten Sie die Live-Stream-Vorschau bei unbekannten Automatisierungsabläufen im Blick, um Anomalien abzufangen, bevor kritische Vorgänge eine Freigabe anfordern.",
+ "source_sha256": "27de665d6141ed6cbe2f3726fce8a675e0d26505bd424a68f6d4575dffb5887f",
+ "summary": "Google hat für die Gemini-App unter macOS eine Computer-Use-Funktion eingeführt. Damit kann der KI-Assistent mehrstufige Desktop-Aufgaben in einem isolierten Hintergrundfenster ausführen, ohne dem Nutzer den Mauszeiger zu entziehen.",
+ "title": "Google bringt Computer Use im Hintergrund in Gemini für Mac",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

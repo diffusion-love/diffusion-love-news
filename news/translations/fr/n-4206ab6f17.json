@@ -1,0 +1,11 @@
+{
+ "id": "n-4206ab6f17",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez ou installez le dépôt de nœuds personnalisés dans le répertoire ComfyUI/custom_nodes, puis installez les dépendances Python.\n\nTéléchargez les poids du checkpoint du modèle LongCat-Avatar et l'encodeur audio Whisper dans les dossiers de modèles prévus de ComfyUI.\n\nChargez le graphe de workflow LongCat Avatar, puis connectez une seule image de portrait de personnage et un fichier audio de parole cible aux entrées du nœud.\n\nExécutez la file de génération avec l'échantillonnage distillé en 8 étapes pour un rendu rapide, ou la boucle d'auto-extension pour les pistes audio plus longues.\n\nUtilisez un audio de parole propre, sans bruit, à la prononciation claire afin de garantir une extraction précise des caractéristiques par Whisper et une synchronisation labiale précise.\n\nAppliquez des prompts textuels positifs décrivant un cadrage et des vêtements stables afin de limiter les mouvements de caméra indésirables ou les changements de posture sur des séquences multi-images.\n\nPour un audio plus long que la durée d'un clip unique, utilisez le fenêtrage d'auto-extension avec des images qui se chevauchent afin de maintenir la cohérence temporelle et d'éviter les artefacts de couture aux frontières.",
+ "source_sha256": "5e0d2006b1bf32e8f5a5faec56e7574102652bc5cb3169c683ee21e92c5485a8",
+ "summary": "PixelAILabs a publié un paquet de nœuds personnalisés open source pour ComfyUI destiné à LongCat-Avatar 1.6 de Meituan, ajoutant l'animation d'avatars pilotée par l'audio, avec extraction de caractéristiques basée sur Whisper et workflows d'auto-extension multi-images.",
+ "title": "Paquet de nœuds ComfyUI pour LongCat-Avatar publié par PixelAILabs",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

@@ -1464,6 +1464,11 @@
   "title": "ComfyUI_SenseNova_U1 : nœuds personnalisés pour modèles multimodaux",
   "translated_at": "2026-11-13"
  },
+ "n-4206ab6f17": {
+  "fresh": true,
+  "title": "Paquet de nœuds ComfyUI pour LongCat-Avatar publié par PixelAILabs",
+  "translated_at": "2026-11-21"
+ },
  "n-42aacd4f9b": {
   "fresh": true,
   "title": "Entrée de lancement de la plateforme Omma",
@@ -2719,6 +2724,11 @@
   "title": "Le dépôt GitHub de MetaClaw a été référencé publiquement",
   "translated_at": "2026-10-24"
  },
+ "n-8204e1013e": {
+  "fresh": true,
+  "title": "Google ajoute Computer Use en arrière-plan à Gemini pour Mac",
+  "translated_at": "2026-11-21"
+ },
  "n-825557a5f2": {
   "fresh": true,
   "title": "Le dépôt Hugging Face ExpressionControl a été relié",
@@ -3219,6 +3229,11 @@
   "title": "Google publie Gemini 4 Neon",
   "translated_at": "2026-11-20"
  },
+ "n-9c903a6a95": {
+  "fresh": true,
+  "title": "Wrapper ComfyUI-LongCat-Avatar publié par PedroMarinhoDev",
+  "translated_at": "2026-11-21"
+ },
  "n-9cb04ca5a6": {
   "fresh": true,
   "title": "Coffre de connaissances initial : 385 entrées réparties sur 21 domaines",
@@ -3343,6 +3358,11 @@
   "fresh": true,
   "title": "Le dépôt GitHub CLI-Anything relayé dans le fil agent_tools",
   "translated_at": "2026-10-24"
+ },
+ "n-a2bdbb6a58": {
+  "fresh": true,
+  "title": "Ideogram 4.6 ajoute le rendu 4K natif et l'édition en plusieurs étapes",
+  "translated_at": "2026-11-21"
  },
  "n-a2c367a2ab": {
   "fresh": true,

@@ -1,0 +1,11 @@
+{
+ "id": "n-a2bdbb6a58",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Wählen Sie Ideogram 4.6 in der Modellauswahl der Weboberfläche aus oder geben Sie den Endpunkt des 4.6-Modells in der Ideogram API an.\n\nKonfigurieren Sie die Generierungsparameter, indem Sie die native 4K-Auflösung (bis zu 4096 x 4096) wählen, um eine vollständig detaillierte Generierung ohne nachträgliches Hochskalieren zu erhalten.\n\nGeben Sie einen Textprompt mit expliziten Vorgaben zu Layout, Typografie oder Stil an und fügen Sie optional bis zu fünf Bildreferenzen für eine mehrstufige Komposition hinzu.\n\nFühren Sie iterative, lokalisierte Änderungen mit dem Werkzeug Precise Edit durch, um gezielte Bereiche anzupassen und die umgebenden Pixel von Figur und Hintergrund beizubehalten.\n\nNutzen Sie den nativen 4K-Modus direkt für kommerziellen Druck, Verpackungen und Assets mit feiner Typografie, um Verzerrungsartefakte zu vermeiden, die durch separate Hochskalierungsdurchgänge entstehen.\n\nStellen Sie bis zu fünf Referenzbilder bereit, wenn Sie komplexe Marken- oder Produktbearbeitungen durchführen, um Stil, Identität und Farbpalette über aufeinanderfolgende Iterationen hinweg zu begrenzen.\n\nBeschränken Sie Bearbeitungsanweisungen mithilfe von Precise-Edit-Masken auf bestimmte Bereiche, um die Genauigkeit der gezielten Änderung zu maximieren und den globalen Pixeldrift zu minimieren.",
+ "source_sha256": "dd5f3c528f9c62d435f5761edfda41fb6022bf86a26b8cb07741e8bc876a0db4",
+ "summary": "Ideogram 4.6 führt native 4K-Generierung bis zu 4096 x 4096 Pixel ohne nachträgliches Upscaling, mehrstufige Bildbearbeitung mit bis zu fünf Referenzbildern und reduzierten Pixeldrift bei gezielten Änderungen ein.",
+ "title": "Ideogram 4.6 bringt native 4K-Darstellung und mehrstufige Bearbeitung",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

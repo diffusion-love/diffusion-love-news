@@ -1,0 +1,11 @@
+{
+ "id": "n-8204e1013e",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installez et ouvrez l'application de bureau Gemini sur un Mac Apple Silicon fonctionnant sous macOS, avec un abonnement Google AI actif.\n\nLancez une tâche automatisée sur le bureau en saisissant @Computer use suivi de la demande en plusieurs étapes dans le champ de saisie du chat Gemini.\n\nAccordez les autorisations au niveau des applications pour les logiciels locaux et les répertoires spécifiques requis par la tâche.\n\nSuivez l'exécution en temps réel dans le flux d'aperçu de la fenêtre en arrière-plan et confirmez les demandes d'approbation pour les actions sensibles lorsque cela est nécessaire.\n\nAccordez sélectivement les autorisations d'accès aux applications de bureau afin de limiter l'exposition des fichiers locaux sensibles et des logiciels sans rapport.\n\nGardez le flux d'aperçu en direct visible pendant les séquences d'automatisation inconnues afin d'intercepter les anomalies avant que les opérations critiques ne demandent une approbation.",
+ "source_sha256": "27de665d6141ed6cbe2f3726fce8a675e0d26505bd424a68f6d4575dffb5887f",
+ "summary": "Google a lancé une fonctionnalité Computer Use pour l'application Gemini sur macOS, permettant à l'assistant IA d'exécuter des tâches multi-étapes sur le bureau dans une fenêtre isolée en arrière-plan, sans prendre le contrôle du curseur de l'utilisateur.",
+ "title": "Google ajoute Computer Use en arrière-plan à Gemini pour Mac",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

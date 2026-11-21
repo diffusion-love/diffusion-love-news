@@ -1,0 +1,11 @@
+{
+ "id": "n-8204e1013e",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Instala y abre la aplicación de escritorio de Gemini en un Mac con Apple Silicon que ejecute macOS y cuente con una suscripción activa a Google AI.\n\nInicia una tarea automatizada de escritorio escribiendo @Computer use seguido de la solicitud de varios pasos en el campo de entrada del chat de Gemini.\n\nConcede permisos a nivel de aplicación para el software local y los directorios específicos que requiera la tarea.\n\nSupervisa la ejecución en tiempo real en el flujo de vista previa de la ventana en segundo plano y confirma las solicitudes para acciones sensibles cuando sea necesario.\n\nConcede permisos de acceso a aplicaciones de escritorio de forma selectiva para minimizar la exposición de archivos locales sensibles y de software no relacionado.\n\nMantén visible la vista previa en directo durante secuencias de automatización poco familiares para detectar anomalías antes de que las operaciones críticas soliciten aprobación.",
+ "source_sha256": "27de665d6141ed6cbe2f3726fce8a675e0d26505bd424a68f6d4575dffb5887f",
+ "summary": "Google presentó una capacidad de Computer Use para la aplicación Gemini en macOS, que permite al asistente de IA realizar tareas de escritorio de varios pasos en una ventana aislada en segundo plano sin apropiarse del cursor del usuario.",
+ "title": "Google añade Computer Use en segundo plano a Gemini para Mac",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

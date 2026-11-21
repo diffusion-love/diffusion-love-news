@@ -1,0 +1,11 @@
+{
+ "id": "n-9c903a6a95",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "ComfyUI/custom_nodes 디렉터리에 커스텀 노드 저장소를 클론하거나 설치하고 Python 종속성을 설치합니다.\n\nLongCat-Avatar 모델 체크포인트 가중치와 Whisper 오디오 인코더를 지정된 ComfyUI 모델 폴더에 다운로드합니다.\n\nLongCat Avatar 워크플로 그래프를 불러오고, 단일 캐릭터 초상 이미지와 대상 음성 오디오 파일을 노드 입력에 연결합니다.\n\n빠른 렌더링을 위해 증류된 8단계 샘플링을 사용하거나, 더 긴 오디오 트랙의 경우 자동 확장 루프를 사용하여 생성 큐를 실행합니다.\n\n정확한 Whisper 특징 추출과 정밀한 입 모양 동기화를 보장하려면 발음이 명확하고 잡음이 없는 깨끗한 음성 오디오를 사용합니다.\n\n다중 프레임 시퀀스 전반에서 원치 않는 카메라 움직임이나 자세 변화를 억제하려면 안정적인 프레이밍과 의상을 묘사하는 긍정적 텍스트 프롬프트를 적용합니다.\n\n단일 클립 길이보다 긴 오디오의 경우, 시간적 일관성을 유지하고 경계 이음새 아티팩트를 방지하기 위해 프레임을 겹치는 자동 확장 윈도잉을 사용합니다.",
+ "source_sha256": "49352ed17d3f27f8956bf099e37534900355f819371f3d21fab8d9ef3e1e4124",
+ "summary": "PedroMarinhoDev가 LongCat-Avatar 1.6용 ComfyUI 통합 기능을 공개했으며, 모듈형 노드 파이프라인을 통해 로컬에서 캐릭터 초상 립싱크 생성을 가능하게 합니다.",
+ "title": "PedroMarinhoDev가 공개한 ComfyUI-LongCat-Avatar 래퍼",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
