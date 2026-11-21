@@ -1197,29 +1197,51 @@
     "display": "Osmo: osmo-ai-smell-model-development",
     "homepage": null,
     "project_slugs": [],
-    "post_count": 1,
-    "direct_post_count": 1,
+    "post_count": 2,
+    "direct_post_count": 2,
     "first_seen": "2026-11-19",
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-20",
     "news_ids": [
-      "n-b65cdf0a31"
+      "n-b65cdf0a31",
+      "n-94dd385ee1"
     ],
     "direct_news_ids": [
-      "n-b65cdf0a31"
+      "n-b65cdf0a31",
+      "n-94dd385ee1"
     ],
     "development_threads": [
       {
         "slug": "osmo-ai-smell-model-development",
         "display": "Osmo Ai Smell Model Development",
         "first_seen": "2026-11-19",
-        "last_seen": "2026-11-19",
-        "latest_news_id": "n-b65cdf0a31",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-94dd385ee1",
         "news_ids": [
-          "n-b65cdf0a31"
+          "n-b65cdf0a31",
+          "n-94dd385ee1"
         ]
       }
     ],
     "related_news": [
+      {
+        "id": "n-94dd385ee1",
+        "date": "2026-11-20",
+        "title": "Osmo applies neural network odor mapping to fragrance molecule screening",
+        "category": "misc",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Osmo: osmo-ai-smell-model-development",
+          "misc",
+          "organization:osmo",
+          "osmo",
+          "osmo-ai-smell-model-development"
+        ],
+        "primary_link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-b65cdf0a31",
         "date": "2026-11-19",
