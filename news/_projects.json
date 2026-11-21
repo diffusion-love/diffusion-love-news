@@ -105834,6 +105834,115 @@
     ],
     "claims": []
   },
+  "yandex-360": {
+    "family_slug": "yandex-360",
+    "family_display": "Yandex 360: yandex-360-mcp-server",
+    "family_display_variants": [
+      {
+        "family_display": "Yandex 360: yandex-360-mcp-server",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-74431781c7"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-74431781c7"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-74431781c7",
+        "title": "Yandex 360 opens virtual office tools to external AI agents via MCP server",
+        "primary_link": "https://habr.com/ru/articles/1110214/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "habr.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://habr.com/ru/articles/1110214/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T02:30:20Z",
+        "news_ids": [
+          "n-74431781c7"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Yandex 360 opens virtual office tools to external AI agents via MCP server",
+        "summary": "Yandex 360 launched a Model Context Protocol (MCP) server enabling external AI clients like ChatGPT, Claude, and DeepSeek, as well as Alice AI for business and Yandex AI Studio, to interface with its corporate mail, calendar, disk, and directory services.",
+        "version": null,
+        "news_id": "n-74431781c7",
+        "primary_link": "https://habr.com/ru/articles/1110214/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-74431781c7",
+        "date": "2026-11-20",
+        "title": "Yandex 360 opens virtual office tools to external AI agents via MCP server",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "yandex-360",
+        "version": null,
+        "tags": [
+          "Yandex 360: yandex-360-mcp-server",
+          "family:yandex-360",
+          "misc",
+          "yandex-360",
+          "yandex-360-mcp-server"
+        ],
+        "primary_link": "https://habr.com/ru/articles/1110214/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "yandex-360-mcp-server",
+        "display": "Yandex 360 Mcp Server",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-74431781c7",
+        "news_ids": [
+          "n-74431781c7"
+        ]
+      }
+    ]
+  },
   "yedp": {
     "family_slug": "yedp",
     "family_display": "Yedp",

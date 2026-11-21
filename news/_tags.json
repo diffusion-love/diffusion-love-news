@@ -3080,6 +3080,9 @@
   "YaGS": [
     "n-82f8f06562"
   ],
+  "Yandex 360: yandex-360-mcp-server": [
+    "n-74431781c7"
+  ],
   "Yandex AI products": [
     "n-8c7cda80aa"
   ],
@@ -7387,6 +7390,9 @@
   "family:yags": [
     "n-82f8f06562"
   ],
+  "family:yandex-360": [
+    "n-74431781c7"
+  ],
   "family:yedp": [
     "n-501487aec4"
   ],
@@ -9771,6 +9777,7 @@
     "n-75510d5219",
     "n-75473141c2",
     "n-75171cd2c8",
+    "n-74431781c7",
     "n-740438cbeb",
     "n-7340bf1aad",
     "n-7328495c92",
@@ -12868,6 +12875,12 @@
   ],
   "yandex": [
     "n-8c7cda80aa"
+  ],
+  "yandex-360": [
+    "n-74431781c7"
+  ],
+  "yandex-360-mcp-server": [
+    "n-74431781c7"
   ],
   "yandex-ai-products": [
     "n-8c7cda80aa"

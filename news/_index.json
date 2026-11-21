@@ -97,6 +97,25 @@
     "has_video": false
   },
   {
+    "id": "n-74431781c7",
+    "date": "2026-11-20",
+    "title": "Yandex 360 opens virtual office tools to external AI agents via MCP server",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "yandex-360",
+    "version": null,
+    "tags": [
+      "Yandex 360: yandex-360-mcp-server",
+      "family:yandex-360",
+      "misc",
+      "yandex-360",
+      "yandex-360-mcp-server"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110214/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-617332c918",
     "date": "2026-11-20",
     "title": "GRAFT introduces execution-guided genetic recombination for LLM agent design",

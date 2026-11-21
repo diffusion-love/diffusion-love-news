@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T02:25:05Z",
+  "generated_at": "2026-11-21T02:30:20Z",
   "site": "diffusion.love",
-  "total": 1037,
+  "total": 1038,
   "records": [
     {
       "schema_version": "1.4",
@@ -649,6 +649,111 @@
         "classified_at": "2026-11-21T01:14:25Z",
         "enriched_at": "2026-11-21T01:14:25Z",
         "verified_at": "2026-11-21T01:14:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-74431781c7",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Yandex 360 opens virtual office tools to external AI agents via MCP server",
+      "summary": "Yandex 360 launched a Model Context Protocol (MCP) server enabling external AI clients like ChatGPT, Claude, and DeepSeek, as well as Alice AI for business and Yandex AI Studio, to interface with its corporate mail, calendar, disk, and directory services.",
+      "research_notes": "Obtain corporate API credentials including the OAuth authorization token and Organization ID from the Yandex 360 administrative settings.\n\nConfigure the target MCP client with the Yandex 360 MCP server endpoint and required authentication headers.\n\nInteract through the AI assistant interface to query calendar schedules, search emails, inspect files on Yandex Disk, or manage organization structure.\n\nScope OAuth token permissions strictly to the required Yandex 360 services such as Mail, Calendar, or Disk to enforce least-privilege boundaries for external agent integrations.\n\nVerify corporate organization ID and domain administrative rights before provisioning MCP server access across team environments.",
+      "project": {
+        "name": "Yandex 360: yandex-360-mcp-server",
+        "family_slug": "yandex-360",
+        "family_display": "Yandex 360: yandex-360-mcp-server",
+        "model_slug": "yandex-360",
+        "model_display": "Yandex 360: yandex-360-mcp-server",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "yandex-360-mcp-server",
+        "thread_display": "Yandex 360 Mcp Server",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Yandex 360: yandex-360-mcp-server",
+        "article_url": "https://happyin.space/projects/yandex-360/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/7ff8873db0ce64ce668575483c25d8ceb729b8b5/docs/projects/yandex-360.md",
+        "agent_context_url": "https://happyin.space/projects/yandex-360/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Yandex 360 opens virtual office tools to external AI agents via MCP server",
+        "version": null,
+        "summary": "Yandex 360 launched a Model Context Protocol (MCP) server enabling external AI clients like ChatGPT, Claude, and DeepSeek, as well as Alice AI for business and Yandex AI Studio, to interface with its corporate mail, calendar, disk, and directory services."
+      },
+      "tags": [
+        "Yandex 360: yandex-360-mcp-server",
+        "family:yandex-360",
+        "misc",
+        "yandex-360",
+        "yandex-360-mcp-server"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "yandex-360"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110214/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T02:30:20Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Yandex 360 launched a Model Context Protocol (MCP) server enabling external AI clients like ChatGPT, Claude, and DeepSeek, as well as Alice AI for business and Yandex AI Studio, to interface with its corporate mail, calendar, disk, and directory services."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T02:30:20Z",
+        "classified_at": "2026-11-21T02:30:20Z",
+        "enriched_at": "2026-11-21T02:30:20Z",
+        "verified_at": "2026-11-21T02:30:20Z",
         "models_used": {
           "research": "curated-live-material"
         },
