@@ -1354,6 +1354,11 @@
   "title": "Tripo lance un accès anticipé à le dépliage UV et à la retopologie",
   "translated_at": "2026-10-24"
  },
+ "n-3ea587526f": {
+  "fresh": true,
+  "title": "Entraînement du module de sortie Strata permettant SFT et DPO pour un modèle de 122B sur du matériel grand public",
+  "translated_at": "2026-11-21"
+ },
  "n-3ec7e1a063": {
   "fresh": true,
   "title": "Black Forest Labs a publié une mise à jour de blog sur FLUX 3",
@@ -2438,6 +2443,11 @@
   "fresh": true,
   "title": "Annonce de Seedream 5.0 Pro",
   "translated_at": "2026-10-24"
+ },
+ "n-74431781c7": {
+  "fresh": true,
+  "title": "Yandex 360 ouvre ses outils de bureau virtuel aux agents d'IA externes via un serveur MCP",
+  "translated_at": "2026-11-21"
  },
  "n-75171cd2c8": {
   "fresh": true,
@@ -3959,6 +3969,11 @@
   "title": "Les dépôts de modèles Audex sont devenus publiquement accessibles",
   "translated_at": "2026-10-24"
  },
+ "n-c607593781": {
+  "fresh": true,
+  "title": "Tencent publie en open weights le modèle MoE Hy4 Flash",
+  "translated_at": "2026-11-21"
+ },
  "n-c660c4f559": {
   "fresh": true,
   "title": "CDM : distillation de diffusion par Continuous-Time Distribution Matching",
@@ -4843,6 +4858,11 @@
   "fresh": true,
   "title": "GigaChat 3.5 Reasoning : poids ouverts et configurations de déploiement",
   "translated_at": "2026-11-18"
+ },
+ "n-ef9fd5e4ca": {
+  "fresh": true,
+  "title": "Fine-tuning local du module de sortie démontré pour Qwen 3.8 122B dans Strata",
+  "translated_at": "2026-11-21"
  },
  "n-efaa00d50b": {
   "fresh": true,

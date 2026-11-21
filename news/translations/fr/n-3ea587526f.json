@@ -1,0 +1,11 @@
+{
+ "id": "n-3ea587526f",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Déployez le modèle de base Qwen 3.8 122B dans le moteur d'inférence Strata sur une station de travail disposant d'au moins 16 Go de VRAM et 64 Go de RAM système.\n\nGelez les 48 couches transformeur principales et faites transiter les dialogues d'entraînement par la passe avant sur GPU afin de mettre en cache les activations intermédiaires.\n\nExécutez l'entraînement SFT et DPO exclusivement sur CPU, en ciblant le module de sortie de 12,54 MiB.\n\nValidez les mises à jour comportementales à l'aide de l'agent de laboratoire et conservez le script de restauration permettant d'annuler les modifications du module de sortie en cas de régressions.\n\nMettez en cache les activations de la passe avant sur GPU avant de lancer l'entraînement CPU, afin d'éviter l'épuisement de la VRAM et de ne pas effectuer de rétropropagation complète à travers les couches gelées.\n\nMaintenez des scripts de restauration automatisés pour rétablir immédiatement les poids d'origine du module de sortie si les évaluations de l'agent spécialisé se dégradent.\n\nLimitez les itérations de fine-tuning local sur CPU à des passes d'alignement légères, telles que SFT et DPO, afin de maintenir une durée de cycle d'environ une minute.",
+ "source_sha256": "11bb02ee6d506717ce2de91adba6c7303d50805795af82a3ebf022de0d539114",
+ "summary": "L'adaptation locale de Qwen 3.8 122B s'appuie sur la mise en cache des activations de la passe avant sur GPU pour entraîner un module de sortie de 12,54 MiB sur CPU, en environ une minute pour les passes SFT et DPO, avec une protection par retour arrière.",
+ "title": "Entraînement du module de sortie Strata permettant SFT et DPO pour un modèle de 122B sur du matériel grand public",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

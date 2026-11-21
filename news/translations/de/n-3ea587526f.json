@@ -1,0 +1,11 @@
+{
+ "id": "n-3ea587526f",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Stellen Sie das Basismodell Qwen 3.8 122B in der Inferenz-Engine Strata auf einer Workstation mit mindestens 16 GB VRAM und 64 GB Systemspeicher bereit.\n\nFrieren Sie die 48 Haupt-Transformer-Schichten ein und leiten Sie Trainingsdialoge über den GPU-Vorwärtsdurchlauf, um Zwischenaktivierungen zu zwischenspeichern.\n\nFühren Sie SFT- und DPO-Training ausschließlich auf der CPU durch, und zwar mit dem Ziel des 12.54 MiB großen Ausgabemoduls.\n\nValidieren Sie Verhaltensaktualisierungen gegen den Laboragenten und pflegen Sie das Rollback-Skript, um Änderungen am Ausgabemodul rückgängig zu machen, falls Regressionen auftreten.\n\nZwischenspeichern Sie die Aktivierungen des Vorwärtsdurchlaufs auf der GPU, bevor Sie das CPU-Training starten, um eine Erschöpfung des VRAM zu verhindern und eine vollständige Rückwärtspropagation durch die eingefrorenen Schichten zu vermeiden.\n\nPflegen Sie automatisierte Rollback-Skripte, die die Gewichte des Basis-Ausgabemoduls sofort wiederherstellen, falls die Bewertungen des spezialisierten Agenten nachlassen.\n\nBeschränken Sie die lokalen CPU-Feinabstimmungsiterationen auf leichtgewichtige Alignment-Durchläufe wie SFT und DPO, damit die Zykluslänge bei etwa einer Minute bleibt.",
+ "source_sha256": "11bb02ee6d506717ce2de91adba6c7303d50805795af82a3ebf022de0d539114",
+ "summary": "Die lokale Anpassung von Qwen 3.8 122B nutzt das Zwischenspeichern von Vorwärtsaktivierungen auf der GPU, um ein 12.54 MiB großes Ausgabemodul auf der CPU zu trainieren, und zwar in etwa einer Minute pro SFT- und DPO-Durchlauf, mit Rollback-Schutz.",
+ "title": "Strata-Training des Ausgabemoduls ermöglicht SFT und DPO für 122B-Modell auf Consumer-Hardware",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

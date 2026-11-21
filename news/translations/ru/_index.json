@@ -1354,6 +1354,11 @@
   "title": "Tripo открывает ранний доступ к автоматической развёртке UV и ретопологии",
   "translated_at": "2026-10-24"
  },
+ "n-3ea587526f": {
+  "fresh": true,
+  "title": "Strata: обучение выходного модуля позволяет применять SFT и DPO к модели на 122B на потребительском оборудовании",
+  "translated_at": "2026-11-21"
+ },
  "n-3ec7e1a063": {
   "fresh": true,
   "title": "Black Forest Labs опубликовала обновление блога о FLUX 3",
@@ -2438,6 +2443,11 @@
   "fresh": true,
   "title": "Анонс Seedream 5.0 Pro",
   "translated_at": "2026-10-24"
+ },
+ "n-74431781c7": {
+  "fresh": true,
+  "title": "Яндекс 360 открывает инструменты виртуального офиса внешним AI-агентам через MCP-сервер",
+  "translated_at": "2026-11-21"
  },
  "n-75171cd2c8": {
   "fresh": true,
@@ -4848,6 +4858,11 @@
   "fresh": true,
   "title": "Открытые веса и конфигурации развёртывания GigaChat 3.5 Reasoning",
   "translated_at": "2026-11-18"
+ },
+ "n-ef9fd5e4ca": {
+  "fresh": true,
+  "title": "Локальное дообучение выходного модуля Qwen 3.8 122B в Strata",
+  "translated_at": "2026-11-21"
  },
  "n-efaa00d50b": {
   "fresh": true,

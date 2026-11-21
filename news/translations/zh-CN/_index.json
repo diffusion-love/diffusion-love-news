@@ -1349,6 +1349,11 @@
   "title": "Tripo 推出 UV 展开与重拓扑功能抢先体验",
   "translated_at": "2026-10-24"
  },
+ "n-3ea587526f": {
+  "fresh": true,
+  "title": "Strata 输出模块训练可在消费级硬件上为 122B 模型实现 SFT 与 DPO",
+  "translated_at": "2026-11-21"
+ },
  "n-3ec7e1a063": {
   "fresh": true,
   "title": "Black Forest Labs 发布 FLUX 3 博客更新",
@@ -2433,6 +2438,11 @@
   "fresh": true,
   "title": "Seedream 5.0 Pro 发布公告",
   "translated_at": "2026-10-24"
+ },
+ "n-74431781c7": {
+  "fresh": true,
+  "title": "Yandex 360 通过 MCP 服务器向外部 AI 智能体开放虚拟办公工具",
+  "translated_at": "2026-11-21"
  },
  "n-75171cd2c8": {
   "fresh": true,
@@ -4838,6 +4848,11 @@
   "fresh": true,
   "title": "GigaChat 3.5 Reasoning 开放权重与部署配置",
   "translated_at": "2026-11-18"
+ },
+ "n-ef9fd5e4ca": {
+  "fresh": true,
+  "title": "Strata 中针对 Qwen 3.8 122B 的本地输出模块微调演示",
+  "translated_at": "2026-11-21"
  },
  "n-efaa00d50b": {
   "fresh": true,

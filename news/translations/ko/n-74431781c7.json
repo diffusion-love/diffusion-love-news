@@ -1,0 +1,11 @@
+{
+ "id": "n-74431781c7",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Yandex 360 관리자 설정에서 OAuth 인증 토큰과 Organization ID를 포함한 기업용 API 자격 증명을 발급받습니다.\n\n대상 MCP 클라이언트에 Yandex 360 MCP 서버 엔드포인트와 필수 인증 헤더를 구성합니다.\n\nAI 어시스턴트 인터페이스를 통해 캘린더 일정을 조회하고, 이메일을 검색하며, Yandex Disk의 파일을 확인하거나, 조직 구조를 관리할 수 있습니다.\n\n외부 에이전트 연동에 대해 최소 권한 원칙을 적용하기 위해, OAuth 토큰 권한을 Mail, Calendar, Disk 등 필요한 Yandex 360 서비스로 엄격히 한정합니다.\n\n팀 환경 전체에 MCP 서버 액세스를 프로비저닝하기 전에 기업 조직 ID와 도메인 관리자 권한을 확인합니다.",
+ "source_sha256": "b8a288ab081e016cca608ad058bbe06f13177fde1bd335422968011d5d4b87f8",
+ "summary": "Yandex 360이 ChatGPT, Claude, DeepSeek 같은 외부 AI 클라이언트와 비즈니스용 Alice AI, Yandex AI Studio가 기업 메일, 캘린더, 디스크, 디렉터리 서비스와 연동할 수 있도록 Model Context Protocol(MCP) 서버를 출시했습니다.",
+ "title": "Yandex 360, MCP 서버를 통해 가상 오피스 도구를 외부 AI 에이전트에 개방",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

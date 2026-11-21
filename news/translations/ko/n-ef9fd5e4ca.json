@@ -1,0 +1,11 @@
+{
+ "id": "n-ef9fd5e4ca",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "기본 Qwen 3.8 122B 모델을 Strata 추론 엔진에 배포하되, 최소 16 GB VRAM과 64 GB 시스템 RAM을 갖춘 워크스테이션에서 실행합니다.\n\n48개의 주요 트랜스포머 레이어를 고정(freeze)하고, 학습 대화를 GPU 순전파(forward pass)에 통과시켜 중간 활성값(activation)을 캐시합니다.\n\nSFT와 DPO 학습은 CPU에서만 실행하며, 12.54 MiB 크기의 출력 모듈만을 대상으로 합니다.\n\n동작 업데이트는 연구소 에이전트를 기준으로 검증하고, 회귀(regression)가 발생하면 출력 모듈 수정 사항을 되돌리는 롤백 스크립트를 유지합니다.\n\nCPU 학습을 시작하기 전에 GPU에서 순전파 활성값을 미리 캐시하여 VRAM 고갈을 방지하고, 고정된 레이어를 통한 전체 역전파를 피합니다.\n\n특화된 에이전트 평가 성능이 저하되면 기본 출력 모듈 가중치를 즉시 복원하도록 자동 롤백 스크립트를 유지합니다.\n\n로컬 CPU 미세 조정 반복은 SFT와 DPO 같은 경량 정렬(alignment) 패스로 제한하여 한 사이클의 소요 시간을 약 1분 안팎으로 유지합니다.",
+ "source_sha256": "df6a26cfbffe755c743a3ad6785551cc2e2e2e3aabfba549e9a90089b8da6567",
+ "summary": "로컬 미세 조정 워크플로는 48개의 주요 레이어를 고정하고 활성값을 GPU에 캐시한 뒤, 12.54 MiB 출력 모듈을 CPU에서 학습하는 방식으로 16 GB VRAM과 64 GB RAM 환경에서 Qwen 3.8 122B를 구동합니다.",
+ "title": "Strata에서 Qwen 3.8 122B를 대상으로 한 로컬 출력 모듈 미세 조정 시연",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

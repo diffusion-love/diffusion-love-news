@@ -1,0 +1,11 @@
+{
+ "id": "n-ef9fd5e4ca",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Deployen Sie das Basismodell Qwen 3.8 122B in der Strata-Inferenz-Engine auf einer Workstation mit mindestens 16 GB VRAM und 64 GB Systemspeicher.\n\nFrieren Sie die 48 Haupt-Transformer-Layer ein und leiten Sie die Trainingsdialoge durch den GPU-Forward-Pass, um die Zwischenaktivierungen zu cachen.\n\nFühren Sie SFT- und DPO-Training ausschließlich auf der CPU durch, mit Fokus auf das 12.54 MiB große Ausgabemodul.\n\nValidieren Sie Verhaltensaktualisierungen anhand des Laboragenten und pflegen Sie das Rollback-Skript, um Änderungen am Ausgabemodul rückgängig zu machen, falls Regressionen auftreten.\n\nCachen Sie die Forward-Pass-Aktivierungen auf der GPU, bevor das CPU-Training beginnt, um eine Erschöpfung des VRAM zu verhindern und eine vollständige Backpropagation durch die eingefrorenen Layer zu vermeiden.\n\nPflegen Sie automatisierte Rollback-Skripte, die die ursprünglichen Gewichte des Ausgabemoduls sofort wiederherstellen, wenn die Evaluierungen des spezialisierten Agenten nachlassen.\n\nBegrenzen Sie lokale CPU-Feinabstimmungsiterationen auf leichtgewichtige Alignment-Durchläufe wie SFT und DPO, damit die Zykluszeit bei etwa einer Minute bleibt.",
+ "source_sha256": "df6a26cfbffe755c743a3ad6785551cc2e2e2e3aabfba549e9a90089b8da6567",
+ "summary": "Ein lokaler Feinabstimmungs-Workflow betreibt Qwen 3.8 122B mit 16 GB VRAM und 64 GB RAM, indem er 48 Haupt-Layer einfriert, Aktivierungen auf der GPU cacht und ein 12.54 MiB großes Ausgabemodul auf der CPU trainiert.",
+ "title": "Lokale Feinabstimmung des Ausgabemoduls für Qwen 3.8 122B in Strata demonstriert",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

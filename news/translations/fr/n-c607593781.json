@@ -1,0 +1,11 @@
+{
+ "id": "n-c607593781",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt officiel ou installez des environnements d'inférence pris en charge, tels que vLLM et Transformers.\n\nTéléchargez les poids du modèle depuis Hugging Face pour la variante souhaitée, par exemple tencent/Hy4-flash pour le suivi d'instructions généraliste ou tencent/Hy4-flash-FP8 pour un déploiement économe en mémoire.\n\nPour les systèmes locaux grand public multi-GPU ou à forte capacité mémoire, téléchargez les poids GGUF quantifiés depuis AngelSlim/Hy4-flash-GGUF et exécutez-les via llama.cpp ou des chargeurs de génération de texte compatibles.\n\nDéployez le checkpoint quantifié en FP8 ou activez le décodage spéculatif avec la tête de brouillon DFly afin de maximiser le débit au-delà de 150 tokens par seconde tout en maîtrisant la consommation de VRAM.\n\nAssurez-vous de disposer d'allocations de mémoire GPU suffisantes lors du chargement de la fenêtre de contexte de 1M, sachant que la taille du cache KV est optimisée à 1/6 de celle de Hy4 grâce à l'attention hybride.\n\nSur les stations de travail locales, allouez au moins 126 Go de VRAM agrégée sur l'ensemble des GPU lorsque vous utilisez le format de quantification IQ2 afin d'éviter les erreurs de mémoire insuffisante pendant le déchargement.",
+ "source_sha256": "aae131827e272fb95fe1053fbb785678f055e1510bfce46582d643dfe223fa14",
+ "summary": "Tencent a publié les poids ouverts de Hy4 Flash, un modèle multimodal Mixture-of-Experts de 224B paramètres qui active 12B paramètres par token, doté d'une fenêtre de contexte de 1M et d'un checkpointing en FP8.",
+ "title": "Tencent publie en open weights le modèle MoE Hy4 Flash",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

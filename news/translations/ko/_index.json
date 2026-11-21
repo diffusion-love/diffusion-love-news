@@ -1349,6 +1349,11 @@
   "title": "Tripo, UV 언래핑 및 리토폴로지 기능 얼리 액세스 공개",
   "translated_at": "2026-10-24"
  },
+ "n-3ea587526f": {
+  "fresh": true,
+  "title": "Strata 출력 모듈 학습으로 소비자 하드웨어에서 122B 모델의 SFT 및 DPO 수행",
+  "translated_at": "2026-11-21"
+ },
  "n-3ec7e1a063": {
   "fresh": true,
   "title": "Black Forest Labs, FLUX 3 블로그 업데이트 게시",
@@ -2433,6 +2438,11 @@
   "fresh": true,
   "title": "Seedream 5.0 Pro 발표",
   "translated_at": "2026-10-24"
+ },
+ "n-74431781c7": {
+  "fresh": true,
+  "title": "Yandex 360, MCP 서버를 통해 가상 오피스 도구를 외부 AI 에이전트에 개방",
+  "translated_at": "2026-11-21"
  },
  "n-75171cd2c8": {
   "fresh": true,
@@ -4838,6 +4848,11 @@
   "fresh": true,
   "title": "GigaChat 3.5 Reasoning 오픈 웨이트 및 배포 설정",
   "translated_at": "2026-11-18"
+ },
+ "n-ef9fd5e4ca": {
+  "fresh": true,
+  "title": "Strata에서 Qwen 3.8 122B를 대상으로 한 로컬 출력 모듈 미세 조정 시연",
+  "translated_at": "2026-11-21"
  },
  "n-efaa00d50b": {
   "fresh": true,

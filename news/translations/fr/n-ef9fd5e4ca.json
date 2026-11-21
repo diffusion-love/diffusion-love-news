@@ -1,0 +1,11 @@
+{
+ "id": "n-ef9fd5e4ca",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Déployez le modèle de base Qwen 3.8 122B au sein du moteur d'inférence Strata sur une station de travail disposant d'au moins 16 Go de VRAM et 64 Go de RAM système.\n\nGelez les 48 couches principales du transformeur et acheminez les dialogues d'entraînement via la passe avant sur GPU afin de mettre en cache les activations intermédiaires.\n\nExécutez l'entraînement SFT et DPO exclusivement sur CPU, en ciblant le module de sortie de 12,54 MiB.\n\nValidez les mises à jour comportementales par rapport à l'agent de laboratoire et maintenez le script de restauration permettant de revenir sur les modifications du module de sortie en cas de régressions.\n\nMettez en cache les activations de la passe avant sur GPU avant de lancer l'entraînement CPU afin d'éviter l'épuisement de la VRAM et de ne pas effectuer de rétropropagation complète à travers les couches gelées.\n\nMaintenez des scripts de restauration automatisés pour rétablir immédiatement les poids de base du module de sortie si les évaluations de l'agent spécialisé se dégradent.\n\nLimitez les itérations de fine-tuning local sur CPU à des passes d'alignement légères telles que SFT et DPO afin de maintenir une durée de cycle d'environ une minute.",
+ "source_sha256": "df6a26cfbffe755c743a3ad6785551cc2e2e2e3aabfba549e9a90089b8da6567",
+ "summary": "Un flux de travail de fine-tuning local exécute Qwen 3.8 122B sur 16 Go de VRAM et 64 Go de RAM en gelant 48 couches principales, en mettant en cache les activations sur GPU et en entraînant sur CPU un module de sortie de 12,54 MiB.",
+ "title": "Fine-tuning local du module de sortie démontré pour Qwen 3.8 122B dans Strata",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
