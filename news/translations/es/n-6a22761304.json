@@ -1,0 +1,11 @@
+{
+ "id": "n-6a22761304",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Auditar arquitecturas de agentes candidatas frente a los cinco criterios de curiosidad para evaluar si la exploración depende del muestreo estocástico o de la actualización activa de un modelo del mundo.\n\nDotar al agente de una estructura predictiva explícita que modele las transiciones del entorno, en lugar de depender únicamente de las distribuciones de probabilidad del siguiente token.\n\nImplementar mecanismos de actualización en línea y memoria externa persistente, de modo que la retroalimentación empírica aprendida perdure más allá de la ventana de contexto.\n\nNo tratar los ajustes de temperatura, el reranking best-of-N ni la generación aumentada por recuperación como mecanismos de curiosidad, ya que no actualizan el modelo interno del entorno del agente.\n\nSeleccionar las acciones exploratorias en función de la mejora esperada del modelo y de la reducción del error de predicción, en lugar de muestrear aleatoriamente sobre pesos de modelo congelados.",
+ "source_sha256": "eb06d9eec0998ec2d64c8095cf097edc52250c19097e4b82f4e9dcf7fef08c9e",
+ "summary": "Un artículo de posición aceptado en NeurIPS 2026 define cinco criterios estructurales para la curiosidad artificial en agentes basados en modelos de lenguaje, demostrando que el muestreo estocástico y las variaciones de prompt no actualizan las representaciones internas del mundo y que la exploración real requiere modelado predictivo, actualizaciones persistentes del estado y generación de objetivos intrínsecos.",
+ "title": "Un artículo de posición define los requisitos arquitectónicos de la curiosidad en agentes basados en modelos de lenguaje",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
