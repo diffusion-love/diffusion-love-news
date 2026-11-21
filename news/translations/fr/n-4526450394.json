@@ -1,0 +1,11 @@
+{
+ "id": "n-4526450394",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Accédez à Project Genie depuis un navigateur web sur ordinateur, avec un compte Google AI Ultra authentifié et éligible dans les juridictions prises en charge (États-Unis, 18 ans et plus).\n\nSaisissez une description en langage naturel ou importez une image de référence précisant la disposition de la scène, l'esthétique et le personnage jouable.\n\nExplorez et parcourez l'environnement 3D généré en temps réel à l'aide des commandes standard du clavier et de la souris.\n\nModifiez dynamiquement la simulation active en saisissant ou en prononçant des instructions textuelles en direct pour ajuster l'éclairage, la météo ou introduire de nouvelles entités.\n\nFournissez des descriptions textuelles initiales précises ou des images de cadrage épurées pour l'environnement et le personnage afin d'ancrer la cohérence visuelle avant de commencer la navigation en temps réel.\n\nAppliquez des modifications incrémentales de prompt en cours de session plutôt que des transformations de scène drastiques, afin de minimiser la dérive physique et les artefacts spatiaux.\n\nLimitez les sessions d'exploration à de courts intervalles adaptés au prototypage de concepts, en évitant les longues sessions où la dérive accumulée dégrade la continuité de l'environnement.",
+ "source_sha256": "692b550261c58f3fc711f3194820ae421a3e40de64dc0fc43e5e03236ebf1f72",
+ "summary": "Google a lancé une version préliminaire expérimentale de Project Genie pour les abonnés Google AI Ultra aux États-Unis, utilisant le modèle de monde Genie 4 pour générer des environnements interactifs de courte durée en 720p, avec audio synchronisé, à partir d'invites textuelles et d'images.",
+ "title": "Google ouvre l'accès anticipé à Project Genie, propulsé par Genie 4",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

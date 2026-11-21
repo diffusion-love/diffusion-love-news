@@ -1,0 +1,11 @@
+{
+ "id": "n-511a5a9fcc",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Adquiera señales EEG multicanal de sujetos que observan estímulos visuales utilizando hardware EEG de consumo o de laboratorio, como un gorro de 32 canales con electrodos húmedos.\n\nRecopile aproximadamente 15 minutos de datos de calibración EEG específicos de cada usuario para adaptar la representación compartida multisujeto de ENIGMA a los patrones cerebrales individuales.\n\nProcese las señales EEG brutas a través del backbone espacio-temporal y de las capas de alineación del espacio latente multisujeto para proyectar las señales al espacio latente visual para la reconstrucción de imágenes.\n\nPreentrene backbones de decodificación neuronal sobre conjuntos de múltiples sujetos para aprender representaciones visuales generalizadas, en lugar de entrenar modelos individuales separados desde cero.\n\nDespliegue backbones espacio-temporales unificados y ligeros, con capas de alineación del espacio latente, para minimizar el número de parámetros y permitir la inferencia local sin grandes clústeres de cómputo.",
+ "source_sha256": "6ffd1e03a20b4d9be4325448deda759ced767a9a48fcd66d59ed03ccab06cc5c",
+ "summary": "Alljoined desarrolló el modelo multisujeto ENIGMA para reconstruir imágenes vistas a partir de señales EEG no invasivas. La arquitectura utiliza un backbone espacio-temporal unificado con capas de alineación de sujetos, respaldada por el conjunto de datos de respuestas a imágenes Alljoined-1.6M y por el conjunto de datos de emociones NOVA.",
+ "title": "Alljoined presenta el modelo ENIGMA y conjuntos de datos EEG abiertos para la decodificación neuronal visual",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

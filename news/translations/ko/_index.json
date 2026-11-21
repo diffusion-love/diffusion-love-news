@@ -1499,6 +1499,11 @@
   "title": "Firecrawl 스레드에 연결된 pdf-inspector 저장소",
   "translated_at": "2026-10-24"
  },
+ "n-4526450394": {
+  "fresh": true,
+  "title": "Google, Genie 4 기반 Project Genie 조기 접근 제공",
+  "translated_at": "2026-11-21"
+ },
  "n-4541890dcb": {
   "fresh": true,
   "title": "Flux2Klein Enhancer, 확장된 다중 참조 구현 적용",
@@ -1709,6 +1714,11 @@
   "title": "KupkaProd Cinema Pipeline: 로컬 에이전틱 AI 영화 스튜디오",
   "translated_at": "2026-10-24"
  },
+ "n-511a5a9fcc": {
+  "fresh": true,
+  "title": "Alljoined, 시각 신경 디코딩을 위한 ENIGMA 모델과 공개 EEG 데이터셋 공개",
+  "translated_at": "2026-11-21"
+ },
  "n-51a9d6c3d6": {
   "fresh": true,
   "title": "StreamFM 프로젝트 리소스가 연결되었습니다",
@@ -1813,6 +1823,11 @@
   "fresh": true,
   "title": "FlowInOne: 통합 시각 중심 다중모달 이미지 생성 및 편집",
   "translated_at": "2026-10-24"
+ },
+ "n-56a8f448dc": {
+  "fresh": true,
+  "title": "Google, 스트리밍 토큰 과금 방식의 Genie 4 API 출시",
+  "translated_at": "2026-11-21"
  },
  "n-57264ece04": {
   "fresh": true,
@@ -5033,6 +5048,11 @@
   "fresh": true,
   "title": "ElevenLabs: 온프레미스 및 온디바이스 음성 AI 배포",
   "translated_at": "2026-10-24"
+ },
+ "n-f64d237d21": {
+  "fresh": true,
+  "title": "Google DeepMind, 대화형 세계 모델 Genie 4 API 출시",
+  "translated_at": "2026-11-21"
  },
  "n-f686305d6a": {
   "fresh": true,
