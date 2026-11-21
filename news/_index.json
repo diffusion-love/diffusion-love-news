@@ -59,6 +59,25 @@
     "has_video": false
   },
   {
+    "id": "n-d8b407c155",
+    "date": "2026-11-20",
+    "title": "FastUnlock zero-day bypasses Windows 11 lock screen via Narrator interface",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "windows-11",
+    "version": null,
+    "tags": [
+      "Windows 11: windows-11-memory-integrity",
+      "family:windows-11",
+      "misc",
+      "windows-11",
+      "windows-11-memory-integrity"
+    ],
+    "primary_link": "https://rozetked.me/news/49588",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-d4c199de97",
     "date": "2026-11-20",
     "title": "Apple opens engineering manager role for autonomous computer-use AI",

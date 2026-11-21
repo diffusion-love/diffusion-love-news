@@ -3049,6 +3049,9 @@
   "WildDet3D": [
     "n-c5207bfa4a"
   ],
+  "Windows 11: windows-11-memory-integrity": [
+    "n-d8b407c155"
+  ],
   "Windows-Copilot-API": [
     "n-25eed24e0d"
   ],
@@ -7359,6 +7362,9 @@
   "family:wilddet3d": [
     "n-c5207bfa4a"
   ],
+  "family:windows-11": [
+    "n-d8b407c155"
+  ],
   "family:windows-copilot-api": [
     "n-25eed24e0d"
   ],
@@ -9547,6 +9553,7 @@
     "n-da87b7d4da",
     "n-d99912828e",
     "n-d9748d5e13",
+    "n-d8b407c155",
     "n-d8ac79bdc7",
     "n-d83223a468",
     "n-d7ef7b4828",
@@ -12831,6 +12838,12 @@
   ],
   "wilddet3d": [
     "n-c5207bfa4a"
+  ],
+  "windows-11": [
+    "n-d8b407c155"
+  ],
+  "windows-11-memory-integrity": [
+    "n-d8b407c155"
   ],
   "windows-copilot-api": [
     "n-25eed24e0d"

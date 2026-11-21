@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-d8b407c155",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "FastUnlock zero-day bypasses Windows 11 lock screen via Narrator interface",
+ "summary": "Researcher Abdelhamid Naceri disclosed FastUnlock, a zero-day flaw in Windows 11 where an unconstrained interface in Narrator enables physically present attackers to access Settings and execute arbitrary executables on decrypted, locked BitLocker systems under WsiAccount.",
+ "research_notes": "Ensure physical control of running Windows 11 hardware by disabling automatic wake and disconnecting unattended external peripheral ports.\n\nShut down or hibernate devices completely rather than leaving them locked when unattended to force BitLocker volume encryption at rest.\n\nEnforce complete system shutdown or hibernation rather than standard lock-screen state in shared or untrusted physical environments to prevent memory-decrypted BitLocker access.\n\nRestrict external USB mass storage execution and monitor for uncoordinated accessibility zero-day patches from vendor security updates.",
+ "project": {
+  "name": "Windows 11: windows-11-memory-integrity",
+  "family_slug": "windows-11",
+  "family_display": "Windows 11: windows-11-memory-integrity",
+  "model_slug": "windows-11",
+  "model_display": "Windows 11: windows-11-memory-integrity",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "windows-11-memory-integrity",
+  "thread_display": "Windows 11 Memory Integrity",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Windows 11: windows-11-memory-integrity",
+  "article_url": "https://happyin.space/projects/windows-11/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/c8e6c17de33007c20e76419aedf82e9098b78104/docs/projects/windows-11.md",
+  "agent_context_url": "https://happyin.space/projects/windows-11/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "FastUnlock zero-day bypasses Windows 11 lock screen via Narrator interface",
+  "version": null,
+  "summary": "Researcher Abdelhamid Naceri disclosed FastUnlock, a zero-day flaw in Windows 11 where an unconstrained interface in Narrator enables physically present attackers to access Settings and execute arbitrary executables on decrypted, locked BitLocker systems under WsiAccount."
+ },
+ "tags": [
+  "Windows 11: windows-11-memory-integrity",
+  "family:windows-11",
+  "misc",
+  "windows-11",
+  "windows-11-memory-integrity"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "windows-11"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://rozetked.me/news/49588",
+   "host": "rozetked.me",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T03:04:12Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "Researcher Abdelhamid Naceri disclosed FastUnlock, a zero-day flaw in Windows 11 where an unconstrained interface in Narrator enables physically present attackers to access Settings and execute arbitrary executables on decrypted, locked BitLocker systems under WsiAccount."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T03:04:12Z",
+  "classified_at": "2026-11-21T03:04:12Z",
+  "enriched_at": "2026-11-21T03:04:12Z",
+  "verified_at": "2026-11-21T03:04:12Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
