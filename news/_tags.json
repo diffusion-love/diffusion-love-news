@@ -2602,6 +2602,9 @@
   "Seoul World Model": [
     "n-3a170e8f1b"
   ],
+  "Sgne Cc: sgne-cc-weight-geometry-edit": [
+    "n-128d7dba17"
+  ],
   "ShotStream": [
     "n-dbba09c3a2"
   ],
@@ -6886,6 +6889,9 @@
   "family:seoul-world-model": [
     "n-3a170e8f1b"
   ],
+  "family:sgne-cc": [
+    "n-128d7dba17"
+  ],
   "family:shotstream": [
     "n-dbba09c3a2"
   ],
@@ -9973,6 +9979,7 @@
     "n-13a562a609",
     "n-13290b7929",
     "n-12ed59bd83",
+    "n-128d7dba17",
     "n-11ae14ece9",
     "n-1059ecec13",
     "n-1027303bd3",
@@ -11876,6 +11883,12 @@
   ],
   "seoul-world-model": [
     "n-3a170e8f1b"
+  ],
+  "sgne-cc": [
+    "n-128d7dba17"
+  ],
+  "sgne-cc-weight-geometry-edit": [
+    "n-128d7dba17"
   ],
   "shotstream": [
     "n-dbba09c3a2"

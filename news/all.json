@@ -1,9 +1,114 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-20T22:19:09Z",
+  "generated_at": "2026-11-21T00:34:14Z",
   "site": "diffusion.love",
-  "total": 1027,
+  "total": 1028,
   "records": [
+    {
+      "schema_version": "1.4",
+      "id": "n-128d7dba17",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "SGNE-CC v2 column-constrained weight edit ported to DeepSeek-R1-Distill-Qwen-1.5B",
+      "summary": "The SGNE-CC (Spherical Gated Norm-preserving Edit, Column-Constrained) weight editing technique was applied to DeepSeek-R1-Distill-Qwen-1.5B by rotating 205 down-projection columns in the MLP layers. The 603 KB training-free patch preserves Euclidean column norms while reducing repetitive self-verification loops and reasoning trace length under deterministic greedy decoding.",
+      "research_notes": "Obtain the base DeepSeek-R1-Distill-Qwen-1.5B model weights in safetensors format.\n\nApply the 603 KB column-rotation patch directly to the 205 designated mlp.down_proj weight columns without altering model architecture or inference code.\n\nRun model evaluation with greedy decoding (temperature=0, presence_penalty=0) to generate concise reasoning traces without token-limit loops.\n\nEvaluate models under deterministic greedy decoding (temperature=0, presence_penalty=0) rather than relying on sampling penalties, as SGNE-CC is specifically optimized to stabilize greedy reasoning paths.\n\nVerify that Euclidean column norms in mlp.down_proj remain preserved within 0.16% variance following BF16 rounding to ensure numerical stability and prevent internal representation degradation.",
+      "project": {
+        "name": "Sgne Cc: sgne-cc-weight-geometry-edit",
+        "family_slug": "sgne-cc",
+        "family_display": "Sgne Cc: sgne-cc-weight-geometry-edit",
+        "model_slug": "sgne-cc",
+        "model_display": "Sgne Cc: sgne-cc-weight-geometry-edit",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "sgne-cc-weight-geometry-edit",
+        "thread_display": "Sgne Cc Weight Geometry Edit",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Sgne Cc: sgne-cc-weight-geometry-edit",
+        "article_url": "https://happyin.space/projects/sgne-cc/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/09374b4445c9a1c31d303fe3d7481f1fdc564172/docs/projects/sgne-cc.md",
+        "agent_context_url": "https://happyin.space/projects/sgne-cc/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "SGNE-CC v2 column-constrained weight edit ported to DeepSeek-R1-Distill-Qwen-1.5B",
+        "version": null,
+        "summary": "The SGNE-CC (Spherical Gated Norm-preserving Edit, Column-Constrained) weight editing technique was applied to DeepSeek-R1-Distill-Qwen-1.5B by rotating 205 down-projection columns in the MLP layers. The 603 KB training-free patch preserves Euclidean column norms while reducing repetitive self-verification loops and reasoning trace length under deterministic greedy decoding."
+      },
+      "tags": [
+        "Sgne Cc: sgne-cc-weight-geometry-edit",
+        "family:sgne-cc",
+        "misc",
+        "sgne-cc",
+        "sgne-cc-weight-geometry-edit"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "sgne-cc"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110462/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T00:34:14Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "The SGNE-CC (Spherical Gated Norm-preserving Edit, Column-Constrained) weight editing technique was applied to DeepSeek-R1-Distill-Qwen-1.5B by rotating 205 down-projection columns in the MLP layers. The 603 KB training-free patch preserves Euclidean column norms while reducing repetitive self-verification loops and reasoning trace length under deterministic greedy decoding."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T00:34:14Z",
+        "classified_at": "2026-11-21T00:34:14Z",
+        "enriched_at": "2026-11-21T00:34:14Z",
+        "verified_at": "2026-11-21T00:34:14Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
     {
       "schema_version": "1.4",
       "id": "n-fc77ff5baa",
