@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-ea13284ff9",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "StableGrasp: single-image hand grasp reconstruction using differentiable physics simulation",
+ "summary": "StableGrasp separates visual hand pose estimation from grasping control targets, minimizing grasp kinetic energy within a differentiable physics simulation to generate physically stable hand-object interactions from single RGB images while preserving visual and geometric consistency.",
+ "research_notes": "Provide a single RGB image capturing a hand-object grasp along with the 3D model of the target object.\n\nInitialize visual hand pose estimates using an upstream image-based 3D hand pose estimator.\n\nInitialize grasp control targets separately from the visual hand pose parameters.\n\nRun differentiable physics simulation minimizing grasp kinetic energy alongside geometric and visual alignment losses.\n\nExtract the optimized physically stable 3D hand mesh and corresponding control forces for robotics simulation or virtual interaction.\n\nDecouple visual pose parameters from physical control targets rather than directly translating visual joint poses into control torques.\n\nCombine grasp kinetic energy minimization in differentiable simulation with geometric regularization against the input image to avoid unnatural hand mesh deformation.\n\nDeploy the framework as a downstream physical refinement step on top of existing vision-based hand pose estimators to eliminate object penetration and drop failures.",
+ "project": {
+  "name": "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction",
+  "family_slug": "stablegrasp",
+  "family_display": "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction",
+  "model_slug": "stablegrasp",
+  "model_display": "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "stablegrasp-physically-stable-hand-grasp-reconstruction",
+  "thread_display": "Stablegrasp Physically Stable Hand Grasp Reconstruction",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction",
+  "article_url": "https://happyin.space/projects/stablegrasp/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1026e0584af96b463df3f15f7f32af90a75b32fa/docs/projects/stablegrasp.md",
+  "agent_context_url": "https://happyin.space/projects/stablegrasp/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "StableGrasp: single-image hand grasp reconstruction using differentiable physics simulation",
+  "version": null,
+  "summary": "StableGrasp separates visual hand pose estimation from grasping control targets, minimizing grasp kinetic energy within a differentiable physics simulation to generate physically stable hand-object interactions from single RGB images while preserving visual and geometric consistency."
+ },
+ "tags": [
+  "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction",
+  "family:stablegrasp",
+  "misc",
+  "stablegrasp",
+  "stablegrasp-physically-stable-hand-grasp-reconstruction"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "stablegrasp"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2610.09195",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T08:05:41Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "StableGrasp separates visual hand pose estimation from grasping control targets, minimizing grasp kinetic energy within a differentiable physics simulation to generate physically stable hand-object interactions from single RGB images while preserving visual and geometric consistency."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T08:05:41Z",
+  "classified_at": "2026-11-21T08:05:41Z",
+  "enriched_at": "2026-11-21T08:05:41Z",
+  "verified_at": "2026-11-21T08:05:41Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

@@ -2705,6 +2705,9 @@
   "Stable Layers": [
     "n-a5a478ec38"
   ],
+  "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction": [
+    "n-ea13284ff9"
+  ],
   "Starchild-1": [
     "n-b636bdc989"
   ],
@@ -7045,6 +7048,9 @@
   "family:stable-layers": [
     "n-a5a478ec38"
   ],
+  "family:stablegrasp": [
+    "n-ea13284ff9"
+  ],
   "family:starchild-1": [
     "n-b636bdc989"
   ],
@@ -9553,6 +9559,7 @@
     "n-eaa0dc5be8",
     "n-ea52f36353",
     "n-ea26f61d82",
+    "n-ea13284ff9",
     "n-e9d344fa77",
     "n-e8fb056748",
     "n-e8b9f004d7",
@@ -12131,6 +12138,12 @@
   ],
   "stable-layers": [
     "n-a5a478ec38"
+  ],
+  "stablegrasp": [
+    "n-ea13284ff9"
+  ],
+  "stablegrasp-physically-stable-hand-grasp-reconstruction": [
+    "n-ea13284ff9"
   ],
   "starchild-1": [
     "n-b636bdc989"

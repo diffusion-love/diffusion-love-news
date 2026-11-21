@@ -78,6 +78,25 @@
     "has_video": false
   },
   {
+    "id": "n-ea13284ff9",
+    "date": "2026-11-20",
+    "title": "StableGrasp: single-image hand grasp reconstruction using differentiable physics simulation",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "stablegrasp",
+    "version": null,
+    "tags": [
+      "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction",
+      "family:stablegrasp",
+      "misc",
+      "stablegrasp",
+      "stablegrasp-physically-stable-hand-grasp-reconstruction"
+    ],
+    "primary_link": "https://arxiv.org/abs/2610.09195",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-d8b407c155",
     "date": "2026-11-20",
     "title": "FastUnlock zero-day bypasses Windows 11 lock screen via Narrator interface",

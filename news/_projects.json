@@ -91767,6 +91767,115 @@
     ],
     "claims": []
   },
+  "stablegrasp": {
+    "family_slug": "stablegrasp",
+    "family_display": "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction",
+    "family_display_variants": [
+      {
+        "family_display": "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-ea13284ff9"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-ea13284ff9"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-ea13284ff9",
+        "title": "StableGrasp: single-image hand grasp reconstruction using differentiable physics simulation",
+        "primary_link": "https://arxiv.org/abs/2610.09195"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "paper",
+        "host": "arxiv.org",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://arxiv.org/abs/2610.09195",
+        "is_primary": true,
+        "verified_at": "2026-11-21T08:05:41Z",
+        "news_ids": [
+          "n-ea13284ff9"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "StableGrasp: single-image hand grasp reconstruction using differentiable physics simulation",
+        "summary": "StableGrasp separates visual hand pose estimation from grasping control targets, minimizing grasp kinetic energy within a differentiable physics simulation to generate physically stable hand-object interactions from single RGB images while preserving visual and geometric consistency.",
+        "version": null,
+        "news_id": "n-ea13284ff9",
+        "primary_link": "https://arxiv.org/abs/2610.09195"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-ea13284ff9",
+        "date": "2026-11-20",
+        "title": "StableGrasp: single-image hand grasp reconstruction using differentiable physics simulation",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "stablegrasp",
+        "version": null,
+        "tags": [
+          "Stablegrasp: stablegrasp-physically-stable-hand-grasp-reconstruction",
+          "family:stablegrasp",
+          "misc",
+          "stablegrasp",
+          "stablegrasp-physically-stable-hand-grasp-reconstruction"
+        ],
+        "primary_link": "https://arxiv.org/abs/2610.09195",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "stablegrasp-physically-stable-hand-grasp-reconstruction",
+        "display": "Stablegrasp Physically Stable Hand Grasp Reconstruction",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-ea13284ff9",
+        "news_ids": [
+          "n-ea13284ff9"
+        ]
+      }
+    ]
+  },
   "starchild-1": {
     "family_slug": "starchild-1",
     "family_display": "Starchild 1",
