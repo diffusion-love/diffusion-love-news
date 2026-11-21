@@ -1505,6 +1505,9 @@
     "n-6c5e22fee1",
     "n-6398af54be"
   ],
+  "Ideogram model and product releases": [
+    "n-a2bdbb6a58"
+  ],
   "Image-to-LoRA": [
     "n-22001436c1"
   ],
@@ -1824,6 +1827,10 @@
   ],
   "LongCat-Next": [
     "n-5d03d1bfa4"
+  ],
+  "Longcat Avatar: longcat-avatar-comfyui-custom-nodes": [
+    "n-9c903a6a95",
+    "n-4206ab6f17"
   ],
   "LoomVideo": [
     "n-9ce590f831"
@@ -3880,6 +3887,7 @@
     "n-d4d07dd0bf",
     "n-cd25320940",
     "n-aa28911ec6",
+    "n-9c903a6a95",
     "n-96edc5b567",
     "n-807bf78763",
     "n-70f82f82ae",
@@ -3887,6 +3895,7 @@
     "n-535631e71f",
     "n-464a2f9508",
     "n-44b3b570af",
+    "n-4206ab6f17",
     "n-2fd5e60740",
     "n-207ed94fbd",
     "n-18c1e67c85",
@@ -5424,6 +5433,7 @@
     "n-af7e0341d4",
     "n-a7d1f83b13",
     "n-a32e5b01bc",
+    "n-a2bdbb6a58",
     "n-9f3f263dfe",
     "n-99c607c318",
     "n-98474cc274",
@@ -7120,6 +7130,9 @@
   "family:id-v2v": [
     "n-d140f3d07f"
   ],
+  "family:ideogram": [
+    "n-a2bdbb6a58"
+  ],
   "family:ideogram-4": [
     "n-6c5e22fee1",
     "n-6398af54be"
@@ -7353,6 +7366,10 @@
   ],
   "family:longcat-audiodit": [
     "n-d967265835"
+  ],
+  "family:longcat-avatar": [
+    "n-9c903a6a95",
+    "n-4206ab6f17"
   ],
   "family:loomvideo": [
     "n-9ce590f831"
@@ -10594,6 +10611,7 @@
     "n-ec159def6b"
   ],
   "ideogram": [
+    "n-a2bdbb6a58",
     "n-6c5e22fee1",
     "n-6398af54be"
   ],
@@ -11158,6 +11176,14 @@
   ],
   "longcat-audiodit": [
     "n-d967265835"
+  ],
+  "longcat-avatar": [
+    "n-9c903a6a95",
+    "n-4206ab6f17"
+  ],
+  "longcat-avatar-comfyui-custom-nodes": [
+    "n-9c903a6a95",
+    "n-4206ab6f17"
   ],
   "loomvideo": [
     "n-9ce590f831"
@@ -12719,6 +12745,9 @@
   ],
   "modddif": [
     "n-c8fc3fe21e"
+  ],
+  "model-and-product-releases": [
+    "n-a2bdbb6a58"
   ],
   "model:3dgs": [
     "n-60f7bb3300"
@@ -16051,6 +16080,7 @@
     "n-a71a838b34",
     "n-a32e5b01bc",
     "n-a167c6f61b",
+    "n-9c903a6a95",
     "n-9744e9b73c",
     "n-963305f6b7",
     "n-952baa76f5",
@@ -16069,6 +16099,7 @@
     "n-541dc74a2e",
     "n-511353336a",
     "n-501487aec4",
+    "n-4206ab6f17",
     "n-41c999d507",
     "n-3e5c539778",
     "n-3dbdd70404",
