@@ -1,5 +1,24 @@
 [
   {
+    "id": "n-617332c918",
+    "date": "2026-11-20",
+    "title": "GRAFT introduces execution-guided genetic recombination for LLM agent design",
+    "category": "llm",
+    "entry_type": "news",
+    "project": "graft",
+    "version": null,
+    "tags": [
+      "Graft: graft-execution-guided-agent-design",
+      "family:graft",
+      "graft",
+      "graft-execution-guided-agent-design",
+      "llm"
+    ],
+    "primary_link": "https://arxiv.org/abs/2611.23509",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-128d7dba17",
     "date": "2026-11-20",
     "title": "SGNE-CC v2 column-constrained weight edit ported to DeepSeek-R1-Distill-Qwen-1.5B",

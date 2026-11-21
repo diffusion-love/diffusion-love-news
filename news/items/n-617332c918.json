@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-617332c918",
+ "entry_type": "news",
+ "category": "llm",
+ "lang": "en",
+ "title": "GRAFT introduces execution-guided genetic recombination for LLM agent design",
+ "summary": "A research preprint introduced GRAFT, an evolutionary search framework for LLM agent architectures that steers semantic crossover using parent execution traces rather than aggregate fitness scores alone, reporting improved reasoning and coding benchmark performance on open-weight models.",
+ "research_notes": "Define the candidate agent search space, specifying allowable prompt templates, decomposition steps, and coordination protocols for target tasks.\n\nExecute parent architectures on evaluation benchmarks to collect both scalar performance scores and sample execution logs recording successes and failures.\n\nSelect parent candidates by aggregate fitness, then construct recombination prompts that present parent code alongside their bounded execution traces.\n\nPrompt the recombination LLM to synthesize offspring agent designs that retain successful execution behaviors and mutate failing components without exposing gold answers.\n\nRecycle execution traces from standard fitness evaluations rather than executing auxiliary inference runs to keep search compute bounded.\n\nMaintain strict separation between intermediate execution traces and ground-truth labels during crossover prompts to avoid benchmark overfitting and test leakage.\n\nRetain aggregate fitness for top-level tournament selection while restricting execution-guided feedback strictly to crossover and mutation operators.",
+ "project": {
+  "name": "Graft: graft-execution-guided-agent-design",
+  "family_slug": "graft",
+  "family_display": "Graft: graft-execution-guided-agent-design",
+  "model_slug": "graft",
+  "model_display": "Graft: graft-execution-guided-agent-design",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "graft-execution-guided-agent-design",
+  "thread_display": "Graft Execution Guided Agent Design",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Graft: graft-execution-guided-agent-design",
+  "article_url": "https://happyin.space/projects/graft/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/62c9329931a601dcf9f434eee55b96d7513e14bd/docs/projects/graft.md",
+  "agent_context_url": "https://happyin.space/projects/graft/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "GRAFT introduces execution-guided genetic recombination for LLM agent design",
+  "version": null,
+  "summary": "A research preprint introduced GRAFT, an evolutionary search framework for LLM agent architectures that steers semantic crossover using parent execution traces rather than aggregate fitness scores alone, reporting improved reasoning and coding benchmark performance on open-weight models."
+ },
+ "tags": [
+  "Graft: graft-execution-guided-agent-design",
+  "family:graft",
+  "graft",
+  "graft-execution-guided-agent-design",
+  "llm"
+ ],
+ "facets": {
+  "category": "llm",
+  "entry_type": "news",
+  "projects": [
+   "graft"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "paper",
+   "url": "https://arxiv.org/abs/2611.23509",
+   "host": "arxiv.org",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T00:39:13Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "A research preprint introduced GRAFT, an evolutionary search framework for LLM agent architectures that steers semantic crossover using parent execution traces rather than aggregate fitness scores alone, reporting improved reasoning and coding benchmark performance on open-weight models."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T00:39:13Z",
+  "classified_at": "2026-11-21T00:39:13Z",
+  "enriched_at": "2026-11-21T00:39:13Z",
+  "verified_at": "2026-11-21T00:39:13Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
