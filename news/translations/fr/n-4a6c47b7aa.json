@@ -1,0 +1,11 @@
+{
+ "id": "n-4a6c47b7aa",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Déployez les flux de travail standard de programmation et d'agents via l'API ou les outils pour développeurs, dans les quotas par défaut du compte, sans vérification d'identité.\n\nSoumettez des justificatifs d'identité organisationnelle et passez une vérification de conformité pour demander l'accès aux capacités restreintes de cybersécurité et de test d'intrusion, dans le cadre du programme d'accès de confiance à plusieurs niveaux.\n\nSéparez les tâches de programmation courantes des requêtes d'audit de sécurité afin d'éviter de déclencher les filtres de refus défensifs sur les comptes développeurs non vérifiés.\n\nTenez à jour une documentation des pistes d'audit et une journalisation de conformité lorsque vous utilisez l'accès de confiance, afin de respecter les exigences de sécurité.",
+ "source_sha256": "c75d8030653aacdd6f9605835f58c7f9c515c9247e4c197f560ee292d6282e7d",
+ "summary": "OpenAI a publié GPT-6.2 Astra et Sol avec un accès standard pour la programmation générale et une vérification d'identité plus stricte pour les tâches de cybersécurité à haut risque.",
+ "title": "OpenAI présente GPT-6.2 Astra et Sol avec un accès à la cybersécurité à plusieurs niveaux",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

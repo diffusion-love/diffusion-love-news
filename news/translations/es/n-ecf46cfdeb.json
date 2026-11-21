@@ -1,0 +1,11 @@
+{
+ "id": "n-ecf46cfdeb",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Instale el paquete de extensiones comfyui-AGSoft mediante ComfyUI Manager o clonando https://github.com/Art-xmaster/comfyui-AGSoft en el directorio custom_nodes de ComfyUI.\n\nLocalice y coloque el nodo AGSoft Image Crop Plus en el grafo, conectando una imagen de entrada a su puerto de entrada.\n\nRedimensione el nodo para escalar la ventana de vista previa, manipule el marco de recorte directamente en el lienzo o use el botón Upload para cargar una imagen de origen directamente.\n\nPase la salida de imagen recortada a los procesos posteriores, utilizando los botones Reset o Resume para reconfigurar los límites del recorte sin reconstruir el nodo.\n\nCombine AGSoft Image Crop Plus con flujos de trabajo de inpainting y nodos de unión para procesar las regiones recortadas a resolución nativa, preservando el contexto de la imagen completa.\n\nUse los tooltips bilingües para verificar los parámetros de coordenadas, manteniendo las etiquetas estándar en inglés en los grafos de la interfaz ComfyUI Nodes 2.0.",
+ "source_sha256": "6e2b92f6c0d02afeea24d64c16611c8b69a494a2a72301fba7dc4282de7c82e6",
+ "summary": "El nodo personalizado AGSoft Image Crop Plus para ComfyUI se ha actualizado con soporte para Nodes 2.0, escalado dinámico de la vista previa según el tamaño del nodo, mecánica mejorada de arrastre del marco, tooltips bilingües y controles interactivos Upload, Reset y Resume.",
+ "title": "AGSoft Image Crop Plus añade compatibilidad con ComfyUI Nodes 2.0 y vista previa escalable",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

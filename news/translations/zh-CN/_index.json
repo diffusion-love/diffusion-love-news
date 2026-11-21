@@ -1624,6 +1624,11 @@
   "title": "SenseNova-U1：采用 NEO-unify 的统一多模态 AI",
   "translated_at": "2026-11-13"
  },
+ "n-4a6c47b7aa": {
+  "fresh": true,
+  "title": "OpenAI 推出 GPT-6.2 Astra 和 Sol，并提供分级网络安全访问",
+  "translated_at": "2026-11-21"
+ },
  "n-4a97c79072": {
   "fresh": true,
   "title": "See-through 的代码仓库与演示链接已公开分享",
@@ -1903,6 +1908,11 @@
   "fresh": true,
   "title": "NVIDIA Parakeet-unified-en-0.6b 统一 ASR 模型",
   "translated_at": "2026-11-13"
+ },
+ "n-5bd77e584f": {
+  "fresh": true,
+  "title": "未经验证的 Claude 辅助黎曼猜想证明声明正在流传",
+  "translated_at": "2026-11-21"
  },
  "n-5be6e62e52": {
   "fresh": true,
@@ -4044,6 +4054,11 @@
   "title": "Fizgig 发布用于多身份训练的 LoRA Isolation",
   "translated_at": "2026-10-24"
  },
+ "n-c6e493599c": {
+  "fresh": true,
+  "title": "Levent Alpöge 宣布借助 Claude 完成黎曼猜想形式化的声明",
+  "translated_at": "2026-11-21"
+ },
  "n-c6e889531e": {
   "fresh": true,
   "title": "UltraTex 研究论文与演示展示解耦的 PBR 材质生成",
@@ -4839,6 +4854,11 @@
   "title": "面向 OpenClaw 与 Hermes Agents 的 GBrain 记忆层",
   "translated_at": "2026-10-24"
  },
+ "n-ebe85d9d57": {
+  "fresh": true,
+  "title": "应用于理论黑洞物理的 Claude 多智能体方案",
+  "translated_at": "2026-11-21"
+ },
  "n-ebeab9837a": {
   "fresh": true,
   "title": "面向视觉特效的 Griptape AI 编排平台",
@@ -4878,6 +4898,11 @@
   "fresh": true,
   "title": "DVD 公开项目资源已完成链接",
   "translated_at": "2026-10-24"
+ },
+ "n-ecf46cfdeb": {
+  "fresh": true,
+  "title": "AGSoft Image Crop Plus 新增 ComfyUI Nodes 2.0 兼容性并支持可缩放预览",
+  "translated_at": "2026-11-21"
  },
  "n-ed7778c240": {
   "fresh": true,

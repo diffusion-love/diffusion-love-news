@@ -1,0 +1,11 @@
+{
+ "id": "n-5bd77e584f",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Formular conjeturas matemáticas o preguntas de física teórica y traducir problemas a marcos de especificación formal como Lean 4.\n\nDesplegar flujos de trabajo de Claude con múltiples copias o agénticos para explorar árboles de demostración, realizar expansiones simbólicas y generar módulos de código formal.\n\nEjecutar verificación independiente mediante núcleos de demostradores de teoremas formales como Lean 4 y derivaciones alternativas contrastadas para auditar los argumentos generados por IA.\n\nExigir que demostradores de teoremas interactivos formales como Lean 4 verifiquen mecánicamente las afirmaciones matemáticas generadas por IA, en lugar de depender de prosa en lenguaje natural.\n\nEmplear configuraciones de verificación multiagente en las que copias distintas del modelo calculan y verifican de forma independiente, y cruzada, derivaciones matemáticas y físicas intermedias.",
+ "source_sha256": "2aa17eb3ae19fd2cbefeb30db83e1d91789e54f34cb56a5f13a7ff6b6fbc868d",
+ "summary": "Los informes sobre una demostración de la hipótesis de Riemann asistida por Claude siguen bajo evaluación formal por parte de matemáticos, y se requiere la compilación independiente en el núcleo de Lean 4 para confirmar su validez.",
+ "title": "Circula una afirmación no verificada de una demostración de la hipótesis de Riemann asistida por Claude",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

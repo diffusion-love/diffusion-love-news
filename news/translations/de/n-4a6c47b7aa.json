@@ -1,0 +1,11 @@
+{
+ "id": "n-4a6c47b7aa",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Standardmäßige Coding- und Agent-Workflows über die API oder Entwicklerwerkzeuge im Rahmen der regulären Kontingente des Kontos bereitstellen, ohne Identitätsprüfung.\n\nOrganisatorische Identitätsnachweise einreichen und eine Compliance-Prüfung durchlaufen, um Zugang zu eingeschränkten Cybersicherheits- und Penetrationstest-Funktionen im gestaffelten Trusted-Access-Programm zu beantragen.\n\nRoutinemäßige Programmieraufgaben von Sicherheitsaudit-Prompts trennen, um zu vermeiden, dass defensive Ablehnungsfilter bei nicht verifizierten Entwicklerkonten ausgelöst werden.\n\nDokumentierte Audit-Trails und Compliance-Protokollierung führen, wenn im Trusted-Access-Modus gearbeitet wird, um die Sicherheitsanforderungen einzuhalten.",
+ "source_sha256": "c75d8030653aacdd6f9605835f58c7f9c515c9247e4c197f560ee292d6282e7d",
+ "summary": "OpenAI hat GPT-6.2 Astra und Sol mit Standardzugang für allgemeines Coding und strengerer Identitätsprüfung für risikoreiche Cybersicherheitsaufgaben veröffentlicht.",
+ "title": "OpenAI stellt GPT-6.2 Astra und Sol mit gestaffeltem Cybersicherheitszugang vor",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

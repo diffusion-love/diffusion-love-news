@@ -1,0 +1,11 @@
+{
+ "id": "n-5bd77e584f",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Formuler des conjectures mathématiques ou des questions de physique théorique, et traduire les problèmes dans des cadres de spécification formelle tels que Lean 4.\n\nDéployer des flux de travail Claude à plusieurs copies ou agentiques pour explorer des arbres de preuve, effectuer des développements symboliques et générer des modules de code formel.\n\nMener une vérification indépendante au moyen de noyaux de prouveurs de théorèmes formels comme Lean 4, ainsi que de dérivations alternatives recoupées, afin d'auditer les arguments générés par l'IA.\n\nExiger que des prouveurs de théorèmes interactifs formels tels que Lean 4 vérifient mécaniquement les affirmations mathématiques générées par l'IA, plutôt que de s'appuyer sur de la prose en langage naturel.\n\nAdopter des configurations de vérification multi-agents dans lesquelles des copies distinctes du modèle calculent et vérifient mutuellement, de manière indépendante, les dérivations mathématiques et physiques intermédiaires.",
+ "source_sha256": "2aa17eb3ae19fd2cbefeb30db83e1d91789e54f34cb56a5f13a7ff6b6fbc868d",
+ "summary": "Des informations faisant état d'une preuve de l'hypothèse de Riemann assistée par Claude restent en cours d'évaluation formelle par des mathématiciens, la compilation indépendante par le noyau Lean 4 étant nécessaire pour confirmer sa validité.",
+ "title": "Affirmation non vérifiée d'une preuve de l'hypothèse de Riemann assistée par Claude en circulation",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

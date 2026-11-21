@@ -1629,6 +1629,11 @@
   "title": "SenseNova-U1: vereinheitlichte multimodale KI mit NEO-unify",
   "translated_at": "2026-11-13"
  },
+ "n-4a6c47b7aa": {
+  "fresh": true,
+  "title": "OpenAI stellt GPT-6.2 Astra und Sol mit gestaffeltem Cybersicherheitszugang vor",
+  "translated_at": "2026-11-21"
+ },
  "n-4a97c79072": {
   "fresh": true,
   "title": "Repository- und Demo-Links zu See-through wurden veröffentlicht",
@@ -1908,6 +1913,11 @@
   "fresh": true,
   "title": "NVIDIA Parakeet-unified-en-0.6b: vereinheitlichtes ASR-Modell",
   "translated_at": "2026-11-13"
+ },
+ "n-5bd77e584f": {
+  "fresh": true,
+  "title": "Unverifizierte Behauptung eines mit Claude unterstützten Beweises der Riemannschen Vermutung kursiert",
+  "translated_at": "2026-11-21"
  },
  "n-5be6e62e52": {
   "fresh": true,
@@ -4049,6 +4059,11 @@
   "title": "Fizgig veröffentlicht LoRA Isolation für Training mit mehreren Identitäten",
   "translated_at": "2026-10-24"
  },
+ "n-c6e493599c": {
+  "fresh": true,
+  "title": "Levent Alpöge kündigt eine Claude-gestützte Formalisierungsbehauptung zur Riemann-Hypothese an",
+  "translated_at": "2026-11-21"
+ },
  "n-c6e889531e": {
   "fresh": true,
   "title": "UltraTex-Forschungspapier und Demo zeigen entkoppelte PBR-Materialgenerierung",
@@ -4849,6 +4864,11 @@
   "title": "GBrain: Speicherschicht für OpenClaw- und Hermes-Agenten",
   "translated_at": "2026-10-24"
  },
+ "n-ebe85d9d57": {
+  "fresh": true,
+  "title": "Claude-Multiagenten-Setup angewendet auf theoretische Schwarze-Loch-Physik",
+  "translated_at": "2026-11-21"
+ },
  "n-ebeab9837a": {
   "fresh": true,
   "title": "Griptape-KI-Orchestrierungsplattform für VFX",
@@ -4888,6 +4908,11 @@
   "fresh": true,
   "title": "Öffentliche Projektressourcen von DVD wurden verlinkt",
   "translated_at": "2026-10-24"
+ },
+ "n-ecf46cfdeb": {
+  "fresh": true,
+  "title": "AGSoft Image Crop Plus ergänzt Kompatibilität mit ComfyUI Nodes 2.0 und skalierbare Vorschau",
+  "translated_at": "2026-11-21"
  },
  "n-ed7778c240": {
   "fresh": true,

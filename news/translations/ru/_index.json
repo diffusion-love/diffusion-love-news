@@ -1629,6 +1629,11 @@
   "title": "SenseNova-U1: унифицированный мультимодальный ИИ с NEO-unify",
   "translated_at": "2026-11-13"
  },
+ "n-4a6c47b7aa": {
+  "fresh": true,
+  "title": "OpenAI представляет GPT-6.2 Astra и Sol с многоуровневым доступом к кибербезопасности",
+  "translated_at": "2026-11-21"
+ },
  "n-4a97c79072": {
   "fresh": true,
   "title": "Опубликованы ссылки на репозиторий и демо See-through",
@@ -1908,6 +1913,11 @@
   "fresh": true,
   "title": "NVIDIA Parakeet-unified-en-0.6b: унифицированная модель ASR",
   "translated_at": "2026-11-13"
+ },
+ "n-5bd77e584f": {
+  "fresh": true,
+  "title": "Непроверенное заявление о доказательстве гипотезы Римана с помощью Claude, распространяемое в сети",
+  "translated_at": "2026-11-21"
  },
  "n-5be6e62e52": {
   "fresh": true,
@@ -4049,6 +4059,11 @@
   "title": "Fizgig выпустил LoRA Isolation для обучения на нескольких идентичностях",
   "translated_at": "2026-10-24"
  },
+ "n-c6e493599c": {
+  "fresh": true,
+  "title": "Levent Alpöge объявляет о заявлении о формализации гипотезы Римана с помощью Claude",
+  "translated_at": "2026-11-21"
+ },
  "n-c6e889531e": {
   "fresh": true,
   "title": "UltraTex: исследовательская статья и демонстрация декоуплированной генерации PBR-материалов",
@@ -4849,6 +4864,11 @@
   "title": "GBrain: слой памяти для агентов OpenClaw и Hermes",
   "translated_at": "2026-10-24"
  },
+ "n-ebe85d9d57": {
+  "fresh": true,
+  "title": "Многоагентная настройка Claude, применённая к теоретической физике чёрных дыр",
+  "translated_at": "2026-11-21"
+ },
  "n-ebeab9837a": {
   "fresh": true,
   "title": "Griptape: платформа оркестрации ИИ для VFX",
@@ -4888,6 +4908,11 @@
   "fresh": true,
   "title": "Публичные ресурсы проекта DVD были связаны между собой",
   "translated_at": "2026-10-24"
+ },
+ "n-ecf46cfdeb": {
+  "fresh": true,
+  "title": "AGSoft Image Crop Plus добавляет совместимость с ComfyUI Nodes 2.0 и масштабируемый предпросмотр",
+  "translated_at": "2026-11-21"
  },
  "n-ed7778c240": {
   "fresh": true,

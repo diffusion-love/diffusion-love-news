@@ -1,0 +1,11 @@
+{
+ "id": "n-ebe85d9d57",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Formular conjeturas matemáticas o preguntas de física teórica y traducir problemas a marcos de especificación formal como Lean 4.\n\nDesplegar flujos de trabajo de Claude con múltiples copias o agénticos para explorar árboles de demostración, realizar expansiones simbólicas y generar módulos de código formal.\n\nEjecutar verificación independiente mediante núcleos de demostradores de teoremas formales como Lean 4 y derivaciones alternativas verificadas cruzadamente para auditar los argumentos generados por IA.\n\nExigir que demostradores de teoremas interactivos formales como Lean 4 verifiquen mecánicamente las afirmaciones matemáticas generadas por IA, en lugar de confiar en prosa en lenguaje natural.\n\nEmplear configuraciones de verificación multiagente en las que copias distintas del modelo calculan de forma independiente y verifican cruzadamente derivaciones matemáticas y físicas intermedias.",
+ "source_sha256": "71b4b59340faadd697268d1e33413e9fdfeb44f3f2044850443e662b7e19b183",
+ "summary": "Anthropic detalló que el flujo de trabajo de Claude con múltiples copias investigó la dualidad holográfica y el espacio anti de Sitter, validando los cálculos mediante dos métodos separados y codificando los componentes de las demostraciones en Lean.",
+ "title": "Configuración multiagente de Claude aplicada a la física teórica de agujeros negros",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-5bd77e584f",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Formulieren Sie mathematische Vermutungen oder Fragestellungen der theoretischen Physik und übersetzen Sie Probleme in formale Spezifikationsrahmen wie Lean 4.\n\nSetzen Sie Claude-Workflows mit mehreren Kopien oder mit Agenten ein, um Beweisbäume zu erkunden, symbolische Entwicklungen durchzuführen und formale Code-Module zu erzeugen.\n\nFühren Sie eine unabhängige Verifikation über Kernel formaler Beweisassistenten wie Lean 4 durch sowie alternative, gegenseitig geprüfte Herleitungen, um KI-generierte Argumente zu prüfen.\n\nVerlangen Sie, dass formale interaktive Beweisassistenten wie Lean 4 KI-generierte mathematische Behauptungen maschinell verifizieren, statt sich auf natürlichsprachliche Prosa zu verlassen.\n\nNutzen Sie Konfigurationen zur Verifikation mit mehreren Agenten, in denen verschiedene Modellkopien mathematische und physikalische Herleitungen unabhängig voneinander berechnen und gegenseitig überprüfen.",
+ "source_sha256": "2aa17eb3ae19fd2cbefeb30db83e1d91789e54f34cb56a5f13a7ff6b6fbc868d",
+ "summary": "Berichte über einen mit Claude unterstützten Beweis der Riemannschen Vermutung werden derzeit von Mathematikerinnen und Mathematikern formal geprüft; zur Bestätigung der Gültigkeit ist eine unabhängige Kompilierung durch den Lean-4-Kernel erforderlich.",
+ "title": "Unverifizierte Behauptung eines mit Claude unterstützten Beweises der Riemannschen Vermutung kursiert",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

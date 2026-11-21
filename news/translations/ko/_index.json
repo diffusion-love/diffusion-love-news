@@ -1624,6 +1624,11 @@
   "title": "SenseNova-U1: NEO-unify 기반 통합 멀티모달 AI",
   "translated_at": "2026-11-13"
  },
+ "n-4a6c47b7aa": {
+  "fresh": true,
+  "title": "OpenAI, 티어별 사이버보안 액세스를 적용한 GPT-6.2 Astra 및 Sol 발표",
+  "translated_at": "2026-11-21"
+ },
  "n-4a97c79072": {
   "fresh": true,
   "title": "See-through 저장소와 데모 링크가 공유되었습니다",
@@ -1903,6 +1908,11 @@
   "fresh": true,
   "title": "NVIDIA Parakeet-unified-en-0.6b 통합 ASR 모델",
   "translated_at": "2026-11-13"
+ },
+ "n-5bd77e584f": {
+  "fresh": true,
+  "title": "검증되지 않은 Claude 보조 리만 가설 증명 주장 확산",
+  "translated_at": "2026-11-21"
  },
  "n-5be6e62e52": {
   "fresh": true,
@@ -4044,6 +4054,11 @@
   "title": "Fizgig, 다중 정체성 학습을 위한 LoRA Isolation 공개",
   "translated_at": "2026-10-24"
  },
+ "n-c6e493599c": {
+  "fresh": true,
+  "title": "Levent Alpöge, Claude 지원 리만 가설 형식화 주장 발표",
+  "translated_at": "2026-11-21"
+ },
  "n-c6e889531e": {
   "fresh": true,
   "title": "UltraTex 연구 논문 및 데모 공개: 분리된 PBR 머티리얼 생성",
@@ -4839,6 +4854,11 @@
   "title": "OpenClaw 및 Hermes 에이전트를 위한 GBrain 메모리 레이어",
   "translated_at": "2026-10-24"
  },
+ "n-ebe85d9d57": {
+  "fresh": true,
+  "title": "이론 블랙홀 물리학에 적용된 Claude 다중 에이전트 구성",
+  "translated_at": "2026-11-21"
+ },
  "n-ebeab9837a": {
   "fresh": true,
   "title": "VFX를 위한 Griptape AI 오케스트레이션 플랫폼",
@@ -4878,6 +4898,11 @@
   "fresh": true,
   "title": "DVD 공개 프로젝트 리소스가 연결되었습니다",
   "translated_at": "2026-10-24"
+ },
+ "n-ecf46cfdeb": {
+  "fresh": true,
+  "title": "AGSoft Image Crop Plus, ComfyUI Nodes 2.0 호환성 및 확장 가능한 미리보기 추가",
+  "translated_at": "2026-11-21"
  },
  "n-ed7778c240": {
   "fresh": true,

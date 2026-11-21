@@ -1,0 +1,11 @@
+{
+ "id": "n-c6e493599c",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Formulieren Sie mathematische Vermutungen oder Fragen der theoretischen Physik und übersetzen Sie Probleme in formale Spezifikationsrahmen wie Lean 4.\n\nSetzen Sie Claude-Workflows mit mehreren Modellkopien oder agentische Claude-Workflows ein, um Beweisbäume zu erkunden, symbolische Entwicklungen durchzuführen und formale Code-Module zu erzeugen.\n\nFühren Sie unabhängige Verifikation mit Kernels formaler Theorembeweiser wie Lean 4 durch sowie alternative, gegenseitig geprüfte Herleitungen, um KI-generierte Argumentationen zu prüfen.\n\nVerlangen Sie, dass formale interaktive Theorembeweiser wie Lean 4 KI-generierte mathematische Behauptungen maschinell verifizieren, anstatt sich auf natürlichsprachliche Prosa zu verlassen.\n\nNutzen Sie Multiagenten-Verifikationskonfigurationen, in denen unterschiedliche Modellkopien mathematische und physikalische Herleitungen unabhängig voneinander berechnen und gegenseitig überprüfen.",
+ "source_sha256": "cd6123948d0ab7ec1505bc301d09f3a121071b85be744bc8aaf267ead2f7ef0c",
+ "summary": "Der Mathematiker Levent Alpöge hat eine Claude-gestützte Formalisierungsbehauptung zur Riemann-Hypothese und zur Verallgemeinerten Riemann-Hypothese in Lean 4 angekündigt, verteilt auf 14 Code-Archive. Sie wird derzeit von der Community geprüft.",
+ "title": "Levent Alpöge kündigt eine Claude-gestützte Formalisierungsbehauptung zur Riemann-Hypothese an",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
