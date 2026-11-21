@@ -1,0 +1,11 @@
+{
+ "id": "n-f64d237d21",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Google AI Studio 계정에서 유료 결제를 활성화하고 Gemini API 키를 생성합니다.\n\nmodel을 genie-4로 지정하여 client.interactions.create를 통해 대화형 세션을 시작합니다.\n\nWebRTC 또는 WebSocket으로 스트리밍 세션에 연결하고, seed 프롬프트 또는 16:9 이미지를 담은 world_setup 이벤트를 전송합니다.\n\nWASD 탐색 및 세션 중 텍스트 프롬프트와 같은 실시간 사용자 조작 입력을 스트리밍하여 시뮬레이션된 환경을 동적으로 탐색하고 변경합니다.\n\n작업이 끝나면 interaction 객체에서 complete()를 호출하여 서버 측 생성 프로세스를 종료하고 과금을 마무리합니다.\n\n종료 및 오류 처리 블록 내에서 interaction.complete()를 명시적으로 호출하여 실시간 스트림을 닫고 지속적인 영상 출력 토큰 과금을 방지합니다.\n\nWebRTC로 웹 클라이언트에 연결할 때 interactions.authTokens.create를 사용하여 일회용 단기 세션 토큰을 생성함으로써 장기 사용 Gemini API 키를 비공개로 유지합니다.\n\n클라이언트 세션과 백엔드 프록시를 북미, 서유럽 또는 동아시아의 서빙 리전 가까이에 배치하여 반응성 있는 조작을 위해 왕복 지연 시간을 150밀리초 미만으로 유지합니다.",
+ "source_sha256": "f277faf641ffcf3aaaed0b042d6f12b65afecc8ec55aeb491ce43da344a5f718",
+ "summary": "Genie 4는 Google AI Studio와 Gemini v1beta Interactions API를 통해 개발자가 이용할 수 있는 대화형 세계 모델입니다. 이 모델은 실시간 키보드 조작, 실행 중 텍스트 조건화, 그리고 720p 24fps 영상과 동기화된 48kHz 스테레오 오디오를 제공합니다. 생성 결과는 WebRTC와 WebSocket으로 스트리밍되며, SynthID 워터마크가 적용되고 세션 완료 호출이 필수입니다. 이번 출시로 대화형 세계 시뮬레이션이 상업적으로 이용 가능한 개발자 API로 전환됩니다.",
+ "title": "Google DeepMind, 대화형 세계 모델 Genie 4 API 출시",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

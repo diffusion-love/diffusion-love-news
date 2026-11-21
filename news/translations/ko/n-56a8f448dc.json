@@ -1,0 +1,11 @@
+{
+ "id": "n-56a8f448dc",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Google AI Studio 계정에서 유료 결제를 활성화하고 Gemini API 키를 생성합니다.\n\nmodel을 genie-4로 지정하여 client.interactions.create로 대화형 세션을 시작합니다.\n\nWebRTC 또는 WebSocket으로 스트리밍 세션에 연결한 뒤, 시드 프롬프트 또는 16:9 이미지를 담은 world_setup 이벤트를 전송합니다.\n\nWASD 탐색이나 세션 중 텍스트 프롬프트 같은 실시간 사용자 조작 입력을 스트리밍하여 시뮬레이션 환경을 동적으로 탐색하고 변경합니다.\n\n작업이 끝나면 interaction 객체에서 complete()를 호출하여 서버 측 생성 프로세스를 종료하고 과금을 마무리합니다.\n\n종료 및 오류 처리 블록 안에서 interaction.complete()를 명시적으로 호출하여 실시간 스트림을 닫고 비디오 출력 토큰이 계속 과금되는 것을 방지합니다.\n\nWebRTC로 웹 클라이언트를 연결할 때는 interactions.authTokens.create로 일회용 단기 세션 토큰을 생성하여 장기 사용 가능한 Gemini API 키를 비공개로 유지합니다.\n\n조작 반응성을 위해 왕복 지연 시간을 150밀리초 미만으로 유지하도록, 클라이언트 세션과 백엔드 프록시를 북미, 서유럽, 동아시아의 서빙 리전 가까이에 배치합니다.",
+ "source_sha256": "dea628b2cd8bb831f01940ee70d82acaca726a52ab9d8605fe8ae483108f3ac3",
+ "summary": "Genie 4는 유료 Gemini API 계정을 위한 대화형 생성형 시뮬레이션 엔드포인트입니다. 스테레오 사운드를 포함한 24 fps 기준으로 출력은 프레임당 약 240 비디오 토큰, 초당 5,760 토큰을 소모합니다. 사용 비용은 초당 약 $0.10(분당 $6.05)이며, Google AI Studio에서 결제 기능을 활성화해야 합니다. 이 가격 모델은 개발자 애플리케이션을 위한 전용 대화형 비디오 스트리밍 요금 체계를 확립합니다.",
+ "title": "Google, 스트리밍 토큰 과금 방식의 Genie 4 API 출시",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

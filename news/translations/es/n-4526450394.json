@@ -1,0 +1,11 @@
+{
+ "id": "n-4526450394",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Accede a Project Genie desde un navegador web de escritorio con una cuenta de Google AI Ultra autenticada y elegible en las jurisdicciones admitidas (EE. UU., mayores de 18 años).\n\nIntroduce una descripción en lenguaje natural o sube una imagen de referencia que especifique la disposición de la escena, la estética y el personaje jugable.\n\nExplora y navega por el entorno 3D generado en tiempo real con los controles estándar de teclado y ratón.\n\nModifica la simulación activa de forma dinámica escribiendo o dictando en directo indicaciones de texto para ajustar la iluminación, el clima o introducir nuevas entidades.\n\nProporciona descripciones de texto iniciales específicas o imágenes de encuadre limpias tanto para el entorno como para el personaje, para anclar la coherencia visual antes de iniciar la navegación en tiempo real.\n\nAplica modificaciones incrementales de las indicaciones durante la sesión, en lugar de transformaciones drásticas de la escena, para minimizar la deriva física y los artefactos espaciales.\n\nLimita las sesiones de exploración a intervalos breves adecuados para el prototipado de conceptos, evitando ejecuciones prolongadas en las que la deriva acumulada degrade la continuidad del entorno.",
+ "source_sha256": "692b550261c58f3fc711f3194820ae421a3e40de64dc0fc43e5e03236ebf1f72",
+ "summary": "Google lanzó una vista previa experimental de Project Genie para los suscriptores de Google AI Ultra en Estados Unidos, que utiliza el modelo de mundo Genie 4 para generar entornos interactivos de 720p de corta duración, con audio sincronizado, a partir de indicaciones de texto e imagen.",
+ "title": "Google abre el acceso anticipado a Project Genie, impulsado por Genie 4",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

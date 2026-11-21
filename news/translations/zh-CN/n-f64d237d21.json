@@ -1,0 +1,11 @@
+{
+ "id": "n-f64d237d21",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 Google AI Studio 账户上启用付费计费，并创建 Gemini API 密钥。\n\n使用 model 参数设为 genie-4，通过 client.interactions.create 发起交互式会话。\n\n通过 WebRTC 或 WebSocket 连接流式会话，并发送一个 world_setup 事件，其中包含种子提示词或 16:9 图像。\n\n实时传输用户操控输入，例如 WASD 导航和会话中途的文本提示，以动态地导航并改变模拟环境。\n\n完成后对交互对象调用 complete()，以终止服务器端的生成进程并结束计费。\n\n在终止和错误处理代码块中显式调用 interaction.complete()，以关闭实时流，并避免持续产生视频输出 token 的计费。\n\n通过 WebRTC 连接 Web 客户端时，使用 interactions.authTokens.create 生成一次性短时会话令牌，以保证长期有效的 Gemini API 密钥不外泄。\n\n将客户端会话和后端代理部署在北美、西欧或东亚的服务区域附近，使往返延迟保持在 150 毫秒以下，以确保操控响应迅速。",
+ "source_sha256": "f277faf641ffcf3aaaed0b042d6f12b65afecc8ec55aeb491ce43da344a5f718",
+ "summary": "Genie 4 是一种交互式世界模型，开发者可通过 Google AI Studio 和 Gemini v1beta Interactions API 使用。该模型支持实时键盘操控、运行时文本条件控制，并可输出与画面同步的 48 kHz 立体声音频，分辨率为 720p，帧率为 24 fps。生成内容通过 WebRTC 和 WebSocket 流式传输，带有 SynthID 水印，并要求调用会话完成接口。此次发布将交互式世界模拟推向可商用的开发者 API。",
+ "title": "Google DeepMind 发布 Genie 4 交互式世界模型 API",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

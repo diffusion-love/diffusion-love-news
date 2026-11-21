@@ -1,0 +1,11 @@
+{
+ "id": "n-511a5a9fcc",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Erfassen Sie mehrkanalige EEG-Signale von Probanden, die visuelle Reize betrachten, mit EEG-Hardware für Verbraucher oder Laborgeräte, etwa einer 32-Kanal-Haube mit Nasselektroden.\n\nSammeln Sie etwa 15 Minuten nutzerspezifische EEG-Kalibrierungsdaten, um die gemeinsame Multi-Subjekt-Repräsentation von ENIGMA an individuelle Hirnmuster anzupassen.\n\nVerarbeiten Sie rohe EEG-Signale durch das raum-zeitliche Backbone und die Latent-Alignment-Schichten für mehrere Probanden, um die Signale für die Bildrekonstruktion in den visuellen latenten Raum zu projizieren.\n\nVortrainieren Sie neuronale Dekodierungs-Backbones über Datenpools mehrerer Probanden, um allgemeine visuelle Repräsentationen zu lernen, anstatt separate individuelle Modelle von Grund auf zu trainieren.\n\nSetzen Sie schlanke, einheitliche raum-zeitliche Backbones mit Latent-Alignment-Schichten ein, um die Parameteranzahl zu minimieren und lokale Inferenz ohne große Rechencluster zu ermöglichen.",
+ "source_sha256": "6ffd1e03a20b4d9be4325448deda759ced767a9a48fcd66d59ed03ccab06cc5c",
+ "summary": "Alljoined hat das Multi-Subjekt-Modell ENIGMA entwickelt, um gesehene Bilder aus nichtinvasiven EEG-Signalen zu rekonstruieren. Die Architektur nutzt ein einheitliches raum-zeitliches Backbone mit Subjekt-Alignment-Schichten und wird vom Bild-Antwort-Datensatz Alljoined-1.6M sowie dem Emotionsdatensatz NOVA unterstützt.",
+ "title": "Alljoined stellt das ENIGMA-Modell und offene EEG-Datensätze für die visuelle neuronale Dekodierung vor",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

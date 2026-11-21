@@ -1,0 +1,11 @@
+{
+ "id": "n-f64d237d21",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Active la facturación de pago en una cuenta de Google AI Studio y crea una clave de API de Gemini.\n\nInicia una sesión interactiva mediante client.interactions.create con el modelo especificado como genie-4.\n\nConéctate a la sesión de streaming sobre WebRTC o WebSocket y envía un evento world_setup que contenga un prompt semilla o una imagen de 16:9.\n\nTransmite en tiempo real las entradas de dirección del usuario, como la navegación con WASD y los prompts de texto enviados durante la sesión, para navegar y modificar el entorno simulado de forma dinámica.\n\nLlama a complete() sobre el objeto de interacción al terminar para detener el proceso de generación en el servidor y finalizar la facturación.\n\nInvoca explícitamente interaction.complete() dentro de los bloques de terminación y de manejo de errores para cerrar el stream en tiempo real y evitar la facturación continua de tokens de salida de vídeo.\n\nGenera tokens de sesión efímeros de un solo uso mediante interactions.authTokens.create al conectar clientes web por WebRTC, para mantener privadas las claves de API de Gemini de larga duración.\n\nUbica los clientes de sesión y los proxies de backend cerca de las regiones de servicio en Norteamérica, Europa Occidental o Asia Oriental, para mantener latencias de ida y vuelta inferiores a 150 milisegundos y así garantizar una dirección con respuesta inmediata.",
+ "source_sha256": "f277faf641ffcf3aaaed0b042d6f12b65afecc8ec55aeb491ce43da344a5f718",
+ "summary": "Genie 4 es un modelo de mundo interactivo accesible a través de Google AI Studio y de la API de Interactions de Gemini v1beta para desarrolladores. El modelo ofrece dirección en tiempo real con el teclado, condicionamiento por texto durante la ejecución y audio estéreo sincronizado de 48 kHz a 720p y 24 fps. La generación se transmite mediante WebRTC y WebSockets, con marca de agua SynthID y llamadas obligatorias de finalización de sesión. El lanzamiento convierte la simulación interactiva de mundos en una API para desarrolladores disponible comercialmente.",
+ "title": "Google DeepMind lanza la API de Genie 4, un modelo de mundo interactivo",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

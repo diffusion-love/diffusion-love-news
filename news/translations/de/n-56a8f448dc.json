@@ -1,0 +1,11 @@
+{
+ "id": "n-56a8f448dc",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Aktiviere die kostenpflichtige Abrechnung für ein Google-AI-Studio-Konto und erstelle einen Gemini-API-Schlüssel.\n\nStarte eine interaktive Sitzung über client.interactions.create mit dem Modell genie-4.\n\nVerbinde dich über WebRTC oder WebSocket mit der Streaming-Sitzung und übertrage ein world_setup-Ereignis, das einen Seed-Prompt oder ein 16:9-Bild enthält.\n\nStreame Steuereingaben von Nutzern in Echtzeit, etwa WASD-Navigation und Textprompts während der Sitzung, um die simulierte Umgebung dynamisch zu durchqueren und zu verändern.\n\nRufe complete() am Interaction-Objekt auf, sobald du fertig bist, um die serverseitige Generierung zu beenden und die Abrechnung abzuschließen.\n\nRufe interaction.complete() explizit in Terminierungs- und Fehlerbehandlungsblöcken auf, um den Echtzeit-Stream zu schließen und eine fortlaufende Abrechnung der Video-Token zu vermeiden.\n\nErzeuge kurzlebige, einmal verwendbare Sitzungstoken mit interactions.authTokens.create, wenn sich Web-Clients per WebRTC verbinden, damit langlebige Gemini-API-Schlüssel geheim bleiben.\n\nPlatziere Client-Sitzungen und Backend-Proxys nahe den Serverregionen in Nordamerika, Westeuropa oder Ostasien, um Round-Trip-Latenzen unter 150 Millisekunden für eine reaktionsschnelle Steuerung zu halten.",
+ "source_sha256": "dea628b2cd8bb831f01940ee70d82acaca726a52ab9d8605fe8ae483108f3ac3",
+ "summary": "Genie 4 ist ein interaktiver, generativer Simulationsendpunkt für kostenpflichtige Gemini-API-Konten. Die Ausgabe verbraucht etwa 240 Video-Token pro Frame oder 5.760 Token pro Sekunde bei 24 fps mit Stereoton. Die Nutzung kostet etwa 0,10 $ pro Sekunde (6,05 $ pro Minute) und erfordert die Aktivierung der Abrechnung in Google AI Studio. Das Preismodell legt eigene Tarife für interaktives Video-Streaming für Entwickleranwendungen fest.",
+ "title": "Google startet Genie-4-API mit Abrechnung für Streaming-Token",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-56a8f448dc",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Activa la facturación de pago en una cuenta de Google AI Studio y crea una clave de API de Gemini.\n\nInicia una sesión interactiva mediante client.interactions.create con el modelo especificado como genie-4.\n\nConéctate a la sesión de streaming a través de WebRTC o WebSocket y envía un evento world_setup que contenga un prompt semilla o una imagen 16:9.\n\nTransmite en tiempo real las entradas de control del usuario, como la navegación con WASD y los prompts de texto durante la sesión, para navegar y alterar el entorno simulado de forma dinámica.\n\nLlama a complete() sobre el objeto de interacción al terminar para detener el proceso de generación en el servidor y cerrar la facturación.\n\nInvoca explícitamente interaction.complete() dentro de los bloques de terminación y manejo de errores para cerrar el stream en tiempo real y evitar el cobro continuo por los tokens de salida de vídeo.\n\nGenera tokens de sesión efímeros de un solo uso mediante interactions.authTokens.create al conectar clientes web por WebRTC, para mantener privadas las claves de API de Gemini de larga duración.\n\nUbica las sesiones de cliente y los proxies backend cerca de las regiones de servicio en Norteamérica, Europa occidental o Asia oriental, para mantener latencias de ida y vuelta inferiores a 150 milisegundos y garantizar una respuesta ágil al control.",
+ "source_sha256": "dea628b2cd8bb831f01940ee70d82acaca726a52ab9d8605fe8ae483108f3ac3",
+ "summary": "Genie 4 es un endpoint de simulación generativa interactiva para cuentas de pago de la API de Gemini. La salida consume aproximadamente 240 tokens de vídeo por fotograma, o 5.760 tokens por segundo a 24 fps con sonido estéreo. El uso cuesta aproximadamente 0,10 dólares por segundo (6,05 dólares por minuto) y requiere activar la facturación en Google AI Studio. El modelo de precios establece tarifas específicas para el streaming de vídeo interactivo en aplicaciones para desarrolladores.",
+ "title": "Google lanza la API de Genie 4 con facturación por tokens de streaming",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

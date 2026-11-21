@@ -1,0 +1,11 @@
+{
+ "id": "n-56a8f448dc",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 Google AI Studio 账户上启用付费计费，并创建 Gemini API 密钥。\n\n通过 client.interactions.create 发起交互式会话，并将 model 指定为 genie-4。\n\n通过 WebRTC 或 WebSocket 连接流式会话，并发送一个 world_setup 事件，其中包含种子提示词或 16:9 图像。\n\n实时流式传输用户的操控输入，例如 WASD 导航以及会话中途的文本提示，以动态导航并改变模拟环境。\n\n会话结束后，对交互对象调用 complete()，以终止服务器端的生成过程并结束计费。\n\n在终止和错误处理代码块中显式调用 interaction.complete()，以关闭实时流并避免持续产生视频输出 token 的计费。\n\n通过 WebRTC 连接网页客户端时，使用 interactions.authTokens.create 生成一次性使用的临时会话令牌，以保证长期有效的 Gemini API 密钥不外泄。\n\n将客户端会话和后端代理部署在北美、西欧或东亚的服务区域附近，使往返延迟保持在 150 毫秒以内，以确保操控响应灵敏。",
+ "source_sha256": "dea628b2cd8bb831f01940ee70d82acaca726a52ab9d8605fe8ae483108f3ac3",
+ "summary": "Genie 4 是面向付费 Gemini API 账户的交互式生成式模拟端点。以 24 fps 输出带立体声的内容时，每帧约消耗 240 个视频 token，即每秒 5,760 个 token。费用约为每秒 0.10 美元（每分钟 6.05 美元），并需要在 Google AI Studio 中启用计费。该定价模式为开发者应用确立了专门的交互式视频流传输资费。",
+ "title": "Google 推出 Genie 4 API，采用流式 token 计费",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

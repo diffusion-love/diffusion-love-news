@@ -1,0 +1,11 @@
+{
+ "id": "n-4526450394",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Greifen Sie über einen Desktop-Webbrowser auf Project Genie zu, und zwar mit einem authentifizierten Google-AI-Ultra-Konto, das in den unterstützten Regionen (USA, ab 18 Jahren) berechtigt ist.\n\nBeschreiben Sie die Szene, den Stil und die spielbare Figur in natürlicher Sprache, oder laden Sie ein Referenzbild hoch, das das Szenenlayout, die Ästhetik und die spielbare Figur festlegt.\n\nErkunden und durchqueren Sie die generierte 3D-Umgebung in Echtzeit mit der üblichen Tastatur- und Maussteuerung.\n\nVerändern Sie die laufende Simulation dynamisch, indem Sie während des Betriebs Text-Prompts eingeben oder sprechen, um Beleuchtung und Wetter anzupassen oder neue Entitäten einzuführen.\n\nGeben Sie vor Beginn der Echtzeit-Navigation präzise initiale Textbeschreibungen oder saubere Bildausschnitte sowohl für die Umgebung als auch für die Figur vor, um die visuelle Kohärenz zu verankern.\n\nNehmen Sie schrittweise Prompt-Änderungen während der Sitzung vor statt drastischer Szenenumbrüche, um Physik-Drift und räumliche Artefakte zu minimieren.\n\nBeschränken Sie Explorationssitzungen auf kurze Zeitfenster, die sich für das Konzept-Prototyping eignen, und vermeiden Sie lange Läufe, bei denen sich angesammelter Drift negativ auf die Kontinuität der Umgebung auswirkt.",
+ "source_sha256": "692b550261c58f3fc711f3194820ae421a3e40de64dc0fc43e5e03236ebf1f72",
+ "summary": "Google hat eine experimentelle Vorabversion von Project Genie für Abonnenten von Google AI Ultra in den Vereinigten Staaten gestartet. Sie nutzt das Weltmodell Genie 4, um aus Text- und Bild-Prompts interaktive, kurzlebige 720p-Umgebungen mit synchronisiertem Audio zu erzeugen.",
+ "title": "Google öffnet frühen Zugang zu Project Genie, angetrieben von Genie 4",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

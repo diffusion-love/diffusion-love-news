@@ -1,0 +1,11 @@
+{
+ "id": "n-511a5a9fcc",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Acquérir des signaux EEG multicanaux auprès de sujets observant des stimuli visuels, à l'aide de matériel EEG grand public ou de laboratoire, tel qu'un bonnet à 32 canaux à électrodes humides.\n\nCollecter environ 15 minutes de données de calibrage EEG propres à chaque utilisateur afin d'adapter la représentation partagée multi-sujets d'ENIGMA aux schémas cérébraux individuels.\n\nTraiter les signaux EEG bruts à travers le backbone spatio-temporel et les couches d'alignement de l'espace latent multi-sujets afin de projeter les signaux dans l'espace latent visuel pour la reconstruction d'images.\n\nPré-entraîner des backbones de décodage neuronal sur des ensembles multi-sujets afin d'apprendre des représentations visuelles généralisées, plutôt que d'entraîner des modèles individuels séparés à partir de zéro.\n\nDéployer des backbones spatio-temporels unifiés et légers, dotés de couches d'alignement de l'espace latent, afin de minimiser le nombre de paramètres et de permettre une inférence locale sans grands clusters de calcul.",
+ "source_sha256": "6ffd1e03a20b4d9be4325448deda759ced767a9a48fcd66d59ed03ccab06cc5c",
+ "summary": "Alljoined a développé le modèle multi-sujets ENIGMA pour reconstruire des images vues à partir de signaux EEG non invasifs. L'architecture repose sur un backbone spatio-temporel unifié doté de couches d'alignement des sujets, appuyée par le jeu de données de réponses aux images Alljoined-1.6M et par le jeu de données d'émotions NOVA.",
+ "title": "Alljoined détaille le modèle ENIGMA et les jeux de données EEG ouverts pour le décodage neuronal visuel",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
