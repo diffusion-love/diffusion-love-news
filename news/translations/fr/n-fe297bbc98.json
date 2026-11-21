@@ -1,0 +1,11 @@
+{
+ "id": "n-fe297bbc98",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt Coral79/PAMI-Code depuis GitHub et configurez l'environnement avec les paquets requis pour PyTorch, CUDA et la géométrie 3D.\n\nFournissez une invite textuelle descriptive associée à un maillage 3D de l'objet cible conforme aux conventions de coordonnées attendues.\n\nExécutez le pipeline de génération grossière à l'aide de PamiGen dans l'espace latent de PamiVAE afin de produire des trajectoires candidates validées par des ancres.\n\nAppliquez le module récursif PamiRefiner pour ajuster la géométrie fine des contacts et résoudre les pénétrations des pieds ou des mains à travers la surface de l'objet.\n\nAssurez-vous que les maillages d'objets en entrée présentent une géométrie de surface propre et une échelle cohérente afin que les capteurs de proximité du raffineur puissent calculer des champs de contact valides.\n\nConservez le pipeline complet de génération grossière à fine avec PamiRefiner plutôt que d'utiliser seulement les échantillons latents grossiers, afin d'éviter les pénétrations de contact localisées.",
+ "source_sha256": "67c570bc53345a4406cc85c37def110cdad1f38f36bbd24441c45311644e6e3f",
+ "summary": "Le dépôt officiel de Part-Anchored Motion (PAMI) a été publié sur GitHub ; il fournit le code du modèle permettant de générer des mouvements humains coordonnés et des trajectoires d'objets 3D à partir d'invites textuelles et de maillages d'objets.",
+ "title": "Publication du dépôt PAMI pour la génération d'interactions ancrées par parties",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

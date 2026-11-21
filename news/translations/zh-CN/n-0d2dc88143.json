@@ -1,0 +1,11 @@
+{
+ "id": "n-0d2dc88143",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "克隆 FAB 项目仓库，并使用 PyTorch 及其依赖项搭建 Python 环境。\n\n从提供的模型仓库下载预训练的 ViT-L 学生模型权重。\n\n运行视频推理脚本，从单目视频中提取 3D 关节骨架、稠密表面点云以及关节接触状态。\n\n将预测的关节姿态和接触信号映射为人形机器人控制目标，例如 Unitree G1 机器人。\n\n部署在 RTX 4070 Ti SUPER 等高吞吐量 GPU 上，在包含检测过程的情况下，将实时重建吞吐量保持在每秒三十九帧以上。\n\n利用预测得到的脚跟、脚趾、手部和膝盖接触状态，在机器人重定向过程中施加物理接触约束，减轻足部滑动和地面穿透问题。",
+ "source_sha256": "513eec57e4b14769b63ccc66985006ed6e6435bdb958b564e0fc4bfabb281bdd",
+ "summary": "FAB 提出了一种快速的 3D 人体重建模型，它从 SAM 3D Body 蒸馏而来，采用 ViT-L 学生架构。该模型在 RTX 4070 Ti SUPER GPU 上集成检测功能后可达到 39.2 FPS，能够估计 3D 骨架、稠密表面点云，以及脚跟、脚趾、手部和膝盖的接触预测，从而实现向 Unitree G1 人形机器人的直接动作重定向。",
+ "title": "FAB：快速人体重建模型发布",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

@@ -309,6 +309,11 @@
   "title": "SCAIL-2: animación de personajes de calidad de estudio mediante aprendizaje en contexto",
   "translated_at": "2026-11-13"
  },
+ "n-0d2dc88143": {
+  "fresh": true,
+  "title": "Se publica FAB, un modelo rápido de reconstrucción del cuerpo humano",
+  "translated_at": "2026-11-21"
+ },
  "n-0d7aed5e86": {
   "fresh": true,
   "title": "Adobe anunció planes para adquirir Topaz Labs",
@@ -2564,6 +2569,11 @@
   "title": "Los recursos públicos del proyecto Boogu-Image quedaron enlazados",
   "translated_at": "2026-10-24"
  },
+ "n-7ac78e35db": {
+  "fresh": true,
+  "title": "Gemini app introduces background computer use on macOS",
+  "translated_at": "2026-11-21"
+ },
  "n-7bd01d988c": {
   "fresh": true,
   "title": "El 2026-08-04, QuerySplat quedó vinculado a través de su sitio del proyecto, su repositorio de GitHub y su página de Hugging Face.",
@@ -3739,6 +3749,11 @@
   "title": "Estrategia de IA empresarial de Sber presentada en la conferencia de Norilsk Nickel",
   "translated_at": "2026-11-18"
  },
+ "n-b89e603f7f": {
+  "fresh": true,
+  "title": "Publicados el código y los pesos de FAB para la reconstrucción del cuerpo humano",
+  "translated_at": "2026-11-21"
+ },
  "n-b8abd7e35e": {
   "fresh": true,
   "title": "Repositorio de GitHub de Cream Typer referenciado",
@@ -4234,6 +4249,11 @@
   "title": "Repositorio Huihui-gemma-4-12B-it-abliterated referenciado",
   "translated_at": "2026-10-24"
  },
+ "n-d1f7c7e277": {
+  "fresh": true,
+  "title": "PAMI publica el código para la síntesis de text-to-HOI anclada por partes",
+  "translated_at": "2026-11-21"
+ },
  "n-d1faa63ee9": {
   "fresh": true,
   "title": "CoInteract: generación de vídeo de interacciones interactivas entre humanos y objetos",
@@ -4373,6 +4393,11 @@
   "fresh": true,
   "title": "Kling Image 4.0 logra coherencia de series de 10 fotogramas",
   "translated_at": "2026-11-19"
+ },
+ "n-d8b407c155": {
+  "fresh": true,
+  "title": "FastUnlock, un zero-day que evita la pantalla de bloqueo de Windows 11 a través de la interfaz de Narrator",
+  "translated_at": "2026-11-21"
  },
  "n-d8bf4374be": {
   "fresh": true,
@@ -5138,6 +5163,11 @@
   "fresh": true,
   "title": "LGTM: Less Gaussians, Texture More para la reconstrucción 3D",
   "translated_at": "2026-10-24"
+ },
+ "n-fe297bbc98": {
+  "fresh": true,
+  "title": "Publicado el repositorio de PAMI para la generación de interacciones part-anchored",
+  "translated_at": "2026-11-21"
  },
  "n-fe2f35c14b": {
   "fresh": true,

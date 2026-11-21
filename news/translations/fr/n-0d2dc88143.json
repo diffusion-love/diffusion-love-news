@@ -1,0 +1,11 @@
+{
+ "id": "n-0d2dc88143",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt du projet FAB et configurez l'environnement Python avec PyTorch et les dépendances.\n\nTéléchargez les poids du modèle étudiant ViT-L pré-entraîné depuis le dépôt de modèles fourni.\n\nExécutez le script d'inférence vidéo pour extraire des squelettes articulaires 3D, des nuages de points de surface denses et les états de contact articulaires à partir d'une vidéo monoculaire.\n\nAssociez les poses articulaires prédites et les signaux de contact aux cibles de commande d'un humanoïde, comme le robot Unitree G1.\n\nDéployez sur un GPU à haut débit, tel qu'une RTX 4070 Ti SUPER, pour maintenir un débit de reconstruction en temps réel supérieur à trente-neuf images par seconde, détection incluse.\n\nExploitez les états de contact prédits au niveau des talons, des orteils, des mains et des genoux pour imposer des contraintes de contact physique et atténuer le glissement des pieds ou la pénétration dans le sol lors du reciblage robotique.",
+ "source_sha256": "513eec57e4b14769b63ccc66985006ed6e6435bdb958b564e0fc4bfabb281bdd",
+ "summary": "FAB introduit un modèle rapide de reconstruction 3D du corps humain, distillé à partir de SAM 3D Body dans une architecture étudiante ViT-L. Il estime des squelettes 3D, des nuages de points de surface denses et des prédictions de contact pour les talons, les orteils, les mains et les genoux à 39,2 FPS sur un GPU RTX 4070 Ti SUPER, détection intégrée, ce qui permet un reciblage direct du mouvement vers le humanoïde Unitree G1.",
+ "title": "FAB : sortie du modèle rapide de reconstruction du corps humain",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

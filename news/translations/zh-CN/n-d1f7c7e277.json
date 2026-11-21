@@ -1,0 +1,11 @@
+{
+ "id": "n-d1f7c7e277",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从 GitHub 克隆 Coral79/PAMI-Code 仓库，并配置所需的 PyTorch、CUDA 和 3D 几何软件包环境。\n\n提供一段描述性文本提示，并搭配一个符合预期坐标约定的 3D 目标物体网格。\n\n在 PamiVAE 潜空间中使用 PamiGen 执行粗略生成流程，以生成经锚点投票的候选轨迹。\n\n应用递归式 PamiRefiner 模块来调整精细接触几何，并消除足部或手部与物体表面的穿模问题。\n\n确保输入的物体网格具有干净的表面几何和一致的尺度，以便 PamiRefiner 中的邻近传感器能够计算有效的接触场。\n\n保留由粗到精的完整生成流程（包含 PamiRefiner），而不是仅使用粗略的潜变量样本，以防止局部接触穿模。",
+ "source_sha256": "73585ebbc071824a48fce1570514f5a9e1ed2bc355a98a368ac77fe6da137de8",
+ "summary": "本次发布引入了 PAMI，作者为 Chuqiao Li、Xianghui Xie、Yong Cao、Andreas Geiger 和 Gerard Pons-Moll，实现了基于 PamiVAE、PamiGen 和 PamiRefiner 的部件锚定轨迹投票方法。",
+ "title": "PAMI 发布部件锚定文本到 HOI 合成的代码",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

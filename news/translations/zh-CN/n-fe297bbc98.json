@@ -1,0 +1,11 @@
+{
+ "id": "n-fe297bbc98",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从GitHub克隆Coral79/PAMI-Code仓库，并配置所需的PyTorch、CUDA和3D几何相关软件包。\n\n提供一段描述性文本提示，并配以符合预期坐标约定的3D目标物体网格。\n\n在PamiVAE潜在空间中使用PamiGen执行粗粒度生成流程，以生成经锚点投票的候选轨迹。\n\n应用递归式PamiRefiner模块来调整精细接触几何，并解决脚部或手部与物体表面的穿透问题。\n\n确保输入物体网格具有干净的表面几何和一致的尺度，以便精炼器中的近距离传感器能够计算有效的接触场。\n\n保留完整的从粗到精生成流程（使用PamiRefiner），而非仅使用粗粒度潜在样本，以防止局部接触穿透。",
+ "source_sha256": "67c570bc53345a4406cc85c37def110cdad1f38f36bbd24441c45311644e6e3f",
+ "summary": "Part-Anchored Motion（PAMI）的官方仓库已在GitHub上发布，提供了根据文本提示和物体网格生成协调人体运动与3D物体轨迹的模型代码。",
+ "title": "PAMI部位锚定交互生成仓库发布",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-0d2dc88143",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das FAB-Projektrepository und richten Sie die Python-Umgebung mit PyTorch und den Abhängigkeiten ein.\n\nLaden Sie die vortrainierten Gewichte des ViT-L-Studentenmodells aus dem bereitgestellten Modell-Repository herunter.\n\nFühren Sie das Skript für die Videoinferenz aus, um 3D-Gelenkskelette, dichte Oberflächenpunktwolken und Gelenkkontaktzustände aus monokularen Videos zu extrahieren.\n\nBilden Sie die vorhergesagten Gelenkposen und Kontaktsignale auf humanoide Steuerungsziele ab, etwa für den Roboter Unitree G1.\n\nSetzen Sie auf einer leistungsstarken GPU wie der RTX 4070 Ti SUPER ein, um eine Echtzeit-Rekonstruktionsrate von über 39 Bildern pro Sekunde einschließlich Detektion beizubehalten.\n\nNutzen Sie die vorhergesagten Kontaktzustände an Fersen, Zehen, Händen und Knien, um physikalische Kontaktbedingungen durchzusetzen und Fußgleiten sowie das Eindringen in den Boden beim Retargeting auf den Roboter zu verringern.",
+ "source_sha256": "513eec57e4b14769b63ccc66985006ed6e6435bdb958b564e0fc4bfabb281bdd",
+ "summary": "FAB stellt ein schnelles Modell zur 3D-Rekonstruktion des menschlichen Körpers vor, das aus SAM 3D Body in eine ViT-L-Studentenarchitektur destilliert wurde. Es schätzt 3D-Skelette, dichte Oberflächenpunktwolken und Kontaktvorhersagen für Fersen, Zehen, Hände und Knie mit 39,2 FPS auf einer RTX 4070 Ti SUPER-GPU mit integrierter Detektion und ermöglicht so das direkte Motion Retargeting auf den humanoiden Roboter Unitree G1.",
+ "title": "FAB: Schnelles Modell zur Rekonstruktion des menschlichen Körpers veröffentlicht",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

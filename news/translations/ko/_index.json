@@ -304,6 +304,11 @@
   "title": "SCAIL-2: 인컨텍스트 학습 기반 스튜디오급 캐릭터 애니메이션",
   "translated_at": "2026-11-13"
  },
+ "n-0d2dc88143": {
+  "fresh": true,
+  "title": "FAB: 빠른 인체 재구성 모델 공개",
+  "translated_at": "2026-11-21"
+ },
  "n-0d7aed5e86": {
   "fresh": true,
   "title": "Adobe, Topaz Labs 인수 계획 발표",
@@ -2559,6 +2564,11 @@
   "title": "Boogu-Image 공개 프로젝트 리소스 연결됨",
   "translated_at": "2026-10-24"
  },
+ "n-7ac78e35db": {
+  "fresh": true,
+  "title": "Gemini 앱, macOS에 백그라운드 컴퓨터 사용 기능 도입",
+  "translated_at": "2026-11-21"
+ },
  "n-7bd01d988c": {
   "fresh": true,
   "title": "2026-08-04에 QuerySplat이 프로젝트 사이트, GitHub 저장소, Hugging Face 페이지를 통해 연결되었다.",
@@ -3734,6 +3744,11 @@
   "title": "Norilsk Nickel 컨퍼런스에서 발표된 Sber의 기업 AI 전략",
   "translated_at": "2026-11-18"
  },
+ "n-b89e603f7f": {
+  "fresh": true,
+  "title": "FAB 인체 재구성 코드 및 가중치 공개",
+  "translated_at": "2026-11-21"
+ },
  "n-b8abd7e35e": {
   "fresh": true,
   "title": "Cream Typer GitHub 저장소 참조",
@@ -4229,6 +4244,11 @@
   "title": "Huihui-gemma-4-12B-it-abliterated 저장소 참조",
   "translated_at": "2026-10-24"
  },
+ "n-d1f7c7e277": {
+  "fresh": true,
+  "title": "PAMI, 부위 앵커 기반 text-to-HOI 합성을 위한 코드 공개",
+  "translated_at": "2026-11-21"
+ },
  "n-d1faa63ee9": {
   "fresh": true,
   "title": "CoInteract: 인터랙티브 인간-객체 비디오 생성",
@@ -4368,6 +4388,11 @@
   "fresh": true,
   "title": "Kling Image 4.0, 10컷 시리즈 일관성 구현",
   "translated_at": "2026-11-19"
+ },
+ "n-d8b407c155": {
+  "fresh": true,
+  "title": "FastUnlock 제로데이, 내레이터 인터페이스를 통해 Windows 11 잠금 화면 우회",
+  "translated_at": "2026-11-21"
  },
  "n-d8bf4374be": {
   "fresh": true,
@@ -5128,6 +5153,11 @@
   "fresh": true,
   "title": "LGTM: Less Gaussians, Texture More for 3D Reconstruction",
   "translated_at": "2026-10-24"
+ },
+ "n-fe297bbc98": {
+  "fresh": true,
+  "title": "PAMI 부위 앵커 상호작용 생성 저장소 공개",
+  "translated_at": "2026-11-21"
  },
  "n-fe2f35c14b": {
   "fresh": true,

@@ -309,6 +309,11 @@
   "title": "SCAIL-2: анимация персонажей студийного уровня через in-context learning",
   "translated_at": "2026-11-13"
  },
+ "n-0d2dc88143": {
+  "fresh": true,
+  "title": "FAB: выпущена модель быстрой реконструкции тела человека",
+  "translated_at": "2026-11-21"
+ },
  "n-0d7aed5e86": {
   "fresh": true,
   "title": "Adobe объявила о планах приобрести Topaz Labs",
@@ -2564,6 +2569,11 @@
   "title": "Публичные ресурсы проекта Boogu-Image опубликованы",
   "translated_at": "2026-10-24"
  },
+ "n-7ac78e35db": {
+  "fresh": true,
+  "title": "Приложение Gemini получило фоновое использование компьютера на macOS",
+  "translated_at": "2026-11-21"
+ },
  "n-7bd01d988c": {
   "fresh": true,
   "title": "4 августа 2026 года QuerySplat была связана со своим сайтом проекта, репозиторием на GitHub и страницей на Hugging Face.",
@@ -4234,6 +4244,11 @@
   "title": "Упоминание репозитория Huihui-gemma-4-12B-it-abliterated",
   "translated_at": "2026-10-24"
  },
+ "n-d1f7c7e277": {
+  "fresh": true,
+  "title": "PAMI опубликовал код для синтеза text-to-HOI с привязкой к частям тела (part-anchored)",
+  "translated_at": "2026-11-21"
+ },
  "n-d1faa63ee9": {
   "fresh": true,
   "title": "CoInteract: генерация интерактивных видео «человек–объект»",
@@ -4373,6 +4388,11 @@
   "fresh": true,
   "title": "Kling Image 4.0 обеспечивает согласованность серии из 10 кадров",
   "translated_at": "2026-11-19"
+ },
+ "n-d8b407c155": {
+  "fresh": true,
+  "title": "FastUnlock: zero-day обходит экран блокировки Windows 11 через интерфейс Narrator",
+  "translated_at": "2026-11-21"
  },
  "n-d8bf4374be": {
   "fresh": true,
@@ -5138,6 +5158,11 @@
   "fresh": true,
   "title": "LGTM: Less Gaussians, Texture More for 3D Reconstruction",
   "translated_at": "2026-10-24"
+ },
+ "n-fe297bbc98": {
+  "fresh": true,
+  "title": "Опубликован репозиторий PAMI для генерации взаимодействий, привязанных к частям тела",
+  "translated_at": "2026-11-21"
  },
  "n-fe2f35c14b": {
   "fresh": true,

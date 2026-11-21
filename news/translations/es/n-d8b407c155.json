@@ -1,0 +1,11 @@
+{
+ "id": "n-d8b407c155",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Garantice el control físico de los equipos con Windows 11 en funcionamiento desactivando el despertar automático y desconectando los puertos de periféricos externos cuando no haya nadie presente.\n\nApague o hiberne los dispositivos por completo en lugar de dejarlos bloqueados cuando estén desatendidos, para forzar el cifrado en reposo de los volúmenes de BitLocker.\n\nImponga el apagado o la hibernación completos del sistema, en lugar del estado de pantalla de bloqueo estándar, en entornos físicos compartidos o no fiables, para evitar el acceso a BitLocker descifrado en memoria.\n\nRestrinja la ejecución desde dispositivos de almacenamiento masivo USB externos y vigile la aparición de parches zero-day de accesibilidad no coordinados en las actualizaciones de seguridad del fabricante.",
+ "source_sha256": "1912b6e71629684542d16cb71567f25462510e3ffd97e1ace0d8a382061588a1",
+ "summary": "El investigador Abdelhamid Naceri ha revelado FastUnlock, una vulnerabilidad zero-day en Windows 11 en la que una interfaz sin restricciones de Narrator permite a atacantes con acceso físico entrar en Settings y ejecutar archivos ejecutables arbitrarios en sistemas con BitLocker descifrados y bloqueados, bajo WsiAccount.",
+ "title": "FastUnlock, un zero-day que evita la pantalla de bloqueo de Windows 11 a través de la interfaz de Narrator",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

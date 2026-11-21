@@ -1,0 +1,11 @@
+{
+ "id": "n-d1f7c7e277",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona el repositorio Coral79/PAMI-Code de GitHub y configura el entorno con los paquetes necesarios de PyTorch, CUDA y geometría 3D.\n\nProporciona un prompt de texto descriptivo emparejado con una malla 3D del objeto objetivo que se ajuste a las convenciones de coordenadas esperadas.\n\nEjecuta el pipeline de generación gruesa usando PamiGen dentro del espacio latente de PamiVAE para producir trayectorias candidatas votadas por anclajes.\n\nAplica el módulo recursivo PamiRefiner para ajustar la geometría de contacto fina y resolver las penetraciones de pies o manos en la superficie del objeto.\n\nAsegúrate de que las mallas de objetos de entrada tengan una geometría de superficie limpia y una escala consistente, para que los sensores de proximidad del refinador puedan calcular campos de contacto válidos.\n\nMantén el pipeline completo de generación de grueso a fino con PamiRefiner en lugar de usar únicamente muestras latentes gruesas, para evitar penetraciones de contacto localizadas.",
+ "source_sha256": "73585ebbc071824a48fce1570514f5a9e1ed2bc355a98a368ac77fe6da137de8",
+ "summary": "La publicación presenta PAMI, de Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger y Gerard Pons-Moll, que implementa la votación de trayectorias ancladas por partes mediante PamiVAE, PamiGen y PamiRefiner.",
+ "title": "PAMI publica el código para la síntesis de text-to-HOI anclada por partes",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
