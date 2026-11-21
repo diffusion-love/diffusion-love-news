@@ -51244,6 +51244,169 @@
     ],
     "claims": []
   },
+  "longcat-avatar": {
+    "family_slug": "longcat-avatar",
+    "family_display": "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+    "family_display_variants": [
+      {
+        "family_display": "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-4206ab6f17",
+          "n-9c903a6a95"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "animation-motion"
+    ],
+    "post_count": 2,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-4206ab6f17",
+      "n-9c903a6a95"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-4206ab6f17",
+        "title": "ComfyUI node pack for LongCat-Avatar released by PixelAILabs",
+        "primary_link": "https://github.com/Pixelailabs/ComfyUI-LongCat-Avatar-PixelAILabs"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-9c903a6a95",
+        "title": "ComfyUI-LongCat-Avatar wrapper released by PedroMarinhoDev",
+        "primary_link": "https://github.com/Pixelailabs/ComfyUI-LongCat-Avatar-PixelAILabs"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/Pixelailabs/ComfyUI-LongCat-Avatar-PixelAILabs",
+        "is_primary": true,
+        "verified_at": "2026-11-21T11:02:20Z",
+        "news_ids": [
+          "n-4206ab6f17",
+          "n-9c903a6a95"
+        ]
+      },
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/PedroMarinhoDev/ComfyUI-LongCat-Avatar",
+        "is_primary": false,
+        "verified_at": "2026-11-21T11:02:20Z",
+        "news_ids": [
+          "n-4206ab6f17",
+          "n-9c903a6a95"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "ComfyUI node pack for LongCat-Avatar released by PixelAILabs",
+        "summary": "PixelAILabs released an open-source ComfyUI custom node package for Meituan LongCat-Avatar 1.6, adding audio-driven avatar animation with Whisper-based feature extraction and multi-frame auto-extend workflows.",
+        "version": null,
+        "news_id": "n-4206ab6f17",
+        "primary_link": "https://github.com/Pixelailabs/ComfyUI-LongCat-Avatar-PixelAILabs"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "ComfyUI-LongCat-Avatar wrapper released by PedroMarinhoDev",
+        "summary": "PedroMarinhoDev released a ComfyUI integration for LongCat-Avatar 1.6, enabling local character portrait lip-sync generation through modular node pipelines.",
+        "version": null,
+        "news_id": "n-9c903a6a95",
+        "primary_link": "https://github.com/Pixelailabs/ComfyUI-LongCat-Avatar-PixelAILabs"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-9c903a6a95",
+        "date": "2026-11-20",
+        "title": "ComfyUI-LongCat-Avatar wrapper released by PedroMarinhoDev",
+        "category": "animation-motion",
+        "entry_type": "news",
+        "project": "longcat-avatar",
+        "version": null,
+        "tags": [
+          "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+          "animation-motion",
+          "family:longcat-avatar",
+          "longcat-avatar",
+          "longcat-avatar-comfyui-custom-nodes",
+          "tools-frontend"
+        ],
+        "primary_link": "https://github.com/Pixelailabs/ComfyUI-LongCat-Avatar-PixelAILabs",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-4206ab6f17",
+        "date": "2026-11-20",
+        "title": "ComfyUI node pack for LongCat-Avatar released by PixelAILabs",
+        "category": "animation-motion",
+        "entry_type": "news",
+        "project": "longcat-avatar",
+        "version": null,
+        "tags": [
+          "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+          "animation-motion",
+          "family:longcat-avatar",
+          "longcat-avatar",
+          "longcat-avatar-comfyui-custom-nodes",
+          "tools-frontend"
+        ],
+        "primary_link": "https://github.com/Pixelailabs/ComfyUI-LongCat-Avatar-PixelAILabs",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "longcat-avatar-comfyui-custom-nodes",
+        "display": "Longcat Avatar Comfyui Custom Nodes",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-9c903a6a95",
+        "news_ids": [
+          "n-4206ab6f17",
+          "n-9c903a6a95"
+        ]
+      }
+    ]
+  },
   "loomvideo": {
     "family_slug": "loomvideo",
     "family_display": "LoomVideo",

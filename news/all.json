@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T09:59:28Z",
+  "generated_at": "2026-11-21T11:02:20Z",
   "site": "diffusion.love",
-  "total": 1051,
+  "total": 1053,
   "records": [
     {
       "schema_version": "1.4",
@@ -1151,6 +1151,121 @@
     },
     {
       "schema_version": "1.4",
+      "id": "n-9c903a6a95",
+      "entry_type": "news",
+      "category": "animation-motion",
+      "lang": "en",
+      "title": "ComfyUI-LongCat-Avatar wrapper released by PedroMarinhoDev",
+      "summary": "PedroMarinhoDev released a ComfyUI integration for LongCat-Avatar 1.6, enabling local character portrait lip-sync generation through modular node pipelines.",
+      "research_notes": "Clone or install the custom node repository into the ComfyUI/custom_nodes directory and install Python dependencies.\n\nDownload the LongCat-Avatar model checkpoint weights and Whisper audio encoder into the designated ComfyUI models folders.\n\nLoad the LongCat Avatar workflow graph, connect a single character portrait image and a target speech audio file to the node inputs.\n\nExecute the generation queue using distilled 8-step sampling for rapid rendering or the auto-extend loop for longer audio tracks.\n\nUse clean, noise-free speech audio with clear pronunciation to ensure accurate Whisper feature extraction and precise mouth synchronization.\n\nApply positive text prompts describing stable framing and clothing to constrain undesired camera motion or posture shifts across multi-frame sequences.\n\nFor audio longer than single-clip duration, use auto-extend windowing with overlapping frames to maintain temporal consistency and prevent boundary seam artifacts.",
+      "project": {
+        "name": "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+        "family_slug": "longcat-avatar",
+        "family_display": "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+        "model_slug": "longcat-avatar",
+        "model_display": "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "longcat-avatar-comfyui-custom-nodes",
+        "thread_display": "Longcat Avatar Comfyui Custom Nodes",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+        "article_url": "https://happyin.space/projects/longcat-avatar/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6550eb5e699d38e49b4421ca38afcc526603be08/docs/projects/longcat-avatar.md",
+        "agent_context_url": "https://happyin.space/projects/longcat-avatar/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "ComfyUI-LongCat-Avatar wrapper released by PedroMarinhoDev",
+        "version": null,
+        "summary": "PedroMarinhoDev released a ComfyUI integration for LongCat-Avatar 1.6, enabling local character portrait lip-sync generation through modular node pipelines."
+      },
+      "tags": [
+        "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+        "animation-motion",
+        "family:longcat-avatar",
+        "longcat-avatar",
+        "longcat-avatar-comfyui-custom-nodes",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "animation-motion",
+        "entry_type": "news",
+        "projects": [
+          "longcat-avatar"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/Pixelailabs/ComfyUI-LongCat-Avatar-PixelAILabs",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T11:02:20Z"
+        },
+        {
+          "kind": "code",
+          "url": "https://github.com/PedroMarinhoDev/ComfyUI-LongCat-Avatar",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T11:02:20Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "PedroMarinhoDev released a ComfyUI integration for LongCat-Avatar 1.6, enabling local character portrait lip-sync generation through modular node pipelines."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T11:02:20Z",
+        "classified_at": "2026-11-21T11:02:20Z",
+        "enriched_at": "2026-11-21T11:02:20Z",
+        "verified_at": "2026-11-21T11:02:20Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
       "id": "n-93d71a9cbf",
       "entry_type": "news",
       "category": "llm",
@@ -2018,6 +2133,121 @@
         "classified_at": "2026-11-21T09:11:09Z",
         "enriched_at": "2026-11-21T09:11:09Z",
         "verified_at": "2026-11-21T09:11:09Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-4206ab6f17",
+      "entry_type": "news",
+      "category": "animation-motion",
+      "lang": "en",
+      "title": "ComfyUI node pack for LongCat-Avatar released by PixelAILabs",
+      "summary": "PixelAILabs released an open-source ComfyUI custom node package for Meituan LongCat-Avatar 1.6, adding audio-driven avatar animation with Whisper-based feature extraction and multi-frame auto-extend workflows.",
+      "research_notes": "Clone or install the custom node repository into the ComfyUI/custom_nodes directory and install Python dependencies.\n\nDownload the LongCat-Avatar model checkpoint weights and Whisper audio encoder into the designated ComfyUI models folders.\n\nLoad the LongCat Avatar workflow graph, connect a single character portrait image and a target speech audio file to the node inputs.\n\nExecute the generation queue using distilled 8-step sampling for rapid rendering or the auto-extend loop for longer audio tracks.\n\nUse clean, noise-free speech audio with clear pronunciation to ensure accurate Whisper feature extraction and precise mouth synchronization.\n\nApply positive text prompts describing stable framing and clothing to constrain undesired camera motion or posture shifts across multi-frame sequences.\n\nFor audio longer than single-clip duration, use auto-extend windowing with overlapping frames to maintain temporal consistency and prevent boundary seam artifacts.",
+      "project": {
+        "name": "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+        "family_slug": "longcat-avatar",
+        "family_display": "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+        "model_slug": "longcat-avatar",
+        "model_display": "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "longcat-avatar-comfyui-custom-nodes",
+        "thread_display": "Longcat Avatar Comfyui Custom Nodes",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+        "article_url": "https://happyin.space/projects/longcat-avatar/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6550eb5e699d38e49b4421ca38afcc526603be08/docs/projects/longcat-avatar.md",
+        "agent_context_url": "https://happyin.space/projects/longcat-avatar/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "ComfyUI node pack for LongCat-Avatar released by PixelAILabs",
+        "version": null,
+        "summary": "PixelAILabs released an open-source ComfyUI custom node package for Meituan LongCat-Avatar 1.6, adding audio-driven avatar animation with Whisper-based feature extraction and multi-frame auto-extend workflows."
+      },
+      "tags": [
+        "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+        "animation-motion",
+        "family:longcat-avatar",
+        "longcat-avatar",
+        "longcat-avatar-comfyui-custom-nodes",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "animation-motion",
+        "entry_type": "news",
+        "projects": [
+          "longcat-avatar"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/Pixelailabs/ComfyUI-LongCat-Avatar-PixelAILabs",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T11:02:20Z"
+        },
+        {
+          "kind": "code",
+          "url": "https://github.com/PedroMarinhoDev/ComfyUI-LongCat-Avatar",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T11:02:20Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "PixelAILabs released an open-source ComfyUI custom node package for Meituan LongCat-Avatar 1.6, adding audio-driven avatar animation with Whisper-based feature extraction and multi-frame auto-extend workflows."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T11:02:20Z",
+        "classified_at": "2026-11-21T11:02:20Z",
+        "enriched_at": "2026-11-21T11:02:20Z",
+        "verified_at": "2026-11-21T11:02:20Z",
         "models_used": {
           "research": "curated-live-material"
         },

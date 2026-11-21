@@ -192,6 +192,26 @@
     "has_video": false
   },
   {
+    "id": "n-9c903a6a95",
+    "date": "2026-11-20",
+    "title": "ComfyUI-LongCat-Avatar wrapper released by PedroMarinhoDev",
+    "category": "animation-motion",
+    "entry_type": "news",
+    "project": "longcat-avatar",
+    "version": null,
+    "tags": [
+      "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+      "animation-motion",
+      "family:longcat-avatar",
+      "longcat-avatar",
+      "longcat-avatar-comfyui-custom-nodes",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Pixelailabs/ComfyUI-LongCat-Avatar-PixelAILabs",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-93d71a9cbf",
     "date": "2026-11-20",
     "title": "Apple tightens macOS agent permissions while developing proprietary assistant",
@@ -340,6 +360,26 @@
       "project-genie-genie-4-rollout"
     ],
     "primary_link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-4206ab6f17",
+    "date": "2026-11-20",
+    "title": "ComfyUI node pack for LongCat-Avatar released by PixelAILabs",
+    "category": "animation-motion",
+    "entry_type": "news",
+    "project": "longcat-avatar",
+    "version": null,
+    "tags": [
+      "Longcat Avatar: longcat-avatar-comfyui-custom-nodes",
+      "animation-motion",
+      "family:longcat-avatar",
+      "longcat-avatar",
+      "longcat-avatar-comfyui-custom-nodes",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Pixelailabs/ComfyUI-LongCat-Avatar-PixelAILabs",
     "has_image": false,
     "has_video": false
   },
