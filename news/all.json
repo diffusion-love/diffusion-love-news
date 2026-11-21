@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T11:23:58Z",
+  "generated_at": "2026-11-21T12:34:41Z",
   "site": "diffusion.love",
-  "total": 1415,
+  "total": 1420,
   "records": [
     {
       "schema_version": "1.4",
@@ -451,6 +451,243 @@
         "classified_at": "2026-11-21T02:25:05Z",
         "enriched_at": "2026-11-21T02:25:05Z",
         "verified_at": "2026-11-21T02:25:05Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-ecf46cfdeb",
+      "entry_type": "news",
+      "category": "tools-frontend",
+      "lang": "en",
+      "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+      "summary": "The AGSoft Image Crop Plus custom node for ComfyUI has been updated with Nodes 2.0 support, dynamic preview scaling matching node size, improved frame dragging mechanics, bilingual tooltips, and interactive Upload, Reset, and Resume controls.",
+      "research_notes": "Install the comfyui-AGSoft extension pack through ComfyUI Manager or by cloning https://github.com/Art-xmaster/comfyui-AGSoft into the ComfyUI custom_nodes directory.\n\nLocate and place the AGSoft Image Crop Plus node in the graph, connecting an input image to its input port.\n\nResize the node to scale the preview window, manipulate the crop frame directly on the canvas, or use the Upload button to load a source image directly.\n\nPass the cropped image output to downstream processing, utilizing the Reset or Resume buttons to reconfigure the cropping boundaries without rebuilding the node.\n\nPair AGSoft Image Crop Plus with inpainting workflows and stitching nodes to process cropped regions at native resolution while preserving full-frame context.\n\nUse bilingual tooltips to verify coordinate parameters while maintaining standard English labels across ComfyUI Nodes 2.0 interface graphs.",
+      "project": {
+        "name": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+        "family_slug": "agsoft-image-crop-plus",
+        "family_display": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+        "model_slug": "agsoft-image-crop-plus",
+        "model_display": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "agsoft-image-crop-plus-releases",
+        "thread_display": "Agsoft Image Crop Plus Releases",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+        "article_url": "https://happyin.space/projects/agsoft-image-crop-plus/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/29d67b39ff4e45a4e3317fa05f69fc021b395ddf/docs/projects/agsoft-image-crop-plus.md",
+        "agent_context_url": "https://happyin.space/projects/agsoft-image-crop-plus/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+        "version": null,
+        "summary": "The AGSoft Image Crop Plus custom node for ComfyUI has been updated with Nodes 2.0 support, dynamic preview scaling matching node size, improved frame dragging mechanics, bilingual tooltips, and interactive Upload, Reset, and Resume controls."
+      },
+      "tags": [
+        "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+        "agsoft-image-crop-plus",
+        "agsoft-image-crop-plus-releases",
+        "family:agsoft-image-crop-plus",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "projects": [
+          "agsoft-image-crop-plus"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/Art-xmaster/comfyui-AGSoft",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:14:52Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "The AGSoft Image Crop Plus custom node for ComfyUI has been updated with Nodes 2.0 support, dynamic preview scaling matching node size, improved frame dragging mechanics, bilingual tooltips, and interactive Upload, Reset, and Resume controls."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T12:14:52Z",
+        "classified_at": "2026-11-21T12:14:52Z",
+        "enriched_at": "2026-11-21T12:14:52Z",
+        "verified_at": "2026-11-21T12:14:52Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-ebe85d9d57",
+      "entry_type": "news",
+      "category": "tools-frontend",
+      "lang": "en",
+      "title": "Claude multi-agent setup applied to theoretical black hole physics",
+      "summary": "Anthropic detailed that the multi-copy Claude workflow investigated holographic duality and anti-de Sitter space, validating calculations through two separate methods and encoding proof components in Lean.",
+      "research_notes": "Formulate mathematical conjectures or theoretical physics questions and translate problems into formal specification frameworks such as Lean 4.\n\nDeploy multi-copy or agentic Claude workflows to explore proof trees, perform symbolic expansions, and generate formal code modules.\n\nRun independent verification through formal theorem prover kernels like Lean 4 and alternative cross-checked derivations to audit AI-generated arguments.\n\nRequire formal interactive theorem provers such as Lean 4 to mechanically verify AI-generated mathematical claims rather than relying on natural-language prose.\n\nEmploy multi-agent verification configurations where distinct model copies independently compute and cross-verify intermediate mathematical and physical derivations.",
+      "project": {
+        "name": "Claude product development",
+        "family_slug": "claude",
+        "family_display": "Claude product development",
+        "model_slug": "claude",
+        "model_display": "Claude product development",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "claude-product-development",
+        "thread_display": "Claude Product Development",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Claude product development",
+        "article_url": "https://happyin.space/projects/claude/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/92edf27529de0c237e35043441b09e9416cbc11d/docs/projects/claude.md",
+        "agent_context_url": "https://happyin.space/projects/claude/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Claude multi-agent setup applied to theoretical black hole physics",
+        "version": null,
+        "summary": "Anthropic detailed that the multi-copy Claude workflow investigated holographic duality and anti-de Sitter space, validating calculations through two separate methods and encoding proof components in Lean."
+      },
+      "tags": [
+        "Claude product development",
+        "claude",
+        "claude-product-development",
+        "family:claude",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "projects": [
+          "claude"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110482/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://alpo.ge/remark.pdf",
+          "host": "alpo.ge",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110558/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+          "host": "simonwillison.net",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Anthropic detailed that the multi-copy Claude workflow investigated holographic duality and anti-de Sitter space, validating calculations through two separate methods and encoding proof components in Lean."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T12:09:28Z",
+        "classified_at": "2026-11-21T12:09:28Z",
+        "enriched_at": "2026-11-21T12:09:28Z",
+        "verified_at": "2026-11-21T12:09:28Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -1038,6 +1275,138 @@
         "classified_at": "2026-11-21T04:01:52Z",
         "enriched_at": "2026-11-21T04:01:52Z",
         "verified_at": "2026-11-21T04:01:52Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-c6e493599c",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Levent Alpöge announces Claude-assisted Riemann Hypothesis formalization claim",
+      "summary": "Mathematician Levent Alpöge announced a Claude-assisted formalization claim for the Riemann Hypothesis and Generalized Riemann Hypothesis in Lean 4 across 14 code archives, currently undergoing community review.",
+      "research_notes": "Formulate mathematical conjectures or theoretical physics questions and translate problems into formal specification frameworks such as Lean 4.\n\nDeploy multi-copy or agentic Claude workflows to explore proof trees, perform symbolic expansions, and generate formal code modules.\n\nRun independent verification through formal theorem prover kernels like Lean 4 and alternative cross-checked derivations to audit AI-generated arguments.\n\nRequire formal interactive theorem provers such as Lean 4 to mechanically verify AI-generated mathematical claims rather than relying on natural-language prose.\n\nEmploy multi-agent verification configurations where distinct model copies independently compute and cross-verify intermediate mathematical and physical derivations.",
+      "project": {
+        "name": "Claude product development",
+        "family_slug": "claude",
+        "family_display": "Claude product development",
+        "model_slug": "claude",
+        "model_display": "Claude product development",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "claude-product-development",
+        "thread_display": "Claude Product Development",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Claude product development",
+        "article_url": "https://happyin.space/projects/claude/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/92edf27529de0c237e35043441b09e9416cbc11d/docs/projects/claude.md",
+        "agent_context_url": "https://happyin.space/projects/claude/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Levent Alpöge announces Claude-assisted Riemann Hypothesis formalization claim",
+        "version": null,
+        "summary": "Mathematician Levent Alpöge announced a Claude-assisted formalization claim for the Riemann Hypothesis and Generalized Riemann Hypothesis in Lean 4 across 14 code archives, currently undergoing community review."
+      },
+      "tags": [
+        "Claude product development",
+        "claude",
+        "claude-product-development",
+        "family:claude",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "claude"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+          "host": "simonwillison.net",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://alpo.ge/remark.pdf",
+          "host": "alpo.ge",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110482/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110558/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Mathematician Levent Alpöge announced a Claude-assisted formalization claim for the Riemann Hypothesis and Generalized Riemann Hypothesis in Lean 4 across 14 code archives, currently undergoing community review."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T12:09:28Z",
+        "classified_at": "2026-11-21T12:09:28Z",
+        "enriched_at": "2026-11-21T12:09:28Z",
+        "verified_at": "2026-11-21T12:09:28Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -2223,6 +2592,138 @@
     },
     {
       "schema_version": "1.4",
+      "id": "n-5bd77e584f",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Unverified Claude-assisted Riemann Hypothesis proof claim circulating",
+      "summary": "Reports of a Claude-assisted proof for the Riemann Hypothesis remain under formal evaluation by mathematicians, with independent Lean 4 kernel compilation required to confirm validity.",
+      "research_notes": "Formulate mathematical conjectures or theoretical physics questions and translate problems into formal specification frameworks such as Lean 4.\n\nDeploy multi-copy or agentic Claude workflows to explore proof trees, perform symbolic expansions, and generate formal code modules.\n\nRun independent verification through formal theorem prover kernels like Lean 4 and alternative cross-checked derivations to audit AI-generated arguments.\n\nRequire formal interactive theorem provers such as Lean 4 to mechanically verify AI-generated mathematical claims rather than relying on natural-language prose.\n\nEmploy multi-agent verification configurations where distinct model copies independently compute and cross-verify intermediate mathematical and physical derivations.",
+      "project": {
+        "name": "Claude product development",
+        "family_slug": "claude",
+        "family_display": "Claude product development",
+        "model_slug": "claude",
+        "model_display": "Claude product development",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "claude-product-development",
+        "thread_display": "Claude Product Development",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Claude product development",
+        "article_url": "https://happyin.space/projects/claude/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/92edf27529de0c237e35043441b09e9416cbc11d/docs/projects/claude.md",
+        "agent_context_url": "https://happyin.space/projects/claude/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Unverified Claude-assisted Riemann Hypothesis proof claim circulating",
+        "version": null,
+        "summary": "Reports of a Claude-assisted proof for the Riemann Hypothesis remain under formal evaluation by mathematicians, with independent Lean 4 kernel compilation required to confirm validity."
+      },
+      "tags": [
+        "Claude product development",
+        "claude",
+        "claude-product-development",
+        "family:claude",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "claude"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110558/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://alpo.ge/remark.pdf",
+          "host": "alpo.ge",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110482/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+          "host": "simonwillison.net",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:09:28Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Reports of a Claude-assisted proof for the Riemann Hypothesis remain under formal evaluation by mathematicians, with independent Lean 4 kernel compilation required to confirm validity."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T12:09:28Z",
+        "classified_at": "2026-11-21T12:09:28Z",
+        "enriched_at": "2026-11-21T12:09:28Z",
+        "verified_at": "2026-11-21T12:09:28Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
       "id": "n-56a8f448dc",
       "entry_type": "news",
       "category": "misc",
@@ -2429,6 +2930,111 @@
         "classified_at": "2026-11-21T09:37:39Z",
         "enriched_at": "2026-11-21T09:37:39Z",
         "verified_at": "2026-11-21T09:37:39Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-4a6c47b7aa",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+      "summary": "OpenAI released GPT-6.2 Astra and Sol with standard access for general coding and stricter identity verification for high-risk cybersecurity tasks.",
+      "research_notes": "Deploy standard coding and agentic workflows via the API or developer tools under default account quotas without identity verification.\n\nSubmit organizational identity credentials and undergo compliance verification to request access to restricted cybersecurity and penetration testing capabilities under the tiered trusted-access program.\n\nSeparate routine programming tasks from security audit prompts to avoid triggering defensive refusal filters on unverified developer accounts.\n\nMaintain documented audit trails and compliance logging when operating under trusted access to adhere to safety requirements.",
+      "project": {
+        "name": "GPT-6.2: gpt-6-2-release",
+        "family_slug": "gpt-6-2",
+        "family_display": "GPT-6.2: gpt-6-2-release",
+        "model_slug": "gpt-6-2",
+        "model_display": "GPT-6.2: gpt-6-2-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gpt-6-2-release",
+        "thread_display": "Gpt 6 2 Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "GPT-6.2: gpt-6-2-release",
+        "article_url": "https://happyin.space/projects/gpt-6-2/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/66d5203d5fccbbef57b3353ee9917439f6a91321/docs/projects/gpt-6-2.md",
+        "agent_context_url": "https://happyin.space/projects/gpt-6-2/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+        "version": null,
+        "summary": "OpenAI released GPT-6.2 Astra and Sol with standard access for general coding and stricter identity verification for high-risk cybersecurity tasks."
+      },
+      "tags": [
+        "GPT-6.2: gpt-6-2-release",
+        "family:gpt-6-2",
+        "gpt-6-2",
+        "gpt-6-2-release",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "gpt-6-2"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110122/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T12:34:41Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "OpenAI released GPT-6.2 Astra and Sol with standard access for general coding and stricter identity verification for high-risk cybersecurity tasks."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T12:34:41Z",
+        "classified_at": "2026-11-21T12:34:41Z",
+        "enriched_at": "2026-11-21T12:34:41Z",
+        "verified_at": "2026-11-21T12:34:41Z",
         "models_used": {
           "research": "curated-live-material"
         },

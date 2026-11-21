@@ -102,6 +102,9 @@
   "AGORA": [
     "n-27957b3eee"
   ],
+  "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases": [
+    "n-ecf46cfdeb"
+  ],
   "AGSoft Save Image Plus: agsoft-save-image-plus-update": [
     "n-cce1cb230c"
   ],
@@ -493,6 +496,11 @@
   ],
   "Claude Sonnet 5": [
     "n-cfd3254184"
+  ],
+  "Claude product development": [
+    "n-ebe85d9d57",
+    "n-c6e493599c",
+    "n-5bd77e584f"
   ],
   "Claw": [
     "n-2f8c6f34f0"
@@ -1106,6 +1114,9 @@
     "n-298102ba73",
     "n-10a2de18b3",
     "n-0ba7fa9592"
+  ],
+  "GPT-6.2: gpt-6-2-release": [
+    "n-4a6c47b7aa"
   ],
   "GPT-Image": [
     "n-ca390bf3b3"
@@ -3790,6 +3801,12 @@
   "agora": [
     "n-27957b3eee"
   ],
+  "agsoft-image-crop-plus": [
+    "n-ecf46cfdeb"
+  ],
+  "agsoft-image-crop-plus-releases": [
+    "n-ecf46cfdeb"
+  ],
   "agsoft-save-image-plus": [
     "n-cce1cb230c"
   ],
@@ -4673,7 +4690,9 @@
     "n-f64d313e07",
     "n-eefafa6ead",
     "n-ec5428386a",
+    "n-ebe85d9d57",
     "n-e94bd15184",
+    "n-c6e493599c",
     "n-c24c255e0f",
     "n-b7c4d9268f",
     "n-b4bbea9668",
@@ -4687,6 +4706,7 @@
     "n-66988bb8af",
     "n-5eae5267b3",
     "n-5c24a1064b",
+    "n-5bd77e584f",
     "n-48450782e9",
     "n-3e5ddc4905",
     "n-3bd2e116af",
@@ -4720,6 +4740,11 @@
   ],
   "claude-opus-5": [
     "n-4ea5eb69ba"
+  ],
+  "claude-product-development": [
+    "n-ebe85d9d57",
+    "n-c6e493599c",
+    "n-5bd77e584f"
   ],
   "claude-sonnet-5": [
     "n-cfd3254184"
@@ -5914,6 +5939,9 @@
   "family:agora": [
     "n-27957b3eee"
   ],
+  "family:agsoft-image-crop-plus": [
+    "n-ecf46cfdeb"
+  ],
   "family:agsoft-save-image-plus": [
     "n-cce1cb230c"
   ],
@@ -6203,6 +6231,8 @@
   ],
   "family:claude": [
     "n-ec5428386a",
+    "n-ebe85d9d57",
+    "n-c6e493599c",
     "n-c24c255e0f",
     "n-b4bbea9668",
     "n-ae728364c0",
@@ -6211,6 +6241,7 @@
     "n-951dfe6af3",
     "n-8de9a1da59",
     "n-5eae5267b3",
+    "n-5bd77e584f",
     "n-3e5ddc4905",
     "n-3bd2e116af",
     "n-2edb033ba1",
@@ -6929,6 +6960,9 @@
   ],
   "family:gpt-5-6-sol": [
     "n-d76b3cf6c5"
+  ],
+  "family:gpt-6-2": [
+    "n-4a6c47b7aa"
   ],
   "family:gpt-6-astra": [
     "n-fc68e15c9f",
@@ -10108,6 +10142,12 @@
     "n-0dc009d4d0",
     "n-0912d0b95f"
   ],
+  "gpt-6-2": [
+    "n-4a6c47b7aa"
+  ],
+  "gpt-6-2-release": [
+    "n-4a6c47b7aa"
+  ],
   "gpt-6-astra": [
     "n-fc68e15c9f",
     "n-ee48fb244e",
@@ -11932,6 +11972,7 @@
     "n-c724eb9e4c",
     "n-c6ff419784",
     "n-c6e889531e",
+    "n-c6e493599c",
     "n-c5e93c1d3a",
     "n-c5914f9e91",
     "n-c4e41aef2b",
@@ -12364,6 +12405,7 @@
     "n-5cd28a2bd1",
     "n-5cbb79d999",
     "n-5c24a1064b",
+    "n-5bd77e584f",
     "n-5b5558fedd",
     "n-5a0726226f",
     "n-599684b34f",
@@ -12415,6 +12457,7 @@
     "n-4b181dadc0",
     "n-4aa029af73",
     "n-4a97c79072",
+    "n-4a6c47b7aa",
     "n-49f80a3add",
     "n-49a53e09e5",
     "n-498f6ed5c2",
@@ -16080,7 +16123,9 @@
     "n-ef68e2a314",
     "n-edad1a10a0",
     "n-ed7778c240",
+    "n-ecf46cfdeb",
     "n-ebeab9837a",
+    "n-ebe85d9d57",
     "n-e712086893",
     "n-e4d5ff5436",
     "n-df8413780a",

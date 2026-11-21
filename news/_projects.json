@@ -2992,6 +2992,115 @@
     ],
     "claims": []
   },
+  "agsoft-image-crop-plus": {
+    "family_slug": "agsoft-image-crop-plus",
+    "family_display": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+    "family_display_variants": [
+      {
+        "family_display": "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-ecf46cfdeb"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "tools-frontend"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-ecf46cfdeb"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-ecf46cfdeb",
+        "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+        "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/Art-xmaster/comfyui-AGSoft",
+        "is_primary": true,
+        "verified_at": "2026-11-21T12:14:52Z",
+        "news_ids": [
+          "n-ecf46cfdeb"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+        "summary": "The AGSoft Image Crop Plus custom node for ComfyUI has been updated with Nodes 2.0 support, dynamic preview scaling matching node size, improved frame dragging mechanics, bilingual tooltips, and interactive Upload, Reset, and Resume controls.",
+        "version": null,
+        "news_id": "n-ecf46cfdeb",
+        "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-ecf46cfdeb",
+        "date": "2026-11-20",
+        "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "agsoft-image-crop-plus",
+        "version": null,
+        "tags": [
+          "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+          "agsoft-image-crop-plus",
+          "agsoft-image-crop-plus-releases",
+          "family:agsoft-image-crop-plus",
+          "tools-frontend"
+        ],
+        "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "agsoft-image-crop-plus-releases",
+        "display": "Agsoft Image Crop Plus Releases",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-ecf46cfdeb",
+        "news_ids": [
+          "n-ecf46cfdeb"
+        ]
+      }
+    ]
+  },
   "agsoft-save-image-plus": {
     "family_slug": "agsoft-save-image-plus",
     "family_display": "AGSoft Save Image Plus: agsoft-save-image-plus-update",
@@ -14461,7 +14570,7 @@
   },
   "claude": {
     "family_slug": "claude",
-    "family_display": "Claude",
+    "family_display": "Claude product development",
     "family_display_variants": [
       {
         "family_display": "Claude",
@@ -14483,6 +14592,16 @@
           "n-5eae5267b3",
           "n-8de9a1da59"
         ]
+      },
+      {
+        "family_display": "Claude product development",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-5bd77e584f",
+          "n-c6e493599c",
+          "n-ebe85d9d57"
+        ]
       }
     ],
     "vendor": null,
@@ -14492,11 +14611,12 @@
     "base_model": null,
     "categories": [
       "llm",
-      "misc"
+      "misc",
+      "tools-frontend"
     ],
-    "post_count": 14,
+    "post_count": 17,
     "first_seen": "2026-04-09",
-    "last_seen": "2026-09-05",
+    "last_seen": "2026-11-20",
     "latest_version": null,
     "latest_evolution": null,
     "news_ids": [
@@ -14513,7 +14633,10 @@
       "n-3bd2e116af",
       "n-951dfe6af3",
       "n-5eae5267b3",
-      "n-8de9a1da59"
+      "n-8de9a1da59",
+      "n-5bd77e584f",
+      "n-c6e493599c",
+      "n-ebe85d9d57"
     ],
     "versions_timeline": [
       {
@@ -14613,6 +14736,27 @@
         "news_id": "n-8de9a1da59",
         "title": "Claude formalized proof of Fermat's Last Theorem in 11 days",
         "primary_link": "https://www.ixbt.com/news/2026/09/05/432712-claude-formalizoval-dokazatelstvo-velikoi-teoremy-ferma-za-11-dnei.html"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-5bd77e584f",
+        "title": "Unverified Claude-assisted Riemann Hypothesis proof claim circulating",
+        "primary_link": "https://habr.com/ru/articles/1110558/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-c6e493599c",
+        "title": "Levent Alpöge announces Claude-assisted Riemann Hypothesis formalization claim",
+        "primary_link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-ebe85d9d57",
+        "title": "Claude multi-agent setup applied to theoretical black hole physics",
+        "primary_link": "https://habr.com/ru/articles/1110482/"
       }
     ],
     "features": [
@@ -14692,6 +14836,68 @@
       },
       {
         "kind": "reference",
+        "host": "habr.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://habr.com/ru/articles/1110482/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T12:09:28Z",
+        "news_ids": [
+          "n-5bd77e584f",
+          "n-c6e493599c",
+          "n-ebe85d9d57"
+        ],
+        "occurrences": [
+          {
+            "news_id": "n-5bd77e584f",
+            "is_primary": false,
+            "verified_at": "2026-11-21T12:09:28Z"
+          },
+          {
+            "news_id": "n-c6e493599c",
+            "is_primary": false,
+            "verified_at": "2026-11-21T12:09:28Z"
+          },
+          {
+            "news_id": "n-ebe85d9d57",
+            "is_primary": true,
+            "verified_at": "2026-11-21T12:09:28Z"
+          }
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "habr.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://habr.com/ru/articles/1110558/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T12:09:28Z",
+        "news_ids": [
+          "n-5bd77e584f",
+          "n-c6e493599c",
+          "n-ebe85d9d57"
+        ],
+        "occurrences": [
+          {
+            "news_id": "n-5bd77e584f",
+            "is_primary": true,
+            "verified_at": "2026-11-21T12:09:28Z"
+          },
+          {
+            "news_id": "n-c6e493599c",
+            "is_primary": false,
+            "verified_at": "2026-11-21T12:09:28Z"
+          },
+          {
+            "news_id": "n-ebe85d9d57",
+            "is_primary": false,
+            "verified_at": "2026-11-21T12:09:28Z"
+          }
+        ]
+      },
+      {
+        "kind": "reference",
         "host": "platform.claude.com",
         "lang": "en",
         "status": "unverified",
@@ -14700,6 +14906,37 @@
         "verified_at": "2026-09-05T21:06:08Z",
         "news_ids": [
           "n-ae728364c0"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "simonwillison.net",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T12:09:28Z",
+        "news_ids": [
+          "n-5bd77e584f",
+          "n-c6e493599c",
+          "n-ebe85d9d57"
+        ],
+        "occurrences": [
+          {
+            "news_id": "n-5bd77e584f",
+            "is_primary": false,
+            "verified_at": "2026-11-21T12:09:28Z"
+          },
+          {
+            "news_id": "n-c6e493599c",
+            "is_primary": true,
+            "verified_at": "2026-11-21T12:09:28Z"
+          },
+          {
+            "news_id": "n-ebe85d9d57",
+            "is_primary": false,
+            "verified_at": "2026-11-21T12:09:28Z"
+          }
         ]
       },
       {
@@ -14798,6 +15035,20 @@
         "verified_at": null,
         "news_ids": [
           "n-a81182e9ac"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "alpo.ge",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://alpo.ge/remark.pdf",
+        "is_primary": false,
+        "verified_at": "2026-11-21T12:09:28Z",
+        "news_ids": [
+          "n-5bd77e584f",
+          "n-c6e493599c",
+          "n-ebe85d9d57"
         ]
       },
       {
@@ -14939,9 +15190,93 @@
         "version": null,
         "news_id": "n-8de9a1da59",
         "primary_link": "https://www.ixbt.com/news/2026/09/05/432712-claude-formalizoval-dokazatelstvo-velikoi-teoremy-ferma-za-11-dnei.html"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Unverified Claude-assisted Riemann Hypothesis proof claim circulating",
+        "summary": "Reports of a Claude-assisted proof for the Riemann Hypothesis remain under formal evaluation by mathematicians, with independent Lean 4 kernel compilation required to confirm validity.",
+        "version": null,
+        "news_id": "n-5bd77e584f",
+        "primary_link": "https://habr.com/ru/articles/1110558/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Levent Alpöge announces Claude-assisted Riemann Hypothesis formalization claim",
+        "summary": "Mathematician Levent Alpöge announced a Claude-assisted formalization claim for the Riemann Hypothesis and Generalized Riemann Hypothesis in Lean 4 across 14 code archives, currently undergoing community review.",
+        "version": null,
+        "news_id": "n-c6e493599c",
+        "primary_link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Claude multi-agent setup applied to theoretical black hole physics",
+        "summary": "Anthropic detailed that the multi-copy Claude workflow investigated holographic duality and anti-de Sitter space, validating calculations through two separate methods and encoding proof components in Lean.",
+        "version": null,
+        "news_id": "n-ebe85d9d57",
+        "primary_link": "https://habr.com/ru/articles/1110482/"
       }
     ],
     "related_news": [
+      {
+        "id": "n-ebe85d9d57",
+        "date": "2026-11-20",
+        "title": "Claude multi-agent setup applied to theoretical black hole physics",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "claude",
+        "version": null,
+        "tags": [
+          "Claude product development",
+          "claude",
+          "claude-product-development",
+          "family:claude",
+          "tools-frontend"
+        ],
+        "primary_link": "https://habr.com/ru/articles/1110482/",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-c6e493599c",
+        "date": "2026-11-20",
+        "title": "Levent Alpöge announces Claude-assisted Riemann Hypothesis formalization claim",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "claude",
+        "version": null,
+        "tags": [
+          "Claude product development",
+          "claude",
+          "claude-product-development",
+          "family:claude",
+          "misc"
+        ],
+        "primary_link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-5bd77e584f",
+        "date": "2026-11-20",
+        "title": "Unverified Claude-assisted Riemann Hypothesis proof claim circulating",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "claude",
+        "version": null,
+        "tags": [
+          "Claude product development",
+          "claude",
+          "claude-product-development",
+          "family:claude",
+          "misc"
+        ],
+        "primary_link": "https://habr.com/ru/articles/1110558/",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-8de9a1da59",
         "date": "2026-09-05",
@@ -15204,7 +15539,21 @@
         "has_video": true
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "claude-product-development",
+        "display": "Claude Product Development",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-ebe85d9d57",
+        "news_ids": [
+          "n-5bd77e584f",
+          "n-c6e493599c",
+          "n-ebe85d9d57"
+        ]
+      }
+    ]
   },
   "claude-code": {
     "family_slug": "claude-code",
@@ -43383,6 +43732,115 @@
       }
     ],
     "claims": []
+  },
+  "gpt-6-2": {
+    "family_slug": "gpt-6-2",
+    "family_display": "GPT-6.2: gpt-6-2-release",
+    "family_display_variants": [
+      {
+        "family_display": "GPT-6.2: gpt-6-2-release",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-4a6c47b7aa"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "misc"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-4a6c47b7aa"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-4a6c47b7aa",
+        "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+        "primary_link": "https://habr.com/ru/articles/1110122/"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "habr.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://habr.com/ru/articles/1110122/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T12:34:41Z",
+        "news_ids": [
+          "n-4a6c47b7aa"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+        "summary": "OpenAI released GPT-6.2 Astra and Sol with standard access for general coding and stricter identity verification for high-risk cybersecurity tasks.",
+        "version": null,
+        "news_id": "n-4a6c47b7aa",
+        "primary_link": "https://habr.com/ru/articles/1110122/"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-4a6c47b7aa",
+        "date": "2026-11-20",
+        "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "gpt-6-2",
+        "version": null,
+        "tags": [
+          "GPT-6.2: gpt-6-2-release",
+          "family:gpt-6-2",
+          "gpt-6-2",
+          "gpt-6-2-release",
+          "misc"
+        ],
+        "primary_link": "https://habr.com/ru/articles/1110122/",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "gpt-6-2-release",
+        "display": "Gpt 6 2 Release",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-4a6c47b7aa",
+        "news_ids": [
+          "n-4a6c47b7aa"
+        ]
+      }
+    ]
   },
   "gpt-6-astra": {
     "family_slug": "gpt-6-astra",

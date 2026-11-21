@@ -78,6 +78,44 @@
     "has_video": false
   },
   {
+    "id": "n-ecf46cfdeb",
+    "date": "2026-11-20",
+    "title": "AGSoft Image Crop Plus adds ComfyUI Nodes 2.0 compatibility and scalable preview",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "agsoft-image-crop-plus",
+    "version": null,
+    "tags": [
+      "AGSoft Image Crop Plus: agsoft-image-crop-plus-releases",
+      "agsoft-image-crop-plus",
+      "agsoft-image-crop-plus-releases",
+      "family:agsoft-image-crop-plus",
+      "tools-frontend"
+    ],
+    "primary_link": "https://github.com/Art-xmaster/comfyui-AGSoft",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-ebe85d9d57",
+    "date": "2026-11-20",
+    "title": "Claude multi-agent setup applied to theoretical black hole physics",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "claude",
+    "version": null,
+    "tags": [
+      "Claude product development",
+      "claude",
+      "claude-product-development",
+      "family:claude",
+      "tools-frontend"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110482/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-eab4a185f3",
     "date": "2026-11-20",
     "title": "Apple reportedly developing native Mac AI agent",
@@ -169,6 +207,25 @@
       "pami-part-anchored-hoi-generation"
     ],
     "primary_link": "https://github.com/Coral79/PAMI-Code",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-c6e493599c",
+    "date": "2026-11-20",
+    "title": "Levent Alpöge announces Claude-assisted Riemann Hypothesis formalization claim",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "claude",
+    "version": null,
+    "tags": [
+      "Claude product development",
+      "claude",
+      "claude-product-development",
+      "family:claude",
+      "misc"
+    ],
+    "primary_link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
     "has_image": false,
     "has_video": false
   },
@@ -367,6 +424,25 @@
     "has_video": false
   },
   {
+    "id": "n-5bd77e584f",
+    "date": "2026-11-20",
+    "title": "Unverified Claude-assisted Riemann Hypothesis proof claim circulating",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "claude",
+    "version": null,
+    "tags": [
+      "Claude product development",
+      "claude",
+      "claude-product-development",
+      "family:claude",
+      "misc"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110558/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-56a8f448dc",
     "date": "2026-11-20",
     "title": "Google launches Genie 4 API with streaming token billing",
@@ -401,6 +477,25 @@
       "organization:alljoined"
     ],
     "primary_link": "https://www.alljoined.com/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-4a6c47b7aa",
+    "date": "2026-11-20",
+    "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "gpt-6-2",
+    "version": null,
+    "tags": [
+      "GPT-6.2: gpt-6-2-release",
+      "family:gpt-6-2",
+      "gpt-6-2",
+      "gpt-6-2-release",
+      "misc"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110122/",
     "has_image": false,
     "has_video": false
   },
