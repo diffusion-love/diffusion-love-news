@@ -1207,6 +1207,9 @@
     "n-95d245f3eb",
     "n-367db0be8e"
   ],
+  "Hermes Agent: hermes-agent-development": [
+    "n-23426c6022"
+  ],
   "HeyGen Avatar 6: heygen-avatar-6-launch": [
     "n-1012736b69"
   ],
@@ -5788,7 +5791,8 @@
     "n-367db0be8e"
   ],
   "family:hermes-agent": [
-    "n-95d245f3eb"
+    "n-95d245f3eb",
+    "n-23426c6022"
   ],
   "family:heygen-avatar-6": [
     "n-1012736b69"
@@ -8339,7 +8343,11 @@
     "n-367db0be8e"
   ],
   "hermes-agent": [
-    "n-95d245f3eb"
+    "n-95d245f3eb",
+    "n-23426c6022"
+  ],
+  "hermes-agent-development": [
+    "n-23426c6022"
   ],
   "heydoughogan ComfyUI VFX Workflow": [
     "n-4941701283"
@@ -12562,6 +12570,7 @@
     "n-2ff0f435cc",
     "n-2d6650cee4",
     "n-269dacc1a7",
+    "n-23426c6022",
     "n-23270485c3",
     "n-2171fbda3c",
     "n-1b9a2f0f92",

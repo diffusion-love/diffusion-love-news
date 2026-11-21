@@ -39141,7 +39141,7 @@
   },
   "hermes-agent": {
     "family_slug": "hermes-agent",
-    "family_display": "Hermes Agent",
+    "family_display": "Hermes Agent: hermes-agent-development",
     "family_display_variants": [
       {
         "family_display": "Hermes Agent",
@@ -39149,6 +39149,14 @@
         "last_seen": "2026-04-30",
         "news_ids": [
           "n-95d245f3eb"
+        ]
+      },
+      {
+        "family_display": "Hermes Agent: hermes-agent-development",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-23426c6022"
         ]
       }
     ],
@@ -39158,15 +39166,17 @@
     "license": null,
     "base_model": null,
     "categories": [
-      "llm"
+      "llm",
+      "tools-frontend"
     ],
-    "post_count": 1,
+    "post_count": 2,
     "first_seen": "2026-04-30",
-    "last_seen": "2026-04-30",
-    "latest_version": "v0.13.0 (May 2026)",
-    "latest_evolution": "The project transitioned from a modular skill-based harness into a bundled-by-default autonomous platform. The latest updates introduced Kanban-style multi-agent orchestration and persistent goal tracking across sessions.",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
     "news_ids": [
-      "n-95d245f3eb"
+      "n-95d245f3eb",
+      "n-23426c6022"
     ],
     "versions_timeline": [
       {
@@ -39175,6 +39185,13 @@
         "news_id": "n-95d245f3eb",
         "title": "Hermes Agent: Autonomous Creative Workflow System",
         "primary_link": "https://github.com/NousResearch/hermes-agent"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-23426c6022",
+        "title": "Hermes Agent adds Microsoft Teams integration and Collective Wisdom skill sharing",
+        "primary_link": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/"
       }
     ],
     "features": [],
@@ -39206,6 +39223,18 @@
         ]
       },
       {
+        "kind": "reference",
+        "host": "the-decoder.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T12:42:32Z",
+        "news_ids": [
+          "n-23426c6022"
+        ]
+      },
+      {
         "kind": "code",
         "host": "github.com",
         "lang": "en",
@@ -39227,9 +39256,37 @@
         "version": null,
         "news_id": "n-95d245f3eb",
         "primary_link": "https://github.com/NousResearch/hermes-agent"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Hermes Agent adds Microsoft Teams integration and Collective Wisdom skill sharing",
+        "summary": "Hermes Agent introduces native integration with Microsoft Teams for direct chat and channel mentions, running sandboxed agent workloads in Azure Container Apps and enabling employees to publish validated workflows to a shared team skill library.",
+        "version": null,
+        "news_id": "n-23426c6022",
+        "primary_link": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/"
       }
     ],
     "related_news": [
+      {
+        "id": "n-23426c6022",
+        "date": "2026-11-20",
+        "title": "Hermes Agent adds Microsoft Teams integration and Collective Wisdom skill sharing",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "hermes-agent",
+        "version": null,
+        "tags": [
+          "Hermes Agent: hermes-agent-development",
+          "family:hermes-agent",
+          "hermes-agent",
+          "hermes-agent-development",
+          "tools-frontend"
+        ],
+        "primary_link": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-95d245f3eb",
         "date": "2026-04-30",
@@ -39252,7 +39309,19 @@
         "has_video": true
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "hermes-agent-development",
+        "display": "Hermes Agent Development",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-23426c6022",
+        "news_ids": [
+          "n-23426c6022"
+        ]
+      }
+    ]
   },
   "heygen-avatar-6": {
     "family_slug": "heygen-avatar-6",
