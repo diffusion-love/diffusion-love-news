@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-8204e1013e",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Google adds background Computer Use to Gemini for Mac",
+ "summary": "Google introduced a Computer Use capability for the Gemini app on macOS, allowing the AI assistant to perform multi-step desktop tasks in an isolated background window without taking over the user's cursor.",
+ "research_notes": "Install and open the Gemini desktop application on an Apple Silicon Mac running macOS with an active Google AI subscription.\n\nStart an automated desktop task by entering @Computer use followed by the multi-step request in the Gemini chat input.\n\nGrant application-level permissions for the specific local software and directories required by the task.\n\nMonitor the real-time execution in the background window preview stream and confirm prompts for sensitive actions when required.\n\nGrant desktop application access permissions selectively to minimize exposure of sensitive local files and unrelated software.\n\nKeep the live stream preview in view during unfamiliar automation sequences to intercept anomalies before critical operations prompt for approval.",
+ "project": {
+  "name": "Gemini development",
+  "family_slug": "gemini",
+  "family_display": "Gemini development",
+  "model_slug": "gemini",
+  "model_display": "Gemini development",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gemini-development",
+  "thread_display": "Gemini Development",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Gemini development",
+  "article_url": "https://happyin.space/projects/gemini/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/43ba87307ce26de7c0fb4e90f104a0a1611c150c/docs/projects/gemini.md",
+  "agent_context_url": "https://happyin.space/projects/gemini/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "Google adds background Computer Use to Gemini for Mac",
+  "version": null,
+  "summary": "Google introduced a Computer Use capability for the Gemini app on macOS, allowing the AI assistant to perform multi-step desktop tasks in an isolated background window without taking over the user's cursor."
+ },
+ "tags": [
+  "Gemini development",
+  "family:gemini",
+  "gemini",
+  "gemini-development",
+  "misc"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "gemini"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+   "host": "the-decoder.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T09:59:28Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "Google introduced a Computer Use capability for the Gemini app on macOS, allowing the AI assistant to perform multi-step desktop tasks in an isolated background window without taking over the user's cursor."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T09:59:28Z",
+  "classified_at": "2026-11-21T09:59:28Z",
+  "enriched_at": "2026-11-21T09:59:28Z",
+  "verified_at": "2026-11-21T09:59:28Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

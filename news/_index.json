@@ -233,6 +233,25 @@
     "has_video": false
   },
   {
+    "id": "n-8204e1013e",
+    "date": "2026-11-20",
+    "title": "Google adds background Computer Use to Gemini for Mac",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "gemini",
+    "version": null,
+    "tags": [
+      "Gemini development",
+      "family:gemini",
+      "gemini",
+      "gemini-development",
+      "misc"
+    ],
+    "primary_link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-7ac78e35db",
     "date": "2026-11-20",
     "title": "Gemini app introduces background computer use on macOS",
