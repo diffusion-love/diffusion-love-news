@@ -1459,6 +1459,11 @@
   "title": "멀티모달 모델을 위한 ComfyUI_SenseNova_U1 커스텀 노드",
   "translated_at": "2026-10-24"
  },
+ "n-4206ab6f17": {
+  "fresh": true,
+  "title": "PixelAILabs, LongCat-Avatar용 ComfyUI 노드 팩 공개",
+  "translated_at": "2026-11-21"
+ },
  "n-42aacd4f9b": {
   "fresh": true,
   "title": "Omma 플랫폼 출시 항목",
@@ -2714,6 +2719,11 @@
   "title": "MetaClaw GitHub 저장소가 공개적으로 언급됨",
   "translated_at": "2026-10-24"
  },
+ "n-8204e1013e": {
+  "fresh": true,
+  "title": "Google, Mac용 Gemini에 백그라운드 Computer Use 기능 추가",
+  "translated_at": "2026-11-21"
+ },
  "n-825557a5f2": {
   "fresh": true,
   "title": "ExpressionControl Hugging Face 저장소 연결됨",
@@ -3214,6 +3224,11 @@
   "title": "Google, Gemini 4 Neon 출시",
   "translated_at": "2026-11-20"
  },
+ "n-9c903a6a95": {
+  "fresh": true,
+  "title": "PedroMarinhoDev가 공개한 ComfyUI-LongCat-Avatar 래퍼",
+  "translated_at": "2026-11-21"
+ },
  "n-9cb04ca5a6": {
   "fresh": true,
   "title": "초기 지식 저장소: 21개 도메인에 걸친 385개 항목",
@@ -3338,6 +3353,11 @@
   "fresh": true,
   "title": "agent_tools 스레드에 공유된 CLI-Anything GitHub 저장소",
   "translated_at": "2026-10-24"
+ },
+ "n-a2bdbb6a58": {
+  "fresh": true,
+  "title": "Ideogram 4.6, 네이티브 4K 렌더링과 다단계 편집 기능 추가",
+  "translated_at": "2026-11-21"
  },
  "n-a2c367a2ab": {
   "fresh": true,

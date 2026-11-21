@@ -1,0 +1,11 @@
+{
+ "id": "n-a2bdbb6a58",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Sélectionnez Ideogram 4.6 dans le sélecteur de modèles de l'interface web ou indiquez le point de terminaison du modèle 4.6 dans l'API Ideogram.\n\nConfigurez les paramètres de génération en sélectionnant une résolution 4K native (jusqu'à 4096 x 4096) pour une génération pleinement détaillée sans suréchantillonnage a posteriori.\n\nFournissez une invite textuelle avec des contraintes explicites de mise en page, de typographie ou de style, en joignant éventuellement jusqu'à cinq images de référence pour une composition en plusieurs étapes.\n\nEffectuez des modifications localisées itératives à l'aide de l'outil Precise Edit pour ajuster des zones ciblées tout en conservant les pixels des personnages et de l'arrière-plan environnants.\n\nUtilisez directement le mode 4K natif pour les supports d'impression commerciale, les emballages et les ressources à typographie fine, afin d'éviter les artefacts de distorsion introduits par des passes de suréchantillonnage distinctes.\n\nFournissez jusqu'à cinq images de référence lors de modifications complexes de marque ou de produit pour contraindre le style, l'identité et la palette de couleurs sur des itérations successives.\n\nIsolez les instructions de modification à des régions spécifiques à l'aide des masques Precise Edit pour maximiser la précision de la modification des zones ciblées et minimiser la dérive globale des pixels.",
+ "source_sha256": "dd5f3c528f9c62d435f5761edfda41fb6022bf86a26b8cb07741e8bc876a0db4",
+ "summary": "Ideogram 4.6 introduit la génération 4K native jusqu'à 4096 x 4096 pixels sans suréchantillonnage en post-traitement, l'édition d'images en plusieurs tours avec jusqu'à cinq images de référence, et une dérive de pixels réduite sur les modifications ciblées.",
+ "title": "Ideogram 4.6 ajoute le rendu 4K natif et l'édition en plusieurs étapes",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

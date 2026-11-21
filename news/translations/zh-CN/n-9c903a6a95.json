@@ -1,0 +1,11 @@
+{
+ "id": "n-9c903a6a95",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "将自定义节点仓库克隆或安装到 ComfyUI/custom_nodes 目录中，并安装 Python 依赖。\n\n将 LongCat-Avatar 模型检查点权重和 Whisper 音频编码器下载到指定的 ComfyUI 模型文件夹中。\n\n加载 LongCat Avatar 工作流图，将单张角色肖像图像和目标语音音频文件连接到节点输入。\n\n执行生成队列时，可使用蒸馏的 8 步采样以实现快速渲染，或使用自动扩展循环处理较长的音频。\n\n使用干净、无噪声且发音清晰的语音音频，以确保 Whisper 特征提取准确并实现精确的口型同步。\n\n应用描述稳定构图和服装的正向文本提示，以抑制多帧序列中不必要的镜头运动或姿态变化。\n\n对于长于单个片段时长的音频，使用带有重叠帧的自动扩展分窗处理，以保持时间一致性并防止片段边界接缝伪影。",
+ "source_sha256": "49352ed17d3f27f8956bf099e37534900355f819371f3d21fab8d9ef3e1e4124",
+ "summary": "PedroMarinhoDev 发布了 LongCat-Avatar 1.6 的 ComfyUI 集成，通过模块化节点流程实现本地角色肖像口型同步生成。",
+ "title": "PedroMarinhoDev 发布 ComfyUI-LongCat-Avatar 封装包",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

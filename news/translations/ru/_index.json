@@ -1464,6 +1464,11 @@
   "title": "ComfyUI_SenseNova_U1: пользовательские узлы для мультимодальных моделей",
   "translated_at": "2026-11-13"
  },
+ "n-4206ab6f17": {
+  "fresh": true,
+  "title": "Пакет нод ComfyUI для LongCat-Avatar от PixelAILabs выпущен",
+  "translated_at": "2026-11-21"
+ },
  "n-42aacd4f9b": {
   "fresh": true,
   "title": "Запись о запуске платформы Omma",
@@ -2719,6 +2724,11 @@
   "title": "На репозиторий MetaClaw на GitHub публично сослались",
   "translated_at": "2026-10-24"
  },
+ "n-8204e1013e": {
+  "fresh": true,
+  "title": "Google добавила фоновый Computer Use в Gemini для Mac",
+  "translated_at": "2026-11-21"
+ },
  "n-825557a5f2": {
   "fresh": true,
   "title": "Репозиторий ExpressionControl на Hugging Face получил прямую ссылку",
@@ -3219,6 +3229,11 @@
   "title": "Google выпускает Gemini 4 Neon",
   "translated_at": "2026-11-20"
  },
+ "n-9c903a6a95": {
+  "fresh": true,
+  "title": "Выпущена обёртка ComfyUI-LongCat-Avatar от PedroMarinhoDev",
+  "translated_at": "2026-11-21"
+ },
  "n-9cb04ca5a6": {
   "fresh": true,
   "title": "Начальное хранилище знаний: 385 записей в 21 домене",
@@ -3343,6 +3358,11 @@
   "fresh": true,
   "title": "Репозиторий CLI-Anything на GitHub появился в обсуждении agent_tools",
   "translated_at": "2026-10-24"
+ },
+ "n-a2bdbb6a58": {
+  "fresh": true,
+  "title": "Ideogram 4.6 добавляет нативный рендеринг в 4K и многошаговое редактирование",
+  "translated_at": "2026-11-21"
  },
  "n-a2c367a2ab": {
   "fresh": true,

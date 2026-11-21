@@ -1,0 +1,11 @@
+{
+ "id": "n-8204e1013e",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在搭载 Apple Silicon 芯片、运行 macOS 且拥有有效 Google AI 订阅的 Mac 上安装并打开 Gemini 桌面应用。\n\n在 Gemini 聊天输入框中输入 @Computer use，后接多步骤请求，即可启动自动化桌面任务。\n\n针对任务所需的特定本地软件和目录，授予应用级权限。\n\n在后台窗口预览流中实时监控执行过程，并在需要时确认敏感操作的提示。\n\n有选择地授予桌面应用访问权限，以尽量减少敏感本地文件和无关软件的暴露。\n\n在运行不熟悉的自动化序列时保持实时流预览可见，以便在关键操作请求批准之前发现异常。",
+ "source_sha256": "27de665d6141ed6cbe2f3726fce8a675e0d26505bd424a68f6d4575dffb5887f",
+ "summary": "谷歌为 macOS 版 Gemini 应用推出了 Computer Use 功能，使这一 AI 助手能够在独立的后台窗口中执行多步骤桌面任务，而无需接管用户的光标。",
+ "title": "谷歌为 Mac 版 Gemini 加入后台 Computer Use 功能",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

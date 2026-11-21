@@ -1,0 +1,11 @@
+{
+ "id": "n-9c903a6a95",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez ou installez le dépôt de nœuds personnalisés dans le répertoire ComfyUI/custom_nodes, puis installez les dépendances Python.\n\nTéléchargez les poids du checkpoint du modèle LongCat-Avatar et l'encodeur audio Whisper dans les dossiers de modèles ComfyUI prévus à cet effet.\n\nChargez le graphe de workflow LongCat Avatar, puis connectez une seule image de portrait de personnage et un fichier audio de parole cible aux entrées des nœuds.\n\nExécutez la file de génération en utilisant l'échantillonnage distillé en 8 étapes pour un rendu rapide, ou la boucle d'extension automatique pour les pistes audio plus longues.\n\nUtilisez un audio de parole propre, sans bruit, avec une prononciation claire, afin de garantir une extraction précise des caractéristiques par Whisper et une synchronisation labiale précise.\n\nAppliquez des prompts textuels positifs décrivant un cadrage et des vêtements stables, afin de limiter les mouvements de caméra ou les changements de posture indésirables dans les séquences multi-images.\n\nPour un audio plus long que la durée d'un clip unique, utilisez le fenêtrage à extension automatique avec des images qui se chevauchent, afin de maintenir la cohérence temporelle et d'éviter les artefacts de jonction aux frontières entre segments.",
+ "source_sha256": "49352ed17d3f27f8956bf099e37534900355f819371f3d21fab8d9ef3e1e4124",
+ "summary": "PedroMarinhoDev a publié une intégration ComfyUI pour LongCat-Avatar 1.6, permettant la génération locale de synchronisation labiale à partir d'un portrait de personnage, via des pipelines de nœuds modulaires.",
+ "title": "Wrapper ComfyUI-LongCat-Avatar publié par PedroMarinhoDev",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

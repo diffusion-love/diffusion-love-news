@@ -1,0 +1,11 @@
+{
+ "id": "n-4206ab6f17",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona o instala el repositorio de nodos personalizados en el directorio ComfyUI/custom_nodes e instala las dependencias de Python.\n\nDescarga los pesos del checkpoint del modelo LongCat-Avatar y el codificador de audio Whisper en las carpetas de modelos designadas de ComfyUI.\n\nCarga el grafo de flujo de trabajo de LongCat Avatar y conecta una única imagen de retrato del personaje y un archivo de audio de voz objetivo a las entradas del nodo.\n\nEjecuta la cola de generación usando muestreo destilado de 8 pasos para un renderizado rápido, o el bucle de extensión automática para pistas de audio más largas.\n\nUtiliza audio de voz limpio, sin ruido y con pronunciación clara para garantizar una extracción precisa de características con Whisper y una sincronización labial exacta.\n\nAplica prompts de texto positivos que describan un encuadre y una vestimenta estables para limitar los movimientos de cámara o los cambios de postura no deseados en secuencias de múltiples fotogramas.\n\nPara audio más largo que la duración de un único clip, usa el ventaneo de extensión automática con fotogramas superpuestos para mantener la consistencia temporal y evitar artefactos de costura en los límites entre segmentos.",
+ "source_sha256": "5e0d2006b1bf32e8f5a5faec56e7574102652bc5cb3169c683ee21e92c5485a8",
+ "summary": "PixelAILabs publicó un paquete de nodos personalizados de código abierto para ComfyUI con Meituan LongCat-Avatar 1.6, que añade animación de avatares impulsada por audio, extracción de características basada en Whisper y flujos de trabajo de extensión automática de múltiples fotogramas.",
+ "title": "Publicado un paquete de nodos de ComfyUI para LongCat-Avatar de PixelAILabs",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

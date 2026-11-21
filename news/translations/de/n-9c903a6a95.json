@@ -1,0 +1,11 @@
+{
+ "id": "n-9c903a6a95",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository mit den benutzerdefinierten Nodes in das Verzeichnis ComfyUI/custom_nodes oder installieren Sie es dort, und installieren Sie anschließend die Python-Abhängigkeiten.\n\nLaden Sie die Checkpoint-Gewichte des LongCat-Avatar-Modells und den Whisper-Audio-Encoder in die dafür vorgesehenen Modellordner von ComfyUI herunter.\n\nLaden Sie den LongCat-Avatar-Workflow-Graphen und verbinden Sie ein einzelnes Porträtbild einer Figur sowie eine Sprachaufnahme als Zieldatei mit den Eingängen der Nodes.\n\nFühren Sie die Generierungswarteschlange entweder mit destillierter Sampling-Methode in 8 Schritten für schnelles Rendern aus oder mit der Schleife für automatische Verlängerung bei längeren Audiospuren.\n\nVerwenden Sie saubere, rauschfreie Sprachaufnahmen mit deutlicher Aussprache, damit die Merkmalsextraktion durch Whisper korrekt erfolgt und die Mundsynchronisation präzise wird.\n\nFormulieren Sie positive Textprompts, die einen stabilen Bildausschnitt und die Kleidung beschreiben, um unerwünschte Kamerabewegungen oder Haltungswechsel über mehrere Frames einer Sequenz hinweg zu unterbinden.\n\nBei Audio, das länger als eine einzelne Clip-Dauer ist, verwenden Sie die automatische Verlängerung mit Fenstern und überlappenden Frames, um die zeitliche Konsistenz zu wahren und Artefakte an den Übergangsstellen zu vermeiden.",
+ "source_sha256": "49352ed17d3f27f8956bf099e37534900355f819371f3d21fab8d9ef3e1e4124",
+ "summary": "PedroMarinhoDev hat eine ComfyUI-Integration für LongCat-Avatar 1.6 veröffentlicht, die die lokale Generierung von Lip-Sync-Videos aus Figurenporträts über modulare Node-Pipelines ermöglicht.",
+ "title": "ComfyUI-LongCat-Avatar-Wrapper von PedroMarinhoDev veröffentlicht",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
