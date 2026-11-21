@@ -1414,6 +1414,9 @@
     "n-95d245f3eb",
     "n-367db0be8e"
   ],
+  "Hermes Agent: hermes-agent-development": [
+    "n-23426c6022"
+  ],
   "Heroes Of Might And Magic Iii Remake": [
     "n-fff3fde533",
     "n-a020ad2fa0",
@@ -7066,7 +7069,8 @@
     "n-367db0be8e"
   ],
   "family:hermes-agent": [
-    "n-95d245f3eb"
+    "n-95d245f3eb",
+    "n-23426c6022"
   ],
   "family:heroes-of-might-and-magic-iii-remake": [
     "n-fff3fde533",
@@ -10344,7 +10348,11 @@
     "n-367db0be8e"
   ],
   "hermes-agent": [
-    "n-95d245f3eb"
+    "n-95d245f3eb",
+    "n-23426c6022"
+  ],
+  "hermes-agent-development": [
+    "n-23426c6022"
   ],
   "heroes-of-might-and-magic-iii-remake": [
     "n-fff3fde533",
@@ -16168,6 +16176,7 @@
     "n-2ff0f435cc",
     "n-2d6650cee4",
     "n-269dacc1a7",
+    "n-23426c6022",
     "n-23270485c3",
     "n-2171fbda3c",
     "n-1b9a2f0f92",

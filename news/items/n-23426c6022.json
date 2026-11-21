@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-23426c6022",
+ "entry_type": "news",
+ "category": "tools-frontend",
+ "lang": "en",
+ "title": "Hermes Agent adds Microsoft Teams integration and Collective Wisdom skill sharing",
+ "summary": "Hermes Agent introduces native integration with Microsoft Teams for direct chat and channel mentions, running sandboxed agent workloads in Azure Container Apps and enabling employees to publish validated workflows to a shared team skill library.",
+ "research_notes": "Deploy or add Hermes Agent to Microsoft Teams to interact via 1:1 chat or @mentions in channels.\n\nDelegate analytical, triage, or document drafting tasks directly to the agent in conversational threads.\n\nPublish validated workflows as reusable skills to the Collective Wisdom library for team-wide access.\n\nAudit and verify autonomous skills before sharing them across organizational workspaces via Collective Wisdom.\n\nUtilize isolated container sandboxes for microVM task execution to enforce enterprise data isolation.",
+ "project": {
+  "name": "Hermes Agent: hermes-agent-development",
+  "family_slug": "hermes-agent",
+  "family_display": "Hermes Agent: hermes-agent-development",
+  "model_slug": "hermes-agent",
+  "model_display": "Hermes Agent: hermes-agent-development",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "hermes-agent-development",
+  "thread_display": "Hermes Agent Development",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Hermes Agent: hermes-agent-development",
+  "article_url": "https://happyin.space/projects/hermes-agent/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/142d2cc394aaada7567d598f05853e6334f43161/docs/projects/hermes-agent.md",
+  "agent_context_url": "https://happyin.space/projects/hermes-agent/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "Hermes Agent adds Microsoft Teams integration and Collective Wisdom skill sharing",
+  "version": null,
+  "summary": "Hermes Agent introduces native integration with Microsoft Teams for direct chat and channel mentions, running sandboxed agent workloads in Azure Container Apps and enabling employees to publish validated workflows to a shared team skill library."
+ },
+ "tags": [
+  "Hermes Agent: hermes-agent-development",
+  "family:hermes-agent",
+  "hermes-agent",
+  "hermes-agent-development",
+  "tools-frontend"
+ ],
+ "facets": {
+  "category": "tools-frontend",
+  "entry_type": "news",
+  "projects": [
+   "hermes-agent"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+   "host": "the-decoder.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T12:42:32Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "Hermes Agent introduces native integration with Microsoft Teams for direct chat and channel mentions, running sandboxed agent workloads in Azure Container Apps and enabling employees to publish validated workflows to a shared team skill library."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T12:42:32Z",
+  "classified_at": "2026-11-21T12:42:32Z",
+  "enriched_at": "2026-11-21T12:42:32Z",
+  "verified_at": "2026-11-21T12:42:32Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

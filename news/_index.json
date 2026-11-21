@@ -577,6 +577,25 @@
     "has_video": false
   },
   {
+    "id": "n-23426c6022",
+    "date": "2026-11-20",
+    "title": "Hermes Agent adds Microsoft Teams integration and Collective Wisdom skill sharing",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "hermes-agent",
+    "version": null,
+    "tags": [
+      "Hermes Agent: hermes-agent-development",
+      "family:hermes-agent",
+      "hermes-agent",
+      "hermes-agent-development",
+      "tools-frontend"
+    ],
+    "primary_link": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-21d10fc208",
     "date": "2026-11-20",
     "title": "Apple pairs native agent development with stricter macOS automation barriers",
