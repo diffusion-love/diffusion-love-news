@@ -2550,7 +2550,8 @@
     "n-ad1e6a3d0c"
   ],
   "Osmo: osmo-ai-smell-model-development": [
-    "n-b65cdf0a31"
+    "n-b65cdf0a31",
+    "n-94dd385ee1"
   ],
   "Otus": [
     "n-2980d7228f",
@@ -12171,6 +12172,7 @@
     "n-95be0b3b16",
     "n-955e8f8621",
     "n-951dfe6af3",
+    "n-94dd385ee1",
     "n-949d991556",
     "n-9478ff9243",
     "n-944c22a8fe",
@@ -14629,7 +14631,8 @@
     "n-04bc8d2a40"
   ],
   "organization:osmo": [
-    "n-b65cdf0a31"
+    "n-b65cdf0a31",
+    "n-94dd385ee1"
   ],
   "organization:q-ant": [
     "n-f686305d6a",
@@ -14672,10 +14675,12 @@
     "n-ad1e6a3d0c"
   ],
   "osmo": [
-    "n-b65cdf0a31"
+    "n-b65cdf0a31",
+    "n-94dd385ee1"
   ],
   "osmo-ai-smell-model-development": [
-    "n-b65cdf0a31"
+    "n-b65cdf0a31",
+    "n-94dd385ee1"
   ],
   "otus": [
     "n-2980d7228f",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T12:42:32Z",
+  "generated_at": "2026-11-21T21:37:36Z",
   "site": "diffusion.love",
-  "total": 1421,
+  "total": 1422,
   "records": [
     {
       "schema_version": "1.4",
@@ -1741,6 +1741,115 @@
         "classified_at": "2026-11-21T11:02:20Z",
         "enriched_at": "2026-11-21T11:02:20Z",
         "verified_at": "2026-11-21T11:02:20Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-94dd385ee1",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Osmo applies neural network odor mapping to fragrance molecule screening",
+      "summary": "Osmo developed an artificial olfaction platform using graph neural networks to predict human odor descriptors from molecular structure. Early evaluations indicate performance comparable to human panels for single-molecule scent classification, aimed at assisting fragrance and chemical screening rather than replacing biological sensory testing.",
+      "research_notes": "Supply molecular structure data such as chemical graphs or atomic connectivity representations into the graph neural network model pipeline.\n\nLocate predicted odor coordinates on the principal odor map to identify corresponding human sensory descriptor clusters.\n\nFilter candidate chemical formulations by target olfactory profile to prioritize synthetic candidates before physical bench testing.\n\nCross-validate model-predicted scent profiles against calibrated human sensory panels to account for perceptual anomalies and complex odor mixture interactions.\n\nVerify regulatory compliance, allergen potential, and chemical stability before advancing model-selected synthetic aroma candidates to production.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "osmo",
+        "display": "Osmo: osmo-ai-smell-model-development",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "osmo-ai-smell-model-development",
+        "thread_display": "Osmo Ai Smell Model Development",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Osmo: osmo-ai-smell-model-development",
+        "article_url": "https://happyin.space/organizations/osmo/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e1f3b3e81fdc587ee949832ebabe638930aa214f/docs/organizations/osmo.md",
+        "agent_context_url": "https://happyin.space/organizations/osmo/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Osmo applies neural network odor mapping to fragrance molecule screening",
+        "version": null,
+        "summary": "Osmo developed an artificial olfaction platform using graph neural networks to predict human odor descriptors from molecular structure. Early evaluations indicate performance comparable to human panels for single-molecule scent classification, aimed at assisting fragrance and chemical screening rather than replacing biological sensory testing."
+      },
+      "tags": [
+        "Osmo: osmo-ai-smell-model-development",
+        "misc",
+        "organization:osmo",
+        "osmo",
+        "osmo-ai-smell-model-development"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "osmo"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+          "host": "technologyreview.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T21:37:36Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Osmo developed an artificial olfaction platform using graph neural networks to predict human odor descriptors from molecular structure. Early evaluations indicate performance comparable to human panels for single-molecule scent classification, aimed at assisting fragrance and chemical screening rather than replacing biological sensory testing."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T21:37:36Z",
+        "classified_at": "2026-11-21T21:37:36Z",
+        "enriched_at": "2026-11-21T21:37:36Z",
+        "verified_at": "2026-11-21T21:37:36Z",
         "models_used": {
           "research": "curated-live-material"
         },
@@ -15849,6 +15958,15 @@
           "is_primary": true,
           "status": "unverified",
           "verified_at": "2026-11-18T18:56:44Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://gitverse.ru/GigaTeam/gigachat3.5-reasoning",
+          "host": "gitverse.ru",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-18T18:56:44Z"
         }
       ],
       "evolution": {
@@ -16064,6 +16182,15 @@
           "host": "huggingface.co",
           "lang": "en",
           "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-18T18:56:44Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://gitverse.ru/GigaTeam/gigachat3.5-reasoning",
+          "host": "gitverse.ru",
+          "lang": "en",
+          "is_primary": false,
           "status": "unverified",
           "verified_at": "2026-11-18T18:56:44Z"
         }

@@ -288,6 +288,25 @@
     "has_video": false
   },
   {
+    "id": "n-94dd385ee1",
+    "date": "2026-11-20",
+    "title": "Osmo applies neural network odor mapping to fragrance molecule screening",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Osmo: osmo-ai-smell-model-development",
+      "misc",
+      "organization:osmo",
+      "osmo",
+      "osmo-ai-smell-model-development"
+    ],
+    "primary_link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-93d71a9cbf",
     "date": "2026-11-20",
     "title": "Apple tightens macOS agent permissions while developing proprietary assistant",
