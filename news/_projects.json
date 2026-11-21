@@ -39533,20 +39533,7 @@
         "is_primary": true,
         "verified_at": "2026-11-18T19:43:33Z",
         "news_ids": [
-          "n-2f04eafb31",
           "n-b815f82305"
-        ],
-        "occurrences": [
-          {
-            "news_id": "n-2f04eafb31",
-            "is_primary": false,
-            "verified_at": "2026-11-18T19:43:33Z"
-          },
-          {
-            "news_id": "n-b815f82305",
-            "is_primary": true,
-            "verified_at": "2026-11-18T19:43:33Z"
-          }
         ]
       },
       {
