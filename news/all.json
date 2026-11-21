@@ -1,9 +1,554 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T00:39:13Z",
+  "generated_at": "2026-11-21T01:14:25Z",
   "site": "diffusion.love",
-  "total": 1389,
+  "total": 1395,
   "records": [
+    {
+      "schema_version": "1.4",
+      "id": "n-efb0fb8a5d",
+      "entry_type": "news",
+      "category": "llm",
+      "lang": "en",
+      "title": "Apple job listing details agentic AI leadership for cross-app automation",
+      "summary": "A Senior Engineering Manager, Agentic AI listing indicates Apple is building assistants to execute multi-step workflows across terminal commands, APIs, and web tools.",
+      "research_notes": "Configure accessibility, full-disk access, and automation security settings through the multi-step permission prompts in macOS beta environments to enable external computer-use tooling.\n\nAlign automated development scripts with standard terminal utilities, supported APIs, and application-specific scripting dictionaries rather than unfettered UI capture pending native Apple agent API releases.\n\nPlan for expanded security authorization dialogs in upcoming macOS versions when architecting automated desktop workflows.\n\nStructure agentic tools around explicit sandboxed API calls and CLI endpoints instead of relying on fragile synthetic user interface events.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "apple",
+        "display": "Apple AI: research releases to product capabilities",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "apple-ai-research-to-product",
+        "thread_display": "Apple Ai Research To Product",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Apple AI: research releases to product capabilities",
+        "article_url": "https://happyin.space/organizations/apple/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e43650c781f1b185a5c144e0547031d829fccbeb/docs/organizations/apple.md",
+        "agent_context_url": "https://happyin.space/organizations/apple/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Apple job listing details agentic AI leadership for cross-app automation",
+        "version": null,
+        "summary": "A Senior Engineering Manager, Agentic AI listing indicates Apple is building assistants to execute multi-step workflows across terminal commands, APIs, and web tools."
+      },
+      "tags": [
+        "Apple AI: research releases to product capabilities",
+        "apple",
+        "apple-ai-research-to-product",
+        "llm",
+        "organization:apple",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "llm",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "apple"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110310/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/companies/selectel/articles/1110360/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+          "host": "techcrunch.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+          "host": "the-decoder.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "A Senior Engineering Manager, Agentic AI listing indicates Apple is building assistants to execute multi-step workflows across terminal commands, APIs, and web tools."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T01:14:25Z",
+        "classified_at": "2026-11-21T01:14:25Z",
+        "enriched_at": "2026-11-21T01:14:25Z",
+        "verified_at": "2026-11-21T01:14:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-eab4a185f3",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Apple reportedly developing native Mac AI agent",
+      "summary": "Reports indicate Apple is engineering an autonomous AI agent to operate Mac devices and applications, competing with computer-use models from OpenAI, Anthropic, and Meta.",
+      "research_notes": "Configure accessibility, full-disk access, and automation security settings through the multi-step permission prompts in macOS beta environments to enable external computer-use tooling.\n\nAlign automated development scripts with standard terminal utilities, supported APIs, and application-specific scripting dictionaries rather than unfettered UI capture pending native Apple agent API releases.\n\nPlan for expanded security authorization dialogs in upcoming macOS versions when architecting automated desktop workflows.\n\nStructure agentic tools around explicit sandboxed API calls and CLI endpoints instead of relying on fragile synthetic user interface events.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "apple",
+        "display": "Apple AI: research releases to product capabilities",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "apple-ai-research-to-product",
+        "thread_display": "Apple Ai Research To Product",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Apple AI: research releases to product capabilities",
+        "article_url": "https://happyin.space/organizations/apple/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e43650c781f1b185a5c144e0547031d829fccbeb/docs/organizations/apple.md",
+        "agent_context_url": "https://happyin.space/organizations/apple/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Apple reportedly developing native Mac AI agent",
+        "version": null,
+        "summary": "Reports indicate Apple is engineering an autonomous AI agent to operate Mac devices and applications, competing with computer-use models from OpenAI, Anthropic, and Meta."
+      },
+      "tags": [
+        "Apple AI: research releases to product capabilities",
+        "apple",
+        "apple-ai-research-to-product",
+        "misc",
+        "organization:apple"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "apple"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+          "host": "techcrunch.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110310/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/companies/selectel/articles/1110360/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+          "host": "the-decoder.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Reports indicate Apple is engineering an autonomous AI agent to operate Mac devices and applications, competing with computer-use models from OpenAI, Anthropic, and Meta."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T01:14:25Z",
+        "classified_at": "2026-11-21T01:14:25Z",
+        "enriched_at": "2026-11-21T01:14:25Z",
+        "verified_at": "2026-11-21T01:14:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-d4c199de97",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Apple opens engineering manager role for autonomous computer-use AI",
+      "summary": "A job listing reveals Apple is hiring a senior engineering manager to direct autonomous agent systems capable of navigating software, browsing websites, and generating code.",
+      "research_notes": "Configure accessibility, full-disk access, and automation security settings through the multi-step permission prompts in macOS beta environments to enable external computer-use tooling.\n\nAlign automated development scripts with standard terminal utilities, supported APIs, and application-specific scripting dictionaries rather than unfettered UI capture pending native Apple agent API releases.\n\nPlan for expanded security authorization dialogs in upcoming macOS versions when architecting automated desktop workflows.\n\nStructure agentic tools around explicit sandboxed API calls and CLI endpoints instead of relying on fragile synthetic user interface events.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "apple",
+        "display": "Apple AI: research releases to product capabilities",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "apple-ai-research-to-product",
+        "thread_display": "Apple Ai Research To Product",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Apple AI: research releases to product capabilities",
+        "article_url": "https://happyin.space/organizations/apple/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e43650c781f1b185a5c144e0547031d829fccbeb/docs/organizations/apple.md",
+        "agent_context_url": "https://happyin.space/organizations/apple/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Apple opens engineering manager role for autonomous computer-use AI",
+        "version": null,
+        "summary": "A job listing reveals Apple is hiring a senior engineering manager to direct autonomous agent systems capable of navigating software, browsing websites, and generating code."
+      },
+      "tags": [
+        "Apple AI: research releases to product capabilities",
+        "apple",
+        "apple-ai-research-to-product",
+        "misc",
+        "organization:apple"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "apple"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110310/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/companies/selectel/articles/1110360/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+          "host": "techcrunch.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+          "host": "the-decoder.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "A job listing reveals Apple is hiring a senior engineering manager to direct autonomous agent systems capable of navigating software, browsing websites, and generating code."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T01:14:25Z",
+        "classified_at": "2026-11-21T01:14:25Z",
+        "enriched_at": "2026-11-21T01:14:25Z",
+        "verified_at": "2026-11-21T01:14:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-93d71a9cbf",
+      "entry_type": "news",
+      "category": "llm",
+      "lang": "en",
+      "title": "Apple tightens macOS agent permissions while developing proprietary assistant",
+      "summary": "Recent macOS beta builds impose a 14-step setup process on third-party AI automation tools while Apple pursues its own agentic system for app and device control.",
+      "research_notes": "Configure accessibility, full-disk access, and automation security settings through the multi-step permission prompts in macOS beta environments to enable external computer-use tooling.\n\nAlign automated development scripts with standard terminal utilities, supported APIs, and application-specific scripting dictionaries rather than unfettered UI capture pending native Apple agent API releases.\n\nPlan for expanded security authorization dialogs in upcoming macOS versions when architecting automated desktop workflows.\n\nStructure agentic tools around explicit sandboxed API calls and CLI endpoints instead of relying on fragile synthetic user interface events.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "apple",
+        "display": "Apple AI: research releases to product capabilities",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "apple-ai-research-to-product",
+        "thread_display": "Apple Ai Research To Product",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Apple AI: research releases to product capabilities",
+        "article_url": "https://happyin.space/organizations/apple/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e43650c781f1b185a5c144e0547031d829fccbeb/docs/organizations/apple.md",
+        "agent_context_url": "https://happyin.space/organizations/apple/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Apple tightens macOS agent permissions while developing proprietary assistant",
+        "version": null,
+        "summary": "Recent macOS beta builds impose a 14-step setup process on third-party AI automation tools while Apple pursues its own agentic system for app and device control."
+      },
+      "tags": [
+        "Apple AI: research releases to product capabilities",
+        "apple",
+        "apple-ai-research-to-product",
+        "llm",
+        "organization:apple"
+      ],
+      "facets": {
+        "category": "llm",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "apple"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/companies/selectel/articles/1110360/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110310/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+          "host": "techcrunch.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+          "host": "the-decoder.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Recent macOS beta builds impose a 14-step setup process on third-party AI automation tools while Apple pursues its own agentic system for app and device control."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T01:14:25Z",
+        "classified_at": "2026-11-21T01:14:25Z",
+        "enriched_at": "2026-11-21T01:14:25Z",
+        "verified_at": "2026-11-21T01:14:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
     {
       "schema_version": "1.3",
       "id": "n-8b64cae720",
@@ -276,6 +821,278 @@
         "classified_at": "2026-11-21T00:39:13Z",
         "enriched_at": "2026-11-21T00:39:13Z",
         "verified_at": "2026-11-21T00:39:13Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-4108f8b1e7",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "macOS 27.3 beta expands third-party agent permission steps as Apple plans native agent",
+      "summary": "macOS 27.3 beta reportedly increases authorization requirements for third-party device-control tools from 4 to 14 steps, alongside reports of Apple developing a native autonomous agent.",
+      "research_notes": "Configure accessibility, full-disk access, and automation security settings through the multi-step permission prompts in macOS beta environments to enable external computer-use tooling.\n\nAlign automated development scripts with standard terminal utilities, supported APIs, and application-specific scripting dictionaries rather than unfettered UI capture pending native Apple agent API releases.\n\nPlan for expanded security authorization dialogs in upcoming macOS versions when architecting automated desktop workflows.\n\nStructure agentic tools around explicit sandboxed API calls and CLI endpoints instead of relying on fragile synthetic user interface events.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "apple",
+        "display": "Apple AI: research releases to product capabilities",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "apple-ai-research-to-product",
+        "thread_display": "Apple Ai Research To Product",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Apple AI: research releases to product capabilities",
+        "article_url": "https://happyin.space/organizations/apple/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e43650c781f1b185a5c144e0547031d829fccbeb/docs/organizations/apple.md",
+        "agent_context_url": "https://happyin.space/organizations/apple/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "macOS 27.3 beta expands third-party agent permission steps as Apple plans native agent",
+        "version": null,
+        "summary": "macOS 27.3 beta reportedly increases authorization requirements for third-party device-control tools from 4 to 14 steps, alongside reports of Apple developing a native autonomous agent."
+      },
+      "tags": [
+        "Apple AI: research releases to product capabilities",
+        "apple",
+        "apple-ai-research-to-product",
+        "misc",
+        "organization:apple"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "apple"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/companies/selectel/articles/1110360/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110310/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+          "host": "techcrunch.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+          "host": "the-decoder.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "macOS 27.3 beta reportedly increases authorization requirements for third-party device-control tools from 4 to 14 steps, alongside reports of Apple developing a native autonomous agent."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T01:14:25Z",
+        "classified_at": "2026-11-21T01:14:25Z",
+        "enriched_at": "2026-11-21T01:14:25Z",
+        "verified_at": "2026-11-21T01:14:25Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-21d10fc208",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Apple pairs native agent development with stricter macOS automation barriers",
+      "summary": "Reporting confirms Apple is developing device-control AI agents while tightening OS-level permission boundaries for competing external automation services.",
+      "research_notes": "Configure accessibility, full-disk access, and automation security settings through the multi-step permission prompts in macOS beta environments to enable external computer-use tooling.\n\nAlign automated development scripts with standard terminal utilities, supported APIs, and application-specific scripting dictionaries rather than unfettered UI capture pending native Apple agent API releases.\n\nPlan for expanded security authorization dialogs in upcoming macOS versions when architecting automated desktop workflows.\n\nStructure agentic tools around explicit sandboxed API calls and CLI endpoints instead of relying on fragile synthetic user interface events.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "apple",
+        "display": "Apple AI: research releases to product capabilities",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "apple-ai-research-to-product",
+        "thread_display": "Apple Ai Research To Product",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Apple AI: research releases to product capabilities",
+        "article_url": "https://happyin.space/organizations/apple/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e43650c781f1b185a5c144e0547031d829fccbeb/docs/organizations/apple.md",
+        "agent_context_url": "https://happyin.space/organizations/apple/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Apple pairs native agent development with stricter macOS automation barriers",
+        "version": null,
+        "summary": "Reporting confirms Apple is developing device-control AI agents while tightening OS-level permission boundaries for competing external automation services."
+      },
+      "tags": [
+        "Apple AI: research releases to product capabilities",
+        "apple",
+        "apple-ai-research-to-product",
+        "misc",
+        "organization:apple"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "apple"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+          "host": "the-decoder.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110310/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/companies/selectel/articles/1110360/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+          "host": "techcrunch.com",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-21T01:14:25Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-20",
+        "excerpt": "Reporting confirms Apple is developing device-control AI agents while tightening OS-level permission boundaries for competing external automation services."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-21T01:14:25Z",
+        "classified_at": "2026-11-21T01:14:25Z",
+        "enriched_at": "2026-11-21T01:14:25Z",
+        "verified_at": "2026-11-21T01:14:25Z",
         "models_used": {
           "research": "curated-live-material"
         },
