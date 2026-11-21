@@ -1,0 +1,11 @@
+{
+ "id": "n-23426c6022",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Hermes Agent in Microsoft Teams bereitstellen oder hinzufügen, um per 1:1-Chat oder über @-Erwähnungen in Kanälen mit dem Agenten zu interagieren.\n\nAnalytische Aufgaben, Triage oder das Entwerfen von Dokumenten direkt in Konversationsthreads an den Agenten delegieren.\n\nValidierte Workflows als wiederverwendbare Skills in der Bibliothek Collective Wisdom veröffentlichen, damit das gesamte Team darauf zugreifen kann.\n\nAutonome Skills prüfen und verifizieren, bevor sie über Collective Wisdom in organisationsweiten Workspaces geteilt werden.\n\nIsolierte Container-Sandboxes für die Ausführung von microVM-Tasks nutzen, um die Datenisolation im Unternehmen durchzusetzen.",
+ "source_sha256": "fd377dd9e5fa4194ba326b295f54a5c96448983e6d1d7088af40637e1147bed4",
+ "summary": "Hermes Agent führt eine native Integration für Microsoft Teams ein, die Direktchats und Kanal-Erwähnungen unterstützt, führt Agent-Workloads in isolierten Sandboxes in Azure Container Apps aus und ermöglicht es Mitarbeitenden, validierte Workflows in einer gemeinsamen Team-Skill-Bibliothek zu veröffentlichen.",
+ "title": "Hermes Agent erhält Microsoft-Teams-Integration und Skill-Austausch über Collective Wisdom",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

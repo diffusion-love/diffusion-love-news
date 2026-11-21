@@ -747,6 +747,11 @@
   "summary": "2026-07-10에 해당 기록은 PointDiT의 공개 프로젝트 페이지와 갤러리를 연결했다. 이는 독자를 프로젝트 자료와 예시로 안내한다는 점에서 프로젝트에 대한 중요한 공개 참조 지점이다. 제공된 근거만으로는 릴리스, 기술적 주장, 저작자 표시, 또는 연결된 자료 이외의 변경 사항은 확인되지 않는다.",
   "title": "PointDiT 프로젝트 및 갤러리 연결됨"
  },
+ "n-23426c6022": {
+  "research_notes": "1:1 채팅 또는 채널에서의 @멘션을 통해 상호작용할 수 있도록 Hermes Agent를 Microsoft Teams에 배포하거나 추가하세요.\n\n분석, 분류(트리아지), 또는 문서 초안 작성 작업을 대화형 스레드에서 에이전트에게 직접 위임하세요.\n\n검증된 워크플로를 재사용 가능한 스킬로 게시하여 Collective Wisdom 라이브러리에 올리면 팀 전체가 접근할 수 있습니다.\n\nCollective Wisdom을 통해 조직 워크스페이스 전반에 공유하기 전에 자율 스킬을 감사하고 검증하세요.\n\n엔터프라이즈 데이터 격리를 강제하기 위해 microVM 작업 실행용 격리된 컨테이너 샌드박스를 활용하세요.",
+  "summary": "Hermes Agent는 1:1 채팅과 채널 @멘션을 위한 Microsoft Teams 네이티브 통합을 도입하며, Azure Container Apps에서 샌드박스화된 에이전트 워크로드를 실행하고 직원들이 검증된 워크플로를 공유 팀 스킬 라이브러리에 게시할 수 있도록 합니다.",
+  "title": "Hermes Agent, Microsoft Teams 통합 및 Collective Wisdom 스킬 공유 기능 추가"
+ },
  "n-238cbd39cb": {
   "summary": "2026-07-27에 날짜가 기록된 The recorded link가 bradautomates/claude-video GitHub 저장소를 가리켰다. 이는 이 개발 흐름에서 확인된 가장 이른 공개 참조로, 독자가 살펴볼 수 있는 구체적인 프로젝트 출처를 제공한다.",
   "title": "claude-video 저장소가 공개적으로 참조됨"

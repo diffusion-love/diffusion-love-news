@@ -1,0 +1,11 @@
+{
+ "id": "n-23426c6022",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在 Microsoft Teams 中部署或添加 Hermes Agent,通过 1:1 聊天或在频道中 @提及 与其交互。\n\n在对话线程中,直接将分析、分诊或文档起草任务委派给该智能体。\n\n将经过验证的工作流发布为可复用技能,提交至 Collective Wisdom 库,供全团队访问。\n\n在通过 Collective Wisdom 跨组织工作空间共享自主技能之前,对其进行审计和验证。\n\n利用隔离的容器沙箱执行 microVM 任务,以实施企业数据隔离。",
+ "source_sha256": "fd377dd9e5fa4194ba326b295f54a5c96448983e6d1d7088af40637e1147bed4",
+ "summary": "Hermes Agent 引入了与 Microsoft Teams 的原生集成,支持直接聊天和频道提及;在 Azure Container Apps 中运行沙箱化的智能体工作负载,并允许员工将经过验证的工作流发布到共享的团队技能库。",
+ "title": "Hermes Agent 新增 Microsoft Teams 集成与 Collective Wisdom 技能共享",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

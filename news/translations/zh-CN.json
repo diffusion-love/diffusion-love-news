@@ -747,6 +747,11 @@
   "summary": "2026-07-10，该记录关联了 PointDiT 的公开项目页和图库。这对该项目而言是一个重要的公开参考点，因为它将读者引向项目资源和示例。现有证据并未确认发布、技术主张、作者身份，或除上述关联资源之外的任何变更。",
   "title": "PointDiT 项目页与图库已关联"
  },
+ "n-23426c6022": {
+  "research_notes": "在 Microsoft Teams 中部署或添加 Hermes Agent,通过 1:1 聊天或在频道中 @提及 与其交互。\n\n在对话线程中,直接将分析、分诊或文档起草任务委派给该智能体。\n\n将经过验证的工作流发布为可复用技能,提交至 Collective Wisdom 库,供全团队访问。\n\n在通过 Collective Wisdom 跨组织工作空间共享自主技能之前,对其进行审计和验证。\n\n利用隔离的容器沙箱执行 microVM 任务,以实施企业数据隔离。",
+  "summary": "Hermes Agent 引入了与 Microsoft Teams 的原生集成,支持直接聊天和频道提及;在 Azure Container Apps 中运行沙箱化的智能体工作负载,并允许员工将经过验证的工作流发布到共享的团队技能库。",
+  "title": "Hermes Agent 新增 Microsoft Teams 集成与 Collective Wisdom 技能共享"
+ },
  "n-238cbd39cb": {
   "summary": "2026-07-27，一条带日期的记录链接指向 bradautomates/claude-video GitHub 仓库。这是该开发脉络中最早的已封存公开引用，为读者提供了可供查阅的具体项目来源。",
   "title": "claude-video 仓库被公开引用"

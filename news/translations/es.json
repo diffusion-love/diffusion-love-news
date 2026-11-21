@@ -752,6 +752,11 @@
   "summary": "El 10 de julio de 2026, el registro enlazó la página pública del proyecto PointDiT y su galería. Es un punto de referencia público relevante para el proyecto, porque dirige a los lectores al recurso del proyecto y a sus ejemplos. Las pruebas disponibles no establecen una publicación, una afirmación técnica, una autoría ni ningún cambio más allá de los recursos enlazados.",
   "title": "La página del proyecto y la galería de PointDiT quedaron enlazadas"
  },
+ "n-23426c6022": {
+  "research_notes": "Despliega o añade Hermes Agent a Microsoft Teams para interactuar mediante chat 1:1 o menciones @ en canales.\n\nDelega tareas analíticas, de triaje o de redacción de documentos directamente en el agente, dentro de hilos conversacionales.\n\nPublica flujos de trabajo validados como skills reutilizables en la biblioteca Collective Wisdom para que todo el equipo pueda acceder a ellos.\n\nAudita y verifica los skills autónomos antes de compartirlos entre los espacios de trabajo de la organización mediante Collective Wisdom.\n\nUtiliza sandboxes en contenedores aislados para la ejecución de tareas en microVM, con el fin de garantizar el aislamiento de los datos empresariales.",
+  "summary": "Hermes Agent incorpora una integración nativa con Microsoft Teams para el chat directo y las menciones en canales, ejecuta las cargas de trabajo del agente en entornos sandbox dentro de Azure Container Apps y permite a los empleados publicar flujos de trabajo validados en una biblioteca compartida de skills del equipo.",
+  "title": "Hermes Agent añade integración con Microsoft Teams y uso compartido de skills con Collective Wisdom"
+ },
  "n-238cbd39cb": {
   "summary": "El 2026-07-27, un enlace registrado con fecha remitía al repositorio de GitHub bradautomates/claude-video. Esta es la referencia pública sellada más antigua de esta línea de desarrollo y ofrece a los lectores una fuente concreta del proyecto para consultar.",
   "title": "Repositorio claude-video citado públicamente"
