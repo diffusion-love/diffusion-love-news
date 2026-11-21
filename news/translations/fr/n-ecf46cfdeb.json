@@ -1,0 +1,11 @@
+{
+ "id": "n-ecf46cfdeb",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installez le pack d'extensions comfyui-AGSoft via ComfyUI Manager ou en clonant https://github.com/Art-xmaster/comfyui-AGSoft dans le répertoire custom_nodes de ComfyUI.\n\nLocalisez et placez le nœud AGSoft Image Crop Plus dans le graphe, en connectant une image d'entrée à son port d'entrée.\n\nRedimensionnez le nœud pour agrandir la fenêtre d'aperçu, manipulez directement le cadre de recadrage sur le canevas, ou utilisez le bouton Upload pour charger directement une image source.\n\nTransmettez la sortie de l'image recadrée aux traitements en aval, en utilisant les boutons Reset ou Resume pour reconfigurer les limites de recadrage sans reconstruire le nœud.\n\nAssociez AGSoft Image Crop Plus aux workflows d'inpainting et aux nœuds de stitching pour traiter les régions recadrées à leur résolution native tout en préservant le contexte de l'image complète.\n\nUtilisez les info-bulles bilingues pour vérifier les paramètres de coordonnées tout en conservant les libellés anglais standard dans les graphes de l'interface ComfyUI Nodes 2.0.",
+ "source_sha256": "6e2b92f6c0d02afeea24d64c16611c8b69a494a2a72301fba7dc4282de7c82e6",
+ "summary": "Le nœud personnalisé AGSoft Image Crop Plus pour ComfyUI a été mis à jour avec la prise en charge de Nodes 2.0, une mise à l'échelle dynamique de l'aperçu correspondant à la taille du nœud, un déplacement amélioré du cadre, des info-bulles bilingues et des contrôles interactifs Upload, Reset et Resume.",
+ "title": "AGSoft Image Crop Plus ajoute la compatibilité avec ComfyUI Nodes 2.0 et un aperçu redimensionnable",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "n-ebe85d9d57",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Formuler des conjectures mathématiques ou des questions de physique théorique, et traduis les problèmes en cadres de spécification formelle tels que Lean 4.\n\nDéploie des workflows Claude multi-copies ou agentiques pour explorer des arbres de preuve, effectuer des développements symboliques et générer des modules de code formel.\n\nMène une vérification indépendante au moyen de noyaux de prouveurs de théorèmes formels comme Lean 4, ainsi que de dérivations alternatives recoupées, afin d'auditer les raisonnements produits par l'IA.\n\nExige que des prouveurs de théorèmes interactifs formels tels que Lean 4 vérifient mécaniquement les affirmations mathématiques produites par l'IA, plutôt que de s'appuyer sur de la prose en langage naturel.\n\nEmploie des configurations de vérification multi-agents dans lesquelles des copies distinctes du modèle calculent et recoupent indépendamment des dérivations mathématiques et physiques intermédiaires.",
+ "source_sha256": "71b4b59340faadd697268d1e33413e9fdfeb44f3f2044850443e662b7e19b183",
+ "summary": "Anthropic a détaillé que le workflow Claude multi-copies a étudié la dualité holographique et l'espace anti-de Sitter, en validant les calculs par deux méthodes distinctes et en encodant les composantes des preuves dans Lean.",
+ "title": "Configuration multi-agents de Claude appliquée à la physique théorique des trous noirs",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

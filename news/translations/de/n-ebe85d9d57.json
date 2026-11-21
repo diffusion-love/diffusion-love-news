@@ -1,0 +1,11 @@
+{
+ "id": "n-ebe85d9d57",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Mathematische Vermutungen formulieren und theoretische Physikfragen stellen sowie Probleme in formale Spezifikationsrahmen wie Lean 4 übersetzen.\n\nMehrkopien- oder agentenbasierte Claude-Workflows einsetzen, um Beweisbäume zu erkunden, symbolische Entwicklungen durchzuführen und formale Codemodule zu erzeugen.\n\nUnabhängige Verifikation durch Kernel formaler Theorembeweiser wie Lean 4 sowie alternative, gegenseitig geprüfte Herleitungen durchführen, um KI-generierte Argumentationen zu überprüfen.\n\nFormale interaktive Theorembeweiser wie Lean 4 verlangen, um KI-generierte mathematische Aussagen maschinell zu verifizieren, statt sich auf natursprachliche Prosa zu verlassen.\n\nKonfigurationen mit mehreren Agenten einsetzen, bei denen unterschiedliche Modellkopien mathematische und physikalische Zwischenherleitungen unabhängig voneinander berechnen und gegenseitig überprüfen.",
+ "source_sha256": "71b4b59340faadd697268d1e33413e9fdfeb44f3f2044850443e662b7e19b183",
+ "summary": "Anthropic beschrieb, dass der Claude-Workflow mit mehreren Kopien holographische Dualität und Anti-de-Sitter-Raum untersuchte, Rechnungen über zwei getrennte Methoden validierte und Beweisbestandteile in Lean kodierte.",
+ "title": "Claude-Multiagenten-Setup angewendet auf theoretische Schwarze-Loch-Physik",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

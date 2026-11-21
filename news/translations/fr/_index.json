@@ -1629,6 +1629,11 @@
   "title": "SenseNova-U1 : IA multimodale unifiée avec NEO-unify",
   "translated_at": "2026-11-13"
  },
+ "n-4a6c47b7aa": {
+  "fresh": true,
+  "title": "OpenAI présente GPT-6.2 Astra et Sol avec un accès à la cybersécurité à plusieurs niveaux",
+  "translated_at": "2026-11-21"
+ },
  "n-4a97c79072": {
   "fresh": true,
   "title": "Les dépôts et la démo de See-through ont été partagés",
@@ -1908,6 +1913,11 @@
   "fresh": true,
   "title": "NVIDIA Parakeet-unified-en-0.6b : modèle ASR unifié",
   "translated_at": "2026-11-13"
+ },
+ "n-5bd77e584f": {
+  "fresh": true,
+  "title": "Affirmation non vérifiée d'une preuve de l'hypothèse de Riemann assistée par Claude en circulation",
+  "translated_at": "2026-11-21"
  },
  "n-5be6e62e52": {
   "fresh": true,
@@ -4049,6 +4059,11 @@
   "title": "Fizgig publie LoRA Isolation pour l'entraînement multi-identités",
   "translated_at": "2026-10-24"
  },
+ "n-c6e493599c": {
+  "fresh": true,
+  "title": "Levent Alpöge annonce une affirmation de formalisation de l'hypothèse de Riemann assistée par Claude",
+  "translated_at": "2026-11-21"
+ },
  "n-c6e889531e": {
   "fresh": true,
   "title": "Article de recherche et démonstration d'UltraTex : génération de matériaux PBR découplée",
@@ -4849,6 +4864,11 @@
   "title": "GBrain, une couche de mémoire pour les agents OpenClaw et Hermes",
   "translated_at": "2026-10-24"
  },
+ "n-ebe85d9d57": {
+  "fresh": true,
+  "title": "Configuration multi-agents de Claude appliquée à la physique théorique des trous noirs",
+  "translated_at": "2026-11-21"
+ },
  "n-ebeab9837a": {
   "fresh": true,
   "title": "Plateforme d'orchestration IA Griptape pour les effets visuels",
@@ -4888,6 +4908,11 @@
   "fresh": true,
   "title": "Les ressources publiques du projet DVD ont été reliées entre elles",
   "translated_at": "2026-10-24"
+ },
+ "n-ecf46cfdeb": {
+  "fresh": true,
+  "title": "AGSoft Image Crop Plus ajoute la compatibilité avec ComfyUI Nodes 2.0 et un aperçu redimensionnable",
+  "translated_at": "2026-11-21"
  },
  "n-ed7778c240": {
   "fresh": true,

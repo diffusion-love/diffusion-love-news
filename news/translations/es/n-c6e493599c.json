@@ -1,0 +1,11 @@
+{
+ "id": "n-c6e493599c",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Formular conjeturas matemáticas o preguntas de física teórica, y traducir los problemas a marcos de especificación formal como Lean 4.\n\nDesplegar flujos de trabajo de Claude con múltiples copias o agénticos para explorar árboles de demostración, realizar expansiones simbólicas y generar módulos de código formal.\n\nEjecutar verificación independiente mediante núcleos de demostradores formales de teoremas como Lean 4, y derivaciones alternativas contrastadas, para auditar los argumentos generados por IA.\n\nExigir que demostradores interactivos formales de teoremas, como Lean 4, verifiquen mecánicamente las afirmaciones matemáticas generadas por IA, en lugar de confiar en la prosa en lenguaje natural.\n\nEmplear configuraciones de verificación multiagente en las que copias distintas del modelo calculan de forma independiente y verifican cruzadamente las derivaciones matemáticas y físicas intermedias.",
+ "source_sha256": "cd6123948d0ab7ec1505bc301d09f3a121071b85be744bc8aaf267ead2f7ef0c",
+ "summary": "El matemático Levent Alpöge anunció una afirmación de formalización asistida por Claude de la Hipótesis de Riemann y de la Hipótesis de Riemann Generalizada en Lean 4, distribuida en 14 archivos de código, que actualmente se encuentra en revisión por la comunidad.",
+ "title": "Levent Alpöge anuncia una afirmación de formalización de la Hipótesis de Riemann asistida por Claude",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

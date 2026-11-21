@@ -1,0 +1,11 @@
+{
+ "id": "n-c6e493599c",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "将数学猜想或理论物理问题表述为形式化问题，并将其转译为 Lean 4 等形式化规范框架。\n\n部署多副本或智能体式的 Claude 工作流，用于探索证明树、执行符号展开并生成形式化代码模块。\n\n通过 Lean 4 等形式化定理证明器内核进行独立验证，并借助另行交叉核验的推导来审核 AI 生成的论证。\n\n要求使用 Lean 4 等形式化交互式定理证明器对 AI 生成的数学论断进行机械验证，而非依赖自然语言文字。\n\n采用多智能体验证配置，让不同的模型副本独立计算并交叉验证中间的数学与物理推导。",
+ "source_sha256": "cd6123948d0ab7ec1505bc301d09f3a121071b85be744bc8aaf267ead2f7ef0c",
+ "summary": "数学家 Levent Alpöge 宣布了一项借助 Claude 完成黎曼猜想及广义黎曼猜想形式化的声明，相关代码以 Lean 4 形式分布于 14 个代码归档中，目前正在接受社区审查。",
+ "title": "Levent Alpöge 宣布借助 Claude 完成黎曼猜想形式化的声明",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

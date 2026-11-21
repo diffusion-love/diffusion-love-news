@@ -1,0 +1,11 @@
+{
+ "id": "n-ecf46cfdeb",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Installiere das Erweiterungspaket comfyui-AGSoft über ComfyUI Manager oder indem du https://github.com/Art-xmaster/comfyui-AGSoft in das Verzeichnis custom_nodes von ComfyUI klonst.\n\nSuche den Knoten AGSoft Image Crop Plus, platziere ihn im Graphen und verbinde ein Eingabebild mit seinem Eingangsport.\n\nVergrößere oder verkleinere den Knoten, um das Vorschaufenster zu skalieren, bearbeite den Zuschneiderahmen direkt auf der Arbeitsfläche oder lade mit der Schaltfläche Upload direkt ein Quellbild.\n\nLeite das zugeschnittene Bildergebnis an die nachgelagerte Verarbeitung weiter und nutze die Schaltflächen Reset oder Resume, um die Zuschneidegrenzen neu zu konfigurieren, ohne den Knoten neu aufbauen zu müssen.\n\nKombiniere AGSoft Image Crop Plus mit Inpainting-Workflows und Stitching-Nodes, um zugeschnittene Bereiche in nativer Auflösung zu verarbeiten und dabei den Kontext des gesamten Bildes zu erhalten.\n\nNutze zweisprachige Tooltips, um Koordinatenparameter zu prüfen, und behalte dabei die englischen Standardbezeichnungen in den Graphen der ComfyUI-Nodes-2.0-Oberfläche bei.",
+ "source_sha256": "6e2b92f6c0d02afeea24d64c16611c8b69a494a2a72301fba7dc4282de7c82e6",
+ "summary": "Der benutzerdefinierte ComfyUI-Node AGSoft Image Crop Plus wurde aktualisiert: Er unterstützt nun Nodes 2.0, skaliert die Vorschau dynamisch passend zur Node-Größe, bietet eine verbesserte Mechanik zum Verschieben des Rahmens, zweisprachige Tooltips sowie die interaktiven Steuerelemente Upload, Reset und Resume.",
+ "title": "AGSoft Image Crop Plus ergänzt Kompatibilität mit ComfyUI Nodes 2.0 und skalierbare Vorschau",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

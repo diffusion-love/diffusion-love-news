@@ -1,0 +1,11 @@
+{
+ "id": "n-ecf46cfdeb",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "通过 ComfyUI Manager 安装 comfyui-AGSoft 扩展包，或将 https://github.com/Art-xmaster/comfyui-AGSoft 克隆到 ComfyUI custom_nodes 目录中。\n\n在图中找到并放置 AGSoft Image Crop Plus 节点，将输入图像连接到其输入端口。\n\n可以调整节点大小以缩放预览窗口，直接在画布上操作裁剪框，或使用 Upload 按钮直接加载源图像。\n\n将裁剪后的图像输出传递给下游处理流程，并利用 Reset 或 Resume 按钮重新配置裁剪边界，无需重建节点。\n\n将 AGSoft Image Crop Plus 与修复（inpainting）工作流及拼接节点搭配使用，可在保留整幅画面上下文的同时，以原生分辨率处理裁剪区域。\n\n使用双语工具提示核对坐标参数，同时在 ComfyUI Nodes 2.0 界面图中保留标准英文标签。",
+ "source_sha256": "6e2b92f6c0d02afeea24d64c16611c8b69a494a2a72301fba7dc4282de7c82e6",
+ "summary": "ComfyUI 的 AGSoft Image Crop Plus 自定义节点已更新，新增 Nodes 2.0 支持、预览随节点尺寸动态缩放、改进的裁剪框拖动机制、双语工具提示，以及交互式的 Upload、Reset 和 Resume 控件。",
+ "title": "AGSoft Image Crop Plus 新增 ComfyUI Nodes 2.0 兼容性并支持可缩放预览",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

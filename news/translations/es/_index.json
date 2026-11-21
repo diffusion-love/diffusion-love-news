@@ -1629,6 +1629,11 @@
   "title": "SenseNova-U1: IA multimodal unificada con NEO-unify",
   "translated_at": "2026-11-13"
  },
+ "n-4a6c47b7aa": {
+  "fresh": true,
+  "title": "OpenAI presenta GPT-6.2 Astra y Sol con acceso por niveles a la ciberseguridad",
+  "translated_at": "2026-11-21"
+ },
  "n-4a97c79072": {
   "fresh": true,
   "title": "Se han compartido los enlaces al repositorio y a la demo de See-through",
@@ -1908,6 +1913,11 @@
   "fresh": true,
   "title": "NVIDIA Parakeet-unified-en-0.6b: modelo ASR unificado",
   "translated_at": "2026-11-13"
+ },
+ "n-5bd77e584f": {
+  "fresh": true,
+  "title": "Circula una afirmación no verificada de una demostración de la hipótesis de Riemann asistida por Claude",
+  "translated_at": "2026-11-21"
  },
  "n-5be6e62e52": {
   "fresh": true,
@@ -4049,6 +4059,11 @@
   "title": "Fizgig lanza LoRA Isolation para el entrenamiento de múltiples identidades",
   "translated_at": "2026-10-24"
  },
+ "n-c6e493599c": {
+  "fresh": true,
+  "title": "Levent Alpöge anuncia una afirmación de formalización de la Hipótesis de Riemann asistida por Claude",
+  "translated_at": "2026-11-21"
+ },
  "n-c6e889531e": {
   "fresh": true,
   "title": "Artículo de investigación y demostración de UltraTex: generación de materiales PBR desacoplados",
@@ -4849,6 +4864,11 @@
   "title": "Capa de memoria GBrain para agentes OpenClaw y Hermes",
   "translated_at": "2026-10-24"
  },
+ "n-ebe85d9d57": {
+  "fresh": true,
+  "title": "Configuración multiagente de Claude aplicada a la física teórica de agujeros negros",
+  "translated_at": "2026-11-21"
+ },
  "n-ebeab9837a": {
   "fresh": true,
   "title": "Griptape: plataforma de orquestación de IA para VFX",
@@ -4888,6 +4908,11 @@
   "fresh": true,
   "title": "Se vincularon los recursos públicos del proyecto DVD",
   "translated_at": "2026-10-24"
+ },
+ "n-ecf46cfdeb": {
+  "fresh": true,
+  "title": "AGSoft Image Crop Plus añade compatibilidad con ComfyUI Nodes 2.0 y vista previa escalable",
+  "translated_at": "2026-11-21"
  },
  "n-ed7778c240": {
   "fresh": true,

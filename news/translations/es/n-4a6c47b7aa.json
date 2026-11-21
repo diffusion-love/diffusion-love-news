@@ -1,0 +1,11 @@
+{
+ "id": "n-4a6c47b7aa",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Despliegue de flujos de trabajo estándar de programación y agénticos a través de la API o de las herramientas para desarrolladores, dentro de las cuotas predeterminadas de la cuenta y sin verificación de identidad.\n\nEnvíe credenciales de identidad organizativa y supere una verificación de cumplimiento normativo para solicitar acceso a capacidades restringidas de ciberseguridad y pruebas de penetración en el marco del programa de acceso de confianza por niveles.\n\nSepare las tareas rutinarias de programación de las indicaciones de auditoría de seguridad para evitar activar los filtros de rechazo defensivos en cuentas de desarrollador no verificadas.\n\nMantenga registros de auditoría documentados y registros de cumplimiento al operar con acceso de confianza, para cumplir los requisitos de seguridad.",
+ "source_sha256": "c75d8030653aacdd6f9605835f58c7f9c515c9247e4c197f560ee292d6282e7d",
+ "summary": "OpenAI ha lanzado GPT-6.2 Astra y Sol con acceso estándar para programación general y una verificación de identidad más estricta para tareas de ciberseguridad de alto riesgo.",
+ "title": "OpenAI presenta GPT-6.2 Astra y Sol con acceso por niveles a la ciberseguridad",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
