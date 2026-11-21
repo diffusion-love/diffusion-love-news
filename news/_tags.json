@@ -193,6 +193,14 @@
   "Apple": [
     "n-353bab66f8"
   ],
+  "Apple AI: research releases to product capabilities": [
+    "n-efb0fb8a5d",
+    "n-eab4a185f3",
+    "n-d4c199de97",
+    "n-93d71a9cbf",
+    "n-4108f8b1e7",
+    "n-21d10fc208"
+  ],
   "Apple Foundation Models 3": [
     "n-3bacf0e143"
   ],
@@ -3352,7 +3360,21 @@
     "n-cfec66a95b"
   ],
   "apple": [
-    "n-353bab66f8"
+    "n-efb0fb8a5d",
+    "n-eab4a185f3",
+    "n-d4c199de97",
+    "n-93d71a9cbf",
+    "n-4108f8b1e7",
+    "n-353bab66f8",
+    "n-21d10fc208"
+  ],
+  "apple-ai-research-to-product": [
+    "n-efb0fb8a5d",
+    "n-eab4a185f3",
+    "n-d4c199de97",
+    "n-93d71a9cbf",
+    "n-4108f8b1e7",
+    "n-21d10fc208"
   ],
   "apple-foundation-models": [
     "n-3bacf0e143"
@@ -8838,6 +8860,7 @@
     "n-f4d17d7115",
     "n-f3c22d2162",
     "n-f306331601",
+    "n-efb0fb8a5d",
     "n-efaa00d50b",
     "n-ee8bd2e38f",
     "n-ec5428386a",
@@ -8879,6 +8902,7 @@
     "n-97c6278d46",
     "n-972d1e2832",
     "n-95d245f3eb",
+    "n-93d71a9cbf",
     "n-8a620616a1",
     "n-7e83db4168",
     "n-7cc366b545",
@@ -9468,6 +9492,7 @@
     "n-eb68bcfc57",
     "n-eac94cf783",
     "n-eab857eece",
+    "n-eab4a185f3",
     "n-eaa0dc5be8",
     "n-ea52f36353",
     "n-ea26f61d82",
@@ -9516,6 +9541,7 @@
     "n-d684acf3ae",
     "n-d5e082f834",
     "n-d4f7f53653",
+    "n-d4c199de97",
     "n-d497328784",
     "n-d46d9eb28f",
     "n-d4678fd961",
@@ -9861,6 +9887,7 @@
     "n-4176893fdd",
     "n-4148509833",
     "n-412ff5547f",
+    "n-4108f8b1e7",
     "n-4082277aeb",
     "n-40028a6fe7",
     "n-3faf75a3a8",
@@ -9953,6 +9980,7 @@
     "n-222b01635c",
     "n-2222547f97",
     "n-22001436c1",
+    "n-21d10fc208",
     "n-20c0bd9616",
     "n-1fff983f43",
     "n-1ee49081d2",
@@ -10960,6 +10988,14 @@
   "organization:anthropic": [
     "n-15f28b9d26",
     "n-0fd23f1e2c"
+  ],
+  "organization:apple": [
+    "n-efb0fb8a5d",
+    "n-eab4a185f3",
+    "n-d4c199de97",
+    "n-93d71a9cbf",
+    "n-4108f8b1e7",
+    "n-21d10fc208"
   ],
   "organization:canva": [
     "n-088aac8506"
@@ -12264,6 +12300,7 @@
     "n-f9bd7f602b",
     "n-f861f085b8",
     "n-f6c6cdf729",
+    "n-efb0fb8a5d",
     "n-ef68e2a314",
     "n-edad1a10a0",
     "n-ed7778c240",

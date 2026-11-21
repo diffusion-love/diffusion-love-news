@@ -1,5 +1,82 @@
 [
   {
+    "id": "n-efb0fb8a5d",
+    "date": "2026-11-20",
+    "title": "Apple job listing details agentic AI leadership for cross-app automation",
+    "category": "llm",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Apple AI: research releases to product capabilities",
+      "apple",
+      "apple-ai-research-to-product",
+      "llm",
+      "organization:apple",
+      "tools-frontend"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110310/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-eab4a185f3",
+    "date": "2026-11-20",
+    "title": "Apple reportedly developing native Mac AI agent",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Apple AI: research releases to product capabilities",
+      "apple",
+      "apple-ai-research-to-product",
+      "misc",
+      "organization:apple"
+    ],
+    "primary_link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-d4c199de97",
+    "date": "2026-11-20",
+    "title": "Apple opens engineering manager role for autonomous computer-use AI",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Apple AI: research releases to product capabilities",
+      "apple",
+      "apple-ai-research-to-product",
+      "misc",
+      "organization:apple"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110310/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-93d71a9cbf",
+    "date": "2026-11-20",
+    "title": "Apple tightens macOS agent permissions while developing proprietary assistant",
+    "category": "llm",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Apple AI: research releases to product capabilities",
+      "apple",
+      "apple-ai-research-to-product",
+      "llm",
+      "organization:apple"
+    ],
+    "primary_link": "https://habr.com/ru/companies/selectel/articles/1110360/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-617332c918",
     "date": "2026-11-20",
     "title": "GRAFT introduces execution-guided genetic recombination for LLM agent design",
@@ -15,6 +92,44 @@
       "llm"
     ],
     "primary_link": "https://arxiv.org/abs/2611.23509",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-4108f8b1e7",
+    "date": "2026-11-20",
+    "title": "macOS 27.3 beta expands third-party agent permission steps as Apple plans native agent",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Apple AI: research releases to product capabilities",
+      "apple",
+      "apple-ai-research-to-product",
+      "misc",
+      "organization:apple"
+    ],
+    "primary_link": "https://habr.com/ru/companies/selectel/articles/1110360/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-21d10fc208",
+    "date": "2026-11-20",
+    "title": "Apple pairs native agent development with stricter macOS automation barriers",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Apple AI: research releases to product capabilities",
+      "apple",
+      "apple-ai-research-to-product",
+      "misc",
+      "organization:apple"
+    ],
+    "primary_link": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
     "has_image": false,
     "has_video": false
   },
