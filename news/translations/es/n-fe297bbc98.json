@@ -1,0 +1,11 @@
+{
+ "id": "n-fe297bbc98",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clona el repositorio Coral79/PAMI-Code desde GitHub y configura el entorno con los paquetes necesarios de PyTorch, CUDA y geometría 3D.\n\nProporciona un prompt de texto descriptivo emparejado con una malla de objeto 3D objetivo que se ajuste a las convenciones de coordenadas esperadas.\n\nEjecuta el pipeline de generación grueso usando PamiGen dentro del espacio latente de PamiVAE para producir trayectorias candidatas votadas por anclas.\n\nAplica el módulo recursivo PamiRefiner para ajustar la geometría de contacto fino y resolver las penetraciones de pies o manos contra la superficie del objeto.\n\nAsegúrate de que las mallas de objeto de entrada tengan una geometría de superficie limpia y una escala consistente, para que los sensores de proximidad del refinador puedan calcular campos de contacto válidos.\n\nConserva el pipeline completo de generación de grueso a fino con PamiRefiner en lugar de usar solo muestras latentes gruesas, para evitar penetraciones de contacto localizadas.",
+ "source_sha256": "67c570bc53345a4406cc85c37def110cdad1f38f36bbd24441c45311644e6e3f",
+ "summary": "El repositorio oficial de Part-Anchored Motion (PAMI) se publicó en GitHub; ofrece el código del modelo para generar movimiento humano coordinado y trayectorias de objetos 3D a partir de prompts de texto y mallas de objetos.",
+ "title": "Publicado el repositorio de PAMI para la generación de interacciones part-anchored",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

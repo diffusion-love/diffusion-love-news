@@ -1,0 +1,11 @@
+{
+ "id": "n-d8b407c155",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "通过禁用自动唤醒并断开无人值守时外部外设端口的连接,确保对运行中的 Windows 11 硬件的物理控制。\n\n在无人值守时,应完全关机或休眠设备,而不是将其锁定,以强制对静态数据启用 BitLocker 卷加密。\n\n在共享或不受信任的物理环境中,应强制完全关机或休眠,而不是使用标准锁屏状态,以防止在内存中解密的 BitLocker 数据被访问。\n\n限制外部 USB 大容量存储设备的执行,并监控厂商安全更新中是否有未经协调的无障碍功能零日漏洞补丁。",
+ "source_sha256": "1912b6e71629684542d16cb71567f25462510e3ffd97e1ace0d8a382061588a1",
+ "summary": "研究人员 Abdelhamid Naceri 披露了 FastUnlock,这是 Windows 11 中的一个零日漏洞。该漏洞源于 Narrator 中一个缺乏约束的接口,使物理接触设备的攻击者能够访问设置,并在已解密、已锁定且启用了 BitLocker 的系统上以 WsiAccount 身份执行任意可执行文件。",
+ "title": "FastUnlock 零日漏洞通过 Narrator 接口绕过 Windows 11 锁屏",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

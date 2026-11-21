@@ -1,0 +1,11 @@
+{
+ "id": "n-d8b407c155",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Stellen Sie die physische Kontrolle über laufende Windows-11-Hardware sicher, indem Sie das automatische Aufwecken deaktivieren und nicht überwachte externe Peripherieanschlüsse trennen.\n\nFahren Sie Geräte vollständig herunter oder versetzen Sie sie in den Ruhezustand, anstatt sie unbeaufsichtigt gesperrt zu lassen, um die Verschlüsselung der BitLocker-Volumes im ruhenden Zustand zu erzwingen.\n\nErzwingen Sie in gemeinsam genutzten oder unsicheren physischen Umgebungen ein vollständiges Herunterfahren oder den Ruhezustand anstelle des standardmäßigen Sperrbildschirms, um einen Zugriff auf BitLocker-Daten im entschlüsselten Speicher zu verhindern.\n\nBeschränken Sie die Ausführung externer USB-Massenspeicher und achten Sie auf unkoordinierte Zero-Day-Patches für Barrierefreiheitsfunktionen aus Sicherheitsupdates des Herstellers.",
+ "source_sha256": "1912b6e71629684542d16cb71567f25462510e3ffd97e1ace0d8a382061588a1",
+ "summary": "Der Forscher Abdelhamid Naceri hat FastUnlock offengelegt, eine Zero-Day-Schwachstelle in Windows 11, bei der eine nicht eingeschränkte Schnittstelle in Narrator physisch anwesenden Angreifern Zugriff auf die Einstellungen ermöglicht und das Ausführen beliebiger ausführbarer Dateien auf entschlüsselten, gesperrten BitLocker-Systemen unter WsiAccount erlaubt.",
+ "title": "FastUnlock-Zero-Day umgeht den Windows-11-Sperrbildschirm über die Narrator-Schnittstelle",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

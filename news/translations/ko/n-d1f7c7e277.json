@@ -1,0 +1,11 @@
+{
+ "id": "n-d1f7c7e277",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "GitHub에서 Coral79/PAMI-Code 저장소를 클론하고 필요한 PyTorch, CUDA 및 3D 기하 패키지로 환경을 구성합니다.\n\n설명적인 텍스트 프롬프트와 예상 좌표계 규약을 따르는 3D 대상 객체 메시를 함께 제공합니다.\n\nPamiVAE 잠재 공간 안에서 PamiGen을 사용해 coarse 생성 파이프라인을 실행하여 앵커 투표 기반 후보 궤적을 생성합니다.\n\n재귀적 PamiRefiner 모듈을 적용하여 세밀한 접촉 기하를 조정하고, 객체 표면과의 발 또는 손 관통을 해결합니다.\n\nrefiner의 근접 센서가 유효한 접촉 필드를 계산할 수 있도록 입력 객체 메시가 깨끗한 표면 기하와 일관된 스케일을 갖추도록 합니다.\n\ncoarse 잠재 샘플만 사용하지 않고 PamiRefiner를 포함한 전체 coarse-to-fine 생성 파이프라인을 유지하여 국소적인 접촉 관통을 방지합니다.",
+ "source_sha256": "73585ebbc071824a48fce1570514f5a9e1ed2bc355a98a368ac77fe6da137de8",
+ "summary": "이번 릴리스는 Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger, Gerard Pons-Moll의 PAMI를 소개하며, PamiVAE, PamiGen, PamiRefiner를 통해 부위 앵커 기반 궤적 투표(part-anchored trajectory voting)를 구현합니다.",
+ "title": "PAMI, 부위 앵커 기반 text-to-HOI 합성을 위한 코드 공개",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

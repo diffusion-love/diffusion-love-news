@@ -1,0 +1,11 @@
+{
+ "id": "n-7ac78e35db",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Apple Silicon Mac에서 macOS를 실행하고, 자격을 갖춘 Google AI 요금제에 가입된 개인 Google 계정으로 공식 Gemini 앱을 설치하고 엽니다.\n\n메뉴 막대에서 Gemini 설정을 열거나(또는 Command + Comma 키를 누르고), 사이드바에서 Computer use를 선택한 뒤 'Allow Gemini to work with your Mac'를 켭니다.\n\nmacOS 시스템 설정에서 요청이 나타나면 손쉬운 사용(Accessibility)과 화면 및 시스템 오디오 녹음(Screen & System Audio Recording) 시스템 권한을 허용합니다.\n\n선택 사항인 안전 매개변수는 Gemini 설정에서 민감한 앱을 Blocked apps 목록에 추가하여 구성합니다.\n\nGemini 프롬프트 바에서 @Computer use 태그나 자연어 지시를 사용해 작업을 시작하고, 실시간 미리보기 패널로 진행 상황을 모니터링하며, 중요한 작업 프롬프트가 나타나면 승인합니다.\n\n의도치 않은 데이터 노출을 막기 위해 설정의 Blocked apps 목록에 비밀번호 관리자, 개인 금융 앱, 민감한 커뮤니케이션 도구를 미리 추가합니다.\n\n복잡한 워크플로의 첫 실행 중에는 채팅 내 실시간 미리보기 창을 계속 표시하여 실행 정확도를 확인하고, 확인 요청에 즉시 응답합니다.\n\n대량 파일 삭제나 일괄 문서 덮어쓰기와 같은 파괴적 작업을 실행하기 전에, 다단계 워크플로를 명시적인 검증 체크포인트가 있는 개별 프롬프트로 나눕니다.\n\n자동 문서 변환이나 파일 이름 변경 루틴에 위임하기 전에 필요 시 파일 백업을 활성화합니다.",
+ "source_sha256": "23af880e657d3608abfe11e4395efc4089d9209231314447d88d28e3488af06c",
+ "summary": "Google은 Apple Silicon Mac용 Gemini 앱에 백그라운드 컴퓨터 사용 기능을 출시했습니다. 이 기능은 미국의 Google AI Plus, Pro, Ultra 구독자를 대상으로, 커서를 빼앗지 않고 격리된 창에서 다단계 애플리케이션 및 웹 워크플로를 실행합니다.",
+ "title": "Gemini 앱, macOS에 백그라운드 컴퓨터 사용 기능 도입",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

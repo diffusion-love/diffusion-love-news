@@ -1,0 +1,11 @@
+{
+ "id": "n-fe297bbc98",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository Coral79/PAMI-Code von GitHub und richten Sie die Umgebung mit den erforderlichen Paketen für PyTorch, CUDA und 3D-Geometrie ein.\n\nStellen Sie einen beschreibenden Text-Prompt bereit, der mit einem 3D-Zielobjektmesh gepaart ist, das den erwarteten Koordinatenkonventionen entspricht.\n\nFühren Sie die grobe Generierungspipeline mit PamiGen innerhalb des PamiVAE-Latenzraums aus, um durch Anchor-Voting ermittelte Kandidatentrajektorien zu erzeugen.\n\nWenden Sie das rekursive Modul PamiRefiner an, um die feine Kontaktgeometrie anzupassen und Durchdringungen von Füßen oder Händen mit der Objektoberfläche aufzulösen.\n\nStellen Sie sicher, dass die Eingabe-Objektmeshes eine saubere Oberflächengeometrie und einen konsistenten Maßstab aufweisen, damit die Näherungssensoren im Refiner gültige Kontaktfelder berechnen können.\n\nBehalten Sie die vollständige grob-zu-fein-Generierungspipeline mit PamiRefiner bei, anstatt nur grobe Latent-Samples zu verwenden, um lokalisierte Kontaktdurchdringungen zu vermeiden.",
+ "source_sha256": "67c570bc53345a4406cc85c37def110cdad1f38f36bbd24441c45311644e6e3f",
+ "summary": "Das offizielle Repository für Part-Anchored Motion (PAMI) wurde auf GitHub veröffentlicht. Es stellt Modellcode zur Generierung koordinierter menschlicher Bewegungen und 3D-Objekttrajektorien aus Text-Prompts und Objektmeshes bereit.",
+ "title": "Repository für PAMI-Part-Anchored-Interaction-Generierung veröffentlicht",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

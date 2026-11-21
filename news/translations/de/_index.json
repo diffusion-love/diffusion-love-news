@@ -309,6 +309,11 @@
   "title": "SCAIL-2: Studiotaugliche Charakteranimation durch In-Context-Learning",
   "translated_at": "2026-11-13"
  },
+ "n-0d2dc88143": {
+  "fresh": true,
+  "title": "FAB: Schnelles Modell zur Rekonstruktion des menschlichen Körpers veröffentlicht",
+  "translated_at": "2026-11-21"
+ },
  "n-0d7aed5e86": {
   "fresh": true,
   "title": "Adobe kündigt Übernahme von Topaz Labs an",
@@ -2564,6 +2569,11 @@
   "title": "Boogu-Image: Öffentliche Projektressourcen verlinkt",
   "translated_at": "2026-10-24"
  },
+ "n-7ac78e35db": {
+  "fresh": true,
+  "title": "Gemini-App führt Computer use im Hintergrund unter macOS ein",
+  "translated_at": "2026-11-21"
+ },
  "n-7bd01d988c": {
   "fresh": true,
   "title": "Am 04.08.2026 wurde QuerySplat über seine Projektseite, das GitHub-Repository und die Hugging-Face-Seite verknüpft.",
@@ -3739,6 +3749,11 @@
   "title": "Enterprise-KI-Strategie von Sber auf Konferenz von Norilsk Nickel vorgestellt",
   "translated_at": "2026-11-18"
  },
+ "n-b89e603f7f": {
+  "fresh": true,
+  "title": "FAB-Code und Gewichte zur Rekonstruktion des menschlichen Körpers veröffentlicht",
+  "translated_at": "2026-11-21"
+ },
  "n-b8abd7e35e": {
   "fresh": true,
   "title": "Cream Typer: GitHub-Repository verlinkt",
@@ -4234,6 +4249,11 @@
   "title": "Repository Huihui-gemma-4-12B-it-abliterated referenziert",
   "translated_at": "2026-10-24"
  },
+ "n-d1f7c7e277": {
+  "fresh": true,
+  "title": "PAMI veröffentlicht Code für teilverankerte Text-zu-HOI-Synthese",
+  "translated_at": "2026-11-21"
+ },
  "n-d1faa63ee9": {
   "fresh": true,
   "title": "CoInteract: Interaktive Mensch-Objekt-Videogenerierung",
@@ -4373,6 +4393,11 @@
   "fresh": true,
   "title": "Kling Image 4.0 bringt Serienkonsistenz über 10 Bilder",
   "translated_at": "2026-11-19"
+ },
+ "n-d8b407c155": {
+  "fresh": true,
+  "title": "FastUnlock-Zero-Day umgeht den Windows-11-Sperrbildschirm über die Narrator-Schnittstelle",
+  "translated_at": "2026-11-21"
  },
  "n-d8bf4374be": {
   "fresh": true,
@@ -5138,6 +5163,11 @@
   "fresh": true,
   "title": "LGTM: Less Gaussians, Texture More für 3D-Rekonstruktion",
   "translated_at": "2026-10-24"
+ },
+ "n-fe297bbc98": {
+  "fresh": true,
+  "title": "Repository für PAMI-Part-Anchored-Interaction-Generierung veröffentlicht",
+  "translated_at": "2026-11-21"
  },
  "n-fe2f35c14b": {
   "fresh": true,

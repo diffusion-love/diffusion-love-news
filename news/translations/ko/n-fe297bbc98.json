@@ -1,0 +1,11 @@
+{
+ "id": "n-fe297bbc98",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "GitHub에서 Coral79/PAMI-Code 저장소를 클론하고, 필요한 PyTorch, CUDA 및 3D 기하 패키지로 환경을 구성합니다.\n\n설명형 텍스트 프롬프트와 예상 좌표 규약을 따르는 3D 대상 객체 메시를 함께 제공합니다.\n\nPamiVAE 잠재 공간 안에서 PamiGen을 사용해 coarse 생성 파이프라인을 실행하여, 앵커 투표로 얻은 후보 궤적을 생성합니다.\n\n재귀적 PamiRefiner 모듈을 적용하여 세부 접촉 기하를 조정하고, 객체 표면과 발 또는 손의 관통을 해결합니다.\n\n입력 객체 메시가 깨끗한 표면 기하와 일관된 스케일을 갖추도록 하여, Refiner의 근접 센서가 유효한 접촉 필드를 계산할 수 있게 합니다.\n\n국부적인 접촉 관통을 방지하기 위해, coarse 잠재 샘플만 사용하지 않고 PamiRefiner를 포함한 전체 coarse-to-fine 생성 파이프라인을 유지합니다.",
+ "source_sha256": "67c570bc53345a4406cc85c37def110cdad1f38f36bbd24441c45311644e6e3f",
+ "summary": "Part-Anchored Motion(PAMI)의 공식 저장소가 GitHub에 공개되었습니다. 이 저장소는 텍스트 프롬프트와 객체 메시로부터 협응된 인간 동작과 3D 객체 궤적을 생성하는 모델 코드를 제공합니다.",
+ "title": "PAMI 부위 앵커 상호작용 생성 저장소 공개",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

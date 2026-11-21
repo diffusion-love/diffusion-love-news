@@ -309,6 +309,11 @@
   "title": "SCAIL-2 : animation de personnages de qualité studio par apprentissage en contexte",
   "translated_at": "2026-11-13"
  },
+ "n-0d2dc88143": {
+  "fresh": true,
+  "title": "FAB : sortie du modèle rapide de reconstruction du corps humain",
+  "translated_at": "2026-11-21"
+ },
  "n-0d7aed5e86": {
   "fresh": true,
   "title": "Adobe annonce son projet d'acquérir Topaz Labs",
@@ -2564,6 +2569,11 @@
   "title": "Les ressources publiques du projet Boogu-Image ont été rendues accessibles",
   "translated_at": "2026-10-24"
  },
+ "n-7ac78e35db": {
+  "fresh": true,
+  "title": "L'application Gemini introduit l'utilisation de l'ordinateur en arrière-plan sur macOS",
+  "translated_at": "2026-11-21"
+ },
  "n-7bd01d988c": {
   "fresh": true,
   "title": "Le 2026-08-04, QuerySplat a été relié à son site de projet, à son dépôt GitHub et à sa page Hugging Face.",
@@ -3739,6 +3749,11 @@
   "title": "Stratégie d'IA d'entreprise de Sber présentée lors de la conférence de Norilsk Nickel",
   "translated_at": "2026-11-18"
  },
+ "n-b89e603f7f": {
+  "fresh": true,
+  "title": "Publication du code et des poids de reconstruction du corps humain FAB",
+  "translated_at": "2026-11-21"
+ },
  "n-b8abd7e35e": {
   "fresh": true,
   "title": "Dépôt GitHub de Cream Typer référencé",
@@ -4234,6 +4249,11 @@
   "title": "Dépôt Huihui-gemma-4-12B-it-abliterated référencé",
   "translated_at": "2026-10-24"
  },
+ "n-d1f7c7e277": {
+  "fresh": true,
+  "title": "PAMI publie le code de la synthèse texte-vers-HOI ancrée sur les parties",
+  "translated_at": "2026-11-21"
+ },
  "n-d1faa63ee9": {
   "fresh": true,
   "title": "CoInteract : génération vidéo d'interactions humain-objet",
@@ -4373,6 +4393,11 @@
   "fresh": true,
   "title": "Kling Image 4.0 apporte la cohérence des séries en 10 images",
   "translated_at": "2026-11-19"
+ },
+ "n-d8b407c155": {
+  "fresh": true,
+  "title": "FastUnlock : une faille zero-day contourne l'écran de verrouillage de Windows 11 via l'interface Narrator",
+  "translated_at": "2026-11-21"
  },
  "n-d8bf4374be": {
   "fresh": true,
@@ -5138,6 +5163,11 @@
   "fresh": true,
   "title": "LGTM : Less Gaussians, Texture More pour la reconstruction 3D",
   "translated_at": "2026-10-24"
+ },
+ "n-fe297bbc98": {
+  "fresh": true,
+  "title": "Publication du dépôt PAMI pour la génération d'interactions ancrées par parties",
+  "translated_at": "2026-11-21"
  },
  "n-fe2f35c14b": {
   "fresh": true,

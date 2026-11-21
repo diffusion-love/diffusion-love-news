@@ -1,0 +1,11 @@
+{
+ "id": "n-d1f7c7e277",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clonez le dépôt Coral79/PAMI-Code depuis GitHub et configurez l'environnement avec les paquets requis pour PyTorch, CUDA et la géométrie 3D.\n\nFournissez une invite textuelle descriptive associée à un maillage 3D de l'objet cible conforme aux conventions de coordonnées attendues.\n\nExécutez le pipeline de génération grossière à l'aide de PamiGen dans l'espace latent de PamiVAE afin de produire des trajectoires candidates votées par ancrage.\n\nAppliquez le module récursif PamiRefiner pour ajuster la géométrie fine du contact et résoudre les pénétrations des pieds ou des mains à la surface de l'objet.\n\nAssurez-vous que les maillages d'objets en entrée présentent une géométrie de surface propre et une échelle cohérente, afin que les capteurs de proximité du raffineur puissent calculer des champs de contact valides.\n\nConservez l'intégralité du pipeline de génération grossière-à-fine avec PamiRefiner plutôt que d'utiliser seulement les échantillons latents grossiers, afin d'éviter les pénétrations de contact localisées.",
+ "source_sha256": "73585ebbc071824a48fce1570514f5a9e1ed2bc355a98a368ac77fe6da137de8",
+ "summary": "La version présente PAMI, de Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger et Gerard Pons-Moll, qui met en œuvre le vote de trajectoires ancrées sur les parties via PamiVAE, PamiGen et PamiRefiner.",
+ "title": "PAMI publie le code de la synthèse texte-vers-HOI ancrée sur les parties",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

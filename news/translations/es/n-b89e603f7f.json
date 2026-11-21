@@ -1,0 +1,11 @@
+{
+ "id": "n-b89e603f7f",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Clone el repositorio del proyecto FAB y configure el entorno de Python con PyTorch y las dependencias.\n\nDescargue los pesos preentrenados del modelo estudiante ViT-L desde el repositorio de modelos proporcionado.\n\nEjecute el script de inferencia de vídeo para extraer esqueletos articulares 3D, nubes de puntos densas de superficie y estados de contacto de las articulaciones a partir de vídeo monocular.\n\nAsigne las poses articulares predichas y las señales de contacto a objetivos de control para robots humanoides, como el Unitree G1.\n\nDespliegue el modelo en una GPU de alto rendimiento, como una RTX 4070 Ti SUPER, para mantener un rendimiento de reconstrucción en tiempo real superior a treinta y nueve fotogramas por segundo incluyendo la detección.\n\nAproveche los estados de contacto predichos en talones, puntas de los pies, manos y rodillas para imponer restricciones de contacto físico y mitigar el deslizamiento de los pies o la penetración en el suelo durante la redirección (retargeting) robótica.",
+ "source_sha256": "58b7b3bbd543944c7fc651444d781b7c6756986ef2cc11376382d979e8f19a8d",
+ "summary": "Se publican los pesos de código abierto y el código de implementación del modelo FAB de reconstrucción del cuerpo humano, que permite la extracción en tiempo real, a partir de vídeo monocular, de puntos densos de superficie y del movimiento esquelético mediante una red estudiante ViT-L destilada.",
+ "title": "Publicados el código y los pesos de FAB para la reconstrucción del cuerpo humano",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

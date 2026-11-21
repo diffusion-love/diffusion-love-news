@@ -304,6 +304,11 @@
   "title": "SCAIL-2：基于上下文学习的影棚级角色动画",
   "translated_at": "2026-11-13"
  },
+ "n-0d2dc88143": {
+  "fresh": true,
+  "title": "FAB：快速人体重建模型发布",
+  "translated_at": "2026-11-21"
+ },
  "n-0d7aed5e86": {
   "fresh": true,
   "title": "Adobe宣布计划收购Topaz Labs",
@@ -2559,6 +2564,11 @@
   "title": "Boogu-Image 项目公开资源已上线",
   "translated_at": "2026-10-24"
  },
+ "n-7ac78e35db": {
+  "fresh": true,
+  "title": "Gemini 应用在 macOS 上推出后台计算机使用功能",
+  "translated_at": "2026-11-21"
+ },
  "n-7bd01d988c": {
   "fresh": true,
   "title": "2026年8月4日，QuerySplat通过其项目站点、GitHub仓库和Hugging Face页面建立了关联。",
@@ -3734,6 +3744,11 @@
   "title": "Sber 企业级 AI 战略在 Norilsk Nickel 大会上亮相",
   "translated_at": "2026-11-18"
  },
+ "n-b89e603f7f": {
+  "fresh": true,
+  "title": "FAB 人体重建代码与权重已发布",
+  "translated_at": "2026-11-21"
+ },
  "n-b8abd7e35e": {
   "fresh": true,
   "title": "Cream Typer GitHub 仓库被引用",
@@ -4229,6 +4244,11 @@
   "title": "Huihui-gemma-4-12B-it-abliterated 仓库被引用",
   "translated_at": "2026-10-24"
  },
+ "n-d1f7c7e277": {
+  "fresh": true,
+  "title": "PAMI 发布部件锚定文本到 HOI 合成的代码",
+  "translated_at": "2026-11-21"
+ },
  "n-d1faa63ee9": {
   "fresh": true,
   "title": "CoInteract：交互式人-物视频生成",
@@ -4368,6 +4388,11 @@
   "fresh": true,
   "title": "Kling Image 4.0 实现 10 帧系列一致性",
   "translated_at": "2026-11-19"
+ },
+ "n-d8b407c155": {
+  "fresh": true,
+  "title": "FastUnlock 零日漏洞通过 Narrator 接口绕过 Windows 11 锁屏",
+  "translated_at": "2026-11-21"
  },
  "n-d8bf4374be": {
   "fresh": true,
@@ -5128,6 +5153,11 @@
   "fresh": true,
   "title": "LGTM：更少高斯、更多纹理的3D重建",
   "translated_at": "2026-11-13"
+ },
+ "n-fe297bbc98": {
+  "fresh": true,
+  "title": "PAMI部位锚定交互生成仓库发布",
+  "translated_at": "2026-11-21"
  },
  "n-fe2f35c14b": {
   "fresh": true,

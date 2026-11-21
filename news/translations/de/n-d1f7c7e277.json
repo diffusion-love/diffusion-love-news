@@ -1,0 +1,11 @@
+{
+ "id": "n-d1f7c7e277",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das Repository Coral79/PAMI-Code von GitHub und richten Sie die Umgebung mit den erforderlichen PyTorch-, CUDA- und 3D-Geometriepaketen ein.\n\nStellen Sie einen beschreibenden Text-Prompt bereit, der mit einem 3D-Zielobjektmesh gepaart ist, das den erwarteten Koordinatenkonventionen entspricht.\n\nFühren Sie die grobe Generierungspipeline mit PamiGen im latenten Raum von PamiVAE aus, um ankerbasiert abgestimmte Kandidatentrajektorien zu erzeugen.\n\nWenden Sie das rekursive Modul PamiRefiner an, um die feine Kontaktgeometrie anzupassen und Durchdringungen von Füßen oder Händen an der Objektoberfläche aufzulösen.\n\nStellen Sie sicher, dass die Eingabe-Objektmeshes eine saubere Oberflächengeometrie und einen konsistenten Maßstab aufweisen, damit die Näherungssensoren im Refiner gültige Kontaktfelder berechnen können.\n\nBehalten Sie die vollständige grob-zu-fein-Generierungspipeline mit PamiRefiner bei, anstatt nur grobe latente Samples zu verwenden, um lokale Kontaktdurchdringungen zu verhindern.",
+ "source_sha256": "73585ebbc071824a48fce1570514f5a9e1ed2bc355a98a368ac77fe6da137de8",
+ "summary": "Die Veröffentlichung stellt PAMI von Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger und Gerard Pons-Moll vor und implementiert teilverankerte Trajektorienabstimmung (part-anchored trajectory voting) über PamiVAE, PamiGen und PamiRefiner.",
+ "title": "PAMI veröffentlicht Code für teilverankerte Text-zu-HOI-Synthese",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

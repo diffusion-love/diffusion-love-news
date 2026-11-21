@@ -1,0 +1,11 @@
+{
+ "id": "n-d8b407c155",
+ "lang": "fr",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Assurer le contrôle physique des machines Windows 11 en fonctionnement en désactivant le réveil automatique et en déconnectant les ports périphériques externes laissés sans surveillance.\n\nArrêter complètement les appareils ou les mettre en hibernation plutôt que de les laisser verrouillés lorsqu'ils sont sans surveillance, afin de forcer le chiffrement BitLocker des volumes au repos.\n\nImposer un arrêt complet du système ou une mise en hibernation plutôt qu'un simple écran de verrouillage dans les environnements physiques partagés ou non fiables, afin d'empêcher l'accès à BitLocker par les données déchiffrées en mémoire.\n\nRestreindre l'exécution des périphériques de stockage de masse USB externes et surveiller les correctifs zero-day liés à l'accessibilité, publiés de manière non coordonnée dans les mises à jour de sécurité des éditeurs.",
+ "source_sha256": "1912b6e71629684542d16cb71567f25462510e3ffd97e1ace0d8a382061588a1",
+ "summary": "Le chercheur Abdelhamid Naceri a divulgué FastUnlock, une faille zero-day de Windows 11 : une interface non contrainte de Narrator permet à des attaquants présents physiquement d'accéder aux Paramètres et d'exécuter des exécutables arbitraires sur des systèmes BitLocker déchiffrés et verrouillés, sous le compte WsiAccount.",
+ "title": "FastUnlock : une faille zero-day contourne l'écran de verrouillage de Windows 11 via l'interface Narrator",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

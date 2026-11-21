@@ -1,0 +1,11 @@
+{
+ "id": "n-b89e603f7f",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Klonen Sie das FAB-Projekt-Repository und richten Sie die Python-Umgebung mit PyTorch und den Abhängigkeiten ein.\n\nLaden Sie die vortrainierten Gewichte des ViT-L-Student-Modells aus dem bereitgestellten Modell-Repository herunter.\n\nFühren Sie das Skript zur Videoinferenz aus, um 3D-Gelenkskelette, dichte Oberflächenpunktwolken und Gelenkkontaktzustände aus monokularen Videos zu extrahieren.\n\nBilden Sie die vorhergesagten Gelenkposen und Kontaktsignale auf humanoide Steuerziele ab, etwa für den Roboter Unitree G1.\n\nSetzen Sie auf einer leistungsstarken GPU wie der RTX 4070 Ti SUPER ein, um einen Echtzeit-Rekonstruktionsdurchsatz von über neununddreißig Bildern pro Sekunde einschließlich Detektion aufrechtzuerhalten.\n\nNutzen Sie die vorhergesagten Kontaktzustände an Fersen, Zehen, Händen und Knien, um physikalische Kontaktbedingungen durchzusetzen und Fußgleiten oder Bodendurchdringung beim robotischen Retargeting zu verhindern.",
+ "source_sha256": "58b7b3bbd543944c7fc651444d781b7c6756986ef2cc11376382d979e8f19a8d",
+ "summary": "Die Open-Source-Gewichte und der Implementierungscode für das FAB-Modell zur Rekonstruktion des menschlichen Körpers sind veröffentlicht. Das Modell ermöglicht die Echtzeitextraktion dichter Oberflächenpunkte und skelettaler Bewegungsdaten aus monokularen Videos mithilfe eines destillierten ViT-L-Student-Netzwerks.",
+ "title": "FAB-Code und Gewichte zur Rekonstruktion des menschlichen Körpers veröffentlicht",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

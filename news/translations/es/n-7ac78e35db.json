@@ -1,0 +1,11 @@
+{
+ "id": "n-7ac78e35db",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Instale y abra la aplicación oficial de Gemini en un Mac con Apple Silicon que ejecute macOS, con una cuenta personal de Google suscrita a un nivel elegible de Google AI.\n\nAbra los ajustes de Gemini desde la barra de menús (o pulse Command + Comma), seleccione Computer use en la barra lateral y active la opción 'Allow Gemini to work with your Mac'.\n\nConceda los permisos del sistema de macOS para Accessibility y Screen & System Audio Recording cuando se soliciten en Ajustes del Sistema.\n\nConfigure parámetros de seguridad opcionales en los ajustes de Gemini añadiendo aplicaciones sensibles a la lista Blocked apps.\n\nInicie una tarea en la barra de indicaciones de Gemini usando la etiqueta @Computer use o instrucciones en lenguaje natural, supervise el progreso a través del panel de vista previa en vivo y apruebe las solicitudes de acciones críticas cuando se le pidan.\n\nAñada preventivamente gestores de contraseñas, aplicaciones bancarias personales y herramientas de comunicación sensibles a la lista Blocked apps de los ajustes para evitar la exposición accidental de datos.\n\nMantenga visible la ventana de vista previa en vivo del chat durante las primeras ejecuciones de flujos de trabajo complejos para verificar la precisión de la ejecución y responder con prontitud a las solicitudes de confirmación.\n\nDivida los flujos de trabajo de varias etapas en indicaciones discretas con puntos de verificación explícitos antes de ejecutar operaciones destructivas, como la eliminación masiva de archivos o la sobrescritura por lotes de documentos.\n\nActive copias de seguridad de archivos bajo demanda antes de delegar rutinas automatizadas de transformación de documentos o de cambio de nombre de archivos.",
+ "source_sha256": "23af880e657d3608abfe11e4395efc4089d9209231314447d88d28e3488af06c",
+ "summary": "Google ha lanzado el uso del ordenador en segundo plano para la aplicación Gemini en Mac con Apple Silicon, ejecutando flujos de trabajo de varios pasos en aplicaciones y en la web dentro de una ventana aislada y sin tomar el control del cursor, para suscriptores estadounidenses de Google AI Plus, Pro y Ultra.",
+ "title": "Gemini app introduces background computer use on macOS",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}

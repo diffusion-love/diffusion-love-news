@@ -1,0 +1,11 @@
+{
+ "id": "n-7ac78e35db",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "在搭载 Apple 芯片的 Mac 上安装并打开官方 Gemini 应用，使用已订阅符合条件 Google AI 套餐的个人 Google 账户，运行 macOS。\n\n从菜单栏打开 Gemini 设置（或按 Command + 逗号键），在侧边栏中选择 Computer use，并开启“允许 Gemini 使用您的 Mac”。\n\n在系统设置提示时，授予 macOS 的辅助功能以及屏幕与系统音频录制权限。\n\n在 Gemini 设置中，通过将敏感应用添加到已阻止应用列表，配置可选的安全参数。\n\n在 Gemini 提示栏中使用 @Computer use 标签或自然语言指令发起任务，通过实时预览面板监控进度，并在需要时批准关键操作提示。\n\n预先将密码管理器、个人银行应用和敏感通信工具添加到设置中的已阻止应用列表，以防止数据被意外暴露。\n\n在复杂工作流的初次运行期间，保持聊天窗口中的实时预览可见，以验证执行准确性，并及时响应确认请求。\n\n在执行批量删除文件或批量覆盖文档等破坏性操作之前，将多阶段工作流拆分为离散的提示，并设置明确的验证检查点。\n\n在委托自动化文档转换或文件重命名例程之前，启用按需文件备份。",
+ "source_sha256": "23af880e657d3608abfe11e4395efc4089d9209231314447d88d28e3488af06c",
+ "summary": "Google 为 Apple 芯片 Mac 上的 Gemini 应用发布了后台计算机使用功能，面向美国的 Google AI Plus、Pro 和 Ultra 订阅用户，可在隔离窗口中执行多步骤的应用和网页工作流，且不接管光标。",
+ "title": "Gemini 应用在 macOS 上推出后台计算机使用功能",
+ "translated_at": "2026-11-21",
+ "translation": "machine"
+}
