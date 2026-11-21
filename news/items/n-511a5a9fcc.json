@@ -1,0 +1,109 @@
+{
+ "schema_version": "1.4",
+ "id": "n-511a5a9fcc",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Alljoined details ENIGMA model and open EEG datasets for visual neural decoding",
+ "summary": "Alljoined developed the ENIGMA multi-subject model to reconstruct seen images from non-invasive EEG signals. The architecture uses a unified spatio-temporal backbone with subject alignment layers, supported by the Alljoined-1.6M image-response dataset and the NOVA emotion dataset.",
+ "research_notes": "Acquire multi-channel EEG signals from subjects viewing visual stimuli using consumer-grade or laboratory EEG hardware such as a 32-channel wet-electrode cap.\n\nCollect approximately 15 minutes of user-specific EEG calibration data to adapt ENIGMA's shared multi-subject representation to individual brain patterns.\n\nProcess raw EEG signals through the spatio-temporal backbone and multi-subject latent alignment layers to project signals into the visual latent space for image reconstruction.\n\nPre-train neural decoding backbones across multi-subject pools to learn generalized visual representations rather than training separate individual models from scratch.\n\nDeploy lightweight unified spatio-temporal backbones with latent alignment layers to minimize parameter counts and enable local inference without large compute clusters.",
+ "project": {
+  "name": null,
+  "family_slug": null,
+  "family_display": null,
+  "model_slug": null,
+  "model_display": null,
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": {
+  "slug": "alljoined",
+  "display": "Alljoined: alljoined-bci-eeg-research",
+  "homepage": null
+ },
+ "development": {
+  "scope": "organization",
+  "thread_slug": "alljoined-bci-eeg-research",
+  "thread_display": "Alljoined Bci Eeg Research",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Alljoined: alljoined-bci-eeg-research",
+  "article_url": "https://happyin.space/organizations/alljoined/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/40c9d40e6cfb1dbda87229895b5652f287b0c258/docs/organizations/alljoined.md",
+  "agent_context_url": "https://happyin.space/organizations/alljoined/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "Alljoined details ENIGMA model and open EEG datasets for visual neural decoding",
+  "version": null,
+  "summary": "Alljoined developed the ENIGMA multi-subject model to reconstruct seen images from non-invasive EEG signals. The architecture uses a unified spatio-temporal backbone with subject alignment layers, supported by the Alljoined-1.6M image-response dataset and the NOVA emotion dataset."
+ },
+ "tags": [
+  "Alljoined: alljoined-bci-eeg-research",
+  "alljoined",
+  "alljoined-bci-eeg-research",
+  "misc",
+  "organization:alljoined"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [
+   "alljoined"
+  ],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://www.alljoined.com/",
+   "host": "alljoined.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T09:37:39Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "Alljoined developed the ENIGMA multi-subject model to reconstruct seen images from non-invasive EEG signals. The architecture uses a unified spatio-temporal backbone with subject alignment layers, supported by the Alljoined-1.6M image-response dataset and the NOVA emotion dataset."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T09:37:39Z",
+  "classified_at": "2026-11-21T09:37:39Z",
+  "enriched_at": "2026-11-21T09:37:39Z",
+  "verified_at": "2026-11-21T09:37:39Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

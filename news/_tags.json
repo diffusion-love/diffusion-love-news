@@ -202,6 +202,9 @@
     "n-b88d648185",
     "n-a89ec476bc"
   ],
+  "Alljoined: alljoined-bci-eeg-research": [
+    "n-511a5a9fcc"
+  ],
   "Anthropic": [
     "n-f64d313e07",
     "n-eefafa6ead",
@@ -1234,7 +1237,9 @@
     "n-01b786ce9f"
   ],
   "Genie 4: genie-world-model-line": [
-    "n-8a1ced2145"
+    "n-f64d237d21",
+    "n-8a1ced2145",
+    "n-56a8f448dc"
   ],
   "Genxr Bench: genxr-bench-release": [
     "n-2988748edd"
@@ -2661,6 +2666,7 @@
   ],
   "Project Genie: project-genie-genie-4-rollout": [
     "n-994b1eb71c",
+    "n-4526450394",
     "n-36b8a36bed"
   ],
   "Prompt Relay": [
@@ -3834,6 +3840,12 @@
     "n-c0cb01a268",
     "n-b88d648185",
     "n-a89ec476bc"
+  ],
+  "alljoined": [
+    "n-511a5a9fcc"
+  ],
+  "alljoined-bci-eeg-research": [
+    "n-511a5a9fcc"
   ],
   "amd": [
     "n-9253bb5191",
@@ -5435,6 +5447,7 @@
   ],
   "diffusion-video": [
     "n-fb32c38877",
+    "n-f64d237d21",
     "n-e76fc8f96f",
     "n-e3abad048f",
     "n-daa2681205",
@@ -5478,6 +5491,7 @@
     "n-4bbad7fe81",
     "n-49e8a26e33",
     "n-492f7ebf1e",
+    "n-4526450394",
     "n-3efd45843c",
     "n-3ae3ddb34b",
     "n-396cd4f7c0",
@@ -6778,7 +6792,9 @@
     "n-eaa27c5213"
   ],
   "family:genie-4": [
-    "n-8a1ced2145"
+    "n-f64d237d21",
+    "n-8a1ced2145",
+    "n-56a8f448dc"
   ],
   "family:genxr-bench": [
     "n-2988748edd"
@@ -8104,6 +8120,7 @@
   ],
   "family:project-genie": [
     "n-994b1eb71c",
+    "n-4526450394",
     "n-36b8a36bed"
   ],
   "family:prompt-relay": [
@@ -9407,10 +9424,14 @@
     "n-01b786ce9f"
   ],
   "genie-4": [
-    "n-8a1ced2145"
+    "n-f64d237d21",
+    "n-8a1ced2145",
+    "n-56a8f448dc"
   ],
   "genie-world-model-line": [
-    "n-8a1ced2145"
+    "n-f64d237d21",
+    "n-8a1ced2145",
+    "n-56a8f448dc"
   ],
   "genxr-bench": [
     "n-2988748edd"
@@ -12317,6 +12338,7 @@
     "n-5723fbc5ab",
     "n-572023644f",
     "n-56fe61ff2b",
+    "n-56a8f448dc",
     "n-55b3aea30b",
     "n-55b05978df",
     "n-5540a93cb5",
@@ -12333,6 +12355,7 @@
     "n-5262da1880",
     "n-520de897dc",
     "n-51a9d6c3d6",
+    "n-511a5a9fcc",
     "n-50bad9fef4",
     "n-4fb87f050c",
     "n-4f12619e78",
@@ -14451,6 +14474,9 @@
     "n-4003adb534",
     "n-061c80a1dc"
   ],
+  "organization:alljoined": [
+    "n-511a5a9fcc"
+  ],
   "organization:amd": [
     "n-9253bb5191"
   ],
@@ -14813,10 +14839,12 @@
   ],
   "project-genie": [
     "n-994b1eb71c",
+    "n-4526450394",
     "n-36b8a36bed"
   ],
   "project-genie-genie-4-rollout": [
     "n-994b1eb71c",
+    "n-4526450394",
     "n-36b8a36bed"
   ],
   "project-history": [
