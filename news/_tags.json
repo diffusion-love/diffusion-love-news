@@ -1068,7 +1068,9 @@
     "n-01b786ce9f"
   ],
   "Genie 4: genie-world-model-line": [
-    "n-8a1ced2145"
+    "n-f64d237d21",
+    "n-8a1ced2145",
+    "n-56a8f448dc"
   ],
   "Genxr Bench: genxr-bench-release": [
     "n-2988748edd"
@@ -4422,6 +4424,7 @@
   ],
   "diffusion-video": [
     "n-fb32c38877",
+    "n-f64d237d21",
     "n-e76fc8f96f",
     "n-e3abad048f",
     "n-daa2681205",
@@ -5568,7 +5571,9 @@
     "n-eaa27c5213"
   ],
   "family:genie-4": [
-    "n-8a1ced2145"
+    "n-f64d237d21",
+    "n-8a1ced2145",
+    "n-56a8f448dc"
   ],
   "family:genxr-bench": [
     "n-2988748edd"
@@ -7794,10 +7799,14 @@
     "n-01b786ce9f"
   ],
   "genie-4": [
-    "n-8a1ced2145"
+    "n-f64d237d21",
+    "n-8a1ced2145",
+    "n-56a8f448dc"
   ],
   "genie-world-model-line": [
-    "n-8a1ced2145"
+    "n-f64d237d21",
+    "n-8a1ced2145",
+    "n-56a8f448dc"
   ],
   "genxr-bench": [
     "n-2988748edd"
@@ -9915,6 +9924,7 @@
     "n-5966d93d70",
     "n-595169f554",
     "n-594cd03215",
+    "n-56a8f448dc",
     "n-55b3aea30b",
     "n-55b05978df",
     "n-5540a93cb5",

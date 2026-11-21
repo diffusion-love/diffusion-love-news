@@ -32071,9 +32071,11 @@
       {
         "family_display": "Genie 4: genie-world-model-line",
         "first_seen": "2026-11-18",
-        "last_seen": "2026-11-18",
+        "last_seen": "2026-11-20",
         "news_ids": [
-          "n-8a1ced2145"
+          "n-8a1ced2145",
+          "n-56a8f448dc",
+          "n-f64d237d21"
         ]
       }
     ],
@@ -32083,15 +32085,18 @@
     "license": null,
     "base_model": null,
     "categories": [
-      "diffusion-video"
+      "diffusion-video",
+      "misc"
     ],
-    "post_count": 1,
+    "post_count": 3,
     "first_seen": "2026-11-18",
-    "last_seen": "2026-11-18",
+    "last_seen": "2026-11-20",
     "latest_version": null,
     "latest_evolution": null,
     "news_ids": [
-      "n-8a1ced2145"
+      "n-8a1ced2145",
+      "n-56a8f448dc",
+      "n-f64d237d21"
     ],
     "versions_timeline": [
       {
@@ -32100,6 +32105,20 @@
         "news_id": "n-8a1ced2145",
         "title": "Google DeepMind makes Genie 4 interactive world model available in preview",
         "primary_link": "https://deepmind.google/blog/genie-4-is-now-available/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-56a8f448dc",
+        "title": "Google launches Genie 4 API with streaming token billing",
+        "primary_link": "https://aistudio.google.com/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-f64d237d21",
+        "title": "Google DeepMind releases Genie 4 interactive world model API",
+        "primary_link": "https://aistudio.google.com/"
       }
     ],
     "features": [],
@@ -32114,6 +32133,19 @@
     "aliases": [],
     "domains": [],
     "links": [
+      {
+        "kind": "reference",
+        "host": "aistudio.google.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://aistudio.google.com/",
+        "is_primary": true,
+        "verified_at": "2026-11-21T09:17:16Z",
+        "news_ids": [
+          "n-56a8f448dc",
+          "n-f64d237d21"
+        ]
+      },
       {
         "kind": "reference",
         "host": "deepmind.google",
@@ -32136,9 +32168,65 @@
         "version": null,
         "news_id": "n-8a1ced2145",
         "primary_link": "https://deepmind.google/blog/genie-4-is-now-available/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Google launches Genie 4 API with streaming token billing",
+        "summary": "Genie 4 is an interactive generative simulation endpoint for paid Gemini API accounts. Output consumes approximately 240 video tokens per frame or 5,760 tokens per second at 24 fps with stereo sound. Usage costs approximately $0.10 per second ($6.05 per minute) and requires billing enablement in Google AI Studio. The pricing model establishes dedicated interactive video streaming tariffs for developer applications.",
+        "version": null,
+        "news_id": "n-56a8f448dc",
+        "primary_link": "https://aistudio.google.com/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Google DeepMind releases Genie 4 interactive world model API",
+        "summary": "Genie 4 is an interactive world model accessible via Google AI Studio and the Gemini v1beta Interactions API for developers. The model provides real-time keyboard steering, runtime text conditioning, and synchronized 48 kHz stereo audio at 720p 24 fps. Generation streams over WebRTC and WebSockets with SynthID watermarking and mandatory session completion calls. The release transitions interactive world simulation into a commercially available developer API.",
+        "version": null,
+        "news_id": "n-f64d237d21",
+        "primary_link": "https://aistudio.google.com/"
       }
     ],
     "related_news": [
+      {
+        "id": "n-f64d237d21",
+        "date": "2026-11-20",
+        "title": "Google DeepMind releases Genie 4 interactive world model API",
+        "category": "diffusion-video",
+        "entry_type": "news",
+        "project": "genie-4",
+        "version": null,
+        "tags": [
+          "Genie 4: genie-world-model-line",
+          "diffusion-video",
+          "family:genie-4",
+          "genie-4",
+          "genie-world-model-line"
+        ],
+        "primary_link": "https://aistudio.google.com/",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-56a8f448dc",
+        "date": "2026-11-20",
+        "title": "Google launches Genie 4 API with streaming token billing",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "genie-4",
+        "version": null,
+        "tags": [
+          "Genie 4: genie-world-model-line",
+          "family:genie-4",
+          "genie-4",
+          "genie-world-model-line",
+          "misc"
+        ],
+        "primary_link": "https://aistudio.google.com/",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-8a1ced2145",
         "date": "2026-11-18",
@@ -32165,10 +32253,12 @@
         "slug": "genie-world-model-line",
         "display": "Genie World Model Line",
         "first_seen": "2026-11-18",
-        "last_seen": "2026-11-18",
-        "latest_news_id": "n-8a1ced2145",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-f64d237d21",
         "news_ids": [
-          "n-8a1ced2145"
+          "n-8a1ced2145",
+          "n-56a8f448dc",
+          "n-f64d237d21"
         ]
       }
     ]

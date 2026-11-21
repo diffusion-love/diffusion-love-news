@@ -19,6 +19,25 @@
     "has_video": false
   },
   {
+    "id": "n-f64d237d21",
+    "date": "2026-11-20",
+    "title": "Google DeepMind releases Genie 4 interactive world model API",
+    "category": "diffusion-video",
+    "entry_type": "news",
+    "project": "genie-4",
+    "version": null,
+    "tags": [
+      "Genie 4: genie-world-model-line",
+      "diffusion-video",
+      "family:genie-4",
+      "genie-4",
+      "genie-world-model-line"
+    ],
+    "primary_link": "https://aistudio.google.com/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-efb0fb8a5d",
     "date": "2026-11-20",
     "title": "Apple job listing details agentic AI leadership for cross-app automation",
@@ -245,6 +264,25 @@
       "llm"
     ],
     "primary_link": "https://arxiv.org/abs/2611.23509",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-56a8f448dc",
+    "date": "2026-11-20",
+    "title": "Google launches Genie 4 API with streaming token billing",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "genie-4",
+    "version": null,
+    "tags": [
+      "Genie 4: genie-world-model-line",
+      "family:genie-4",
+      "genie-4",
+      "genie-world-model-line",
+      "misc"
+    ],
+    "primary_link": "https://aistudio.google.com/",
     "has_image": false,
     "has_video": false
   },

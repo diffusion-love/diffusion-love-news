@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-56a8f448dc",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Google launches Genie 4 API with streaming token billing",
+ "summary": "Genie 4 is an interactive generative simulation endpoint for paid Gemini API accounts. Output consumes approximately 240 video tokens per frame or 5,760 tokens per second at 24 fps with stereo sound. Usage costs approximately $0.10 per second ($6.05 per minute) and requires billing enablement in Google AI Studio. The pricing model establishes dedicated interactive video streaming tariffs for developer applications.",
+ "research_notes": "Enable paid billing on a Google AI Studio account and create a Gemini API key.\n\nInitiate an interactive session via client.interactions.create with model specified as genie-4.\n\nConnect to the streaming session over WebRTC or WebSocket and transmit a world_setup event containing a seed prompt or 16:9 image.\n\nStream real-time user steering inputs such as WASD navigation and mid-session text prompts to navigate and alter the simulated environment dynamically.\n\nCall complete() on the interaction object when finished to terminate the server-side generation process and conclude billing.\n\nExplicitly invoke interaction.complete() within termination and error-handling blocks to close the real-time stream and avoid continuous video output token billing.\n\nGenerate ephemeral single-use session tokens using interactions.authTokens.create when connecting web clients via WebRTC to keep long-term Gemini API keys private.\n\nLocate client sessions and backend proxies near serving regions in North America, Western Europe, or East Asia to maintain round-trip latencies below 150 milliseconds for responsive steering.",
+ "project": {
+  "name": "Genie 4: genie-world-model-line",
+  "family_slug": "genie-4",
+  "family_display": "Genie 4: genie-world-model-line",
+  "model_slug": "genie-4",
+  "model_display": "Genie 4: genie-world-model-line",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "genie-world-model-line",
+  "thread_display": "Genie World Model Line",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Genie 4: genie-world-model-line",
+  "article_url": "https://happyin.space/projects/genie-4/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/0b8b7490c5150c3db6d115e0ca8aa08a85a54b96/docs/projects/genie-4.md",
+  "agent_context_url": "https://happyin.space/projects/genie-4/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "Google launches Genie 4 API with streaming token billing",
+  "version": null,
+  "summary": "Genie 4 is an interactive generative simulation endpoint for paid Gemini API accounts. Output consumes approximately 240 video tokens per frame or 5,760 tokens per second at 24 fps with stereo sound. Usage costs approximately $0.10 per second ($6.05 per minute) and requires billing enablement in Google AI Studio. The pricing model establishes dedicated interactive video streaming tariffs for developer applications."
+ },
+ "tags": [
+  "Genie 4: genie-world-model-line",
+  "family:genie-4",
+  "genie-4",
+  "genie-world-model-line",
+  "misc"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [
+   "genie-4"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://aistudio.google.com/",
+   "host": "aistudio.google.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T09:17:16Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "Genie 4 is an interactive generative simulation endpoint for paid Gemini API accounts. Output consumes approximately 240 video tokens per frame or 5,760 tokens per second at 24 fps with stereo sound. Usage costs approximately $0.10 per second ($6.05 per minute) and requires billing enablement in Google AI Studio. The pricing model establishes dedicated interactive video streaming tariffs for developer applications."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T09:17:16Z",
+  "classified_at": "2026-11-21T09:17:16Z",
+  "enriched_at": "2026-11-21T09:17:16Z",
+  "verified_at": "2026-11-21T09:17:16Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
