@@ -42392,6 +42392,127 @@
     ],
     "claims": []
   },
+  "ideogram": {
+    "family_slug": "ideogram",
+    "family_display": "Ideogram model and product releases",
+    "family_display_variants": [
+      {
+        "family_display": "Ideogram model and product releases",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "news_ids": [
+          "n-a2bdbb6a58"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "diffusion-image"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-a2bdbb6a58"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-20",
+        "news_id": "n-a2bdbb6a58",
+        "title": "Ideogram 4.6 adds native 4K rendering and multi-step editing",
+        "primary_link": "https://ideogram.ai/models/4.6"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "reference",
+        "host": "ideogram.ai",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://ideogram.ai/models/4.6",
+        "is_primary": true,
+        "verified_at": "2026-11-21T11:09:53Z",
+        "news_ids": [
+          "n-a2bdbb6a58"
+        ]
+      },
+      {
+        "kind": "reference",
+        "host": "dailyprompts.ru",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://dailyprompts.ru/",
+        "is_primary": false,
+        "verified_at": "2026-11-21T11:09:53Z",
+        "news_ids": [
+          "n-a2bdbb6a58"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-20",
+        "title": "Ideogram 4.6 adds native 4K rendering and multi-step editing",
+        "summary": "Ideogram 4.6 introduces native 4K generation up to 4096 x 4096 pixels without post-process upscaling, multi-turn image editing with up to five reference images, and reduced pixel drift on targeted modifications.",
+        "version": null,
+        "news_id": "n-a2bdbb6a58",
+        "primary_link": "https://ideogram.ai/models/4.6"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-a2bdbb6a58",
+        "date": "2026-11-20",
+        "title": "Ideogram 4.6 adds native 4K rendering and multi-step editing",
+        "category": "diffusion-image",
+        "entry_type": "news",
+        "project": "ideogram",
+        "version": null,
+        "tags": [
+          "Ideogram model and product releases",
+          "diffusion-image",
+          "family:ideogram",
+          "ideogram",
+          "model-and-product-releases"
+        ],
+        "primary_link": "https://ideogram.ai/models/4.6",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "model-and-product-releases",
+        "display": "Model And Product Releases",
+        "first_seen": "2026-11-20",
+        "last_seen": "2026-11-20",
+        "latest_news_id": "n-a2bdbb6a58",
+        "news_ids": [
+          "n-a2bdbb6a58"
+        ]
+      }
+    ]
+  },
   "ideogram-4": {
     "family_slug": "ideogram-4",
     "family_display": "Ideogram 4",

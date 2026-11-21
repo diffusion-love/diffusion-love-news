@@ -1,0 +1,114 @@
+{
+ "schema_version": "1.4",
+ "id": "n-a2bdbb6a58",
+ "entry_type": "news",
+ "category": "diffusion-image",
+ "lang": "en",
+ "title": "Ideogram 4.6 adds native 4K rendering and multi-step editing",
+ "summary": "Ideogram 4.6 introduces native 4K generation up to 4096 x 4096 pixels without post-process upscaling, multi-turn image editing with up to five reference images, and reduced pixel drift on targeted modifications.",
+ "research_notes": "Select Ideogram 4.6 in the model picker within the web interface or specify the 4.6 model endpoint in the Ideogram API.\n\nConfigure generation parameters by selecting native 4K resolution (up to 4096 x 4096) for full-detail generation without post-upscaling.\n\nProvide a text prompt with explicit layout, typography, or styling constraints, optionally attaching up to five image references for multi-step composition.\n\nPerform iterative localized modifications using the Precise Edit tool to adjust targeted areas while retaining surrounding character and background pixels.\n\nUtilize native 4K mode directly for commercial print, packaging, and fine typography assets to avoid distortion artifacts introduced by separate upscaling passes.\n\nSupply up to five reference images when executing complex brand or product edits to constrain style, identity, and color palette across consecutive iterations.\n\nIsolate editing instructions to specific regions with Precise Edit masks to maximize targeted-area modification accuracy and minimize global pixel drift.",
+ "project": {
+  "name": "Ideogram model and product releases",
+  "family_slug": "ideogram",
+  "family_display": "Ideogram model and product releases",
+  "model_slug": "ideogram",
+  "model_display": "Ideogram model and product releases",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "model-and-product-releases",
+  "thread_display": "Model And Product Releases",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Ideogram model and product releases",
+  "article_url": "https://happyin.space/projects/ideogram/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/ca74d45753e0518fb020a9a16f3b0b679d37b793/docs/projects/ideogram.md",
+  "agent_context_url": "https://happyin.space/projects/ideogram/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-20",
+  "title": "Ideogram 4.6 adds native 4K rendering and multi-step editing",
+  "version": null,
+  "summary": "Ideogram 4.6 introduces native 4K generation up to 4096 x 4096 pixels without post-process upscaling, multi-turn image editing with up to five reference images, and reduced pixel drift on targeted modifications."
+ },
+ "tags": [
+  "Ideogram model and product releases",
+  "diffusion-image",
+  "family:ideogram",
+  "ideogram",
+  "model-and-product-releases"
+ ],
+ "facets": {
+  "category": "diffusion-image",
+  "entry_type": "news",
+  "projects": [
+   "ideogram"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://ideogram.ai/models/4.6",
+   "host": "ideogram.ai",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-21T11:09:53Z"
+  },
+  {
+   "kind": "reference",
+   "url": "https://dailyprompts.ru/",
+   "host": "dailyprompts.ru",
+   "lang": "en",
+   "is_primary": false,
+   "status": "unverified",
+   "verified_at": "2026-11-21T11:09:53Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-20",
+  "excerpt": "Ideogram 4.6 introduces native 4K generation up to 4096 x 4096 pixels without post-process upscaling, multi-turn image editing with up to five reference images, and reduced pixel drift on targeted modifications."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-21T11:09:53Z",
+  "classified_at": "2026-11-21T11:09:53Z",
+  "enriched_at": "2026-11-21T11:09:53Z",
+  "verified_at": "2026-11-21T11:09:53Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}
