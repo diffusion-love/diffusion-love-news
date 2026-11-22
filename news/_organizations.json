@@ -1650,6 +1650,79 @@
       }
     ]
   },
+  "thinking-machines": {
+    "slug": "thinking-machines",
+    "display": "Thinking Machines: thinking-machines-inkling-2-small-release",
+    "homepage": null,
+    "project_slugs": [],
+    "post_count": 2,
+    "direct_post_count": 2,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "news_ids": [
+      "n-89282766f8",
+      "n-cb0696f22a"
+    ],
+    "direct_news_ids": [
+      "n-89282766f8",
+      "n-cb0696f22a"
+    ],
+    "development_threads": [
+      {
+        "slug": "thinking-machines-inkling-2-small-release",
+        "display": "Thinking Machines Inkling 2 Small Release",
+        "first_seen": "2026-11-21",
+        "last_seen": "2026-11-21",
+        "latest_news_id": "n-cb0696f22a",
+        "news_ids": [
+          "n-89282766f8",
+          "n-cb0696f22a"
+        ]
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-cb0696f22a",
+        "date": "2026-11-21",
+        "title": "Thinking Machines releases Inkling 2 Mini for local developer deployment",
+        "category": "vlm",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Thinking Machines: thinking-machines-inkling-2-small-release",
+          "llm",
+          "organization:thinking-machines",
+          "thinking-machines",
+          "thinking-machines-inkling-2-small-release",
+          "vlm"
+        ],
+        "primary_link": "https://thinkingmachines.ai/news/inkling-2-mini/",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-89282766f8",
+        "date": "2026-11-21",
+        "title": "Thinking Machines details Inkling 2 Mini looped transformer architecture",
+        "category": "diffusion-image",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Thinking Machines: thinking-machines-inkling-2-small-release",
+          "diffusion-image",
+          "llm",
+          "organization:thinking-machines",
+          "thinking-machines",
+          "thinking-machines-inkling-2-small-release"
+        ],
+        "primary_link": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+        "has_image": false,
+        "has_video": false
+      }
+    ]
+  },
   "unsloth": {
     "slug": "unsloth",
     "display": "Unsloth",
