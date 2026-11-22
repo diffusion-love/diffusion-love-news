@@ -1,0 +1,106 @@
+{
+ "schema_version": "1.4",
+ "id": "n-f567ca0e19",
+ "entry_type": "news",
+ "category": "animation-motion",
+ "lang": "en",
+ "title": "OpenMotion open-source release",
+ "summary": "OpenMotion released its code-driven animation and video editing studio as an open-source project, featuring MOTION.md recipes for AI coding agents, Model Context Protocol integration, and an embedded timeline editor.",
+ "research_notes": "Clone the OpenMotion repository and configure the MCP server connection in a supported coding agent such as Claude Code or Codex.\n\nSupply a reference video URL or prompt to decompose the layout, timing, and transition rules into a MOTION.md specification file.\n\nOpen the local visual timeline studio to adjust styling, apply brand kits, integrate media assets via configured provider keys, and export the composition to MP4.\n\nDefine explicit animation timing, typography, and easing constraints inside MOTION.md files to prevent coding agents from hallucinating inconsistent motion styling.\n\nUse the visual timeline studio to review and refine agent-generated GSAP and HTML components before rendering the final high-resolution MP4 export.",
+ "project": {
+  "name": "Openmotion: openmotion-open-source-release",
+  "family_slug": "openmotion",
+  "family_display": "Openmotion: openmotion-open-source-release",
+  "model_slug": "openmotion",
+  "model_display": "Openmotion: openmotion-open-source-release",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "openmotion-open-source-release",
+  "thread_display": "Openmotion Open Source Release",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Openmotion: openmotion-open-source-release",
+  "article_url": "https://happyin.space/projects/openmotion/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/97df9ca5583871a831c59d6b6f69fb4b098cec63/docs/projects/openmotion.md",
+  "agent_context_url": "https://happyin.space/projects/openmotion/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-21",
+  "title": "OpenMotion open-source release",
+  "version": null,
+  "summary": "OpenMotion released its code-driven animation and video editing studio as an open-source project, featuring MOTION.md recipes for AI coding agents, Model Context Protocol integration, and an embedded timeline editor."
+ },
+ "tags": [
+  "Openmotion: openmotion-open-source-release",
+  "animation-motion",
+  "diffusion-video",
+  "family:openmotion",
+  "openmotion",
+  "openmotion-open-source-release"
+ ],
+ "facets": {
+  "category": "animation-motion",
+  "entry_type": "news",
+  "projects": [
+   "openmotion"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "code",
+   "url": "https://github.com/nexu-io/openmotion",
+   "host": "github.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-22T07:40:24Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-21",
+  "excerpt": "OpenMotion released its code-driven animation and video editing studio as an open-source project, featuring MOTION.md recipes for AI coding agents, Model Context Protocol integration, and an embedded timeline editor."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-22T07:40:24Z",
+  "classified_at": "2026-11-22T07:40:24Z",
+  "enriched_at": "2026-11-22T07:40:24Z",
+  "verified_at": "2026-11-22T07:40:24Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

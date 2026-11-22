@@ -1,0 +1,105 @@
+{
+ "schema_version": "1.4",
+ "id": "n-5dbbebd460",
+ "entry_type": "news",
+ "category": "tools-frontend",
+ "lang": "en",
+ "title": "GPT-6.2 introduces identity verification requirements for sensitive tasks",
+ "summary": "GPT-6.2 requires mandatory KYC identity verification and government credentials for high-risk autonomous workflows and dual-use cybersecurity operations.",
+ "research_notes": "Access the developer dashboard and select the GPT-6.2 model family endpoint.\n\nSubmit government-issued photo identification and complete the automated 3D liveness check when prompted for restricted capability tiers.\n\nRegister an approved FIDO2 hardware security key for administrative and cybersecurity task execution.\n\nComplete organizational verification in advance to prevent automated account freezes during high-consequence API workflows.\n\nConfigure dedicated service accounts with hardware-backed credentials instead of personal developer accounts for enterprise deployments.",
+ "project": {
+  "name": "GPT-6.2: gpt-6-2-release",
+  "family_slug": "gpt-6-2",
+  "family_display": "GPT-6.2: gpt-6-2-release",
+  "model_slug": "gpt-6-2",
+  "model_display": "GPT-6.2: gpt-6-2-release",
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gpt-6-2-release",
+  "thread_display": "Gpt 6 2 Release",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "GPT-6.2: gpt-6-2-release",
+  "article_url": "https://happyin.space/projects/gpt-6-2/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/ed442853cf994c499dc00270965475d1688d4788/docs/projects/gpt-6-2.md",
+  "agent_context_url": "https://happyin.space/projects/gpt-6-2/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-21",
+  "title": "GPT-6.2 introduces identity verification requirements for sensitive tasks",
+  "version": null,
+  "summary": "GPT-6.2 requires mandatory KYC identity verification and government credentials for high-risk autonomous workflows and dual-use cybersecurity operations."
+ },
+ "tags": [
+  "GPT-6.2: gpt-6-2-release",
+  "family:gpt-6-2",
+  "gpt-6-2",
+  "gpt-6-2-release",
+  "tools-frontend"
+ ],
+ "facets": {
+  "category": "tools-frontend",
+  "entry_type": "news",
+  "projects": [
+   "gpt-6-2"
+  ],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://habr.com/ru/articles/1110122/",
+   "host": "habr.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-22T07:47:54Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-21",
+  "excerpt": "GPT-6.2 requires mandatory KYC identity verification and government credentials for high-risk autonomous workflows and dual-use cybersecurity operations."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-22T07:47:54Z",
+  "classified_at": "2026-11-22T07:47:54Z",
+  "enriched_at": "2026-11-22T07:47:54Z",
+  "verified_at": "2026-11-22T07:47:54Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

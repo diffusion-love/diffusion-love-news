@@ -43740,9 +43740,11 @@
       {
         "family_display": "GPT-6.2: gpt-6-2-release",
         "first_seen": "2026-11-20",
-        "last_seen": "2026-11-20",
+        "last_seen": "2026-11-21",
         "news_ids": [
-          "n-4a6c47b7aa"
+          "n-4a6c47b7aa",
+          "n-5dbbebd460",
+          "n-936a3c9054"
         ]
       }
     ],
@@ -43752,15 +43754,18 @@
     "license": null,
     "base_model": null,
     "categories": [
-      "misc"
+      "misc",
+      "tools-frontend"
     ],
-    "post_count": 1,
+    "post_count": 3,
     "first_seen": "2026-11-20",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-21",
     "latest_version": null,
     "latest_evolution": null,
     "news_ids": [
-      "n-4a6c47b7aa"
+      "n-4a6c47b7aa",
+      "n-5dbbebd460",
+      "n-936a3c9054"
     ],
     "versions_timeline": [
       {
@@ -43768,6 +43773,20 @@
         "date": "2026-11-20",
         "news_id": "n-4a6c47b7aa",
         "title": "OpenAI introduces GPT-6.2 Astra and Sol with tiered cybersecurity access",
+        "primary_link": "https://habr.com/ru/articles/1110122/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-21",
+        "news_id": "n-5dbbebd460",
+        "title": "GPT-6.2 introduces identity verification requirements for sensitive tasks",
+        "primary_link": "https://habr.com/ru/articles/1110122/"
+      },
+      {
+        "version": null,
+        "date": "2026-11-21",
+        "news_id": "n-936a3c9054",
+        "title": "GPT-6.2 gates advanced cyber capabilities behind identity verification",
         "primary_link": "https://habr.com/ru/articles/1110122/"
       }
     ],
@@ -43790,9 +43809,28 @@
         "status": "unverified",
         "url": "https://habr.com/ru/articles/1110122/",
         "is_primary": true,
-        "verified_at": "2026-11-21T12:34:41Z",
+        "verified_at": "2026-11-22T07:47:54Z",
         "news_ids": [
-          "n-4a6c47b7aa"
+          "n-4a6c47b7aa",
+          "n-5dbbebd460",
+          "n-936a3c9054"
+        ],
+        "occurrences": [
+          {
+            "news_id": "n-4a6c47b7aa",
+            "is_primary": true,
+            "verified_at": "2026-11-21T12:34:41Z"
+          },
+          {
+            "news_id": "n-5dbbebd460",
+            "is_primary": true,
+            "verified_at": "2026-11-22T07:47:54Z"
+          },
+          {
+            "news_id": "n-936a3c9054",
+            "is_primary": true,
+            "verified_at": "2026-11-22T07:47:54Z"
+          }
         ]
       }
     ],
@@ -43805,9 +43843,65 @@
         "version": null,
         "news_id": "n-4a6c47b7aa",
         "primary_link": "https://habr.com/ru/articles/1110122/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-21",
+        "title": "GPT-6.2 introduces identity verification requirements for sensitive tasks",
+        "summary": "GPT-6.2 requires mandatory KYC identity verification and government credentials for high-risk autonomous workflows and dual-use cybersecurity operations.",
+        "version": null,
+        "news_id": "n-5dbbebd460",
+        "primary_link": "https://habr.com/ru/articles/1110122/"
+      },
+      {
+        "kind": "reported-update",
+        "date": "2026-11-21",
+        "title": "GPT-6.2 gates advanced cyber capabilities behind identity verification",
+        "summary": "GPT-6.2 identity checks restrict anonymous developer access to automated vulnerability analysis, mandating organization vetting and hardware security keys.",
+        "version": null,
+        "news_id": "n-936a3c9054",
+        "primary_link": "https://habr.com/ru/articles/1110122/"
       }
     ],
     "related_news": [
+      {
+        "id": "n-936a3c9054",
+        "date": "2026-11-21",
+        "title": "GPT-6.2 gates advanced cyber capabilities behind identity verification",
+        "category": "misc",
+        "entry_type": "news",
+        "project": "gpt-6-2",
+        "version": null,
+        "tags": [
+          "GPT-6.2: gpt-6-2-release",
+          "family:gpt-6-2",
+          "gpt-6-2",
+          "gpt-6-2-release",
+          "misc"
+        ],
+        "primary_link": "https://habr.com/ru/articles/1110122/",
+        "has_image": false,
+        "has_video": false
+      },
+      {
+        "id": "n-5dbbebd460",
+        "date": "2026-11-21",
+        "title": "GPT-6.2 introduces identity verification requirements for sensitive tasks",
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "project": "gpt-6-2",
+        "version": null,
+        "tags": [
+          "GPT-6.2: gpt-6-2-release",
+          "family:gpt-6-2",
+          "gpt-6-2",
+          "gpt-6-2-release",
+          "tools-frontend"
+        ],
+        "primary_link": "https://habr.com/ru/articles/1110122/",
+        "has_image": false,
+        "has_video": false
+      },
       {
         "id": "n-4a6c47b7aa",
         "date": "2026-11-20",
@@ -43834,10 +43928,12 @@
         "slug": "gpt-6-2-release",
         "display": "Gpt 6 2 Release",
         "first_seen": "2026-11-20",
-        "last_seen": "2026-11-20",
-        "latest_news_id": "n-4a6c47b7aa",
+        "last_seen": "2026-11-21",
+        "latest_news_id": "n-936a3c9054",
         "news_ids": [
-          "n-4a6c47b7aa"
+          "n-4a6c47b7aa",
+          "n-5dbbebd460",
+          "n-936a3c9054"
         ]
       }
     ]
@@ -87944,6 +88040,116 @@
       }
     ],
     "claims": []
+  },
+  "openmotion": {
+    "family_slug": "openmotion",
+    "family_display": "Openmotion: openmotion-open-source-release",
+    "family_display_variants": [
+      {
+        "family_display": "Openmotion: openmotion-open-source-release",
+        "first_seen": "2026-11-21",
+        "last_seen": "2026-11-21",
+        "news_ids": [
+          "n-f567ca0e19"
+        ]
+      }
+    ],
+    "vendor": null,
+    "vendor_slug": null,
+    "origin_region": null,
+    "license": null,
+    "base_model": null,
+    "categories": [
+      "animation-motion"
+    ],
+    "post_count": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "latest_version": null,
+    "latest_evolution": null,
+    "news_ids": [
+      "n-f567ca0e19"
+    ],
+    "versions_timeline": [
+      {
+        "version": null,
+        "date": "2026-11-21",
+        "news_id": "n-f567ca0e19",
+        "title": "OpenMotion open-source release",
+        "primary_link": "https://github.com/nexu-io/openmotion"
+      }
+    ],
+    "features": [],
+    "formats": [],
+    "platforms": [],
+    "base_models": [],
+    "kind": null,
+    "status": null,
+    "homepage": null,
+    "repository": null,
+    "summary": null,
+    "aliases": [],
+    "domains": [],
+    "links": [
+      {
+        "kind": "code",
+        "host": "github.com",
+        "lang": "en",
+        "status": "unverified",
+        "url": "https://github.com/nexu-io/openmotion",
+        "is_primary": true,
+        "verified_at": "2026-11-22T07:40:24Z",
+        "news_ids": [
+          "n-f567ca0e19"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "kind": "reported-update",
+        "date": "2026-11-21",
+        "title": "OpenMotion open-source release",
+        "summary": "OpenMotion released its code-driven animation and video editing studio as an open-source project, featuring MOTION.md recipes for AI coding agents, Model Context Protocol integration, and an embedded timeline editor.",
+        "version": null,
+        "news_id": "n-f567ca0e19",
+        "primary_link": "https://github.com/nexu-io/openmotion"
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-f567ca0e19",
+        "date": "2026-11-21",
+        "title": "OpenMotion open-source release",
+        "category": "animation-motion",
+        "entry_type": "news",
+        "project": "openmotion",
+        "version": null,
+        "tags": [
+          "Openmotion: openmotion-open-source-release",
+          "animation-motion",
+          "diffusion-video",
+          "family:openmotion",
+          "openmotion",
+          "openmotion-open-source-release"
+        ],
+        "primary_link": "https://github.com/nexu-io/openmotion",
+        "has_image": false,
+        "has_video": false
+      }
+    ],
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "openmotion-open-source-release",
+        "display": "Openmotion Open Source Release",
+        "first_seen": "2026-11-21",
+        "last_seen": "2026-11-21",
+        "latest_news_id": "n-f567ca0e19",
+        "news_ids": [
+          "n-f567ca0e19"
+        ]
+      }
+    ]
   },
   "openresearcher": {
     "family_slug": "openresearcher",

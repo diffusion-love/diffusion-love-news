@@ -1650,6 +1650,55 @@
       }
     ]
   },
+  "tesla": {
+    "slug": "tesla",
+    "display": "Tesla: tesla-optimus-worker-resistance",
+    "homepage": null,
+    "project_slugs": [],
+    "post_count": 1,
+    "direct_post_count": 1,
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "news_ids": [
+      "n-1688334fcf"
+    ],
+    "direct_news_ids": [
+      "n-1688334fcf"
+    ],
+    "development_threads": [
+      {
+        "slug": "tesla-optimus-worker-resistance",
+        "display": "Tesla Optimus Worker Resistance",
+        "first_seen": "2026-11-21",
+        "last_seen": "2026-11-21",
+        "latest_news_id": "n-1688334fcf",
+        "news_ids": [
+          "n-1688334fcf"
+        ]
+      }
+    ],
+    "related_news": [
+      {
+        "id": "n-1688334fcf",
+        "date": "2026-11-21",
+        "title": "Tesla updates self-driving visualization with third-person neural camera view",
+        "category": "misc",
+        "entry_type": "news",
+        "project": null,
+        "version": null,
+        "tags": [
+          "Tesla: tesla-optimus-worker-resistance",
+          "misc",
+          "organization:tesla",
+          "tesla",
+          "tesla-optimus-worker-resistance"
+        ],
+        "primary_link": "https://x.com/Tesla/status/2124222447855743019",
+        "has_image": false,
+        "has_video": false
+      }
+    ]
+  },
   "thinking-machines": {
     "slug": "thinking-machines",
     "display": "Thinking Machines: thinking-machines-inkling-2-small-release",

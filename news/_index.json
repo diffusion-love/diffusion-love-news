@@ -1,5 +1,25 @@
 [
   {
+    "id": "n-f567ca0e19",
+    "date": "2026-11-21",
+    "title": "OpenMotion open-source release",
+    "category": "animation-motion",
+    "entry_type": "news",
+    "project": "openmotion",
+    "version": null,
+    "tags": [
+      "Openmotion: openmotion-open-source-release",
+      "animation-motion",
+      "diffusion-video",
+      "family:openmotion",
+      "openmotion",
+      "openmotion-open-source-release"
+    ],
+    "primary_link": "https://github.com/nexu-io/openmotion",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-cb0696f22a",
     "date": "2026-11-21",
     "title": "Thinking Machines releases Inkling 2 Mini for local developer deployment",
@@ -20,6 +40,25 @@
     "has_video": false
   },
   {
+    "id": "n-936a3c9054",
+    "date": "2026-11-21",
+    "title": "GPT-6.2 gates advanced cyber capabilities behind identity verification",
+    "category": "misc",
+    "entry_type": "news",
+    "project": "gpt-6-2",
+    "version": null,
+    "tags": [
+      "GPT-6.2: gpt-6-2-release",
+      "family:gpt-6-2",
+      "gpt-6-2",
+      "gpt-6-2-release",
+      "misc"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110122/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-89282766f8",
     "date": "2026-11-21",
     "title": "Thinking Machines details Inkling 2 Mini looped transformer architecture",
@@ -36,6 +75,44 @@
       "thinking-machines-inkling-2-small-release"
     ],
     "primary_link": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-5dbbebd460",
+    "date": "2026-11-21",
+    "title": "GPT-6.2 introduces identity verification requirements for sensitive tasks",
+    "category": "tools-frontend",
+    "entry_type": "news",
+    "project": "gpt-6-2",
+    "version": null,
+    "tags": [
+      "GPT-6.2: gpt-6-2-release",
+      "family:gpt-6-2",
+      "gpt-6-2",
+      "gpt-6-2-release",
+      "tools-frontend"
+    ],
+    "primary_link": "https://habr.com/ru/articles/1110122/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-1688334fcf",
+    "date": "2026-11-21",
+    "title": "Tesla updates self-driving visualization with third-person neural camera view",
+    "category": "misc",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Tesla: tesla-optimus-worker-resistance",
+      "misc",
+      "organization:tesla",
+      "tesla",
+      "tesla-optimus-worker-resistance"
+    ],
+    "primary_link": "https://x.com/Tesla/status/2124222447855743019",
     "has_image": false,
     "has_video": false
   },

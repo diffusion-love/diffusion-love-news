@@ -1,0 +1,109 @@
+{
+ "schema_version": "1.4",
+ "id": "n-1688334fcf",
+ "entry_type": "news",
+ "category": "misc",
+ "lang": "en",
+ "title": "Tesla updates self-driving visualization with third-person neural camera view",
+ "summary": "Tesla introduced an update to its autonomous driving system that employs onboard optical cameras and neural networks to render a third-person overhead perspective on the vehicle display.",
+ "research_notes": "Activate the third-person camera perspective on the center display to monitor real-time spatial neural reconstructions of the vehicle driving path.\n\nEnsure all exterior camera lenses remain unobstructed to maintain neural network spatial reconstruction accuracy in third-person view.",
+ "project": {
+  "name": null,
+  "family_slug": null,
+  "family_display": null,
+  "model_slug": null,
+  "model_display": null,
+  "version": null,
+  "released": null,
+  "vendor": null,
+  "vendor_slug": null,
+  "origin_region": null,
+  "license": null,
+  "base_model": null,
+  "adaptation": null
+ },
+ "organization": {
+  "slug": "tesla",
+  "display": "Tesla: tesla-optimus-worker-resistance",
+  "homepage": null
+ },
+ "development": {
+  "scope": "organization",
+  "thread_slug": "tesla-optimus-worker-resistance",
+  "thread_display": "Tesla Optimus Worker Resistance",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Tesla: tesla-optimus-worker-resistance",
+  "article_url": "https://happyin.space/organizations/tesla/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a9f9b80866ae4b4a87b9b1058b9106368c33e4a4/docs/organizations/tesla.md",
+  "agent_context_url": "https://happyin.space/organizations/tesla/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-11-21",
+  "title": "Tesla updates self-driving visualization with third-person neural camera view",
+  "version": null,
+  "summary": "Tesla introduced an update to its autonomous driving system that employs onboard optical cameras and neural networks to render a third-person overhead perspective on the vehicle display."
+ },
+ "tags": [
+  "Tesla: tesla-optimus-worker-resistance",
+  "misc",
+  "organization:tesla",
+  "tesla",
+  "tesla-optimus-worker-resistance"
+ ],
+ "facets": {
+  "category": "misc",
+  "entry_type": "news",
+  "projects": [],
+  "versions": [],
+  "features": [],
+  "formats": [],
+  "platforms": [],
+  "vendors": [
+   "tesla"
+  ],
+  "base_models": [],
+  "origin": null,
+  "license": null,
+  "year": 2026,
+  "models": [],
+  "adaptations": []
+ },
+ "links": [
+  {
+   "kind": "reference",
+   "url": "https://x.com/Tesla/status/2124222447855743019",
+   "host": "x.com",
+   "lang": "en",
+   "is_primary": true,
+   "status": "unverified",
+   "verified_at": "2026-11-22T08:02:17Z"
+  }
+ ],
+ "evolution": {
+  "summary": null,
+  "latest_version": null,
+  "related_ids": [],
+  "is_latest_in_family": false
+ },
+ "media": {
+  "has_image": false,
+  "has_video": false
+ },
+ "source": {
+  "posted_at": "2026-11-21",
+  "excerpt": "Tesla introduced an update to its autonomous driving system that employs onboard optical cameras and neural networks to render a third-person overhead perspective on the vehicle display."
+ },
+ "_meta": {
+  "extracted_at": "2026-11-22T08:02:17Z",
+  "classified_at": "2026-11-22T08:02:17Z",
+  "enriched_at": "2026-11-22T08:02:17Z",
+  "verified_at": "2026-11-22T08:02:17Z",
+  "models_used": {
+   "research": "curated-live-material"
+  },
+  "schema_validated": true
+ }
+}

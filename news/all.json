@@ -1,9 +1,115 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-22T00:13:14Z",
+  "generated_at": "2026-11-22T08:02:17Z",
   "site": "diffusion.love",
-  "total": 1424,
+  "total": 1428,
   "records": [
+    {
+      "schema_version": "1.4",
+      "id": "n-f567ca0e19",
+      "entry_type": "news",
+      "category": "animation-motion",
+      "lang": "en",
+      "title": "OpenMotion open-source release",
+      "summary": "OpenMotion released its code-driven animation and video editing studio as an open-source project, featuring MOTION.md recipes for AI coding agents, Model Context Protocol integration, and an embedded timeline editor.",
+      "research_notes": "Clone the OpenMotion repository and configure the MCP server connection in a supported coding agent such as Claude Code or Codex.\n\nSupply a reference video URL or prompt to decompose the layout, timing, and transition rules into a MOTION.md specification file.\n\nOpen the local visual timeline studio to adjust styling, apply brand kits, integrate media assets via configured provider keys, and export the composition to MP4.\n\nDefine explicit animation timing, typography, and easing constraints inside MOTION.md files to prevent coding agents from hallucinating inconsistent motion styling.\n\nUse the visual timeline studio to review and refine agent-generated GSAP and HTML components before rendering the final high-resolution MP4 export.",
+      "project": {
+        "name": "Openmotion: openmotion-open-source-release",
+        "family_slug": "openmotion",
+        "family_display": "Openmotion: openmotion-open-source-release",
+        "model_slug": "openmotion",
+        "model_display": "Openmotion: openmotion-open-source-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "openmotion-open-source-release",
+        "thread_display": "Openmotion Open Source Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Openmotion: openmotion-open-source-release",
+        "article_url": "https://happyin.space/projects/openmotion/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/97df9ca5583871a831c59d6b6f69fb4b098cec63/docs/projects/openmotion.md",
+        "agent_context_url": "https://happyin.space/projects/openmotion/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-21",
+        "title": "OpenMotion open-source release",
+        "version": null,
+        "summary": "OpenMotion released its code-driven animation and video editing studio as an open-source project, featuring MOTION.md recipes for AI coding agents, Model Context Protocol integration, and an embedded timeline editor."
+      },
+      "tags": [
+        "Openmotion: openmotion-open-source-release",
+        "animation-motion",
+        "diffusion-video",
+        "family:openmotion",
+        "openmotion",
+        "openmotion-open-source-release"
+      ],
+      "facets": {
+        "category": "animation-motion",
+        "entry_type": "news",
+        "projects": [
+          "openmotion"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/nexu-io/openmotion",
+          "host": "github.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-22T07:40:24Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-21",
+        "excerpt": "OpenMotion released its code-driven animation and video editing studio as an open-source project, featuring MOTION.md recipes for AI coding agents, Model Context Protocol integration, and an embedded timeline editor."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-22T07:40:24Z",
+        "classified_at": "2026-11-22T07:40:24Z",
+        "enriched_at": "2026-11-22T07:40:24Z",
+        "verified_at": "2026-11-22T07:40:24Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
     {
       "schema_version": "1.4",
       "id": "n-cb0696f22a",
@@ -125,6 +231,111 @@
     },
     {
       "schema_version": "1.4",
+      "id": "n-936a3c9054",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "GPT-6.2 gates advanced cyber capabilities behind identity verification",
+      "summary": "GPT-6.2 identity checks restrict anonymous developer access to automated vulnerability analysis, mandating organization vetting and hardware security keys.",
+      "research_notes": "Access the developer dashboard and select the GPT-6.2 model family endpoint.\n\nSubmit government-issued photo identification and complete the automated 3D liveness check when prompted for restricted capability tiers.\n\nRegister an approved FIDO2 hardware security key for administrative and cybersecurity task execution.\n\nComplete organizational verification in advance to prevent automated account freezes during high-consequence API workflows.\n\nConfigure dedicated service accounts with hardware-backed credentials instead of personal developer accounts for enterprise deployments.",
+      "project": {
+        "name": "GPT-6.2: gpt-6-2-release",
+        "family_slug": "gpt-6-2",
+        "family_display": "GPT-6.2: gpt-6-2-release",
+        "model_slug": "gpt-6-2",
+        "model_display": "GPT-6.2: gpt-6-2-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gpt-6-2-release",
+        "thread_display": "Gpt 6 2 Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "GPT-6.2: gpt-6-2-release",
+        "article_url": "https://happyin.space/projects/gpt-6-2/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/ed442853cf994c499dc00270965475d1688d4788/docs/projects/gpt-6-2.md",
+        "agent_context_url": "https://happyin.space/projects/gpt-6-2/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-21",
+        "title": "GPT-6.2 gates advanced cyber capabilities behind identity verification",
+        "version": null,
+        "summary": "GPT-6.2 identity checks restrict anonymous developer access to automated vulnerability analysis, mandating organization vetting and hardware security keys."
+      },
+      "tags": [
+        "GPT-6.2: gpt-6-2-release",
+        "family:gpt-6-2",
+        "gpt-6-2",
+        "gpt-6-2-release",
+        "misc"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [
+          "gpt-6-2"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110122/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-22T07:47:54Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-21",
+        "excerpt": "GPT-6.2 identity checks restrict anonymous developer access to automated vulnerability analysis, mandating organization vetting and hardware security keys."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-22T07:47:54Z",
+        "classified_at": "2026-11-22T07:47:54Z",
+        "enriched_at": "2026-11-22T07:47:54Z",
+        "verified_at": "2026-11-22T07:47:54Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
       "id": "n-89282766f8",
       "entry_type": "news",
       "category": "diffusion-image",
@@ -236,6 +447,220 @@
         "classified_at": "2026-11-22T00:13:14Z",
         "enriched_at": "2026-11-22T00:13:14Z",
         "verified_at": "2026-11-22T00:13:14Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-5dbbebd460",
+      "entry_type": "news",
+      "category": "tools-frontend",
+      "lang": "en",
+      "title": "GPT-6.2 introduces identity verification requirements for sensitive tasks",
+      "summary": "GPT-6.2 requires mandatory KYC identity verification and government credentials for high-risk autonomous workflows and dual-use cybersecurity operations.",
+      "research_notes": "Access the developer dashboard and select the GPT-6.2 model family endpoint.\n\nSubmit government-issued photo identification and complete the automated 3D liveness check when prompted for restricted capability tiers.\n\nRegister an approved FIDO2 hardware security key for administrative and cybersecurity task execution.\n\nComplete organizational verification in advance to prevent automated account freezes during high-consequence API workflows.\n\nConfigure dedicated service accounts with hardware-backed credentials instead of personal developer accounts for enterprise deployments.",
+      "project": {
+        "name": "GPT-6.2: gpt-6-2-release",
+        "family_slug": "gpt-6-2",
+        "family_display": "GPT-6.2: gpt-6-2-release",
+        "model_slug": "gpt-6-2",
+        "model_display": "GPT-6.2: gpt-6-2-release",
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gpt-6-2-release",
+        "thread_display": "Gpt 6 2 Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "GPT-6.2: gpt-6-2-release",
+        "article_url": "https://happyin.space/projects/gpt-6-2/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/ed442853cf994c499dc00270965475d1688d4788/docs/projects/gpt-6-2.md",
+        "agent_context_url": "https://happyin.space/projects/gpt-6-2/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-21",
+        "title": "GPT-6.2 introduces identity verification requirements for sensitive tasks",
+        "version": null,
+        "summary": "GPT-6.2 requires mandatory KYC identity verification and government credentials for high-risk autonomous workflows and dual-use cybersecurity operations."
+      },
+      "tags": [
+        "GPT-6.2: gpt-6-2-release",
+        "family:gpt-6-2",
+        "gpt-6-2",
+        "gpt-6-2-release",
+        "tools-frontend"
+      ],
+      "facets": {
+        "category": "tools-frontend",
+        "entry_type": "news",
+        "projects": [
+          "gpt-6-2"
+        ],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://habr.com/ru/articles/1110122/",
+          "host": "habr.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-22T07:47:54Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-21",
+        "excerpt": "GPT-6.2 requires mandatory KYC identity verification and government credentials for high-risk autonomous workflows and dual-use cybersecurity operations."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-22T07:47:54Z",
+        "classified_at": "2026-11-22T07:47:54Z",
+        "enriched_at": "2026-11-22T07:47:54Z",
+        "verified_at": "2026-11-22T07:47:54Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-1688334fcf",
+      "entry_type": "news",
+      "category": "misc",
+      "lang": "en",
+      "title": "Tesla updates self-driving visualization with third-person neural camera view",
+      "summary": "Tesla introduced an update to its autonomous driving system that employs onboard optical cameras and neural networks to render a third-person overhead perspective on the vehicle display.",
+      "research_notes": "Activate the third-person camera perspective on the center display to monitor real-time spatial neural reconstructions of the vehicle driving path.\n\nEnsure all exterior camera lenses remain unobstructed to maintain neural network spatial reconstruction accuracy in third-person view.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "tesla",
+        "display": "Tesla: tesla-optimus-worker-resistance",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "tesla-optimus-worker-resistance",
+        "thread_display": "Tesla Optimus Worker Resistance",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Tesla: tesla-optimus-worker-resistance",
+        "article_url": "https://happyin.space/organizations/tesla/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a9f9b80866ae4b4a87b9b1058b9106368c33e4a4/docs/organizations/tesla.md",
+        "agent_context_url": "https://happyin.space/organizations/tesla/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-21",
+        "title": "Tesla updates self-driving visualization with third-person neural camera view",
+        "version": null,
+        "summary": "Tesla introduced an update to its autonomous driving system that employs onboard optical cameras and neural networks to render a third-person overhead perspective on the vehicle display."
+      },
+      "tags": [
+        "Tesla: tesla-optimus-worker-resistance",
+        "misc",
+        "organization:tesla",
+        "tesla",
+        "tesla-optimus-worker-resistance"
+      ],
+      "facets": {
+        "category": "misc",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "tesla"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://x.com/Tesla/status/2124222447855743019",
+          "host": "x.com",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-22T08:02:17Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-21",
+        "excerpt": "Tesla introduced an update to its autonomous driving system that employs onboard optical cameras and neural networks to render a third-person overhead perspective on the vehicle display."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-22T08:02:17Z",
+        "classified_at": "2026-11-22T08:02:17Z",
+        "enriched_at": "2026-11-22T08:02:17Z",
+        "verified_at": "2026-11-22T08:02:17Z",
         "models_used": {
           "research": "curated-live-material"
         },
