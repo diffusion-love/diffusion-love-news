@@ -1,0 +1,6 @@
+{
+ "schema_version": "practice-note-v1",
+ "news_id": "n-c607593781",
+ "title": "In practice",
+ "text": "Hy4 Flash is a MoE model with 224B total parameters and 12B active per token, accepting text and image input with a 1M-token context window. Open weights are published as Hy4-flash, Hy4-flash-FP8 and Hy4-flash-Base under the Tencent Hy License. Local use is hard: one reported aggressive quant (IQ2) needs at least 126 GB of VRAM, so the FP8 or quantized variants are only practical on multi-GPU or high-memory setups. Hosted API pricing reported by users is $0.07 per 1M input tokens, $0.281 per 1M output tokens, and $0.003 per 1M cached input tokens, which favors long-context agent workloads with heavy caching."
+}
