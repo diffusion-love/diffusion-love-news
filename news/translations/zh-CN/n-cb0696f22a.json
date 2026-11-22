@@ -1,0 +1,11 @@
+{
+ "id": "n-cb0696f22a",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从 Hugging Face 仓库下载模型权重，或通过 `ollama run thinkingmachines/inkling-2-mini` 在 Ollama 中拉取该模型。\n\n在至少 20 GB 到 32 GB 内存的硬件上进行本地部署，例如 Apple Silicon Mac 或 24 GB 显存的 GPU，可使用 vLLM 或 Ollama。\n\n通过 Tinker 托管 API 调用该模型，输入每百万 token 收费 15 美分，输出每百万 token 收费 50 美分。\n\n本地运行时，请至少分配 24 GB 到 32 GB 的统一内存，以容纳约 20 GB 的模型权重以及用于长上下文的 KV cache。\n\n处理大型代码库导入和智能体工具调用循环时，应利用 1M token 上下文窗口，而不是截断的上下文窗口。",
+ "source_sha256": "60c39d4b3ceca7e042f8868765a33f54240da439d4ceb88f2b804cb8756b9e7d",
+ "summary": "Thinking Machines 发布了 Inkling 2 Mini，这是一款开放权重的 264亿参数多模态模型，需要约 20 GB 内存。该版本具备 1百万 token 上下文窗口，采用 Apache 2.0 许可证，权重托管于 Hugging Face，并提供 Tinker API 托管服务，定价为每百万输入 token 0.15 美元、每百万输出 token 0.50 美元。",
+ "title": "Thinking Machines 发布 Inkling 2 Mini，面向本地开发者部署",
+ "translated_at": "2026-11-22",
+ "translation": "machine"
+}
