@@ -1,0 +1,11 @@
+{
+ "id": "n-cb0696f22a",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Lade die Modellgewichte aus dem Hugging-Face-Repository herunter oder hole das Modell mit ollama run thinkingmachines/inkling-2-mini in Ollama.\n\nStelle das Modell lokal auf Hardware mit mindestens 20 GB bis 32 GB Speicher bereit, etwa einem Apple-Silicon-Mac oder einer GPU mit 24 GB, und nutze dafür vLLM oder Ollama.\n\nFrage das Modell über die gehostete Tinker-API ab, für 15 Cent pro einer Million Eingabe-Token und 50 Cent pro einer Million Ausgabe-Token.\n\nReserviere beim lokalen Betrieb mindestens 24 GB bis 32 GB Unified Memory, damit die ~20 GB Modellgewichte zusammen mit dem KV-Cache für lange Kontexte Platz finden.\n\nNutze das 1M-Token-Kontextfenster für das Einlesen großer Codebasen und agentische Tool-Use-Schleifen, statt auf gekürzte Kontextfenster zurückzugreifen.",
+ "source_sha256": "60c39d4b3ceca7e042f8868765a33f54240da439d4ceb88f2b804cb8756b9e7d",
+ "summary": "Thinking Machines hat Inkling 2 Mini veröffentlicht, ein multimodales Open-Weights-Modell mit 26,4 Milliarden Parametern, für das etwa 20 GB Speicher benötigt werden. Die Veröffentlichung umfasst ein Kontextfenster mit 1 Million Token, die Lizenz Apache 2.0, die Gewichte auf Hugging Face sowie die gehostete Tinker-API mit einem Preis von 0,15 US-Dollar pro einer Million Eingabe-Token und 0,50 US-Dollar pro einer Million Ausgabe-Token.",
+ "title": "Thinking Machines veröffentlicht Inkling 2 Mini für den lokalen Einsatz durch Entwickler",
+ "translated_at": "2026-11-22",
+ "translation": "machine"
+}

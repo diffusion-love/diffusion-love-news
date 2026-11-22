@@ -1,0 +1,11 @@
+{
+ "id": "n-cb0696f22a",
+ "lang": "ko",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Hugging Face 저장소에서 모델 가중치를 내려받거나, `ollama run thinkingmachines/inkling-2-mini` 명령으로 Ollama에서 모델을 가져올 수 있습니다.\n\nvLLM 또는 Ollama를 사용해 최소 20~32GB 메모리를 갖춘 하드웨어, 예를 들어 Apple Silicon Mac이나 24GB GPU에서 로컬로 배포할 수 있습니다.\n\nTinker 호스팅 API를 통해 모델을 쿼리할 수 있으며, 요금은 입력 토큰 100만 개당 15센트, 출력 토큰 100만 개당 50센트입니다.\n\n약 20GB 규모의 모델 가중치와 확장된 컨텍스트를 위한 KV 캐시를 함께 수용하려면 로컬 실행 시 통합 메모리를 최소 24~32GB 할당하십시오.\n\n잘린 컨텍스트 창 대신 1M 토큰 컨텍스트 창을 활용해 대규모 코드베이스를 입력하고 에이전트형 도구 사용 루프를 처리하십시오.",
+ "source_sha256": "60c39d4b3ceca7e042f8868765a33f54240da439d4ceb88f2b804cb8756b9e7d",
+ "summary": "Thinking Machines가 open-weights 방식의 멀티모달 모델 Inkling 2 Mini를 공개했습니다. 이 모델은 260억 4천만 개(26.4B) 파라미터 규모이며, 약 20GB의 메모리를 필요로 합니다. 이번 릴리스의 주요 특징은 1M 토큰 컨텍스트 창, Apache 2.0 라이선스, Hugging Face 가중치 제공, 그리고 호스팅 Tinker API 요금입니다. 요금은 입력 토큰 100만 개당 0.15달러, 출력 토큰 100만 개당 0.50달러입니다.",
+ "title": "Thinking Machines, 로컬 개발자 배포용 Inkling 2 Mini 공개",
+ "translated_at": "2026-11-22",
+ "translation": "machine"
+}

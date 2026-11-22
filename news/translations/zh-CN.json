@@ -2715,6 +2715,11 @@
   "summary": "Sulphur 2 是 SulphurAI 发布的一个公开视频模型检查点。",
   "title": "Sulphur 2 视频生成模型"
  },
+ "n-89282766f8": {
+  "research_notes": "从 Hugging Face 仓库下载模型权重，或通过 `ollama run thinkingmachines/inkling-2-mini` 在 Ollama 中拉取模型。\n\n在至少 20 GB 至 32 GB 内存的硬件上进行本地部署，例如 Apple Silicon Mac 或 24 GB 显存的 GPU，可使用 vLLM 或 Ollama。\n\n通过 Tinker 托管 API 调用模型，价格为每百万输入 token 15 美分，每百万输出 token 50 美分。\n\n本地运行时，请至少分配 24 GB 至 32 GB 的统一内存，以容纳约 20 GB 的模型权重以及用于长上下文的 KV 缓存。\n\n对于大型代码库导入和智能体工具调用循环，应充分利用 1M token 上下文窗口，而不是使用被截断的上下文窗口。",
+  "summary": "Inkling 2 Mini 总参数量为 26.4B，每步激活参数为 3.4B，共 24 个物理层。模型对中间模块重复应用三次，实现 48 次层应用，而内存占用约为 20 GB。该架构结合了仅解码器的稀疏混合专家（MoE）模块与 NVFP4/MXFP8 混合量化，并辅以支持 1 至 5 次可变循环次数的 TML-d24-varloop-research 检查点。",
+  "title": "Thinking Machines 披露 Inkling 2 Mini 循环 Transformer 架构"
+ },
  "n-8a14fda3a6": {
   "evolution_summary": "一次批量研究资料导入新增了 21 篇公开文章。",
   "research_notes": "批次规模和工作流标签保留自不可变的提交主题；未发布任何私有提示词或对话记录。",
@@ -3969,6 +3974,11 @@
  "n-ca4cb3b16f": {
   "summary": "2026-04-01，Google 通过其博客和 Gemini API 模型文档发布了 Veo 3.1 Lite 预览版。所链接的 AI Studio 页面记录了相应的创作入口。仅凭所提供的链接，无法确定其已具备生产可用性、配额或服务限制。",
   "title": "Google 宣布推出 Veo 3.1 Lite 预览版"
+ },
+ "n-cb0696f22a": {
+  "research_notes": "从 Hugging Face 仓库下载模型权重，或通过 `ollama run thinkingmachines/inkling-2-mini` 在 Ollama 中拉取该模型。\n\n在至少 20 GB 到 32 GB 内存的硬件上进行本地部署，例如 Apple Silicon Mac 或 24 GB 显存的 GPU，可使用 vLLM 或 Ollama。\n\n通过 Tinker 托管 API 调用该模型，输入每百万 token 收费 15 美分，输出每百万 token 收费 50 美分。\n\n本地运行时，请至少分配 24 GB 到 32 GB 的统一内存，以容纳约 20 GB 的模型权重以及用于长上下文的 KV cache。\n\n处理大型代码库导入和智能体工具调用循环时，应利用 1M token 上下文窗口，而不是截断的上下文窗口。",
+  "summary": "Thinking Machines 发布了 Inkling 2 Mini，这是一款开放权重的 264亿参数多模态模型，需要约 20 GB 内存。该版本具备 1百万 token 上下文窗口，采用 Apache 2.0 许可证，权重托管于 Hugging Face，并提供 Tinker API 托管服务，定价为每百万输入 token 0.15 美元、每百万输出 token 0.50 美元。",
+  "title": "Thinking Machines 发布 Inkling 2 Mini，面向本地开发者部署"
  },
  "n-cb0846b088": {
   "research_notes": "克隆官方仓库，或安装受支持的推理运行时，例如 vLLM 和 Transformers。\n\n从 Hugging Face 下载所需变体的模型权重，例如用于通用指令跟随的 tencent/Hy4-flash，或用于节省显存部署的 tencent/Hy4-flash-FP8。\n\n对于消费级多 GPU 或大内存本地系统，请从 AngelSlim/Hy4-flash-GGUF 下载量化 GGUF 权重，并通过兼容的 llama.cpp 或文本生成加载器运行。\n\n部署 FP8 量化检查点，或启用带 DFly 草稿头的投机解码，以在控制 VRAM 占用的同时将吞吐量提升至每秒 150 个 token 以上。\n\n加载 1M 上下文窗口时，请确保分配足够的 GPU 显存。注意，通过混合注意力机制，KV cache 大小已优化至 Hy4 的 1/6。\n\n对于本地工作站，使用 IQ2 量化格式时，请在各 GPU 之间至少分配 126 GB 的总 VRAM，以防止卸载期间出现显存不足错误。",

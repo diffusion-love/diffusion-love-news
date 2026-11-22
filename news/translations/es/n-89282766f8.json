@@ -1,0 +1,11 @@
+{
+ "id": "n-89282766f8",
+ "lang": "es",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Descarga los pesos del modelo desde el repositorio de Hugging Face o descarga el modelo en Ollama mediante ollama run thinkingmachines/inkling-2-mini.\n\nDespliega el modelo localmente en hardware con al menos 20 GB a 32 GB de memoria, como un Mac con Apple Silicon o una GPU de 24 GB, usando vLLM u Ollama.\n\nConsulta el modelo a través de la API alojada de Tinker a 15 centavos de dólar por millón de tokens de entrada y 50 centavos de dólar por millón de tokens de salida.\n\nAsigna al menos 24 GB a 32 GB de memoria unificada al ejecutarlo localmente para acomodar los ~20 GB de pesos del modelo junto con la caché KV para contextos extendidos.\n\nAprovecha la ventana de contexto de 1M tokens para la ingesta de grandes bases de código y los bucles agénticos de uso de herramientas, en lugar de ventanas de contexto truncadas.",
+ "source_sha256": "3bcf7767a53502170836187a4f8adfc4eacdca9b53ef9948b1d47b8c65f2c7e9",
+ "summary": "Inkling 2 Mini tiene 26.4B parámetros totales, con 3.4B parámetros activos por paso, distribuidos en 24 capas físicas; aplica los bloques intermedios tres veces para alcanzar 48 aplicaciones de capa dentro de una huella de memoria de aproximadamente 20 GB. La arquitectura combina bloques de mezcla de expertos dispersa de solo decodificador con cuantización mixta NVFP4/MXFP8, complementada por el checkpoint TML-d24-varloop-research, que admite de 1 a 5 pasadas de bucle variables.",
+ "title": "Thinking Machines detalla la arquitectura transformer en bucle de Inkling 2 Mini",
+ "translated_at": "2026-11-22",
+ "translation": "machine"
+}

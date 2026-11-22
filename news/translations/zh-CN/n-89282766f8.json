@@ -1,0 +1,11 @@
+{
+ "id": "n-89282766f8",
+ "lang": "zh-CN",
+ "model": "claude-haiku-5-5",
+ "research_notes": "从 Hugging Face 仓库下载模型权重，或通过 `ollama run thinkingmachines/inkling-2-mini` 在 Ollama 中拉取模型。\n\n在至少 20 GB 至 32 GB 内存的硬件上进行本地部署，例如 Apple Silicon Mac 或 24 GB 显存的 GPU，可使用 vLLM 或 Ollama。\n\n通过 Tinker 托管 API 调用模型，价格为每百万输入 token 15 美分，每百万输出 token 50 美分。\n\n本地运行时，请至少分配 24 GB 至 32 GB 的统一内存，以容纳约 20 GB 的模型权重以及用于长上下文的 KV 缓存。\n\n对于大型代码库导入和智能体工具调用循环，应充分利用 1M token 上下文窗口，而不是使用被截断的上下文窗口。",
+ "source_sha256": "3bcf7767a53502170836187a4f8adfc4eacdca9b53ef9948b1d47b8c65f2c7e9",
+ "summary": "Inkling 2 Mini 总参数量为 26.4B，每步激活参数为 3.4B，共 24 个物理层。模型对中间模块重复应用三次，实现 48 次层应用，而内存占用约为 20 GB。该架构结合了仅解码器的稀疏混合专家（MoE）模块与 NVFP4/MXFP8 混合量化，并辅以支持 1 至 5 次可变循环次数的 TML-d24-varloop-research 检查点。",
+ "title": "Thinking Machines 披露 Inkling 2 Mini 循环 Transformer 架构",
+ "translated_at": "2026-11-22",
+ "translation": "machine"
+}

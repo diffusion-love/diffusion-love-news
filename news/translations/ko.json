@@ -2715,6 +2715,11 @@
   "summary": "Sulphur 2는 SulphurAI가 공개한 비디오 모델 체크포인트입니다.",
   "title": "Sulphur 2 비디오 생성 모델"
  },
+ "n-89282766f8": {
+  "research_notes": "Hugging Face 저장소에서 모델 가중치를 내려받거나, `ollama run thinkingmachines/inkling-2-mini` 명령으로 Ollama에서 모델을 가져올 수 있습니다.\n\nvLLM 또는 Ollama를 사용해 최소 20~32 GB 메모리를 갖춘 하드웨어, 예를 들어 Apple Silicon Mac이나 24 GB GPU에 로컬로 배포할 수 있습니다.\n\nTinker 호스티드 API를 통해 모델을 쿼리할 수 있으며, 요금은 입력 100만 토큰당 15센트, 출력 100만 토큰당 50센트입니다.\n\n로컬에서 실행할 때는 약 20 GB 규모의 모델 가중치와 긴 컨텍스트를 위한 KV 캐시를 함께 수용하려면 통합 메모리를 최소 24~32 GB 할당해야 합니다.\n\n잘린 컨텍스트 윈도우 대신 1M 토큰 컨텍스트 윈도우를 활용하면 대규모 코드베이스 입력과 에이전트형 도구 사용 루프에 적합합니다.",
+  "summary": "Inkling 2 Mini는 총 26.4B 파라미터와 스텝당 3.4B 활성 파라미터를 가지며, 24개의 물리적 레이어로 구성됩니다. 중간 블록을 세 번 적용하여 약 20 GB 메모리 footprint 안에서 48개의 레이어 적용을 구현합니다. 이 아키텍처는 디코더 전용 희소 전문가 혼합(MoE) 블록과 혼합 NVFP4/MXFP8 양자화를 결합하며, 1~5회의 가변 루프 패스를 지원하는 TML-d24-varloop-research 체크포인트가 이를 보완합니다.",
+  "title": "Thinking Machines, Inkling 2 Mini 루프 트랜스포머 아키텍처 공개"
+ },
  "n-8a14fda3a6": {
   "evolution_summary": "리서치 수집 배치를 통해 공개 기사 21건이 추가되었습니다.",
   "research_notes": "배치 규모와 워크플로 레이블은 변경 불가능한 커밋 제목에서 그대로 가져왔으며, 비공개 프롬프트나 대화 기록은 공개되지 않습니다.",
@@ -3969,6 +3974,11 @@
  "n-ca4cb3b16f": {
   "summary": "2026-04-01, Google은 블로그와 Gemini API 모델 문서를 통해 Veo 3.1 Lite를 프리뷰로 공개했습니다. 연결된 AI Studio 경로에는 이에 대응하는 생성 진입점이 기록되어 있습니다. 제공된 링크만으로는 프로덕션 가용성, 할당량(quota), 서비스 한도를 확인할 수 없습니다.",
   "title": "Google, Veo 3.1 Lite 프리뷰 공개"
+ },
+ "n-cb0696f22a": {
+  "research_notes": "Hugging Face 저장소에서 모델 가중치를 내려받거나, `ollama run thinkingmachines/inkling-2-mini` 명령으로 Ollama에서 모델을 가져올 수 있습니다.\n\nvLLM 또는 Ollama를 사용해 최소 20~32GB 메모리를 갖춘 하드웨어, 예를 들어 Apple Silicon Mac이나 24GB GPU에서 로컬로 배포할 수 있습니다.\n\nTinker 호스팅 API를 통해 모델을 쿼리할 수 있으며, 요금은 입력 토큰 100만 개당 15센트, 출력 토큰 100만 개당 50센트입니다.\n\n약 20GB 규모의 모델 가중치와 확장된 컨텍스트를 위한 KV 캐시를 함께 수용하려면 로컬 실행 시 통합 메모리를 최소 24~32GB 할당하십시오.\n\n잘린 컨텍스트 창 대신 1M 토큰 컨텍스트 창을 활용해 대규모 코드베이스를 입력하고 에이전트형 도구 사용 루프를 처리하십시오.",
+  "summary": "Thinking Machines가 open-weights 방식의 멀티모달 모델 Inkling 2 Mini를 공개했습니다. 이 모델은 260억 4천만 개(26.4B) 파라미터 규모이며, 약 20GB의 메모리를 필요로 합니다. 이번 릴리스의 주요 특징은 1M 토큰 컨텍스트 창, Apache 2.0 라이선스, Hugging Face 가중치 제공, 그리고 호스팅 Tinker API 요금입니다. 요금은 입력 토큰 100만 개당 0.15달러, 출력 토큰 100만 개당 0.50달러입니다.",
+  "title": "Thinking Machines, 로컬 개발자 배포용 Inkling 2 Mini 공개"
  },
  "n-cb0846b088": {
   "research_notes": "공식 저장소를 클론하거나 vLLM, Transformers 같은 지원되는 추론 런타임을 설치합니다.\n\n원하는 변형에 맞는 모델 가중치를 Hugging Face에서 다운로드합니다. 범용 지시 따르기에는 tencent/Hy4-flash를, 메모리 효율적인 배포에는 tencent/Hy4-flash-FP8을 사용할 수 있습니다.\n\n소비자용 다중 GPU나 메모리가 큰 로컬 시스템에서는 AngelSlim/Hy4-flash-GGUF에서 양자화된 GGUF 가중치를 다운로드한 뒤, 호환되는 llama.cpp 또는 텍스트 생성 로더로 실행합니다.\n\nVRAM 사용량을 관리하면서 초당 150 토큰 이상의 처리량을 얻으려면 FP8 양자화 체크포인트를 배포하거나 DFly 드래프트 헤드를 이용한 추측 디코딩을 활성화합니다.\n\n1M 컨텍스트 윈도우를 로드할 때는 충분한 GPU 메모리를 할당해야 합니다. 하이브리드 어텐션 덕분에 KV 캐시 크기는 Hy4 대비 1/6로 최적화되어 있습니다.\n\n로컬 워크스테이션에서 IQ2 양자화 형식을 사용할 경우, 오프로드 중 메모리 부족 오류를 방지하려면 GPU 전체에 걸쳐 최소 126 GB의 VRAM을 확보해야 합니다.",

@@ -1,0 +1,11 @@
+{
+ "id": "n-89282766f8",
+ "lang": "de",
+ "model": "claude-haiku-5-5",
+ "research_notes": "Lade die Modellgewichte aus dem Repository auf Hugging Face herunter oder ziehe das Modell in Ollama mit `ollama run thinkingmachines/inkling-2-mini`.\n\nStelle das Modell lokal auf Hardware mit mindestens 20 GB bis 32 GB Speicher bereit, etwa einem Apple Silicon Mac oder einer GPU mit 24 GB, und nutze dafür vLLM oder Ollama.\n\nFrage das Modell über die gehostete Tinker-API ab, für 15 Cent pro einer Million Eingabe-Token und 50 Cent pro einer Million Ausgabe-Token.\n\nStelle beim lokalen Betrieb mindestens 24 GB bis 32 GB Unified Memory bereit, damit die etwa 20 GB Modellgewichte zusammen mit dem KV-Cache für längeren Kontext hineinpassen.\n\nNutze das 1M-Token-Kontextfenster für die Verarbeitung großer Codebasen und für agentische Tool-Use-Schleifen, statt gekürzter Kontextfenster.",
+ "source_sha256": "3bcf7767a53502170836187a4f8adfc4eacdca9b53ef9948b1d47b8c65f2c7e9",
+ "summary": "Inkling 2 Mini umfasst insgesamt 26.4B Parameter, von denen pro Schritt 3.4B aktiv sind, verteilt auf 24 physische Schichten. Mittlere Blöcke werden dreimal angewendet, sodass 48 Schichtdurchläufe innerhalb eines Speicherbedarfs von etwa 20 GB erreicht werden. Die Architektur kombiniert Decoder-only-Sparse-Mixture-of-Experts-Blöcke mit gemischter NVFP4/MXFP8-Quantisierung. Ergänzt wird sie durch den Checkpoint TML-d24-varloop-research, der 1 bis 5 variable Schleifendurchläufe unterstützt.",
+ "title": "Thinking Machines beschreibt die looped-Transformer-Architektur von Inkling 2 Mini im Detail",
+ "translated_at": "2026-11-22",
+ "translation": "machine"
+}
