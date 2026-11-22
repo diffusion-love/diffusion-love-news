@@ -1,0 +1,6 @@
+{
+ "schema_version": "practice-note-v1",
+ "news_id": "n-cb0846b088",
+ "title": "In practice",
+ "text": "Hy4 Flash weights are now public on Hugging Face (base, FP8 and Base variants), with the model card and GitHub links in the release. The model is a mixture-of-experts design with about 224B total parameters, 12B active per token, and a 1M-token context window; it accepts text and images. Running it locally is not practical for most setups: one message estimates at least 126 GB of VRAM even for the most aggressive IQ2 GGUF quant. Hosted API pricing reported in the messages is about $0.07 per million input tokens, $0.281 per million output tokens, and $0.003 per million cached input tokens."
+}
