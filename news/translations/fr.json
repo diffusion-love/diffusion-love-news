@@ -2720,6 +2720,11 @@
   "summary": "Sulphur 2 est un checkpoint de modèle vidéo public publié par SulphurAI.",
   "title": "Sulphur 2 : modèle de génération vidéo"
  },
+ "n-89282766f8": {
+  "research_notes": "Téléchargez les poids du modèle depuis le dépôt Hugging Face ou récupérez le modèle dans Ollama via ollama run thinkingmachines/inkling-2-mini.\n\nDéployez localement sur du matériel disposant d'au moins 20 Go à 32 Go de mémoire, comme un Mac Apple Silicon ou un GPU de 24 Go, avec vLLM ou Ollama.\n\nInterrogez le modèle via l'API hébergée Tinker à 15 cents par million de jetons en entrée et 50 cents par million de jetons en sortie.\n\nAllouez au moins 24 Go à 32 Go de mémoire unifiée lors de l'exécution locale pour accueillir les ~20 Go de poids du modèle ainsi que le cache KV pour un contexte étendu.\n\nExploitez la fenêtre de contexte de 1M de jetons pour l'ingestion de grandes bases de code et les boucles d'utilisation d'outils agentiques, plutôt que des fenêtres de contexte tronquées.",
+  "summary": "Inkling 2 Mini compte 26.4B de paramètres au total, dont 3.4B actifs à chaque étape, répartis sur 24 couches physiques ; les blocs intermédiaires sont appliqués trois fois pour obtenir 48 applications de couches, dans une empreinte mémoire d'environ 20 Go. L'architecture combine des blocs de mélange d'experts épars à décodeur seul avec une quantification mixte NVFP4/MXFP8, complétée par le checkpoint TML-d24-varloop-research qui prend en charge de 1 à 5 passes de boucle variables.",
+  "title": "Thinking Machines détaille l'architecture de transformeur en boucle d'Inkling 2 Mini"
+ },
  "n-8a14fda3a6": {
   "evolution_summary": "Un lot d'ingestion de recherche a ajouté 21 articles publics.",
   "research_notes": "La taille du lot et l'étiquette du flux de travail sont conservées à partir de l'objet du commit immuable ; aucune invite privée ni transcription n'est publiée.",
