@@ -1,5 +1,45 @@
 [
   {
+    "id": "n-cb0696f22a",
+    "date": "2026-11-21",
+    "title": "Thinking Machines releases Inkling 2 Mini for local developer deployment",
+    "category": "vlm",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Thinking Machines: thinking-machines-inkling-2-small-release",
+      "llm",
+      "organization:thinking-machines",
+      "thinking-machines",
+      "thinking-machines-inkling-2-small-release",
+      "vlm"
+    ],
+    "primary_link": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "has_image": false,
+    "has_video": false
+  },
+  {
+    "id": "n-89282766f8",
+    "date": "2026-11-21",
+    "title": "Thinking Machines details Inkling 2 Mini looped transformer architecture",
+    "category": "diffusion-image",
+    "entry_type": "news",
+    "project": null,
+    "version": null,
+    "tags": [
+      "Thinking Machines: thinking-machines-inkling-2-small-release",
+      "diffusion-image",
+      "llm",
+      "organization:thinking-machines",
+      "thinking-machines",
+      "thinking-machines-inkling-2-small-release"
+    ],
+    "primary_link": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+    "has_image": false,
+    "has_video": false
+  },
+  {
     "id": "n-fe297bbc98",
     "date": "2026-11-20",
     "title": "PAMI part-anchored interaction generation repository published",

@@ -2832,6 +2832,10 @@
   "TeraTTSv2": [
     "n-32e036715e"
   ],
+  "Thinking Machines: thinking-machines-inkling-2-small-release": [
+    "n-cb0696f22a",
+    "n-89282766f8"
+  ],
   "Thinking with Visual Primitives (TVP)": [
     "n-2244c25f96"
   ],
@@ -4458,6 +4462,7 @@
     "n-98474cc274",
     "n-97b254669d",
     "n-952baa76f5",
+    "n-89282766f8",
     "n-86ce44c208",
     "n-7d8614adad",
     "n-7c1de821f8",
@@ -9045,6 +9050,7 @@
     "n-da24004da2",
     "n-d111345e9c",
     "n-cfec66a95b",
+    "n-cb0696f22a",
     "n-c7bfff5d31",
     "n-c607593781",
     "n-bded34e024",
@@ -9067,6 +9073,7 @@
     "n-95d245f3eb",
     "n-93d71a9cbf",
     "n-8a620616a1",
+    "n-89282766f8",
     "n-7e83db4168",
     "n-7cc366b545",
     "n-73e8b27cb3",
@@ -11259,6 +11266,10 @@
     "n-e023bc2664",
     "n-00b6dfd5f9"
   ],
+  "organization:thinking-machines": [
+    "n-cb0696f22a",
+    "n-89282766f8"
+  ],
   "organization:unsloth": [
     "n-a3aa871dfa",
     "n-70863553de",
@@ -12484,7 +12495,13 @@
     "n-253f50a66d"
   ],
   "thinking-machines": [
-    "n-972d1e2832"
+    "n-cb0696f22a",
+    "n-972d1e2832",
+    "n-89282766f8"
+  ],
+  "thinking-machines-inkling-2-small-release": [
+    "n-cb0696f22a",
+    "n-89282766f8"
   ],
   "thinking-with-visual-primitives-tvp": [
     "n-2244c25f96"
@@ -12852,6 +12869,7 @@
   "vlm": [
     "n-ec7e719b88",
     "n-d192447768",
+    "n-cb0696f22a",
     "n-c5207bfa4a",
     "n-bb0f83ff09",
     "n-b2b9ca697e",

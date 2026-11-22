@@ -1,9 +1,247 @@
 {
   "schema_version": "1.4",
-  "generated_at": "2026-11-21T21:37:36Z",
+  "generated_at": "2026-11-22T00:13:14Z",
   "site": "diffusion.love",
-  "total": 1062,
+  "total": 1064,
   "records": [
+    {
+      "schema_version": "1.4",
+      "id": "n-cb0696f22a",
+      "entry_type": "news",
+      "category": "vlm",
+      "lang": "en",
+      "title": "Thinking Machines releases Inkling 2 Mini for local developer deployment",
+      "summary": "Thinking Machines released Inkling 2 Mini, an open-weights 26.4-billion-parameter multimodal model requiring approximately 20 GB of memory. The release features a 1-million-token context window, Apache 2.0 licensing, Hugging Face weights, and hosted Tinker API pricing at $0.15 per million input tokens and $0.50 per million output tokens.",
+      "research_notes": "Download the model weights from the Hugging Face repository or pull the model in Ollama via ollama run thinkingmachines/inkling-2-mini.\n\nDeploy locally on hardware with at least 20 GB to 32 GB of memory, such as an Apple Silicon Mac or 24 GB GPU, using vLLM or Ollama.\n\nQuery the model through the Tinker hosted API at 15 cents per million input tokens and 50 cents per million output tokens.\n\nAllocate at least 24 GB to 32 GB of unified memory when running locally to accommodate the ~20 GB model weights alongside KV cache for extended context.\n\nUtilize the 1M token context window for large codebase ingestion and agentic tool-use loops rather than truncated context windows.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "thinking-machines",
+        "display": "Thinking Machines: thinking-machines-inkling-2-small-release",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "thinking-machines-inkling-2-small-release",
+        "thread_display": "Thinking Machines Inkling 2 Small Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Thinking Machines: thinking-machines-inkling-2-small-release",
+        "article_url": "https://happyin.space/organizations/thinking-machines/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/490aec4bcdbcab1e496e89f4f9005750802078a9/docs/organizations/thinking-machines.md",
+        "agent_context_url": "https://happyin.space/organizations/thinking-machines/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-21",
+        "title": "Thinking Machines releases Inkling 2 Mini for local developer deployment",
+        "version": null,
+        "summary": "Thinking Machines released Inkling 2 Mini, an open-weights 26.4-billion-parameter multimodal model requiring approximately 20 GB of memory. The release features a 1-million-token context window, Apache 2.0 licensing, Hugging Face weights, and hosted Tinker API pricing at $0.15 per million input tokens and $0.50 per million output tokens."
+      },
+      "tags": [
+        "Thinking Machines: thinking-machines-inkling-2-small-release",
+        "llm",
+        "organization:thinking-machines",
+        "thinking-machines",
+        "thinking-machines-inkling-2-small-release",
+        "vlm"
+      ],
+      "facets": {
+        "category": "vlm",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "thinking-machines"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "reference",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "host": "thinkingmachines.ai",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-22T00:13:14Z"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-22T00:13:14Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-21",
+        "excerpt": "Thinking Machines released Inkling 2 Mini, an open-weights 26.4-billion-parameter multimodal model requiring approximately 20 GB of memory. The release features a 1-million-token context window, Apache 2.0 licensing, Hugging Face weights, and hosted Tinker API pricing at $0.15 per million input tokens and $0.50 per million output tokens."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-22T00:13:14Z",
+        "classified_at": "2026-11-22T00:13:14Z",
+        "enriched_at": "2026-11-22T00:13:14Z",
+        "verified_at": "2026-11-22T00:13:14Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
+    {
+      "schema_version": "1.4",
+      "id": "n-89282766f8",
+      "entry_type": "news",
+      "category": "diffusion-image",
+      "lang": "en",
+      "title": "Thinking Machines details Inkling 2 Mini looped transformer architecture",
+      "summary": "Inkling 2 Mini runs 26.4B total parameters with 3.4B active parameters per step across 24 physical layers, applying middle blocks three times to achieve 48 layer applications within an approximately 20 GB memory footprint. The architecture combines decoder-only sparse mixture-of-experts blocks with mixed NVFP4/MXFP8 quantization, complemented by the TML-d24-varloop-research checkpoint supporting 1 to 5 variable loop passes.",
+      "research_notes": "Download the model weights from the Hugging Face repository or pull the model in Ollama via ollama run thinkingmachines/inkling-2-mini.\n\nDeploy locally on hardware with at least 20 GB to 32 GB of memory, such as an Apple Silicon Mac or 24 GB GPU, using vLLM or Ollama.\n\nQuery the model through the Tinker hosted API at 15 cents per million input tokens and 50 cents per million output tokens.\n\nAllocate at least 24 GB to 32 GB of unified memory when running locally to accommodate the ~20 GB model weights alongside KV cache for extended context.\n\nUtilize the 1M token context window for large codebase ingestion and agentic tool-use loops rather than truncated context windows.",
+      "project": {
+        "name": null,
+        "family_slug": null,
+        "family_display": null,
+        "model_slug": null,
+        "model_display": null,
+        "version": null,
+        "released": null,
+        "vendor": null,
+        "vendor_slug": null,
+        "origin_region": null,
+        "license": null,
+        "base_model": null,
+        "adaptation": null
+      },
+      "organization": {
+        "slug": "thinking-machines",
+        "display": "Thinking Machines: thinking-machines-inkling-2-small-release",
+        "homepage": null
+      },
+      "development": {
+        "scope": "organization",
+        "thread_slug": "thinking-machines-inkling-2-small-release",
+        "thread_display": "Thinking Machines Inkling 2 Small Release",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Thinking Machines: thinking-machines-inkling-2-small-release",
+        "article_url": "https://happyin.space/organizations/thinking-machines/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/490aec4bcdbcab1e496e89f4f9005750802078a9/docs/organizations/thinking-machines.md",
+        "agent_context_url": "https://happyin.space/organizations/thinking-machines/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-11-21",
+        "title": "Thinking Machines details Inkling 2 Mini looped transformer architecture",
+        "version": null,
+        "summary": "Inkling 2 Mini runs 26.4B total parameters with 3.4B active parameters per step across 24 physical layers, applying middle blocks three times to achieve 48 layer applications within an approximately 20 GB memory footprint. The architecture combines decoder-only sparse mixture-of-experts blocks with mixed NVFP4/MXFP8 quantization, complemented by the TML-d24-varloop-research checkpoint supporting 1 to 5 variable loop passes."
+      },
+      "tags": [
+        "Thinking Machines: thinking-machines-inkling-2-small-release",
+        "diffusion-image",
+        "llm",
+        "organization:thinking-machines",
+        "thinking-machines",
+        "thinking-machines-inkling-2-small-release"
+      ],
+      "facets": {
+        "category": "diffusion-image",
+        "entry_type": "news",
+        "projects": [],
+        "versions": [],
+        "features": [],
+        "formats": [],
+        "platforms": [],
+        "vendors": [
+          "thinking-machines"
+        ],
+        "base_models": [],
+        "origin": null,
+        "license": null,
+        "year": 2026,
+        "models": [],
+        "adaptations": []
+      },
+      "links": [
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+          "host": "huggingface.co",
+          "lang": "en",
+          "is_primary": true,
+          "status": "unverified",
+          "verified_at": "2026-11-22T00:13:14Z"
+        },
+        {
+          "kind": "reference",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "host": "thinkingmachines.ai",
+          "lang": "en",
+          "is_primary": false,
+          "status": "unverified",
+          "verified_at": "2026-11-22T00:13:14Z"
+        }
+      ],
+      "evolution": {
+        "summary": null,
+        "latest_version": null,
+        "related_ids": [],
+        "is_latest_in_family": false
+      },
+      "media": {
+        "has_image": false,
+        "has_video": false
+      },
+      "source": {
+        "posted_at": "2026-11-21",
+        "excerpt": "Inkling 2 Mini runs 26.4B total parameters with 3.4B active parameters per step across 24 physical layers, applying middle blocks three times to achieve 48 layer applications within an approximately 20 GB memory footprint. The architecture combines decoder-only sparse mixture-of-experts blocks with mixed NVFP4/MXFP8 quantization, complemented by the TML-d24-varloop-research checkpoint supporting 1 to 5 variable loop passes."
+      },
+      "_meta": {
+        "extracted_at": "2026-11-22T00:13:14Z",
+        "classified_at": "2026-11-22T00:13:14Z",
+        "enriched_at": "2026-11-22T00:13:14Z",
+        "verified_at": "2026-11-22T00:13:14Z",
+        "models_used": {
+          "research": "curated-live-material"
+        },
+        "schema_validated": true
+      }
+    },
     {
       "schema_version": "1.4",
       "id": "n-fe297bbc98",
