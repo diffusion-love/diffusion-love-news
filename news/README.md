@@ -18,6 +18,9 @@ news/
 ├── _organizations.json   # organization_slug → company news + owned projects
 ├── _aliases.json         # canonical_family ← [slug_aliases, ...]
 ├── all.json              # full bundle: { schema_version, total, records: [...] }
+├── _community.json       # derived: { schema, total, works: [...] } of community/, newest first
+├── community/
+│   └── cw-{slug}.json         # one community work (workflow, node pack, LoRA), see below
 ├── items/
 │   └── n-{10-char-hex}.json   # one file per news, schema v1.2-v1.4
 └── translations/              # machine translations of the English text (see below)
@@ -26,6 +29,20 @@ news/
         ├── _index.json        # derived: id → {title, translated_at, fresh}
         └── n-{10-char-hex}.json   # one record per item and language
 ```
+
+### Community works
+
+A community work is something people outside the vendors made and published: a ComfyUI workflow,
+a node pack, a LoRA. Format `diffusion-love/community-work/1` (V2 of the pipeline's
+`docs/community-works-links.md`): `id`, `title`, `kind`, `author{name, profile}`, `published_at`
+(the work's own date), `summary`, `links[{kind, url, is_primary, label}]` with exactly one primary
+source, and `tags{purpose, works_with}`. `purpose` names what the work is for (a feed category and
+the pipeline's task words, such as `generate-video` or `upscale`); `works_with` names feed tags,
+`family:<slug>` first, and is the only link between a work and news: the site shows a work with
+the newest news of those tags. A work that exists only in a Telegram channel links its public post
+(`https://t.me/<channel>/<post>`); private chats, invite links and tracking parameters are refused.
+`scripts/build_news.py` validates every record and writes `_community.json`; `_meta.json`
+`counts.community` says how many there are.
 
 ### Translations
 

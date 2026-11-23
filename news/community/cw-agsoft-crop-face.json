@@ -1,0 +1,36 @@
+{
+ "schema": "diffusion-love/community-work/1",
+ "id": "cw-agsoft-crop-face",
+ "title": "AGSoft Crop Face: face mask, detection cache, one wire to Crop Stitch",
+ "kind": "custom-node",
+ "author": {
+  "name": "AGSoft AI",
+  "profile": "https://github.com/Art-xmaster"
+ },
+ "published_at": "2026-11-21T08:50:32Z",
+ "summary": "A ComfyUI node that finds faces with RetinaFace, crops around them with a scale factor, X/Y offset and nine aspect presets, and now also outputs a face mask, caches detections and connects to Crop Stitch in one wire.",
+ "links": [
+  {
+   "kind": "custom-node",
+   "url": "https://github.com/Art-xmaster/comfyui-AGSoft",
+   "is_primary": true,
+   "label": "Node pack (GitHub)"
+  },
+  {
+   "kind": "community",
+   "url": "https://t.me/prompt_by_art/2018",
+   "is_primary": false,
+   "label": "Announcement with examples, the author's Telegram post"
+  }
+ ],
+ "tags": {
+  "purpose": [
+   "tools-frontend",
+   "crop-face"
+  ],
+  "works_with": [
+   "comfyui",
+   "family:agsoft-image-crop-plus"
+  ]
+ }
+}

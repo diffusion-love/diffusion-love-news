@@ -1,0 +1,37 @@
+{
+ "schema": "diffusion-love/community-work/1",
+ "id": "cw-ultrareal-klein9b",
+ "kind": "lora",
+ "title": "UltraReal LoRA for FLUX.2 Klein 9B: less AI smoothness, more skin and fabric texture",
+ "author": {
+  "name": "vizsumit",
+  "profile": "https://civitai.com/user/vizsumit"
+ },
+ "published_at": "2026-03-13T06:10:39Z",
+ "summary": "LoRAs that reduce the soft, smooth AI look and add texture and detail, best on close-ups and medium shots where skin and clothing texture matter. Versions KL9 V1 to V5 Pro are for FLUX.2 Klein 9B; the same page also has versions for Krea 2 and MOSS Image.",
+ "links": [
+  {
+   "kind": "lora",
+   "url": "https://civitai.com/models/2462105/ultrareal-moss-krea2-klein9b",
+   "is_primary": true,
+   "label": "LoRA versions (Civitai)"
+  },
+  {
+   "kind": "code",
+   "url": "https://github.com/vizsumit/comfyui-workflows",
+   "is_primary": false,
+   "label": "The author's ComfyUI workflows (GitHub)"
+  }
+ ],
+ "tags": {
+  "purpose": [
+   "diffusion-image",
+   "generate-image",
+   "style"
+  ],
+  "works_with": [
+   "family:ultra-real-klein-9b",
+   "family:flux2-klein"
+  ]
+ }
+}

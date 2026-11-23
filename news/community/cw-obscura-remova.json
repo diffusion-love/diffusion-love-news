@@ -1,0 +1,30 @@
+{
+ "schema": "diffusion-love/community-work/1",
+ "id": "cw-obscura-remova",
+ "kind": "lora",
+ "title": "Obscura Remova: video-to-video LoRA that removes smoke and haze from LTX 2.3 clips",
+ "author": {
+  "name": "WepeNerd",
+  "profile": "https://civitai.com/user/WepeNerd"
+ },
+ "published_at": "2026-05-01T15:06:02Z",
+ "summary": "A video-to-video LoRA for LTX 2.3 that removes what obscures a scene, such as smoke or haze, and rebuilds the scene from what any frame shows, even semi-transparently. What no frame shows has to be invented.",
+ "links": [
+  {
+   "kind": "lora",
+   "url": "https://civitai.com/models/2590144/obscura-remova",
+   "is_primary": true,
+   "label": "LTX23 V2V v1 (Civitai)"
+  }
+ ],
+ "tags": {
+  "purpose": [
+   "diffusion-video",
+   "inpaint"
+  ],
+  "works_with": [
+   "family:obscura-remova",
+   "family:ltx"
+  ]
+ }
+}

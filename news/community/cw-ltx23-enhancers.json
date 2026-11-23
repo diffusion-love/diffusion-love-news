@@ -1,0 +1,30 @@
+{
+ "schema": "diffusion-love/community-work/1",
+ "id": "cw-ltx23-enhancers",
+ "kind": "lora",
+ "title": "LTX 2.3 Enhancers: Crisp and Soft detail LoRAs for text-to-video",
+ "author": {
+  "name": "vrgamedevgirl",
+  "profile": "https://civitai.com/user/vrgamedevgirl"
+ },
+ "published_at": "2026-04-11T23:32:46Z",
+ "summary": "Two detail LoRAs for LTX 2.3 text-to-video. Soft Enhance adds subtle detail, improves clarity and softens the strong contrast of LTX 2.3; Crisp Enhance is the sharper one. The page links the author's text-to-video workflow: swap in the LoRA and the prompt.",
+ "links": [
+  {
+   "kind": "lora",
+   "url": "https://civitai.com/models/2535622/ltx-23-enhancers",
+   "is_primary": true,
+   "label": "Crisp Enhance and Soft Enhance (Civitai)"
+  }
+ ],
+ "tags": {
+  "purpose": [
+   "diffusion-video",
+   "generate-video",
+   "style"
+  ],
+  "works_with": [
+   "family:ltx"
+  ]
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "schema": "diffusion-love/community-work/1",
+ "id": "cw-agsoft-pi-h3-ref-workflow-v3",
+ "title": "pi-H3 workflow with the reference model: 4 steps, 10 s at 1 MP",
+ "kind": "workflow",
+ "author": {
+  "name": "AGSoft AI",
+  "profile": "https://github.com/Art-xmaster"
+ },
+ "published_at": "2026-11-22T13:42:56Z",
+ "summary": "A ComfyUI workflow for MiniMax H3 with the ref2va reference model and the pi-Flow scheduler, set up for 4 or more steps. Two steps need two changed parameters in the pi-Flow Scheduler node. An optional RelayVSR upscaler group. Needs the author's nodes, updated.",
+ "links": [
+  {
+   "kind": "workflow",
+   "url": "https://t.me/prompt_by_art/2022",
+   "is_primary": true,
+   "label": "Workflow file (.json + preview), the author's Telegram post"
+  },
+  {
+   "kind": "community",
+   "url": "https://t.me/prompt_by_art/2021",
+   "is_primary": false,
+   "label": "Author's notes on settings"
+  },
+  {
+   "kind": "weights",
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/blob/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+   "is_primary": false,
+   "label": "Reference model (Hugging Face)"
+  },
+  {
+   "kind": "custom-node",
+   "url": "https://github.com/Art-xmaster/comfyui-AGSoft",
+   "is_primary": false,
+   "label": "Required nodes (GitHub)"
+  }
+ ],
+ "tags": {
+  "purpose": [
+   "diffusion-video",
+   "reference-to-video",
+   "generate-video"
+  ],
+  "works_with": [
+   "family:minimax-h3",
+   "comfyui"
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "diffusion-love/community-work/1",
+ "id": "cw-wan-vace-clip-joiner",
+ "kind": "workflow",
+ "title": "WAN VACE Clip Joiner: smooth transitions between video clips",
+ "author": {
+  "name": "__Bob__",
+  "profile": "https://civitai.com/user/__Bob__"
+ },
+ "published_at": "2025-10-13T10:40:21Z",
+ "summary": "A ComfyUI workflow that stitches a folder of clips together. At each seam Wan VACE generates new frames from the context on both sides, so motion flows across the cut, and noisy frames at clip edges are replaced. Newer versions add seamless looping. It works with Wan, LTX-2 and other video sources.",
+ "links": [
+  {
+   "kind": "workflow",
+   "url": "https://civitai.com/models/2024299/wan-vace-clip-joiner-smooth-ai-video-transitions-for-wan-ltx-2-and-any-other-video-source",
+   "is_primary": true,
+   "label": "Workflow versions (Civitai)"
+  }
+ ],
+ "tags": {
+  "purpose": [
+   "diffusion-video",
+   "generate-video",
+   "utility"
+  ],
+  "works_with": [
+   "family:wanvideo",
+   "comfyui"
+  ]
+ }
+}
