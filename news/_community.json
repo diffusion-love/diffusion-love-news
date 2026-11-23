@@ -1,0 +1,248 @@
+{
+  "schema": "diffusion-love/community-index/1",
+  "total": 7,
+  "works": [
+    {
+      "schema": "diffusion-love/community-work/1",
+      "id": "cw-agsoft-pi-h3-ref-workflow-v3",
+      "title": "pi-H3 workflow with the reference model: 4 steps, 10 s at 1 MP",
+      "kind": "workflow",
+      "author": {
+        "name": "AGSoft AI",
+        "profile": "https://github.com/Art-xmaster"
+      },
+      "published_at": "2026-11-22T13:42:56Z",
+      "summary": "A ComfyUI workflow for MiniMax H3 with the ref2va reference model and the pi-Flow scheduler, set up for 4 or more steps. Two steps need two changed parameters in the pi-Flow Scheduler node. An optional RelayVSR upscaler group. Needs the author's nodes, updated.",
+      "links": [
+        {
+          "kind": "workflow",
+          "url": "https://t.me/prompt_by_art/2022",
+          "is_primary": true,
+          "label": "Workflow file (.json + preview), the author's Telegram post"
+        },
+        {
+          "kind": "community",
+          "url": "https://t.me/prompt_by_art/2021",
+          "is_primary": false,
+          "label": "Author's notes on settings"
+        },
+        {
+          "kind": "weights",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/blob/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+          "is_primary": false,
+          "label": "Reference model (Hugging Face)"
+        },
+        {
+          "kind": "custom-node",
+          "url": "https://github.com/Art-xmaster/comfyui-AGSoft",
+          "is_primary": false,
+          "label": "Required nodes (GitHub)"
+        }
+      ],
+      "tags": {
+        "purpose": [
+          "diffusion-video",
+          "reference-to-video",
+          "generate-video"
+        ],
+        "works_with": [
+          "family:minimax-h3",
+          "comfyui"
+        ]
+      }
+    },
+    {
+      "schema": "diffusion-love/community-work/1",
+      "id": "cw-agsoft-crop-face",
+      "title": "AGSoft Crop Face: face mask, detection cache, one wire to Crop Stitch",
+      "kind": "custom-node",
+      "author": {
+        "name": "AGSoft AI",
+        "profile": "https://github.com/Art-xmaster"
+      },
+      "published_at": "2026-11-21T08:50:32Z",
+      "summary": "A ComfyUI node that finds faces with RetinaFace, crops around them with a scale factor, X/Y offset and nine aspect presets, and now also outputs a face mask, caches detections and connects to Crop Stitch in one wire.",
+      "links": [
+        {
+          "kind": "custom-node",
+          "url": "https://github.com/Art-xmaster/comfyui-AGSoft",
+          "is_primary": true,
+          "label": "Node pack (GitHub)"
+        },
+        {
+          "kind": "community",
+          "url": "https://t.me/prompt_by_art/2018",
+          "is_primary": false,
+          "label": "Announcement with examples, the author's Telegram post"
+        }
+      ],
+      "tags": {
+        "purpose": [
+          "tools-frontend",
+          "crop-face"
+        ],
+        "works_with": [
+          "comfyui",
+          "family:agsoft-image-crop-plus"
+        ]
+      }
+    },
+    {
+      "schema": "diffusion-love/community-work/1",
+      "id": "cw-obscura-remova",
+      "kind": "lora",
+      "title": "Obscura Remova: video-to-video LoRA that removes smoke and haze from LTX 2.3 clips",
+      "author": {
+        "name": "WepeNerd",
+        "profile": "https://civitai.com/user/WepeNerd"
+      },
+      "published_at": "2026-05-01T15:06:02Z",
+      "summary": "A video-to-video LoRA for LTX 2.3 that removes what obscures a scene, such as smoke or haze, and rebuilds the scene from what any frame shows, even semi-transparently. What no frame shows has to be invented.",
+      "links": [
+        {
+          "kind": "lora",
+          "url": "https://civitai.com/models/2590144/obscura-remova",
+          "is_primary": true,
+          "label": "LTX23 V2V v1 (Civitai)"
+        }
+      ],
+      "tags": {
+        "purpose": [
+          "diffusion-video",
+          "inpaint"
+        ],
+        "works_with": [
+          "family:obscura-remova",
+          "family:ltx"
+        ]
+      }
+    },
+    {
+      "schema": "diffusion-love/community-work/1",
+      "id": "cw-ltx-editanything",
+      "kind": "lora",
+      "title": "EditAnything: IC-LoRAs that add, replace or remove things in an LTX video",
+      "author": {
+        "name": "NRDX",
+        "profile": "https://civitai.com/user/NRDX"
+      },
+      "published_at": "2026-04-18T06:15:56Z",
+      "summary": "Experimental IC-LoRAs for editing a clip from a prompt: add, replace, convert or remove objects. Versions exist for LTX 2.3 and LTX 2.5. The author says they are experimental: the prompt, the input or the parameters often need adjusting.",
+      "links": [
+        {
+          "kind": "lora",
+          "url": "https://civitai.com/models/2553102/editanything",
+          "is_primary": true,
+          "label": "IC-LoRA versions (Civitai)"
+        }
+      ],
+      "tags": {
+        "purpose": [
+          "diffusion-video",
+          "inpaint"
+        ],
+        "works_with": [
+          "family:ltx"
+        ]
+      }
+    },
+    {
+      "schema": "diffusion-love/community-work/1",
+      "id": "cw-ltx23-enhancers",
+      "kind": "lora",
+      "title": "LTX 2.3 Enhancers: Crisp and Soft detail LoRAs for text-to-video",
+      "author": {
+        "name": "vrgamedevgirl",
+        "profile": "https://civitai.com/user/vrgamedevgirl"
+      },
+      "published_at": "2026-04-11T23:32:46Z",
+      "summary": "Two detail LoRAs for LTX 2.3 text-to-video. Soft Enhance adds subtle detail, improves clarity and softens the strong contrast of LTX 2.3; Crisp Enhance is the sharper one. The page links the author's text-to-video workflow: swap in the LoRA and the prompt.",
+      "links": [
+        {
+          "kind": "lora",
+          "url": "https://civitai.com/models/2535622/ltx-23-enhancers",
+          "is_primary": true,
+          "label": "Crisp Enhance and Soft Enhance (Civitai)"
+        }
+      ],
+      "tags": {
+        "purpose": [
+          "diffusion-video",
+          "generate-video",
+          "style"
+        ],
+        "works_with": [
+          "family:ltx"
+        ]
+      }
+    },
+    {
+      "schema": "diffusion-love/community-work/1",
+      "id": "cw-ultrareal-klein9b",
+      "kind": "lora",
+      "title": "UltraReal LoRA for FLUX.2 Klein 9B: less AI smoothness, more skin and fabric texture",
+      "author": {
+        "name": "vizsumit",
+        "profile": "https://civitai.com/user/vizsumit"
+      },
+      "published_at": "2026-03-13T06:10:39Z",
+      "summary": "LoRAs that reduce the soft, smooth AI look and add texture and detail, best on close-ups and medium shots where skin and clothing texture matter. Versions KL9 V1 to V5 Pro are for FLUX.2 Klein 9B; the same page also has versions for Krea 2 and MOSS Image.",
+      "links": [
+        {
+          "kind": "lora",
+          "url": "https://civitai.com/models/2462105/ultrareal-moss-krea2-klein9b",
+          "is_primary": true,
+          "label": "LoRA versions (Civitai)"
+        },
+        {
+          "kind": "code",
+          "url": "https://github.com/vizsumit/comfyui-workflows",
+          "is_primary": false,
+          "label": "The author's ComfyUI workflows (GitHub)"
+        }
+      ],
+      "tags": {
+        "purpose": [
+          "diffusion-image",
+          "generate-image",
+          "style"
+        ],
+        "works_with": [
+          "family:ultra-real-klein-9b",
+          "family:flux2-klein"
+        ]
+      }
+    },
+    {
+      "schema": "diffusion-love/community-work/1",
+      "id": "cw-wan-vace-clip-joiner",
+      "kind": "workflow",
+      "title": "WAN VACE Clip Joiner: smooth transitions between video clips",
+      "author": {
+        "name": "__Bob__",
+        "profile": "https://civitai.com/user/__Bob__"
+      },
+      "published_at": "2025-10-13T10:40:21Z",
+      "summary": "A ComfyUI workflow that stitches a folder of clips together. At each seam Wan VACE generates new frames from the context on both sides, so motion flows across the cut, and noisy frames at clip edges are replaced. Newer versions add seamless looping. It works with Wan, LTX-2 and other video sources.",
+      "links": [
+        {
+          "kind": "workflow",
+          "url": "https://civitai.com/models/2024299/wan-vace-clip-joiner-smooth-ai-video-transitions-for-wan-ltx-2-and-any-other-video-source",
+          "is_primary": true,
+          "label": "Workflow versions (Civitai)"
+        }
+      ],
+      "tags": {
+        "purpose": [
+          "diffusion-video",
+          "generate-video",
+          "utility"
+        ],
+        "works_with": [
+          "family:wanvideo",
+          "comfyui"
+        ]
+      }
+    }
+  ]
+}

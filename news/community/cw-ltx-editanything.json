@@ -1,0 +1,29 @@
+{
+ "schema": "diffusion-love/community-work/1",
+ "id": "cw-ltx-editanything",
+ "kind": "lora",
+ "title": "EditAnything: IC-LoRAs that add, replace or remove things in an LTX video",
+ "author": {
+  "name": "NRDX",
+  "profile": "https://civitai.com/user/NRDX"
+ },
+ "published_at": "2026-04-18T06:15:56Z",
+ "summary": "Experimental IC-LoRAs for editing a clip from a prompt: add, replace, convert or remove objects. Versions exist for LTX 2.3 and LTX 2.5. The author says they are experimental: the prompt, the input or the parameters often need adjusting.",
+ "links": [
+  {
+   "kind": "lora",
+   "url": "https://civitai.com/models/2553102/editanything",
+   "is_primary": true,
+   "label": "IC-LoRA versions (Civitai)"
+  }
+ ],
+ "tags": {
+  "purpose": [
+   "diffusion-video",
+   "inpaint"
+  ],
+  "works_with": [
+   "family:ltx"
+  ]
+ }
+}

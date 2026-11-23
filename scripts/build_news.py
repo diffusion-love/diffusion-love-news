@@ -13,7 +13,7 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 from typing import Any, Iterable
-from urllib.parse import urlparse
+from urllib.parse import parse_qsl, urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,6 +31,7 @@ GENERATED_FILES = (
     "_organizations.json",
     "_aliases.json",
     "all.json",
+    "_community.json",
 )
 
 ID_RE = re.compile(r"^n-[0-9a-f]{10}$")
@@ -855,6 +856,119 @@ def validate_development_graph(records: list[dict[str, Any]]) -> list[str]:
     return errors
 
 
+# Community works (pipeline docs/community-works-links.md, format V2, owner choice 2026-11-22):
+# one record per file in news/community/<id>.json, published together in _community.json.
+COMMUNITY_SCHEMA = "diffusion-love/community-work/1"
+COMMUNITY_INDEX_SCHEMA = "diffusion-love/community-index/1"
+COMMUNITY_ID_RE = re.compile(r"^cw-[a-z0-9]+(?:-[a-z0-9]+)*$")
+COMMUNITY_FIELDS = ("schema", "id", "title", "kind", "author", "published_at", "summary", "links", "tags")
+# The same lists as the pipeline's ops/local/publish_checklist.py (COMMUNITY_KINDS, PUBLIC_TELEGRAM_POST,
+# TRACKING_KEYS): a work that lives only in Telegram links its public post; a private chat never.
+COMMUNITY_LINK_KINDS = {"community", "workflow", "custom-node", "lora"}
+PUBLIC_TELEGRAM_POST_RE = re.compile(r"^/(?!c/|\+|joinchat/|s/)[A-Za-z][A-Za-z0-9_]{3,}/\d+/?$")
+TELEGRAM_HOSTS = {"t.me", "telegram.me", "telegram.org"}
+TRACKING_KEYS = {"fbclid", "gclid", "mc_cid", "mc_eid", "ref", "ref_src", "r", "igshid", "si", "share_id"}
+WORKS_WITH_RE = re.compile(r"^[a-z0-9][a-z0-9:._-]*$")
+
+
+def community_link_errors(path: str, link: Any) -> list[str]:
+    if not isinstance(link, dict):
+        return [f"{path}: expected an object"]
+    errors: list[str] = []
+    validate_exact_keys(errors, path, link, ("kind", "url", "is_primary"), ("label",))
+    if not isinstance(link.get("kind"), str) or not SLUG_RE.fullmatch(link.get("kind") or ""):
+        errors.append(f"{path}.kind: expected a slug")
+    if not isinstance(link.get("is_primary"), bool):
+        errors.append(f"{path}.is_primary: expected a boolean")
+    validate_nullable_string(errors, f"{path}.label", link.get("label"))
+    url = link.get("url")
+    if not is_http_url(url, https_only=True):
+        return errors + [f"{path}.url: expected an https URL"]
+    parsed = urlparse(url)
+    host = (parsed.hostname or "").lower()
+    if host in TELEGRAM_HOSTS and not (
+        host == "t.me" and link.get("kind") in COMMUNITY_LINK_KINDS and PUBLIC_TELEGRAM_POST_RE.match(parsed.path)
+    ):
+        errors.append(f"{path}.url: Telegram is linked only as a public post on a community-work link")
+    tracking = [key for key, _ in parse_qsl(parsed.query, keep_blank_values=True)
+                if key.lower().startswith("utm_") or key.lower() in TRACKING_KEYS]
+    if tracking:
+        errors.append(f"{path}.url: tracking parameters {', '.join(tracking)}")
+    return errors
+
+
+def validate_community(work: Any, filename: str = "<memory>") -> list[str]:
+    if not isinstance(work, dict):
+        return ["community work must be a JSON object"]
+    errors: list[str] = []
+    validate_exact_keys(errors, "$", work, COMMUNITY_FIELDS)
+    if work.get("schema") != COMMUNITY_SCHEMA:
+        errors.append(f"$.schema: expected {COMMUNITY_SCHEMA}")
+    work_id = work.get("id")
+    if not isinstance(work_id, str) or not COMMUNITY_ID_RE.fullmatch(work_id):
+        errors.append("$.id: expected cw-<slug>")
+    elif filename != "<memory>" and filename != f"{work_id}.json":
+        errors.append(f"$.id: file must be named {work_id}.json")
+    for key in ("title", "kind", "summary"):
+        if not isinstance(work.get(key), str) or not work[key].strip():
+            errors.append(f"$.{key}: expected a non-empty string")
+    author = work.get("author")
+    if not isinstance(author, dict):
+        errors.append("$.author: expected an object")
+    else:
+        validate_exact_keys(errors, "$.author", author, ("name",), ("profile",))
+        if not isinstance(author.get("name"), str) or not author["name"].strip():
+            errors.append("$.author.name: expected the author's public name")
+        if author.get("profile") is not None and not is_http_url(author.get("profile"), https_only=True):
+            errors.append("$.author.profile: expected an https URL or null")
+    if not isinstance(work.get("published_at"), str):
+        errors.append("$.published_at: expected the work's own publication time")
+    else:
+        validate_timestamp(errors, "$.published_at", work["published_at"])
+    links = work.get("links")
+    if not isinstance(links, list) or not links:
+        errors.append("$.links: expected a non-empty array")
+    else:
+        for index, link in enumerate(links):
+            errors.extend(community_link_errors(f"$.links[{index}]", link))
+        if sum(1 for link in links if isinstance(link, dict) and link.get("is_primary") is True) != 1:
+            errors.append("$.links: exactly one link is the primary source")
+    tags = work.get("tags")
+    if not isinstance(tags, dict):
+        errors.append("$.tags: expected an object")
+    else:
+        validate_exact_keys(errors, "$.tags", tags, ("purpose", "works_with"))
+        for key in ("purpose", "works_with"):
+            validate_string_list(errors, f"$.tags.{key}", tags.get(key))
+            if isinstance(tags.get(key), list) and not tags[key]:
+                errors.append(f"$.tags.{key}: at least one entry is required")
+        for tag in tags.get("works_with") or []:
+            if isinstance(tag, str) and not WORKS_WITH_RE.fullmatch(tag):
+                errors.append(f"$.tags.works_with: {tag!r} is not a feed tag")
+    errors.extend(f"{finding}: private field" for finding in find_private_keys(work))
+    return errors
+
+
+def load_community(news_dir: Path) -> list[dict[str, Any]]:
+    """Every news/community/*.json record, newest first; no directory means no works yet."""
+    folder = news_dir / "community"
+    if not folder.is_dir():
+        return []
+    works: list[dict[str, Any]] = []
+    errors: list[str] = []
+    for path in sorted(folder.glob("*.json"), key=lambda candidate: candidate.name):
+        try:
+            work = load_json_text(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError, DuplicateKeyError) as exc:
+            errors.append(f"community/{path.name}: invalid JSON: {exc}")
+            continue
+        errors.extend(f"community/{path.name}: {error}" for error in validate_community(work, path.name))
+        works.append(work)
+    if errors:
+        raise ContractError("\n".join(errors))
+    return sorted(works, key=lambda work: (work["published_at"], work["id"]), reverse=True)
+
+
 def load_items(news_dir: Path) -> list[dict[str, Any]]:
     item_dir = news_dir / "items"
     if not item_dir.is_dir():
@@ -1285,7 +1399,10 @@ def deterministic_timestamp(records: list[dict[str, Any]]) -> str:
     return max(posted_at(item) for item in records) + "T00:00:00Z"
 
 
-def build_outputs(records: list[dict[str, Any]]) -> dict[str, bytes]:
+def build_outputs(
+    records: list[dict[str, Any]], community: list[dict[str, Any]] | None = None
+) -> dict[str, bytes]:
+    community = community or []
     ordered = sorted(records, key=chronological_key, reverse=True)
     generated_at = deterministic_timestamp(records)
     projections = [projection(item) for item in ordered]
@@ -1335,6 +1452,7 @@ def build_outputs(records: list[dict[str, Any]]) -> dict[str, bytes]:
         "years": len(years),
         "projects": len(projects),
         "organizations": len(organizations),
+        "community": len(community),
     }
     values: dict[str, Any] = {
         "_meta.json": {
@@ -1350,6 +1468,11 @@ def build_outputs(records: list[dict[str, Any]]) -> dict[str, bytes]:
         "_projects.json": projects,
         "_organizations.json": organizations,
         "_aliases.json": aliases,
+        "_community.json": {
+            "schema": COMMUNITY_INDEX_SCHEMA,
+            "total": len(community),
+            "works": community,
+        },
         "all.json": {
             "schema_version": CURRENT_SCHEMA_VERSION,
             "generated_at": generated_at,
@@ -1392,10 +1515,11 @@ def atomic_write(path: Path, content: bytes) -> None:
 def run(news_dir: Path, check: bool, validate_only: bool) -> int:
     check_schema_document(news_dir)
     records = load_items(news_dir)
+    community = load_community(news_dir)
     if validate_only:
-        print(f"validated {len(records)} canonical items")
+        print(f"validated {len(records)} canonical items and {len(community)} community works")
         return 0
-    outputs = build_outputs(records)
+    outputs = build_outputs(records, community)
     if check:
         mismatches = [
             name

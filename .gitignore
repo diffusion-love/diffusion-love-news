@@ -26,6 +26,7 @@ tests/*
 !tests/test_news_contract.py
 !tests/test_jsdelivr_purge.py
 !tests/test_translate_items.py
+!tests/test_community_works.py
 .github/*
 !.github/workflows/
 .github/workflows/*
