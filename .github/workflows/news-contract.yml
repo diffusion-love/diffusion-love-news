@@ -5,15 +5,26 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  schedule:
+    # Daily live check of everything published or changed in the last three days: a missing
+    # translation or a page that went stale after the push run is caught here.
+    - cron: "17 6 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write  # the validate job commits rebuilt indexes on main
 
 jobs:
   validate:
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
     runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          # scripts/build_published.py reads the publish and change days from main's history.
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -23,13 +34,26 @@ jobs:
       # items and would be stale until rebuilt. Rebuild here - committed on main, left in
       # the runner's tree on a pull request - and only then check.
       - name: Rebuild the derived indexes
-        run: python scripts/build_news.py
+        run: |
+          python scripts/build_news.py
+          python scripts/build_published.py
+
+      # Publish-path contract (pipeline repo docs/publish-contract.md), run by Crossweft's
+      # validator runner: nothing an item is connected to may be lost by this change.
+      - name: Install Crossweft (pinned, v0.7.0)
+        run: pip install "crossweft @ git+https://github.com/AnastasiyaW/crossweft.git@4d4328f74e9d9263b879e7a1aba15fd4220721d8"
+      - name: Publish paths
+        env:
+          PUBLISH_CHECK_BASE: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+        run: python -m crossweft validators
 
       - name: Commit the rebuilt indexes (main only)
+        id: commit
         if: github.event_name == 'push'
         run: |
           if git diff --quiet -- news; then
             echo "indexes already current"
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "diffusion-love-news"
@@ -38,8 +62,35 @@ jobs:
           git commit -qm "indexes: rebuild after approval"
           # This push starts one more run; that run finds no drift and commits nothing.
           git push origin HEAD:main
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - run: python scripts/build_news.py --check
+      - run: |
+          python scripts/build_news.py --check
+          python scripts/build_published.py --check
+
+  # After the push: the live site serves this commit, and every touched item is whole there
+  # (pages on every language, head tags, sitemap lastmod, Atom feeds, MCP, knowledge base).
+  live-check:
+    needs: [validate]
+    # validate is skipped on the daily schedule; always() keeps this job then, the result test
+    # keeps it off a red validate.
+    if: always() && github.event_name != 'pull_request' && (needs.validate.result == 'success' || needs.validate.result == 'skipped')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ needs.validate.outputs.sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Live publish paths
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python scripts/publish_paths.py live --sha "$(git rev-parse HEAD)" --base "${{ github.event.before }}" --wait-min 30
+          else
+            python scripts/publish_paths.py live --recent-days 3
+          fi
 
   purge-jsdelivr:
     if: github.event_name == 'push'

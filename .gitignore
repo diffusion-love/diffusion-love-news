@@ -15,6 +15,11 @@
 !/scripts/
 !/tests/
 !/.github/
+# Publish-path check, run by Crossweft (python -m crossweft validators).
+!/crossweft.json
+!/checks/
+checks/*
+!checks/validate_publish_paths.py
 
 # Public deterministic contract tooling only. Raw pipeline inputs and local
 # approval/session artifacts remain outside this repository.
@@ -22,7 +27,10 @@ scripts/*
 !scripts/build_news.py
 !scripts/purge_jsdelivr.py
 !scripts/translate_items.py
+!scripts/build_published.py
+!scripts/publish_paths.py
 tests/*
+!tests/test_build_published.py
 !tests/test_news_contract.py
 !tests/test_jsdelivr_purge.py
 !tests/test_translate_items.py
