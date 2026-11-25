@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-6c5e22fee1",
  "entry_type": "news",
  "category": "misc",
@@ -92,5 +92,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "ideogram-4",
+  "thread_display": "Ideogram 4",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Ideogram 4 development",
+  "article_url": "https://happyin.space/projects/ideogram-4/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/809dcad69669a014aae0d53beeba8eaf53bfbc3c/docs/projects/ideogram-4.md",
+  "agent_context_url": "https://happyin.space/projects/ideogram-4/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-14",
+  "title": "Ideogram v4 Instant and Fast variants were recorded",
+  "version": null,
+  "summary": "On 2026-07-14, the dated link set added fal-hosted Ideogram v4 variants labelled Instant and Fast. This is a material development step because it identifies distinct variants within the Ideogram 4 line. The links alone do not establish their availability, technical differences, or exact relationship to the June distributions."
  }
 }

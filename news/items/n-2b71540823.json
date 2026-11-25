@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-2b71540823",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "wan",
+  "thread_display": "WAN",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "WAN video generation",
+  "article_url": "https://happyin.space/projects/wan/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a71fc7bd2e90d467a0b05e5d47250f5ace245f98/docs/projects/wan.md",
+  "agent_context_url": "https://happyin.space/projects/wan/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-31",
+  "title": "WAN exposed a realtime playground route",
+  "version": null,
+  "summary": "On 2026-07-31, the WAN Create site included a lab playground route labeled realtime. This is a material interface-development step because it indicates an interactive realtime entry point for WAN, distinct from a model-download or batch-workflow link."
  }
 }

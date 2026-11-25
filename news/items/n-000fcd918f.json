@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-000fcd918f",
  "entry_type": "news",
  "category": "misc",
@@ -108,5 +108,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "sensenova",
+  "thread_display": "SenseNova",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "SenseNova",
+  "article_url": "https://happyin.space/projects/sensenova/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e5a53fcecb448b8721a0f27388b1033a78e5a0d8/docs/projects/sensenova.md",
+  "agent_context_url": "https://happyin.space/projects/sensenova/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-01",
+  "title": "SenseNova linked U1 MoT preview and infographic artifacts on Hugging Face",
+  "version": null,
+  "summary": "On 2026-08-01, SenseNova’s development line was associated with Hugging Face pages for SenseNova-U1.5-8B-MoT-Preview and SenseNova-U1-8B-MoT-Infographic-V3, plus corresponding Spaces. The dated links indicate a meaningful model-and-demo milestone, while not establishing the artifacts’ capabilities, release status, or technical changes."
  }
 }

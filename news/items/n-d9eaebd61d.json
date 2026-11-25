@@ -1,5 +1,5 @@
 {
- "schema_version": "1.2",
+ "schema_version": "1.4",
  "id": "n-d9eaebd61d",
  "entry_type": "project",
  "category": "diffusion-image",
@@ -124,5 +124,25 @@
    "enrich": "gemini-3-flash-preview"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "wan",
+  "thread_display": "WAN",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "WAN video generation",
+  "article_url": "https://happyin.space/projects/wan/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a71fc7bd2e90d467a0b05e5d47250f5ace245f98/docs/projects/wan.md",
+  "agent_context_url": "https://happyin.space/projects/wan/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-04-01",
+  "title": "Wan 2.7-Image (Pro)",
+  "version": null,
+  "summary": "A professional image generation and editing tool from Alibaba's Tongyi Lab featuring 'Thinking Mode' for advanced semantic reasoning and multi-reference face control. It supports 4K resolution output and precise hex-code color management for high-end design workflows."
  }
 }

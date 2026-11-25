@@ -1,5 +1,5 @@
 {
- "schema_version": "1.2",
+ "schema_version": "1.4",
  "id": "n-d5e685b3b1",
  "entry_type": "project",
  "category": "audio-music",
@@ -128,5 +128,25 @@
    "enrich": "gemini-3-flash-preview"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gemini",
+  "thread_display": "Gemini",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Gemini development",
+  "article_url": "https://happyin.space/projects/gemini/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/968dfadde119fcbfcf178c148cc53e4c20c2f9fd/docs/projects/gemini.md",
+  "agent_context_url": "https://happyin.space/projects/gemini/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-04-16",
+  "title": "Gemini 3.1 Flash TTS High-Precision Speech Control",
+  "version": null,
+  "summary": "An advanced text-to-speech model from Google that enables 'directed performance' through natural language prompts and inline emotion tags. It supports high-fidelity, low-latency audio generation with native multi-speaker dialogue capabilities for interactive applications."
  }
 }

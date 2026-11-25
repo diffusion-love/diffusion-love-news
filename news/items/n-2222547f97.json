@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-2222547f97",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "ltx-video",
+  "thread_display": "Ltx Video",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "LTX-2.3 development",
+  "article_url": "https://happyin.space/projects/ltx-video/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d63c1bbf55636ac92b683a4ac124c6495ecd3bee/docs/projects/ltx-video.md",
+  "agent_context_url": "https://happyin.space/projects/ltx-video/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-03-05",
+  "title": "LTX-2.3 was presented with documentation and a text-to-video playground",
+  "version": null,
+  "summary": "On 2026-03-05, LTX-2.3 was linked with its model page, quickstart documentation, and a text-to-video playground. This marks a public availability and onboarding step for the LTX-2.3 line, covering both reference material and an interactive entry point."
  }
 }
