@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-b636bdc989",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "starchild-1",
+  "thread_display": "Starchild 1",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Starchild-1",
+  "article_url": "https://happyin.space/projects/starchild-1/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8472034d2e9d34c878580a7496f208a7d1ced273/docs/projects/starchild-1.md",
+  "agent_context_url": "https://happyin.space/projects/starchild-1/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-19",
+  "title": "Initial public announcement of Starchild-1",
+  "version": null,
+  "summary": "On 2026-05-19, a public link associated with Starchild-1 pointed to an Odyssey article identified by its URL as an introduction to the project. This is proposed as a new history event because it appears to mark the project's initial public introduction. The sealed evidence supplies no technical, availability, or performance details, so none are asserted."
  }
 }

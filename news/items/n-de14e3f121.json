@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-de14e3f121",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gabi-robot",
+  "thread_display": "Gabi Robot",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Gabi",
+  "article_url": "https://happyin.space/projects/gabi-robot/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d95c2fb5863f900d35e4d16091bda643828481c0/docs/projects/gabi-robot.md",
+  "agent_context_url": "https://happyin.space/projects/gabi-robot/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-09",
+  "title": "Gabi appeared in a Buddhist ordination ceremony in South Korea",
+  "version": null,
+  "summary": "On 2026-05-09, a linked report indicated that the humanoid robot Gabi appeared in a Buddhist ordination ceremony in South Korea. This is proposed as a public-facing cultural milestone in Gabi's history, distinct from evidence of technical capability or autonomy."
  }
 }

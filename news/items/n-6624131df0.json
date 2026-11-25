@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-6624131df0",
  "entry_type": "news",
  "category": "misc",
@@ -100,5 +100,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "causal-forcing",
+  "thread_display": "Causal Forcing++",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Causal Forcing++",
+  "article_url": "https://happyin.space/projects/causal-forcing/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/cc9cb2173ac8a7147f935c1c6d032c13805bb514/docs/projects/causal-forcing.md",
+  "agent_context_url": "https://happyin.space/projects/causal-forcing/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-16",
+  "title": "Causal Forcing++ public project resources were recorded",
+  "version": null,
+  "summary": "On 2026-05-16, the Causal Forcing++ development line was recorded with links to a project site, source repository, and Hugging Face repository. The supplied links establish a public project-resource milestone, but do not establish a specific version, technical result, or usage workflow."
  }
 }

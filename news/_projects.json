@@ -7501,7 +7501,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-29",
         "title": "Bonsai Image 4B was surfaced through Hugging Face resources",
         "summary": "On 2026-05-29, a dated record pointed readers to a Hugging Face collection for Bonsai Image and to a WebGPU Space associated with the project. This is treated as a material distribution and evaluation-access event because it identifies concrete public project resources. The links alone do not establish whether a model release, update, or benchmark occurred on that date.",
@@ -7530,7 +7530,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "bonsai-image",
+        "display": "Bonsai Image",
+        "first_seen": "2026-05-29",
+        "last_seen": "2026-05-29",
+        "latest_news_id": "n-7254e49ce8",
+        "news_ids": [
+          "n-7254e49ce8"
+        ]
+      }
+    ]
   },
   "boogu-image": {
     "family_slug": "boogu-image",
@@ -10312,7 +10324,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-16",
         "title": "Causal Forcing++ public project resources were recorded",
         "summary": "On 2026-05-16, the Causal Forcing++ development line was recorded with links to a project site, source repository, and Hugging Face repository. The supplied links establish a public project-resource milestone, but do not establish a specific version, technical result, or usage workflow.",
@@ -10342,7 +10354,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "causal-forcing",
+        "display": "Causal Forcing++",
+        "first_seen": "2026-05-16",
+        "last_seen": "2026-05-16",
+        "latest_news_id": "n-6624131df0",
+        "news_ids": [
+          "n-6624131df0"
+        ]
+      }
+    ]
   },
   "causalcine": {
     "family_slug": "causalcine",
@@ -17322,7 +17346,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-14",
         "title": "ComfyUI Skill Public GitHub repository referenced",
         "summary": "On 2026-05-14, the record recorded a link to the GitHub repository for ComfyUI Skill Public. The available evidence establishes the repository reference, but does not establish a specific release, feature, or code change.",
@@ -17351,7 +17375,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "comfyui-skill-public",
+        "display": "comfyui skill public",
+        "first_seen": "2026-05-14",
+        "last_seen": "2026-05-14",
+        "latest_news_id": "n-7aa1f96c36",
+        "news_ids": [
+          "n-7aa1f96c36"
+        ]
+      }
+    ]
   },
   "comfyui-sol-attn": {
     "family_slug": "comfyui-sol-attn",
@@ -30129,7 +30165,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-09",
         "title": "Gabi appeared in a Buddhist ordination ceremony in South Korea",
         "summary": "On 2026-05-09, a linked report indicated that the humanoid robot Gabi appeared in a Buddhist ordination ceremony in South Korea. This is proposed as a public-facing cultural milestone in Gabi's history, distinct from evidence of technical capability or autonomy.",
@@ -30159,7 +30195,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "gabi-robot",
+        "display": "Gabi Robot",
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "latest_news_id": "n-de14e3f121",
+        "news_ids": [
+          "n-de14e3f121"
+        ]
+      }
+    ]
   },
   "galaxyace-lora": {
     "family_slug": "galaxyace-lora",
@@ -31867,7 +31915,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-15",
         "title": "Google published an update on Gemini Intelligence for Android",
         "summary": "On 2026-05-15, Google published an official Android-platform update concerning Gemini Intelligence for Android. From the dated official link alone, this is a public development milestone for the project; the available evidence does not establish its specific capabilities, rollout scope, or availability.",
@@ -31897,7 +31945,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "gemini-intelligence-android",
+        "display": "Gemini Intelligence Android",
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "latest_news_id": "n-97cedb7ec2",
+        "news_ids": [
+          "n-97cedb7ec2"
+        ]
+      }
+    ]
   },
   "gemma": {
     "family_slug": "gemma",
@@ -45191,7 +45251,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-13",
         "title": "Jina AI publicized jina-embeddings-v5-omni",
         "summary": "On 2026-05-13, linked public materials identified jina-embeddings-v5-omni as a Jina AI embedding-model development centered on indexing multiple media types in one index. The linked Elastic article, Hugging Face collection, ModelScope organization page, and WebGPU demo indicate public documentation and availability surfaces associated with the model at that time. Exact launch claims and technical specifications require verification before publication.",
@@ -45219,7 +45279,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "jina-embeddings-v5-omni",
+        "display": "jina embeddings v5 omni",
+        "first_seen": "2026-05-13",
+        "last_seen": "2026-05-13",
+        "latest_news_id": "n-1651c3d215",
+        "news_ids": [
+          "n-1651c3d215"
+        ]
+      }
+    ]
   },
   "joy-ltx-2-5-x-z-image": {
     "family_slug": "joy-ltx-2-5-x-z-image",
@@ -47665,7 +47737,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-13",
         "title": "Krea 2 entered the documented development line",
         "summary": "On 2026-05-13, the dated Krea record linked to Krea's official Krea 2 page. This supports recording Krea 2 as a distinct named stage in Krea's product development, without inferring its technical claims or release details.",
@@ -47696,7 +47768,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "krea",
+        "display": "Krea",
+        "first_seen": "2026-05-13",
+        "last_seen": "2026-05-13",
+        "latest_news_id": "n-390aed02e2",
+        "news_ids": [
+          "n-390aed02e2"
+        ]
+      }
+    ]
   },
   "krea-2": {
     "family_slug": "krea-2",
@@ -51877,7 +51961,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-29",
         "title": "NVIDIA published LocateAnything resources and a LocateAnything-3B model page",
         "summary": "On 2026-05-29, NVIDIA's LocateAnything research page and the linked NVIDIA LocateAnything-3B Hugging Face model page were shared. This marks a public project-and-model availability step in LocateAnything's development history.",
@@ -51906,7 +51990,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "locateanything",
+        "display": "LocateAnything",
+        "first_seen": "2026-05-29",
+        "last_seen": "2026-05-29",
+        "latest_news_id": "n-b79dee5163",
+        "news_ids": [
+          "n-b79dee5163"
+        ]
+      }
+    ]
   },
   "loger": {
     "family_slug": "loger",
@@ -57803,7 +57899,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-21",
         "title": "Marlin-2B model page and companion VLM site were shared",
         "summary": "On 2026-05-21, the Marlin-2B development line shared a Hugging Face model page and a companion VLM website. This is treated as a material public-availability step because it connects the project to public model and usage resources. The dated links alone do not establish the exact release version, capabilities, license, or whether either resource first appeared on that date.",
@@ -57832,7 +57928,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "marlin-2b",
+        "display": "Marlin 2B",
+        "first_seen": "2026-05-21",
+        "last_seen": "2026-05-21",
+        "latest_news_id": "n-05fe00f082",
+        "news_ids": [
+          "n-05fe00f082"
+        ]
+      }
+    ]
   },
   "maskvidexperiments": {
     "family_slug": "maskvidexperiments",
@@ -73870,7 +73978,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-14",
         "title": "Perceptron Mk1 public introduction",
         "summary": "On 2026-05-14, Perceptron Mk1 was presented through a public introduction page. The dated record also links to a demo, documentation, and an OpenRouter model page, making this a material public development milestone. These links alone do not establish the model's capabilities, technical design, or access terms.",
@@ -73900,7 +74008,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "perceptron-mk1",
+        "display": "Perceptron Mk1",
+        "first_seen": "2026-05-14",
+        "last_seen": "2026-05-14",
+        "latest_news_id": "n-f3982b18eb",
+        "news_ids": [
+          "n-f3982b18eb"
+        ]
+      }
+    ]
   },
   "perplexity": {
     "family_slug": "perplexity",
@@ -74972,7 +75092,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-25",
         "title": "PiD research, code, and model resources were made publicly available",
         "summary": "On 2026-05-25, PiD was represented by linked research, source-code, and Hugging Face model resources. This is a material public-development milestone because the dated link set connects the project to usable technical entry points, although the supplied evidence does not establish a precise version or capabilities.",
@@ -75001,7 +75121,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "pid",
+        "display": "PiD",
+        "first_seen": "2026-05-25",
+        "last_seen": "2026-05-25",
+        "latest_news_id": "n-4176893fdd",
+        "news_ids": [
+          "n-4176893fdd"
+        ]
+      }
+    ]
   },
   "pika": {
     "family_slug": "pika",
@@ -82365,7 +82497,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-18",
         "title": "Qwopus3.5-9B-Coder GGUF distribution recorded on Hugging Face",
         "summary": "On 2026-05-18, the record recorded a Hugging Face repository for a GGUF distribution of Qwopus3.5-9B-Coder. This is a material distribution step because it identifies an inference-oriented model artifact for the project. The supplied link alone does not establish the artifact's exact quantization, provenance, or relationship to an upstream release.",
@@ -82395,7 +82527,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "qwopus3-5-9b-coder",
+        "display": "Qwopus3.5 9B Coder",
+        "first_seen": "2026-05-18",
+        "last_seen": "2026-05-18",
+        "latest_news_id": "n-2540f877eb",
+        "news_ids": [
+          "n-2540f877eb"
+        ]
+      }
+    ]
   },
   "qwopus3-6-27b-coder-mtp": {
     "family_slug": "qwopus3-6-27b-coder-mtp",
@@ -85928,7 +86072,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-23",
         "title": "Runway introduced Aleph 2.0",
         "summary": "On 2026-05-23, a dated first-party Runway product link identified Aleph 2.0 as a development milestone in the Aleph line. The available evidence supports recording the product reference, but does not establish specific capabilities, availability terms, pricing, or technical changes.",
@@ -85958,7 +86102,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "runway-aleph-2",
+        "display": "Runway Aleph 2",
+        "first_seen": "2026-05-23",
+        "last_seen": "2026-05-23",
+        "latest_news_id": "n-f52983ecb7",
+        "news_ids": [
+          "n-f52983ecb7"
+        ]
+      }
+    ]
   },
   "rvr": {
     "family_slug": "rvr",
@@ -94278,7 +94434,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-19",
         "title": "Initial public announcement of Starchild-1",
         "summary": "On 2026-05-19, a public link associated with Starchild-1 pointed to an Odyssey article identified by its URL as an introduction to the project. This is proposed as a new history event because it appears to mark the project's initial public introduction. The sealed evidence supplies no technical, availability, or performance details, so none are asserted.",
@@ -94308,7 +94464,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "starchild-1",
+        "display": "Starchild 1",
+        "first_seen": "2026-05-19",
+        "last_seen": "2026-05-19",
+        "latest_news_id": "n-b636bdc989",
+        "news_ids": [
+          "n-b636bdc989"
+        ]
+      }
+    ]
   },
   "steprefine": {
     "family_slug": "steprefine",
@@ -94795,7 +94963,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-14",
         "title": "StreamFM project resources were linked",
         "summary": "On 2026-05-14, StreamFM was linked through an examples site, a GitHub source repository, and a Google Drive folder. Together, these references establish a public project-resource bundle for the line, although they do not establish a versioned release or the contents of the supplementary materials.",
@@ -94825,7 +94993,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "stream-fm",
+        "display": "Stream.FM",
+        "first_seen": "2026-05-14",
+        "last_seen": "2026-05-14",
+        "latest_news_id": "n-51a9d6c3d6",
+        "news_ids": [
+          "n-51a9d6c3d6"
+        ]
+      }
+    ]
   },
   "stripe": {
     "family_slug": "stripe",
@@ -95687,7 +95867,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-18",
         "title": "Supertonic public repository reference",
         "summary": "On 2026-05-18, the Supertonic thread linked to the project's public GitHub repository alongside a source reference. This establishes a dated public reference point for the project, without asserting a specific release, feature, or implementation change.",
@@ -95716,7 +95896,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "supertonic",
+        "display": "Supertonic",
+        "first_seen": "2026-05-18",
+        "last_seen": "2026-05-18",
+        "latest_news_id": "n-27ea6ab4ef",
+        "news_ids": [
+          "n-27ea6ab4ef"
+        ]
+      }
+    ]
   },
   "superwhisper": {
     "family_slug": "superwhisper",
@@ -101344,7 +101536,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-12",
         "title": "iXBT News reported on the Unitree GD01",
         "summary": "On 2026-05-12, iXBT News published an item focused on the Unitree GD01. Its supplied URL includes a 650 figure, but the available evidence does not establish what that figure represents; this is therefore a provisional development-history event pending source review.",
@@ -101374,7 +101566,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "unitree",
+        "display": "Unitree",
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "latest_news_id": "n-e584d1d2e9",
+        "news_ids": [
+          "n-e584d1d2e9"
+        ]
+      }
+    ]
   },
   "unity-ai": {
     "family_slug": "unity-ai",
@@ -104617,7 +104821,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-15",
         "title": "Public introduction of the Violin translation project",
         "summary": "On 2026-05-15, Violin was publicly associated with a Together AI article, an open GitHub repository, and its project website. The dated links indicate a public introduction of an open-source, translation-oriented project and establish its initial public references.",
@@ -104646,7 +104850,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "violin",
+        "display": "Violin",
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "latest_news_id": "n-3347fb1328",
+        "news_ids": [
+          "n-3347fb1328"
+        ]
+      }
+    ]
   },
   "vista4d": {
     "family_slug": "vista4d",
@@ -107467,7 +107683,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-05-15",
         "title": "WhatModels public website documented",
         "summary": "On 2026-05-15, a message in the WhatModels thread linked to the project's public website. This establishes a dated public reference point for WhatModels, but the available evidence does not identify a launch, release, or feature change.",
@@ -107496,7 +107712,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "whatmodels",
+        "display": "WhatModels",
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "latest_news_id": "n-dd9a3a9b07",
+        "news_ids": [
+          "n-dd9a3a9b07"
+        ]
+      }
+    ]
   },
   "whisper-podlodka-turbo": {
     "family_slug": "whisper-podlodka-turbo",

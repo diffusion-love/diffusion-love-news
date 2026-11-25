@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-dd9a3a9b07",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "whatmodels",
+  "thread_display": "WhatModels",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "WhatModels",
+  "article_url": "https://happyin.space/projects/whatmodels/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/3acddddde040ba4c1dd3712b02b0472a59a2c97c/docs/projects/whatmodels.md",
+  "agent_context_url": "https://happyin.space/projects/whatmodels/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-15",
+  "title": "WhatModels public website documented",
+  "version": null,
+  "summary": "On 2026-05-15, a message in the WhatModels thread linked to the project's public website. This establishes a dated public reference point for WhatModels, but the available evidence does not identify a launch, release, or feature change."
  }
 }
