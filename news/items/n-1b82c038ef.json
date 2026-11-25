@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-1b82c038ef",
  "entry_type": "news",
  "category": "misc",
@@ -109,5 +109,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "wan-dancer-development",
+  "thread_display": "Wan Dancer",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Wan-Dancer",
+  "article_url": "https://happyin.space/projects/wan-dancer/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/626bf9afb4c1b3a714d7f54ba79f67753f1bda42/docs/projects/wan-dancer.md",
+  "agent_context_url": "https://happyin.space/projects/wan-dancer/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-14",
+  "title": "Wan-Dancer project resources were publicly linked",
+  "version": null,
+  "summary": "On 2026-07-14, a dated record linked the Wan-Dancer project website, source repository, Hugging Face model page, and ModelScope studio. This is a material public-reference and distribution milestone for the project. The sealed evidence does not establish technical claims, version details, or the original announcement wording."
  }
 }

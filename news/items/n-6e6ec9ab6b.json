@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-6e6ec9ab6b",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "microzoom-development",
+  "thread_display": "MicroZoom",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MicroZoom",
+  "article_url": "https://happyin.space/projects/microzoom/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/50dbeaebc5c2317374dbfa2a79bab77a025c8ab4/docs/projects/microzoom.md",
+  "agent_context_url": "https://happyin.space/projects/microzoom/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-28",
+  "title": "MicroZoom public project references were recorded",
+  "version": null,
+  "summary": "On 2026-07-28, a MicroZoom entry linked to a project website and a GitHub Pages repository. This records a public reference point for the project, without asserting a release or a specific product change."
  }
 }

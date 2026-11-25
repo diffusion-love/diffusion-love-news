@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-253f50a66d",
  "entry_type": "news",
  "category": "misc",
@@ -100,5 +100,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "thestageai-elastic-wan22-i2v-development",
+  "thread_display": "Thestageai Elastic Wan22 I2V",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Elastic-Wan2.2-I2V",
+  "article_url": "https://happyin.space/projects/thestageai-elastic-wan22-i2v/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/b86939792bb1d8042f9864f426414bd73a69cc1e/docs/projects/thestageai-elastic-wan22-i2v.md",
+  "agent_context_url": "https://happyin.space/projects/thestageai-elastic-wan22-i2v/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-21",
+  "title": "TheStageAI published Elastic-Wan2.2-I2V project materials",
+  "version": null,
+  "summary": "On 2026-07-21, TheStageAI published a project update linking to an Elastic-Wan2.2-I2V model repository, a related blog article, and the ComfyUI-Qlip repository. The linked materials indicate a development milestone for the project's image-to-video workflow. The exact model changes, configuration, and performance claims cannot be confirmed from the sealed link metadata alone."
  }
 }

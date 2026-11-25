@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-3450949e78",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "omniroute-development",
+  "thread_display": "OmniRoute",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "OmniRoute",
+  "article_url": "https://happyin.space/projects/omniroute/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/63355789d09ac735a40a837c4c459ebc6192825a/docs/projects/omniroute.md",
+  "agent_context_url": "https://happyin.space/projects/omniroute/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-25",
+  "title": "OmniRoute GitHub repository reference",
+  "version": null,
+  "summary": "On 2026-07-25, the OmniRoute development line referenced the project's GitHub repository. The sealed evidence establishes the repository link, but does not establish a specific release, feature, commit, or deployment milestone."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-a0d5299653",
  "entry_type": "news",
  "category": "misc",
@@ -108,5 +108,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "krea-2-outpaint-development",
+  "thread_display": "Krea 2 Outpaint",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Krea 2 Outpaint",
+  "article_url": "https://happyin.space/projects/krea-2-outpaint/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1932d9931c4a1acd11b1e1c2309bb365309af7a3/docs/projects/krea-2-outpaint.md",
+  "agent_context_url": "https://happyin.space/projects/krea-2-outpaint/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-19",
+  "title": "Krea 2 Outpaint resources were documented across Hugging Face and ComfyUI",
+  "version": null,
+  "summary": "On 2026-07-19, a dated update linked a Hugging Face model repository, two Hugging Face Spaces, and a ComfyUI integration for Krea 2 Outpaint. The linked resources establish a practical discovery, trial, and integration path for the project, while the available evidence does not establish their exact release status or relationship."
  }
 }

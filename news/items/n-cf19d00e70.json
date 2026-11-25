@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-cf19d00e70",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "researchstudio-development",
+  "thread_display": "ResearchStudio",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "ResearchStudio",
+  "article_url": "https://happyin.space/projects/researchstudio/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/09749cddb2f26ae10d46bb57d66e791815ee6b4d/docs/projects/researchstudio.md",
+  "agent_context_url": "https://happyin.space/projects/researchstudio/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-07",
+  "title": "ResearchStudio public project references recorded",
+  "version": null,
+  "summary": "On 2026-07-07, the ResearchStudio development line recorded public references to the Microsoft ResearchStudio project site and its GitHub repository. These dated references establish a public project presence, but do not establish a release version, feature set, or launch status."
  }
 }

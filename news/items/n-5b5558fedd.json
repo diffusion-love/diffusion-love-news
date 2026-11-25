@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-5b5558fedd",
  "entry_type": "news",
  "category": "misc",
@@ -108,5 +108,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "thinkingcap-qwen3-6-27b-development",
+  "thread_display": "ThinkingCap Qwen3.6 27B",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "ThinkingCap-Qwen3.6-27B",
+  "article_url": "https://happyin.space/projects/thinkingcap-qwen3-6-27b/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/3536c86aa27413d8c41ed05a3ba0a788af9076ad/docs/projects/thinkingcap-qwen3-6-27b.md",
+  "agent_context_url": "https://happyin.space/projects/thinkingcap-qwen3-6-27b/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-08",
+  "title": "ThinkingCap-Qwen3.6-27B repositories and deployment variants were linked",
+  "version": null,
+  "summary": "On 2026-07-08, public repositories for ThinkingCap-Qwen3.6-27B and several alternate deployment formats were linked. The linked formats included GGUF, NVFP4, and an int4 AutoRound variant, marking public availability of a model line and associated distribution options."
  }
 }

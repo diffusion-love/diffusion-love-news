@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-cb62ae01fa",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "photoquilt-development",
+  "thread_display": "PhotoQuilt",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "PhotoQuilt",
+  "article_url": "https://happyin.space/projects/photoquilt/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/35a0eae132a90aea3f05c592b3362f0a0553c6ba/docs/projects/photoquilt.md",
+  "agent_context_url": "https://happyin.space/projects/photoquilt/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-06",
+  "title": "PhotoQuilt project resources were made available",
+  "version": null,
+  "summary": "On 2026-07-06, PhotoQuilt was linked through its project website, source-code repository, and hosted Hugging Face Space. This constitutes a material public development step because it gave practitioners distinct places to inspect, obtain, and try the project."
  }
 }

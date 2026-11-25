@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-f241b400a1",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "router-development",
+  "thread_display": "Router",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Cursor Router",
+  "article_url": "https://happyin.space/projects/router/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/89b7011e44d402614462a0685ae61dfe6c49460b/docs/projects/router.md",
+  "agent_context_url": "https://happyin.space/projects/router/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-25",
+  "title": "Cursor published a public update associated with Router",
+  "version": null,
+  "summary": "On 2026-07-25, Cursor published a public blog article associated with Router. Its existence is a material public milestone for the Cursor Router development line, but the sealed evidence does not establish the article's detailed functionality, rollout status, or user impact."
  }
 }

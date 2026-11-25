@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-86023c7979",
  "entry_type": "news",
  "category": "misc",
@@ -108,5 +108,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "sam2matting-development",
+  "thread_display": "SAM2Matting",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "SAM2Matting",
+  "article_url": "https://happyin.space/projects/sam2matting/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e73d38fdd3b9910d5309c292f5209129815f93df/docs/projects/sam2matting.md",
+  "agent_context_url": "https://happyin.space/projects/sam2matting/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-15",
+  "title": "SAM2Matting public project resources became available",
+  "version": null,
+  "summary": "On 2026-07-15, SAM2Matting was presented through linked official project, source-code, model-hosting, and interactive-demo resources. This marks a material public-access step for the project because readers could locate the implementation and evaluate it through the linked resources."
  }
 }

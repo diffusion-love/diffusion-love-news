@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-ec3dda9c78",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "homie-development",
+  "thread_display": "HOMIE",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "HOMIE",
+  "article_url": "https://happyin.space/projects/homie/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/cab285914ce88ea3c72d1b7ad0533dd7c20d2b78/docs/projects/homie.md",
+  "agent_context_url": "https://happyin.space/projects/homie/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-22",
+  "title": "HOMIE public project resources were recorded",
+  "version": null,
+  "summary": "On 2026-07-22, the HOMIE development line was recorded with links to its project website, GitHub repository, and a Hugging Face model page named homie-r2v-wan2.1. This is a material public project milestone because it connects the project’s public documentation, source, and model distribution. The record does not establish the precise release claims, version details, capabilities, or license."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-819e122ccd",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "vidu",
+  "thread_display": "Vidu",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Vidu",
+  "article_url": "https://happyin.space/projects/vidu/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/3b7ff112c23efcf24ecd2046e4024c01a0e11765/docs/projects/vidu.md",
+  "agent_context_url": "https://happyin.space/projects/vidu/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-29",
+  "title": "Vidu’s developer platform becomes a documented product channel",
+  "version": null,
+  "summary": "On 2026-07-29, the record linked Vidu’s developer-platform and retention paths, recording a developer-facing distribution channel alongside the web creator. The supplied walkthrough and retention page could not be read, so this entry does not attribute a specific API, model, or pricing release to the date."
  }
 }

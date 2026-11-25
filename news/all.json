@@ -30544,7 +30544,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-ced223aa89",
       "entry_type": "news",
       "category": "misc",
@@ -30635,10 +30635,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "mlslabsrenderer-lite-development",
+        "thread_display": "MLSLabsRenderer Lite",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "MLSLabsRenderer-Lite",
+        "article_url": "https://happyin.space/projects/mlslabsrenderer-lite/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/54973272d03238b1b8fb5bc3656de3deb42606b6/docs/projects/mlslabsrenderer-lite.md",
+        "agent_context_url": "https://happyin.space/projects/mlslabsrenderer-lite/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-29",
+        "title": "Public project and repository reference for MLSLabsRenderer-Lite",
+        "version": null,
+        "summary": "On 2026-07-29, the MLSLabsRenderer-Lite development line was recorded with links to its public project website and the MLSLabs Gaussian Splatting Renderer UE repository. Taken only from the dated links, this establishes a traceable public reference point for the project's renderer development, but does not establish a specific release, feature set, or version."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-819e122ccd",
       "entry_type": "news",
       "category": "misc",
@@ -30738,6 +30758,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "vidu",
+        "thread_display": "Vidu",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Vidu",
+        "article_url": "https://happyin.space/projects/vidu/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/3b7ff112c23efcf24ecd2046e4024c01a0e11765/docs/projects/vidu.md",
+        "agent_context_url": "https://happyin.space/projects/vidu/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-29",
+        "title": "Vidu’s developer platform becomes a documented product channel",
+        "version": null,
+        "summary": "On 2026-07-29, the record linked Vidu’s developer-platform and retention paths, recording a developer-facing distribution channel alongside the web creator. The supplied walkthrough and retention page could not be read, so this entry does not attribute a specific API, model, or pricing release to the date."
       }
     },
     {
@@ -30844,7 +30884,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-cf0d503ef2",
       "entry_type": "news",
       "category": "misc",
@@ -30927,6 +30967,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "comfyui-openpose-studio-development",
+        "thread_display": "Comfyui Openpose Studio",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "OpenPose Studio for ComfyUI",
+        "article_url": "https://happyin.space/projects/comfyui-openpose-studio/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/2c151ff2de020ea9e215a11510c72f5414978047/docs/projects/comfyui-openpose-studio.md",
+        "agent_context_url": "https://happyin.space/projects/comfyui-openpose-studio/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-28",
+        "title": "ComfyUI-OpenPose-Studio repository referenced",
+        "version": null,
+        "summary": "On 2026-07-28, this development line recorded a link to the ComfyUI-OpenPose-Studio GitHub repository. The available evidence establishes the project's repository reference on that date, but does not establish a specific release, feature, or change."
       }
     },
     {
@@ -31118,7 +31178,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-6e6ec9ab6b",
       "entry_type": "news",
       "category": "misc",
@@ -31209,10 +31269,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "microzoom-development",
+        "thread_display": "MicroZoom",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "MicroZoom",
+        "article_url": "https://happyin.space/projects/microzoom/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/50dbeaebc5c2317374dbfa2a79bab77a025c8ab4/docs/projects/microzoom.md",
+        "agent_context_url": "https://happyin.space/projects/microzoom/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-28",
+        "title": "MicroZoom public project references were recorded",
+        "version": null,
+        "summary": "On 2026-07-28, a MicroZoom entry linked to a project website and a GitHub Pages repository. This records a public reference point for the project, without asserting a release or a specific product change."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-632e606b02",
       "entry_type": "news",
       "category": "misc",
@@ -31296,10 +31376,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "midjourney-model-and-feature-releases",
+        "thread_display": "Midjourney",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Midjourney model and feature releases",
+        "article_url": "https://happyin.space/projects/midjourney/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/b86e4547ae80a7ece6d594e45e5cc5f5616d96e6/docs/projects/midjourney.md",
+        "agent_context_url": "https://happyin.space/projects/midjourney/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-28",
+        "title": "Midjourney was reported to acquire Co–Star",
+        "version": null,
+        "summary": "On 2026-07-28, the member linked to a TechCrunch report describing Midjourney’s acquisition of the astrology app Co–Star. This is material corporate-development reporting, while the dated link alone does not provide primary confirmation, transaction terms, or integration plans."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-944c22a8fe",
       "entry_type": "news",
       "category": "misc",
@@ -31382,6 +31482,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "editor-development",
+        "thread_display": "Editor",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Pascal Editor",
+        "article_url": "https://happyin.space/projects/editor/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/86beb6ac85bb9eca40238d868019b05822c35c23/docs/projects/editor.md",
+        "agent_context_url": "https://happyin.space/projects/editor/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-27",
+        "title": "Pascal Editor GitHub repository linked",
+        "version": null,
+        "summary": "On 2026-07-27, the Pascal Editor development line included the recorded link linking to the project's GitHub repository. From the sealed evidence alone, this establishes a public project reference, but it does not document a release, feature, ownership change, or repository state."
       }
     },
     {
@@ -31755,7 +31875,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-13a562a609",
       "entry_type": "news",
       "category": "misc",
@@ -31838,10 +31958,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ling-3-0-flash-development",
+        "thread_display": "Ling 3.0 flash",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Ling-3.0-flash",
+        "article_url": "https://happyin.space/projects/ling-3-0-flash/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/cc2f46d88459432b81c635d701c2f18feadb7a39/docs/projects/ling-3-0-flash.md",
+        "agent_context_url": "https://happyin.space/projects/ling-3-0-flash/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-27",
+        "title": "Ling-3.0-flash received a dated OpenRouter model reference",
+        "version": null,
+        "summary": "On 2026-07-27, the sealed development record linked to OpenRouter's public model page for InclusionAI Ling-3.0-flash. This establishes a dated public reference for the model, but does not establish its launch date, capabilities, or current service availability."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-b3f3b611a3",
       "entry_type": "news",
       "category": "misc",
@@ -31942,10 +32082,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "nanbeige-4-2-3b-development",
+        "thread_display": "Nanbeige 4 2 3B",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Nanbeige4.2-3B",
+        "article_url": "https://happyin.space/projects/nanbeige-4-2-3b/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/9722c98bbc79b5378ef4a303b7cfc62001b48cb3/docs/projects/nanbeige-4-2-3b.md",
+        "agent_context_url": "https://happyin.space/projects/nanbeige-4-2-3b/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-26",
+        "title": "Nanbeige4.2-3B public model and inference resources were linked",
+        "version": null,
+        "summary": "On 2026-07-26, a development update linked the Nanbeige4.2-3B Hugging Face model page, a filtered listing of related quantized base-model entries, and an inference space. This establishes a dated public access point for the model and its related deployment options."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-9fd4c4bd6f",
       "entry_type": "news",
       "category": "misc",
@@ -32036,6 +32196,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "unitysplats-development",
+        "thread_display": "UnitySplats",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "UnitySplats",
+        "article_url": "https://happyin.space/projects/unitysplats/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/b6541dd654e91fcdcb90c0d6609760d7aee1b6bb/docs/projects/unitysplats.md",
+        "agent_context_url": "https://happyin.space/projects/unitysplats/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-26",
+        "title": "UnitySplats public project references",
+        "version": null,
+        "summary": "On 2026-07-26, UnitySplats was associated with a public GitHub repository and an Arloopa experience page. Together, those dated references establish a public development reference point for the project."
       }
     },
     {
@@ -32314,7 +32494,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-f241b400a1",
       "entry_type": "news",
       "category": "misc",
@@ -32397,6 +32577,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "router-development",
+        "thread_display": "Router",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Cursor Router",
+        "article_url": "https://happyin.space/projects/router/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/89b7011e44d402614462a0685ae61dfe6c49460b/docs/projects/router.md",
+        "agent_context_url": "https://happyin.space/projects/router/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-25",
+        "title": "Cursor published a public update associated with Router",
+        "version": null,
+        "summary": "On 2026-07-25, Cursor published a public blog article associated with Router. Its existence is a material public milestone for the Cursor Router development line, but the sealed evidence does not establish the article's detailed functionality, rollout status, or user impact."
       }
     },
     {
@@ -32494,7 +32694,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-3450949e78",
       "entry_type": "news",
       "category": "misc",
@@ -32576,6 +32776,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "omniroute-development",
+        "thread_display": "OmniRoute",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "OmniRoute",
+        "article_url": "https://happyin.space/projects/omniroute/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/63355789d09ac735a40a837c4c459ebc6192825a/docs/projects/omniroute.md",
+        "agent_context_url": "https://happyin.space/projects/omniroute/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-25",
+        "title": "OmniRoute GitHub repository reference",
+        "version": null,
+        "summary": "On 2026-07-25, the OmniRoute development line referenced the project's GitHub repository. The sealed evidence establishes the repository link, but does not establish a specific release, feature, commit, or deployment milestone."
       }
     },
     {
@@ -33614,7 +33834,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-3600f1f8ab",
       "entry_type": "news",
       "category": "misc",
@@ -33697,10 +33917,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "comfyui-setup-manager-development",
+        "thread_display": "ComfyUI Setup Manager",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "ComfyUI Setup Manager",
+        "article_url": "https://happyin.space/projects/comfyui-setup-manager/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8c6c3ac6c81e5ff0e8d972b94565b4050c2da902/docs/projects/comfyui-setup-manager.md",
+        "agent_context_url": "https://happyin.space/projects/comfyui-setup-manager/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-23",
+        "title": "ComfyUI Setup Manager repository was publicly referenced",
+        "version": null,
+        "summary": "On 2026-07-23, the record recorded a link to the GitHub repository for ComfyUI Setup Manager. This establishes a dated public reference to the project, but does not by itself establish a release, feature change, or repository activity."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-2fb0f885be",
       "entry_type": "news",
       "category": "misc",
@@ -33783,6 +34023,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "unity-cli-development",
+        "thread_display": "Unity CLI",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Unity CLI",
+        "article_url": "https://happyin.space/projects/unity-cli/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/53cff7fd9d7783c1e51504e87c4cb11be7ce12e4/docs/projects/unity-cli.md",
+        "agent_context_url": "https://happyin.space/projects/unity-cli/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-23",
+        "title": "Unity published an announcement about Unity CLI",
+        "version": null,
+        "summary": "On 2026-07-23, Unity published a dated official blog entry concerning Unity CLI. The project-specific official link makes this a material introduction milestone in the Unity CLI history. The sealed evidence does not establish its capabilities, availability, or technical behavior."
       }
     },
     {
@@ -33890,7 +34150,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-ec3dda9c78",
       "entry_type": "news",
       "category": "misc",
@@ -33990,6 +34250,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "homie-development",
+        "thread_display": "HOMIE",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "HOMIE",
+        "article_url": "https://happyin.space/projects/homie/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/cab285914ce88ea3c72d1b7ad0533dd7c20d2b78/docs/projects/homie.md",
+        "agent_context_url": "https://happyin.space/projects/homie/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-22",
+        "title": "HOMIE public project resources were recorded",
+        "version": null,
+        "summary": "On 2026-07-22, the HOMIE development line was recorded with links to its project website, GitHub repository, and a Hugging Face model page named homie-r2v-wan2.1. This is a material public project milestone because it connects the project’s public documentation, source, and model distribution. The record does not establish the precise release claims, version details, capabilities, or license."
       }
     },
     {
@@ -34546,7 +34826,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-288cee31b2",
       "entry_type": "news",
       "category": "misc",
@@ -34640,10 +34920,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gemini-product-development",
+        "thread_display": "Google Gemini",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Gemini product development",
+        "article_url": "https://happyin.space/projects/google-gemini/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/26186e4e27af6cbeea08183c695e7f6857c0232d/docs/projects/google-gemini.md",
+        "agent_context_url": "https://happyin.space/projects/google-gemini/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-22",
+        "title": "Gemini 3.6 Flash was linked with updated Flash model variants",
+        "version": null,
+        "summary": "On 2026-07-22, the record linked an official Google Blog Gemini-models page whose URL identifies Gemini 3.6 Flash, Gemini 3.5 Flash Lite, and Gemini 3.5 Flash Cyber. It also linked an AI Studio new-chat URL configured for Gemini 3.6 Flash, establishing a contemporaneous model-selection reference. The supplied evidence does not establish launch details, capabilities, regions, or terms, so none are stated here."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-22448a4fd0",
       "entry_type": "news",
       "category": "misc",
@@ -34752,6 +35052,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "timelens2-development",
+        "thread_display": "TimeLens2",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "TimeLens2",
+        "article_url": "https://happyin.space/projects/timelens2/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/611022eb6c51be3aa0b3b9fa0070398703884b98/docs/projects/timelens2.md",
+        "agent_context_url": "https://happyin.space/projects/timelens2/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-22",
+        "title": "TimeLens2 public project resources were linked",
+        "version": null,
+        "summary": "On 2026-07-22, a TimeLens2 development-line message linked the public project page, GitHub source repository, Hugging Face collection, and a temporal-grounding Space. This cross-linked public surface represents a material distribution and access step for the project. The available evidence does not establish a specific version, model configuration, or feature claim."
       }
     },
     {
@@ -34850,7 +35170,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-0a1838ff3d",
       "entry_type": "news",
       "category": "misc",
@@ -34942,10 +35262,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "bytedance-seed-audio-1-0-development",
+        "thread_display": "Bytedance Seed Audio 1 0",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Seed Audio 1.0",
+        "article_url": "https://happyin.space/projects/bytedance-seed-audio-1-0/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/374dbb7fb5794f6491be682c5bf64ef7ce1107a3/docs/projects/bytedance-seed-audio-1-0.md",
+        "agent_context_url": "https://happyin.space/projects/bytedance-seed-audio-1-0/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-22",
+        "title": "Seed Audio 1.0 product page and BytePlus activation path",
+        "version": null,
+        "summary": "On 2026-07-22, the development record linked Seed Audio 1.0’s official product page and a BytePlus Voice console activation path. Together, those dated official links mark a public-facing product and onboarding step for the project, although they do not establish the exact announcement wording, feature set, availability, or release scope."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-8a9fb1a4b9",
       "entry_type": "news",
       "category": "misc",
@@ -35054,10 +35394,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "lucida-development",
+        "thread_display": "Lucida",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Lucida: lucida-development",
+        "article_url": "https://happyin.space/projects/lucida/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/dbfbf69527b7a82036a26a3542be6453710c38d7/docs/projects/lucida.md",
+        "agent_context_url": "https://happyin.space/projects/lucida/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-21",
+        "title": "Lucida development resources were linked",
+        "version": null,
+        "summary": "On 2026-07-21, a Lucida branch member linked the project's GitHub repository, Hugging Face model page, and two Hugging Face Spaces. Taken together, those dated links mark a material public reference point for Lucida's code, model, showcase, and demo resources. The links alone do not establish which of those resources was newly released that day or describe their capabilities."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-253f50a66d",
       "entry_type": "news",
       "category": "misc",
@@ -35158,10 +35518,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "thestageai-elastic-wan22-i2v-development",
+        "thread_display": "Thestageai Elastic Wan22 I2V",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Elastic-Wan2.2-I2V",
+        "article_url": "https://happyin.space/projects/thestageai-elastic-wan22-i2v/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/b86939792bb1d8042f9864f426414bd73a69cc1e/docs/projects/thestageai-elastic-wan22-i2v.md",
+        "agent_context_url": "https://happyin.space/projects/thestageai-elastic-wan22-i2v/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-21",
+        "title": "TheStageAI published Elastic-Wan2.2-I2V project materials",
+        "version": null,
+        "summary": "On 2026-07-21, TheStageAI published a project update linking to an Elastic-Wan2.2-I2V model repository, a related blog article, and the ComfyUI-Qlip repository. The linked materials indicate a development milestone for the project's image-to-video workflow. The exact model changes, configuration, and performance claims cannot be confirmed from the sealed link metadata alone."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-2393a845fa",
       "entry_type": "news",
       "category": "misc",
@@ -35252,10 +35632,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ramp-router-development",
+        "thread_display": "Ramp Router",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Ramp Router",
+        "article_url": "https://happyin.space/projects/ramp-router/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/c1c31b9efaa9f5af356a7fd6ebadb8529c1f19cb/docs/projects/ramp-router.md",
+        "agent_context_url": "https://happyin.space/projects/ramp-router/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-21",
+        "title": "Ramp Router request-access milestone",
+        "version": null,
+        "summary": "On 2026-07-21, the Ramp Router development line was linked to both its product page and a separate request-access page. Those dated links indicate a public-facing access step for the project. The precise announcement wording, capabilities, and availability terms have not been researched."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-1a1adbb4f3",
       "entry_type": "news",
       "category": "misc",
@@ -35347,6 +35747,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "nvidia-cosmos-3-edge-development",
+        "thread_display": "Nvidia Cosmos 3 Edge",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Cosmos 3 Edge",
+        "article_url": "https://happyin.space/projects/nvidia-cosmos-3-edge/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8da22cbc0f6d67ccd462bf291cdeee0e1aef6870/docs/projects/nvidia-cosmos-3-edge.md",
+        "agent_context_url": "https://happyin.space/projects/nvidia-cosmos-3-edge/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-21",
+        "title": "NVIDIA released Cosmos3-Edge on Hugging Face",
+        "version": null,
+        "summary": "On 2026-07-21, NVIDIA's Hugging Face blog and model-repository links for Cosmos3-Edge were recorded. Together, they indicate an official public availability milestone for the project, making it material to its development history. The supplied links do not establish capability, license, or deployment details."
       }
     },
     {
@@ -35831,7 +36251,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-a0d5299653",
       "entry_type": "news",
       "category": "misc",
@@ -35940,6 +36360,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "krea-2-outpaint-development",
+        "thread_display": "Krea 2 Outpaint",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Krea 2 Outpaint",
+        "article_url": "https://happyin.space/projects/krea-2-outpaint/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1932d9931c4a1acd11b1e1c2309bb365309af7a3/docs/projects/krea-2-outpaint.md",
+        "agent_context_url": "https://happyin.space/projects/krea-2-outpaint/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-19",
+        "title": "Krea 2 Outpaint resources were documented across Hugging Face and ComfyUI",
+        "version": null,
+        "summary": "On 2026-07-19, a dated update linked a Hugging Face model repository, two Hugging Face Spaces, and a ComfyUI integration for Krea 2 Outpaint. The linked resources establish a practical discovery, trial, and integration path for the project, while the available evidence does not establish their exact release status or relationship."
       }
     },
     {
@@ -36037,7 +36477,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-ffa010ab28",
       "entry_type": "news",
       "category": "misc",
@@ -36119,10 +36559,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "comfyui-starnodes-development",
+        "thread_display": "ComfyUI StarNodes",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "ComfyUI_StarNodes",
+        "article_url": "https://happyin.space/projects/comfyui-starnodes/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4d49230d6acc67b797235797c1e47ed154490a9f/docs/projects/comfyui-starnodes.md",
+        "agent_context_url": "https://happyin.space/projects/comfyui-starnodes/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-18",
+        "title": "ComfyUI_StarNodes GitHub repository was referenced",
+        "version": null,
+        "summary": "On 2026-07-18, the record recorded a link to the ComfyUI_StarNodes GitHub repository. The available evidence identifies the project repository, but does not establish a release, feature change, version, or installation status. This history entry records the dated repository reference only."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-fe5aa54dca",
       "entry_type": "news",
       "category": "misc",
@@ -36213,10 +36673,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "opencut-development",
+        "thread_display": "OpenCut",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "OpenCut",
+        "article_url": "https://happyin.space/projects/opencut/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/23196a9de9849d669cbb4dc7869629961cb9eec3/docs/projects/opencut.md",
+        "agent_context_url": "https://happyin.space/projects/opencut/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-18",
+        "title": "OpenCut website and source repository were publicly referenced",
+        "version": null,
+        "summary": "On 2026-07-18, a message associated with OpenCut linked both the project website and its GitHub repository. From the dated links alone, this is treated as a material public-facing development record because it directed readers to the project and its source code. The available evidence does not establish whether it marked a launch, release, or feature update."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-f09f1875bc",
       "entry_type": "news",
       "category": "misc",
@@ -36307,6 +36787,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "knowact-guiclaw-development",
+        "thread_display": "KnowAct GUIClaw",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "KnowAct-GUIClaw",
+        "article_url": "https://happyin.space/projects/knowact-guiclaw/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/9d7c138d5268f66a3aa30a2773a06598b781493d/docs/projects/knowact-guiclaw.md",
+        "agent_context_url": "https://happyin.space/projects/knowact-guiclaw/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-18",
+        "title": "KnowAct-GUIClaw project site and source repository linked",
+        "version": null,
+        "summary": "On July 18, 2026, a public message linked the KnowAct-GUIClaw project site and the KnowAct GitHub repository. This establishes a dated public association between the GUIClaw project and the KnowAct codebase, but does not evidence a particular release, feature, or implementation milestone."
       }
     },
     {
@@ -36585,7 +37085,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-9478ff9243",
       "entry_type": "news",
       "category": "misc",
@@ -36667,6 +37167,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "grok-build-development",
+        "thread_display": "Grok Build",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Grok Build",
+        "article_url": "https://happyin.space/projects/grok-build/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d9a40ec63a456c9ff7d907e34eef7bb072db1cd0/docs/projects/grok-build.md",
+        "agent_context_url": "https://happyin.space/projects/grok-build/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-16",
+        "title": "Grok Build public repository reference",
+        "version": null,
+        "summary": "On 2026-07-16, the Grok Build thread referenced xAI’s public Grok Build GitHub repository. This creates a dated public source reference for the project, although the repository contents and the message’s exact context have not been researched."
       }
     },
     {
@@ -36858,7 +37378,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-e8b9f004d7",
       "entry_type": "news",
       "category": "misc",
@@ -36967,6 +37487,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ardy-development",
+        "thread_display": "ARDY",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "ARDY",
+        "article_url": "https://happyin.space/projects/ardy/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/c101ac608019ce818f32c47b6dee5439a4398f5f/docs/projects/ardy.md",
+        "agent_context_url": "https://happyin.space/projects/ardy/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-15",
+        "title": "ARDY public project resources were linked",
+        "version": null,
+        "summary": "On 2026-07-15, ARDY was linked through its NVIDIA Research project page, source repository, Hugging Face collection, and interactive Hugging Face Space. This is a material public-availability milestone because it connects the project to its research, code, model, and hands-on entry points. The dated links alone do not establish the exact announcement wording, version, capabilities, or release status."
       }
     },
     {
@@ -37091,7 +37631,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-86023c7979",
       "entry_type": "news",
       "category": "misc",
@@ -37200,6 +37740,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "sam2matting-development",
+        "thread_display": "SAM2Matting",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "SAM2Matting",
+        "article_url": "https://happyin.space/projects/sam2matting/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e73d38fdd3b9910d5309c292f5209129815f93df/docs/projects/sam2matting.md",
+        "agent_context_url": "https://happyin.space/projects/sam2matting/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-15",
+        "title": "SAM2Matting public project resources became available",
+        "version": null,
+        "summary": "On 2026-07-15, SAM2Matting was presented through linked official project, source-code, model-hosting, and interactive-demo resources. This marks a material public-access step for the project because readers could locate the implementation and evaluate it through the linked resources."
       }
     },
     {
@@ -37306,7 +37866,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-6d8dc4435a",
       "entry_type": "news",
       "category": "misc",
@@ -37389,6 +37949,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "krea2-textfusion-refusal-reduction-lora-development",
+        "thread_display": "Krea2 TextFusion Refusal Reduction LoRA",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Krea2 TextFusion Refusal-Reduction LoRA",
+        "article_url": "https://happyin.space/projects/krea2-textfusion-refusal-reduction-lora/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4a329490e9dddd5183082b2adc44924ab587e998/docs/projects/krea2-textfusion-refusal-reduction-lora.md",
+        "agent_context_url": "https://happyin.space/projects/krea2-textfusion-refusal-reduction-lora/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-15",
+        "title": "Civitai reference recorded for Krea2 TextFusion Refusal-Reduction LoRA",
+        "version": null,
+        "summary": "On 2026-07-15, the record recorded a link to a Civitai model page identified as Krea2 TextFusion Refusal-Reduction LoRA. The dated link establishes an external project artifact, without establishing its release, training, version, or performance details."
       }
     },
     {
@@ -37836,7 +38416,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-1b82c038ef",
       "entry_type": "news",
       "category": "misc",
@@ -37946,6 +38526,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "wan-dancer-development",
+        "thread_display": "Wan Dancer",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Wan-Dancer",
+        "article_url": "https://happyin.space/projects/wan-dancer/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/626bf9afb4c1b3a714d7f54ba79f67753f1bda42/docs/projects/wan-dancer.md",
+        "agent_context_url": "https://happyin.space/projects/wan-dancer/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-14",
+        "title": "Wan-Dancer project resources were publicly linked",
+        "version": null,
+        "summary": "On 2026-07-14, a dated record linked the Wan-Dancer project website, source repository, Hugging Face model page, and ModelScope studio. This is a material public-reference and distribution milestone for the project. The sealed evidence does not establish technical claims, version details, or the original announcement wording."
       }
     },
     {
@@ -38147,7 +38747,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-c73bfca8d3",
       "entry_type": "news",
       "category": "misc",
@@ -38238,6 +38838,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "velorn-development",
+        "thread_display": "Velorn",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Velorn",
+        "article_url": "https://happyin.space/projects/velorn/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/c671df5e21e4db85f093e55b0e994c957152d0cd/docs/projects/velorn.md",
+        "agent_context_url": "https://happyin.space/projects/velorn/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-13",
+        "title": "Velorn public development and release references",
+        "version": null,
+        "summary": "On 2026-07-13, a Velorn-related update linked the project website, public The recorded link, and GitHub releases page. The link set indicates a public project-development update, but does not establish the specific release, version, or changes."
       }
     },
     {
@@ -38646,7 +39266,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-cddebb8e59",
       "entry_type": "news",
       "category": "misc",
@@ -38746,6 +39366,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "proxypose-development",
+        "thread_display": "ProxyPose",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "ProxyPose",
+        "article_url": "https://happyin.space/projects/proxypose/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/87a225a5df6f4148c65d49d08acbee4104280261/docs/projects/proxypose.md",
+        "agent_context_url": "https://happyin.space/projects/proxypose/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-11",
+        "title": "ProxyPose public project resources linked",
+        "version": null,
+        "summary": "On 2026-07-11, ProxyPose was presented through linked project, source-code, and Hugging Face resources. This is a material public development-line event because it establishes a discoverable project presence, although the linked resources' technical claims and release status were not independently researched."
       }
     },
     {
@@ -38965,7 +39605,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-de20defbe8",
       "entry_type": "news",
       "category": "misc",
@@ -39075,6 +39715,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "lingbot-world-2-development",
+        "thread_display": "Lingbot World 2",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "LingBot-World 2.0",
+        "article_url": "https://happyin.space/projects/lingbot-world-2/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/f03331dda555022c422b812a5f45685062223232/docs/projects/lingbot-world-2.md",
+        "agent_context_url": "https://happyin.space/projects/lingbot-world-2/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-09",
+        "title": "LingBot-World 2.0 public development resources were linked",
+        "version": null,
+        "summary": "On 2026-07-09, a dated record linked LingBot-World 2.0 to a project page, GitHub repository, Hugging Face collection, and Reactor page. This establishes a public project-line milestone worth tracking, while the supplied evidence does not establish its release contents, capabilities, or operational status."
       }
     },
     {
@@ -39313,7 +39973,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-61e3cf03ac",
       "entry_type": "news",
       "category": "misc",
@@ -39422,10 +40082,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "lingbot-video-development",
+        "thread_display": "LingBot Video",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "LingBot-Video",
+        "article_url": "https://happyin.space/projects/lingbot-video/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/faaf620cd8b7f0b52fcf92ee715e9be77d559bc5/docs/projects/lingbot-video.md",
+        "agent_context_url": "https://happyin.space/projects/lingbot-video/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-09",
+        "title": "LingBot-Video public project resources were referenced",
+        "version": null,
+        "summary": "On 2026-07-09, the LingBot-Video development line was associated with a project page, a GitHub repository, a Hugging Face collection, and a Hugging Face Space. These dated links establish a public project-resource milestone, but do not establish a specific release, version, capability claim, or technical result. The event is therefore recorded narrowly as the availability of project references."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-d1aace8b4a",
       "entry_type": "news",
       "category": "misc",
@@ -39507,10 +40187,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "muse-development",
+        "thread_display": "Muse",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Muse",
+        "article_url": "https://happyin.space/projects/muse/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/5fe88408fe430fc802a60988754dc447f9ca226e/docs/projects/muse.md",
+        "agent_context_url": "https://happyin.space/projects/muse/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-08",
+        "title": "Muse Image, Muse Video, and MSL announcement",
+        "version": null,
+        "summary": "On 2026-07-08, Meta AI published a Muse-related announcement whose linked URL identifies Muse Image, Muse Video, and MSL. This is proposed as a material new public-history event because the link appears to introduce named components of the Muse project. The supplied evidence does not establish their capabilities, availability, or technical specifications."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-b10bd633b8",
       "entry_type": "news",
       "category": "misc",
@@ -39610,6 +40310,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gush3r-development",
+        "thread_display": "GUSH3R",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "GUSH3R",
+        "article_url": "https://happyin.space/projects/gush3r/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6742a0c96eb0d26a60073531b1bc8572830cf3e0/docs/projects/gush3r.md",
+        "agent_context_url": "https://happyin.space/projects/gush3r/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-08",
+        "title": "GUSH3R public project resources linked",
+        "version": null,
+        "summary": "On 2026-07-08, the GUSH3R development line was associated with a public project page, a source-code repository, and a Hugging Face resource. These linked resources constitute a material public-access step for the project, without establishing further technical details."
       }
     },
     {
@@ -39716,7 +40436,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-5b5558fedd",
       "entry_type": "news",
       "category": "misc",
@@ -39825,6 +40545,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "thinkingcap-qwen3-6-27b-development",
+        "thread_display": "ThinkingCap Qwen3.6 27B",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "ThinkingCap-Qwen3.6-27B",
+        "article_url": "https://happyin.space/projects/thinkingcap-qwen3-6-27b/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/3536c86aa27413d8c41ed05a3ba0a788af9076ad/docs/projects/thinkingcap-qwen3-6-27b.md",
+        "agent_context_url": "https://happyin.space/projects/thinkingcap-qwen3-6-27b/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-08",
+        "title": "ThinkingCap-Qwen3.6-27B repositories and deployment variants were linked",
+        "version": null,
+        "summary": "On 2026-07-08, public repositories for ThinkingCap-Qwen3.6-27B and several alternate deployment formats were linked. The linked formats included GGUF, NVFP4, and an int4 AutoRound variant, marking public availability of a model line and associated distribution options."
       }
     },
     {
@@ -39913,7 +40653,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-ffa7213d37",
       "entry_type": "news",
       "category": "misc",
@@ -40004,10 +40744,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "seamless-equirectangular-lora-development",
+        "thread_display": "Seamless Equirectangular Lora",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Seamless-Equirectangular LTX-2.3 LoRA",
+        "article_url": "https://happyin.space/projects/seamless-equirectangular-lora/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d23123a0bbdf9de76e1b5d500bef64e994856646/docs/projects/seamless-equirectangular-lora.md",
+        "agent_context_url": "https://happyin.space/projects/seamless-equirectangular-lora/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-07",
+        "title": "Public resources linked for Seamless-Equirectangular LTX-2.3 LoRA",
+        "version": null,
+        "summary": "On 2026-07-07, a dated project message linked both the Seamless-Equirectangular LTX-2.3 LoRA model repository and its ComfyUI integration repository. This is material because it records the public availability of the model-and-workflow resources as a single development step."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-cf19d00e70",
       "entry_type": "news",
       "category": "misc",
@@ -40098,6 +40858,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "researchstudio-development",
+        "thread_display": "ResearchStudio",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "ResearchStudio",
+        "article_url": "https://happyin.space/projects/researchstudio/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/09749cddb2f26ae10d46bb57d66e791815ee6b4d/docs/projects/researchstudio.md",
+        "agent_context_url": "https://happyin.space/projects/researchstudio/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-07",
+        "title": "ResearchStudio public project references recorded",
+        "version": null,
+        "summary": "On 2026-07-07, the ResearchStudio development line recorded public references to the Microsoft ResearchStudio project site and its GitHub repository. These dated references establish a public project presence, but do not establish a release version, feature set, or launch status."
       }
     },
     {
@@ -40195,7 +40975,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-cb62ae01fa",
       "entry_type": "news",
       "category": "misc",
@@ -40295,6 +41075,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "photoquilt-development",
+        "thread_display": "PhotoQuilt",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "PhotoQuilt",
+        "article_url": "https://happyin.space/projects/photoquilt/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/35a0eae132a90aea3f05c592b3362f0a0553c6ba/docs/projects/photoquilt.md",
+        "agent_context_url": "https://happyin.space/projects/photoquilt/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-06",
+        "title": "PhotoQuilt project resources were made available",
+        "version": null,
+        "summary": "On 2026-07-06, PhotoQuilt was linked through its project website, source-code repository, and hosted Hugging Face Space. This constitutes a material public development step because it gave practitioners distinct places to inspect, obtain, and try the project."
       }
     },
     {
@@ -40383,7 +41183,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-29eb1f831e",
       "entry_type": "news",
       "category": "misc",
@@ -40465,6 +41265,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "awesome-harness-engineering-development",
+        "thread_display": "Awesome Harness Engineering",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Awesome Harness Engineering",
+        "article_url": "https://happyin.space/projects/awesome-harness-engineering/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/b88d4db8623b7588c2301d4ecb3f01e1c5dc905c/docs/projects/awesome-harness-engineering.md",
+        "agent_context_url": "https://happyin.space/projects/awesome-harness-engineering/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-06",
+        "title": "Awesome Harness Engineering GitHub repository was referenced",
+        "version": null,
+        "summary": "On 2026-07-06, a dated message associated with Awesome Harness Engineering linked to its GitHub repository. This establishes a public repository reference for the project on that date, but does not establish a release, feature change, or other milestone."
       }
     },
     {
@@ -40657,7 +41477,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-837f41c777",
       "entry_type": "news",
       "category": "misc",
@@ -40749,6 +41569,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "krea2-realism-development",
+        "thread_display": "Krea2 realism",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Krea2-realism",
+        "article_url": "https://happyin.space/projects/krea2-realism/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/473cbc87d3308841d4ff2394f0844c2a0804f538/docs/projects/krea2-realism.md",
+        "agent_context_url": "https://happyin.space/projects/krea2-realism/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-04",
+        "title": "Krea2 Realism v1 version-specific model references recorded",
+        "version": null,
+        "summary": "On 2026-07-04, the Krea2-realism development line recorded two version-specific Civitai references for Krea2 Realism v1. The links identify distinct model-version artifacts, 3066973 and 3090634, preserving a dated pointer to the available versions in the project history."
       }
     },
     {
@@ -41065,7 +41905,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-36fa065b79",
       "entry_type": "news",
       "category": "misc",
@@ -41148,6 +41988,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "sun-direction-lora-flux2-klein-9b-development",
+        "thread_display": "Sun Direction Lora Flux2 Klein 9B",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Sun Direction LoRA Flux 2 Klein 9B",
+        "article_url": "https://happyin.space/projects/sun-direction-lora-flux2-klein-9b/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/eb6ba72570218126f21134cc3bfbb99307a2f69c/docs/projects/sun-direction-lora-flux2-klein-9b.md",
+        "agent_context_url": "https://happyin.space/projects/sun-direction-lora-flux2-klein-9b/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-03",
+        "title": "Sun Direction LoRA Flux 2 Klein 9B resource reference recorded",
+        "version": null,
+        "summary": "On 2026-07-03, the project’s Flux 2 Klein LoRAs thread recorded a link to its Hugging Face resource. The sealed evidence contains no post body or model-card contents, so this event establishes only the dated resource reference and makes no claim about a release version, training configuration, license, or performance."
       }
     },
     {
@@ -41246,7 +42106,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-63310818df",
       "entry_type": "news",
       "category": "misc",
@@ -41328,6 +42188,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "onklaud-development",
+        "thread_display": "Onklaud",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Onklaud 5",
+        "article_url": "https://happyin.space/projects/onklaud/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/49af937b495c56c5f35b3e6a53b0f3c5a1547412/docs/projects/onklaud.md",
+        "agent_context_url": "https://happyin.space/projects/onklaud/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-02",
+        "title": "On 2026-07-02, Onklaud 5 was linked to a public GitHub repository",
+        "version": null,
+        "summary": "On 2026-07-02, the Onklaud 5 development line included a link to the GitHub repository KorroAi/onklaud-5. The dated link establishes a public repository reference for the project, but does not establish a release, feature set, or code change."
       }
     },
     {
@@ -41426,7 +42306,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-551508ee8c",
       "entry_type": "news",
       "category": "misc",
@@ -41508,6 +42388,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "neumatex-development",
+        "thread_display": "NeumaTex",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "NeumaTex",
+        "article_url": "https://happyin.space/projects/neumatex/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/9bfaac99e3d07869da5bae779fea1dbd72ad2be7/docs/projects/neumatex.md",
+        "agent_context_url": "https://happyin.space/projects/neumatex/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-02",
+        "title": "NeumaTex project page shared",
+        "version": null,
+        "summary": "On 2026-07-02, NeumaTex was shared with a link to its project page. The sealed evidence contains no source text or supporting research, so this history entry records the dated public reference without making claims about its methods, results, authorship, or release status."
       }
     },
     {
@@ -42183,7 +43083,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-443c254b7f",
       "entry_type": "news",
       "category": "misc",
@@ -42266,6 +43166,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ltx-foley-lora-development",
+        "thread_display": "Ltx Foley Lora",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "LTX-2.3-Foley-LoRA",
+        "article_url": "https://happyin.space/projects/ltx-foley-lora/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8177b5b9e510695469bef87cc03fb4af396c6dee/docs/projects/ltx-foley-lora.md",
+        "agent_context_url": "https://happyin.space/projects/ltx-foley-lora/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-01",
+        "title": "LTX-2.3-Foley-LoRA model page was recorded",
+        "version": null,
+        "summary": "On 2026-07-01, the project history recorded a Hugging Face model page at FuzzPuppy/LTX-2.3-Foley-LoRA. This is a material public reference for a named Foley LoRA artifact, while the sealed link alone does not establish its capabilities, provenance, compatibility, or release details."
       }
     },
     {

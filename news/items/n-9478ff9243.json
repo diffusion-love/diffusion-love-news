@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-9478ff9243",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "grok-build-development",
+  "thread_display": "Grok Build",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Grok Build",
+  "article_url": "https://happyin.space/projects/grok-build/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d9a40ec63a456c9ff7d907e34eef7bb072db1cd0/docs/projects/grok-build.md",
+  "agent_context_url": "https://happyin.space/projects/grok-build/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-16",
+  "title": "Grok Build public repository reference",
+  "version": null,
+  "summary": "On 2026-07-16, the Grok Build thread referenced xAI’s public Grok Build GitHub repository. This creates a dated public source reference for the project, although the repository contents and the message’s exact context have not been researched."
  }
 }

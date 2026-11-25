@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-8a9fb1a4b9",
  "entry_type": "news",
  "category": "misc",
@@ -108,5 +108,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "lucida-development",
+  "thread_display": "Lucida",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Lucida: lucida-development",
+  "article_url": "https://happyin.space/projects/lucida/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/dbfbf69527b7a82036a26a3542be6453710c38d7/docs/projects/lucida.md",
+  "agent_context_url": "https://happyin.space/projects/lucida/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-21",
+  "title": "Lucida development resources were linked",
+  "version": null,
+  "summary": "On 2026-07-21, a Lucida branch member linked the project's GitHub repository, Hugging Face model page, and two Hugging Face Spaces. Taken together, those dated links mark a material public reference point for Lucida's code, model, showcase, and demo resources. The links alone do not establish which of those resources was newly released that day or describe their capabilities."
  }
 }
