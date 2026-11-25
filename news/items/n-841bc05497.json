@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-841bc05497",
  "entry_type": "news",
  "category": "misc",
@@ -108,5 +108,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "egoforce-development",
+  "thread_display": "EgoForce",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "EgoForce",
+  "article_url": "https://happyin.space/projects/egoforce/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8b5832a0c973a1e1b25d6615f598b817ab72244b/docs/projects/egoforce.md",
+  "agent_context_url": "https://happyin.space/projects/egoforce/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-14",
+  "title": "EgoForce public project resources were linked",
+  "version": null,
+  "summary": "On 2026-07-14, the EgoForce development line was associated with a project page, a source repository, a Hugging Face model page, and a Hugging Face Space. Together, the dated links establish a public entry point for project information, code, model artifacts, and an interactive surface. No claims are made here about a specific version, capabilities, benchmarks, or release status."
  }
 }

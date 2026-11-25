@@ -12211,7 +12211,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-24",
         "title": "Anthropic published a Claude Opus 5 news announcement",
         "summary": "On 2026-07-24, Anthropic published an official news item whose link identifies it as relating to Claude Opus 5. The available evidence does not establish the announcement's capabilities, availability, pricing, or technical details, so this history entry records only the dated development milestone.",
@@ -12241,7 +12241,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "claude-opus-5-development",
+        "display": "Claude Opus 5",
+        "first_seen": "2026-07-24",
+        "last_seen": "2026-07-24",
+        "latest_news_id": "n-4ea5eb69ba",
+        "news_ids": [
+          "n-4ea5eb69ba"
+        ]
+      }
+    ]
   },
   "claude-sonnet-5": {
     "family_slug": "claude-sonnet-5",
@@ -24463,7 +24475,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-14",
         "title": "EgoForce public project resources were linked",
         "summary": "On 2026-07-14, the EgoForce development line was associated with a project page, a source repository, a Hugging Face model page, and a Hugging Face Space. Together, the dated links establish a public entry point for project information, code, model artifacts, and an interactive surface. No claims are made here about a specific version, capabilities, benchmarks, or release status.",
@@ -24492,7 +24504,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "egoforce-development",
+        "display": "EgoForce",
+        "first_seen": "2026-07-14",
+        "last_seen": "2026-07-14",
+        "latest_news_id": "n-841bc05497",
+        "news_ids": [
+          "n-841bc05497"
+        ]
+      }
+    ]
   },
   "elevenlabs": {
     "family_slug": "elevenlabs",
@@ -42901,7 +42925,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-30",
         "title": "ID-V2V public project resources were linked",
         "summary": "On 2026-07-30, ID-V2V was linked through an official project page, a GitHub repository, and a Hugging Face organization page. This is a material public-project milestone because it provides official entry points for the project. The supplied evidence does not establish a precise release status, version, or technical capability.",
@@ -42930,7 +42954,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "id-v2v-development",
+        "display": "ID V2V",
+        "first_seen": "2026-07-30",
+        "last_seen": "2026-07-30",
+        "latest_news_id": "n-d140f3d07f",
+        "news_ids": [
+          "n-d140f3d07f"
+        ]
+      }
+    ]
   },
   "ideogram": {
     "family_slug": "ideogram",
@@ -84116,7 +84152,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-25",
         "title": "RiGS project repository was referenced",
         "summary": "On 2026-07-25, the RiGS development line included a link to the project's GitHub repository. This records the repository reference as a public development-history event without asserting any features, release status, or repository contents.",
@@ -84145,7 +84181,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "rigs-development",
+        "display": "RiGS",
+        "first_seen": "2026-07-25",
+        "last_seen": "2026-07-25",
+        "latest_news_id": "n-240baee803",
+        "news_ids": [
+          "n-240baee803"
+        ]
+      }
+    ]
   },
   "ring": {
     "family_slug": "ring",
@@ -89972,7 +90020,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-03",
         "title": "ShutterMuse public project links were shared",
         "summary": "On 2026-07-03, ShutterMuse was referenced with a project website, a GitHub repository, and a Hugging Face page. The supplied links establish a public presence for the project across a site, source repository, and model-distribution venue. They do not establish a specific release, version, capability, or technical result.",
@@ -90001,7 +90049,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "shuttermuse-development",
+        "display": "ShutterMuse",
+        "first_seen": "2026-07-03",
+        "last_seen": "2026-07-03",
+        "latest_news_id": "n-eaa0dc5be8",
+        "news_ids": [
+          "n-eaa0dc5be8"
+        ]
+      }
+    ]
   },
   "sillytavern": {
     "family_slug": "sillytavern",

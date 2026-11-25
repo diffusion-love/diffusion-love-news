@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-4ea5eb69ba",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "claude-opus-5-development",
+  "thread_display": "Claude Opus 5",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Claude Opus 5",
+  "article_url": "https://happyin.space/projects/claude-opus-5/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/39debc97bced53ce860989f91fc0e5a983995efe/docs/projects/claude-opus-5.md",
+  "agent_context_url": "https://happyin.space/projects/claude-opus-5/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-24",
+  "title": "Anthropic published a Claude Opus 5 news announcement",
+  "version": null,
+  "summary": "On 2026-07-24, Anthropic published an official news item whose link identifies it as relating to Claude Opus 5. The available evidence does not establish the announcement's capabilities, availability, pricing, or technical details, so this history entry records only the dated development milestone."
  }
 }
