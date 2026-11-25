@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-c2c4915336",
  "entry_type": "news",
  "category": "misc",
@@ -109,5 +109,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "marionette",
+  "thread_display": "Marionette",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Marionette",
+  "article_url": "https://happyin.space/projects/marionette/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/ea92296c741598ed68fde5a1dcb1e962e65ab905/docs/projects/marionette.md",
+  "agent_context_url": "https://happyin.space/projects/marionette/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-18",
+  "title": "Marionette public project resources were linked",
+  "version": null,
+  "summary": "On 2026-08-18, the Marionette development line was represented by links to its project page, source repository, Hugging Face model page, and hosted world-model space. This is a material public-project milestone because it connects the project’s documentation, code, model distribution, and runnable demonstration."
  }
 }

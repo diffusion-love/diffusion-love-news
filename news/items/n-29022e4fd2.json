@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-29022e4fd2",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "qwen3-8-27b-cold-fusion",
+  "thread_display": "Qwen3.8 27B Cold Fusion",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Qwen3.8-27B-Cold-Fusion",
+  "article_url": "https://happyin.space/projects/qwen3-8-27b-cold-fusion/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/07d2eafae14258821b871974eca12d792a004410/docs/projects/qwen3-8-27b-cold-fusion.md",
+  "agent_context_url": "https://happyin.space/projects/qwen3-8-27b-cold-fusion/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-20",
+  "title": "Qwen3.8-27B-Cold-Fusion GGUF artifact linked",
+  "version": null,
+  "summary": "On 2026-08-20, a Hugging Face repository link for an artifact named Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF was shared. The dated link records a distinct named artifact in the Qwen derivatives line, but does not by itself establish its technical changes, provenance, or performance."
  }
 }

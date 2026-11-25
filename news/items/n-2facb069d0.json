@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-2facb069d0",
  "entry_type": "news",
  "category": "misc",
@@ -109,5 +109,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "minimax-h3-turbo-lora",
+  "thread_display": "MiniMax H3 Turbo LoRA",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MiniMax-H3 Turbo LoRA",
+  "article_url": "https://happyin.space/projects/minimax-h3-turbo-lora/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6ee4e6c19d4e3c151d6a3d3c7ccf4052b9992531/docs/projects/minimax-h3-turbo-lora.md",
+  "agent_context_url": "https://happyin.space/projects/minimax-h3-turbo-lora/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-06",
+  "title": "MiniMax-H3 Turbo LoRA resource bundle documented",
+  "version": null,
+  "summary": "On 2026-08-06, the dated development-line entry connected a MiniMax-H3 Turbo LoRA model resource with a demo Space, a ComfyUI integration repository, and a ComfyUI-oriented model resource. This is a material step because it establishes an accessible workflow spanning model distribution, demonstration, and ComfyUI use. The linked resources alone do not establish their individual release dates, versions, authorship, or performance claims."
  }
 }

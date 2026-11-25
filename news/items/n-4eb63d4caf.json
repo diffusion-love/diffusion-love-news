@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-4eb63d4caf",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "qwen3-tts",
+  "thread_display": "Qwen3 TTS",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Qwen3-TTS release and distribution",
+  "article_url": "https://happyin.space/projects/qwen3-tts/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d3ed7711796e0688f4477693ac756579ea116db9/docs/projects/qwen3-tts.md",
+  "agent_context_url": "https://happyin.space/projects/qwen3-tts/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-06",
+  "title": "ggml-org published a GGUF distribution of Qwen3-TTS-12Hz-1.7B-Base",
+  "version": null,
+  "summary": "On 2026-08-06, the dated link recorded a GGUF distribution of Qwen3-TTS-12Hz-1.7B-Base on Hugging Face. This was a downstream distribution step rather than an upstream Qwen model release, but it materially expanded the local-runtime deployment path for the project."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-4cb69e9202",
  "entry_type": "news",
  "category": "misc",
@@ -100,5 +100,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "joyai-video-edit",
+  "thread_display": "JoyAI Video Edit",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "JoyAI-Video-Edit",
+  "article_url": "https://happyin.space/projects/joyai-video-edit/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/cf9a26884ce823eebb693dd3de2f7a70ea3862b6/docs/projects/joyai-video-edit.md",
+  "agent_context_url": "https://happyin.space/projects/joyai-video-edit/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-06",
+  "title": "JoyAI-Video-Edit public project references recorded",
+  "version": null,
+  "summary": "On 2026-08-06, JoyAI-Video-Edit was associated with public references to a GitHub repository, a Hugging Face page, and a JoyAI Labs web page. This records a visible project-development milestone, while the supplied evidence does not establish a specific release version, capability, or launch status."
  }
 }

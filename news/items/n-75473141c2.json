@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-75473141c2",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "uembed",
+  "thread_display": "UEmbed",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "UEmbed",
+  "article_url": "https://happyin.space/projects/uembed/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/eb8ca4cca0f47525cdc712c14390efd8e6b0a607/docs/projects/uembed.md",
+  "agent_context_url": "https://happyin.space/projects/uembed/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-05",
+  "title": "UEmbed public project, code, and UEmbed-9B resources were linked",
+  "version": null,
+  "summary": "On 2026-08-05, the UEmbed development line linked readers to the official project page, its GitHub source repository, and the UEmbed-9B model page on Hugging Face. The dated links establish a public-facing project-and-model availability milestone, but do not establish a specific release version, benchmark, or capability claim."
  }
 }

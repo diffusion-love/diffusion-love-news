@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-cf72a26f02",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "infinisplat",
+  "thread_display": "InfiniSplat",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "InfiniSplat",
+  "article_url": "https://happyin.space/projects/infinisplat/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/b6aad735624739d89b0de11818c6e7aeeb2f1d4b/docs/projects/infinisplat.md",
+  "agent_context_url": "https://happyin.space/projects/infinisplat/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-07",
+  "title": "InfiniSplat public project resources were documented",
+  "version": null,
+  "summary": "On 2026-08-07, InfiniSplat was documented through links to its project page, GitHub repository, and Hugging Face Space. This records a public project presence spanning project information, implementation access, and a hosted interactive surface, without establishing a specific version or feature release."
  }
 }

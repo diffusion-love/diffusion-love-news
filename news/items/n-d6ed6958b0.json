@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-d6ed6958b0",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "hunyuan3d-worldclaw",
+  "thread_display": "Hunyuan3D WorldClaw",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Hunyuan3D-WorldClaw",
+  "article_url": "https://happyin.space/projects/hunyuan3d-worldclaw/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e265c9a8dcb0a06b512d008451e1ec5b1c351a31/docs/projects/hunyuan3d-worldclaw.md",
+  "agent_context_url": "https://happyin.space/projects/hunyuan3d-worldclaw/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-10",
+  "title": "Hunyuan3D-WorldClaw project page recorded",
+  "version": null,
+  "summary": "On 2026-08-10, Hunyuan3D-WorldClaw was recorded with a link to its public project page. The sealed evidence establishes the date and project URL, but does not establish release details, capabilities, versioning, authorship, or operational status. This history entry therefore records only the dated public project-reference milestone."
  }
 }

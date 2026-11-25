@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-fe49770141",
  "entry_type": "news",
  "category": "misc",
@@ -91,5 +91,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "grok-imagine-image-2-0",
+  "thread_display": "Grok Imagine Image 2.0",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Grok Imagine Image 2.0",
+  "article_url": "https://happyin.space/projects/grok-imagine-image-2-0/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d44b2a7b0294dcff293f78e1bdc82e5c90e0c679/docs/projects/grok-imagine-image-2-0.md",
+  "agent_context_url": "https://happyin.space/projects/grok-imagine-image-2-0/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-10",
+  "title": "Grok Imagine Image 2.0 was introduced through an xAI product-news entry",
+  "version": null,
+  "summary": "On 2026-08-10, xAI associated a dated product-news entry with Grok Imagine Image 2.0 and linked readers to Grok Imagine. This is a material development step because it establishes a public product-line milestone, although the supplied evidence does not establish its capabilities, availability, or release terms."
  }
 }

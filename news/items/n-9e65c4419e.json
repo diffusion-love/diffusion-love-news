@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-9e65c4419e",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "qwen-video-edit",
+  "thread_display": "Qwen Video Edit",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Qwen-Video-Edit",
+  "article_url": "https://happyin.space/projects/qwen-video-edit/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/288a5197cb4318e63089fc2f2eb8296e17a173d2/docs/projects/qwen-video-edit.md",
+  "agent_context_url": "https://happyin.space/projects/qwen-video-edit/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-18",
+  "title": "Qwen-Video-Edit was publicly presented with project, code, and model links",
+  "version": null,
+  "summary": "On 2026-08-18, a dated Qwen-Video-Edit item linked a public project page, a GitHub repository, and a Hugging Face resource. This is a material public-development step because it connects the project to actionable public resources for evaluating and using it."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-ccb51d2a95",
  "entry_type": "news",
  "category": "misc",
@@ -91,5 +91,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "minimax-h3-fun-controlnet-union",
+  "thread_display": "MiniMax H3 Fun Controlnet Union",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MiniMax-H3-Fun-Controlnet-Union",
+  "article_url": "https://happyin.space/projects/minimax-h3-fun-controlnet-union/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/fa1e524e07eafa3d586f3bd5a62810080820b855/docs/projects/minimax-h3-fun-controlnet-union.md",
+  "agent_context_url": "https://happyin.space/projects/minimax-h3-fun-controlnet-union/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-24",
+  "title": "MiniMax H3 Fun ControlNet Union linked with a VideoX-Fun example",
+  "version": null,
+  "summary": "On 2026-08-24, a development-line message linked a Hugging Face resource named MiniMax-H3-Fun-Controlnet-Union and a VideoX-Fun example directory for MiniMax H3 Fun. This is treated as a material step because the dated links connect a named artifact with an implementation example, although their capabilities and release details were not independently researched."
  }
 }

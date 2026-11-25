@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-038f2eebc4",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "video-deepresearch",
+  "thread_display": "Video DeepResearch",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Video-DeepResearch",
+  "article_url": "https://happyin.space/projects/video-deepresearch/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/08fe68c07b7180c736c6d61574ecbdad33c4d0d2/docs/projects/video-deepresearch.md",
+  "agent_context_url": "https://happyin.space/projects/video-deepresearch/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-10",
+  "title": "Video-DeepResearch public project and source references were recorded",
+  "version": null,
+  "summary": "On 2026-08-10, the dated record linked the Video-DeepResearch project page and its GitHub repository. This is a material public reference point for the project’s development history. The supplied evidence does not establish a release, feature set, or specific code change on that date."
  }
 }

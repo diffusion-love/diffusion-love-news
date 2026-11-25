@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-f0c1036242",
  "entry_type": "news",
  "category": "misc",
@@ -91,5 +91,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "minimax-h3-x-z-image",
+  "thread_display": "MiniMax H3 x Z Image",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MiniMax-H3 x Z-Image",
+  "article_url": "https://happyin.space/projects/minimax-h3-x-z-image/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/30cd0015f7e6c800ac8b8ddb39f8d815cb1493b6/docs/projects/minimax-h3-x-z-image.md",
+  "agent_context_url": "https://happyin.space/projects/minimax-h3-x-z-image/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-24",
+  "title": "MiniMax-H3 x Z-Image native and GGUF repositories were linked",
+  "version": null,
+  "summary": "On 2026-08-24, the MiniMax-H3 x Z-Image development line was associated with Hugging Face links for a native repository and a GGUF repository. This is a material distribution step because it identifies two model-format access points, although the available record does not establish their release status, contents, or compatibility."
  }
 }
