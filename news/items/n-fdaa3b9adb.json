@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-fdaa3b9adb",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "comfyui-minimax-h3-longmedia",
+  "thread_display": "ComfyUI MiniMax H3 LongMedia",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "ComfyUI-MiniMax-H3-LongMedia",
+  "article_url": "https://happyin.space/projects/comfyui-minimax-h3-longmedia/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a5270d1ed1ee68f76a6bdcde65b9a57c92062245/docs/projects/comfyui-minimax-h3-longmedia.md",
+  "agent_context_url": "https://happyin.space/projects/comfyui-minimax-h3-longmedia/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-14",
+  "title": "ComfyUI-MiniMax-H3-LongMedia public repository reference",
+  "version": null,
+  "summary": "On 2026-08-14, the record recorded a public GitHub repository reference for ComfyUI-MiniMax-H3-LongMedia. This is a material dated point of public traceability for the project, but the available evidence does not establish the repository's contents, release status, or implementation changes on that date."
  }
 }

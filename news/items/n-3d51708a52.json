@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-3d51708a52",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "suno-studio",
+  "thread_display": "Suno Studio",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Suno Studio development",
+  "article_url": "https://happyin.space/projects/suno-studio/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6a097a88cfce65e2b39295299816fc4201a59134/docs/projects/suno-studio.md",
+  "agent_context_url": "https://happyin.space/projects/suno-studio/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-13",
+  "title": "Suno published a Studio 2 update",
+  "version": null,
+  "summary": "On 2026-08-13, the record linked to Suno's Studio 2 blog page. This is a material development milestone for the Studio line and follows the earlier waitlist-stage reference. The dated links alone do not establish the specific features, release status, or changes described in the update."
  }
 }

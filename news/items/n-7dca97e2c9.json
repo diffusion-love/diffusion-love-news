@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-7dca97e2c9",
  "entry_type": "news",
  "category": "misc",
@@ -91,5 +91,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "qwythos-27b-v1",
+  "thread_display": "Qwythos 27B v1",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Qwythos-27B-v1",
+  "article_url": "https://happyin.space/projects/qwythos-27b-v1/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/dc03c8f1555d160b8849789265fd35fe3ab30dbc/docs/projects/qwythos-27b-v1.md",
+  "agent_context_url": "https://happyin.space/projects/qwythos-27b-v1/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-03",
+  "title": "Qwythos-27B-v1 linked on Hugging Face",
+  "version": null,
+  "summary": "On 2026-08-03, a dated entry linked to the Qwythos-27B-v1 Hugging Face model page and to a Hugging Face listing associated with quantized base models. This is a material public reference point in the project's recorded development history."
  }
 }

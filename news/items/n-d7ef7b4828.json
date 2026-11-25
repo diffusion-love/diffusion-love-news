@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-d7ef7b4828",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "ouroboros",
+  "thread_display": "Ouroboros",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Ouroboros",
+  "article_url": "https://happyin.space/projects/ouroboros/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/03d9be5b28f6c8d39b52467ec856edc99db51739/docs/projects/ouroboros.md",
+  "agent_context_url": "https://happyin.space/projects/ouroboros/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-02",
+  "title": "Ouroboros public source and release reference",
+  "version": null,
+  "summary": "On 2026-08-02, an Ouroboros-related entry linked the project’s GitHub repository and its releases/latest page alongside external technical and community references. The dated link bundle records a public project-reference point, while leaving the exact release, change set, and authorship unverified."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-f8b15964ba",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "maskvidexperiments",
+  "thread_display": "MaskVidExperiments",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MaskVidExperiments",
+  "article_url": "https://happyin.space/projects/maskvidexperiments/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/2ac84b14ad48817d7cf6a88324514f70c986539f/docs/projects/maskvidexperiments.md",
+  "agent_context_url": "https://happyin.space/projects/maskvidexperiments/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-23",
+  "title": "MaskVidExperiments GitHub repository was publicly referenced",
+  "version": null,
+  "summary": "On 2026-08-23, the MaskVidExperiments development line included a link to the project's GitHub repository. This establishes a dated public reference to the project, but the supplied evidence does not identify a release, feature, or code change."
  }
 }

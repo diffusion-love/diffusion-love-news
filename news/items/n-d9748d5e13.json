@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-d9748d5e13",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "origin",
+  "thread_display": "Origin",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Origin",
+  "article_url": "https://happyin.space/projects/origin/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6d4653c82a974350383d32e5bab0cc458fd1c1a0/docs/projects/origin.md",
+  "agent_context_url": "https://happyin.space/projects/origin/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-19",
+  "title": "Origin reached a code-hosting development milestone",
+  "version": null,
+  "summary": "On 2026-08-19, Cursor’s dated changelog link identified a development item concerning code hosting for Origin. This is material to Origin’s history because it marks a named development direction, but the supplied link alone does not establish its capabilities, availability, or migration implications."
  }
 }

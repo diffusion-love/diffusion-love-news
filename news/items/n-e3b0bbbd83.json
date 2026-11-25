@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-e3b0bbbd83",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "openworker",
+  "thread_display": "OpenWorker",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "OpenWorker",
+  "article_url": "https://happyin.space/projects/openworker/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/35d653968053d62355421ddd2d9ecd5eda9f52e3/docs/projects/openworker.md",
+  "agent_context_url": "https://happyin.space/projects/openworker/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-05",
+  "title": "OpenWorker was publicly referenced through its GitHub repository",
+  "version": null,
+  "summary": "On 2026-08-05, the recorded link linked to the OpenWorker GitHub repository and to Andrew Ng’s biographical page. This establishes a dated public reference point for the project, but the available links alone do not establish a release, feature set, or operational status."
  }
 }

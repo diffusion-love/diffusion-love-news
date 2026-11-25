@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-ea26f61d82",
  "entry_type": "news",
  "category": "misc",
@@ -100,5 +100,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "huihui-qwen3-8-27b-abliterated",
+  "thread_display": "Huihui Qwen3.8 27B abliterated",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Huihui-Qwen3.8-27B-abliterated",
+  "article_url": "https://happyin.space/projects/huihui-qwen3-8-27b-abliterated/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1d5f1ed20ae683ac4de8b708abd3329ae04f6be1/docs/projects/huihui-qwen3-8-27b-abliterated.md",
+  "agent_context_url": "https://happyin.space/projects/huihui-qwen3-8-27b-abliterated/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-17",
+  "title": "Huihui-Qwen3.8-27B-abliterated became publicly available through Hugging Face",
+  "version": null,
+  "summary": "On 2026-08-17, the Huihui-Qwen3.8-27B-abliterated project was linked to a Hugging Face model page, a listing of related quantized models, and a Cowork ZeroGPU Space. Together, these dated links establish a public model artifact with related deployment or exploration paths, making this a material availability milestone in the project's history."
  }
 }

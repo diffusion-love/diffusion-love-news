@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-c3d4c31323",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "frame-extractor",
+  "thread_display": "Frame Extractor",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Frame Extractor",
+  "article_url": "https://happyin.space/projects/frame-extractor/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1cfe13c8ce6cb30881644d6258b3497ee5e0c0ea/docs/projects/frame-extractor.md",
+  "agent_context_url": "https://happyin.space/projects/frame-extractor/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-21",
+  "title": "Frame Extractor repository linked as a project development reference",
+  "version": null,
+  "summary": "On 2026-08-21, the Frame Extractor development line included a link to its GitHub repository. This establishes a dated public reference for the project, but the available evidence does not identify a specific release, feature, change, or operational capability."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-0ad60b8778",
  "entry_type": "news",
  "category": "misc",
@@ -118,5 +118,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "nvidia-nemotron",
+  "thread_display": "Nvidia Nemotron",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Nemotron 3.5 Lightning",
+  "article_url": "https://happyin.space/projects/nvidia-nemotron/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/dda7a45b6794effcbc3ba8bb144f60d709d74fa8/docs/projects/nvidia-nemotron.md",
+  "agent_context_url": "https://happyin.space/projects/nvidia-nemotron/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-12",
+  "title": "Nemotron 3.5 Lightning public model and playground resources surfaced",
+  "version": null,
+  "summary": "On 2026-08-12, the Nemotron 3.5 Lightning development line was documented through public links to its NVIDIA Hugging Face model pages, related model search results, and NVIDIA’s hosted playground. The same set of links connected the line to the NVIDIA-NeMo Switchyard repository and a DSpark variant, showing its public distribution and associated tooling at that point in the history."
  }
 }

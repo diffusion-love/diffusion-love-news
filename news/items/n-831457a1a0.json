@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-831457a1a0",
  "entry_type": "news",
  "category": "misc",
@@ -109,5 +109,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "nvidia-cmd",
+  "thread_display": "Nvidia Cmd",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Context-Matched Distillation",
+  "article_url": "https://happyin.space/projects/nvidia-cmd/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/7c79505705aaea11a548356ed3150d8dc1d76745/docs/projects/nvidia-cmd.md",
+  "agent_context_url": "https://happyin.space/projects/nvidia-cmd/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-21",
+  "title": "Context-Matched Distillation resources published",
+  "version": null,
+  "summary": "On 2026-08-21, Context-Matched Distillation (CMD) was presented through linked project, code, model, and image-to-video demo resources. The links indicate a concrete public development step: the project could be examined through its website, GitHub repository, Hugging Face model page, and demo."
  }
 }

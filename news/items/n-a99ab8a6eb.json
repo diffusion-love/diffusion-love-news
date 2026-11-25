@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-a99ab8a6eb",
  "entry_type": "news",
  "category": "misc",
@@ -118,5 +118,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "qwen3-8-flash-next",
+  "thread_display": "Qwen3.8 Flash Next",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Qwen3.8-Flash-Next",
+  "article_url": "https://happyin.space/projects/qwen3-8-flash-next/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8e085c151ff88031bf92a152dec3832cd18c4a78/docs/projects/qwen3-8-flash-next.md",
+  "agent_context_url": "https://happyin.space/projects/qwen3-8-flash-next/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-26",
+  "title": "Qwen3.8-Flash-Next project resources were documented",
+  "version": null,
+  "summary": "On 2026-08-26, Qwen3.8-Flash-Next was recorded with links to a project repository, Hugging Face resources, a public demo, and Qwen Cloud. The dated link set also included a Hugging Face search for quantized models based on this subject. This establishes a public project-resource milestone, without establishing a release date, capabilities, or deployment status."
  }
 }

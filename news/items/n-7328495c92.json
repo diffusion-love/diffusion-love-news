@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-7328495c92",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "comfyui-orbitsheets",
+  "thread_display": "Comfyui Orbitsheets",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "OrbitSheets",
+  "article_url": "https://happyin.space/projects/comfyui-orbitsheets/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/3de634c613cdb172e19438fa768c70155143bc39/docs/projects/comfyui-orbitsheets.md",
+  "agent_context_url": "https://happyin.space/projects/comfyui-orbitsheets/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-17",
+  "title": "OrbitSheets GitHub repository linked in the development thread",
+  "version": null,
+  "summary": "On 2026-08-17, the recorded link in the OrbitSheets development thread linked to the project's GitHub repository. This establishes a dated public reference to the source location, but the provided evidence does not identify a release, feature, or other implementation milestone."
  }
 }

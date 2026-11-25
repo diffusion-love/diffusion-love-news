@@ -173,7 +173,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-06",
         "title": "3DGS-PLY-3DTiles-Converter source repository and public site recorded",
         "summary": "On 2026-08-06, 3DGS-PLY-3DTiles-Converter was recorded with a GitHub source repository and a public Vercel site. This establishes a dated public reference point for the project, without asserting a specific release, feature, or launch event.",
@@ -203,7 +203,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "3dgs-ply-3dtiles-converter",
+        "display": "3DGS PLY 3DTiles Converter",
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-06",
+        "latest_news_id": "n-8719519a69",
+        "news_ids": [
+          "n-8719519a69"
+        ]
+      }
+    ]
   },
   "3dreambooth": {
     "family_slug": "3dreambooth",
@@ -15787,7 +15799,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-14",
         "title": "ComfyUI-MiniMax-H3-LongMedia public repository reference",
         "summary": "On 2026-08-14, the record recorded a public GitHub repository reference for ComfyUI-MiniMax-H3-LongMedia. This is a material dated point of public traceability for the project, but the available evidence does not establish the repository's contents, release status, or implementation changes on that date.",
@@ -15817,7 +15829,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "comfyui-minimax-h3-longmedia",
+        "display": "ComfyUI MiniMax H3 LongMedia",
+        "first_seen": "2026-08-14",
+        "last_seen": "2026-08-14",
+        "latest_news_id": "n-fdaa3b9adb",
+        "news_ids": [
+          "n-fdaa3b9adb"
+        ]
+      }
+    ]
   },
   "comfyui-minimaxh3-latentupscaler": {
     "family_slug": "comfyui-minimaxh3-latentupscaler",
@@ -15993,7 +16017,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-12",
         "title": "ComfyUI Mobile Frontend public references were shared",
         "summary": "On 2026-08-12, the ComfyUI Mobile Frontend development line was linked to its GitHub repository and the Cueforge website. This creates a dated public reference point for the project, although the supplied evidence does not establish a release, feature set, or other specific milestone.",
@@ -16023,7 +16047,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "comfyui-mobile-frontend",
+        "display": "ComfyUI Mobile Frontend",
+        "first_seen": "2026-08-12",
+        "last_seen": "2026-08-12",
+        "latest_news_id": "n-2e764207bd",
+        "news_ids": [
+          "n-2e764207bd"
+        ]
+      }
+    ]
   },
   "comfyui-model-installer": {
     "family_slug": "comfyui-model-installer",
@@ -16487,7 +16523,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-17",
         "title": "OrbitSheets GitHub repository linked in the development thread",
         "summary": "On 2026-08-17, the recorded link in the OrbitSheets development thread linked to the project's GitHub repository. This establishes a dated public reference to the source location, but the provided evidence does not identify a release, feature, or other implementation milestone.",
@@ -16517,7 +16553,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "comfyui-orbitsheets",
+        "display": "Comfyui Orbitsheets",
+        "first_seen": "2026-08-17",
+        "last_seen": "2026-08-17",
+        "latest_news_id": "n-7328495c92",
+        "news_ids": [
+          "n-7328495c92"
+        ]
+      }
+    ]
   },
   "comfyui-photopea": {
     "family_slug": "comfyui-photopea",
@@ -17382,7 +17430,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-07",
         "title": "ComfyUI Sol-Attn implementations for Blackwell and Triton were linked",
         "summary": "On 2026-08-07, a project update linked two separate ComfyUI Sol-Attn codebases: one identified for Blackwell and one identified for Triton. This is a material development step because it records the availability of implementation paths for distinct execution environments, without establishing their maturity, compatibility, or performance.",
@@ -17411,7 +17459,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "comfyui-sol-attn",
+        "display": "ComfyUI Sol Attn",
+        "first_seen": "2026-08-07",
+        "last_seen": "2026-08-07",
+        "latest_news_id": "n-3f0a9c0170",
+        "news_ids": [
+          "n-3f0a9c0170"
+        ]
+      }
+    ]
   },
   "comfyui-spectrum-minimax-h3": {
     "family_slug": "comfyui-spectrum-minimax-h3",
@@ -17889,7 +17949,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-05",
         "title": "ComfyUI Video Tiler repository was referenced",
         "summary": "On 2026-08-05, the recorded link referenced the GitHub repository for ComfyUI Video Tiler. This records the dated public reference to the project only; the sealed evidence does not establish a release, version, feature set, or installation guidance.",
@@ -17919,7 +17979,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "comfyui-video-tiler",
+        "display": "ComfyUI Video Tiler",
+        "first_seen": "2026-08-05",
+        "last_seen": "2026-08-05",
+        "latest_news_id": "n-c16d03e2b0",
+        "news_ids": [
+          "n-c16d03e2b0"
+        ]
+      }
+    ]
   },
   "command-a-plus": {
     "family_slug": "command-a-plus",
@@ -25691,7 +25763,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-18",
         "title": "Dated public references for EVIE-Preview-4.5B",
         "summary": "On 2026-08-18, a dated post linked the GitHub repository and Hugging Face page for EVIE-Preview-4.5B. The paired project references establish a public discovery point for this development line. The supplied evidence does not establish the model's capabilities, contents, release status, or licensing.",
@@ -25721,7 +25793,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "evie-preview-4-5b",
+        "display": "EVIE Preview 4.5B",
+        "first_seen": "2026-08-18",
+        "last_seen": "2026-08-18",
+        "latest_news_id": "n-0f55e4f6a1",
+        "news_ids": [
+          "n-0f55e4f6a1"
+        ]
+      }
+    ]
   },
   "evoke": {
     "family_slug": "evoke",
@@ -29145,7 +29229,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-21",
         "title": "Black Forest Labs introduced FLUX Video Upscale",
         "summary": "On 2026-08-21, Black Forest Labs linked an official blog announcement, product documentation, and a playground model for FLUX Video Upscale. This is a material development step because the dated official links establish the product’s public introduction. The supplied links alone do not establish its detailed capabilities, availability, pricing, or performance.",
@@ -29175,7 +29259,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "flux-video-upscale",
+        "display": "FLUX Video Upscale",
+        "first_seen": "2026-08-21",
+        "last_seen": "2026-08-21",
+        "latest_news_id": "n-1a1b209e8f",
+        "news_ids": [
+          "n-1a1b209e8f"
+        ]
+      }
+    ]
   },
   "flux2-klein": {
     "family_slug": "flux2-klein",
@@ -29707,7 +29803,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-21",
         "title": "Frame Extractor repository linked as a project development reference",
         "summary": "On 2026-08-21, the Frame Extractor development line included a link to its GitHub repository. This establishes a dated public reference for the project, but the available evidence does not identify a specific release, feature, change, or operational capability.",
@@ -29736,7 +29832,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "frame-extractor",
+        "display": "Frame Extractor",
+        "first_seen": "2026-08-21",
+        "last_seen": "2026-08-21",
+        "latest_news_id": "n-c3d4c31323",
+        "news_ids": [
+          "n-c3d4c31323"
+        ]
+      }
+    ]
   },
   "freepik-seedance": {
     "family_slug": "freepik-seedance",
@@ -37052,7 +37160,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-10",
         "title": "Grok Imagine Image 2.0 was introduced through an xAI product-news entry",
         "summary": "On 2026-08-10, xAI associated a dated product-news entry with Grok Imagine Image 2.0 and linked readers to Grok Imagine. This is a material development step because it establishes a public product-line milestone, although the supplied evidence does not establish its capabilities, availability, or release terms.",
@@ -37082,7 +37190,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "grok-imagine-image-2-0",
+        "display": "Grok Imagine Image 2.0",
+        "first_seen": "2026-08-10",
+        "last_seen": "2026-08-10",
+        "latest_news_id": "n-fe49770141",
+        "news_ids": [
+          "n-fe49770141"
+        ]
+      }
+    ]
   },
   "grok-imagine-video": {
     "family_slug": "grok-imagine-video",
@@ -40978,7 +41098,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-17",
         "title": "Huihui-Qwen3.8-27B-abliterated became publicly available through Hugging Face",
         "summary": "On 2026-08-17, the Huihui-Qwen3.8-27B-abliterated project was linked to a Hugging Face model page, a listing of related quantized models, and a Cowork ZeroGPU Space. Together, these dated links establish a public model artifact with related deployment or exploration paths, making this a material availability milestone in the project's history.",
@@ -41008,7 +41128,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "huihui-qwen3-8-27b-abliterated",
+        "display": "Huihui Qwen3.8 27B abliterated",
+        "first_seen": "2026-08-17",
+        "last_seen": "2026-08-17",
+        "latest_news_id": "n-ea26f61d82",
+        "news_ids": [
+          "n-ea26f61d82"
+        ]
+      }
+    ]
   },
   "hunyuan": {
     "family_slug": "hunyuan",
@@ -41635,7 +41767,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-10",
         "title": "Hunyuan3D-WorldClaw project page recorded",
         "summary": "On 2026-08-10, Hunyuan3D-WorldClaw was recorded with a link to its public project page. The sealed evidence establishes the date and project URL, but does not establish release details, capabilities, versioning, authorship, or operational status. This history entry therefore records only the dated public project-reference milestone.",
@@ -41665,7 +41797,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "hunyuan3d-worldclaw",
+        "display": "Hunyuan3D WorldClaw",
+        "first_seen": "2026-08-10",
+        "last_seen": "2026-08-10",
+        "latest_news_id": "n-d6ed6958b0",
+        "news_ids": [
+          "n-d6ed6958b0"
+        ]
+      }
+    ]
   },
   "hy-mt": {
     "family_slug": "hy-mt",
@@ -44200,7 +44344,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-07",
         "title": "InfiniSplat public project resources were documented",
         "summary": "On 2026-08-07, InfiniSplat was documented through links to its project page, GitHub repository, and Hugging Face Space. This records a public project presence spanning project information, implementation access, and a hosted interactive surface, without establishing a specific version or feature release.",
@@ -44229,7 +44373,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "infinisplat",
+        "display": "InfiniSplat",
+        "first_seen": "2026-08-07",
+        "last_seen": "2026-08-07",
+        "latest_news_id": "n-cf72a26f02",
+        "news_ids": [
+          "n-cf72a26f02"
+        ]
+      }
+    ]
   },
   "infinityedit": {
     "family_slug": "infinityedit",
@@ -44416,7 +44572,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-16",
         "title": "Inline Studio published the v1.2.71 release",
         "summary": "On 2026-08-16, Inline Studio published its GitHub release v1.2.71. The dated evidence also linked the project’s characters page, establishing a versioned development checkpoint but not the release’s specific contents.",
@@ -44446,7 +44602,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "inline-studio",
+        "display": "Inline Studio",
+        "first_seen": "2026-08-16",
+        "last_seen": "2026-08-16",
+        "latest_news_id": "n-196adf34af",
+        "news_ids": [
+          "n-196adf34af"
+        ]
+      }
+    ]
   },
   "insid3": {
     "family_slug": "insid3",
@@ -45476,7 +45644,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-06",
         "title": "JoyAI-Video-Edit public project references recorded",
         "summary": "On 2026-08-06, JoyAI-Video-Edit was associated with public references to a GitHub repository, a Hugging Face page, and a JoyAI Labs web page. This records a visible project-development milestone, while the supplied evidence does not establish a specific release version, capability, or launch status.",
@@ -45506,7 +45674,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "joyai-video-edit",
+        "display": "JoyAI Video Edit",
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-06",
+        "latest_news_id": "n-4cb69e9202",
+        "news_ids": [
+          "n-4cb69e9202"
+        ]
+      }
+    ]
   },
   "joyai-vl-interaction": {
     "family_slug": "joyai-vl-interaction",
@@ -49279,7 +49459,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-13",
         "title": "Beyond Pixels project and source repository were recorded",
         "summary": "On 2026-08-13, the Latent-to-4D development line recorded links to the Beyond Pixels project page and its source repository. This is a material project milestone because it establishes a public project artifact together with an implementation location.",
@@ -49309,7 +49489,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "latent-to-4d",
+        "display": "Latent to 4D",
+        "first_seen": "2026-08-13",
+        "last_seen": "2026-08-13",
+        "latest_news_id": "n-b8afea4624",
+        "news_ids": [
+          "n-b8afea4624"
+        ]
+      }
+    ]
   },
   "latentspatialmemory": {
     "family_slug": "latentspatialmemory",
@@ -50048,7 +50240,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-04",
         "title": "Liquid AI published the LFM2.5-2.6B model line",
         "summary": "On 2026-08-04, Liquid AI linked a blog entry and Hugging Face resources for LFM2.5-2.6B. The linked resources included the model page, quantized-model discovery, a WebGPU space, and a playground, marking a public availability step for this model line.",
@@ -50078,7 +50270,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "lfm2-5-2-6b",
+        "display": "LFM2.5 2.6B",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "latest_news_id": "n-c46744cf6a",
+        "news_ids": [
+          "n-c46744cf6a"
+        ]
+      }
+    ]
   },
   "lfm2-5-vl-3b": {
     "family_slug": "lfm2-5-vl-3b",
@@ -54306,7 +54510,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-11",
         "title": "LTX-2.5 official model and application links were shared",
         "summary": "On 2026-08-11, a dated item in the LTX Video thread linked to the official LTX-2.5 model page and the LTX application. This is a material development-line marker because it identifies a specific LTX-2.5 model and its official access path. The available evidence does not establish whether this was a launch, an update, or a change in availability.",
@@ -54336,7 +54540,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "ltx-2-5",
+        "display": "LTX 2.5",
+        "first_seen": "2026-08-11",
+        "last_seen": "2026-08-11",
+        "latest_news_id": "n-75171cd2c8",
+        "news_ids": [
+          "n-75171cd2c8"
+        ]
+      }
+    ]
   },
   "ltx-2-caption-tool": {
     "family_slug": "ltx-2-caption-tool",
@@ -56487,7 +56703,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-07",
         "title": "Sand AI published MAGI-2 preview materials",
         "summary": "On 2026-08-07, Sand AI made MAGI-2 preview materials available through a blog page, source repository, model page, and API documentation link. This is a material public-development step because it establishes a dated preview presence across implementation, model-distribution, and integration channels. The sealed links alone do not establish the preview's detailed capabilities, availability, or terms.",
@@ -56517,7 +56733,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "magi-2",
+        "display": "MAGI 2",
+        "first_seen": "2026-08-07",
+        "last_seen": "2026-08-07",
+        "latest_news_id": "n-dd148acbc4",
+        "news_ids": [
+          "n-dd148acbc4"
+        ]
+      }
+    ]
   },
   "magicmakeup": {
     "family_slug": "magicmakeup",
@@ -57454,7 +57682,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-18",
         "title": "Marionette public project resources were linked",
         "summary": "On 2026-08-18, the Marionette development line was represented by links to its project page, source repository, Hugging Face model page, and hosted world-model space. This is a material public-project milestone because it connects the project’s documentation, code, model distribution, and runnable demonstration.",
@@ -57484,7 +57712,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "marionette",
+        "display": "Marionette",
+        "first_seen": "2026-08-18",
+        "last_seen": "2026-08-18",
+        "latest_news_id": "n-c2c4915336",
+        "news_ids": [
+          "n-c2c4915336"
+        ]
+      }
+    ]
   },
   "marlin-2b": {
     "family_slug": "marlin-2b",
@@ -57659,7 +57899,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-23",
         "title": "MaskVidExperiments GitHub repository was publicly referenced",
         "summary": "On 2026-08-23, the MaskVidExperiments development line included a link to the project's GitHub repository. This establishes a dated public reference to the project, but the supplied evidence does not identify a release, feature, or code change.",
@@ -57688,7 +57928,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "maskvidexperiments",
+        "display": "MaskVidExperiments",
+        "first_seen": "2026-08-23",
+        "last_seen": "2026-08-23",
+        "latest_news_id": "n-f8b15964ba",
+        "news_ids": [
+          "n-f8b15964ba"
+        ]
+      }
+    ]
   },
   "match": {
     "family_slug": "match",
@@ -57875,7 +58127,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-11",
         "title": "MatrAIx Persona 8B was publicly referenced with a visual playground quickstart",
         "summary": "On 2026-08-11, a dated public reference tied MatrAIx to its website, the MatrAIx-Persona-8B repository, and a quickstart section for a visual playground. This establishes a public project and usage-documentation entry point for Persona 8B by that date. The supplied links alone do not establish a specific release date, model capability, or code change.",
@@ -57904,7 +58156,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "matraix",
+        "display": "MatrAIx",
+        "first_seen": "2026-08-11",
+        "last_seen": "2026-08-11",
+        "latest_news_id": "n-75510d5219",
+        "news_ids": [
+          "n-75510d5219"
+        ]
+      }
+    ]
   },
   "matrix-game": {
     "family_slug": "matrix-game",
@@ -60672,7 +60936,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-24",
         "title": "MiniMax H3 Fun ControlNet Union linked with a VideoX-Fun example",
         "summary": "On 2026-08-24, a development-line message linked a Hugging Face resource named MiniMax-H3-Fun-Controlnet-Union and a VideoX-Fun example directory for MiniMax H3 Fun. This is treated as a material step because the dated links connect a named artifact with an implementation example, although their capabilities and release details were not independently researched.",
@@ -60702,7 +60966,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "minimax-h3-fun-controlnet-union",
+        "display": "MiniMax H3 Fun Controlnet Union",
+        "first_seen": "2026-08-24",
+        "last_seen": "2026-08-24",
+        "latest_news_id": "n-ccb51d2a95",
+        "news_ids": [
+          "n-ccb51d2a95"
+        ]
+      }
+    ]
   },
   "minimax-h3-turbo-lora": {
     "family_slug": "minimax-h3-turbo-lora",
@@ -60805,7 +61081,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-06",
         "title": "MiniMax-H3 Turbo LoRA resource bundle documented",
         "summary": "On 2026-08-06, the dated development-line entry connected a MiniMax-H3 Turbo LoRA model resource with a demo Space, a ComfyUI integration repository, and a ComfyUI-oriented model resource. This is a material step because it establishes an accessible workflow spanning model distribution, demonstration, and ComfyUI use. The linked resources alone do not establish their individual release dates, versions, authorship, or performance claims.",
@@ -60835,7 +61111,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "minimax-h3-turbo-lora",
+        "display": "MiniMax H3 Turbo LoRA",
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-06",
+        "latest_news_id": "n-2facb069d0",
+        "news_ids": [
+          "n-2facb069d0"
+        ]
+      }
+    ]
   },
   "minimax-h3-x-z-image": {
     "family_slug": "minimax-h3-x-z-image",
@@ -60914,7 +61202,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-24",
         "title": "MiniMax-H3 x Z-Image native and GGUF repositories were linked",
         "summary": "On 2026-08-24, the MiniMax-H3 x Z-Image development line was associated with Hugging Face links for a native repository and a GGUF repository. This is a material distribution step because it identifies two model-format access points, although the available record does not establish their release status, contents, or compatibility.",
@@ -60944,7 +61232,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "minimax-h3-x-z-image",
+        "display": "MiniMax H3 x Z Image",
+        "first_seen": "2026-08-24",
+        "last_seen": "2026-08-24",
+        "latest_news_id": "n-f0c1036242",
+        "news_ids": [
+          "n-f0c1036242"
+        ]
+      }
+    ]
   },
   "minimax-m3": {
     "family_slug": "minimax-m3",
@@ -61427,7 +61727,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-23",
         "title": "MiniMax Music 3 Latent Refiner v0.10 was linked on Hugging Face",
         "summary": "On 2026-08-23, a Hugging Face link for BornSaint/minimax-music3-latent-refiner-v0.10 was recorded. The versioned artifact link indicates a concrete v0.10 step in the MiniMax Music 3 Latent Refiner development line, although its capabilities and changes were not established from the available evidence.",
@@ -61457,7 +61757,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "minimax-music3-latent-refiner",
+        "display": "Minimax Music3 Latent Refiner",
+        "first_seen": "2026-08-23",
+        "last_seen": "2026-08-23",
+        "latest_news_id": "n-37729ce27a",
+        "news_ids": [
+          "n-37729ce27a"
+        ]
+      }
+    ]
   },
   "minimax-music3-studio": {
     "family_slug": "minimax-music3-studio",
@@ -66745,7 +67057,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-21",
         "title": "Context-Matched Distillation resources published",
         "summary": "On 2026-08-21, Context-Matched Distillation (CMD) was presented through linked project, code, model, and image-to-video demo resources. The links indicate a concrete public development step: the project could be examined through its website, GitHub repository, Hugging Face model page, and demo.",
@@ -66775,7 +67087,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "nvidia-cmd",
+        "display": "Nvidia Cmd",
+        "first_seen": "2026-08-21",
+        "last_seen": "2026-08-21",
+        "latest_news_id": "n-831457a1a0",
+        "news_ids": [
+          "n-831457a1a0"
+        ]
+      }
+    ]
   },
   "nvidia-cosmos": {
     "family_slug": "nvidia-cosmos",
@@ -67229,7 +67553,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-12",
         "title": "Nemotron 3.5 Lightning public model and playground resources surfaced",
         "summary": "On 2026-08-12, the Nemotron 3.5 Lightning development line was documented through public links to its NVIDIA Hugging Face model pages, related model search results, and NVIDIA’s hosted playground. The same set of links connected the line to the NVIDIA-NeMo Switchyard repository and a DSpark variant, showing its public distribution and associated tooling at that point in the history.",
@@ -67259,7 +67583,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "nvidia-nemotron",
+        "display": "Nvidia Nemotron",
+        "first_seen": "2026-08-12",
+        "last_seen": "2026-08-12",
+        "latest_news_id": "n-0ad60b8778",
+        "news_ids": [
+          "n-0ad60b8778"
+        ]
+      }
+    ]
   },
   "nvidia-ntc": {
     "family_slug": "nvidia-ntc",
@@ -71693,7 +72029,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-05",
         "title": "OpenWorker was publicly referenced through its GitHub repository",
         "summary": "On 2026-08-05, the recorded link linked to the OpenWorker GitHub repository and to Andrew Ng’s biographical page. This establishes a dated public reference point for the project, but the available links alone do not establish a release, feature set, or operational status.",
@@ -71722,7 +72058,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "openworker",
+        "display": "OpenWorker",
+        "first_seen": "2026-08-05",
+        "last_seen": "2026-08-05",
+        "latest_news_id": "n-e3b0bbbd83",
+        "news_ids": [
+          "n-e3b0bbbd83"
+        ]
+      }
+    ]
   },
   "orchestra-o1": {
     "family_slug": "orchestra-o1",
@@ -71910,7 +72258,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-19",
         "title": "Origin reached a code-hosting development milestone",
         "summary": "On 2026-08-19, Cursor’s dated changelog link identified a development item concerning code hosting for Origin. This is material to Origin’s history because it marks a named development direction, but the supplied link alone does not establish its capabilities, availability, or migration implications.",
@@ -71940,7 +72288,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "origin",
+        "display": "Origin",
+        "first_seen": "2026-08-19",
+        "last_seen": "2026-08-19",
+        "latest_news_id": "n-d9748d5e13",
+        "news_ids": [
+          "n-d9748d5e13"
+        ]
+      }
+    ]
   },
   "ornith-1-5": {
     "family_slug": "ornith-1-5",
@@ -72019,7 +72379,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-20",
         "title": "Ornith-1.5 release page and model collection were linked",
         "summary": "On 2026-08-20, an Ornith thread member linked an Ornith-1.5 page and an Ornith AI Hugging Face collection. These release-specific resources indicate a concrete distribution milestone for the project and should appear as a new history event. The available evidence does not establish any capabilities, model variants, benchmarks, or other release details.",
@@ -72049,7 +72409,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "ornith-1-5",
+        "display": "Ornith 1.5",
+        "first_seen": "2026-08-20",
+        "last_seen": "2026-08-20",
+        "latest_news_id": "n-ad1e6a3d0c",
+        "news_ids": [
+          "n-ad1e6a3d0c"
+        ]
+      }
+    ]
   },
   "ouroboros": {
     "family_slug": "ouroboros",
@@ -72140,7 +72512,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-02",
         "title": "Ouroboros public source and release reference",
         "summary": "On 2026-08-02, an Ouroboros-related entry linked the project’s GitHub repository and its releases/latest page alongside external technical and community references. The dated link bundle records a public project-reference point, while leaving the exact release, change set, and authorship unverified.",
@@ -72169,7 +72541,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "ouroboros",
+        "display": "Ouroboros",
+        "first_seen": "2026-08-02",
+        "last_seen": "2026-08-02",
+        "latest_news_id": "n-d7ef7b4828",
+        "news_ids": [
+          "n-d7ef7b4828"
+        ]
+      }
+    ]
   },
   "ovisocr2": {
     "family_slug": "ovisocr2",
@@ -73017,7 +73401,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-03",
         "title": "pdf-inspector repository linked in the Firecrawl thread",
         "summary": "On 2026-08-03, the pdf-inspector GitHub repository was linked in the Firecrawl thread. This is a material historical reference because it identifies the project’s source repository at that date. The available evidence does not establish a release, feature change, or project maturity.",
@@ -73046,7 +73430,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "pdf-inspector",
+        "display": "pdf inspector",
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-08-03",
+        "latest_news_id": "n-4514941672",
+        "news_ids": [
+          "n-4514941672"
+        ]
+      }
+    ]
   },
   "pearl": {
     "family_slug": "pearl",
@@ -77762,7 +78158,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-04",
         "title": "On 2026-08-04, QuerySplat was linked through its project site, GitHub repository, and Hugging Face page.",
         "summary": "On 2026-08-04, the dated record connected QuerySplat with a public project website, a GitHub repository, and a Hugging Face page. This is a material public-development milestone because it establishes linked project resources, but the available evidence does not support claims about a release version, functionality, or results.",
@@ -77791,7 +78187,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "querysplat",
+        "display": "QuerySplat",
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-08-04",
+        "latest_news_id": "n-7bd01d988c",
+        "news_ids": [
+          "n-7bd01d988c"
+        ]
+      }
+    ]
   },
   "quickmagic": {
     "family_slug": "quickmagic",
@@ -80542,7 +80950,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-10",
         "title": "Qwen-MM-Plugins repository referenced",
         "summary": "On 2026-08-10, the Qwen-MM-Plugins GitHub repository was referenced in the Qwen thread. The sealed evidence provides only the date and repository link, so this records the project repository reference without asserting a release, feature, or model change.",
@@ -80572,7 +80980,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "qwen-mm-plugins",
+        "display": "Qwen MM Plugins",
+        "first_seen": "2026-08-10",
+        "last_seen": "2026-08-10",
+        "latest_news_id": "n-32fda16502",
+        "news_ids": [
+          "n-32fda16502"
+        ]
+      }
+    ]
   },
   "qwen-video-edit": {
     "family_slug": "qwen-video-edit",
@@ -80663,7 +81083,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-18",
         "title": "Qwen-Video-Edit was publicly presented with project, code, and model links",
         "summary": "On 2026-08-18, a dated Qwen-Video-Edit item linked a public project page, a GitHub repository, and a Hugging Face resource. This is a material public-development step because it connects the project to actionable public resources for evaluating and using it.",
@@ -80692,7 +81112,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "qwen-video-edit",
+        "display": "Qwen Video Edit",
+        "first_seen": "2026-08-18",
+        "last_seen": "2026-08-18",
+        "latest_news_id": "n-9e65c4419e",
+        "news_ids": [
+          "n-9e65c4419e"
+        ]
+      }
+    ]
   },
   "qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf": {
     "family_slug": "qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
@@ -81170,7 +81602,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-20",
         "title": "Qwen3.8-27B-Cold-Fusion GGUF artifact linked",
         "summary": "On 2026-08-20, a Hugging Face repository link for an artifact named Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF was shared. The dated link records a distinct named artifact in the Qwen derivatives line, but does not by itself establish its technical changes, provenance, or performance.",
@@ -81200,7 +81632,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "qwen3-8-27b-cold-fusion",
+        "display": "Qwen3.8 27B Cold Fusion",
+        "first_seen": "2026-08-20",
+        "last_seen": "2026-08-20",
+        "latest_news_id": "n-29022e4fd2",
+        "news_ids": [
+          "n-29022e4fd2"
+        ]
+      }
+    ]
   },
   "qwen3-8-27b-uncensored": {
     "family_slug": "qwen3-8-27b-uncensored",
@@ -81509,7 +81953,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-26",
         "title": "Qwen3.8-Flash-Next project resources were documented",
         "summary": "On 2026-08-26, Qwen3.8-Flash-Next was recorded with links to a project repository, Hugging Face resources, a public demo, and Qwen Cloud. The dated link set also included a Hugging Face search for quantized models based on this subject. This establishes a public project-resource milestone, without establishing a release date, capabilities, or deployment status.",
@@ -81539,7 +81983,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "qwen3-8-flash-next",
+        "display": "Qwen3.8 Flash Next",
+        "first_seen": "2026-08-26",
+        "last_seen": "2026-08-26",
+        "latest_news_id": "n-a99ab8a6eb",
+        "news_ids": [
+          "n-a99ab8a6eb"
+        ]
+      }
+    ]
   },
   "qwen3-8-max": {
     "family_slug": "qwen3-8-max",
@@ -81800,7 +82256,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-06",
         "title": "ggml-org published a GGUF distribution of Qwen3-TTS-12Hz-1.7B-Base",
         "summary": "On 2026-08-06, the dated link recorded a GGUF distribution of Qwen3-TTS-12Hz-1.7B-Base on Hugging Face. This was a downstream distribution step rather than an upstream Qwen model release, but it materially expanded the local-runtime deployment path for the project.",
@@ -81830,7 +82286,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "qwen3-tts",
+        "display": "Qwen3 TTS",
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-06",
+        "latest_news_id": "n-4eb63d4caf",
+        "news_ids": [
+          "n-4eb63d4caf"
+        ]
+      }
+    ]
   },
   "qwopus3-5-9b-coder": {
     "family_slug": "qwopus3-5-9b-coder",
@@ -82236,7 +82704,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-03",
         "title": "Qwythos-27B-v1 linked on Hugging Face",
         "summary": "On 2026-08-03, a dated entry linked to the Qwythos-27B-v1 Hugging Face model page and to a Hugging Face listing associated with quantized base models. This is a material public reference point in the project's recorded development history.",
@@ -82266,7 +82734,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "qwythos-27b-v1",
+        "display": "Qwythos 27B v1",
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-08-03",
+        "latest_news_id": "n-7dca97e2c9",
+        "news_ids": [
+          "n-7dca97e2c9"
+        ]
+      }
+    ]
   },
   "qwythos-9b-claude-mythos-5": {
     "family_slug": "qwythos-9b-claude-mythos-5",
@@ -87556,7 +88036,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-14",
         "title": "SCoPE project resources were linked",
         "summary": "On 2026-08-14, a SCoPE record linked its project site, TencentARC source repository, and Hugging Face page. Together, these links provided public entry points for project information, source code, and model-hosting materials. They do not establish a release date, version, authorship, or capabilities.",
@@ -87585,7 +88065,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "scope",
+        "display": "SCoPE",
+        "first_seen": "2026-08-14",
+        "last_seen": "2026-08-14",
+        "latest_news_id": "n-cf8c575ede",
+        "news_ids": [
+          "n-cf8c575ede"
+        ]
+      }
+    ]
   },
   "sdxs": {
     "family_slug": "sdxs",
@@ -88770,7 +89262,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-06",
         "title": "SeedRealtime release announcement",
         "summary": "On 2026-08-06, a public link associated SeedRealtime with a release announcement. The URL indicates that the announced work concerns an audio-visual, full-duplex large language model. This is a material public development milestone for the project, although its specific capabilities and availability are not verified in this page.",
@@ -88799,7 +89291,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "seedrealtime",
+        "display": "SeedRealtime",
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-06",
+        "latest_news_id": "n-af01bc34de",
+        "news_ids": [
+          "n-af01bc34de"
+        ]
+      }
+    ]
   },
   "seedream-5-pro": {
     "family_slug": "seedream-5-pro",
@@ -91430,7 +91934,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-03",
         "title": "Sol-Attn project page and implementation branch referenced",
         "summary": "On 2026-08-03, a message in the sana thread linked the Sol-Attn project page and the NVlabs/Sana `sol-engine` branch. Together, those references mark a publicly documented development step for the Sol-Attn project that should be reviewed for inclusion in its history. The available evidence does not establish whether the date was an announcement, release, or code update.",
@@ -91460,7 +91964,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "sol-attn",
+        "display": "Sol Attn",
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-08-03",
+        "latest_news_id": "n-aefede82fd",
+        "news_ids": [
+          "n-aefede82fd"
+        ]
+      }
+    ]
   },
   "solar-open-2": {
     "family_slug": "solar-open-2",
@@ -94818,7 +95334,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-13",
         "title": "Suno published a Studio 2 update",
         "summary": "On 2026-08-13, the record linked to Suno's Studio 2 blog page. This is a material development milestone for the Studio line and follows the earlier waitlist-stage reference. The dated links alone do not establish the specific features, release status, or changes described in the update.",
@@ -94848,7 +95364,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "suno-studio",
+        "display": "Suno Studio",
+        "first_seen": "2026-08-13",
+        "last_seen": "2026-08-13",
+        "latest_news_id": "n-3d51708a52",
+        "news_ids": [
+          "n-3d51708a52"
+        ]
+      }
+    ]
   },
   "superset": {
     "family_slug": "superset",
@@ -99017,7 +99545,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-05",
         "title": "UEmbed public project, code, and UEmbed-9B resources were linked",
         "summary": "On 2026-08-05, the UEmbed development line linked readers to the official project page, its GitHub source repository, and the UEmbed-9B model page on Hugging Face. The dated links establish a public-facing project-and-model availability milestone, but do not establish a specific release version, benchmark, or capability claim.",
@@ -99046,7 +99574,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "uembed",
+        "display": "UEmbed",
+        "first_seen": "2026-08-05",
+        "last_seen": "2026-08-05",
+        "latest_news_id": "n-75473141c2",
+        "news_ids": [
+          "n-75473141c2"
+        ]
+      }
+    ]
   },
   "ui-mate": {
     "family_slug": "ui-mate",
@@ -102048,7 +102588,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-24",
         "title": "UPAL GitHub repository referenced",
         "summary": "On 2026-08-24, the UPAL development line included a reference to the project's GitHub repository. The dated evidence identifies github.com/francois141/upal, but does not establish a release, commit, feature, or other milestone. This source-linked reference is retained pending repository research.",
@@ -102077,7 +102617,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "upal",
+        "display": "UPAL",
+        "first_seen": "2026-08-24",
+        "last_seen": "2026-08-24",
+        "latest_news_id": "n-7314a6bcc8",
+        "news_ids": [
+          "n-7314a6bcc8"
+        ]
+      }
+    ]
   },
   "v-jepa": {
     "family_slug": "v-jepa",
@@ -102264,7 +102816,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-24",
         "title": "V-RAE project resources were linked",
         "summary": "On 2026-08-24, the V-RAE development line was represented by links to its project website, GitHub repository, and Hugging Face model page. This records the project's public resource presence on that date without inferring any unverified release details or capabilities.",
@@ -102294,7 +102846,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "v-rae",
+        "display": "V RAE",
+        "first_seen": "2026-08-24",
+        "last_seen": "2026-08-24",
+        "latest_news_id": "n-4177cab2fa",
+        "news_ids": [
+          "n-4177cab2fa"
+        ]
+      }
+    ]
   },
   "vanast": {
     "family_slug": "vanast",
@@ -102955,7 +103519,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-02",
         "title": "VibeVoice-ASR-BitNet was linked to public code, model, and demo resources",
         "summary": "On 2026-08-02, the historical record connected VibeVoice-ASR-BitNet with a VibeASR.cpp source repository, a Hugging Face model page, and a Hugging Face demo space. This marks a material public-access milestone for the project, although the dated links alone do not establish the exact release version, capabilities, or whether those resources first launched that day.",
@@ -102985,7 +103549,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "vibevoice-asr-bitnet",
+        "display": "VibeVoice ASR BitNet",
+        "first_seen": "2026-08-02",
+        "last_seen": "2026-08-02",
+        "latest_news_id": "n-9fe0054e15",
+        "news_ids": [
+          "n-9fe0054e15"
+        ]
+      }
+    ]
   },
   "vibeworlding": {
     "family_slug": "vibeworlding",
@@ -103172,7 +103748,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-10",
         "title": "Video-DeepResearch public project and source references were recorded",
         "summary": "On 2026-08-10, the dated record linked the Video-DeepResearch project page and its GitHub repository. This is a material public reference point for the project’s development history. The supplied evidence does not establish a release, feature set, or specific code change on that date.",
@@ -103201,7 +103777,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "video-deepresearch",
+        "display": "Video DeepResearch",
+        "first_seen": "2026-08-10",
+        "last_seen": "2026-08-10",
+        "latest_news_id": "n-038f2eebc4",
+        "news_ids": [
+          "n-038f2eebc4"
+        ]
+      }
+    ]
   },
   "video-production-skills": {
     "family_slug": "video-production-skills",
@@ -106770,7 +107358,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-17",
         "title": "What to Edit Next public site was referenced",
         "summary": "On 2026-08-17, this development line linked the public website for What to Edit Next. The available evidence does not include the source text or research into the site, so this records only the date of that public-site reference, not a launch, feature, or release claim.",
@@ -106800,7 +107388,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "what-to-edit-next",
+        "display": "What to Edit Next",
+        "first_seen": "2026-08-17",
+        "last_seen": "2026-08-17",
+        "latest_news_id": "n-c4e41aef2b",
+        "news_ids": [
+          "n-c4e41aef2b"
+        ]
+      }
+    ]
   },
   "whatmodels": {
     "family_slug": "whatmodels",
@@ -107431,7 +108031,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-08-22",
         "title": "WithEveryone public project site linked",
         "summary": "On 2026-08-22, a message in the WithEveryone thread linked to the public WithEveryone project site. With no source text or research in the sealed evidence, this records only the dated public project reference and makes no claim about a release, capability, or outcome.",
@@ -107460,7 +108060,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "witheveryone",
+        "display": "WithEveryone",
+        "first_seen": "2026-08-22",
+        "last_seen": "2026-08-22",
+        "latest_news_id": "n-f57cbf8f0c",
+        "news_ids": [
+          "n-f57cbf8f0c"
+        ]
+      }
+    ]
   },
   "world-r1": {
     "family_slug": "world-r1",

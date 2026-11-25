@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-dd148acbc4",
  "entry_type": "news",
  "category": "misc",
@@ -109,5 +109,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "magi-2",
+  "thread_display": "MAGI 2",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MAGI-2",
+  "article_url": "https://happyin.space/projects/magi-2/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/20f1345996554adc952d549b7c833ebaa03fc535/docs/projects/magi-2.md",
+  "agent_context_url": "https://happyin.space/projects/magi-2/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-07",
+  "title": "Sand AI published MAGI-2 preview materials",
+  "version": null,
+  "summary": "On 2026-08-07, Sand AI made MAGI-2 preview materials available through a blog page, source repository, model page, and API documentation link. This is a material public-development step because it establishes a dated preview presence across implementation, model-distribution, and integration channels. The sealed links alone do not establish the preview's detailed capabilities, availability, or terms."
  }
 }

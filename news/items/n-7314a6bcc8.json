@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-7314a6bcc8",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "upal",
+  "thread_display": "UPAL",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "UPAL",
+  "article_url": "https://happyin.space/projects/upal/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/9cd88db419f672f075f09f20bccdb21b49da8152/docs/projects/upal.md",
+  "agent_context_url": "https://happyin.space/projects/upal/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-24",
+  "title": "UPAL GitHub repository referenced",
+  "version": null,
+  "summary": "On 2026-08-24, the UPAL development line included a reference to the project's GitHub repository. The dated evidence identifies github.com/francois141/upal, but does not establish a release, commit, feature, or other milestone. This source-linked reference is retained pending repository research."
  }
 }

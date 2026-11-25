@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-aefede82fd",
  "entry_type": "news",
  "category": "misc",
@@ -91,5 +91,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "sol-attn",
+  "thread_display": "Sol Attn",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Sol-Attn",
+  "article_url": "https://happyin.space/projects/sol-attn/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/bdcdfe2acbe4b2f288dd16af31b345f0011bb96a/docs/projects/sol-attn.md",
+  "agent_context_url": "https://happyin.space/projects/sol-attn/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-08-03",
+  "title": "Sol-Attn project page and implementation branch referenced",
+  "version": null,
+  "summary": "On 2026-08-03, a message in the sana thread linked the Sol-Attn project page and the NVlabs/Sana `sol-engine` branch. Together, those references mark a publicly documented development step for the Sol-Attn project that should be reviewed for inclusion in its history. The available evidence does not establish whether the date was an announcement, release, or code update."
  }
 }
