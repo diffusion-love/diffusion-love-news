@@ -19,6 +19,7 @@ news/
 ├── _aliases.json         # canonical_family ← [slug_aliases, ...]
 ├── all.json              # full bundle: { schema_version, total, records: [...] }
 ├── _community.json       # derived: { schema, total, works: [...] } of community/, newest first
+├── _published.json       # derived from git history: publish day, change day, per-language change day
 ├── community/
 │   └── cw-{slug}.json         # one community work (workflow, node pack, LoRA), see below
 ├── items/
@@ -175,6 +176,14 @@ deterministically (date desc, id desc) so file diffs stay clean.
   "counts": { "items": N, "tags": N, "categories": N, "years": N, "projects": N, "organizations": N }
 }
 ```
+
+### `_published.json` (publish and change days)
+`{ "schema": "published-v1", "items": { "<id>": { "published", "modified", "locales": { "<lang>" } } } }`,
+all `YYYY-MM-DD` UTC. Built by `scripts/build_published.py` from main's first-parent history:
+`published` = the commit that added the item, `modified` = its last change, `locales[lang]` = the
+later of `modified` and the last change of that translation. The item's own date stays
+`source.posted_at`; these days drive the sitemap `lastmod` and keep backfilled news (posted long
+before it was published) out of the Atom feed of fresh news.
 
 ### `_index.json` (master list)
 Array of lightweight projections: `id, date, title, category, entry_type,

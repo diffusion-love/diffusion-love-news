@@ -1,0 +1,7 @@
+{
+  "$comment": "Publish-path check for every feed change. Rules: diffusion-love pipeline docs/publish-contract.md.",
+  "validators": {
+    "dir": "checks",
+    "timeout": 900
+  }
+}
