@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-b79dee5163",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "locateanything",
+  "thread_display": "LocateAnything",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "LocateAnything",
+  "article_url": "https://happyin.space/projects/locateanything/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/cde75fd99c4b482e86c0e90dc3bcc37decb1343b/docs/projects/locateanything.md",
+  "agent_context_url": "https://happyin.space/projects/locateanything/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-29",
+  "title": "NVIDIA published LocateAnything resources and a LocateAnything-3B model page",
+  "version": null,
+  "summary": "On 2026-05-29, NVIDIA's LocateAnything research page and the linked NVIDIA LocateAnything-3B Hugging Face model page were shared. This marks a public project-and-model availability step in LocateAnything's development history."
  }
 }

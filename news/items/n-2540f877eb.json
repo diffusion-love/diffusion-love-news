@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-2540f877eb",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "qwopus3-5-9b-coder",
+  "thread_display": "Qwopus3.5 9B Coder",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Qwopus3.5-9B-Coder",
+  "article_url": "https://happyin.space/projects/qwopus3-5-9b-coder/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/446643991c5077dd017d99a9af2ae7beb2458beb/docs/projects/qwopus3-5-9b-coder.md",
+  "agent_context_url": "https://happyin.space/projects/qwopus3-5-9b-coder/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-18",
+  "title": "Qwopus3.5-9B-Coder GGUF distribution recorded on Hugging Face",
+  "version": null,
+  "summary": "On 2026-05-18, the record recorded a Hugging Face repository for a GGUF distribution of Qwopus3.5-9B-Coder. This is a material distribution step because it identifies an inference-oriented model artifact for the project. The supplied link alone does not establish the artifact's exact quantization, provenance, or relationship to an upstream release."
  }
 }

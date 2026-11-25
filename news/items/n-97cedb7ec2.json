@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-97cedb7ec2",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gemini-intelligence-android",
+  "thread_display": "Gemini Intelligence Android",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Gemini Intelligence for Android",
+  "article_url": "https://happyin.space/projects/gemini-intelligence-android/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/dc32be39cf1654624992fea4cf15e8e212ebc296/docs/projects/gemini-intelligence-android.md",
+  "agent_context_url": "https://happyin.space/projects/gemini-intelligence-android/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-15",
+  "title": "Google published an update on Gemini Intelligence for Android",
+  "version": null,
+  "summary": "On 2026-05-15, Google published an official Android-platform update concerning Gemini Intelligence for Android. From the dated official link alone, this is a public development milestone for the project; the available evidence does not establish its specific capabilities, rollout scope, or availability."
  }
 }

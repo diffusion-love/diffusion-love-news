@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-3347fb1328",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "violin",
+  "thread_display": "Violin",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Violin",
+  "article_url": "https://happyin.space/projects/violin/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4b77fc6afb19a8d3815b88ccfd6418339459b5b1/docs/projects/violin.md",
+  "agent_context_url": "https://happyin.space/projects/violin/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-15",
+  "title": "Public introduction of the Violin translation project",
+  "version": null,
+  "summary": "On 2026-05-15, Violin was publicly associated with a Together AI article, an open GitHub repository, and its project website. The dated links indicate a public introduction of an open-source, translation-oriented project and establish its initial public references."
  }
 }

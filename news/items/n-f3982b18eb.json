@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-f3982b18eb",
  "entry_type": "news",
  "category": "misc",
@@ -109,5 +109,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "perceptron-mk1",
+  "thread_display": "Perceptron Mk1",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Perceptron Mk1",
+  "article_url": "https://happyin.space/projects/perceptron-mk1/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a1932ffd9c7138fd737d04c2bab8e900366fb5cd/docs/projects/perceptron-mk1.md",
+  "agent_context_url": "https://happyin.space/projects/perceptron-mk1/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-14",
+  "title": "Perceptron Mk1 public introduction",
+  "version": null,
+  "summary": "On 2026-05-14, Perceptron Mk1 was presented through a public introduction page. The dated record also links to a demo, documentation, and an OpenRouter model page, making this a material public development milestone. These links alone do not establish the model's capabilities, technical design, or access terms."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-e584d1d2e9",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "unitree",
+  "thread_display": "Unitree",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Unitree GD01",
+  "article_url": "https://happyin.space/projects/unitree/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/cdb9c9801b7d71bc3d83735e1a3831bc870b62dc/docs/projects/unitree.md",
+  "agent_context_url": "https://happyin.space/projects/unitree/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-12",
+  "title": "iXBT News reported on the Unitree GD01",
+  "version": null,
+  "summary": "On 2026-05-12, iXBT News published an item focused on the Unitree GD01. Its supplied URL includes a 650 figure, but the available evidence does not establish what that figure represents; this is therefore a provisional development-history event pending source review."
  }
 }
