@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-6d8dc4435a",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "krea2-textfusion-refusal-reduction-lora-development",
+  "thread_display": "Krea2 TextFusion Refusal Reduction LoRA",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Krea2 TextFusion Refusal-Reduction LoRA",
+  "article_url": "https://happyin.space/projects/krea2-textfusion-refusal-reduction-lora/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4a329490e9dddd5183082b2adc44924ab587e998/docs/projects/krea2-textfusion-refusal-reduction-lora.md",
+  "agent_context_url": "https://happyin.space/projects/krea2-textfusion-refusal-reduction-lora/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-15",
+  "title": "Civitai reference recorded for Krea2 TextFusion Refusal-Reduction LoRA",
+  "version": null,
+  "summary": "On 2026-07-15, the record recorded a link to a Civitai model page identified as Krea2 TextFusion Refusal-Reduction LoRA. The dated link establishes an external project artifact, without establishing its release, training, version, or performance details."
  }
 }

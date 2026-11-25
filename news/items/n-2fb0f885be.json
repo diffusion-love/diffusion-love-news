@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-2fb0f885be",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "unity-cli-development",
+  "thread_display": "Unity CLI",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Unity CLI",
+  "article_url": "https://happyin.space/projects/unity-cli/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/53cff7fd9d7783c1e51504e87c4cb11be7ce12e4/docs/projects/unity-cli.md",
+  "agent_context_url": "https://happyin.space/projects/unity-cli/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-23",
+  "title": "Unity published an announcement about Unity CLI",
+  "version": null,
+  "summary": "On 2026-07-23, Unity published a dated official blog entry concerning Unity CLI. The project-specific official link makes this a material introduction milestone in the Unity CLI history. The sealed evidence does not establish its capabilities, availability, or technical behavior."
  }
 }

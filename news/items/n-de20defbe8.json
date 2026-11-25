@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-de20defbe8",
  "entry_type": "news",
  "category": "misc",
@@ -109,5 +109,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "lingbot-world-2-development",
+  "thread_display": "Lingbot World 2",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "LingBot-World 2.0",
+  "article_url": "https://happyin.space/projects/lingbot-world-2/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/f03331dda555022c422b812a5f45685062223232/docs/projects/lingbot-world-2.md",
+  "agent_context_url": "https://happyin.space/projects/lingbot-world-2/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-09",
+  "title": "LingBot-World 2.0 public development resources were linked",
+  "version": null,
+  "summary": "On 2026-07-09, a dated record linked LingBot-World 2.0 to a project page, GitHub repository, Hugging Face collection, and Reactor page. This establishes a public project-line milestone worth tracking, while the supplied evidence does not establish its release contents, capabilities, or operational status."
  }
 }

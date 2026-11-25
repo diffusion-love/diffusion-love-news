@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-36fa065b79",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "sun-direction-lora-flux2-klein-9b-development",
+  "thread_display": "Sun Direction Lora Flux2 Klein 9B",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Sun Direction LoRA Flux 2 Klein 9B",
+  "article_url": "https://happyin.space/projects/sun-direction-lora-flux2-klein-9b/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/eb6ba72570218126f21134cc3bfbb99307a2f69c/docs/projects/sun-direction-lora-flux2-klein-9b.md",
+  "agent_context_url": "https://happyin.space/projects/sun-direction-lora-flux2-klein-9b/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-03",
+  "title": "Sun Direction LoRA Flux 2 Klein 9B resource reference recorded",
+  "version": null,
+  "summary": "On 2026-07-03, the project’s Flux 2 Klein LoRAs thread recorded a link to its Hugging Face resource. The sealed evidence contains no post body or model-card contents, so this event establishes only the dated resource reference and makes no claim about a release version, training configuration, license, or performance."
  }
 }

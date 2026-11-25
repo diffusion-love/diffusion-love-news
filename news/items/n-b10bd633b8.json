@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-b10bd633b8",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gush3r-development",
+  "thread_display": "GUSH3R",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "GUSH3R",
+  "article_url": "https://happyin.space/projects/gush3r/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6742a0c96eb0d26a60073531b1bc8572830cf3e0/docs/projects/gush3r.md",
+  "agent_context_url": "https://happyin.space/projects/gush3r/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-08",
+  "title": "GUSH3R public project resources linked",
+  "version": null,
+  "summary": "On 2026-07-08, the GUSH3R development line was associated with a public project page, a source-code repository, and a Hugging Face resource. These linked resources constitute a material public-access step for the project, without establishing further technical details."
  }
 }

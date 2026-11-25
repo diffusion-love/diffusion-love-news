@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-22448a4fd0",
  "entry_type": "news",
  "category": "misc",
@@ -108,5 +108,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "timelens2-development",
+  "thread_display": "TimeLens2",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "TimeLens2",
+  "article_url": "https://happyin.space/projects/timelens2/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/611022eb6c51be3aa0b3b9fa0070398703884b98/docs/projects/timelens2.md",
+  "agent_context_url": "https://happyin.space/projects/timelens2/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-22",
+  "title": "TimeLens2 public project resources were linked",
+  "version": null,
+  "summary": "On 2026-07-22, a TimeLens2 development-line message linked the public project page, GitHub source repository, Hugging Face collection, and a temporal-grounding Space. This cross-linked public surface represents a material distribution and access step for the project. The available evidence does not establish a specific version, model configuration, or feature claim."
  }
 }

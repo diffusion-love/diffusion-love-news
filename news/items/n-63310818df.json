@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-63310818df",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "onklaud-development",
+  "thread_display": "Onklaud",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Onklaud 5",
+  "article_url": "https://happyin.space/projects/onklaud/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/49af937b495c56c5f35b3e6a53b0f3c5a1547412/docs/projects/onklaud.md",
+  "agent_context_url": "https://happyin.space/projects/onklaud/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-02",
+  "title": "On 2026-07-02, Onklaud 5 was linked to a public GitHub repository",
+  "version": null,
+  "summary": "On 2026-07-02, the Onklaud 5 development line included a link to the GitHub repository KorroAi/onklaud-5. The dated link establishes a public repository reference for the project, but does not establish a release, feature set, or code change."
  }
 }

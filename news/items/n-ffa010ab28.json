@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-ffa010ab28",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "comfyui-starnodes-development",
+  "thread_display": "ComfyUI StarNodes",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "ComfyUI_StarNodes",
+  "article_url": "https://happyin.space/projects/comfyui-starnodes/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4d49230d6acc67b797235797c1e47ed154490a9f/docs/projects/comfyui-starnodes.md",
+  "agent_context_url": "https://happyin.space/projects/comfyui-starnodes/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-18",
+  "title": "ComfyUI_StarNodes GitHub repository was referenced",
+  "version": null,
+  "summary": "On 2026-07-18, the record recorded a link to the ComfyUI_StarNodes GitHub repository. The available evidence identifies the project repository, but does not establish a release, feature change, version, or installation status. This history entry records the dated repository reference only."
  }
 }

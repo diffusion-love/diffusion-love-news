@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-ced223aa89",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "mlslabsrenderer-lite-development",
+  "thread_display": "MLSLabsRenderer Lite",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MLSLabsRenderer-Lite",
+  "article_url": "https://happyin.space/projects/mlslabsrenderer-lite/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/54973272d03238b1b8fb5bc3656de3deb42606b6/docs/projects/mlslabsrenderer-lite.md",
+  "agent_context_url": "https://happyin.space/projects/mlslabsrenderer-lite/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-29",
+  "title": "Public project and repository reference for MLSLabsRenderer-Lite",
+  "version": null,
+  "summary": "On 2026-07-29, the MLSLabsRenderer-Lite development line was recorded with links to its public project website and the MLSLabs Gaussian Splatting Renderer UE repository. Taken only from the dated links, this establishes a traceable public reference point for the project's renderer development, but does not establish a specific release, feature set, or version."
  }
 }

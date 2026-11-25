@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-944c22a8fe",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "editor-development",
+  "thread_display": "Editor",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Pascal Editor",
+  "article_url": "https://happyin.space/projects/editor/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/86beb6ac85bb9eca40238d868019b05822c35c23/docs/projects/editor.md",
+  "agent_context_url": "https://happyin.space/projects/editor/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-27",
+  "title": "Pascal Editor GitHub repository linked",
+  "version": null,
+  "summary": "On 2026-07-27, the Pascal Editor development line included the recorded link linking to the project's GitHub repository. From the sealed evidence alone, this establishes a public project reference, but it does not document a release, feature, ownership change, or repository state."
  }
 }

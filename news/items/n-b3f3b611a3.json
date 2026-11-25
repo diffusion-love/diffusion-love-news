@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-b3f3b611a3",
  "entry_type": "news",
  "category": "misc",
@@ -100,5 +100,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "nanbeige-4-2-3b-development",
+  "thread_display": "Nanbeige 4 2 3B",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Nanbeige4.2-3B",
+  "article_url": "https://happyin.space/projects/nanbeige-4-2-3b/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/9722c98bbc79b5378ef4a303b7cfc62001b48cb3/docs/projects/nanbeige-4-2-3b.md",
+  "agent_context_url": "https://happyin.space/projects/nanbeige-4-2-3b/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-26",
+  "title": "Nanbeige4.2-3B public model and inference resources were linked",
+  "version": null,
+  "summary": "On 2026-07-26, a development update linked the Nanbeige4.2-3B Hugging Face model page, a filtered listing of related quantized base-model entries, and an inference space. This establishes a dated public access point for the model and its related deployment options."
  }
 }
