@@ -90,8 +90,11 @@
  "evolution": {
   "summary": "The project evolved from early community ports to the stabilized Saganaki22 implementation, which introduced SageAttention support, memory optimizations for Windows, and advanced dialogue tagging for non-verbal expressions.",
   "latest_version": "v0.4.1 (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-665b60a4fc",
+   "n-0124eabefd"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

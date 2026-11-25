@@ -64,8 +64,11 @@
  "evolution": {
   "summary": "The product remains the flagship design tool in the Anthropic Labs suite, recently gaining deep integration with automated coding workflows via GitHub webhooks. It is part of the broader Claude 4 series which transitioned to an adaptive thinking architecture.",
   "latest_version": "Claude Opus 4.7 (Apr 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-a81182e9ac",
+   "n-b4bbea9668"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

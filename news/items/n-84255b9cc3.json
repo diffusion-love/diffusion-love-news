@@ -43,7 +43,8 @@
     "is_latest_in_family": true,
     "latest_version": null,
     "related_ids": [
-      "n-dc75b3cb12"
+      "n-dc75b3cb12",
+      "n-41c999d507"
     ],
     "summary": "The verified wrapper revision documents U1.5 preview/formal and GGUF, INT8, FP8, and BF16 paths while striking through the older eight-step LoRA instructions."
   },

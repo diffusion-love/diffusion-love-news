@@ -24,7 +24,11 @@
     "is_latest_in_family": false,
     "latest_version": "Qwen3.6 (April 2026)",
     "related_ids": [
-      "n-87c78ee187"
+      "n-87c78ee187",
+      "n-6b5646e730",
+      "n-ae780669a1",
+      "n-fe2f35c14b",
+      "n-e75b2209d4"
     ],
     "summary": "Evolved from Qwen2.5-Coder into a full agentic ecosystem featuring 'Thinking Mode' for reasoning and native multimodal support for UI and diagram understanding."
   },

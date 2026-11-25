@@ -97,8 +97,10 @@
  "evolution": {
   "summary": "UniCom represents the unification of Tencent's understanding and generation pipelines into a single framework. As of mid-2026, it remains the core multimodal foundation for the Hunyuan ecosystem, which has expanded into reasoning-focused models like Hy3-preview and advanced 3D generation with Hunyuan3D 3.0.",
   "latest_version": "UniCom v1.0 (2025)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-0841776bd9"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

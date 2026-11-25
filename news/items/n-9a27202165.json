@@ -95,8 +95,17 @@
  "evolution": {
   "summary": "Launched as a v0.1 proof-of-concept optimized for urban establishing shots; a follow-up version with a more diverse training dataset is currently in development.",
   "latest_version": "v0.1 PoC (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-52e566a651",
+   "n-57264ece04",
+   "n-492f7ebf1e",
+   "n-34034d382e",
+   "n-3904aeff63",
+   "n-396cd4f7c0",
+   "n-69cc1d969e",
+   "n-997df70c3d"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

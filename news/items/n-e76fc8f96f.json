@@ -24,7 +24,10 @@
     "is_latest_in_family": false,
     "latest_version": "SANA-WM (May 2026)",
     "related_ids": [
-      "n-5e3859fa47"
+      "n-5e3859fa47",
+      "n-95cbbfe193",
+      "n-a78b2b7401",
+      "n-04bc8d2a40"
     ],
     "summary": "The project expanded from SANA (text-to-image) to SANA-Video, followed by SANA-WM, a 2.6B parameter world model supporting 1-minute 720p video with 6-DoF camera control."
   },

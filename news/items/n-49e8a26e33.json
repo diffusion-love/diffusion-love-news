@@ -82,8 +82,11 @@
  "evolution": {
   "summary": "The platform transitioned from simple clip generation to a unified multimodal architecture in early 2026. ByteDance's Seedance 2.0 update introduced native lip-sync, director-level camera controls, and the ability to process up to 9 reference images for consistent character rendering across different scenes.",
   "latest_version": "Seedance 2.0 (Feb 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-7dc01702da",
+   "n-e4d5ff5436"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

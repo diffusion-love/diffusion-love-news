@@ -80,7 +80,10 @@
  "evolution": {
   "summary": "Pivoted from a flat prompt list to a structured Atlas architecture with category-specific files to minimize token usage for agents. Added a dedicated CLI tool installable via uv and official plugin support for Claude Code and Codex.",
   "latest_version": "v0.2.0 (May 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-ca390bf3b3",
+   "n-af7e0341d4"
+  ],
   "is_latest_in_family": true
  },
  "media": {

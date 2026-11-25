@@ -100,8 +100,17 @@
  "evolution": {
   "summary": "Following the initial v1 release, the model was optimized for LTX-2.3 Distilled 1.1 and integrated into ComfyUI with specialized nodes. It is now frequently used in tandem with Union Control IC-LoRA for advanced video-to-video transfers.",
   "latest_version": "LTX-Video 2.3 (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-997df70c3d",
+   "n-69cc1d969e",
+   "n-34034d382e",
+   "n-3ae3ddb34b",
+   "n-4bbad7fe81",
+   "n-57264ece04",
+   "n-ccdb07b0af",
+   "n-52e566a651"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

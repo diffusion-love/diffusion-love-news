@@ -122,8 +122,17 @@
  "evolution": {
   "summary": "Successor to the Qwen3.5 series, introducing Gated DeltaNet hybrid attention for faster long-context processing and Thinking Preservation for stable multi-turn reasoning.",
   "latest_version": "Qwen3.6 (Apr 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-8a620616a1",
+   "n-b1f4237092",
+   "n-129b6b09c0",
+   "n-d755c8bc8a",
+   "n-97c6278d46",
+   "n-dc7072d90a",
+   "n-6a60e32785",
+   "n-019c913613"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

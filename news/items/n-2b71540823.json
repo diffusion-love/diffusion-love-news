@@ -60,8 +60,12 @@
  "evolution": {
   "summary": null,
   "latest_version": null,
-  "related_ids": [],
-  "is_latest_in_family": false
+  "related_ids": [
+   "n-cf88820803",
+   "n-d745776a36",
+   "n-d9eaebd61d"
+  ],
+  "is_latest_in_family": true
  },
  "media": {
   "has_image": false,

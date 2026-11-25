@@ -96,8 +96,10 @@
  "evolution": {
   "summary": "Successor to HunyuanVideo (Dec 2024) and HunyuanVideo-1.5 (Nov 2025). It introduces a 'Thinking Mode' for intelligent prompt reasoning and unified capabilities across text-to-video, image-to-video, and video editing tasks.",
   "latest_version": "OmniWeaving (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-348f0ce004"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

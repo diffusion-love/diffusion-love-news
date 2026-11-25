@@ -99,8 +99,10 @@
  "evolution": {
   "summary": "LongCat-Next evolved from the LongCat-Flash series, transitioning from language-first to a truly unified any-to-any paradigm. It incorporates the dNaViT visual tokenizer and supports low-latency voice cloning and high-fidelity media generation.",
   "latest_version": "LongCat-Next (March 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-bbc670c0e1"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

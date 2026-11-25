@@ -72,7 +72,10 @@
  "evolution": {
   "summary": "Evolved from a raw model wrapper into a full Tauri-based desktop suite featuring OS-level dictation widgets and MCP server integration. It now utilizes the 'uv' package manager for zero-dependency local bootstrapping.",
   "latest_version": "OmniVoice Studio v0.2.x (May 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-661e84940d",
+   "n-665b60a4fc"
+  ],
   "is_latest_in_family": true
  },
  "media": {

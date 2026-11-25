@@ -98,8 +98,10 @@
  "evolution": {
   "summary": "The project represents a shift from dense Diffusion Transformer (DiT) designs to sparse architectures. Since its release, it has been integrated into ComfyUI and remains a popular 'clean' base model for community fine-tuning.",
   "latest_version": "Nucleus-Image v1.0 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-af83147e90"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

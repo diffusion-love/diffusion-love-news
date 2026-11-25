@@ -84,8 +84,17 @@
  "evolution": {
   "summary": "The LTX-2.3 (22B) series was the open-source peak of the family before the transition to LTX-3. While LTX-2.3 remains the standard for local ComfyUI workflows, the ecosystem has moved towards LTX-3 for professional long-form video generation.",
   "latest_version": "LTX-3 (March 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-3ae3ddb34b",
+   "n-4bbad7fe81",
+   "n-ac33c5f998",
+   "n-997df70c3d",
+   "n-c492e2a3e4",
+   "n-69cc1d969e",
+   "n-34034d382e",
+   "n-57264ece04"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

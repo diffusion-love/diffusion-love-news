@@ -96,8 +96,11 @@
  "evolution": {
   "summary": "Released in April 2026 as the successor to Opus 4.6, this version introduced the 'xhigh' reasoning effort level and reached 64.3% on SWE-bench Pro. It currently serves as the GA flagship while the restricted 'Claude Mythos' frontier model undergoes safety verification.",
   "latest_version": "Claude Opus 4.7 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-ec5428386a",
+   "n-b4bbea9668"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

@@ -21,7 +21,10 @@
     "is_latest_in_family": false,
     "latest_version": null,
     "related_ids": [
-      "n-04bc8d2a40"
+      "n-04bc8d2a40",
+      "n-e76fc8f96f",
+      "n-95cbbfe193",
+      "n-a78b2b7401"
     ],
     "summary": "The news post reported released SANA-Video code and weights, demos, Hugging Face and Diffusers links, possible ComfyUI use, and a negative four-step trial impression."
   },

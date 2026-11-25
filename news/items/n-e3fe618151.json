@@ -93,8 +93,10 @@
  "evolution": {
   "summary": "Initially released in April 2026, the project quickly scaled to a 1.4 million image dataset with official ComfyUI workflows. It now serves as a foundational style curation tool for Tencent's Hunyuan and FLUX model ecosystems.",
   "latest_version": "MegaStyle 1.4M (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-edad1a10a0"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

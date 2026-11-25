@@ -94,7 +94,11 @@
  "evolution": {
   "summary": "The project has progressed from v3 to v11, adding specialized models for bounding-box drag-and-drop editing. These updates improve identity locking by targeting specific architectural blocks and integration into interactive Hugging Face Spaces.",
   "latest_version": "FLUX.2 [klein] v11 (April 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-30f5861cb4",
+   "n-b2c1d5a768",
+   "n-bb60458b02"
+  ],
   "is_latest_in_family": true
  },
  "media": {

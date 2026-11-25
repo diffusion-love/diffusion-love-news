@@ -81,8 +81,10 @@
  "evolution": {
   "summary": "After the initial MOSS-Audio release in April 2026, the team expanded the family with MOSS-Music-8B in May 2026 for specialized music QA. The project has since added full support for SGLang serving and comprehensive LoRA fine-tuning workflows.",
   "latest_version": "MOSS-Music-8B (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-8da3cc43df"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

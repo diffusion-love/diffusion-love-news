@@ -90,8 +90,11 @@
  "evolution": {
   "summary": null,
   "latest_version": null,
-  "related_ids": [],
-  "is_latest_in_family": false
+  "related_ids": [
+   "n-03fea21c65",
+   "n-bb135c22d6"
+  ],
+  "is_latest_in_family": true
  },
  "media": {
   "has_image": false,

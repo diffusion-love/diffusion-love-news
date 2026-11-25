@@ -89,8 +89,13 @@
  "evolution": {
   "summary": "Released on April 2, 2026, marking a shift to Apache 2.0 licensing. In May 2026, Google added Multi-Token Prediction (MTP) drafter models for all sizes, achieving 3x faster inference. The family is now integrated natively into Android AICore for system-level privacy-first features.",
   "latest_version": "Gemma 4 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-5ac53c2267",
+   "n-9139899069",
+   "n-f4d17d7115",
+   "n-ae3f3a3876"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

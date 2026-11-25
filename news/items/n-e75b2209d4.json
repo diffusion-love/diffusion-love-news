@@ -18,7 +18,13 @@
   "evolution": {
     "is_latest_in_family": false,
     "latest_version": null,
-    "related_ids": [],
+    "related_ids": [
+      "n-fe2f35c14b",
+      "n-ae780669a1",
+      "n-87c78ee187",
+      "n-7e83db4168",
+      "n-6b5646e730"
+    ],
     "summary": "The news post introduced Qwen3-Coder and the Qwen Code command-line agent adapted from Gemini CLI."
   },
   "facets": {

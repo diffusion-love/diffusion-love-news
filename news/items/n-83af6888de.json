@@ -111,8 +111,10 @@
  "evolution": {
   "summary": "Released in April 2026 as Netflix's first major open-source AI tool. It has since been integrated into the CogVideoX ecosystem and updated to support SAM3 for automated mask generation.",
   "latest_version": "VOID v1.0 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-08ae804484"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

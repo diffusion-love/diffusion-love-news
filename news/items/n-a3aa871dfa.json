@@ -21,7 +21,10 @@
   "evolution": {
     "is_latest_in_family": false,
     "latest_version": "Gemma 4 Support (May 2026)",
-    "related_ids": [],
+    "related_ids": [
+      "n-57b1c93e50",
+      "n-70863553de"
+    ],
     "summary": "Expanded from LLM fine-tuning to support Gemma 4 multimodal vision/audio variants and GRPO reinforcement learning. Integrated into the official PyTorch Ecosystem in May 2026."
   },
   "facets": {

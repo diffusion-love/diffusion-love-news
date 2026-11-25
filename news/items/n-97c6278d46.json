@@ -119,8 +119,17 @@
  "evolution": {
   "summary": "Released in late April 2026 as an advancement over the Qwen3.5 MoE series, it introduced 'Thinking Preservation' for multi-turn reasoning consistency. As of May 2026, it has gained native Multi-Token Prediction (MTP) support in local inference engines like llama.cpp, enhancing performance on consumer hardware.",
   "latest_version": "Qwen3.6-27B (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-129b6b09c0",
+   "n-d755c8bc8a",
+   "n-b1f4237092",
+   "n-8a620616a1",
+   "n-dc7072d90a",
+   "n-04529e7d46",
+   "n-019c913613",
+   "n-6a60e32785"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

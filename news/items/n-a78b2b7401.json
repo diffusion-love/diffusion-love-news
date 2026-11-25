@@ -43,7 +43,10 @@
     "is_latest_in_family": true,
     "latest_version": null,
     "related_ids": [
-      "n-95cbbfe193"
+      "n-95cbbfe193",
+      "n-e76fc8f96f",
+      "n-5e3859fa47",
+      "n-04bc8d2a40"
     ],
     "summary": "The official project released training and inference code plus a 5B 720p checkpoint; the 14B checkpoint was still absent at verification time."
   },

@@ -91,8 +91,17 @@
  "evolution": {
   "summary": "The LTX 2.3 ecosystem matured in early 2026 with the release of IC-LoRAs for video-to-video control and ID-LoRAs for character identity persistence. Community development has pivoted toward 16-bit HDR enhancers to facilitate professional-grade post-production.",
   "latest_version": "LTX 2.3 (Dec 2025)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-69cc1d969e",
+   "n-57264ece04",
+   "n-997df70c3d",
+   "n-c492e2a3e4",
+   "n-52e566a651",
+   "n-3ae3ddb34b",
+   "n-4bbad7fe81",
+   "n-9a27202165"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

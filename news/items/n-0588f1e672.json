@@ -91,7 +91,9 @@
  "evolution": {
   "summary": "Since its pseudonymous debut in early 2026, Happy Horse has transitioned from a leaderboard mystery to a cornerstone of Alibaba's AI strategy. It has introduced native 4K generation, multi-shot consistency, and a roadmap for a 15-billion-parameter open-source version.",
   "latest_version": "Happy Horse 1.0 (May 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-6562acabdd"
+  ],
   "is_latest_in_family": true
  },
  "media": {

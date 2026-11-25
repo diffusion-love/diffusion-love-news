@@ -92,8 +92,17 @@
  "evolution": {
   "summary": "Released as part of the LTX-2.3 update to showcase IC-LoRA's capability for targeted video-to-video editing and focus correction.",
   "latest_version": "LTX-2.3 (Mar 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-34034d382e",
+   "n-52e566a651",
+   "n-69cc1d969e",
+   "n-997df70c3d",
+   "n-c492e2a3e4",
+   "n-9a27202165",
+   "n-3ae3ddb34b",
+   "n-4bbad7fe81"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

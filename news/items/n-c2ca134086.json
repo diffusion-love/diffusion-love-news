@@ -85,7 +85,9 @@
  "evolution": {
   "summary": "Baidu released the model weights under the Apache 2.0 license in April 2026, marking a strategic shift toward open-source accessibility. It has since gained native support in the Diffusers library and extensive ComfyUI integration.",
   "latest_version": "ERNIE-Image-Turbo (April 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-97b254669d"
+  ],
   "is_latest_in_family": true
  },
  "media": {

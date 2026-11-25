@@ -43,7 +43,9 @@
     "is_latest_in_family": true,
     "latest_version": null,
     "related_ids": [
-      "n-b9e02bd01a"
+      "n-b9e02bd01a",
+      "n-4003adb534",
+      "n-061c80a1dc"
     ],
     "summary": "The official release line reached v0.1.8; current guidance keeps base/SFT 50-step CFG, turbo eight-step no-CFG, and XL hardware limits separate."
   },

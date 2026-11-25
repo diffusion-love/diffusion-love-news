@@ -18,7 +18,12 @@
   "evolution": {
     "is_latest_in_family": false,
     "latest_version": null,
-    "related_ids": [],
+    "related_ids": [
+      "n-5e3859fa47",
+      "n-e76fc8f96f",
+      "n-95cbbfe193",
+      "n-a78b2b7401"
+    ],
     "summary": "The news post described a compact NVIDIA-led text/image-to-video model targeting 720p, 16 fps, sequences up to one minute, and reported RTX 5090 timing while code was still pending."
   },
   "facets": {

@@ -84,8 +84,11 @@
  "evolution": {
   "summary": "Originally a full fine-tune of Z-Image, the project evolved to include 4-step and 8-step distilled versions for rapid generation. Recent updates added GGUF quantizations, FP8 support for 8GB VRAM cards, and 'All-In-One' (AIO) safetensors for simplified use in ComfyUI and local apps.",
   "latest_version": "Z-Anime AIO (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-9744e9b73c",
+   "n-c78d87f531"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

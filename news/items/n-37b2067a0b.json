@@ -18,7 +18,9 @@
   "evolution": {
     "is_latest_in_family": false,
     "latest_version": null,
-    "related_ids": [],
+    "related_ids": [
+      "n-589c676a0a"
+    ],
     "summary": "The news post reported semantic and visual editing plus Chinese/English text replacement while preserving font, size, and style."
   },
   "facets": {

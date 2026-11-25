@@ -81,8 +81,10 @@
  "evolution": {
   "summary": null,
   "latest_version": null,
-  "related_ids": [],
-  "is_latest_in_family": false
+  "related_ids": [
+   "n-31b3b17c7b"
+  ],
+  "is_latest_in_family": true
  },
  "media": {
   "has_image": false,

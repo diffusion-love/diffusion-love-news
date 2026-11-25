@@ -18,7 +18,11 @@
   "evolution": {
     "is_latest_in_family": false,
     "latest_version": null,
-    "related_ids": [],
+    "related_ids": [
+      "n-4003adb534",
+      "n-b9e02bd01a",
+      "n-851c72bbf5"
+    ],
     "summary": "The news post reported rapid RTX 3090 generation, a 4 GB path, 50+ languages, commercial use, style fine-tuning, song planning, long compositions, and ComfyUI support."
   },
   "facets": {

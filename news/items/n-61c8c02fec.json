@@ -81,7 +81,9 @@
  "evolution": {
   "summary": "Following its March 2026 release, Kimodo was integrated into NVIDIA's ProtoMotions framework to generate synthetic training data for humanoid robots like the Unitree G1. It is currently being expanded for use in NVIDIA Omniverse for industrial digital twin simulations.",
   "latest_version": "Kimodo v1.1 (March 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-f5a3ca876d"
+  ],
   "is_latest_in_family": true
  },
  "media": {

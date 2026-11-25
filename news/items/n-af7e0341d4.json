@@ -71,8 +71,11 @@
  "evolution": {
   "summary": "Officially succeeded DALL-E 3; OpenAI retired the entire DALL-E brand on May 12, 2026, to consolidate image generation under the GPT multimodal architecture. It currently leads the Image Arena leaderboard.",
   "latest_version": "GPT Image 2 (Apr 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-ca390bf3b3",
+   "n-df001e7bab"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

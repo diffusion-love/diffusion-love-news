@@ -107,8 +107,12 @@
  "evolution": {
   "summary": "Evolved from the 1.5 series into a performance-driven architecture that ignores traditional SSML in favor of intuitive scene-based descriptions. It marks a shift towards contextual vocal mastery and enterprise-grade scalability.",
   "latest_version": "Gemini 3.1 Flash TTS (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-6f089116cf",
+   "n-55b3aea30b",
+   "n-412ff5547f"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

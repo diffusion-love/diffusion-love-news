@@ -97,7 +97,9 @@
  "evolution": {
   "summary": "After its April 2026 release, the project expanded to include the MegaStyle-1.4M dataset and a specialized style encoder that significantly outperforms prior CSD models. Official ComfyUI nodes were integrated directly into the main repository shortly after launch.",
   "latest_version": "MegaStyle-FLUX (Apr 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-e3fe618151"
+  ],
   "is_latest_in_family": true
  },
  "media": {

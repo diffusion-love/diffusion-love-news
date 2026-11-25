@@ -21,7 +21,10 @@
   "evolution": {
     "is_latest_in_family": false,
     "latest_version": "SenseNova U1 (April 2026)",
-    "related_ids": [],
+    "related_ids": [
+      "n-dc75b3cb12",
+      "n-84255b9cc3"
+    ],
     "summary": "SenseNova U1 marks the transition to the NEO-Unify architecture, which eliminates traditional VAEs and visual encoders for a native multimodal fusion. It succeeds the SenseNova 6.5 and MARS models, focusing on interleaved image-text reasoning."
   },
   "facets": {

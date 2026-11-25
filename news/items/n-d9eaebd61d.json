@@ -103,8 +103,12 @@
  "evolution": {
   "summary": "The project transitioned from the open-source Wan 2.1/2.2 foundation to a commercial multimodal suite. Wan 2.7 introduced 'Thinking Mode' reasoning and split into specialized Image and Video branches, now competing with Sora 2 and Kling 2.6.",
   "latest_version": "Wan 2.7 (March 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-d745776a36",
+   "n-cf88820803",
+   "n-2b71540823"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

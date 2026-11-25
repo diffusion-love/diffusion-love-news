@@ -79,7 +79,7 @@
   "summary": "The project transitioned from a modular skill-based harness into a bundled-by-default autonomous platform. The latest updates introduced Kanban-style multi-agent orchestration and persistent goal tracking across sessions.",
   "latest_version": "v0.13.0 (May 2026)",
   "related_ids": [],
-  "is_latest_in_family": true
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

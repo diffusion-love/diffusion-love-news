@@ -21,7 +21,10 @@
   "evolution": {
     "is_latest_in_family": false,
     "latest_version": "FLUX.2 Klein (May 2026)",
-    "related_ids": [],
+    "related_ids": [
+      "n-b65d8e8b42",
+      "n-4541890dcb"
+    ],
     "summary": "Evolved from basic conditioning detection to a sophisticated 'Identity Lock' system with Soft, Medium, and Hard fidelity modes. Recent updates introduced Mask Ref Control for spatial identity guidance and zero-dependency model hook tracing."
   },
   "facets": {

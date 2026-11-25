@@ -85,8 +85,12 @@
  "evolution": {
   "summary": "Evolved from the open-source Wan2.1 series (2025), adding native 1080p support, instruction-based editing, and a planning layer to reduce hallucinations. It expanded from simple generation to full narrative control.",
   "latest_version": "Wan2.7 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-d9eaebd61d",
+   "n-cf88820803",
+   "n-2b71540823"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

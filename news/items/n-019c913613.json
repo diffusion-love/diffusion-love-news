@@ -74,8 +74,17 @@
  "evolution": {
   "summary": "This version follows the official Qwen3.6 launch and introduces a 'Thinking' mode for complex reasoning. It significantly optimized inference speeds on Macs, reportedly performing twice as fast as early community 3-bit ports.",
   "latest_version": "Qwen3.6 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-dc7072d90a",
+   "n-97c6278d46",
+   "n-129b6b09c0",
+   "n-d755c8bc8a",
+   "n-b1f4237092",
+   "n-8a620616a1",
+   "n-04529e7d46",
+   "n-6a60e32785"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

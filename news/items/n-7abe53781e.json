@@ -70,8 +70,10 @@
  "evolution": {
   "summary": null,
   "latest_version": null,
-  "related_ids": [],
-  "is_latest_in_family": false
+  "related_ids": [
+   "n-c4546aea9c"
+  ],
+  "is_latest_in_family": true
  },
  "media": {
   "has_image": false,
