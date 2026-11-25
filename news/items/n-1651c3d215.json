@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-1651c3d215",
  "entry_type": "news",
  "category": "misc",
@@ -107,5 +107,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "jina-embeddings-v5-omni",
+  "thread_display": "jina embeddings v5 omni",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "jina-embeddings-v5-omni",
+  "article_url": "https://happyin.space/projects/jina-embeddings-v5-omni/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/da68bd8d2a1e6ce43c4c45f568e64dc5092c6ad9/docs/projects/jina-embeddings-v5-omni.md",
+  "agent_context_url": "https://happyin.space/projects/jina-embeddings-v5-omni/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-13",
+  "title": "Jina AI publicized jina-embeddings-v5-omni",
+  "version": null,
+  "summary": "On 2026-05-13, linked public materials identified jina-embeddings-v5-omni as a Jina AI embedding-model development centered on indexing multiple media types in one index. The linked Elastic article, Hugging Face collection, ModelScope organization page, and WebGPU demo indicate public documentation and availability surfaces associated with the model at that time. Exact launch claims and technical specifications require verification before publication."
  }
 }

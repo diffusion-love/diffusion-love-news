@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-390aed02e2",
  "entry_type": "news",
  "category": "misc",
@@ -83,5 +83,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "krea",
+  "thread_display": "Krea",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Krea product development",
+  "article_url": "https://happyin.space/projects/krea/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/099233b7698cb01dc63e0564fdb9feb889f152dc/docs/projects/krea.md",
+  "agent_context_url": "https://happyin.space/projects/krea/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-13",
+  "title": "Krea 2 entered the documented development line",
+  "version": null,
+  "summary": "On 2026-05-13, the dated Krea record linked to Krea's official Krea 2 page. This supports recording Krea 2 as a distinct named stage in Krea's product development, without inferring its technical claims or release details."
  }
 }

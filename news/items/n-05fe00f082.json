@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-05fe00f082",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "marlin-2b",
+  "thread_display": "Marlin 2B",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Marlin-2B",
+  "article_url": "https://happyin.space/projects/marlin-2b/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/0a06633cc62189c3be2ff0db27f74ae3d8edbddf/docs/projects/marlin-2b.md",
+  "agent_context_url": "https://happyin.space/projects/marlin-2b/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-21",
+  "title": "Marlin-2B model page and companion VLM site were shared",
+  "version": null,
+  "summary": "On 2026-05-21, the Marlin-2B development line shared a Hugging Face model page and a companion VLM website. This is treated as a material public-availability step because it connects the project to public model and usage resources. The dated links alone do not establish the exact release version, capabilities, license, or whether either resource first appeared on that date."
  }
 }

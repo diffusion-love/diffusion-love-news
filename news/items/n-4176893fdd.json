@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-4176893fdd",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "pid",
+  "thread_display": "PiD",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "PiD",
+  "article_url": "https://happyin.space/projects/pid/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/057136d95e47166a3ced7bbbb7bf0153854120da/docs/projects/pid.md",
+  "agent_context_url": "https://happyin.space/projects/pid/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-05-25",
+  "title": "PiD research, code, and model resources were made publicly available",
+  "version": null,
+  "summary": "On 2026-05-25, PiD was represented by linked research, source-code, and Hugging Face model resources. This is a material public-development milestone because the dated link set connects the project to usable technical entry points, although the supplied evidence does not establish a precise version or capabilities."
  }
 }
