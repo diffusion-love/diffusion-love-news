@@ -1,5 +1,5 @@
 {
- "schema_version": "1.2",
+ "schema_version": "1.4",
  "id": "n-d745776a36",
  "entry_type": "project",
  "category": "diffusion-video",
@@ -106,5 +106,25 @@
    "enrich": "gemini-3-flash-preview"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "wan",
+  "thread_display": "WAN",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "WAN video generation",
+  "article_url": "https://happyin.space/projects/wan/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a71fc7bd2e90d467a0b05e5d47250f5ace245f98/docs/projects/wan.md",
+  "agent_context_url": "https://happyin.space/projects/wan/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-04-09",
+  "title": "Wan2.7-Video — Director-Grade Video Generation and Editing Suite",
+  "version": null,
+  "summary": "A comprehensive video generation framework from Alibaba Cloud featuring 1080p text-to-video, image-to-video with transition control, and natural language instruction editing. It utilizes a 'Thinking Mode' for enhanced logical coherence and physical accuracy."
  }
 }

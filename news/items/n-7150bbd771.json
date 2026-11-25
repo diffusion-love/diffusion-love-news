@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-7150bbd771",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,27 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "ltx-video",
+  "thread_display": "Ltx Video",
+  "predecessor_ids": [
+   "n-ce71bb02ce"
+  ]
+ },
+ "knowledge": {
+  "title": "LTX-2.3 development",
+  "article_url": "https://happyin.space/projects/ltx-video/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d63c1bbf55636ac92b683a4ac124c6495ecd3bee/docs/projects/ltx-video.md",
+  "agent_context_url": "https://happyin.space/projects/ltx-video/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-30",
+  "title": "An LTX-2.3 22B IC LoRA for relighting was published",
+  "version": null,
+  "summary": "On 2026-07-30, a Hugging Face resource named LTX-2.3-22B-IC-LoRA-Relight was linked. This is a material extension of the LTX-2.3 line because it adds a specialized relighting capability through a LoRA resource."
  }
 }

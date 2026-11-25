@@ -1,5 +1,5 @@
 {
- "schema_version": "1.2",
+ "schema_version": "1.4",
  "id": "n-4a638abcfe",
  "entry_type": "project",
  "category": "vlm",
@@ -121,5 +121,25 @@
    "enrich": "gemini-3-flash-preview"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "sensenova",
+  "thread_display": "SenseNova",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "SenseNova",
+  "article_url": "https://happyin.space/projects/sensenova/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e5a53fcecb448b8721a0f27388b1033a78e5a0d8/docs/projects/sensenova.md",
+  "agent_context_url": "https://happyin.space/projects/sensenova/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-04-29",
+  "title": "SenseNova-U1: Unified Multimodal AI with NEO-unify",
+  "version": null,
+  "summary": "A native unified multimodal model series by SenseTime that integrates understanding, reasoning, and generation within a single end-to-end architecture. It utilizes a Mixture-of-Transformers backbone to process raw pixels and text tokens without separate encoders."
  }
 }

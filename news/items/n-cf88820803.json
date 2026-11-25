@@ -1,5 +1,5 @@
 {
- "schema_version": "1.2",
+ "schema_version": "1.4",
  "id": "n-cf88820803",
  "entry_type": "project",
  "category": "diffusion-video",
@@ -133,5 +133,25 @@
    "enrich": "gemini-3-flash-preview"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "wan",
+  "thread_display": "WAN",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "WAN video generation",
+  "article_url": "https://happyin.space/projects/wan/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a71fc7bd2e90d467a0b05e5d47250f5ace245f98/docs/projects/wan.md",
+  "agent_context_url": "https://happyin.space/projects/wan/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-04-20",
+  "title": "Wan2.2 Distill: Accelerated Video Generation with 4-Step Models",
+  "version": null,
+  "summary": "Wan2.2 Distill is an optimized video generation framework that reduces inference steps from 50+ to just 4 through step and CFG distillation. It utilizes a Mixture-of-Experts architecture to achieve cinematic quality with near-real-time performance on consumer hardware."
  }
 }

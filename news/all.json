@@ -18272,7 +18272,7 @@
       "title": "Qwen Code reaches v0.22.2 under the current provider contract"
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-4148509833",
       "entry_type": "news",
       "category": "misc",
@@ -18382,6 +18382,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "glm-5-3-flash",
+        "thread_display": "GLM 5.3 Flash",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "GLM-5.3-Flash",
+        "article_url": "https://happyin.space/projects/glm-5-3-flash/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/51e696b98bf54842504c6a7e8af733b28643ee2c/docs/projects/glm-5-3-flash.md",
+        "agent_context_url": "https://happyin.space/projects/glm-5-3-flash/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-08-26",
+        "title": "GLM-5.3-Flash was introduced with official model and documentation links",
+        "version": null,
+        "summary": "On 2026-08-26, GLM-5.3-Flash was presented through linked Z.ai, Hugging Face, and documentation resources. The linked set identifies a development milestone for the project, including a model destination and a guide for its VLM use."
       }
     },
     {
@@ -22540,7 +22560,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-c6ff419784",
       "entry_type": "news",
       "category": "misc",
@@ -22641,6 +22661,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "pika",
+        "thread_display": "Pika",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Pika product development",
+        "article_url": "https://happyin.space/projects/pika/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/c272825116e7a94a93b216fae4455e479ff8c709/docs/projects/pika.md",
+        "agent_context_url": "https://happyin.space/projects/pika/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-08-17",
+        "title": "Pika published its Pika Audio model family and Pika Music playground",
+        "version": null,
+        "summary": "On 2026-08-17, Pika published official pages for its Pika Audio models, developer API documentation, and a Pika Music playground. These links show that Pika extended its public product surface with audio-model and music-generation access. The supplied links alone do not establish model specifications, pricing, or availability terms."
       }
     },
     {
@@ -24072,7 +24112,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-412ff5547f",
       "entry_type": "news",
       "category": "misc",
@@ -24163,6 +24203,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gemini",
+        "thread_display": "Gemini",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Gemini development",
+        "article_url": "https://happyin.space/projects/gemini/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/968dfadde119fcbfcf178c148cc53e4c20c2f9fd/docs/projects/gemini.md",
+        "agent_context_url": "https://happyin.space/projects/gemini/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-08-14",
+        "title": "Google introduces Gemini 3.7 Flash for AI Studio",
+        "version": null,
+        "summary": "On 2026-08-14, Google linked an official announcement introducing Gemini 3.7 Flash and an AI Studio prompt URL selecting that model. This is a material model-release and developer-availability step. The supplied links do not establish the model's final status, limits, or regional availability."
       }
     },
     {
@@ -26537,7 +26597,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-160efa0fdb",
       "entry_type": "news",
       "category": "misc",
@@ -26620,6 +26680,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "minimax-h3",
+        "thread_display": "Minimax H3",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "MiniMax H3 development",
+        "article_url": "https://happyin.space/projects/minimax-h3/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/2150e6550131085169fb0773659670aefc73e236/docs/projects/minimax-h3.md",
+        "agent_context_url": "https://happyin.space/projects/minimax-h3/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-08-10",
+        "title": "MiniMax H3: A linked AMA clarified prompt/workflow guidance and future local-release plans; it was not a new versioned mod",
+        "version": null,
+        "summary": "A linked AMA clarified prompt/workflow guidance and future local-release plans; it was not a new versioned model release."
       }
     },
     {
@@ -28240,7 +28320,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-5353f88f44",
       "entry_type": "news",
       "category": "misc",
@@ -28341,6 +28421,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "flux-3",
+        "thread_display": "FLUX 3",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "FLUX 3 development",
+        "article_url": "https://happyin.space/projects/flux-3/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/3eb569425c78efda8e6a57229720b042e55e8336/docs/projects/flux-3.md",
+        "agent_context_url": "https://happyin.space/projects/flux-3/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-08-05",
+        "title": "FLUX 3 was linked across Black Forest Labs product surfaces",
+        "version": null,
+        "summary": "On 2026-08-05, FLUX 3 was linked to a Black Forest Labs model page, quick-start documentation, and a prompt-to-image playground URL. Together, these dated links indicate a material product-surface step, but they do not by themselves establish model specifications, launch scope, or access conditions."
       }
     },
     {
@@ -30216,7 +30316,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-000fcd918f",
       "entry_type": "news",
       "category": "misc",
@@ -30325,6 +30425,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "sensenova",
+        "thread_display": "SenseNova",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "SenseNova",
+        "article_url": "https://happyin.space/projects/sensenova/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e5a53fcecb448b8721a0f27388b1033a78e5a0d8/docs/projects/sensenova.md",
+        "agent_context_url": "https://happyin.space/projects/sensenova/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-08-01",
+        "title": "SenseNova linked U1 MoT preview and infographic artifacts on Hugging Face",
+        "version": null,
+        "summary": "On 2026-08-01, SenseNova’s development line was associated with Hugging Face pages for SenseNova-U1.5-8B-MoT-Preview and SenseNova-U1-8B-MoT-Infographic-V3, plus corresponding Spaces. The dated links indicate a meaningful model-and-demo milestone, while not establishing the artifacts’ capabilities, release status, or technical changes."
       }
     },
     {
@@ -30611,7 +30731,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-7127c15c53",
       "entry_type": "news",
       "category": "misc",
@@ -30694,6 +30814,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "minimax-h3",
+        "thread_display": "Minimax H3",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "MiniMax H3 development",
+        "article_url": "https://happyin.space/projects/minimax-h3/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/2150e6550131085169fb0773659670aefc73e236/docs/projects/minimax-h3.md",
+        "agent_context_url": "https://happyin.space/projects/minimax-h3/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-31",
+        "title": "MiniMax publishes an official MiniMax H3 blog entry",
+        "version": null,
+        "summary": "On 2026-07-31, MiniMax published an official blog entry associated with MiniMax H3. The dated link establishes a public project communication, but the sealed evidence does not establish the specific product change, capabilities, or availability described there."
       }
     },
     {
@@ -30782,7 +30922,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-2b71540823",
       "entry_type": "news",
       "category": "misc",
@@ -30864,6 +31004,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "wan",
+        "thread_display": "WAN",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "WAN video generation",
+        "article_url": "https://happyin.space/projects/wan/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a71fc7bd2e90d467a0b05e5d47250f5ace245f98/docs/projects/wan.md",
+        "agent_context_url": "https://happyin.space/projects/wan/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-31",
+        "title": "WAN exposed a realtime playground route",
+        "version": null,
+        "summary": "On 2026-07-31, the WAN Create site included a lab playground route labeled realtime. This is a material interface-development step because it indicates an interactive realtime entry point for WAN, distinct from a model-download or batch-workflow link."
       }
     },
     {
@@ -31187,7 +31347,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-98db5e9f27",
       "entry_type": "news",
       "category": "misc",
@@ -31279,6 +31439,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "seedvr2",
+        "thread_display": "SeedVR2",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "SeedVR2 development and distribution",
+        "article_url": "https://happyin.space/projects/seedvr2/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1d4f4bf7fc03a1b541cb98f82c84dafa0ae7740b/docs/projects/seedvr2.md",
+        "agent_context_url": "https://happyin.space/projects/seedvr2/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-30",
+        "title": "SeedVR2-1.4B ComfyUI package was linked",
+        "version": null,
+        "summary": "On 2026-07-30, a Hugging Face repository named SeedVR2-1.4B and its ComfyUI directory were linked. This records a practical ComfyUI-oriented distribution path for the named model, although the dated links alone do not verify its provenance, completeness, or compatibility."
       }
     },
     {
@@ -31367,7 +31547,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-7150bbd771",
       "entry_type": "news",
       "category": "misc",
@@ -31449,6 +31629,28 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ltx-video",
+        "thread_display": "Ltx Video",
+        "predecessor_ids": [
+          "n-ce71bb02ce"
+        ]
+      },
+      "knowledge": {
+        "title": "LTX-2.3 development",
+        "article_url": "https://happyin.space/projects/ltx-video/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d63c1bbf55636ac92b683a4ac124c6495ecd3bee/docs/projects/ltx-video.md",
+        "agent_context_url": "https://happyin.space/projects/ltx-video/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-30",
+        "title": "An LTX-2.3 22B IC LoRA for relighting was published",
+        "version": null,
+        "summary": "On 2026-07-30, a Hugging Face resource named LTX-2.3-22B-IC-LoRA-Relight was linked. This is a material extension of the LTX-2.3 line because it adds a specialized relighting capability through a LoRA resource."
       }
     },
     {
@@ -34488,7 +34690,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-3ec7e1a063",
       "entry_type": "news",
       "category": "misc",
@@ -34580,10 +34782,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "flux-3",
+        "thread_display": "FLUX 3",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "FLUX 3 development",
+        "article_url": "https://happyin.space/projects/flux-3/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/3eb569425c78efda8e6a57229720b042e55e8336/docs/projects/flux-3.md",
+        "agent_context_url": "https://happyin.space/projects/flux-3/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-24",
+        "title": "Black Forest Labs published a FLUX 3 blog update",
+        "version": null,
+        "summary": "On 2026-07-24, Black Forest Labs published a blog page identified by the FLUX 3 URL and linked a Tally form. This is a material public-development signal for FLUX 3, although the dated links alone do not establish the specific capability, release status, or purpose of the form."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-2c76b163d3",
       "entry_type": "news",
       "category": "misc",
@@ -34665,6 +34887,28 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "f4splat",
+        "thread_display": "F4Splat",
+        "predecessor_ids": [
+          "n-4b181dadc0"
+        ]
+      },
+      "knowledge": {
+        "title": "F⁴Splat development",
+        "article_url": "https://happyin.space/projects/f4splat/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d27b15b8e1cdce33c1a1bb5830f2893222170263/docs/projects/f4splat.md",
+        "agent_context_url": "https://happyin.space/projects/f4splat/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-24",
+        "title": "F⁴Splat GitHub repository linked",
+        "version": null,
+        "summary": "On 2026-07-24, the F⁴Splat development line linked its GitHub repository alongside the earlier March announcement. This is a material public-access milestone because it connects the project to a source repository. The available evidence does not establish which code, version, or implementation changes were present at that date."
       }
     },
     {
@@ -39406,7 +39650,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-6c5e22fee1",
       "entry_type": "news",
       "category": "misc",
@@ -39499,6 +39743,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ideogram-4",
+        "thread_display": "Ideogram 4",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Ideogram 4 development",
+        "article_url": "https://happyin.space/projects/ideogram-4/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/809dcad69669a014aae0d53beeba8eaf53bfbc3c/docs/projects/ideogram-4.md",
+        "agent_context_url": "https://happyin.space/projects/ideogram-4/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-07-14",
+        "title": "Ideogram v4 Instant and Fast variants were recorded",
+        "version": null,
+        "summary": "On 2026-07-14, the dated link set added fal-hosted Ideogram v4 variants labelled Instant and Fast. This is a material development step because it identifies distinct variants within the Ideogram 4 line. The links alone do not establish their availability, technical differences, or exact relationship to the June distributions."
       }
     },
     {
@@ -57218,7 +57482,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-6398af54be",
       "entry_type": "news",
       "category": "misc",
@@ -57347,6 +57611,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ideogram-4",
+        "thread_display": "Ideogram 4",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Ideogram 4 development",
+        "article_url": "https://happyin.space/projects/ideogram-4/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/809dcad69669a014aae0d53beeba8eaf53bfbc3c/docs/projects/ideogram-4.md",
+        "agent_context_url": "https://happyin.space/projects/ideogram-4/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-06-04",
+        "title": "Ideogram 4 source, model variants, and a ComfyUI integration were recorded",
+        "version": null,
+        "summary": "On 2026-06-04, the dated link set connected Ideogram 4 to a source repository, multiple model distributions, and a ComfyUI integration announcement. This is a material development step because it records both distribution and an integration route. The links also identify lower-precision and conversion-labelled variants, without establishing their precise status or behavior."
       }
     },
     {
@@ -72198,7 +72482,7 @@
       }
     },
     {
-      "schema_version": "1.2",
+      "schema_version": "1.4",
       "id": "n-4a638abcfe",
       "entry_type": "project",
       "category": "vlm",
@@ -72320,6 +72604,26 @@
           "enrich": "gemini-3-flash-preview"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "sensenova",
+        "thread_display": "SenseNova",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "SenseNova",
+        "article_url": "https://happyin.space/projects/sensenova/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e5a53fcecb448b8721a0f27388b1033a78e5a0d8/docs/projects/sensenova.md",
+        "agent_context_url": "https://happyin.space/projects/sensenova/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-04-29",
+        "title": "SenseNova-U1: Unified Multimodal AI with NEO-unify",
+        "version": null,
+        "summary": "A native unified multimodal model series by SenseTime that integrates understanding, reasoning, and generation within a single end-to-end architecture. It utilizes a Mixture-of-Transformers backbone to process raw pixels and text tokens without separate encoders."
       }
     },
     {
@@ -79292,7 +79596,7 @@
       }
     },
     {
-      "schema_version": "1.2",
+      "schema_version": "1.4",
       "id": "n-cf88820803",
       "entry_type": "project",
       "category": "diffusion-video",
@@ -79426,6 +79730,26 @@
           "enrich": "gemini-3-flash-preview"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "wan",
+        "thread_display": "WAN",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "WAN video generation",
+        "article_url": "https://happyin.space/projects/wan/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a71fc7bd2e90d467a0b05e5d47250f5ace245f98/docs/projects/wan.md",
+        "agent_context_url": "https://happyin.space/projects/wan/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-04-20",
+        "title": "Wan2.2 Distill: Accelerated Video Generation with 4-Step Models",
+        "version": null,
+        "summary": "Wan2.2 Distill is an optimized video generation framework that reduces inference steps from 50+ to just 4 through step and CFG distillation. It utilizes a Mixture-of-Experts architecture to achieve cinematic quality with near-real-time performance on consumer hardware."
       }
     },
     {
@@ -82793,7 +83117,7 @@
       }
     },
     {
-      "schema_version": "1.2",
+      "schema_version": "1.4",
       "id": "n-d5e685b3b1",
       "entry_type": "project",
       "category": "audio-music",
@@ -82922,6 +83246,26 @@
           "enrich": "gemini-3-flash-preview"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gemini",
+        "thread_display": "Gemini",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Gemini development",
+        "article_url": "https://happyin.space/projects/gemini/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/968dfadde119fcbfcf178c148cc53e4c20c2f9fd/docs/projects/gemini.md",
+        "agent_context_url": "https://happyin.space/projects/gemini/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-04-16",
+        "title": "Gemini 3.1 Flash TTS High-Precision Speech Control",
+        "version": null,
+        "summary": "An advanced text-to-speech model from Google that enables 'directed performance' through natural language prompts and inline emotion tags. It supports high-fidelity, low-latency audio generation with native multi-speaker dialogue capabilities for interactive applications."
       }
     },
     {
@@ -83600,7 +83944,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-6f089116cf",
       "entry_type": "news",
       "category": "misc",
@@ -83682,6 +84026,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gemini",
+        "thread_display": "Gemini",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Gemini development",
+        "article_url": "https://happyin.space/projects/gemini/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/968dfadde119fcbfcf178c148cc53e4c20c2f9fd/docs/projects/gemini.md",
+        "agent_context_url": "https://happyin.space/projects/gemini/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-04-16",
+        "title": "Gemini gains a Mac-specific product surface",
+        "version": null,
+        "summary": "On 2026-04-16, Google linked a Gemini page specifically for Mac. This records an expansion of the Gemini product's desktop-platform surface. The supplied URL does not establish the exact supported macOS versions, rollout scope, or feature set."
       }
     },
     {
@@ -86979,7 +87343,7 @@
       }
     },
     {
-      "schema_version": "1.2",
+      "schema_version": "1.4",
       "id": "n-807bf78763",
       "entry_type": "project",
       "category": "animation-motion",
@@ -87082,6 +87446,26 @@
           "enrich": "gemini-3-flash-preview"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "pika",
+        "thread_display": "Pika",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Pika product development",
+        "article_url": "https://happyin.space/projects/pika/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/c272825116e7a94a93b216fae4455e479ff8c709/docs/projects/pika.md",
+        "agent_context_url": "https://happyin.space/projects/pika/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-04-13",
+        "title": "Pika Generative AI Video and Animation Platform",
+        "version": null,
+        "summary": "Pika is an advanced generative AI platform that creates high-quality videos and animations from text, images, and video prompts. It offers specialized tools for character consistency, lip-syncing, and physics-based effects."
       }
     },
     {
@@ -89979,7 +90363,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-55b3aea30b",
       "entry_type": "news",
       "category": "misc",
@@ -90070,6 +90454,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "gemini",
+        "thread_display": "Gemini",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "Gemini development",
+        "article_url": "https://happyin.space/projects/gemini/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/968dfadde119fcbfcf178c148cc53e4c20c2f9fd/docs/projects/gemini.md",
+        "agent_context_url": "https://happyin.space/projects/gemini/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-04-10",
+        "title": "Gemini app announces 3D-model and chart capabilities",
+        "version": null,
+        "summary": "On 2026-04-10, Google linked an official Gemini app announcement concerning 3D models and charts, together with the Gemini app. This records a product-capability step in the Gemini application surface. The URLs alone do not establish how the capability was implemented or which accounts received it."
       }
     },
     {
@@ -91172,7 +91576,7 @@
       }
     },
     {
-      "schema_version": "1.2",
+      "schema_version": "1.4",
       "id": "n-d745776a36",
       "entry_type": "project",
       "category": "diffusion-video",
@@ -91279,6 +91683,26 @@
           "enrich": "gemini-3-flash-preview"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "wan",
+        "thread_display": "WAN",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "WAN video generation",
+        "article_url": "https://happyin.space/projects/wan/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a71fc7bd2e90d467a0b05e5d47250f5ace245f98/docs/projects/wan.md",
+        "agent_context_url": "https://happyin.space/projects/wan/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-04-09",
+        "title": "Wan2.7-Video — Director-Grade Video Generation and Editing Suite",
+        "version": null,
+        "summary": "A comprehensive video generation framework from Alibaba Cloud featuring 1080p text-to-video, image-to-video with transition control, and natural language instruction editing. It utilizes a 'Thinking Mode' for enhanced logical coherence and physical accuracy."
       }
     },
     {
@@ -100384,7 +100808,7 @@
       }
     },
     {
-      "schema_version": "1.2",
+      "schema_version": "1.4",
       "id": "n-d9eaebd61d",
       "entry_type": "project",
       "category": "diffusion-image",
@@ -100509,6 +100933,26 @@
           "enrich": "gemini-3-flash-preview"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "wan",
+        "thread_display": "WAN",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "WAN video generation",
+        "article_url": "https://happyin.space/projects/wan/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a71fc7bd2e90d467a0b05e5d47250f5ace245f98/docs/projects/wan.md",
+        "agent_context_url": "https://happyin.space/projects/wan/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-04-01",
+        "title": "Wan 2.7-Image (Pro)",
+        "version": null,
+        "summary": "A professional image generation and editing tool from Alibaba's Tongyi Lab featuring 'Thinking Mode' for advanced semantic reasoning and multi-reference face control. It supports 4K resolution output and precise hex-code color management for high-end design workflows."
       }
     },
     {
@@ -102251,7 +102695,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-4b181dadc0",
       "entry_type": "news",
       "category": "misc",
@@ -102342,6 +102786,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "f4splat",
+        "thread_display": "F4Splat",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "F⁴Splat development",
+        "article_url": "https://happyin.space/projects/f4splat/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d27b15b8e1cdce33c1a1bb5830f2893222170263/docs/projects/f4splat.md",
+        "agent_context_url": "https://happyin.space/projects/f4splat/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-03-30",
+        "title": "F⁴Splat project page published",
+        "version": null,
+        "summary": "On 2026-03-30, F⁴Splat was presented through its public project page. The accompanying reference to level-of-detail graphics places the announcement in a rendering-development context. The available evidence does not establish the post's exact technical claims or release status."
       }
     },
     {
@@ -112678,7 +113142,7 @@
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-ce71bb02ce",
       "entry_type": "news",
       "category": "misc",
@@ -112769,10 +113233,30 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ltx-video",
+        "thread_display": "Ltx Video",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "LTX-2.3 development",
+        "article_url": "https://happyin.space/projects/ltx-video/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d63c1bbf55636ac92b683a4ac124c6495ecd3bee/docs/projects/ltx-video.md",
+        "agent_context_url": "https://happyin.space/projects/ltx-video/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-03-05",
+        "title": "LTX-2.3 model files and a ComfyUI text-to-video workflow were linked",
+        "version": null,
+        "summary": "On 2026-03-05, LTX-2.3 model files on Hugging Face and a ComfyUI text-to-video workflow template were linked. This is a material integration step because it connects the model line to a reproducible local workflow path for practitioners."
       }
     },
     {
-      "schema_version": "1.3",
+      "schema_version": "1.4",
       "id": "n-2222547f97",
       "entry_type": "news",
       "category": "misc",
@@ -112872,6 +113356,26 @@
           "research": "codex"
         },
         "schema_validated": true
+      },
+      "organization": null,
+      "development": {
+        "scope": "project",
+        "thread_slug": "ltx-video",
+        "thread_display": "Ltx Video",
+        "predecessor_ids": []
+      },
+      "knowledge": {
+        "title": "LTX-2.3 development",
+        "article_url": "https://happyin.space/projects/ltx-video/",
+        "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/d63c1bbf55636ac92b683a4ac124c6495ecd3bee/docs/projects/ltx-video.md",
+        "agent_context_url": "https://happyin.space/projects/ltx-video/#agent-brief"
+      },
+      "lifecycle_event": {
+        "kind": "reported-update",
+        "date": "2026-03-05",
+        "title": "LTX-2.3 was presented with documentation and a text-to-video playground",
+        "version": null,
+        "summary": "On 2026-03-05, LTX-2.3 was linked with its model page, quickstart documentation, and a text-to-video playground. This marks a public availability and onboarding step for the LTX-2.3 line, covering both reference material and an interactive entry point."
       }
     },
     {

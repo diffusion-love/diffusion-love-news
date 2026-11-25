@@ -1,5 +1,5 @@
 {
- "schema_version": "1.2",
+ "schema_version": "1.4",
  "id": "n-807bf78763",
  "entry_type": "project",
  "category": "animation-motion",
@@ -102,5 +102,25 @@
    "enrich": "gemini-3-flash-preview"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "pika",
+  "thread_display": "Pika",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Pika product development",
+  "article_url": "https://happyin.space/projects/pika/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/c272825116e7a94a93b216fae4455e479ff8c709/docs/projects/pika.md",
+  "agent_context_url": "https://happyin.space/projects/pika/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-04-13",
+  "title": "Pika Generative AI Video and Animation Platform",
+  "version": null,
+  "summary": "Pika is an advanced generative AI platform that creates high-quality videos and animations from text, images, and video prompts. It offers specialized tools for character consistency, lip-syncing, and physics-based effects."
  }
 }
