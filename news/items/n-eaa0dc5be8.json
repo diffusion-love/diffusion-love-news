@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-eaa0dc5be8",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "shuttermuse-development",
+  "thread_display": "ShutterMuse",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "ShutterMuse",
+  "article_url": "https://happyin.space/projects/shuttermuse/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/eb9a66329e9bc7df37375227c6e4a4f9a8acf3f2/docs/projects/shuttermuse.md",
+  "agent_context_url": "https://happyin.space/projects/shuttermuse/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-03",
+  "title": "ShutterMuse public project links were shared",
+  "version": null,
+  "summary": "On 2026-07-03, ShutterMuse was referenced with a project website, a GitHub repository, and a Hugging Face page. The supplied links establish a public presence for the project across a site, source repository, and model-distribution venue. They do not establish a specific release, version, capability, or technical result."
  }
 }

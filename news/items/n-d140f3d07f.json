@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-d140f3d07f",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "id-v2v-development",
+  "thread_display": "ID V2V",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "ID-V2V",
+  "article_url": "https://happyin.space/projects/id-v2v/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/68ae4d57f5234f6b420dbea76601b546e91a5cca/docs/projects/id-v2v.md",
+  "agent_context_url": "https://happyin.space/projects/id-v2v/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-30",
+  "title": "ID-V2V public project resources were linked",
+  "version": null,
+  "summary": "On 2026-07-30, ID-V2V was linked through an official project page, a GitHub repository, and a Hugging Face organization page. This is a material public-project milestone because it provides official entry points for the project. The supplied evidence does not establish a precise release status, version, or technical capability."
  }
 }
