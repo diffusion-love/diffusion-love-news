@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-0b4ad29b73",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "glm-5-2",
+  "thread_display": "GLM 5.2",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "GLM-5.2",
+  "article_url": "https://happyin.space/projects/glm-5-2/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/40a8c908d2e97d045075ff78f7440259345a6945/docs/projects/glm-5-2.md",
+  "agent_context_url": "https://happyin.space/projects/glm-5-2/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-14",
+  "title": "Z.ai documentation identified GLM-5.2 as its latest model",
+  "version": null,
+  "summary": "On 2026-06-14, the dated record linked Z.ai DevPack documentation for the latest model under the GLM-5.2 project line. This is a material documentation and availability milestone, but the post and linked documentation were not researched, so no release details, capabilities, or access terms are asserted."
  }
 }

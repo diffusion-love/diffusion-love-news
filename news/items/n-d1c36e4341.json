@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-d1c36e4341",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "huihui-gemma-4-12b-it-abliterated",
+  "thread_display": "Huihui gemma 4 12B it abliterated",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Huihui-gemma-4-12B-it-abliterated",
+  "article_url": "https://happyin.space/projects/huihui-gemma-4-12b-it-abliterated/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/599259a38e8432ff31b04fbd649f1331798ed9f1/docs/projects/huihui-gemma-4-12b-it-abliterated.md",
+  "agent_context_url": "https://happyin.space/projects/huihui-gemma-4-12b-it-abliterated/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-07",
+  "title": "Huihui-gemma-4-12B-it-abliterated repository referenced",
+  "version": null,
+  "summary": "On 2026-06-07, the record recorded a link to the Huihui-gemma-4-12B-it-abliterated repository on Hugging Face. From the available evidence alone, this supports treating the repository reference as a material public-history event, without establishing release details or model capabilities."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-25eed24e0d",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "windows-copilot-api",
+  "thread_display": "Windows Copilot API",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Windows-Copilot-API",
+  "article_url": "https://happyin.space/projects/windows-copilot-api/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/590b2d5d7c78378c492141e72f7a8b781af3726c/docs/projects/windows-copilot-api.md",
+  "agent_context_url": "https://happyin.space/projects/windows-copilot-api/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-22",
+  "title": "Windows-Copilot-API repository and Microsoft Copilot site were linked",
+  "version": null,
+  "summary": "On 2026-06-22, the available record linked the Windows-Copilot-API GitHub repository alongside Microsoft's Copilot website. This establishes a dated public reference point for the project's development line, but does not establish a release, feature set, ownership, or deployment status. No original source text or independent corroborating evidence was provided."
  }
 }

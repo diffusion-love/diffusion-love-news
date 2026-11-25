@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-5efefc3953",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "glm-5-2-nvfp4",
+  "thread_display": "GLM 5.2 NVFP4",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "GLM-5.2-NVFP4",
+  "article_url": "https://happyin.space/projects/glm-5-2-nvfp4/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/5722b19152ac1407a2ad49334c5d9831bd948ed2/docs/projects/glm-5-2-nvfp4.md",
+  "agent_context_url": "https://happyin.space/projects/glm-5-2-nvfp4/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-26",
+  "title": "GLM-5.2-NVFP4 linked to NVIDIA's Hugging Face model page",
+  "version": null,
+  "summary": "On 2026-06-26, the GLM-5.2-NVFP4 development line recorded a link to a Hugging Face model page under NVIDIA's account. This is a material reference point for the project's public distribution trail, although the dated link alone does not establish a release date, model revision, or technical specifications."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-93c82cced4",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "realism-enhancer-krea2",
+  "thread_display": "Realism Enhancer Krea2",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Realism Enhancer Krea2",
+  "article_url": "https://happyin.space/projects/realism-enhancer-krea2/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/83c3c339dfe7e5055a74bd364fbf11f3d69e1b89/docs/projects/realism-enhancer-krea2.md",
+  "agent_context_url": "https://happyin.space/projects/realism-enhancer-krea2/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-29",
+  "title": "Realism Enhancer Krea2 model version recorded",
+  "version": null,
+  "summary": "On 2026-06-29, the record recorded a Civitai link for Realism Enhancer Krea2 with model version ID 3065628. This is proposed as a material history event because it anchors the project to a specific public model-version reference on that date. The available link alone does not establish the model's release status, contents, licensing, or claimed effects."
  }
 }

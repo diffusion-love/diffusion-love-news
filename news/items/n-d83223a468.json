@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-d83223a468",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "qwen3-6-34b-80l-fable-5-heretic",
+  "thread_display": "Qwen3.6 34B 80L Fable 5 Heretic",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Qwen3.6-34B-80L-Fable-5-Heretic",
+  "article_url": "https://happyin.space/projects/qwen3-6-34b-80l-fable-5-heretic/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e50f92a07e4a2da4fdb324be034f2f0f91f63b24/docs/projects/qwen3-6-34b-80l-fable-5-heretic.md",
+  "agent_context_url": "https://happyin.space/projects/qwen3-6-34b-80l-fable-5-heretic/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-29",
+  "title": "Qwen3.6-34B-80L-Fable-5-Heretic model page recorded on Hugging Face",
+  "version": null,
+  "summary": "On 2026-06-29, a Hugging Face model page for Qwen3.6-34B-80L-Fable-5-Heretic was linked. A companion Hugging Face search link associated the model name with a quantized-base-model filter. This is a distribution milestone for the project, while its contents, authorship, release details, and technical changes remain unverified."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-833da82530",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "moss-video-preview",
+  "thread_display": "MOSS Video Preview",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MOSS-Video-Preview",
+  "article_url": "https://happyin.space/projects/moss-video-preview/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/f11b0f9c164c75b67db52cd39d32d86189116a79/docs/projects/moss-video-preview.md",
+  "agent_context_url": "https://happyin.space/projects/moss-video-preview/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-10",
+  "title": "MOSS-Video-Preview public project resources referenced",
+  "version": null,
+  "summary": "On 2026-06-10, the MOSS-Video-Preview development line was associated with a public GitHub repository and a Hugging Face collection. The dated links establish a public project reference point, but do not by themselves establish a specific release, model capability, or version change."
  }
 }

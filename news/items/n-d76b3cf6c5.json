@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-d76b3cf6c5",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gpt-5-6-sol",
+  "thread_display": "GPT 5.6 Sol",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "GPT-5.6 Sol",
+  "article_url": "https://happyin.space/projects/gpt-5-6-sol/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6dfcecbba47b4b9b1f3cf7a9031fb69980a06842/docs/projects/gpt-5-6-sol.md",
+  "agent_context_url": "https://happyin.space/projects/gpt-5-6-sol/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-30",
+  "title": "METR coverage of GPT-5.6 Sol",
+  "version": null,
+  "summary": "On 2026-06-30, the record recorded a source-shared link to a METR blog article dated 2026-06-26 concerning GPT-5.6 Sol. This is material as an externally published evaluation-related milestone for the project, although the available record does not establish the article's detailed findings."
  }
 }

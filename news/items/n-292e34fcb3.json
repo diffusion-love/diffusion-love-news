@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-292e34fcb3",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "danceopd",
+  "thread_display": "DanceOPD",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "DanceOPD",
+  "article_url": "https://happyin.space/projects/danceopd/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/9d86c90327a331b9893545ee1567e553f4fe320a/docs/projects/danceopd.md",
+  "agent_context_url": "https://happyin.space/projects/danceopd/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-26",
+  "title": "DanceOPD project website linked",
+  "version": null,
+  "summary": "On 2026-06-26, the dated record linked to the DanceOPD GitHub Pages site. This is treated as a material public-facing step because it establishes a directly reachable project presence, although the underlying source text was not available."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-c3f798c77b",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "odysseus",
+  "thread_display": "Odysseus",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Odysseus",
+  "article_url": "https://happyin.space/projects/odysseus/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/de5a23dee09fcb58b55fd19b07880f452136f825/docs/projects/odysseus.md",
+  "agent_context_url": "https://happyin.space/projects/odysseus/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-01",
+  "title": "Odysseus GitHub repository linked",
+  "version": null,
+  "summary": "On 2026-06-01, the Odysseus development line included links to the GitHub repository pewdiepie-archdaemon/odysseus and its Git endpoint. The links establish a source-code location, but do not by themselves verify the repository's contents, release state, or functionality."
  }
 }

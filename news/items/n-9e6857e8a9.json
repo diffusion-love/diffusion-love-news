@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-9e6857e8a9",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "ideogram-4-gguf",
+  "thread_display": "ideogram 4 GGUF",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "ideogram-4-GGUF",
+  "article_url": "https://happyin.space/projects/ideogram-4-gguf/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/efe1377622302729b444a994c1da30785f31b7ba/docs/projects/ideogram-4-gguf.md",
+  "agent_context_url": "https://happyin.space/projects/ideogram-4-gguf/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-11",
+  "title": "Ideogram 4 GGUF repository linked on Hugging Face",
+  "version": null,
+  "summary": "On 2026-06-11, the record linked a Hugging Face repository named leejet/ideogram-4-GGUF. This is a material distribution-related step for the Ideogram 4 project because it identifies a specific public repository for a GGUF-formatted release."
  }
 }

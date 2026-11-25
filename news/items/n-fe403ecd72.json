@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-fe403ecd72",
  "entry_type": "news",
  "category": "misc",
@@ -91,5 +91,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "flashmemory-deepseek-v4",
+  "thread_display": "FlashMemory Deepseek V4",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "FlashMemory-Deepseek-V4",
+  "article_url": "https://happyin.space/projects/flashmemory-deepseek-v4/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1bc164173d4ade231ffd3c8eff866bbb1281f43b/docs/projects/flashmemory-deepseek-v4.md",
+  "agent_context_url": "https://happyin.space/projects/flashmemory-deepseek-v4/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-15",
+  "title": "FlashMemory-Deepseek-V4 linked to GitHub and Hugging Face",
+  "version": null,
+  "summary": "On 2026-06-15, the development record linked FlashMemory-Deepseek-V4 to a GitHub repository and a Hugging Face page. This is a material public-reference step for the project, while the supplied record does not establish its release contents, capabilities, or changes from an earlier version."
  }
 }

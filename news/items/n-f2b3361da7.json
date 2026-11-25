@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-f2b3361da7",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "realism-engine-ideogram-4",
+  "thread_display": "Realism Engine Ideogram 4",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Realism_Engine_Ideogram_4",
+  "article_url": "https://happyin.space/projects/realism-engine-ideogram-4/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/97cb066ba7194d1f8968ad9089eda55b4aa4bc46/docs/projects/realism-engine-ideogram-4.md",
+  "agent_context_url": "https://happyin.space/projects/realism-engine-ideogram-4/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-11",
+  "title": "Hugging Face project resource recorded for Realism_Engine_Ideogram_4",
+  "version": null,
+  "summary": "On 2026-06-11, this development line included a link to a Hugging Face resource for Realism_Engine_Ideogram_4. The dated link establishes an identifiable project resource associated with the line at that time. The available evidence does not establish its release status, contents, training method, or compatibility."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-f43e44e73f",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "moebius",
+  "thread_display": "Moebius",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Moebius",
+  "article_url": "https://happyin.space/projects/moebius/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6ef26a9d743400430b5756f992dfb3b847c1de50/docs/projects/moebius.md",
+  "agent_context_url": "https://happyin.space/projects/moebius/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-20",
+  "title": "Moebius project resources were shared publicly",
+  "version": null,
+  "summary": "On 2026-06-20, a message about Moebius linked the project website, its GitHub repository, and its Hugging Face page. This is treated as a material public-availability milestone because it directs readers to the project's public-facing resources, while the exact release or capability cannot be established from the supplied links alone."
  }
 }

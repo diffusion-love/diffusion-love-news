@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-9bab984caa",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "sana-streaming",
+  "thread_display": "SANA Streaming",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "SANA-Streaming",
+  "article_url": "https://happyin.space/projects/sana-streaming/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/db3500ed2173e04762b82f38eb1ff2f182615eeb/docs/projects/sana-streaming.md",
+  "agent_context_url": "https://happyin.space/projects/sana-streaming/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-03",
+  "title": "SANA Streaming project page referenced",
+  "version": null,
+  "summary": "On 2026-06-03, the SANA Streaming development line was linked to NVIDIA's SANA Streaming project page. This is a material reference point for the project's public development history, but the available evidence does not establish a specific release, capability, or performance claim."
  }
 }

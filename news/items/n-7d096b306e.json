@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-7d096b306e",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "wan2-2-nvfp4-sparse",
+  "thread_display": "Wan2.2 NVFP4 Sparse",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Wan2.2-NVFP4-Sparse",
+  "article_url": "https://happyin.space/projects/wan2-2-nvfp4-sparse/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/be03e5d62d23a760ebe5597a214362a237605256/docs/projects/wan2-2-nvfp4-sparse.md",
+  "agent_context_url": "https://happyin.space/projects/wan2-2-nvfp4-sparse/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-05",
+  "title": "Hugging Face reference for Wan2.2-NVFP4-Sparse",
+  "version": null,
+  "summary": "On 2026-06-05, the supplied evidence linked a Hugging Face repository named Wan2.2-NVFP4-Sparse. This provides a dated public reference point for the project and is treated as a material distribution step in its history. The available evidence does not establish the repository’s contents, version, technical changes, or release status."
  }
 }

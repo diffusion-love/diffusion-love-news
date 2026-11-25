@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-1d8711ddfd",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "zcode",
+  "thread_display": "ZCode",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "ZCode 3.0",
+  "article_url": "https://happyin.space/projects/zcode/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/59bb146f415539b23edae6f1abbe89d648141dae/docs/projects/zcode.md",
+  "agent_context_url": "https://happyin.space/projects/zcode/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-15",
+  "title": "ZCode installation documentation entered the development record",
+  "version": null,
+  "summary": "On 2026-06-15, the sealed ZCode IDE development record included Z.ai's English ZCode installation documentation. Its install-focused official URL makes this a material onboarding milestone for the ZCode 3.0 line. The supplied evidence does not establish the product release details, supported platforms, or whether the guide itself was first published that day."
  }
 }

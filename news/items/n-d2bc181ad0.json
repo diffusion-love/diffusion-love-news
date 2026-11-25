@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-d2bc181ad0",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "minimax-m3",
+  "thread_display": "MiniMax M3",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MiniMax M3",
+  "article_url": "https://happyin.space/projects/minimax-m3/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/af2bc68ac734b3d03df260448d73c70054aa1c95/docs/projects/minimax-m3.md",
+  "agent_context_url": "https://happyin.space/projects/minimax-m3/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-13",
+  "title": "MiniMax M3 public project, model, and API resources appeared",
+  "version": null,
+  "summary": "On 2026-06-13, MiniMax M3 was linked through a public GitHub project repository, a Hugging Face model page, and MiniMax text-generation documentation. Together, these references mark a material public development step by connecting the project’s source, model-distribution, and usage-documentation surfaces."
  }
 }
