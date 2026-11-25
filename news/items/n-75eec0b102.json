@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-75eec0b102",
  "entry_type": "news",
  "category": "misc",
@@ -117,5 +117,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "wavtts",
+  "thread_display": "WavTTS",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "WavTTS",
+  "article_url": "https://happyin.space/projects/wavtts/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8455cbab8a059a5e01f88003d7d103f3b62ac8b6/docs/projects/wavtts.md",
+  "agent_context_url": "https://happyin.space/projects/wavtts/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-08",
+  "title": "WavTTS public project resources were recorded",
+  "version": null,
+  "summary": "On 2026-06-08, the WavTTS development line was recorded with links to its project website, source repository, model page, demo, and a ComfyUI integration. This provides a dated public reference point for locating the project and related tooling. The supplied evidence does not establish what release or code change, if any, accompanied the links."
  }
 }

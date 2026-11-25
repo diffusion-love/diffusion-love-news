@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-8b5f11bc11",
  "entry_type": "news",
  "category": "misc",
@@ -100,5 +100,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "qwopus3-6-27b-coder-mtp",
+  "thread_display": "Qwopus3.6 27B Coder MTP",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Qwopus3.6-27B-Coder-MTP",
+  "article_url": "https://happyin.space/projects/qwopus3-6-27b-coder-mtp/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/036998ba0e20150db7d17b4118ea97cf97aaa2aa/docs/projects/qwopus3-6-27b-coder-mtp.md",
+  "agent_context_url": "https://happyin.space/projects/qwopus3-6-27b-coder-mtp/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-18",
+  "title": "Qwopus3.6-27B-Coder-MTP GGUF artifact linked",
+  "version": null,
+  "summary": "On 2026-06-18, links were recorded for a Qwopus3.6-27B-Coder-MTP GGUF model, the Qwopus3.6-27B-v2 model, and a Qwen MTP-to-GGUF guide. Taken together, the dated references indicate a distributable Coder-MTP GGUF variant and its immediate model-conversion context. This is a material development step, although the links alone do not establish performance, training details, licensing, or release status."
  }
 }

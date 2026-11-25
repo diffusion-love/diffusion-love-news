@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-02cbd28ee8",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "openmontage",
+  "thread_display": "OpenMontage",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "OpenMontage",
+  "article_url": "https://happyin.space/projects/openmontage/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e1a4ce949a7a575152ee9f39d825d4819aae7c39/docs/projects/openmontage.md",
+  "agent_context_url": "https://happyin.space/projects/openmontage/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-28",
+  "title": "OpenMontage GitHub repository was referenced",
+  "version": null,
+  "summary": "On 2026-06-28, the recorded link linked to the OpenMontage GitHub repository. The sealed evidence contains no source text, repository snapshot, release record, or description of a code change, so this records the public repository reference rather than a specific implementation milestone."
  }
 }

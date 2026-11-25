@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-c41ee335f6",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "unityshots",
+  "thread_display": "UnityShots",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "UnityShots",
+  "article_url": "https://happyin.space/projects/unityshots/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/b15f60a06f49d37940db3a04e104c7dd5ef364f3/docs/projects/unityshots.md",
+  "agent_context_url": "https://happyin.space/projects/unityshots/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-29",
+  "title": "UnityShots project page and source repository were linked",
+  "version": null,
+  "summary": "On 2026-06-29, a UnityShots project page and its GitHub source repository were associated with this development line. The dated links establish public project resources, but do not establish a release, version, technical result, or other claim. This is retained as the first verifiable public-resource reference for the project."
  }
 }

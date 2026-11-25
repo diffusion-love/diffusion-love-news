@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-75651b6d80",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "ltx-2-3-ic-lora-ingredients",
+  "thread_display": "LTX 2.3 IC LoRA Ingredients",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "LTX-2.3 IC-LoRA Ingredients",
+  "article_url": "https://happyin.space/projects/ltx-2-3-ic-lora-ingredients/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/f2fd8e1fcbe3ffa8b6e6d153615da859e23e6bf5/docs/projects/ltx-2-3-ic-lora-ingredients.md",
+  "agent_context_url": "https://happyin.space/projects/ltx-2-3-ic-lora-ingredients/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-19",
+  "title": "Lightricks published an LTX-2.3 IC-LoRA Ingredients model page",
+  "version": null,
+  "summary": "On 2026-06-19, a Hugging Face model page for Lightricks' LTX-2.3-22B IC-LoRA Ingredients was recorded in this development line. The dated link establishes a distinct LTX-2.3 model artifact, but the supplied evidence does not establish its release notes, capabilities, or recommended workflow."
  }
 }

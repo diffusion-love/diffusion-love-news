@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-2d7b3093fd",
  "entry_type": "news",
  "category": "misc",
@@ -108,5 +108,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "demon",
+  "thread_display": "DEMON",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "DEMON",
+  "article_url": "https://happyin.space/projects/demon/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/e0383a8e34276f92dcffc62925b6fed57aa00991/docs/projects/demon.md",
+  "agent_context_url": "https://happyin.space/projects/demon/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-03",
+  "title": "DEMON public resource set documented",
+  "version": null,
+  "summary": "On 2026-06-03, a DEMON development-line record linked the project website, music site, an ACEStep LoRAs page, and the DreamVAE model page. This is a material dated reference point for the project's public-facing resources, without asserting a specific release, version, or feature change."
  }
 }

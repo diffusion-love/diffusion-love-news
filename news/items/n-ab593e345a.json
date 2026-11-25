@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-ab593e345a",
  "entry_type": "news",
  "category": "misc",
@@ -90,5 +90,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "comfyui-lrw-nodes",
+  "thread_display": "comfyui lrw nodes",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "comfyui-lrw-nodes",
+  "article_url": "https://happyin.space/projects/comfyui-lrw-nodes/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/adce4fc777560303b34777e0073473b2817e2518/docs/projects/comfyui-lrw-nodes.md",
+  "agent_context_url": "https://happyin.space/projects/comfyui-lrw-nodes/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-09",
+  "title": "ComfyUI LRW Nodes repository and workflow examples were documented",
+  "version": null,
+  "summary": "On 2026-06-09, a dated message associated ComfyUI LRW Nodes with its GitHub repository and an example-workflows directory. This establishes that the project and workflow material were being referenced on that date. It does not establish a specific release, feature change, or repository state."
  }
 }

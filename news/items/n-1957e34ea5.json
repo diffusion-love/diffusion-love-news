@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-1957e34ea5",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "direct",
+  "thread_display": "DIRECT",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "DIRECT",
+  "article_url": "https://happyin.space/projects/direct/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/147116d3a632f003eab2cab8797ce5054535eb63/docs/projects/direct.md",
+  "agent_context_url": "https://happyin.space/projects/direct/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-09",
+  "title": "DIRECT project resources were linked",
+  "version": null,
+  "summary": "On 2026-06-09, a DIRECT development-line message linked the project website, source repository, and Hugging Face page. Taken together, those dated links indicate a public-facing project milestone suitable for the development history. The announcement text and the exact status of each linked resource were not reviewed."
  }
 }

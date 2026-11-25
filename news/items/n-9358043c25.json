@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-9358043c25",
  "entry_type": "news",
  "category": "misc",
@@ -109,5 +109,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "modality-forcing",
+  "thread_display": "Modality Forcing",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Modality Forcing",
+  "article_url": "https://happyin.space/projects/modality-forcing/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8ae18c1638cf6b6d36c8ff1ab56c1abff38ac11b/docs/projects/modality-forcing.md",
+  "agent_context_url": "https://happyin.space/projects/modality-forcing/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-15",
+  "title": "Modality Forcing depth-prediction resources were linked",
+  "version": null,
+  "summary": "On 2026-06-15, a dated reference connected Modality Forcing's project site, source repository, Hugging Face Space, and Hugging Face model page. This is a material public reference point for the project's depth-prediction development line, although the supplied links do not establish a specific release, version, or technical result."
  }
 }

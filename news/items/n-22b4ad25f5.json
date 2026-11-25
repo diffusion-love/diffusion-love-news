@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-22b4ad25f5",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "gpt-5-5-cyber",
+  "thread_display": "GPT 5.5 Cyber",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "GPT-5.5-Cyber",
+  "article_url": "https://happyin.space/projects/gpt-5-5-cyber/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/9bf5ae40cbb5c21dac8e301369c9bf4625f21b3a/docs/projects/gpt-5-5-cyber.md",
+  "agent_context_url": "https://happyin.space/projects/gpt-5-5-cyber/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-23",
+  "title": "OpenAI Daybreak security communication linked to GPT-5.5-Cyber",
+  "version": null,
+  "summary": "On 2026-06-23, the GPT-5.5-Cyber thread linked to an official OpenAI Daybreak page. Based on the dated official link and its security-oriented URL, this is proposed as a material public communication in the project's development history. Its detailed claims and precise technical significance have not been researched."
  }
 }

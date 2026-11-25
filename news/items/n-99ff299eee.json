@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-99ff299eee",
  "entry_type": "news",
  "category": "misc",
@@ -91,5 +91,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "data2story",
+  "thread_display": "Data2Story",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Data2Story",
+  "article_url": "https://happyin.space/projects/data2story/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/6d3230ac60c92d935b24e8398556f51418c3c744/docs/projects/data2story.md",
+  "agent_context_url": "https://happyin.space/projects/data2story/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-16",
+  "title": "Data2Story was publicly linked with its website and GitHub repository",
+  "version": null,
+  "summary": "On 2026-06-16, a dated message referenced Data2Story through its project website and the data2story-skill GitHub repository. This establishes a public project-reference point for the agentic data-storytelling line, without asserting a release, feature change, or result not evidenced by the supplied links."
  }
 }

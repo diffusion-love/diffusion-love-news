@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-364be607ee",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "image-caption-utility",
+  "thread_display": "image caption utility",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "image_caption_utility",
+  "article_url": "https://happyin.space/projects/image-caption-utility/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/14bba9d09ad7e11748a687b363d33ef961233fd0/docs/projects/image-caption-utility.md",
+  "agent_context_url": "https://happyin.space/projects/image-caption-utility/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-22",
+  "title": "image_caption_utility GitHub repository was referenced",
+  "version": null,
+  "summary": "On 2026-06-22, the development record referenced the GitHub repository for image_caption_utility. The dated link establishes a public repository reference for the project, but does not establish a specific release, implementation change, or feature set."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-a2c367a2ab",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "molmomotion",
+  "thread_display": "MolmoMotion",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MolmoMotion",
+  "article_url": "https://happyin.space/projects/molmomotion/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/43014edbbb63a3a773594d72d04db9be7e9defb2/docs/projects/molmomotion.md",
+  "agent_context_url": "https://happyin.space/projects/molmomotion/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-18",
+  "title": "MolmoMotion-4B-H3-F30 model resource recorded",
+  "version": null,
+  "summary": "On 2026-06-18, the MolmoMotion development line recorded a Hugging Face resource for MolmoMotion-4B-H3-F30. The dated link identifies a specific model variant, making it a material checkpoint in the project's public model-availability history. No source-source text or independent release documentation was provided, so this event does not assert capabilities, licensing, or the variant's relationship to other releases."
  }
 }

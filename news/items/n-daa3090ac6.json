@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-daa3090ac6",
  "entry_type": "news",
  "category": "misc",
@@ -108,5 +108,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "bernini",
+  "thread_display": "Bernini",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Bernini",
+  "article_url": "https://happyin.space/projects/bernini/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/03d4edd475d3cfc8f6121568e8405e1886902e06/docs/projects/bernini.md",
+  "agent_context_url": "https://happyin.space/projects/bernini/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-02",
+  "title": "Bernini model and ComfyUI workflow resources linked",
+  "version": null,
+  "summary": "On 2026-06-02, a dated Bernini entry linked the project website and the ByteDance/Bernini model repository on Hugging Face. It also linked a Bernini testing workflow JSON and a Bernini directory in Kijai's WanVideo Comfy FP8 scaled repository. Together, these resources mark a material step toward model access and ComfyUI-oriented use."
  }
 }

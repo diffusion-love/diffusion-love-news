@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-4082277aeb",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "brdfusion",
+  "thread_display": "BRDFusion",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "BRDFusion",
+  "article_url": "https://happyin.space/projects/brdfusion/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8d11bc2b5c61c312c630e612f00fe1bbdf24e0fc/docs/projects/brdfusion.md",
+  "agent_context_url": "https://happyin.space/projects/brdfusion/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-22",
+  "title": "BRDFusion project resources were published",
+  "version": null,
+  "summary": "On 2026-06-22, the BRDFusion development line recorded links to its project page, source repository, and checkpoint collection. This constitutes a material public availability step for the project, enabling readers to locate its implementation and associated model artifacts."
  }
 }

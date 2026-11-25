@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-6607af2693",
  "entry_type": "news",
  "category": "misc",
@@ -82,5 +82,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "tsantsalize",
+  "thread_display": "TSANTSALIZE",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "TSANTSALIZE",
+  "article_url": "https://happyin.space/projects/tsantsalize/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/a4f8ef30efae0ed4ed231d35fd5d47deb9dbfcb4/docs/projects/tsantsalize.md",
+  "agent_context_url": "https://happyin.space/projects/tsantsalize/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-06-19",
+  "title": "TSANTSALIZE Hugging Face model resource recorded",
+  "version": null,
+  "summary": "On 2026-06-19, the TSANTSALIZE development line recorded a link to the Hugging Face repository https://huggingface.co/TheBurgstall/tsantsalize. This is treated as a material public-model availability milestone, while the sealed evidence does not establish the model's version, capabilities, or release details."
  }
 }
