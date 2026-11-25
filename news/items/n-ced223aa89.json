@@ -94,7 +94,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "mlslabsrenderer-lite-development",
+  "thread_slug": "mlslabsrenderer-lite",
   "thread_display": "MLSLabsRenderer Lite",
   "predecessor_ids": []
  },

@@ -112,7 +112,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "lingbot-video-development",
+  "thread_slug": "lingbot-video",
   "thread_display": "LingBot Video",
   "predecessor_ids": []
  },

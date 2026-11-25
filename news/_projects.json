@@ -4374,7 +4374,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "ardy-development",
+        "slug": "ardy",
         "display": "ARDY",
         "first_seen": "2026-07-15",
         "last_seen": "2026-07-15",
@@ -6600,7 +6600,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "awesome-harness-engineering-development",
+        "slug": "awesome-harness-engineering",
         "display": "Awesome Harness Engineering",
         "first_seen": "2026-07-06",
         "last_seen": "2026-07-06",
@@ -8581,7 +8581,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "bytedance-seed-audio-1-0-development",
+        "slug": "bytedance-seed-audio-1-0",
         "display": "Bytedance Seed Audio 1 0",
         "first_seen": "2026-07-22",
         "last_seen": "2026-07-22",
@@ -12280,7 +12280,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "claude-opus-5-development",
+        "slug": "claude-opus-5",
         "display": "Claude Opus 5",
         "first_seen": "2026-07-24",
         "last_seen": "2026-07-24",
@@ -16363,7 +16363,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "comfyui-openpose-studio-development",
+        "slug": "comfyui-openpose-studio",
         "display": "Comfyui Openpose Studio",
         "first_seen": "2026-07-28",
         "last_seen": "2026-07-28",
@@ -17150,7 +17150,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "comfyui-setup-manager-development",
+        "slug": "comfyui-setup-manager",
         "display": "ComfyUI Setup Manager",
         "first_seen": "2026-07-23",
         "last_seen": "2026-07-23",
@@ -17559,7 +17559,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "comfyui-starnodes-development",
+        "slug": "comfyui-starnodes",
         "display": "ComfyUI StarNodes",
         "first_seen": "2026-07-18",
         "last_seen": "2026-07-18",
@@ -24447,7 +24447,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "editor-development",
+        "slug": "editor",
         "display": "Editor",
         "first_seen": "2026-07-27",
         "last_seen": "2026-07-27",
@@ -24591,7 +24591,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "egoforce-development",
+        "slug": "egoforce",
         "display": "EgoForce",
         "first_seen": "2026-07-14",
         "last_seen": "2026-07-14",
@@ -35425,7 +35425,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "gemini-product-development",
+        "slug": "google-gemini",
         "display": "Google Gemini",
         "first_seen": "2026-07-22",
         "last_seen": "2026-07-22",
@@ -36916,7 +36916,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "grok-build-development",
+        "slug": "grok-build",
         "display": "Grok Build",
         "first_seen": "2026-07-16",
         "last_seen": "2026-07-16",
@@ -37380,7 +37380,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "gush3r-development",
+        "slug": "gush3r",
         "display": "GUSH3R",
         "first_seen": "2026-07-08",
         "last_seen": "2026-07-08",
@@ -40527,7 +40527,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "homie-development",
+        "slug": "homie",
         "display": "HOMIE",
         "first_seen": "2026-07-22",
         "last_seen": "2026-07-22",
@@ -43089,7 +43089,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "id-v2v-development",
+        "slug": "id-v2v",
         "display": "ID V2V",
         "first_seen": "2026-07-30",
         "last_seen": "2026-07-30",
@@ -47337,7 +47337,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "knowact-guiclaw-development",
+        "slug": "knowact-guiclaw",
         "display": "KnowAct GUIClaw",
         "first_seen": "2026-07-18",
         "last_seen": "2026-07-18",
@@ -47984,7 +47984,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "krea-2-outpaint-development",
+        "slug": "krea-2-outpaint",
         "display": "Krea 2 Outpaint",
         "first_seen": "2026-07-19",
         "last_seen": "2026-07-19",
@@ -48412,7 +48412,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "krea2-realism-development",
+        "slug": "krea2-realism",
         "display": "Krea2 realism",
         "first_seen": "2026-07-04",
         "last_seen": "2026-07-04",
@@ -48521,7 +48521,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "krea2-textfusion-refusal-reduction-lora-development",
+        "slug": "krea2-textfusion-refusal-reduction-lora",
         "display": "Krea2 TextFusion Refusal Reduction LoRA",
         "first_seen": "2026-07-15",
         "last_seen": "2026-07-15",
@@ -50438,7 +50438,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "ling-3-0-flash-development",
+        "slug": "ling-3-0-flash",
         "display": "Ling 3.0 flash",
         "first_seen": "2026-07-27",
         "last_seen": "2026-07-27",
@@ -50712,7 +50712,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "lingbot-video-development",
+        "slug": "lingbot-video",
         "display": "LingBot Video",
         "first_seen": "2026-07-09",
         "last_seen": "2026-07-09",
@@ -50857,7 +50857,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "lingbot-world-2-development",
+        "slug": "lingbot-world-2",
         "display": "Lingbot World 2",
         "first_seen": "2026-07-09",
         "last_seen": "2026-07-09",
@@ -54448,7 +54448,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "ltx-foley-lora-development",
+        "slug": "ltx-foley-lora",
         "display": "Ltx Foley Lora",
         "first_seen": "2026-07-01",
         "last_seen": "2026-07-01",
@@ -54917,7 +54917,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "lucida-development",
+        "slug": "lucida",
         "display": "Lucida",
         "first_seen": "2026-07-21",
         "last_seen": "2026-07-21",
@@ -59558,7 +59558,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "microzoom-development",
+        "slug": "microzoom",
         "display": "MicroZoom",
         "first_seen": "2026-07-28",
         "last_seen": "2026-07-28",
@@ -59668,7 +59668,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "midjourney-model-and-feature-releases",
+        "slug": "midjourney",
         "display": "Midjourney",
         "first_seen": "2026-07-28",
         "last_seen": "2026-07-28",
@@ -62051,7 +62051,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "mlslabsrenderer-lite-development",
+        "slug": "mlslabsrenderer-lite",
         "display": "MLSLabsRenderer Lite",
         "first_seen": "2026-07-29",
         "last_seen": "2026-07-29",
@@ -64461,7 +64461,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "muse-development",
+        "slug": "muse",
         "display": "Muse",
         "first_seen": "2026-07-08",
         "last_seen": "2026-07-08",
@@ -64811,7 +64811,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "nanbeige-4-2-3b-development",
+        "slug": "nanbeige-4-2-3b",
         "display": "Nanbeige 4 2 3B",
         "first_seen": "2026-07-26",
         "last_seen": "2026-07-26",
@@ -65810,7 +65810,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "neumatex-development",
+        "slug": "neumatex",
         "display": "NeumaTex",
         "first_seen": "2026-07-02",
         "last_seen": "2026-07-02",
@@ -66888,7 +66888,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "nvidia-cosmos-3-edge-development",
+        "slug": "nvidia-cosmos-3-edge",
         "display": "Nvidia Cosmos 3 Edge",
         "first_seen": "2026-07-21",
         "last_seen": "2026-07-21",
@@ -68586,7 +68586,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "omniroute-development",
+        "slug": "omniroute",
         "display": "OmniRoute",
         "first_seen": "2026-07-25",
         "last_seen": "2026-07-25",
@@ -69585,7 +69585,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "onklaud-development",
+        "slug": "onklaud",
         "display": "Onklaud",
         "first_seen": "2026-07-02",
         "last_seen": "2026-07-02",
@@ -70405,7 +70405,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "opencut-development",
+        "slug": "opencut",
         "display": "OpenCut",
         "first_seen": "2026-07-18",
         "last_seen": "2026-07-18",
@@ -74021,7 +74021,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "photoquilt-development",
+        "slug": "photoquilt",
         "display": "PhotoQuilt",
         "first_seen": "2026-07-06",
         "last_seen": "2026-07-06",
@@ -76511,7 +76511,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "proxypose-development",
+        "slug": "proxypose",
         "display": "ProxyPose",
         "first_seen": "2026-07-11",
         "last_seen": "2026-07-11",
@@ -82353,7 +82353,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "ramp-router-development",
+        "slug": "ramp-router",
         "display": "Ramp Router",
         "first_seen": "2026-07-21",
         "last_seen": "2026-07-21",
@@ -84164,7 +84164,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "researchstudio-development",
+        "slug": "researchstudio",
         "display": "ResearchStudio",
         "first_seen": "2026-07-07",
         "last_seen": "2026-07-07",
@@ -84592,7 +84592,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "rigs-development",
+        "slug": "rigs",
         "display": "RiGS",
         "first_seen": "2026-07-25",
         "last_seen": "2026-07-25",
@@ -85045,7 +85045,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "router-development",
+        "slug": "router",
         "display": "Router",
         "first_seen": "2026-07-25",
         "last_seen": "2026-07-25",
@@ -85976,7 +85976,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "sam2matting-development",
+        "slug": "sam2matting",
         "display": "SAM2Matting",
         "first_seen": "2026-07-15",
         "last_seen": "2026-07-15",
@@ -87693,7 +87693,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "seamless-equirectangular-lora-development",
+        "slug": "seamless-equirectangular-lora",
         "display": "Seamless Equirectangular Lora",
         "first_seen": "2026-07-07",
         "last_seen": "2026-07-07",
@@ -90496,7 +90496,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "shuttermuse-development",
+        "slug": "shuttermuse",
         "display": "ShutterMuse",
         "first_seen": "2026-07-03",
         "last_seen": "2026-07-03",
@@ -94598,7 +94598,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "sun-direction-lora-flux2-klein-9b-development",
+        "slug": "sun-direction-lora-flux2-klein-9b",
         "display": "Sun Direction Lora Flux2 Klein 9B",
         "first_seen": "2026-07-03",
         "last_seen": "2026-07-03",
@@ -96401,7 +96401,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "thestageai-elastic-wan22-i2v-development",
+        "slug": "thestageai-elastic-wan22-i2v",
         "display": "Thestageai Elastic Wan22 I2V",
         "first_seen": "2026-07-21",
         "last_seen": "2026-07-21",
@@ -96646,7 +96646,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "thinkingcap-qwen3-6-27b-development",
+        "slug": "thinkingcap-qwen3-6-27b",
         "display": "ThinkingCap Qwen3.6 27B",
         "first_seen": "2026-07-08",
         "last_seen": "2026-07-08",
@@ -97063,7 +97063,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "timelens2-development",
+        "slug": "timelens2",
         "display": "TimeLens2",
         "first_seen": "2026-07-22",
         "last_seen": "2026-07-22",
@@ -100899,7 +100899,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "unity-cli-development",
+        "slug": "unity-cli",
         "display": "Unity CLI",
         "first_seen": "2026-07-23",
         "last_seen": "2026-07-23",
@@ -101127,7 +101127,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "unitysplats-development",
+        "slug": "unitysplats",
         "display": "UnitySplats",
         "first_seen": "2026-07-26",
         "last_seen": "2026-07-26",
@@ -102379,7 +102379,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "velorn-development",
+        "slug": "velorn",
         "display": "Velorn",
         "first_seen": "2026-07-13",
         "last_seen": "2026-07-13",
@@ -105450,7 +105450,7 @@
     "claims": [],
     "development_threads": [
       {
-        "slug": "wan-dancer-development",
+        "slug": "wan-dancer",
         "display": "Wan Dancer",
         "first_seen": "2026-07-14",
         "last_seen": "2026-07-14",

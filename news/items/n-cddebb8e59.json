@@ -103,7 +103,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "proxypose-development",
+  "thread_slug": "proxypose",
   "thread_display": "ProxyPose",
   "predecessor_ids": []
  },

@@ -86,7 +86,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "router-development",
+  "thread_slug": "router",
   "thread_display": "Router",
   "predecessor_ids": []
  },

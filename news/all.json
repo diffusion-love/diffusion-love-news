@@ -30045,7 +30045,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "id-v2v-development",
+        "thread_slug": "id-v2v",
         "thread_display": "ID V2V",
         "predecessor_ids": []
       },
@@ -30639,7 +30639,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "mlslabsrenderer-lite-development",
+        "thread_slug": "mlslabsrenderer-lite",
         "thread_display": "MLSLabsRenderer Lite",
         "predecessor_ids": []
       },
@@ -30971,7 +30971,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "comfyui-openpose-studio-development",
+        "thread_slug": "comfyui-openpose-studio",
         "thread_display": "Comfyui Openpose Studio",
         "predecessor_ids": []
       },
@@ -31273,7 +31273,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "microzoom-development",
+        "thread_slug": "microzoom",
         "thread_display": "MicroZoom",
         "predecessor_ids": []
       },
@@ -31380,7 +31380,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "midjourney-model-and-feature-releases",
+        "thread_slug": "midjourney",
         "thread_display": "Midjourney",
         "predecessor_ids": []
       },
@@ -31486,7 +31486,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "editor-development",
+        "thread_slug": "editor",
         "thread_display": "Editor",
         "predecessor_ids": []
       },
@@ -31962,7 +31962,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "ling-3-0-flash-development",
+        "thread_slug": "ling-3-0-flash",
         "thread_display": "Ling 3.0 flash",
         "predecessor_ids": []
       },
@@ -32086,7 +32086,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "nanbeige-4-2-3b-development",
+        "thread_slug": "nanbeige-4-2-3b",
         "thread_display": "Nanbeige 4 2 3B",
         "predecessor_ids": []
       },
@@ -32200,7 +32200,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "unitysplats-development",
+        "thread_slug": "unitysplats",
         "thread_display": "UnitySplats",
         "predecessor_ids": []
       },
@@ -32581,7 +32581,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "router-development",
+        "thread_slug": "router",
         "thread_display": "Router",
         "predecessor_ids": []
       },
@@ -32780,7 +32780,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "omniroute-development",
+        "thread_slug": "omniroute",
         "thread_display": "OmniRoute",
         "predecessor_ids": []
       },
@@ -32885,7 +32885,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "rigs-development",
+        "thread_slug": "rigs",
         "thread_display": "RiGS",
         "predecessor_ids": []
       },
@@ -33369,7 +33369,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "claude-opus-5-development",
+        "thread_slug": "claude-opus-5",
         "thread_display": "Claude Opus 5",
         "predecessor_ids": []
       },
@@ -33921,7 +33921,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "comfyui-setup-manager-development",
+        "thread_slug": "comfyui-setup-manager",
         "thread_display": "ComfyUI Setup Manager",
         "predecessor_ids": []
       },
@@ -34027,7 +34027,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "unity-cli-development",
+        "thread_slug": "unity-cli",
         "thread_display": "Unity CLI",
         "predecessor_ids": []
       },
@@ -34254,7 +34254,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "homie-development",
+        "thread_slug": "homie",
         "thread_display": "HOMIE",
         "predecessor_ids": []
       },
@@ -34924,7 +34924,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "gemini-product-development",
+        "thread_slug": "google-gemini",
         "thread_display": "Google Gemini",
         "predecessor_ids": []
       },
@@ -35056,7 +35056,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "timelens2-development",
+        "thread_slug": "timelens2",
         "thread_display": "TimeLens2",
         "predecessor_ids": []
       },
@@ -35266,7 +35266,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "bytedance-seed-audio-1-0-development",
+        "thread_slug": "bytedance-seed-audio-1-0",
         "thread_display": "Bytedance Seed Audio 1 0",
         "predecessor_ids": []
       },
@@ -35398,7 +35398,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "lucida-development",
+        "thread_slug": "lucida",
         "thread_display": "Lucida",
         "predecessor_ids": []
       },
@@ -35522,7 +35522,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "thestageai-elastic-wan22-i2v-development",
+        "thread_slug": "thestageai-elastic-wan22-i2v",
         "thread_display": "Thestageai Elastic Wan22 I2V",
         "predecessor_ids": []
       },
@@ -35636,7 +35636,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "ramp-router-development",
+        "thread_slug": "ramp-router",
         "thread_display": "Ramp Router",
         "predecessor_ids": []
       },
@@ -35751,7 +35751,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "nvidia-cosmos-3-edge-development",
+        "thread_slug": "nvidia-cosmos-3-edge",
         "thread_display": "Nvidia Cosmos 3 Edge",
         "predecessor_ids": []
       },
@@ -36364,7 +36364,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "krea-2-outpaint-development",
+        "thread_slug": "krea-2-outpaint",
         "thread_display": "Krea 2 Outpaint",
         "predecessor_ids": []
       },
@@ -36563,7 +36563,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "comfyui-starnodes-development",
+        "thread_slug": "comfyui-starnodes",
         "thread_display": "ComfyUI StarNodes",
         "predecessor_ids": []
       },
@@ -36677,7 +36677,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "opencut-development",
+        "thread_slug": "opencut",
         "thread_display": "OpenCut",
         "predecessor_ids": []
       },
@@ -36791,7 +36791,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "knowact-guiclaw-development",
+        "thread_slug": "knowact-guiclaw",
         "thread_display": "KnowAct GUIClaw",
         "predecessor_ids": []
       },
@@ -37171,7 +37171,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "grok-build-development",
+        "thread_slug": "grok-build",
         "thread_display": "Grok Build",
         "predecessor_ids": []
       },
@@ -37491,7 +37491,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "ardy-development",
+        "thread_slug": "ardy",
         "thread_display": "ARDY",
         "predecessor_ids": []
       },
@@ -37744,7 +37744,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "sam2matting-development",
+        "thread_slug": "sam2matting",
         "thread_display": "SAM2Matting",
         "predecessor_ids": []
       },
@@ -37953,7 +37953,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "krea2-textfusion-refusal-reduction-lora-development",
+        "thread_slug": "krea2-textfusion-refusal-reduction-lora",
         "thread_display": "Krea2 TextFusion Refusal Reduction LoRA",
         "predecessor_ids": []
       },
@@ -38207,7 +38207,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "egoforce-development",
+        "thread_slug": "egoforce",
         "thread_display": "EgoForce",
         "predecessor_ids": []
       },
@@ -38530,7 +38530,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "wan-dancer-development",
+        "thread_slug": "wan-dancer",
         "thread_display": "Wan Dancer",
         "predecessor_ids": []
       },
@@ -38842,7 +38842,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "velorn-development",
+        "thread_slug": "velorn",
         "thread_display": "Velorn",
         "predecessor_ids": []
       },
@@ -39370,7 +39370,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "proxypose-development",
+        "thread_slug": "proxypose",
         "thread_display": "ProxyPose",
         "predecessor_ids": []
       },
@@ -39719,7 +39719,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "lingbot-world-2-development",
+        "thread_slug": "lingbot-world-2",
         "thread_display": "Lingbot World 2",
         "predecessor_ids": []
       },
@@ -40086,7 +40086,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "lingbot-video-development",
+        "thread_slug": "lingbot-video",
         "thread_display": "LingBot Video",
         "predecessor_ids": []
       },
@@ -40191,7 +40191,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "muse-development",
+        "thread_slug": "muse",
         "thread_display": "Muse",
         "predecessor_ids": []
       },
@@ -40314,7 +40314,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "gush3r-development",
+        "thread_slug": "gush3r",
         "thread_display": "GUSH3R",
         "predecessor_ids": []
       },
@@ -40549,7 +40549,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "thinkingcap-qwen3-6-27b-development",
+        "thread_slug": "thinkingcap-qwen3-6-27b",
         "thread_display": "ThinkingCap Qwen3.6 27B",
         "predecessor_ids": []
       },
@@ -40748,7 +40748,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "seamless-equirectangular-lora-development",
+        "thread_slug": "seamless-equirectangular-lora",
         "thread_display": "Seamless Equirectangular Lora",
         "predecessor_ids": []
       },
@@ -40862,7 +40862,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "researchstudio-development",
+        "thread_slug": "researchstudio",
         "thread_display": "ResearchStudio",
         "predecessor_ids": []
       },
@@ -41079,7 +41079,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "photoquilt-development",
+        "thread_slug": "photoquilt",
         "thread_display": "PhotoQuilt",
         "predecessor_ids": []
       },
@@ -41269,7 +41269,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "awesome-harness-engineering-development",
+        "thread_slug": "awesome-harness-engineering",
         "thread_display": "Awesome Harness Engineering",
         "predecessor_ids": []
       },
@@ -41573,7 +41573,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "krea2-realism-development",
+        "thread_slug": "krea2-realism",
         "thread_display": "Krea2 realism",
         "predecessor_ids": []
       },
@@ -41886,7 +41886,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "shuttermuse-development",
+        "thread_slug": "shuttermuse",
         "thread_display": "ShutterMuse",
         "predecessor_ids": []
       },
@@ -41992,7 +41992,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "sun-direction-lora-flux2-klein-9b-development",
+        "thread_slug": "sun-direction-lora-flux2-klein-9b",
         "thread_display": "Sun Direction Lora Flux2 Klein 9B",
         "predecessor_ids": []
       },
@@ -42192,7 +42192,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "onklaud-development",
+        "thread_slug": "onklaud",
         "thread_display": "Onklaud",
         "predecessor_ids": []
       },
@@ -42392,7 +42392,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "neumatex-development",
+        "thread_slug": "neumatex",
         "thread_display": "NeumaTex",
         "predecessor_ids": []
       },
@@ -43170,7 +43170,7 @@
       "organization": null,
       "development": {
         "scope": "project",
-        "thread_slug": "ltx-foley-lora-development",
+        "thread_slug": "ltx-foley-lora",
         "thread_display": "Ltx Foley Lora",
         "predecessor_ids": []
       },

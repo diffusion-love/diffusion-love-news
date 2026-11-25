@@ -86,7 +86,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "claude-opus-5-development",
+  "thread_slug": "claude-opus-5",
   "thread_display": "Claude Opus 5",
   "predecessor_ids": []
  },

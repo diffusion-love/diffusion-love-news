@@ -112,7 +112,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "ardy-development",
+  "thread_slug": "ardy",
   "thread_display": "ARDY",
   "predecessor_ids": []
  },

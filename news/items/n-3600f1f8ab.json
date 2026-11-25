@@ -86,7 +86,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "comfyui-setup-manager-development",
+  "thread_slug": "comfyui-setup-manager",
   "thread_display": "ComfyUI Setup Manager",
   "predecessor_ids": []
  },

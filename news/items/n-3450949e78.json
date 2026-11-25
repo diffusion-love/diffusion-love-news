@@ -85,7 +85,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "omniroute-development",
+  "thread_slug": "omniroute",
   "thread_display": "OmniRoute",
   "predecessor_ids": []
  },

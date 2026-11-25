@@ -94,7 +94,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "ramp-router-development",
+  "thread_slug": "ramp-router",
   "thread_display": "Ramp Router",
   "predecessor_ids": []
  },

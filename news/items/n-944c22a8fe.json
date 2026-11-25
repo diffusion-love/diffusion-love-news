@@ -86,7 +86,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "editor-development",
+  "thread_slug": "editor",
   "thread_display": "Editor",
   "predecessor_ids": []
  },

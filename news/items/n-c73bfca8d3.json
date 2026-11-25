@@ -94,7 +94,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "velorn-development",
+  "thread_slug": "velorn",
   "thread_display": "Velorn",
   "predecessor_ids": []
  },

@@ -86,7 +86,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "comfyui-openpose-studio-development",
+  "thread_slug": "comfyui-openpose-studio",
   "thread_display": "Comfyui Openpose Studio",
   "predecessor_ids": []
  },

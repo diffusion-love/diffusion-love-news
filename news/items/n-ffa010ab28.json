@@ -85,7 +85,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "comfyui-starnodes-development",
+  "thread_slug": "comfyui-starnodes",
   "thread_display": "ComfyUI StarNodes",
   "predecessor_ids": []
  },
