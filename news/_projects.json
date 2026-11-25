@@ -1669,7 +1669,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-01",
         "title": "ACTI distribution links were recorded",
         "summary": "On 2026-07-01, an ACTI-associated The recorded link linked to the project website, an X status page, and the project's X download endpoint. This records an apparent public-access or distribution update, pending confirmation against the original message.",
@@ -1698,7 +1698,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "acti",
+        "display": "ACTI",
+        "first_seen": "2026-07-01",
+        "last_seen": "2026-07-01",
+        "latest_news_id": "n-b6851c60f8",
+        "news_ids": [
+          "n-b6851c60f8"
+        ]
+      }
+    ]
   },
   "adobe": {
     "family_slug": "adobe",
@@ -1877,7 +1889,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-02",
         "title": "Adobe introduced Firefly Graph",
         "summary": "On 2026-07-02, a dated member linked to Adobe’s Firefly Graph announcement page and an Adobe survey. This is a material public-facing development step for Firefly Graph because it indicates its introduction and an associated feedback channel. The dated links alone do not establish product features, availability, or the survey’s precise purpose.",
@@ -1907,7 +1919,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "adobe-firefly-graph",
+        "display": "Adobe Firefly Graph",
+        "first_seen": "2026-07-02",
+        "last_seen": "2026-07-02",
+        "latest_news_id": "n-625a62d5de",
+        "news_ids": [
+          "n-625a62d5de"
+        ]
+      }
+    ]
   },
   "adonis-flux2klein": {
     "family_slug": "adonis-flux2klein",
@@ -9732,7 +9756,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-19",
         "title": "Canon UltraReal was publicly listed on Civitai and Hugging Face",
         "summary": "On 2026-07-19, Canon UltraReal was linked to public model pages on Civitai and Hugging Face. This is a dated public distribution-listing milestone for the project, but the supplied evidence does not establish a version, weight change, release notes, or the contents of the original message.",
@@ -9761,7 +9785,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "canon-ultrareal",
+        "display": "Canon UltraReal",
+        "first_seen": "2026-07-19",
+        "last_seen": "2026-07-19",
+        "latest_news_id": "n-868a3aaeef",
+        "news_ids": [
+          "n-868a3aaeef"
+        ]
+      }
+    ]
   },
   "canva": {
     "family_slug": "canva",
@@ -12465,7 +12501,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-27",
         "title": "claude-video repository publicly referenced",
         "summary": "On 2026-07-27, a dated The recorded link linked to the bradautomates/claude-video GitHub repository. This is the earliest sealed public reference in this development line and gives readers a concrete project source to consult.",
@@ -12495,7 +12531,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "claude-video",
+        "display": "claude video",
+        "first_seen": "2026-07-27",
+        "last_seen": "2026-07-27",
+        "latest_news_id": "n-238cbd39cb",
+        "news_ids": [
+          "n-238cbd39cb"
+        ]
+      }
+    ]
   },
   "claw": {
     "family_slug": "claw",
@@ -43603,7 +43651,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-22",
         "title": "IGGT4D GitHub Pages site was linked",
         "summary": "On 2026-07-22, an IGGT4D thread message linked to the project's GitHub Pages site. This is retained as a development-history event because it directs readers to a project-facing resource, although the specific change or release represented by the link has not been established.",
@@ -43632,7 +43680,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "iggt4d",
+        "display": "IGGT4D",
+        "first_seen": "2026-07-22",
+        "last_seen": "2026-07-22",
+        "latest_news_id": "n-bb326c9fdf",
+        "news_ids": [
+          "n-bb326c9fdf"
+        ]
+      }
+    ]
   },
   "image-caption-utility": {
     "family_slug": "image-caption-utility",
@@ -43892,7 +43952,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-24",
         "title": "img2threejs GitHub repository was publicly linked",
         "summary": "On 2026-07-24, the img2threejs development line included a direct link to its GitHub repository. This records a public source-reference milestone for the project; the sealed evidence does not establish its features, release status, or any specific code change.",
@@ -43920,7 +43980,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "img2threejs",
+        "display": "img2threejs",
+        "first_seen": "2026-07-24",
+        "last_seen": "2026-07-24",
+        "latest_news_id": "n-a02ba7b073",
+        "news_ids": [
+          "n-a02ba7b073"
+        ]
+      }
+    ]
   },
   "infinidepth": {
     "family_slug": "infinidepth",
@@ -48271,7 +48343,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-02",
         "title": "Krea2 Filter Bypass public model and discussion links recorded",
         "summary": "On 2026-07-02, the dated record linked Krea2 Filter Bypass to a Civitai model page and a Reddit discussion. Together, these public links mark a material public-facing development point for the project, although the underlying posts have not been independently researched.",
@@ -48300,7 +48372,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "krea2-filter-bypass",
+        "display": "Krea2 Filter Bypass",
+        "first_seen": "2026-07-02",
+        "last_seen": "2026-07-02",
+        "latest_news_id": "n-31cb32c83a",
+        "news_ids": [
+          "n-31cb32c83a"
+        ]
+      }
+    ]
   },
   "krea2-realism": {
     "family_slug": "krea2-realism",
@@ -56524,7 +56608,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-28",
         "title": "MagicMakeup Transfer public project resources linked",
         "summary": "On 2026-07-28, the record linked MagicMakeup Transfer to its project website, source repository, and hosted model page. This constitutes a material public access point for the project's research, implementation, and model resources. The available evidence does not establish a specific release version or capability claim.",
@@ -56553,7 +56637,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "magicmakeup",
+        "display": "MagicMakeup",
+        "first_seen": "2026-07-28",
+        "last_seen": "2026-07-28",
+        "latest_news_id": "n-84568364fd",
+        "news_ids": [
+          "n-84568364fd"
+        ]
+      }
+    ]
   },
   "mai": {
     "family_slug": "mai",
@@ -64333,7 +64429,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-22",
         "title": "MuScriptor public project resources were available",
         "summary": "On 2026-07-22, a dated MuScriptor item linked the project website, source repository, model page, interactive demo, and installation resources. Together, those links establish a public project-access milestone by that date. They do not, on their own, establish a specific release version, model capability, or technical change.",
@@ -64362,7 +64458,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "muscriptor",
+        "display": "MuScriptor",
+        "first_seen": "2026-07-22",
+        "last_seen": "2026-07-22",
+        "latest_news_id": "n-ea52f36353",
+        "news_ids": [
+          "n-ea52f36353"
+        ]
+      }
+    ]
   },
   "muse": {
     "family_slug": "muse",
@@ -75798,7 +75906,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-22",
         "title": "Poolside introduced Laguna S 2.1",
         "summary": "On 2026-07-22, Poolside introduced Laguna S 2.1 as a new step in the Laguna development line. The dated links associate the release with an announcement, a model-distribution page, quantized-model references, and listed chat and provider access routes. This is material because it identifies a distinct named version of the project.",
@@ -75828,7 +75936,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "poolside-laguna-s-2-1",
+        "display": "Poolside Laguna S 2 1",
+        "first_seen": "2026-07-22",
+        "last_seen": "2026-07-22",
+        "latest_news_id": "n-a11d97b87b",
+        "news_ids": [
+          "n-a11d97b87b"
+        ]
+      }
+    ]
   },
   "practical-ml-conf": {
     "family_slug": "practical-ml-conf",
@@ -89432,7 +89552,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-24",
         "title": "Self Gradient Forcing project resources were linked",
         "summary": "On 2026-07-24, a message associated with Self Gradient Forcing linked its project page, source repository, and Hugging Face model page. This made the project overview, implementation location, and hosted model resource discoverable together. The dated links do not establish whether this was an initial release, a versioned update, or another specific technical milestone.",
@@ -89462,7 +89582,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "self-gradient-forcing",
+        "display": "Self Gradient Forcing",
+        "first_seen": "2026-07-24",
+        "last_seen": "2026-07-24",
+        "latest_news_id": "n-e9d344fa77",
+        "news_ids": [
+          "n-e9d344fa77"
+        ]
+      }
+    ]
   },
   "semantic-progress-function": {
     "family_slug": "semantic-progress-function",
@@ -92653,7 +92785,7 @@
     ],
     "timeline": [
       {
-        "kind": "news",
+        "kind": "reported-update",
         "date": "2026-07-01",
         "title": "SpatialClaw project references shared",
         "summary": "On 2026-07-01, a message in the NVIDIA thread linked to the SpatialClaw project website and the NVlabs SpatialClaw GitHub repository. The linked primary resources establish a dated public reference point for the project, but do not identify a specific release, capability, or other milestone.",
@@ -92683,7 +92815,19 @@
         "has_video": false
       }
     ],
-    "claims": []
+    "claims": [],
+    "development_threads": [
+      {
+        "slug": "spatialclaw",
+        "display": "SpatialClaw",
+        "first_seen": "2026-07-01",
+        "last_seen": "2026-07-01",
+        "latest_news_id": "n-3905bae486",
+        "news_ids": [
+          "n-3905bae486"
+        ]
+      }
+    ]
   },
   "spatialedit": {
     "family_slug": "spatialedit",

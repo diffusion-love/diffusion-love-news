@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-a11d97b87b",
  "entry_type": "news",
  "category": "misc",
@@ -118,5 +118,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "poolside-laguna-s-2-1",
+  "thread_display": "Poolside Laguna S 2 1",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Laguna S 2.1",
+  "article_url": "https://happyin.space/projects/poolside-laguna-s-2-1/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/eb5cbb130808c84d55508fc796f6cb74faae39fe/docs/projects/poolside-laguna-s-2-1.md",
+  "agent_context_url": "https://happyin.space/projects/poolside-laguna-s-2-1/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-22",
+  "title": "Poolside introduced Laguna S 2.1",
+  "version": null,
+  "summary": "On 2026-07-22, Poolside introduced Laguna S 2.1 as a new step in the Laguna development line. The dated links associate the release with an announcement, a model-distribution page, quantized-model references, and listed chat and provider access routes. This is material because it identifies a distinct named version of the project."
  }
 }

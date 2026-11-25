@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-b6851c60f8",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "acti",
+  "thread_display": "ACTI",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "ACTI",
+  "article_url": "https://happyin.space/projects/acti/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/4e92788813ee7687305be0fdd6aceeed14f24915/docs/projects/acti.md",
+  "agent_context_url": "https://happyin.space/projects/acti/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-01",
+  "title": "ACTI distribution links were recorded",
+  "version": null,
+  "summary": "On 2026-07-01, an ACTI-associated The recorded link linked to the project website, an X status page, and the project's X download endpoint. This records an apparent public-access or distribution update, pending confirmation against the original message."
  }
 }

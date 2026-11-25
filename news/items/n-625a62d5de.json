@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-625a62d5de",
  "entry_type": "news",
  "category": "misc",
@@ -91,5 +91,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "adobe-firefly-graph",
+  "thread_display": "Adobe Firefly Graph",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Firefly Graph",
+  "article_url": "https://happyin.space/projects/adobe-firefly-graph/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/8f6f7815c0530bbc54d9653dc484683132642ab7/docs/projects/adobe-firefly-graph.md",
+  "agent_context_url": "https://happyin.space/projects/adobe-firefly-graph/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-02",
+  "title": "Adobe introduced Firefly Graph",
+  "version": null,
+  "summary": "On 2026-07-02, a dated member linked to Adobe’s Firefly Graph announcement page and an Adobe survey. This is a material public-facing development step for Firefly Graph because it indicates its introduction and an associated feedback channel. The dated links alone do not establish product features, availability, or the survey’s precise purpose."
  }
 }

@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-bb326c9fdf",
  "entry_type": "news",
  "category": "misc",
@@ -81,5 +81,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "iggt4d",
+  "thread_display": "IGGT4D",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "IGGT4D",
+  "article_url": "https://happyin.space/projects/iggt4d/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/2902d16ba0dd55e2c74b0e95ec8d92b9076177ba/docs/projects/iggt4d.md",
+  "agent_context_url": "https://happyin.space/projects/iggt4d/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-22",
+  "title": "IGGT4D GitHub Pages site was linked",
+  "version": null,
+  "summary": "On 2026-07-22, an IGGT4D thread message linked to the project's GitHub Pages site. This is retained as a development-history event because it directs readers to a project-facing resource, although the specific change or release represented by the link has not been established."
  }
 }
