@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-e9d344fa77",
  "entry_type": "news",
  "category": "misc",
@@ -100,5 +100,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "self-gradient-forcing",
+  "thread_display": "Self Gradient Forcing",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "Self Gradient Forcing",
+  "article_url": "https://happyin.space/projects/self-gradient-forcing/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/aefe78b22a74a60520b0c2098f4fe102f623e57f/docs/projects/self-gradient-forcing.md",
+  "agent_context_url": "https://happyin.space/projects/self-gradient-forcing/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-24",
+  "title": "Self Gradient Forcing project resources were linked",
+  "version": null,
+  "summary": "On 2026-07-24, a message associated with Self Gradient Forcing linked its project page, source repository, and Hugging Face model page. This made the project overview, implementation location, and hosted model resource discoverable together. The dated links do not establish whether this was an initial release, a versioned update, or another specific technical milestone."
  }
 }

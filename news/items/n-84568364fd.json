@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-84568364fd",
  "entry_type": "news",
  "category": "misc",
@@ -99,5 +99,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "magicmakeup",
+  "thread_display": "MagicMakeup",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MagicMakeup Transfer",
+  "article_url": "https://happyin.space/projects/magicmakeup/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/1dfbb679b27e018a573af3f140b60c44bcd58101/docs/projects/magicmakeup.md",
+  "agent_context_url": "https://happyin.space/projects/magicmakeup/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-28",
+  "title": "MagicMakeup Transfer public project resources linked",
+  "version": null,
+  "summary": "On 2026-07-28, the record linked MagicMakeup Transfer to its project website, source repository, and hosted model page. This constitutes a material public access point for the project's research, implementation, and model resources. The available evidence does not establish a specific release version or capability claim."
  }
 }

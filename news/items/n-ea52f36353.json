@@ -1,5 +1,5 @@
 {
- "schema_version": "1.3",
+ "schema_version": "1.4",
  "id": "n-ea52f36353",
  "entry_type": "news",
  "category": "misc",
@@ -126,5 +126,25 @@
    "research": "codex"
   },
   "schema_validated": true
+ },
+ "organization": null,
+ "development": {
+  "scope": "project",
+  "thread_slug": "muscriptor",
+  "thread_display": "MuScriptor",
+  "predecessor_ids": []
+ },
+ "knowledge": {
+  "title": "MuScriptor",
+  "article_url": "https://happyin.space/projects/muscriptor/",
+  "source_url": "https://raw.githubusercontent.com/AnastasiyaW/knowledge-space/3eecb3a263cdfc3789a5f69fa914b2671a13251e/docs/projects/muscriptor.md",
+  "agent_context_url": "https://happyin.space/projects/muscriptor/#agent-brief"
+ },
+ "lifecycle_event": {
+  "kind": "reported-update",
+  "date": "2026-07-22",
+  "title": "MuScriptor public project resources were available",
+  "version": null,
+  "summary": "On 2026-07-22, a dated MuScriptor item linked the project website, source repository, model page, interactive demo, and installation resources. Together, those links establish a public project-access milestone by that date. They do not, on their own, establish a specific release version, model capability, or technical change."
  }
 }
