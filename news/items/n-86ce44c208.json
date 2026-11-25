@@ -24,7 +24,8 @@
     "is_latest_in_family": true,
     "latest_version": "Qwen-Image-2.0-Pro (Feb 2026)",
     "related_ids": [
-      "n-6eab718771"
+      "n-6eab718771",
+      "n-9bf7eec688"
     ],
     "summary": "Launched as the successor to the Qwen-Image 1.0 series, moving from a 20B MMDiT architecture to a more efficient unified 7B 'omni' model. It integrated generation and editing capabilities and introduced support for 1,000-token long prompts."
   },

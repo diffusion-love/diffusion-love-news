@@ -71,8 +71,12 @@
  "evolution": {
   "summary": "The project evolved from the Jan 2026 FLUX.2 [klein] release into a highly optimized production tool through the integration of the Nunchaku acceleration engine. A specialized KV-cache variant was subsequently released in April 2026 to speed up multi-reference editing.",
   "latest_version": "FLUX.2-klein-9B-Nunchaku (Apr 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-b2c1d5a768",
+   "n-30f5861cb4",
+   "n-e5bb396e69"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

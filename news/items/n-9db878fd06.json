@@ -108,8 +108,10 @@
  "evolution": {
   "summary": "Transitions from experimental mobile scanning to a professional-grade 3DGS-to-mesh solution by 2026. Version 3.0 introduces thin-detail preservation, improved surface stability, and integrated scaling tools for 3D printing workflows.",
   "latest_version": "3DGS to Mesh 3.0 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-61589d5fc9"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

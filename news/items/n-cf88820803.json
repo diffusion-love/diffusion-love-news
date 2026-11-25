@@ -112,8 +112,12 @@
  "evolution": {
   "summary": "The project evolved from the foundational Wan2.1 to a 27B parameter MoE-powered Wan2.2. The 'Distill' variants have become the industry standard for local deployment, offering a 20x speedup over base models through extreme step reduction.",
   "latest_version": "Wan2.2 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-d745776a36",
+   "n-d9eaebd61d",
+   "n-2b71540823"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

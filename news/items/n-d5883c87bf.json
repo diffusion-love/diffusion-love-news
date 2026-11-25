@@ -18,7 +18,9 @@
   "evolution": {
     "is_latest_in_family": false,
     "latest_version": null,
-    "related_ids": [],
+    "related_ids": [
+      "n-9aa3cb6ab5"
+    ],
     "summary": "The news post described unusual-sound understanding, up to ten-minute audio, multi-audio dialogue, reasoning, voice interaction, and a shared speech/sound/music encoder."
   },
   "facets": {

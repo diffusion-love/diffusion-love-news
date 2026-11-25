@@ -86,8 +86,10 @@
  "evolution": {
   "summary": "Shifted from basic autocomplete to an autonomous platform with Background Agents and Composer 2.0. Introduced proprietary coding models and automated PR reviews via BugBot. Achieved significant market dominance with over $2 billion ARR by early 2026.",
   "latest_version": "Cursor v3.4 (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-d182530af4"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

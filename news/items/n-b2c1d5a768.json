@@ -71,8 +71,12 @@
  "evolution": {
   "summary": "Released in April 2026 as a key efficiency update for the FLUX.2 ecosystem, following the flagship FLUX.2 [dev] release in late 2025. It is now standard for consumer-grade inference pipelines.",
   "latest_version": "FLUX.2 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-bb60458b02",
+   "n-30f5861cb4",
+   "n-e5bb396e69"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

@@ -127,7 +127,9 @@
  "evolution": {
   "summary": "Launched as a strategic '90-day reset' for Tencent, moving from dense architectures to a 21B-active MoE structure. It introduced configurable 'fast and slow thinking' reasoning modes and replaced the older Hunyuan-Pro models in production.",
   "latest_version": "Hunyuan3 Preview (April 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-1fef5a401b"
+  ],
   "is_latest_in_family": true
  },
  "media": {

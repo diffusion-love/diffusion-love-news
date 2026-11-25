@@ -21,7 +21,8 @@
     "is_latest_in_family": false,
     "latest_version": null,
     "related_ids": [
-      "n-41c999d507"
+      "n-41c999d507",
+      "n-84255b9cc3"
     ],
     "summary": "The news post reported an eight-step infographic LoRA with Chinese/English text, structured layouts, consumer-GPU use, and repeated-text/white-background failure modes."
   },

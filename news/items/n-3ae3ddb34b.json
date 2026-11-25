@@ -87,8 +87,17 @@
  "evolution": {
   "summary": "The base LTX-2.3 model evolved into a distilled v1.1 version with improved VAE for texture stability. Workflows now utilize a specific 'Gamma Trick' to prevent the model from misidentifying dark shadows as areas requiring outpainting.",
   "latest_version": "LTX-2.3 v1.1 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-4bbad7fe81",
+   "n-ccdb07b0af",
+   "n-997df70c3d",
+   "n-c492e2a3e4",
+   "n-ac33c5f998",
+   "n-69cc1d969e",
+   "n-34034d382e",
+   "n-57264ece04"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

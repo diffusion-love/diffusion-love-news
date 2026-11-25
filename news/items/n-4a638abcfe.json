@@ -100,8 +100,10 @@
  "evolution": {
   "summary": "Following the initial release, the project introduced the A3B-MoT Mixture-of-Experts variant and 8-step high-speed inference weights. It currently supports GGUF quantization for consumer GPU deployment and native integration into agentic workflows.",
   "latest_version": "SenseNova-U1-A3B-MoT (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-000fcd918f"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

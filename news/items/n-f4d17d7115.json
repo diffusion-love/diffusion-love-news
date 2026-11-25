@@ -90,8 +90,13 @@
  "evolution": {
   "summary": "The project evolved to include 'Thinking' variants like DECKARD HERETIC, which feature augmented chain-of-thought reasoning while maintaining an uncensored status. The HERETIC process itself reached version 1.2.0 by mid-2026.",
   "latest_version": "Gemma 4 (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-9139899069",
+   "n-5ac53c2267",
+   "n-c7bfff5d31",
+   "n-ae3f3a3876"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

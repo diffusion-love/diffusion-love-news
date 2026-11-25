@@ -91,8 +91,11 @@
  "evolution": {
   "summary": "The Z-Image project evolved from heavy DiT models into the distilled 'Turbo' version to enable real-time detailing. It has since been integrated into the 'Z-Image Power Nodes' ecosystem, supporting advanced features like low-sigma detailing and specialized facial LoRAs.",
   "latest_version": "Z-Image Turbo (Dec 2024)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-bcef63351f",
+   "n-c78d87f531"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

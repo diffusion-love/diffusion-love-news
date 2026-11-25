@@ -81,8 +81,10 @@
  "evolution": {
   "summary": "Luma AI transitioned from standalone generative tools like Dream Machine to a full orchestration layer with Luma Agents in early 2026. The system now utilizes the Ray3 reasoning video model and the Uni-1 multimodal transformer to handle complex, persistent project contexts.",
   "latest_version": "Uni-1.1 API (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-99c607c318"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

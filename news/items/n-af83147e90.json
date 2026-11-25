@@ -71,7 +71,9 @@
  "evolution": {
   "summary": "Following its April 2026 release as a raw pre-trained base model, the project focuses on post-training optimizations including DPO/RLHF and community-led quantization efforts to handle the 17B parameter footprint on consumer GPUs.",
   "latest_version": "Nucleus-Image Base (April 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-98474cc274"
+  ],
   "is_latest_in_family": true
  },
  "media": {

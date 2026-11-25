@@ -89,8 +89,10 @@
  "evolution": {
   "summary": "Following the April 2026 release of GLM-5V-Turbo, Zhipu AI introduced GLM-5.1 in May 2026. This update shifted focus toward 'Agentic Engineering,' enabling autonomous end-to-end repository generation and complex terminal-based development tasks.",
   "latest_version": "GLM-5.1 (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-e51898fad5"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

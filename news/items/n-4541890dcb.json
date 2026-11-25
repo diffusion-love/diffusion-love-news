@@ -37,7 +37,8 @@
     "is_latest_in_family": true,
     "latest_version": null,
     "related_ids": [
-      "n-b65d8e8b42"
+      "n-b65d8e8b42",
+      "n-76a6e0d291"
     ],
     "summary": "The verified repository revision supports an expanded Klein 9B-centered workflow with up to eight references, masks, and explicit neutral pass-through controls; efficacy remains unbenchmarked independently."
   },

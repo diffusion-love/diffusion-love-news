@@ -100,7 +100,9 @@
  "evolution": {
   "summary": "The project transitioned from the original 2B model to a 4B parameter DiT in the v1.5 XL release. It added XL-Turbo for 8-step inference, improved vocal coherence, and native ComfyUI support for advanced editing like inpainting and style transfer.",
   "latest_version": "ACE-Step 1.5 XL (April 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-a236c67d82"
+  ],
   "is_latest_in_family": true
  },
  "media": {

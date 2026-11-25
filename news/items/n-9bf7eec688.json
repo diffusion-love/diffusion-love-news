@@ -18,7 +18,10 @@
   "evolution": {
     "is_latest_in_family": false,
     "latest_version": null,
-    "related_ids": [],
+    "related_ids": [
+      "n-6eab718771",
+      "n-86ce44c208"
+    ],
     "summary": "The news post introduced Qwen-Image with a focus on rendering text and consistent editing and linked repository, weights, and demo surfaces."
   },
   "facets": {

@@ -23,7 +23,7 @@
   "adaptation": null
  },
  "tags": [
-   "Qwen3-TTS",
+  "Qwen3-TTS",
   "qwen",
   "qwen3-tts",
   "audio-music",
@@ -92,8 +92,17 @@
  "evolution": {
   "summary": "Qwen3-TTS marks a shift from general audio-understanding models like Qwen2-Audio to a dedicated generation suite. It includes 0.6B and 1.7B variants, introducing the Qwen3-TTS-Tokenizer-12Hz for superior compression and emotional range.",
   "latest_version": "Qwen3-TTS (Jan 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-129b6b09c0",
+   "n-97c6278d46",
+   "n-b1f4237092",
+   "n-8a620616a1",
+   "n-04529e7d46",
+   "n-dc7072d90a",
+   "n-019c913613",
+   "n-6a60e32785"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

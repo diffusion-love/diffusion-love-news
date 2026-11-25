@@ -118,7 +118,9 @@
  "evolution": {
   "summary": "Successor to GLM-5 and GLM-4.7, shifting focus from code generation to autonomous engineering. It introduced 'interleaved thinking' for complex reasoning and achieved top ranks on SWE-Bench Pro, surpassing several frontier closed-source models.",
   "latest_version": "GLM-5.1 (Early 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-b2b9ca697e"
+  ],
   "is_latest_in_family": true
  },
  "media": {

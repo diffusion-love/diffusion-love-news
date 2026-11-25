@@ -21,7 +21,8 @@
     "is_latest_in_family": false,
     "latest_version": null,
     "related_ids": [
-      "n-a3aa871dfa"
+      "n-a3aa871dfa",
+      "n-70863553de"
     ],
     "summary": "The news post described Windows, macOS, and Linux local model running and fine-tuning across CPU and multiple accelerator backends, plus agent, search, RAG, MCP, and export features."
   },

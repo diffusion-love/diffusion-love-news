@@ -71,8 +71,13 @@
  "evolution": {
   "summary": "This model marks the transition to native NVFP4 hardware acceleration on Blackwell GPUs, allowing local execution of GPT-4 class reasoning. It supports speculative decoding via dedicated drafter models for 4x throughput improvements.",
   "latest_version": "Gemma-4 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-c7bfff5d31",
+   "n-9139899069",
+   "n-f4d17d7115",
+   "n-ae3f3a3876"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

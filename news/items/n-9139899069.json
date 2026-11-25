@@ -81,8 +81,13 @@
  "evolution": {
   "summary": "In May 2026, Google released Multi-Token Prediction (MTP) drafters for the 31B model, providing up to a 3x speedup in inference. The model continues to lead open-weight leaderboards, rivaling much larger closed models in reasoning tasks.",
   "latest_version": "Gemma 4 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-f4d17d7115",
+   "n-5ac53c2267",
+   "n-c7bfff5d31",
+   "n-ae3f3a3876"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

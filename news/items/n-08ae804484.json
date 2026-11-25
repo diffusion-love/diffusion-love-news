@@ -74,7 +74,9 @@
  "evolution": {
   "summary": "Following the April 2026 release of the Netflix VOID model, this project evolved from a beta port into a refined node set. Community updates have introduced FP8 quantization for 24GB VRAM support and improved temporal consistency through two-pass pipelines.",
   "latest_version": "ComfyUI VOID implementation (May 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-83af6888de"
+  ],
   "is_latest_in_family": true
  },
  "media": {

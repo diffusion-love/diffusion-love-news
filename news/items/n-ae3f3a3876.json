@@ -67,7 +67,12 @@
  "evolution": {
   "summary": "Leverages the Gemma 4 model family released in April 2026, which introduced 'Thinking Mode' and massive improvements in agentic reasoning. The project currently supports quantized E2B and E4B models for optimized on-device performance.",
   "latest_version": "Gemma 4 (April 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-9139899069",
+   "n-f4d17d7115",
+   "n-5ac53c2267",
+   "n-c7bfff5d31"
+  ],
   "is_latest_in_family": true
  },
  "media": {

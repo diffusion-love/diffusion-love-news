@@ -21,7 +21,11 @@
     "is_latest_in_family": false,
     "latest_version": null,
     "related_ids": [
-      "n-e75b2209d4"
+      "n-e75b2209d4",
+      "n-ae780669a1",
+      "n-87c78ee187",
+      "n-7e83db4168",
+      "n-6b5646e730"
     ],
     "summary": "The news post reported a stronger multimodal Qwen3-Coder model near the Qwen Code ecosystem; this is a related model event rather than a CLI release."
   },

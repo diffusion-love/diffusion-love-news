@@ -75,8 +75,10 @@
  "evolution": {
   "summary": "The project evolved from a CPU-only port to a mature ecosystem with CUDA, Metal, and Vulkan support. Recent updates added GGUF quantization, VST3 integration for DAWs, and an 'Understand Mode' for audio-to-metadata analysis.",
   "latest_version": "ACE-Step 1.5 (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-596ffa06da"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

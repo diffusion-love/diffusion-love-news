@@ -18,7 +18,9 @@
   "evolution": {
     "is_latest_in_family": false,
     "latest_version": null,
-    "related_ids": [],
+    "related_ids": [
+      "n-f8cc9060c3"
+    ],
     "summary": "The news post reported that NVIDIA's anticipated SANA image generator had gained an empty GitHub repository and a temporary demo."
   },
   "facets": {

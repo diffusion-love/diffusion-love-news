@@ -80,7 +80,10 @@
  "evolution": {
   "summary": "Following the early 2026 release, the v2.0 update in March 2026 optimized the model for high-resolution 1.5k inference and photorealism. In April 2026, GGUF quantization was introduced, significantly lowering VRAM requirements for consumer GPUs.",
   "latest_version": "v2.0 (March 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-bcef63351f",
+   "n-9744e9b73c"
+  ],
   "is_latest_in_family": true
  },
  "media": {

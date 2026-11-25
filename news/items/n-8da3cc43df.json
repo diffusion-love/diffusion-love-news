@@ -78,7 +78,9 @@
  "evolution": {
   "summary": "The project rapidly expanded into a comprehensive ecosystem, adding 'Thinking' variants for complex reasoning and 'Instruct' models for production pipelines. It now includes MOSS-TTS for high-fidelity generation and specialized tokenizers trained on 3 million hours of audio.",
   "latest_version": "MOSS-Audio 8B (May 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-33f31b6935"
+  ],
   "is_latest_in_family": true
  },
  "media": {

@@ -70,7 +70,9 @@
  "evolution": {
   "summary": "The project evolved from the Dream Machine video model (2024) and Ray2 multimodal architecture (2025) into a unified autoregressive transformer system. The Uni-1.1 update released in May 2026 transitioned the technology into a production-ready API with superior spatial reasoning and multilingual text rendering.",
   "latest_version": "Uni-1.1 (May 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-5cac0a3186"
+  ],
   "is_latest_in_family": true
  },
  "media": {

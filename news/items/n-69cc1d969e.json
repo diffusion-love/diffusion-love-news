@@ -103,8 +103,17 @@
  "evolution": {
   "summary": "The project evolved from simple style transfers to a sophisticated IC-LoRA recognizing specific action verbs (Add, Remove, Replace, Convert). It is currently being refined through extended training steps to improve temporal consistency and prompt adherence.",
   "latest_version": "9,000 Step AdamW (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-34034d382e",
+   "n-997df70c3d",
+   "n-c492e2a3e4",
+   "n-57264ece04",
+   "n-52e566a651",
+   "n-3ae3ddb34b",
+   "n-4bbad7fe81",
+   "n-ccdb07b0af"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

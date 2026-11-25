@@ -81,8 +81,10 @@
  "evolution": {
   "summary": "Pika transitioned from a Discord-based beta to a robust web platform. It recently introduced the 'AI Self' feature, evolving the 'AI Selfie' tool into a monetization ecosystem where users earn revenue from their digital clones.",
   "latest_version": "Pika 1.5 (Oct 2024)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-c6ff419784"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

@@ -76,8 +76,11 @@
  "evolution": {
   "summary": "Transitioned from an experimental engineering prototype to a production-ready enterprise suite featuring 'Dreaming' memory optimization and 'Outcomes' auto-correction. Now natively integrated with Claude 4.7 models for persistent, autonomous orchestration.",
   "latest_version": "Public Beta (Apr 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-a81182e9ac",
+   "n-ec5428386a"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

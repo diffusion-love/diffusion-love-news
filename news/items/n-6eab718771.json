@@ -21,7 +21,8 @@
     "is_latest_in_family": false,
     "latest_version": null,
     "related_ids": [
-      "n-9bf7eec688"
+      "n-9bf7eec688",
+      "n-86ce44c208"
     ],
     "summary": "The news post reported improved people, faces, expressions, natural textures, landscapes, and text rendering in the 2512 checkpoint."
   },

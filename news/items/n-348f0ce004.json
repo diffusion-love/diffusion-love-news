@@ -85,7 +85,9 @@
  "evolution": {
   "summary": "Officially accepted to CVPR 2026, DisCa has been fully integrated into the HunyuanVideo-1.5 ecosystem as of May 2026. It evolved from previous Tencent research (TaylorSeer, ToCa, DuCa), transitioning from heuristic-based caching to a learnable neural predictor architecture.",
   "latest_version": "HunyuanVideo-1.5 (May 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-fb32c38877"
+  ],
   "is_latest_in_family": true
  },
  "media": {

@@ -69,8 +69,10 @@
  "evolution": {
   "summary": "Building on the English-only v1, v2 introduced support for over 14,000 characters across multiple scripts. It has since been integrated into the unified Nemotron-3 Nano Omni multimodal model for real-time agentic workflows.",
   "latest_version": "Nemotron-3 Nano Omni (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-1cfc0e728d"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

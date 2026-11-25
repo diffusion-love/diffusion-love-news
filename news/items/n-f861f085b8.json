@@ -76,8 +76,10 @@
  "evolution": {
   "summary": "Originally a basic FastAPI proxy for NVIDIA NIM, it evolved into a multi-provider gateway with a local admin UI and intelligent routing. It now supports the Claude Dev VSCode extension and JetBrains IDEs, moving from a 'free' hack to a robust backend-agnostic tool for the Claude ecosystem.",
   "latest_version": "Ecosystem Phase (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-55b05978df"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

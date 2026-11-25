@@ -80,8 +80,11 @@
  "evolution": {
   "summary": "Transitioned from diffusion-based DALL-E to native autoregressive GPT Image models. Following GPT Image 1 (March 2025) and GPT Image 1.5 (December 2025), GPT Image 2 introduced reasoning loops for planning compositions and high-fidelity typography. OpenAI retired DALL-E 2 and 3 in May 2026.",
   "latest_version": "GPT Image 2 (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-af7e0341d4",
+   "n-df001e7bab"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

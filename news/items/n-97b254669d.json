@@ -146,8 +146,10 @@
  "evolution": {
   "summary": "Originally launched as ERNIE-ViLG, the project evolved into the open-weight ERNIE-Image 8B and Turbo variants in early 2026. It transitioned from early diffusion experiments to an efficient 8B DiT architecture with optimized text rendering.",
   "latest_version": "ERNIE-Image 8B (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-c2ca134086"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

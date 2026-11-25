@@ -112,8 +112,17 @@
  "evolution": {
   "summary": "Released in April 2026 as part of the LTX-Video 2.3 ecosystem; includes the LumiPic image variant and is fully integrated into ComfyUI for local inference.",
   "latest_version": "LumiVid (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-57264ece04",
+   "n-9a27202165",
+   "n-34034d382e",
+   "n-69cc1d969e",
+   "n-997df70c3d",
+   "n-c492e2a3e4",
+   "n-492f7ebf1e",
+   "n-3904aeff63"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

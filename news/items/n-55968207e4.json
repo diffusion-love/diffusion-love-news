@@ -74,7 +74,9 @@
  "evolution": {
   "summary": "Following the ComfyUI node release in March 2026, the official team released training code in April 2026, allowing users to create custom expression LoRAs. The ComfyUI implementation was subsequently updated to support simultaneous multi-expression blending and improved intensity ranges for the Qwen-Image-Edit-2511 base.",
   "latest_version": "PixelSmile Training & Node Update (April 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-7071875109"
+  ],
   "is_latest_in_family": true
  },
  "media": {

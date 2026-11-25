@@ -99,8 +99,11 @@
  "evolution": {
   "summary": "OmniVoice has evolved into a production-grade library with full integration into the Sherpa-ONNX deployment framework. It now supports massive multilingualism across 600+ languages and is optimized for cross-platform edge execution.",
   "latest_version": "v0.1.5 (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-661e84940d",
+   "n-0124eabefd"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

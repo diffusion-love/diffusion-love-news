@@ -100,8 +100,12 @@
  "evolution": {
   "summary": "Released in early April 2026, the project quickly expanded to support full-image restoration using RetinaFace alignment. Recent updates in May 2026 focused on improving ComfyUI integration and fixing device-specific LoRA placement issues.",
   "latest_version": "FLUX.2-klein FaceIR (April 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-e5bb396e69",
+   "n-b2c1d5a768",
+   "n-bb60458b02"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,

@@ -85,8 +85,10 @@
  "evolution": {
   "summary": "Initially appearing anonymously as a top-ranked model on global leaderboards in April 2026, it was revealed as an Alibaba project and transitioned to full commercial availability in May 2026.",
   "latest_version": "Happy Horse 1.0 (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-0588f1e672"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

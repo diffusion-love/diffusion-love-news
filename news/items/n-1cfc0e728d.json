@@ -89,7 +89,9 @@
  "evolution": {
   "summary": "Represents the shift from separate modality models to a unified 'Omni' architecture in the Nemotron 3 family; larger Super and Ultra variants are planned for late 2026.",
   "latest_version": "Nemotron-3-Nano-Omni (Apr 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-6a0618307a"
+  ],
   "is_latest_in_family": true
  },
  "media": {

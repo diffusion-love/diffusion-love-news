@@ -94,8 +94,17 @@
  "evolution": {
   "summary": "TheBurgstall continues to release specialized structural LoRAs for LTX-2.3, expanding from body modifications to 'Edit Anything' capabilities. The model is now supported by web interfaces like a1.art for simplified usage.",
   "latest_version": "LTX-2.3 LoRA (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-3904aeff63",
+   "n-396cd4f7c0",
+   "n-9a27202165",
+   "n-52e566a651",
+   "n-57264ece04",
+   "n-34034d382e",
+   "n-69cc1d969e",
+   "n-997df70c3d"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": false,

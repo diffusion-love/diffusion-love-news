@@ -73,7 +73,10 @@
  "evolution": {
   "summary": "Transitioned from a web-only service to a native ComfyUI ecosystem in early 2026. The 'Omni' update in April 2026 introduced multi-modal reference support for images, video, and audio, along with 4K character sheet generation.",
   "latest_version": "Seedance 2.0 Omni (Apr 2026)",
-  "related_ids": [],
+  "related_ids": [
+   "n-7dc01702da",
+   "n-49e8a26e33"
+  ],
   "is_latest_in_family": true
  },
  "media": {

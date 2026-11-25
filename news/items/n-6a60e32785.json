@@ -90,8 +90,17 @@
  "evolution": {
   "summary": "Building on the Qwen 3.5 series, the 3.6 Plus release introduced always-on reasoning, a 65K output token limit, and significantly improved performance on coding benchmarks like SWE-bench.",
   "latest_version": "Qwen 3.6 Plus (May 2026)",
-  "related_ids": [],
-  "is_latest_in_family": true
+  "related_ids": [
+   "n-04529e7d46",
+   "n-8a620616a1",
+   "n-b1f4237092",
+   "n-129b6b09c0",
+   "n-d755c8bc8a",
+   "n-97c6278d46",
+   "n-dc7072d90a",
+   "n-019c913613"
+  ],
+  "is_latest_in_family": false
  },
  "media": {
   "has_image": true,
