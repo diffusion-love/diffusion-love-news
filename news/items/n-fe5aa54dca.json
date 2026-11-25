@@ -94,7 +94,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "opencut-development",
+  "thread_slug": "opencut",
   "thread_display": "OpenCut",
   "predecessor_ids": []
  },

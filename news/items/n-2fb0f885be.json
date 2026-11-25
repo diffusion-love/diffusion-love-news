@@ -86,7 +86,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "unity-cli-development",
+  "thread_slug": "unity-cli",
   "thread_display": "Unity CLI",
   "predecessor_ids": []
  },

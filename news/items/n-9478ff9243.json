@@ -85,7 +85,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "grok-build-development",
+  "thread_slug": "grok-build",
   "thread_display": "Grok Build",
   "predecessor_ids": []
  },

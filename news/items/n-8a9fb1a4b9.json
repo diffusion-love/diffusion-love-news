@@ -112,7 +112,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "lucida-development",
+  "thread_slug": "lucida",
   "thread_display": "Lucida",
   "predecessor_ids": []
  },

@@ -103,7 +103,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "photoquilt-development",
+  "thread_slug": "photoquilt",
   "thread_display": "PhotoQuilt",
   "predecessor_ids": []
  },

@@ -85,7 +85,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "muse-development",
+  "thread_slug": "muse",
   "thread_display": "Muse",
   "predecessor_ids": []
  },

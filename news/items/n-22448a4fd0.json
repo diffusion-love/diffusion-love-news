@@ -112,7 +112,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "timelens2-development",
+  "thread_slug": "timelens2",
   "thread_display": "TimeLens2",
   "predecessor_ids": []
  },

@@ -94,7 +94,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "microzoom-development",
+  "thread_slug": "microzoom",
   "thread_display": "MicroZoom",
   "predecessor_ids": []
  },

@@ -112,7 +112,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "egoforce-development",
+  "thread_slug": "egoforce",
   "thread_display": "EgoForce",
   "predecessor_ids": []
  },

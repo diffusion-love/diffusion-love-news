@@ -85,7 +85,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "rigs-development",
+  "thread_slug": "rigs",
   "thread_display": "RiGS",
   "predecessor_ids": []
  },

@@ -85,7 +85,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "onklaud-development",
+  "thread_slug": "onklaud",
   "thread_display": "Onklaud",
   "predecessor_ids": []
  },

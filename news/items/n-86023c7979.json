@@ -112,7 +112,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "sam2matting-development",
+  "thread_slug": "sam2matting",
   "thread_display": "SAM2Matting",
   "predecessor_ids": []
  },

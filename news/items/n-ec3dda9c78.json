@@ -103,7 +103,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "homie-development",
+  "thread_slug": "homie",
   "thread_display": "HOMIE",
   "predecessor_ids": []
  },

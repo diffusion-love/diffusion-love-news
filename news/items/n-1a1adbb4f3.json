@@ -95,7 +95,7 @@
  "organization": null,
  "development": {
   "scope": "project",
-  "thread_slug": "nvidia-cosmos-3-edge-development",
+  "thread_slug": "nvidia-cosmos-3-edge",
   "thread_display": "Nvidia Cosmos 3 Edge",
   "predecessor_ids": []
  },
