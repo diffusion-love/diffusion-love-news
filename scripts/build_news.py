@@ -37,6 +37,7 @@ GENERATED_FILES = (
 ID_RE = re.compile(r"^n-[0-9a-f]{10}$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 TIMESTAMP_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
+SOURCE_PERMALINK = re.compile(r"^https://t\.me/GreenNeuralRobots/\d+$")
 FULL_GIT_SHA_RE = re.compile(r"^[0-9a-f]{40}$")
 FORBIDDEN_PUBLIC_KEYS = {
     "access_token",
@@ -578,11 +579,15 @@ def validate_source(errors: list[str], item: dict[str, Any]) -> None:
     if not isinstance(source, dict):
         errors.append("source: expected object")
         return
-    validate_exact_keys(errors, "source", source, ("posted_at", "excerpt"))
+    validate_exact_keys(errors, "source", source, ("posted_at", "excerpt"), ("permalink",))
     if not is_date(source.get("posted_at")):
         errors.append("source.posted_at: expected valid YYYY-MM-DD")
     if not isinstance(source.get("excerpt"), str):
         errors.append("source.excerpt: expected string")
+    # the anchor post of a reviewed event, as the private pipeline's ANCHOR_PERMALINK admits it
+    if "permalink" in source and not (isinstance(source["permalink"], str)
+                                      and SOURCE_PERMALINK.fullmatch(source["permalink"])):
+        errors.append("source.permalink: expected https://t.me/GreenNeuralRobots/<post id>")
 
 
 def validate_meta(errors: list[str], item: dict[str, Any]) -> None:
