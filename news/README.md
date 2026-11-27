@@ -84,7 +84,7 @@ the news was originally surfaced.
 | `lifecycle_event` | Typed, dated project event used in derived timelines |
 | `claims` | Evidence-bearing public claims with explicit verification status |
 | `media` | `has_image`, `has_video` |
-| `source` | `posted_at` (ISO date) + `excerpt` (English) — nothing more |
+| `source` | `posted_at` (ISO date) + `excerpt` (English) + optional `permalink`, the anchor post `https://t.me/GreenNeuralRobots/<id>` — nothing more |
 | `_meta` | Pipeline timestamps + model used |
 
 ### Project hierarchy (family / model / adaptation)

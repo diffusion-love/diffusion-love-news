@@ -248,5 +248,28 @@ class NewsContractTest(unittest.TestCase):
         self.assertEqual(company["development_threads"][0]["slug"], "news-knowledge-graph")
 
 
+
+class SourcePermalinkTest(unittest.TestCase):
+    """The pipeline writes source.permalink since 2026-11-22; the builder admits exactly that."""
+
+    def errors(self, source):
+        errors = []
+        build_news.validate_source(errors, {"source": source})
+        return errors
+
+    def test_anchor_post_permalink_is_admitted(self):
+        self.assertEqual([], self.errors({"posted_at": "2026-11-26", "excerpt": "x",
+                                          "permalink": "https://t.me/GreenNeuralRobots/14550"}))
+        self.assertEqual([], self.errors({"posted_at": "2026-11-26", "excerpt": "x"}))
+
+    def test_other_permalinks_and_fields_are_refused(self):
+        for bad in ("https://t.me/other/1", "http://t.me/GreenNeuralRobots/1", 14550,
+                    "https://t.me/GreenNeuralRobots/1?x=1"):
+            with self.subTest(permalink=bad):
+                self.assertIn("source.permalink: expected https://t.me/GreenNeuralRobots/<post id>",
+                              self.errors({"posted_at": "2026-11-26", "excerpt": "x", "permalink": bad}))
+        self.assertIn("source.url: unexpected field",
+                      self.errors({"posted_at": "2026-11-26", "excerpt": "x", "url": "https://example.com"}))
+
 if __name__ == "__main__":
     unittest.main()
